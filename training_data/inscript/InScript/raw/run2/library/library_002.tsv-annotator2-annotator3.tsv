@@ -1,0 +1,200 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=The library is one of my favorite places on earth !
+1-1	The	O	O	
+1-2	library	B-ScrPart_library	O	
+1-3	is	O	B-UnrelEv	
+1-4	one	O	O	
+1-5	of	O	O	
+1-6	my	B-ScrPart_customer	O	
+1-7	favorite	O	O	
+1-8	places	B-NPart	O	
+1-9	on	O	O	
+1-10	earth	B-NPart	O	
+1-11	!	O	O	
+
+#id=2
+#text=My Mom takes us to the library at least once a week .
+2-1	My	B-ScrPart_customer	O	
+2-2	Mom	B-NPart	O	
+2-3	takes	O	B-ScrEv_get_library	
+2-4	us	B-ScrPart_customer	O	
+2-5	to	O	O	
+2-6	the	O	O	
+2-7	library	B-ScrPart_library	O	
+2-8	at	O	O	
+2-9	least	O	O	
+2-10	once	O	O	
+2-11	a	O	O	
+2-12	week	B-NPart	O	
+2-13	.	O	O	
+
+#id=3
+#text=I like reading so much that my Mom asked the librarian to give me an adult library card so I could check out more books .
+3-1	I	B-ScrPart_customer	O	
+3-2	like	O	O	
+3-3	reading	O	B-RelNScrEv	
+3-4	so	O	O	
+3-5	much	O	O	
+3-6	that	O	O	
+3-7	my	B-ScrPart_customer	O	
+3-8	Mom	B-NPart	O	
+3-9	asked	O	B-ScrEv_ask_librarian	
+3-10	the	O	O	
+3-11	librarian	B-ScrPart_staff	O	
+3-12	to	O	O	
+3-13	give	O	B-UnrelEv	
+3-14	me	B-ScrPart_customer	O	
+3-15	an	O	O	
+3-16	adult	B-ScrPart_library_card	O	
+3-17	library	I-ScrPart_library_card	O	
+3-18	card	I-ScrPart_library_card|B-ScrPart_library_card	O	
+3-19	so	O	O	
+3-20	I	B-ScrPart_customer	O	
+3-21	could	O	O	
+3-22	check	O	B-ScrEv_register	
+3-23	out	O	I-ScrEv_register	
+3-24	more	O	O	
+3-25	books	B-ScrPart_book	O	
+3-26	.	O	O	
+
+#id=4
+#text=The kids card only allows you to check out two books a week , and only from the children 's room .
+4-1	The	O	O	
+4-2	kids	B-ScrPart_library_card	O	
+4-3	card	I-ScrPart_library_card|B-ScrPart_library_card	O	
+4-4	only	O	O	
+4-5	allows	O	B-UnrelEv	
+4-6	you	B-ScrPart_customer	O	
+4-7	to	O	O	
+4-8	check	O	B-ScrEv_register	
+4-9	out	O	I-ScrEv_register	
+4-10	two	O	O	
+4-11	books	B-ScrPart_book	O	
+4-12	a	O	O	
+4-13	week	B-NPart	O	
+4-14	,	O	O	
+4-15	and	O	O	
+4-16	only	O	O	
+4-17	from	O	O	
+4-18	the	O	O	
+4-19	children	B-NPart	O	
+4-20	's	O	O	
+4-21	room	B-ScrPart_location_library	O	
+4-22	.	O	O	
+
+#id=5
+#text=The adult card gives me all access -LRB- at the librarian 's discretion my mom said -RRB- and six books a week !
+5-1	The	O	O	
+5-2	adult	B-ScrPart_library_card	O	
+5-3	card	I-ScrPart_library_card|B-ScrPart_library_card	O	
+5-4	gives	O	B-UnrelEv	
+5-5	me	B-ScrPart_customer	O	
+5-6	all	O	O	
+5-7	access	B-NPart	O	
+5-8	-LRB-	O	O	
+5-9	at	O	O	
+5-10	the	O	O	
+5-11	librarian	B-ScrPart_staff	O	
+5-12	's	O	O	
+5-13	discretion	B-NPart	O	
+5-14	my	B-ScrPart_customer	O	
+5-15	mom	B-NPart	O	
+5-16	said	O	B-UnrelEv	
+5-17	-RRB-	O	O	
+5-18	and	O	O	
+5-19	six	O	O	
+5-20	books	B-ScrPart_book	O	
+5-21	a	O	O	
+5-22	week	B-NPart	O	
+5-23	!	O	O	
+
+#id=6
+#text=When I get to the library I like to browse the new releases shelves .
+6-1	When	O	O	
+6-2	I	B-ScrPart_customer	O	
+6-3	get	O	B-ScrEv_get_library	
+6-4	to	O	O	
+6-5	the	O	O	
+6-6	library	B-ScrPart_library	O	
+6-7	I	B-ScrPart_customer	O	
+6-8	like	O	B-UnrelEv	
+6-9	to	O	O	
+6-10	browse	O	B-ScrEv_browse_releases	
+6-11	the	O	O	
+6-12	new	B-ScrPart_shelf	O	
+6-13	releases	I-ScrPart_shelf	O	
+6-14	shelves	I-ScrPart_shelf|B-ScrPart_shelf	O	
+6-15	.	O	O	
+
+#id=7
+#text=Sometimes I ask the librarian for a suggestion .
+7-1	Sometimes	O	O	
+7-2	I	B-ScrPart_customer	O	
+7-3	ask	O	B-ScrEv_ask_librarian	
+7-4	the	O	O	
+7-5	librarian	B-ScrPart_staff	O	
+7-6	for	O	O	
+7-7	a	O	O	
+7-8	suggestion	B-SuppVComp	O	
+7-9	.	O	O	
+
+#id=8
+#text=If I have a specific topic I want to read I might do a search on the computer .
+8-1	If	O	O	
+8-2	I	B-ScrPart_customer	O	
+8-3	have	O	B-UnrelEv	
+8-4	a	O	O	
+8-5	specific	O	O	
+8-6	topic	B-NPart	O	
+8-7	I	B-ScrPart_customer	O	
+8-8	want	O	O	
+8-9	to	O	O	
+8-10	read	O	B-RelNScrEv	
+8-11	I	B-ScrPart_customer	O	
+8-12	might	O	O	
+8-13	do	O	B-ScrEv_use_computer	
+8-14	a	O	O	
+8-15	search	B-SuppVComp	O	
+8-16	on	O	O	
+8-17	the	O	O	
+8-18	computer	B-ScrPart_institutional_devices	O	
+8-19	.	O	O	
+
+#id=9
+#text=Once I have the books I want I take them up to the librarian along with my library card and she checks me out , reminding me of when the books are due . 
+9-1	Once	O	O	
+9-2	I	B-ScrPart_customer	O	
+9-3	have	O	B-UnrelEv	
+9-4	the	O	O	
+9-5	books	B-ScrPart_book	O	
+9-6	I	B-ScrPart_customer	O	
+9-7	want	O	B-UnrelEv	
+9-8	I	B-ScrPart_customer	O	
+9-9	take	O	B-ScrEv_go_check_out	
+9-10	them	B-ScrPart_book	O	
+9-11	up	O	O	
+9-12	to	O	O	
+9-13	the	O	O	
+9-14	librarian	B-ScrPart_staff	O	
+9-15	along	O	O	
+9-16	with	O	O	
+9-17	my	B-ScrPart_customer	O	
+9-18	library	B-ScrPart_library_card	O	
+9-19	card	I-ScrPart_library_card|B-ScrPart_library_card	O	
+9-20	and	O	O	
+9-21	she	B-ScrPart_staff	O	
+9-22	checks	O	B-ScrEv_register	
+9-23	me	B-ScrPart_customer	O	
+9-24	out	O	O	
+9-25	,	O	O	
+9-26	reminding	O	B-RelNScrEv	
+9-27	me	B-ScrPart_customer	O	
+9-28	of	O	O	
+9-29	when	O	O	
+9-30	the	O	O	
+9-31	books	B-ScrPart_book	O	
+9-32	are	O	B-UnrelEv	
+9-33	due	O	O	
+9-34	.	O	O	
+

@@ -1,0 +1,397 @@
+ # webanno.custom.Participants | Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=A friend of mine had a birthday coming up , so I decided to bake her a cake .
+1-1	A	O	O	O	_	_	
+1-2	friend	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	1-16	
+1-3	of	O	O	O	_	_	
+1-4	mine	O	O	O	_	_	
+1-5	had	O	O	B-UnrelEv	_	_	
+1-6	a	O	O	O	_	_	
+1-7	birthday	O	O	O	_	_	
+1-8	coming	O	O	B-UnrelEv	_	_	
+1-9	up	O	O	I-UnrelEv	_	_	
+1-10	,	O	O	O	_	_	
+1-11	so	O	O	O	_	_	
+1-12	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	2-1	
+1-13	decided	O	O	B-UnrelEv	_	_	
+1-14	to	O	O	O	_	_	
+1-15	bake	O	O	B-Evoking	_	_	
+1-16	her	B-ScrPart_beneficiary	B-webanno.custom.Participants_	I-Evoking	webanno.custom.Corefchains_	2-4	
+1-17	a	O	O	I-Evoking	_	_	
+1-18	cake	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	webanno.custom.Corefchains_	2-7	
+1-19	.	O	O	O	_	_	
+
+#id=2
+#text=I knew that she loved vanilla cake with chocolate icing , so that is what I decided to make .
+2-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	2-16	
+2-2	knew	O	O	B-UnrelEv	_	_	
+2-3	that	O	O	O	_	_	
+2-4	she	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	18-7	
+2-5	loved	O	O	B-UnrelEv	_	_	
+2-6	vanilla	B-ScrPart_cake	B-webanno.custom.Participants_	O	_	_	
+2-7	cake	I-ScrPart_cake|B-ScrPart_cake	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	2-13	
+2-8	with	O	O	O	_	_	
+2-9	chocolate	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+2-10	icing	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	10-14	
+2-11	,	O	O	O	_	_	
+2-12	so	O	O	O	_	_	
+2-13	that	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	3-14	
+2-14	is	O	O	B-UnrelEv	_	_	
+2-15	what	O	O	O	_	_	
+2-16	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	3-1	
+2-17	decided	O	O	B-ScrEv_choose_recipe	_	_	
+2-18	to	O	O	O	_	_	
+2-19	make	O	O	B-Evoking	_	_	
+2-20	.	O	O	O	_	_	
+
+#id=3
+#text=I had a cookbook that has a nice and easy recipe for vanilla cake .
+3-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	4-1	
+3-2	had	O	O	B-UnrelEv	_	_	
+3-3	a	O	O	O	_	_	
+3-4	cookbook	B-ScrPart_recipe_source	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	3-5	
+3-5	that	B-ScrPart_recipe_source	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	4-5	
+3-6	has	O	O	B-UnrelEv	_	_	
+3-7	a	O	O	O	_	_	
+3-8	nice	O	O	O	_	_	
+3-9	and	O	O	O	_	_	
+3-10	easy	O	O	O	_	_	
+3-11	recipe	B-ScrPart_baking_instructions	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	4-10	
+3-12	for	O	O	O	_	_	
+3-13	vanilla	B-ScrPart_cake	B-webanno.custom.Participants_	O	_	_	
+3-14	cake	I-ScrPart_cake|B-ScrPart_cake	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	7-19	
+3-15	.	O	O	O	_	_	
+
+#id=4
+#text=I got out the cookbook and read the ingredients list .
+4-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-1	
+4-2	got	O	O	B-RelNScrEv	_	_	
+4-3	out	O	O	I-RelNScrEv	_	_	
+4-4	the	O	O	O	_	_	
+4-5	cookbook	B-ScrPart_recipe_source	B-webanno.custom.Participants_	O	_	_	
+4-6	and	O	O	O	_	_	
+4-7	read	O	O	B-RelNScrEv	_	_	
+4-8	the	O	O	O	_	_	
+4-9	ingredients	B-ScrPart_baking_instructions	B-webanno.custom.Participants_	O	_	_	
+4-10	list	I-ScrPart_baking_instructions|B-ScrPart_baking_instructions	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	7-7	
+4-11	.	O	O	O	_	_	
+
+#id=5
+#text=I decided to take out all the ingredients at once to make it easier and make sure I had everything I needed .
+5-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-18	
+5-2	decided	O	O	B-UnrelEv	_	_	
+5-3	to	O	O	O	_	_	
+5-4	take	O	O	B-ScrEv_get_ingredients	_	_	
+5-5	out	O	O	I-ScrEv_get_ingredients	_	_	
+5-6	all	O	O	O	_	_	
+5-7	the	O	O	O	_	_	
+5-8	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-20	
+5-9	at	O	O	O	_	_	
+5-10	once	O	O	O	_	_	
+5-11	to	O	O	O	_	_	
+5-12	make	O	O	B-UnrelEv	_	_	
+5-13	it	O	O	O	_	_	
+5-14	easier	O	O	O	_	_	
+5-15	and	O	O	O	_	_	
+5-16	make	O	O	B-UnrelEv	_	_	
+5-17	sure	O	O	I-UnrelEv	_	_	
+5-18	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-21	
+5-19	had	O	O	B-ScrEv_get_ingredients	_	_	
+5-20	everything	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	6-4	
+5-21	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	6-2	
+5-22	needed	O	O	B-???	_	_	
+5-23	.	O	O	O	_	_	
+
+#id=6
+#text=When I had everything I needed , I took out the bowls and pan and began to mix the ingredients .
+6-1	When	O	O	O	_	_	
+6-2	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	6-5	
+6-3	had	O	O	B-ScrEv_get_ingredients	_	_	
+6-4	everything	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	6-20	
+6-5	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	6-8	
+6-6	needed	O	O	B-???	_	_	
+6-7	,	O	O	O	_	_	
+6-8	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	7-1	
+6-9	took	O	O	B-ScrEv_get_utensils	_	_	
+6-10	out	O	O	I-ScrEv_get_utensils	_	_	
+6-11	the	O	O	O	_	_	
+6-12	bowls	B-ScrPart_utensil	B-webanno.custom.Participants_	O	_	_	
+6-13	and	O	O	O	_	_	
+6-14	pan	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	8-13	
+6-15	and	O	O	O	_	_	
+6-16	began	O	O	B-UnrelEv	_	_	
+6-17	to	O	O	O	_	_	
+6-18	mix	O	O	B-ScrEv_prepare_ingredients	_	_	
+6-19	the	O	O	O	_	_	
+6-20	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	7-15	
+6-21	.	O	O	O	_	_	
+
+#id=7
+#text=I did it just as the recipe stated , so I would n't miss anything and make the cake taste funny .
+7-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	7-11	
+7-2	did	O	O	B-UnrelEv	_	_	
+7-3	it	O	O	O	_	_	
+7-4	just	O	O	O	_	_	
+7-5	as	O	O	O	_	_	
+7-6	the	O	O	O	_	_	
+7-7	recipe	B-ScrPart_baking_instructions	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	10-10	
+7-8	stated	O	O	B-RelNScrEv	_	_	
+7-9	,	O	O	O	_	_	
+7-10	so	O	O	O	_	_	
+7-11	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	8-8	
+7-12	would	O	O	O	_	_	
+7-13	n't	O	O	O	_	_	
+7-14	miss	O	O	B-RelNScrEv	_	_	
+7-15	anything	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	11-5	
+7-16	and	O	O	O	_	_	
+7-17	make	O	O	B-UnrelEv	_	_	
+7-18	the	O	O	O	_	_	
+7-19	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	10-3	
+7-20	taste	O	O	B-ScrEv_eat	_	_	
+7-21	funny	O	O	O	_	_	
+7-22	.	O	O	O	_	_	
+
+#id=8
+#text=When the cake batter was complete , I poured it into a pan and put it in the oven that was already hot .
+8-1	When	O	O	O	_	_	
+8-2	the	O	O	O	_	_	
+8-3	cake	B-ScrPart_dough	B-webanno.custom.Participants_	O	_	_	
+8-4	batter	I-ScrPart_dough|B-ScrPart_dough	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	8-10	
+8-5	was	O	O	B-ScrEv_make_dough	_	_	
+8-6	complete	O	O	O	_	_	
+8-7	,	O	O	O	_	_	
+8-8	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	9-1	
+8-9	poured	O	O	B-ScrEv_pour_dough	_	_	
+8-10	it	B-ScrPart_dough	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	8-16	
+8-11	into	O	O	O	_	_	
+8-12	a	O	O	O	_	_	
+8-13	pan	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	_	_	
+8-14	and	O	O	O	_	_	
+8-15	put	O	O	B-ScrEv_put_cake_oven	_	_	
+8-16	it	B-ScrPart_dough	B-webanno.custom.Participants_	O	_	_	
+8-17	in	O	O	O	_	_	
+8-18	the	O	O	O	_	_	
+8-19	oven	B-ScrPart_oven	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	8-20	
+8-20	that	B-ScrPart_oven	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	9-7	
+8-21	was	O	O	B-ScrEv_preheat	_	_	
+8-22	already	O	O	O	_	_	
+8-23	hot	O	O	O	_	_	
+8-24	.	O	O	O	_	_	
+
+#id=9
+#text=I set the timer on the oven .
+9-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	10-7	
+9-2	set	O	O	B-ScrEv_set_time	_	_	
+9-3	the	O	O	O	_	_	
+9-4	timer	B-ScrPart_timer	B-webanno.custom.Participants_	O	_	_	
+9-5	on	O	O	O	_	_	
+9-6	the	O	O	O	_	_	
+9-7	oven	B-ScrPart_oven	B-webanno.custom.Participants_	O	_	_	
+9-8	.	O	O	O	_	_	
+
+#id=10
+#text=While the cake was baking , I read the recipe for the chocolate icing .
+10-1	While	O	O	O	_	_	
+10-2	the	O	O	O	_	_	
+10-3	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	13-3	
+10-4	was	O	O	O	_	_	
+10-5	baking	O	O	B-ScrEv_wait	_	_	
+10-6	,	O	O	O	_	_	
+10-7	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	11-1	
+10-8	read	O	O	B-ScrEv_choose_recipe	_	_	
+10-9	the	O	O	O	_	_	
+10-10	recipe	B-ScrPart_baking_instructions	B-webanno.custom.Participants_	O	_	_	
+10-11	for	O	O	O	_	_	
+10-12	the	O	O	O	_	_	
+10-13	chocolate	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+10-14	icing	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	11-12	
+10-15	.	O	O	O	_	_	
+
+#id=11
+#text=I got all those ingredients out and proceeded to make the icing .
+11-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	13-7	
+11-2	got	O	O	B-ScrEv_get_ingredients	_	_	
+11-3	all	O	O	O	_	_	
+11-4	those	O	O	O	_	_	
+11-5	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+11-6	out	O	O	O	_	_	
+11-7	and	O	O	O	_	_	
+11-8	proceeded	O	O	B-UnrelEv	_	_	
+11-9	to	O	O	O	_	_	
+11-10	make	O	O	B-ScrEv_prepare_ingredients	_	_	
+11-11	the	O	O	O	_	_	
+11-12	icing	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	12-1	
+11-13	.	O	O	O	_	_	
+
+#id=12
+#text=It came out great and was very chocolaty tasting .
+12-1	It	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	15-15	
+12-2	came	O	O	B-RelNScrEv	_	_	
+12-3	out	O	O	I-RelNScrEv	_	_	
+12-4	great	O	O	O	_	_	
+12-5	and	O	O	O	_	_	
+12-6	was	O	O	O	_	_	
+12-7	very	O	O	O	_	_	
+12-8	chocolaty	O	O	O	_	_	
+12-9	tasting	O	O	B-ScrEv_eat	_	_	
+12-10	.	O	O	O	_	_	
+
+#id=13
+#text=Now the cake was done so I took it out to cool off .
+13-1	Now	O	O	O	_	_	
+13-2	the	O	O	O	_	_	
+13-3	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	13-9	
+13-4	was	O	O	O	_	_	
+13-5	done	O	O	B-ScrEv_wait	_	_	
+13-6	so	O	O	O	_	_	
+13-7	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	15-7	
+13-8	took	O	O	B-ScrEv_take_out_oven	_	_	
+13-9	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	14-1	
+13-10	out	O	O	O	_	_	
+13-11	to	O	O	O	_	_	
+13-12	cool	O	O	B-ScrEv_cool_down	_	_	
+13-13	off	O	O	I-ScrEv_cool_down	_	_	
+13-14	.	O	O	O	_	_	
+
+#id=14
+#text=It looked very nice .
+14-1	It	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	15-2	
+14-2	looked	O	O	B-ScrEv_check	_	_	
+14-3	very	O	O	O	_	_	
+14-4	nice	O	O	O	_	_	
+14-5	.	O	O	O	_	_	
+
+#id=15
+#text=When it had cooled off , I proceeded to frost the cake with the icing I had made .
+15-1	When	O	O	O	_	_	
+15-2	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	15-12	
+15-3	had	O	O	O	_	_	
+15-4	cooled	O	O	B-ScrEv_cool_down	_	_	
+15-5	off	O	O	I-ScrEv_cool_down	_	_	
+15-6	,	O	O	O	_	_	
+15-7	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	15-16	
+15-8	proceeded	O	O	B-UnrelEv	_	_	
+15-9	to	O	O	O	_	_	
+15-10	frost	O	O	B-ScrEv_decorate	_	_	
+15-11	the	O	O	O	_	_	
+15-12	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	17-7	
+15-13	with	O	O	O	_	_	
+15-14	the	O	O	O	_	_	
+15-15	icing	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+15-16	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	16-8	
+15-17	had	O	O	O	_	_	
+15-18	made	O	O	B-ScrEv_prepare_ingredients	_	_	
+15-19	.	O	O	O	_	_	
+
+#id=16
+#text=It was hard at first , but I got the hang of it and was able to smooth out any lumps I made very easily .
+16-1	It	O	O	O	_	_	
+16-2	was	O	O	B-UnrelEv	_	_	
+16-3	hard	O	O	O	_	_	
+16-4	at	O	O	O	_	_	
+16-5	first	O	O	O	_	_	
+16-6	,	O	O	O	_	_	
+16-7	but	O	O	O	_	_	
+16-8	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	16-22	
+16-9	got	O	O	B-UnrelEv	_	_	
+16-10	the	O	O	O	_	_	
+16-11	hang	O	O	O	_	_	
+16-12	of	O	O	O	_	_	
+16-13	it	O	O	O	_	_	
+16-14	and	O	O	O	_	_	
+16-15	was	O	O	B-UnrelEv	_	_	
+16-16	able	O	O	O	_	_	
+16-17	to	O	O	O	_	_	
+16-18	smooth	O	O	B-ScrEv_decorate	_	_	
+16-19	out	O	O	I-ScrEv_decorate	_	_	
+16-20	any	O	O	O	_	_	
+16-21	lumps	O	O	O	_	_	
+16-22	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	17-1	
+16-23	made	O	O	B-UnrelEv	_	_	
+16-24	very	O	O	O	_	_	
+16-25	easily	O	O	O	_	_	
+16-26	.	O	O	O	_	_	
+
+#id=17
+#text=I put some candles on the cake to finish it .
+17-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	18-2	
+17-2	put	O	O	B-ScrEv_decorate	_	_	
+17-3	some	O	O	O	_	_	
+17-4	candles	B-NPart	B-webanno.custom.Participants_	O	_	_	
+17-5	on	O	O	O	_	_	
+17-6	the	O	O	O	_	_	
+17-7	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	17-10	
+17-8	to	O	O	O	_	_	
+17-9	finish	O	O	B-UnrelEv	_	_	
+17-10	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	18-4	
+17-11	.	O	O	O	_	_	
+
+#id=18
+#text=When I gave it to my friend , she was so excited .
+18-1	When	O	O	O	_	_	
+18-2	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	18-6	
+18-3	gave	O	O	B-RelNScrEv	_	_	
+18-4	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	20-7	
+18-5	to	O	O	O	_	_	
+18-6	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	21-1	
+18-7	friend	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	18-9	
+18-8	,	O	O	O	_	_	
+18-9	she	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	19-3	
+18-10	was	O	O	B-UnrelEv	_	_	
+18-11	so	O	O	O	_	_	
+18-12	excited	O	O	O	_	_	
+18-13	.	O	O	O	_	_	
+
+#id=19
+#text=We lit her candles and she blew them out .
+19-1	We	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	20-1	
+19-2	lit	O	O	B-RelNScrEv	_	_	
+19-3	her	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	19-6	
+19-4	candles	B-NPart	B-webanno.custom.Participants_	O	_	_	
+19-5	and	O	O	O	_	_	
+19-6	she	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	_	_	
+19-7	blew	O	O	B-RelNScrEv	_	_	
+19-8	them	B-NPart	B-webanno.custom.Participants_	O	_	_	
+19-9	out	O	O	O	_	_	
+19-10	.	O	O	O	_	_	
+
+#id=20
+#text=We all had a slice of cake and everyone agreed that this was the best tasting cake they had ever had .
+20-1	We	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	20-9	
+20-2	all	O	O	O	_	_	
+20-3	had	O	O	B-ScrEv_eat	_	_	
+20-4	a	O	O	O	_	_	
+20-5	slice	O	O	O	_	_	
+20-6	of	O	O	O	_	_	
+20-7	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	20-12	
+20-8	and	O	O	O	_	_	
+20-9	everyone	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	20-18	
+20-10	agreed	O	O	B-UnrelEv	_	_	
+20-11	that	O	O	O	_	_	
+20-12	this	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	20-17	
+20-13	was	O	O	B-UnrelEv	_	_	
+20-14	the	O	O	O	_	_	
+20-15	best	O	O	O	_	_	
+20-16	tasting	O	O	B-ScrEv_eat	_	_	
+20-17	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	21-11	
+20-18	they	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	_	_	
+20-19	had	O	O	O	_	_	
+20-20	ever	O	O	O	_	_	
+20-21	had	O	O	B-ScrEv_eat	_	_	
+20-22	.	O	O	O	_	_	
+
+#id=21
+#text=I was very proud that I made such a great cake . 
+21-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	21-6	
+21-2	was	O	O	B-UnrelEv	_	_	
+21-3	very	O	O	O	_	_	
+21-4	proud	O	O	O	_	_	
+21-5	that	O	O	O	_	_	
+21-6	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+21-7	made	O	O	B-Evoking	_	_	
+21-8	such	O	O	I-Evoking	_	_	
+21-9	a	O	O	I-Evoking	_	_	
+21-10	great	O	O	I-Evoking	_	_	
+21-11	cake	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	_	_	
+21-12	.	O	O	O	_	_	
+

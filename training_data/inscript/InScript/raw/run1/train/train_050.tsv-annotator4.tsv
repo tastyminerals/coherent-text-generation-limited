@@ -1,0 +1,206 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=One weekend , my partner and I decided to take a weekday trip up to Seattle .
+1-1	One	O	O	_	_	
+1-2	weekend	O	O	_	_	
+1-3	,	O	O	_	_	
+1-4	my	B-ScrPart_passenger	O	_	_	
+1-5	partner	B-ScrPart_passenger	O	_	_	
+1-6	and	O	O	_	_	
+1-7	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-4	
+1-8	decided	O	B-UnrelEv	_	_	
+1-9	to	O	O	_	_	
+1-10	take	O	B-Evoking	_	_	
+1-11	a	O	I-Evoking	_	_	
+1-12	weekday	B-SuppVComp	I-Evoking	_	_	
+1-13	trip	I-SuppVComp|B-SuppVComp	I-Evoking	_	_	
+1-14	up	O	O	_	_	
+1-15	to	O	O	_	_	
+1-16	Seattle	B-ScrPart_destination	O	_	_	
+1-17	.	O	O	_	_	
+
+#id=2
+#text=We purchased tickets online immediately after a quick breakfast .
+2-1	We	B-ScrPart_passenger	O	coref_group_I_partner|coref_group_I_partner	1-5|1-7	
+2-2	purchased	O	B-ScrEv_get_tickets	_	_	
+2-3	tickets	B-ScrPart_card/ticket	O	_	_	
+2-4	online	O	O	_	_	
+2-5	immediately	O	O	_	_	
+2-6	after	O	O	_	_	
+2-7	a	O	O	_	_	
+2-8	quick	O	O	_	_	
+2-9	breakfast	O	O	_	_	
+2-10	.	O	O	_	_	
+
+#id=3
+#text=After deciding what parts of Seattle to visit , we drove over to Amtrak station and parked in a spot allowed for the day .
+3-1	After	O	O	_	_	
+3-2	deciding	O	B-UnrelEv	_	_	
+3-3	what	O	O	_	_	
+3-4	parts	O	O	_	_	
+3-5	of	O	O	_	_	
+3-6	Seattle	B-ScrPart_destination	O	webanno.custom.Corefchains_	1-16	
+3-7	to	O	O	_	_	
+3-8	visit	O	B-UnrelEv	_	_	
+3-9	,	O	O	_	_	
+3-10	we	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-1	
+3-11	drove	O	B-ScrEv_get_train_station	_	_	
+3-12	over	O	I-ScrEv_get_train_station	_	_	
+3-13	to	O	O	_	_	
+3-14	Amtrak	B-ScrPart_train_station	O	_	_	
+3-15	station	I-ScrPart_train_station|B-ScrPart_train_station	O	_	_	
+3-16	and	O	O	_	_	
+3-17	parked	O	B-RelNScrEv	_	_	
+3-18	in	O	O	_	_	
+3-19	a	O	O	_	_	
+3-20	spot	B-NPart	O	_	_	
+3-21	allowed	O	B-UnrelEv	_	_	
+3-22	for	O	O	_	_	
+3-23	the	O	O	_	_	
+3-24	day	O	O	_	_	
+3-25	.	O	O	_	_	
+
+#id=4
+#text=The boarding process was very simple , the train was also a lot cleaner than we thought !
+4-1	The	O	O	_	_	
+4-2	boarding	O	B-MissScrEv	_	_	
+4-3	process	B-NPart	O	_	_	
+4-4	was	O	B-UnrelEv	_	_	
+4-5	very	O	O	_	_	
+4-6	simple	O	O	_	_	
+4-7	,	O	O	_	_	
+4-8	the	O	O	_	_	
+4-9	train	B-ScrPart_train	O	_	_	
+4-10	was	O	B-UnrelEv	_	_	
+4-11	also	O	O	_	_	
+4-12	a	O	O	_	_	
+4-13	lot	O	O	_	_	
+4-14	cleaner	O	O	_	_	
+4-15	than	O	O	_	_	
+4-16	we	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-10	
+4-17	thought	O	B-UnrelEv	_	_	
+4-18	!	O	O	_	_	
+
+#id=5
+#text=We had grilled cheese sandwiches from a menu handed to us , they were delicious .
+5-1	We	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-16	
+5-2	had	O	B-ScrEv_spend_time_train	_	_	
+5-3	grilled	O	B-UnrelEv	_	_	
+5-4	cheese	B-ScrPart_in-train_entertainment	O	_	_	
+5-5	sandwiches	I-ScrPart_in-train_entertainment|B-ScrPart_in-train_entertainment	O	_	_	
+5-6	from	O	O	_	_	
+5-7	a	O	O	_	_	
+5-8	menu	B-NPart	O	_	_	
+5-9	handed	O	B-RelNScrEv	_	_	
+5-10	to	O	O	_	_	
+5-11	us	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-1	
+5-12	,	O	O	_	_	
+5-13	they	B-ScrPart_in-train_entertainment	O	webanno.custom.Corefchains_	5-5	
+5-14	were	O	B-UnrelEv	_	_	
+5-15	delicious	O	O	_	_	
+5-16	.	O	O	_	_	
+
+#id=6
+#text=It took barely a few hours to get there , so we decided to look out the window at the scenery most of the time .
+6-1	It	B-NPart	O	_	_	
+6-2	took	O	B-RelNScrEv	_	_	
+6-3	barely	O	O	_	_	
+6-4	a	O	O	_	_	
+6-5	few	O	O	_	_	
+6-6	hours	B-ScrPart_time-table	O	_	_	
+6-7	to	O	O	_	_	
+6-8	get	O	B-ScrEv_arrive_destination	_	_	
+6-9	there	O	O	_	_	
+6-10	,	O	O	_	_	
+6-11	so	O	O	_	_	
+6-12	we	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-11	
+6-13	decided	O	B-UnrelEv	_	_	
+6-14	to	O	O	_	_	
+6-15	look	O	B-ScrEv_spend_time_train	_	_	
+6-16	out	O	I-ScrEv_spend_time_train	_	_	
+6-17	the	O	O	_	_	
+6-18	window	B-ScrPart_in-train_entertainment	O	_	_	
+6-19	at	O	O	_	_	
+6-20	the	O	O	_	_	
+6-21	scenery	B-ScrPart_location_train	O	_	_	
+6-22	most	O	O	_	_	
+6-23	of	O	O	_	_	
+6-24	the	O	O	_	_	
+6-25	time	B-ScrPart_time_date	O	_	_	
+6-26	.	O	O	_	_	
+
+#id=7
+#text=None of us became sick , which was another one of our worries .
+7-1	None	O	O	_	_	
+7-2	of	O	O	_	_	
+7-3	us	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-12	
+7-4	became	O	B-RelNScrEv	_	_	
+7-5	sick	O	O	_	_	
+7-6	,	O	O	_	_	
+7-7	which	O	O	_	_	
+7-8	was	O	B-UnrelEv	_	_	
+7-9	another	O	O	_	_	
+7-10	one	O	O	_	_	
+7-11	of	O	O	_	_	
+7-12	our	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-3	
+7-13	worries	O	O	_	_	
+7-14	.	O	O	_	_	
+
+#id=8
+#text=My partner suffers from light vertigo .
+8-1	My	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-7	
+8-2	partner	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-5	
+8-3	suffers	O	B-UnrelEv	_	_	
+8-4	from	O	O	_	_	
+8-5	light	O	O	_	_	
+8-6	vertigo	O	O	_	_	
+8-7	.	O	O	_	_	
+
+#id=9
+#text=The staff on the train were exceptionally nice , and offered us snacks on occasion .
+9-1	The	O	O	_	_	
+9-2	staff	B-ScrPart_train_staff	O	_	_	
+9-3	on	O	O	_	_	
+9-4	the	O	O	_	_	
+9-5	train	B-ScrPart_train	O	webanno.custom.Corefchains_	4-9	
+9-6	were	O	B-UnrelEv	_	_	
+9-7	exceptionally	O	O	_	_	
+9-8	nice	O	O	_	_	
+9-9	,	O	O	_	_	
+9-10	and	O	O	_	_	
+9-11	offered	O	B-ScrEv_spend_time_train	_	_	
+9-12	us	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-12	
+9-13	snacks	B-ScrPart_in-train_entertainment	O	webanno.custom.Corefchains_	5-13	
+9-14	on	O	O	_	_	
+9-15	occasion	O	O	_	_	
+9-16	.	O	O	_	_	
+
+#id=10
+#text=The train was a great idea for the trip we had planned .
+10-1	The	O	O	_	_	
+10-2	train	B-ScrPart_train	O	webanno.custom.Corefchains_	9-5	
+10-3	was	O	B-UnrelEv	_	_	
+10-4	a	O	O	_	_	
+10-5	great	O	O	_	_	
+10-6	idea	O	O	_	_	
+10-7	for	O	O	_	_	
+10-8	the	O	O	_	_	
+10-9	trip	O	O	_	_	
+10-10	we	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-12	
+10-11	had	O	O	_	_	
+10-12	planned	O	B-UnrelEv	_	_	
+10-13	.	O	O	_	_	
+
+#id=11
+#text=It was much nicer than driving up the interstate . 
+11-1	It	O	O	_	_	
+11-2	was	O	B-UnrelEv	_	_	
+11-3	much	O	O	_	_	
+11-4	nicer	O	O	_	_	
+11-5	than	O	O	_	_	
+11-6	driving	O	B-UnrelEv	_	_	
+11-7	up	O	I-UnrelEv	_	_	
+11-8	the	O	O	_	_	
+11-9	interstate	O	O	_	_	
+11-10	.	O	O	_	_	
+

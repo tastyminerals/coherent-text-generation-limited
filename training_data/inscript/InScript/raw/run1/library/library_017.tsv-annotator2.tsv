@@ -1,0 +1,332 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I had just watched a movie , and saw that it had been based on a book .
+1-1	I	B-ScrPart_customer	O	_	_	
+1-2	had	O	O	_	_	
+1-3	just	O	O	_	_	
+1-4	watched	O	B-UnrelEv	_	_	
+1-5	a	O	O	_	_	
+1-6	movie	O	O	_	_	
+1-7	,	O	O	_	_	
+1-8	and	O	O	_	_	
+1-9	saw	O	B-UnrelEv	_	_	
+1-10	that	O	O	_	_	
+1-11	it	O	O	_	_	
+1-12	had	O	O	_	_	
+1-13	been	O	O	_	_	
+1-14	based	O	B-UnrelEv	_	_	
+1-15	on	O	O	_	_	
+1-16	a	O	O	_	_	
+1-17	book	B-ScrPart_book	O	_	_	
+1-18	.	O	O	_	_	
+
+#id=2
+#text=Since I liked the movie , I wanted to read the book and went to the library in my neighborhood to see if they had it .
+2-1	Since	O	O	_	_	
+2-2	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-1	
+2-3	liked	O	B-UnrelEv	_	_	
+2-4	the	O	O	_	_	
+2-5	movie	O	O	_	_	
+2-6	,	O	O	_	_	
+2-7	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-2	
+2-8	wanted	O	O	_	_	
+2-9	to	O	O	_	_	
+2-10	read	O	B-RelNScrEv	_	_	
+2-11	the	O	O	_	_	
+2-12	book	B-ScrPart_book	O	webanno.custom.Corefchains_	1-17	
+2-13	and	O	O	_	_	
+2-14	went	O	B-ScrEv_get_library	_	_	
+2-15	to	O	O	_	_	
+2-16	the	O	O	_	_	
+2-17	library	B-ScrPart_library	O	_	_	
+2-18	in	O	O	_	_	
+2-19	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-7	
+2-20	neighborhood	B-NPart	O	_	_	
+2-21	to	O	O	_	_	
+2-22	see	O	B-ScrEv_look_for_book	_	_	
+2-23	if	O	O	_	_	
+2-24	they	B-ScrPart_staff	O	_	_	
+2-25	had	O	B-UnrelEv	_	_	
+2-26	it	B-ScrPart_book	O	webanno.custom.Corefchains_|group_books	2-12|3-5	
+2-27	.	O	O	_	_	
+
+#id=3
+#text=In the library the books were separated into fiction and non-fiction areas .
+3-1	In	O	O	_	_	
+3-2	the	O	O	_	_	
+3-3	library	B-ScrPart_library	O	webanno.custom.Corefchains_	2-17	
+3-4	the	O	O	_	_	
+3-5	books	B-ScrPart_book	O	_	_	
+3-6	were	O	O	_	_	
+3-7	separated	O	B-UnrelEv	_	_	
+3-8	into	O	O	_	_	
+3-9	fiction	B-ScrPart_location_library	O	_	_	
+3-10	and	O	O	_	_	
+3-11	non-fiction	B-ScrPart_location_library	O	_	_	
+3-12	areas	I-ScrPart_location_library|B-ScrPart_location_library	O	_	_	
+3-13	.	O	O	_	_	
+
+#id=4
+#text=Since the story was about something that happened in real life , it would be in the non-fiction area .
+4-1	Since	O	O	_	_	
+4-2	the	O	O	_	_	
+4-3	story	B-ScrPart_book	O	webanno.custom.Corefchains_	2-26	
+4-4	was	O	B-UnrelEv	_	_	
+4-5	about	O	O	_	_	
+4-6	something	O	O	_	_	
+4-7	that	O	O	_	_	
+4-8	happened	O	B-UnrelEv	_	_	
+4-9	in	O	O	_	_	
+4-10	real	O	O	_	_	
+4-11	life	O	O	_	_	
+4-12	,	O	O	_	_	
+4-13	it	B-ScrPart_book	O	webanno.custom.Corefchains_	4-3	
+4-14	would	O	O	_	_	
+4-15	be	O	B-UnrelEv	_	_	
+4-16	in	O	O	_	_	
+4-17	the	O	O	_	_	
+4-18	non-fiction	B-ScrPart_location_library	O	_	_	
+4-19	area	I-ScrPart_location_library|B-ScrPart_location_library	O	_	_	
+4-20	.	O	O	_	_	
+
+#id=5
+#text=If it were a make-believe story , it would have been in the fiction section .
+5-1	If	O	O	_	_	
+5-2	it	B-ScrPart_book	O	webanno.custom.Corefchains_	4-13	
+5-3	were	O	B-UnrelEv	_	_	
+5-4	a	O	O	_	_	
+5-5	make-believe	B-ScrPart_book	O	_	_	
+5-6	story	I-ScrPart_book|B-ScrPart_book	O	webanno.custom.Corefchains_	5-2	
+5-7	,	O	O	_	_	
+5-8	it	B-ScrPart_book	O	webanno.custom.Corefchains_	5-6	
+5-9	would	O	O	_	_	
+5-10	have	O	O	_	_	
+5-11	been	O	B-UnrelEv	_	_	
+5-12	in	O	O	_	_	
+5-13	the	O	O	_	_	
+5-14	fiction	B-ScrPart_location_library	O	_	_	
+5-15	section	I-ScrPart_location_library|B-ScrPart_location_library	O	_	_	
+5-16	.	O	O	_	_	
+
+#id=6
+#text=The person who wrote the book had a last name that began with S. I began looking on the shelves for authors with the last name that began with S. All the books were in alphabetical order according to the authors last name .
+6-1	The	O	O	_	_	
+6-2	person	O	O	_	_	
+6-3	who	O	O	_	_	
+6-4	wrote	O	B-UnrelEv	_	_	
+6-5	the	O	O	_	_	
+6-6	book	B-ScrPart_book	O	webanno.custom.Corefchains_	5-8	
+6-7	had	O	B-UnrelEv	_	_	
+6-8	a	O	O	_	_	
+6-9	last	O	O	_	_	
+6-10	name	O	O	_	_	
+6-11	that	O	O	_	_	
+6-12	began	O	B-UnrelEv	_	_	
+6-13	with	O	O	_	_	
+6-14	S.	O	O	_	_	
+6-15	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-19	
+6-16	began	O	B-UnrelEv	_	_	
+6-17	looking	O	B-ScrEv_look_for_book	_	_	
+6-18	on	O	O	_	_	
+6-19	the	O	O	_	_	
+6-20	shelves	B-ScrPart_shelf	O	_	_	
+6-21	for	O	O	_	_	
+6-22	authors	B-NPart	O	_	_	
+6-23	with	O	O	_	_	
+6-24	the	O	O	_	_	
+6-25	last	O	O	_	_	
+6-26	name	B-NPart	O	_	_	
+6-27	that	O	O	_	_	
+6-28	began	O	B-UnrelEv	_	_	
+6-29	with	O	O	_	_	
+6-30	S.	O	O	_	_	
+6-31	All	O	O	_	_	
+6-32	the	O	O	_	_	
+6-33	books	B-ScrPart_book	O	webanno.custom.Corefchains_	3-5	
+6-34	were	O	B-UnrelEv	_	_	
+6-35	in	O	O	_	_	
+6-36	alphabetical	O	O	_	_	
+6-37	order	O	O	_	_	
+6-38	according	O	B-UnrelEv	_	_	
+6-39	to	O	O	_	_	
+6-40	the	O	O	_	_	
+6-41	authors	O	O	_	_	
+6-42	last	O	O	_	_	
+6-43	name	O	O	_	_	
+6-44	.	O	O	_	_	
+
+#id=7
+#text=I found the book I was looking for and took it off the shelf .
+7-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-15	
+7-2	found	O	B-RelNScrEv	_	_	
+7-3	the	O	O	_	_	
+7-4	book	B-ScrPart_book	O	webanno.custom.Corefchains_	6-6	
+7-5	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-1	
+7-6	was	O	O	_	_	
+7-7	looking	O	B-ScrEv_look_for_book	_	_	
+7-8	for	O	O	_	_	
+7-9	and	O	O	_	_	
+7-10	took	O	B-ScrEv_take_book	_	_	
+7-11	it	B-ScrPart_book	O	webanno.custom.Corefchains_	7-4	
+7-12	off	O	O	_	_	
+7-13	the	O	O	_	_	
+7-14	shelf	B-ScrPart_shelf	O	group_shelves	6-20	
+7-15	.	O	O	_	_	
+
+#id=8
+#text=I brought it to the desk where the librarian was and gave her the book .
+8-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-5	
+8-2	brought	O	B-ScrEv_go_check_out	_	_	
+8-3	it	B-ScrPart_book	O	webanno.custom.Corefchains_	7-11	
+8-4	to	O	O	_	_	
+8-5	the	O	O	_	_	
+8-6	desk	B-ScrPart_check-out_desk	O	_	_	
+8-7	where	O	O	_	_	
+8-8	the	O	O	_	_	
+8-9	librarian	B-ScrPart_staff	O	group_staff	2-24	
+8-10	was	O	B-UnrelEv	_	_	
+8-11	and	O	O	_	_	
+8-12	gave	O	B-RelNScrEv	_	_	
+8-13	her	B-ScrPart_staff	O	webanno.custom.Corefchains_	8-9	
+8-14	the	O	O	_	_	
+8-15	book	B-ScrPart_book	O	webanno.custom.Corefchains_	8-3	
+8-16	.	O	O	_	_	
+
+#id=9
+#text=She asked me for my library card , which gives me permission to borrow books .
+9-1	She	B-ScrPart_staff	O	webanno.custom.Corefchains_	8-13	
+9-2	asked	O	B-RelNScrEv	_	_	
+9-3	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-1	
+9-4	for	O	O	_	_	
+9-5	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-3	
+9-6	library	B-ScrPart_library_card	O	_	_	
+9-7	card	I-ScrPart_library_card|B-ScrPart_library_card	O	_	_	
+9-8	,	O	O	_	_	
+9-9	which	O	O	_	_	
+9-10	gives	O	B-UnrelEv	_	_	
+9-11	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-5	
+9-12	permission	O	O	_	_	
+9-13	to	O	O	_	_	
+9-14	borrow	O	B-Evoking	_	_	
+9-15	books	B-ScrPart_book	I-Evoking	webanno.custom.Corefchains_	6-33	
+9-16	.	O	O	_	_	
+
+#id=10
+#text=She entered my information into her computer so she would know who borrowed the book .
+10-1	She	B-ScrPart_staff	O	webanno.custom.Corefchains_	9-1	
+10-2	entered	O	B-RelNScrEv	_	_	
+10-3	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-11	
+10-4	information	B-NPart	O	_	_	
+10-5	into	O	O	_	_	
+10-6	her	B-ScrPart_staff	O	webanno.custom.Corefchains_	10-1	
+10-7	computer	B-ScrPart_institutional_devices	O	_	_	
+10-8	so	O	O	_	_	
+10-9	she	B-ScrPart_staff	O	webanno.custom.Corefchains_	10-6	
+10-10	would	O	O	_	_	
+10-11	know	O	B-UnrelEv	_	_	
+10-12	who	O	O	_	_	
+10-13	borrowed	O	B-Evoking	_	_	
+10-14	the	O	I-Evoking	_	_	
+10-15	book	B-ScrPart_book	I-Evoking	webanno.custom.Corefchains_	8-15	
+10-16	.	O	O	_	_	
+
+#id=11
+#text=She told me the book would be due back in the library in two weeks .
+11-1	She	B-ScrPart_staff	O	webanno.custom.Corefchains_	10-9	
+11-2	told	O	B-RelNScrEv	_	_	
+11-3	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	10-3	
+11-4	the	O	O	_	_	
+11-5	book	B-ScrPart_book	O	webanno.custom.Corefchains_	10-15	
+11-6	would	O	O	_	_	
+11-7	be	O	B-UnrelEv	_	_	
+11-8	due	O	O	_	_	
+11-9	back	O	O	_	_	
+11-10	in	O	O	_	_	
+11-11	the	O	O	_	_	
+11-12	library	B-ScrPart_library	O	webanno.custom.Corefchains_	3-3	
+11-13	in	O	O	_	_	
+11-14	two	O	O	_	_	
+11-15	weeks	O	O	_	_	
+11-16	.	O	O	_	_	
+
+#id=12
+#text=If I did n't bring it back by then , I would have to pay the library money for every day the book was late .
+12-1	If	O	O	_	_	
+12-2	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	11-3	
+12-3	did	O	O	_	_	
+12-4	n't	O	O	_	_	
+12-5	bring	O	B-RelNScrEv	_	_	
+12-6	it	B-ScrPart_book	O	webanno.custom.Corefchains_	11-5	
+12-7	back	O	O	_	_	
+12-8	by	O	O	_	_	
+12-9	then	B-ScrPart_return_date	O	_	_	
+12-10	,	O	O	_	_	
+12-11	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	12-2	
+12-12	would	O	O	_	_	
+12-13	have	O	O	_	_	
+12-14	to	O	O	_	_	
+12-15	pay	O	B-UnrelEv	_	_	
+12-16	the	O	O	_	_	
+12-17	library	B-ScrPart_library	O	webanno.custom.Corefchains_	11-12	
+12-18	money	O	O	_	_	
+12-19	for	O	O	_	_	
+12-20	every	O	O	_	_	
+12-21	day	O	O	_	_	
+12-22	the	O	O	_	_	
+12-23	book	B-ScrPart_book	O	webanno.custom.Corefchains_	12-6	
+12-24	was	O	B-UnrelEv	_	_	
+12-25	late	O	O	_	_	
+12-26	.	O	O	_	_	
+
+#id=13
+#text=I did n't want to have any late fees , so I made sure I brought it back on time .
+13-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	12-11	
+13-2	did	O	O	_	_	
+13-3	n't	O	O	_	_	
+13-4	want	O	O	_	_	
+13-5	to	O	O	_	_	
+13-6	have	O	B-UnrelEv	_	_	
+13-7	any	O	O	_	_	
+13-8	late	O	O	_	_	
+13-9	fees	O	O	_	_	
+13-10	,	O	O	_	_	
+13-11	so	O	O	_	_	
+13-12	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	13-1	
+13-13	made	O	O	_	_	
+13-14	sure	O	O	_	_	
+13-15	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	13-12	
+13-16	brought	O	B-RelNScrEv	_	_	
+13-17	it	B-ScrPart_book	O	webanno.custom.Corefchains_	12-23	
+13-18	back	O	O	_	_	
+13-19	on	O	O	_	_	
+13-20	time	O	O	_	_	
+13-21	.	O	O	_	_	
+
+#id=14
+#text=Since the book belonged to the library , I took good care of it so others could enjoy the book when they borrowed it . 
+14-1	Since	O	O	_	_	
+14-2	the	O	O	_	_	
+14-3	book	B-ScrPart_book	O	webanno.custom.Corefchains_	13-17	
+14-4	belonged	O	B-UnrelEv	_	_	
+14-5	to	O	O	_	_	
+14-6	the	O	O	_	_	
+14-7	library	B-ScrPart_library	O	webanno.custom.Corefchains_	12-17	
+14-8	,	O	O	_	_	
+14-9	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	13-15	
+14-10	took	O	B-UnrelEv	_	_	
+14-11	good	O	O	_	_	
+14-12	care	B-SuppVComp	O	_	_	
+14-13	of	O	O	_	_	
+14-14	it	B-ScrPart_book	O	webanno.custom.Corefchains_	14-3	
+14-15	so	O	O	_	_	
+14-16	others	B-ScrPart_customer	O	_	_	
+14-17	could	O	O	_	_	
+14-18	enjoy	O	B-UnrelEv	_	_	
+14-19	the	O	O	_	_	
+14-20	book	B-ScrPart_book	O	webanno.custom.Corefchains_	14-14	
+14-21	when	O	O	_	_	
+14-22	they	B-ScrPart_customer	O	webanno.custom.Corefchains_	14-16	
+14-23	borrowed	O	B-Evoking	_	_	
+14-24	it	B-ScrPart_book	I-Evoking	webanno.custom.Corefchains_	14-20	
+14-25	.	O	O	_	_	
+

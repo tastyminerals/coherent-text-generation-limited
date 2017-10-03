@@ -1,0 +1,228 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I love going grocery shopping !
+1-1	I	B-ScrPart_shopper	O	_	_	
+1-2	love	O	B-UnrelEv	_	_	
+1-3	going	O	B-Evoking|B-ScrEv_go_grocery	_	_	
+1-4	grocery	O	I-Evoking	_	_	
+1-5	shopping	O	I-Evoking	_	_	
+1-6	!	O	O	_	_	
+
+#id=2
+#text=Usually I am going with my ten month old son while my husband is at work .
+2-1	Usually	O	O	_	_	
+2-2	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	1-1	
+2-3	am	O	O	_	_	
+2-4	going	O	B-ScrEv_go_grocery	_	_	
+2-5	with	O	O	_	_	
+2-6	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	2-2	
+2-7	ten	O	O	_	_	
+2-8	month	O	O	_	_	
+2-9	old	O	O	_	_	
+2-10	son	B-ScrPart_shopper	O	_	_	
+2-11	while	O	O	_	_	
+2-12	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	2-6	
+2-13	husband	O	O	_	_	
+2-14	is	O	B-UnrelEv	_	_	
+2-15	at	O	O	_	_	
+2-16	work	O	O	_	_	
+2-17	.	O	O	_	_	
+
+#id=3
+#text=before I go , I make a list of what we need or else I will buy things that I do not need .
+3-1	before	O	O	_	_	
+3-2	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	2-12	
+3-3	go	O	B-ScrEv_go_grocery	_	_	
+3-4	,	O	O	_	_	
+3-5	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	3-2	
+3-6	make	O	B-ScrEv_make_list	_	_	
+3-7	a	O	O	_	_	
+3-8	list	B-ScrPart_grocery_list	O	_	_	
+3-9	of	O	O	_	_	
+3-10	what	B-ScrPart_groceries	O	_	_	
+3-11	we	B-ScrPart_shopper	O	_	_	
+3-12	need	O	B-RelNScrEv	_	_	
+3-13	or	O	O	_	_	
+3-14	else	O	O	_	_	
+3-15	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	3-5	
+3-16	will	O	O	_	_	
+3-17	buy	O	B-ScrEv_get_groceries	_	_	
+3-18	things	B-ScrPart_groceries	O	_	_	
+3-19	that	O	O	_	_	
+3-20	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	3-15	
+3-21	do	O	O	_	_	
+3-22	not	O	O	_	_	
+3-23	need	O	B-RelNScrEv	_	_	
+3-24	.	O	O	_	_	
+
+#id=4
+#text=I check sales to make sure I get the best deals on things and make a meal plan .
+4-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	3-20	
+4-2	check	O	B-RelNScrEv	_	_	
+4-3	sales	B-MissScrPart	O	_	_	
+4-4	to	O	O	_	_	
+4-5	make	O	B-UnrelEv	_	_	
+4-6	sure	O	O	_	_	
+4-7	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	4-1	
+4-8	get	O	B-RelNScrEv	_	_	
+4-9	the	O	O	_	_	
+4-10	best	O	O	_	_	
+4-11	deals	B-MissScrPart	O	_	_	
+4-12	on	O	O	_	_	
+4-13	things	B-ScrPart_groceries	O	_	_	
+4-14	and	O	O	_	_	
+4-15	make	O	B-UnrelEv	_	_	
+4-16	a	O	O	_	_	
+4-17	meal	O	O	_	_	
+4-18	plan	O	O	_	_	
+4-19	.	O	O	_	_	
+
+#id=5
+#text=Then I get my son in the car and we drive over the the grocery store .
+5-1	Then	O	O	_	_	
+5-2	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	4-7	
+5-3	get	O	B-UnrelEv	_	_	
+5-4	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	5-2	
+5-5	son	B-ScrPart_shopper	O	webanno.custom.Corefchains_	2-10	
+5-6	in	O	O	_	_	
+5-7	the	O	O	_	_	
+5-8	car	B-ScrPart_vehicle	O	_	_	
+5-9	and	O	O	_	_	
+5-10	we	B-ScrPart_shopper	O	group_I_son|group_I_son	5-2|5-5	
+5-11	drive	O	B-ScrEv_go_grocery|B-ScrEv_go_grocery	_	_	
+5-12	over	O	I-ScrEv_go_grocery	_	_	
+5-13	the	O	O	_	_	
+5-14	the	O	O	_	_	
+5-15	grocery	B-ScrPart_grocery_shop	O	_	_	
+5-16	store	I-ScrPart_grocery_shop|B-ScrPart_grocery_shop	O	_	_	
+5-17	.	O	O	_	_	
+
+#id=6
+#text=We get a cart and I put my son in it .
+6-1	We	B-ScrPart_shopper	O	webanno.custom.Corefchains_	5-10	
+6-2	get	O	B-ScrEv_take_shop_cart	_	_	
+6-3	a	O	O	_	_	
+6-4	cart	B-ScrPart_shopping_cart/basket	O	_	_	
+6-5	and	O	O	_	_	
+6-6	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	5-4	
+6-7	put	O	B-UnrelEv	_	_	
+6-8	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	6-6	
+6-9	son	B-ScrPart_shopper	O	webanno.custom.Corefchains_	5-5	
+6-10	in	O	O	_	_	
+6-11	it	B-ScrPart_shopping_cart/basket	O	webanno.custom.Corefchains_	6-4	
+6-12	.	O	O	_	_	
+
+#id=7
+#text=I give him a toy and secure it to the cart after I wipe it down to make sure its clean , and we enter the store .
+7-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	6-8	
+7-2	give	O	B-UnrelEv	_	_	
+7-3	him	B-ScrPart_shopper	O	webanno.custom.Corefchains_	6-9	
+7-4	a	O	O	_	_	
+7-5	toy	B-NPart	O	_	_	
+7-6	and	O	O	_	_	
+7-7	secure	O	B-RelNScrEv	_	_	
+7-8	it	B-NPart	O	webanno.custom.Corefchains_	7-5	
+7-9	to	O	O	_	_	
+7-10	the	O	O	_	_	
+7-11	cart	B-ScrPart_shopping_cart/basket	O	webanno.custom.Corefchains_	6-11	
+7-12	after	O	O	_	_	
+7-13	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	7-1	
+7-14	wipe	O	B-UnrelEv	_	_	
+7-15	it	B-ScrPart_shopping_cart/basket	O	webanno.custom.Corefchains_	7-11	
+7-16	down	O	O	_	_	
+7-17	to	O	O	_	_	
+7-18	make	O	B-UnrelEv	_	_	
+7-19	sure	O	O	_	_	
+7-20	its	B-ScrPart_shopping_cart/basket	O	webanno.custom.Corefchains_	7-15	
+7-21	clean	O	O	_	_	
+7-22	,	O	O	_	_	
+7-23	and	O	O	_	_	
+7-24	we	B-ScrPart_shopper	O	webanno.custom.Corefchains_	6-1	
+7-25	enter	O	B-ScrEv_enter	_	_	
+7-26	the	O	O	_	_	
+7-27	store	B-ScrPart_grocery_shop	O	webanno.custom.Corefchains_	5-16	
+7-28	.	O	O	_	_	
+
+#id=8
+#text=We go through the store and using my list grab what I need .
+8-1	We	B-ScrPart_shopper	O	webanno.custom.Corefchains_	7-24	
+8-2	go	O	B-ScrEv_move_section|B-ScrEv_move_section	_	_	
+8-3	through	O	I-ScrEv_move_section	_	_	
+8-4	the	O	O	_	_	
+8-5	store	B-ScrPart_grocery_shop	O	webanno.custom.Corefchains_	7-27	
+8-6	and	O	O	_	_	
+8-7	using	O	B-RelNScrEv	_	_	
+8-8	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	7-13	
+8-9	list	B-ScrPart_grocery_list	O	webanno.custom.Corefchains_	3-8	
+8-10	grab	O	B-ScrEv_get_groceries	_	_	
+8-11	what	B-ScrPart_groceries	O	webanno.custom.Corefchains_	3-10	
+8-12	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	8-8	
+8-13	need	O	B-RelNScrEv	_	_	
+8-14	.	O	O	_	_	
+
+#id=9
+#text=Since i usually go two or more times a week , I only spend about 3 minutes there before I have all we need and can pay .
+9-1	Since	O	O	_	_	
+9-2	i	B-ScrPart_shopper	O	webanno.custom.Corefchains_	8-12	
+9-3	usually	O	O	_	_	
+9-4	go	O	B-ScrEv_go_grocery	_	_	
+9-5	two	O	O	_	_	
+9-6	or	O	O	_	_	
+9-7	more	O	O	_	_	
+9-8	times	O	O	_	_	
+9-9	a	O	O	_	_	
+9-10	week	O	O	_	_	
+9-11	,	O	O	_	_	
+9-12	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	9-2	
+9-13	only	O	O	_	_	
+9-14	spend	O	B-RelNScrEv	_	_	
+9-15	about	O	O	_	_	
+9-16	3	O	O	_	_	
+9-17	minutes	B-???	O	_	_	
+9-18	there	B-ScrPart_grocery_shop	O	_	_	
+9-19	before	O	O	_	_	
+9-20	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	9-12	
+9-21	have	O	O	_	_	
+9-22	all	B-ScrPart_groceries	O	webanno.custom.Corefchains_	8-11	
+9-23	we	B-ScrPart_shopper	O	webanno.custom.Corefchains_	8-1	
+9-24	need	O	B-RelNScrEv	_	_	
+9-25	and	O	O	_	_	
+9-26	can	O	O	_	_	
+9-27	pay	O	B-ScrEv_pay	_	_	
+9-28	.	O	O	_	_	
+
+#id=10
+#text=Then we go back out to the car .
+10-1	Then	O	O	_	_	
+10-2	we	B-ScrPart_shopper	O	webanno.custom.Corefchains_	9-23	
+10-3	go	O	B-ScrEv_bring_vehicle|B-ScrEv_bring_vehicle	_	_	
+10-4	back	O	I-ScrEv_bring_vehicle	_	_	
+10-5	out	O	O	_	_	
+10-6	to	O	O	_	_	
+10-7	the	O	O	_	_	
+10-8	car	B-ScrPart_vehicle	O	webanno.custom.Corefchains_	5-8	
+10-9	.	O	O	_	_	
+
+#id=11
+#text=I put my son back in his car seat and the bagged groceries in the trunk and head home . 
+11-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	9-20	
+11-2	put	O	B-UnrelEv	_	_	
+11-3	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	11-1	
+11-4	son	B-ScrPart_shopper	O	webanno.custom.Corefchains_	7-3	
+11-5	back	O	O	_	_	
+11-6	in	O	O	_	_	
+11-7	his	B-ScrPart_shopper	O	webanno.custom.Corefchains_	11-4	
+11-8	car	O	O	_	_	
+11-9	seat	O	O	_	_	
+11-10	and	O	O	_	_	
+11-11	the	O	O	_	_	
+11-12	bagged	O	B-ScrEv_pack_groceries	_	_	
+11-13	groceries	B-ScrPart_groceries	O	webanno.custom.Corefchains_	9-22	
+11-14	in	O	O	_	_	
+11-15	the	O	O	_	_	
+11-16	trunk	B-ScrPart_vehicle	O	_	_	
+11-17	and	O	O	_	_	
+11-18	head	O	B-ScrEv_leave	_	_	
+11-19	home	B-NPart	O	_	_	
+11-20	.	O	O	_	_	
+

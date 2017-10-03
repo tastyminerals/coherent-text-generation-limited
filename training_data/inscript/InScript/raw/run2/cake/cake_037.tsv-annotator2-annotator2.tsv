@@ -1,0 +1,217 @@
+ # webanno.custom.Participants | Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=I love to make cheesecake for my family .
+1-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+1-2	love	O	O	B-UnrelEv	
+1-3	to	O	O	O	
+1-4	make	O	O	B-Evoking	
+1-5	cheesecake	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	
+1-6	for	O	O	O	
+1-7	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+1-8	family	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	
+1-9	.	O	O	O	
+
+#id=2
+#text=We have a family recipe that I follow when I cook .
+2-1	We	B-???	B-webanno.custom.Participants_	O	
+2-2	have	O	O	B-UnrelEv	
+2-3	a	O	O	O	
+2-4	family	B-ScrPart_baking_instructions	B-webanno.custom.Participants_	O	
+2-5	recipe	I-ScrPart_baking_instructions|B-ScrPart_baking_instructions	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+2-6	that	O	O	O	
+2-7	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+2-8	follow	O	O	B-UnrelEv	
+2-9	when	O	O	O	
+2-10	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+2-11	cook	O	O	B-Evoking	
+2-12	.	O	O	O	
+
+#id=3
+#text=First I purchase the ingredients at the store and make certain I have everything I need .
+3-1	First	O	O	O	
+3-2	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+3-3	purchase	O	O	B-ScrEv_get_ingridients	
+3-4	the	O	O	O	
+3-5	ingredients	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	
+3-6	at	O	O	O	
+3-7	the	O	O	O	
+3-8	store	B-ScrPart_store	B-webanno.custom.Participants_	O	
+3-9	and	O	O	O	
+3-10	make	O	O	B-RelNScrEv	
+3-11	certain	O	O	I-RelNScrEv	
+3-12	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+3-13	have	O	O	O	
+3-14	everything	B-No_label	B-webanno.custom.Participants_	O	
+3-15	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+3-16	need	O	O	B-UnrelEv	
+3-17	.	O	O	O	
+
+#id=4
+#text=Then I make a crust from scratch in a cake pan , using crumbled cookies , nuts , brown sugar and vanilla flavor .
+4-1	Then	O	O	O	
+4-2	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+4-3	make	O	O	B-UnrelEv	
+4-4	a	O	O	O	
+4-5	crust	B-NPart	B-webanno.custom.Participants_	O	
+4-6	from	O	O	O	
+4-7	scratch	B-No_label	B-webanno.custom.Participants_	O	
+4-8	in	O	O	O	
+4-9	a	O	O	O	
+4-10	cake	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	
+4-11	pan	I-ScrPart_cake_tin|B-ScrPart_cake_tin	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+4-12	,	O	O	O	
+4-13	using	O	O	B-UnrelEv	
+4-14	crumbled	O	O	O	
+4-15	cookies	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	
+4-16	,	O	O	O	
+4-17	nuts	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	
+4-18	,	O	O	O	
+4-19	brown	O	O	O	
+4-20	sugar	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	
+4-21	and	O	O	O	
+4-22	vanilla	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	
+4-23	flavor	I-ScrPart_ingridients|B-ScrPart_ingridients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+4-24	.	O	O	O	
+
+#id=5
+#text=I turn on the oven to pre-heat , as my oven is very slow to heat up .
+5-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+5-2	turn	O	O	B-ScrEv_preheat	
+5-3	on	O	O	I-ScrEv_preheat	
+5-4	the	O	O	O	
+5-5	oven	B-ScrPart_oven	B-webanno.custom.Participants_	O	
+5-6	to	O	O	O	
+5-7	pre-heat	O	O	B-ScrEv_preheat	
+5-8	,	O	O	O	
+5-9	as	O	O	O	
+5-10	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+5-11	oven	B-ScrPart_oven	B-webanno.custom.Participants_	O	
+5-12	is	O	O	O	
+5-13	very	O	O	O	
+5-14	slow	O	O	O	
+5-15	to	O	O	O	
+5-16	heat	O	O	B-ScrEv_preheat	
+5-17	up	O	O	I-ScrEv_preheat	
+5-18	.	O	O	O	
+
+#id=6
+#text=I use my electric mixer to whip the pats of cream cheese , making sure they are light and fluffy .
+6-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+6-2	use	O	O	B-UnrelEv	
+6-3	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+6-4	electric	O	O	O	
+6-5	mixer	B-ScrPart_utensil	B-webanno.custom.Participants_	O	
+6-6	to	O	O	O	
+6-7	whip	O	O	B-ScrEv_prepare_ingridients	
+6-8	the	O	O	O	
+6-9	pats	B-NPart	B-webanno.custom.Participants_	O	
+6-10	of	O	O	O	
+6-11	cream	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	
+6-12	cheese	I-ScrPart_ingridients|B-ScrPart_ingridients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+6-13	,	O	O	O	
+6-14	making	O	O	B-UnrelEv	
+6-15	sure	O	O	I-UnrelEv	
+6-16	they	B-NPart	B-webanno.custom.Participants_	O	
+6-17	are	O	O	O	
+6-18	light	O	O	O	
+6-19	and	O	O	O	
+6-20	fluffy	O	O	O	
+6-21	.	O	O	O	
+
+#id=7
+#text=Then I add in eggs , sugar , lemon juice and lemon zest until it is thoroughly combined into a thick liquid .
+7-1	Then	O	O	O	
+7-2	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+7-3	add	O	O	B-ScrEv_add_ingridients	
+7-4	in	O	O	O	
+7-5	eggs	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	
+7-6	,	O	O	O	
+7-7	sugar	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	
+7-8	,	O	O	O	
+7-9	lemon	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	
+7-10	juice	I-ScrPart_ingridients|B-ScrPart_ingridients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+7-11	and	O	O	O	
+7-12	lemon	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	
+7-13	zest	I-ScrPart_ingridients|B-ScrPart_ingridients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+7-14	until	O	O	O	
+7-15	it	B-ScrPart_dough	B-webanno.custom.Participants_	O	
+7-16	is	O	O	O	
+7-17	thoroughly	O	O	O	
+7-18	combined	O	O	B-ScrEv_prepare_ingridients	
+7-19	into	O	O	O	
+7-20	a	O	O	O	
+7-21	thick	O	O	O	
+7-22	liquid	B-ScrPart_dough	B-webanno.custom.Participants_	O	
+7-23	.	O	O	O	
+
+#id=8
+#text=I pour the mixture into the prepared cake pan and put it into the preheated oven for about 45 minutes .
+8-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+8-2	pour	O	O	B-ScrEv_pour_dough	
+8-3	the	O	O	O	
+8-4	mixture	B-ScrPart_dough	B-webanno.custom.Participants_	O	
+8-5	into	O	O	O	
+8-6	the	O	O	O	
+8-7	prepared	O	O	B-ScrEv_grease_cake_tin	
+8-8	cake	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	
+8-9	pan	I-ScrPart_cake_tin|B-ScrPart_cake_tin	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+8-10	and	O	O	O	
+8-11	put	O	O	B-ScrEv_put_cake_oven	
+8-12	it	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	
+8-13	into	O	O	O	
+8-14	the	O	O	O	
+8-15	preheated	O	O	B-ScrEv_preheat	
+8-16	oven	B-ScrPart_oven	B-webanno.custom.Participants_	O	
+8-17	for	O	O	O	
+8-18	about	O	O	O	
+8-19	45	O	O	O	
+8-20	minutes	B-ScrPart_time	B-webanno.custom.Participants_	O	
+8-21	.	O	O	O	
+
+#id=9
+#text=When the cake is slightly brown on top , I remove it from the oven and place it in the refrigerator to cool .
+9-1	When	O	O	O	
+9-2	the	O	O	O	
+9-3	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+9-4	is	O	O	B-UnrelEv	
+9-5	slightly	O	O	O	
+9-6	brown	O	O	O	
+9-7	on	O	O	O	
+9-8	top	O	O	O	
+9-9	,	O	O	O	
+9-10	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+9-11	remove	O	O	B-ScrEv_take_out_oven	
+9-12	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+9-13	from	O	O	O	
+9-14	the	O	O	O	
+9-15	oven	B-ScrPart_oven	B-webanno.custom.Participants_	O	
+9-16	and	O	O	O	
+9-17	place	O	O	B-RelNScrEv	
+9-18	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+9-19	in	O	O	O	
+9-20	the	O	O	O	
+9-21	refrigerator	B-NPart	B-webanno.custom.Participants_	O	
+9-22	to	O	O	O	
+9-23	cool	O	O	B-ScrEv_cool_down	
+9-24	.	O	O	O	
+
+#id=10
+#text=This usually takes about two hours .
+10-1	This	O	O	O	
+10-2	usually	O	O	O	
+10-3	takes	O	O	B-ScrEv_wait	
+10-4	about	O	O	O	
+10-5	two	O	O	O	
+10-6	hours	B-ScrPart_time	B-webanno.custom.Participants_	O	
+10-7	.	O	O	O	
+
+#id=11
+#text=Then it is ready to serve . 
+11-1	Then	O	O	O	
+11-2	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+11-3	is	O	O	B-UnrelEv	
+11-4	ready	O	O	O	
+11-5	to	O	O	O	
+11-6	serve	O	O	B-ScrEv_eat	
+11-7	.	O	O	O	
+

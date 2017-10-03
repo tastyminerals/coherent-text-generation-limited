@@ -1,0 +1,223 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=Our back yard was so bare , so we decided to plant a tree to spruce it up .
+1-1	Our	B-ScrPart_gardener	O	
+1-2	back	B-ScrPart_location_garden	O	
+1-3	yard	I-ScrPart_location_garden|B-ScrPart_location_garden	O	
+1-4	was	O	B-UnrelEv	
+1-5	so	O	O	
+1-6	bare	O	O	
+1-7	,	O	O	
+1-8	so	O	O	
+1-9	we	B-ScrPart_gardener	O	
+1-10	decided	O	B-UnrelEv	
+1-11	to	O	O	
+1-12	plant	O	B-Evoking	
+1-13	a	O	I-Evoking	
+1-14	tree	B-ScrPart_tree	I-Evoking	
+1-15	to	O	O	
+1-16	spruce	O	B-UnrelEv	
+1-17	it	B-ScrPart_location_garden	O	
+1-18	up	O	O	
+1-19	.	O	O	
+
+#id=2
+#text=We decided a nice apple tree would look great , and give us fresh fruit when it 's grown .
+2-1	We	B-ScrPart_gardener	O	
+2-2	decided	O	B-ScrEv_choose_tree	
+2-3	a	O	O	
+2-4	nice	O	O	
+2-5	apple	B-ScrPart_tree	O	
+2-6	tree	I-ScrPart_tree|B-ScrPart_tree	O	
+2-7	would	O	O	
+2-8	look	O	B-UnrelEv	
+2-9	great	O	O	
+2-10	,	O	O	
+2-11	and	O	O	
+2-12	give	O	B-UnrelEv	
+2-13	us	B-ScrPart_gardener	O	
+2-14	fresh	O	O	
+2-15	fruit	B-NPart	O	
+2-16	when	O	O	
+2-17	it	B-ScrPart_tree	O	
+2-18	's	O	O	
+2-19	grown	O	B-RelNScrEv	
+2-20	.	O	O	
+
+#id=3
+#text=First we went to the nursery and bough an apple tree sapling .
+3-1	First	O	O	
+3-2	we	B-ScrPart_gardener	O	
+3-3	went	O	B-RelNScrEv	
+3-4	to	O	O	
+3-5	the	O	O	
+3-6	nursery	B-ScrPart_shop	O	
+3-7	and	O	O	
+3-8	bough	O	B-ScrEv_get_tree	
+3-9	an	O	O	
+3-10	apple	B-ScrPart_tree	O	
+3-11	tree	I-ScrPart_tree	O	
+3-12	sapling	I-ScrPart_tree|B-ScrPart_tree	O	
+3-13	.	O	O	
+
+#id=4
+#text=Then when we got home , we got to work .
+4-1	Then	O	O	
+4-2	when	O	O	
+4-3	we	B-ScrPart_gardener	O	
+4-4	got	O	B-ScrEv_take_home	
+4-5	home	B-NPart	O	
+4-6	,	O	O	
+4-7	we	B-ScrPart_gardener	O	
+4-8	got	O	B-UnrelEv	
+4-9	to	O	O	
+4-10	work	O	O	
+4-11	.	O	O	
+
+#id=5
+#text=We dug a hole in the ground big enough for the sapling to be planted .
+5-1	We	B-ScrPart_gardener	O	
+5-2	dug	O	B-ScrEv_dug_hole	
+5-3	a	O	O	
+5-4	hole	B-ScrPart_hole	O	
+5-5	in	O	O	
+5-6	the	O	O	
+5-7	ground	B-ScrPart_dirt	O	
+5-8	big	O	O	
+5-9	enough	O	O	
+5-10	for	O	O	
+5-11	the	O	O	
+5-12	sapling	B-ScrPart_tree	O	
+5-13	to	O	O	
+5-14	be	O	O	
+5-15	planted	O	B-ScrEv_place_root	
+5-16	.	O	O	
+
+#id=6
+#text=Once we had the hole ready , in went the sapling .
+6-1	Once	O	O	
+6-2	we	B-ScrPart_gardener	O	
+6-3	had	O	B-UnrelEv	
+6-4	the	O	O	
+6-5	hole	B-ScrPart_hole	O	
+6-6	ready	O	O	
+6-7	,	O	O	
+6-8	in	O	O	
+6-9	went	O	B-ScrEv_place_root	
+6-10	the	O	O	
+6-11	sapling	B-ScrPart_tree	O	
+6-12	.	O	O	
+
+#id=7
+#text=We made sure it was in deep enough and was standing straight up , then we put the dirt back in around the sapling .
+7-1	We	B-ScrPart_gardener	O	
+7-2	made	O	B-RelNScrEv	
+7-3	sure	O	I-RelNScrEv	
+7-4	it	B-ScrPart_tree	O	
+7-5	was	O	B-ScrEv_place_root	
+7-6	in	O	I-ScrEv_place_root	
+7-7	deep	O	O	
+7-8	enough	O	O	
+7-9	and	O	O	
+7-10	was	O	O	
+7-11	standing	O	B-RelNScrEv	
+7-12	straight	O	O	
+7-13	up	O	O	
+7-14	,	O	O	
+7-15	then	O	O	
+7-16	we	B-ScrPart_gardener	O	
+7-17	put	O	B-ScrEv_refill_hole	
+7-18	the	O	O	
+7-19	dirt	B-ScrPart_dirt	O	
+7-20	back	O	O	
+7-21	in	O	O	
+7-22	around	O	O	
+7-23	the	O	O	
+7-24	sapling	B-ScrPart_tree	O	
+7-25	.	O	O	
+
+#id=8
+#text=We carefully patted the dirt down so it would hold the sapling nice and firm .
+8-1	We	B-ScrPart_gardener	O	
+8-2	carefully	O	O	
+8-3	patted	O	B-ScrEv_damp_dirt	
+8-4	the	O	O	
+8-5	dirt	B-ScrPart_dirt	O	
+8-6	down	O	O	
+8-7	so	O	O	
+8-8	it	B-ScrPart_dirt	O	
+8-9	would	O	O	
+8-10	hold	O	B-RelNScrEv	
+8-11	the	O	O	
+8-12	sapling	B-ScrPart_tree	O	
+8-13	nice	O	O	
+8-14	and	O	O	
+8-15	firm	O	O	
+8-16	.	O	O	
+
+#id=9
+#text=Once we had done that , we took the garden hose and watered our new plant , making sure it had enough water , but not so much that the dirt would get too muddy and the sapling might be loose .
+9-1	Once	O	O	
+9-2	we	B-ScrPart_gardener	O	
+9-3	had	O	O	
+9-4	done	O	B-UnrelEv	
+9-5	that	O	O	
+9-6	,	O	O	
+9-7	we	B-ScrPart_gardener	O	
+9-8	took	O	B-ScrEv_get_tools	
+9-9	the	O	O	
+9-10	garden	B-ScrPart_gardening_tool	O	
+9-11	hose	I-ScrPart_gardening_tool|B-ScrPart_gardening_tool	O	
+9-12	and	O	O	
+9-13	watered	O	B-ScrEv_water	
+9-14	our	B-ScrPart_gardener	O	
+9-15	new	O	O	
+9-16	plant	B-ScrPart_tree	O	
+9-17	,	O	O	
+9-18	making	O	B-UnrelEv	
+9-19	sure	O	I-UnrelEv	
+9-20	it	B-ScrPart_tree	O	
+9-21	had	O	B-ScrEv_water	
+9-22	enough	O	O	
+9-23	water	B-ScrPart_water	O	
+9-24	,	O	O	
+9-25	but	O	O	
+9-26	not	O	O	
+9-27	so	O	O	
+9-28	much	O	O	
+9-29	that	O	O	
+9-30	the	O	O	
+9-31	dirt	B-ScrPart_dirt	O	
+9-32	would	O	O	
+9-33	get	O	B-RelNScrEv	
+9-34	too	O	O	
+9-35	muddy	O	O	
+9-36	and	O	O	
+9-37	the	O	O	
+9-38	sapling	B-ScrPart_tree	O	
+9-39	might	O	O	
+9-40	be	O	B-RelNScrEv	
+9-41	loose	O	O	
+9-42	.	O	O	
+
+#id=10
+#text=Then we took a step back and looked at what would eventually become our new apple tree . 
+10-1	Then	O	O	
+10-2	we	B-ScrPart_gardener	O	
+10-3	took	O	B-UnrelEv	
+10-4	a	O	O	
+10-5	step	B-NPart	O	
+10-6	back	O	O	
+10-7	and	O	O	
+10-8	looked	O	B-UnrelEv	
+10-9	at	O	I-UnrelEv	
+10-10	what	B-ScrPart_tree	O	
+10-11	would	O	O	
+10-12	eventually	O	O	
+10-13	become	O	B-UnrelEv	
+10-14	our	B-ScrPart_gardener	O	
+10-15	new	O	O	
+10-16	apple	B-ScrPart_tree	O	
+10-17	tree	I-ScrPart_tree|B-ScrPart_tree	O	
+10-18	.	O	O	
+

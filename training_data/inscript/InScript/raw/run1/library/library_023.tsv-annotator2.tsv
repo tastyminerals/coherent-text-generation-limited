@@ -1,0 +1,239 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Why buy a book when you can borrow one from the library ?
+1-1	Why	O	O	_	_	
+1-2	buy	B-UnrelEv	O	_	_	
+1-3	a	O	O	_	_	
+1-4	book	O	B-ScrPart_book	_	_	
+1-5	when	O	O	_	_	
+1-6	you	O	B-ScrPart_customer	_	_	
+1-7	can	O	O	_	_	
+1-8	borrow	B-Evoking	O	_	_	
+1-9	one	I-Evoking	B-ScrPart_book	webanno.custom.Corefchains_	1-4	
+1-10	from	I-Evoking	O	_	_	
+1-11	the	I-Evoking	O	_	_	
+1-12	library	I-Evoking	B-ScrPart_library	_	_	
+1-13	?	O	O	_	_	
+
+#id=2
+#text=Your local library has a wealth of resources just waiting for you to explore .
+2-1	Your	O	B-ScrPart_customer	webanno.custom.Corefchains_	1-6	
+2-2	local	O	O	_	_	
+2-3	library	O	B-ScrPart_library	webanno.custom.Corefchains_	1-12	
+2-4	has	B-UnrelEv	O	_	_	
+2-5	a	O	O	_	_	
+2-6	wealth	O	O	_	_	
+2-7	of	O	O	_	_	
+2-8	resources	O	B-ScrPart_book	webanno.custom.Corefchains_	1-9	
+2-9	just	O	O	_	_	
+2-10	waiting	B-UnrelEv	O	_	_	
+2-11	for	O	O	_	_	
+2-12	you	O	B-ScrPart_customer	webanno.custom.Corefchains_	2-1	
+2-13	to	O	O	_	_	
+2-14	explore	B-RelNScrEv	O	_	_	
+2-15	.	O	O	_	_	
+
+#id=3
+#text=Before you check anything out , you will need a library card .
+3-1	Before	O	O	_	_	
+3-2	you	O	B-ScrPart_customer	webanno.custom.Corefchains_	2-12	
+3-3	check	B-ScrEv_register	O	_	_	
+3-4	anything	O	B-ScrPart_book	webanno.custom.Corefchains_	2-8	
+3-5	out	O	O	_	_	
+3-6	,	O	O	_	_	
+3-7	you	O	B-ScrPart_customer	webanno.custom.Corefchains_	3-2	
+3-8	will	O	O	_	_	
+3-9	need	B-UnrelEv	O	_	_	
+3-10	a	O	O	_	_	
+3-11	library	O	B-ScrPart_library_card	_	_	
+3-12	card	O	I-ScrPart_library_card|B-ScrPart_library_card	_	_	
+3-13	.	O	O	_	_	
+
+#id=4
+#text=Typically , you will need to prove who you are and where you live .
+4-1	Typically	O	O	_	_	
+4-2	,	O	O	_	_	
+4-3	you	O	B-ScrPart_customer	webanno.custom.Corefchains_	3-7	
+4-4	will	O	O	_	_	
+4-5	need	O	O	_	_	
+4-6	to	O	O	_	_	
+4-7	prove	B-UnrelEv	O	_	_	
+4-8	who	O	O	_	_	
+4-9	you	O	B-ScrPart_customer	webanno.custom.Corefchains_	4-3	
+4-10	are	B-UnrelEv	O	_	_	
+4-11	and	O	O	_	_	
+4-12	where	O	O	_	_	
+4-13	you	O	B-ScrPart_customer	webanno.custom.Corefchains_	4-9	
+4-14	live	B-UnrelEv	O	_	_	
+4-15	.	O	O	_	_	
+
+#id=5
+#text=Your drivers license will probably work for that .
+5-1	Your	O	B-ScrPart_customer	webanno.custom.Corefchains_	4-13	
+5-2	drivers	O	O	_	_	
+5-3	license	O	O	_	_	
+5-4	will	O	O	_	_	
+5-5	probably	O	O	_	_	
+5-6	work	B-UnrelEv	O	_	_	
+5-7	for	O	O	_	_	
+5-8	that	O	O	_	_	
+5-9	.	O	O	_	_	
+
+#id=6
+#text=Go to your local library and get a card .
+6-1	Go	B-ScrEv_get_library	O	_	_	
+6-2	to	O	O	_	_	
+6-3	your	O	B-ScrPart_customer	webanno.custom.Corefchains_	5-1	
+6-4	local	O	O	_	_	
+6-5	library	O	B-ScrPart_library	webanno.custom.Corefchains_	2-3	
+6-6	and	O	O	_	_	
+6-7	get	B-RelNScrEv	O	_	_	
+6-8	a	O	O	_	_	
+6-9	card	O	B-ScrPart_library_card	webanno.custom.Corefchains_	3-12	
+6-10	.	O	O	_	_	
+
+#id=7
+#text=Once you have done that , you are ready to check things out !
+7-1	Once	O	O	_	_	
+7-2	you	O	B-ScrPart_customer	webanno.custom.Corefchains_	6-3	
+7-3	have	O	O	_	_	
+7-4	done	B-UnrelEv	O	_	_	
+7-5	that	O	O	_	_	
+7-6	,	O	O	_	_	
+7-7	you	O	B-ScrPart_customer	webanno.custom.Corefchains_	7-2	
+7-8	are	O	O	_	_	
+7-9	ready	O	O	_	_	
+7-10	to	O	O	_	_	
+7-11	check	B-ScrEv_register	O	_	_	
+7-12	things	O	B-ScrPart_book	webanno.custom.Corefchains_	3-4	
+7-13	out	O	O	_	_	
+7-14	!	O	O	_	_	
+
+#id=8
+#text=The library is divided into different categories .
+8-1	The	O	O	_	_	
+8-2	library	O	B-ScrPart_library	webanno.custom.Corefchains_	6-5	
+8-3	is	O	O	_	_	
+8-4	divided	B-UnrelEv	O	_	_	
+8-5	into	O	O	_	_	
+8-6	different	O	O	_	_	
+8-7	categories	O	B-ScrPart_location_library	_	_	
+8-8	.	O	O	_	_	
+
+#id=9
+#text=One area will be fiction , which is also occasionally broken down into smaller departments .
+9-1	One	O	O	_	_	
+9-2	area	O	B-ScrPart_location_library	group_areas	8-7	
+9-3	will	O	O	_	_	
+9-4	be	B-UnrelEv	O	_	_	
+9-5	fiction	O	B-ScrPart_location_library	webanno.custom.Corefchains_	9-2	
+9-6	,	O	O	_	_	
+9-7	which	O	O	_	_	
+9-8	is	O	O	_	_	
+9-9	also	O	O	_	_	
+9-10	occasionally	O	O	_	_	
+9-11	broken	B-UnrelEv	O	_	_	
+9-12	down	O	O	_	_	
+9-13	into	O	O	_	_	
+9-14	smaller	O	O	_	_	
+9-15	departments	O	B-ScrPart_location_library	group_areas	8-7	
+9-16	.	O	O	_	_	
+
+#id=10
+#text=Non-fiction is divided by the type of book .
+10-1	Non-fiction	O	B-ScrPart_location_library	group_areas	8-7	
+10-2	is	O	O	_	_	
+10-3	divided	B-UnrelEv	O	_	_	
+10-4	by	O	O	_	_	
+10-5	the	O	O	_	_	
+10-6	type	O	O	_	_	
+10-7	of	O	O	_	_	
+10-8	book	O	B-ScrPart_book	webanno.custom.Corefchains_	7-12	
+10-9	.	O	O	_	_	
+
+#id=11
+#text=There is reference , gardening , crafting , home repair , history , science , cooking , parenting , and any other subject you can imagine .
+11-1	There	O	O	_	_	
+11-2	is	B-UnrelEv	O	_	_	
+11-3	reference	O	O	_	_	
+11-4	,	O	O	_	_	
+11-5	gardening	O	O	_	_	
+11-6	,	O	O	_	_	
+11-7	crafting	O	O	_	_	
+11-8	,	O	O	_	_	
+11-9	home	O	O	_	_	
+11-10	repair	O	O	_	_	
+11-11	,	O	O	_	_	
+11-12	history	O	O	_	_	
+11-13	,	O	O	_	_	
+11-14	science	O	O	_	_	
+11-15	,	O	O	_	_	
+11-16	cooking	O	O	_	_	
+11-17	,	O	O	_	_	
+11-18	parenting	O	O	_	_	
+11-19	,	O	O	_	_	
+11-20	and	O	O	_	_	
+11-21	any	O	O	_	_	
+11-22	other	O	O	_	_	
+11-23	subject	O	O	_	_	
+11-24	you	O	B-ScrPart_customer	webanno.custom.Corefchains_	7-7	
+11-25	can	O	O	_	_	
+11-26	imagine	B-UnrelEv	O	_	_	
+11-27	.	O	O	_	_	
+
+#id=12
+#text=When you have found a book you want , either by browsing the aisles or by searching through the card catalog , select it and take it to the front desk .
+12-1	When	O	O	_	_	
+12-2	you	O	B-ScrPart_customer	webanno.custom.Corefchains_	11-24	
+12-3	have	O	O	_	_	
+12-4	found	B-RelNScrEv	O	_	_	
+12-5	a	O	O	_	_	
+12-6	book	O	B-ScrPart_book	webanno.custom.Corefchains_	10-8	
+12-7	you	O	B-ScrPart_customer	webanno.custom.Corefchains_	12-2	
+12-8	want	O	O	_	_	
+12-9	,	O	O	_	_	
+12-10	either	O	O	_	_	
+12-11	by	O	O	_	_	
+12-12	browsing	B-RelNScrEv	O	_	_	
+12-13	the	O	O	_	_	
+12-14	aisles	O	B-ScrPart_location_library	webanno.custom.Corefchains_	8-7	
+12-15	or	O	O	_	_	
+12-16	by	O	O	_	_	
+12-17	searching	B-ScrEv_check_catalog	O	_	_	
+12-18	through	O	O	_	_	
+12-19	the	O	O	_	_	
+12-20	card	O	B-ScrPart_catalog	_	_	
+12-21	catalog	O	I-ScrPart_catalog|B-ScrPart_catalog	_	_	
+12-22	,	O	O	_	_	
+12-23	select	B-ScrEv_take_book	O	_	_	
+12-24	it	O	B-ScrPart_book	webanno.custom.Corefchains_	12-6	
+12-25	and	O	O	_	_	
+12-26	take	B-ScrEv_go_check_out	O	_	_	
+12-27	it	O	B-ScrPart_book	webanno.custom.Corefchains_	12-24	
+12-28	to	O	O	_	_	
+12-29	the	O	O	_	_	
+12-30	front	O	B-ScrPart_check-out_desk	_	_	
+12-31	desk	O	I-ScrPart_check-out_desk|B-ScrPart_check-out_desk	_	_	
+12-32	.	O	O	_	_	
+
+#id=13
+#text=They will scan your card and let you take the book home for a week or two ! 
+13-1	They	O	B-ScrPart_staff	_	_	
+13-2	will	O	O	_	_	
+13-3	scan	B-ScrEv_register	O	_	_	
+13-4	your	O	B-ScrPart_customer	webanno.custom.Corefchains_	12-7	
+13-5	card	O	B-ScrPart_library_card	webanno.custom.Corefchains_	6-9	
+13-6	and	O	O	_	_	
+13-7	let	B-UnrelEv	O	_	_	
+13-8	you	O	B-ScrPart_customer	webanno.custom.Corefchains_	13-4	
+13-9	take	B-RelNScrEv	O	_	_	
+13-10	the	O	O	_	_	
+13-11	book	O	B-ScrPart_book	webanno.custom.Corefchains_	12-27	
+13-12	home	O	B-NPart	_	_	
+13-13	for	O	O	_	_	
+13-14	a	O	O	_	_	
+13-15	week	O	B-NPart	_	_	
+13-16	or	O	O	_	_	
+13-17	two	O	O	_	_	
+13-18	!	O	O	_	_	
+

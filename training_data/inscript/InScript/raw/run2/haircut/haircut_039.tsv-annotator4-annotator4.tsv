@@ -1,0 +1,231 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=I went into the barber shop .
+1-1	I	B-ScrPart_customer	O	
+1-2	went	O	B-ScrEv_enter	
+1-3	into	O	O	
+1-4	the	O	O	
+1-5	barber	B-ScrPart_salon	O	
+1-6	shop	I-ScrPart_salon|B-ScrPart_salon	O	
+1-7	.	O	O	
+
+#id=2
+#text=There were three barber 's chair lined up along the wall .
+2-1	There	O	O	
+2-2	were	O	B-UnrelEv	
+2-3	three	O	O	
+2-4	barber	B-ScrPart_chair	O	
+2-5	's	I-ScrPart_chair	O	
+2-6	chair	I-ScrPart_chair|B-ScrPart_chair	O	
+2-7	lined	O	B-UnrelEv	
+2-8	up	O	I-UnrelEv	
+2-9	along	O	O	
+2-10	the	O	O	
+2-11	wall	B-NPart	O	
+2-12	.	O	O	
+
+#id=3
+#text=Each one had a customer in it who was already getting a haircut so I had to wait .
+3-1	Each	O	O	
+3-2	one	B-ScrPart_chair	O	
+3-3	had	O	B-UnrelEv	
+3-4	a	O	O	
+3-5	customer	B-ScrPart_customer	O	
+3-6	in	O	O	
+3-7	it	B-ScrPart_chair	O	
+3-8	who	B-ScrPart_customer	O	
+3-9	was	O	O	
+3-10	already	O	O	
+3-11	getting	O	B-Evoking	
+3-12	a	O	I-Evoking	
+3-13	haircut	B-ScrPart_haircut	I-Evoking	
+3-14	so	O	O	
+3-15	I	B-ScrPart_customer	O	
+3-16	had	O	O	
+3-17	to	O	O	
+3-18	wait	O	B-ScrEv_wait	
+3-19	.	O	O	
+
+#id=4
+#text=I read a magazine for about five minutes until a customer paid and left .
+4-1	I	B-ScrPart_customer	O	
+4-2	read	O	B-RelNScrEv	
+4-3	a	O	O	
+4-4	magazine	B-ScrPart_entertainment	O	
+4-5	for	O	O	
+4-6	about	O	O	
+4-7	five	O	O	
+4-8	minutes	B-ScrPart_time/date	O	
+4-9	until	O	O	
+4-10	a	O	O	
+4-11	customer	B-ScrPart_customer	O	
+4-12	paid	O	B-ScrEv_pay	
+4-13	and	O	O	
+4-14	left	O	B-ScrEv_leave	
+4-15	.	O	O	
+
+#id=5
+#text=The barber called me over , put a smock on me , and asked me how I liked my hair cut .
+5-1	The	O	O	
+5-2	barber	B-ScrPart_hairdresser	O	
+5-3	called	O	B-ScrEv_get_called	
+5-4	me	B-ScrPart_customer	O	
+5-5	over	O	O	
+5-6	,	O	O	
+5-7	put	O	B-ScrEv_put_on_cape	
+5-8	a	O	O	
+5-9	smock	B-ScrPart_cape	O	
+5-10	on	O	O	
+5-11	me	B-ScrPart_customer	O	
+5-12	,	O	O	
+5-13	and	O	O	
+5-14	asked	O	B-ScrEv_talk_haircut	
+5-15	me	B-ScrPart_customer	O	
+5-16	how	O	O	
+5-17	I	B-ScrPart_customer	O	
+5-18	liked	O	B-ScrEv_talk_haircut	
+5-19	my	B-ScrPart_customer	O	
+5-20	hair	B-ScrPart_hair	O	
+5-21	cut	O	B-ScrEv_cut	
+5-22	.	O	O	
+
+#id=6
+#text=I told him I liked it short all over .
+6-1	I	B-ScrPart_customer	O	
+6-2	told	O	B-ScrEv_talk_haircut	
+6-3	him	B-ScrPart_hairdresser	O	
+6-4	I	B-ScrPart_customer	O	
+6-5	liked	O	B-ScrEv_talk_haircut	
+6-6	it	B-ScrPart_hair	O	
+6-7	short	O	O	
+6-8	all	O	O	
+6-9	over	O	O	
+6-10	.	O	O	
+
+#id=7
+#text=He wet my hair down with a spray bottle of water and then started cutting my hair on the top and sides with scissors .
+7-1	He	B-ScrPart_hairdresser	O	
+7-2	wet	O	B-ScrEv_wash	
+7-3	my	B-ScrPart_customer	O	
+7-4	hair	B-ScrPart_hair	O	
+7-5	down	O	O	
+7-6	with	O	O	
+7-7	a	O	O	
+7-8	spray	B-Head_of_Partitive	O	
+7-9	bottle	I-Head_of_Partitive|B-Head_of_Partitive	O	
+7-10	of	O	O	
+7-11	water	B-ScrPart_hair_styling/treatment	O	
+7-12	and	O	O	
+7-13	then	O	O	
+7-14	started	O	B-UnrelEv	
+7-15	cutting	O	B-ScrEv_cut	
+7-16	my	B-ScrPart_customer	O	
+7-17	hair	B-ScrPart_hair	O	
+7-18	on	O	O	
+7-19	the	O	O	
+7-20	top	B-NPart	O	
+7-21	and	O	O	
+7-22	sides	B-NPart	O	
+7-23	with	O	O	
+7-24	scissors	B-ScrPart_scissors	O	
+7-25	.	O	O	
+
+#id=8
+#text=After he had thinned it out a bit , he shaved the sides and back with electric clippers .
+8-1	After	O	O	
+8-2	he	B-ScrPart_hairdresser	O	
+8-3	had	O	O	
+8-4	thinned	O	B-ScrEv_cut	
+8-5	it	B-ScrPart_hair	O	
+8-6	out	O	O	
+8-7	a	O	O	
+8-8	bit	B-No_label	O	
+8-9	,	O	O	
+8-10	he	B-ScrPart_hairdresser	O	
+8-11	shaved	O	B-ScrEv_cut	
+8-12	the	O	O	
+8-13	sides	B-NPart	O	
+8-14	and	O	O	
+8-15	back	B-NPart	O	
+8-16	with	O	O	
+8-17	electric	O	O	
+8-18	clippers	B-ScrPart_scissors	O	
+8-19	.	O	O	
+
+#id=9
+#text=Finally , he put hot foam on my neck and used a straight razor to shave my neck and leave a clean neat hairline .
+9-1	Finally	O	O	
+9-2	,	O	O	
+9-3	he	B-ScrPart_hairdresser	O	
+9-4	put	O	B-RelNScrEv	
+9-5	hot	O	O	
+9-6	foam	B-ScrPart_hair_styling/treatment	O	
+9-7	on	O	O	
+9-8	my	B-ScrPart_customer	O	
+9-9	neck	B-NPart	O	
+9-10	and	O	O	
+9-11	used	O	B-UnrelEv	
+9-12	a	O	O	
+9-13	straight	O	O	
+9-14	razor	B-ScrPart_scissors	O	
+9-15	to	O	O	
+9-16	shave	O	B-ScrEv_cut	
+9-17	my	B-ScrPart_customer	O	
+9-18	neck	B-NPart	O	
+9-19	and	O	O	
+9-20	leave	O	B-RelNScrEv	
+9-21	a	O	O	
+9-22	clean	O	O	
+9-23	neat	O	O	
+9-24	hairline	B-NPart	O	
+9-25	.	O	O	
+
+#id=10
+#text=He showed me how it looked in the mirror and I approved .
+10-1	He	B-ScrPart_hairdresser	O	
+10-2	showed	O	B-ScrEv_look_mirror	
+10-3	me	B-ScrPart_customer	O	
+10-4	how	O	O	
+10-5	it	B-ScrPart_hair	O	
+10-6	looked	O	B-ScrEv_look_mirror	
+10-7	in	O	O	
+10-8	the	O	O	
+10-9	mirror	B-ScrPart_mirror	O	
+10-10	and	O	O	
+10-11	I	B-ScrPart_customer	O	
+10-12	approved	O	B-ScrEv_customer_opinion	
+10-13	.	O	O	
+
+#id=11
+#text=The barber whipped off the smock and I paid him , giving him a tip as well .
+11-1	The	O	O	
+11-2	barber	B-ScrPart_hairdresser	O	
+11-3	whipped	O	B-ScrEv_brush_hair	
+11-4	off	O	I-ScrEv_brush_hair	
+11-5	the	O	O	
+11-6	smock	B-ScrPart_cape	O	
+11-7	and	O	O	
+11-8	I	B-ScrPart_customer	O	
+11-9	paid	O	B-ScrEv_pay	
+11-10	him	B-ScrPart_hairdresser	O	
+11-11	,	O	O	
+11-12	giving	O	B-ScrEv_leave_tip	
+11-13	him	B-ScrPart_hairdresser	O	
+11-14	a	O	O	
+11-15	tip	B-ScrPart_tip	O	
+11-16	as	O	O	
+11-17	well	O	O	
+11-18	.	O	O	
+
+#id=12
+#text=Now I was ready for my big date ! 
+12-1	Now	O	O	
+12-2	I	B-ScrPart_customer	O	
+12-3	was	O	B-UnrelEv	
+12-4	ready	O	O	
+12-5	for	O	O	
+12-6	my	B-ScrPart_customer	O	
+12-7	big	O	O	
+12-8	date	B-NPart	O	
+12-9	!	O	O	
+

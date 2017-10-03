@@ -1,0 +1,258 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=Today , I will go grocery shopping with my six year old grandson .
+1-1	Today	B-No_label	O	
+1-2	,	O	O	
+1-3	I	B-ScrPart_shopper	O	
+1-4	will	O	O	
+1-5	go	O	B-Evoking	
+1-6	grocery	O	I-Evoking	
+1-7	shopping	O	I-Evoking	
+1-8	with	O	O	
+1-9	my	B-ScrPart_shopper	O	
+1-10	six	O	O	
+1-11	year	B-No_label	O	
+1-12	old	O	O	
+1-13	grandson	B-ScrPart_shopper	O	
+1-14	.	O	O	
+
+#id=2
+#text=Bryan loves to help grandma go to the grocery store .
+2-1	Bryan	B-ScrPart_shopper	O	
+2-2	loves	O	B-UnrelEv	
+2-3	to	O	O	
+2-4	help	O	O	
+2-5	grandma	B-ScrPart_shopper	O	
+2-6	go	O	B-Evoking	
+2-7	to	O	I-Evoking	
+2-8	the	O	I-Evoking	
+2-9	grocery	B-ScrPart_grocery_shop	I-Evoking	
+2-10	store	I-ScrPart_grocery_shop|B-ScrPart_grocery_shop	I-Evoking	
+2-11	.	O	O	
+
+#id=3
+#text=Today we will be buying some of Bryan 's favorite foods like cherry tomatoes and grapes .
+3-1	Today	B-No_label	O	
+3-2	we	B-ScrPart_shopper	O	
+3-3	will	O	O	
+3-4	be	O	O	
+3-5	buying	O	B-RelNScrEv	
+3-6	some	O	O	
+3-7	of	O	O	
+3-8	Bryan	B-ScrPart_shopper	O	
+3-9	's	O	O	
+3-10	favorite	O	O	
+3-11	foods	B-ScrPart_groceries	O	
+3-12	like	O	O	
+3-13	cherry	B-ScrPart_groceries	O	
+3-14	tomatoes	I-ScrPart_groceries|B-ScrPart_groceries	O	
+3-15	and	O	O	
+3-16	grapes	B-ScrPart_groceries	O	
+3-17	.	O	O	
+
+#id=4
+#text=We also need milk and bread and some kind of meat for supper .
+4-1	We	B-ScrPart_shopper	O	
+4-2	also	O	O	
+4-3	need	O	B-RelNScrEv	
+4-4	milk	B-ScrPart_groceries	O	
+4-5	and	O	O	
+4-6	bread	B-ScrPart_groceries	O	
+4-7	and	O	O	
+4-8	some	O	O	
+4-9	kind	B-Head_of_Partitive	O	
+4-10	of	O	O	
+4-11	meat	B-ScrPart_groceries	O	
+4-12	for	O	O	
+4-13	supper	B-NPart	O	
+4-14	.	O	O	
+
+#id=5
+#text=We will be making hamburgers for supper so we also need to buy hamburger buns .
+5-1	We	B-ScrPart_shopper	O	
+5-2	will	O	O	
+5-3	be	O	O	
+5-4	making	O	B-UnrelEv	
+5-5	hamburgers	B-NPart	O	
+5-6	for	O	O	
+5-7	supper	B-NPart	O	
+5-8	so	O	O	
+5-9	we	B-ScrPart_shopper	O	
+5-10	also	O	O	
+5-11	need	O	O	
+5-12	to	O	O	
+5-13	buy	O	B-RelNScrEv	
+5-14	hamburger	B-ScrPart_groceries	O	
+5-15	buns	I-ScrPart_groceries|B-ScrPart_groceries	O	
+5-16	.	O	O	
+
+#id=6
+#text=Bryan likes to push the shopping cart but when you are driving the shopping cart you have too look out for other people so you do not bump into them .
+6-1	Bryan	B-ScrPart_shopper	O	
+6-2	likes	O	B-UnrelEv	
+6-3	to	O	O	
+6-4	push	O	B-RelNScrEv	
+6-5	the	O	O	
+6-6	shopping	B-ScrPart_shopping_cart/basket	O	
+6-7	cart	I-ScrPart_shopping_cart/basket|B-ScrPart_shopping_cart/basket	O	
+6-8	but	O	O	
+6-9	when	O	O	
+6-10	you	B-ScrPart_shopper	O	
+6-11	are	O	O	
+6-12	driving	O	B-RelNScrEv	
+6-13	the	O	O	
+6-14	shopping	B-ScrPart_shopping_cart/basket	O	
+6-15	cart	I-ScrPart_shopping_cart/basket|B-ScrPart_shopping_cart/basket	O	
+6-16	you	B-ScrPart_shopper	O	
+6-17	have	O	O	
+6-18	too	O	O	
+6-19	look	O	B-UnrelEv|B-UnrelEv	
+6-20	out	O	I-UnrelEv	
+6-21	for	O	O	
+6-22	other	O	O	
+6-23	people	B-ScrPart_shopper	O	
+6-24	so	O	O	
+6-25	you	B-ScrPart_shopper	O	
+6-26	do	O	O	
+6-27	not	O	O	
+6-28	bump	O	B-UnrelEv	
+6-29	into	O	O	
+6-30	them	B-ScrPart_shopper	O	
+6-31	.	O	O	
+
+#id=7
+#text=I let Bryan go down the bread isle to find the two things that we need , bread and hamburger buns .
+7-1	I	B-ScrPart_shopper	O	
+7-2	let	O	B-UnrelEv	
+7-3	Bryan	B-ScrPart_shopper	O	
+7-4	go	O	B-ScrEv_move_section|B-ScrEv_move_section	
+7-5	down	O	I-ScrEv_move_section	
+7-6	the	O	O	
+7-7	bread	B-ScrPart_section	O	
+7-8	isle	I-ScrPart_section|B-ScrPart_section	O	
+7-9	to	O	O	
+7-10	find	O	O	
+7-11	the	O	O	
+7-12	two	O	O	
+7-13	things	B-ScrPart_groceries	O	
+7-14	that	O	O	
+7-15	we	B-ScrPart_shopper	O	
+7-16	need	O	B-RelNScrEv	
+7-17	,	O	O	
+7-18	bread	B-ScrPart_groceries|B-ScrPart_groceries	O	
+7-19	and	I-ScrPart_groceries	O	
+7-20	hamburger	I-ScrPart_groceries|B-ScrPart_groceries	O	
+7-21	buns	I-ScrPart_groceries|I-ScrPart_groceries|B-ScrPart_groceries	O	
+7-22	.	O	O	
+
+#id=8
+#text=Bryan likes looking for things on the shelves and putting them in the cart .
+8-1	Bryan	B-ScrPart_shopper	O	
+8-2	likes	O	B-UnrelEv	
+8-3	looking	O	B-ScrEv_get_groceries|B-ScrEv_get_groceries	
+8-4	for	O	I-ScrEv_get_groceries	
+8-5	things	B-ScrPart_groceries	O	
+8-6	on	O	O	
+8-7	the	O	O	
+8-8	shelves	B-ScrPart_section	O	
+8-9	and	O	O	
+8-10	putting	O	B-ScrEv_get_groceries	
+8-11	them	B-ScrPart_groceries	O	
+8-12	in	O	O	
+8-13	the	O	O	
+8-14	cart	B-ScrPart_shopping_cart/basket	O	
+8-15	.	O	O	
+
+#id=9
+#text=We also go to the meat department to look for the hamburger .
+9-1	We	B-ScrPart_shopper	O	
+9-2	also	O	O	
+9-3	go	O	B-ScrEv_move_section	
+9-4	to	O	O	
+9-5	the	O	O	
+9-6	meat	B-ScrPart_section	O	
+9-7	department	I-ScrPart_section|B-ScrPart_section	O	
+9-8	to	O	O	
+9-9	look	O	B-ScrEv_get_groceries	
+9-10	for	O	O	
+9-11	the	O	O	
+9-12	hamburger	B-ScrPart_groceries	O	
+9-13	.	O	O	
+
+#id=10
+#text=When we have everything that we need for supper it is time to go to the check-out and pay for our food , Bryan is a big helper by putting the food up on the counter for the cashier so they can see what we have and put it in the bags for us to take home .
+10-1	When	O	O	
+10-2	we	B-ScrPart_shopper	O	
+10-3	have	O	B-UnrelEv	
+10-4	everything	B-ScrPart_groceries	O	
+10-5	that	O	O	
+10-6	we	B-ScrPart_shopper	O	
+10-7	need	O	B-RelNScrEv	
+10-8	for	O	O	
+10-9	supper	B-NPart	O	
+10-10	it	B-No_label	O	
+10-11	is	O	B-UnrelEv	
+10-12	time	B-No_label	O	
+10-13	to	O	O	
+10-14	go	O	B-ScrEv_move_section	
+10-15	to	O	O	
+10-16	the	O	O	
+10-17	check-out	B-ScrPart_cash_desk	O	
+10-18	and	O	O	
+10-19	pay	O	B-ScrEv_pay	
+10-20	for	O	O	
+10-21	our	B-ScrPart_shopper	O	
+10-22	food	B-NPart	O	
+10-23	,	O	O	
+10-24	Bryan	B-ScrPart_shopper	O	
+10-25	is	O	B-UnrelEv	
+10-26	a	O	O	
+10-27	big	O	O	
+10-28	helper	B-ScrPart_shopper	O	
+10-29	by	O	O	
+10-30	putting	O	B-ScrEv_put_conveyor	
+10-31	the	O	O	
+10-32	food	B-ScrPart_groceries	O	
+10-33	up	O	O	
+10-34	on	O	O	
+10-35	the	O	O	
+10-36	counter	B-ScrPart_cash_desk	O	
+10-37	for	O	O	
+10-38	the	O	O	
+10-39	cashier	B-ScrPart_grocery_staff	O	
+10-40	so	O	O	
+10-41	they	B-ScrPart_grocery_staff	O	
+10-42	can	O	O	
+10-43	see	O	B-UnrelEv	
+10-44	what	O	O	
+10-45	we	B-ScrPart_shopper	O	
+10-46	have	O	B-UnrelEv	
+10-47	and	O	O	
+10-48	put	O	B-ScrEv_pack_groceries	
+10-49	it	B-ScrPart_groceries	O	
+10-50	in	O	O	
+10-51	the	O	O	
+10-52	bags	B-ScrPart_shopping_bags	O	
+10-53	for	O	O	
+10-54	us	B-ScrPart_shopper	O	
+10-55	to	O	O	
+10-56	take	O	B-RelNScrEv	
+10-57	home	B-SuppVComp	O	
+10-58	.	O	O	
+
+#id=11
+#text=This has been a great adventure going to the store with grandma . 
+11-1	This	O	O	
+11-2	has	O	B-UnrelEv	
+11-3	been	O	O	
+11-4	a	O	O	
+11-5	great	O	O	
+11-6	adventure	B-NPart	O	
+11-7	going	O	B-Evoking	
+11-8	to	O	I-Evoking	
+11-9	the	O	I-Evoking	
+11-10	store	B-ScrPart_grocery_shop	I-Evoking	
+11-11	with	O	O	
+11-12	grandma	B-ScrPart_shopper	O	
+11-13	.	O	O	
+

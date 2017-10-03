@@ -1,0 +1,282 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=It is time to take a bath .
+1-1	It	O	O	_	_	
+1-2	is	B-UnrelEv	O	_	_	
+1-3	time	O	O	_	_	
+1-4	to	O	O	_	_	
+1-5	take	B-Evoking	O	_	_	
+1-6	a	I-Evoking	O	_	_	
+1-7	bath	I-Evoking	B-MissScrPart	_	_	
+1-8	.	O	O	_	_	
+
+#id=2
+#text=I gather my clothes I am going to put on after my bath and take them to the bathroom with me .
+2-1	I	O	B-ScrPart_bather	_	_	
+2-2	gather	B-ScrEv_take_clean_clothes	O	_	_	
+2-3	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	2-1	
+2-4	clothes	O	B-ScrPart_clothes	_	_	
+2-5	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	2-3	
+2-6	am	O	O	_	_	
+2-7	going	O	O	_	_	
+2-8	to	O	O	_	_	
+2-9	put	B-RelNScrEv|B-RelNScrEv	O	_	_	
+2-10	on	I-RelNScrEv	O	_	_	
+2-11	after	O	O	_	_	
+2-12	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	2-5	
+2-13	bath	O	B-MissScrPart	webanno.custom.Corefchains_	1-7	
+2-14	and	O	O	_	_	
+2-15	take	B-UnrelEv	O	_	_	
+2-16	them	O	B-ScrPart_clothes	webanno.custom.Corefchains_	2-4	
+2-17	to	O	O	_	_	
+2-18	the	O	O	_	_	
+2-19	bathroom	O	B-ScrPart_bathroom	_	_	
+2-20	with	O	O	_	_	
+2-21	me	O	B-ScrPart_bather	webanno.custom.Corefchains_	2-12	
+2-22	.	O	O	_	_	
+
+#id=3
+#text=I find my bath mat and lay it on the floor to keep the floor dry .
+3-1	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	2-21	
+3-2	find	B-UnrelEv	O	_	_	
+3-3	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	3-1	
+3-4	bath	O	B-MissScrPart	_	_	
+3-5	mat	O	I-MissScrPart|B-MissScrPart	_	_	
+3-6	and	O	O	_	_	
+3-7	lay	B-ScrEv_prepare_bath	O	_	_	
+3-8	it	O	B-MissScrPart	webanno.custom.Corefchains_	3-5	
+3-9	on	O	O	_	_	
+3-10	the	O	O	_	_	
+3-11	floor	O	B-MissScrPart	_	_	
+3-12	to	O	O	_	_	
+3-13	keep	B-UnrelEv	O	_	_	
+3-14	the	O	O	_	_	
+3-15	floor	O	B-MissScrPart	webanno.custom.Corefchains_	3-11	
+3-16	dry	O	O	_	_	
+3-17	.	O	O	_	_	
+
+#id=4
+#text=I gather my towel and washcloth from the closet .
+4-1	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	3-3	
+4-2	gather	B-ScrEv_prepare_bath	O	_	_	
+4-3	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	4-1	
+4-4	towel	O	B-ScrPart_towel	_	_	
+4-5	and	O	O	_	_	
+4-6	washcloth	O	B-ScrPart_washing_tools	_	_	
+4-7	from	O	O	_	_	
+4-8	the	O	O	_	_	
+4-9	closet	O	B-MissScrPart	_	_	
+4-10	.	O	O	_	_	
+
+#id=5
+#text=I put the stopper in the drain .
+5-1	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	4-3	
+5-2	put	B-ScrEv_close_drain	O	_	_	
+5-3	the	O	O	_	_	
+5-4	stopper	O	B-MissScrPart	_	_	
+5-5	in	O	O	_	_	
+5-6	the	O	O	_	_	
+5-7	drain	O	B-ScrPart_drain	_	_	
+5-8	.	O	O	_	_	
+
+#id=6
+#text=I turn on my water and adjust the temperature to my liking .
+6-1	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	5-1	
+6-2	turn	B-ScrEv_turn_water_on|B-ScrEv_turn_water_on	O	_	_	
+6-3	on	I-ScrEv_turn_water_on	O	_	_	
+6-4	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	6-1	
+6-5	water	O	B-ScrPart_water	_	_	
+6-6	and	O	O	_	_	
+6-7	adjust	B-ScrEv_check_temp	O	_	_	
+6-8	the	O	O	_	_	
+6-9	temperature	O	B-ScrPart_temperature	_	_	
+6-10	to	O	O	_	_	
+6-11	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	6-4	
+6-12	liking	O	B-NPart	_	_	
+6-13	.	O	O	_	_	
+
+#id=7
+#text=Once I have the tub filled halfway I turn off the water .
+7-1	Once	O	O	_	_	
+7-2	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	6-11	
+7-3	have	O	O	_	_	
+7-4	the	O	O	_	_	
+7-5	tub	O	B-ScrPart_bathtub	_	_	
+7-6	filled	B-ScrEv_fill_water/wait	O	_	_	
+7-7	halfway	O	O	_	_	
+7-8	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	7-2	
+7-9	turn	B-ScrEv_turn_water_off|B-ScrEv_turn_water_off	O	_	_	
+7-10	off	I-ScrEv_turn_water_off	O	_	_	
+7-11	the	O	O	_	_	
+7-12	water	O	B-ScrPart_water	webanno.custom.Corefchains_	6-5	
+7-13	.	O	O	_	_	
+
+#id=8
+#text=I get undressed and put my clothes in the clothes hamper .
+8-1	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	7-8	
+8-2	get	B-ScrEv_undress|B-ScrEv_undress	O	_	_	
+8-3	undressed	I-ScrEv_undress	O	_	_	
+8-4	and	O	O	_	_	
+8-5	put	B-MissScrEv	O	_	_	
+8-6	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	8-1	
+8-7	clothes	O	B-ScrPart_clothes	webanno.custom.Corefchains_	2-16	
+8-8	in	O	O	_	_	
+8-9	the	O	O	_	_	
+8-10	clothes	O	B-ScrPart_hamper	_	_	
+8-11	hamper	O	I-ScrPart_hamper|B-ScrPart_hamper	_	_	
+8-12	.	O	O	_	_	
+
+#id=9
+#text=I step into the tub and take a seat .
+9-1	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	8-6	
+9-2	step	B-ScrEv_sink_water	O	_	_	
+9-3	into	O	O	_	_	
+9-4	the	O	O	_	_	
+9-5	tub	O	B-ScrPart_bathtub	webanno.custom.Corefchains_	7-5	
+9-6	and	O	O	_	_	
+9-7	take	B-ScrEv_sink_water	O	_	_	
+9-8	a	O	O	_	_	
+9-9	seat	O	B-SuppVComp	_	_	
+9-10	.	O	O	_	_	
+
+#id=10
+#text=I get my washcloth and wet it to wash my face first .
+10-1	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	9-1	
+10-2	get	B-RelNScrEv	O	_	_	
+10-3	my	O	O	_	_	
+10-4	washcloth	O	B-ScrPart_washing_tools	webanno.custom.Corefchains_	4-6	
+10-5	and	O	O	_	_	
+10-6	wet	B-RelNScrEv	O	_	_	
+10-7	it	O	B-ScrPart_washing_tools	webanno.custom.Corefchains_	10-4	
+10-8	to	O	O	_	_	
+10-9	wash	B-ScrEv_wash	O	_	_	
+10-10	my	O	O	_	_	
+10-11	face	O	B-ScrPart_body_part	_	_	
+10-12	first	O	O	_	_	
+10-13	.	O	O	_	_	
+
+#id=11
+#text=I then dip my washcloth in the water again and lather it up with soap and begin washing the rest of my body .
+11-1	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	10-1	
+11-2	then	O	O	_	_	
+11-3	dip	B-RelNScrEv	O	_	_	
+11-4	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	11-1	
+11-5	washcloth	O	B-ScrPart_washing_tools	webanno.custom.Corefchains_	10-7	
+11-6	in	O	O	_	_	
+11-7	the	O	O	_	_	
+11-8	water	O	B-ScrPart_water	webanno.custom.Corefchains_	7-12	
+11-9	again	O	O	_	_	
+11-10	and	O	O	_	_	
+11-11	lather	B-ScrEv_apply_soap	O	_	_	
+11-12	it	O	O	_	_	
+11-13	up	O	O	_	_	
+11-14	with	O	O	_	_	
+11-15	soap	O	B-ScrPart_bath_means	_	_	
+11-16	and	O	O	_	_	
+11-17	begin	O	O	_	_	
+11-18	washing	B-ScrEv_wash	O	_	_	
+11-19	the	O	O	_	_	
+11-20	rest	O	O	_	_	
+11-21	of	O	O	_	_	
+11-22	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	11-4	
+11-23	body	O	B-ScrPart_body_part	_	_	
+11-24	.	O	O	_	_	
+
+#id=12
+#text=After I am through washing I make sure that I have rinsed all of the soap off my body good .
+12-1	After	O	O	_	_	
+12-2	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	11-22	
+12-3	am	O	O	_	_	
+12-4	through	O	O	_	_	
+12-5	washing	B-ScrEv_wash	O	_	_	
+12-6	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	12-2	
+12-7	make	B-UnrelEv|B-UnrelEv	O	_	_	
+12-8	sure	I-UnrelEv	O	_	_	
+12-9	that	O	O	_	_	
+12-10	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	12-6	
+12-11	have	O	O	_	_	
+12-12	rinsed	B-ScrEv_wash	O	_	_	
+12-13	all	O	O	_	_	
+12-14	of	O	O	_	_	
+12-15	the	O	O	_	_	
+12-16	soap	O	B-ScrPart_bath_means	webanno.custom.Corefchains_	11-15	
+12-17	off	O	O	_	_	
+12-18	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	12-10	
+12-19	body	O	B-ScrPart_body_part	webanno.custom.Corefchains_	11-23	
+12-20	good	O	O	_	_	
+12-21	.	O	O	_	_	
+
+#id=13
+#text=I unplug the drain and then stand up .
+13-1	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	12-18	
+13-2	unplug	B-ScrEv_open_drain	O	_	_	
+13-3	the	O	O	_	_	
+13-4	drain	O	B-ScrPart_drain	webanno.custom.Corefchains_	5-7	
+13-5	and	O	O	_	_	
+13-6	then	O	O	_	_	
+13-7	stand	B-ScrEv_get_out_bath	O	_	_	
+13-8	up	O	O	_	_	
+13-9	.	O	O	_	_	
+
+#id=14
+#text=I get my towel and dry off from head to toe .
+14-1	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	13-1	
+14-2	get	B-RelNScrEv	O	_	_	
+14-3	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	14-1	
+14-4	towel	O	B-ScrPart_towel	_	_	
+14-5	and	O	O	_	_	
+14-6	dry	B-ScrEv_dry|B-ScrEv_dry	O	_	_	
+14-7	off	I-ScrEv_dry	O	_	_	
+14-8	from	O	O	_	_	
+14-9	head	O	B-ScrPart_body_part	_	_	
+14-10	to	O	O	_	_	
+14-11	toe	O	B-ScrPart_body_part	_	_	
+14-12	.	O	I-ScrPart_body_part	_	_	
+
+#id=15
+#text=I then get my clothes and put them on .
+15-1	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	14-3	
+15-2	then	O	O	_	_	
+15-3	get	B-RelNScrEv	O	_	_	
+15-4	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	15-1	
+15-5	clothes	O	B-ScrPart_clothes	webanno.custom.Corefchains_	8-7	
+15-6	and	O	O	_	_	
+15-7	put	B-ScrEv_get_dressed	O	_	_	
+15-8	them	O	B-ScrPart_clothes	webanno.custom.Corefchains_	15-5	
+15-9	on	O	O	_	_	
+15-10	.	O	O	_	_	
+
+#id=16
+#text=I gather the bath mat from the floor and hang it over the shower rod to dry .
+16-1	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	15-4	
+16-2	gather	B-RelNScrEv	O	_	_	
+16-3	the	O	O	_	_	
+16-4	bath	O	B-MissScrPart	_	_	
+16-5	mat	O	I-MissScrPart|B-MissScrPart	webanno.custom.Corefchains_	3-8	
+16-6	from	O	O	_	_	
+16-7	the	O	O	_	_	
+16-8	floor	O	B-MissScrPart	webanno.custom.Corefchains_	3-15	
+16-9	and	O	O	_	_	
+16-10	hang	B-MissScrEv	O	_	_	
+16-11	it	O	B-MissScrPart	webanno.custom.Corefchains_	16-5	
+16-12	over	O	O	_	_	
+16-13	the	O	O	_	_	
+16-14	shower	O	B-MissScrPart	_	_	
+16-15	rod	O	I-MissScrPart|B-MissScrPart	_	_	
+16-16	to	O	O	_	_	
+16-17	dry	B-RelNScrEv	O	_	_	
+16-18	.	O	O	_	_	
+
+#id=17
+#text=I then make sure the bathtub is rinsed out . 
+17-1	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	16-1	
+17-2	then	O	O	_	_	
+17-3	make	B-UnrelEv|B-UnrelEv	O	_	_	
+17-4	sure	I-UnrelEv	O	_	_	
+17-5	the	O	O	_	_	
+17-6	bathtub	O	B-ScrPart_bathtub	_	_	
+17-7	is	O	O	_	_	
+17-8	rinsed	B-MissScrEv|B-MissScrEv	O	_	_	
+17-9	out	I-MissScrEv	O	_	_	
+17-10	.	O	O	_	_	
+

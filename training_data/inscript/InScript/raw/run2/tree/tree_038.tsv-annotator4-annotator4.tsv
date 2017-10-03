@@ -1,0 +1,237 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=I have actually planted a few trees in my day .
+1-1	I	B-ScrPart_gardener	O	
+1-2	have	O	O	
+1-3	actually	O	O	
+1-4	planted	O	B-Evoking	
+1-5	a	O	I-Evoking	
+1-6	few	O	I-Evoking	
+1-7	trees	B-ScrPart_tree	I-Evoking	
+1-8	in	O	O	
+1-9	my	B-ScrPart_gardener	O	
+1-10	day	B-No_label	O	
+1-11	.	O	O	
+
+#id=2
+#text=I helped my mom plant a few fruit trees that she had bought .
+2-1	I	B-ScrPart_gardener	O	
+2-2	helped	O	O	
+2-3	my	B-ScrPart_gardener	O	
+2-4	mom	B-ScrPart_gardener	O	
+2-5	plant	O	B-Evoking	
+2-6	a	O	I-Evoking	
+2-7	few	O	I-Evoking	
+2-8	fruit	B-ScrPart_tree	I-Evoking	
+2-9	trees	I-ScrPart_tree|B-ScrPart_tree	I-Evoking	
+2-10	that	B-ScrPart_tree	O	
+2-11	she	B-ScrPart_gardener	O	
+2-12	had	O	O	
+2-13	bought	O	B-ScrEv_get_tree	
+2-14	.	O	O	
+
+#id=3
+#text=Interestingly enough , we never leave them in the pot , but we never put them in the ground dirt either .
+3-1	Interestingly	O	O	
+3-2	enough	O	O	
+3-3	,	O	O	
+3-4	we	B-ScrPart_gardener	O	
+3-5	never	O	O	
+3-6	leave	O	B-RelNScrEv	
+3-7	them	B-ScrPart_tree	O	
+3-8	in	O	O	
+3-9	the	O	O	
+3-10	pot	B-ScrPart_wrapping	O	
+3-11	,	O	O	
+3-12	but	O	O	
+3-13	we	B-ScrPart_gardener	O	
+3-14	never	O	O	
+3-15	put	O	B-ScrEv_place_root	
+3-16	them	B-ScrPart_tree	O	
+3-17	in	O	O	
+3-18	the	O	O	
+3-19	ground	B-ScrPart_dirt	O	
+3-20	dirt	I-ScrPart_dirt|B-ScrPart_dirt	O	
+3-21	either	O	O	
+3-22	.	O	O	
+
+#id=4
+#text=We start out by digging a pretty deep hole .
+4-1	We	B-ScrPart_gardener	O	
+4-2	start	O	B-UnrelEv	
+4-3	out	O	I-UnrelEv	
+4-4	by	O	O	
+4-5	digging	O	B-ScrEv_dug_hole	
+4-6	a	O	O	
+4-7	pretty	O	O	
+4-8	deep	O	O	
+4-9	hole	B-ScrPart_hole	O	
+4-10	.	O	O	
+
+#id=5
+#text=Depending on the size of the tree and the roots , its usually about a foot and a half deep and about a foot wide .
+5-1	Depending	O	B-UnrelEv	
+5-2	on	O	O	
+5-3	the	O	O	
+5-4	size	B-NPart	O	
+5-5	of	O	O	
+5-6	the	O	O	
+5-7	tree	B-ScrPart_tree	O	
+5-8	and	O	O	
+5-9	the	O	O	
+5-10	roots	B-ScrPart_root	O	
+5-11	,	O	O	
+5-12	its	B-ScrPart_hole	B-UnrelEv	
+5-13	usually	O	O	
+5-14	about	O	O	
+5-15	a	O	O	
+5-16	foot	B-NPart	O	
+5-17	and	O	O	
+5-18	a	O	O	
+5-19	half	B-NPart	O	
+5-20	deep	O	O	
+5-21	and	O	O	
+5-22	about	O	O	
+5-23	a	O	O	
+5-24	foot	B-NPart	O	
+5-25	wide	O	O	
+5-26	.	O	O	
+
+#id=6
+#text=we then put soft planting soil in the bottom to make sure that the tree will have more nutrition .
+6-1	we	B-ScrPart_gardener	O	
+6-2	then	O	O	
+6-3	put	O	B-ScrEv_place_fertilizers	
+6-4	soft	O	O	
+6-5	planting	B-ScrPart_dirt	O	
+6-6	soil	I-ScrPart_dirt|B-ScrPart_dirt	O	
+6-7	in	O	O	
+6-8	the	O	O	
+6-9	bottom	B-NPart	O	
+6-10	to	O	O	
+6-11	make	O	B-UnrelEv	
+6-12	sure	O	I-UnrelEv	
+6-13	that	O	O	
+6-14	the	O	O	
+6-15	tree	B-ScrPart_tree	O	
+6-16	will	O	O	
+6-17	have	O	B-RelNScrEv	
+6-18	more	O	O	
+6-19	nutrition	B-NPart	O	
+6-20	.	O	O	
+
+#id=7
+#text=My mom also has manure that she uses sometimes , but I let her handle that one .
+7-1	My	B-ScrPart_gardener	O	
+7-2	mom	B-ScrPart_gardener	O	
+7-3	also	O	O	
+7-4	has	O	B-UnrelEv	
+7-5	manure	B-ScrPart_fertilizer	O	
+7-6	that	B-ScrPart_fertilizer	O	
+7-7	she	B-ScrPart_gardener	O	
+7-8	uses	O	B-ScrEv_place_fertilizers	
+7-9	sometimes	O	O	
+7-10	,	O	O	
+7-11	but	O	O	
+7-12	I	B-ScrPart_gardener	O	
+7-13	let	O	B-UnrelEv	
+7-14	her	B-ScrPart_gardener	O	
+7-15	handle	O	B-UnrelEv	
+7-16	that	O	O	
+7-17	one	B-ScrPart_fertilizer	O	
+7-18	.	O	O	
+
+#id=8
+#text=After we have everything set up , we take the tree out of the pot , and gently spread out the roots to make sure they can grow with some more space .
+8-1	After	O	O	
+8-2	we	B-ScrPart_gardener	O	
+8-3	have	O	O	
+8-4	everything	B-NPart	O	
+8-5	set	O	B-UnrelEv	
+8-6	up	O	I-UnrelEv	
+8-7	,	O	O	
+8-8	we	B-ScrPart_gardener	O	
+8-9	take	O	B-ScrEv_unwrap_root	
+8-10	the	O	O	
+8-11	tree	B-ScrPart_tree	O	
+8-12	out	O	O	
+8-13	of	O	O	
+8-14	the	O	O	
+8-15	pot	B-ScrPart_wrapping	O	
+8-16	,	O	O	
+8-17	and	O	O	
+8-18	gently	O	O	
+8-19	spread	O	B-ScrEv_unwrap_root	
+8-20	out	O	I-ScrEv_unwrap_root	
+8-21	the	O	O	
+8-22	roots	B-ScrPart_root	O	
+8-23	to	O	O	
+8-24	make	O	B-UnrelEv	
+8-25	sure	O	I-UnrelEv	
+8-26	they	B-ScrPart_root	O	
+8-27	can	O	O	
+8-28	grow	O	B-RelNScrEv	
+8-29	with	O	O	
+8-30	some	O	O	
+8-31	more	O	O	
+8-32	space	B-NPart	O	
+8-33	.	O	O	
+
+#id=9
+#text=Then we stick in in the hole , and put more dirt and whatever around it and gently pack it in .
+9-1	Then	O	O	
+9-2	we	B-ScrPart_gardener	O	
+9-3	stick	O	B-ScrEv_place_root	
+9-4	in	B-ScrPart_tree	O	
+9-5	in	O	O	
+9-6	the	O	O	
+9-7	hole	B-ScrPart_hole	O	
+9-8	,	O	O	
+9-9	and	O	O	
+9-10	put	O	B-ScrEv_refill_hole	
+9-11	more	O	O	
+9-12	dirt	B-ScrPart_dirt	O	
+9-13	and	O	O	
+9-14	whatever	B-NPart	O	
+9-15	around	O	O	
+9-16	it	B-ScrPart_tree	O	
+9-17	and	O	O	
+9-18	gently	O	O	
+9-19	pack	O	B-ScrEv_tamp_dirt	
+9-20	it	B-ScrPart_tree	O	
+9-21	in	O	O	
+9-22	.	O	O	
+
+#id=10
+#text=After all that , we find a stake of some sort and tie it next to the tree so it has something to keep it upright while it grows . 
+10-1	After	O	O	
+10-2	all	O	O	
+10-3	that	O	O	
+10-4	,	O	O	
+10-5	we	B-ScrPart_gardener	O	
+10-6	find	O	B-ScrEv_get_tools	
+10-7	a	O	O	
+10-8	stake	B-ScrPart_stake	O	
+10-9	of	O	O	
+10-10	some	O	O	
+10-11	sort	B-NPart	O	
+10-12	and	O	O	
+10-13	tie	O	B-ScrEv_tie_stakes_up	
+10-14	it	B-ScrPart_stake	O	
+10-15	next	O	O	
+10-16	to	O	O	
+10-17	the	O	O	
+10-18	tree	B-ScrPart_tree	O	
+10-19	so	O	O	
+10-20	it	B-ScrPart_tree	O	
+10-21	has	O	B-UnrelEv	
+10-22	something	B-ScrPart_stake	O	
+10-23	to	O	O	
+10-24	keep	O	B-RelNScrEv	
+10-25	it	B-ScrPart_tree	O	
+10-26	upright	O	O	
+10-27	while	O	O	
+10-28	it	B-ScrPart_tree	O	
+10-29	grows	O	B-RelNScrEv	
+10-30	.	O	O	
+

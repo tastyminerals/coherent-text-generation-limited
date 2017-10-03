@@ -1,0 +1,287 @@
+ # webanno.custom.Participants | Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=This morning , my sister decided to bake a cake for her friend who was visiting from out of town .
+1-1	This	O	O	O	
+1-2	morning	B-NPart	B-webanno.custom.Participants_	O	
+1-3	,	O	O	O	
+1-4	my	B-NPart	B-webanno.custom.Participants_	O	
+1-5	sister	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+1-6	decided	O	O	B-UnrelEv	
+1-7	to	O	O	O	
+1-8	bake	O	O	B-Evoking	
+1-9	a	O	O	I-Evoking	
+1-10	cake	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	
+1-11	for	O	O	O	
+1-12	her	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+1-13	friend	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	
+1-14	who	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	
+1-15	was	O	O	O	
+1-16	visiting	O	O	B-UnrelEv	
+1-17	from	O	O	O	
+1-18	out	O	O	O	
+1-19	of	O	O	O	
+1-20	town	B-NPart	B-webanno.custom.Participants_	O	
+1-21	.	O	O	O	
+
+#id=2
+#text=So , after stopping by the grocery store to buy some sugar , she gathered all of the ingredients and cooking utensils , she needed in her kitchen .
+2-1	So	O	O	O	
+2-2	,	O	O	O	
+2-3	after	O	O	O	
+2-4	stopping	O	O	B-RelNScrEv	
+2-5	by	O	O	O	
+2-6	the	O	O	O	
+2-7	grocery	B-ScrPart_store	B-webanno.custom.Participants_	O	
+2-8	store	I-ScrPart_store|B-ScrPart_store	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+2-9	to	O	O	O	
+2-10	buy	O	O	B-ScrEv_get_ingridients	
+2-11	some	O	O	O	
+2-12	sugar	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	
+2-13	,	O	O	O	
+2-14	she	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+2-15	gathered	O	O	B-ScrEv_get_ingridients	
+2-16	all	O	O	O	
+2-17	of	O	O	O	
+2-18	the	O	O	O	
+2-19	ingredients	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	
+2-20	and	O	O	O	
+2-21	cooking	B-ScrPart_utensil	B-webanno.custom.Participants_	O	
+2-22	utensils	I-ScrPart_utensil|B-ScrPart_utensil	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+2-23	,	O	O	O	
+2-24	she	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+2-25	needed	O	O	B-RelNScrEv	
+2-26	in	O	O	O	
+2-27	her	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+2-28	kitchen	B-ScrPart_kitchen/location	B-webanno.custom.Participants_	O	
+2-29	.	O	O	O	
+
+#id=3
+#text=She got butter , flour , cocoa powder , salt , baking powder , eggs , vanilla , and some buttermilk .
+3-1	She	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+3-2	got	O	O	B-ScrEv_get_ingridients	
+3-3	butter	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	
+3-4	,	O	O	O	
+3-5	flour	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	
+3-6	,	O	O	O	
+3-7	cocoa	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	
+3-8	powder	I-ScrPart_ingridients|B-ScrPart_ingridients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+3-9	,	O	O	O	
+3-10	salt	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	
+3-11	,	O	O	O	
+3-12	baking	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	
+3-13	powder	I-ScrPart_ingridients|B-ScrPart_ingridients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+3-14	,	O	O	O	
+3-15	eggs	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	
+3-16	,	O	O	O	
+3-17	vanilla	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	
+3-18	,	O	O	O	
+3-19	and	O	O	O	
+3-20	some	O	O	O	
+3-21	buttermilk	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	
+3-22	.	O	O	O	
+
+#id=4
+#text=Next , she preheated her oven to 350 degrees and greased her round baking pan with the butter .
+4-1	Next	O	O	O	
+4-2	,	O	O	O	
+4-3	she	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+4-4	preheated	O	O	B-ScrEv_preheat	
+4-5	her	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+4-6	oven	B-ScrPart_oven	B-webanno.custom.Participants_	O	
+4-7	to	O	O	O	
+4-8	350	B-ScrPart_temperature	B-webanno.custom.Participants_	O	
+4-9	degrees	I-ScrPart_temperature	I-webanno.custom.Participants_	O	
+4-10	and	O	O	O	
+4-11	greased	O	O	B-ScrEv_grease_cake_tin	
+4-12	her	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+4-13	round	O	O	O	
+4-14	baking	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	
+4-15	pan	I-ScrPart_cake_tin|B-ScrPart_cake_tin	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+4-16	with	O	O	O	
+4-17	the	O	O	O	
+4-18	butter	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	
+4-19	.	O	O	O	
+
+#id=5
+#text=She then mixed all of the wet ingredients such as the eggs , vanilla , and buttermilk in a mixing bowl .
+5-1	She	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+5-2	then	O	O	O	
+5-3	mixed	O	O	B-ScrEv_prepare_ingridients	
+5-4	all	O	O	O	
+5-5	of	O	O	O	
+5-6	the	O	O	O	
+5-7	wet	O	O	O	
+5-8	ingredients	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	
+5-9	such	O	O	O	
+5-10	as	O	O	O	
+5-11	the	O	O	O	
+5-12	eggs	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	
+5-13	,	O	O	O	
+5-14	vanilla	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	
+5-15	,	O	O	O	
+5-16	and	O	O	O	
+5-17	buttermilk	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	
+5-18	in	O	O	O	
+5-19	a	O	O	O	
+5-20	mixing	B-ScrPart_utensil	B-webanno.custom.Participants_	O	
+5-21	bowl	I-ScrPart_utensil|B-ScrPart_utensil	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+5-22	.	O	O	O	
+
+#id=6
+#text=For the dry ingredients like the flour , she mixed them separately in another , smaller bowl , where they were stirred together .
+6-1	For	O	O	O	
+6-2	the	O	O	O	
+6-3	dry	O	O	O	
+6-4	ingredients	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	
+6-5	like	O	O	O	
+6-6	the	O	O	O	
+6-7	flour	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	
+6-8	,	O	O	O	
+6-9	she	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+6-10	mixed	O	O	B-ScrEv_prepare_ingridients	
+6-11	them	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	
+6-12	separately	O	O	O	
+6-13	in	O	O	O	
+6-14	another	O	O	O	
+6-15	,	O	O	O	
+6-16	smaller	O	O	O	
+6-17	bowl	B-ScrPart_utensil	B-webanno.custom.Participants_	O	
+6-18	,	O	O	O	
+6-19	where	O	O	O	
+6-20	they	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	
+6-21	were	O	O	O	
+6-22	stirred	O	O	B-ScrEv_prepare_ingridients	
+6-23	together	O	O	O	
+6-24	.	O	O	O	
+
+#id=7
+#text=Once this was done , the dry mixture was combined with the wet mixture and then they were were thoroughly stirred together .
+7-1	Once	O	O	O	
+7-2	this	O	O	O	
+7-3	was	O	O	O	
+7-4	done	O	O	B-UnrelEv	
+7-5	,	O	O	O	
+7-6	the	O	O	O	
+7-7	dry	O	O	O	
+7-8	mixture	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	
+7-9	was	O	O	O	
+7-10	combined	O	O	B-ScrEv_prepare_ingridients	
+7-11	with	O	O	O	
+7-12	the	O	O	O	
+7-13	wet	O	O	O	
+7-14	mixture	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	
+7-15	and	O	O	O	
+7-16	then	O	O	O	
+7-17	they	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	
+7-18	were	O	O	O	
+7-19	were	O	O	O	
+7-20	thoroughly	O	O	O	
+7-21	stirred	O	O	B-ScrEv_make_dough	
+7-22	together	O	O	I-ScrEv_make_dough	
+7-23	.	O	O	O	
+
+#id=8
+#text=My sister then used a spatula to make sure all of the batter poured into the baking pan .
+8-1	My	B-NPart	B-webanno.custom.Participants_	O	
+8-2	sister	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+8-3	then	O	O	O	
+8-4	used	O	O	B-RelNScrEv	
+8-5	a	O	O	O	
+8-6	spatula	B-ScrPart_utensil	B-webanno.custom.Participants_	O	
+8-7	to	O	O	O	
+8-8	make	O	O	B-UnrelEv	
+8-9	sure	O	O	I-UnrelEv	
+8-10	all	O	O	O	
+8-11	of	O	O	O	
+8-12	the	O	O	O	
+8-13	batter	B-ScrPart_dough	B-webanno.custom.Participants_	O	
+8-14	poured	O	O	B-ScrEv_pour_dough	
+8-15	into	O	O	O	
+8-16	the	O	O	O	
+8-17	baking	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	
+8-18	pan	I-ScrPart_cake_tin|B-ScrPart_cake_tin	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+8-19	.	O	O	O	
+
+#id=9
+#text=After which , the pan was placed in the over for half an hour .
+9-1	After	O	O	O	
+9-2	which	O	O	O	
+9-3	,	O	O	O	
+9-4	the	O	O	O	
+9-5	pan	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	
+9-6	was	O	O	O	
+9-7	placed	O	O	B-ScrEv_put_cake_oven	
+9-8	in	O	O	O	
+9-9	the	O	O	O	
+9-10	over	B-ScrPart_oven	B-webanno.custom.Participants_	O	
+9-11	for	O	O	O	
+9-12	half	B-ScrPart_time	B-webanno.custom.Participants_	O	
+9-13	an	I-ScrPart_time	I-webanno.custom.Participants_	O	
+9-14	hour	I-ScrPart_time	I-webanno.custom.Participants_	O	
+9-15	.	O	O	O	
+
+#id=10
+#text=When the cake was ready , she took the cake and set it on her kitchen counter to cool off for a few minutes .
+10-1	When	O	O	O	
+10-2	the	O	O	O	
+10-3	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+10-4	was	O	O	B-RelNScrEv	
+10-5	ready	O	O	O	
+10-6	,	O	O	O	
+10-7	she	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+10-8	took	O	O	B-ScrEv_take_out_oven	
+10-9	the	O	O	O	
+10-10	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+10-11	and	O	O	O	
+10-12	set	O	O	B-ScrEv_cool_down	
+10-13	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+10-14	on	O	O	O	
+10-15	her	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+10-16	kitchen	B-ScrPart_kitchen/location	B-webanno.custom.Participants_	O	
+10-17	counter	I-ScrPart_kitchen/location|B-ScrPart_kitchen/location	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+10-18	to	O	O	O	
+10-19	cool	O	O	B-ScrEv_cool_down	
+10-20	off	O	O	I-ScrEv_cool_down	
+10-21	for	O	O	O	
+10-22	a	O	O	O	
+10-23	few	B-ScrPart_time	B-webanno.custom.Participants_	O	
+10-24	minutes	I-ScrPart_time	I-webanno.custom.Participants_	O	
+10-25	.	O	O	O	
+
+#id=11
+#text=Finally , she placed it onto a plate and carefully put on some chocolate buttercream frosting .
+11-1	Finally	O	O	O	
+11-2	,	O	O	O	
+11-3	she	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+11-4	placed	O	O	B-RelNScrEv	
+11-5	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+11-6	onto	O	O	O	
+11-7	a	O	O	O	
+11-8	plate	B-ScrPart_utensil	B-webanno.custom.Participants_	O	
+11-9	and	O	O	O	
+11-10	carefully	O	O	O	
+11-11	put	O	O	B-ScrEv_decorate	
+11-12	on	O	O	I-ScrEv_decorate	
+11-13	some	O	O	O	
+11-14	chocolate	B-ScrPart_decoration	B-webanno.custom.Participants_	O	
+11-15	buttercream	I-ScrPart_decoration	I-webanno.custom.Participants_	O	
+11-16	frosting	I-ScrPart_decoration|B-ScrPart_decoration	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+11-17	.	O	O	O	
+
+#id=12
+#text=The cake was now ready for her friend to enjoy once she arrived . 
+12-1	The	O	O	O	
+12-2	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+12-3	was	O	O	B-UnrelEv	
+12-4	now	O	O	O	
+12-5	ready	O	O	O	
+12-6	for	O	O	O	
+12-7	her	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+12-8	friend	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	
+12-9	to	O	O	O	
+12-10	enjoy	O	O	B-ScrEv_eat	
+12-11	once	O	O	O	
+12-12	she	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	
+12-13	arrived	O	O	B-UnrelEv	
+12-14	.	O	O	O	
+

@@ -1,0 +1,568 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Recently I was invited to a function at a church with a downtown location .
+1-1	Recently	O	O	_	_	
+1-2	I	O	O	_	_	
+1-3	was	O	O	_	_	
+1-4	invited	B-UnrelEv	O	_	_	
+1-5	to	O	O	_	_	
+1-6	a	O	O	_	_	
+1-7	function	O	O	_	_	
+1-8	at	O	O	_	_	
+1-9	a	O	O	_	_	
+1-10	church	O	O	_	_	
+1-11	with	O	O	_	_	
+1-12	a	O	O	_	_	
+1-13	downtown	O	O	_	_	
+1-14	location	O	O	_	_	
+1-15	.	O	O	_	_	
+
+#id=2
+#text=I live in a large city that has trains that travel within the city and also go to nearby towns .
+2-1	I	O	O	_	_	
+2-2	live	B-UnrelEv	O	_	_	
+2-3	in	O	O	_	_	
+2-4	a	O	O	_	_	
+2-5	large	O	O	_	_	
+2-6	city	O	O	_	_	
+2-7	that	O	O	_	_	
+2-8	has	B-UnrelEv	O	_	_	
+2-9	trains	O	O	_	_	
+2-10	that	O	O	_	_	
+2-11	travel	B-RelNScrEv	O	_	_	
+2-12	within	O	O	_	_	
+2-13	the	O	O	_	_	
+2-14	city	O	O	_	_	
+2-15	and	O	O	_	_	
+2-16	also	O	O	_	_	
+2-17	go	B-RelNScrEv	O	_	_	
+2-18	to	O	O	_	_	
+2-19	nearby	O	O	_	_	
+2-20	towns	O	O	_	_	
+2-21	.	O	O	_	_	
+
+#id=3
+#text=There are several routes that the trains travel called lines and they are named by colors : red , green and orange .
+3-1	There	O	O	_	_	
+3-2	are	B-UnrelEv	O	_	_	
+3-3	several	O	O	_	_	
+3-4	routes	O	O	_	_	
+3-5	that	O	O	_	_	
+3-6	the	O	O	_	_	
+3-7	trains	O	O	_	_	
+3-8	travel	B-RelNScrEv	O	_	_	
+3-9	called	O	O	_	_	
+3-10	lines	O	O	_	_	
+3-11	and	O	O	_	_	
+3-12	they	O	O	_	_	
+3-13	are	O	O	_	_	
+3-14	named	B-UnrelEv	O	_	_	
+3-15	by	O	O	_	_	
+3-16	colors	O	O	_	_	
+3-17	:	O	O	_	_	
+3-18	red	O	O	_	_	
+3-19	,	O	O	_	_	
+3-20	green	O	O	_	_	
+3-21	and	O	O	_	_	
+3-22	orange	O	O	_	_	
+3-23	.	O	O	_	_	
+
+#id=4
+#text=This is so passengers know what train to take to get where they want to go .
+4-1	This	O	O	_	_	
+4-2	is	B-UnrelEv	O	_	_	
+4-3	so	O	O	_	_	
+4-4	passengers	O	O	_	_	
+4-5	know	B-UnrelEv	O	_	_	
+4-6	what	O	O	_	_	
+4-7	train	O	O	_	_	
+4-8	to	O	O	_	_	
+4-9	take	B-Evoking	O	_	_	
+4-10	to	O	O	_	_	
+4-11	get	B-RelNScrEv	O	_	_	
+4-12	where	O	O	_	_	
+4-13	they	O	O	_	_	
+4-14	want	O	O	_	_	
+4-15	to	O	O	_	_	
+4-16	go	B-RelNScrEv	O	_	_	
+4-17	.	O	O	_	_	
+
+#id=5
+#text=The last time I went to that church I had a lot of trouble finding a parking spot , so I decided to take the train there .
+5-1	The	O	O	_	_	
+5-2	last	O	O	_	_	
+5-3	time	O	O	_	_	
+5-4	I	O	B-ScrPart_passenger	_	_	
+5-5	went	B-UnrelEv	O	_	_	
+5-6	to	O	O	_	_	
+5-7	that	O	O	_	_	
+5-8	church	O	B-ScrPart_destination	_	_	
+5-9	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	5-4	
+5-10	had	B-UnrelEv	O	_	_	
+5-11	a	O	O	_	_	
+5-12	lot	O	O	_	_	
+5-13	of	O	O	_	_	
+5-14	trouble	O	O	_	_	
+5-15	finding	B-UnrelEv	O	_	_	
+5-16	a	O	O	_	_	
+5-17	parking	O	O	_	_	
+5-18	spot	O	O	_	_	
+5-19	,	O	O	_	_	
+5-20	so	O	O	_	_	
+5-21	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	5-9	
+5-22	decided	B-UnrelEv	O	_	_	
+5-23	to	O	O	_	_	
+5-24	take	B-Evoking	O	_	_	
+5-25	the	I-Evoking	O	_	_	
+5-26	train	I-Evoking	B-ScrPart_train	group_trains	8-21	
+5-27	there	O	B-ScrPart_destination	webanno.custom.Corefchains_	5-8	
+5-28	.	O	O	_	_	
+
+#id=6
+#text=I knew that the train station was only a few blocks away from the church so it would be easy to get to the church .
+6-1	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	5-21	
+6-2	knew	B-UnrelEv	O	_	_	
+6-3	that	O	O	_	_	
+6-4	the	O	O	_	_	
+6-5	train	O	B-ScrPart_train_station	_	_	
+6-6	station	O	I-ScrPart_train_station|B-ScrPart_train_station	_	_	
+6-7	was	B-UnrelEv	O	_	_	
+6-8	only	O	O	_	_	
+6-9	a	O	O	_	_	
+6-10	few	O	O	_	_	
+6-11	blocks	O	O	_	_	
+6-12	away	O	O	_	_	
+6-13	from	O	O	_	_	
+6-14	the	O	O	_	_	
+6-15	church	O	B-ScrPart_destination	webanno.custom.Corefchains_	5-27	
+6-16	so	O	O	_	_	
+6-17	it	O	O	_	_	
+6-18	would	O	O	_	_	
+6-19	be	B-UnrelEv	O	_	_	
+6-20	easy	O	O	_	_	
+6-21	to	O	O	_	_	
+6-22	get	B-RelNScrEv	O	_	_	
+6-23	to	O	O	_	_	
+6-24	the	O	O	_	_	
+6-25	church	O	B-ScrPart_destination	webanno.custom.Corefchains_	6-15	
+6-26	.	O	O	_	_	
+
+#id=7
+#text=I drove to the train station closest to my house , and parked the car in the parking lot .
+7-1	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	6-1	
+7-2	drove	B-ScrEv_get_train_station	O	_	_	
+7-3	to	O	O	_	_	
+7-4	the	O	O	_	_	
+7-5	train	O	B-ScrPart_train_station	_	_	
+7-6	station	O	I-ScrPart_train_station|B-ScrPart_train_station	webanno.custom.Corefchains_	6-6	
+7-7	closest	O	O	_	_	
+7-8	to	O	O	_	_	
+7-9	my	O	B-ScrPart_passenger	webanno.custom.Corefchains_	7-1	
+7-10	house	O	B-NPart	_	_	
+7-11	,	O	O	_	_	
+7-12	and	O	O	_	_	
+7-13	parked	B-UnrelEv	O	_	_	
+7-14	the	O	O	_	_	
+7-15	car	O	O	_	_	
+7-16	in	O	O	_	_	
+7-17	the	O	O	_	_	
+7-18	parking	O	O	_	_	
+7-19	lot	O	O	_	_	
+7-20	.	O	O	_	_	
+
+#id=8
+#text=I walked to the station , where there were many benches for passengers to sit while they waited for their trains .
+8-1	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_|group_passengers	7-9|8-13	
+8-2	walked	B-ScrEv_get_train_station	O	_	_	
+8-3	to	O	O	_	_	
+8-4	the	O	O	_	_	
+8-5	station	O	B-ScrPart_train_station	webanno.custom.Corefchains_	7-6	
+8-6	,	O	O	_	_	
+8-7	where	O	O	_	_	
+8-8	there	O	O	_	_	
+8-9	were	B-UnrelEv	O	_	_	
+8-10	many	O	O	_	_	
+8-11	benches	O	O	_	_	
+8-12	for	O	O	_	_	
+8-13	passengers	O	B-ScrPart_passenger	_	_	
+8-14	to	O	O	_	_	
+8-15	sit	B-RelNScrEv	O	_	_	
+8-16	while	O	O	_	_	
+8-17	they	O	B-ScrPart_passenger	webanno.custom.Corefchains_	8-13	
+8-18	waited	B-ScrEv_wait	O	_	_	
+8-19	for	O	O	_	_	
+8-20	their	O	B-ScrPart_passenger	webanno.custom.Corefchains_	8-17	
+8-21	trains	O	B-ScrPart_train	_	_	
+8-22	.	O	O	_	_	
+
+#id=9
+#text=There was a machine on the platform that let you choose what type of ticket you needed .
+9-1	There	O	O	_	_	
+9-2	was	B-UnrelEv	O	_	_	
+9-3	a	O	O	_	_	
+9-4	machine	O	B-ScrPart_ticket_office/website	_	_	
+9-5	on	O	O	_	_	
+9-6	the	O	O	_	_	
+9-7	platform	O	B-ScrPart_platform	_	_	
+9-8	that	O	O	_	_	
+9-9	let	B-UnrelEv	O	_	_	
+9-10	you	O	B-ScrPart_passenger	webanno.custom.Corefchains_	8-1	
+9-11	choose	B-UnrelEv	O	_	_	
+9-12	what	O	O	_	_	
+9-13	type	O	O	_	_	
+9-14	of	O	O	_	_	
+9-15	ticket	O	B-ScrPart_card/ticket	_	_	
+9-16	you	O	B-ScrPart_passenger	webanno.custom.Corefchains_	9-10	
+9-17	needed	B-UnrelEv	O	_	_	
+9-18	.	O	O	_	_	
+
+#id=10
+#text=You could buy a ticket for only going one way or a round trip .
+10-1	You	O	B-ScrPart_passenger	webanno.custom.Corefchains_	9-16	
+10-2	could	O	O	_	_	
+10-3	buy	B-ScrEv_get_tickets	O	_	_	
+10-4	a	O	O	_	_	
+10-5	ticket	O	B-ScrPart_card/ticket	webanno.custom.Corefchains_	9-15	
+10-6	for	O	O	_	_	
+10-7	only	O	O	_	_	
+10-8	going	B-RelNScrEv	O	_	_	
+10-9	one	O	O	_	_	
+10-10	way	O	B-NPart	_	_	
+10-11	or	O	O	_	_	
+10-12	a	O	O	_	_	
+10-13	round	O	O	_	_	
+10-14	trip	O	B-NPart	_	_	
+10-15	.	O	O	_	_	
+
+#id=11
+#text=I chose the round trip ticket since I wanted to take the train to the church and back again .
+11-1	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	10-1	
+11-2	chose	B-ScrEv_get_tickets	O	_	_	
+11-3	the	O	O	_	_	
+11-4	round	O	B-ScrPart_card/ticket	_	_	
+11-5	trip	O	I-ScrPart_card/ticket	_	_	
+11-6	ticket	O	I-ScrPart_card/ticket|B-ScrPart_card/ticket	webanno.custom.Corefchains_	10-5	
+11-7	since	O	O	_	_	
+11-8	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	11-1	
+11-9	wanted	O	O	_	_	
+11-10	to	O	O	_	_	
+11-11	take	B-Evoking	O	_	_	
+11-12	the	I-Evoking	O	_	_	
+11-13	train	I-Evoking	B-ScrPart_train	webanno.custom.Corefchains_	5-26	
+11-14	to	O	O	_	_	
+11-15	the	O	O	_	_	
+11-16	church	O	B-ScrPart_destination	webanno.custom.Corefchains_	6-25	
+11-17	and	O	O	_	_	
+11-18	back	O	O	_	_	
+11-19	again	O	O	_	_	
+11-20	.	O	O	_	_	
+
+#id=12
+#text=The machine had a display that told me how much money I needed to deposit in the little slot .
+12-1	The	O	O	_	_	
+12-2	machine	O	B-ScrPart_ticket_office/website	webanno.custom.Corefchains_	9-4	
+12-3	had	B-UnrelEv	O	_	_	
+12-4	a	O	O	_	_	
+12-5	display	O	O	_	_	
+12-6	that	O	O	_	_	
+12-7	told	B-UnrelEv	O	_	_	
+12-8	me	O	B-ScrPart_passenger	webanno.custom.Corefchains_	11-8	
+12-9	how	O	O	_	_	
+12-10	much	O	O	_	_	
+12-11	money	O	B-ScrPart_payment_means	_	_	
+12-12	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	12-8	
+12-13	needed	O	O	_	_	
+12-14	to	O	O	_	_	
+12-15	deposit	B-ScrEv_get_tickets	O	_	_	
+12-16	in	O	O	_	_	
+12-17	the	O	O	_	_	
+12-18	little	O	O	_	_	
+12-19	slot	O	B-NPart	_	_	
+12-20	.	O	O	_	_	
+
+#id=13
+#text=I put the money in the machine and my ticket popped out .
+13-1	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	12-12	
+13-2	put	B-ScrEv_get_tickets	O	_	_	
+13-3	the	O	O	_	_	
+13-4	money	O	B-ScrPart_payment_means	webanno.custom.Corefchains_	12-11	
+13-5	in	O	O	_	_	
+13-6	the	O	O	_	_	
+13-7	machine	O	B-ScrPart_ticket_office/website	webanno.custom.Corefchains_	12-2	
+13-8	and	O	O	_	_	
+13-9	my	O	B-ScrPart_passenger	webanno.custom.Corefchains_	13-1	
+13-10	ticket	O	B-ScrPart_card/ticket	webanno.custom.Corefchains_	11-6	
+13-11	popped	B-UnrelEv	O	_	_	
+13-12	out	I-UnrelEv	O	_	_	
+13-13	.	O	O	_	_	
+
+#id=14
+#text=I waited for my train to arrive .
+14-1	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	13-9	
+14-2	waited	B-ScrEv_wait	O	_	_	
+14-3	for	O	O	_	_	
+14-4	my	O	B-ScrPart_passenger	webanno.custom.Corefchains_	14-1	
+14-5	train	O	B-ScrPart_train	webanno.custom.Corefchains_	11-13	
+14-6	to	O	O	_	_	
+14-7	arrive	B-ScrEv_train_arrives	O	_	_	
+14-8	.	O	O	_	_	
+
+#id=15
+#text=When it did , the doors opened and lots of people got off the train .
+15-1	When	O	O	_	_	
+15-2	it	O	B-ScrPart_train	webanno.custom.Corefchains_	14-5	
+15-3	did	B-UnrelEv	O	_	_	
+15-4	,	O	O	_	_	
+15-5	the	O	O	_	_	
+15-6	doors	O	B-ScrPart_door	_	_	
+15-7	opened	B-ScrEv_door_opens	O	_	_	
+15-8	and	O	O	_	_	
+15-9	lots	O	B-NPart	_	_	
+15-10	of	O	O	_	_	
+15-11	people	O	B-ScrPart_passenger	webanno.custom.Corefchains_	8-20	
+15-12	got	B-ScrEv_get_off	O	_	_	
+15-13	off	O	O	_	_	
+15-14	the	O	O	_	_	
+15-15	train	O	B-ScrPart_train	webanno.custom.Corefchains_	15-2	
+15-16	.	O	O	_	_	
+
+#id=16
+#text=I got on and everyone who was waiting for the train got on , too .
+16-1	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	14-4	
+16-2	got	B-MissScrEv	O	_	_	
+16-3	on	I-MissScrEv	O	_	_	
+16-4	and	O	O	_	_	
+16-5	everyone	O	B-ScrPart_passenger	webanno.custom.Corefchains_	15-11	
+16-6	who	O	O	_	_	
+16-7	was	O	O	_	_	
+16-8	waiting	B-ScrEv_wait	O	_	_	
+16-9	for	O	O	_	_	
+16-10	the	O	O	_	_	
+16-11	train	O	B-ScrPart_train	webanno.custom.Corefchains_	15-15	
+16-12	got	B-MissScrEv	O	_	_	
+16-13	on	I-MissScrEv	O	_	_	
+16-14	,	O	O	_	_	
+16-15	too	O	O	_	_	
+16-16	.	O	O	_	_	
+
+#id=17
+#text=I looked for a seat .
+17-1	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	16-1	
+17-2	looked	B-RelNScrEv	O	_	_	
+17-3	for	O	O	_	_	
+17-4	a	O	O	_	_	
+17-5	seat	O	B-ScrPart_seat	_	_	
+17-6	.	O	O	_	_	
+
+#id=18
+#text=I picked a seat that was facing forward , but there were seats that faced the center of the train and even ones that faced backward .
+18-1	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	17-1	
+18-2	picked	B-ScrEv_find_place	O	_	_	
+18-3	a	O	O	_	_	
+18-4	seat	O	B-ScrPart_seat	webanno.custom.Corefchains_|group_seats	17-5|18-13	
+18-5	that	O	O	_	_	
+18-6	was	O	O	_	_	
+18-7	facing	B-UnrelEv	O	_	_	
+18-8	forward	O	O	_	_	
+18-9	,	O	O	_	_	
+18-10	but	O	O	_	_	
+18-11	there	O	O	_	_	
+18-12	were	B-UnrelEv	O	_	_	
+18-13	seats	O	B-ScrPart_seat	_	_	
+18-14	that	O	O	_	_	
+18-15	faced	B-UnrelEv	O	_	_	
+18-16	the	O	O	_	_	
+18-17	center	O	B-ScrPart_location_train	_	_	
+18-18	of	O	O	_	_	
+18-19	the	O	O	_	_	
+18-20	train	O	B-ScrPart_train	webanno.custom.Corefchains_	16-11	
+18-21	and	O	O	_	_	
+18-22	even	O	O	_	_	
+18-23	ones	O	B-ScrPart_seat	webanno.custom.Corefchains_	18-13	
+18-24	that	O	O	_	_	
+18-25	faced	B-UnrelEv	O	_	_	
+18-26	backward	O	O	_	_	
+18-27	.	O	O	_	_	
+
+#id=19
+#text=The train 's doors shut and the train started to move along the rail .
+19-1	The	O	O	_	_	
+19-2	train	O	B-ScrPart_train	webanno.custom.Corefchains_	18-20	
+19-3	's	O	O	_	_	
+19-4	doors	O	B-ScrPart_door	webanno.custom.Corefchains_	15-6	
+19-5	shut	B-RelNScrEv	O	_	_	
+19-6	and	O	O	_	_	
+19-7	the	O	O	_	_	
+19-8	train	O	B-ScrPart_train	webanno.custom.Corefchains_	19-2	
+19-9	started	B-UnrelEv	O	_	_	
+19-10	to	O	O	_	_	
+19-11	move	B-ScrEv_train_departs	O	_	_	
+19-12	along	O	O	_	_	
+19-13	the	O	O	_	_	
+19-14	rail	O	B-NPart	_	_	
+19-15	.	O	O	_	_	
+
+#id=20
+#text=It went very fast .
+20-1	It	O	B-ScrPart_train	webanno.custom.Corefchains_	19-8	
+20-2	went	B-RelNScrEv	O	_	_	
+20-3	very	O	O	_	_	
+20-4	fast	O	O	_	_	
+20-5	.	O	O	_	_	
+
+#id=21
+#text=The train had windows on both sides and I looked out at the sights as we sped along .
+21-1	The	O	O	_	_	
+21-2	train	O	B-ScrPart_train	webanno.custom.Corefchains_	20-1	
+21-3	had	B-UnrelEv	O	_	_	
+21-4	windows	O	B-ScrPart_in-train_entertainment	_	_	
+21-5	on	O	O	_	_	
+21-6	both	O	O	_	_	
+21-7	sides	O	O	_	_	
+21-8	and	O	O	_	_	
+21-9	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	18-1	
+21-10	looked	B-ScrEv_spend_time_train	O	_	_	
+21-11	out	I-ScrEv_spend_time_train	O	_	_	
+21-12	at	O	O	_	_	
+21-13	the	O	O	_	_	
+21-14	sights	O	B-ScrPart_in-train_entertainment	_	_	
+21-15	as	O	O	_	_	
+21-16	we	O	B-ScrPart_passenger	webanno.custom.Corefchains_	16-5	
+21-17	sped	B-RelNScrEv	O	_	_	
+21-18	along	I-RelNScrEv	O	_	_	
+21-19	.	O	O	_	_	
+
+#id=22
+#text=In a few minutes it stopped at another station , and some people got off and others got on .
+22-1	In	O	O	_	_	
+22-2	a	O	O	_	_	
+22-3	few	O	O	_	_	
+22-4	minutes	O	B-ScrPart_time_date	_	_	
+22-5	it	O	B-ScrPart_train	webanno.custom.Corefchains_	21-2	
+22-6	stopped	B-RelNScrEv	O	_	_	
+22-7	at	O	O	_	_	
+22-8	another	O	O	_	_	
+22-9	station	O	B-ScrPart_train_station	_	_	
+22-10	,	O	O	_	_	
+22-11	and	O	O	_	_	
+22-12	some	O	O	_	_	
+22-13	people	O	B-ScrPart_passenger	webanno.custom.Corefchains_	21-16	
+22-14	got	B-ScrEv_get_off	O	_	_	
+22-15	off	I-ScrEv_get_off	O	_	_	
+22-16	and	O	O	_	_	
+22-17	others	O	B-ScrPart_passenger	webanno.custom.Corefchains_	22-13	
+22-18	got	B-MissScrEv	O	_	_	
+22-19	on	I-MissScrEv	O	_	_	
+22-20	.	O	O	_	_	
+
+#id=23
+#text=Pretty soon the conductor walked up and down the aisle asking to see everyone 's ticket .
+23-1	Pretty	O	O	_	_	
+23-2	soon	O	O	_	_	
+23-3	the	O	O	_	_	
+23-4	conductor	O	B-ScrPart_train_staff	_	_	
+23-5	walked	B-ScrEv_conductor_checks	O	_	_	
+23-6	up	O	O	_	_	
+23-7	and	O	O	_	_	
+23-8	down	O	O	_	_	
+23-9	the	O	O	_	_	
+23-10	aisle	O	B-ScrPart_location_train	_	_	
+23-11	asking	B-RelNScrEv	O	_	_	
+23-12	to	O	O	_	_	
+23-13	see	B-ScrEv_conductor_checks	O	_	_	
+23-14	everyone	O	B-ScrPart_passenger	webanno.custom.Corefchains_	22-17	
+23-15	's	O	O	_	_	
+23-16	ticket	O	B-ScrPart_card/ticket	webanno.custom.Corefchains_	13-10	
+23-17	.	O	O	_	_	
+
+#id=24
+#text=I showed her my ticket and she nodded and smiled .
+24-1	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	21-9	
+24-2	showed	B-ScrEv_conductor_checks	O	_	_	
+24-3	her	O	B-ScrPart_train_staff	webanno.custom.Corefchains_	23-4	
+24-4	my	O	B-ScrPart_passenger	webanno.custom.Corefchains_	24-1	
+24-5	ticket	O	B-ScrPart_card/ticket	webanno.custom.Corefchains_	23-16	
+24-6	and	O	O	_	_	
+24-7	she	O	B-ScrPart_train_staff	webanno.custom.Corefchains_	24-3	
+24-8	nodded	B-UnrelEv	O	_	_	
+24-9	and	O	O	_	_	
+24-10	smiled	B-UnrelEv	O	_	_	
+24-11	.	O	O	_	_	
+
+#id=25
+#text=At the next station , the train stopped .
+25-1	At	O	O	_	_	
+25-2	the	O	O	_	_	
+25-3	next	O	O	_	_	
+25-4	station	O	B-ScrPart_train_station	_	_	
+25-5	,	O	O	_	_	
+25-6	the	O	O	_	_	
+25-7	train	O	B-ScrPart_train	webanno.custom.Corefchains_	22-5	
+25-8	stopped	B-RelNScrEv	O	_	_	
+25-9	.	O	O	_	_	
+
+#id=26
+#text=This was the station that was closest to the church , so I got off .
+26-1	This	O	O	_	_	
+26-2	was	B-UnrelEv	O	_	_	
+26-3	the	O	O	_	_	
+26-4	station	O	B-ScrPart_train_station	webanno.custom.Corefchains_	25-4	
+26-5	that	O	O	_	_	
+26-6	was	B-UnrelEv	O	_	_	
+26-7	closest	O	O	_	_	
+26-8	to	O	O	_	_	
+26-9	the	O	O	_	_	
+26-10	church	O	B-ScrPart_destination	webanno.custom.Corefchains_	11-16	
+26-11	,	O	O	_	_	
+26-12	so	O	O	_	_	
+26-13	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	24-4	
+26-14	got	B-ScrEv_get_off	O	_	_	
+26-15	off	I-ScrEv_get_off	O	_	_	
+26-16	.	O	O	_	_	
+
+#id=27
+#text=When it was time to go home , I waited at the station for the train that would take me home again .
+27-1	When	O	O	_	_	
+27-2	it	O	O	_	_	
+27-3	was	O	O	_	_	
+27-4	time	O	O	_	_	
+27-5	to	O	O	_	_	
+27-6	go	O	O	_	_	
+27-7	home	O	O	_	_	
+27-8	,	O	O	_	_	
+27-9	I	O	O	_	_	
+27-10	waited	O	O	_	_	
+27-11	at	O	O	_	_	
+27-12	the	O	O	_	_	
+27-13	station	O	O	_	_	
+27-14	for	O	O	_	_	
+27-15	the	O	O	_	_	
+27-16	train	O	O	_	_	
+27-17	that	O	O	_	_	
+27-18	would	O	O	_	_	
+27-19	take	O	O	_	_	
+27-20	me	O	O	_	_	
+27-21	home	O	O	_	_	
+27-22	again	O	O	_	_	
+27-23	.	O	O	_	_	
+
+#id=28
+#text=Taking the train is a lot of fun , and sometimes a lot easier than driving . 
+28-1	Taking	O	O	_	_	
+28-2	the	O	O	_	_	
+28-3	train	O	O	_	_	
+28-4	is	O	O	_	_	
+28-5	a	O	O	_	_	
+28-6	lot	O	O	_	_	
+28-7	of	O	O	_	_	
+28-8	fun	O	O	_	_	
+28-9	,	O	O	_	_	
+28-10	and	O	O	_	_	
+28-11	sometimes	O	O	_	_	
+28-12	a	O	O	_	_	
+28-13	lot	O	O	_	_	
+28-14	easier	O	O	_	_	
+28-15	than	O	O	_	_	
+28-16	driving	O	O	_	_	
+28-17	.	O	O	_	_	
+

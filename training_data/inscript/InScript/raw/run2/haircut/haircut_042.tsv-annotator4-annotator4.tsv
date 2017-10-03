@@ -1,0 +1,240 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=It is important to have hair that is clean , groomed and presentable .
+1-1	It	B-No_label	O	_	_	
+1-2	is	O	B-UnrelEv	_	_	
+1-3	important	O	O	_	_	
+1-4	to	O	O	_	_	
+1-5	have	O	B-UnrelEv	_	_	
+1-6	hair	B-ScrPart_hair	O	_	_	
+1-7	that	B-ScrPart_hair	O	_	_	
+1-8	is	O	B-UnrelEv	_	_	
+1-9	clean	O	O	_	_	
+1-10	,	O	O	_	_	
+1-11	groomed	O	B-ScrEv_make_hair_style	_	_	
+1-12	and	O	O	_	_	
+1-13	presentable	O	O	_	_	
+1-14	.	O	O	_	_	
+
+#id=2
+#text=One key component to good hair is getting it cut .
+2-1	One	O	O	_	_	
+2-2	key	O	O	_	_	
+2-3	component	B-Head_of_Partitive	O	_	_	
+2-4	to	O	O	_	_	
+2-5	good	O	O	_	_	
+2-6	hair	B-ScrPart_hair	O	_	_	
+2-7	is	O	B-UnrelEv	_	_	
+2-8	getting	O	B-Evoking	_	_	
+2-9	it	B-ScrPart_hair	I-Evoking	_	_	
+2-10	cut	O	I-Evoking	_	_	
+2-11	.	O	O	_	_	
+
+#id=3
+#text=The way I like it cut is best done within the confines of a beauty school .
+3-1	The	O	O	_	_	
+3-2	way	B-No_label	O	_	_	
+3-3	I	B-ScrPart_customer	O	_	_	
+3-4	like	O	O	_	_	
+3-5	it	B-ScrPart_hair	O	_	_	
+3-6	cut	O	B-ScrEv_cut	_	_	
+3-7	is	O	O	_	_	
+3-8	best	O	O	_	_	
+3-9	done	O	B-UnrelEv	_	_	
+3-10	within	O	O	_	_	
+3-11	the	O	O	_	_	
+3-12	confines	B-Head_of_Partitive	O	_	_	
+3-13	of	O	O	_	_	
+3-14	a	O	O	_	_	
+3-15	beauty	B-ScrPart_salon	O	_	_	
+3-16	school	I-ScrPart_salon|B-ScrPart_salon	O	_	_	
+3-17	.	O	O	_	_	
+
+#id=4
+#text=To set up a cut at the beauty school which I like to go to , I call in a day or two before to set up an appointment .
+4-1	To	O	O	_	_	
+4-2	set	O	B-ScrEv_make_appointment	_	_	
+4-3	up	O	I-ScrEv_make_appointment	_	_	
+4-4	a	O	O	_	_	
+4-5	cut	B-ScrPart_haircut	O	_	_	
+4-6	at	O	O	_	_	
+4-7	the	O	O	_	_	
+4-8	beauty	B-ScrPart_salon	O	_	_	
+4-9	school	I-ScrPart_salon|B-ScrPart_salon	O	_	_	
+4-10	which	B-ScrPart_salon	O	_	_	
+4-11	I	B-ScrPart_customer	O	_	_	
+4-12	like	O	O	_	_	
+4-13	to	O	O	_	_	
+4-14	go	O	B-ScrEv_get_salon	_	_	
+4-15	to	O	O	_	_	
+4-16	,	O	O	_	_	
+4-17	I	B-ScrPart_customer	O	_	_	
+4-18	call	O	B-ScrEv_make_appointment	_	_	
+4-19	in	O	O	_	_	
+4-20	a	O	O	_	_	
+4-21	day	B-ScrPart_time/date	O	_	_	
+4-22	or	O	O	_	_	
+4-23	two	O	O	_	_	
+4-24	before	O	O	_	_	
+4-25	to	O	O	_	_	
+4-26	set	O	B-ScrEv_make_appointment	_	_	
+4-27	up	O	I-ScrEv_make_appointment	_	_	
+4-28	an	O	O	_	_	
+4-29	appointment	B-ScrPart_appointment	O	_	_	
+4-30	.	O	O	_	_	
+
+#id=5
+#text=At the appropriate appointment time I make my way to the school and check in .
+5-1	At	O	O	_	_	
+5-2	the	O	O	_	_	
+5-3	appropriate	O	O	_	_	
+5-4	appointment	B-ScrPart_time/date	O	_	_	
+5-5	time	I-ScrPart_time/date|B-ScrPart_time/date	O	_	_	
+5-6	I	B-ScrPart_customer	O	_	_	
+5-7	make	O	B-ScrEv_get_salon	_	_	
+5-8	my	B-ScrPart_customer	O	_	_	
+5-9	way	B-SuppVComp	O	_	_	
+5-10	to	O	O	_	_	
+5-11	the	O	O	_	_	
+5-12	school	B-ScrPart_salon	O	_	_	
+5-13	and	O	O	_	_	
+5-14	check	O	B-ScrEv_check_in	_	_	
+5-15	in	O	I-ScrEv_check_in	_	_	
+5-16	.	O	O	_	_	
+
+#id=6
+#text=A friendly student always greets me and steers me to her station .
+6-1	A	O	O	_	_	
+6-2	friendly	O	O	_	_	
+6-3	student	B-ScrPart_hairdresser	O	_	_	
+6-4	always	O	O	_	_	
+6-5	greets	O	B-ScrEv_small_talk	_	_	
+6-6	me	B-ScrPart_customer	O	_	_	
+6-7	and	O	O	_	_	
+6-8	steers	O	B-ScrEv_move_in_salon	_	_	
+6-9	me	B-ScrPart_customer	O	_	_	
+6-10	to	O	O	_	_	
+6-11	her	B-ScrPart_hairdresser	O	_	_	
+6-12	station	B-ScrPart_location_salon	O	_	_	
+6-13	.	O	O	_	_	
+
+#id=7
+#text=I explain to him or her thoroughly what I like done to my hair .
+7-1	I	B-ScrPart_customer	O	_	_	
+7-2	explain	O	B-ScrEv_talk_haircut	_	_	
+7-3	to	O	O	_	_	
+7-4	him	B-ScrPart_hairdresser	O	_	_	
+7-5	or	O	O	_	_	
+7-6	her	B-ScrPart_hairdresser	O	_	_	
+7-7	thoroughly	O	O	_	_	
+7-8	what	O	O	_	_	
+7-9	I	B-ScrPart_customer	O	_	_	
+7-10	like	O	O	_	_	
+7-11	done	O	B-ScrEv_talk_haircut	_	_	
+7-12	to	O	O	_	_	
+7-13	my	B-ScrPart_customer	O	_	_	
+7-14	hair	B-ScrPart_hair	O	_	_	
+7-15	.	O	O	_	_	
+
+#id=8
+#text=It helps that I always bring photos in to show what I would like it cut like .
+8-1	It	B-No_label	O	_	_	
+8-2	helps	O	B-UnrelEv	_	_	
+8-3	that	O	O	_	_	
+8-4	I	B-ScrPart_customer	O	_	_	
+8-5	always	O	O	_	_	
+8-6	bring	O	B-RelNScrEv	_	_	
+8-7	photos	B-NPart	O	_	_	
+8-8	in	O	O	_	_	
+8-9	to	O	O	_	_	
+8-10	show	O	B-ScrEv_talk_haircut	_	_	
+8-11	what	B-NPart	O	_	_	
+8-12	I	B-ScrPart_customer	O	_	_	
+8-13	would	O	O	_	_	
+8-14	like	O	B-ScrEv_talk_haircut	_	_	
+8-15	it	B-ScrPart_hair	O	_	_	
+8-16	cut	O	B-ScrEv_cut	_	_	
+8-17	like	O	O	_	_	
+8-18	.	O	O	_	_	
+
+#id=9
+#text=As they cut my hair I always chat with them .
+9-1	As	O	O	_	_	
+9-2	they	B-ScrPart_hairdresser	O	_	_	
+9-3	cut	O	B-ScrEv_cut	_	_	
+9-4	my	B-ScrPart_customer	O	_	_	
+9-5	hair	B-ScrPart_hair	O	_	_	
+9-6	I	B-ScrPart_customer	O	_	_	
+9-7	always	O	O	_	_	
+9-8	chat	O	B-ScrEv_small_talk	_	_	
+9-9	with	O	O	_	_	
+9-10	them	B-ScrPart_hairdresser	O	_	_	
+9-11	.	O	O	_	_	
+
+#id=10
+#text=I like getting to know people and this is always enjoyable for me and for my stylist .
+10-1	I	B-ScrPart_customer	O	_	_	
+10-2	like	O	O	_	_	
+10-3	getting	O	B-UnrelEv	_	_	
+10-4	to	O	O	_	_	
+10-5	know	O	B-UnrelEv	_	_	
+10-6	people	B-NPart	O	_	_	
+10-7	and	O	O	_	_	
+10-8	this	O	O	_	_	
+10-9	is	O	B-UnrelEv	_	_	
+10-10	always	O	O	_	_	
+10-11	enjoyable	O	O	_	_	
+10-12	for	O	O	_	_	
+10-13	me	B-ScrPart_customer	O	_	_	
+10-14	and	O	O	_	_	
+10-15	for	O	O	_	_	
+10-16	my	B-ScrPart_customer	O	_	_	
+10-17	stylist	B-ScrPart_hairdresser	O	_	_	
+10-18	.	O	O	_	_	
+
+#id=11
+#text=At the end of the cut , they brush off all the hair and ask how I like it .
+11-1	At	O	O	_	_	
+11-2	the	O	O	_	_	
+11-3	end	B-Head_of_Partitive	O	_	_	
+11-4	of	O	O	_	_	
+11-5	the	O	O	_	_	
+11-6	cut	B-ScrPart_haircut	O	webanno.custom.Corefchains_	4-5	
+11-7	,	O	O	_	_	
+11-8	they	B-ScrPart_hairdresser	O	_	_	
+11-9	brush	O	B-ScrEv_brush_hair	_	_	
+11-10	off	O	I-ScrEv_brush_hair	_	_	
+11-11	all	O	O	_	_	
+11-12	the	O	O	_	_	
+11-13	hair	B-ScrPart_hair	O	_	_	
+11-14	and	O	O	_	_	
+11-15	ask	O	B-ScrEv_customer_opinion	_	_	
+11-16	how	O	O	_	_	
+11-17	I	B-ScrPart_customer	O	_	_	
+11-18	like	O	B-ScrEv_customer_opinion	_	_	
+11-19	it	B-ScrPart_hair	O	_	_	
+11-20	.	O	O	_	_	
+
+#id=12
+#text=I always give glowing praise .
+12-1	I	B-ScrPart_customer	O	_	_	
+12-2	always	O	O	_	_	
+12-3	give	O	B-ScrEv_customer_opinion	_	_	
+12-4	glowing	O	B-UnrelEv	_	_	
+12-5	praise	B-NPart	O	_	_	
+12-6	.	O	O	_	_	
+
+#id=13
+#text=I pay for the cut and am on my way . 
+13-1	I	B-ScrPart_customer	O	_	_	
+13-2	pay	O	B-ScrEv_pay	_	_	
+13-3	for	O	O	_	_	
+13-4	the	O	O	_	_	
+13-5	cut	B-ScrPart_haircut	O	webanno.custom.Corefchains_	11-6	
+13-6	and	O	O	_	_	
+13-7	am	O	B-ScrEv_leave	_	_	
+13-8	on	O	O	_	_	
+13-9	my	B-ScrPart_customer	O	_	_	
+13-10	way	B-SuppVComp	O	_	_	
+13-11	.	O	O	_	_	
+

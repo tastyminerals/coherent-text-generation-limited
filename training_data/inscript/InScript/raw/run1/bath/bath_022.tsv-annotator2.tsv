@@ -1,0 +1,189 @@
+# webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants					
+#id=1					
+#text=I was getting ready to go out and needed to get cleaned before I went so I decided to take a bath .					
+1-1	I	B-ScrPart_bather	O	_	_
+1-2	was	O	O	_	_
+1-3	getting	O	B-UnrelEv	_	_
+1-4	ready	O	O	_	_
+1-5	to	O	O	_	_
+1-6	go	O	B-UnrelEv	_	_
+1-7	out	O	I-UnrelEv	_	_
+1-8	and	O	O	_	_
+1-9	needed	O	O	_	_
+1-10	to	O	O	_	_
+1-11	get	O	B-ScrEv_wash	_	_
+1-12	cleaned	O	I-ScrEv_wash	_	_
+1-13	before	O	O	_	_
+1-14	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	1-1
+1-15	went	O	B-UnrelEv	_	_
+1-16	so	O	O	_	_
+1-17	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	1-14
+1-18	decided	O	B-UnrelEv	_	_
+1-19	to	O	O	_	_
+1-20	take	O	B-Evoking	_	_
+1-21	a	O	I-Evoking	_	_
+1-22	bath	O	I-Evoking	_	_
+1-23	.	O	O	_	_
+					
+#id=2					
+#text=I filled the bathtub with warm water and added some bubble bath .					
+2-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	1-17
+2-2	filled	O	B-ScrEv_fill_water/wait	_	_
+2-3	the	O	O	_	_
+2-4	bathtub	B-ScrPart_bathtub	O	_	_
+2-5	with	O	O	_	_
+2-6	warm	O	O	_	_
+2-7	water	B-ScrPart_water	O	_	_
+2-8	and	O	O	_	_
+2-9	added	O	B-ScrEv_put_bubble_bath_scent	_	_
+2-10	some	O	O	_	_
+2-11	bubble	B-ScrPart_bath_means	O	_	_
+2-12	bath	I-ScrPart_bath_means	O	_	_
+2-13	.	O	O	_	_
+					
+#id=3					
+#text=I got undressed and stepped into the water .					
+3-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	2-1
+3-2	got	O	B-ScrEv_undress	_	_
+3-3	undressed	O	I-ScrEv_undress	_	_
+3-4	and	O	O	_	_
+3-5	stepped	O	B-ScrEv_sink_water	_	_
+3-6	into	O	O	_	_
+3-7	the	O	O	_	_
+3-8	water	B-ScrPart_water	O	webanno.custom.Corefchains_	2-7
+3-9	.	O	O	_	_
+					
+#id=4					
+#text=I grabbed the soap and rubbed it on my body and rinsed the soap off in the water .					
+4-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	3-1
+4-2	grabbed	O	B-RelNScrEv	_	_
+4-3	the	O	O	_	_
+4-4	soap	B-ScrPart_washing_tools	O	_	_
+4-5	and	O	O	_	_
+4-6	rubbed	O	B-ScrEv_wash	_	_
+4-7	it	B-ScrPart_washing_tools	O	webanno.custom.Corefchains_	4-4
+4-8	on	O	O	_	_
+4-9	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	4-1
+4-10	body	B-ScrPart_body_part	O	_	_
+4-11	and	O	O	_	_
+4-12	rinsed	O	B-RelNScrEv	_	_
+4-13	the	O	O	_	_
+4-14	soap	B-ScrPart_washing_tools	O	webanno.custom.Corefchains_	4-7
+4-15	off	O	O	_	_
+4-16	in	O	O	_	_
+4-17	the	O	O	_	_
+4-18	water	B-ScrPart_water	O	webanno.custom.Corefchains_	3-8
+4-19	.	O	O	_	_
+					
+#id=5					
+#text=Then I laid down in the bathtub to get my hair wet the put some shampoo on my hair .					
+5-1	Then	O	O	_	_
+5-2	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	4-9
+5-3	laid	O	B-RelNScrEv	_	_
+5-4	down	O	I-RelNScrEv	_	_
+5-5	in	O	O	_	_
+5-6	the	O	O	_	_
+5-7	bathtub	B-ScrPart_bathtub	O	webanno.custom.Corefchains_	2-4
+5-8	to	O	O	_	_
+5-9	get	O	B-RelNScrEv	_	_
+5-10	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	5-2
+5-11	hair	B-ScrPart_hair	O	_	_
+5-12	wet	O	O	_	_
+5-13	the	O	O	_	_
+5-14	put	O	B-ScrEv_wash	_	_
+5-15	some	O	O	_	_
+5-16	shampoo	B-ScrPart_washing_tools	O	_	_
+5-17	on	O	O	_	_
+5-18	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	5-10
+5-19	hair	B-ScrPart_hair	O	webanno.custom.Corefchains_	5-11
+5-20	.	O	O	_	_
+					
+#id=6					
+#text=It was a fruity smelling shampoo and smelled really nice .					
+6-1	It	B-ScrPart_washing_tools	O	webanno.custom.Corefchains_	5-16
+6-2	was	O	B-UnrelEv	_	_
+6-3	a	O	O	_	_
+6-4	fruity	O	O	_	_
+6-5	smelling	O	B-UnrelEv	_	_
+6-6	shampoo	B-ScrPart_washing_tools	O	webanno.custom.Corefchains_	6-1
+6-7	and	O	O	_	_
+6-8	smelled	O	B-UnrelEv	_	_
+6-9	really	O	O	_	_
+6-10	nice	O	O	_	_
+6-11	.	O	O	_	_
+					
+#id=7					
+#text=Then I rubbed my hair to get the shampoo through it .					
+7-1	Then	O	O	_	_
+7-2	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	5-18
+7-3	rubbed	O	B-ScrEv_wash	_	_
+7-4	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	7-2
+7-5	hair	B-ScrPart_hair	O	webanno.custom.Corefchains_	5-19
+7-6	to	O	O	_	_
+7-7	get	O	B-UnrelEv	_	_
+7-8	the	O	O	_	_
+7-9	shampoo	B-ScrPart_washing_tools	O	webanno.custom.Corefchains_	6-6
+7-10	through	O	O	_	_
+7-11	it	B-ScrPart_hair	O	webanno.custom.Corefchains_	7-5
+7-12	.	O	O	_	_
+					
+#id=8					
+#text=Then I laid back down in the tub to rinse the shampoo out of my hair .					
+8-1	Then	O	O	_	_
+8-2	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	7-4
+8-3	laid	O	B-RelNScrEv	_	_
+8-4	back	O	O	_	_
+8-5	down	O	O	_	_
+8-6	in	O	O	_	_
+8-7	the	O	O	_	_
+8-8	tub	B-ScrPart_bathtub	O	webanno.custom.Corefchains_	5-7
+8-9	to	O	O	_	_
+8-10	rinse	O	B-RelNScrEv	_	_
+8-11	the	O	O	_	_
+8-12	shampoo	B-ScrPart_washing_tools	O	webanno.custom.Corefchains_	7-9
+8-13	out	O	O	_	_
+8-14	of	O	O	_	_
+8-15	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	8-2
+8-16	hair	B-ScrPart_hair	O	webanno.custom.Corefchains_	7-11
+8-17	.	O	O	_	_
+					
+#id=9					
+#text=Then I laid in the water for about ten minutes meditating .					
+9-1	Then	O	O	_	_
+9-2	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	8-15
+9-3	laid	O	B-ScrEv_relax	_	_
+9-4	in	O	O	_	_
+9-5	the	O	O	_	_
+9-6	water	B-ScrPart_water	O	webanno.custom.Corefchains_	4-18
+9-7	for	O	O	_	_
+9-8	about	O	O	_	_
+9-9	ten	O	O	_	_
+9-10	minutes	O	O	_	_
+9-11	meditating	O	B-ScrEv_relax	_	_
+9-12	.	O	O	_	_
+					
+#id=10					
+#text=Then I got out of the tub and grabbed a towel and dried off .					
+10-1	Then	O	O	_	_
+10-2	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	9-2
+10-3	got	O	B-ScrEv_get_out_bath	_	_
+10-4	out	O	O	_	_
+10-5	of	O	O	_	_
+10-6	the	O	O	_	_
+10-7	tub	B-ScrPart_bathtub	O	webanno.custom.Corefchains_	8-8
+10-8	and	O	O	_	_
+10-9	grabbed	O	B-RelNScrEv	_	_
+10-10	a	O	O	_	_
+10-11	towel	B-ScrPart_towel	O	_	_
+10-12	and	O	O	_	_
+10-13	dried	O	B-ScrEv_dry	_	_
+10-14	off	O	I-ScrEv_dry	_	_
+10-15	.	O	O	_	_
+					
+#id=11					
+#text=Then I got dressed .					
+11-1	Then	O	O	_	_
+11-2	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	10-2
+11-3	got	O	B-ScrEv_get_dressed	_	_
+11-4	dressed	O	I-ScrEv_get_dressed	_	_
+11-5	.	O	O	_	_

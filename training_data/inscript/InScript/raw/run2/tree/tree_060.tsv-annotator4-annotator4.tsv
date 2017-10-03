@@ -1,0 +1,240 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=My backyard was looking a little empty , so I decided I would plant something in it .
+1-1	My	B-ScrPart_gardener	O	
+1-2	backyard	B-NPart	O	
+1-3	was	O	O	
+1-4	looking	O	B-UnrelEv	
+1-5	a	O	O	
+1-6	little	O	O	
+1-7	empty	O	O	
+1-8	,	O	O	
+1-9	so	O	O	
+1-10	I	B-ScrPart_gardener	O	
+1-11	decided	O	B-UnrelEv	
+1-12	I	B-ScrPart_gardener	O	
+1-13	would	O	O	
+1-14	plant	O	B-Evoking	
+1-15	something	B-ScrPart_tree	I-Evoking	
+1-16	in	O	O	
+1-17	it	B-NPart	O	
+1-18	.	O	O	
+
+#id=2
+#text=I decided on a tree .
+2-1	I	B-ScrPart_gardener	O	
+2-2	decided	O	B-ScrEv_choose_tree	
+2-3	on	O	I-ScrEv_choose_tree	
+2-4	a	O	O	
+2-5	tree	B-ScrPart_tree	O	
+2-6	.	O	O	
+
+#id=3
+#text=I went out and bought some tree seeds .
+3-1	I	B-ScrPart_gardener	O	
+3-2	went	O	B-RelNScrEv	
+3-3	out	O	I-RelNScrEv	
+3-4	and	O	O	
+3-5	bought	O	B-ScrEv_get_tree	
+3-6	some	O	O	
+3-7	tree	B-ScrPart_seeds	O	
+3-8	seeds	I-ScrPart_seeds|B-ScrPart_seeds	O	
+3-9	.	O	O	
+
+#id=4
+#text=I picked a species that I thought would grow well in the sun since my back yard receives a lot of sunlight .
+4-1	I	B-ScrPart_gardener	O	
+4-2	picked	O	B-ScrEv_choose_tree	
+4-3	a	O	O	
+4-4	species	B-ScrPart_tree	O	
+4-5	that	B-ScrPart_tree	O	
+4-6	I	B-ScrPart_gardener	O	
+4-7	thought	O	B-UnrelEv	
+4-8	would	O	O	
+4-9	grow	O	B-RelNScrEv	
+4-10	well	O	O	
+4-11	in	O	O	
+4-12	the	O	O	
+4-13	sun	B-NPart	O	
+4-14	since	O	O	
+4-15	my	B-ScrPart_gardener	O	
+4-16	back	B-NPart	O	
+4-17	yard	I-NPart	O	
+4-18	receives	O	B-UnrelEv	
+4-19	a	O	O	
+4-20	lot	B-Head_of_Partitive	O	
+4-21	of	O	O	
+4-22	sunlight	B-NPart	O	
+4-23	.	O	O	
+
+#id=5
+#text=Once I was back home , I brought out all my gardening tools .
+5-1	Once	O	O	
+5-2	I	B-ScrPart_gardener	O	
+5-3	was	O	B-ScrEv_take_home	
+5-4	back	O	I-ScrEv_take_home	
+5-5	home	B-NPart	O	
+5-6	,	O	O	
+5-7	I	B-ScrPart_gardener	O	
+5-8	brought	O	B-ScrEv_get_tools	
+5-9	out	O	I-ScrEv_get_tools	
+5-10	all	O	O	
+5-11	my	B-ScrPart_gardener	O	
+5-12	gardening	B-ScrPart_gardening_tool	O	
+5-13	tools	I-ScrPart_gardening_tool|B-ScrPart_gardening_tool	O	
+5-14	.	O	O	
+
+#id=6
+#text=I found a shovel and a watering can .
+6-1	I	B-ScrPart_gardener	O	
+6-2	found	O	B-ScrEv_get_tools	
+6-3	a	O	O	
+6-4	shovel	B-ScrPart_gardening_tool	O	
+6-5	and	O	O	
+6-6	a	O	O	
+6-7	watering	B-ScrPart_gardening_tool	O	
+6-8	can	I-ScrPart_gardening_tool|B-ScrPart_gardening_tool	O	
+6-9	.	O	O	
+
+#id=7
+#text=With my seeds and tools , I found a spot in my yard that looked like it would get enough sunshine .
+7-1	With	O	O	
+7-2	my	B-ScrPart_gardener	O	
+7-3	seeds	B-ScrPart_seeds	O	
+7-4	and	O	O	
+7-5	tools	B-ScrPart_gardening_tool	O	
+7-6	,	O	O	
+7-7	I	B-ScrPart_gardener	O	
+7-8	found	O	B-ScrEv_find_place	
+7-9	a	O	O	
+7-10	spot	B-ScrPart_location_garden	O	
+7-11	in	O	O	
+7-12	my	B-ScrPart_gardener	O	
+7-13	yard	B-NPart	O	
+7-14	that	B-ScrPart_location_garden	O	
+7-15	looked	O	B-UnrelEv	
+7-16	like	O	O	
+7-17	it	B-ScrPart_location_garden	O	
+7-18	would	O	O	
+7-19	get	O	B-RelNScrEv	
+7-20	enough	O	O	
+7-21	sunshine	B-NPart	O	
+7-22	.	O	O	
+
+#id=8
+#text=There , I dug a hole for the seeds .
+8-1	There	O	O	
+8-2	,	O	O	
+8-3	I	B-ScrPart_gardener	O	
+8-4	dug	O	B-ScrEv_dug_hole	
+8-5	a	O	O	
+8-6	hole	B-ScrPart_hole	O	
+8-7	for	O	O	
+8-8	the	O	O	
+8-9	seeds	B-ScrPart_seeds	O	
+8-10	.	O	O	
+
+#id=9
+#text=I put a few in , and covered dirt back on top .
+9-1	I	B-ScrPart_gardener	O	
+9-2	put	O	B-ScrEv_place_root	
+9-3	a	O	O	
+9-4	few	B-ScrPart_seeds	O	
+9-5	in	O	O	
+9-6	,	O	O	
+9-7	and	O	O	
+9-8	covered	O	B-ScrEv_refill_hole	
+9-9	dirt	B-ScrPart_dirt	O	
+9-10	back	O	O	
+9-11	on	O	O	
+9-12	top	B-NPart	O	
+9-13	.	O	O	
+
+#id=10
+#text=After that I patted the the mound of earth back down .
+10-1	After	O	O	
+10-2	that	O	O	
+10-3	I	B-ScrPart_gardener	O	
+10-4	patted	O	B-ScrEv_damp_dirt	
+10-5	the	O	O	
+10-6	the	O	O	
+10-7	mound	B-Head_of_Partitive	O	
+10-8	of	O	O	
+10-9	earth	B-ScrPart_dirt	O	
+10-10	back	O	O	
+10-11	down	O	O	
+10-12	.	O	O	
+
+#id=11
+#text=Once that was done , I took my watering can and watered the seeds until the soil was fairly moist .
+11-1	Once	O	O	
+11-2	that	O	O	
+11-3	was	O	O	
+11-4	done	O	B-UnrelEv	
+11-5	,	O	O	
+11-6	I	B-ScrPart_gardener	O	
+11-7	took	O	B-ScrEv_get_tools	
+11-8	my	B-ScrPart_gardener	O	
+11-9	watering	B-ScrPart_gardening_tool	O	
+11-10	can	I-ScrPart_gardening_tool|B-ScrPart_gardening_tool	O	
+11-11	and	O	O	
+11-12	watered	O	B-ScrEv_water	
+11-13	the	O	O	
+11-14	seeds	B-ScrPart_seeds	O	
+11-15	until	O	O	
+11-16	the	O	O	
+11-17	soil	B-ScrPart_dirt	O	
+11-18	was	O	B-ScrEv_water	
+11-19	fairly	O	O	
+11-20	moist	O	O	
+11-21	.	O	O	
+
+#id=12
+#text=After that , I went to put away gardening supplies .
+12-1	After	O	O	
+12-2	that	O	O	
+12-3	,	O	O	
+12-4	I	B-ScrPart_gardener	O	
+12-5	went	O	B-UnrelEv	
+12-6	to	O	O	
+12-7	put	O	B-ScrEv_put_away_tools	
+12-8	away	O	I-ScrEv_put_away_tools	
+12-9	gardening	B-ScrPart_gardening_tool	O	
+12-10	supplies	I-ScrPart_gardening_tool|B-ScrPart_gardening_tool	O	
+12-11	.	O	O	
+
+#id=13
+#text=I planned to water my tree periodically .
+13-1	I	B-ScrPart_gardener	O	
+13-2	planned	O	B-UnrelEv	
+13-3	to	O	O	
+13-4	water	O	B-ScrEv_water	
+13-5	my	B-ScrPart_gardener	O	
+13-6	tree	B-ScrPart_tree	O	
+13-7	periodically	O	O	
+13-8	.	O	O	
+
+#id=14
+#text=I knew that if I took good care of it , it would grow up to be a full-sized tree . 
+14-1	I	B-ScrPart_gardener	O	
+14-2	knew	O	B-UnrelEv	
+14-3	that	O	O	
+14-4	if	O	O	
+14-5	I	B-ScrPart_gardener	O	
+14-6	took	O	B-ScrEv_water	
+14-7	good	O	O	
+14-8	care	B-SuppVComp	O	
+14-9	of	O	O	
+14-10	it	B-ScrPart_tree	O	
+14-11	,	O	O	
+14-12	it	B-ScrPart_tree	O	
+14-13	would	O	O	
+14-14	grow	O	B-RelNScrEv	
+14-15	up	O	I-RelNScrEv	
+14-16	to	O	O	
+14-17	be	O	B-UnrelEv	
+14-18	a	O	O	
+14-19	full-sized	O	O	
+14-20	tree	B-ScrPart_tree	O	
+14-21	.	O	O	
+

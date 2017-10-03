@@ -1,0 +1,234 @@
+ # webanno.custom.Participants | Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=Last week was my friend 's birthday .
+1-1	Last	O	O	O	
+1-2	week	B-NPart	B-webanno.custom.Participants_	O	
+1-3	was	O	O	B-UnrelEv	
+1-4	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+1-5	friend	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	
+1-6	's	O	O	O	
+1-7	birthday	B-NPart	B-webanno.custom.Participants_	O	
+1-8	.	O	O	O	
+
+#id=2
+#text=I asked him if he was going to do anything special and he said no .
+2-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+2-2	asked	O	O	B-UnrelEv	
+2-3	him	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	
+2-4	if	O	O	O	
+2-5	he	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	
+2-6	was	O	O	O	
+2-7	going	O	O	O	
+2-8	to	O	O	O	
+2-9	do	O	O	B-UnrelEv	
+2-10	anything	B-No_label	B-webanno.custom.Participants_	O	
+2-11	special	O	O	O	
+2-12	and	O	O	O	
+2-13	he	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	
+2-14	said	O	O	O	
+2-15	no	O	O	B-UnrelEv	
+2-16	.	O	O	O	
+
+#id=3
+#text=I felt bad for him , so I said I would at least bake him a cake .
+3-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+3-2	felt	O	O	B-UnrelEv	
+3-3	bad	O	O	O	
+3-4	for	O	O	O	
+3-5	him	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	
+3-6	,	O	O	O	
+3-7	so	O	O	O	
+3-8	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+3-9	said	O	O	B-UnrelEv	
+3-10	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+3-11	would	O	O	O	
+3-12	at	O	O	O	
+3-13	least	O	O	O	
+3-14	bake	O	O	B-Evoking	
+3-15	him	B-ScrPart_beneficiary	B-webanno.custom.Participants_	I-Evoking	
+3-16	a	O	O	I-Evoking	
+3-17	cake	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	
+3-18	.	O	O	O	
+
+#id=4
+#text=Maybe this was a hasty decision since I have no experience baking cakes .
+4-1	Maybe	O	O	O	
+4-2	this	O	O	O	
+4-3	was	O	O	B-UnrelEv	
+4-4	a	O	O	O	
+4-5	hasty	O	O	O	
+4-6	decision	B-NPart	B-webanno.custom.Participants_	O	
+4-7	since	O	O	O	
+4-8	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+4-9	have	O	O	B-UnrelEv	
+4-10	no	O	O	O	
+4-11	experience	B-NPart	B-webanno.custom.Participants_	O	
+4-12	baking	O	O	B-Evoking	
+4-13	cakes	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	
+4-14	.	O	O	O	
+
+#id=5
+#text=So I looked online to see what I needed to do .
+5-1	So	O	O	O	
+5-2	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+5-3	looked	O	O	B-ScrEv_choose_recipe	
+5-4	online	B-ScrPart_recipe_source	B-webanno.custom.Participants_	O	
+5-5	to	O	O	O	
+5-6	see	O	O	B-UnrelEv	
+5-7	what	O	O	O	
+5-8	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+5-9	needed	O	O	O	
+5-10	to	O	O	O	
+5-11	do	O	O	B-UnrelEv	
+5-12	.	O	O	O	
+
+#id=6
+#text=I found a recipe that looked easy enough , so later that day I drove over to the grocery store to buy all the ingredients I would need to bake the cake .
+6-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+6-2	found	O	O	B-ScrEv_choose_recipe	
+6-3	a	O	O	O	
+6-4	recipe	B-ScrPart_baking_instructions	B-webanno.custom.Participants_	O	
+6-5	that	O	O	O	
+6-6	looked	O	O	B-UnrelEv	
+6-7	easy	O	O	O	
+6-8	enough	O	O	O	
+6-9	,	O	O	O	
+6-10	so	O	O	O	
+6-11	later	O	O	O	
+6-12	that	O	O	O	
+6-13	day	B-NPart	B-webanno.custom.Participants_	O	
+6-14	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+6-15	drove	O	O	B-ScrEv_get_ingredients	
+6-16	over	O	O	O	
+6-17	to	O	O	O	
+6-18	the	O	O	O	
+6-19	grocery	B-ScrPart_store	B-webanno.custom.Participants_	O	
+6-20	store	I-ScrPart_store|B-ScrPart_store	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+6-21	to	O	O	O	
+6-22	buy	O	O	B-ScrEv_get_ingredients	
+6-23	all	O	O	O	
+6-24	the	O	O	O	
+6-25	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+6-26	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+6-27	would	O	O	O	
+6-28	need	O	O	B-UnrelEv	
+6-29	to	O	O	O	
+6-30	bake	O	O	B-Evoking	
+6-31	the	O	O	I-Evoking	
+6-32	cake	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	
+6-33	.	O	O	O	
+
+#id=7
+#text=When I got to the store I started gathering up everything I needed .
+7-1	When	O	O	O	
+7-2	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+7-3	got	O	O	B-ScrEv_get_ingredients	
+7-4	to	O	O	I-ScrEv_get_ingredients	
+7-5	the	O	O	O	
+7-6	store	B-ScrPart_store	B-webanno.custom.Participants_	O	
+7-7	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+7-8	started	O	O	O	
+7-9	gathering	O	O	B-ScrEv_get_ingredients	
+7-10	up	O	O	O	
+7-11	everything	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+7-12	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+7-13	needed	O	O	O	
+7-14	.	O	O	O	
+
+#id=8
+#text=Once I almost had everything I turned down an aisle and noticed there were boxed of pre-made cake mix I could buy .
+8-1	Once	O	O	O	
+8-2	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+8-3	almost	O	O	O	
+8-4	had	O	O	B-UnrelEv	
+8-5	everything	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+8-6	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+8-7	turned	O	O	B-UnrelEv	
+8-8	down	O	O	I-UnrelEv	
+8-9	an	O	O	O	
+8-10	aisle	B-NPart	B-webanno.custom.Participants_	O	
+8-11	and	O	O	O	
+8-12	noticed	O	O	B-UnrelEv	
+8-13	there	O	O	O	
+8-14	were	O	O	B-UnrelEv	
+8-15	boxed	O	O	O	
+8-16	of	O	O	O	
+8-17	pre-made	O	O	B-ScrEv_prepare_ingredients	
+8-18	cake	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+8-19	mix	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+8-20	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+8-21	could	O	O	O	
+8-22	buy	O	O	B-ScrEv_get_ingredients	
+8-23	.	O	O	O	
+
+#id=9
+#text=This seemed like an easy option , so I put all the ingredients back and bought one of those mixes .
+9-1	This	O	O	O	
+9-2	seemed	O	O	B-UnrelEv	
+9-3	like	O	O	O	
+9-4	an	O	O	O	
+9-5	easy	O	O	O	
+9-6	option	B-NPart	B-webanno.custom.Participants_	O	
+9-7	,	O	O	O	
+9-8	so	O	O	O	
+9-9	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+9-10	put	O	O	B-UnrelEv	
+9-11	all	O	O	O	
+9-12	the	O	O	O	
+9-13	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+9-14	back	O	O	O	
+9-15	and	O	O	O	
+9-16	bought	O	O	B-ScrEv_get_ingredients	
+9-17	one	O	O	O	
+9-18	of	O	O	O	
+9-19	those	O	O	O	
+9-20	mixes	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+9-21	.	O	O	O	
+
+#id=10
+#text=I got home and started baking .
+10-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+10-2	got	O	O	B-RelNScrEv	
+10-3	home	B-ScrPart_kitchen/location	B-webanno.custom.Participants_	O	
+10-4	and	O	O	O	
+10-5	started	O	O	B-UnrelEv	
+10-6	baking	O	O	B-Evoking	
+10-7	.	O	O	O	
+
+#id=11
+#text=All I needed to add to the mix was a couple eggs and some vegetable oil .
+11-1	All	O	O	O	
+11-2	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+11-3	needed	O	O	O	
+11-4	to	O	O	O	
+11-5	add	O	O	B-ScrEv_add_ingredients	
+11-6	to	O	O	O	
+11-7	the	O	O	O	
+11-8	mix	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+11-9	was	O	O	O	
+11-10	a	O	O	O	
+11-11	couple	B-Head_of_Partitive	B-webanno.custom.Participants_	O	
+11-12	eggs	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+11-13	and	O	O	O	
+11-14	some	O	O	O	
+11-15	vegetable	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+11-16	oil	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+11-17	.	O	O	O	
+
+#id=12
+#text=After it was in the oven for an hour the cake was ready . 
+12-1	After	O	O	O	
+12-2	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+12-3	was	O	O	B-ScrEv_wait	
+12-4	in	O	O	O	
+12-5	the	O	O	O	
+12-6	oven	B-ScrPart_oven	B-webanno.custom.Participants_	O	
+12-7	for	O	O	O	
+12-8	an	O	O	O	
+12-9	hour	B-ScrPart_time	B-webanno.custom.Participants_	O	
+12-10	the	O	O	O	
+12-11	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+12-12	was	O	O	B-UnrelEv	
+12-13	ready	O	O	O	
+12-14	.	O	O	O	
+

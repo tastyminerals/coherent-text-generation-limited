@@ -1,0 +1,373 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=Sometimes I buy books but more often I just decide to borrow one from the public library because you can read them and take them back and it does n't cost you anything .
+1-1	Sometimes	O	O	
+1-2	I	B-ScrPart_customer	O	
+1-3	buy	O	B-UnrelEv	
+1-4	books	B-ScrPart_book	O	
+1-5	but	O	O	
+1-6	more	O	O	
+1-7	often	O	O	
+1-8	I	B-ScrPart_customer	O	
+1-9	just	O	O	
+1-10	decide	O	B-UnrelEv	
+1-11	to	O	O	
+1-12	borrow	O	B-Evoking	
+1-13	one	B-ScrPart_book	I-Evoking	
+1-14	from	O	I-Evoking	
+1-15	the	O	I-Evoking	
+1-16	public	O	I-Evoking	
+1-17	library	B-ScrPart_library	I-Evoking	
+1-18	because	O	O	
+1-19	you	B-ScrPart_customer	O	
+1-20	can	O	O	
+1-21	read	O	B-RelNScrEv	
+1-22	them	B-ScrPart_book	O	
+1-23	and	O	O	
+1-24	take	O	B-RelNScrEv	
+1-25	them	B-ScrPart_book	O	
+1-26	back	O	O	
+1-27	and	O	O	
+1-28	it	B-No_label	O	
+1-29	does	O	O	
+1-30	n't	O	O	
+1-31	cost	O	B-UnrelEv	
+1-32	you	B-ScrPart_customer	O	
+1-33	anything	B-No_label	O	
+1-34	.	O	O	
+
+#id=2
+#text=Most libraries have a vast selection of books so you would never be unable to find something you wanted to read .
+2-1	Most	O	O	
+2-2	libraries	B-ScrPart_library	O	
+2-3	have	O	B-UnrelEv	
+2-4	a	O	O	
+2-5	vast	O	O	
+2-6	selection	B-Head_of_Partitive	O	
+2-7	of	O	O	
+2-8	books	B-ScrPart_book	O	
+2-9	so	O	O	
+2-10	you	B-ScrPart_customer	O	
+2-11	would	O	O	
+2-12	never	O	O	
+2-13	be	O	B-UnrelEv	
+2-14	unable	O	O	
+2-15	to	O	O	
+2-16	find	O	B-RelNScrEv	
+2-17	something	B-ScrPart_book	O	
+2-18	you	B-ScrPart_customer	O	
+2-19	wanted	O	O	
+2-20	to	O	O	
+2-21	read	O	B-RelNScrEv	
+2-22	.	O	O	
+
+#id=3
+#text=A lot of libraries have their catalog online so you can check to see if they have a particular book before you go to the library .
+3-1	A	O	O	
+3-2	lot	B-Head_of_Partitive	O	
+3-3	of	O	O	
+3-4	libraries	B-ScrPart_library	O	
+3-5	have	O	B-UnrelEv	
+3-6	their	B-ScrPart_library	O	
+3-7	catalog	B-ScrPart_catalog	O	
+3-8	online	B-No_label	O	
+3-9	so	O	O	
+3-10	you	B-ScrPart_customer	O	
+3-11	can	O	O	
+3-12	check	O	B-ScrEv_check_catalog	
+3-13	to	O	O	
+3-14	see	O	O	
+3-15	if	O	O	
+3-16	they	B-ScrPart_library	O	
+3-17	have	O	B-UnrelEv	
+3-18	a	O	O	
+3-19	particular	O	O	
+3-20	book	B-ScrPart_book	O	
+3-21	before	O	O	
+3-22	you	B-ScrPart_customer	O	
+3-23	go	O	B-ScrEv_get_library	
+3-24	to	O	O	
+3-25	the	O	O	
+3-26	library	B-ScrPart_library	O	
+3-27	.	O	O	
+
+#id=4
+#text=I recently had to join a new library so I went there and spoke to the lady behind the desk who asked me to fill in a form with my address and contact details , and provide proof of my identity .
+4-1	I	B-ScrPart_customer	O	
+4-2	recently	O	O	
+4-3	had	O	O	
+4-4	to	O	O	
+4-5	join	O	B-RelNScrEv	
+4-6	a	O	O	
+4-7	new	O	O	
+4-8	library	B-ScrPart_library	O	
+4-9	so	O	O	
+4-10	I	B-ScrPart_customer	O	
+4-11	went	O	B-ScrEv_get_library	
+4-12	there	B-ScrPart_library	O	
+4-13	and	O	O	
+4-14	spoke	O	B-ScrEv_ask_librarian	
+4-15	to	O	O	
+4-16	the	O	O	
+4-17	lady	B-ScrPart_staff	O	
+4-18	behind	O	O	
+4-19	the	O	O	
+4-20	desk	B-ScrPart_check-out_desk	O	
+4-21	who	O	O	
+4-22	asked	O	B-UnrelEv	
+4-23	me	B-ScrPart_customer	O	
+4-24	to	O	O	
+4-25	fill	O	B-RelNScrEv	
+4-26	in	O	I-RelNScrEv	
+4-27	a	O	O	
+4-28	form	B-NPart	O	
+4-29	with	O	O	
+4-30	my	B-ScrPart_customer	O	
+4-31	address	B-NPart	O	
+4-32	and	O	O	
+4-33	contact	B-NPart	O	
+4-34	details	I-NPart|B-NPart	O	
+4-35	,	O	O	
+4-36	and	O	O	
+4-37	provide	O	B-RelNScrEv	
+4-38	proof	B-NPart	O	
+4-39	of	O	O	
+4-40	my	B-ScrPart_customer	O	
+4-41	identity	B-NPart	O	
+4-42	.	O	O	
+
+#id=5
+#text=When I had finished filling in the form , I took it back to her and she made me a little plastic library card with my account number and my name on it , along with a unique barcode .
+5-1	When	O	O	
+5-2	I	B-ScrPart_customer	O	
+5-3	had	O	O	
+5-4	finished	O	B-UnrelEv	
+5-5	filling	O	B-RelNScrEv	
+5-6	in	O	I-RelNScrEv	
+5-7	the	O	O	
+5-8	form	B-NPart	O	
+5-9	,	O	O	
+5-10	I	B-ScrPart_customer	O	
+5-11	took	O	B-UnrelEv	
+5-12	it	B-NPart	O	
+5-13	back	O	O	
+5-14	to	O	O	
+5-15	her	B-ScrPart_staff	O	
+5-16	and	O	O	
+5-17	she	B-ScrPart_staff	O	
+5-18	made	O	B-RelNScrEv	
+5-19	me	B-ScrPart_customer	O	
+5-20	a	O	O	
+5-21	little	O	O	
+5-22	plastic	B-ScrPart_library_card	O	
+5-23	library	I-ScrPart_library_card	O	
+5-24	card	I-ScrPart_library_card|B-ScrPart_library_card	O	
+5-25	with	O	O	
+5-26	my	B-ScrPart_customer	O	
+5-27	account	B-NPart	O	
+5-28	number	I-NPart	O	
+5-29	and	O	O	
+5-30	my	B-ScrPart_customer	O	
+5-31	name	B-NPart	O	
+5-32	on	O	O	
+5-33	it	B-ScrPart_library_card	O	
+5-34	,	O	O	
+5-35	along	O	O	
+5-36	with	O	O	
+5-37	a	O	O	
+5-38	unique	O	O	
+5-39	barcode	B-NPart	O	
+5-40	.	O	O	
+
+#id=6
+#text=She told me I had to use this card to check out books whenever I went to the library .
+6-1	She	B-ScrPart_staff	O	
+6-2	told	O	B-UnrelEv	
+6-3	me	B-ScrPart_customer	O	
+6-4	I	B-ScrPart_customer	O	
+6-5	had	O	O	
+6-6	to	O	O	
+6-7	use	O	B-UnrelEv	
+6-8	this	O	O	
+6-9	card	B-ScrPart_library_card	O	
+6-10	to	O	O	
+6-11	check	O	B-ScrEv_register	
+6-12	out	O	I-ScrEv_register	
+6-13	books	B-ScrPart_book	O	
+6-14	whenever	O	O	
+6-15	I	B-ScrPart_customer	O	
+6-16	went	O	B-ScrEv_get_library	
+6-17	to	O	O	
+6-18	the	O	O	
+6-19	library	B-ScrPart_library	O	
+6-20	.	O	O	
+
+#id=7
+#text=There were thousands of books on hundreds of shelves , all of them are filed in some sort of order .
+7-1	There	O	O	
+7-2	were	O	B-UnrelEv	
+7-3	thousands	B-Head_of_Partitive	O	
+7-4	of	O	O	
+7-5	books	B-ScrPart_book	O	
+7-6	on	O	O	
+7-7	hundreds	B-Head_of_Partitive	O	
+7-8	of	O	O	
+7-9	shelves	B-ScrPart_shelf	O	
+7-10	,	O	O	
+7-11	all	O	O	
+7-12	of	O	O	
+7-13	them	B-ScrPart_book	O	
+7-14	are	O	O	
+7-15	filed	O	B-UnrelEv	
+7-16	in	O	O	
+7-17	some	O	O	
+7-18	sort	B-NPart	O	
+7-19	of	O	O	
+7-20	order	B-NPart	O	
+7-21	.	O	O	
+
+#id=8
+#text=Fiction books were filed by author surname , and non-fiction books were filed by a system called the Dewey decimal system which numbers books according to their subject classification and are then filed in that number order .
+8-1	Fiction	O	O	
+8-2	books	B-ScrPart_book	O	
+8-3	were	O	O	
+8-4	filed	O	B-UnrelEv	
+8-5	by	O	O	
+8-6	author	B-NPart	O	
+8-7	surname	I-NPart	O	
+8-8	,	O	O	
+8-9	and	O	O	
+8-10	non-fiction	O	O	
+8-11	books	B-ScrPart_book	O	
+8-12	were	O	O	
+8-13	filed	O	B-UnrelEv	
+8-14	by	O	O	
+8-15	a	O	O	
+8-16	system	B-NPart	O	
+8-17	called	O	O	
+8-18	the	O	O	
+8-19	Dewey	B-NPart	O	
+8-20	decimal	I-NPart	O	
+8-21	system	I-NPart	O	
+8-22	which	O	O	
+8-23	numbers	O	B-UnrelEv	
+8-24	books	B-ScrPart_book	O	
+8-25	according	O	O	
+8-26	to	O	O	
+8-27	their	B-ScrPart_book	O	
+8-28	subject	O	O	
+8-29	classification	B-NPart	O	
+8-30	and	O	O	
+8-31	are	O	O	
+8-32	then	O	O	
+8-33	filed	O	B-UnrelEv	
+8-34	in	O	O	
+8-35	that	O	O	
+8-36	number	B-NPart	O	
+8-37	order	I-NPart	O	
+8-38	.	O	O	
+
+#id=9
+#text=The books were easy to find , there were computers around the library where you could check to see what books were available .
+9-1	The	O	O	
+9-2	books	B-ScrPart_book	O	
+9-3	were	O	B-UnrelEv	
+9-4	easy	O	O	
+9-5	to	O	O	
+9-6	find	O	B-RelNScrEv	
+9-7	,	O	O	
+9-8	there	O	O	
+9-9	were	O	B-UnrelEv	
+9-10	computers	B-ScrPart_institutional_devices	O	
+9-11	around	O	O	
+9-12	the	O	O	
+9-13	library	B-ScrPart_library	O	
+9-14	where	O	O	
+9-15	you	B-ScrPart_customer	O	
+9-16	could	O	O	
+9-17	check	O	B-ScrEv_use_computer	
+9-18	to	O	O	
+9-19	see	O	B-ScrEv_look_for_book	
+9-20	what	O	O	
+9-21	books	B-ScrPart_book	O	
+9-22	were	O	B-UnrelEv	
+9-23	available	O	O	
+9-24	.	O	O	
+
+#id=10
+#text=When I had selected the books I wanted to borrow I went to one of the self service stations and scanned the barcode on the books and the barcode on my new library card , and the books were issued to me .
+10-1	When	O	O	
+10-2	I	B-ScrPart_customer	O	
+10-3	had	O	O	
+10-4	selected	O	B-ScrEv_take_book	
+10-5	the	O	O	
+10-6	books	B-ScrPart_book	O	
+10-7	I	B-ScrPart_customer	O	
+10-8	wanted	O	O	
+10-9	to	O	O	
+10-10	borrow	O	B-Evoking	
+10-11	I	B-ScrPart_customer	O	
+10-12	went	O	B-ScrEv_go_check_out	
+10-13	to	O	O	
+10-14	one	B-ScrPart_institutional_devices	O	
+10-15	of	O	O	
+10-16	the	O	O	
+10-17	self	B-ScrPart_institutional_devices	O	
+10-18	service	I-ScrPart_institutional_devices	O	
+10-19	stations	I-ScrPart_institutional_devices|B-ScrPart_institutional_devices	O	
+10-20	and	O	O	
+10-21	scanned	O	B-ScrEv_register	
+10-22	the	O	O	
+10-23	barcode	B-ScrPart_book_id	O	
+10-24	on	O	O	
+10-25	the	O	O	
+10-26	books	B-ScrPart_book	O	
+10-27	and	O	O	
+10-28	the	O	O	
+10-29	barcode	B-NPart	O	
+10-30	on	O	O	
+10-31	my	B-ScrPart_customer	O	
+10-32	new	O	O	
+10-33	library	B-ScrPart_library_card	O	
+10-34	card	I-ScrPart_library_card|B-ScrPart_library_card	O	
+10-35	,	O	O	
+10-36	and	O	O	
+10-37	the	O	O	
+10-38	books	B-ScrPart_book	O	
+10-39	were	O	O	
+10-40	issued	O	B-ScrEv_register	
+10-41	to	O	O	
+10-42	me	B-ScrPart_customer	O	
+10-43	.	O	O	
+
+#id=11
+#text=I also got a printed receipt to show me when the books were due to be returned .
+11-1	I	B-ScrPart_customer	O	
+11-2	also	O	O	
+11-3	got	O	B-ScrEv_get_receipt	
+11-4	a	O	O	
+11-5	printed	O	B-UnrelEv	
+11-6	receipt	B-ScrPart_receipt	O	
+11-7	to	O	O	
+11-8	show	O	O	
+11-9	me	B-ScrPart_customer	O	
+11-10	when	O	O	
+11-11	the	O	O	
+11-12	books	B-ScrPart_book	O	
+11-13	were	O	B-UnrelEv	
+11-14	due	O	O	
+11-15	to	O	O	
+11-16	be	O	O	
+11-17	returned	O	B-RelNScrEv	
+11-18	.	O	O	
+
+#id=12
+#text=It was very easy to do . 
+12-1	It	B-No_label	O	
+12-2	was	O	B-UnrelEv	
+12-3	very	O	O	
+12-4	easy	O	O	
+12-5	to	O	O	
+12-6	do	O	B-UnrelEv	
+12-7	.	O	O	
+

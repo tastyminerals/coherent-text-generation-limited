@@ -1,0 +1,233 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant
+#id=1
+#text=Borrowing a book from the library is quite a fun task .
+1-1	Borrowing	B-Evoking	O	
+1-2	a	I-Evoking	O	
+1-3	book	I-Evoking	B-ScrPart_book	
+1-4	from	I-Evoking	O	
+1-5	the	I-Evoking	O	
+1-6	library	I-Evoking	B-ScrPart_library	
+1-7	is	B-UnrelEv	O	
+1-8	quite	O	O	
+1-9	a	O	O	
+1-10	fun	O	O	
+1-11	task	O	B-NPart	
+1-12	.	O	O	
+
+#id=2
+#text=Make sure you have a library card first .
+2-1	Make	B-UnrelEv	O	
+2-2	sure	I-UnrelEv	O	
+2-3	you	O	B-ScrPart_customer	
+2-4	have	B-ScrEv_obtain_card	O	
+2-5	a	O	O	
+2-6	library	O	B-ScrPart_library_card	
+2-7	card	O	I-ScrPart_library_card|B-ScrPart_library_card	
+2-8	first	O	O	
+2-9	.	O	O	
+
+#id=3
+#text=If not , you can ask the librarian about how to sign up for one .
+3-1	If	O	O	
+3-2	not	O	O	
+3-3	,	O	O	
+3-4	you	O	B-ScrPart_customer	
+3-5	can	O	O	
+3-6	ask	B-ScrEv_ask_librarian	O	
+3-7	the	O	O	
+3-8	librarian	O	B-ScrPart_staff	
+3-9	about	O	O	
+3-10	how	O	O	
+3-11	to	O	O	
+3-12	sign	B-ScrEv_obtain_card	O	
+3-13	up	I-ScrEv_obtain_card	O	
+3-14	for	O	O	
+3-15	one	O	B-ScrPart_library_card	
+3-16	.	O	O	
+
+#id=4
+#text=Library cards are usually free .
+4-1	Library	O	B-ScrPart_library_card	
+4-2	cards	O	I-ScrPart_library_card|B-ScrPart_library_card	
+4-3	are	B-UnrelEv	O	
+4-4	usually	O	O	
+4-5	free	O	O	
+4-6	.	O	O	
+
+#id=5
+#text=Next , you 'll want to find a book that you 'll want to read .
+5-1	Next	O	O	
+5-2	,	O	O	
+5-3	you	O	B-ScrPart_customer	
+5-4	'll	O	O	
+5-5	want	B-UnrelEv	O	
+5-6	to	O	O	
+5-7	find	B-ScrEv_other	O	
+5-8	a	O	O	
+5-9	book	O	B-ScrPart_book	
+5-10	that	O	B-ScrPart_book	
+5-11	you	O	B-ScrPart_customer	
+5-12	'll	O	O	
+5-13	want	B-UnrelEv	O	
+5-14	to	O	O	
+5-15	read	B-RelNScrEv	O	
+5-16	.	O	O	
+
+#id=6
+#text=If you have something in mind already , then you 'll head over to the computers and use the search to find the book .
+6-1	If	O	O	
+6-2	you	O	B-ScrPart_customer	
+6-3	have	B-UnrelEv	O	
+6-4	something	O	B-ScrPart_book	
+6-5	in	O	O	
+6-6	mind	O	B-No_label	
+6-7	already	O	O	
+6-8	,	O	O	
+6-9	then	O	O	
+6-10	you	O	B-ScrPart_customer	
+6-11	'll	O	O	
+6-12	head	B-RelNScrEv	O	
+6-13	over	I-RelNScrEv	O	
+6-14	to	O	O	
+6-15	the	O	O	
+6-16	computers	O	B-ScrPart_institutional_devices	
+6-17	and	O	O	
+6-18	use	B-ScrEv_use_computer	O	
+6-19	the	O	O	
+6-20	search	O	B-ScrPart_institutional_devices	
+6-21	to	O	O	
+6-22	find	B-ScrEv_use_computer	O	
+6-23	the	O	O	
+6-24	book	O	B-ScrPart_book	
+6-25	.	O	O	
+
+#id=7
+#text=The computer search will tell you where exactly in the library the book is located , or it might tell you the book is not at this library and that you 'll have to request that they send it to the library for pick up later .
+7-1	The	O	O	
+7-2	computer	O	B-ScrPart_institutional_devices	
+7-3	search	O	I-ScrPart_institutional_devices|B-ScrPart_institutional_devices	
+7-4	will	O	O	
+7-5	tell	B-ScrEv_use_computer	O	
+7-6	you	O	B-ScrPart_customer	
+7-7	where	O	O	
+7-8	exactly	O	O	
+7-9	in	O	O	
+7-10	the	O	O	
+7-11	library	O	B-ScrPart_library	
+7-12	the	O	O	
+7-13	book	O	B-ScrPart_book	
+7-14	is	O	O	
+7-15	located	B-RelNScrEv	O	
+7-16	,	O	O	
+7-17	or	O	O	
+7-18	it	O	B-ScrPart_institutional_devices	
+7-19	might	O	O	
+7-20	tell	B-ScrEv_use_computer	O	
+7-21	you	O	B-ScrPart_customer	
+7-22	the	O	O	
+7-23	book	O	B-ScrPart_book	
+7-24	is	B-UnrelEv	O	
+7-25	not	O	O	
+7-26	at	O	O	
+7-27	this	O	O	
+7-28	library	O	B-ScrPart_library	
+7-29	and	O	O	
+7-30	that	O	O	
+7-31	you	O	B-ScrPart_customer	
+7-32	'll	O	O	
+7-33	have	O	O	
+7-34	to	O	O	
+7-35	request	B-ScrEv_order_book	O	
+7-36	that	O	O	
+7-37	they	O	B-ScrPart_staff	
+7-38	send	B-RelNScrEv	O	
+7-39	it	O	B-ScrPart_book	
+7-40	to	O	O	
+7-41	the	O	O	
+7-42	library	O	B-ScrPart_library	
+7-43	for	O	O	
+7-44	pick	O	B-ScrPart_other	
+7-45	up	O	I-ScrPart_other	
+7-46	later	O	O	
+7-47	.	O	O	
+
+#id=8
+#text=If the book is available , navigate through the shelves to find the book .
+8-1	If	O	O	
+8-2	the	O	O	
+8-3	book	O	B-ScrPart_book	
+8-4	is	B-RelNScrEv	O	
+8-5	available	O	O	
+8-6	,	O	O	
+8-7	navigate	B-ScrEv_get_shelf	O	
+8-8	through	O	O	
+8-9	the	O	O	
+8-10	shelves	O	B-ScrPart_shelf	
+8-11	to	O	O	
+8-12	find	B-ScrEv_look_for_book	O	
+8-13	the	O	O	
+8-14	book	O	B-ScrPart_book	
+8-15	.	O	O	
+
+#id=9
+#text=Each book has a unique number that is in order which makes finding the book pretty easy .
+9-1	Each	O	O	
+9-2	book	O	B-ScrPart_book	
+9-3	has	B-UnrelEv	O	
+9-4	a	O	O	
+9-5	unique	O	O	
+9-6	number	O	B-ScrPart_book_id	
+9-7	that	O	O	
+9-8	is	B-UnrelEv	O	
+9-9	in	O	O	
+9-10	order	O	B-NPart	
+9-11	which	O	O	
+9-12	makes	B-UnrelEv	O	
+9-13	finding	B-ScrEv_look_for_book	O	
+9-14	the	O	O	
+9-15	book	O	B-ScrPart_book	
+9-16	pretty	O	O	
+9-17	easy	O	O	
+9-18	.	O	O	
+
+#id=10
+#text=Once you have located the book , bring the book with you to the counter and finish checking out the book .
+10-1	Once	O	O	
+10-2	you	O	B-ScrPart_customer	
+10-3	have	O	O	
+10-4	located	B-ScrEv_take_book	O	
+10-5	the	O	O	
+10-6	book	O	B-ScrPart_book	
+10-7	,	O	O	
+10-8	bring	B-ScrEv_go_check_out	O	
+10-9	the	O	O	
+10-10	book	O	B-ScrPart_book	
+10-11	with	O	O	
+10-12	you	O	B-ScrPart_customer	
+10-13	to	O	O	
+10-14	the	O	O	
+10-15	counter	O	B-ScrPart_check-out_desk	
+10-16	and	O	O	
+10-17	finish	B-UnrelEv	O	
+10-18	checking	B-ScrEv_register	O	
+10-19	out	I-ScrEv_register	O	
+10-20	the	O	O	
+10-21	book	O	B-ScrPart_book	
+10-22	.	O	O	
+
+#id=11
+#text=Be sure to remember when you have to return the book by ! 
+11-1	Be	B-UnrelEv	O	
+11-2	sure	I-UnrelEv	O	
+11-3	to	O	O	
+11-4	remember	B-RelNScrEv	O	
+11-5	when	O	O	
+11-6	you	O	B-ScrPart_customer	
+11-7	have	O	O	
+11-8	to	O	O	
+11-9	return	B-ScrEv_return_book	O	
+11-10	the	O	O	
+11-11	book	O	B-ScrPart_book	
+11-12	by	O	O	
+11-13	!	O	O	
+

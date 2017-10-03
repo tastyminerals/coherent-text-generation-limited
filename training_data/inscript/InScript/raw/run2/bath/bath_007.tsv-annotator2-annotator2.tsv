@@ -1,0 +1,212 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Last night , I took a bath .
+1-1	Last	O	O	O	_	_	
+1-2	night	B-NPart	B-webanno.custom.Participants_	O	_	_	
+1-3	,	O	O	O	_	_	
+1-4	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+1-5	took	O	O	B-Evoking	_	_	
+1-6	a	O	O	I-Evoking	_	_	
+1-7	bath	B-ScrPart_bath	B-webanno.custom.Participants_	I-Evoking	_	_	
+1-8	.	O	O	O	_	_	
+
+#id=2
+#text=I take baths when I have time to relax and soak in bubbles .
+2-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+2-2	take	O	O	B-Evoking	_	_	
+2-3	baths	B-ScrPart_bath	B-webanno.custom.Participants_	I-Evoking	webanno.custom.Corefchains_	1-7	
+2-4	when	O	O	O	_	_	
+2-5	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+2-6	have	O	O	B-UnrelEv	_	_	
+2-7	time	B-NPart	B-webanno.custom.Participants_	O	_	_	
+2-8	to	O	O	O	_	_	
+2-9	relax	O	O	B-ScrEv_relax	_	_	
+2-10	and	O	O	O	_	_	
+2-11	soak	O	O	B-RelNScrEv	_	_	
+2-12	in	O	O	O	_	_	
+2-13	bubbles	B-ScrPart_bath_means	B-webanno.custom.Participants_	O	_	_	
+2-14	.	O	O	O	_	_	
+
+#id=3
+#text=Baths are important for good hygiene and self esteem .
+3-1	Baths	B-ScrPart_bath	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	2-3	
+3-2	are	O	O	B-UnrelEv	_	_	
+3-3	important	O	O	O	_	_	
+3-4	for	O	O	O	_	_	
+3-5	good	O	O	O	_	_	
+3-6	hygiene	B-NPart	B-webanno.custom.Participants_	O	_	_	
+3-7	and	O	O	O	_	_	
+3-8	self	B-NPart	B-webanno.custom.Participants_	O	_	_	
+3-9	esteem	I-NPart	I-webanno.custom.Participants_	O	_	_	
+3-10	.	O	O	O	_	_	
+
+#id=4
+#text=I always feel so much better when I am clean and smell like my favorite soap .
+4-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+4-2	always	O	O	O	_	_	
+4-3	feel	O	O	B-UnrelEv	_	_	
+4-4	so	O	O	O	_	_	
+4-5	much	O	O	O	_	_	
+4-6	better	O	O	O	_	_	
+4-7	when	O	O	O	_	_	
+4-8	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+4-9	am	O	O	B-UnrelEv	_	_	
+4-10	clean	O	O	O	_	_	
+4-11	and	O	O	O	_	_	
+4-12	smell	O	O	B-UnrelEv	_	_	
+4-13	like	O	O	O	_	_	
+4-14	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+4-15	favorite	O	O	O	_	_	
+4-16	soap	B-ScrPart_washing_tools	B-webanno.custom.Participants_	O	_	_	
+4-17	.	O	O	O	_	_	
+
+#id=5
+#text=I like to fill the tub up as full as I can and pick a shower gel or bubble bath to make lots and lots of bubbles .
+5-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+5-2	like	O	O	B-UnrelEv	_	_	
+5-3	to	O	O	O	_	_	
+5-4	fill	O	O	B-ScrEv_fill_water/wait	_	_	
+5-5	the	O	O	O	_	_	
+5-6	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	_	_	
+5-7	up	O	O	O	_	_	
+5-8	as	O	O	O	_	_	
+5-9	full	O	O	O	_	_	
+5-10	as	O	O	O	_	_	
+5-11	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+5-12	can	O	O	B-UnrelEv	_	_	
+5-13	and	O	O	O	_	_	
+5-14	pick	O	O	B-ScrEv_prepare_bath	_	_	
+5-15	a	O	O	O	_	_	
+5-16	shower	B-ScrPart_bath_means	B-webanno.custom.Participants_	O	_	_	
+5-17	gel	I-ScrPart_bath_means|B-ScrPart_bath_means	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+5-18	or	O	O	O	_	_	
+5-19	bubble	B-ScrPart_bath_means	B-webanno.custom.Participants_	O	_	_	
+5-20	bath	I-ScrPart_bath_means	I-webanno.custom.Participants_	O	_	_	
+5-21	to	O	O	O	_	_	
+5-22	make	O	O	B-RelNScrEv	_	_	
+5-23	lots	B-Head_of_Partitive	B-webanno.custom.Participants_	O	_	_	
+5-24	and	O	O	O	_	_	
+5-25	lots	B-Head_of_Partitive	B-webanno.custom.Participants_	O	_	_	
+5-26	of	O	O	O	_	_	
+5-27	bubbles	B-ScrPart_bath_means	B-webanno.custom.Participants_	O	_	_	
+5-28	.	O	O	O	_	_	
+
+#id=6
+#text=I just soak in the bubbles and enjoy the time to myself .
+6-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+6-2	just	O	O	O	_	_	
+6-3	soak	O	O	B-RelNScrEv	_	_	
+6-4	in	O	O	O	_	_	
+6-5	the	O	O	O	_	_	
+6-6	bubbles	B-ScrPart_bath_means	B-webanno.custom.Participants_	O	_	_	
+6-7	and	O	O	O	_	_	
+6-8	enjoy	O	O	B-ScrEv_relax	_	_	
+6-9	the	O	O	O	_	_	
+6-10	time	B-NPart	B-webanno.custom.Participants_	O	_	_	
+6-11	to	O	O	O	_	_	
+6-12	myself	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+6-13	.	O	O	O	_	_	
+
+#id=7
+#text=Then I wash my hair with shampoo and conditioner .
+7-1	Then	O	O	O	_	_	
+7-2	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+7-3	wash	O	O	B-ScrEv_wash	_	_	
+7-4	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+7-5	hair	B-ScrPart_hair	B-webanno.custom.Participants_	O	_	_	
+7-6	with	O	O	O	_	_	
+7-7	shampoo	B-ScrPart_washing_tools	B-webanno.custom.Participants_	O	_	_	
+7-8	and	O	O	O	_	_	
+7-9	conditioner	B-ScrPart_washing_tools	B-webanno.custom.Participants_	O	_	_	
+7-10	.	O	O	O	_	_	
+
+#id=8
+#text=Next , I make sure to scrub everywhere from between my toes to behind my ears with soap .
+8-1	Next	O	O	O	_	_	
+8-2	,	O	O	O	_	_	
+8-3	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+8-4	make	O	O	B-UnrelEv	_	_	
+8-5	sure	O	O	I-UnrelEv	_	_	
+8-6	to	O	O	O	_	_	
+8-7	scrub	O	O	B-ScrEv_wash	_	_	
+8-8	everywhere	B-ScrPart_body_part	B-webanno.custom.Participants_	O	_	_	
+8-9	from	O	O	O	_	_	
+8-10	between	O	O	O	_	_	
+8-11	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+8-12	toes	B-ScrPart_body_part	B-webanno.custom.Participants_	O	_	_	
+8-13	to	O	O	O	_	_	
+8-14	behind	O	O	O	_	_	
+8-15	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+8-16	ears	B-ScrPart_body_part	B-webanno.custom.Participants_	O	_	_	
+8-17	with	O	O	O	_	_	
+8-18	soap	B-ScrPart_washing_tools	B-webanno.custom.Participants_	O	_	_	
+8-19	.	O	O	O	_	_	
+
+#id=9
+#text=After that , I am ready to dry off and get into some clean clothes .
+9-1	After	O	O	O	_	_	
+9-2	that	O	O	O	_	_	
+9-3	,	O	O	O	_	_	
+9-4	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+9-5	am	O	O	B-UnrelEv	_	_	
+9-6	ready	O	O	O	_	_	
+9-7	to	O	O	O	_	_	
+9-8	dry	O	O	B-ScrEv_dry	_	_	
+9-9	off	O	O	I-ScrEv_dry	_	_	
+9-10	and	O	O	O	_	_	
+9-11	get	O	O	B-ScrEv_get_dressed	_	_	
+9-12	into	O	O	O	_	_	
+9-13	some	O	O	O	_	_	
+9-14	clean	O	O	O	_	_	
+9-15	clothes	B-ScrPart_clothes	B-webanno.custom.Participants_	O	_	_	
+9-16	.	O	O	O	_	_	
+
+#id=10
+#text=If I do n't have time for a bath , I just take a shower .
+10-1	If	O	O	O	_	_	
+10-2	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+10-3	do	O	O	O	_	_	
+10-4	n't	O	O	O	_	_	
+10-5	have	O	O	B-UnrelEv	_	_	
+10-6	time	B-NPart	B-webanno.custom.Participants_	O	_	_	
+10-7	for	O	O	O	_	_	
+10-8	a	O	O	O	_	_	
+10-9	bath	B-ScrPart_bath	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	3-1	
+10-10	,	O	O	O	_	_	
+10-11	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+10-12	just	O	O	O	_	_	
+10-13	take	O	O	B-UnrelEv	_	_	
+10-14	a	O	O	O	_	_	
+10-15	shower	B-NPart	B-webanno.custom.Participants_	O	_	_	
+10-16	.	O	O	O	_	_	
+
+#id=11
+#text=Showers are much faster !
+11-1	Showers	B-NPart	B-webanno.custom.Participants_	O	_	_	
+11-2	are	O	O	B-UnrelEv	_	_	
+11-3	much	O	O	O	_	_	
+11-4	faster	O	O	O	_	_	
+11-5	!	O	O	O	_	_	
+
+#id=12
+#text=No matter what I choose , I make sure to take a bath or a shower every day . 
+12-1	No	O	O	O	_	_	
+12-2	matter	B-No_label	B-webanno.custom.Participants_	O	_	_	
+12-3	what	O	O	O	_	_	
+12-4	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+12-5	choose	O	O	B-UnrelEv	_	_	
+12-6	,	O	O	O	_	_	
+12-7	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+12-8	make	O	O	B-UnrelEv	_	_	
+12-9	sure	O	O	I-UnrelEv	_	_	
+12-10	to	O	O	O	_	_	
+12-11	take	O	O	B-???	_	_	
+12-12	a	O	O	I-???	_	_	
+12-13	bath	B-ScrPart_bath	B-webanno.custom.Participants_	I-???	webanno.custom.Corefchains_	10-9	
+12-14	or	O	O	I-???	_	_	
+12-15	a	O	O	I-???	_	_	
+12-16	shower	B-NPart	B-webanno.custom.Participants_	I-???	_	_	
+12-17	every	O	O	O	_	_	
+12-18	day	B-NPart	B-webanno.custom.Participants_	O	_	_	
+12-19	.	O	O	O	_	_	
+

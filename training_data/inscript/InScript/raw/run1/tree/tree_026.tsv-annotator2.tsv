@@ -1,0 +1,225 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Two days ago , it was Earth Day .
+1-1	Two	O	O	_	_	
+1-2	days	O	O	_	_	
+1-3	ago	O	O	_	_	
+1-4	,	O	O	_	_	
+1-5	it	O	O	_	_	
+1-6	was	B-UnrelEv	O	_	_	
+1-7	Earth	O	O	_	_	
+1-8	Day	O	O	_	_	
+1-9	.	O	O	_	_	
+
+#id=2
+#text=A few people were giving out seeds in order to project the idea of green living into people 's minds .
+2-1	A	O	O	_	_	
+2-2	few	O	O	_	_	
+2-3	people	O	O	_	_	
+2-4	were	O	O	_	_	
+2-5	giving	B-UnrelEv	O	_	_	
+2-6	out	I-UnrelEv	O	_	_	
+2-7	seeds	O	O	_	_	
+2-8	in	O	O	_	_	
+2-9	order	O	O	_	_	
+2-10	to	O	O	_	_	
+2-11	project	B-UnrelEv	O	_	_	
+2-12	the	O	O	_	_	
+2-13	idea	O	O	_	_	
+2-14	of	O	O	_	_	
+2-15	green	O	O	_	_	
+2-16	living	B-UnrelEv	O	_	_	
+2-17	into	O	O	_	_	
+2-18	people	O	O	_	_	
+2-19	's	O	O	_	_	
+2-20	minds	O	O	_	_	
+2-21	.	O	O	_	_	
+
+#id=3
+#text=My friend and I , Joey , decided that we would help to plant a few trees in order to contribute to the efforts .
+3-1	My	O	B-ScrPart_gardener|B-ScrPart_gardener	_	_	
+3-2	friend	O	I-ScrPart_gardener|B-ScrPart_gardener	_	_	
+3-3	and	O	I-ScrPart_gardener	_	_	
+3-4	I	O	I-ScrPart_gardener|B-ScrPart_gardener	webanno.custom.Corefchains_	3-1	
+3-5	,	O	O	_	_	
+3-6	Joey	O	B-ScrPart_gardener	webanno.custom.Corefchains_	3-2	
+3-7	,	O	O	_	_	
+3-8	decided	B-UnrelEv	O	_	_	
+3-9	that	O	O	_	_	
+3-10	we	O	B-ScrPart_gardener	webanno.custom.Corefchains_	3-1	
+3-11	would	O	O	_	_	
+3-12	help	B-UnrelEv	O	_	_	
+3-13	to	O	O	_	_	
+3-14	plant	B-Evoking	O	_	_	
+3-15	a	I-Evoking	O	_	_	
+3-16	few	I-Evoking	O	_	_	
+3-17	trees	I-Evoking	B-ScrPart_tree	_	_	
+3-18	in	O	O	_	_	
+3-19	order	O	O	_	_	
+3-20	to	O	O	_	_	
+3-21	contribute	B-UnrelEv	O	_	_	
+3-22	to	O	O	_	_	
+3-23	the	O	O	_	_	
+3-24	efforts	O	O	_	_	
+3-25	.	O	O	_	_	
+
+#id=4
+#text=We received a few tree saplings in the mail from a catalog .
+4-1	We	O	B-ScrPart_gardener	webanno.custom.Corefchains_	3-10	
+4-2	received	B-ScrEv_get_tree	O	_	_	
+4-3	a	O	O	_	_	
+4-4	few	O	O	_	_	
+4-5	tree	O	B-ScrPart_tree	_	_	
+4-6	saplings	O	I-ScrPart_tree|B-ScrPart_tree	webanno.custom.Corefchains_	3-17	
+4-7	in	O	O	_	_	
+4-8	the	O	O	_	_	
+4-9	mail	O	B-NPart	_	_	
+4-10	from	O	O	_	_	
+4-11	a	O	O	_	_	
+4-12	catalog	O	B-NPart	_	_	
+4-13	.	O	O	_	_	
+
+#id=5
+#text=Joey and I decided that we would plant them in our backyard to provide shade .
+5-1	Joey	O	B-ScrPart_gardener|B-ScrPart_gardener	webanno.custom.Corefchains_|webanno.custom.Corefchains_	3-6|4-1	
+5-2	and	O	I-ScrPart_gardener	webanno.custom.Corefchains_	4-1	
+5-3	I	O	I-ScrPart_gardener|B-ScrPart_gardener	webanno.custom.Corefchains_|webanno.custom.Corefchains_	3-4|4-1	
+5-4	decided	B-UnrelEv	O	_	_	
+5-5	that	O	O	_	_	
+5-6	we	O	B-ScrPart_gardener	webanno.custom.Corefchains_	5-1	
+5-7	would	O	O	_	_	
+5-8	plant	B-Evoking	O	_	_	
+5-9	them	I-Evoking	B-ScrPart_tree	webanno.custom.Corefchains_	4-6	
+5-10	in	O	O	_	_	
+5-11	our	O	O	_	_	
+5-12	backyard	O	O	_	_	
+5-13	to	O	O	_	_	
+5-14	provide	B-UnrelEv	O	_	_	
+5-15	shade	O	O	_	_	
+5-16	.	O	O	_	_	
+
+#id=6
+#text=While the trees might be small now , hopefully they would grow into big trees for maybe our kids .
+6-1	While	O	O	_	_	
+6-2	the	O	O	_	_	
+6-3	trees	O	B-ScrPart_tree	webanno.custom.Corefchains_	5-9	
+6-4	might	O	O	_	_	
+6-5	be	B-UnrelEv	O	_	_	
+6-6	small	O	O	_	_	
+6-7	now	O	O	_	_	
+6-8	,	O	O	_	_	
+6-9	hopefully	O	O	_	_	
+6-10	they	O	B-ScrPart_tree	webanno.custom.Corefchains_	6-3	
+6-11	would	O	O	_	_	
+6-12	grow	B-RelNScrEv	O	_	_	
+6-13	into	O	O	_	_	
+6-14	big	O	O	_	_	
+6-15	trees	O	B-ScrPart_tree	webanno.custom.Corefchains_	6-10	
+6-16	for	O	O	_	_	
+6-17	maybe	O	O	_	_	
+6-18	our	O	B-ScrPart_gardener	webanno.custom.Corefchains_	5-6	
+6-19	kids	O	O	_	_	
+6-20	.	O	O	_	_	
+
+#id=7
+#text=We got all down and dirty in the grass , starting to rake up a circle of grass in order to turn over some topsoil .
+7-1	We	O	B-ScrPart_gardener	webanno.custom.Corefchains_	6-18	
+7-2	got	B-UnrelEv	O	_	_	
+7-3	all	O	O	_	_	
+7-4	down	O	O	_	_	
+7-5	and	O	O	_	_	
+7-6	dirty	O	O	_	_	
+7-7	in	O	O	_	_	
+7-8	the	O	O	_	_	
+7-9	grass	O	O	_	_	
+7-10	,	O	O	_	_	
+7-11	starting	O	O	_	_	
+7-12	to	O	O	_	_	
+7-13	rake	B-RelNScrEv	O	_	_	
+7-14	up	I-RelNScrEv	O	_	_	
+7-15	a	O	O	_	_	
+7-16	circle	O	B-NPart	_	_	
+7-17	of	O	O	_	_	
+7-18	grass	O	B-NPart	_	_	
+7-19	in	O	O	_	_	
+7-20	order	O	O	_	_	
+7-21	to	O	O	_	_	
+7-22	turn	B-RelNScrEv	O	_	_	
+7-23	over	I-RelNScrEv	O	_	_	
+7-24	some	O	O	_	_	
+7-25	topsoil	O	B-ScrPart_dirt	_	_	
+7-26	.	O	O	_	_	
+
+#id=8
+#text=We had a trowel , and yes we called it a trowel , and we dug into the dirt to start planting the tree .
+8-1	We	O	B-ScrPart_gardener	webanno.custom.Corefchains_	7-1	
+8-2	had	B-UnrelEv	O	_	_	
+8-3	a	O	O	_	_	
+8-4	trowel	O	B-ScrPart_gardening_tool	_	_	
+8-5	,	O	O	_	_	
+8-6	and	O	O	_	_	
+8-7	yes	O	O	_	_	
+8-8	we	O	B-ScrPart_gardener	webanno.custom.Corefchains_	8-1	
+8-9	called	B-UnrelEv	O	_	_	
+8-10	it	O	B-ScrPart_gardening_tool	webanno.custom.Corefchains_	8-4	
+8-11	a	O	O	_	_	
+8-12	trowel	O	B-ScrPart_gardening_tool	webanno.custom.Corefchains_	8-10	
+8-13	,	O	O	_	_	
+8-14	and	O	O	_	_	
+8-15	we	O	B-ScrPart_gardener	webanno.custom.Corefchains_	8-8	
+8-16	dug	B-ScrEv_dug_hole	O	_	_	
+8-17	into	O	O	_	_	
+8-18	the	O	O	_	_	
+8-19	dirt	O	B-ScrPart_dirt	webanno.custom.Corefchains_	7-25	
+8-20	to	O	O	_	_	
+8-21	start	O	O	_	_	
+8-22	planting	B-Evoking	O	_	_	
+8-23	the	I-Evoking	O	_	_	
+8-24	tree	I-Evoking	B-ScrPart_tree	webanno.custom.Corefchains_	6-15	
+8-25	.	O	O	_	_	
+
+#id=9
+#text=We made a six inch deep hole in the soil , and then put the tree in .
+9-1	We	O	B-ScrPart_gardener	webanno.custom.Corefchains_	8-15	
+9-2	made	B-ScrEv_dug_hole	O	_	_	
+9-3	a	O	O	_	_	
+9-4	six	O	O	_	_	
+9-5	inch	O	O	_	_	
+9-6	deep	O	O	_	_	
+9-7	hole	O	B-ScrPart_hole	_	_	
+9-8	in	O	O	_	_	
+9-9	the	O	O	_	_	
+9-10	soil	O	B-ScrPart_dirt	webanno.custom.Corefchains_	8-19	
+9-11	,	O	O	_	_	
+9-12	and	O	O	_	_	
+9-13	then	O	O	_	_	
+9-14	put	B-ScrEv_place_root	O	_	_	
+9-15	the	O	O	_	_	
+9-16	tree	O	B-ScrPart_tree	webanno.custom.Corefchains_	8-24	
+9-17	in	O	O	_	_	
+9-18	.	O	O	_	_	
+
+#id=10
+#text=We finished by packing the soil down around the roots of the small tree , and then we watered it . 
+10-1	We	O	B-ScrPart_gardener	webanno.custom.Corefchains_	9-1	
+10-2	finished	B-UnrelEv	O	_	_	
+10-3	by	O	O	_	_	
+10-4	packing	B-ScrEv_refill_hole	O	_	_	
+10-5	the	O	O	_	_	
+10-6	soil	O	B-ScrPart_dirt	webanno.custom.Corefchains_	9-10	
+10-7	down	O	O	_	_	
+10-8	around	O	O	_	_	
+10-9	the	O	O	_	_	
+10-10	roots	O	B-ScrPart_root	_	_	
+10-11	of	O	O	_	_	
+10-12	the	O	O	_	_	
+10-13	small	O	O	_	_	
+10-14	tree	O	B-ScrPart_tree	webanno.custom.Corefchains_	9-16	
+10-15	,	O	O	_	_	
+10-16	and	O	O	_	_	
+10-17	then	O	O	_	_	
+10-18	we	O	B-ScrPart_gardener	webanno.custom.Corefchains_	10-1	
+10-19	watered	B-ScrEv_water	O	_	_	
+10-20	it	O	B-ScrPart_tree	webanno.custom.Corefchains_	10-14	
+10-21	.	O	O	_	_	
+

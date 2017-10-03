@@ -1,0 +1,262 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Last spring , I planted a tree in my backyard .
+1-1	Last	O	O	_	_	
+1-2	spring	B-ScrPart_time	O	_	_	
+1-3	,	O	O	_	_	
+1-4	I	B-ScrPart_gardener	O	_	_	
+1-5	planted	O	B-Evoking	_	_	
+1-6	a	O	I-Evoking	_	_	
+1-7	tree	B-ScrPart_tree	I-Evoking	_	_	
+1-8	in	O	O	_	_	
+1-9	my	B-ScrPart_gardener	O	_	_	
+1-10	backyard	B-ScrPart_location_garden	O	_	_	
+1-11	.	O	O	_	_	
+
+#id=2
+#text=When I was a kid , we always had apples , because we had two apple trees in our backyard .
+2-1	When	O	O	_	_	
+2-2	I	B-ScrPart_gardener	O	_	_	
+2-3	was	O	B-UnrelEv	_	_	
+2-4	a	O	O	_	_	
+2-5	kid	B-NPart	O	_	_	
+2-6	,	O	O	_	_	
+2-7	we	B-???	O	_	_	
+2-8	always	O	O	_	_	
+2-9	had	O	B-UnrelEv	_	_	
+2-10	apples	B-ScrPart_other	O	_	_	
+2-11	,	O	O	_	_	
+2-12	because	O	O	_	_	
+2-13	we	B-???	O	webanno.custom.Corefchains_	2-7	
+2-14	had	O	B-UnrelEv	_	_	
+2-15	two	O	O	_	_	
+2-16	apple	B-ScrPart_tree	O	_	_	
+2-17	trees	I-ScrPart_tree|B-ScrPart_tree	O	_	_	
+2-18	in	O	O	_	_	
+2-19	our	B-???	O	webanno.custom.Corefchains_	2-13	
+2-20	backyard	B-ScrPart_location_garden	O	_	_	
+2-21	.	O	O	_	_	
+
+#id=3
+#text=We used to make pies and applesauce and I wanted to have that at my house .
+3-1	We	B-???	O	webanno.custom.Corefchains_	2-19	
+3-2	used	O	O	_	_	
+3-3	to	O	O	_	_	
+3-4	make	O	B-UnrelEv	_	_	
+3-5	pies	B-NPart	O	_	_	
+3-6	and	O	O	_	_	
+3-7	applesauce	B-NPart	O	_	_	
+3-8	and	O	O	_	_	
+3-9	I	B-ScrPart_gardener	O	_	_	
+3-10	wanted	O	B-UnrelEv	_	_	
+3-11	to	O	O	_	_	
+3-12	have	O	B-UnrelEv	_	_	
+3-13	that	B-ScrPart_tree	O	_	_	
+3-14	at	O	O	_	_	
+3-15	my	B-ScrPart_gardener	O	_	_	
+3-16	house	B-ScrPart_other	O	_	_	
+3-17	.	O	O	_	_	
+
+#id=4
+#text=I went to the local nursery and I found a 6 foot tree .
+4-1	I	B-ScrPart_gardener	O	_	_	
+4-2	went	O	B-ScrEv_get_tree	_	_	
+4-3	to	O	O	_	_	
+4-4	the	O	O	_	_	
+4-5	local	B-ScrPart_shop	O	_	_	
+4-6	nursery	I-ScrPart_shop|B-ScrPart_shop	O	_	_	
+4-7	and	O	O	_	_	
+4-8	I	B-ScrPart_gardener	O	_	_	
+4-9	found	O	B-ScrEv_choose_tree	_	_	
+4-10	a	O	O	_	_	
+4-11	6	O	O	_	_	
+4-12	foot	B-NPart	O	_	_	
+4-13	tree	B-ScrPart_tree	O	_	_	
+4-14	.	O	O	_	_	
+
+#id=5
+#text=With delivery , it was pretty expensive , but I figured it was worth it .
+5-1	With	O	O	_	_	
+5-2	delivery	B-???	O	_	_	
+5-3	,	O	O	_	_	
+5-4	it	B-ScrPart_tree	O	_	_	
+5-5	was	O	B-RelNScrEv	_	_	
+5-6	pretty	O	O	_	_	
+5-7	expensive	O	O	_	_	
+5-8	,	O	O	_	_	
+5-9	but	O	O	_	_	
+5-10	I	B-ScrPart_gardener	O	_	_	
+5-11	figured	O	B-UnrelEv	_	_	
+5-12	it	B-ScrPart_tree	O	_	_	
+5-13	was	O	B-UnrelEv	_	_	
+5-14	worth	O	O	_	_	
+5-15	it	B-No_label	O	_	_	
+5-16	.	O	O	_	_	
+
+#id=6
+#text=I dug out an area in my backyard .
+6-1	I	B-ScrPart_gardener	O	_	_	
+6-2	dug	O	B-ScrEv_dug_hole|B-ScrEv_dug_hole	_	_	
+6-3	out	O	I-ScrEv_dug_hole	_	_	
+6-4	an	O	O	_	_	
+6-5	area	B-ScrPart_hole	O	_	_	
+6-6	in	O	O	_	_	
+6-7	my	B-ScrPart_gardener	O	_	_	
+6-8	backyard	B-ScrPart_location_garden	O	_	_	
+6-9	.	O	O	_	_	
+
+#id=7
+#text=I was surprised at how long it took and how much dirt that I had to move .
+7-1	I	B-ScrPart_gardener	O	_	_	
+7-2	was	O	O	_	_	
+7-3	surprised	O	B-UnrelEv	_	_	
+7-4	at	O	O	_	_	
+7-5	how	O	O	_	_	
+7-6	long	O	O	_	_	
+7-7	it	B-No_label	O	_	_	
+7-8	took	O	B-UnrelEv	_	_	
+7-9	and	O	O	_	_	
+7-10	how	O	O	_	_	
+7-11	much	O	O	_	_	
+7-12	dirt	B-ScrPart_dirt	O	_	_	
+7-13	that	O	O	_	_	
+7-14	I	B-ScrPart_gardener	O	_	_	
+7-15	had	O	O	_	_	
+7-16	to	O	O	_	_	
+7-17	move	O	B-ScrEv_dug_hole	_	_	
+7-18	.	O	O	_	_	
+
+#id=8
+#text=Digging the hole took me the longest time of the whole process .
+8-1	Digging	O	B-ScrEv_dug_hole	_	_	
+8-2	the	O	O	_	_	
+8-3	hole	B-ScrPart_hole	O	_	_	
+8-4	took	O	B-UnrelEv	_	_	
+8-5	me	B-ScrPart_gardener	O	_	_	
+8-6	the	O	O	_	_	
+8-7	longest	O	O	_	_	
+8-8	time	B-ScrPart_time	O	_	_	
+8-9	of	O	O	_	_	
+8-10	the	O	O	_	_	
+8-11	whole	O	O	_	_	
+8-12	process	B-NPart	O	_	_	
+8-13	.	O	O	_	_	
+
+#id=9
+#text=I finally got that done and I stuck the tree in the ground .
+9-1	I	B-ScrPart_gardener	O	_	_	
+9-2	finally	O	O	_	_	
+9-3	got	O	O	_	_	
+9-4	that	B-ScrPart_hole	O	_	_	
+9-5	done	O	B-UnrelEv	_	_	
+9-6	and	O	O	_	_	
+9-7	I	B-ScrPart_gardener	O	_	_	
+9-8	stuck	O	B-ScrEv_place_root	_	_	
+9-9	the	O	O	_	_	
+9-10	tree	B-ScrPart_tree	O	_	_	
+9-11	in	O	O	_	_	
+9-12	the	O	O	_	_	
+9-13	ground	B-ScrPart_hole	O	_	_	
+9-14	.	O	O	_	_	
+
+#id=10
+#text=I read online about a fertilizer that was good for apple trees and mixed that in with the dirt as I was filling in the area around the roots .
+10-1	I	B-ScrPart_gardener	O	_	_	
+10-2	read	O	B-RelNScrEv	_	_	
+10-3	online	O	O	_	_	
+10-4	about	O	O	_	_	
+10-5	a	O	O	_	_	
+10-6	fertilizer	B-ScrPart_fertilizer	O	_	_	
+10-7	that	O	O	_	_	
+10-8	was	O	B-UnrelEv	_	_	
+10-9	good	O	O	_	_	
+10-10	for	O	O	_	_	
+10-11	apple	B-ScrPart_tree	O	_	_	
+10-12	trees	I-ScrPart_tree|B-ScrPart_tree	O	_	_	
+10-13	and	O	O	_	_	
+10-14	mixed	O	B-ScrEv_place_fertilizers	_	_	
+10-15	that	B-ScrPart_fertilizer	O	_	_	
+10-16	in	O	O	_	_	
+10-17	with	O	O	_	_	
+10-18	the	O	O	_	_	
+10-19	dirt	B-ScrPart_dirt	O	_	_	
+10-20	as	O	O	_	_	
+10-21	I	B-ScrPart_gardener	O	_	_	
+10-22	was	O	O	_	_	
+10-23	filling	O	B-ScrEv_place_fertilizers	_	_	
+10-24	in	O	O	_	_	
+10-25	the	O	O	_	_	
+10-26	area	B-ScrPart_dirt	O	_	_	
+10-27	around	O	O	_	_	
+10-28	the	O	O	_	_	
+10-29	roots	B-ScrPart_root	O	_	_	
+10-30	.	O	O	_	_	
+
+#id=11
+#text=I do n't expect to get any apples this year and probably not next year , but the tree should be mature enough to start producing apples in the following years .
+11-1	I	B-ScrPart_gardener	O	_	_	
+11-2	do	O	O	_	_	
+11-3	n't	O	O	_	_	
+11-4	expect	O	B-UnrelEv	_	_	
+11-5	to	O	O	_	_	
+11-6	get	O	B-RelNScrEv	_	_	
+11-7	any	O	O	_	_	
+11-8	apples	B-ScrPart_other	O	_	_	
+11-9	this	O	O	_	_	
+11-10	year	B-ScrPart_time	O	_	_	
+11-11	and	O	O	_	_	
+11-12	probably	O	O	_	_	
+11-13	not	O	O	_	_	
+11-14	next	O	O	_	_	
+11-15	year	B-ScrPart_time	O	_	_	
+11-16	,	O	O	_	_	
+11-17	but	O	O	_	_	
+11-18	the	O	O	_	_	
+11-19	tree	B-ScrPart_tree	O	_	_	
+11-20	should	O	O	_	_	
+11-21	be	O	B-UnrelEv	_	_	
+11-22	mature	O	O	_	_	
+11-23	enough	O	O	_	_	
+11-24	to	O	O	_	_	
+11-25	start	O	B-UnrelEv	_	_	
+11-26	producing	O	B-RelNScrEv	_	_	
+11-27	apples	B-ScrPart_other	O	_	_	
+11-28	in	O	O	_	_	
+11-29	the	O	O	_	_	
+11-30	following	O	B-UnrelEv	_	_	
+11-31	years	B-ScrPart_time	O	_	_	
+11-32	.	O	O	_	_	
+
+#id=12
+#text=The whole process took me about 3 hours to get the tree planted .
+12-1	The	O	O	_	_	
+12-2	whole	O	O	_	_	
+12-3	process	B-NPart	O	_	_	
+12-4	took	O	B-UnrelEv	_	_	
+12-5	me	B-ScrPart_gardener	O	_	_	
+12-6	about	O	O	_	_	
+12-7	3	O	O	_	_	
+12-8	hours	B-ScrPart_time	O	_	_	
+12-9	to	O	O	_	_	
+12-10	get	O	B-Evoking	_	_	
+12-11	the	O	I-Evoking	_	_	
+12-12	tree	B-ScrPart_tree	I-Evoking	_	_	
+12-13	planted	O	I-Evoking	_	_	
+12-14	.	O	O	_	_	
+
+#id=13
+#text=I wish I would have paid someone to do it for me . 
+13-1	I	B-ScrPart_gardener	O	_	_	
+13-2	wish	O	B-UnrelEv	_	_	
+13-3	I	B-ScrPart_gardener	O	_	_	
+13-4	would	O	O	_	_	
+13-5	have	O	O	_	_	
+13-6	paid	O	B-UnrelEv	_	_	
+13-7	someone	B-ScrPart_gardener	O	_	_	
+13-8	to	O	O	_	_	
+13-9	do	O	B-???	_	_	
+13-10	it	B-No_label	O	_	_	
+13-11	for	O	O	_	_	
+13-12	me	B-ScrPart_gardener	O	_	_	
+13-13	.	O	O	_	_	
+

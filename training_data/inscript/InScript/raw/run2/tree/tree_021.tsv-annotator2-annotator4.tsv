@@ -1,0 +1,210 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=My yard was very bare and plain-looking so I decided to add some trees to the landscape .
+1-1	My	B-ScrPart_gardener	O	_	_	
+1-2	yard	B-NPart	O	_	_	
+1-3	was	O	B-UnrelEv	_	_	
+1-4	very	O	O	_	_	
+1-5	bare	O	O	_	_	
+1-6	and	O	O	_	_	
+1-7	plain-looking	O	B-UnrelEv	_	_	
+1-8	so	O	O	_	_	
+1-9	I	B-ScrPart_gardener	O	_	_	
+1-10	decided	O	B-UnrelEv	_	_	
+1-11	to	O	O	_	_	
+1-12	add	O	B-UnrelEv	_	_	
+1-13	some	O	O	_	_	
+1-14	trees	B-ScrPart_tree	O	_	_	
+1-15	to	O	O	_	_	
+1-16	the	O	O	_	_	
+1-17	landscape	B-NPart	O	_	_	
+1-18	.	O	O	_	_	
+
+#id=2
+#text=First , I went to the local nursery and asked them for advice on what kinds of trees would do well in my area , level of sunlight , amount of precipitation , etc .
+2-1	First	O	O	_	_	
+2-2	,	O	O	_	_	
+2-3	I	B-ScrPart_gardener	O	_	_	
+2-4	went	O	B-RelNScrEv	_	_	
+2-5	to	O	O	_	_	
+2-6	the	O	O	_	_	
+2-7	local	O	O	_	_	
+2-8	nursery	B-ScrPart_shop	O	_	_	
+2-9	and	O	O	_	_	
+2-10	asked	O	B-RelNScrEv	_	_	
+2-11	them	B-ScrPart_staff	O	_	_	
+2-12	for	O	O	_	_	
+2-13	advice	B-SuppVComp	O	_	_	
+2-14	on	O	O	_	_	
+2-15	what	O	O	_	_	
+2-16	kinds	B-NPart	O	_	_	
+2-17	of	O	O	_	_	
+2-18	trees	B-ScrPart_tree	O	_	_	
+2-19	would	O	O	_	_	
+2-20	do	O	B-UnrelEv	_	_	
+2-21	well	O	O	_	_	
+2-22	in	O	O	_	_	
+2-23	my	B-ScrPart_gardener	O	_	_	
+2-24	area	B-NPart	O	_	_	
+2-25	,	O	O	_	_	
+2-26	level	B-NPart	O	_	_	
+2-27	of	O	O	_	_	
+2-28	sunlight	B-NPart	O	_	_	
+2-29	,	O	O	_	_	
+2-30	amount	B-Head_of_Partitive	O	_	_	
+2-31	of	O	O	_	_	
+2-32	precipitation	B-NPart	O	_	_	
+2-33	,	O	O	_	_	
+2-34	etc	O	O	_	_	
+2-35	.	O	O	_	_	
+
+#id=3
+#text=They gave me some ideas and I picked out a Bradford pear tree sapling .
+3-1	They	B-ScrPart_staff	O	_	_	
+3-2	gave	O	B-UnrelEv	_	_	
+3-3	me	B-ScrPart_gardener	O	webanno.custom.Corefchains_	2-23	
+3-4	some	O	O	_	_	
+3-5	ideas	B-NPart	O	_	_	
+3-6	and	O	O	_	_	
+3-7	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	3-3	
+3-8	picked	O	B-ScrEv_choose_tree	_	_	
+3-9	out	O	I-ScrEv_choose_tree	_	_	
+3-10	a	O	O	_	_	
+3-11	Bradford	B-ScrPart_tree	O	_	_	
+3-12	pear	I-ScrPart_tree	O	_	_	
+3-13	tree	I-ScrPart_tree	O	_	_	
+3-14	sapling	I-ScrPart_tree|B-ScrPart_tree	O	_	_	
+3-15	.	O	O	_	_	
+
+#id=4
+#text=I took it home and left it in shade while I prepared to plant it .
+4-1	I	B-ScrPart_gardener	O	_	_	
+4-2	took	O	B-ScrEv_take_home	_	_	
+4-3	it	B-ScrPart_tree	O	_	_	
+4-4	home	B-NPart	O	_	_	
+4-5	and	O	O	_	_	
+4-6	left	O	B-UnrelEv	_	_	
+4-7	it	B-ScrPart_tree	O	_	_	
+4-8	in	O	O	_	_	
+4-9	shade	B-NPart	O	_	_	
+4-10	while	O	O	_	_	
+4-11	I	B-ScrPart_gardener	O	_	_	
+4-12	prepared	O	B-UnrelEv	_	_	
+4-13	to	O	O	_	_	
+4-14	plant	O	B-Evoking	_	_	
+4-15	it	B-ScrPart_tree	I-Evoking	_	_	
+4-16	.	O	O	_	_	
+
+#id=5
+#text=First I got out a shovel and dug a deep enough hole to cover the whole root ball of the tree .
+5-1	First	O	O	_	_	
+5-2	I	B-ScrPart_gardener	O	_	_	
+5-3	got	O	B-ScrEv_get_tools	_	_	
+5-4	out	O	I-ScrEv_get_tools	_	_	
+5-5	a	O	O	_	_	
+5-6	shovel	B-ScrPart_gardening_tool	O	_	_	
+5-7	and	O	O	_	_	
+5-8	dug	O	B-ScrEv_dug_hole	_	_	
+5-9	a	O	O	_	_	
+5-10	deep	O	O	_	_	
+5-11	enough	O	O	_	_	
+5-12	hole	B-ScrPart_hole	O	_	_	
+5-13	to	O	O	_	_	
+5-14	cover	O	B-UnrelEv	_	_	
+5-15	the	O	O	_	_	
+5-16	whole	O	O	_	_	
+5-17	root	B-ScrPart_root	O	_	_	
+5-18	ball	I-ScrPart_root|B-ScrPart_root	O	_	_	
+5-19	of	O	O	_	_	
+5-20	the	O	O	_	_	
+5-21	tree	B-ScrPart_tree	O	_	_	
+5-22	.	O	O	_	_	
+
+#id=6
+#text=Then I placed some fertilizer in the bottom of the hole .
+6-1	Then	O	O	_	_	
+6-2	I	B-ScrPart_gardener	O	_	_	
+6-3	placed	O	B-ScrEv_place_fertilizers	_	_	
+6-4	some	O	O	_	_	
+6-5	fertilizer	B-ScrPart_fertilizer	O	_	_	
+6-6	in	O	O	_	_	
+6-7	the	O	O	_	_	
+6-8	bottom	B-NPart	O	_	_	
+6-9	of	O	O	_	_	
+6-10	the	O	O	_	_	
+6-11	hole	B-ScrPart_hole	O	_	_	
+6-12	.	O	O	_	_	
+
+#id=7
+#text=Next I unwrapped the root ball from the burlap sack which contained it and placed it in the hole that I had dug .
+7-1	Next	O	O	_	_	
+7-2	I	B-ScrPart_gardener	O	_	_	
+7-3	unwrapped	O	B-ScrEv_unwrap_root	_	_	
+7-4	the	O	O	_	_	
+7-5	root	B-ScrPart_root	O	_	_	
+7-6	ball	I-ScrPart_root|B-ScrPart_root	O	_	_	
+7-7	from	O	O	_	_	
+7-8	the	O	O	_	_	
+7-9	burlap	B-ScrPart_wrapping	O	_	_	
+7-10	sack	I-ScrPart_wrapping|B-ScrPart_wrapping	O	_	_	
+7-11	which	O	O	_	_	
+7-12	contained	O	B-UnrelEv	_	_	
+7-13	it	B-ScrPart_root	O	_	_	
+7-14	and	O	O	_	_	
+7-15	placed	O	B-ScrEv_place_root	_	_	
+7-16	it	B-ScrPart_root	O	_	_	
+7-17	in	O	O	_	_	
+7-18	the	O	O	_	_	
+7-19	hole	B-ScrPart_hole	O	_	_	
+7-20	that	O	O	_	_	
+7-21	I	B-ScrPart_gardener	O	_	_	
+7-22	had	O	O	_	_	
+7-23	dug	O	B-ScrEv_dug_hole	_	_	
+7-24	.	O	O	_	_	
+
+#id=8
+#text=Once it was in , I shoveled the dirt back into the opening and tamped it firmly around the base of the tree .
+8-1	Once	O	O	_	_	
+8-2	it	B-ScrPart_root	O	_	_	
+8-3	was	O	B-UnrelEv	_	_	
+8-4	in	O	O	_	_	
+8-5	,	O	O	_	_	
+8-6	I	B-ScrPart_gardener	O	_	_	
+8-7	shoveled	O	B-ScrEv_refill_hole	_	_	
+8-8	the	O	O	_	_	
+8-9	dirt	B-ScrPart_dirt	O	_	_	
+8-10	back	O	O	_	_	
+8-11	into	O	O	_	_	
+8-12	the	O	O	_	_	
+8-13	opening	B-ScrPart_hole	O	_	_	
+8-14	and	O	O	_	_	
+8-15	tamped	O	B-ScrEv_tamp_dirt	_	_	
+8-16	it	B-ScrPart_dirt	O	_	_	
+8-17	firmly	O	O	_	_	
+8-18	around	O	O	_	_	
+8-19	the	O	O	_	_	
+8-20	base	B-NPart	O	_	_	
+8-21	of	O	O	_	_	
+8-22	the	O	O	_	_	
+8-23	tree	B-ScrPart_tree	O	_	_	
+8-24	.	O	O	_	_	
+
+#id=9
+#text=After that I placed a soaker hose near it to give it plenty of water . 
+9-1	After	O	O	_	_	
+9-2	that	O	O	_	_	
+9-3	I	B-ScrPart_gardener	O	_	_	
+9-4	placed	O	B-ScrEv_get_tools	_	_	
+9-5	a	O	O	_	_	
+9-6	soaker	B-ScrPart_gardening_tool	O	_	_	
+9-7	hose	I-ScrPart_gardening_tool|B-ScrPart_gardening_tool	O	_	_	
+9-8	near	O	O	_	_	
+9-9	it	B-ScrPart_tree	O	_	_	
+9-10	to	O	O	_	_	
+9-11	give	O	B-ScrEv_water	_	_	
+9-12	it	B-ScrPart_tree	O	_	_	
+9-13	plenty	O	O	_	_	
+9-14	of	O	O	_	_	
+9-15	water	B-ScrPart_water	O	_	_	
+9-16	.	O	O	_	_	
+

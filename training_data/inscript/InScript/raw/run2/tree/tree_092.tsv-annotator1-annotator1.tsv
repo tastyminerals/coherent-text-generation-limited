@@ -1,0 +1,203 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I went to my grandmother 's house this summer and she loves to garden .
+1-1	I	B-ScrPart_gardener	O	_	_	
+1-2	went	O	B-UnrelEv	_	_	
+1-3	to	O	O	_	_	
+1-4	my	B-ScrPart_gardener	O	_	_	
+1-5	grandmother	B-ScrPart_gardener	O	_	_	
+1-6	's	O	O	_	_	
+1-7	house	B-ScrPart_other	O	_	_	
+1-8	this	O	O	_	_	
+1-9	summer	B-ScrPart_time	O	_	_	
+1-10	and	O	O	_	_	
+1-11	she	B-ScrPart_gardener	O	_	_	
+1-12	loves	O	B-UnrelEv	_	_	
+1-13	to	O	O	_	_	
+1-14	garden	O	B-RelNScrEv	_	_	
+1-15	.	O	O	_	_	
+
+#id=2
+#text=She asked me to help her plan a lemon tree in her front yard .
+2-1	She	B-ScrPart_gardener	O	_	_	
+2-2	asked	O	B-UnrelEv	_	_	
+2-3	me	B-ScrPart_gardener	O	_	_	
+2-4	to	O	O	_	_	
+2-5	help	O	B-UnrelEv	_	_	
+2-6	her	B-ScrPart_gardener	O	_	_	
+2-7	plan	O	B-Evoking	_	_	
+2-8	a	O	I-Evoking	_	_	
+2-9	lemon	B-ScrPart_tree	I-Evoking	_	_	
+2-10	tree	I-ScrPart_tree|B-ScrPart_tree	I-Evoking	_	_	
+2-11	in	O	O	_	_	
+2-12	her	B-ScrPart_gardener	O	_	_	
+2-13	front	B-ScrPart_location_garden	O	_	_	
+2-14	yard	I-ScrPart_location_garden|B-ScrPart_location_garden	O	_	_	
+2-15	.	O	O	_	_	
+
+#id=3
+#text=Since my grandmother was elderly and did n't have enough strength to shovel I did it instead .
+3-1	Since	O	O	_	_	
+3-2	my	B-ScrPart_gardener	O	_	_	
+3-3	grandmother	B-ScrPart_gardener	O	_	_	
+3-4	was	O	B-UnrelEv	_	_	
+3-5	elderly	O	O	_	_	
+3-6	and	O	O	_	_	
+3-7	did	O	O	_	_	
+3-8	n't	O	O	_	_	
+3-9	have	O	B-UnrelEv	_	_	
+3-10	enough	O	O	_	_	
+3-11	strength	B-NPart	O	_	_	
+3-12	to	O	O	_	_	
+3-13	shovel	O	B-ScrEv_dug_hole	_	_	
+3-14	I	B-ScrPart_gardener	O	_	_	
+3-15	did	O	B-???	_	_	
+3-16	it	B-No_label	O	_	_	
+3-17	instead	O	O	_	_	
+3-18	.	O	O	_	_	
+
+#id=4
+#text=I dug a hole big enough from the tree .
+4-1	I	B-ScrPart_gardener	O	_	_	
+4-2	dug	O	B-ScrEv_dug_hole	_	_	
+4-3	a	O	O	_	_	
+4-4	hole	B-ScrPart_hole	O	_	_	
+4-5	big	O	O	_	_	
+4-6	enough	O	O	_	_	
+4-7	from	O	O	_	_	
+4-8	the	O	O	_	_	
+4-9	tree	B-ScrPart_tree	O	_	_	
+4-10	.	O	O	_	_	
+
+#id=5
+#text=My grandmother had gone out to our local garden center and picked out a young lemon tree from their nursery .
+5-1	My	B-ScrPart_gardener	O	_	_	
+5-2	grandmother	B-ScrPart_gardener	O	_	_	
+5-3	had	O	O	_	_	
+5-4	gone	O	B-ScrEv_get_tools|B-ScrEv_get_tools	_	_	
+5-5	out	O	I-ScrEv_get_tools	_	_	
+5-6	to	O	O	_	_	
+5-7	our	B-ScrPart_gardener	O	group_grandmother_I|group_grandmother_I	5-1|5-2	
+5-8	local	O	O	_	_	
+5-9	garden	B-ScrPart_shop	O	_	_	
+5-10	center	I-ScrPart_shop|B-ScrPart_shop	O	_	_	
+5-11	and	O	O	_	_	
+5-12	picked	O	B-ScrEv_get_tree|B-ScrEv_get_tree	_	_	
+5-13	out	O	I-ScrEv_get_tree	_	_	
+5-14	a	O	O	_	_	
+5-15	young	O	O	_	_	
+5-16	lemon	B-ScrPart_tree	O	_	_	
+5-17	tree	I-ScrPart_tree|B-ScrPart_tree	O	_	_	
+5-18	from	O	O	_	_	
+5-19	their	B-ScrPart_shop	O	_	_	
+5-20	nursery	B-ScrPart_shop	O	_	_	
+5-21	.	O	O	_	_	
+
+#id=6
+#text=I grabbed the lemon tree from the pot and placed the bottom of the tree into the hole .
+6-1	I	B-ScrPart_gardener	O	_	_	
+6-2	grabbed	O	B-ScrEv_unwrap_root	_	_	
+6-3	the	O	O	_	_	
+6-4	lemon	B-ScrPart_tree	O	_	_	
+6-5	tree	I-ScrPart_tree|B-ScrPart_tree	O	_	_	
+6-6	from	O	O	_	_	
+6-7	the	O	O	_	_	
+6-8	pot	B-ScrPart_wrapping	O	_	_	
+6-9	and	O	O	_	_	
+6-10	placed	O	B-ScrEv_place_root	_	_	
+6-11	the	O	O	_	_	
+6-12	bottom	B-ScrPart_root	O	_	_	
+6-13	of	O	O	_	_	
+6-14	the	O	O	_	_	
+6-15	tree	B-ScrPart_tree	O	_	_	
+6-16	into	O	O	_	_	
+6-17	the	O	O	_	_	
+6-18	hole	B-ScrPart_hole	O	_	_	
+6-19	.	O	O	_	_	
+
+#id=7
+#text=I cover the roots and the hole with soil until it was all covered up .
+7-1	I	B-ScrPart_gardener	O	_	_	
+7-2	cover	O	B-ScrEv_refill_hole	_	_	
+7-3	the	O	O	_	_	
+7-4	roots	B-ScrPart_root	O	_	_	
+7-5	and	O	O	_	_	
+7-6	the	O	O	_	_	
+7-7	hole	B-ScrPart_hole	O	_	_	
+7-8	with	O	O	_	_	
+7-9	soil	B-ScrPart_dirt	O	_	_	
+7-10	until	O	O	_	_	
+7-11	it	B-ScrPart_hole	O	_	_	
+7-12	was	O	O	_	_	
+7-13	all	O	O	_	_	
+7-14	covered	O	B-ScrEv_refill_hole|B-ScrEv_refill_hole	_	_	
+7-15	up	O	I-ScrEv_refill_hole	_	_	
+7-16	.	O	O	_	_	
+
+#id=8
+#text=My grandmother sprinkled fertilizer and other plant nutrients into the soil .
+8-1	My	B-ScrPart_gardener	O	_	_	
+8-2	grandmother	B-ScrPart_gardener	O	_	_	
+8-3	sprinkled	O	B-ScrEv_place_fertilizers	_	_	
+8-4	fertilizer	B-ScrPart_fertilizer	O	_	_	
+8-5	and	O	O	_	_	
+8-6	other	O	O	_	_	
+8-7	plant	B-ScrPart_fertilizer	O	_	_	
+8-8	nutrients	I-ScrPart_fertilizer|B-ScrPart_fertilizer	O	_	_	
+8-9	into	O	O	_	_	
+8-10	the	O	O	_	_	
+8-11	soil	B-ScrPart_dirt	O	_	_	
+8-12	.	O	O	_	_	
+
+#id=9
+#text=While she was doing that I grabbed the hose and turned the water on .
+9-1	While	O	O	_	_	
+9-2	she	B-ScrPart_gardener	O	_	_	
+9-3	was	O	O	_	_	
+9-4	doing	O	B-???	_	_	
+9-5	that	O	O	_	_	
+9-6	I	B-ScrPart_gardener	O	_	_	
+9-7	grabbed	O	B-ScrEv_get_tools	_	_	
+9-8	the	O	O	_	_	
+9-9	hose	B-ScrPart_gardening_tool	O	_	_	
+9-10	and	O	O	_	_	
+9-11	turned	O	B-ScrEv_water	_	_	
+9-12	the	O	O	_	_	
+9-13	water	B-ScrPart_water	O	_	_	
+9-14	on	O	O	_	_	
+9-15	.	O	O	_	_	
+
+#id=10
+#text=I walked towards the lemon tree and sprinkled water into the soil .
+10-1	I	B-ScrPart_gardener	O	_	_	
+10-2	walked	O	B-RelNScrEv	_	_	
+10-3	towards	O	O	_	_	
+10-4	the	O	O	_	_	
+10-5	lemon	B-ScrPart_tree	O	_	_	
+10-6	tree	I-ScrPart_tree|B-ScrPart_tree	O	_	_	
+10-7	and	O	O	_	_	
+10-8	sprinkled	O	B-ScrEv_water	_	_	
+10-9	water	B-ScrPart_water	O	_	_	
+10-10	into	O	O	_	_	
+10-11	the	O	O	_	_	
+10-12	soil	B-ScrPart_dirt	O	_	_	
+10-13	.	O	O	_	_	
+
+#id=11
+#text=Hopefully the next time my grandmother and I meet to get to make lemonade . 
+11-1	Hopefully	O	O	_	_	
+11-2	the	O	O	_	_	
+11-3	next	O	O	_	_	
+11-4	time	B-No_label	O	_	_	
+11-5	my	B-ScrPart_gardener	O	_	_	
+11-6	grandmother	B-ScrPart_gardener	O	_	_	
+11-7	and	O	O	_	_	
+11-8	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	11-5	
+11-9	meet	O	B-UnrelEv	_	_	
+11-10	to	O	O	_	_	
+11-11	get	O	O	_	_	
+11-12	to	O	O	_	_	
+11-13	make	O	B-UnrelEv	_	_	
+11-14	lemonade	B-NPart	O	_	_	
+11-15	.	O	O	_	_	
+

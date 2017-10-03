@@ -1,0 +1,416 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=While preparing a dinner of Spaghetti and Meatballs tonight , I realized I needed to go grocery shopping to restock my refrigerator .
+1-1	While	O	O	_	_	
+1-2	preparing	B-UnrelEv	O	_	_	
+1-3	a	O	O	_	_	
+1-4	dinner	O	B-NPart	_	_	
+1-5	of	O	O	_	_	
+1-6	Spaghetti	O	B-NPart	_	_	
+1-7	and	O	O	_	_	
+1-8	Meatballs	O	B-NPart	_	_	
+1-9	tonight	O	O	_	_	
+1-10	,	O	O	_	_	
+1-11	I	O	B-ScrPart_shopper	_	_	
+1-12	realized	B-UnrelEv	O	_	_	
+1-13	I	O	B-ScrPart_shopper	_	_	
+1-14	needed	O	O	_	_	
+1-15	to	O	O	_	_	
+1-16	go	B-Evoking	O	_	_	
+1-17	grocery	I-Evoking	B-ScrPart_groceries	_	_	
+1-18	shopping	I-Evoking|B-ScrEv_get_groceries	O	_	_	
+1-19	to	O	O	_	_	
+1-20	restock	B-RelNScrEv	O	_	_	
+1-21	my	O	B-ScrPart_shopper	_	_	
+1-22	refrigerator	O	B-NPart	_	_	
+1-23	.	O	O	_	_	
+
+#id=2
+#text=It was still early and the store wasn ' t close so I made a trip to the store .
+2-1	It	O	B-No_label	_	_	
+2-2	was	B-UnrelEv	O	_	_	
+2-3	still	O	O	_	_	
+2-4	early	O	O	_	_	
+2-5	and	O	O	_	_	
+2-6	the	O	O	_	_	
+2-7	store	O	B-ScrPart_grocery_shop	_	_	
+2-8	wasn	B-UnrelEv	O	_	_	
+2-9	'	O	O	_	_	
+2-10	t	O	O	_	_	
+2-11	close	O	O	_	_	
+2-12	so	O	O	_	_	
+2-13	I	O	B-ScrPart_shopper	_	_	
+2-14	made	B-ScrEv_go_grocery	O	_	_	
+2-15	a	O	O	_	_	
+2-16	trip	O	B-SuppVComp	_	_	
+2-17	to	O	O	_	_	
+2-18	the	O	O	_	_	
+2-19	store	O	B-ScrPart_grocery_shop	_	_	
+2-20	.	O	O	_	_	
+
+#id=3
+#text=I grabbed a shopping cart because I ' m out of eggs , bread , orange juice , milk etc .
+3-1	I	O	B-ScrPart_shopper	_	_	
+3-2	grabbed	B-ScrEv_take_shop_cart	O	_	_	
+3-3	a	O	O	_	_	
+3-4	shopping	O	B-ScrPart_shopping_cart/basket	_	_	
+3-5	cart	O	I-ScrPart_shopping_cart/basket|B-ScrPart_shopping_cart/basket	_	_	
+3-6	because	O	O	_	_	
+3-7	I	O	B-ScrPart_shopper	_	_	
+3-8	'	O	O	_	_	
+3-9	m	B-RelNScrEv	O	_	_	
+3-10	out	I-RelNScrEv	O	_	_	
+3-11	of	O	O	_	_	
+3-12	eggs	O	B-ScrPart_groceries	_	_	
+3-13	,	O	O	_	_	
+3-14	bread	O	B-ScrPart_groceries	_	_	
+3-15	,	O	O	_	_	
+3-16	orange	O	B-ScrPart_groceries	_	_	
+3-17	juice	O	I-ScrPart_groceries|B-ScrPart_groceries	_	_	
+3-18	,	O	O	_	_	
+3-19	milk	O	B-ScrPart_groceries	_	_	
+3-20	etc	O	O	_	_	
+3-21	.	O	O	_	_	
+
+#id=4
+#text=I don ' t like can foods but I like to keep some stocked in my cabinet just in case .
+4-1	I	O	B-ScrPart_shopper	_	_	
+4-2	don	O	O	_	_	
+4-3	'	O	O	_	_	
+4-4	t	O	O	_	_	
+4-5	like	B-UnrelEv	O	_	_	
+4-6	can	O	B-ScrPart_groceries	_	_	
+4-7	foods	O	I-ScrPart_groceries|B-ScrPart_groceries	_	_	
+4-8	but	O	O	_	_	
+4-9	I	O	B-ScrPart_shopper	_	_	
+4-10	like	B-UnrelEv	O	_	_	
+4-11	to	O	O	_	_	
+4-12	keep	B-UnrelEv	O	_	_	
+4-13	some	O	B-ScrPart_groceries	_	_	
+4-14	stocked	B-UnrelEv	O	_	_	
+4-15	in	O	O	_	_	
+4-16	my	O	B-ScrPart_shopper	_	_	
+4-17	cabinet	O	B-NPart	_	_	
+4-18	just	O	O	_	_	
+4-19	in	O	O	_	_	
+4-20	case	B-UnrelEv	O	_	_	
+4-21	.	O	O	_	_	
+
+#id=5
+#text=I needed corn , beets , soup etc. .
+5-1	I	O	B-ScrPart_shopper	_	_	
+5-2	needed	B-RelNScrEv	O	_	_	
+5-3	corn	O	B-ScrPart_groceries	_	_	
+5-4	,	O	O	_	_	
+5-5	beets	O	B-ScrPart_groceries	_	_	
+5-6	,	O	O	_	_	
+5-7	soup	O	B-ScrPart_groceries	_	_	
+5-8	etc.	O	O	_	_	
+5-9	.	O	O	_	_	
+
+#id=6
+#text=I had to eat bread ends because I was out of whole wheat bread .
+6-1	I	O	B-ScrPart_shopper	_	_	
+6-2	had	O	O	_	_	
+6-3	to	O	O	_	_	
+6-4	eat	B-UnrelEv	O	_	_	
+6-5	bread	O	B-ScrPart_groceries	_	_	
+6-6	ends	O	I-ScrPart_groceries|B-ScrPart_groceries	_	_	
+6-7	because	O	O	_	_	
+6-8	I	O	B-ScrPart_shopper	_	_	
+6-9	was	B-RelNScrEv	O	_	_	
+6-10	out	I-RelNScrEv	O	_	_	
+6-11	of	O	O	_	_	
+6-12	whole	O	O	_	_	
+6-13	wheat	O	B-ScrPart_groceries	_	_	
+6-14	bread	O	I-ScrPart_groceries|B-ScrPart_groceries	_	_	
+6-15	.	O	O	_	_	
+
+#id=7
+#text=The store wasn ' t so crowded considering it would be closing in an hour or so .
+7-1	The	O	O	_	_	
+7-2	store	O	B-ScrPart_grocery_shop	_	_	
+7-3	wasn	O	O	_	_	
+7-4	'	O	O	_	_	
+7-5	t	O	O	_	_	
+7-6	so	O	O	_	_	
+7-7	crowded	B-RelNScrEv	O	_	_	
+7-8	considering	B-UnrelEv	O	_	_	
+7-9	it	O	B-ScrPart_grocery_shop	_	_	
+7-10	would	O	O	_	_	
+7-11	be	O	O	_	_	
+7-12	closing	B-RelNScrEv	O	_	_	
+7-13	in	O	O	_	_	
+7-14	an	O	O	_	_	
+7-15	hour	O	B-NPart	_	_	
+7-16	or	O	O	_	_	
+7-17	so	O	O	_	_	
+7-18	.	O	O	_	_	
+
+#id=8
+#text=I got in the shortest line and of course the register broke down .
+8-1	I	O	B-ScrPart_shopper	_	_	
+8-2	got	B-ScrEv_wait	O	_	_	
+8-3	in	O	O	_	_	
+8-4	the	O	O	_	_	
+8-5	shortest	O	O	_	_	
+8-6	line	O	B-ScrPart_line	_	_	
+8-7	and	O	O	_	_	
+8-8	of	O	O	_	_	
+8-9	course	O	O	_	_	
+8-10	the	O	O	_	_	
+8-11	register	O	B-ScrPart_cash_desk	_	_	
+8-12	broke	B-RelNScrEv	O	_	_	
+8-13	down	I-RelNScrEv	O	_	_	
+8-14	.	O	O	_	_	
+
+#id=9
+#text=I waited and waited .
+9-1	I	O	B-ScrPart_shopper	_	_	
+9-2	waited	B-ScrEv_wait	O	_	_	
+9-3	and	O	O	_	_	
+9-4	waited	B-ScrEv_wait	O	_	_	
+9-5	.	O	O	_	_	
+
+#id=10
+#text=I could have gotten out of line but I didn ' t .
+10-1	I	O	B-ScrPart_shopper	_	_	
+10-2	could	O	O	_	_	
+10-3	have	O	O	_	_	
+10-4	gotten	B-RelNScrEv	O	_	_	
+10-5	out	I-RelNScrEv	O	_	_	
+10-6	of	O	O	_	_	
+10-7	line	O	B-ScrPart_line	_	_	
+10-8	but	O	O	_	_	
+10-9	I	O	B-ScrPart_shopper	_	_	
+10-10	didn	B-UnrelEv	O	_	_	
+10-11	'	O	O	_	_	
+10-12	t	O	O	_	_	
+10-13	.	O	O	_	_	
+
+#id=11
+#text=When I finally got to the register , it was time for my checker to leave .
+11-1	When	O	O	_	_	
+11-2	I	O	B-ScrPart_shopper	_	_	
+11-3	finally	O	O	_	_	
+11-4	got	B-RelNScrEv	O	_	_	
+11-5	to	O	O	_	_	
+11-6	the	O	O	_	_	
+11-7	register	O	B-ScrPart_cash_desk	_	_	
+11-8	,	O	O	_	_	
+11-9	it	O	B-No_label	_	_	
+11-10	was	B-UnrelEv	O	_	_	
+11-11	time	O	B-No_label	_	_	
+11-12	for	O	O	_	_	
+11-13	my	O	B-ScrPart_shopper	_	_	
+11-14	checker	O	B-ScrPart_grocery_staff	_	_	
+11-15	to	O	O	_	_	
+11-16	leave	B-RelNScrEv	O	_	_	
+11-17	.	O	O	_	_	
+
+#id=12
+#text=I had to wait until an assistant manager signed in the register to ring up my purchases .
+12-1	I	O	B-ScrPart_shopper	_	_	
+12-2	had	O	O	_	_	
+12-3	to	O	O	_	_	
+12-4	wait	B-ScrEv_wait	O	_	_	
+12-5	until	O	O	_	_	
+12-6	an	O	O	_	_	
+12-7	assistant	O	B-ScrPart_grocery_staff	_	_	
+12-8	manager	O	I-ScrPart_grocery_staff|B-ScrPart_grocery_staff	_	_	
+12-9	signed	B-RelNScrEv	O	_	_	
+12-10	in	I-RelNScrEv	O	_	_	
+12-11	the	O	O	_	_	
+12-12	register	O	B-ScrPart_cash_desk	_	_	
+12-13	to	O	O	_	_	
+12-14	ring	B-ScrEv_cashier_scan/weight	O	_	_	
+12-15	up	I-ScrEv_cashier_scan/weight	O	_	_	
+12-16	my	O	B-ScrPart_shopper	_	_	
+12-17	purchases	O	B-ScrPart_groceries	_	_	
+12-18	.	O	O	_	_	
+
+#id=13
+#text=The register was out of tape so I was delayed again .
+13-1	The	O	O	_	_	
+13-2	register	O	B-ScrPart_cash_desk	_	_	
+13-3	was	B-RelNScrEv	O	_	_	
+13-4	out	O	O	_	_	
+13-5	of	O	O	_	_	
+13-6	tape	O	B-NPart	_	_	
+13-7	so	O	O	_	_	
+13-8	I	O	B-ScrPart_shopper	_	_	
+13-9	was	O	O	_	_	
+13-10	delayed	B-ScrEv_wait	O	_	_	
+13-11	again	O	O	_	_	
+13-12	.	O	O	_	_	
+
+#id=14
+#text=I wished I ' d waited until tomorrow .
+14-1	I	O	B-ScrPart_shopper	_	_	
+14-2	wished	B-UnrelEv	O	_	_	
+14-3	I	O	B-ScrPart_shopper	_	_	
+14-4	'	O	O	_	_	
+14-5	d	O	O	_	_	
+14-6	waited	B-UnrelEv	O	_	_	
+14-7	until	O	O	_	_	
+14-8	tomorrow	O	O	_	_	
+14-9	.	O	O	_	_	
+
+#id=15
+#text=There were no baggers to bag my groceries so I did it myself .
+15-1	There	O	O	_	_	
+15-2	were	B-UnrelEv	O	_	_	
+15-3	no	O	O	_	_	
+15-4	baggers	O	B-ScrPart_grocery_staff	_	_	
+15-5	to	O	O	_	_	
+15-6	bag	B-ScrEv_pack_groceries	O	_	_	
+15-7	my	O	B-ScrPart_shopper	_	_	
+15-8	groceries	O	B-ScrPart_groceries	_	_	
+15-9	so	O	O	_	_	
+15-10	I	O	B-ScrPart_shopper	_	_	
+15-11	did	B-ScrEv_pack_groceries	O	_	_	
+15-12	it	O	B-NPart	_	_	
+15-13	myself	O	B-ScrPart_shopper	webanno.custom.Corefchains_	15-10	
+15-14	.	O	O	_	_	
+
+#id=16
+#text=My total came to $ 51.34 and I only had $ 20.00 cash on me .
+16-1	My	O	B-ScrPart_shopper	webanno.custom.Corefchains_	15-13	
+16-2	total	O	B-ScrPart_price	_	_	
+16-3	came	B-ScrEv_pay	O	_	_	
+16-4	to	O	O	_	_	
+16-5	$	O	B-ScrPart_price	webanno.custom.Corefchains_	16-2	
+16-6	51.34	O	I-ScrPart_price	webanno.custom.Corefchains_	16-2	
+16-7	and	O	O	_	_	
+16-8	I	O	B-ScrPart_shopper	_	_	
+16-9	only	O	O	_	_	
+16-10	had	B-UnrelEv	O	_	_	
+16-11	$	O	O	_	_	
+16-12	20.00	O	O	_	_	
+16-13	cash	O	B-ScrPart_payment_means	_	_	
+16-14	on	O	O	_	_	
+16-15	me	O	B-ScrPart_shopper	_	_	
+16-16	.	O	O	_	_	
+
+#id=17
+#text=That ' s all I thought I was going to spend .
+17-1	That	O	O	_	_	
+17-2	'	O	O	_	_	
+17-3	s	B-UnrelEv	O	_	_	
+17-4	all	O	O	_	_	
+17-5	I	O	B-ScrPart_shopper	_	_	
+17-6	thought	B-UnrelEv	O	_	_	
+17-7	I	O	B-ScrPart_shopper	_	_	
+17-8	was	O	O	_	_	
+17-9	going	O	O	_	_	
+17-10	to	O	O	_	_	
+17-11	spend	B-ScrEv_pay	O	_	_	
+17-12	.	O	O	_	_	
+
+#id=18
+#text=I gave the clerk a credit card which didn ' t go through and the people behind me started blowing and hissing under their breath .
+18-1	I	O	B-ScrPart_shopper	_	_	
+18-2	gave	B-ScrEv_pay	O	_	_	
+18-3	the	O	O	_	_	
+18-4	clerk	O	B-ScrPart_grocery_staff	_	_	
+18-5	a	O	O	_	_	
+18-6	credit	O	B-ScrPart_payment_means	_	_	
+18-7	card	O	I-ScrPart_payment_means|B-ScrPart_payment_means	_	_	
+18-8	which	O	B-ScrPart_payment_means	_	_	
+18-9	didn	O	O	_	_	
+18-10	'	O	O	_	_	
+18-11	t	O	O	_	_	
+18-12	go	B-RelNScrEv	O	_	_	
+18-13	through	I-RelNScrEv	O	_	_	
+18-14	and	O	O	_	_	
+18-15	the	O	O	_	_	
+18-16	people	O	B-ScrPart_shopper	_	_	
+18-17	behind	O	O	_	_	
+18-18	me	O	B-ScrPart_shopper	_	_	
+18-19	started	B-UnrelEv	O	_	_	
+18-20	blowing	B-RelNScrEv	O	_	_	
+18-21	and	O	O	_	_	
+18-22	hissing	B-RelNScrEv	O	_	_	
+18-23	under	O	O	_	_	
+18-24	their	O	B-ScrPart_shopper	_	_	
+18-25	breath	O	B-NPart	_	_	
+18-26	.	O	O	_	_	
+
+#id=19
+#text=I offered another card .
+19-1	I	O	B-ScrPart_shopper	_	_	
+19-2	offered	B-ScrEv_pay	O	_	_	
+19-3	another	O	O	_	_	
+19-4	card	O	B-ScrPart_payment_means	_	_	
+19-5	.	O	O	_	_	
+
+#id=20
+#text=Thank God that one went through .
+20-1	Thank	B-UnrelEv	O	_	_	
+20-2	God	O	B-NPart	_	_	
+20-3	that	O	O	_	_	
+20-4	one	O	B-ScrPart_payment_means	_	_	
+20-5	went	B-RelNScrEv	O	_	_	
+20-6	through	I-RelNScrEv	O	_	_	
+20-7	.	O	O	_	_	
+
+#id=21
+#text=The employees had locked the door I ' d plan to exit out of .
+21-1	The	O	O	_	_	
+21-2	employees	O	B-ScrPart_grocery_staff	_	_	
+21-3	had	O	O	_	_	
+21-4	locked	B-RelNScrEv	O	_	_	
+21-5	the	O	O	_	_	
+21-6	door	O	B-NPart	_	_	
+21-7	I	O	B-ScrPart_shopper	_	_	
+21-8	'	O	O	_	_	
+21-9	d	O	O	_	_	
+21-10	plan	B-UnrelEv	O	_	_	
+21-11	to	O	O	_	_	
+21-12	exit	B-ScrEv_leave	O	_	_	
+21-13	out	I-ScrEv_leave	O	_	_	
+21-14	of	O	O	_	_	
+21-15	.	O	O	_	_	
+
+#id=22
+#text=The manager came over and let me out .
+22-1	The	O	O	_	_	
+22-2	manager	O	B-ScrPart_grocery_staff	_	_	
+22-3	came	B-RelNScrEv	O	_	_	
+22-4	over	I-RelNScrEv	O	_	_	
+22-5	and	O	O	_	_	
+22-6	let	B-RelNScrEv	O	_	_	
+22-7	me	O	B-ScrPart_shopper	_	_	
+22-8	out	O	O	_	_	
+22-9	.	O	O	_	_	
+
+#id=23
+#text=My car was the only car parked in the Customer ' s parking lot .
+23-1	My	O	B-ScrPart_shopper	_	_	
+23-2	car	O	B-ScrPart_vehicle	_	_	
+23-3	was	B-UnrelEv	O	_	_	
+23-4	the	O	O	_	_	
+23-5	only	O	O	_	_	
+23-6	car	O	B-ScrPart_vehicle	_	_	
+23-7	parked	B-RelNScrEv	O	_	_	
+23-8	in	O	O	_	_	
+23-9	the	O	O	_	_	
+23-10	Customer	O	B-ScrPart_shopper	_	_	
+23-11	'	O	O	_	_	
+23-12	s	O	O	_	_	
+23-13	parking	O	B-NPart	_	_	
+23-14	lot	O	I-NPart|B-NPart	_	_	
+23-15	.	O	O	_	_	
+
+#id=24
+#text=I wished I ' d stayed at home . 
+24-1	I	O	B-ScrPart_shopper	_	_	
+24-2	wished	B-UnrelEv	O	_	_	
+24-3	I	O	B-ScrPart_shopper	_	_	
+24-4	'	O	O	_	_	
+24-5	d	O	O	_	_	
+24-6	stayed	B-UnrelEv	O	_	_	
+24-7	at	O	O	_	_	
+24-8	home	O	B-NPart	_	_	
+24-9	.	O	O	_	_	
+

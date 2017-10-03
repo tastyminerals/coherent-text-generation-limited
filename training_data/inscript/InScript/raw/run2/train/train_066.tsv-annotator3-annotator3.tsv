@@ -1,0 +1,193 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=I wanted to go on a trip into the city to go clothes shopping .
+1-1	I	B-ScrPart_passenger	O	
+1-2	wanted	O	B-UnrelEv	
+1-3	to	O	O	
+1-4	go	O	B-UnrelEv	
+1-5	on	O	O	
+1-6	a	O	O	
+1-7	trip	B-ScrPart_trip	O	
+1-8	into	O	O	
+1-9	the	O	O	
+1-10	city	B-ScrPart_destination	O	
+1-11	to	O	O	
+1-12	go	O	B-UnrelEv	
+1-13	clothes	B-NPart	O	
+1-14	shopping	B-SuppVComp	O	
+1-15	.	O	O	
+
+#id=2
+#text=So I got into my car and drove to the local commuter train station in my town .
+2-1	So	O	O	
+2-2	I	B-ScrPart_passenger	O	
+2-3	got	O	B-UnrelEv	
+2-4	into	O	O	
+2-5	my	B-ScrPart_passenger	O	
+2-6	car	B-NPart	O	
+2-7	and	O	O	
+2-8	drove	O	B-UnrelEv	
+2-9	to	O	O	
+2-10	the	O	O	
+2-11	local	O	O	
+2-12	commuter	B-NPart	O	
+2-13	train	B-ScrPart_train_station	O	
+2-14	station	I-ScrPart_train_station|B-ScrPart_train_station	O	
+2-15	in	O	O	
+2-16	my	B-ScrPart_passenger	O	
+2-17	town	B-NPart	O	
+2-18	.	O	O	
+
+#id=3
+#text=When I got to the train station , I paid my ten dollar fare , and hopped on the train .
+3-1	When	O	O	
+3-2	I	B-ScrPart_passenger	O	
+3-3	got	O	B-ScrEv_get_train_station	
+3-4	to	O	O	
+3-5	the	O	O	
+3-6	train	B-ScrPart_train_station	O	
+3-7	station	I-ScrPart_train_station|B-ScrPart_train_station	O	
+3-8	,	O	O	
+3-9	I	B-ScrPart_passenger	O	
+3-10	paid	O	B-ScrEv_get_tickets	
+3-11	my	B-ScrPart_passenger	O	
+3-12	ten	O	O	
+3-13	dollar	B-NPart	O	
+3-14	fare	B-ScrPart_other	O	
+3-15	,	O	O	
+3-16	and	O	O	
+3-17	hopped	O	B-ScrEv_get_on|B-ScrEv_get_on	
+3-18	on	O	I-ScrEv_get_on	
+3-19	the	O	O	
+3-20	train	B-ScrPart_train	O	
+3-21	.	O	O	
+
+#id=4
+#text=As I got on the train , there were two different levels , a top and bottom level .
+4-1	As	O	O	
+4-2	I	B-ScrPart_passenger	O	
+4-3	got	O	B-ScrEv_get_on|B-ScrEv_get_on	
+4-4	on	O	I-ScrEv_get_on	
+4-5	the	O	O	
+4-6	train	B-ScrPart_train	O	
+4-7	,	O	O	
+4-8	there	O	O	
+4-9	were	O	B-UnrelEv	
+4-10	two	O	O	
+4-11	different	O	O	
+4-12	levels	B-ScrPart_location_train	O	
+4-13	,	O	O	
+4-14	a	O	O	
+4-15	top	O	O	
+4-16	and	O	O	
+4-17	bottom	O	O	
+4-18	level	B-ScrPart_location_train	O	
+4-19	.	O	O	
+
+#id=5
+#text=I climbed the stairs to get to the top level , and proceeded to walk down the aisle to find a decent seat , preferably by the window .
+5-1	I	B-ScrPart_passenger	O	
+5-2	climbed	O	B-ScrEv_other	
+5-3	the	O	O	
+5-4	stairs	B-NPart	O	
+5-5	to	O	O	
+5-6	get	O	O	
+5-7	to	O	O	
+5-8	the	O	O	
+5-9	top	O	O	
+5-10	level	B-ScrPart_location_train	O	
+5-11	,	O	O	
+5-12	and	O	O	
+5-13	proceeded	O	B-UnrelEv	
+5-14	to	O	O	
+5-15	walk	O	B-UnrelEv|B-UnrelEv	
+5-16	down	O	I-UnrelEv	
+5-17	the	O	O	
+5-18	aisle	B-ScrPart_location_train	O	
+5-19	to	O	O	
+5-20	find	O	B-ScrEv_find_place	
+5-21	a	O	O	
+5-22	decent	O	O	
+5-23	seat	B-ScrPart_seat	O	
+5-24	,	O	O	
+5-25	preferably	O	O	
+5-26	by	O	O	
+5-27	the	O	O	
+5-28	window	B-ScrPart_in-train_entertainment	O	
+5-29	.	O	O	
+
+#id=6
+#text=As I sat down , I looked at the window with curiosity as the train started whizzing by our surroundings .
+6-1	As	O	O	
+6-2	I	B-ScrPart_passenger	O	
+6-3	sat	O	B-UnrelEv|B-UnrelEv	
+6-4	down	O	I-UnrelEv	
+6-5	,	O	O	
+6-6	I	B-ScrPart_passenger	O	
+6-7	looked	O	B-ScrEv_spend_time_train|B-ScrEv_spend_time_train	
+6-8	at	O	I-ScrEv_spend_time_train	
+6-9	the	O	O	
+6-10	window	B-ScrPart_in-train_entertainment	O	
+6-11	with	O	O	
+6-12	curiosity	B-NPart	O	
+6-13	as	O	O	
+6-14	the	O	O	
+6-15	train	B-ScrPart_train	O	
+6-16	started	O	O	
+6-17	whizzing	O	B-UnrelEv|B-UnrelEv	
+6-18	by	O	I-UnrelEv	
+6-19	our	B-NPart	O	
+6-20	surroundings	B-NPart	O	
+6-21	.	O	O	
+
+#id=7
+#text=We made plenty of stops , and each time plenty of fresh new faces came abroad , awaiting to get to their destination .
+7-1	We	B-ScrPart_passenger	O	
+7-2	made	O	B-ScrEv_other	
+7-3	plenty	B-No_label	O	
+7-4	of	O	O	
+7-5	stops	B-ScrPart_other	O	
+7-6	,	O	O	
+7-7	and	O	O	
+7-8	each	O	O	
+7-9	time	B-NPart	O	
+7-10	plenty	B-NPart	O	
+7-11	of	O	O	
+7-12	fresh	O	O	
+7-13	new	O	O	
+7-14	faces	B-ScrPart_passenger	O	
+7-15	came	O	B-UnrelEv|B-UnrelEv	
+7-16	abroad	O	I-UnrelEv	
+7-17	,	O	O	
+7-18	awaiting	O	B-UnrelEv	
+7-19	to	O	O	
+7-20	get	O	B-UnrelEv|B-UnrelEv	
+7-21	to	O	I-UnrelEv	
+7-22	their	B-NPart	O	
+7-23	destination	B-ScrPart_destination	O	
+7-24	.	O	O	
+
+#id=8
+#text=On the train I made a few new friends , and the trip into the city was very fun indeed . 
+8-1	On	O	O	
+8-2	the	O	O	
+8-3	train	B-ScrPart_train	O	
+8-4	I	B-ScrPart_passenger	O	
+8-5	made	O	B-ScrEv_spend_time_train	
+8-6	a	O	O	
+8-7	few	O	O	
+8-8	new	O	O	
+8-9	friends	B-ScrPart_passenger	O	
+8-10	,	O	O	
+8-11	and	O	O	
+8-12	the	O	O	
+8-13	trip	B-ScrPart_trip	O	
+8-14	into	O	O	
+8-15	the	O	O	
+8-16	city	B-ScrPart_destination	O	
+8-17	was	O	B-UnrelEv	
+8-18	very	O	O	
+8-19	fun	B-NPart	O	
+8-20	indeed	O	O	
+8-21	.	O	O	
+

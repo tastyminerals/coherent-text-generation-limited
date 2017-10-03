@@ -1,0 +1,287 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Earlier this week I went to get a haircut .
+1-1	Earlier	O	O	_	_	
+1-2	this	O	O	_	_	
+1-3	week	B-NPart	O	_	_	
+1-4	I	B-ScrPart_customer	O	_	_	
+1-5	went	O	B-ScrEv_get_salon	_	_	
+1-6	to	O	O	_	_	
+1-7	get	O	B-Evoking	_	_	
+1-8	a	O	I-Evoking	_	_	
+1-9	haircut	B-ScrPart_haircut	I-Evoking	_	_	
+1-10	.	O	O	_	_	
+
+#id=2
+#text=Over the summer I had just gone for a cheap haircut at Great Clips and I ended up with a bad haircut .
+2-1	Over	O	O	_	_	
+2-2	the	O	O	_	_	
+2-3	summer	B-NPart	O	_	_	
+2-4	I	B-ScrPart_customer	O	_	_	
+2-5	had	O	O	_	_	
+2-6	just	O	O	_	_	
+2-7	gone	O	B-UnrelEv	_	_	
+2-8	for	O	O	_	_	
+2-9	a	O	O	_	_	
+2-10	cheap	O	O	_	_	
+2-11	haircut	B-ScrPart_haircut	O	_	_	
+2-12	at	O	O	_	_	
+2-13	Great	O	O	_	_	
+2-14	Clips	B-NPart	O	_	_	
+2-15	and	O	O	_	_	
+2-16	I	B-ScrPart_customer	O	_	_	
+2-17	ended	O	B-UnrelEv	_	_	
+2-18	up	O	I-UnrelEv	_	_	
+2-19	with	O	O	_	_	
+2-20	a	O	O	_	_	
+2-21	bad	O	O	_	_	
+2-22	haircut	B-ScrPart_haircut	O	webanno.custom.Corefchains_	2-11	
+2-23	.	O	O	_	_	
+
+#id=3
+#text=I went back to a nicer place where I had to pay more , but I had to do something about the bad cut .
+3-1	I	B-ScrPart_customer	O	_	_	
+3-2	went	O	B-UnrelEv	_	_	
+3-3	back	O	I-UnrelEv	_	_	
+3-4	to	O	O	_	_	
+3-5	a	O	O	_	_	
+3-6	nicer	O	O	_	_	
+3-7	place	B-ScrPart_salon	O	_	_	
+3-8	where	O	O	_	_	
+3-9	I	B-ScrPart_customer	O	_	_	
+3-10	had	O	O	_	_	
+3-11	to	O	O	_	_	
+3-12	pay	O	B-ScrEv_pay	_	_	
+3-13	more	O	O	_	_	
+3-14	,	O	O	_	_	
+3-15	but	O	O	_	_	
+3-16	I	B-ScrPart_customer	O	_	_	
+3-17	had	O	O	_	_	
+3-18	to	O	O	_	_	
+3-19	do	O	B-UnrelEv	_	_	
+3-20	something	B-No_label	O	_	_	
+3-21	about	O	O	_	_	
+3-22	the	O	O	_	_	
+3-23	bad	O	O	_	_	
+3-24	cut	B-ScrPart_haircut	O	webanno.custom.Corefchains_	2-22	
+3-25	.	O	O	_	_	
+
+#id=4
+#text=I had to cut most of it off to start over .
+4-1	I	B-ScrPart_customer	O	_	_	
+4-2	had	O	O	_	_	
+4-3	to	O	O	_	_	
+4-4	cut	O	B-ScrEv_cut	_	_	
+4-5	most	O	O	_	_	
+4-6	of	O	O	_	_	
+4-7	it	B-ScrPart_haircut	O	webanno.custom.Corefchains_	3-24	
+4-8	off	O	O	_	_	
+4-9	to	O	O	_	_	
+4-10	start	O	B-UnrelEv	_	_	
+4-11	over	O	I-UnrelEv	_	_	
+4-12	.	O	O	_	_	
+
+#id=5
+#text=This last cut was the first time I started to see some of the growth coming back and some of the curl !
+5-1	This	O	O	_	_	
+5-2	last	O	O	_	_	
+5-3	cut	B-ScrPart_haircut	O	webanno.custom.Corefchains_	4-7	
+5-4	was	O	B-UnrelEv	_	_	
+5-5	the	O	O	_	_	
+5-6	first	O	O	_	_	
+5-7	time	B-No_label	O	_	_	
+5-8	I	B-ScrPart_customer	O	_	_	
+5-9	started	O	B-UnrelEv	_	_	
+5-10	to	O	O	_	_	
+5-11	see	O	B-UnrelEv	_	_	
+5-12	some	O	O	_	_	
+5-13	of	O	O	_	_	
+5-14	the	O	O	_	_	
+5-15	growth	B-NPart	O	_	_	
+5-16	coming	O	B-UnrelEv	_	_	
+5-17	back	O	I-UnrelEv	_	_	
+5-18	and	O	O	_	_	
+5-19	some	O	O	_	_	
+5-20	of	O	O	_	_	
+5-21	the	O	O	_	_	
+5-22	curl	O	O	_	_	
+5-23	!	O	O	_	_	
+
+#id=6
+#text=Lots of people make standing hair appointments , but I prefer to just call when my hair was bugging me so once the ends started looking straggly I called and went in .
+6-1	Lots	B-Head_of_Partitive	O	_	_	
+6-2	of	O	O	_	_	
+6-3	people	B-ScrPart_customer	O	_	_	
+6-4	make	O	B-ScrEv_make_appointment	_	_	
+6-5	standing	O	O	_	_	
+6-6	hair	B-ScrPart_appointment	O	_	_	
+6-7	appointments	I-ScrPart_appointment|B-ScrPart_appointment	O	_	_	
+6-8	,	O	O	_	_	
+6-9	but	O	O	_	_	
+6-10	I	B-ScrPart_customer	O	_	_	
+6-11	prefer	O	B-UnrelEv	_	_	
+6-12	to	O	O	_	_	
+6-13	just	O	O	_	_	
+6-14	call	O	B-ScrEv_make_appointment	_	_	
+6-15	when	O	O	_	_	
+6-16	my	B-ScrPart_customer	O	_	_	
+6-17	hair	B-ScrPart_hair	O	_	_	
+6-18	was	O	O	_	_	
+6-19	bugging	O	B-UnrelEv	_	_	
+6-20	me	B-ScrPart_customer	O	_	_	
+6-21	so	O	O	_	_	
+6-22	once	O	O	_	_	
+6-23	the	O	O	_	_	
+6-24	ends	B-NPart	O	_	_	
+6-25	started	O	O	_	_	
+6-26	looking	O	B-UnrelEv	_	_	
+6-27	straggly	O	O	_	_	
+6-28	I	B-ScrPart_customer	O	_	_	
+6-29	called	O	B-ScrEv_make_appointment	_	_	
+6-30	and	O	O	_	_	
+6-31	went	O	B-ScrEv_enter	_	_	
+6-32	in	O	I-ScrEv_enter	_	_	
+6-33	.	O	O	_	_	
+
+#id=7
+#text=I checked in at the front desk and had a nice chat with the receptionist who is getting ready to go out on maternity leave .
+7-1	I	B-ScrPart_customer	O	_	_	
+7-2	checked	O	B-ScrEv_check_in	_	_	
+7-3	in	O	I-ScrEv_check_in	_	_	
+7-4	at	O	O	_	_	
+7-5	the	O	O	_	_	
+7-6	front	B-ScrPart_check_in_desk	O	_	_	
+7-7	desk	I-ScrPart_check_in_desk|B-ScrPart_check_in_desk	O	_	_	
+7-8	and	O	O	_	_	
+7-9	had	O	B-ScrEv_small_talk	_	_	
+7-10	a	O	O	_	_	
+7-11	nice	O	O	_	_	
+7-12	chat	B-ScrPart_entertainment	O	_	_	
+7-13	with	O	O	_	_	
+7-14	the	O	O	_	_	
+7-15	receptionist	B-ScrPart_staff	O	_	_	
+7-16	who	O	O	_	_	
+7-17	is	O	B-UnrelEv	_	_	
+7-18	getting	O	O	_	_	
+7-19	ready	O	O	_	_	
+7-20	to	O	O	_	_	
+7-21	go	O	B-UnrelEv	_	_	
+7-22	out	O	I-UnrelEv	_	_	
+7-23	on	O	O	_	_	
+7-24	maternity	B-NPart	O	_	_	
+7-25	leave	I-NPart	O	_	_	
+7-26	.	O	O	_	_	
+
+#id=8
+#text=Then my stylist took me back and asked me if I was still growing out my hair .
+8-1	Then	O	O	_	_	
+8-2	my	B-ScrPart_customer	O	_	_	
+8-3	stylist	B-ScrPart_hairdresser	O	_	_	
+8-4	took	O	B-UnrelEv	_	_	
+8-5	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-2	
+8-6	back	O	O	_	_	
+8-7	and	O	O	_	_	
+8-8	asked	O	B-ScrEv_talk_haircut	_	_	
+8-9	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-5	
+8-10	if	O	O	_	_	
+8-11	I	B-ScrPart_customer	O	_	_	
+8-12	was	O	O	_	_	
+8-13	still	O	O	_	_	
+8-14	growing	O	B-UnrelEv	_	_	
+8-15	out	O	I-UnrelEv	_	_	
+8-16	my	B-ScrPart_customer	O	_	_	
+8-17	hair	B-ScrPart_hair	O	_	_	
+8-18	.	O	O	_	_	
+
+#id=9
+#text=I said I was so she looked it over and then gave me a nice scalp massage and a shampoo before cutting .
+9-1	I	B-ScrPart_customer	O	_	_	
+9-2	said	O	B-ScrEv_talk_haircut	_	_	
+9-3	I	B-ScrPart_customer	O	_	_	
+9-4	was	O	B-UnrelEv	_	_	
+9-5	so	O	O	_	_	
+9-6	she	B-ScrPart_hairdresser	O	_	_	
+9-7	looked	O	B-RelNScrEv	_	_	
+9-8	it	B-ScrPart_hair	O	_	_	
+9-9	over	O	O	_	_	
+9-10	and	O	O	_	_	
+9-11	then	O	O	_	_	
+9-12	gave	O	B-ScrEv_scalp_massage	_	_	
+9-13	me	B-ScrPart_customer	O	_	_	
+9-14	a	O	O	_	_	
+9-15	nice	O	O	_	_	
+9-16	scalp	B-SuppVComp	O	_	_	
+9-17	massage	I-SuppVComp|B-SuppVComp	O	_	_	
+9-18	and	O	O	_	_	
+9-19	a	O	O	_	_	
+9-20	shampoo	B-ScrPart_hair_styling/treatment	O	_	_	
+9-21	before	O	O	_	_	
+9-22	cutting	O	B-ScrEv_cut	_	_	
+9-23	.	O	O	_	_	
+
+#id=10
+#text=The cut is about the same length as it was the last time I got it cut , but it is getting more and more even every time .
+10-1	The	O	O	_	_	
+10-2	cut	B-ScrPart_haircut	O	webanno.custom.Corefchains_	1-9	
+10-3	is	O	B-UnrelEv	_	_	
+10-4	about	O	O	_	_	
+10-5	the	O	O	_	_	
+10-6	same	O	O	_	_	
+10-7	length	B-NPart	O	_	_	
+10-8	as	O	O	_	_	
+10-9	it	B-ScrPart_haircut	O	webanno.custom.Corefchains_	10-2	
+10-10	was	O	B-UnrelEv	_	_	
+10-11	the	O	O	_	_	
+10-12	last	O	O	_	_	
+10-13	time	B-No_label	O	_	_	
+10-14	I	B-ScrPart_customer	O	_	_	
+10-15	got	O	O	_	_	
+10-16	it	B-ScrPart_haircut	O	webanno.custom.Corefchains_	10-9	
+10-17	cut	O	B-ScrEv_cut	_	_	
+10-18	,	O	O	_	_	
+10-19	but	O	O	_	_	
+10-20	it	B-ScrPart_hair	O	_	_	
+10-21	is	O	O	_	_	
+10-22	getting	O	B-UnrelEv	_	_	
+10-23	more	O	O	_	_	
+10-24	and	O	O	_	_	
+10-25	more	O	O	_	_	
+10-26	even	O	O	_	_	
+10-27	every	O	O	_	_	
+10-28	time	B-No_label	O	_	_	
+10-29	.	O	O	_	_	
+
+#id=11
+#text=My stylist likes to straighten my hair on each visit so she can make sure it is all correct .
+11-1	My	B-ScrPart_customer	O	_	_	
+11-2	stylist	B-ScrPart_hairdresser	O	_	_	
+11-3	likes	O	B-UnrelEv	_	_	
+11-4	to	O	O	_	_	
+11-5	straighten	O	B-ScrEv_make_hair_style	_	_	
+11-6	my	B-ScrPart_customer	O	_	_	
+11-7	hair	B-ScrPart_hair	O	_	_	
+11-8	on	O	O	_	_	
+11-9	each	O	O	_	_	
+11-10	visit	B-ScrPart_appointment	O	_	_	
+11-11	so	O	O	_	_	
+11-12	she	B-ScrPart_hairdresser	O	_	_	
+11-13	can	O	O	_	_	
+11-14	make	O	B-UnrelEv	_	_	
+11-15	sure	O	I-UnrelEv	_	_	
+11-16	it	B-ScrPart_hair	O	_	_	
+11-17	is	O	B-UnrelEv	_	_	
+11-18	all	O	O	_	_	
+11-19	correct	O	O	_	_	
+11-20	.	O	O	_	_	
+
+#id=12
+#text=Looking forward to it growing some more . 
+12-1	Looking	O	B-UnrelEv	_	_	
+12-2	forward	O	O	_	_	
+12-3	to	O	O	_	_	
+12-4	it	B-ScrPart_hair	O	_	_	
+12-5	growing	O	B-UnrelEv	_	_	
+12-6	some	O	O	_	_	
+12-7	more	O	O	_	_	
+12-8	.	O	O	_	_	
+

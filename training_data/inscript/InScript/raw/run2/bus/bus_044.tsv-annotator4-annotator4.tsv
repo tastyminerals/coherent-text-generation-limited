@@ -1,0 +1,269 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Event | Events
+#id=1
+#text=I needed to get from my house to work , but my car wouldn ' t start .
+1-1	I	B-ScrPart_passenger	O	O	
+1-2	needed	O	O	O	
+1-3	to	O	O	O	
+1-4	get	O	B-webanno.custom.Events_	B-UnrelEv	
+1-5	from	O	O	O	
+1-6	my	B-ScrPart_passenger	O	O	
+1-7	house	B-NPart	O	O	
+1-8	to	O	O	O	
+1-9	work	B-NPart	O	O	
+1-10	,	O	O	O	
+1-11	but	O	O	O	
+1-12	my	B-ScrPart_passenger	O	O	
+1-13	car	B-NPart	O	O	
+1-14	wouldn	O	O	O	
+1-15	'	O	O	O	
+1-16	t	O	O	O	
+1-17	start	O	B-webanno.custom.Events_	B-UnrelEv	
+1-18	.	O	O	O	
+
+#id=2
+#text=I decided my best option was to take the bus .
+2-1	I	B-ScrPart_passenger	O	O	
+2-2	decided	O	B-webanno.custom.Events_	B-UnrelEv	
+2-3	my	B-ScrPart_passenger	O	O	
+2-4	best	O	O	O	
+2-5	option	B-NPart	O	O	
+2-6	was	O	B-webanno.custom.Events_	B-UnrelEv	
+2-7	to	O	O	O	
+2-8	take	O	B-webanno.custom.Events_	B-Evoking	
+2-9	the	O	I-webanno.custom.Events_	I-Evoking	
+2-10	bus	B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	
+2-11	.	O	O	O	
+
+#id=3
+#text=I walked down the street to the nearest bus stop that would take me close to work .
+3-1	I	B-ScrPart_passenger	O	O	
+3-2	walked	O	B-webanno.custom.Events_	B-ScrEv_get_bus_stop	
+3-3	down	O	I-webanno.custom.Events_	I-ScrEv_get_bus_stop	
+3-4	the	O	O	O	
+3-5	street	B-NPart	O	O	
+3-6	to	O	O	O	
+3-7	the	O	O	O	
+3-8	nearest	O	O	O	
+3-9	bus	B-ScrPart_bus_stop	O	O	
+3-10	stop	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	O	
+3-11	that	O	O	O	
+3-12	would	O	O	O	
+3-13	take	O	B-webanno.custom.Events_	B-???	
+3-14	me	B-ScrPart_passenger	O	O	
+3-15	close	O	O	O	
+3-16	to	O	O	O	
+3-17	work	O	O	O	
+3-18	.	O	O	O	
+
+#id=4
+#text=I waited for about five minutes for the bus to come .
+4-1	I	B-ScrPart_passenger	O	O	
+4-2	waited	O	B-webanno.custom.Events_	B-ScrEv_wait	
+4-3	for	O	O	O	
+4-4	about	O	O	O	
+4-5	five	B-ScrPart_time/date	O	O	
+4-6	minutes	I-ScrPart_time/date	O	O	
+4-7	for	O	O	O	
+4-8	the	O	O	O	
+4-9	bus	B-ScrPart_bus	O	O	
+4-10	to	O	O	O	
+4-11	come	O	B-webanno.custom.Events_	B-ScrEv_bus_comes	
+4-12	.	O	O	O	
+
+#id=5
+#text=Once I got on , I put my money in the machine and headed towards the back to find a seat .
+5-1	Once	O	O	O	
+5-2	I	B-ScrPart_passenger	O	O	
+5-3	got	O	B-webanno.custom.Events_	B-ScrEv_board_bus	
+5-4	on	O	I-webanno.custom.Events_	I-ScrEv_board_bus	
+5-5	,	O	O	O	
+5-6	I	B-ScrPart_passenger	O	O	
+5-7	put	O	B-webanno.custom.Events_	B-ScrEv_get_ticket	
+5-8	my	B-ScrPart_passenger	O	O	
+5-9	money	B-ScrPart_money	O	O	
+5-10	in	O	O	O	
+5-11	the	O	O	O	
+5-12	machine	B-ScrPart_payment_machine	O	O	
+5-13	and	O	O	O	
+5-14	headed	O	B-webanno.custom.Events_	B-RelNScrEv	
+5-15	towards	O	O	O	
+5-16	the	O	O	O	
+5-17	back	B-NPart	O	O	
+5-18	to	O	O	O	
+5-19	find	O	B-webanno.custom.Events_	B-ScrEv_find_place	
+5-20	a	O	O	O	
+5-21	seat	B-ScrPart_seat_in_bus	O	O	
+5-22	.	O	O	O	
+
+#id=6
+#text=There were only three open seats so I took one of them and popped in my ear buds to listen to music .
+6-1	There	O	O	O	
+6-2	were	O	B-webanno.custom.Events_	B-UnrelEv	
+6-3	only	O	O	O	
+6-4	three	O	O	O	
+6-5	open	O	O	O	
+6-6	seats	B-ScrPart_seat_in_bus	O	O	
+6-7	so	O	O	O	
+6-8	I	B-ScrPart_passenger	O	O	
+6-9	took	O	B-webanno.custom.Events_	B-ScrEv_take_seat	
+6-10	one	O	O	O	
+6-11	of	O	O	O	
+6-12	them	B-ScrPart_seat_in_bus	O	O	
+6-13	and	O	O	O	
+6-14	popped	O	B-webanno.custom.Events_	B-RelNScrEv	
+6-15	in	O	I-webanno.custom.Events_	I-RelNScrEv	
+6-16	my	B-ScrPart_passenger	O	O	
+6-17	ear	B-ScrPart_in-bus_entertainment	O	O	
+6-18	buds	I-ScrPart_in-bus_entertainment|B-ScrPart_in-bus_entertainment	O	O	
+6-19	to	O	O	O	
+6-20	listen	O	B-webanno.custom.Events_	B-ScrEv_spend_time_bus	
+6-21	to	O	I-webanno.custom.Events_	I-ScrEv_spend_time_bus	
+6-22	music	B-ScrPart_in-bus_entertainment	O	O	
+6-23	.	O	O	O	
+
+#id=7
+#text=I also brought a book along to read so nobody would try to talk to me .
+7-1	I	B-ScrPart_passenger	O	O	
+7-2	also	O	O	O	
+7-3	brought	O	B-webanno.custom.Events_	B-RelNScrEv	
+7-4	a	O	O	O	
+7-5	book	B-ScrPart_in-bus_entertainment	O	O	
+7-6	along	O	O	O	
+7-7	to	O	O	O	
+7-8	read	O	B-webanno.custom.Events_	B-ScrEv_spend_time_bus	
+7-9	so	O	O	O	
+7-10	nobody	B-ScrPart_passenger	O	O	
+7-11	would	O	O	O	
+7-12	try	O	B-webanno.custom.Events_	B-UnrelEv	
+7-13	to	O	O	O	
+7-14	talk	O	B-webanno.custom.Events_	B-ScrEv_spend_time_bus	
+7-15	to	O	I-webanno.custom.Events_	I-ScrEv_spend_time_bus	
+7-16	me	B-ScrPart_passenger	O	O	
+7-17	.	O	O	O	
+
+#id=8
+#text=The bus made three stops before we got to the corner nearest to my work .
+8-1	The	O	O	O	
+8-2	bus	B-ScrPart_bus	O	O	
+8-3	made	O	B-webanno.custom.Events_	B-ScrEv_bus_stops	
+8-4	three	O	O	O	
+8-5	stops	B-ScrPart_bus_stop	O	O	
+8-6	before	O	O	O	
+8-7	we	B-???	O	O	
+8-8	got	O	B-webanno.custom.Events_	B-ScrEv_bus_stops	
+8-9	to	O	I-webanno.custom.Events_	I-ScrEv_bus_stops	
+8-10	the	O	O	O	
+8-11	corner	B-ScrPart_bus_stop	O	O	
+8-12	nearest	O	O	O	
+8-13	to	O	O	O	
+8-14	my	B-ScrPart_passenger	O	O	
+8-15	work	B-NPart	O	O	
+8-16	.	O	O	O	
+
+#id=9
+#text=Each time people would get off and as they shuffled past would bump into my knees which was really annoying .
+9-1	Each	O	O	O	
+9-2	time	B-No_label	O	O	
+9-3	people	B-ScrPart_passenger	O	O	
+9-4	would	O	O	O	
+9-5	get	O	B-webanno.custom.Events_	B-ScrEv_get_off	
+9-6	off	O	I-webanno.custom.Events_	I-ScrEv_get_off	
+9-7	and	O	O	O	
+9-8	as	O	O	O	
+9-9	they	B-ScrPart_passenger	O	O	
+9-10	shuffled	O	B-webanno.custom.Events_	B-ScrEv_go_exit	
+9-11	past	O	I-webanno.custom.Events_	I-ScrEv_go_exit	
+9-12	would	O	O	O	
+9-13	bump	O	B-webanno.custom.Events_	B-RelNScrEv	
+9-14	into	O	O	O	
+9-15	my	B-ScrPart_passenger	O	O	
+9-16	knees	B-NPart	O	O	
+9-17	which	O	O	O	
+9-18	was	O	O	O	
+9-19	really	O	O	O	
+9-20	annoying	O	B-webanno.custom.Events_	B-UnrelEv	
+9-21	.	O	O	O	
+
+#id=10
+#text=Then more people would get on and some would find seats , but others had to stand .
+10-1	Then	O	O	O	
+10-2	more	O	O	O	
+10-3	people	B-ScrPart_passenger	O	O	
+10-4	would	O	O	O	
+10-5	get	O	B-webanno.custom.Events_	B-ScrEv_board_bus	
+10-6	on	O	I-webanno.custom.Events_	I-ScrEv_board_bus	
+10-7	and	O	O	O	
+10-8	some	B-ScrPart_passenger	O	O	
+10-9	would	O	O	O	
+10-10	find	O	B-webanno.custom.Events_	B-ScrEv_find_place	
+10-11	seats	B-ScrPart_seat_in_bus	O	O	
+10-12	,	O	O	O	
+10-13	but	O	O	O	
+10-14	others	B-ScrPart_passenger	O	O	
+10-15	had	O	O	O	
+10-16	to	O	O	O	
+10-17	stand	O	B-webanno.custom.Events_	B-ScrEv_find_place	
+10-18	.	O	O	O	
+
+#id=11
+#text=One person stood directly in front of me , in constant contact with my legs .
+11-1	One	O	O	O	
+11-2	person	B-ScrPart_passenger	O	O	
+11-3	stood	O	B-webanno.custom.Events_	B-ScrEv_find_place	
+11-4	directly	O	O	O	
+11-5	in	O	O	O	
+11-6	front	O	O	O	
+11-7	of	O	O	O	
+11-8	me	B-ScrPart_passenger	O	O	
+11-9	,	O	O	O	
+11-10	in	O	O	O	
+11-11	constant	O	O	O	
+11-12	contact	B-NPart	O	O	
+11-13	with	O	O	O	
+11-14	my	B-ScrPart_passenger	O	O	
+11-15	legs	B-NPart	O	O	
+11-16	.	O	O	O	
+
+#id=12
+#text=This really annoyed me even more .
+12-1	This	O	O	O	
+12-2	really	O	O	O	
+12-3	annoyed	O	B-webanno.custom.Events_	B-UnrelEv	
+12-4	me	B-ScrPart_passenger	O	O	
+12-5	even	O	O	O	
+12-6	more	O	O	O	
+12-7	.	O	O	O	
+
+#id=13
+#text=I don ' t like riding public transportation .
+13-1	I	B-ScrPart_passenger	O	O	
+13-2	don	O	O	O	
+13-3	'	O	O	O	
+13-4	t	O	O	O	
+13-5	like	O	B-webanno.custom.Events_	B-UnrelEv	
+13-6	riding	O	B-webanno.custom.Events_	B-Evoking	
+13-7	public	B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	
+13-8	transportation	I-ScrPart_bus|B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	
+13-9	.	O	O	O	
+
+#id=14
+#text=Finally we got to my stop and I got out of the bus through the rear doors . 
+14-1	Finally	O	O	O	
+14-2	we	B-???	O	O	
+14-3	got	O	B-webanno.custom.Events_	B-ScrEv_bus_stops	
+14-4	to	O	I-webanno.custom.Events_	I-ScrEv_bus_stops	
+14-5	my	B-ScrPart_passenger	O	O	
+14-6	stop	B-ScrPart_destination	O	O	
+14-7	and	O	O	O	
+14-8	I	B-ScrPart_passenger	O	O	
+14-9	got	O	B-webanno.custom.Events_	B-ScrEv_get_off	
+14-10	out	O	I-webanno.custom.Events_	I-ScrEv_get_off	
+14-11	of	O	O	O	
+14-12	the	O	O	O	
+14-13	bus	B-ScrPart_bus	O	O	
+14-14	through	O	O	O	
+14-15	the	O	O	O	
+14-16	rear	O	O	O	
+14-17	doors	B-ScrPart_door	O	O	
+14-18	.	O	O	O	
+

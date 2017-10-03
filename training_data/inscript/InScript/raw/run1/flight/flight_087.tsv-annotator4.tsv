@@ -1,0 +1,246 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I walked onto the plane and was greeted by the stewardess who had a very kind smile .
+1-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-1	
+1-2	walked	O	O	B-ScrEv_board_plane	_	_	
+1-3	onto	O	O	I-ScrEv_board_plane	_	_	
+1-4	the	O	O	O	_	_	
+1-5	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	6-2	
+1-6	and	O	O	O	_	_	
+1-7	was	O	O	O	_	_	
+1-8	greeted	O	O	B-ScrEv_listen_crew	_	_	
+1-9	by	O	O	O	_	_	
+1-10	the	O	O	O	_	_	
+1-11	stewardess	B-webanno.custom.Participants_	B-ScrPart_staff	O	webanno.custom.Corefchains_	1-12	
+1-12	who	B-webanno.custom.Participants_	B-ScrPart_staff	O	webanno.custom.Corefchains_	5-2	
+1-13	had	O	O	B-UnrelEv	_	_	
+1-14	a	O	O	O	_	_	
+1-15	very	O	O	O	_	_	
+1-16	kind	O	O	O	_	_	
+1-17	smile	O	O	O	_	_	
+1-18	.	O	O	O	_	_	
+
+#id=2
+#text=I walked slowly behind the other passengers as people were shoving their luggage into the overhead compartments .
+2-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-1	
+2-2	walked	O	O	B-ScrEv_board_plane	_	_	
+2-3	slowly	O	O	O	_	_	
+2-4	behind	O	O	O	_	_	
+2-5	the	O	O	O	_	_	
+2-6	other	O	O	O	_	_	
+2-7	passengers	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-9	
+2-8	as	O	O	O	_	_	
+2-9	people	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-12	
+2-10	were	O	O	O	_	_	
+2-11	shoving	O	O	B-ScrEv_stow_away_luggage	_	_	
+2-12	their	B-webanno.custom.Participants_	B-ScrPart_passenger	O	coref_I_passenger	8-8	
+2-13	luggage	B-webanno.custom.Participants_	B-ScrPart_carry_on_luggage	O	_	_	
+2-14	into	O	O	O	_	_	
+2-15	the	O	O	O	_	_	
+2-16	overhead	O	O	O	_	_	
+2-17	compartments	O	O	O	_	_	
+2-18	.	O	O	O	_	_	
+
+#id=3
+#text=I found my seat just ahead of the right wing .
+3-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-3	
+3-2	found	O	O	B-ScrEv_take_seat	_	_	
+3-3	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-1	
+3-4	seat	B-webanno.custom.Participants_	B-ScrPart_seat	O	webanno.custom.Corefchains_	4-5	
+3-5	just	O	O	O	_	_	
+3-6	ahead	O	O	O	_	_	
+3-7	of	O	O	O	_	_	
+3-8	the	O	O	O	_	_	
+3-9	right	O	O	O	_	_	
+3-10	wing	O	O	O	_	_	
+3-11	.	O	O	O	_	_	
+
+#id=4
+#text=I buckled into my seat next to the window , and prepared myself for takeoff .
+4-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-4	
+4-2	buckled	O	O	B-ScrEv_buckle_seat_belt	_	_	
+4-3	into	O	O	I-ScrEv_buckle_seat_belt	_	_	
+4-4	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-13	
+4-5	seat	B-webanno.custom.Participants_	B-ScrPart_seat	O	_	_	
+4-6	next	O	O	O	_	_	
+4-7	to	O	O	O	_	_	
+4-8	the	O	O	O	_	_	
+4-9	window	B-webanno.custom.Participants_	B-ScrPart_in-flight_entertainment	O	_	_	
+4-10	,	O	O	O	_	_	
+4-11	and	O	O	O	_	_	
+4-12	prepared	O	O	B-ScrEv_take_off_preparations	_	_	
+4-13	myself	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-1	
+4-14	for	O	O	O	_	_	
+4-15	takeoff	O	O	B-ScrEv_take_off	_	_	
+4-16	.	O	O	O	_	_	
+
+#id=5
+#text=The stewardess explained all the pre-flight information about safety .
+5-1	The	O	O	O	_	_	
+5-2	stewardess	B-webanno.custom.Participants_	B-ScrPart_staff	O	_	_	
+5-3	explained	O	O	B-ScrEv_listen_crew	_	_	
+5-4	all	O	O	O	_	_	
+5-5	the	O	O	O	_	_	
+5-6	pre-flight	B-webanno.custom.Participants_	B-NPart	O	_	_	
+5-7	information	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-NPart|B-NPart	O	_	_	
+5-8	about	O	O	O	_	_	
+5-9	safety	O	O	O	_	_	
+5-10	.	O	O	O	_	_	
+
+#id=6
+#text=The plane started to taxi to the runway .
+6-1	The	O	O	O	_	_	
+6-2	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	9-6	
+6-3	started	O	O	B-UnrelEv	_	_	
+6-4	to	O	O	O	_	_	
+6-5	taxi	O	O	B-ScrEv_take_off_preparations	_	_	
+6-6	to	O	O	O	_	_	
+6-7	the	O	O	O	_	_	
+6-8	runway	B-webanno.custom.Participants_	B-ScrPart_location_airplane	O	_	_	
+6-9	.	O	O	O	_	_	
+
+#id=7
+#text=My stomach started to get a little twisted .
+7-1	My	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_|coref_I_passenger	10-1|8-8	
+7-2	stomach	O	O	O	_	_	
+7-3	started	O	O	B-UnrelEv	_	_	
+7-4	to	O	O	O	_	_	
+7-5	get	O	O	B-UnrelEv	_	_	
+7-6	a	O	O	O	_	_	
+7-7	little	O	O	O	_	_	
+7-8	twisted	O	O	O	_	_	
+7-9	.	O	O	O	_	_	
+
+#id=8
+#text=The engines started to roar and the passengers were pushed back into their seats .
+8-1	The	O	O	O	_	_	
+8-2	engines	B-webanno.custom.Participants_	B-ScrPart_plane	O	_	_	
+8-3	started	O	O	B-UnrelEv	_	_	
+8-4	to	O	O	O	_	_	
+8-5	roar	O	O	B-ScrEv_take_off_preparations	_	_	
+8-6	and	O	O	O	_	_	
+8-7	the	O	O	O	_	_	
+8-8	passengers	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-13	
+8-9	were	O	O	O	_	_	
+8-10	pushed	O	O	B-RelNScrEv	_	_	
+8-11	back	O	O	I-RelNScrEv	_	_	
+8-12	into	O	O	O	_	_	
+8-13	their	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	13-20	
+8-14	seats	B-webanno.custom.Participants_	B-ScrPart_seat	O	_	_	
+8-15	.	O	O	O	_	_	
+
+#id=9
+#text=In a few seconds the plane started climbing and we were off .
+9-1	In	O	O	O	_	_	
+9-2	a	O	O	O	_	_	
+9-3	few	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+9-4	seconds	I-webanno.custom.Participants_	I-ScrPart_time/date	O	_	_	
+9-5	the	O	O	O	_	_	
+9-6	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	9-10	
+9-7	started	O	O	B-UnrelEv	_	_	
+9-8	climbing	O	O	B-ScrEv_take_off	_	_	
+9-9	and	O	O	O	_	_	
+9-10	we	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	11-5	
+9-11	were	O	O	B-ScrEv_take_off	_	_	
+9-12	off	O	O	I-ScrEv_take_off	_	_	
+9-13	.	O	O	O	_	_	
+
+#id=10
+#text=I watched the the trees and the buildings get smaller and smaller .
+10-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	12-13	
+10-2	watched	O	O	B-ScrEv_spend_time_flight	_	_	
+10-3	the	O	O	O	_	_	
+10-4	the	O	O	O	_	_	
+10-5	trees	B-webanno.custom.Participants_	B-NPart	O	_	_	
+10-6	and	O	O	O	_	_	
+10-7	the	O	O	O	_	_	
+10-8	buildings	B-webanno.custom.Participants_	B-NPart	O	_	_	
+10-9	get	O	O	B-UnrelEv	_	_	
+10-10	smaller	O	O	O	_	_	
+10-11	and	O	O	O	_	_	
+10-12	smaller	O	O	O	_	_	
+10-13	.	O	O	O	_	_	
+
+#id=11
+#text=After a few minutes we started to level off and everything on the ground looked miniature .
+11-1	After	O	O	O	_	_	
+11-2	a	O	O	O	_	_	
+11-3	few	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+11-4	minutes	I-webanno.custom.Participants_	I-ScrPart_time/date	O	_	_	
+11-5	we	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	12-1	
+11-6	started	O	O	B-UnrelEv	_	_	
+11-7	to	O	O	O	_	_	
+11-8	level	O	O	B-ScrEv_take_off	_	_	
+11-9	off	O	O	I-ScrEv_take_off	_	_	
+11-10	and	O	O	O	_	_	
+11-11	everything	O	O	O	_	_	
+11-12	on	O	O	O	_	_	
+11-13	the	O	O	O	_	_	
+11-14	ground	O	O	O	_	_	
+11-15	looked	O	O	B-UnrelEv	_	_	
+11-16	miniature	O	O	O	_	_	
+11-17	.	O	O	O	_	_	
+
+#id=12
+#text=We were above the clouds for most of the flight , but I still love looking out the window .
+12-1	We	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	13-2	
+12-2	were	O	O	B-???	_	_	
+12-3	above	O	O	O	_	_	
+12-4	the	O	O	O	_	_	
+12-5	clouds	B-webanno.custom.Participants_	B-ScrPart_location_airplane	O	webanno.custom.Corefchains_	13-11	
+12-6	for	O	O	O	_	_	
+12-7	most	O	O	O	_	_	
+12-8	of	O	O	O	_	_	
+12-9	the	O	O	O	_	_	
+12-10	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	_	_	
+12-11	,	O	O	O	_	_	
+12-12	but	O	O	O	_	_	
+12-13	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+12-14	still	O	O	O	_	_	
+12-15	love	O	O	B-UnrelEv	_	_	
+12-16	looking	O	O	B-ScrEv_spend_time_flight	_	_	
+12-17	out	O	O	I-ScrEv_spend_time_flight	_	_	
+12-18	the	O	O	O	_	_	
+12-19	window	B-webanno.custom.Participants_	B-ScrPart_in-flight_entertainment	O	_	_	
+12-20	.	O	O	O	_	_	
+
+#id=13
+#text=As we began our descent , we went through rain clouds and it was a bit bumpy , but we landed safely and exited the plane the same way we began , slow and without efficiency . 
+13-1	As	O	O	O	_	_	
+13-2	we	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	13-4	
+13-3	began	O	O	B-ScrEv_landing	_	_	
+13-4	our	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	13-7	
+13-5	descent	B-webanno.custom.Participants_	B-???	O	_	_	
+13-6	,	O	O	O	_	_	
+13-7	we	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	13-26	
+13-8	went	O	O	B-RelNScrEv	_	_	
+13-9	through	O	O	I-RelNScrEv	_	_	
+13-10	rain	O	O	O	_	_	
+13-11	clouds	B-webanno.custom.Participants_	B-ScrPart_location_airplane	O	_	_	
+13-12	and	O	O	O	_	_	
+13-13	it	O	O	O	_	_	
+13-14	was	O	O	B-UnrelEv	_	_	
+13-15	a	O	O	O	_	_	
+13-16	bit	O	O	O	_	_	
+13-17	bumpy	O	O	O	_	_	
+13-18	,	O	O	O	_	_	
+13-19	but	O	O	O	_	_	
+13-20	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	13-30	
+13-21	landed	O	O	B-ScrEv_landing	_	_	
+13-22	safely	O	O	O	_	_	
+13-23	and	O	O	O	_	_	
+13-24	exited	O	O	B-ScrEv_exit_plane	_	_	
+13-25	the	O	O	O	_	_	
+13-26	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	_	_	
+13-27	the	O	O	O	_	_	
+13-28	same	O	O	O	_	_	
+13-29	way	O	O	O	_	_	
+13-30	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+13-31	began	O	O	B-ScrEv_board_plane	_	_	
+13-32	,	O	O	O	_	_	
+13-33	slow	O	O	O	_	_	
+13-34	and	O	O	O	_	_	
+13-35	without	O	O	O	_	_	
+13-36	efficiency	O	O	O	_	_	
+13-37	.	O	O	O	_	_	
+

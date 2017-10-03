@@ -1,0 +1,232 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I wanted to go to Atlanta to visit my daughter , son-in-law and granddaughter .
+1-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+1-2	wanted	O	O	O	_	_	
+1-3	to	O	O	O	_	_	
+1-4	go	O	O	B-UnrelEv	_	_	
+1-5	to	O	O	O	_	_	
+1-6	Atlanta	B-webanno.custom.Participants_	B-ScrPart_target_location	O	_	_	
+1-7	to	O	O	O	_	_	
+1-8	visit	O	O	B-UnrelEv	_	_	
+1-9	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-1	
+1-10	daughter	B-webanno.custom.Participants_	B-ScrPart_accomp_person	O	_	_	
+1-11	,	O	O	O	_	_	
+1-12	son-in-law	O	O	O	_	_	
+1-13	and	O	O	O	_	_	
+1-14	granddaughter	O	O	O	_	_	
+1-15	.	O	O	O	_	_	
+
+#id=2
+#text=I went on-line and searched for the cheapest flights for the weekend on which I wanted to go .
+2-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-9	
+2-2	went	O	O	B-RelNScrEv	_	_	
+2-3	on-line	B-webanno.custom.Participants_	B-SuppVComp	O	_	_	
+2-4	and	O	O	O	_	_	
+2-5	searched	O	O	B-MissScrEv	_	_	
+2-6	for	O	O	O	_	_	
+2-7	the	O	O	O	_	_	
+2-8	cheapest	O	O	O	_	_	
+2-9	flights	B-webanno.custom.Participants_	B-ScrPart_flight	O	_	_	
+2-10	for	O	O	O	_	_	
+2-11	the	O	O	O	_	_	
+2-12	weekend	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+2-13	on	O	O	O	_	_	
+2-14	which	O	O	O	_	_	
+2-15	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-1	
+2-16	wanted	O	O	O	_	_	
+2-17	to	O	O	O	_	_	
+2-18	go	O	O	B-UnrelEv	_	_	
+2-19	.	O	O	O	_	_	
+
+#id=3
+#text=I saw that Frontier Airlines had a really reasonable rate so I purchased a ticket for Friday , March 13th through Sunday , March 15th .
+3-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-15	
+3-2	saw	O	O	B-UnrelEv	_	_	
+3-3	that	O	O	O	_	_	
+3-4	Frontier	B-webanno.custom.Participants_	B-MissScrPart	O	_	_	
+3-5	Airlines	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-MissScrPart|B-MissScrPart	O	_	_	
+3-6	had	O	O	B-UnrelEv	_	_	
+3-7	a	O	O	O	_	_	
+3-8	really	O	O	O	_	_	
+3-9	reasonable	O	O	O	_	_	
+3-10	rate	B-webanno.custom.Participants_	B-MissScrPart	O	_	_	
+3-11	so	O	O	O	_	_	
+3-12	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-1	
+3-13	purchased	O	O	B-ScrEv_get_ticket	_	_	
+3-14	a	O	O	O	_	_	
+3-15	ticket	B-webanno.custom.Participants_	B-ScrPart_ticket	O	_	_	
+3-16	for	O	O	O	_	_	
+3-17	Friday	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+3-18	,	O	O	O	_	_	
+3-19	March	O	O	O	_	_	
+3-20	13th	O	O	O	_	_	
+3-21	through	O	O	O	_	_	
+3-22	Sunday	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+3-23	,	O	O	O	_	_	
+3-24	March	O	O	O	_	_	
+3-25	15th	O	O	O	_	_	
+3-26	.	O	O	O	_	_	
+
+#id=4
+#text=Several hours before my flight was due , I drove to National Airport and parked in the daily-rate lot .
+4-1	Several	O	O	O	_	_	
+4-2	hours	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+4-3	before	O	O	O	_	_	
+4-4	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-12	
+4-5	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	webanno.custom.Corefchains_	2-9	
+4-6	was	O	O	B-RelNScrEv	_	_	
+4-7	due	O	O	O	_	_	
+4-8	,	O	O	O	_	_	
+4-9	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-4	
+4-10	drove	O	O	B-ScrEv_get_airport	_	_	
+4-11	to	O	O	O	_	_	
+4-12	National	B-webanno.custom.Participants_	B-ScrPart_airport	O	_	_	
+4-13	Airport	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_airport|B-ScrPart_airport	O	_	_	
+4-14	and	O	O	O	_	_	
+4-15	parked	O	O	B-RelNScrEv	_	_	
+4-16	in	O	O	O	_	_	
+4-17	the	O	O	O	_	_	
+4-18	daily-rate	B-webanno.custom.Participants_	B-NPart	O	_	_	
+4-19	lot	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-NPart|B-NPart	O	_	_	
+4-20	.	O	O	O	_	_	
+
+#id=5
+#text=I went into the airport and passed through the security checkpoint , showing the TSA agent my electronic ticket\/boarding pass and my driver 's license .
+5-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-9	
+5-2	went	O	O	B-MissScrEv	_	_	
+5-3	into	O	O	O	_	_	
+5-4	the	O	O	O	_	_	
+5-5	airport	B-webanno.custom.Participants_	B-ScrPart_airport	O	_	_	
+5-6	and	O	O	O	_	_	
+5-7	passed	O	O	B-ScrEv_go_security_checks|B-ScrEv_go_security_checks	_	_	
+5-8	through	O	O	I-ScrEv_go_security_checks	_	_	
+5-9	the	O	O	O	_	_	
+5-10	security	B-webanno.custom.Participants_	B-ScrPart_security_check	O	_	_	
+5-11	checkpoint	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_security_check|B-ScrPart_security_check	O	_	_	
+5-12	,	O	O	O	_	_	
+5-13	showing	O	O	B-ScrEv_present_ID/ticket	_	_	
+5-14	the	O	O	O	_	_	
+5-15	TSA	B-webanno.custom.Participants_	B-ScrPart_staff	O	_	_	
+5-16	agent	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_staff|B-ScrPart_staff	O	_	_	
+5-17	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-1	
+5-18	electronic	O	O	O	_	_	
+5-19	ticket\/boarding	B-webanno.custom.Participants_|B-webanno.custom.Participants_	B-ScrPart_boarding_pass|B-ScrPart_ticket	O	_	_	
+5-20	pass	I-webanno.custom.Participants_	I-ScrPart_boarding_pass	O	_	_	
+5-21	and	O	O	O	_	_	
+5-22	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-17	
+5-23	driver	B-webanno.custom.Participants_	B-MissScrPart	O	_	_	
+5-24	's	I-webanno.custom.Participants_	I-MissScrPart	O	_	_	
+5-25	license	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-MissScrPart|B-MissScrPart	O	_	_	
+5-26	.	O	O	O	_	_	
+
+#id=6
+#text=Once through security I waited at the gate until the plane had landed for my flight .
+6-1	Once	O	O	O	_	_	
+6-2	through	O	O	O	_	_	
+6-3	security	B-webanno.custom.Participants_	B-ScrPart_security_check	O	_	_	
+6-4	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-22	
+6-5	waited	O	O	B-ScrEv_wait_boarding	_	_	
+6-6	at	O	O	O	_	_	
+6-7	the	O	O	O	_	_	
+6-8	gate	B-webanno.custom.Participants_	B-ScrPart_terminal/gate	O	_	_	
+6-9	until	O	O	O	_	_	
+6-10	the	O	O	O	_	_	
+6-11	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	_	_	
+6-12	had	O	O	O	_	_	
+6-13	landed	O	O	B-RelNScrEv	_	_	
+6-14	for	O	O	O	_	_	
+6-15	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-4	
+6-16	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	webanno.custom.Corefchains_	4-5	
+6-17	.	O	O	O	_	_	
+
+#id=7
+#text=Once boarding started , I got in line with my boarding pass and entered the plane .
+7-1	Once	O	O	O	_	_	
+7-2	boarding	O	O	B-ScrEv_board_plane	_	_	
+7-3	started	O	O	B-UnrelEv	_	_	
+7-4	,	O	O	O	_	_	
+7-5	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-15	
+7-6	got	O	O	B-ScrEv_wait_boarding	_	_	
+7-7	in	O	O	O	_	_	
+7-8	line	B-webanno.custom.Participants_	B-SuppVComp	O	_	_	
+7-9	with	O	O	O	_	_	
+7-10	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-5	
+7-11	boarding	B-webanno.custom.Participants_	B-ScrPart_boarding_pass	O	_	_	
+7-12	pass	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_boarding_pass|B-ScrPart_boarding_pass	O	_	_	
+7-13	and	O	O	O	_	_	
+7-14	entered	O	O	B-ScrEv_board_plane	_	_	
+7-15	the	O	O	O	_	_	
+7-16	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	6-11	
+7-17	.	O	O	O	_	_	
+
+#id=8
+#text=I found my seat , the aisle seat in row 26 , and sat down .
+8-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-10	
+8-2	found	O	O	B-RelNScrEv	_	_	
+8-3	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-1	
+8-4	seat	B-webanno.custom.Participants_	B-ScrPart_seat	O	_	_	
+8-5	,	O	O	O	_	_	
+8-6	the	O	O	O	_	_	
+8-7	aisle	B-webanno.custom.Participants_	B-ScrPart_seat	O	_	_	
+8-8	seat	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_seat|B-ScrPart_seat	O	_	_	
+8-9	in	O	O	O	_	_	
+8-10	row	B-webanno.custom.Participants_	B-MissScrPart	O	_	_	
+8-11	26	O	O	O	_	_	
+8-12	,	O	O	O	_	_	
+8-13	and	O	O	O	_	_	
+8-14	sat	O	O	B-ScrEv_take_seat|B-ScrEv_take_seat	_	_	
+8-15	down	O	O	I-ScrEv_take_seat	_	_	
+8-16	.	O	O	O	_	_	
+
+#id=9
+#text=After the safety instructions had been given , the flight taxied to the end of the runway and then took off .
+9-1	After	O	O	O	_	_	
+9-2	the	O	O	O	_	_	
+9-3	safety	B-webanno.custom.Participants_	B-MissScrPart	O	_	_	
+9-4	instructions	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-MissScrPart|B-MissScrPart	O	_	_	
+9-5	had	O	O	O	_	_	
+9-6	been	O	O	O	_	_	
+9-7	given	O	O	B-ScrEv_listen_crew	_	_	
+9-8	,	O	O	O	_	_	
+9-9	the	O	O	O	_	_	
+9-10	flight	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	7-16	
+9-11	taxied	O	O	B-ScrEv_take_off_preparations	_	_	
+9-12	to	O	O	O	_	_	
+9-13	the	O	O	O	_	_	
+9-14	end	O	O	O	_	_	
+9-15	of	O	O	O	_	_	
+9-16	the	O	O	O	_	_	
+9-17	runway	B-webanno.custom.Participants_	B-ScrPart_location_airplane	O	_	_	
+9-18	and	O	O	O	_	_	
+9-19	then	O	O	O	_	_	
+9-20	took	O	O	B-ScrEv_take_off|B-ScrEv_take_off	_	_	
+9-21	off	O	O	I-ScrEv_take_off	_	_	
+9-22	.	O	O	O	_	_	
+
+#id=10
+#text=In just a few short hours we had safely touched down at the Atlanta airport where my daughter was waiting for me . 
+10-1	In	O	O	O	_	_	
+10-2	just	O	O	O	_	_	
+10-3	a	O	O	O	_	_	
+10-4	few	O	O	O	_	_	
+10-5	short	O	O	O	_	_	
+10-6	hours	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+10-7	we	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	9-10	
+10-8	had	O	O	O	_	_	
+10-9	safely	O	O	O	_	_	
+10-10	touched	O	O	B-ScrEv_landing|B-ScrEv_landing	_	_	
+10-11	down	O	O	I-ScrEv_landing	_	_	
+10-12	at	O	O	O	_	_	
+10-13	the	O	O	O	_	_	
+10-14	Atlanta	B-webanno.custom.Participants_	B-ScrPart_target_location	O	webanno.custom.Corefchains_	1-6	
+10-15	airport	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_target_location|B-ScrPart_target_location	O	webanno.custom.Corefchains_	1-6	
+10-16	where	O	O	O	_	_	
+10-17	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-3	
+10-18	daughter	B-webanno.custom.Participants_	B-ScrPart_accomp_person	O	_	_	
+10-19	was	O	O	O	_	_	
+10-20	waiting	O	O	B-ScrEv_meet_people	_	_	
+10-21	for	O	O	O	_	_	
+10-22	me	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-17	
+10-23	.	O	O	O	_	_	
+

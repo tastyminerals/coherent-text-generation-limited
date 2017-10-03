@@ -1,0 +1,220 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=I love to read , and today I remembered that I had already finished my last mystery novel .
+1-1	I	B-ScrPart_customer	O	
+1-2	love	O	B-UnrelEv	
+1-3	to	O	O	
+1-4	read	O	B-RelNScrEv	
+1-5	,	O	O	
+1-6	and	O	O	
+1-7	today	O	O	
+1-8	I	B-ScrPart_customer	O	
+1-9	remembered	O	B-UnrelEv	
+1-10	that	O	O	
+1-11	I	B-ScrPart_customer	O	
+1-12	had	O	O	
+1-13	already	O	O	
+1-14	finished	O	B-RelNScrEv	
+1-15	my	B-ScrPart_customer	O	
+1-16	last	O	O	
+1-17	mystery	B-ScrPart_book	O	
+1-18	novel	I-ScrPart_book|B-ScrPart_book	O	
+1-19	.	O	O	
+
+#id=2
+#text=So now it was time to head back to the library .
+2-1	So	O	O	
+2-2	now	O	O	
+2-3	it	B-No_label	O	
+2-4	was	O	B-UnrelEv	
+2-5	time	B-No_label	O	
+2-6	to	O	O	
+2-7	head	O	B-ScrEv_get_library	
+2-8	back	O	O	
+2-9	to	O	O	
+2-10	the	O	O	
+2-11	library	B-ScrPart_library	O	
+2-12	.	O	O	
+
+#id=3
+#text=It was a short walk , but one I enjoyed as I considered what kind of stories I would check out next .
+3-1	It	B-No_label	O	
+3-2	was	O	B-UnrelEv	
+3-3	a	O	O	
+3-4	short	O	O	
+3-5	walk	B-NPart	O	
+3-6	,	O	O	
+3-7	but	O	O	
+3-8	one	O	O	
+3-9	I	B-ScrPart_customer	O	
+3-10	enjoyed	O	B-UnrelEv	
+3-11	as	O	O	
+3-12	I	B-ScrPart_customer	O	
+3-13	considered	O	B-UnrelEv	
+3-14	what	O	O	
+3-15	kind	B-Head_of_Partitive	O	
+3-16	of	O	O	
+3-17	stories	B-ScrPart_book	O	
+3-18	I	B-ScrPart_customer	O	
+3-19	would	O	O	
+3-20	check	O	B-Evoking	
+3-21	out	O	I-Evoking	
+3-22	next	O	O	
+3-23	.	O	O	
+
+#id=4
+#text=I dropped my return books into the slot at the entrance , and entered the library .
+4-1	I	B-ScrPart_customer	O	
+4-2	dropped	O	B-ScrEv_return_book	
+4-3	my	B-ScrPart_customer	O	
+4-4	return	B-ScrPart_book	O	
+4-5	books	I-ScrPart_book|B-ScrPart_book	O	
+4-6	into	O	O	
+4-7	the	O	O	
+4-8	slot	B-ScrPart_drop_box	O	
+4-9	at	O	O	
+4-10	the	O	O	
+4-11	entrance	B-NPart	O	
+4-12	,	O	O	
+4-13	and	O	O	
+4-14	entered	O	B-ScrEv_get_library	
+4-15	the	O	O	
+4-16	library	B-ScrPart_library	O	
+4-17	.	O	O	
+
+#id=5
+#text=Oh how I love the smell of books !
+5-1	Oh	O	O	
+5-2	how	O	O	
+5-3	I	B-ScrPart_customer	O	
+5-4	love	O	B-UnrelEv	
+5-5	the	O	O	
+5-6	smell	B-NPart	O	
+5-7	of	O	O	
+5-8	books	B-ScrPart_book	O	
+5-9	!	O	O	
+
+#id=6
+#text=I made my way over to the fiction area , and randomly layed eyes on the book bindings , until a title would catch my eye .
+6-1	I	B-ScrPart_customer	O	
+6-2	made	O	B-ScrEv_get_shelf	
+6-3	my	B-ScrPart_customer	O	
+6-4	way	B-NPart	O	
+6-5	over	O	O	
+6-6	to	O	O	
+6-7	the	O	O	
+6-8	fiction	B-ScrPart_location_library	O	
+6-9	area	I-ScrPart_location_library|B-ScrPart_location_library	O	
+6-10	,	O	O	
+6-11	and	O	O	
+6-12	randomly	O	O	
+6-13	layed	O	B-ScrEv_look_for_book	
+6-14	eyes	B-NPart	O	
+6-15	on	O	O	
+6-16	the	O	O	
+6-17	book	B-ScrPart_book	O	
+6-18	bindings	I-ScrPart_book|B-ScrPart_book	O	
+6-19	,	O	O	
+6-20	until	O	O	
+6-21	a	O	O	
+6-22	title	B-NPart	O	
+6-23	would	O	O	
+6-24	catch	O	B-RelNScrEv	
+6-25	my	B-ScrPart_customer	O	
+6-26	eye	B-NPart	O	
+6-27	.	O	O	
+
+#id=7
+#text=After 2 to 3 more , I would take my selections to the check out desk .
+7-1	After	O	O	
+7-2	2	O	O	
+7-3	to	O	O	
+7-4	3	O	O	
+7-5	more	O	O	
+7-6	,	O	O	
+7-7	I	B-ScrPart_customer	O	
+7-8	would	O	O	
+7-9	take	O	B-ScrEv_go_check_out	
+7-10	my	B-ScrPart_customer	O	
+7-11	selections	B-ScrPart_book	O	
+7-12	to	O	O	
+7-13	the	O	O	
+7-14	check	B-ScrPart_check-out_desk	O	
+7-15	out	I-ScrPart_check-out_desk	O	
+7-16	desk	I-ScrPart_check-out_desk|B-ScrPart_check-out_desk	O	
+7-17	.	O	O	
+
+#id=8
+#text=The librarian , who knows me well , smiled and noted the books I had chosen in the system .
+8-1	The	O	O	
+8-2	librarian	B-ScrPart_staff	O	
+8-3	,	O	O	
+8-4	who	B-ScrPart_staff	O	
+8-5	knows	O	B-UnrelEv	
+8-6	me	B-ScrPart_customer	O	
+8-7	well	O	O	
+8-8	,	O	O	
+8-9	smiled	O	B-RelNScrEv	
+8-10	and	O	O	
+8-11	noted	O	B-ScrEv_register	
+8-12	the	O	O	
+8-13	books	B-ScrPart_book	O	
+8-14	I	B-ScrPart_customer	O	
+8-15	had	O	O	
+8-16	chosen	O	B-ScrEv_take_book	
+8-17	in	O	O	
+8-18	the	O	O	
+8-19	system	B-ScrPart_institutional_devices	O	
+8-20	.	O	O	
+
+#id=9
+#text=The library has a scanner now .
+9-1	The	O	O	
+9-2	library	B-ScrPart_library	O	
+9-3	has	O	B-UnrelEv	
+9-4	a	O	O	
+9-5	scanner	B-ScrPart_institutional_devices	O	
+9-6	now	O	O	
+9-7	.	O	O	
+
+#id=10
+#text=It makes the check out process so much faster now .
+10-1	It	B-ScrPart_institutional_devices	O	
+10-2	makes	O	B-???	
+10-3	the	O	O	
+10-4	check	B-NPart	O	
+10-5	out	I-NPart	O	
+10-6	process	I-NPart|B-NPart	O	
+10-7	so	O	O	
+10-8	much	O	O	
+10-9	faster	O	O	
+10-10	now	O	O	
+10-11	.	O	O	
+
+#id=11
+#text=I picked up the books on the other side , placed them in my bag , and stepped out into the autumn air . 
+11-1	I	B-ScrPart_customer	O	
+11-2	picked	O	B-RelNScrEv	
+11-3	up	O	I-RelNScrEv	
+11-4	the	O	O	
+11-5	books	B-ScrPart_book	O	
+11-6	on	O	O	
+11-7	the	O	O	
+11-8	other	O	O	
+11-9	side	B-NPart	O	
+11-10	,	O	O	
+11-11	placed	O	B-ScrEv_put_book_bag	
+11-12	them	B-ScrPart_book	O	
+11-13	in	O	O	
+11-14	my	B-ScrPart_customer	O	
+11-15	bag	B-ScrPart_bag	O	
+11-16	,	O	O	
+11-17	and	O	O	
+11-18	stepped	O	B-ScrEv_leave	
+11-19	out	O	I-ScrEv_leave	
+11-20	into	O	O	
+11-21	the	O	O	
+11-22	autumn	B-NPart	O	
+11-23	air	I-NPart|B-NPart	O	
+11-24	.	O	O	
+

@@ -1,0 +1,200 @@
+ # webanno.custom.Eventsandparticipants | Event # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=After touring the city , I arrived at the public bus stop and took a seat on the bench waiting for the bus to arrive .
+1-1	After	O	O	_	_	
+1-2	touring	B-UnrelEv	O	_	_	
+1-3	the	O	O	_	_	
+1-4	city	O	O	_	_	
+1-5	,	O	O	_	_	
+1-6	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	2-1	
+1-7	arrived	B-ScrEv_get_bus_stop	O	_	_	
+1-8	at	O	O	_	_	
+1-9	the	O	O	_	_	
+1-10	public	O	O	_	_	
+1-11	bus	O	B-ScrPart_bus_stop	_	_	
+1-12	stop	O	I-ScrPart_bus_stop|B-ScrPart_bus_stop	_	_	
+1-13	and	O	O	_	_	
+1-14	took	B-RelNScrEv	O	_	_	
+1-15	a	O	O	_	_	
+1-16	seat	O	B-NPart	_	_	
+1-17	on	O	O	_	_	
+1-18	the	O	O	_	_	
+1-19	bench	O	O	_	_	
+1-20	waiting	B-ScrEv_wait	O	_	_	
+1-21	for	O	O	_	_	
+1-22	the	O	O	_	_	
+1-23	bus	O	B-ScrPart_bus	webanno.custom.Corefchains_	2-9	
+1-24	to	O	O	_	_	
+1-25	arrive	B-ScrEv_bus_comes	O	_	_	
+1-26	.	O	O	_	_	
+
+#id=2
+#text=I looked at a map on what this bus 's route was , and it was heading towards where I needed to go .
+2-1	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	2-20	
+2-2	looked	B-ScrEv_check_time-table	O	_	_	
+2-3	at	I-ScrEv_check_time-table	O	_	_	
+2-4	a	O	O	_	_	
+2-5	map	O	B-ScrPart_time-table	_	_	
+2-6	on	O	O	_	_	
+2-7	what	O	O	_	_	
+2-8	this	O	O	_	_	
+2-9	bus	O	B-ScrPart_bus	webanno.custom.Corefchains_	2-15	
+2-10	's	O	O	_	_	
+2-11	route	O	O	_	_	
+2-12	was	B-UnrelEv	O	_	_	
+2-13	,	O	O	_	_	
+2-14	and	O	O	_	_	
+2-15	it	O	B-ScrPart_bus	webanno.custom.Corefchains_	4-7	
+2-16	was	O	O	_	_	
+2-17	heading	B-???	O	_	_	
+2-18	towards	O	O	_	_	
+2-19	where	O	O	_	_	
+2-20	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	3-2	
+2-21	needed	O	O	_	_	
+2-22	to	O	O	_	_	
+2-23	go	B-???	O	_	_	
+2-24	.	O	O	_	_	
+
+#id=3
+#text=Since I am easily bored , I brought my MP3 player with me to listen to music .
+3-1	Since	O	O	_	_	
+3-2	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	3-7	
+3-3	am	O	O	_	_	
+3-4	easily	O	O	_	_	
+3-5	bored	B-UnrelEv	O	_	_	
+3-6	,	O	O	_	_	
+3-7	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	3-9	
+3-8	brought	B-UnrelEv	O	_	_	
+3-9	my	O	B-ScrPart_passenger	webanno.custom.Corefchains_	3-13	
+3-10	MP3	O	O	_	_	
+3-11	player	O	O	_	_	
+3-12	with	O	O	_	_	
+3-13	me	O	B-ScrPart_passenger	webanno.custom.Corefchains_	4-10	
+3-14	to	O	O	_	_	
+3-15	listen	B-RelNScrEv	O	_	_	
+3-16	to	I-RelNScrEv	O	_	_	
+3-17	music	O	B-NPart	_	_	
+3-18	.	O	O	_	_	
+
+#id=4
+#text=After a 10 minute wait the bus arrived and I got on with another person .
+4-1	After	O	O	_	_	
+4-2	a	O	O	_	_	
+4-3	10	O	O	_	_	
+4-4	minute	O	O	_	_	
+4-5	wait	O	O	_	_	
+4-6	the	O	O	_	_	
+4-7	bus	O	B-ScrPart_bus	webanno.custom.Corefchains_	5-7	
+4-8	arrived	B-ScrEv_bus_comes	O	_	_	
+4-9	and	O	O	_	_	
+4-10	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	5-2	
+4-11	got	B-ScrEv_board_bus	O	_	_	
+4-12	on	I-ScrEv_board_bus	O	_	_	
+4-13	with	O	O	_	_	
+4-14	another	O	O	_	_	
+4-15	person	O	B-ScrPart_passenger	_	_	
+4-16	.	O	O	_	_	
+
+#id=5
+#text=As I walked up on the bus , I paid the fee that is required since I do n't have a bus pass .
+5-1	As	O	O	_	_	
+5-2	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	5-9	
+5-3	walked	B-ScrEv_board_bus	O	_	_	
+5-4	up	I-ScrEv_board_bus	O	_	_	
+5-5	on	O	O	_	_	
+5-6	the	O	O	_	_	
+5-7	bus	O	B-ScrPart_bus	webanno.custom.Corefchains_	6-24	
+5-8	,	O	O	_	_	
+5-9	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	5-17	
+5-10	paid	B-ScrEv_get_ticket	O	_	_	
+5-11	the	O	O	_	_	
+5-12	fee	O	B-ScrPart_money	_	_	
+5-13	that	O	O	_	_	
+5-14	is	O	O	_	_	
+5-15	required	B-RelNScrEv	O	_	_	
+5-16	since	O	O	_	_	
+5-17	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	6-13	
+5-18	do	O	O	_	_	
+5-19	n't	O	O	_	_	
+5-20	have	B-RelNScrEv	O	_	_	
+5-21	a	O	O	_	_	
+5-22	bus	O	B-ScrPart_card/ticket	_	_	
+5-23	pass	O	I-ScrPart_card/ticket|B-ScrPart_card/ticket	_	_	
+5-24	.	O	O	_	_	
+
+#id=6
+#text=Since most people in the city like to keep to themselves , I left them alone and found an open seat on the bus in the back .
+6-1	Since	O	O	_	_	
+6-2	most	O	O	_	_	
+6-3	people	O	B-ScrPart_passenger	webanno.custom.Corefchains_	6-11	
+6-4	in	O	O	_	_	
+6-5	the	O	O	_	_	
+6-6	city	O	O	_	_	
+6-7	like	B-UnrelEv	O	_	_	
+6-8	to	O	O	_	_	
+6-9	keep	B-UnrelEv	O	_	_	
+6-10	to	I-UnrelEv	O	_	_	
+6-11	themselves	O	B-ScrPart_passenger	webanno.custom.Corefchains_	6-15	
+6-12	,	O	O	_	_	
+6-13	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	7-13	
+6-14	left	B-UnrelEv	O	_	_	
+6-15	them	O	B-ScrPart_passenger	_	_	
+6-16	alone	O	O	_	_	
+6-17	and	O	O	_	_	
+6-18	found	B-ScrEv_find_place	O	_	_	
+6-19	an	O	O	_	_	
+6-20	open	O	O	_	_	
+6-21	seat	O	B-ScrPart_seat_in_bus	_	_	
+6-22	on	O	O	_	_	
+6-23	the	O	O	_	_	
+6-24	bus	O	B-ScrPart_bus	webanno.custom.Corefchains_	7-7	
+6-25	in	O	O	_	_	
+6-26	the	O	O	_	_	
+6-27	back	O	O	_	_	
+6-28	.	O	O	_	_	
+
+#id=7
+#text=After about 20 minutes on the bus , they finally arrived at my destination spot and I got off .
+7-1	After	O	O	_	_	
+7-2	about	O	O	_	_	
+7-3	20	O	B-ScrPart_time/date	_	_	
+7-4	minutes	O	I-ScrPart_time/date	_	_	
+7-5	on	O	O	_	_	
+7-6	the	O	O	_	_	
+7-7	bus	O	B-ScrPart_bus	webanno.custom.Corefchains_	8-5	
+7-8	,	O	O	_	_	
+7-9	they	O	B-???	_	_	
+7-10	finally	O	O	_	_	
+7-11	arrived	B-ScrEv_bus_stops	O	_	_	
+7-12	at	I-ScrEv_bus_stops	O	_	_	
+7-13	my	O	B-ScrPart_passenger	webanno.custom.Corefchains_	7-17	
+7-14	destination	O	B-ScrPart_destination	_	_	
+7-15	spot	O	I-ScrPart_destination|B-ScrPart_destination	_	_	
+7-16	and	O	O	_	_	
+7-17	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	8-7	
+7-18	got	B-ScrEv_get_off	O	_	_	
+7-19	off	I-ScrEv_get_off	O	_	_	
+7-20	.	O	O	_	_	
+
+#id=8
+#text=After getting off the bus , I walked a couple more blocks over to where my hotel was . 
+8-1	After	O	O	_	_	
+8-2	getting	B-ScrEv_get_off	O	_	_	
+8-3	off	I-ScrEv_get_off	O	_	_	
+8-4	the	O	O	_	_	
+8-5	bus	O	B-ScrPart_bus	_	_	
+8-6	,	O	O	_	_	
+8-7	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	8-16	
+8-8	walked	B-UnrelEv	O	_	_	
+8-9	a	O	O	_	_	
+8-10	couple	O	O	_	_	
+8-11	more	O	O	_	_	
+8-12	blocks	O	O	_	_	
+8-13	over	O	O	_	_	
+8-14	to	O	O	_	_	
+8-15	where	O	O	_	_	
+8-16	my	O	B-ScrPart_passenger	_	_	
+8-17	hotel	O	O	_	_	
+8-18	was	B-UnrelEv	O	_	_	
+8-19	.	O	O	_	_	
+

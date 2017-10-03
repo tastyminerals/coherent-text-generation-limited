@@ -1,0 +1,208 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Eventsandparticipants | Event # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I wanted to spend the evening at the theater on Friday .
+1-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-10	
+1-2	wanted	O	B-UnrelEv	_	_	
+1-3	to	O	O	_	_	
+1-4	spend	O	B-UnrelEv	_	_	
+1-5	the	O	O	_	_	
+1-6	evening	O	O	_	_	
+1-7	at	O	O	_	_	
+1-8	the	O	O	_	_	
+1-9	theater	O	O	_	_	
+1-10	on	O	O	_	_	
+1-11	Friday	O	O	_	_	
+1-12	.	O	O	_	_	
+
+#id=2
+#text=There was a good play on in town and I decided to take the bus .
+2-1	There	O	O	_	_	
+2-2	was	O	B-UnrelEv	_	_	
+2-3	a	O	O	_	_	
+2-4	good	O	O	_	_	
+2-5	play	O	O	_	_	
+2-6	on	O	O	_	_	
+2-7	in	O	O	_	_	
+2-8	town	O	O	_	_	
+2-9	and	O	O	_	_	
+2-10	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-5	
+2-11	decided	O	B-UnrelEv	_	_	
+2-12	to	O	O	_	_	
+2-13	take	O	B-Evoking	_	_	
+2-14	the	O	I-Evoking	_	_	
+2-15	bus	B-ScrPart_bus	I-Evoking	webanno.custom.Corefchains_	5-13	
+2-16	.	O	O	_	_	
+
+#id=3
+#text=at 6:30 PM , I walked to the bus stop near my house .
+3-1	at	O	O	_	_	
+3-2	6:30	B-ScrPart_time/date	O	_	_	
+3-3	PM	I-ScrPart_time/date	O	_	_	
+3-4	,	O	O	_	_	
+3-5	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-12	
+3-6	walked	O	B-ScrEv_get_bus_stop	_	_	
+3-7	to	O	O	_	_	
+3-8	the	O	O	_	_	
+3-9	bus	B-ScrPart_bus_stop	O	_	_	
+3-10	stop	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	webanno.custom.Corefchains_	5-4	
+3-11	near	O	O	_	_	
+3-12	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-6	
+3-13	house	O	O	_	_	
+3-14	.	O	O	_	_	
+
+#id=4
+#text=It was a ten-minute walk in nice weather .
+4-1	It	O	O	_	_	
+4-2	was	O	B-UnrelEv	_	_	
+4-3	a	O	O	_	_	
+4-4	ten-minute	O	O	_	_	
+4-5	walk	O	O	_	_	
+4-6	in	O	O	_	_	
+4-7	nice	O	O	_	_	
+4-8	weather	O	O	_	_	
+4-9	.	O	O	_	_	
+
+#id=5
+#text=At the bus stop , I waited only two minutes before the bus arrived .
+5-1	At	O	O	_	_	
+5-2	the	O	O	_	_	
+5-3	bus	B-ScrPart_bus_stop	O	_	_	
+5-4	stop	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	_	_	
+5-5	,	O	O	_	_	
+5-6	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-1	
+5-7	waited	O	B-ScrEv_wait	_	_	
+5-8	only	O	O	_	_	
+5-9	two	B-ScrPart_time/date	O	_	_	
+5-10	minutes	I-ScrPart_time/date	O	_	_	
+5-11	before	O	O	_	_	
+5-12	the	O	O	_	_	
+5-13	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	6-6	
+5-14	arrived	O	B-ScrEv_bus_comes	_	_	
+5-15	.	O	O	_	_	
+
+#id=6
+#text=I stepped onto the public bus and paid for a one-way ticket .
+6-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-1	
+6-2	stepped	O	B-ScrEv_board_bus	_	_	
+6-3	onto	O	I-ScrEv_board_bus	_	_	
+6-4	the	O	O	_	_	
+6-5	public	B-ScrPart_bus	O	_	_	
+6-6	bus	I-ScrPart_bus|B-ScrPart_bus	O	webanno.custom.Corefchains_	7-10	
+6-7	and	O	O	_	_	
+6-8	paid	O	B-ScrEv_get_ticket	_	_	
+6-9	for	O	O	_	_	
+6-10	a	O	O	_	_	
+6-11	one-way	B-ScrPart_card/ticket	O	_	_	
+6-12	ticket	I-ScrPart_card/ticket|B-ScrPart_card/ticket	O	_	_	
+6-13	.	O	O	_	_	
+
+#id=7
+#text=The trip into town took fifteen minutes because the bus had other stops to make in the area before returning to the station .
+7-1	The	O	O	_	_	
+7-2	trip	B-MissScrPart	O	_	_	
+7-3	into	O	O	_	_	
+7-4	town	O	O	_	_	
+7-5	took	O	B-RelNScrEv	_	_	
+7-6	fifteen	B-ScrPart_time/date	O	_	_	
+7-7	minutes	I-ScrPart_time/date	O	_	_	
+7-8	because	O	O	_	_	
+7-9	the	O	O	_	_	
+7-10	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	8-8	
+7-11	had	O	O	_	_	
+7-12	other	O	O	_	_	
+7-13	stops	B-ScrPart_bus_stop	O	_	_	
+7-14	to	O	O	_	_	
+7-15	make	O	B-???	_	_	
+7-16	in	O	O	_	_	
+7-17	the	O	O	_	_	
+7-18	area	O	O	_	_	
+7-19	before	O	O	_	_	
+7-20	returning	O	B-ScrEv_bus_stops	_	_	
+7-21	to	O	O	_	_	
+7-22	the	O	O	_	_	
+7-23	station	B-ScrPart_bus_stop	O	webanno.custom.Corefchains_	9-6	
+7-24	.	O	O	_	_	
+
+#id=8
+#text=I saw someone I knew on the bus and we spent most of the travel time talking .
+8-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-4	
+8-2	saw	O	B-ScrEv_spend_time_bus	_	_	
+8-3	someone	B-ScrPart_passenger	O	coref3_group_I_someone	8-10	
+8-4	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_|coref3_group_I_someone	12-1|8-10	
+8-5	knew	O	B-UnrelEv	_	_	
+8-6	on	O	O	_	_	
+8-7	the	O	O	_	_	
+8-8	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	10-9	
+8-9	and	O	O	_	_	
+8-10	we	B-ScrPart_passenger	O	_	_	
+8-11	spent	O	B-ScrEv_spend_time_bus	_	_	
+8-12	most	O	O	_	_	
+8-13	of	O	O	_	_	
+8-14	the	O	O	_	_	
+8-15	travel	B-ScrPart_time/date	O	_	_	
+8-16	time	I-ScrPart_time/date|B-ScrPart_time/date	O	_	_	
+8-17	talking	O	B-ScrEv_spend_time_bus	_	_	
+8-18	.	O	O	_	_	
+
+#id=9
+#text=Then we reached the bus station .
+9-1	Then	O	O	_	_	
+9-2	we	B-???	O	_	_	
+9-3	reached	O	B-ScrEv_bus_stops	_	_	
+9-4	the	O	O	_	_	
+9-5	bus	B-ScrPart_bus_stop	O	_	_	
+9-6	station	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	_	_	
+9-7	.	O	O	_	_	
+
+#id=10
+#text=The driver slowed down , and maneuvered the bus into its numbered space .
+10-1	The	O	O	_	_	
+10-2	driver	B-ScrPart_bus_staff	O	_	_	
+10-3	slowed	O	B-ScrEv_bus_stops	_	_	
+10-4	down	O	I-ScrEv_bus_stops	_	_	
+10-5	,	O	O	_	_	
+10-6	and	O	O	_	_	
+10-7	maneuvered	O	B-RelNScrEv	_	_	
+10-8	the	O	O	_	_	
+10-9	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	10-11	
+10-10	into	O	O	_	_	
+10-11	its	B-ScrPart_bus	O	webanno.custom.Corefchains_	12-5	
+10-12	numbered	O	B-UnrelEv	_	_	
+10-13	space	O	O	_	_	
+10-14	.	O	O	_	_	
+
+#id=11
+#text=The doors opened and the passengers began to exit , moving together smoothly at a leisurely pace .
+11-1	The	O	O	_	_	
+11-2	doors	B-ScrPart_door	O	_	_	
+11-3	opened	O	B-ScrEv_door_opens	_	_	
+11-4	and	O	O	_	_	
+11-5	the	O	O	_	_	
+11-6	passengers	B-ScrPart_passenger	O	_	_	
+11-7	began	O	B-UnrelEv	_	_	
+11-8	to	O	O	_	_	
+11-9	exit	O	B-ScrEv_get_off	_	_	
+11-10	,	O	O	_	_	
+11-11	moving	O	B-RelNScrEv	_	_	
+11-12	together	O	O	_	_	
+11-13	smoothly	O	O	_	_	
+11-14	at	O	O	_	_	
+11-15	a	O	O	_	_	
+11-16	leisurely	O	O	_	_	
+11-17	pace	O	O	_	_	
+11-18	.	O	O	_	_	
+
+#id=12
+#text=I got off the bus and went to the theater . 
+12-1	I	B-ScrPart_passenger	O	_	_	
+12-2	got	O	B-ScrEv_get_off	_	_	
+12-3	off	O	I-ScrEv_get_off	_	_	
+12-4	the	O	O	_	_	
+12-5	bus	B-ScrPart_bus	O	_	_	
+12-6	and	O	O	_	_	
+12-7	went	O	B-UnrelEv	_	_	
+12-8	to	O	O	_	_	
+12-9	the	O	O	_	_	
+12-10	theater	O	O	_	_	
+12-11	.	O	O	_	_	
+

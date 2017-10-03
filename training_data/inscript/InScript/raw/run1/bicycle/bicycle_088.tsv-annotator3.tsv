@@ -1,0 +1,396 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I was riding my bike the other day when I noticed I was moving slowly , even though I was pedaling hard with a lot of effort .
+1-1	I	B-ScrPart_rider	O	_	_	
+1-2	was	O	O	_	_	
+1-3	riding	O	B-ScrEv_ride_bike	_	_	
+1-4	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-1	
+1-5	bike	B-ScrPart_bicycle	O	_	_	
+1-6	the	O	O	_	_	
+1-7	other	O	O	_	_	
+1-8	day	O	O	_	_	
+1-9	when	O	O	_	_	
+1-10	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-4	
+1-11	noticed	O	B-ScrEv_notice_problem	_	_	
+1-12	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-10	
+1-13	was	O	O	_	_	
+1-14	moving	O	B-UnrelEv	_	_	
+1-15	slowly	O	O	_	_	
+1-16	,	O	O	_	_	
+1-17	even	O	O	_	_	
+1-18	though	O	O	_	_	
+1-19	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-12	
+1-20	was	O	O	_	_	
+1-21	pedaling	O	B-UnrelEv	_	_	
+1-22	hard	O	O	_	_	
+1-23	with	O	O	_	_	
+1-24	a	O	O	_	_	
+1-25	lot	O	O	_	_	
+1-26	of	O	O	_	_	
+1-27	effort	O	O	_	_	
+1-28	.	O	O	_	_	
+
+#id=2
+#text=I stopped and looked at my front wheel and noticed that it was squished down against the pavement and was soft when I pressed it , instead of being firm and tough .
+2-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-19	
+2-2	stopped	O	B-UnrelEv	_	_	
+2-3	and	O	O	_	_	
+2-4	looked	O	B-UnrelEv	_	_	
+2-5	at	O	O	_	_	
+2-6	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-1	
+2-7	front	O	O	_	_	
+2-8	wheel	B-ScrPart_tire	O	_	_	
+2-9	and	O	O	_	_	
+2-10	noticed	O	B-ScrEv_notice_problem	_	_	
+2-11	that	O	O	_	_	
+2-12	it	B-ScrPart_tire	O	webanno.custom.Corefchains_	2-8	
+2-13	was	O	O	_	_	
+2-14	squished	O	B-RelNScrEv	_	_	
+2-15	down	O	O	_	_	
+2-16	against	O	O	_	_	
+2-17	the	O	O	_	_	
+2-18	pavement	O	O	_	_	
+2-19	and	O	O	_	_	
+2-20	was	O	B-UnrelEv	_	_	
+2-21	soft	O	O	_	_	
+2-22	when	O	O	_	_	
+2-23	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-6	
+2-24	pressed	O	B-RelNScrEv	_	_	
+2-25	it	B-ScrPart_tire	O	webanno.custom.Corefchains_	2-12	
+2-26	,	O	O	_	_	
+2-27	instead	O	O	_	_	
+2-28	of	O	O	_	_	
+2-29	being	O	B-UnrelEv	_	_	
+2-30	firm	O	O	_	_	
+2-31	and	O	O	_	_	
+2-32	tough	O	O	_	_	
+2-33	.	O	O	_	_	
+
+#id=3
+#text=It did n't have enough air in it to fill it up , like an old balloon .
+3-1	It	B-ScrPart_tire	O	webanno.custom.Corefchains_	2-25	
+3-2	did	O	O	_	_	
+3-3	n't	O	O	_	_	
+3-4	have	O	B-UnrelEv	_	_	
+3-5	enough	O	O	_	_	
+3-6	air	B-ScrPart_air	O	_	_	
+3-7	in	O	O	_	_	
+3-8	it	O	O	_	_	
+3-9	to	O	O	_	_	
+3-10	fill	O	B-RelNScrEv	_	_	
+3-11	it	B-ScrPart_tire	O	webanno.custom.Corefchains_	3-1	
+3-12	up	O	O	_	_	
+3-13	,	O	O	_	_	
+3-14	like	O	O	_	_	
+3-15	an	O	O	_	_	
+3-16	old	O	O	_	_	
+3-17	balloon	O	O	_	_	
+3-18	.	O	O	_	_	
+
+#id=4
+#text=I took the bicycle home to my garage .
+4-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-23	
+4-2	took	O	B-MissScrEv	_	_	
+4-3	the	O	O	_	_	
+4-4	bicycle	B-ScrPart_bicycle	O	webanno.custom.Corefchains_|webanno.custom.Corefchains_	1-5|3-11	
+4-5	home	O	O	_	_	
+4-6	to	O	O	_	_	
+4-7	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	4-1	
+4-8	garage	O	O	_	_	
+4-9	.	O	O	_	_	
+
+#id=5
+#text=Inside my garage was my bicycle tire pump .
+5-1	Inside	O	O	_	_	
+5-2	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	4-7	
+5-3	garage	O	O	_	_	
+5-4	was	O	B-UnrelEv	_	_	
+5-5	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	5-2	
+5-6	bicycle	O	O	_	_	
+5-7	tire	O	O	_	_	
+5-8	pump	B-ScrPart_tool	O	_	_	
+5-9	.	O	O	_	_	
+
+#id=6
+#text=The pump would put air back into the tire .
+6-1	The	O	O	_	_	
+6-2	pump	B-ScrPart_tool	O	webanno.custom.Corefchains_	5-8	
+6-3	would	O	O	_	_	
+6-4	put	O	B-ScrEv_refill_tire_air	_	_	
+6-5	air	B-ScrPart_air	O	webanno.custom.Corefchains_	3-6	
+6-6	back	O	O	_	_	
+6-7	into	O	O	_	_	
+6-8	the	O	O	_	_	
+6-9	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	3-11	
+6-10	.	O	O	_	_	
+
+#id=7
+#text=On my front tire , there was a tiny tube or straw that would let the air in when I used the pump .
+7-1	On	O	O	_	_	
+7-2	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	5-5	
+7-3	front	O	O	_	_	
+7-4	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	6-9	
+7-5	,	O	O	_	_	
+7-6	there	O	O	_	_	
+7-7	was	O	B-UnrelEv	_	_	
+7-8	a	O	O	_	_	
+7-9	tiny	O	O	_	_	
+7-10	tube	B-ScrPart_bicycle_small_detail	O	_	_	
+7-11	or	O	O	_	_	
+7-12	straw	B-ScrPart_bicycle_small_detail	O	_	_	
+7-13	that	O	O	_	_	
+7-14	would	O	O	_	_	
+7-15	let	O	B-UnrelEv	_	_	
+7-16	the	O	O	_	_	
+7-17	air	B-ScrPart_air	O	webanno.custom.Corefchains_	6-5	
+7-18	in	O	O	_	_	
+7-19	when	O	O	_	_	
+7-20	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	7-2	
+7-21	used	O	B-UnrelEv	_	_	
+7-22	the	O	O	_	_	
+7-23	pump	B-ScrPart_tool	O	webanno.custom.Corefchains_	6-2	
+7-24	.	O	O	_	_	
+
+#id=8
+#text=The pump also had a long tube with a tiny metal fastener on the end .
+8-1	The	O	O	_	_	
+8-2	pump	B-ScrPart_tool	O	webanno.custom.Corefchains_	7-23	
+8-3	also	O	O	_	_	
+8-4	had	O	B-UnrelEv	_	_	
+8-5	a	O	O	_	_	
+8-6	long	O	O	_	_	
+8-7	tube	B-ScrPart_tool	O	_	_	
+8-8	with	O	O	_	_	
+8-9	a	O	O	_	_	
+8-10	tiny	O	O	_	_	
+8-11	metal	O	O	_	_	
+8-12	fastener	B-ScrPart_tool	O	_	_	
+8-13	on	O	O	_	_	
+8-14	the	O	O	_	_	
+8-15	end	O	O	_	_	
+8-16	.	O	O	_	_	
+
+#id=9
+#text=I stuck the metal part into the tube so that it can blow air into my bicycle tire .
+9-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	7-20	
+9-2	stuck	O	B-MissScrEv	_	_	
+9-3	the	O	O	_	_	
+9-4	metal	O	O	_	_	
+9-5	part	B-ScrPart_tool	O	webanno.custom.Corefchains_	8-12	
+9-6	into	O	O	_	_	
+9-7	the	O	O	_	_	
+9-8	tube	B-ScrPart_tool	O	webanno.custom.Corefchains_	8-7	
+9-9	so	O	O	_	_	
+9-10	that	O	O	_	_	
+9-11	it	B-ScrPart_tool	O	webanno.custom.Corefchains_	8-2	
+9-12	can	O	O	_	_	
+9-13	blow	O	B-ScrEv_refill_tire_air	_	_	
+9-14	air	B-ScrPart_air	O	_	_	
+9-15	into	O	O	_	_	
+9-16	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	9-1	
+9-17	bicycle	O	O	_	_	
+9-18	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	7-4	
+9-19	.	O	O	_	_	
+
+#id=10
+#text=The large metal cylinder part of the pump had a handle sticking out the top , which could be pulled out like a pogo stick , and two little metal feet on the bottom .
+10-1	The	O	O	_	_	
+10-2	large	O	O	_	_	
+10-3	metal	O	O	_	_	
+10-4	cylinder	O	O	_	_	
+10-5	part	B-ScrPart_tool	O	_	_	
+10-6	of	O	O	_	_	
+10-7	the	O	O	_	_	
+10-8	pump	B-ScrPart_tool	O	webanno.custom.Corefchains_	9-11	
+10-9	had	O	B-UnrelEv	_	_	
+10-10	a	O	O	_	_	
+10-11	handle	B-ScrPart_tool	O	_	_	
+10-12	sticking	O	B-UnrelEv	_	_	
+10-13	out	O	O	_	_	
+10-14	the	O	O	_	_	
+10-15	top	O	O	_	_	
+10-16	,	O	O	_	_	
+10-17	which	O	O	_	_	
+10-18	could	O	O	_	_	
+10-19	be	O	O	_	_	
+10-20	pulled	O	B-UnrelEv|B-UnrelEv	_	_	
+10-21	out	O	I-UnrelEv	_	_	
+10-22	like	O	O	_	_	
+10-23	a	O	O	_	_	
+10-24	pogo	O	O	_	_	
+10-25	stick	O	O	_	_	
+10-26	,	O	O	_	_	
+10-27	and	O	O	_	_	
+10-28	two	O	O	_	_	
+10-29	little	O	O	_	_	
+10-30	metal	O	O	_	_	
+10-31	feet	B-ScrPart_tool	O	_	_	
+10-32	on	O	O	_	_	
+10-33	the	O	O	_	_	
+10-34	bottom	O	O	_	_	
+10-35	.	O	O	_	_	
+
+#id=11
+#text=I stood on the metal feet to keep the pump in place .
+11-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	9-16	
+11-2	stood	O	B-UnrelEv	_	_	
+11-3	on	O	O	_	_	
+11-4	the	O	O	_	_	
+11-5	metal	O	O	_	_	
+11-6	feet	B-ScrPart_tool	O	webanno.custom.Corefchains_	10-31	
+11-7	to	O	O	_	_	
+11-8	keep	O	B-UnrelEv	_	_	
+11-9	the	O	O	_	_	
+11-10	pump	B-ScrPart_tool	O	webanno.custom.Corefchains_	10-8	
+11-11	in	O	O	_	_	
+11-12	place	O	O	_	_	
+11-13	.	O	O	_	_	
+
+#id=12
+#text=Then I carefully pulled the handle out and pushed it back in .
+12-1	Then	O	O	_	_	
+12-2	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	11-1	
+12-3	carefully	O	O	_	_	
+12-4	pulled	O	B-MissScrEv	_	_	
+12-5	the	O	O	_	_	
+12-6	handle	B-ScrPart_tool	O	webanno.custom.Corefchains_	10-11	
+12-7	out	O	O	_	_	
+12-8	and	O	O	_	_	
+12-9	pushed	O	B-MissScrEv	_	_	
+12-10	it	B-ScrPart_tool	O	webanno.custom.Corefchains_	12-6	
+12-11	back	O	O	_	_	
+12-12	in	O	O	_	_	
+12-13	.	O	O	_	_	
+
+#id=13
+#text=A dial on the pump showed me how much pressure I was putting into the pump by pushing on the handle , which then pushed the air in the tire .
+13-1	A	O	O	_	_	
+13-2	dial	O	O	_	_	
+13-3	on	O	O	_	_	
+13-4	the	O	O	_	_	
+13-5	pump	B-ScrPart_tool	O	webanno.custom.Corefchains_	11-10	
+13-6	showed	O	B-UnrelEv	_	_	
+13-7	me	B-ScrPart_rider	O	webanno.custom.Corefchains_	12-2	
+13-8	how	O	O	_	_	
+13-9	much	O	O	_	_	
+13-10	pressure	B-ScrPart_pressure	O	_	_	
+13-11	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	13-7	
+13-12	was	O	O	_	_	
+13-13	putting	O	B-RelNScrEv	_	_	
+13-14	into	O	O	_	_	
+13-15	the	O	O	_	_	
+13-16	pump	B-ScrPart_tool	O	webanno.custom.Corefchains_	13-5	
+13-17	by	O	O	_	_	
+13-18	pushing	O	B-MissScrEv	_	_	
+13-19	on	O	O	_	_	
+13-20	the	O	O	_	_	
+13-21	handle	B-ScrPart_tool	O	webanno.custom.Corefchains_	12-10	
+13-22	,	O	O	_	_	
+13-23	which	O	O	_	_	
+13-24	then	O	O	_	_	
+13-25	pushed	O	B-MissScrEv	_	_	
+13-26	the	O	O	_	_	
+13-27	air	B-ScrPart_air	O	webanno.custom.Corefchains_	9-14	
+13-28	in	O	O	_	_	
+13-29	the	O	O	_	_	
+13-30	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	9-18	
+13-31	.	O	O	_	_	
+
+#id=14
+#text=I heard it make a hissing noise .
+14-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	13-11	
+14-2	heard	O	O	_	_	
+14-3	it	B-ScrPart_tool	O	webanno.custom.Corefchains_	13-16	
+14-4	make	O	B-RelNScrEv	_	_	
+14-5	a	O	O	_	_	
+14-6	hissing	O	O	_	_	
+14-7	noise	B-NPart	O	_	_	
+14-8	.	O	O	_	_	
+
+#id=15
+#text=I kept pulling the handle out and pushing it back in , and noticed that the tire was getting bigger and bigger .
+15-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	14-1	
+15-2	kept	O	O	_	_	
+15-3	pulling	O	B-MissScrEv	_	_	
+15-4	the	O	I-MissScrEv	_	_	
+15-5	handle	B-ScrPart_tool	O	webanno.custom.Corefchains_	13-21	
+15-6	out	O	O	_	_	
+15-7	and	O	O	_	_	
+15-8	pushing	O	B-MissScrEv	_	_	
+15-9	it	B-ScrPart_tool	O	webanno.custom.Corefchains_	15-5	
+15-10	back	O	O	_	_	
+15-11	in	O	O	_	_	
+15-12	,	O	O	_	_	
+15-13	and	O	O	_	_	
+15-14	noticed	O	B-UnrelEv	_	_	
+15-15	that	O	O	_	_	
+15-16	the	O	O	_	_	
+15-17	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	13-30	
+15-18	was	O	O	_	_	
+15-19	getting	O	B-UnrelEv	_	_	
+15-20	bigger	O	O	_	_	
+15-21	and	O	O	_	_	
+15-22	bigger	O	O	_	_	
+15-23	.	O	O	_	_	
+
+#id=16
+#text=Finally , after a few minutes , I pushed on the tire again .
+16-1	Finally	O	O	_	_	
+16-2	,	O	O	_	_	
+16-3	after	O	O	_	_	
+16-4	a	O	O	_	_	
+16-5	few	O	O	_	_	
+16-6	minutes	B-NPart	O	_	_	
+16-7	,	O	O	_	_	
+16-8	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	15-1	
+16-9	pushed	O	B-MissScrEv	_	_	
+16-10	on	O	O	_	_	
+16-11	the	O	O	_	_	
+16-12	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	15-17	
+16-13	again	O	O	_	_	
+16-14	.	O	O	_	_	
+
+#id=17
+#text=It was firm and ready to ride .
+17-1	It	B-ScrPart_tire	O	webanno.custom.Corefchains_	16-12	
+17-2	was	O	B-UnrelEv	_	_	
+17-3	firm	O	O	_	_	
+17-4	and	O	O	_	_	
+17-5	ready	O	O	_	_	
+17-6	to	O	O	_	_	
+17-7	ride	O	B-ScrEv_ride_bike	_	_	
+17-8	.	O	O	_	_	
+
+#id=18
+#text=I disconnected the pump and put it away .
+18-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	16-8	
+18-2	disconnected	O	B-MissScrEv	_	_	
+18-3	the	O	O	_	_	
+18-4	pump	B-ScrPart_tool	O	webanno.custom.Corefchains_	14-3	
+18-5	and	O	O	_	_	
+18-6	put	O	B-MissScrEv	_	_	
+18-7	it	B-ScrPart_tool	O	webanno.custom.Corefchains_	18-4	
+18-8	away	O	O	_	_	
+18-9	.	O	O	_	_	
+
+#id=19
+#text=Then I went out to have fun on my bike again , with my tire working perfectly . 
+19-1	Then	O	O	_	_	
+19-2	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	18-1	
+19-3	went	O	B-UnrelEv|B-UnrelEv	_	_	
+19-4	out	O	I-UnrelEv	_	_	
+19-5	to	O	O	_	_	
+19-6	have	O	O	_	_	
+19-7	fun	O	B-UnrelEv	_	_	
+19-8	on	O	O	_	_	
+19-9	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	19-2	
+19-10	bike	B-ScrPart_bicycle	O	_	_	
+19-11	again	O	O	_	_	
+19-12	,	O	O	_	_	
+19-13	with	O	O	_	_	
+19-14	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	19-9	
+19-15	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	17-1	
+19-16	working	O	O	_	_	
+19-17	perfectly	O	O	_	_	
+19-18	.	O	O	_	_	
+

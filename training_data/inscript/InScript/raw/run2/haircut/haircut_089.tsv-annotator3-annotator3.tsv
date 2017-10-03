@@ -1,0 +1,201 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=My sons Todd 's hair seemed to grow at an exceptionally fast rate compared to other four year olds .
+1-1	My	B-ScrPart_customer	O	
+1-2	sons	B-ScrPart_customer	O	
+1-3	Todd	B-ScrPart_customer	O	
+1-4	's	O	O	
+1-5	hair	B-ScrPart_hair	O	
+1-6	seemed	O	B-UnrelEv	
+1-7	to	O	O	
+1-8	grow	O	B-UnrelEv	
+1-9	at	O	O	
+1-10	an	O	O	
+1-11	exceptionally	O	O	
+1-12	fast	O	O	
+1-13	rate	B-NPart	O	
+1-14	compared	O	O	
+1-15	to	O	O	
+1-16	other	O	O	
+1-17	four	O	O	
+1-18	year	B-NPart	O	
+1-19	olds	I-NPart	O	
+1-20	.	O	O	
+
+#id=2
+#text=It seemed as if every single week he needed a hair cut .
+2-1	It	B-No_label	O	
+2-2	seemed	O	B-UnrelEv	
+2-3	as	O	O	
+2-4	if	O	O	
+2-5	every	O	O	
+2-6	single	O	O	
+2-7	week	B-ScrPart_time/date	O	
+2-8	he	B-ScrPart_customer	O	
+2-9	needed	O	B-Evoking	
+2-10	a	O	I-Evoking	
+2-11	hair	B-ScrPart_haircut	I-Evoking	
+2-12	cut	I-ScrPart_haircut	I-Evoking	
+2-13	.	O	O	
+
+#id=3
+#text=He would fret every time he knew we were going and even threw tantrums .
+3-1	He	B-ScrPart_customer	O	
+3-2	would	O	O	
+3-3	fret	O	B-UnrelEv	
+3-4	every	O	O	
+3-5	time	B-No_label	O	
+3-6	he	B-ScrPart_customer	O	
+3-7	knew	O	B-UnrelEv	
+3-8	we	B-ScrPart_customer	O	
+3-9	were	O	O	
+3-10	going	O	B-UnrelEv	
+3-11	and	O	O	
+3-12	even	O	O	
+3-13	threw	O	B-UnrelEv	
+3-14	tantrums	B-NPart	O	
+3-15	.	O	O	
+
+#id=4
+#text=But once we get there things seemed to be smoother with him .
+4-1	But	O	O	
+4-2	once	O	O	
+4-3	we	B-ScrPart_customer	O	
+4-4	get	O	B-ScrEv_get_salon	
+4-5	there	B-ScrPart_salon	O	
+4-6	things	B-No_label	O	
+4-7	seemed	O	B-UnrelEv	
+4-8	to	O	O	
+4-9	be	O	B-UnrelEv	
+4-10	smoother	O	O	
+4-11	with	O	O	
+4-12	him	B-ScrPart_customer	O	
+4-13	.	O	O	
+
+#id=5
+#text=We would grab a seat and wait for our favorite barber to get an opening .
+5-1	We	B-ScrPart_customer	O	
+5-2	would	O	O	
+5-3	grab	O	B-ScrEv_sit_down	
+5-4	a	O	O	
+5-5	seat	B-SuppVComp	O	
+5-6	and	O	O	
+5-7	wait	O	B-ScrEv_wait	
+5-8	for	O	O	
+5-9	our	B-ScrPart_customer	O	
+5-10	favorite	O	O	
+5-11	barber	B-ScrPart_hairdresser	O	
+5-12	to	O	O	
+5-13	get	O	B-RelNScrEv	
+5-14	an	O	O	
+5-15	opening	B-NPart	O	
+5-16	.	O	O	
+
+#id=6
+#text=As soon as he did Todd would run up to him and sit in the chair knowing he would get ice cream if he sat still .
+6-1	As	O	O	
+6-2	soon	O	O	
+6-3	as	O	O	
+6-4	he	B-ScrPart_hairdresser	O	
+6-5	did	O	B-UnrelEv	
+6-6	Todd	B-ScrPart_customer	O	
+6-7	would	O	O	
+6-8	run	O	B-RelNScrEv|B-RelNScrEv	
+6-9	up	O	I-RelNScrEv	
+6-10	to	O	O	
+6-11	him	B-ScrPart_customer	O	
+6-12	and	O	O	
+6-13	sit	O	B-ScrEv_sit_down	
+6-14	in	O	O	
+6-15	the	O	O	
+6-16	chair	B-ScrPart_chair	O	
+6-17	knowing	O	B-UnrelEv	
+6-18	he	B-ScrPart_customer	O	
+6-19	would	O	O	
+6-20	get	O	B-UnrelEv	
+6-21	ice	B-NPart	O	
+6-22	cream	I-NPart	O	
+6-23	if	O	O	
+6-24	he	B-ScrPart_customer	O	
+6-25	sat	O	B-UnrelEv	
+6-26	still	O	O	
+6-27	.	O	O	
+
+#id=7
+#text=The barber draped a piece of plastic around Todd 's shoulder so that hair would n't get on his clothes .
+7-1	The	O	O	
+7-2	barber	B-ScrPart_hairdresser	O	
+7-3	draped	O	B-ScrEv_put_on_cape	
+7-4	a	O	O	
+7-5	piece	B-Head_of_Partitive	O	
+7-6	of	O	O	
+7-7	plastic	B-ScrPart_cape	O	
+7-8	around	O	O	
+7-9	Todd	B-ScrPart_customer	O	
+7-10	's	O	O	
+7-11	shoulder	B-NPart	O	
+7-12	so	O	O	
+7-13	that	O	O	
+7-14	hair	B-ScrPart_hair	O	
+7-15	would	O	O	
+7-16	n't	O	O	
+7-17	get	O	B-RelNScrEv	
+7-18	on	O	O	
+7-19	his	B-ScrPart_customer	O	
+7-20	clothes	B-NPart	O	
+7-21	.	O	O	
+
+#id=8
+#text=The sound of the hair clippers tiny motor always had my boy on edge but he always sticks it out like a champ .
+8-1	The	O	O	
+8-2	sound	B-NPart	O	
+8-3	of	O	O	
+8-4	the	O	O	
+8-5	hair	B-ScrPart_other	O	
+8-6	clippers	I-ScrPart_other|B-ScrPart_other	O	
+8-7	tiny	O	O	
+8-8	motor	B-NPart	O	
+8-9	always	O	O	
+8-10	had	O	B-UnrelEv	
+8-11	my	B-ScrPart_customer	O	
+8-12	boy	B-ScrPart_customer	O	
+8-13	on	O	O	
+8-14	edge	B-No_label	O	
+8-15	but	O	O	
+8-16	he	B-ScrPart_customer	O	
+8-17	always	O	O	
+8-18	sticks	O	B-UnrelEv	
+8-19	it	B-No_label	O	
+8-20	out	O	O	
+8-21	like	O	O	
+8-22	a	O	O	
+8-23	champ	B-NPart	O	
+8-24	.	O	O	
+
+#id=9
+#text=Fifteen minutes later a brand new child walks out of the barber shop ; clean shaven and ready for a cool yummy treat . 
+9-1	Fifteen	O	O	
+9-2	minutes	B-ScrPart_time/date	O	
+9-3	later	O	O	
+9-4	a	O	O	
+9-5	brand	O	O	
+9-6	new	O	O	
+9-7	child	B-ScrPart_customer	O	
+9-8	walks	O	B-ScrEv_leave|B-ScrEv_leave	
+9-9	out	O	I-ScrEv_leave	
+9-10	of	O	O	
+9-11	the	O	O	
+9-12	barber	B-ScrPart_salon	O	
+9-13	shop	I-ScrPart_salon|B-ScrPart_salon	O	
+9-14	;	O	O	
+9-15	clean	O	O	
+9-16	shaven	O	B-RelNScrEv	
+9-17	and	O	O	
+9-18	ready	O	O	
+9-19	for	O	O	
+9-20	a	O	O	
+9-21	cool	O	O	
+9-22	yummy	O	O	
+9-23	treat	B-NPart	O	
+9-24	.	O	O	
+

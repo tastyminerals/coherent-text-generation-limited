@@ -1,0 +1,259 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=Yesterday , I decided to visit my sister who lives a few towns away .
+1-1	Yesterday	B-NPart	O	
+1-2	,	O	O	
+1-3	I	B-ScrPart_passenger	O	
+1-4	decided	O	B-UnrelEv	
+1-5	to	O	O	
+1-6	visit	O	B-UnrelEv	
+1-7	my	B-ScrPart_passenger	O	
+1-8	sister	B-NPart	O	
+1-9	who	O	O	
+1-10	lives	O	B-UnrelEv	
+1-11	a	O	O	
+1-12	few	O	O	
+1-13	towns	B-NPart	O	
+1-14	away	O	O	
+1-15	.	O	O	
+
+#id=2
+#text=I wanted to take the train because it is cheaper than putting gas in my car .
+2-1	I	B-ScrPart_passenger	O	
+2-2	wanted	O	B-UnrelEv	
+2-3	to	O	O	
+2-4	take	O	B-Evoking	
+2-5	the	O	I-Evoking	
+2-6	train	B-ScrPart_train	I-Evoking	
+2-7	because	O	O	
+2-8	it	B-ScrPart_train	O	
+2-9	is	O	B-UnrelEv	
+2-10	cheaper	O	O	
+2-11	than	O	O	
+2-12	putting	O	B-UnrelEv	
+2-13	gas	B-NPart	O	
+2-14	in	O	O	
+2-15	my	B-ScrPart_passenger	O	
+2-16	car	B-NPart	O	
+2-17	.	O	O	
+
+#id=3
+#text=So I drove to the train station and parked my car in the parking lot .
+3-1	So	O	O	
+3-2	I	B-ScrPart_passenger	O	
+3-3	drove	O	B-ScrEv_get_train_station	
+3-4	to	O	O	
+3-5	the	O	O	
+3-6	train	B-ScrPart_train_station	O	
+3-7	station	I-ScrPart_train_station|B-ScrPart_train_station	O	
+3-8	and	O	O	
+3-9	parked	O	B-UnrelEv	
+3-10	my	B-ScrPart_passenger	O	
+3-11	car	B-NPart	O	
+3-12	in	O	O	
+3-13	the	O	O	
+3-14	parking	B-NPart	O	
+3-15	lot	I-NPart	O	
+3-16	.	O	O	
+
+#id=4
+#text=I walked to the cashier 's window and waited in line .
+4-1	I	B-ScrPart_passenger	O	
+4-2	walked	O	B-UnrelEv	
+4-3	to	O	O	
+4-4	the	O	O	
+4-5	cashier	B-ScrPart_ticket_office/website	O	
+4-6	's	I-ScrPart_ticket_office/website	O	
+4-7	window	I-ScrPart_ticket_office/website|B-ScrPart_ticket_office/website	O	
+4-8	and	O	O	
+4-9	waited	O	B-ScrEv_wait	
+4-10	in	O	O	
+4-11	line	B-ScrPart_line	O	
+4-12	.	O	O	
+
+#id=5
+#text=Once I reached the front of the line , I greeted the cashier and bought a train ticket .
+5-1	Once	O	O	
+5-2	I	B-ScrPart_passenger	O	
+5-3	reached	O	B-UnrelEv	
+5-4	the	O	O	
+5-5	front	B-Head_of_Partitive	O	
+5-6	of	O	O	
+5-7	the	O	O	
+5-8	line	B-ScrPart_line	O	
+5-9	,	O	O	
+5-10	I	B-ScrPart_passenger	O	
+5-11	greeted	O	B-UnrelEv	
+5-12	the	O	O	
+5-13	cashier	B-ScrPart_train_staff	O	
+5-14	and	O	O	
+5-15	bought	O	B-ScrEv_get_tickets	
+5-16	a	O	O	
+5-17	train	B-ScrPart_card/ticket	O	
+5-18	ticket	I-ScrPart_card/ticket|B-ScrPart_card/ticket	O	
+5-19	.	O	O	
+
+#id=6
+#text=I walked to the train platform and waited for the train to arrive .
+6-1	I	B-ScrPart_passenger	O	
+6-2	walked	O	B-ScrEv_get_platform	
+6-3	to	O	O	
+6-4	the	O	O	
+6-5	train	B-ScrPart_platform	O	
+6-6	platform	I-ScrPart_platform|B-ScrPart_platform	O	
+6-7	and	O	O	
+6-8	waited	O	B-ScrEv_wait	
+6-9	for	O	O	
+6-10	the	O	O	
+6-11	train	B-ScrPart_train	O	
+6-12	to	O	O	
+6-13	arrive	O	B-RelNScrEv	
+6-14	.	O	O	
+
+#id=7
+#text=When the train finally arrived , I got on the train and located my seat , which was printed on my ticket .
+7-1	When	O	O	
+7-2	the	O	O	
+7-3	train	B-ScrPart_train	O	
+7-4	finally	O	O	
+7-5	arrived	O	B-ScrEv_train_arrives	
+7-6	,	O	O	
+7-7	I	B-ScrPart_passenger	O	
+7-8	got	O	B-ScrEv_get_on|B-ScrEv_get_on	
+7-9	on	O	I-ScrEv_get_on	
+7-10	the	O	O	
+7-11	train	B-ScrPart_train	O	
+7-12	and	O	O	
+7-13	located	O	B-ScrEv_find_place	
+7-14	my	B-ScrPart_passenger	O	
+7-15	seat	B-ScrPart_seat	O	
+7-16	,	O	O	
+7-17	which	O	O	
+7-18	was	O	O	
+7-19	printed	O	B-UnrelEv	
+7-20	on	O	O	
+7-21	my	B-ScrPart_passenger	O	
+7-22	ticket	B-ScrPart_card/ticket	O	
+7-23	.	O	O	
+
+#id=8
+#text=I sat in my seat and took out the magazine that I had brought to read on the ride .
+8-1	I	B-ScrPart_passenger	O	
+8-2	sat	O	B-UnrelEv	
+8-3	in	O	O	
+8-4	my	B-ScrPart_passenger	O	
+8-5	seat	B-ScrPart_seat	O	
+8-6	and	O	O	
+8-7	took	O	B-ScrEv_spend_time_train|B-ScrEv_spend_time_train	
+8-8	out	O	I-ScrEv_spend_time_train	
+8-9	the	O	O	
+8-10	magazine	B-ScrPart_in-train_entertainment	O	
+8-11	that	O	O	
+8-12	I	B-ScrPart_passenger	O	
+8-13	had	O	O	
+8-14	brought	O	B-UnrelEv	
+8-15	to	O	O	
+8-16	read	O	B-ScrEv_spend_time_train	
+8-17	on	O	O	
+8-18	the	O	O	
+8-19	ride	B-ScrPart_trip	O	
+8-20	.	O	O	
+
+#id=9
+#text=The train eventually started back up and left the station .
+9-1	The	O	O	
+9-2	train	B-ScrPart_train	O	
+9-3	eventually	O	O	
+9-4	started	O	B-ScrEv_train_departs	
+9-5	back	O	O	
+9-6	up	O	O	
+9-7	and	O	O	
+9-8	left	O	B-ScrEv_train_departs	
+9-9	the	O	O	
+9-10	station	B-ScrPart_train_station	O	
+9-11	.	O	O	
+
+#id=10
+#text=Before long , a ticket taker came over and asked for my ticket to verify that I had paid for my ride and was in the correct seat .
+10-1	Before	O	O	
+10-2	long	O	O	
+10-3	,	O	O	
+10-4	a	O	O	
+10-5	ticket	B-ScrPart_train_staff	O	
+10-6	taker	I-ScrPart_train_staff|B-ScrPart_train_staff	O	
+10-7	came	O	B-ScrEv_conductor_checks|B-ScrEv_conductor_checks	
+10-8	over	O	I-ScrEv_conductor_checks	
+10-9	and	O	O	
+10-10	asked	O	B-ScrEv_conductor_checks	
+10-11	for	O	O	
+10-12	my	B-ScrPart_passenger	O	
+10-13	ticket	B-ScrPart_card/ticket	O	
+10-14	to	O	O	
+10-15	verify	O	B-UnrelEv	
+10-16	that	O	O	
+10-17	I	B-ScrPart_passenger	O	
+10-18	had	O	O	
+10-19	paid	O	B-RelNScrEv	
+10-20	for	O	O	
+10-21	my	B-ScrPart_passenger	O	
+10-22	ride	B-ScrPart_trip	O	
+10-23	and	O	O	
+10-24	was	O	B-UnrelEv	
+10-25	in	O	O	
+10-26	the	O	O	
+10-27	correct	O	O	
+10-28	seat	B-ScrPart_seat	O	
+10-29	.	O	O	
+
+#id=11
+#text=I greeted the ticket taker and gave him my ticket .
+11-1	I	B-ScrPart_passenger	O	
+11-2	greeted	O	B-RelNScrEv	
+11-3	the	O	O	
+11-4	ticket	B-ScrPart_train_staff	O	
+11-5	taker	I-ScrPart_train_staff|B-ScrPart_train_staff	O	
+11-6	and	O	O	
+11-7	gave	O	B-ScrEv_other	
+11-8	him	B-ScrPart_train_staff	O	
+11-9	my	B-ScrPart_passenger	O	
+11-10	ticket	B-ScrPart_card/ticket	O	
+11-11	.	O	O	
+
+#id=12
+#text=When I arrived at my sister 's city , I got off the train and she was there to meet me at the station .
+12-1	When	O	O	
+12-2	I	B-ScrPart_passenger	O	
+12-3	arrived	O	B-ScrEv_arrive_destination	
+12-4	at	O	O	
+12-5	my	B-ScrPart_passenger	O	
+12-6	sister	B-NPart	O	
+12-7	's	O	O	
+12-8	city	B-ScrPart_destination	O	
+12-9	,	O	O	
+12-10	I	B-ScrPart_passenger	O	
+12-11	got	O	B-ScrEv_get_off|B-ScrEv_get_off	
+12-12	off	O	I-ScrEv_get_off	
+12-13	the	O	O	
+12-14	train	B-ScrPart_train	O	
+12-15	and	O	O	
+12-16	she	B-NPart	O	
+12-17	was	O	B-UnrelEv	
+12-18	there	O	O	
+12-19	to	O	O	
+12-20	meet	O	B-UnrelEv	
+12-21	me	B-ScrPart_passenger	O	
+12-22	at	O	O	
+12-23	the	O	O	
+12-24	station	B-ScrPart_train_station	O	
+12-25	.	O	O	
+
+#id=13
+#text=We had a very nice visit . 
+13-1	We	B-NPart	O	
+13-2	had	O	B-UnrelEv	
+13-3	a	O	O	
+13-4	very	O	O	
+13-5	nice	O	O	
+13-6	visit	B-NPart	O	
+13-7	.	O	O	
+

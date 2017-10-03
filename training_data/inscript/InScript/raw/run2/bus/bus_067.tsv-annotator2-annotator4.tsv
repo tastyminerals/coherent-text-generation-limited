@@ -1,0 +1,185 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Event | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=As my car was not working correctly I decided to take a public bus .
+1-1	As	O	O	O	_	_	
+1-2	my	B-ScrPart_passenger	O	O	_	_	
+1-3	car	B-NPart	O	O	_	_	
+1-4	was	O	O	O	_	_	
+1-5	not	O	O	O	_	_	
+1-6	working	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+1-7	correctly	O	O	O	_	_	
+1-8	I	B-ScrPart_passenger	O	O	_	_	
+1-9	decided	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+1-10	to	O	O	O	_	_	
+1-11	take	O	B-webanno.custom.Events_	B-Evoking	_	_	
+1-12	a	O	I-webanno.custom.Events_	I-Evoking	_	_	
+1-13	public	O	I-webanno.custom.Events_	I-Evoking	_	_	
+1-14	bus	B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	_	_	
+1-15	.	O	O	O	_	_	
+
+#id=2
+#text=I called the bus depot and asked how much tickets where and the departure times .
+2-1	I	B-ScrPart_passenger	O	O	_	_	
+2-2	called	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+2-3	the	O	O	O	_	_	
+2-4	bus	B-NPart	O	O	_	_	
+2-5	depot	I-NPart|B-NPart	O	O	_	_	
+2-6	and	O	O	O	_	_	
+2-7	asked	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+2-8	how	O	O	O	_	_	
+2-9	much	O	O	O	_	_	
+2-10	tickets	B-ScrPart_card/ticket	O	O	_	_	
+2-11	where	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+2-12	and	O	O	O	_	_	
+2-13	the	O	O	O	_	_	
+2-14	departure	B-ScrPart_time/date	O	O	_	_	
+2-15	times	I-ScrPart_time/date|B-ScrPart_time/date	O	O	_	_	
+2-16	.	O	O	O	_	_	
+
+#id=3
+#text=The rates where reasonable for what I needed and I really did n't have a choice in the matter as my own car was messed up .
+3-1	The	O	O	O	_	_	
+3-2	rates	B-ScrPart_money	O	O	_	_	
+3-3	where	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+3-4	reasonable	O	O	O	_	_	
+3-5	for	O	O	O	_	_	
+3-6	what	O	O	O	_	_	
+3-7	I	B-ScrPart_passenger	O	O	_	_	
+3-8	needed	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+3-9	and	O	O	O	_	_	
+3-10	I	B-ScrPart_passenger	O	O	_	_	
+3-11	really	O	O	O	_	_	
+3-12	did	O	O	O	_	_	
+3-13	n't	O	O	O	_	_	
+3-14	have	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+3-15	a	O	O	O	_	_	
+3-16	choice	B-NPart	O	O	_	_	
+3-17	in	O	O	O	_	_	
+3-18	the	O	O	O	_	_	
+3-19	matter	B-NPart	O	O	_	_	
+3-20	as	O	O	O	_	_	
+3-21	my	B-ScrPart_passenger	O	O	_	_	
+3-22	own	O	O	O	_	_	
+3-23	car	B-NPart	O	O	_	_	
+3-24	was	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+3-25	messed	O	O	O	_	_	
+3-26	up	O	O	O	_	_	
+3-27	.	O	O	O	_	_	
+
+#id=4
+#text=I had a friend take me to the bus stop where I purchased my round trip ticket and prepared to wait for the bus to load and leave to take me to my destination .
+4-1	I	B-ScrPart_passenger	O	O	_	_	
+4-2	had	O	O	O	_	_	
+4-3	a	O	O	O	_	_	
+4-4	friend	B-NPart	O	O	_	_	
+4-5	take	O	B-webanno.custom.Events_	B-ScrEv_get_bus_stop	_	_	
+4-6	me	B-ScrPart_passenger	O	O	_	_	
+4-7	to	O	O	O	_	_	
+4-8	the	O	O	O	_	_	
+4-9	bus	B-ScrPart_bus_stop	O	O	_	_	
+4-10	stop	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	O	_	_	
+4-11	where	O	O	O	_	_	
+4-12	I	B-ScrPart_passenger	O	O	_	_	
+4-13	purchased	O	B-webanno.custom.Events_	B-ScrEv_get_ticket	_	_	
+4-14	my	B-ScrPart_passenger	O	O	_	_	
+4-15	round	B-ScrPart_card/ticket	O	O	_	_	
+4-16	trip	I-ScrPart_card/ticket	O	O	_	_	
+4-17	ticket	I-ScrPart_card/ticket|B-ScrPart_card/ticket	O	O	_	_	
+4-18	and	O	O	O	_	_	
+4-19	prepared	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+4-20	to	O	O	O	_	_	
+4-21	wait	O	B-webanno.custom.Events_	B-ScrEv_wait	_	_	
+4-22	for	O	O	O	_	_	
+4-23	the	O	O	O	_	_	
+4-24	bus	B-ScrPart_bus	O	O	_	_	
+4-25	to	O	O	O	_	_	
+4-26	load	O	B-webanno.custom.Events_	B-ScrEv_board_bus	_	_	
+4-27	and	O	O	O	_	_	
+4-28	leave	O	B-webanno.custom.Events_	B-ScrEv_bus_leaves	_	_	
+4-29	to	O	O	O	_	_	
+4-30	take	O	B-webanno.custom.Events_	B-ScrEv_ride	_	_	
+4-31	me	B-ScrPart_passenger	O	O	_	_	
+4-32	to	O	O	O	_	_	
+4-33	my	B-ScrPart_passenger	O	O	_	_	
+4-34	destination	B-ScrPart_destination	O	O	_	_	
+4-35	.	O	O	O	_	_	
+
+#id=5
+#text=I went to the restroom to double check my concealed handgun and make sure it was cocked , locked , and loaded as you can never be too safe .
+5-1	I	B-ScrPart_passenger	O	O	_	_	
+5-2	went	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+5-3	to	O	O	O	_	_	
+5-4	the	O	O	O	_	_	
+5-5	restroom	B-NPart	O	O	_	_	
+5-6	to	O	O	O	_	_	
+5-7	double	O	O	O	_	_	
+5-8	check	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+5-9	my	B-ScrPart_passenger	O	O	webanno.custom.Corefchains_	5-1	
+5-10	concealed	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+5-11	handgun	B-NPart	O	O	_	_	
+5-12	and	O	O	O	_	_	
+5-13	make	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+5-14	sure	O	I-webanno.custom.Events_	I-UnrelEv	_	_	
+5-15	it	B-NPart	O	O	_	_	
+5-16	was	O	O	O	_	_	
+5-17	cocked	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+5-18	,	O	O	O	_	_	
+5-19	locked	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+5-20	,	O	O	O	_	_	
+5-21	and	O	O	O	_	_	
+5-22	loaded	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+5-23	as	O	O	O	_	_	
+5-24	you	B-NPart	O	O	_	_	
+5-25	can	O	O	O	_	_	
+5-26	never	O	O	O	_	_	
+5-27	be	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+5-28	too	O	O	O	_	_	
+5-29	safe	O	O	O	_	_	
+5-30	.	O	O	O	_	_	
+
+#id=6
+#text=My gun was fine so I tucked it under my shirt and boarded the bus .
+6-1	My	B-ScrPart_passenger	O	O	webanno.custom.Corefchains_	5-9	
+6-2	gun	B-NPart	O	O	_	_	
+6-3	was	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+6-4	fine	O	O	O	_	_	
+6-5	so	O	O	O	_	_	
+6-6	I	B-ScrPart_passenger	O	O	webanno.custom.Corefchains_	6-1	
+6-7	tucked	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+6-8	it	B-NPart	O	O	_	_	
+6-9	under	O	O	O	_	_	
+6-10	my	B-ScrPart_passenger	O	O	_	_	
+6-11	shirt	B-NPart	O	O	_	_	
+6-12	and	O	O	O	_	_	
+6-13	boarded	O	B-webanno.custom.Events_	B-ScrEv_board_bus	_	_	
+6-14	the	O	O	O	_	_	
+6-15	bus	B-ScrPart_bus	O	O	_	_	
+6-16	.	O	O	O	_	_	
+
+#id=7
+#text=I found a seat near the back where I could see most of the other passengers and kicked back to make the trip . 
+7-1	I	B-ScrPart_passenger	O	O	_	_	
+7-2	found	O	B-webanno.custom.Events_	B-ScrEv_find_bus	_	_	
+7-3	a	O	O	O	_	_	
+7-4	seat	B-ScrPart_seat_in_bus	O	O	_	_	
+7-5	near	O	O	O	_	_	
+7-6	the	O	O	O	_	_	
+7-7	back	B-NPart	O	O	_	_	
+7-8	where	O	O	O	_	_	
+7-9	I	B-ScrPart_passenger	O	O	_	_	
+7-10	could	O	O	O	_	_	
+7-11	see	O	B-webanno.custom.Events_	B-ScrEv_spend_time_bus	_	_	
+7-12	most	O	O	O	_	_	
+7-13	of	O	O	O	_	_	
+7-14	the	O	O	O	_	_	
+7-15	other	O	O	O	_	_	
+7-16	passengers	B-ScrPart_passenger	O	O	_	_	
+7-17	and	O	O	O	_	_	
+7-18	kicked	O	B-webanno.custom.Events_	B-???	_	_	
+7-19	back	O	I-webanno.custom.Events_	I-???	_	_	
+7-20	to	O	O	O	_	_	
+7-21	make	O	B-webanno.custom.Events_	B-ScrEv_ride	_	_	
+7-22	the	O	O	O	_	_	
+7-23	trip	B-ScrPart_ride	O	O	_	_	
+7-24	.	O	O	O	_	_	
+

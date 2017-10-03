@@ -1,0 +1,241 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events
+#id=1
+#text=I decided to take a bath yesterday afternoon after working out .
+1-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+1-2	decided	O	O	B-ScrEv_wash	
+1-3	to	O	O	O	
+1-4	take	O	O	B-Evoking	
+1-5	a	O	O	I-Evoking	
+1-6	bath	B-ScrPart_bath	B-webanno.custom.Participants_	I-Evoking	
+1-7	yesterday	B-NPart	B-webanno.custom.Participants_	O	
+1-8	afternoon	B-NPart	B-webanno.custom.Participants_	O	
+1-9	after	O	O	O	
+1-10	working	O	O	B-UnrelEv	
+1-11	out	O	O	I-UnrelEv	
+1-12	.	O	O	O	
+
+#id=2
+#text=Once I got back home , I walked to my bathroom and first quickly scrubbed the bathroom tub by turning on the water and rinsing it clean with a rag .
+2-1	Once	O	O	O	
+2-2	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+2-3	got	O	O	B-UnrelEv	
+2-4	back	O	O	O	
+2-5	home	B-NPart	B-webanno.custom.Participants_	O	
+2-6	,	O	O	O	
+2-7	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+2-8	walked	O	O	B-ScrEv_enter_bathroom	
+2-9	to	O	O	O	
+2-10	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+2-11	bathroom	B-ScrPart_bathroom	B-webanno.custom.Participants_	O	
+2-12	and	O	O	O	
+2-13	first	O	O	O	
+2-14	quickly	O	O	O	
+2-15	scrubbed	O	O	B-RelNScrEv	
+2-16	the	O	O	O	
+2-17	bathroom	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	
+2-18	tub	I-ScrPart_bathtub|B-ScrPart_bathtub	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+2-19	by	O	O	O	
+2-20	turning	O	O	B-ScrEv_turn_water_on	
+2-21	on	O	O	I-ScrEv_turn_water_on	
+2-22	the	O	O	O	
+2-23	water	B-ScrPart_water	B-webanno.custom.Participants_	O	
+2-24	and	O	O	O	
+2-25	rinsing	O	O	B-RelNScrEv	
+2-26	it	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	
+2-27	clean	O	O	O	
+2-28	with	O	O	O	
+2-29	a	O	O	O	
+2-30	rag	B-NPart	B-webanno.custom.Participants_	O	
+2-31	.	O	O	O	
+
+#id=3
+#text=.
+3-1	.	O	O	O	
+
+#id=4
+#text=After I finished , I plugged the tub and began filling it with warm water set at about 98 degrees .
+4-1	After	O	O	O	
+4-2	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+4-3	finished	O	O	B-UnrelEv	
+4-4	,	O	O	O	
+4-5	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+4-6	plugged	O	O	B-ScrEv_close_drain	
+4-7	the	O	O	O	
+4-8	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	
+4-9	and	O	O	O	
+4-10	began	O	O	B-UnrelEv	
+4-11	filling	O	O	B-ScrEv_fill_water/wait	
+4-12	it	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	
+4-13	with	O	O	O	
+4-14	warm	O	O	O	
+4-15	water	B-ScrPart_water	B-webanno.custom.Participants_	O	
+4-16	set	O	O	B-UnrelEv	
+4-17	at	O	O	O	
+4-18	about	O	O	O	
+4-19	98	O	O	O	
+4-20	degrees	B-ScrPart_temperature	B-webanno.custom.Participants_	O	
+4-21	.	O	O	O	
+
+#id=5
+#text=While waiting for the tub to fill up , I undressed and closed the bathroom door .
+5-1	While	O	O	O	
+5-2	waiting	O	O	B-ScrEv_fill_water/wait	
+5-3	for	O	O	O	
+5-4	the	O	O	O	
+5-5	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	
+5-6	to	O	O	O	
+5-7	fill	O	O	B-ScrEv_fill_water/wait	
+5-8	up	O	O	I-ScrEv_fill_water/wait	
+5-9	,	O	O	O	
+5-10	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+5-11	undressed	O	O	B-ScrEv_undress	
+5-12	and	O	O	O	
+5-13	closed	O	O	B-RelNScrEv	
+5-14	the	O	O	O	
+5-15	bathroom	B-NPart	B-webanno.custom.Participants_	O	
+5-16	door	I-NPart|B-NPart	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+5-17	.	O	O	O	
+
+#id=6
+#text=About 5 minutes later , the tub was filled up and I shut off the water .
+6-1	About	O	O	O	
+6-2	5	O	O	O	
+6-3	minutes	B-NPart	B-webanno.custom.Participants_	O	
+6-4	later	O	O	O	
+6-5	,	O	O	O	
+6-6	the	O	O	O	
+6-7	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	
+6-8	was	O	O	B-UnrelEv	
+6-9	filled	O	O	B-ScrEv_fill_water/wait	
+6-10	up	O	O	I-ScrEv_fill_water/wait	
+6-11	and	O	O	O	
+6-12	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+6-13	shut	O	O	B-ScrEv_turn_water_off	
+6-14	off	O	O	I-ScrEv_turn_water_off	
+6-15	the	O	O	O	
+6-16	water	B-ScrPart_water	B-webanno.custom.Participants_	O	
+6-17	.	O	O	O	
+
+#id=7
+#text=I briefly tested the water with my elbow and then stepped into the tub to lay down .
+7-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+7-2	briefly	O	O	O	
+7-3	tested	O	O	B-ScrEv_check_temp	
+7-4	the	O	O	O	
+7-5	water	B-ScrPart_water	B-webanno.custom.Participants_	O	
+7-6	with	O	O	O	
+7-7	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+7-8	elbow	B-ScrPart_body_part	B-webanno.custom.Participants_	O	
+7-9	and	O	O	O	
+7-10	then	O	O	O	
+7-11	stepped	O	O	B-ScrEv_sink_water	
+7-12	into	O	O	O	
+7-13	the	O	O	O	
+7-14	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	
+7-15	to	O	O	O	
+7-16	lay	O	O	B-ScrEv_sink_water	
+7-17	down	O	O	I-ScrEv_sink_water	
+7-18	.	O	O	O	
+
+#id=8
+#text=For about 25 minutes , I lay in the tub and relaxed by closing my eyes .
+8-1	For	O	O	O	
+8-2	about	O	O	O	
+8-3	25	O	O	O	
+8-4	minutes	B-NPart	B-webanno.custom.Participants_	O	
+8-5	,	O	O	O	
+8-6	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+8-7	lay	O	O	B-ScrEv_relax	
+8-8	in	O	O	O	
+8-9	the	O	O	O	
+8-10	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	
+8-11	and	O	O	O	
+8-12	relaxed	O	O	B-ScrEv_relax	
+8-13	by	O	O	O	
+8-14	closing	O	O	B-UnrelEv	
+8-15	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+8-16	eyes	B-ScrPart_body_part	B-webanno.custom.Participants_	O	
+8-17	.	O	O	O	
+
+#id=9
+#text=I had also took the time to read pages of a book I had brought with me .
+9-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+9-2	had	O	O	O	
+9-3	also	O	O	O	
+9-4	took	O	O	B-UnrelEv	
+9-5	the	O	O	O	
+9-6	time	B-SuppVComp	B-webanno.custom.Participants_	O	
+9-7	to	O	O	O	
+9-8	read	O	O	B-RelNScrEv	
+9-9	pages	B-Head_of_Partitive	B-webanno.custom.Participants_	O	
+9-10	of	O	O	O	
+9-11	a	O	O	O	
+9-12	book	B-ScrPart_in-bath_entertainment	B-webanno.custom.Participants_	O	
+9-13	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+9-14	had	O	O	O	
+9-15	brought	O	O	B-ScrEv_prepare_bath	
+9-16	with	O	O	O	
+9-17	me	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+9-18	.	O	O	O	
+
+#id=10
+#text=Once my body was totally relaxed , I took a quick shower to rinse myself off and then drained the tub .
+10-1	Once	O	O	O	
+10-2	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+10-3	body	B-ScrPart_body_part	B-webanno.custom.Participants_	O	
+10-4	was	O	O	B-UnrelEv	
+10-5	totally	O	O	O	
+10-6	relaxed	O	O	B-ScrEv_relax	
+10-7	,	O	O	O	
+10-8	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+10-9	took	O	O	B-RelNScrEv	
+10-10	a	O	O	O	
+10-11	quick	O	O	O	
+10-12	shower	B-SuppVComp	B-webanno.custom.Participants_	O	
+10-13	to	O	O	O	
+10-14	rinse	O	O	B-RelNScrEv	
+10-15	myself	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+10-16	off	O	O	O	
+10-17	and	O	O	O	
+10-18	then	O	O	O	
+10-19	drained	O	O	B-RelNScrEv	
+10-20	the	O	O	O	
+10-21	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	
+10-22	.	O	O	O	
+
+#id=11
+#text=Next , I dried myself off with a towel and put my clothes back on .
+11-1	Next	O	O	O	
+11-2	,	O	O	O	
+11-3	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+11-4	dried	O	O	B-ScrEv_dry	
+11-5	myself	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+11-6	off	O	O	O	
+11-7	with	O	O	O	
+11-8	a	O	O	O	
+11-9	towel	B-ScrPart_towel	B-webanno.custom.Participants_	O	
+11-10	and	O	O	O	
+11-11	put	O	O	B-ScrEv_get_dressed	
+11-12	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+11-13	clothes	B-ScrPart_clothes	B-webanno.custom.Participants_	O	
+11-14	back	O	O	O	
+11-15	on	O	O	O	
+11-16	.	O	O	O	
+
+#id=12
+#text=It was a great relaxing experience after exercising in the cold winter day . 
+12-1	It	B-No_label	B-webanno.custom.Participants_	O	
+12-2	was	O	O	B-UnrelEv	
+12-3	a	O	O	O	
+12-4	great	O	O	O	
+12-5	relaxing	O	O	B-ScrEv_relax	
+12-6	experience	B-NPart	B-webanno.custom.Participants_	O	
+12-7	after	O	O	O	
+12-8	exercising	O	O	B-UnrelEv	
+12-9	in	O	O	O	
+12-10	the	O	O	O	
+12-11	cold	O	O	O	
+12-12	winter	B-NPart	B-webanno.custom.Participants_	O	
+12-13	day	I-NPart	I-webanno.custom.Participants_	O	
+12-14	.	O	O	O	
+

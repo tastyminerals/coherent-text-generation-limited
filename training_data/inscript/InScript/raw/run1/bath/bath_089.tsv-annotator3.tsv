@@ -1,0 +1,229 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=After a long day , nothing really relaxes me like a long , soaking bath .
+1-1	After	O	O	_	_	
+1-2	a	O	O	_	_	
+1-3	long	O	O	_	_	
+1-4	day	O	O	_	_	
+1-5	,	O	O	_	_	
+1-6	nothing	O	O	_	_	
+1-7	really	O	O	_	_	
+1-8	relaxes	B-ScrEv_relax	O	_	_	
+1-9	me	O	O	_	_	
+1-10	like	O	O	_	_	
+1-11	a	O	O	_	_	
+1-12	long	O	O	_	_	
+1-13	,	O	O	_	_	
+1-14	soaking	B-RelNScrEv	O	_	_	
+1-15	bath	O	B-MissScrPart	_	_	
+1-16	.	O	O	_	_	
+
+#id=2
+#text=The entire activity for me is something I enjoy and start looking forward to before I 've even left work .
+2-1	The	O	O	_	_	
+2-2	entire	O	O	_	_	
+2-3	activity	O	O	_	_	
+2-4	for	O	O	_	_	
+2-5	me	O	B-ScrPart_bather	_	_	
+2-6	is	B-UnrelEv	O	_	_	
+2-7	something	O	O	_	_	
+2-8	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	2-5	
+2-9	enjoy	B-UnrelEv	O	_	_	
+2-10	and	O	O	_	_	
+2-11	start	B-UnrelEv	O	_	_	
+2-12	looking	B-UnrelEv|B-UnrelEv	O	_	_	
+2-13	forward	I-UnrelEv	O	_	_	
+2-14	to	O	O	_	_	
+2-15	before	B-UnrelEv	O	_	_	
+2-16	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	2-8	
+2-17	've	O	O	_	_	
+2-18	even	O	O	_	_	
+2-19	left	B-UnrelEv	O	_	_	
+2-20	work	O	O	_	_	
+2-21	.	O	O	_	_	
+
+#id=3
+#text=First I 'll get home and start the tub ... I like the water to be hot to the point of nearly scalding , so I only add a tiny bit of cold water .
+3-1	First	O	O	_	_	
+3-2	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	2-16	
+3-3	'll	O	O	_	_	
+3-4	get	B-UnrelEv	O	_	_	
+3-5	home	O	O	_	_	
+3-6	and	O	O	_	_	
+3-7	start	B-ScrEv_turn_water_on	O	_	_	
+3-8	the	O	O	_	_	
+3-9	tub	O	B-ScrPart_bathtub	_	_	
+3-10	...	O	O	_	_	
+3-11	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	3-2	
+3-12	like	B-UnrelEv	O	_	_	
+3-13	the	O	O	_	_	
+3-14	water	O	B-ScrPart_water	_	_	
+3-15	to	O	O	_	_	
+3-16	be	B-UnrelEv	O	_	_	
+3-17	hot	O	O	_	_	
+3-18	to	O	O	_	_	
+3-19	the	O	O	_	_	
+3-20	point	O	O	_	_	
+3-21	of	O	O	_	_	
+3-22	nearly	O	O	_	_	
+3-23	scalding	O	O	_	_	
+3-24	,	O	O	_	_	
+3-25	so	O	O	_	_	
+3-26	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	3-11	
+3-27	only	O	O	_	_	
+3-28	add	B-MissScrEv	O	_	_	
+3-29	a	O	O	_	_	
+3-30	tiny	O	O	_	_	
+3-31	bit	O	O	_	_	
+3-32	of	O	O	_	_	
+3-33	cold	O	O	_	_	
+3-34	water	O	B-ScrPart_water	webanno.custom.Corefchains_	3-14	
+3-35	.	O	O	_	_	
+
+#id=4
+#text=As the tub fills , I get together what I call my bath toys , which consist of my Kindle and an ice cold beer .
+4-1	As	O	O	_	_	
+4-2	the	O	O	_	_	
+4-3	tub	O	B-ScrPart_bathtub	webanno.custom.Corefchains_	3-9	
+4-4	fills	B-ScrEv_fill_water/wait	O	_	_	
+4-5	,	O	O	_	_	
+4-6	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	3-26	
+4-7	get	B-ScrEv_prepare_bath|B-ScrEv_prepare_bath	O	_	_	
+4-8	together	I-ScrEv_prepare_bath	O	_	_	
+4-9	what	O	O	_	_	
+4-10	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	4-6	
+4-11	call	B-UnrelEv	O	_	_	
+4-12	my	O	O	_	_	
+4-13	bath	O	B-ScrPart_in-bath_entertainment	_	_	
+4-14	toys	O	I-ScrPart_in-bath_entertainment|B-ScrPart_in-bath_entertainment	_	_	
+4-15	,	O	O	_	_	
+4-16	which	O	O	_	_	
+4-17	consist	B-UnrelEv|B-UnrelEv	O	_	_	
+4-18	of	I-UnrelEv	O	_	_	
+4-19	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	4-10	
+4-20	Kindle	O	B-ScrPart_in-bath_entertainment	_	_	
+4-21	and	O	O	_	_	
+4-22	an	O	O	_	_	
+4-23	ice	O	O	_	_	
+4-24	cold	O	O	_	_	
+4-25	beer	O	B-ScrPart_in-bath_entertainment	_	_	
+4-26	.	O	O	_	_	
+
+#id=5
+#text=When the tub is full I get my favorite sweat pants and sweatshirt together and , after getting undressed , I slowly lower myself into the tub , savoring every twitch as I lower myself into the scalding water .
+5-1	When	O	O	_	_	
+5-2	the	O	O	_	_	
+5-3	tub	O	B-ScrPart_bathtub	webanno.custom.Corefchains_	4-3	
+5-4	is	B-UnrelEv	O	_	_	
+5-5	full	O	O	_	_	
+5-6	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	4-19	
+5-7	get	B-ScrEv_prepare_bath	O	_	_	
+5-8	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	5-6	
+5-9	favorite	O	O	_	_	
+5-10	sweat	O	B-ScrPart_clothes	_	_	
+5-11	pants	O	I-ScrPart_clothes|B-ScrPart_clothes	_	_	
+5-12	and	O	O	_	_	
+5-13	sweatshirt	O	B-ScrPart_clothes	_	_	
+5-14	together	O	O	_	_	
+5-15	and	O	O	_	_	
+5-16	,	O	O	_	_	
+5-17	after	O	O	_	_	
+5-18	getting	B-ScrEv_undress|B-ScrEv_undress	O	_	_	
+5-19	undressed	I-ScrEv_undress	O	_	_	
+5-20	,	O	O	_	_	
+5-21	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	5-8	
+5-22	slowly	O	O	_	_	
+5-23	lower	B-ScrEv_sink_water	O	_	_	
+5-24	myself	O	B-ScrPart_bather	webanno.custom.Corefchains_	5-21	
+5-25	into	O	O	_	_	
+5-26	the	O	O	_	_	
+5-27	tub	O	B-ScrPart_bathtub	webanno.custom.Corefchains_	5-3	
+5-28	,	O	O	_	_	
+5-29	savoring	B-UnrelEv	O	_	_	
+5-30	every	O	O	_	_	
+5-31	twitch	O	O	_	_	
+5-32	as	O	O	_	_	
+5-33	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	5-24	
+5-34	lower	B-ScrEv_sink_water	O	_	_	
+5-35	myself	O	B-ScrPart_bather	webanno.custom.Corefchains_	5-33	
+5-36	into	O	O	_	_	
+5-37	the	O	O	_	_	
+5-38	scalding	O	O	_	_	
+5-39	water	O	B-ScrPart_water	webanno.custom.Corefchains_	3-34	
+5-40	.	O	O	_	_	
+
+#id=6
+#text=Once I 'm settled , I crack open my beer and then just enjoy the feeling of all of the tension leaving my muscles as I read .
+6-1	Once	O	O	_	_	
+6-2	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	5-35	
+6-3	'm	O	O	_	_	
+6-4	settled	B-UnrelEv	O	_	_	
+6-5	,	O	O	_	_	
+6-6	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	6-2	
+6-7	crack	B-UnrelEv|B-UnrelEv	O	_	_	
+6-8	open	I-UnrelEv	O	_	_	
+6-9	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	6-6	
+6-10	beer	O	B-ScrPart_in-bath_entertainment	webanno.custom.Corefchains_	4-25	
+6-11	and	O	O	_	_	
+6-12	then	O	O	_	_	
+6-13	just	O	O	_	_	
+6-14	enjoy	B-UnrelEv	O	_	_	
+6-15	the	O	O	_	_	
+6-16	feeling	O	O	_	_	
+6-17	of	O	O	_	_	
+6-18	all	O	O	_	_	
+6-19	of	O	O	_	_	
+6-20	the	O	O	_	_	
+6-21	tension	O	O	_	_	
+6-22	leaving	B-UnrelEv	O	_	_	
+6-23	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	6-9	
+6-24	muscles	O	B-ScrPart_body_part	_	_	
+6-25	as	O	O	_	_	
+6-26	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	6-23	
+6-27	read	B-UnrelEv	O	_	_	
+6-28	.	O	O	_	_	
+
+#id=7
+#text=When the water cools off -LRB- this can take 30 minutes or more -RRB- I get out of the tub , dry off and get dressed , but not without a slight feeling of disappointment that the experience has ended . 
+7-1	When	O	O	_	_	
+7-2	the	O	O	_	_	
+7-3	water	O	B-ScrPart_water	webanno.custom.Corefchains_	5-39	
+7-4	cools	B-RelNScrEv|B-RelNScrEv	O	_	_	
+7-5	off	I-RelNScrEv	O	_	_	
+7-6	-LRB-	O	O	_	_	
+7-7	this	O	O	_	_	
+7-8	can	O	O	_	_	
+7-9	take	B-UnrelEv	O	_	_	
+7-10	30	O	O	_	_	
+7-11	minutes	O	O	_	_	
+7-12	or	O	O	_	_	
+7-13	more	O	O	_	_	
+7-14	-RRB-	O	O	_	_	
+7-15	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	6-26	
+7-16	get	B-ScrEv_get_out_bath|B-ScrEv_get_out_bath	O	_	_	
+7-17	out	I-ScrEv_get_out_bath	O	_	_	
+7-18	of	O	O	_	_	
+7-19	the	O	O	_	_	
+7-20	tub	O	B-ScrPart_bathtub	webanno.custom.Corefchains_	5-27	
+7-21	,	O	O	_	_	
+7-22	dry	B-ScrEv_dry|B-ScrEv_dry	O	_	_	
+7-23	off	I-ScrEv_dry	O	_	_	
+7-24	and	O	O	_	_	
+7-25	get	B-ScrEv_get_dressed|B-ScrEv_get_dressed	O	_	_	
+7-26	dressed	I-ScrEv_get_dressed	O	_	_	
+7-27	,	O	O	_	_	
+7-28	but	O	O	_	_	
+7-29	not	O	O	_	_	
+7-30	without	O	O	_	_	
+7-31	a	O	O	_	_	
+7-32	slight	O	O	_	_	
+7-33	feeling	O	O	_	_	
+7-34	of	O	O	_	_	
+7-35	disappointment	O	O	_	_	
+7-36	that	O	O	_	_	
+7-37	the	O	O	_	_	
+7-38	experience	O	O	_	_	
+7-39	has	O	O	_	_	
+7-40	ended	B-UnrelEv	O	_	_	
+7-41	.	O	O	_	_	
+

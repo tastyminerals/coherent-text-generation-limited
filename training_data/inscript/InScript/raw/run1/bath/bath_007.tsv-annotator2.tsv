@@ -1,0 +1,212 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Last night , I took a bath .
+1-1	Last	O	O	_	_	
+1-2	night	O	O	_	_	
+1-3	,	O	O	_	_	
+1-4	I	B-ScrPart_bather	O	_	_	
+1-5	took	O	B-Evoking	_	_	
+1-6	a	O	I-Evoking	_	_	
+1-7	bath	O	I-Evoking	_	_	
+1-8	.	O	O	_	_	
+
+#id=2
+#text=I take baths when I have time to relax and soak in bubbles .
+2-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	1-4	
+2-2	take	O	B-Evoking	_	_	
+2-3	baths	O	I-Evoking	_	_	
+2-4	when	O	O	_	_	
+2-5	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	2-1	
+2-6	have	O	B-UnrelEv	_	_	
+2-7	time	O	O	_	_	
+2-8	to	O	O	_	_	
+2-9	relax	O	B-ScrEv_relax	_	_	
+2-10	and	O	O	_	_	
+2-11	soak	O	B-RelNScrEv	_	_	
+2-12	in	O	O	_	_	
+2-13	bubbles	B-ScrPart_bath_means	O	_	_	
+2-14	.	O	O	_	_	
+
+#id=3
+#text=Baths are important for good hygiene and self esteem .
+3-1	Baths	O	O	_	_	
+3-2	are	O	B-UnrelEv	_	_	
+3-3	important	O	O	_	_	
+3-4	for	O	O	_	_	
+3-5	good	O	O	_	_	
+3-6	hygiene	O	O	_	_	
+3-7	and	O	O	_	_	
+3-8	self	O	O	_	_	
+3-9	esteem	O	O	_	_	
+3-10	.	O	O	_	_	
+
+#id=4
+#text=I always feel so much better when I am clean and smell like my favorite soap .
+4-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	2-5	
+4-2	always	O	O	_	_	
+4-3	feel	O	B-UnrelEv	_	_	
+4-4	so	O	O	_	_	
+4-5	much	O	O	_	_	
+4-6	better	O	O	_	_	
+4-7	when	O	O	_	_	
+4-8	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	4-1	
+4-9	am	O	B-UnrelEv	_	_	
+4-10	clean	O	O	_	_	
+4-11	and	O	O	_	_	
+4-12	smell	O	B-UnrelEv	_	_	
+4-13	like	O	O	_	_	
+4-14	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	4-8	
+4-15	favorite	O	O	_	_	
+4-16	soap	B-ScrPart_washing_tools	O	_	_	
+4-17	.	O	O	_	_	
+
+#id=5
+#text=I like to fill the tub up as full as I can and pick a shower gel or bubble bath to make lots and lots of bubbles .
+5-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	4-14	
+5-2	like	O	B-UnrelEv	_	_	
+5-3	to	O	O	_	_	
+5-4	fill	O	B-ScrEv_fill_water/wait	_	_	
+5-5	the	O	O	_	_	
+5-6	tub	B-ScrPart_bathtub	O	_	_	
+5-7	up	O	O	_	_	
+5-8	as	O	O	_	_	
+5-9	full	O	O	_	_	
+5-10	as	O	O	_	_	
+5-11	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	5-1	
+5-12	can	O	B-UnrelEv	_	_	
+5-13	and	O	O	_	_	
+5-14	pick	O	B-ScrEv_prepare_bath	_	_	
+5-15	a	O	O	_	_	
+5-16	shower	B-ScrPart_bath_means	O	_	_	
+5-17	gel	I-ScrPart_bath_means|B-ScrPart_bath_means	O	_	_	
+5-18	or	O	O	_	_	
+5-19	bubble	B-ScrPart_bath_means	O	webanno.custom.Corefchains_	2-13	
+5-20	bath	I-ScrPart_bath_means	O	webanno.custom.Corefchains_	2-13	
+5-21	to	O	O	_	_	
+5-22	make	O	B-RelNScrEv	_	_	
+5-23	lots	B-NPart	O	_	_	
+5-24	and	O	O	_	_	
+5-25	lots	B-NPart	O	_	_	
+5-26	of	O	O	_	_	
+5-27	bubbles	B-ScrPart_bath_means	O	webanno.custom.Corefchains_	5-19	
+5-28	.	O	O	_	_	
+
+#id=6
+#text=I just soak in the bubbles and enjoy the time to myself .
+6-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	5-11	
+6-2	just	O	O	_	_	
+6-3	soak	O	B-RelNScrEv	_	_	
+6-4	in	O	O	_	_	
+6-5	the	O	O	_	_	
+6-6	bubbles	B-ScrPart_bath_means	O	webanno.custom.Corefchains_	5-27	
+6-7	and	O	O	_	_	
+6-8	enjoy	O	B-ScrEv_relax	_	_	
+6-9	the	O	O	_	_	
+6-10	time	B-NPart	O	_	_	
+6-11	to	O	O	_	_	
+6-12	myself	B-ScrPart_bather	O	webanno.custom.Corefchains_	6-1	
+6-13	.	O	O	_	_	
+
+#id=7
+#text=Then I wash my hair with shampoo and conditioner .
+7-1	Then	O	O	_	_	
+7-2	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	6-12	
+7-3	wash	O	B-ScrEv_wash	_	_	
+7-4	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	7-2	
+7-5	hair	B-ScrPart_hair	O	_	_	
+7-6	with	O	O	_	_	
+7-7	shampoo	B-ScrPart_washing_tools	O	_	_	
+7-8	and	O	O	_	_	
+7-9	conditioner	B-ScrPart_washing_tools	O	_	_	
+7-10	.	O	O	_	_	
+
+#id=8
+#text=Next , I make sure to scrub everywhere from between my toes to behind my ears with soap .
+8-1	Next	O	O	_	_	
+8-2	,	O	O	_	_	
+8-3	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	7-4	
+8-4	make	O	B-UnrelEv	_	_	
+8-5	sure	O	I-UnrelEv	_	_	
+8-6	to	O	O	_	_	
+8-7	scrub	O	B-ScrEv_wash	_	_	
+8-8	everywhere	B-ScrPart_body_part	O	_	_	
+8-9	from	O	O	_	_	
+8-10	between	O	O	_	_	
+8-11	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	8-3	
+8-12	toes	B-ScrPart_body_part	O	group_body_parts	8-8	
+8-13	to	O	O	_	_	
+8-14	behind	O	O	_	_	
+8-15	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	8-11	
+8-16	ears	B-ScrPart_body_part	O	group_body_parts	8-8	
+8-17	with	O	O	_	_	
+8-18	soap	B-ScrPart_washing_tools	O	webanno.custom.Corefchains_	4-16	
+8-19	.	O	O	_	_	
+
+#id=9
+#text=After that , I am ready to dry off and get into some clean clothes .
+9-1	After	O	O	_	_	
+9-2	that	O	O	_	_	
+9-3	,	O	O	_	_	
+9-4	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	8-15	
+9-5	am	O	B-UnrelEv	_	_	
+9-6	ready	O	O	_	_	
+9-7	to	O	O	_	_	
+9-8	dry	O	B-ScrEv_dry	_	_	
+9-9	off	O	I-ScrEv_dry	_	_	
+9-10	and	O	O	_	_	
+9-11	get	O	B-ScrEv_get_dressed	_	_	
+9-12	into	O	O	_	_	
+9-13	some	O	O	_	_	
+9-14	clean	O	O	_	_	
+9-15	clothes	B-ScrPart_clothes	O	_	_	
+9-16	.	O	O	_	_	
+
+#id=10
+#text=If I do n't have time for a bath , I just take a shower .
+10-1	If	O	O	_	_	
+10-2	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	9-4	
+10-3	do	O	O	_	_	
+10-4	n't	O	O	_	_	
+10-5	have	O	B-UnrelEv	_	_	
+10-6	time	O	O	_	_	
+10-7	for	O	O	_	_	
+10-8	a	O	O	_	_	
+10-9	bath	O	O	_	_	
+10-10	,	O	O	_	_	
+10-11	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	10-2	
+10-12	just	O	O	_	_	
+10-13	take	O	B-UnrelEv	_	_	
+10-14	a	O	O	_	_	
+10-15	shower	O	O	_	_	
+10-16	.	O	O	_	_	
+
+#id=11
+#text=Showers are much faster !
+11-1	Showers	O	O	_	_	
+11-2	are	O	B-UnrelEv	_	_	
+11-3	much	O	O	_	_	
+11-4	faster	O	O	_	_	
+11-5	!	O	O	_	_	
+
+#id=12
+#text=No matter what I choose , I make sure to take a bath or a shower every day . 
+12-1	No	O	O	_	_	
+12-2	matter	O	O	_	_	
+12-3	what	O	O	_	_	
+12-4	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	10-11	
+12-5	choose	O	B-UnrelEv	_	_	
+12-6	,	O	O	_	_	
+12-7	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	12-4	
+12-8	make	O	B-UnrelEv	_	_	
+12-9	sure	O	I-UnrelEv	_	_	
+12-10	to	O	O	_	_	
+12-11	take	O	B-???	_	_	
+12-12	a	O	I-???	_	_	
+12-13	bath	O	I-???	_	_	
+12-14	or	O	I-???	_	_	
+12-15	a	O	I-???	_	_	
+12-16	shower	O	I-???	_	_	
+12-17	every	O	O	_	_	
+12-18	day	O	O	_	_	
+12-19	.	O	O	_	_	
+

@@ -1,0 +1,223 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I 'd been looking forward to reading Tigerman , the new novel by my favorite writer , Nick Harkaway .
+1-1	I	B-ScrPart_customer	O	_	_	
+1-2	'd	O	O	_	_	
+1-3	been	O	O	_	_	
+1-4	looking	O	B-UnrelEv|B-UnrelEv	_	_	
+1-5	forward	O	I-UnrelEv	_	_	
+1-6	to	O	O	_	_	
+1-7	reading	O	B-RelNScrEv	_	_	
+1-8	Tigerman	B-ScrPart_book	O	_	_	
+1-9	,	O	O	_	_	
+1-10	the	O	O	_	_	
+1-11	new	O	O	_	_	
+1-12	novel	B-ScrPart_book	O	webanno.custom.Corefchains_	1-8	
+1-13	by	O	O	_	_	
+1-14	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-1	
+1-15	favorite	O	O	_	_	
+1-16	writer	B-MissScrPart	O	_	_	
+1-17	,	O	O	_	_	
+1-18	Nick	B-MissScrPart	O	webanno.custom.Corefchains_	1-16	
+1-19	Harkaway	I-MissScrPart	O	webanno.custom.Corefchains_	1-16	
+1-20	.	O	O	_	_	
+
+#id=2
+#text=However , I do n't like paying for the hard cover editions of books , and the paperback version would not be released for another year .
+2-1	However	O	O	_	_	
+2-2	,	O	O	_	_	
+2-3	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-14	
+2-4	do	O	O	_	_	
+2-5	n't	O	O	_	_	
+2-6	like	O	O	_	_	
+2-7	paying	O	B-RelNScrEv	_	_	
+2-8	for	O	O	_	_	
+2-9	the	O	O	_	_	
+2-10	hard	O	O	_	_	
+2-11	cover	O	O	_	_	
+2-12	editions	O	O	_	_	
+2-13	of	O	O	_	_	
+2-14	books	B-ScrPart_book	O	webanno.custom.Corefchains_	1-12	
+2-15	,	O	O	_	_	
+2-16	and	O	O	_	_	
+2-17	the	O	O	_	_	
+2-18	paperback	B-ScrPart_book	O	_	_	
+2-19	version	I-ScrPart_book|B-ScrPart_book	O	webanno.custom.Corefchains_	2-14	
+2-20	would	O	O	_	_	
+2-21	not	O	O	_	_	
+2-22	be	O	O	_	_	
+2-23	released	O	B-UnrelEv	_	_	
+2-24	for	O	O	_	_	
+2-25	another	O	O	_	_	
+2-26	year	B-NPart	O	_	_	
+2-27	.	O	O	_	_	
+
+#id=3
+#text=I therefore decided to walk to my local library and borrow the book .
+3-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-3	
+3-2	therefore	O	O	_	_	
+3-3	decided	O	B-UnrelEv	_	_	
+3-4	to	O	O	_	_	
+3-5	walk	O	B-Evoking|B-ScrEv_get_library	_	_	
+3-6	to	O	I-Evoking	_	_	
+3-7	my	B-ScrPart_customer	I-Evoking	webanno.custom.Corefchains_	3-1	
+3-8	local	O	I-Evoking	_	_	
+3-9	library	B-ScrPart_library	I-Evoking	_	_	
+3-10	and	O	O	_	_	
+3-11	borrow	O	B-Evoking	_	_	
+3-12	the	O	I-Evoking	_	_	
+3-13	book	B-ScrPart_book	I-Evoking	webanno.custom.Corefchains_	2-19	
+3-14	.	O	O	_	_	
+
+#id=4
+#text=To my disappointment , it was already checked out , but I was able to place a hold on the book .
+4-1	To	O	O	_	_	
+4-2	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-7	
+4-3	disappointment	B-NPart	O	_	_	
+4-4	,	O	O	_	_	
+4-5	it	B-ScrPart_book	O	webanno.custom.Corefchains_	3-13	
+4-6	was	O	O	_	_	
+4-7	already	O	O	_	_	
+4-8	checked	O	B-RelNScrEv|B-RelNScrEv	_	_	
+4-9	out	O	I-RelNScrEv	_	_	
+4-10	,	O	O	_	_	
+4-11	but	O	O	_	_	
+4-12	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-2	
+4-13	was	O	O	_	_	
+4-14	able	O	O	_	_	
+4-15	to	O	O	_	_	
+4-16	place	O	B-MissScrEv	_	_	
+4-17	a	O	O	_	_	
+4-18	hold	B-SuppVComp	O	_	_	
+4-19	on	O	O	_	_	
+4-20	the	O	O	_	_	
+4-21	book	B-ScrPart_book	O	webanno.custom.Corefchains_	4-5	
+4-22	.	O	O	_	_	
+
+#id=5
+#text=Six weeks later , the library sent me an e-mail to let me know that Tigerman had been returned and I could now check it out .
+5-1	Six	O	O	_	_	
+5-2	weeks	O	O	_	_	
+5-3	later	O	O	_	_	
+5-4	,	O	O	_	_	
+5-5	the	O	O	_	_	
+5-6	library	B-ScrPart_library	O	webanno.custom.Corefchains_	3-9	
+5-7	sent	O	B-MissScrEv	_	_	
+5-8	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-12	
+5-9	an	O	O	_	_	
+5-10	e-mail	B-NPart	O	_	_	
+5-11	to	O	O	_	_	
+5-12	let	O	B-UnrelEv	_	_	
+5-13	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-8	
+5-14	know	O	O	_	_	
+5-15	that	O	O	_	_	
+5-16	Tigerman	B-ScrPart_book	O	webanno.custom.Corefchains_	4-21	
+5-17	had	O	O	_	_	
+5-18	been	O	O	_	_	
+5-19	returned	O	B-RelNScrEv	_	_	
+5-20	and	O	O	_	_	
+5-21	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-13	
+5-22	could	O	O	_	_	
+5-23	now	O	O	_	_	
+5-24	check	O	B-RelNScrEv	_	_	
+5-25	it	B-ScrPart_book	O	webanno.custom.Corefchains_	5-16	
+5-26	out	O	O	_	_	
+5-27	.	O	O	_	_	
+
+#id=6
+#text=I stopped by on my way home from work that evening , and got the book .
+6-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-21	
+6-2	stopped	O	B-ScrEv_get_library|B-ScrEv_get_library	_	_	
+6-3	by	O	I-ScrEv_get_library	_	_	
+6-4	on	O	O	_	_	
+6-5	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-1	
+6-6	way	O	O	_	_	
+6-7	home	O	O	_	_	
+6-8	from	O	O	_	_	
+6-9	work	B-NPart	O	_	_	
+6-10	that	O	O	_	_	
+6-11	evening	O	O	_	_	
+6-12	,	O	O	_	_	
+6-13	and	O	O	_	_	
+6-14	got	O	B-MissScrEv	_	_	
+6-15	the	O	O	_	_	
+6-16	book	B-ScrPart_book	O	webanno.custom.Corefchains_	5-25	
+6-17	.	O	O	_	_	
+
+#id=7
+#text=It was a fun read , but I was not able to finish it by the due date , so I went online and obtained an extension of the due date .
+7-1	It	B-ScrPart_book	O	webanno.custom.Corefchains_	6-16	
+7-2	was	O	B-UnrelEv	_	_	
+7-3	a	O	O	_	_	
+7-4	fun	O	O	_	_	
+7-5	read	B-ScrPart_book	O	webanno.custom.Corefchains_	7-1	
+7-6	,	O	O	_	_	
+7-7	but	O	O	_	_	
+7-8	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-5	
+7-9	was	O	O	_	_	
+7-10	not	O	O	_	_	
+7-11	able	O	O	_	_	
+7-12	to	O	O	_	_	
+7-13	finish	O	B-UnrelEv	_	_	
+7-14	it	B-ScrPart_book	O	webanno.custom.Corefchains_	7-5	
+7-15	by	O	O	_	_	
+7-16	the	O	O	_	_	
+7-17	due	B-ScrPart_return_date	O	_	_	
+7-18	date	I-ScrPart_return_date|B-ScrPart_return_date	O	_	_	
+7-19	,	O	O	_	_	
+7-20	so	O	O	_	_	
+7-21	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-8	
+7-22	went	O	B-UnrelEv	_	_	
+7-23	online	O	O	_	_	
+7-24	and	O	O	_	_	
+7-25	obtained	O	B-MissScrEv	_	_	
+7-26	an	O	O	_	_	
+7-27	extension	B-NPart	O	_	_	
+7-28	of	O	O	_	_	
+7-29	the	O	O	_	_	
+7-30	due	B-ScrPart_return_date	O	_	_	
+7-31	date	I-ScrPart_return_date|B-ScrPart_return_date	O	webanno.custom.Corefchains_	7-18	
+7-32	.	O	O	_	_	
+
+#id=8
+#text=A few days later , I finished the book , which was wonderful .
+8-1	A	O	O	_	_	
+8-2	few	O	O	_	_	
+8-3	days	O	O	_	_	
+8-4	later	O	O	_	_	
+8-5	,	O	O	_	_	
+8-6	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-21	
+8-7	finished	O	B-UnrelEv	_	_	
+8-8	the	O	O	_	_	
+8-9	book	B-ScrPart_book	O	webanno.custom.Corefchains_	7-14	
+8-10	,	O	O	_	_	
+8-11	which	O	O	_	_	
+8-12	was	O	O	_	_	
+8-13	wonderful	O	O	_	_	
+8-14	.	O	O	_	_	
+
+#id=9
+#text=I wanted other people to be able to enjoy it too , so I promptly returned the book to the library . 
+9-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-6	
+9-2	wanted	O	B-UnrelEv	_	_	
+9-3	other	O	O	_	_	
+9-4	people	B-ScrPart_customer	O	_	_	
+9-5	to	O	O	_	_	
+9-6	be	O	O	_	_	
+9-7	able	O	O	_	_	
+9-8	to	O	O	_	_	
+9-9	enjoy	O	B-UnrelEv	_	_	
+9-10	it	B-ScrPart_book	O	webanno.custom.Corefchains_	8-9	
+9-11	too	O	O	_	_	
+9-12	,	O	O	_	_	
+9-13	so	O	O	_	_	
+9-14	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-1	
+9-15	promptly	O	O	_	_	
+9-16	returned	O	B-ScrEv_return_book	_	_	
+9-17	the	O	O	_	_	
+9-18	book	B-ScrPart_book	O	webanno.custom.Corefchains_	9-10	
+9-19	to	O	O	_	_	
+9-20	the	O	O	_	_	
+9-21	library	B-ScrPart_library	O	_	_	
+9-22	.	O	O	_	_	
+

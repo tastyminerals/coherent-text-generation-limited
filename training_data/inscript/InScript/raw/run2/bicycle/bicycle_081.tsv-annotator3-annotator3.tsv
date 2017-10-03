@@ -1,0 +1,211 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=Sometimes , something happens that can really just ruin your day .
+1-1	Sometimes	O	O	
+1-2	,	O	O	
+1-3	something	B-No_label	O	
+1-4	happens	O	B-UnrelEv	
+1-5	that	O	O	
+1-6	can	O	O	
+1-7	really	O	O	
+1-8	just	O	O	
+1-9	ruin	O	B-UnrelEv	
+1-10	your	B-ScrPart_rider	O	
+1-11	day	B-NPart	O	
+1-12	.	O	O	
+
+#id=2
+#text=Take , for example , going for a fun bicycle ride only to have the tire go flat !
+2-1	Take	O	B-UnrelEv	
+2-2	,	O	O	
+2-3	for	O	O	
+2-4	example	B-No_label	O	
+2-5	,	O	O	
+2-6	going	O	B-ScrEv_ride_bike	
+2-7	for	O	O	
+2-8	a	O	O	
+2-9	fun	O	O	
+2-10	bicycle	B-ScrPart_ride	O	
+2-11	ride	I-ScrPart_ride|B-ScrPart_ride	O	
+2-12	only	O	O	
+2-13	to	O	O	
+2-14	have	O	B-UnrelEv	
+2-15	the	O	O	
+2-16	tire	B-ScrPart_tire	O	
+2-17	go	O	B-RelNScrEv	
+2-18	flat	O	O	
+2-19	!	O	O	
+
+#id=3
+#text=When something like this happens , it can seem like a big deal , but is only a small inconvenience .
+3-1	When	O	O	
+3-2	something	B-No_label	O	
+3-3	like	O	O	
+3-4	this	O	O	
+3-5	happens	O	B-UnrelEv	
+3-6	,	O	O	
+3-7	it	B-No_label	O	
+3-8	can	O	O	
+3-9	seem	O	B-UnrelEv	
+3-10	like	O	O	
+3-11	a	O	O	
+3-12	big	O	O	
+3-13	deal	B-No_label	O	
+3-14	,	O	O	
+3-15	but	O	O	
+3-16	is	O	B-UnrelEv	
+3-17	only	O	O	
+3-18	a	O	O	
+3-19	small	O	O	
+3-20	inconvenience	B-NPart	O	
+3-21	.	O	O	
+
+#id=4
+#text=I do n't even know how to repair a flat bicycle tire , but I know how I could do it myself .
+4-1	I	B-ScrPart_rider	O	
+4-2	do	O	O	
+4-3	n't	O	O	
+4-4	even	O	O	
+4-5	know	O	B-UnrelEv	
+4-6	how	O	O	
+4-7	to	O	O	
+4-8	repair	O	B-Evoking	
+4-9	a	O	I-Evoking	
+4-10	flat	O	I-Evoking	
+4-11	bicycle	B-ScrPart_tire	I-Evoking	
+4-12	tire	I-ScrPart_tire|B-ScrPart_tire	I-Evoking	
+4-13	,	O	O	
+4-14	but	O	O	
+4-15	I	B-ScrPart_rider	O	
+4-16	know	O	B-UnrelEv	
+4-17	how	O	O	
+4-18	I	B-ScrPart_rider	O	
+4-19	could	O	O	
+4-20	do	O	B-UnrelEv	
+4-21	it	B-No_label	O	
+4-22	myself	B-ScrPart_rider	O	
+4-23	.	O	O	
+
+#id=5
+#text=First , I would read about how to fix it and maybe look at a video from the internet .
+5-1	First	O	O	
+5-2	,	O	O	
+5-3	I	B-ScrPart_rider	O	
+5-4	would	O	O	
+5-5	read	O	B-ScrEv_other	
+5-6	about	O	O	
+5-7	how	O	O	
+5-8	to	O	O	
+5-9	fix	O	B-Evoking	
+5-10	it	B-ScrPart_tire	I-Evoking	
+5-11	and	O	O	
+5-12	maybe	O	O	
+5-13	look	O	B-ScrEv_other	
+5-14	at	O	O	
+5-15	a	O	O	
+5-16	video	B-ScrPart_other	O	
+5-17	from	O	O	
+5-18	the	O	O	
+5-19	internet	B-NPart	O	
+5-20	.	O	O	
+
+#id=6
+#text=After I have learned how to repair it , I would go to the store to get some supplies .
+6-1	After	O	O	
+6-2	I	B-ScrPart_rider	O	
+6-3	have	O	O	
+6-4	learned	O	B-RelNScrEv	
+6-5	how	O	O	
+6-6	to	O	O	
+6-7	repair	O	B-Evoking	
+6-8	it	B-ScrPart_tire	I-Evoking	
+6-9	,	O	O	
+6-10	I	B-ScrPart_rider	O	
+6-11	would	O	O	
+6-12	go	O	B-UnrelEv	
+6-13	to	O	O	
+6-14	the	O	O	
+6-15	store	B-ScrPart_shop	O	
+6-16	to	O	O	
+6-17	get	O	B-UnrelEv	
+6-18	some	O	O	
+6-19	supplies	B-ScrPart_tool	O	
+6-20	.	O	O	
+
+#id=7
+#text=I would need the tools to fix it and a new tire or things to use for the repair .
+7-1	I	B-ScrPart_rider	O	
+7-2	would	O	O	
+7-3	need	O	B-UnrelEv	
+7-4	the	O	O	
+7-5	tools	B-ScrPart_tool	O	
+7-6	to	O	O	
+7-7	fix	O	B-Evoking	
+7-8	it	B-ScrPart_tire	I-Evoking	
+7-9	and	O	O	
+7-10	a	O	O	
+7-11	new	O	O	
+7-12	tire	B-ScrPart_tire	O	
+7-13	or	O	O	
+7-14	things	B-ScrPart_tool	O	
+7-15	to	O	O	
+7-16	use	O	B-UnrelEv	
+7-17	for	O	O	
+7-18	the	O	O	
+7-19	repair	B-ScrPart_other	O	
+7-20	.	O	O	
+
+#id=8
+#text=After arriving home , I would review the things I learned about how to repair the tire and I would follow the directions .
+8-1	After	O	O	
+8-2	arriving	O	B-ScrEv_other	
+8-3	home	B-NPart	O	
+8-4	,	O	O	
+8-5	I	B-ScrPart_rider	O	
+8-6	would	O	O	
+8-7	review	O	B-ScrEv_other	
+8-8	the	O	O	
+8-9	things	B-No_label	O	
+8-10	I	B-ScrPart_rider	O	
+8-11	learned	O	B-RelNScrEv	
+8-12	about	O	O	
+8-13	how	O	O	
+8-14	to	O	O	
+8-15	repair	O	O	
+8-16	the	O	O	
+8-17	tire	B-ScrPart_tire	O	
+8-18	and	O	O	
+8-19	I	B-ScrPart_rider	O	
+8-20	would	O	O	
+8-21	follow	O	B-UnrelEv	
+8-22	the	O	O	
+8-23	directions	B-NPart	O	
+8-24	.	O	O	
+
+#id=9
+#text=Once it was repaired , I would test out the bicycle to make sure it was repaired and then I would clean up . 
+9-1	Once	O	O	
+9-2	it	B-ScrPart_tire	O	
+9-3	was	O	O	
+9-4	repaired	O	B-Evoking	
+9-5	,	O	O	
+9-6	I	B-ScrPart_rider	O	
+9-7	would	O	O	
+9-8	test	O	B-ScrEv_other	
+9-9	out	O	O	
+9-10	the	O	O	
+9-11	bicycle	B-ScrPart_bicycle	O	
+9-12	to	O	O	
+9-13	make	O	B-UnrelEv|B-UnrelEv	
+9-14	sure	O	I-UnrelEv	
+9-15	it	B-ScrPart_bicycle	O	
+9-16	was	O	O	
+9-17	repaired	O	B-Evoking	
+9-18	and	O	O	
+9-19	then	O	O	
+9-20	I	B-ScrPart_rider	O	
+9-21	would	O	O	
+9-22	clean	O	B-ScrEv_other|B-ScrEv_other	
+9-23	up	O	I-ScrEv_other	
+9-24	.	O	O	
+

@@ -1,0 +1,240 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=Yesterday , I went to the grocery store to buy food .
+1-1	Yesterday	O	O	
+1-2	,	O	O	
+1-3	I	B-ScrPart_shopper	O	
+1-4	went	O	B-ScrEv_go_grocery	
+1-5	to	O	O	
+1-6	the	O	O	
+1-7	grocery	B-ScrPart_grocery_shop	O	
+1-8	store	I-ScrPart_grocery_shop|B-ScrPart_grocery_shop	O	
+1-9	to	O	O	
+1-10	buy	O	B-Evoking	
+1-11	food	B-ScrPart_groceries	I-Evoking	
+1-12	.	O	O	
+
+#id=2
+#text=I went to my locally-owned supermarket , Bet-R , because I like to support small businesses .
+2-1	I	B-ScrPart_shopper	O	
+2-2	went	O	B-ScrEv_go_grocery	
+2-3	to	O	O	
+2-4	my	B-ScrPart_shopper	O	
+2-5	locally-owned	O	B-UnrelEv	
+2-6	supermarket	B-ScrPart_grocery_shop	O	
+2-7	,	O	O	
+2-8	Bet-R	B-ScrPart_grocery_shop	O	
+2-9	,	O	O	
+2-10	because	O	O	
+2-11	I	B-ScrPart_shopper	O	
+2-12	like	O	B-UnrelEv	
+2-13	to	O	O	
+2-14	support	O	B-UnrelEv	
+2-15	small	O	O	
+2-16	businesses	B-NPart	O	
+2-17	.	O	O	
+
+#id=3
+#text=I go in the early afternoons when I can to avoid the rush of people going after school or work -- that way I do n't have to wait in long lines at checkout .
+3-1	I	B-ScrPart_shopper	O	
+3-2	go	O	B-ScrEv_go_grocery	
+3-3	in	O	O	
+3-4	the	O	O	
+3-5	early	O	O	
+3-6	afternoons	B-NPart	O	
+3-7	when	O	O	
+3-8	I	B-ScrPart_shopper	O	
+3-9	can	O	O	
+3-10	to	O	O	
+3-11	avoid	O	B-UnrelEv	
+3-12	the	O	O	
+3-13	rush	B-NPart	O	
+3-14	of	O	O	
+3-15	people	B-ScrPart_shopper	O	
+3-16	going	O	B-ScrEv_go_grocery	
+3-17	after	O	O	
+3-18	school	B-NPart	O	
+3-19	or	O	O	
+3-20	work	B-NPart	O	
+3-21	--	O	O	
+3-22	that	O	O	
+3-23	way	B-No_label	O	
+3-24	I	B-ScrPart_shopper	O	
+3-25	do	O	O	
+3-26	n't	O	O	
+3-27	have	O	O	
+3-28	to	O	O	
+3-29	wait	O	B-ScrEv_wait	
+3-30	in	O	O	
+3-31	long	O	O	
+3-32	lines	B-ScrPart_line	O	
+3-33	at	O	O	
+3-34	checkout	B-ScrPart_cash_desk	O	
+3-35	.	O	O	
+
+#id=4
+#text=I brought my shopping list with me : eggs , milk , bread , pasta , and other staples .
+4-1	I	B-ScrPart_shopper	O	
+4-2	brought	O	B-ScrEv_make_list	
+4-3	my	B-ScrPart_shopper	O	
+4-4	shopping	B-ScrPart_grocery_list	O	
+4-5	list	I-ScrPart_grocery_list|B-ScrPart_grocery_list	O	
+4-6	with	O	O	
+4-7	me	B-ScrPart_shopper	O	
+4-8	:	O	O	
+4-9	eggs	B-ScrPart_groceries	O	
+4-10	,	O	O	
+4-11	milk	B-ScrPart_groceries	O	
+4-12	,	O	O	
+4-13	bread	B-ScrPart_groceries	O	
+4-14	,	O	O	
+4-15	pasta	B-ScrPart_groceries	O	
+4-16	,	O	O	
+4-17	and	O	O	
+4-18	other	O	O	
+4-19	staples	B-ScrPart_groceries	O	
+4-20	.	O	O	
+
+#id=5
+#text=I picked up a handbasket as my list was not large and began to peruse the aisles .
+5-1	I	B-ScrPart_shopper	O	
+5-2	picked	O	B-ScrEv_take_shop_cart	
+5-3	up	O	I-ScrEv_take_shop_cart	
+5-4	a	O	O	
+5-5	handbasket	B-ScrPart_shopping_cart/basket	O	
+5-6	as	O	O	
+5-7	my	B-ScrPart_shopper	O	
+5-8	list	B-ScrPart_grocery_list	O	
+5-9	was	O	B-UnrelEv	
+5-10	not	O	O	
+5-11	large	O	O	
+5-12	and	O	O	
+5-13	began	O	B-UnrelEv	
+5-14	to	O	O	
+5-15	peruse	O	B-ScrEv_move_section	
+5-16	the	O	O	
+5-17	aisles	B-ScrPart_section	O	
+5-18	.	O	O	
+
+#id=6
+#text=I picked up everything on my list , except one thing .
+6-1	I	B-ScrPart_shopper	O	
+6-2	picked	O	B-ScrEv_get_groceries	
+6-3	up	O	I-ScrEv_get_groceries	
+6-4	everything	B-ScrPart_groceries	O	
+6-5	on	O	O	
+6-6	my	B-ScrPart_shopper	O	
+6-7	list	B-ScrPart_grocery_list	O	
+6-8	,	O	O	
+6-9	except	O	O	
+6-10	one	O	O	
+6-11	thing	B-ScrPart_groceries	O	
+6-12	.	O	O	
+
+#id=7
+#text=They were out of my favorite variety of pasta sauce , so I bought a new kind to try instead .
+7-1	They	B-ScrPart_grocery_shop	O	
+7-2	were	O	B-RelNScrEv	
+7-3	out	O	I-RelNScrEv	
+7-4	of	O	O	
+7-5	my	B-ScrPart_shopper	O	
+7-6	favorite	O	O	
+7-7	variety	B-Head_of_Partitive	O	
+7-8	of	O	O	
+7-9	pasta	B-ScrPart_groceries	O	
+7-10	sauce	I-ScrPart_groceries|B-ScrPart_groceries	O	
+7-11	,	O	O	
+7-12	so	O	O	
+7-13	I	B-ScrPart_shopper	O	
+7-14	bought	O	B-ScrEv_get_groceries	
+7-15	a	O	O	
+7-16	new	O	O	
+7-17	kind	B-ScrPart_groceries	O	
+7-18	to	O	O	
+7-19	try	O	B-UnrelEv	
+7-20	instead	O	O	
+7-21	.	O	O	
+
+#id=8
+#text=I did not intend to pick up anything that was not on my list , but I noticed the pints of strawberries were very inexpensive and decided to buy some as well .
+8-1	I	B-ScrPart_shopper	O	
+8-2	did	O	O	
+8-3	not	O	O	
+8-4	intend	O	B-UnrelEv	
+8-5	to	O	O	
+8-6	pick	O	B-ScrEv_get_groceries	
+8-7	up	O	I-ScrEv_get_groceries	
+8-8	anything	B-ScrPart_groceries	O	
+8-9	that	B-ScrPart_groceries	O	
+8-10	was	O	B-UnrelEv	
+8-11	not	O	O	
+8-12	on	O	O	
+8-13	my	B-ScrPart_shopper	O	
+8-14	list	B-ScrPart_grocery_list	O	
+8-15	,	O	O	
+8-16	but	O	O	
+8-17	I	B-ScrPart_shopper	O	
+8-18	noticed	O	B-UnrelEv	
+8-19	the	O	O	
+8-20	pints	B-Head_of_Partitive	O	
+8-21	of	O	O	
+8-22	strawberries	B-ScrPart_groceries	O	
+8-23	were	O	B-RelNScrEv	
+8-24	very	O	O	
+8-25	inexpensive	O	O	
+8-26	and	O	O	
+8-27	decided	O	B-UnrelEv	
+8-28	to	O	O	
+8-29	buy	O	B-ScrEv_get_groceries	
+8-30	some	B-ScrPart_groceries	O	
+8-31	as	O	O	
+8-32	well	O	O	
+8-33	.	O	O	
+
+#id=9
+#text=I was finished in about 20 minutes and got in line for checkout .
+9-1	I	B-ScrPart_shopper	O	
+9-2	was	O	O	
+9-3	finished	O	B-UnrelEv	
+9-4	in	O	O	
+9-5	about	O	O	
+9-6	20	O	O	
+9-7	minutes	B-NPart	O	
+9-8	and	O	O	
+9-9	got	O	B-ScrEv_go_checkout	
+9-10	in	O	O	
+9-11	line	B-ScrPart_line	O	
+9-12	for	O	O	
+9-13	checkout	B-ScrPart_cash_desk	O	
+9-14	.	O	O	
+
+#id=10
+#text=I paid for my groceries and packed them in the reusable bag I had brought along with me .
+10-1	I	B-ScrPart_shopper	O	
+10-2	paid	O	B-ScrEv_pay	
+10-3	for	O	O	
+10-4	my	B-ScrPart_shopper	O	
+10-5	groceries	B-ScrPart_groceries	O	
+10-6	and	O	O	
+10-7	packed	O	B-ScrEv_pack_groceries	
+10-8	them	B-ScrPart_groceries	O	
+10-9	in	O	O	
+10-10	the	O	O	
+10-11	reusable	O	B-UnrelEv	
+10-12	bag	B-ScrPart_shopping_bags	O	
+10-13	I	B-ScrPart_shopper	O	
+10-14	had	O	O	
+10-15	brought	O	B-ScrEv_take_bags	
+10-16	along	O	O	
+10-17	with	O	O	
+10-18	me	B-ScrPart_shopper	O	
+10-19	.	O	O	
+
+#id=11
+#text=Then I returned home . 
+11-1	Then	O	O	
+11-2	I	B-ScrPart_shopper	O	
+11-3	returned	O	B-ScrEv_leave	
+11-4	home	B-NPart	O	
+11-5	.	O	O	
+

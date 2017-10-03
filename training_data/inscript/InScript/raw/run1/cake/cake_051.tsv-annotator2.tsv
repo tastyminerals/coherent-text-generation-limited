@@ -1,0 +1,193 @@
+ # webanno.custom.Participants | Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I was living in Austin Texas and decided I was going to try my luck at making a cake .
+1-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+1-2	was	O	O	O	_	_	
+1-3	living	O	O	B-UnrelEv	_	_	
+1-4	in	O	O	O	_	_	
+1-5	Austin	O	O	O	_	_	
+1-6	Texas	O	O	O	_	_	
+1-7	and	O	O	O	_	_	
+1-8	decided	O	O	B-UnrelEv	_	_	
+1-9	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	1-1	
+1-10	was	O	O	O	_	_	
+1-11	going	O	O	O	_	_	
+1-12	to	O	O	O	_	_	
+1-13	try	O	O	B-UnrelEv	_	_	
+1-14	my	O	O	O	_	_	
+1-15	luck	O	O	O	_	_	
+1-16	at	O	O	O	_	_	
+1-17	making	O	O	B-Evoking	_	_	
+1-18	a	O	O	I-Evoking	_	_	
+1-19	cake	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	_	_	
+1-20	.	O	O	O	_	_	
+
+#id=2
+#text=I researched a few to try out .
+2-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	1-9	
+2-2	researched	O	O	B-ScrEv_choose_recipe	_	_	
+2-3	a	O	O	O	_	_	
+2-4	few	O	O	O	_	_	
+2-5	to	O	O	O	_	_	
+2-6	try	O	O	O	_	_	
+2-7	out	O	O	O	_	_	
+2-8	.	O	O	O	_	_	
+
+#id=3
+#text=The first one that I made was a layered Italian cake with white frosting and coconut flakes .
+3-1	The	O	O	O	_	_	
+3-2	first	O	O	O	_	_	
+3-3	one	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	1-19	
+3-4	that	O	O	O	_	_	
+3-5	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	2-1	
+3-6	made	O	O	B-Evoking	_	_	
+3-7	was	O	O	O	_	_	
+3-8	a	O	O	O	_	_	
+3-9	layered	O	O	O	_	_	
+3-10	Italian	O	O	O	_	_	
+3-11	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	3-3	
+3-12	with	O	O	O	_	_	
+3-13	white	O	O	O	_	_	
+3-14	frosting	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+3-15	and	O	O	O	_	_	
+3-16	coconut	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+3-17	flakes	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+3-18	.	O	O	O	_	_	
+
+#id=4
+#text=This one took a lot of effort due to the multiple layers , but the taste ended up being excellent .
+4-1	This	O	O	O	_	_	
+4-2	one	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	3-11	
+4-3	took	O	O	B-UnrelEv	_	_	
+4-4	a	O	O	O	_	_	
+4-5	lot	O	O	O	_	_	
+4-6	of	O	O	O	_	_	
+4-7	effort	O	O	O	_	_	
+4-8	due	O	O	O	_	_	
+4-9	to	O	O	O	_	_	
+4-10	the	O	O	O	_	_	
+4-11	multiple	O	O	O	_	_	
+4-12	layers	O	O	O	_	_	
+4-13	,	O	O	O	_	_	
+4-14	but	O	O	O	_	_	
+4-15	the	O	O	O	_	_	
+4-16	taste	O	O	O	_	_	
+4-17	ended	O	O	B-UnrelEv	_	_	
+4-18	up	O	O	I-UnrelEv	_	_	
+4-19	being	O	O	O	_	_	
+4-20	excellent	O	O	O	_	_	
+4-21	.	O	O	O	_	_	
+
+#id=5
+#text=I thought I would try my luck next with a chocolate ganash frosting on top of a peanut butter cake .
+5-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	3-5	
+5-2	thought	O	O	B-UnrelEv	_	_	
+5-3	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-1	
+5-4	would	O	O	O	_	_	
+5-5	try	O	O	B-UnrelEv	_	_	
+5-6	my	O	O	O	_	_	
+5-7	luck	O	O	O	_	_	
+5-8	next	O	O	O	_	_	
+5-9	with	O	O	O	_	_	
+5-10	a	O	O	O	_	_	
+5-11	chocolate	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+5-12	ganash	I-ScrPart_ingredients	I-webanno.custom.Participants_	O	_	_	
+5-13	frosting	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+5-14	on	O	O	O	_	_	
+5-15	top	O	O	O	_	_	
+5-16	of	O	O	O	_	_	
+5-17	a	O	O	O	_	_	
+5-18	peanut	B-ScrPart_cake	B-webanno.custom.Participants_	O	_	_	
+5-19	butter	I-ScrPart_cake	I-webanno.custom.Participants_	O	_	_	
+5-20	cake	I-ScrPart_cake|B-ScrPart_cake	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+5-21	.	O	O	O	_	_	
+
+#id=6
+#text=This cake came out better tasting in my opinion and the in the opinion of others .
+6-1	This	O	O	O	_	_	
+6-2	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-20	
+6-3	came	O	O	B-???	_	_	
+6-4	out	O	O	I-???	_	_	
+6-5	better	O	O	O	_	_	
+6-6	tasting	O	O	B-ScrEv_eat	_	_	
+6-7	in	O	O	O	_	_	
+6-8	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-3	
+6-9	opinion	O	O	O	_	_	
+6-10	and	O	O	O	_	_	
+6-11	the	O	O	O	_	_	
+6-12	in	O	O	O	_	_	
+6-13	the	O	O	O	_	_	
+6-14	opinion	O	O	O	_	_	
+6-15	of	O	O	O	_	_	
+6-16	others	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	_	_	
+6-17	.	O	O	O	_	_	
+
+#id=7
+#text=For the peanut butter portion of it , it had peanut butter mixed with actual butter baked on top of a graham cracker compressed crust .
+7-1	For	O	O	O	_	_	
+7-2	the	O	O	O	_	_	
+7-3	peanut	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+7-4	butter	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+7-5	portion	O	O	O	_	_	
+7-6	of	O	O	O	_	_	
+7-7	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	6-2	
+7-8	,	O	O	O	_	_	
+7-9	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	7-7	
+7-10	had	O	O	B-UnrelEv	_	_	
+7-11	peanut	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+7-12	butter	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	7-4	
+7-13	mixed	O	O	B-ScrEv_prepare_ingredients	_	_	
+7-14	with	O	O	O	_	_	
+7-15	actual	O	O	O	_	_	
+7-16	butter	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+7-17	baked	O	O	B-???	_	_	
+7-18	on	O	O	O	_	_	
+7-19	top	O	O	O	_	_	
+7-20	of	O	O	O	_	_	
+7-21	a	O	O	O	_	_	
+7-22	graham	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+7-23	cracker	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+7-24	compressed	O	O	B-UnrelEv	_	_	
+7-25	crust	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+7-26	.	O	O	O	_	_	
+
+#id=8
+#text=The ganash was made from melting chocolate in heavy whipping cream briefly in the microwave and spreading over .
+8-1	The	O	O	O	_	_	
+8-2	ganash	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-13	
+8-3	was	O	O	O	_	_	
+8-4	made	O	O	B-UnrelEv	_	_	
+8-5	from	O	O	O	_	_	
+8-6	melting	O	O	B-ScrEv_prepare_ingredients	_	_	
+8-7	chocolate	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+8-8	in	O	O	O	_	_	
+8-9	heavy	O	O	O	_	_	
+8-10	whipping	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+8-11	cream	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+8-12	briefly	O	O	O	_	_	
+8-13	in	O	O	O	_	_	
+8-14	the	O	O	O	_	_	
+8-15	microwave	B-ScrPart_utensil	B-webanno.custom.Participants_	O	_	_	
+8-16	and	O	O	O	_	_	
+8-17	spreading	O	O	B-ScrEv_decorate	_	_	
+8-18	over	O	O	O	_	_	
+8-19	.	O	O	O	_	_	
+
+#id=9
+#text=Once cooled it made kind of a shell on top of the peanut butter . 
+9-1	Once	O	O	O	_	_	
+9-2	cooled	O	O	B-ScrEv_cool_down	_	_	
+9-3	it	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	8-2	
+9-4	made	O	O	B-UnrelEv	_	_	
+9-5	kind	O	O	O	_	_	
+9-6	of	O	O	O	_	_	
+9-7	a	O	O	O	_	_	
+9-8	shell	O	O	O	_	_	
+9-9	on	O	O	O	_	_	
+9-10	top	O	O	O	_	_	
+9-11	of	O	O	O	_	_	
+9-12	the	O	O	O	_	_	
+9-13	peanut	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+9-14	butter	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	7-12	
+9-15	.	O	O	O	_	_	
+

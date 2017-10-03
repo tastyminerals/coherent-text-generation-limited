@@ -1,0 +1,301 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I woke up and looked at myself in the mirror .
+1-1	I	B-ScrPart_customer	O	_	_	
+1-2	woke	O	B-UnrelEv	_	_	
+1-3	up	O	I-UnrelEv	_	_	
+1-4	and	O	O	_	_	
+1-5	looked	O	B-UnrelEv	_	_	
+1-6	at	O	O	_	_	
+1-7	myself	B-ScrPart_customer	O	_	_	
+1-8	in	O	O	_	_	
+1-9	the	O	O	_	_	
+1-10	mirror	B-ScrPart_mirror	O	_	_	
+1-11	.	O	O	_	_	
+
+#id=2
+#text=I realized that my hair was really long and unkempt and that it was time for a hair cut .
+2-1	I	B-ScrPart_customer	O	_	_	
+2-2	realized	O	B-UnrelEv	_	_	
+2-3	that	O	O	_	_	
+2-4	my	B-ScrPart_customer	O	_	_	
+2-5	hair	B-ScrPart_hair	O	_	_	
+2-6	was	O	B-UnrelEv	_	_	
+2-7	really	O	O	_	_	
+2-8	long	O	O	_	_	
+2-9	and	O	O	_	_	
+2-10	unkempt	O	O	_	_	
+2-11	and	O	O	_	_	
+2-12	that	O	O	_	_	
+2-13	it	B-No_label	O	_	_	
+2-14	was	O	B-UnrelEv	_	_	
+2-15	time	B-No_label	O	_	_	
+2-16	for	O	O	_	_	
+2-17	a	O	O	_	_	
+2-18	hair	B-ScrPart_haircut	O	_	_	
+2-19	cut	I-ScrPart_haircut	O	_	_	
+2-20	.	O	O	_	_	
+
+#id=3
+#text=Sometimes , when I do n't get a haircut , I look like a really scary homeless man .
+3-1	Sometimes	O	O	_	_	
+3-2	,	O	O	_	_	
+3-3	when	O	O	_	_	
+3-4	I	B-ScrPart_customer	O	_	_	
+3-5	do	O	O	_	_	
+3-6	n't	O	O	_	_	
+3-7	get	O	B-Evoking	_	_	
+3-8	a	O	I-Evoking	_	_	
+3-9	haircut	B-ScrPart_haircut	I-Evoking	webanno.custom.Corefchains_	2-18	
+3-10	,	O	O	_	_	
+3-11	I	B-ScrPart_customer	O	_	_	
+3-12	look	O	B-UnrelEv	_	_	
+3-13	like	O	O	_	_	
+3-14	a	O	O	_	_	
+3-15	really	O	O	_	_	
+3-16	scary	O	O	_	_	
+3-17	homeless	O	O	_	_	
+3-18	man	B-NPart	O	_	_	
+3-19	.	O	O	_	_	
+
+#id=4
+#text=This is often because I do n't shave my big beard either .
+4-1	This	O	O	_	_	
+4-2	is	O	B-UnrelEv	_	_	
+4-3	often	O	O	_	_	
+4-4	because	O	O	_	_	
+4-5	I	B-ScrPart_customer	O	_	_	
+4-6	do	O	O	_	_	
+4-7	n't	O	O	_	_	
+4-8	shave	O	B-RelNScrEv	_	_	
+4-9	my	B-ScrPart_customer	O	_	_	
+4-10	big	O	O	_	_	
+4-11	beard	B-ScrPart_hair	O	_	_	
+4-12	either	O	O	_	_	
+4-13	.	O	O	_	_	
+
+#id=5
+#text=Whenever I get a haircut , it is when I also get a shave .
+5-1	Whenever	O	O	_	_	
+5-2	I	B-ScrPart_customer	O	_	_	
+5-3	get	O	B-Evoking	_	_	
+5-4	a	O	I-Evoking	_	_	
+5-5	haircut	B-ScrPart_haircut	I-Evoking	webanno.custom.Corefchains_	3-9	
+5-6	,	O	O	_	_	
+5-7	it	B-No_label	O	_	_	
+5-8	is	O	O	_	_	
+5-9	when	O	O	_	_	
+5-10	I	B-ScrPart_customer	O	_	_	
+5-11	also	O	O	_	_	
+5-12	get	O	B-UnrelEv	_	_	
+5-13	a	O	O	_	_	
+5-14	shave	O	O	_	_	
+5-15	.	O	O	_	_	
+
+#id=6
+#text=So this means that I am often unshaven for three months straight .
+6-1	So	O	O	_	_	
+6-2	this	O	O	_	_	
+6-3	means	O	B-UnrelEv	_	_	
+6-4	that	O	O	_	_	
+6-5	I	B-ScrPart_customer	O	_	_	
+6-6	am	O	B-UnrelEv	_	_	
+6-7	often	O	O	_	_	
+6-8	unshaven	O	O	_	_	
+6-9	for	O	O	_	_	
+6-10	three	O	O	_	_	
+6-11	months	B-NPart	O	_	_	
+6-12	straight	O	O	_	_	
+6-13	.	O	O	_	_	
+
+#id=7
+#text=Since , I wanted to go back into the world again , I knew it was time for a new hair cut and shave .
+7-1	Since	O	O	_	_	
+7-2	,	O	O	_	_	
+7-3	I	B-ScrPart_customer	O	_	_	
+7-4	wanted	O	O	_	_	
+7-5	to	O	O	_	_	
+7-6	go	O	B-UnrelEv	_	_	
+7-7	back	O	O	_	_	
+7-8	into	O	O	_	_	
+7-9	the	O	O	_	_	
+7-10	world	B-NPart	O	_	_	
+7-11	again	O	O	_	_	
+7-12	,	O	O	_	_	
+7-13	I	B-ScrPart_customer	O	_	_	
+7-14	knew	O	B-UnrelEv	_	_	
+7-15	it	B-No_label	O	_	_	
+7-16	was	O	O	_	_	
+7-17	time	B-No_label	O	_	_	
+7-18	for	O	O	_	_	
+7-19	a	O	O	_	_	
+7-20	new	O	O	_	_	
+7-21	hair	B-ScrPart_haircut	O	webanno.custom.Corefchains_	5-5	
+7-22	cut	I-ScrPart_haircut	O	webanno.custom.Corefchains_	5-5	
+7-23	and	O	O	_	_	
+7-24	shave	O	O	_	_	
+7-25	.	O	O	_	_	
+
+#id=8
+#text=I went to the neighborhood Barber , Santiago 's , and got a hair cut and shave .
+8-1	I	B-ScrPart_customer	O	_	_	
+8-2	went	O	B-ScrEv_get_salon	_	_	
+8-3	to	O	O	_	_	
+8-4	the	O	O	_	_	
+8-5	neighborhood	B-NPart	O	_	_	
+8-6	Barber	B-ScrPart_hairdresser	O	_	_	
+8-7	,	O	O	_	_	
+8-8	Santiago	B-ScrPart_hairdresser	O	_	_	
+8-9	's	O	O	_	_	
+8-10	,	O	O	_	_	
+8-11	and	O	O	_	_	
+8-12	got	O	B-Evoking	_	_	
+8-13	a	O	I-Evoking	_	_	
+8-14	hair	B-ScrPart_haircut	I-Evoking	webanno.custom.Corefchains_	7-21	
+8-15	cut	I-ScrPart_haircut	I-Evoking	webanno.custom.Corefchains_	7-21	
+8-16	and	O	O	_	_	
+8-17	shave	O	O	_	_	
+8-18	.	O	O	_	_	
+
+#id=9
+#text=He first used scissors to trim my hair into something manageable , then he used a electric trimmer to buzz some of my side burns off .
+9-1	He	B-ScrPart_hairdresser	O	_	_	
+9-2	first	O	O	_	_	
+9-3	used	O	B-UnrelEv	_	_	
+9-4	scissors	B-ScrPart_scissors	O	_	_	
+9-5	to	O	O	_	_	
+9-6	trim	O	B-ScrEv_cut	_	_	
+9-7	my	B-ScrPart_customer	O	_	_	
+9-8	hair	B-ScrPart_hair	O	_	_	
+9-9	into	O	O	_	_	
+9-10	something	B-No_label	O	_	_	
+9-11	manageable	O	O	_	_	
+9-12	,	O	O	_	_	
+9-13	then	O	O	_	_	
+9-14	he	B-ScrPart_hairdresser	O	_	_	
+9-15	used	O	B-UnrelEv	_	_	
+9-16	a	O	O	_	_	
+9-17	electric	B-ScrPart_scissors	O	_	_	
+9-18	trimmer	I-ScrPart_scissors|B-ScrPart_scissors	O	_	_	
+9-19	to	O	O	_	_	
+9-20	buzz	O	B-ScrEv_cut	_	_	
+9-21	some	O	O	_	_	
+9-22	of	O	O	_	_	
+9-23	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-7	
+9-24	side	B-ScrPart_hair	O	_	_	
+9-25	burns	I-ScrPart_hair|B-ScrPart_hair	O	_	_	
+9-26	off	O	O	_	_	
+9-27	.	O	O	_	_	
+
+#id=10
+#text=He then continued using his scissors and cut my hair into something that was acceptable .
+10-1	He	B-ScrPart_hairdresser	O	_	_	
+10-2	then	O	O	_	_	
+10-3	continued	O	B-UnrelEv	_	_	
+10-4	using	O	B-UnrelEv	_	_	
+10-5	his	B-ScrPart_hairdresser	O	_	_	
+10-6	scissors	B-ScrPart_scissors	O	_	_	
+10-7	and	O	O	_	_	
+10-8	cut	O	B-ScrEv_cut	_	_	
+10-9	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-23	
+10-10	hair	B-ScrPart_hair	O	_	_	
+10-11	into	O	O	_	_	
+10-12	something	B-No_label	O	_	_	
+10-13	that	O	O	_	_	
+10-14	was	O	B-UnrelEv	_	_	
+10-15	acceptable	O	O	_	_	
+10-16	.	O	O	_	_	
+
+#id=11
+#text=He also had to take a few minutes to shave off my beard .
+11-1	He	B-ScrPart_hairdresser	O	_	_	
+11-2	also	O	O	_	_	
+11-3	had	O	O	_	_	
+11-4	to	O	O	_	_	
+11-5	take	O	B-UnrelEv	_	_	
+11-6	a	O	O	_	_	
+11-7	few	O	O	_	_	
+11-8	minutes	B-NPart	O	_	_	
+11-9	to	O	O	_	_	
+11-10	shave	O	B-RelNScrEv	_	_	
+11-11	off	O	I-RelNScrEv	_	_	
+11-12	my	B-ScrPart_customer	O	_	_	
+11-13	beard	B-ScrPart_hair	O	_	_	
+11-14	.	O	O	_	_	
+
+#id=12
+#text=First he trimmed the excess off with his electric trimmer .
+12-1	First	O	O	_	_	
+12-2	he	B-ScrPart_hairdresser	O	_	_	
+12-3	trimmed	O	B-ScrEv_cut	_	_	
+12-4	the	O	O	_	_	
+12-5	excess	B-NPart	O	_	_	
+12-6	off	O	O	_	_	
+12-7	with	O	O	_	_	
+12-8	his	B-ScrPart_hairdresser	O	_	_	
+12-9	electric	B-ScrPart_scissors	O	_	_	
+12-10	trimmer	I-ScrPart_scissors|B-ScrPart_scissors	O	_	_	
+12-11	.	O	O	_	_	
+
+#id=13
+#text=Then he proceeded to use a knife and shaving cream to give me a very deep shave .
+13-1	Then	O	O	_	_	
+13-2	he	B-ScrPart_hairdresser	O	_	_	
+13-3	proceeded	O	O	_	_	
+13-4	to	O	O	_	_	
+13-5	use	O	B-UnrelEv	_	_	
+13-6	a	O	O	_	_	
+13-7	knife	B-ScrPart_hair_styling/treatment	O	_	_	
+13-8	and	O	O	_	_	
+13-9	shaving	B-ScrPart_hair_styling/treatment	O	_	_	
+13-10	cream	I-ScrPart_hair_styling/treatment|B-ScrPart_hair_styling/treatment	O	_	_	
+13-11	to	O	O	_	_	
+13-12	give	O	B-UnrelEv	_	_	
+13-13	me	B-ScrPart_customer	O	_	_	
+13-14	a	O	O	_	_	
+13-15	very	O	O	_	_	
+13-16	deep	O	O	_	_	
+13-17	shave	O	O	_	_	
+13-18	.	O	O	_	_	
+
+#id=14
+#text=It costed a total of 50 dollars .
+14-1	It	B-No_label	O	_	_	
+14-2	costed	O	B-RelNScrEv	_	_	
+14-3	a	O	O	_	_	
+14-4	total	B-No_label	O	_	_	
+14-5	of	O	O	_	_	
+14-6	50	O	O	_	_	
+14-7	dollars	B-ScrPart_payment_means	O	_	_	
+14-8	.	O	O	_	_	
+
+#id=15
+#text=This was n't bad considering I got a new hair cut , I was shaved , and they even offered to wash my hair for free . 
+15-1	This	O	O	_	_	
+15-2	was	O	B-UnrelEv	_	_	
+15-3	n't	O	O	_	_	
+15-4	bad	O	O	_	_	
+15-5	considering	O	O	_	_	
+15-6	I	B-ScrPart_customer	O	_	_	
+15-7	got	O	B-Evoking	_	_	
+15-8	a	O	I-Evoking	_	_	
+15-9	new	O	I-Evoking	_	_	
+15-10	hair	B-ScrPart_haircut	I-Evoking	webanno.custom.Corefchains_	8-14	
+15-11	cut	I-ScrPart_haircut	I-Evoking	webanno.custom.Corefchains_	8-14	
+15-12	,	O	O	_	_	
+15-13	I	B-ScrPart_customer	O	_	_	
+15-14	was	O	O	_	_	
+15-15	shaved	O	B-RelNScrEv	_	_	
+15-16	,	O	O	_	_	
+15-17	and	O	O	_	_	
+15-18	they	B-ScrPart_hairdresser	O	_	_	
+15-19	even	O	O	_	_	
+15-20	offered	O	B-UnrelEv	_	_	
+15-21	to	O	O	_	_	
+15-22	wash	O	B-ScrEv_wash	_	_	
+15-23	my	B-ScrPart_customer	O	_	_	
+15-24	hair	B-ScrPart_hair	O	_	_	
+15-25	for	O	O	_	_	
+15-26	free	O	O	_	_	
+15-27	.	O	O	_	_	
+

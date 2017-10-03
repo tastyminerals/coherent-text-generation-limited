@@ -1,0 +1,286 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=Eliminating Boredom By The Book I had the day off work .
+1-1	Eliminating	O	O	
+1-2	Boredom	B-NPart	O	
+1-3	By	O	O	
+1-4	The	O	O	
+1-5	Book	B-ScrPart_book	O	
+1-6	I	B-ScrPart_customer	O	
+1-7	had	O	B-UnrelEv	
+1-8	the	O	O	
+1-9	day	B-NPart	O	
+1-10	off	O	O	
+1-11	work	B-NPart	O	
+1-12	.	O	O	
+
+#id=2
+#text=I was glad of that but only a few hours into my day , I realized how bored I was .
+2-1	I	B-ScrPart_customer	O	
+2-2	was	O	B-UnrelEv	
+2-3	glad	O	O	
+2-4	of	O	O	
+2-5	that	O	O	
+2-6	but	O	O	
+2-7	only	O	O	
+2-8	a	O	O	
+2-9	few	O	O	
+2-10	hours	B-NPart	O	
+2-11	into	O	O	
+2-12	my	B-ScrPart_customer	O	
+2-13	day	B-NPart	O	
+2-14	,	O	O	
+2-15	I	B-ScrPart_customer	O	
+2-16	realized	O	B-UnrelEv	
+2-17	how	O	O	
+2-18	bored	O	B-UnrelEv	
+2-19	I	B-ScrPart_customer	O	
+2-20	was	O	O	
+2-21	.	O	O	
+
+#id=3
+#text=I had already cleaned my house and done everything I needed to do .
+3-1	I	B-ScrPart_customer	O	
+3-2	had	O	O	
+3-3	already	O	O	
+3-4	cleaned	O	B-UnrelEv	
+3-5	my	B-ScrPart_customer	O	
+3-6	house	B-NPart	O	
+3-7	and	O	O	
+3-8	done	O	B-UnrelEv	
+3-9	everything	B-No_label	O	
+3-10	I	B-ScrPart_customer	O	
+3-11	needed	O	O	
+3-12	to	O	O	
+3-13	do	O	B-UnrelEv	
+3-14	.	O	O	
+
+#id=4
+#text=I turned on the television , but I could n't find anything to watch .
+4-1	I	B-ScrPart_customer	O	
+4-2	turned	O	B-UnrelEv	
+4-3	on	O	O	
+4-4	the	O	O	
+4-5	television	B-NPart	O	
+4-6	,	O	O	
+4-7	but	O	O	
+4-8	I	B-ScrPart_customer	O	
+4-9	could	O	O	
+4-10	n't	O	O	
+4-11	find	O	B-UnrelEv	
+4-12	anything	B-No_label	O	
+4-13	to	O	O	
+4-14	watch	O	B-UnrelEv	
+4-15	.	O	O	
+
+#id=5
+#text=It was cloudy and rainy outside , so going outside was not the best option .
+5-1	It	B-No_label	O	
+5-2	was	O	B-UnrelEv	
+5-3	cloudy	O	O	
+5-4	and	O	O	
+5-5	rainy	O	O	
+5-6	outside	B-No_label	O	
+5-7	,	O	O	
+5-8	so	O	O	
+5-9	going	O	B-UnrelEv	
+5-10	outside	O	O	
+5-11	was	O	B-UnrelEv	
+5-12	not	O	O	
+5-13	the	O	O	
+5-14	best	O	O	
+5-15	option	B-NPart	O	
+5-16	.	O	O	
+
+#id=6
+#text=I knew I needed to find something to do though and I thought that maybe it would be a great idea to find a new book to read .
+6-1	I	B-ScrPart_customer	O	
+6-2	knew	O	B-UnrelEv	
+6-3	I	B-ScrPart_customer	O	
+6-4	needed	O	O	
+6-5	to	O	O	
+6-6	find	O	B-UnrelEv	
+6-7	something	B-No_label	O	
+6-8	to	O	O	
+6-9	do	O	B-UnrelEv	
+6-10	though	O	O	
+6-11	and	O	O	
+6-12	I	B-ScrPart_customer	O	
+6-13	thought	O	B-UnrelEv	
+6-14	that	O	O	
+6-15	maybe	O	O	
+6-16	it	B-No_label	O	
+6-17	would	O	O	
+6-18	be	O	B-UnrelEv	
+6-19	a	O	O	
+6-20	great	O	O	
+6-21	idea	B-NPart	O	
+6-22	to	O	O	
+6-23	find	O	B-RelNScrEv	
+6-24	a	O	O	
+6-25	new	O	O	
+6-26	book	B-ScrPart_book	O	
+6-27	to	O	O	
+6-28	read	O	B-RelNScrEv	
+6-29	.	O	O	
+
+#id=7
+#text=I decided to drive to the local library .
+7-1	I	B-ScrPart_customer	O	
+7-2	decided	O	B-UnrelEv	
+7-3	to	O	O	
+7-4	drive	O	B-Evoking|B-ScrEv_get_library	
+7-5	to	O	I-Evoking	
+7-6	the	O	I-Evoking	
+7-7	local	O	I-Evoking	
+7-8	library	B-ScrPart_library	I-Evoking	
+7-9	.	O	O	
+
+#id=8
+#text=I looked at all of the new books that they had on display .
+8-1	I	B-ScrPart_customer	O	
+8-2	looked	O	B-ScrEv_browse_releases	
+8-3	at	O	O	
+8-4	all	O	O	
+8-5	of	O	O	
+8-6	the	O	O	
+8-7	new	O	O	
+8-8	books	B-ScrPart_book	O	
+8-9	that	O	O	
+8-10	they	B-ScrPart_library	O	
+8-11	had	O	B-UnrelEv	
+8-12	on	O	O	
+8-13	display	B-No_label	O	
+8-14	.	O	O	
+
+#id=9
+#text=I found a book that really caught my eye and looked intriguing .
+9-1	I	B-ScrPart_customer	O	
+9-2	found	O	B-ScrEv_other	
+9-3	a	O	O	
+9-4	book	B-ScrPart_book	O	
+9-5	that	O	O	
+9-6	really	O	O	
+9-7	caught	O	B-UnrelEv	
+9-8	my	B-ScrPart_customer	O	
+9-9	eye	B-No_label	O	
+9-10	and	O	O	
+9-11	looked	O	B-UnrelEv	
+9-12	intriguing	O	O	
+9-13	.	O	O	
+
+#id=10
+#text=I knew that I really wanted to read this book so I checked it out .
+10-1	I	B-ScrPart_customer	O	
+10-2	knew	O	B-UnrelEv	
+10-3	that	O	O	
+10-4	I	B-ScrPart_customer	O	
+10-5	really	O	O	
+10-6	wanted	O	B-UnrelEv	
+10-7	to	O	O	
+10-8	read	O	B-RelNScrEv	
+10-9	this	O	O	
+10-10	book	B-ScrPart_book	O	
+10-11	so	O	O	
+10-12	I	B-ScrPart_customer	O	
+10-13	checked	O	B-ScrEv_register	
+10-14	it	B-ScrPart_book	O	
+10-15	out	O	O	
+10-16	.	O	O	
+
+#id=11
+#text=I went home and started reading .
+11-1	I	B-ScrPart_customer	O	
+11-2	went	O	B-ScrEv_leave	
+11-3	home	B-No_label	O	
+11-4	and	O	O	
+11-5	started	O	B-UnrelEv	
+11-6	reading	O	B-RelNScrEv	
+11-7	.	O	O	
+
+#id=12
+#text=The book was so interesting that I read and read and forgot what time it was .
+12-1	The	O	O	
+12-2	book	B-ScrPart_book	O	
+12-3	was	O	B-UnrelEv	
+12-4	so	O	O	
+12-5	interesting	O	O	
+12-6	that	O	O	
+12-7	I	B-ScrPart_customer	O	
+12-8	read	O	B-RelNScrEv	
+12-9	and	O	O	
+12-10	read	O	B-RelNScrEv	
+12-11	and	O	O	
+12-12	forgot	O	B-UnrelEv	
+12-13	what	O	O	
+12-14	time	B-No_label	O	
+12-15	it	B-No_label	O	
+12-16	was	O	B-UnrelEv	
+12-17	.	O	O	
+
+#id=13
+#text=I was almost to the end of the book when I noticed it was already dark outside .
+13-1	I	B-ScrPart_customer	O	
+13-2	was	O	B-UnrelEv	
+13-3	almost	O	O	
+13-4	to	O	O	
+13-5	the	O	O	
+13-6	end	B-Head_of_Partitive	O	
+13-7	of	O	O	
+13-8	the	O	O	
+13-9	book	B-ScrPart_book	O	
+13-10	when	O	O	
+13-11	I	B-ScrPart_customer	O	
+13-12	noticed	O	B-UnrelEv	
+13-13	it	B-No_label	O	
+13-14	was	O	B-UnrelEv	
+13-15	already	O	O	
+13-16	dark	O	O	
+13-17	outside	B-No_label	O	
+13-18	.	O	O	
+
+#id=14
+#text=I was amazed at how fast time had gone due to being caught up in a very interesting book .
+14-1	I	B-ScrPart_customer	O	
+14-2	was	O	O	
+14-3	amazed	O	B-UnrelEv	
+14-4	at	O	O	
+14-5	how	O	O	
+14-6	fast	O	O	
+14-7	time	B-No_label	O	
+14-8	had	O	O	
+14-9	gone	O	B-UnrelEv	
+14-10	due	O	O	
+14-11	to	O	O	
+14-12	being	O	O	
+14-13	caught	O	B-UnrelEv|B-UnrelEv	
+14-14	up	O	I-UnrelEv	
+14-15	in	O	O	
+14-16	a	O	O	
+14-17	very	O	O	
+14-18	interesting	O	O	
+14-19	book	B-ScrPart_book	O	
+14-20	.	O	O	
+
+#id=15
+#text=Going to the library to borrow a book had been a very great idea to cure my boredom . 
+15-1	Going	O	B-Evoking	
+15-2	to	O	I-Evoking	
+15-3	the	O	I-Evoking	
+15-4	library	B-ScrPart_library	I-Evoking	
+15-5	to	O	I-Evoking	
+15-6	borrow	O	I-Evoking	
+15-7	a	O	I-Evoking	
+15-8	book	B-ScrPart_book	I-Evoking	
+15-9	had	O	O	
+15-10	been	O	B-UnrelEv	
+15-11	a	O	O	
+15-12	very	O	O	
+15-13	great	O	O	
+15-14	idea	B-NPart	O	
+15-15	to	O	O	
+15-16	cure	O	B-UnrelEv	
+15-17	my	B-ScrPart_customer	O	
+15-18	boredom	B-NPart	O	
+15-19	.	O	O	
+

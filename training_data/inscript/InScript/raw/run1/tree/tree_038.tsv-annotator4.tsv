@@ -1,0 +1,237 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I have actually planted a few trees in my day .
+1-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	1-9	
+1-2	have	O	O	_	_	
+1-3	actually	O	O	_	_	
+1-4	planted	O	B-Evoking	_	_	
+1-5	a	O	I-Evoking	_	_	
+1-6	few	O	I-Evoking	_	_	
+1-7	trees	B-ScrPart_tree	I-Evoking	webanno.custom.Corefchains_	2-9	
+1-8	in	O	O	_	_	
+1-9	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	2-1	
+1-10	day	O	O	_	_	
+1-11	.	O	O	_	_	
+
+#id=2
+#text=I helped my mom plant a few fruit trees that she had bought .
+2-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	2-3	
+2-2	helped	O	O	_	_	
+2-3	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_|coref_group_I_mom	7-1|3-4	
+2-4	mom	B-ScrPart_gardener	O	webanno.custom.Corefchains_	2-11	
+2-5	plant	O	B-Evoking	_	_	
+2-6	a	O	I-Evoking	_	_	
+2-7	few	O	I-Evoking	_	_	
+2-8	fruit	O	I-Evoking	_	_	
+2-9	trees	B-ScrPart_tree	I-Evoking	webanno.custom.Corefchains_	2-10	
+2-10	that	B-ScrPart_tree	O	webanno.custom.Corefchains_	3-7	
+2-11	she	B-ScrPart_gardener	O	webanno.custom.Corefchains_|coref_group_I_mom	7-2|3-4	
+2-12	had	O	O	_	_	
+2-13	bought	O	B-ScrEv_get_tree	_	_	
+2-14	.	O	O	_	_	
+
+#id=3
+#text=Interestingly enough , we never leave them in the pot , but we never put them in the ground dirt either .
+3-1	Interestingly	O	O	_	_	
+3-2	enough	O	O	_	_	
+3-3	,	O	O	_	_	
+3-4	we	B-ScrPart_gardener	O	webanno.custom.Corefchains_	3-13	
+3-5	never	O	O	_	_	
+3-6	leave	O	B-RelNScrEv	_	_	
+3-7	them	B-ScrPart_tree	O	webanno.custom.Corefchains_	3-16	
+3-8	in	O	O	_	_	
+3-9	the	O	O	_	_	
+3-10	pot	B-ScrPart_wrapping	O	webanno.custom.Corefchains_	8-15	
+3-11	,	O	O	_	_	
+3-12	but	O	O	_	_	
+3-13	we	B-ScrPart_gardener	O	webanno.custom.Corefchains_	4-1	
+3-14	never	O	O	_	_	
+3-15	put	O	B-ScrEv_place_root	_	_	
+3-16	them	B-ScrPart_tree	O	webanno.custom.Corefchains_	5-7	
+3-17	in	O	O	_	_	
+3-18	the	O	O	_	_	
+3-19	ground	B-ScrPart_dirt	O	_	_	
+3-20	dirt	I-ScrPart_dirt|B-ScrPart_dirt	O	webanno.custom.Corefchains_	6-6	
+3-21	either	O	O	_	_	
+3-22	.	O	O	_	_	
+
+#id=4
+#text=We start out by digging a pretty deep hole .
+4-1	We	B-ScrPart_gardener	O	webanno.custom.Corefchains_	6-1	
+4-2	start	O	B-UnrelEv	_	_	
+4-3	out	O	I-UnrelEv	_	_	
+4-4	by	O	O	_	_	
+4-5	digging	O	B-ScrEv_dug_hole	_	_	
+4-6	a	O	O	_	_	
+4-7	pretty	O	O	_	_	
+4-8	deep	O	O	_	_	
+4-9	hole	B-ScrPart_hole	O	webanno.custom.Corefchains_	5-12	
+4-10	.	O	O	_	_	
+
+#id=5
+#text=Depending on the size of the tree and the roots , its usually about a foot and a half deep and about a foot wide .
+5-1	Depending	O	B-UnrelEv	_	_	
+5-2	on	O	O	_	_	
+5-3	the	O	O	_	_	
+5-4	size	O	O	_	_	
+5-5	of	O	O	_	_	
+5-6	the	O	O	_	_	
+5-7	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	6-15	
+5-8	and	O	O	_	_	
+5-9	the	O	O	_	_	
+5-10	roots	B-ScrPart_root	O	webanno.custom.Corefchains_	8-22	
+5-11	,	O	O	_	_	
+5-12	its	B-ScrPart_hole	B-UnrelEv	webanno.custom.Corefchains_	9-7	
+5-13	usually	O	O	_	_	
+5-14	about	O	O	_	_	
+5-15	a	O	O	_	_	
+5-16	foot	O	O	_	_	
+5-17	and	O	O	_	_	
+5-18	a	O	O	_	_	
+5-19	half	O	O	_	_	
+5-20	deep	O	O	_	_	
+5-21	and	O	O	_	_	
+5-22	about	O	O	_	_	
+5-23	a	O	O	_	_	
+5-24	foot	O	O	_	_	
+5-25	wide	O	O	_	_	
+5-26	.	O	O	_	_	
+
+#id=6
+#text=we then put soft planting soil in the bottom to make sure that the tree will have more nutrition .
+6-1	we	B-ScrPart_gardener	O	webanno.custom.Corefchains_	8-2	
+6-2	then	O	O	_	_	
+6-3	put	O	B-ScrEv_place_fertilizers	_	_	
+6-4	soft	O	O	_	_	
+6-5	planting	B-ScrPart_dirt	O	_	_	
+6-6	soil	I-ScrPart_dirt|B-ScrPart_dirt	O	webanno.custom.Corefchains_	9-12	
+6-7	in	O	O	_	_	
+6-8	the	O	O	_	_	
+6-9	bottom	O	O	_	_	
+6-10	to	O	O	_	_	
+6-11	make	O	B-UnrelEv	_	_	
+6-12	sure	O	I-UnrelEv	_	_	
+6-13	that	O	O	_	_	
+6-14	the	O	O	_	_	
+6-15	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	8-11	
+6-16	will	O	O	_	_	
+6-17	have	O	B-RelNScrEv	_	_	
+6-18	more	O	O	_	_	
+6-19	nutrition	O	O	_	_	
+6-20	.	O	O	_	_	
+
+#id=7
+#text=My mom also has manure that she uses sometimes , but I let her handle that one .
+7-1	My	B-ScrPart_gardener	O	webanno.custom.Corefchains_	7-12	
+7-2	mom	B-ScrPart_gardener	O	webanno.custom.Corefchains_	7-7	
+7-3	also	O	O	_	_	
+7-4	has	O	B-UnrelEv	_	_	
+7-5	manure	B-ScrPart_fertilizer	O	webanno.custom.Corefchains_	7-6	
+7-6	that	B-ScrPart_fertilizer	O	webanno.custom.Corefchains_	7-17	
+7-7	she	B-ScrPart_gardener	O	webanno.custom.Corefchains_	7-14	
+7-8	uses	O	B-ScrEv_place_fertilizers	_	_	
+7-9	sometimes	O	O	_	_	
+7-10	,	O	O	_	_	
+7-11	but	O	O	_	_	
+7-12	I	B-ScrPart_gardener	O	_	_	
+7-13	let	O	B-UnrelEv	_	_	
+7-14	her	B-ScrPart_gardener	O	_	_	
+7-15	handle	O	B-UnrelEv	_	_	
+7-16	that	O	O	_	_	
+7-17	one	B-ScrPart_fertilizer	O	_	_	
+7-18	.	O	O	_	_	
+
+#id=8
+#text=After we have everything set up , we take the tree out of the pot , and gently spread out the roots to make sure they can grow with some more space .
+8-1	After	O	O	_	_	
+8-2	we	B-ScrPart_gardener	O	webanno.custom.Corefchains_	8-8	
+8-3	have	O	O	_	_	
+8-4	everything	O	O	_	_	
+8-5	set	O	B-UnrelEv	_	_	
+8-6	up	O	I-UnrelEv	_	_	
+8-7	,	O	O	_	_	
+8-8	we	B-ScrPart_gardener	O	webanno.custom.Corefchains_	9-2	
+8-9	take	O	B-ScrEv_unwrap_root	_	_	
+8-10	the	O	O	_	_	
+8-11	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	9-4	
+8-12	out	O	O	_	_	
+8-13	of	O	O	_	_	
+8-14	the	O	O	_	_	
+8-15	pot	B-ScrPart_wrapping	O	_	_	
+8-16	,	O	O	_	_	
+8-17	and	O	O	_	_	
+8-18	gently	O	O	_	_	
+8-19	spread	O	B-ScrEv_unwrap_root	_	_	
+8-20	out	O	I-ScrEv_unwrap_root	_	_	
+8-21	the	O	O	_	_	
+8-22	roots	B-ScrPart_root	O	webanno.custom.Corefchains_	8-26	
+8-23	to	O	O	_	_	
+8-24	make	O	B-UnrelEv	_	_	
+8-25	sure	O	I-UnrelEv	_	_	
+8-26	they	B-ScrPart_root	O	_	_	
+8-27	can	O	O	_	_	
+8-28	grow	O	B-RelNScrEv	_	_	
+8-29	with	O	O	_	_	
+8-30	some	O	O	_	_	
+8-31	more	O	O	_	_	
+8-32	space	O	O	_	_	
+8-33	.	O	O	_	_	
+
+#id=9
+#text=Then we stick in in the hole , and put more dirt and whatever around it and gently pack it in .
+9-1	Then	O	O	_	_	
+9-2	we	B-ScrPart_gardener	O	webanno.custom.Corefchains_	10-5	
+9-3	stick	O	B-ScrEv_place_root	_	_	
+9-4	in	B-ScrPart_tree	O	webanno.custom.Corefchains_	9-16	
+9-5	in	O	O	_	_	
+9-6	the	O	O	_	_	
+9-7	hole	B-ScrPart_hole	O	_	_	
+9-8	,	O	O	_	_	
+9-9	and	O	O	_	_	
+9-10	put	O	B-ScrEv_refill_hole	_	_	
+9-11	more	O	O	_	_	
+9-12	dirt	B-ScrPart_dirt	O	_	_	
+9-13	and	O	O	_	_	
+9-14	whatever	B-???	O	_	_	
+9-15	around	O	O	_	_	
+9-16	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	9-20	
+9-17	and	O	O	_	_	
+9-18	gently	O	O	_	_	
+9-19	pack	O	B-ScrEv_tamp_dirt	_	_	
+9-20	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	10-18	
+9-21	in	O	O	_	_	
+9-22	.	O	O	_	_	
+
+#id=10
+#text=After all that , we find a stake of some sort and tie it next to the tree so it has something to keep it upright while it grows . 
+10-1	After	O	O	_	_	
+10-2	all	O	O	_	_	
+10-3	that	O	O	_	_	
+10-4	,	O	O	_	_	
+10-5	we	B-ScrPart_gardener	O	_	_	
+10-6	find	O	B-ScrEv_get_tools	_	_	
+10-7	a	O	O	_	_	
+10-8	stake	B-ScrPart_stake	O	webanno.custom.Corefchains_	10-14	
+10-9	of	O	O	_	_	
+10-10	some	O	O	_	_	
+10-11	sort	O	O	_	_	
+10-12	and	O	O	_	_	
+10-13	tie	O	B-ScrEv_tie_stakes_up	_	_	
+10-14	it	B-ScrPart_stake	O	webanno.custom.Corefchains_	10-22	
+10-15	next	O	O	_	_	
+10-16	to	O	O	_	_	
+10-17	the	O	O	_	_	
+10-18	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	10-20	
+10-19	so	O	O	_	_	
+10-20	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	10-25	
+10-21	has	O	B-UnrelEv	_	_	
+10-22	something	B-ScrPart_stake	O	_	_	
+10-23	to	O	O	_	_	
+10-24	keep	O	B-RelNScrEv	_	_	
+10-25	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	10-28	
+10-26	upright	O	O	_	_	
+10-27	while	O	O	_	_	
+10-28	it	B-ScrPart_tree	O	_	_	
+10-29	grows	O	B-RelNScrEv	_	_	
+10-30	.	O	O	_	_	
+

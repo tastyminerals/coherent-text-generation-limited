@@ -1,0 +1,204 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=My neighborhood is kind of boring looking since there are n't many plants , I guess you could say it looks barren .
+1-1	My	B-ScrPart_gardener	O	
+1-2	neighborhood	B-NPart	O	
+1-3	is	O	O	
+1-4	kind	B-NPart	O	
+1-5	of	O	O	
+1-6	boring	O	O	
+1-7	looking	O	B-UnrelEv	
+1-8	since	O	O	
+1-9	there	O	O	
+1-10	are	O	B-UnrelEv	
+1-11	n't	O	O	
+1-12	many	O	O	
+1-13	plants	B-NPart	O	
+1-14	,	O	O	
+1-15	I	B-ScrPart_gardener	O	
+1-16	guess	O	B-UnrelEv	
+1-17	you	B-ScrPart_gardener	O	
+1-18	could	O	O	
+1-19	say	O	O	
+1-20	it	B-No_label	O	
+1-21	looks	O	B-UnrelEv	
+1-22	barren	O	O	
+1-23	.	O	O	
+
+#id=2
+#text=One day I decided to do something about this , so I went to the local plant store with the intention of buying a tree .
+2-1	One	O	O	
+2-2	day	B-NPart	O	
+2-3	I	B-ScrPart_gardener	O	
+2-4	decided	O	B-UnrelEv	
+2-5	to	O	O	
+2-6	do	O	B-UnrelEv	
+2-7	something	B-No_label	O	
+2-8	about	O	O	
+2-9	this	O	O	
+2-10	,	O	O	
+2-11	so	O	O	
+2-12	I	B-ScrPart_gardener	O	
+2-13	went	O	B-RelNScrEv	
+2-14	to	O	O	
+2-15	the	O	O	
+2-16	local	O	O	
+2-17	plant	B-ScrPart_shop	O	
+2-18	store	I-ScrPart_shop|B-ScrPart_shop	O	
+2-19	with	O	O	
+2-20	the	O	O	
+2-21	intention	B-NPart	O	
+2-22	of	O	O	
+2-23	buying	O	B-Evoking	
+2-24	a	O	I-Evoking	
+2-25	tree	B-ScrPart_tree	I-Evoking	
+2-26	.	O	O	
+
+#id=3
+#text=I decided I wanted the tree to be functional rather than just cosmetic , so I decided to buy a small apple tree .
+3-1	I	B-ScrPart_gardener	O	
+3-2	decided	O	B-UnrelEv	
+3-3	I	B-ScrPart_gardener	O	
+3-4	wanted	O	B-UnrelEv	
+3-5	the	O	O	
+3-6	tree	B-ScrPart_tree	O	
+3-7	to	O	O	
+3-8	be	O	O	
+3-9	functional	O	O	
+3-10	rather	O	O	
+3-11	than	O	O	
+3-12	just	O	O	
+3-13	cosmetic	O	O	
+3-14	,	O	O	
+3-15	so	O	O	
+3-16	I	B-ScrPart_gardener	O	
+3-17	decided	O	B-ScrEv_choose_tree	
+3-18	to	O	O	
+3-19	buy	O	B-ScrEv_get_tree	
+3-20	a	O	O	
+3-21	small	O	O	
+3-22	apple	B-ScrPart_tree	O	
+3-23	tree	I-ScrPart_tree|B-ScrPart_tree	O	
+3-24	.	O	O	
+
+#id=4
+#text=I brought the tree home and got to work digging a hole in my front yard with a shovel .
+4-1	I	B-ScrPart_gardener	O	
+4-2	brought	O	B-ScrEv_take_home	
+4-3	the	O	O	
+4-4	tree	B-ScrPart_tree	O	
+4-5	home	B-No_label	O	
+4-6	and	O	O	
+4-7	got	O	B-UnrelEv	
+4-8	to	O	O	
+4-9	work	O	O	
+4-10	digging	O	B-ScrEv_dug_hole	
+4-11	a	O	O	
+4-12	hole	B-ScrPart_hole	O	
+4-13	in	O	O	
+4-14	my	B-ScrPart_gardener	O	
+4-15	front	B-ScrPart_location_garden	O	
+4-16	yard	I-ScrPart_location_garden|B-ScrPart_location_garden	O	
+4-17	with	O	O	
+4-18	a	O	O	
+4-19	shovel	B-ScrPart_gardening_tool	O	
+4-20	.	O	O	
+
+#id=5
+#text=It was hard work and the weather was hot , but finally the hole was big enough to plant the tree .
+5-1	It	B-No_label	O	
+5-2	was	O	B-UnrelEv	
+5-3	hard	O	O	
+5-4	work	B-NPart	O	
+5-5	and	O	O	
+5-6	the	O	O	
+5-7	weather	B-NPart	O	
+5-8	was	O	B-UnrelEv	
+5-9	hot	O	O	
+5-10	,	O	O	
+5-11	but	O	O	
+5-12	finally	O	O	
+5-13	the	O	O	
+5-14	hole	B-ScrPart_hole	O	
+5-15	was	O	B-RelNScrEv	
+5-16	big	O	O	
+5-17	enough	O	O	
+5-18	to	O	O	
+5-19	plant	O	B-RelNScrEv	
+5-20	the	O	O	
+5-21	tree	B-ScrPart_tree	O	
+5-22	.	O	O	
+
+#id=6
+#text=I then carefully took the tree out of its pot and placed it in the hole .
+6-1	I	B-ScrPart_gardener	O	
+6-2	then	O	O	
+6-3	carefully	O	O	
+6-4	took	O	B-ScrEv_unwrap_root	
+6-5	the	O	O	
+6-6	tree	B-ScrPart_tree	O	
+6-7	out	O	O	
+6-8	of	O	O	
+6-9	its	B-ScrPart_tree	O	
+6-10	pot	B-ScrPart_other	O	
+6-11	and	O	O	
+6-12	placed	O	B-ScrEv_place_root	
+6-13	it	B-ScrPart_tree	O	
+6-14	in	O	O	
+6-15	the	O	O	
+6-16	hole	B-ScrPart_hole	O	
+6-17	.	O	O	
+
+#id=7
+#text=I filled the hole back up with dirt and made sure the tree was steady .
+7-1	I	B-ScrPart_gardener	O	
+7-2	filled	O	B-ScrEv_refill_hole	
+7-3	the	O	O	
+7-4	hole	B-ScrPart_hole	O	
+7-5	back	O	O	
+7-6	up	O	O	
+7-7	with	O	O	
+7-8	dirt	B-ScrPart_dirt	O	
+7-9	and	O	O	
+7-10	made	O	B-RelNScrEv|B-RelNScrEv	
+7-11	sure	O	I-RelNScrEv	
+7-12	the	O	O	
+7-13	tree	B-ScrPart_tree	O	
+7-14	was	O	B-UnrelEv	
+7-15	steady	O	O	
+7-16	.	O	O	
+
+#id=8
+#text=It was a nice sight , some of my neighbors even complimented me .
+8-1	It	B-ScrPart_tree	O	
+8-2	was	O	B-UnrelEv	
+8-3	a	O	O	
+8-4	nice	O	O	
+8-5	sight	B-NPart	O	
+8-6	,	O	O	
+8-7	some	O	O	
+8-8	of	O	O	
+8-9	my	B-ScrPart_gardener	O	
+8-10	neighbors	B-NPart	O	
+8-11	even	O	O	
+8-12	complimented	O	B-UnrelEv	
+8-13	me	B-ScrPart_gardener	O	
+8-14	.	I-ScrPart_gardener	O	
+
+#id=9
+#text=I now water the tree every day to make sure it grows strong . 
+9-1	I	B-ScrPart_gardener	O	
+9-2	now	O	O	
+9-3	water	O	B-ScrEv_water	
+9-4	the	O	O	
+9-5	tree	B-ScrPart_tree	O	
+9-6	every	O	O	
+9-7	day	B-NPart	O	
+9-8	to	O	O	
+9-9	make	O	B-UnrelEv|B-UnrelEv	
+9-10	sure	O	I-UnrelEv	
+9-11	it	B-ScrPart_tree	O	
+9-12	grows	O	B-RelNScrEv	
+9-13	strong	O	O	
+9-14	.	O	O	
+

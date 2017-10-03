@@ -1,0 +1,272 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I go to the library very often and am always borrowing books .
+1-1	I	B-ScrPart_customer	O	_	_	
+1-2	go	O	B-Evoking	_	_	
+1-3	to	O	I-Evoking	_	_	
+1-4	the	O	I-Evoking	_	_	
+1-5	library	B-ScrPart_library	I-Evoking	_	_	
+1-6	very	O	O	_	_	
+1-7	often	O	O	_	_	
+1-8	and	O	O	_	_	
+1-9	am	O	O	_	_	
+1-10	always	O	O	_	_	
+1-11	borrowing	O	B-Evoking	_	_	
+1-12	books	B-ScrPart_book	I-Evoking	_	_	
+1-13	.	O	O	_	_	
+
+#id=2
+#text=When I decide to go , I take any books with me that I have read and need to return .
+2-1	When	O	O	_	_	
+2-2	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-1	
+2-3	decide	O	B-UnrelEv	_	_	
+2-4	to	O	O	_	_	
+2-5	go	O	B-RelNScrEv	_	_	
+2-6	,	O	O	_	_	
+2-7	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-2	
+2-8	take	O	B-RelNScrEv	_	_	
+2-9	any	O	O	_	_	
+2-10	books	B-ScrPart_book	O	webanno.custom.Corefchains_	1-12	
+2-11	with	O	O	_	_	
+2-12	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-7	
+2-13	that	O	O	_	_	
+2-14	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-12	
+2-15	have	O	O	_	_	
+2-16	read	O	B-RelNScrEv	_	_	
+2-17	and	O	O	_	_	
+2-18	need	O	O	_	_	
+2-19	to	O	O	_	_	
+2-20	return	O	B-RelNScrEv	_	_	
+2-21	.	O	O	_	_	
+
+#id=3
+#text=Once I get to the library , I will walk in and put any books in the return slot that I have brought back .
+3-1	Once	O	O	_	_	
+3-2	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-14	
+3-3	get	O	B-ScrEv_get_library	_	_	
+3-4	to	O	O	_	_	
+3-5	the	O	O	_	_	
+3-6	library	B-ScrPart_library	O	_	_	
+3-7	,	O	O	_	_	
+3-8	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-2	
+3-9	will	O	O	_	_	
+3-10	walk	O	B-MissScrEv|B-MissScrEv	_	_	
+3-11	in	O	I-MissScrEv	_	_	
+3-12	and	O	O	_	_	
+3-13	put	O	B-ScrEv_return_book	_	_	
+3-14	any	O	O	_	_	
+3-15	books	B-ScrPart_book	O	webanno.custom.Corefchains_	2-10	
+3-16	in	O	O	_	_	
+3-17	the	O	O	_	_	
+3-18	return	B-ScrPart_drop_box	O	_	_	
+3-19	slot	I-ScrPart_drop_box|B-ScrPart_drop_box	O	_	_	
+3-20	that	O	O	_	_	
+3-21	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-8	
+3-22	have	O	O	_	_	
+3-23	brought	O	B-RelNScrEv|B-RelNScrEv	_	_	
+3-24	back	O	I-RelNScrEv	_	_	
+3-25	.	O	O	_	_	
+
+#id=4
+#text=I will then go to the section where they put all the new releases of books and see if there are any that I am meaning to read .
+4-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-21	
+4-2	will	O	O	_	_	
+4-3	then	O	O	_	_	
+4-4	go	O	B-UnrelEv	_	_	
+4-5	to	O	O	_	_	
+4-6	the	O	O	_	_	
+4-7	section	B-ScrPart_location_library	O	_	_	
+4-8	where	O	O	_	_	
+4-9	they	B-ScrPart_staff	O	_	_	
+4-10	put	O	B-UnrelEv	_	_	
+4-11	all	O	O	_	_	
+4-12	the	O	O	_	_	
+4-13	new	O	O	_	_	
+4-14	releases	O	O	_	_	
+4-15	of	O	O	_	_	
+4-16	books	B-ScrPart_book	O	webanno.custom.Corefchains_	3-15	
+4-17	and	O	O	_	_	
+4-18	see	O	B-ScrEv_browse_releases	_	_	
+4-19	if	O	O	_	_	
+4-20	there	O	O	_	_	
+4-21	are	O	B-UnrelEv	_	_	
+4-22	any	O	O	_	_	
+4-23	that	O	O	_	_	
+4-24	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-1	
+4-25	am	O	B-UnrelEv	_	_	
+4-26	meaning	O	O	_	_	
+4-27	to	O	O	_	_	
+4-28	read	O	B-RelNScrEv	_	_	
+4-29	.	O	O	_	_	
+
+#id=5
+#text=I also check out my two favorite sections of the library and grab a couple of the books that I have been meaning to read or that are the next in a series .
+5-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-24	
+5-2	also	O	O	_	_	
+5-3	check	O	B-ScrEv_browse_releases|B-ScrEv_browse_releases	_	_	
+5-4	out	O	I-ScrEv_browse_releases	_	_	
+5-5	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-1	
+5-6	two	O	O	_	_	
+5-7	favorite	O	O	_	_	
+5-8	sections	B-ScrPart_location_library	O	webanno.custom.Corefchains_	4-7	
+5-9	of	O	O	_	_	
+5-10	the	O	O	_	_	
+5-11	library	B-ScrPart_library	O	webanno.custom.Corefchains_	3-6	
+5-12	and	O	O	_	_	
+5-13	grab	O	B-ScrEv_take_book	_	_	
+5-14	a	O	O	_	_	
+5-15	couple	O	O	_	_	
+5-16	of	O	O	_	_	
+5-17	the	O	O	_	_	
+5-18	books	B-ScrPart_book	O	webanno.custom.Corefchains_	4-16	
+5-19	that	O	O	_	_	
+5-20	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-5	
+5-21	have	O	O	_	_	
+5-22	been	O	B-UnrelEv	_	_	
+5-23	meaning	O	O	_	_	
+5-24	to	O	O	_	_	
+5-25	read	O	B-RelNScrEv	_	_	
+5-26	or	O	O	_	_	
+5-27	that	O	O	_	_	
+5-28	are	O	B-UnrelEv	_	_	
+5-29	the	O	O	_	_	
+5-30	next	O	O	_	_	
+5-31	in	O	O	_	_	
+5-32	a	O	O	_	_	
+5-33	series	O	O	_	_	
+5-34	.	O	O	_	_	
+
+#id=6
+#text=When I 'm ready to borrow the books , I head up to the main desk and wait in line .
+6-1	When	O	O	_	_	
+6-2	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-20	
+6-3	'm	O	B-UnrelEv	_	_	
+6-4	ready	O	O	_	_	
+6-5	to	O	O	_	_	
+6-6	borrow	O	B-Evoking	_	_	
+6-7	the	O	I-Evoking	_	_	
+6-8	books	B-ScrPart_book	I-Evoking	webanno.custom.Corefchains_	5-18	
+6-9	,	O	O	_	_	
+6-10	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-2	
+6-11	head	O	B-ScrEv_go_check_out|B-ScrEv_go_check_out	_	_	
+6-12	up	O	I-ScrEv_go_check_out	_	_	
+6-13	to	O	O	_	_	
+6-14	the	O	O	_	_	
+6-15	main	B-ScrPart_check-out_desk	O	_	_	
+6-16	desk	I-ScrPart_check-out_desk|B-ScrPart_check-out_desk	O	_	_	
+6-17	and	O	O	_	_	
+6-18	wait	O	B-ScrEv_wait	_	_	
+6-19	in	O	O	_	_	
+6-20	line	B-ScrPart_line	O	_	_	
+6-21	.	O	O	_	_	
+
+#id=7
+#text=When it is my turn , I place the books on the counter for the person to scan .
+7-1	When	O	O	_	_	
+7-2	it	O	O	_	_	
+7-3	is	O	B-UnrelEv	_	_	
+7-4	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-10	
+7-5	turn	O	O	_	_	
+7-6	,	O	O	_	_	
+7-7	I	O	O	_	_	
+7-8	place	O	B-MissScrEv	_	_	
+7-9	the	O	O	_	_	
+7-10	books	B-ScrPart_book	O	webanno.custom.Corefchains_	6-8	
+7-11	on	O	O	_	_	
+7-12	the	O	O	_	_	
+7-13	counter	B-ScrPart_check-out_desk	O	webanno.custom.Corefchains_	6-16	
+7-14	for	O	O	_	_	
+7-15	the	O	O	_	_	
+7-16	person	B-ScrPart_staff	O	_	_	
+7-17	to	O	O	_	_	
+7-18	scan	O	B-ScrEv_register	_	_	
+7-19	.	O	O	_	_	
+
+#id=8
+#text=I also have to give them my library card so that they can keep track of who is borrowing the books .
+8-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-4	
+8-2	also	O	O	_	_	
+8-3	have	O	O	_	_	
+8-4	to	O	O	_	_	
+8-5	give	O	B-ScrEv_show_card	_	_	
+8-6	them	B-ScrPart_staff	O	webanno.custom.Corefchains_	7-16	
+8-7	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-1	
+8-8	library	B-ScrPart_library_card	O	_	_	
+8-9	card	I-ScrPart_library_card|B-ScrPart_library_card	O	_	_	
+8-10	so	O	O	_	_	
+8-11	that	O	O	_	_	
+8-12	they	B-ScrPart_staff	O	webanno.custom.Corefchains_	8-6	
+8-13	can	O	O	_	_	
+8-14	keep	O	B-UnrelEv	_	_	
+8-15	track	O	O	_	_	
+8-16	of	O	O	_	_	
+8-17	who	O	O	_	_	
+8-18	is	O	O	_	_	
+8-19	borrowing	O	B-Evoking	_	_	
+8-20	the	O	O	_	_	
+8-21	books	B-ScrPart_book	O	webanno.custom.Corefchains_	7-10	
+8-22	.	O	O	_	_	
+
+#id=9
+#text=They scan my card , and then print out a receipt that shows when my books will each be due .
+9-1	They	B-ScrPart_staff	O	webanno.custom.Corefchains_	8-12	
+9-2	scan	O	B-MissScrEv	_	_	
+9-3	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-7	
+9-4	card	B-ScrPart_library_card	O	_	_	
+9-5	,	O	O	_	_	
+9-6	and	O	O	_	_	
+9-7	then	O	O	_	_	
+9-8	print	O	B-MissScrEv|B-MissScrEv	_	_	
+9-9	out	O	I-MissScrEv	_	_	
+9-10	a	O	O	_	_	
+9-11	receipt	B-ScrPart_receipt	O	_	_	
+9-12	that	O	O	_	_	
+9-13	shows	O	B-UnrelEv	_	_	
+9-14	when	O	O	_	_	
+9-15	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-3	
+9-16	books	B-ScrPart_book	O	webanno.custom.Corefchains_	8-21	
+9-17	will	O	O	_	_	
+9-18	each	O	O	_	_	
+9-19	be	O	B-UnrelEv	_	_	
+9-20	due	O	O	_	_	
+9-21	.	O	O	_	_	
+
+#id=10
+#text=They put the receipt inside one of the books so that I wo n't lose it , and after I thank them for their help , I head home to begin reading my new books . 
+10-1	They	B-ScrPart_staff	O	webanno.custom.Corefchains_	9-1	
+10-2	put	O	B-UnrelEv	_	_	
+10-3	the	O	O	_	_	
+10-4	receipt	B-ScrPart_receipt	O	webanno.custom.Corefchains_	9-11	
+10-5	inside	O	O	_	_	
+10-6	one	O	O	_	_	
+10-7	of	O	O	_	_	
+10-8	the	O	O	_	_	
+10-9	books	B-ScrPart_book	O	webanno.custom.Corefchains_	9-16	
+10-10	so	O	O	_	_	
+10-11	that	O	O	_	_	
+10-12	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-15	
+10-13	wo	O	O	_	_	
+10-14	n't	O	O	_	_	
+10-15	lose	O	B-UnrelEv	_	_	
+10-16	it	O	O	_	_	
+10-17	,	O	O	_	_	
+10-18	and	O	O	_	_	
+10-19	after	O	O	_	_	
+10-20	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	10-12	
+10-21	thank	O	B-RelNScrEv	_	_	
+10-22	them	B-ScrPart_staff	O	webanno.custom.Corefchains_	10-1	
+10-23	for	O	O	_	_	
+10-24	their	B-ScrPart_staff	O	webanno.custom.Corefchains_	10-22	
+10-25	help	O	O	_	_	
+10-26	,	O	O	_	_	
+10-27	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	10-20	
+10-28	head	O	B-UnrelEv	_	_	
+10-29	home	O	O	_	_	
+10-30	to	O	O	_	_	
+10-31	begin	O	B-UnrelEv	_	_	
+10-32	reading	O	B-RelNScrEv	_	_	
+10-33	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	10-27	
+10-34	new	O	O	_	_	
+10-35	books	B-ScrPart_book	O	webanno.custom.Corefchains_	10-9	
+10-36	.	O	O	_	_	
+

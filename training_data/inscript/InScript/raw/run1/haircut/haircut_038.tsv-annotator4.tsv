@@ -1,0 +1,205 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I had a job interview coming up in a couple days .
+1-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-7	
+1-2	had	O	O	_	_	
+1-3	a	O	O	_	_	
+1-4	job	O	O	_	_	
+1-5	interview	O	O	_	_	
+1-6	coming	O	B-UnrelEv	_	_	
+1-7	up	O	I-UnrelEv	_	_	
+1-8	in	O	O	_	_	
+1-9	a	O	O	_	_	
+1-10	couple	O	O	_	_	
+1-11	days	O	O	_	_	
+1-12	.	O	O	_	_	
+
+#id=2
+#text=After filling out so many applications I noticed that my hair was getting very long .
+2-1	After	O	O	_	_	
+2-2	filling	O	B-UnrelEv	_	_	
+2-3	out	O	I-UnrelEv	_	_	
+2-4	so	O	O	_	_	
+2-5	many	O	O	_	_	
+2-6	applications	O	O	_	_	
+2-7	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-10	
+2-8	noticed	O	B-UnrelEv	_	_	
+2-9	that	O	O	_	_	
+2-10	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-2	
+2-11	hair	B-ScrPart_hair	O	webanno.custom.Corefchains_	3-9	
+2-12	was	O	O	_	_	
+2-13	getting	O	B-RelNScrEv	_	_	
+2-14	very	O	O	_	_	
+2-15	long	O	O	_	_	
+2-16	.	O	O	_	_	
+
+#id=3
+#text=So I ended up deciding to get my hair cut in order to look good for the upcoming interview .
+3-1	So	O	O	_	_	
+3-2	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-8	
+3-3	ended	O	B-UnrelEv	_	_	
+3-4	up	O	I-UnrelEv	_	_	
+3-5	deciding	O	B-UnrelEv	_	_	
+3-6	to	O	O	_	_	
+3-7	get	O	B-Evoking	_	_	
+3-8	my	B-ScrPart_customer	I-Evoking	webanno.custom.Corefchains_	4-1	
+3-9	hair	B-ScrPart_hair	I-Evoking	webanno.custom.Corefchains_	8-13	
+3-10	cut	O	I-Evoking	_	_	
+3-11	in	O	O	_	_	
+3-12	order	O	O	_	_	
+3-13	to	O	O	_	_	
+3-14	look	O	B-RelNScrEv	_	_	
+3-15	good	O	O	_	_	
+3-16	for	O	O	_	_	
+3-17	the	O	O	_	_	
+3-18	upcoming	O	B-UnrelEv	_	_	
+3-19	interview	O	O	_	_	
+3-20	.	O	O	_	_	
+
+#id=4
+#text=I got in the care in the early afternoon and drove off to my usual barber .
+4-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-14	
+4-2	got	O	B-???	_	_	
+4-3	in	O	O	_	_	
+4-4	the	O	O	_	_	
+4-5	care	B-???	O	_	_	
+4-6	in	O	O	_	_	
+4-7	the	O	O	_	_	
+4-8	early	O	O	_	_	
+4-9	afternoon	B-ScrPart_time/date	O	_	_	
+4-10	and	O	O	_	_	
+4-11	drove	O	B-ScrEv_get_salon	_	_	
+4-12	off	O	I-ScrEv_get_salon	_	_	
+4-13	to	O	O	_	_	
+4-14	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-1	
+4-15	usual	O	O	_	_	
+4-16	barber	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	5-7	
+4-17	.	O	O	_	_	
+
+#id=5
+#text=I have been going to this barber for the last 5 years , and never had a problem .
+5-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-2	
+5-2	have	O	O	_	_	
+5-3	been	O	O	_	_	
+5-4	going	O	B-Evoking	_	_	
+5-5	to	O	I-Evoking	_	_	
+5-6	this	O	I-Evoking	_	_	
+5-7	barber	B-ScrPart_hairdresser	I-Evoking	webanno.custom.Corefchains_	6-16	
+5-8	for	O	O	_	_	
+5-9	the	O	O	_	_	
+5-10	last	O	O	_	_	
+5-11	5	O	O	_	_	
+5-12	years	O	O	_	_	
+5-13	,	O	O	_	_	
+5-14	and	O	O	_	_	
+5-15	never	O	O	_	_	
+5-16	had	O	B-UnrelEv	_	_	
+5-17	a	O	O	_	_	
+5-18	problem	O	O	_	_	
+5-19	.	O	O	_	_	
+
+#id=6
+#text=Once I arrived for the appointment , I sat down on the chair and told her I wanted the usual .
+6-1	Once	O	O	_	_	
+6-2	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-8	
+6-3	arrived	O	B-ScrEv_enter	_	_	
+6-4	for	O	O	_	_	
+6-5	the	O	O	_	_	
+6-6	appointment	B-ScrPart_appointment	O	_	_	
+6-7	,	O	O	_	_	
+6-8	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-17	
+6-9	sat	O	B-ScrEv_sit_down	_	_	
+6-10	down	O	I-ScrEv_sit_down	_	_	
+6-11	on	O	O	_	_	
+6-12	the	O	O	_	_	
+6-13	chair	B-ScrPart_chair	O	_	_	
+6-14	and	O	O	_	_	
+6-15	told	O	B-ScrEv_talk_haircut	_	_	
+6-16	her	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	7-1	
+6-17	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-8	
+6-18	wanted	O	B-ScrEv_talk_haircut	_	_	
+6-19	the	O	O	_	_	
+6-20	usual	B-???	O	_	_	
+6-21	.	O	O	_	_	
+
+#id=7
+#text=She asked what the occasion was and I told her that I had a job interview in a couple days .
+7-1	She	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	7-10	
+7-2	asked	O	B-ScrEv_small_talk	_	_	
+7-3	what	O	O	_	_	
+7-4	the	O	O	_	_	
+7-5	occasion	O	O	_	_	
+7-6	was	O	B-UnrelEv	_	_	
+7-7	and	O	O	_	_	
+7-8	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-12	
+7-9	told	O	B-ScrEv_small_talk	_	_	
+7-10	her	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	8-1	
+7-11	that	O	O	_	_	
+7-12	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-3	
+7-13	had	O	B-UnrelEv	_	_	
+7-14	a	O	O	_	_	
+7-15	job	O	O	_	_	
+7-16	interview	O	O	_	_	
+7-17	in	O	O	_	_	
+7-18	a	O	O	_	_	
+7-19	couple	O	O	_	_	
+7-20	days	O	O	_	_	
+7-21	.	O	O	_	_	
+
+#id=8
+#text=She wished me the best of luck while she continued cutting my hair .
+8-1	She	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	8-9	
+8-2	wished	O	B-ScrEv_small_talk	_	_	
+8-3	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-12	
+8-4	the	O	O	_	_	
+8-5	best	O	O	_	_	
+8-6	of	O	O	_	_	
+8-7	luck	B-NPart	O	_	_	
+8-8	while	O	O	_	_	
+8-9	she	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	9-5	
+8-10	continued	O	B-UnrelEv	_	_	
+8-11	cutting	O	B-ScrEv_cut	_	_	
+8-12	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	10-1	
+8-13	hair	B-ScrPart_hair	O	_	_	
+8-14	.	O	O	_	_	
+
+#id=9
+#text=After some conversation , she was done .
+9-1	After	O	O	_	_	
+9-2	some	O	O	_	_	
+9-3	conversation	O	O	_	_	
+9-4	,	O	O	_	_	
+9-5	she	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	10-5	
+9-6	was	O	O	_	_	
+9-7	done	O	B-RelNScrEv	_	_	
+9-8	.	O	O	_	_	
+
+#id=10
+#text=I ended up paying her a good tip considering I felt bad that I did n't get a good hair cut in a long time . 
+10-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	10-10	
+10-2	ended	O	B-UnrelEv	_	_	
+10-3	up	O	I-UnrelEv	_	_	
+10-4	paying	O	B-ScrEv_leave_tip	_	_	
+10-5	her	B-ScrPart_hairdresser	O	_	_	
+10-6	a	O	O	_	_	
+10-7	good	O	O	_	_	
+10-8	tip	B-ScrPart_tip	O	_	_	
+10-9	considering	O	B-UnrelEv	_	_	
+10-10	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	10-14	
+10-11	felt	O	B-UnrelEv	_	_	
+10-12	bad	O	O	_	_	
+10-13	that	O	O	_	_	
+10-14	I	B-ScrPart_customer	O	_	_	
+10-15	did	O	O	_	_	
+10-16	n't	O	O	_	_	
+10-17	get	O	B-Evoking	_	_	
+10-18	a	O	I-Evoking	_	_	
+10-19	good	O	I-Evoking	_	_	
+10-20	hair	B-SuppVComp	I-Evoking	_	_	
+10-21	cut	I-SuppVComp	I-Evoking	_	_	
+10-22	in	O	O	_	_	
+10-23	a	O	O	_	_	
+10-24	long	O	O	_	_	
+10-25	time	O	O	_	_	
+10-26	.	O	O	_	_	
+

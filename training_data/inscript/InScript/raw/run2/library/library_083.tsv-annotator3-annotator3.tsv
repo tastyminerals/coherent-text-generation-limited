@@ -1,0 +1,197 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=The library is a magical place where dreams are made real and fantasies are explored .
+1-1	The	O	O	
+1-2	library	B-ScrPart_library	O	
+1-3	is	O	B-UnrelEv	
+1-4	a	O	O	
+1-5	magical	O	O	
+1-6	place	B-ScrPart_library	O	
+1-7	where	O	O	
+1-8	dreams	B-NPart	O	
+1-9	are	O	O	
+1-10	made	O	B-UnrelEv	
+1-11	real	O	O	
+1-12	and	O	O	
+1-13	fantasies	B-NPart	O	
+1-14	are	O	O	
+1-15	explored	O	B-UnrelEv	
+1-16	.	O	O	
+
+#id=2
+#text=As I walk through the aisles and aisles of books I ca n't imagine what to choose .
+2-1	As	O	O	
+2-2	I	B-ScrPart_customer	O	
+2-3	walk	O	B-UnrelEv|B-UnrelEv	
+2-4	through	O	I-UnrelEv	
+2-5	the	O	O	
+2-6	aisles	B-ScrPart_location_library	O	
+2-7	and	O	O	
+2-8	aisles	B-ScrPart_location_library	O	
+2-9	of	O	O	
+2-10	books	B-ScrPart_book	O	
+2-11	I	B-ScrPart_customer	O	
+2-12	ca	O	O	
+2-13	n't	O	O	
+2-14	imagine	O	B-UnrelEv	
+2-15	what	O	O	
+2-16	to	O	O	
+2-17	choose	O	B-RelNScrEv	
+2-18	.	O	O	
+
+#id=3
+#text=There are so many that my mind ca n't keep up .
+3-1	There	O	O	
+3-2	are	O	B-UnrelEv	
+3-3	so	O	O	
+3-4	many	B-ScrPart_book	O	
+3-5	that	O	O	
+3-6	my	B-ScrPart_customer	O	
+3-7	mind	B-NPart	O	
+3-8	ca	O	O	
+3-9	n't	O	O	
+3-10	keep	O	B-UnrelEv|B-UnrelEv	
+3-11	up	O	I-UnrelEv	
+3-12	.	O	O	
+
+#id=4
+#text=I love to read and I do it daily .
+4-1	I	B-ScrPart_customer	O	
+4-2	love	O	B-UnrelEv	
+4-3	to	O	O	
+4-4	read	O	B-RelNScrEv	
+4-5	and	O	O	
+4-6	I	B-ScrPart_customer	O	
+4-7	do	O	B-UnrelEv	
+4-8	it	B-No_label	O	
+4-9	daily	O	O	
+4-10	.	O	O	
+
+#id=5
+#text=It is my favorite hobby and I spend a majority of my time either at home reading or at the library finding new books to read .
+5-1	It	B-No_label	O	
+5-2	is	O	B-UnrelEv	
+5-3	my	B-ScrPart_customer	O	
+5-4	favorite	O	O	
+5-5	hobby	B-NPart	O	
+5-6	and	O	O	
+5-7	I	B-ScrPart_customer	O	
+5-8	spend	O	B-UnrelEv	
+5-9	a	O	O	
+5-10	majority	B-NPart	O	
+5-11	of	O	O	
+5-12	my	B-ScrPart_customer	O	
+5-13	time	B-NPart	O	
+5-14	either	O	O	
+5-15	at	O	O	
+5-16	home	B-NPart	O	
+5-17	reading	O	B-RelNScrEv	
+5-18	or	O	O	
+5-19	at	O	O	
+5-20	the	O	O	
+5-21	library	B-ScrPart_library	O	
+5-22	finding	O	B-RelNScrEv	
+5-23	new	O	O	
+5-24	books	B-ScrPart_book	O	
+5-25	to	O	O	
+5-26	read	O	B-RelNScrEv	
+5-27	.	O	O	
+
+#id=6
+#text=The best part about the library is not having to buy the books or spend money .
+6-1	The	O	O	
+6-2	best	O	O	
+6-3	part	B-NPart	O	
+6-4	about	O	O	
+6-5	the	O	O	
+6-6	library	B-ScrPart_library	O	
+6-7	is	O	B-UnrelEv	
+6-8	not	O	O	
+6-9	having	O	O	
+6-10	to	O	O	
+6-11	buy	O	B-UnrelEv	
+6-12	the	O	O	
+6-13	books	B-ScrPart_book	O	
+6-14	or	O	O	
+6-15	spend	O	B-UnrelEv	
+6-16	money	B-SuppVComp	O	
+6-17	.	O	O	
+
+#id=7
+#text=You simple give them your card and they let you take the book home for a long enough period to read and bring back .
+7-1	You	B-ScrPart_customer	O	
+7-2	simple	O	O	
+7-3	give	O	B-ScrEv_show_card	
+7-4	them	B-ScrPart_staff	O	
+7-5	your	B-ScrPart_customer	O	
+7-6	card	B-ScrPart_library_card	O	
+7-7	and	O	O	
+7-8	they	B-ScrPart_staff	O	
+7-9	let	O	B-UnrelEv	
+7-10	you	B-ScrPart_customer	O	
+7-11	take	O	B-ScrEv_take_book	
+7-12	the	O	O	
+7-13	book	B-ScrPart_book	O	
+7-14	home	B-No_label	O	
+7-15	for	O	O	
+7-16	a	O	O	
+7-17	long	O	O	
+7-18	enough	O	O	
+7-19	period	B-NPart	O	
+7-20	to	O	O	
+7-21	read	O	B-RelNScrEv	
+7-22	and	O	O	
+7-23	bring	O	B-ScrEv_return_book	
+7-24	back	O	O	
+7-25	.	O	O	
+
+#id=8
+#text=If the book is too long to read then you can simply check it out again and bring it back when you are finished .
+8-1	If	O	O	
+8-2	the	O	O	
+8-3	book	B-ScrPart_book	O	
+8-4	is	O	O	
+8-5	too	O	O	
+8-6	long	O	O	
+8-7	to	O	O	
+8-8	read	O	B-RelNScrEv	
+8-9	then	O	O	
+8-10	you	B-ScrPart_customer	O	
+8-11	can	O	O	
+8-12	simply	O	O	
+8-13	check	O	B-ScrEv_register	
+8-14	it	B-ScrPart_book	O	
+8-15	out	O	O	
+8-16	again	O	O	
+8-17	and	O	O	
+8-18	bring	O	B-ScrEv_return_book	
+8-19	it	B-ScrPart_book	O	
+8-20	back	O	O	
+8-21	when	O	O	
+8-22	you	B-ScrPart_customer	O	
+8-23	are	O	O	
+8-24	finished	O	B-UnrelEv	
+8-25	.	O	O	
+
+#id=9
+#text=As long I keep a good standing with the library I can keep doing this all my life ! 
+9-1	As	O	O	
+9-2	long	O	O	
+9-3	I	B-ScrPart_customer	O	
+9-4	keep	O	B-UnrelEv	
+9-5	a	O	O	
+9-6	good	O	O	
+9-7	standing	B-No_label	O	
+9-8	with	O	O	
+9-9	the	O	O	
+9-10	library	B-ScrPart_library	O	
+9-11	I	B-ScrPart_customer	O	
+9-12	can	O	O	
+9-13	keep	O	B-UnrelEv	
+9-14	doing	O	B-UnrelEv	
+9-15	this	O	O	
+9-16	all	O	O	
+9-17	my	B-ScrPart_customer	O	
+9-18	life	B-NPart	O	
+9-19	!	O	O	
+

@@ -1,0 +1,190 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=In a few weeks , places around the world will be celebrating Earth Day , a global event promoting environment protection .
+1-1	In	O	O	_	_	
+1-2	a	O	O	_	_	
+1-3	few	O	O	_	_	
+1-4	weeks	O	O	_	_	
+1-5	,	O	O	_	_	
+1-6	places	O	O	_	_	
+1-7	around	O	O	_	_	
+1-8	the	O	O	_	_	
+1-9	world	O	O	_	_	
+1-10	will	O	O	_	_	
+1-11	be	O	O	_	_	
+1-12	celebrating	B-UnrelEv	O	_	_	
+1-13	Earth	O	O	_	_	
+1-14	Day	O	O	_	_	
+1-15	,	O	O	_	_	
+1-16	a	O	O	_	_	
+1-17	global	O	O	_	_	
+1-18	event	O	O	_	_	
+1-19	promoting	O	O	_	_	
+1-20	environment	O	O	_	_	
+1-21	protection	O	O	_	_	
+1-22	.	O	O	_	_	
+
+#id=2
+#text=I will , as I do every year , meet up with some friends who live close by and spend the day at the park .
+2-1	I	O	B-ScrPart_gardener	_	_	
+2-2	will	O	O	_	_	
+2-3	,	O	O	_	_	
+2-4	as	O	O	_	_	
+2-5	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	2-1	
+2-6	do	B-UnrelEv	O	_	_	
+2-7	every	O	O	_	_	
+2-8	year	O	O	_	_	
+2-9	,	O	O	_	_	
+2-10	meet	B-UnrelEv|B-UnrelEv	O	_	_	
+2-11	up	I-UnrelEv	O	_	_	
+2-12	with	O	O	_	_	
+2-13	some	O	O	_	_	
+2-14	friends	O	B-ScrPart_gardener	group_I_friends	2-5	
+2-15	who	O	O	_	_	
+2-16	live	B-UnrelEv	O	_	_	
+2-17	close	O	O	_	_	
+2-18	by	O	O	_	_	
+2-19	and	O	O	_	_	
+2-20	spend	B-UnrelEv	O	_	_	
+2-21	the	O	O	_	_	
+2-22	day	O	O	_	_	
+2-23	at	O	O	_	_	
+2-24	the	O	O	_	_	
+2-25	park	O	O	_	_	
+2-26	.	O	O	_	_	
+
+#id=3
+#text=We will have a picnic , eat some food and drink a few beers , play frisbee and toss around a football and at some point , we will plant trees off to the side of the park .
+3-1	We	O	B-ScrPart_gardener	group_I_friends	2-14	
+3-2	will	O	O	_	_	
+3-3	have	B-UnrelEv	O	_	_	
+3-4	a	O	O	_	_	
+3-5	picnic	O	O	_	_	
+3-6	,	O	O	_	_	
+3-7	eat	B-UnrelEv	O	_	_	
+3-8	some	O	O	_	_	
+3-9	food	O	O	_	_	
+3-10	and	O	O	_	_	
+3-11	drink	B-UnrelEv	O	_	_	
+3-12	a	O	O	_	_	
+3-13	few	O	O	_	_	
+3-14	beers	O	O	_	_	
+3-15	,	O	O	_	_	
+3-16	play	B-UnrelEv	O	_	_	
+3-17	frisbee	O	O	_	_	
+3-18	and	O	O	_	_	
+3-19	toss	B-UnrelEv	O	_	_	
+3-20	around	O	O	_	_	
+3-21	a	O	O	_	_	
+3-22	football	O	O	_	_	
+3-23	and	O	O	_	_	
+3-24	at	O	O	_	_	
+3-25	some	O	O	_	_	
+3-26	point	O	O	_	_	
+3-27	,	O	O	_	_	
+3-28	we	O	B-ScrPart_gardener	webanno.custom.Corefchains_	3-1	
+3-29	will	O	O	_	_	
+3-30	plant	B-Evoking	O	_	_	
+3-31	trees	I-Evoking	B-ScrPart_tree	_	_	
+3-32	off	O	O	_	_	
+3-33	to	O	O	_	_	
+3-34	the	O	O	_	_	
+3-35	side	O	O	_	_	
+3-36	of	O	O	_	_	
+3-37	the	O	O	_	_	
+3-38	park	O	O	_	_	
+3-39	.	O	O	_	_	
+
+#id=4
+#text=We will plant these trees in an effort to promote environmental sustainability , and to do our part as one in a millions ' chance to help the environment .
+4-1	We	O	B-ScrPart_gardener	webanno.custom.Corefchains_	3-28	
+4-2	will	O	O	_	_	
+4-3	plant	B-Evoking	O	_	_	
+4-4	these	I-Evoking	O	_	_	
+4-5	trees	I-Evoking	B-ScrPart_tree	webanno.custom.Corefchains_	3-31	
+4-6	in	O	O	_	_	
+4-7	an	O	O	_	_	
+4-8	effort	O	O	_	_	
+4-9	to	O	O	_	_	
+4-10	promote	B-RelNScrEv	O	_	_	
+4-11	environmental	O	O	_	_	
+4-12	sustainability	O	O	_	_	
+4-13	,	O	O	_	_	
+4-14	and	O	O	_	_	
+4-15	to	O	O	_	_	
+4-16	do	O	O	_	_	
+4-17	our	O	B-ScrPart_gardener	webanno.custom.Corefchains_	4-1	
+4-18	part	O	O	_	_	
+4-19	as	O	O	_	_	
+4-20	one	O	O	_	_	
+4-21	in	O	O	_	_	
+4-22	a	O	O	_	_	
+4-23	millions	O	O	_	_	
+4-24	'	O	O	_	_	
+4-25	chance	O	O	_	_	
+4-26	to	O	O	_	_	
+4-27	help	B-RelNScrEv	O	_	_	
+4-28	the	O	O	_	_	
+4-29	environment	O	O	_	_	
+4-30	.	O	O	_	_	
+
+#id=5
+#text=Damage is being caused to the environment and local ecosystems at an alarming rate and we should all join together to do what we can in promoting awareness and getting the word out that we need to change our ways to help protect our environment .
+5-1	Damage	O	O	_	_	
+5-2	is	O	O	_	_	
+5-3	being	O	O	_	_	
+5-4	caused	B-UnrelEv	O	_	_	
+5-5	to	O	O	_	_	
+5-6	the	O	O	_	_	
+5-7	environment	O	O	_	_	
+5-8	and	O	O	_	_	
+5-9	local	O	O	_	_	
+5-10	ecosystems	O	O	_	_	
+5-11	at	O	O	_	_	
+5-12	an	O	O	_	_	
+5-13	alarming	O	O	_	_	
+5-14	rate	O	O	_	_	
+5-15	and	O	O	_	_	
+5-16	we	O	B-ScrPart_gardener	webanno.custom.Corefchains_	4-17	
+5-17	should	O	O	_	_	
+5-18	all	O	O	_	_	
+5-19	join	B-UnrelEv|B-UnrelEv	O	_	_	
+5-20	together	I-UnrelEv	O	_	_	
+5-21	to	O	O	_	_	
+5-22	do	B-UnrelEv	O	_	_	
+5-23	what	O	O	_	_	
+5-24	we	O	B-ScrPart_gardener	webanno.custom.Corefchains_	5-16	
+5-25	can	O	O	_	_	
+5-26	in	O	O	_	_	
+5-27	promoting	B-UnrelEv	O	_	_	
+5-28	awareness	O	O	_	_	
+5-29	and	O	O	_	_	
+5-30	getting	B-UnrelEv	O	_	_	
+5-31	the	O	O	_	_	
+5-32	word	O	O	_	_	
+5-33	out	O	O	_	_	
+5-34	that	O	O	_	_	
+5-35	we	O	B-ScrPart_gardener	webanno.custom.Corefchains_	5-24	
+5-36	need	O	O	_	_	
+5-37	to	O	O	_	_	
+5-38	change	B-UnrelEv	O	_	_	
+5-39	our	O	B-ScrPart_gardener	webanno.custom.Corefchains_	5-35	
+5-40	ways	O	O	_	_	
+5-41	to	O	O	_	_	
+5-42	help	B-UnrelEv	O	_	_	
+5-43	protect	B-UnrelEv	O	_	_	
+5-44	our	O	B-ScrPart_gardener	webanno.custom.Corefchains_	5-39	
+5-45	environment	O	O	_	_	
+5-46	.	O	O	_	_	
+
+#id=6
+#text=Planting a tree is my small contribution . 
+6-1	Planting	B-Evoking	O	_	_	
+6-2	a	I-Evoking	O	_	_	
+6-3	tree	I-Evoking	B-ScrPart_tree	webanno.custom.Corefchains_	4-5	
+6-4	is	O	O	_	_	
+6-5	my	O	B-ScrPart_gardener	webanno.custom.Corefchains_	2-5	
+6-6	small	O	O	_	_	
+6-7	contribution	O	O	_	_	
+6-8	.	O	O	_	_	
+

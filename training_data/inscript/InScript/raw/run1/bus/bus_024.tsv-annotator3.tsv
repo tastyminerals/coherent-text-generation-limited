@@ -1,0 +1,219 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Eventsandparticipants | Event # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I wanted to go to San Francisco from my home in San Jose and I did n't feel like driving .
+1-1	I	B-ScrPart_passenger	O	_	_	
+1-2	wanted	O	B-UnrelEv	_	_	
+1-3	to	O	O	_	_	
+1-4	go	O	B-UnrelEv	_	_	
+1-5	to	O	O	_	_	
+1-6	San	B-ScrPart_destination	O	_	_	
+1-7	Francisco	I-ScrPart_destination	O	_	_	
+1-8	from	O	O	_	_	
+1-9	my	O	O	_	_	
+1-10	home	O	O	_	_	
+1-11	in	O	O	_	_	
+1-12	San	O	O	_	_	
+1-13	Jose	O	O	_	_	
+1-14	and	O	O	_	_	
+1-15	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-1	
+1-16	did	O	O	_	_	
+1-17	n't	O	O	_	_	
+1-18	feel	O	B-UnrelEv	_	_	
+1-19	like	O	O	_	_	
+1-20	driving	O	B-UnrelEv	_	_	
+1-21	.	O	O	_	_	
+
+#id=2
+#text=I looked online and found a bus route from here to there that was leaving in just about 30 minutes .
+2-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-15	
+2-2	looked	O	B-MissScrEv	_	_	
+2-3	online	B-SuppVComp	O	_	_	
+2-4	and	O	O	_	_	
+2-5	found	O	B-Evoking	_	_	
+2-6	a	O	I-Evoking	_	_	
+2-7	bus	B-MissScrPart	I-Evoking	_	_	
+2-8	route	I-MissScrPart|B-MissScrPart	I-Evoking	_	_	
+2-9	from	O	O	_	_	
+2-10	here	O	O	_	_	
+2-11	to	O	O	_	_	
+2-12	there	O	O	_	_	
+2-13	that	O	O	_	_	
+2-14	was	O	O	_	_	
+2-15	leaving	O	B-RelNScrEv	_	_	
+2-16	in	O	O	_	_	
+2-17	just	O	O	_	_	
+2-18	about	O	O	_	_	
+2-19	30	O	O	_	_	
+2-20	minutes	B-ScrPart_time/date	O	_	_	
+2-21	.	O	O	_	_	
+
+#id=3
+#text=I walked out of my house to the bus stop and got on it .
+3-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-1	
+3-2	walked	O	B-ScrEv_get_bus_stop|B-ScrEv_get_bus_stop	_	_	
+3-3	out	O	I-ScrEv_get_bus_stop	_	_	
+3-4	of	O	O	_	_	
+3-5	my	O	O	_	_	
+3-6	house	B-NPart	O	_	_	
+3-7	to	O	O	_	_	
+3-8	the	O	O	_	_	
+3-9	bus	B-ScrPart_bus_stop	O	_	_	
+3-10	stop	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	_	_	
+3-11	and	O	O	_	_	
+3-12	got	O	B-ScrEv_board_bus|B-ScrEv_board_bus	_	_	
+3-13	on	O	I-ScrEv_board_bus	_	_	
+3-14	it	B-ScrPart_bus	O	_	_	
+3-15	.	O	O	_	_	
+
+#id=4
+#text=It was a very empty bus and I stared out of the window at the scenery .
+4-1	It	B-ScrPart_bus	O	webanno.custom.Corefchains_	3-14	
+4-2	was	O	B-UnrelEv	_	_	
+4-3	a	O	O	_	_	
+4-4	very	O	O	_	_	
+4-5	empty	O	O	_	_	
+4-6	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	4-1	
+4-7	and	O	O	_	_	
+4-8	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-1	
+4-9	stared	O	B-ScrEv_spend_time_bus	_	_	
+4-10	out	O	O	_	_	
+4-11	of	O	O	_	_	
+4-12	the	O	O	_	_	
+4-13	window	B-MissScrPart	O	_	_	
+4-14	at	O	O	_	_	
+4-15	the	O	O	_	_	
+4-16	scenery	B-NPart	O	_	_	
+4-17	.	O	O	_	_	
+
+#id=5
+#text=The bus driver was very nice and asked me how my day was .
+5-1	The	O	O	_	_	
+5-2	bus	B-ScrPart_bus_staff	O	_	_	
+5-3	driver	I-ScrPart_bus_staff|B-ScrPart_bus_staff	O	_	_	
+5-4	was	O	B-UnrelEv	_	_	
+5-5	very	O	O	_	_	
+5-6	nice	O	O	_	_	
+5-7	and	O	O	_	_	
+5-8	asked	O	B-UnrelEv	_	_	
+5-9	me	B-ScrPart_passenger	O	webanno.custom.Corefchains_|group_I_driver	4-8|5-3	
+5-10	how	O	O	_	_	
+5-11	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-9	
+5-12	day	O	O	_	_	
+5-13	was	O	O	_	_	
+5-14	.	O	O	_	_	
+
+#id=6
+#text=We spoke for the whole entire ride and after a short time , we arrived into San Francisco .
+6-1	We	B-???	O	group_I_driver	5-9	
+6-2	spoke	O	B-ScrEv_spend_time_bus	_	_	
+6-3	for	O	O	_	_	
+6-4	the	O	O	_	_	
+6-5	whole	O	O	_	_	
+6-6	entire	O	O	_	_	
+6-7	ride	B-MissScrPart	O	_	_	
+6-8	and	O	O	_	_	
+6-9	after	O	O	_	_	
+6-10	a	O	O	_	_	
+6-11	short	O	O	_	_	
+6-12	time	B-ScrPart_time/date	O	_	_	
+6-13	,	O	O	_	_	
+6-14	we	B-ScrPart_bus	O	webanno.custom.Corefchains_	4-6	
+6-15	arrived	O	B-RelNScrEv	_	_	
+6-16	into	O	O	_	_	
+6-17	San	B-ScrPart_destination	O	webanno.custom.Corefchains_	1-6	
+6-18	Francisco	I-ScrPart_destination	O	webanno.custom.Corefchains_	1-6	
+6-19	.	O	O	_	_	
+
+#id=7
+#text=It was very pleasant not having to drive and it was a very smooth ride on the bus .
+7-1	It	O	O	_	_	
+7-2	was	O	B-UnrelEv	_	_	
+7-3	very	O	O	_	_	
+7-4	pleasant	O	O	_	_	
+7-5	not	O	O	_	_	
+7-6	having	O	O	_	_	
+7-7	to	O	O	_	_	
+7-8	drive	O	B-UnrelEv	_	_	
+7-9	and	O	O	_	_	
+7-10	it	O	O	_	_	
+7-11	was	O	B-UnrelEv	_	_	
+7-12	a	O	O	_	_	
+7-13	very	O	O	_	_	
+7-14	smooth	O	O	_	_	
+7-15	ride	B-MissScrPart	O	webanno.custom.Corefchains_	6-7	
+7-16	on	O	O	_	_	
+7-17	the	O	O	_	_	
+7-18	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	6-14	
+7-19	.	O	O	_	_	
+
+#id=8
+#text=Luckily , there was n't much traffic so we got there in a very short time frame .
+8-1	Luckily	O	O	_	_	
+8-2	,	O	O	_	_	
+8-3	there	O	O	_	_	
+8-4	was	O	B-UnrelEv	_	_	
+8-5	n't	O	O	_	_	
+8-6	much	O	O	_	_	
+8-7	traffic	O	O	_	_	
+8-8	so	O	O	_	_	
+8-9	we	B-ScrPart_bus	O	webanno.custom.Corefchains_	7-18	
+8-10	got	O	B-RelNScrEv	_	_	
+8-11	there	B-ScrPart_destination	O	webanno.custom.Corefchains_	6-17	
+8-12	in	O	O	_	_	
+8-13	a	O	O	_	_	
+8-14	very	O	O	_	_	
+8-15	short	O	O	_	_	
+8-16	time	B-ScrPart_time/date	O	_	_	
+8-17	frame	I-ScrPart_time/date|B-ScrPart_time/date	O	_	_	
+8-18	.	O	O	_	_	
+
+#id=9
+#text=After getting to the bus stop , the driver opened his doors for me and wished me a great day .
+9-1	After	O	O	_	_	
+9-2	getting	O	B-RelNScrEv|B-RelNScrEv	_	_	
+9-3	to	O	I-RelNScrEv	_	_	
+9-4	the	O	O	_	_	
+9-5	bus	B-ScrPart_bus_stop	O	_	_	
+9-6	stop	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	_	_	
+9-7	,	O	O	_	_	
+9-8	the	O	O	_	_	
+9-9	driver	B-ScrPart_bus_staff	O	webanno.custom.Corefchains_	5-3	
+9-10	opened	O	B-ScrEv_door_opens	_	_	
+9-11	his	B-ScrPart_bus_staff	O	webanno.custom.Corefchains_	9-9	
+9-12	doors	B-ScrPart_door	O	_	_	
+9-13	for	O	O	_	_	
+9-14	me	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-11	
+9-15	and	O	O	_	_	
+9-16	wished	O	B-RelNScrEv	_	_	
+9-17	me	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-14	
+9-18	a	O	O	_	_	
+9-19	great	O	O	_	_	
+9-20	day	B-NPart	O	_	_	
+9-21	.	O	O	_	_	
+
+#id=10
+#text=I did the same and stepped off of the bus .
+10-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-17	
+10-2	did	O	B-RelNScrEv	_	_	
+10-3	the	O	O	_	_	
+10-4	same	B-NPart	O	_	_	
+10-5	and	O	O	_	_	
+10-6	stepped	O	B-ScrEv_get_off|B-ScrEv_get_off	_	_	
+10-7	off	O	I-ScrEv_get_off	_	_	
+10-8	of	O	O	_	_	
+10-9	the	O	O	_	_	
+10-10	bus	B-ScrPart_bus	O	_	_	
+10-11	.	O	O	_	_	
+
+#id=11
+#text=it was a very easy and fun experience . 
+11-1	it	O	O	_	_	
+11-2	was	O	B-UnrelEv	_	_	
+11-3	a	O	O	_	_	
+11-4	very	O	O	_	_	
+11-5	easy	O	O	_	_	
+11-6	and	O	O	_	_	
+11-7	fun	O	O	_	_	
+11-8	experience	O	O	_	_	
+11-9	.	O	O	_	_	
+

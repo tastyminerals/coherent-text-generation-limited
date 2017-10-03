@@ -1,0 +1,262 @@
+ # webanno.custom.Participants | Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=When I baked a cake , I got my dishes out from the cupboard in my kitchen .
+1-1	When	O	O	O	
+1-2	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+1-3	baked	O	O	B-Evoking	
+1-4	a	O	O	I-Evoking	
+1-5	cake	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	
+1-6	,	O	O	O	
+1-7	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+1-8	got	O	O	B-ScrEv_get_utensils	
+1-9	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+1-10	dishes	B-ScrPart_utensil	B-webanno.custom.Participants_	O	
+1-11	out	O	O	O	
+1-12	from	O	O	O	
+1-13	the	O	O	O	
+1-14	cupboard	B-ScrPart_cabinet	B-webanno.custom.Participants_	O	
+1-15	in	O	O	O	
+1-16	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+1-17	kitchen	B-ScrPart_kitchen/location	B-webanno.custom.Participants_	O	
+1-18	.	O	O	O	
+
+#id=2
+#text=I laid out all the dishes and ingredients needed to bake my cake .
+2-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+2-2	laid	O	O	B-ScrEv_other|B-ScrEv_other	
+2-3	out	O	O	I-ScrEv_other	
+2-4	all	O	O	O	
+2-5	the	O	O	O	
+2-6	dishes	B-ScrPart_utensil	B-webanno.custom.Participants_	O	
+2-7	and	O	O	O	
+2-8	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+2-9	needed	O	O	B-UnrelEv	
+2-10	to	O	O	O	
+2-11	bake	O	O	B-Evoking	
+2-12	my	B-ScrPart_cook	B-webanno.custom.Participants_	I-Evoking	
+2-13	cake	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	
+2-14	.	O	O	O	
+
+#id=3
+#text=After preheating the dishes and preheating the oven to a set temperature , I started on making my frosting .
+3-1	After	O	O	O	
+3-2	preheating	O	O	B-UnrelEv	
+3-3	the	O	O	O	
+3-4	dishes	B-ScrPart_utensil	B-webanno.custom.Participants_	O	
+3-5	and	O	O	O	
+3-6	preheating	O	O	B-ScrEv_preheat	
+3-7	the	O	O	O	
+3-8	oven	B-ScrPart_oven	B-webanno.custom.Participants_	O	
+3-9	to	O	O	O	
+3-10	a	O	O	O	
+3-11	set	O	O	B-UnrelEv	
+3-12	temperature	B-ScrPart_temperature	B-webanno.custom.Participants_	O	
+3-13	,	O	O	O	
+3-14	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+3-15	started	O	O	B-UnrelEv	
+3-16	on	O	O	O	
+3-17	making	O	O	B-ScrEv_prepare_ingredients	
+3-18	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+3-19	frosting	B-ScrPart_decoration	B-webanno.custom.Participants_	O	
+3-20	.	O	O	O	
+
+#id=4
+#text=I broke the eggs and separated the yolks and the whites , and I set up my flour in my pans .
+4-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+4-2	broke	O	O	B-ScrEv_prepare_ingredients	
+4-3	the	O	O	O	
+4-4	eggs	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+4-5	and	O	O	O	
+4-6	separated	O	O	B-ScrEv_prepare_ingredients	
+4-7	the	O	O	O	
+4-8	yolks	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+4-9	and	O	O	O	
+4-10	the	O	O	O	
+4-11	whites	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+4-12	,	O	O	O	
+4-13	and	O	O	O	
+4-14	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+4-15	set	O	O	B-ScrEv_prepare_ingredients	
+4-16	up	O	O	O	
+4-17	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+4-18	flour	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+4-19	in	O	O	O	
+4-20	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+4-21	pans	B-ScrPart_utensil	B-webanno.custom.Participants_	O	
+4-22	.	O	O	O	
+
+#id=5
+#text=I then went on to making and mixing my frosting and my batter in their respective bowls .
+5-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+5-2	then	O	O	O	
+5-3	went	O	O	B-UnrelEv|B-UnrelEv	
+5-4	on	O	O	I-UnrelEv	
+5-5	to	O	O	O	
+5-6	making	O	O	B-ScrEv_prepare_ingredients	
+5-7	and	O	O	O	
+5-8	mixing	O	O	B-ScrEv_prepare_ingredients	
+5-9	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+5-10	frosting	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+5-11	and	O	O	O	
+5-12	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+5-13	batter	B-ScrPart_dough	B-webanno.custom.Participants_	O	
+5-14	in	O	O	O	
+5-15	their	B-NPart	B-webanno.custom.Participants_	O	
+5-16	respective	O	O	O	
+5-17	bowls	B-ScrPart_utensil	B-webanno.custom.Participants_	O	
+5-18	.	O	O	O	
+
+#id=6
+#text=The batter was finished and then placed into the baking pan for about the next half hour .
+6-1	The	O	O	O	
+6-2	batter	B-ScrPart_dough	B-webanno.custom.Participants_	O	
+6-3	was	O	O	O	
+6-4	finished	O	O	B-ScrEv_make_dough	
+6-5	and	O	O	O	
+6-6	then	O	O	O	
+6-7	placed	O	O	B-ScrEv_pour_dough	
+6-8	into	O	O	O	
+6-9	the	O	O	O	
+6-10	baking	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	
+6-11	pan	I-ScrPart_cake_tin|B-ScrPart_cake_tin	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+6-12	for	O	O	O	
+6-13	about	O	O	O	
+6-14	the	O	O	O	
+6-15	next	O	O	O	
+6-16	half	B-No_label	B-webanno.custom.Participants_	O	
+6-17	hour	B-ScrPart_time	B-webanno.custom.Participants_	O	
+6-18	.	O	O	O	
+
+#id=7
+#text=After the oven timer went off , I checked on the way the batter had risen and settled , and found that my cake was ready to be decorated with the frosting .
+7-1	After	O	O	O	
+7-2	the	O	O	O	
+7-3	oven	B-ScrPart_timer	B-webanno.custom.Participants_	O	
+7-4	timer	I-ScrPart_timer|B-ScrPart_timer	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+7-5	went	O	O	B-ScrEv_other|B-ScrEv_other	
+7-6	off	O	O	I-ScrEv_other	
+7-7	,	O	O	O	
+7-8	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+7-9	checked	O	O	B-ScrEv_check	
+7-10	on	O	O	O	
+7-11	the	O	O	O	
+7-12	way	B-NPart	B-webanno.custom.Participants_	O	
+7-13	the	O	O	O	
+7-14	batter	B-ScrPart_dough	B-webanno.custom.Participants_	O	
+7-15	had	O	O	O	
+7-16	risen	O	O	B-RelNScrEv	
+7-17	and	O	O	O	
+7-18	settled	O	O	B-RelNScrEv	
+7-19	,	O	O	O	
+7-20	and	O	O	O	
+7-21	found	O	O	B-UnrelEv	
+7-22	that	O	O	O	
+7-23	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+7-24	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+7-25	was	O	O	B-UnrelEv	
+7-26	ready	O	O	O	
+7-27	to	O	O	O	
+7-28	be	O	O	O	
+7-29	decorated	O	O	B-ScrEv_decorate	
+7-30	with	O	O	O	
+7-31	the	O	O	O	
+7-32	frosting	B-ScrPart_decoration	B-webanno.custom.Participants_	O	
+7-33	.	O	O	O	
+
+#id=8
+#text=This was meant to be a birthday cake , so I bought festive frosting add-ons to go with my original homemade frosting .
+8-1	This	O	O	O	
+8-2	was	O	O	O	
+8-3	meant	O	O	B-UnrelEv	
+8-4	to	O	O	O	
+8-5	be	O	O	B-UnrelEv	
+8-6	a	O	O	O	
+8-7	birthday	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+8-8	cake	I-ScrPart_cake|B-ScrPart_cake	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+8-9	,	O	O	O	
+8-10	so	O	O	O	
+8-11	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+8-12	bought	O	O	B-ScrEv_get_ingredients	
+8-13	festive	O	O	O	
+8-14	frosting	B-ScrPart_decoration	B-webanno.custom.Participants_	O	
+8-15	add-ons	B-ScrPart_decoration	B-webanno.custom.Participants_	O	
+8-16	to	O	O	O	
+8-17	go	O	O	B-UnrelEv	
+8-18	with	O	O	O	
+8-19	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+8-20	original	O	O	O	
+8-21	homemade	O	O	B-UnrelEv	
+8-22	frosting	B-ScrPart_decoration	B-webanno.custom.Participants_	O	
+8-23	.	O	O	O	
+
+#id=9
+#text=I applied the homemade frosting to the cake first , then squirted the store-bought frosting onto the cake through the funnel .
+9-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+9-2	applied	O	O	B-ScrEv_decorate	
+9-3	the	O	O	O	
+9-4	homemade	O	O	B-UnrelEv	
+9-5	frosting	B-ScrPart_decoration	B-webanno.custom.Participants_	O	
+9-6	to	O	O	O	
+9-7	the	O	O	O	
+9-8	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+9-9	first	O	O	O	
+9-10	,	O	O	O	
+9-11	then	O	O	O	
+9-12	squirted	O	O	B-ScrEv_decorate	
+9-13	the	O	O	O	
+9-14	store-bought	O	O	B-UnrelEv	
+9-15	frosting	B-ScrPart_decoration	B-webanno.custom.Participants_	O	
+9-16	onto	O	O	O	
+9-17	the	O	O	O	
+9-18	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+9-19	through	O	O	O	
+9-20	the	O	O	O	
+9-21	funnel	B-ScrPart_utensil	B-webanno.custom.Participants_	O	
+9-22	.	O	O	O	
+
+#id=10
+#text=I wrote several words on the cake as well to make it more personalized for the person whom the birthday was happening for .
+10-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+10-2	wrote	O	O	B-ScrEv_decorate	
+10-3	several	O	O	O	
+10-4	words	B-NPart	B-webanno.custom.Participants_	O	
+10-5	on	O	O	O	
+10-6	the	O	O	O	
+10-7	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+10-8	as	O	O	O	
+10-9	well	O	O	O	
+10-10	to	O	O	O	
+10-11	make	O	O	B-UnrelEv	
+10-12	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+10-13	more	O	O	O	
+10-14	personalized	O	O	B-UnrelEv	
+10-15	for	O	O	O	
+10-16	the	O	O	O	
+10-17	person	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	
+10-18	whom	O	O	O	
+10-19	the	O	O	O	
+10-20	birthday	B-NPart	B-webanno.custom.Participants_	O	
+10-21	was	O	O	O	
+10-22	happening	O	O	B-UnrelEv	
+10-23	for	O	O	O	
+10-24	.	O	O	O	
+
+#id=11
+#text=I also set aside several candles for the birthday boy to blow out later on . 
+11-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+11-2	also	O	O	O	
+11-3	set	O	O	B-UnrelEv|B-UnrelEv	
+11-4	aside	O	O	I-UnrelEv	
+11-5	several	O	O	O	
+11-6	candles	B-NPart	B-webanno.custom.Participants_	O	
+11-7	for	O	O	O	
+11-8	the	O	O	O	
+11-9	birthday	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	
+11-10	boy	I-ScrPart_beneficiary|B-ScrPart_beneficiary	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+11-11	to	O	O	O	
+11-12	blow	O	O	B-UnrelEv|B-UnrelEv	
+11-13	out	O	O	I-UnrelEv	
+11-14	later	O	O	O	
+11-15	on	O	O	O	
+11-16	.	O	O	O	
+

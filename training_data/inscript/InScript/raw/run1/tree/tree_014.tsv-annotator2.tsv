@@ -1,0 +1,207 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=If you want to plant a tree it is best to get a small sapling .
+1-1	If	O	O	_	_	
+1-2	you	B-ScrPart_gardener	O	_	_	
+1-3	want	O	O	_	_	
+1-4	to	O	O	_	_	
+1-5	plant	O	B-Evoking	_	_	
+1-6	a	O	I-Evoking	_	_	
+1-7	tree	B-ScrPart_tree	I-Evoking	_	_	
+1-8	it	O	O	_	_	
+1-9	is	O	O	_	_	
+1-10	best	O	O	_	_	
+1-11	to	O	O	_	_	
+1-12	get	O	B-ScrEv_get_tree	_	_	
+1-13	a	O	O	_	_	
+1-14	small	O	O	_	_	
+1-15	sapling	B-ScrPart_tree	O	webanno.custom.Corefchains_	1-7	
+1-16	.	O	O	_	_	
+
+#id=2
+#text=Dig yourself a hole and put the saplings root ball in the hole .
+2-1	Dig	O	B-ScrEv_dug_hole	_	_	
+2-2	yourself	B-ScrPart_gardener	O	webanno.custom.Corefchains_	1-2	
+2-3	a	O	O	_	_	
+2-4	hole	B-ScrPart_hole	O	_	_	
+2-5	and	O	O	_	_	
+2-6	put	O	B-ScrEv_place_root	_	_	
+2-7	the	O	O	_	_	
+2-8	saplings	B-ScrPart_tree	O	webanno.custom.Corefchains_	1-15	
+2-9	root	B-ScrPart_root	O	_	_	
+2-10	ball	I-ScrPart_root|B-ScrPart_root	O	_	_	
+2-11	in	O	O	_	_	
+2-12	the	O	O	_	_	
+2-13	hole	B-ScrPart_hole	O	webanno.custom.Corefchains_	2-4	
+2-14	.	O	O	_	_	
+
+#id=3
+#text=You do not want to cut or break the roots when you put it in the ground .
+3-1	You	B-ScrPart_gardener	O	webanno.custom.Corefchains_	2-2	
+3-2	do	O	O	_	_	
+3-3	not	O	O	_	_	
+3-4	want	O	O	_	_	
+3-5	to	O	O	_	_	
+3-6	cut	O	B-UnrelEv	_	_	
+3-7	or	O	O	_	_	
+3-8	break	O	B-UnrelEv	_	_	
+3-9	the	O	O	_	_	
+3-10	roots	B-ScrPart_root	O	webanno.custom.Corefchains_	2-10	
+3-11	when	O	O	_	_	
+3-12	you	B-ScrPart_gardener	O	webanno.custom.Corefchains_	3-1	
+3-13	put	O	B-ScrEv_place_root	_	_	
+3-14	it	B-ScrPart_root	O	webanno.custom.Corefchains_	3-10	
+3-15	in	O	O	_	_	
+3-16	the	O	O	_	_	
+3-17	ground	B-NPart	O	_	_	
+3-18	.	O	O	_	_	
+
+#id=4
+#text=Make sure your hole is big enough but not too deep .
+4-1	Make	O	B-UnrelEv	_	_	
+4-2	sure	O	I-UnrelEv	_	_	
+4-3	your	B-ScrPart_gardener	O	webanno.custom.Corefchains_	3-12	
+4-4	hole	B-ScrPart_hole	O	webanno.custom.Corefchains_	2-13	
+4-5	is	O	B-UnrelEv	_	_	
+4-6	big	O	O	_	_	
+4-7	enough	O	O	_	_	
+4-8	but	O	O	_	_	
+4-9	not	O	O	_	_	
+4-10	too	O	O	_	_	
+4-11	deep	O	O	_	_	
+4-12	.	O	O	_	_	
+
+#id=5
+#text=You also do not want your hole to be too narrow .
+5-1	You	B-ScrPart_gardener	O	webanno.custom.Corefchains_	4-3	
+5-2	also	O	O	_	_	
+5-3	do	O	O	_	_	
+5-4	not	O	O	_	_	
+5-5	want	O	B-UnrelEv	_	_	
+5-6	your	B-ScrPart_gardener	O	webanno.custom.Corefchains_	5-1	
+5-7	hole	B-ScrPart_hole	O	webanno.custom.Corefchains_	4-4	
+5-8	to	O	O	_	_	
+5-9	be	O	B-UnrelEv	_	_	
+5-10	too	O	O	_	_	
+5-11	narrow	O	O	_	_	
+5-12	.	O	O	_	_	
+
+#id=6
+#text=You can remove any dead or dried up roots from the ball .
+6-1	You	B-ScrPart_gardener	O	webanno.custom.Corefchains_	5-6	
+6-2	can	O	O	_	_	
+6-3	remove	O	B-RelNScrEv	_	_	
+6-4	any	O	O	_	_	
+6-5	dead	O	O	_	_	
+6-6	or	O	O	_	_	
+6-7	dried	O	O	_	_	
+6-8	up	O	O	_	_	
+6-9	roots	B-ScrPart_root	O	webanno.custom.Corefchains_	3-14	
+6-10	from	O	O	_	_	
+6-11	the	O	O	_	_	
+6-12	ball	B-ScrPart_root	O	webanno.custom.Corefchains_	6-9	
+6-13	.	O	O	_	_	
+
+#id=7
+#text=You now want to refill with dirt lightly tamping the dirt as you go .
+7-1	You	B-ScrPart_gardener	O	webanno.custom.Corefchains_	6-1	
+7-2	now	O	O	_	_	
+7-3	want	O	O	_	_	
+7-4	to	O	O	_	_	
+7-5	refill	O	B-ScrEv_refill_hole	_	_	
+7-6	with	O	O	_	_	
+7-7	dirt	B-ScrPart_dirt	O	_	_	
+7-8	lightly	O	O	_	_	
+7-9	tamping	O	B-ScrEv_tamp_dirt	_	_	
+7-10	the	O	O	_	_	
+7-11	dirt	B-ScrPart_dirt	O	webanno.custom.Corefchains_	7-7	
+7-12	as	O	O	_	_	
+7-13	you	B-ScrPart_gardener	O	webanno.custom.Corefchains_	7-1	
+7-14	go	O	B-UnrelEv	_	_	
+7-15	.	O	O	_	_	
+
+#id=8
+#text=Make a mound of dirt around the base of the tree with the dirt that no longer fits in the hole .
+8-1	Make	O	B-RelNScrEv	_	_	
+8-2	a	O	O	_	_	
+8-3	mound	B-NPart	O	_	_	
+8-4	of	O	O	_	_	
+8-5	dirt	B-ScrPart_dirt	O	webanno.custom.Corefchains_	7-11	
+8-6	around	O	O	_	_	
+8-7	the	O	O	_	_	
+8-8	base	B-NPart	O	_	_	
+8-9	of	O	O	_	_	
+8-10	the	O	O	_	_	
+8-11	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	2-8	
+8-12	with	O	O	_	_	
+8-13	the	O	O	_	_	
+8-14	dirt	B-ScrPart_dirt	O	webanno.custom.Corefchains_	8-5	
+8-15	that	O	O	_	_	
+8-16	no	O	O	_	_	
+8-17	longer	O	O	_	_	
+8-18	fits	O	B-UnrelEv	_	_	
+8-19	in	O	O	_	_	
+8-20	the	O	O	_	_	
+8-21	hole	B-ScrPart_hole	O	webanno.custom.Corefchains_	5-7	
+8-22	.	O	O	_	_	
+
+#id=9
+#text=Water the tree .
+9-1	Water	O	B-ScrEv_water	_	_	
+9-2	the	O	O	_	_	
+9-3	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	8-11	
+9-4	.	O	O	_	_	
+
+#id=10
+#text=It is a good idea to also add some sort of mulch to protect the dirt from washing away .
+10-1	It	O	O	_	_	
+10-2	is	O	O	_	_	
+10-3	a	O	O	_	_	
+10-4	good	O	O	_	_	
+10-5	idea	O	O	_	_	
+10-6	to	O	O	_	_	
+10-7	also	O	O	_	_	
+10-8	add	O	B-RelNScrEv	_	_	
+10-9	some	O	O	_	_	
+10-10	sort	B-NPart	O	_	_	
+10-11	of	O	O	_	_	
+10-12	mulch	B-NPart	O	_	_	
+10-13	to	O	O	_	_	
+10-14	protect	O	B-UnrelEv	_	_	
+10-15	the	O	O	_	_	
+10-16	dirt	B-ScrPart_dirt	O	webanno.custom.Corefchains_	8-14	
+10-17	from	O	O	_	_	
+10-18	washing	O	B-UnrelEv	_	_	
+10-19	away	O	I-UnrelEv	_	_	
+10-20	.	O	O	_	_	
+
+#id=11
+#text=This will also help keep weeds from growing and help in keeping moisture to roots .
+11-1	This	O	O	_	_	
+11-2	will	O	O	_	_	
+11-3	also	O	O	_	_	
+11-4	help	O	O	_	_	
+11-5	keep	O	B-UnrelEv	_	_	
+11-6	weeds	O	O	_	_	
+11-7	from	O	O	_	_	
+11-8	growing	O	B-UnrelEv	_	_	
+11-9	and	O	O	_	_	
+11-10	help	O	O	_	_	
+11-11	in	O	O	_	_	
+11-12	keeping	O	B-UnrelEv	_	_	
+11-13	moisture	O	O	_	_	
+11-14	to	O	O	_	_	
+11-15	roots	B-ScrPart_root	O	webanno.custom.Corefchains_	6-12	
+11-16	.	O	O	_	_	
+
+#id=12
+#text=Fertilize and water your newly planted tree . 
+12-1	Fertilize	O	B-ScrEv_place_fertilizers	_	_	
+12-2	and	O	O	_	_	
+12-3	water	O	B-ScrEv_water	_	_	
+12-4	your	B-ScrPart_gardener	O	webanno.custom.Corefchains_	7-13	
+12-5	newly	O	O	_	_	
+12-6	planted	O	O	_	_	
+12-7	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	9-3	
+12-8	.	O	O	_	_	
+

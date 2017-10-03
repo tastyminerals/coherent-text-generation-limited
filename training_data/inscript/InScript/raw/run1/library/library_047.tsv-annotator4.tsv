@@ -1,0 +1,231 @@
+# webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants					
+#id=1					
+#text=Books are invaluable tools that bring you on wonderful adventures .					
+1-1	Books	B-ScrPart_book	O	_	_
+1-2	are	O	B-UnrelEv	_	_
+1-3	invaluable	O	O	_	_
+1-4	tools	O	O	_	_
+1-5	that	O	O	_	_
+1-6	bring	O	B-UnrelEv	_	_
+1-7	you	B-ScrPart_customer	O	_	_
+1-8	on	O	O	_	_
+1-9	wonderful	O	O	_	_
+1-10	adventures	O	O	_	_
+1-11	.	O	O	_	_
+					
+#id=2					
+#text=Everyone should read as many as they possibly can !					
+2-1	Everyone	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-7
+2-2	should	O	O	_	_
+2-3	read	O	B-RelNScrEv	_	_
+2-4	as	O	O	_	_
+2-5	many	B-ScrPart_book	O	webanno.custom.Corefchains_	1-1
+2-6	as	O	O	_	_
+2-7	they	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-1
+2-8	possibly	O	O	_	_
+2-9	can	O	B-UnrelEv	_	_
+2-10	!	O	O	_	_
+					
+#id=3					
+#text=The best way to do so is to borrow a book from the library .					
+3-1	The	O	O	_	_
+3-2	best	O	O	_	_
+3-3	way	O	O	_	_
+3-4	to	O	O	_	_
+3-5	do	O	B-UnrelEv	_	_
+3-6	so	O	O	_	_
+3-7	is	O	B-UnrelEv	_	_
+3-8	to	O	O	_	_
+3-9	borrow	O	B-Evoking	_	_
+3-10	a	O	I-Evoking	_	_
+3-11	book	B-ScrPart_book	I-Evoking	webanno.custom.Corefchains_	2-5
+3-12	from	O	I-Evoking	_	_
+3-13	the	O	I-Evoking	_	_
+3-14	library	B-ScrPart_library	I-Evoking	_	_
+3-15	.	O	O	_	_
+					
+#id=4					
+#text=When I borrow a book from the library , I first obtained a library card .					
+4-1	When	O	O	_	_
+4-2	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-7
+4-3	borrow	O	B-Evoking	_	_
+4-4	a	O	I-Evoking	_	_
+4-5	book	B-ScrPart_book	I-Evoking	webanno.custom.Corefchains_	3-11
+4-6	from	O	I-Evoking	_	_
+4-7	the	O	I-Evoking	_	_
+4-8	library	B-ScrPart_library	I-Evoking	webanno.custom.Corefchains_	3-14
+4-9	,	O	O	_	_
+4-10	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-2
+4-11	first	O	O	_	_
+4-12	obtained	O	B-RelNScrEv	_	_
+4-13	a	O	O	_	_
+4-14	library	B-ScrPart_library_card	O	_	_
+4-15	card	I-ScrPart_library_card|B-ScrPart_library_card	O	_	_
+4-16	.	O	O	_	_
+					
+#id=5					
+#text=I did this by going to my local library , and speaking with a librarian , there I created an account with my name .					
+5-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-10
+5-2	did	O	B-UnrelEv	_	_
+5-3	this	O	O	_	_
+5-4	by	O	O	_	_
+5-5	going	O	B-ScrEv_get_library	_	_
+5-6	to	O	O	_	_
+5-7	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-1
+5-8	local	O	O	_	_
+5-9	library	B-ScrPart_library	O	webanno.custom.Corefchains_	4-8
+5-10	,	O	O	_	_
+5-11	and	O	O	_	_
+5-12	speaking	O	B-ScrEv_ask_librarian	_	_
+5-13	with	O	O	_	_
+5-14	a	O	O	_	_
+5-15	librarian	B-ScrPart_staff	O	_	_
+5-16	,	O	O	_	_
+5-17	there	O	O	_	_
+5-18	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-7
+5-19	created	O	B-RelNScrEv	_	_
+5-20	an	O	O	_	_
+5-21	account	B-ScrPart_library_card	O	webanno.custom.Corefchains_	4-15
+5-22	with	O	O	_	_
+5-23	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-18
+5-24	name	O	O	_	_
+5-25	.	O	O	_	_
+					
+#id=6					
+#text=Following this , and following the successful attainment of my physical card , I began my search for a book .					
+6-1	Following	O	B-UnrelEv	_	_
+6-2	this	O	O	_	_
+6-3	,	O	O	_	_
+6-4	and	O	O	_	_
+6-5	following	O	B-UnrelEv	_	_
+6-6	the	O	O	_	_
+6-7	successful	O	O	_	_
+6-8	attainment	O	O	_	_
+6-9	of	O	O	_	_
+6-10	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-23
+6-11	physical	O	O	_	_
+6-12	card	B-ScrPart_library_card	O	webanno.custom.Corefchains_	5-21
+6-13	,	O	O	_	_
+6-14	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-10
+6-15	began	O	B-ScrEv_look_for_book	_	_
+6-16	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-14
+6-17	search	B-NPart	O	_	_
+6-18	for	O	O	_	_
+6-19	a	O	O	_	_
+6-20	book	B-ScrPart_book	O	webanno.custom.Corefchains_	4-5
+6-21	.	O	O	_	_
+					
+#id=7					
+#text=In the old days I would need to use a card catalog , these days I can search through books on a library computer .					
+7-1	In	O	O	_	_
+7-2	the	O	O	_	_
+7-3	old	O	O	_	_
+7-4	days	O	O	_	_
+7-5	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-16
+7-6	would	O	O	_	_
+7-7	need	O	O	_	_
+7-8	to	O	O	_	_
+7-9	use	O	B-ScrEv_check_catalog	_	_
+7-10	a	O	O	_	_
+7-11	card	B-ScrPart_catalog	O	_	_
+7-12	catalog	I-ScrPart_catalog|B-ScrPart_catalog	O	_	_
+7-13	,	O	O	_	_
+7-14	these	O	O	_	_
+7-15	days	O	O	_	_
+7-16	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-5
+7-17	can	O	O	_	_
+7-18	search	O	B-ScrEv_use_computer	_	_
+7-19	through	O	O	_	_
+7-20	books	B-ScrPart_book	O	webanno.custom.Corefchains_	6-20
+7-21	on	O	O	_	_
+7-22	a	O	O	_	_
+7-23	library	B-ScrPart_institutional_devices	O	_	_
+7-24	computer	I-ScrPart_institutional_devices|B-ScrPart_institutional_devices	O	_	_
+7-25	.	O	O	_	_
+					
+#id=8					
+#text=I search through many genres and types of books before making my decision .					
+8-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-16
+8-2	search	O	B-ScrEv_use_computer	_	_
+8-3	through	O	O	_	_
+8-4	many	O	O	_	_
+8-5	genres	B-NPart	O	_	_
+8-6	and	O	O	_	_
+8-7	types	B-NPart	O	_	_
+8-8	of	O	O	_	_
+8-9	books	B-ScrPart_book	O	webanno.custom.Corefchains_	7-20
+8-10	before	O	O	_	_
+8-11	making	O	B-RelNScrEv	_	_
+8-12	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-1
+8-13	decision	B-SuppVComp	O	_	_
+8-14	.	O	O	_	_
+					
+#id=9					
+#text=I then write down the number of the book and begin my search .					
+9-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-12
+9-2	then	O	O	_	_
+9-3	write	O	B-ScrEv_note_shelf	_	_
+9-4	down	O	I-ScrEv_note_shelf	_	_
+9-5	the	O	O	_	_
+9-6	number	B-ScrPart_book_id	O	_	_
+9-7	of	O	O	_	_
+9-8	the	O	O	_	_
+9-9	book	B-ScrPart_book	O	webanno.custom.Corefchains_	8-9
+9-10	and	O	O	_	_
+9-11	begin	O	B-ScrEv_look_for_book	_	_
+9-12	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-1
+9-13	search	B-NPart	O	_	_
+9-14	.	O	O	_	_
+					
+#id=10					
+#text=I find the matching bookshelves and then find the matching book number .					
+10-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-12
+10-2	find	O	B-ScrEv_get_shelf	_	_
+10-3	the	O	O	_	_
+10-4	matching	O	B-RelNScrEv	_	_
+10-5	bookshelves	B-ScrPart_shelf	O	_	_
+10-6	and	O	O	_	_
+10-7	then	O	O	_	_
+10-8	find	O	B-ScrEv_look_for_book	_	_
+10-9	the	O	O	_	_
+10-10	matching	O	B-RelNScrEv	_	_
+10-11	book	B-ScrPart_book_id	O	_	_
+10-12	number	I-ScrPart_book_id|B-ScrPart_book_id	O	webanno.custom.Corefchains_	9-6
+10-13	.	O	O	_	_
+					
+#id=11					
+#text=Book in hand , I gleefully skip to the checkout , and check my book out with the librarian , making sure to note the time which I need to return the book .					
+11-1	Book	B-ScrPart_book	O	webanno.custom.Corefchains_	9-9
+11-2	in	O	O	_	_
+11-3	hand	O	O	_	_
+11-4	,	O	O	_	_
+11-5	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	10-1
+11-6	gleefully	O	O	_	_
+11-7	skip	O	B-ScrEv_go_check_out	_	_
+11-8	to	O	O	_	_
+11-9	the	O	O	_	_
+11-10	checkout	B-ScrPart_check-out_desk	O	_	_
+11-11	,	O	O	_	_
+11-12	and	O	O	_	_
+11-13	check	O	B-ScrEv_register	_	_
+11-14	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	11-5
+11-15	book	B-ScrPart_book	O	webanno.custom.Corefchains_	11-1
+11-16	out	O	O	_	_
+11-17	with	O	O	_	_
+11-18	the	O	O	_	_
+11-19	librarian	B-ScrPart_staff	O	webanno.custom.Corefchains_	5-15
+11-20	,	O	O	_	_
+11-21	making	O	B-UnrelEv	_	_
+11-22	sure	O	I-UnrelEv	_	_
+11-23	to	O	O	_	_
+11-24	note	O	B-RelNScrEv	_	_
+11-25	the	O	O	_	_
+11-26	time	B-ScrPart_return_date	O	_	_
+11-27	which	B-ScrPart_return_date	O	webanno.custom.Corefchains_	11-26
+11-28	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	11-14
+11-29	need	O	O	_	_
+11-30	to	O	O	_	_
+11-31	return	O	B-ScrEv_return_book	_	_
+11-32	the	O	O	_	_
+11-33	book	B-ScrPart_book	O	webanno.custom.Corefchains_	11-15
+11-34	.	O	O	_	_

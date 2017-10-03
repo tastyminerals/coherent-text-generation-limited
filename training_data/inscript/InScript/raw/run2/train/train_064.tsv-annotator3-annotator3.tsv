@@ -1,0 +1,256 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=Last year I had to go to my native place in India .
+1-1	Last	O	O	
+1-2	year	B-NPart	O	
+1-3	I	B-ScrPart_passenger	O	
+1-4	had	O	O	
+1-5	to	O	O	
+1-6	go	O	B-UnrelEv	
+1-7	to	O	O	
+1-8	my	B-ScrPart_passenger	O	
+1-9	native	O	O	
+1-10	place	B-NPart	O	
+1-11	in	O	O	
+1-12	India	B-NPart	O	
+1-13	.	O	O	
+
+#id=2
+#text=While I was there , I thought of meeting one of my friends in Chennai .
+2-1	While	O	O	
+2-2	I	B-ScrPart_passenger	O	
+2-3	was	O	B-UnrelEv	
+2-4	there	O	O	
+2-5	,	O	O	
+2-6	I	B-ScrPart_passenger	O	
+2-7	thought	O	B-UnrelEv	
+2-8	of	O	O	
+2-9	meeting	O	B-UnrelEv	
+2-10	one	O	O	
+2-11	of	O	O	
+2-12	my	B-ScrPart_passenger	O	
+2-13	friends	B-NPart	O	
+2-14	in	O	O	
+2-15	Chennai	B-ScrPart_destination	O	
+2-16	.	O	O	
+
+#id=3
+#text=Chennai is 800 kms far away from my place and it takes about 15 hours if I drive .
+3-1	Chennai	B-ScrPart_destination	O	
+3-2	is	O	B-UnrelEv	
+3-3	800	O	O	
+3-4	kms	B-NPart	O	
+3-5	far	O	O	
+3-6	away	O	O	
+3-7	from	O	O	
+3-8	my	B-ScrPart_passenger	O	
+3-9	place	B-NPart	O	
+3-10	and	O	O	
+3-11	it	B-No_label	O	
+3-12	takes	O	B-UnrelEv	
+3-13	about	O	O	
+3-14	15	O	O	
+3-15	hours	B-ScrPart_time_date	O	
+3-16	if	O	O	
+3-17	I	B-ScrPart_passenger	O	
+3-18	drive	O	B-UnrelEv	
+3-19	.	O	O	
+
+#id=4
+#text=I decided to take train .
+4-1	I	B-ScrPart_passenger	O	
+4-2	decided	O	B-UnrelEv	
+4-3	to	O	O	
+4-4	take	O	B-Evoking	
+4-5	train	B-ScrPart_train	I-Evoking	
+4-6	.	O	O	
+
+#id=5
+#text=I went online and booked tickets .
+5-1	I	B-ScrPart_passenger	O	
+5-2	went	O	B-UnrelEv	
+5-3	online	B-No_label	O	
+5-4	and	O	O	
+5-5	booked	O	B-ScrEv_get_tickets	
+5-6	tickets	B-ScrPart_card/ticket	O	
+5-7	.	O	O	
+
+#id=6
+#text=The economy tickets were sold out so I had to book the expensive one .
+6-1	The	O	O	
+6-2	economy	B-NPart	O	
+6-3	tickets	B-ScrPart_card/ticket	O	
+6-4	were	O	O	
+6-5	sold	O	B-RelNScrEv|B-RelNScrEv	
+6-6	out	O	I-RelNScrEv	
+6-7	so	O	O	
+6-8	I	B-ScrPart_passenger	O	
+6-9	had	O	O	
+6-10	to	O	O	
+6-11	book	O	B-ScrEv_get_tickets	
+6-12	the	O	O	
+6-13	expensive	O	O	
+6-14	one	B-ScrPart_card/ticket	O	
+6-15	.	O	O	
+
+#id=7
+#text=On the day of the travel , I arrived at the train station almost an hour before the actual departure time .
+7-1	On	O	O	
+7-2	the	O	O	
+7-3	day	B-ScrPart_time_date	O	
+7-4	of	O	O	
+7-5	the	O	O	
+7-6	travel	B-ScrPart_trip	O	
+7-7	,	O	O	
+7-8	I	B-ScrPart_passenger	O	
+7-9	arrived	O	B-ScrEv_get_train_station	
+7-10	at	O	O	
+7-11	the	O	O	
+7-12	train	B-ScrPart_train_station	O	
+7-13	station	I-ScrPart_train_station|B-ScrPart_train_station	O	
+7-14	almost	O	O	
+7-15	an	O	O	
+7-16	hour	B-ScrPart_time_date	O	
+7-17	before	O	O	
+7-18	the	O	O	
+7-19	actual	O	O	
+7-20	departure	B-ScrPart_time_date	O	
+7-21	time	I-ScrPart_time_date|B-ScrPart_time_date	O	
+7-22	.	O	O	
+
+#id=8
+#text=Since it was a first class ticket , I could take more than enough luggage with me .
+8-1	Since	O	O	
+8-2	it	B-ScrPart_card/ticket	O	
+8-3	was	O	B-UnrelEv	
+8-4	a	O	O	
+8-5	first	O	O	
+8-6	class	B-NPart	O	
+8-7	ticket	B-ScrPart_card/ticket	O	
+8-8	,	O	O	
+8-9	I	B-ScrPart_passenger	O	
+8-10	could	O	O	
+8-11	take	O	B-RelNScrEv	
+8-12	more	O	O	
+8-13	than	O	O	
+8-14	enough	O	O	
+8-15	luggage	B-ScrPart_luggage	O	
+8-16	with	O	O	
+8-17	me	B-ScrPart_passenger	O	
+8-18	.	O	O	
+
+#id=9
+#text=After 15 minutes in to the journey , the ticket collector came by and checked my tickets .
+9-1	After	O	O	
+9-2	15	O	O	
+9-3	minutes	B-ScrPart_time_date	O	
+9-4	in	O	O	
+9-5	to	O	O	
+9-6	the	O	O	
+9-7	journey	B-ScrPart_trip	O	
+9-8	,	O	O	
+9-9	the	O	O	
+9-10	ticket	B-ScrPart_train_staff	O	
+9-11	collector	I-ScrPart_train_staff|B-ScrPart_train_staff	O	
+9-12	came	O	B-UnrelEv|B-UnrelEv	
+9-13	by	O	I-UnrelEv	
+9-14	and	O	O	
+9-15	checked	O	B-ScrEv_conductor_checks	
+9-16	my	B-ScrPart_passenger	O	
+9-17	tickets	B-ScrPart_card/ticket	O	
+9-18	.	O	O	
+
+#id=10
+#text=It was early in the morning and I was in a window seat .
+10-1	It	B-No_label	O	
+10-2	was	O	B-UnrelEv	
+10-3	early	O	O	
+10-4	in	O	O	
+10-5	the	O	O	
+10-6	morning	B-ScrPart_time_date	O	
+10-7	and	O	O	
+10-8	I	B-ScrPart_passenger	O	
+10-9	was	O	B-UnrelEv	
+10-10	in	O	O	
+10-11	a	O	O	
+10-12	window	B-ScrPart_seat	O	
+10-13	seat	I-ScrPart_seat|B-ScrPart_seat	O	
+10-14	.	O	O	
+
+#id=11
+#text=So I could watch all the scenery .
+11-1	So	O	O	
+11-2	I	B-ScrPart_passenger	O	
+11-3	could	O	O	
+11-4	watch	O	B-ScrEv_spend_time_train	
+11-5	all	O	O	
+11-6	the	O	O	
+11-7	scenery	B-NPart	O	
+11-8	.	O	O	
+
+#id=12
+#text=Another good thing about the train is that once in a while I could get up and walk a stretch .
+12-1	Another	O	O	
+12-2	good	O	O	
+12-3	thing	B-NPart	O	
+12-4	about	O	O	
+12-5	the	O	O	
+12-6	train	B-ScrPart_train	O	
+12-7	is	O	B-UnrelEv	
+12-8	that	O	O	
+12-9	once	O	O	
+12-10	in	O	O	
+12-11	a	O	O	
+12-12	while	B-No_label	O	
+12-13	I	B-ScrPart_passenger	O	
+12-14	could	O	O	
+12-15	get	O	B-ScrEv_spend_time_train|B-ScrEv_spend_time_train	
+12-16	up	O	I-ScrEv_spend_time_train	
+12-17	and	O	O	
+12-18	walk	O	B-ScrEv_spend_time_train	
+12-19	a	O	O	
+12-20	stretch	B-SuppVComp	O	
+12-21	.	O	O	
+
+#id=13
+#text=Also , when I 'm hungry , I could get down at the station and buy any food as the train stops at the station for 10-15 minutes .
+13-1	Also	O	O	
+13-2	,	O	O	
+13-3	when	O	O	
+13-4	I	B-ScrPart_passenger	O	
+13-5	'm	O	B-UnrelEv	
+13-6	hungry	O	O	
+13-7	,	O	O	
+13-8	I	B-ScrPart_passenger	O	
+13-9	could	O	O	
+13-10	get	O	B-RelNScrEv|B-RelNScrEv	
+13-11	down	O	I-RelNScrEv	
+13-12	at	O	O	
+13-13	the	O	O	
+13-14	station	B-ScrPart_train_station	O	
+13-15	and	O	O	
+13-16	buy	O	B-UnrelEv	
+13-17	any	O	O	
+13-18	food	B-NPart	O	
+13-19	as	O	O	
+13-20	the	O	O	
+13-21	train	B-ScrPart_train	O	
+13-22	stops	O	B-RelNScrEv	
+13-23	at	O	O	
+13-24	the	O	O	
+13-25	station	B-ScrPart_train_station	O	
+13-26	for	O	O	
+13-27	10-15	O	O	
+13-28	minutes	B-ScrPart_time_date	O	
+13-29	.	O	O	
+
+#id=14
+#text=Overall it was a wonderful experience . 
+14-1	Overall	O	O	
+14-2	it	B-No_label	O	
+14-3	was	O	B-UnrelEv	
+14-4	a	O	O	
+14-5	wonderful	O	O	
+14-6	experience	B-NPart	O	
+14-7	.	O	O	
+

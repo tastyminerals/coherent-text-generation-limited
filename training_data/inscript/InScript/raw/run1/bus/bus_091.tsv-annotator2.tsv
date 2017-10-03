@@ -1,0 +1,210 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Eventsandparticipants | Event # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I had to ride a public bus one day .
+1-1	I	B-ScrPart_passenger	O	_	_	
+1-2	had	O	O	_	_	
+1-3	to	O	O	_	_	
+1-4	ride	O	B-Evoking	_	_	
+1-5	a	O	I-Evoking	_	_	
+1-6	public	O	I-Evoking	_	_	
+1-7	bus	B-ScrPart_bus	I-Evoking	_	_	
+1-8	one	O	O	_	_	
+1-9	day	O	O	_	_	
+1-10	.	O	O	_	_	
+
+#id=2
+#text=I was n't sure about the routes or the charge to ride , so I got on the computer and looked it up .
+2-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-1	
+2-2	was	O	B-UnrelEv	_	_	
+2-3	n't	O	O	_	_	
+2-4	sure	O	O	_	_	
+2-5	about	O	O	_	_	
+2-6	the	O	O	_	_	
+2-7	routes	B-MissScrPart	O	_	_	
+2-8	or	O	O	_	_	
+2-9	the	O	O	_	_	
+2-10	charge	B-ScrPart_money	O	_	_	
+2-11	to	O	O	_	_	
+2-12	ride	O	B-Evoking	_	_	
+2-13	,	O	O	_	_	
+2-14	so	O	O	_	_	
+2-15	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-1	
+2-16	got	O	B-RelNScrEv	_	_	
+2-17	on	O	O	_	_	
+2-18	the	O	O	_	_	
+2-19	computer	B-NPart	O	_	_	
+2-20	and	O	O	_	_	
+2-21	looked	O	B-ScrEv_check_time-table	_	_	
+2-22	it	O	O	_	_	
+2-23	up	O	O	_	_	
+2-24	.	O	O	_	_	
+
+#id=3
+#text=I was able to enter in where I was starting from and where I wanted to be in order to find an acceptable route .
+3-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-15	
+3-2	was	O	O	_	_	
+3-3	able	O	O	_	_	
+3-4	to	O	O	_	_	
+3-5	enter	O	B-ScrEv_check_time-table	_	_	
+3-6	in	O	I-ScrEv_check_time-table	_	_	
+3-7	where	O	O	_	_	
+3-8	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-1	
+3-9	was	O	O	_	_	
+3-10	starting	O	B-RelNScrEv	_	_	
+3-11	from	O	O	_	_	
+3-12	and	O	O	_	_	
+3-13	where	O	O	_	_	
+3-14	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-8	
+3-15	wanted	O	O	_	_	
+3-16	to	O	O	_	_	
+3-17	be	O	B-UnrelEv	_	_	
+3-18	in	O	O	_	_	
+3-19	order	O	O	_	_	
+3-20	to	O	O	_	_	
+3-21	find	O	B-ScrEv_check_time-table	_	_	
+3-22	an	O	O	_	_	
+3-23	acceptable	O	O	_	_	
+3-24	route	B-MissScrPart	O	_	_	
+3-25	.	O	O	_	_	
+
+#id=4
+#text=I had to catch two different buses , so I had to pay a transfer fee in addition to the regular fee and let the bus driver know as I got on the bus .
+4-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-14	
+4-2	had	O	O	_	_	
+4-3	to	O	O	_	_	
+4-4	catch	O	B-RelNScrEv	_	_	
+4-5	two	O	O	_	_	
+4-6	different	O	O	_	_	
+4-7	buses	B-ScrPart_bus	O	_	_	
+4-8	,	O	O	_	_	
+4-9	so	O	O	_	_	
+4-10	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-1	
+4-11	had	O	O	_	_	
+4-12	to	O	O	_	_	
+4-13	pay	O	B-RelNScrEv	_	_	
+4-14	a	O	O	_	_	
+4-15	transfer	B-ScrPart_money	O	_	_	
+4-16	fee	I-ScrPart_money|B-ScrPart_money	O	_	_	
+4-17	in	O	O	_	_	
+4-18	addition	O	O	_	_	
+4-19	to	O	O	_	_	
+4-20	the	O	O	_	_	
+4-21	regular	O	O	_	_	
+4-22	fee	B-ScrPart_money	O	_	_	
+4-23	and	O	O	_	_	
+4-24	let	O	B-RelNScrEv	_	_	
+4-25	the	O	O	_	_	
+4-26	bus	B-ScrPart_bus_staff	O	_	_	
+4-27	driver	I-ScrPart_bus_staff|B-ScrPart_bus_staff	O	_	_	
+4-28	know	O	B-RelNScrEv	_	_	
+4-29	as	O	O	_	_	
+4-30	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-10	
+4-31	got	O	B-ScrEv_board_bus	_	_	
+4-32	on	O	I-ScrEv_board_bus	_	_	
+4-33	the	O	O	_	_	
+4-34	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	1-7	
+4-35	.	O	O	_	_	
+
+#id=5
+#text=I also looked up a route home with extra times in case I missed a bus .
+5-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-30	
+5-2	also	O	O	_	_	
+5-3	looked	O	B-ScrEv_check_time-table	_	_	
+5-4	up	O	I-ScrEv_check_time-table	_	_	
+5-5	a	O	O	_	_	
+5-6	route	B-MissScrPart	O	_	_	
+5-7	home	O	O	_	_	
+5-8	with	O	O	_	_	
+5-9	extra	O	O	_	_	
+5-10	times	O	O	_	_	
+5-11	in	O	O	_	_	
+5-12	case	O	O	_	_	
+5-13	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-1	
+5-14	missed	O	B-RelNScrEv	_	_	
+5-15	a	O	O	_	_	
+5-16	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	4-34	
+5-17	.	O	O	_	_	
+
+#id=6
+#text=I gathered the things I needed for my travels and found a sign with a bus stop symbol on it , and made sure it listed the bus number I needed .
+6-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-13	
+6-2	gathered	O	B-RelNScrEv	_	_	
+6-3	the	O	O	_	_	
+6-4	things	B-NPart	O	_	_	
+6-5	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-1	
+6-6	needed	O	B-UnrelEv	_	_	
+6-7	for	O	O	_	_	
+6-8	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-5	
+6-9	travels	B-???	O	_	_	
+6-10	and	O	O	_	_	
+6-11	found	O	B-ScrEv_find_bus	_	_	
+6-12	a	O	O	_	_	
+6-13	sign	B-NPart	O	_	_	
+6-14	with	O	O	_	_	
+6-15	a	O	O	_	_	
+6-16	bus	B-NPart	O	_	_	
+6-17	stop	I-NPart	O	_	_	
+6-18	symbol	I-NPart|B-NPart	O	_	_	
+6-19	on	O	O	_	_	
+6-20	it	O	O	_	_	
+6-21	,	O	O	_	_	
+6-22	and	O	O	_	_	
+6-23	made	O	B-ScrEv_find_bus	_	_	
+6-24	sure	O	I-ScrEv_find_bus	_	_	
+6-25	it	O	O	_	_	
+6-26	listed	O	B-UnrelEv	_	_	
+6-27	the	O	O	_	_	
+6-28	bus	O	O	_	_	
+6-29	number	O	O	_	_	
+6-30	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-8	
+6-31	needed	O	B-UnrelEv	_	_	
+6-32	.	O	O	_	_	
+
+#id=7
+#text=I told the driver I needed a transfer ticket and paid my extra fee .
+7-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-30	
+7-2	told	O	B-RelNScrEv	_	_	
+7-3	the	O	O	_	_	
+7-4	driver	B-ScrPart_bus_staff	O	webanno.custom.Corefchains_	4-27	
+7-5	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-1	
+7-6	needed	O	B-UnrelEv	_	_	
+7-7	a	O	O	_	_	
+7-8	transfer	B-ScrPart_card/ticket	O	_	_	
+7-9	ticket	I-ScrPart_card/ticket|B-ScrPart_card/ticket	O	_	_	
+7-10	and	O	O	_	_	
+7-11	paid	O	B-ScrEv_get_ticket	_	_	
+7-12	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-5	
+7-13	extra	O	O	_	_	
+7-14	fee	B-ScrPart_money	O	webanno.custom.Corefchains_	4-16	
+7-15	.	O	O	_	_	
+
+#id=8
+#text=When it was time to get off the bus , I had to pull the cord to let the driver know before we passed my spot . 
+8-1	When	O	O	_	_	
+8-2	it	O	O	_	_	
+8-3	was	O	B-UnrelEv	_	_	
+8-4	time	O	O	_	_	
+8-5	to	O	O	_	_	
+8-6	get	O	B-ScrEv_get_off	_	_	
+8-7	off	O	I-ScrEv_get_off	_	_	
+8-8	the	O	O	_	_	
+8-9	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	5-16	
+8-10	,	O	O	_	_	
+8-11	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-12	
+8-12	had	O	O	_	_	
+8-13	to	O	O	_	_	
+8-14	pull	O	B-ScrEv_press_stop_button	_	_	
+8-15	the	O	O	_	_	
+8-16	cord	B-ScrPart_stop_button/door_opener	O	_	_	
+8-17	to	O	O	_	_	
+8-18	let	O	B-ScrEv_press_stop_button	_	_	
+8-19	the	O	O	_	_	
+8-20	driver	B-ScrPart_bus_staff	O	webanno.custom.Corefchains_	7-4	
+8-21	know	O	B-ScrEv_press_stop_button	_	_	
+8-22	before	O	O	_	_	
+8-23	we	B-ScrPart_passenger	O	_	_	
+8-24	passed	O	B-RelNScrEv	_	_	
+8-25	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_|group_I_passengers	8-11|8-23	
+8-26	spot	B-ScrPart_destination	O	_	_	
+8-27	.	O	O	_	_	
+

@@ -1,0 +1,220 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Yesterday I planted a tree .
+1-1	Yesterday	O	O	_	_	
+1-2	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	2-2	
+1-3	planted	O	B-Evoking	_	_	
+1-4	a	O	I-Evoking	_	_	
+1-5	tree	B-ScrPart_tree	I-Evoking	webanno.custom.Corefchains_	3-16	
+1-6	.	O	O	_	_	
+
+#id=2
+#text=First I went to a nursery .
+2-1	First	O	O	_	_	
+2-2	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	4-1	
+2-3	went	O	B-RelNScrEv	_	_	
+2-4	to	O	O	_	_	
+2-5	a	O	O	_	_	
+2-6	nursery	B-ScrPart_shop	O	webanno.custom.Corefchains_	3-2	
+2-7	.	O	O	_	_	
+
+#id=3
+#text=A nursery is a place where they have , flowers , plants , shrubs and trees .
+3-1	A	O	O	_	_	
+3-2	nursery	B-ScrPart_shop	O	_	_	
+3-3	is	O	B-UnrelEv	_	_	
+3-4	a	O	O	_	_	
+3-5	place	O	O	_	_	
+3-6	where	O	O	_	_	
+3-7	they	B-ScrPart_staff	O	_	_	
+3-8	have	O	B-UnrelEv	_	_	
+3-9	,	O	O	_	_	
+3-10	flowers	O	O	_	_	
+3-11	,	O	O	_	_	
+3-12	plants	O	O	_	_	
+3-13	,	O	O	_	_	
+3-14	shrubs	O	O	_	_	
+3-15	and	O	O	_	_	
+3-16	trees	B-ScrPart_tree	O	webanno.custom.Corefchains_	4-4	
+3-17	.	O	O	_	_	
+
+#id=4
+#text=I chose a sapling - a young tree - paid for it and put in in the back of my pickup truck .
+4-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	4-20	
+4-2	chose	O	B-ScrEv_choose_tree	_	_	
+4-3	a	O	O	_	_	
+4-4	sapling	B-ScrPart_tree	O	webanno.custom.Corefchains_	4-8	
+4-5	-	O	O	_	_	
+4-6	a	O	O	_	_	
+4-7	young	O	O	_	_	
+4-8	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	4-12	
+4-9	-	O	O	_	_	
+4-10	paid	O	B-ScrEv_get_tree	_	_	
+4-11	for	O	O	_	_	
+4-12	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	4-15	
+4-13	and	O	O	_	_	
+4-14	put	O	B-ScrEv_get_tree	_	_	
+4-15	in	B-ScrPart_tree	O	webanno.custom.Corefchains_	5-21	
+4-16	in	O	O	_	_	
+4-17	the	O	O	_	_	
+4-18	back	O	O	_	_	
+4-19	of	O	O	_	_	
+4-20	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	5-2	
+4-21	pickup	O	O	_	_	
+4-22	truck	O	O	_	_	
+4-23	.	O	O	_	_	
+
+#id=5
+#text=When I got home I got a shovel out of my shed and dug a hole where I wanted to tree to grow , making sure it was n't too near my house .
+5-1	When	O	O	_	_	
+5-2	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	5-5	
+5-3	got	O	B-RelNScrEv	_	_	
+5-4	home	O	I-RelNScrEv	_	_	
+5-5	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	5-11	
+5-6	got	O	B-ScrEv_get_tools	_	_	
+5-7	a	O	O	_	_	
+5-8	shovel	B-ScrPart_gardening_tool	O	_	_	
+5-9	out	O	O	_	_	
+5-10	of	O	O	_	_	
+5-11	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	5-18	
+5-12	shed	O	O	_	_	
+5-13	and	O	O	_	_	
+5-14	dug	O	B-ScrEv_dug_hole	_	_	
+5-15	a	O	O	_	_	
+5-16	hole	B-ScrPart_hole	O	webanno.custom.Corefchains_	6-4	
+5-17	where	O	O	_	_	
+5-18	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	5-32	
+5-19	wanted	O	B-ScrEv_find_place	_	_	
+5-20	to	O	O	_	_	
+5-21	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	5-27	
+5-22	to	O	O	_	_	
+5-23	grow	O	B-RelNScrEv	_	_	
+5-24	,	O	O	_	_	
+5-25	making	O	B-ScrEv_find_place	_	_	
+5-26	sure	O	I-ScrEv_find_place	_	_	
+5-27	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	6-22	
+5-28	was	O	B-UnrelEv	_	_	
+5-29	n't	O	O	_	_	
+5-30	too	O	O	_	_	
+5-31	near	O	O	_	_	
+5-32	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	6-1	
+5-33	house	O	O	_	_	
+5-34	.	O	O	_	_	
+
+#id=6
+#text=I dug the hole about two feet deep , a little bigger than the root ball on the bottom of my tree .
+6-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	6-21	
+6-2	dug	O	B-ScrEv_dug_hole	_	_	
+6-3	the	O	O	_	_	
+6-4	hole	B-ScrPart_hole	O	webanno.custom.Corefchains_	7-5	
+6-5	about	O	O	_	_	
+6-6	two	O	O	_	_	
+6-7	feet	O	O	_	_	
+6-8	deep	O	O	_	_	
+6-9	,	O	O	_	_	
+6-10	a	O	O	_	_	
+6-11	little	O	O	_	_	
+6-12	bigger	O	O	_	_	
+6-13	than	O	O	_	_	
+6-14	the	O	O	_	_	
+6-15	root	B-ScrPart_root	O	_	_	
+6-16	ball	I-ScrPart_root|B-ScrPart_root	O	webanno.custom.Corefchains_	8-8	
+6-17	on	O	O	_	_	
+6-18	the	O	O	_	_	
+6-19	bottom	O	O	_	_	
+6-20	of	O	O	_	_	
+6-21	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	7-2	
+6-22	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	7-11	
+6-23	.	O	O	_	_	
+
+#id=7
+#text=Once I had the hole dug , I dropped the tree in , making sure the trunk was straight .
+7-1	Once	O	O	_	_	
+7-2	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	7-8	
+7-3	had	O	O	_	_	
+7-4	the	O	O	_	_	
+7-5	hole	B-ScrPart_hole	O	webanno.custom.Corefchains_	8-15	
+7-6	dug	O	B-ScrEv_dug_hole	_	_	
+7-7	,	O	O	_	_	
+7-8	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	8-1	
+7-9	dropped	O	B-ScrEv_place_root	_	_	
+7-10	the	O	O	_	_	
+7-11	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	7-17	
+7-12	in	O	O	_	_	
+7-13	,	O	O	_	_	
+7-14	making	O	B-RelNScrEv	_	_	
+7-15	sure	O	I-RelNScrEv	_	_	
+7-16	the	O	O	_	_	
+7-17	trunk	B-ScrPart_tree	O	webanno.custom.Corefchains_	8-18	
+7-18	was	O	B-UnrelEv	_	_	
+7-19	straight	O	O	_	_	
+7-20	.	O	O	_	_	
+
+#id=8
+#text=I cut the burlap surrounding the root ball , and then filled in the space around the tree with the dirt I had dug out earlier .
+8-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	8-22	
+8-2	cut	O	B-ScrEv_unwrap_root	_	_	
+8-3	the	O	O	_	_	
+8-4	burlap	B-ScrPart_wrapping	O	_	_	
+8-5	surrounding	O	B-RelNScrEv	_	_	
+8-6	the	O	O	_	_	
+8-7	root	B-ScrPart_root	O	_	_	
+8-8	ball	I-ScrPart_root|B-ScrPart_root	O	_	_	
+8-9	,	O	O	_	_	
+8-10	and	O	O	_	_	
+8-11	then	O	O	_	_	
+8-12	filled	O	B-ScrEv_refill_hole	_	_	
+8-13	in	O	I-ScrEv_refill_hole	_	_	
+8-14	the	O	O	_	_	
+8-15	space	B-ScrPart_hole	O	_	_	
+8-16	around	O	O	_	_	
+8-17	the	O	O	_	_	
+8-18	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	9-11	
+8-19	with	O	O	_	_	
+8-20	the	O	O	_	_	
+8-21	dirt	B-ScrPart_dirt	O	_	_	
+8-22	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	9-3	
+8-23	had	O	O	_	_	
+8-24	dug	O	B-ScrEv_dug_hole	_	_	
+8-25	out	O	O	_	_	
+8-26	earlier	O	O	_	_	
+8-27	.	O	O	_	_	
+
+#id=9
+#text=Finally , I grabbed a garden hose and watered the tree , making sure to give it a good soaking .
+9-1	Finally	O	O	_	_	
+9-2	,	O	O	_	_	
+9-3	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	10-5	
+9-4	grabbed	O	B-ScrEv_get_tools	_	_	
+9-5	a	O	O	_	_	
+9-6	garden	B-ScrPart_gardening_tool	O	_	_	
+9-7	hose	I-ScrPart_gardening_tool|B-ScrPart_gardening_tool	O	_	_	
+9-8	and	O	O	_	_	
+9-9	watered	O	B-ScrEv_water	_	_	
+9-10	the	O	O	_	_	
+9-11	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	9-17	
+9-12	,	O	O	_	_	
+9-13	making	O	B-UnrelEv	_	_	
+9-14	sure	O	I-UnrelEv	_	_	
+9-15	to	O	O	_	_	
+9-16	give	O	B-UnrelEv	_	_	
+9-17	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	10-2	
+9-18	a	O	O	_	_	
+9-19	good	O	O	_	_	
+9-20	soaking	O	B-ScrEv_water	_	_	
+9-21	.	O	O	_	_	
+
+#id=10
+#text=The tree should give us pleasure for years to come . 
+10-1	The	O	O	_	_	
+10-2	tree	B-ScrPart_tree	O	_	_	
+10-3	should	O	O	_	_	
+10-4	give	O	B-UnrelEv	_	_	
+10-5	us	B-ScrPart_gardener	O	_	_	
+10-6	pleasure	O	O	_	_	
+10-7	for	O	O	_	_	
+10-8	years	B-ScrPart_time	O	_	_	
+10-9	to	O	O	_	_	
+10-10	come	O	B-UnrelEv	_	_	
+10-11	.	O	O	_	_	
+

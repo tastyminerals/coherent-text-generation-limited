@@ -1,0 +1,186 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=Some people ride the train every day as part of their work commute , while others only have the opportunity to ride for vacation or pleasure .
+1-1	Some	O	O	
+1-2	people	B-ScrPart_passenger	O	
+1-3	ride	O	B-Evoking	
+1-4	the	O	I-Evoking	
+1-5	train	B-ScrPart_train	I-Evoking	
+1-6	every	O	O	
+1-7	day	B-ScrPart_time_date	O	
+1-8	as	O	O	
+1-9	part	B-Head_of_Partitive	O	
+1-10	of	O	O	
+1-11	their	B-ScrPart_passenger	O	
+1-12	work	B-NPart	O	
+1-13	commute	I-NPart|B-NPart	O	
+1-14	,	O	O	
+1-15	while	O	O	
+1-16	others	B-ScrPart_passenger	O	
+1-17	only	O	O	
+1-18	have	O	B-UnrelEv	
+1-19	the	O	O	
+1-20	opportunity	B-NPart	O	
+1-21	to	O	O	
+1-22	ride	O	B-Evoking	
+1-23	for	O	O	
+1-24	vacation	B-NPart	O	
+1-25	or	O	O	
+1-26	pleasure	B-NPart	O	
+1-27	.	O	O	
+
+#id=2
+#text=I spend quite a good amount of time researching routes and fares before I decide on the best options for me .
+2-1	I	B-ScrPart_passenger	O	
+2-2	spend	O	B-UnrelEv	
+2-3	quite	O	O	
+2-4	a	O	O	
+2-5	good	O	O	
+2-6	amount	B-Head_of_Partitive	O	
+2-7	of	O	O	
+2-8	time	B-NPart	O	
+2-9	researching	O	B-ScrEv_check_time-table	
+2-10	routes	B-NPart	O	
+2-11	and	O	O	
+2-12	fares	B-ScrPart_card/ticket	O	
+2-13	before	O	O	
+2-14	I	B-ScrPart_passenger	O	
+2-15	decide	O	B-UnrelEv	
+2-16	on	O	O	
+2-17	the	O	O	
+2-18	best	O	O	
+2-19	options	B-NPart	O	
+2-20	for	O	O	
+2-21	me	B-ScrPart_passenger	O	
+2-22	.	O	O	
+
+#id=3
+#text=One of the benefits of riding the train is a feeling of a connection to the past .
+3-1	One	O	O	
+3-2	of	O	O	
+3-3	the	O	O	
+3-4	benefits	B-NPart	O	
+3-5	of	O	O	
+3-6	riding	O	B-Evoking	
+3-7	the	O	I-Evoking	
+3-8	train	B-ScrPart_train	I-Evoking	
+3-9	is	O	B-UnrelEv	
+3-10	a	O	O	
+3-11	feeling	B-NPart	O	
+3-12	of	O	O	
+3-13	a	O	O	
+3-14	connection	B-NPart	O	
+3-15	to	O	O	
+3-16	the	O	O	
+3-17	past	B-NPart	O	
+3-18	.	O	O	
+
+#id=4
+#text=I feel like I 'm partaking in a part of our shared history , something people have been doing for hundreds of years .
+4-1	I	B-ScrPart_passenger	O	
+4-2	feel	O	B-UnrelEv	
+4-3	like	O	O	
+4-4	I	B-ScrPart_passenger	O	
+4-5	'm	O	O	
+4-6	partaking	O	B-UnrelEv	
+4-7	in	O	O	
+4-8	a	O	O	
+4-9	part	B-Head_of_Partitive	O	
+4-10	of	O	O	
+4-11	our	B-NPart	O	
+4-12	shared	O	B-UnrelEv	
+4-13	history	B-NPart	O	
+4-14	,	O	O	
+4-15	something	B-No_label	O	
+4-16	people	B-ScrPart_passenger	O	
+4-17	have	O	O	
+4-18	been	O	O	
+4-19	doing	O	B-UnrelEv	
+4-20	for	O	O	
+4-21	hundreds	B-Head_of_Partitive	O	
+4-22	of	O	O	
+4-23	years	B-NPart	O	
+4-24	.	O	O	
+
+#id=5
+#text=I enjoy sitting by the window and watching the scenery race past .
+5-1	I	B-ScrPart_passenger	O	
+5-2	enjoy	O	B-UnrelEv	
+5-3	sitting	O	B-ScrEv_find_place	
+5-4	by	O	O	
+5-5	the	O	O	
+5-6	window	B-ScrPart_in-train_entertainment	O	
+5-7	and	O	O	
+5-8	watching	O	B-ScrEv_spend_time_train	
+5-9	the	O	O	
+5-10	scenery	B-ScrPart_location_train	O	
+5-11	race	O	B-RelNScrEv	
+5-12	past	O	O	
+5-13	.	O	O	
+
+#id=6
+#text=Making small talk with other passengers is also something I look forward to .
+6-1	Making	O	B-ScrEv_spend_time_train	
+6-2	small	B-ScrPart_in-train_entertainment	O	
+6-3	talk	I-ScrPart_in-train_entertainment|B-ScrPart_in-train_entertainment	O	
+6-4	with	O	O	
+6-5	other	O	O	
+6-6	passengers	B-ScrPart_passenger	O	
+6-7	is	O	B-UnrelEv	
+6-8	also	O	O	
+6-9	something	B-No_label	O	
+6-10	I	B-ScrPart_passenger	O	
+6-11	look	O	B-UnrelEv	
+6-12	forward	O	I-UnrelEv	
+6-13	to	O	O	
+6-14	.	O	O	
+
+#id=7
+#text=An employee comes by to ensure that everyone has paid their fare .
+7-1	An	O	O	
+7-2	employee	B-ScrPart_train_staff	O	
+7-3	comes	O	B-RelNScrEv	
+7-4	by	O	I-RelNScrEv	
+7-5	to	O	O	
+7-6	ensure	O	B-ScrEv_conductor_checks	
+7-7	that	O	O	
+7-8	everyone	B-ScrPart_passenger	O	
+7-9	has	O	O	
+7-10	paid	O	B-ScrEv_get_tickets	
+7-11	their	B-ScrPart_passenger	O	
+7-12	fare	B-ScrPart_card/ticket	O	
+7-13	.	O	O	
+
+#id=8
+#text=The soothing rocking motion of the train usually puts me to sleep and before I know it I wake up and it is time to disembark from the train . 
+8-1	The	O	O	
+8-2	soothing	O	B-UnrelEv	
+8-3	rocking	O	B-UnrelEv	
+8-4	motion	B-NPart	O	
+8-5	of	O	O	
+8-6	the	O	O	
+8-7	train	B-ScrPart_train	O	
+8-8	usually	O	O	
+8-9	puts	O	B-ScrEv_spend_time_train	
+8-10	me	B-ScrPart_passenger	O	
+8-11	to	O	O	
+8-12	sleep	B-ScrPart_in-train_entertainment	O	
+8-13	and	O	O	
+8-14	before	O	O	
+8-15	I	B-ScrPart_passenger	O	
+8-16	know	O	B-UnrelEv	
+8-17	it	B-No_label	O	
+8-18	I	B-ScrPart_passenger	O	
+8-19	wake	O	B-RelNScrEv	
+8-20	up	O	I-RelNScrEv	
+8-21	and	O	O	
+8-22	it	B-No_label	O	
+8-23	is	O	B-UnrelEv	
+8-24	time	B-ScrPart_time-table	O	
+8-25	to	O	O	
+8-26	disembark	O	B-ScrEv_get_off	
+8-27	from	O	O	
+8-28	the	O	O	
+8-29	train	B-ScrPart_train	O	
+8-30	.	O	O	
+

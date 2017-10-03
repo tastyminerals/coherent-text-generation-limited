@@ -1,0 +1,252 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Eventsandparticipants | Event # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I love to ride the bus in my town .
+1-1	I	B-ScrPart_passenger	O	_	_	
+1-2	love	O	O	_	_	
+1-3	to	O	O	_	_	
+1-4	ride	O	B-Evoking	_	_	
+1-5	the	O	I-Evoking	_	_	
+1-6	bus	B-ScrPart_bus	I-Evoking	_	_	
+1-7	in	O	O	_	_	
+1-8	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-1	
+1-9	town	B-ScrPart_destination	O	_	_	
+1-10	.	O	O	_	_	
+
+#id=2
+#text=The fare is only 75 cents .
+2-1	The	O	O	_	_	
+2-2	fare	B-ScrPart_money	O	_	_	
+2-3	is	O	B-RelNScrEv	_	_	
+2-4	only	O	O	_	_	
+2-5	75	O	O	_	_	
+2-6	cents	B-ScrPart_money	O	webanno.custom.Corefchains_	2-2	
+2-7	.	O	O	_	_	
+
+#id=3
+#text=It will take you anywhere .
+3-1	It	B-ScrPart_bus	O	webanno.custom.Corefchains_	1-6	
+3-2	will	O	O	_	_	
+3-3	take	O	B-RelNScrEv	_	_	
+3-4	you	O	O	_	_	
+3-5	anywhere	B-NPart	O	_	_	
+3-6	.	O	O	_	_	
+
+#id=4
+#text=On Saturdays I get up early and walk down to the bus stop .
+4-1	On	O	O	_	_	
+4-2	Saturdays	O	O	_	_	
+4-3	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-8	
+4-4	get	O	B-UnrelEv|B-UnrelEv	_	_	
+4-5	up	O	I-UnrelEv	_	_	
+4-6	early	O	O	_	_	
+4-7	and	O	O	_	_	
+4-8	walk	O	B-ScrEv_get_bus_stop	_	_	
+4-9	down	O	O	_	_	
+4-10	to	O	O	_	_	
+4-11	the	O	O	_	_	
+4-12	bus	B-ScrPart_bus_stop	O	_	_	
+4-13	stop	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	_	_	
+4-14	.	O	O	_	_	
+
+#id=5
+#text=I wait for the bus to come at 8:15 .
+5-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-3	
+5-2	wait	O	B-ScrEv_wait|B-ScrEv_wait	_	_	
+5-3	for	O	I-ScrEv_wait	_	_	
+5-4	the	O	O	_	_	
+5-5	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	3-1	
+5-6	to	O	O	_	_	
+5-7	come	O	B-ScrEv_bus_comes	_	_	
+5-8	at	O	O	_	_	
+5-9	8:15	B-ScrPart_time/date	O	_	_	
+5-10	.	O	O	_	_	
+
+#id=6
+#text=I climb up the stairs and drop my fare into the collection box and say hello to the driver .
+6-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-1	
+6-2	climb	O	B-ScrEv_board_bus|B-ScrEv_board_bus	_	_	
+6-3	up	O	I-ScrEv_board_bus	_	_	
+6-4	the	O	O	_	_	
+6-5	stairs	B-MissScrPart	O	_	_	
+6-6	and	O	O	_	_	
+6-7	drop	O	B-ScrEv_get_ticket	_	_	
+6-8	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-1	
+6-9	fare	B-ScrPart_money	O	webanno.custom.Corefchains_	2-6	
+6-10	into	O	O	_	_	
+6-11	the	O	O	_	_	
+6-12	collection	B-ScrPart_payment_machine	O	_	_	
+6-13	box	I-ScrPart_payment_machine|B-ScrPart_payment_machine	O	_	_	
+6-14	and	O	O	_	_	
+6-15	say	O	B-UnrelEv	_	_	
+6-16	hello	O	O	_	_	
+6-17	to	O	O	_	_	
+6-18	the	O	O	_	_	
+6-19	driver	B-ScrPart_bus_staff	O	_	_	
+6-20	.	O	O	_	_	
+
+#id=7
+#text=Before the bus starts up again I move all the way to the back to sit in the last row of seats .
+7-1	Before	O	O	_	_	
+7-2	the	O	O	_	_	
+7-3	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	5-5	
+7-4	starts	O	B-RelNScrEv|B-RelNScrEv	_	_	
+7-5	up	O	I-RelNScrEv	_	_	
+7-6	again	O	O	_	_	
+7-7	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-8	
+7-8	move	O	B-MissScrEv	_	_	
+7-9	all	O	O	_	_	
+7-10	the	O	O	_	_	
+7-11	way	B-NPart	O	_	_	
+7-12	to	O	O	_	_	
+7-13	the	O	O	_	_	
+7-14	back	B-MissScrPart	O	_	_	
+7-15	to	O	O	_	_	
+7-16	sit	O	B-ScrEv_take_seat	_	_	
+7-17	in	O	O	_	_	
+7-18	the	O	O	_	_	
+7-19	last	O	O	_	_	
+7-20	row	B-ScrPart_seat_in_bus	O	_	_	
+7-21	of	I-ScrPart_seat_in_bus	O	_	_	
+7-22	seats	I-ScrPart_seat_in_bus|B-ScrPart_seat_in_bus	O	_	_	
+7-23	.	O	O	_	_	
+
+#id=8
+#text=Lots of different people get on .
+8-1	Lots	O	O	_	_	
+8-2	of	O	O	_	_	
+8-3	different	O	O	_	_	
+8-4	people	B-ScrPart_passenger	O	_	_	
+8-5	get	O	B-ScrEv_board_bus|B-ScrEv_board_bus	_	_	
+8-6	on	O	I-ScrEv_board_bus	_	_	
+8-7	.	O	O	_	_	
+
+#id=9
+#text=Some with shopping bags , others all dressed up and some like me dressed casual for a summer morning .
+9-1	Some	O	O	_	_	
+9-2	with	O	O	_	_	
+9-3	shopping	O	B-UnrelEv	_	_	
+9-4	bags	O	O	_	_	
+9-5	,	O	O	_	_	
+9-6	others	O	O	_	_	
+9-7	all	O	O	_	_	
+9-8	dressed	O	B-UnrelEv|B-UnrelEv	_	_	
+9-9	up	O	I-UnrelEv	_	_	
+9-10	and	O	O	_	_	
+9-11	some	O	O	_	_	
+9-12	like	O	O	_	_	
+9-13	me	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-7	
+9-14	dressed	O	B-UnrelEv	_	_	
+9-15	casual	O	O	_	_	
+9-16	for	O	O	_	_	
+9-17	a	O	O	_	_	
+9-18	summer	O	O	_	_	
+9-19	morning	O	O	_	_	
+9-20	.	O	O	_	_	
+
+#id=10
+#text=I take the bus all the way until it gets to the center of town where I get off .
+10-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-13	
+10-2	take	O	B-RelNScrEv	_	_	
+10-3	the	O	O	_	_	
+10-4	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	7-3	
+10-5	all	O	O	_	_	
+10-6	the	O	O	_	_	
+10-7	way	B-NPart	O	_	_	
+10-8	until	O	O	_	_	
+10-9	it	B-ScrPart_bus	O	webanno.custom.Corefchains_	10-4	
+10-10	gets	O	B-MissScrEv|B-MissScrEv	_	_	
+10-11	to	O	I-MissScrEv	_	_	
+10-12	the	O	O	_	_	
+10-13	center	B-ScrPart_destination	O	_	_	
+10-14	of	I-ScrPart_destination	O	_	_	
+10-15	town	I-ScrPart_destination|B-ScrPart_destination	O	webanno.custom.Corefchains_	1-9	
+10-16	where	O	O	_	_	
+10-17	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-1	
+10-18	get	O	B-ScrEv_get_off|B-ScrEv_get_off	_	_	
+10-19	off	O	I-ScrEv_get_off	_	_	
+10-20	.	O	O	_	_	
+
+#id=11
+#text=Before i get off I get a transfer ticket .
+11-1	Before	O	O	_	_	
+11-2	i	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-17	
+11-3	get	O	B-ScrEv_get_off|B-ScrEv_get_off	_	_	
+11-4	off	O	I-ScrEv_get_off	_	_	
+11-5	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	11-2	
+11-6	get	O	B-ScrEv_get_ticket	_	_	
+11-7	a	O	O	_	_	
+11-8	transfer	B-ScrPart_card/ticket	O	_	_	
+11-9	ticket	I-ScrPart_card/ticket|B-ScrPart_card/ticket	O	_	_	
+11-10	.	O	O	_	_	
+
+#id=12
+#text=And then the fun begins .
+12-1	And	O	O	_	_	
+12-2	then	O	O	_	_	
+12-3	the	O	O	_	_	
+12-4	fun	O	O	_	_	
+12-5	begins	O	B-UnrelEv	_	_	
+12-6	.	O	O	_	_	
+
+#id=13
+#text=I look at the bus route map at the bus stop and look for a part of the city i want to explore .
+13-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	11-5	
+13-2	look	O	B-MissScrEv	_	_	
+13-3	at	O	O	_	_	
+13-4	the	O	O	_	_	
+13-5	bus	B-MissScrPart	O	_	_	
+13-6	route	I-MissScrPart	O	_	_	
+13-7	map	I-MissScrPart|B-MissScrPart	O	_	_	
+13-8	at	O	O	_	_	
+13-9	the	O	O	_	_	
+13-10	bus	B-ScrPart_bus_stop	O	_	_	
+13-11	stop	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	_	_	
+13-12	and	O	O	_	_	
+13-13	look	O	B-UnrelEv|B-UnrelEv	_	_	
+13-14	for	O	I-UnrelEv	_	_	
+13-15	a	O	O	_	_	
+13-16	part	O	O	_	_	
+13-17	of	O	O	_	_	
+13-18	the	O	O	_	_	
+13-19	city	B-ScrPart_destination	O	webanno.custom.Corefchains_	10-15	
+13-20	i	B-ScrPart_passenger	O	webanno.custom.Corefchains_	13-1	
+13-21	want	O	O	_	_	
+13-22	to	O	O	_	_	
+13-23	explore	O	B-UnrelEv	_	_	
+13-24	.	O	O	_	_	
+
+#id=14
+#text=For 75 cents i can get to any part of my city .
+14-1	For	O	O	_	_	
+14-2	75	O	O	_	_	
+14-3	cents	B-ScrPart_money	O	webanno.custom.Corefchains_	6-9	
+14-4	i	B-ScrPart_passenger	O	webanno.custom.Corefchains_	13-20	
+14-5	can	O	O	_	_	
+14-6	get	O	B-RelNScrEv|B-RelNScrEv	_	_	
+14-7	to	O	I-RelNScrEv	_	_	
+14-8	any	O	O	_	_	
+14-9	part	B-NPart	O	_	_	
+14-10	of	O	O	_	_	
+14-11	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	14-4	
+14-12	city	B-ScrPart_destination	O	webanno.custom.Corefchains_	13-19	
+14-13	.	O	O	_	_	
+
+#id=15
+#text=I see all kinds of people and get to explore the city I live in . 
+15-1	I	B-ScrPart_passenger	O	_	_	
+15-2	see	O	B-UnrelEv	_	_	
+15-3	all	O	O	_	_	
+15-4	kinds	O	O	_	_	
+15-5	of	O	O	_	_	
+15-6	people	O	O	_	_	
+15-7	and	O	O	_	_	
+15-8	get	O	B-UnrelEv|B-UnrelEv	_	_	
+15-9	to	O	I-UnrelEv	_	_	
+15-10	explore	O	B-UnrelEv	_	_	
+15-11	the	O	O	_	_	
+15-12	city	B-ScrPart_destination	O	webanno.custom.Corefchains_	14-12	
+15-13	I	B-ScrPart_passenger	O	_	_	
+15-14	live	O	B-UnrelEv	_	_	
+15-15	in	O	O	_	_	
+15-16	.	O	O	_	_	
+

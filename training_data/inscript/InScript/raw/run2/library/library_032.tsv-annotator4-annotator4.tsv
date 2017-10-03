@@ -1,0 +1,194 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=For a school assignment I needed to find a book from the library .
+1-1	For	O	O	
+1-2	a	O	O	
+1-3	school	B-NPart	O	
+1-4	assignment	I-NPart|B-NPart	O	
+1-5	I	B-ScrPart_customer	O	
+1-6	needed	O	O	
+1-7	to	O	O	
+1-8	find	O	B-Evoking	
+1-9	a	O	I-Evoking	
+1-10	book	B-ScrPart_book	I-Evoking	
+1-11	from	O	I-Evoking	
+1-12	the	O	I-Evoking	
+1-13	library	B-ScrPart_library	I-Evoking	
+1-14	.	O	O	
+
+#id=2
+#text=I went to the library after class and looked the book up on the computer which had the library 's catalogue .
+2-1	I	B-ScrPart_customer	O	
+2-2	went	O	B-ScrEv_get_library	
+2-3	to	O	O	
+2-4	the	O	O	
+2-5	library	B-ScrPart_library	O	
+2-6	after	O	O	
+2-7	class	B-NPart	O	
+2-8	and	O	O	
+2-9	looked	O	B-ScrEv_use_computer	
+2-10	the	O	O	
+2-11	book	B-ScrPart_book	O	
+2-12	up	O	O	
+2-13	on	O	O	
+2-14	the	O	O	
+2-15	computer	B-ScrPart_institutional_devices	O	
+2-16	which	B-ScrPart_institutional_devices	O	
+2-17	had	O	B-UnrelEv	
+2-18	the	O	O	
+2-19	library	B-ScrPart_library	O	
+2-20	's	O	O	
+2-21	catalogue	B-ScrPart_catalog	O	
+2-22	.	O	O	
+
+#id=3
+#text=The book was upstairs , so I went there and followed the call numbers until I found what I was looking for .
+3-1	The	O	O	
+3-2	book	B-ScrPart_book	O	
+3-3	was	O	B-UnrelEv	
+3-4	upstairs	O	O	
+3-5	,	O	O	
+3-6	so	O	O	
+3-7	I	B-ScrPart_customer	O	
+3-8	went	O	B-ScrEv_get_shelf	
+3-9	there	O	O	
+3-10	and	O	O	
+3-11	followed	O	B-ScrEv_get_shelf	
+3-12	the	O	O	
+3-13	call	B-ScrPart_section_id	O	
+3-14	numbers	I-ScrPart_section_id|B-ScrPart_section_id	O	
+3-15	until	O	O	
+3-16	I	B-ScrPart_customer	O	
+3-17	found	O	B-ScrEv_take_book	
+3-18	what	B-ScrPart_book	O	
+3-19	I	B-ScrPart_customer	O	
+3-20	was	O	O	
+3-21	looking	O	B-ScrEv_look_for_book	
+3-22	for	O	I-ScrEv_look_for_book	
+3-23	.	O	O	
+
+#id=4
+#text=I then went back downstairs to the circulation desk .
+4-1	I	B-ScrPart_customer	O	
+4-2	then	O	O	
+4-3	went	O	B-ScrEv_go_check_out	
+4-4	back	O	O	
+4-5	downstairs	O	O	
+4-6	to	O	O	
+4-7	the	O	O	
+4-8	circulation	B-ScrPart_check-out_desk	O	
+4-9	desk	I-ScrPart_check-out_desk|B-ScrPart_check-out_desk	O	
+4-10	.	O	O	
+
+#id=5
+#text=I placed the book on the counter and the friendly librarian swiped my library card and then scanned the book .
+5-1	I	B-ScrPart_customer	O	
+5-2	placed	O	B-ScrEv_register	
+5-3	the	O	O	
+5-4	book	B-ScrPart_book	O	
+5-5	on	O	O	
+5-6	the	O	O	
+5-7	counter	B-ScrPart_check-out_desk	O	
+5-8	and	O	O	
+5-9	the	O	O	
+5-10	friendly	O	O	
+5-11	librarian	B-ScrPart_staff	O	
+5-12	swiped	O	B-ScrEv_show_card	
+5-13	my	B-ScrPart_customer	O	
+5-14	library	B-ScrPart_library_card	O	
+5-15	card	I-ScrPart_library_card|B-ScrPart_library_card	O	
+5-16	and	O	O	
+5-17	then	O	O	
+5-18	scanned	O	B-ScrEv_register	
+5-19	the	O	O	
+5-20	book	B-ScrPart_book	O	
+5-21	.	O	O	
+
+#id=6
+#text=Turns out I owed a fine which I had to pay before I could have the book .
+6-1	Turns	O	B-UnrelEv	
+6-2	out	O	I-UnrelEv	
+6-3	I	B-ScrPart_customer	O	
+6-4	owed	O	B-RelNScrEv	
+6-5	a	O	O	
+6-6	fine	B-NPart	O	
+6-7	which	B-NPart	O	
+6-8	I	B-ScrPart_customer	O	
+6-9	had	O	O	
+6-10	to	O	O	
+6-11	pay	O	B-RelNScrEv	
+6-12	before	O	O	
+6-13	I	B-ScrPart_customer	O	
+6-14	could	O	O	
+6-15	have	O	B-RelNScrEv	
+6-16	the	O	O	
+6-17	book	B-ScrPart_book	O	
+6-18	.	O	O	
+
+#id=7
+#text=It was only a dime which thankfully I had on my person .
+7-1	It	B-No_label	O	
+7-2	was	O	B-UnrelEv	
+7-3	only	O	O	
+7-4	a	O	O	
+7-5	dime	B-NPart	O	
+7-6	which	O	O	
+7-7	thankfully	O	O	
+7-8	I	B-ScrPart_customer	O	
+7-9	had	O	B-UnrelEv	
+7-10	on	O	O	
+7-11	my	B-ScrPart_customer	O	
+7-12	person	B-No_label	O	
+7-13	.	O	O	
+
+#id=8
+#text=After paying the fine the book was stamped with a due date and the librarian gave it to me .
+8-1	After	O	O	
+8-2	paying	O	B-RelNScrEv	
+8-3	the	O	O	
+8-4	fine	B-NPart	O	
+8-5	the	O	O	
+8-6	book	B-ScrPart_book	O	
+8-7	was	O	O	
+8-8	stamped	O	B-ScrEv_get_receipt	
+8-9	with	O	O	
+8-10	a	O	O	
+8-11	due	B-ScrPart_return_date	O	
+8-12	date	I-ScrPart_return_date|B-ScrPart_return_date	O	
+8-13	and	O	O	
+8-14	the	O	O	
+8-15	librarian	B-ScrPart_staff	O	
+8-16	gave	O	B-RelNScrEv	
+8-17	it	B-ScrPart_book	O	
+8-18	to	O	O	
+8-19	me	B-ScrPart_customer	O	
+8-20	.	O	O	
+
+#id=9
+#text=It was raining out so she gave me a rain bag to protect the book .
+9-1	It	B-No_label	O	
+9-2	was	O	O	
+9-3	raining	O	B-UnrelEv	
+9-4	out	O	O	
+9-5	so	O	O	
+9-6	she	B-ScrPart_staff	O	
+9-7	gave	O	B-RelNScrEv	
+9-8	me	B-ScrPart_customer	O	
+9-9	a	O	O	
+9-10	rain	B-ScrPart_bag	O	
+9-11	bag	I-ScrPart_bag|B-ScrPart_bag	O	
+9-12	to	O	O	
+9-13	protect	O	B-ScrEv_put_book_bag	
+9-14	the	O	O	
+9-15	book	B-ScrPart_book	O	
+9-16	.	O	O	
+
+#id=10
+#text=I was on my way . 
+10-1	I	B-ScrPart_customer	O	
+10-2	was	O	B-ScrEv_leave	
+10-3	on	O	O	
+10-4	my	B-ScrPart_customer	O	
+10-5	way	B-No_label	O	
+10-6	.	O	O	
+

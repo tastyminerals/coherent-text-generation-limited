@@ -1,0 +1,194 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=For a school assignment I needed to find a book from the library .
+1-1	For	O	O	_	_	
+1-2	a	O	O	_	_	
+1-3	school	O	O	_	_	
+1-4	assignment	O	O	_	_	
+1-5	I	B-ScrPart_customer	O	_	_	
+1-6	needed	O	O	_	_	
+1-7	to	O	O	_	_	
+1-8	find	O	B-Evoking	_	_	
+1-9	a	O	I-Evoking	_	_	
+1-10	book	B-ScrPart_book	I-Evoking	_	_	
+1-11	from	O	I-Evoking	_	_	
+1-12	the	O	I-Evoking	_	_	
+1-13	library	B-ScrPart_library	I-Evoking	_	_	
+1-14	.	O	O	_	_	
+
+#id=2
+#text=I went to the library after class and looked the book up on the computer which had the library 's catalogue .
+2-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-5	
+2-2	went	O	B-ScrEv_get_library	_	_	
+2-3	to	O	O	_	_	
+2-4	the	O	O	_	_	
+2-5	library	B-ScrPart_library	O	webanno.custom.Corefchains_	1-13	
+2-6	after	O	O	_	_	
+2-7	class	O	O	_	_	
+2-8	and	O	O	_	_	
+2-9	looked	O	B-ScrEv_use_computer	_	_	
+2-10	the	O	O	_	_	
+2-11	book	B-ScrPart_book	O	webanno.custom.Corefchains_	1-10	
+2-12	up	O	O	_	_	
+2-13	on	O	O	_	_	
+2-14	the	O	O	_	_	
+2-15	computer	B-ScrPart_institutional_devices	O	_	_	
+2-16	which	B-ScrPart_institutional_devices	O	webanno.custom.Corefchains_	2-15	
+2-17	had	O	B-UnrelEv	_	_	
+2-18	the	O	O	_	_	
+2-19	library	B-ScrPart_library	O	webanno.custom.Corefchains_	2-5	
+2-20	's	O	O	_	_	
+2-21	catalogue	B-ScrPart_catalog	O	_	_	
+2-22	.	O	O	_	_	
+
+#id=3
+#text=The book was upstairs , so I went there and followed the call numbers until I found what I was looking for .
+3-1	The	O	O	_	_	
+3-2	book	B-ScrPart_book	O	webanno.custom.Corefchains_	2-11	
+3-3	was	O	B-UnrelEv	_	_	
+3-4	upstairs	O	O	_	_	
+3-5	,	O	O	_	_	
+3-6	so	O	O	_	_	
+3-7	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-1	
+3-8	went	O	B-ScrEv_get_shelf	_	_	
+3-9	there	O	O	_	_	
+3-10	and	O	O	_	_	
+3-11	followed	O	B-ScrEv_get_shelf	_	_	
+3-12	the	O	O	_	_	
+3-13	call	B-ScrPart_section_id	O	_	_	
+3-14	numbers	I-ScrPart_section_id|B-ScrPart_section_id	O	_	_	
+3-15	until	O	O	_	_	
+3-16	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-7	
+3-17	found	O	B-ScrEv_take_book	_	_	
+3-18	what	B-ScrPart_book	O	webanno.custom.Corefchains_	3-2	
+3-19	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-16	
+3-20	was	O	O	_	_	
+3-21	looking	O	B-ScrEv_look_for_book	_	_	
+3-22	for	O	I-ScrEv_look_for_book	_	_	
+3-23	.	O	O	_	_	
+
+#id=4
+#text=I then went back downstairs to the circulation desk .
+4-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-19	
+4-2	then	O	O	_	_	
+4-3	went	O	B-ScrEv_go_check_out	_	_	
+4-4	back	O	O	_	_	
+4-5	downstairs	O	O	_	_	
+4-6	to	O	O	_	_	
+4-7	the	O	O	_	_	
+4-8	circulation	B-ScrPart_check-out_desk	O	_	_	
+4-9	desk	I-ScrPart_check-out_desk|B-ScrPart_check-out_desk	O	_	_	
+4-10	.	O	O	_	_	
+
+#id=5
+#text=I placed the book on the counter and the friendly librarian swiped my library card and then scanned the book .
+5-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-1	
+5-2	placed	O	B-ScrEv_register	_	_	
+5-3	the	O	O	_	_	
+5-4	book	B-ScrPart_book	O	webanno.custom.Corefchains_	3-18	
+5-5	on	O	O	_	_	
+5-6	the	O	O	_	_	
+5-7	counter	B-ScrPart_check-out_desk	O	webanno.custom.Corefchains_	4-9	
+5-8	and	O	O	_	_	
+5-9	the	O	O	_	_	
+5-10	friendly	O	O	_	_	
+5-11	librarian	B-ScrPart_staff	O	_	_	
+5-12	swiped	O	B-ScrEv_show_card	_	_	
+5-13	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-1	
+5-14	library	B-ScrPart_library_card	O	_	_	
+5-15	card	I-ScrPart_library_card|B-ScrPart_library_card	O	_	_	
+5-16	and	O	O	_	_	
+5-17	then	O	O	_	_	
+5-18	scanned	O	B-ScrEv_register	_	_	
+5-19	the	O	O	_	_	
+5-20	book	B-ScrPart_book	O	webanno.custom.Corefchains_	5-4	
+5-21	.	O	O	_	_	
+
+#id=6
+#text=Turns out I owed a fine which I had to pay before I could have the book .
+6-1	Turns	O	B-UnrelEv	_	_	
+6-2	out	O	I-UnrelEv	_	_	
+6-3	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-13	
+6-4	owed	O	B-RelNScrEv	_	_	
+6-5	a	O	O	_	_	
+6-6	fine	B-NPart	O	_	_	
+6-7	which	B-NPart	O	_	_	
+6-8	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-3	
+6-9	had	O	O	_	_	
+6-10	to	O	O	_	_	
+6-11	pay	O	B-RelNScrEv	_	_	
+6-12	before	O	O	_	_	
+6-13	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-8	
+6-14	could	O	O	_	_	
+6-15	have	O	B-RelNScrEv	_	_	
+6-16	the	O	O	_	_	
+6-17	book	B-ScrPart_book	O	webanno.custom.Corefchains_	5-20	
+6-18	.	O	O	_	_	
+
+#id=7
+#text=It was only a dime which thankfully I had on my person .
+7-1	It	O	O	_	_	
+7-2	was	O	B-UnrelEv	_	_	
+7-3	only	O	O	_	_	
+7-4	a	O	O	_	_	
+7-5	dime	O	O	_	_	
+7-6	which	O	O	_	_	
+7-7	thankfully	O	O	_	_	
+7-8	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-13	
+7-9	had	O	B-UnrelEv	_	_	
+7-10	on	O	O	_	_	
+7-11	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-8	
+7-12	person	O	O	_	_	
+7-13	.	O	O	_	_	
+
+#id=8
+#text=After paying the fine the book was stamped with a due date and the librarian gave it to me .
+8-1	After	O	O	_	_	
+8-2	paying	O	B-RelNScrEv	_	_	
+8-3	the	O	O	_	_	
+8-4	fine	B-NPart	O	_	_	
+8-5	the	O	O	_	_	
+8-6	book	B-ScrPart_book	O	webanno.custom.Corefchains_	6-17	
+8-7	was	O	O	_	_	
+8-8	stamped	O	B-ScrEv_get_receipt	_	_	
+8-9	with	O	O	_	_	
+8-10	a	O	O	_	_	
+8-11	due	B-ScrPart_return_date	O	_	_	
+8-12	date	I-ScrPart_return_date|B-ScrPart_return_date	O	_	_	
+8-13	and	O	O	_	_	
+8-14	the	O	O	_	_	
+8-15	librarian	B-ScrPart_staff	O	webanno.custom.Corefchains_	5-11	
+8-16	gave	O	B-RelNScrEv	_	_	
+8-17	it	B-ScrPart_book	O	webanno.custom.Corefchains_	8-6	
+8-18	to	O	O	_	_	
+8-19	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-11	
+8-20	.	O	O	_	_	
+
+#id=9
+#text=It was raining out so she gave me a rain bag to protect the book .
+9-1	It	O	O	_	_	
+9-2	was	O	O	_	_	
+9-3	raining	O	B-UnrelEv	_	_	
+9-4	out	O	O	_	_	
+9-5	so	O	O	_	_	
+9-6	she	B-ScrPart_staff	O	webanno.custom.Corefchains_	8-15	
+9-7	gave	O	B-RelNScrEv	_	_	
+9-8	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-19	
+9-9	a	O	O	_	_	
+9-10	rain	B-ScrPart_bag	O	_	_	
+9-11	bag	I-ScrPart_bag|B-ScrPart_bag	O	_	_	
+9-12	to	O	O	_	_	
+9-13	protect	O	B-ScrEv_put_book_bag	_	_	
+9-14	the	O	O	_	_	
+9-15	book	B-ScrPart_book	O	webanno.custom.Corefchains_	8-17	
+9-16	.	O	O	_	_	
+
+#id=10
+#text=I was on my way . 
+10-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-8	
+10-2	was	O	B-ScrEv_leave	_	_	
+10-3	on	O	O	_	_	
+10-4	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	10-1	
+10-5	way	B-NPart	O	_	_	
+10-6	.	O	O	_	_	
+

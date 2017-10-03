@@ -1,0 +1,217 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Last weekend I thought it would be neat to make my back yard more lively .
+1-1	Last	O	O	_	_	
+1-2	weekend	O	O	_	_	
+1-3	I	B-ScrPart_gardener	O	_	_	
+1-4	thought	O	B-UnrelEv	_	_	
+1-5	it	O	O	_	_	
+1-6	would	O	O	_	_	
+1-7	be	O	B-UnrelEv	_	_	
+1-8	neat	O	O	_	_	
+1-9	to	O	O	_	_	
+1-10	make	O	B-UnrelEv	_	_	
+1-11	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	1-3	
+1-12	back	B-ScrPart_location_garden	O	_	_	
+1-13	yard	I-ScrPart_location_garden|B-ScrPart_location_garden	O	_	_	
+1-14	more	O	O	_	_	
+1-15	lively	O	O	_	_	
+1-16	.	O	O	_	_	
+
+#id=2
+#text=I went to the local landscaping store and picked out some trees I thought would look nice in my yard .
+2-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	1-11	
+2-2	went	O	B-ScrEv_get_tree	_	_	
+2-3	to	O	O	_	_	
+2-4	the	O	O	_	_	
+2-5	local	O	O	_	_	
+2-6	landscaping	B-ScrPart_shop	O	_	_	
+2-7	store	I-ScrPart_shop|B-ScrPart_shop	O	_	_	
+2-8	and	O	O	_	_	
+2-9	picked	O	B-ScrEv_choose_tree|B-ScrEv_choose_tree	_	_	
+2-10	out	O	I-ScrEv_choose_tree	_	_	
+2-11	some	O	O	_	_	
+2-12	trees	B-ScrPart_tree	O	_	_	
+2-13	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	2-1	
+2-14	thought	O	B-UnrelEv	_	_	
+2-15	would	O	O	_	_	
+2-16	look	O	B-UnrelEv	_	_	
+2-17	nice	O	O	_	_	
+2-18	in	O	O	_	_	
+2-19	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	2-13	
+2-20	yard	B-ScrPart_location_garden	O	webanno.custom.Corefchains_	1-13	
+2-21	.	O	O	_	_	
+
+#id=3
+#text=After returning home I called to my kids to come help me install the new plants .
+3-1	After	O	O	_	_	
+3-2	returning	O	B-UnrelEv	_	_	
+3-3	home	O	O	_	_	
+3-4	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	2-19	
+3-5	called	O	B-UnrelEv	_	_	
+3-6	to	O	O	_	_	
+3-7	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	3-4	
+3-8	kids	B-ScrPart_gardener	O	_	_	
+3-9	to	O	O	_	_	
+3-10	come	O	B-UnrelEv	_	_	
+3-11	help	O	B-RelNScrEv	_	_	
+3-12	me	B-ScrPart_gardener	O	webanno.custom.Corefchains_	3-7	
+3-13	install	O	B-Evoking	_	_	
+3-14	the	O	I-Evoking	_	_	
+3-15	new	O	I-Evoking	_	_	
+3-16	plants	B-ScrPart_tree	I-Evoking	webanno.custom.Corefchains_	2-12	
+3-17	.	O	O	_	_	
+
+#id=4
+#text=We all grabbed shovels , gloves , and buckets and went to work .
+4-1	We	B-ScrPart_gardener	O	_	_	
+4-2	all	O	O	_	_	
+4-3	grabbed	O	B-ScrEv_get_tools	_	_	
+4-4	shovels	B-ScrPart_gardening_tool	O	_	_	
+4-5	,	O	O	_	_	
+4-6	gloves	B-ScrPart_gardening_tool	O	_	_	
+4-7	,	O	O	_	_	
+4-8	and	O	O	_	_	
+4-9	buckets	B-ScrPart_gardening_tool	O	_	_	
+4-10	and	O	O	_	_	
+4-11	went	O	B-UnrelEv	_	_	
+4-12	to	O	O	_	_	
+4-13	work	O	O	_	_	
+4-14	.	O	O	_	_	
+
+#id=5
+#text=We dug holes around the yard where we thought it would be nice to have the trees grow .
+5-1	We	B-ScrPart_gardener	O	webanno.custom.Corefchains_	4-1	
+5-2	dug	O	B-ScrEv_dug_hole	_	_	
+5-3	holes	B-ScrPart_hole	O	_	_	
+5-4	around	O	O	_	_	
+5-5	the	O	O	_	_	
+5-6	yard	B-ScrPart_location_garden	O	webanno.custom.Corefchains_	2-20	
+5-7	where	O	O	_	_	
+5-8	we	B-ScrPart_gardener	O	webanno.custom.Corefchains_	5-1	
+5-9	thought	O	B-UnrelEv	_	_	
+5-10	it	O	O	_	_	
+5-11	would	O	O	_	_	
+5-12	be	O	B-UnrelEv	_	_	
+5-13	nice	O	O	_	_	
+5-14	to	O	O	_	_	
+5-15	have	O	O	_	_	
+5-16	the	O	O	_	_	
+5-17	trees	B-ScrPart_tree	O	webanno.custom.Corefchains_	3-16	
+5-18	grow	O	B-RelNScrEv	_	_	
+5-19	.	O	O	_	_	
+
+#id=6
+#text=We carefully each picked our favorite tree for each spot .
+6-1	We	B-ScrPart_gardener	O	webanno.custom.Corefchains_	5-8	
+6-2	carefully	O	O	_	_	
+6-3	each	O	O	_	_	
+6-4	picked	O	B-ScrEv_choose_tree	_	_	
+6-5	our	B-ScrPart_gardener	O	webanno.custom.Corefchains_	6-1	
+6-6	favorite	O	O	_	_	
+6-7	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	5-17	
+6-8	for	O	O	_	_	
+6-9	each	O	O	_	_	
+6-10	spot	B-ScrPart_location_garden	O	_	_	
+6-11	.	O	O	_	_	
+
+#id=7
+#text=Once we had settled on the location of each tree we set them in the holes and covered them back up with dirt .
+7-1	Once	O	O	_	_	
+7-2	we	B-ScrPart_gardener	O	webanno.custom.Corefchains_	6-5	
+7-3	had	O	O	_	_	
+7-4	settled	O	B-ScrEv_find_place	_	_	
+7-5	on	O	O	_	_	
+7-6	the	O	O	_	_	
+7-7	location	B-ScrPart_location_garden	O	webanno.custom.Corefchains_	6-10	
+7-8	of	O	O	_	_	
+7-9	each	O	O	_	_	
+7-10	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	6-7	
+7-11	we	B-ScrPart_gardener	O	webanno.custom.Corefchains_	7-2	
+7-12	set	O	B-ScrEv_place_root	_	_	
+7-13	them	B-ScrPart_tree	O	webanno.custom.Corefchains_	7-10	
+7-14	in	O	O	_	_	
+7-15	the	O	O	_	_	
+7-16	holes	B-ScrPart_hole	O	webanno.custom.Corefchains_	5-3	
+7-17	and	O	O	_	_	
+7-18	covered	O	B-ScrEv_refill_hole	_	_	
+7-19	them	B-ScrPart_tree	O	webanno.custom.Corefchains_	7-13	
+7-20	back	O	O	_	_	
+7-21	up	O	O	_	_	
+7-22	with	O	O	_	_	
+7-23	dirt	B-ScrPart_dirt	O	_	_	
+7-24	.	O	O	_	_	
+
+#id=8
+#text=After placing some mulch around each tree to hold moisture it was time to water the plants .
+8-1	After	O	O	_	_	
+8-2	placing	O	B-ScrEv_place_fertilizers	_	_	
+8-3	some	O	O	_	_	
+8-4	mulch	B-ScrPart_fertilizer	O	_	_	
+8-5	around	O	O	_	_	
+8-6	each	O	O	_	_	
+8-7	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	7-19	
+8-8	to	O	O	_	_	
+8-9	hold	O	B-RelNScrEv	_	_	
+8-10	moisture	B-MissScrPart	O	_	_	
+8-11	it	O	O	_	_	
+8-12	was	O	O	_	_	
+8-13	time	O	O	_	_	
+8-14	to	O	O	_	_	
+8-15	water	O	B-ScrEv_water	_	_	
+8-16	the	O	O	_	_	
+8-17	plants	B-ScrPart_tree	O	webanno.custom.Corefchains_	8-7	
+8-18	.	O	O	_	_	
+
+#id=9
+#text=We were all pretty worn out by this time so we played rock , paper , scissors to determine who would have to get the hose and water the new trees .
+9-1	We	B-ScrPart_gardener	O	webanno.custom.Corefchains_	7-11	
+9-2	were	O	O	_	_	
+9-3	all	O	O	_	_	
+9-4	pretty	O	O	_	_	
+9-5	worn	O	B-UnrelEv	_	_	
+9-6	out	O	I-UnrelEv	_	_	
+9-7	by	O	O	_	_	
+9-8	this	O	O	_	_	
+9-9	time	O	O	_	_	
+9-10	so	O	O	_	_	
+9-11	we	B-ScrPart_gardener	O	webanno.custom.Corefchains_	9-1	
+9-12	played	O	B-UnrelEv	_	_	
+9-13	rock	O	O	_	_	
+9-14	,	O	O	_	_	
+9-15	paper	O	O	_	_	
+9-16	,	O	O	_	_	
+9-17	scissors	O	O	_	_	
+9-18	to	O	O	_	_	
+9-19	determine	O	B-UnrelEv	_	_	
+9-20	who	B-ScrPart_gardener	O	_	_	
+9-21	would	O	O	_	_	
+9-22	have	O	O	_	_	
+9-23	to	O	O	_	_	
+9-24	get	O	B-ScrEv_get_tools	_	_	
+9-25	the	O	O	_	_	
+9-26	hose	B-ScrPart_gardening_tool	O	_	_	
+9-27	and	O	O	_	_	
+9-28	water	O	B-ScrEv_water	_	_	
+9-29	the	O	O	_	_	
+9-30	new	O	O	_	_	
+9-31	trees	B-ScrPart_tree	O	webanno.custom.Corefchains_	8-17	
+9-32	.	O	O	_	_	
+
+#id=10
+#text=I ended up losing the game and was assigned the task of watering . 
+10-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	3-12	
+10-2	ended	O	B-UnrelEv|B-UnrelEv	_	_	
+10-3	up	O	I-UnrelEv	_	_	
+10-4	losing	O	B-UnrelEv	_	_	
+10-5	the	O	O	_	_	
+10-6	game	O	O	_	_	
+10-7	and	O	O	_	_	
+10-8	was	O	O	_	_	
+10-9	assigned	O	B-UnrelEv	_	_	
+10-10	the	O	O	_	_	
+10-11	task	O	O	_	_	
+10-12	of	O	O	_	_	
+10-13	watering	O	B-ScrEv_water	_	_	
+10-14	.	O	O	_	_	
+

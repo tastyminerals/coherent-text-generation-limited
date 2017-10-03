@@ -1,0 +1,225 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Eventsandparticipants | Event # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Last week me and my family wanted to ride the bus to the zoo .
+1-1	Last	O	O	_	_	
+1-2	week	O	O	_	_	
+1-3	me	B-ScrPart_passenger	O	_	_	
+1-4	and	O	O	_	_	
+1-5	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-3	
+1-6	family	B-ScrPart_passenger	O	_	_	
+1-7	wanted	O	B-UnrelEv	_	_	
+1-8	to	O	O	_	_	
+1-9	ride	O	B-Evoking	_	_	
+1-10	the	O	I-Evoking	_	_	
+1-11	bus	B-ScrPart_bus	I-Evoking	_	_	
+1-12	to	O	O	_	_	
+1-13	the	O	O	_	_	
+1-14	zoo	B-ScrPart_destination	O	_	_	
+1-15	.	O	O	_	_	
+
+#id=2
+#text=We checked the bus timetable and headed to the bus stop .
+2-1	We	B-ScrPart_passenger	O	_	_	
+2-2	checked	O	B-ScrEv_check_time-table	_	_	
+2-3	the	O	O	_	_	
+2-4	bus	O	O	_	_	
+2-5	timetable	B-ScrPart_time-table	O	_	_	
+2-6	and	O	O	_	_	
+2-7	headed	O	B-ScrEv_get_bus_stop	_	_	
+2-8	to	O	O	_	_	
+2-9	the	O	O	_	_	
+2-10	bus	B-ScrPart_bus_stop	O	_	_	
+2-11	stop	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	_	_	
+2-12	.	O	O	_	_	
+
+#id=3
+#text=We waited for about 10 minutes and then the bus arrived .
+3-1	We	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-1	
+3-2	waited	O	B-ScrEv_wait	_	_	
+3-3	for	O	O	_	_	
+3-4	about	O	O	_	_	
+3-5	10	O	O	_	_	
+3-6	minutes	B-ScrPart_time/date	O	_	_	
+3-7	and	O	O	_	_	
+3-8	then	O	O	_	_	
+3-9	the	O	O	_	_	
+3-10	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	1-11	
+3-11	arrived	O	B-ScrEv_bus_comes	_	_	
+3-12	.	O	O	_	_	
+
+#id=4
+#text=We got on the bus and asked the bus man how much a family day ticket would cost .
+4-1	We	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-1	
+4-2	got	O	B-ScrEv_board_bus|B-ScrEv_board_bus	_	_	
+4-3	on	O	I-ScrEv_board_bus	_	_	
+4-4	the	O	O	_	_	
+4-5	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	3-10	
+4-6	and	O	O	_	_	
+4-7	asked	O	B-RelNScrEv	_	_	
+4-8	the	O	O	_	_	
+4-9	bus	B-ScrPart_bus_staff	O	_	_	
+4-10	man	I-ScrPart_bus_staff|B-ScrPart_bus_staff	O	_	_	
+4-11	how	O	O	_	_	
+4-12	much	O	O	_	_	
+4-13	a	O	O	_	_	
+4-14	family	B-ScrPart_card/ticket	O	_	_	
+4-15	day	I-ScrPart_card/ticket	O	_	_	
+4-16	ticket	I-ScrPart_card/ticket|B-ScrPart_card/ticket	O	_	_	
+4-17	would	O	O	_	_	
+4-18	cost	O	B-RelNScrEv	_	_	
+4-19	.	O	O	_	_	
+
+#id=5
+#text=He told us it was 10 euro .
+5-1	He	B-ScrPart_bus_staff	O	webanno.custom.Corefchains_	4-10	
+5-2	told	O	B-RelNScrEv	_	_	
+5-3	us	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-1	
+5-4	it	B-ScrPart_card/ticket	O	_	_	
+5-5	was	O	O	_	_	
+5-6	10	O	O	_	_	
+5-7	euro	B-ScrPart_money	O	_	_	
+5-8	.	O	O	_	_	
+
+#id=6
+#text=My mam paid him for the ticket .
+6-1	My	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-5	
+6-2	mam	B-ScrPart_passenger	O	_	_	
+6-3	paid	O	B-ScrEv_get_ticket	_	_	
+6-4	him	B-ScrPart_bus_staff	O	webanno.custom.Corefchains_	5-1	
+6-5	for	O	O	_	_	
+6-6	the	O	O	_	_	
+6-7	ticket	B-ScrPart_card/ticket	O	_	_	
+6-8	.	O	O	_	_	
+
+#id=7
+#text=We went and sat at the back of the bus .
+7-1	We	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-3	
+7-2	went	O	B-ScrEv_find_place	_	_	
+7-3	and	O	O	_	_	
+7-4	sat	O	B-ScrEv_take_seat	_	_	
+7-5	at	O	O	_	_	
+7-6	the	O	O	_	_	
+7-7	back	B-ScrPart_seat_in_bus	O	_	_	
+7-8	of	O	O	_	_	
+7-9	the	O	O	_	_	
+7-10	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	4-5	
+7-11	.	O	O	_	_	
+
+#id=8
+#text=Me and my siblings sat by the window so we could see when we were close to the zoo .
+8-1	Me	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-1	
+8-2	and	O	O	_	_	
+8-3	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-1	
+8-4	siblings	B-ScrPart_passenger	O	_	_	
+8-5	sat	O	B-ScrEv_take_seat	_	_	
+8-6	by	O	O	_	_	
+8-7	the	O	O	_	_	
+8-8	window	B-ScrPart_in-bus_entertainment	O	_	_	
+8-9	so	O	O	_	_	
+8-10	we	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-1	
+8-11	could	O	O	_	_	
+8-12	see	O	B-UnrelEv	_	_	
+8-13	when	O	O	_	_	
+8-14	we	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-10	
+8-15	were	O	B-UnrelEv	_	_	
+8-16	close	O	O	_	_	
+8-17	to	O	O	_	_	
+8-18	the	O	O	_	_	
+8-19	zoo	B-ScrPart_destination	O	webanno.custom.Corefchains_	1-14	
+8-20	.	O	O	_	_	
+
+#id=9
+#text=We talked about what animals we wanted to see at the zoo .
+9-1	We	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-14	
+9-2	talked	O	B-ScrEv_spend_time_bus	_	_	
+9-3	about	O	O	_	_	
+9-4	what	O	O	_	_	
+9-5	animals	O	O	_	_	
+9-6	we	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-1	
+9-7	wanted	O	B-UnrelEv	_	_	
+9-8	to	O	O	_	_	
+9-9	see	O	B-UnrelEv	_	_	
+9-10	at	O	O	_	_	
+9-11	the	O	O	_	_	
+9-12	zoo	B-ScrPart_destination	O	webanno.custom.Corefchains_	8-19	
+9-13	.	O	O	_	_	
+
+#id=10
+#text=My favorite animals at the zoo are the monkeys .
+10-1	My	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-3	
+10-2	favorite	O	O	_	_	
+10-3	animals	O	O	_	_	
+10-4	at	O	O	_	_	
+10-5	the	O	O	_	_	
+10-6	zoo	B-ScrPart_destination	O	webanno.custom.Corefchains_	9-12	
+10-7	are	O	B-UnrelEv	_	_	
+10-8	the	O	O	_	_	
+10-9	monkeys	O	O	_	_	
+10-10	.	O	O	_	_	
+
+#id=11
+#text=When we saw the zoo sign out the window we pushed the stop button and walked towards the exit doors .
+11-1	When	O	O	_	_	
+11-2	we	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-6	
+11-3	saw	O	B-MissScrEv	_	_	
+11-4	the	O	O	_	_	
+11-5	zoo	B-ScrPart_destination	O	_	_	
+11-6	sign	I-ScrPart_destination|B-ScrPart_destination	O	_	_	
+11-7	out	O	O	_	_	
+11-8	the	O	O	_	_	
+11-9	window	B-ScrPart_in-bus_entertainment	O	_	_	
+11-10	we	B-ScrPart_passenger	O	webanno.custom.Corefchains_	11-2	
+11-11	pushed	O	B-ScrEv_press_stop_button	_	_	
+11-12	the	O	O	_	_	
+11-13	stop	B-ScrPart_stop_button/door_opener	O	_	_	
+11-14	button	I-ScrPart_stop_button/door_opener|B-ScrPart_stop_button/door_opener	O	_	_	
+11-15	and	O	O	_	_	
+11-16	walked	O	B-ScrEv_go_exit	_	_	
+11-17	towards	O	O	_	_	
+11-18	the	O	O	_	_	
+11-19	exit	B-ScrPart_door	O	_	_	
+11-20	doors	I-ScrPart_door|B-ScrPart_door	O	_	_	
+11-21	.	O	O	_	_	
+
+#id=12
+#text=We thanked the bus driver and exited the bus .
+12-1	We	B-ScrPart_passenger	O	webanno.custom.Corefchains_	11-10	
+12-2	thanked	O	B-RelNScrEv	_	_	
+12-3	the	O	O	_	_	
+12-4	bus	B-ScrPart_bus_staff	O	_	_	
+12-5	driver	I-ScrPart_bus_staff|B-ScrPart_bus_staff	O	webanno.custom.Corefchains_	6-4	
+12-6	and	O	O	_	_	
+12-7	exited	O	B-ScrEv_get_off	_	_	
+12-8	the	O	O	_	_	
+12-9	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	7-10	
+12-10	.	O	O	_	_	
+
+#id=13
+#text=The zoo was right in front of us and we were all excited .
+13-1	The	O	O	_	_	
+13-2	zoo	B-ScrPart_destination	O	webanno.custom.Corefchains_	10-6	
+13-3	was	O	B-UnrelEv	_	_	
+13-4	right	O	O	_	_	
+13-5	in	O	O	_	_	
+13-6	front	O	O	_	_	
+13-7	of	O	O	_	_	
+13-8	us	B-ScrPart_passenger	O	webanno.custom.Corefchains_	12-1	
+13-9	and	O	O	_	_	
+13-10	we	B-ScrPart_passenger	O	webanno.custom.Corefchains_	13-8	
+13-11	were	O	O	_	_	
+13-12	all	O	O	_	_	
+13-13	excited	O	B-UnrelEv	_	_	
+13-14	.	O	O	_	_	
+
+#id=14
+#text=We had a great day at the zoo . 
+14-1	We	B-ScrPart_passenger	O	webanno.custom.Corefchains_	13-10	
+14-2	had	O	B-UnrelEv	_	_	
+14-3	a	O	O	_	_	
+14-4	great	O	O	_	_	
+14-5	day	O	O	_	_	
+14-6	at	O	O	_	_	
+14-7	the	O	O	_	_	
+14-8	zoo	B-ScrPart_destination	O	webanno.custom.Corefchains_	13-2	
+14-9	.	O	O	_	_	
+

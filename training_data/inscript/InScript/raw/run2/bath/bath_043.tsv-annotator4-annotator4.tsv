@@ -1,0 +1,203 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant | Participants
+#id=1
+#text=Taking a bath is a delightful experience .
+1-1	Taking	B-Evoking	O	O	
+1-2	a	I-Evoking	O	O	
+1-3	bath	I-Evoking	B-SuppVComp	B-webanno.custom.Participants_	
+1-4	is	B-UnrelEv	O	O	
+1-5	a	O	O	O	
+1-6	delightful	O	O	O	
+1-7	experience	O	B-NPart	B-webanno.custom.Participants_	
+1-8	.	O	O	O	
+
+#id=2
+#text=I first set the scene by putting on some music , maybe even some candles if I 'm feeling particularly luxurious .
+2-1	I	O	B-ScrPart_bather	B-webanno.custom.Participants_	
+2-2	first	O	O	O	
+2-3	set	B-ScrEv_prepare_bath	O	O	
+2-4	the	O	O	O	
+2-5	scene	O	B-NPart	B-webanno.custom.Participants_	
+2-6	by	O	O	O	
+2-7	putting	B-ScrEv_prepare_bath	O	O	
+2-8	on	I-ScrEv_prepare_bath	O	O	
+2-9	some	O	O	O	
+2-10	music	O	B-ScrPart_in-bath_entertainment	B-webanno.custom.Participants_	
+2-11	,	O	O	O	
+2-12	maybe	O	O	O	
+2-13	even	O	O	O	
+2-14	some	O	O	O	
+2-15	candles	O	B-ScrPart_in-bath_entertainment	B-webanno.custom.Participants_	
+2-16	if	O	O	O	
+2-17	I	O	B-ScrPart_bather	B-webanno.custom.Participants_	
+2-18	'm	O	O	O	
+2-19	feeling	B-UnrelEv	O	O	
+2-20	particularly	O	O	O	
+2-21	luxurious	O	O	O	
+2-22	.	O	O	O	
+
+#id=3
+#text=Some people like to have a glass of wine or two , but I prefer a refreshing diet coke in my bath .
+3-1	Some	O	O	O	
+3-2	people	O	B-NPart	B-webanno.custom.Participants_	
+3-3	like	B-UnrelEv	O	O	
+3-4	to	O	O	O	
+3-5	have	B-RelNScrEv	O	O	
+3-6	a	O	O	O	
+3-7	glass	O	B-Head_of_Partitive	B-webanno.custom.Participants_	
+3-8	of	O	O	O	
+3-9	wine	O	B-ScrPart_in-bath_entertainment	B-webanno.custom.Participants_	
+3-10	or	O	O	O	
+3-11	two	O	O	O	
+3-12	,	O	O	O	
+3-13	but	O	O	O	
+3-14	I	O	B-ScrPart_bather	B-webanno.custom.Participants_	
+3-15	prefer	B-UnrelEv	O	O	
+3-16	a	O	O	O	
+3-17	refreshing	B-RelNScrEv	O	O	
+3-18	diet	O	B-ScrPart_in-bath_entertainment	B-webanno.custom.Participants_	
+3-19	coke	O	I-ScrPart_in-bath_entertainment|B-ScrPart_in-bath_entertainment	I-webanno.custom.Participants_|B-webanno.custom.Participants_	
+3-20	in	O	O	O	
+3-21	my	O	B-ScrPart_bather	B-webanno.custom.Participants_	
+3-22	bath	O	B-ScrPart_bath	B-webanno.custom.Participants_	
+3-23	.	O	O	O	
+
+#id=4
+#text=I like trying out different bath bombs and bath melts from beauty stores like LUSH , they scent the water , create bubbles and contribute to an overall pleasant experience .
+4-1	I	O	B-ScrPart_bather	B-webanno.custom.Participants_	
+4-2	like	B-UnrelEv	O	O	
+4-3	trying	B-ScrEv_put_bubble_bath_scent	O	O	
+4-4	out	I-ScrEv_put_bubble_bath_scent	O	O	
+4-5	different	O	O	O	
+4-6	bath	O	B-ScrPart_bath_means	B-webanno.custom.Participants_	
+4-7	bombs	O	I-ScrPart_bath_means|B-ScrPart_bath_means	I-webanno.custom.Participants_|B-webanno.custom.Participants_	
+4-8	and	O	O	O	
+4-9	bath	O	B-ScrPart_bath_means	B-webanno.custom.Participants_	
+4-10	melts	O	I-ScrPart_bath_means|B-ScrPart_bath_means	I-webanno.custom.Participants_|B-webanno.custom.Participants_	
+4-11	from	O	O	O	
+4-12	beauty	O	B-NPart	B-webanno.custom.Participants_	
+4-13	stores	O	I-NPart|B-NPart	I-webanno.custom.Participants_|B-webanno.custom.Participants_	
+4-14	like	O	O	O	
+4-15	LUSH	O	B-NPart	B-webanno.custom.Participants_	
+4-16	,	O	O	O	
+4-17	they	O	B-ScrPart_bath_means	B-webanno.custom.Participants_	
+4-18	scent	B-RelNScrEv	O	O	
+4-19	the	O	O	O	
+4-20	water	O	B-ScrPart_water	B-webanno.custom.Participants_	
+4-21	,	O	O	O	
+4-22	create	B-RelNScrEv	O	O	
+4-23	bubbles	O	B-ScrPart_bath_means	B-webanno.custom.Participants_	
+4-24	and	O	O	O	
+4-25	contribute	B-UnrelEv	O	O	
+4-26	to	O	O	O	
+4-27	an	O	O	O	
+4-28	overall	O	O	O	
+4-29	pleasant	O	O	O	
+4-30	experience	O	B-NPart	B-webanno.custom.Participants_	
+4-31	.	O	O	O	
+
+#id=5
+#text=I fill the bath with warm to hot water , since I like to bathe after a good workout and my sore body appreciates the heat .
+5-1	I	O	B-ScrPart_bather	B-webanno.custom.Participants_	
+5-2	fill	B-ScrEv_fill_water/wait	O	O	
+5-3	the	O	O	O	
+5-4	bath	O	B-ScrPart_bathtub	B-webanno.custom.Participants_	
+5-5	with	O	O	O	
+5-6	warm	O	O	O	
+5-7	to	O	O	O	
+5-8	hot	O	O	O	
+5-9	water	O	B-ScrPart_water	B-webanno.custom.Participants_	
+5-10	,	O	O	O	
+5-11	since	O	O	O	
+5-12	I	O	B-ScrPart_bather	B-webanno.custom.Participants_	
+5-13	like	B-UnrelEv	O	O	
+5-14	to	O	O	O	
+5-15	bathe	B-Evoking	O	O	
+5-16	after	O	O	O	
+5-17	a	O	O	O	
+5-18	good	O	O	O	
+5-19	workout	O	B-NPart	B-webanno.custom.Participants_	
+5-20	and	O	O	O	
+5-21	my	O	B-ScrPart_bather	B-webanno.custom.Participants_	
+5-22	sore	O	O	O	
+5-23	body	O	B-ScrPart_body_part	B-webanno.custom.Participants_	
+5-24	appreciates	B-???	O	O	
+5-25	the	O	O	O	
+5-26	heat	O	B-ScrPart_temperature	B-webanno.custom.Participants_	
+5-27	.	O	O	O	
+
+#id=6
+#text=If I 'm using bubble bath I can pour it in with the water , if I 'm using a bath bomb I crumble it in little by little .
+6-1	If	O	O	O	
+6-2	I	O	B-ScrPart_bather	B-webanno.custom.Participants_	
+6-3	'm	O	O	O	
+6-4	using	B-UnrelEv	O	O	
+6-5	bubble	O	B-ScrPart_bath_means	B-webanno.custom.Participants_	
+6-6	bath	O	I-ScrPart_bath_means|B-ScrPart_bath_means	I-webanno.custom.Participants_|B-webanno.custom.Participants_	
+6-7	I	O	B-ScrPart_bather	B-webanno.custom.Participants_	
+6-8	can	O	O	O	
+6-9	pour	B-ScrEv_put_bubble_bath_scent	O	O	
+6-10	it	O	B-ScrPart_bath_means	B-webanno.custom.Participants_	
+6-11	in	O	O	O	
+6-12	with	O	O	O	
+6-13	the	O	O	O	
+6-14	water	O	B-ScrPart_water	B-webanno.custom.Participants_	
+6-15	,	O	O	O	
+6-16	if	O	O	O	
+6-17	I	O	B-ScrPart_bather	B-webanno.custom.Participants_	
+6-18	'm	O	O	O	
+6-19	using	B-UnrelEv	O	O	
+6-20	a	O	O	O	
+6-21	bath	O	B-ScrPart_bath_means	B-webanno.custom.Participants_	
+6-22	bomb	O	I-ScrPart_bath_means|B-ScrPart_bath_means	I-webanno.custom.Participants_|B-webanno.custom.Participants_	
+6-23	I	O	B-ScrPart_bather	B-webanno.custom.Participants_	
+6-24	crumble	B-ScrEv_put_bubble_bath_scent	O	O	
+6-25	it	O	B-ScrPart_bath_means	B-webanno.custom.Participants_	
+6-26	in	O	O	O	
+6-27	little	O	O	O	
+6-28	by	O	O	O	
+6-29	little	O	O	O	
+6-30	.	O	O	O	
+
+#id=7
+#text=Once the water is at an appropriate depth I turn off the faucet and sink into bliss .
+7-1	Once	O	O	O	
+7-2	the	O	O	O	
+7-3	water	O	B-ScrPart_water	B-webanno.custom.Participants_	
+7-4	is	B-UnrelEv	O	O	
+7-5	at	O	O	O	
+7-6	an	O	O	O	
+7-7	appropriate	O	O	O	
+7-8	depth	O	B-NPart	B-webanno.custom.Participants_	
+7-9	I	O	B-ScrPart_bather	B-webanno.custom.Participants_	
+7-10	turn	B-ScrEv_turn_water_off	O	O	
+7-11	off	I-ScrEv_turn_water_off	O	O	
+7-12	the	O	O	O	
+7-13	faucet	O	B-ScrPart_tap	B-webanno.custom.Participants_	
+7-14	and	O	O	O	
+7-15	sink	B-ScrEv_sink_water	O	O	
+7-16	into	O	O	O	
+7-17	bliss	O	B-NPart	B-webanno.custom.Participants_	
+7-18	.	O	O	O	
+
+#id=8
+#text=I let myself soak until the water cools too much and by then I feel refreshed and content . 
+8-1	I	O	B-ScrPart_bather	B-webanno.custom.Participants_	
+8-2	let	B-UnrelEv	O	O	
+8-3	myself	O	B-ScrPart_bather	B-webanno.custom.Participants_	
+8-4	soak	B-ScrEv_relax	O	O	
+8-5	until	O	O	O	
+8-6	the	O	O	O	
+8-7	water	O	B-ScrPart_water	B-webanno.custom.Participants_	
+8-8	cools	B-RelNScrEv	O	O	
+8-9	too	O	O	O	
+8-10	much	O	O	O	
+8-11	and	O	O	O	
+8-12	by	O	O	O	
+8-13	then	O	O	O	
+8-14	I	O	B-ScrPart_bather	B-webanno.custom.Participants_	
+8-15	feel	B-UnrelEv	O	O	
+8-16	refreshed	B-RelNScrEv	O	O	
+8-17	and	O	O	O	
+8-18	content	O	O	O	
+8-19	.	O	O	O	
+

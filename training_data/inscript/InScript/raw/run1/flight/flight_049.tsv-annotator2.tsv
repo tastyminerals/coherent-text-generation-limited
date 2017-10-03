@@ -1,0 +1,214 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=My wife decided she wanted to go to the beach last summer .
+1-1	My	B-webanno.custom.Participants_	B-ScrPart_passenger	O	group_I_wife	2-1	
+1-2	wife	B-webanno.custom.Participants_	B-ScrPart_passenger	O	group_I_wife	2-1	
+1-3	decided	O	O	B-UnrelEv	_	_	
+1-4	she	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-2	
+1-5	wanted	O	O	O	_	_	
+1-6	to	O	O	O	_	_	
+1-7	go	O	O	B-UnrelEv	_	_	
+1-8	to	O	O	O	_	_	
+1-9	the	O	O	O	_	_	
+1-10	beach	B-webanno.custom.Participants_	B-ScrPart_target_location	O	_	_	
+1-11	last	O	O	O	_	_	
+1-12	summer	O	O	O	_	_	
+1-13	.	O	O	O	_	_	
+
+#id=2
+#text=We decided the best way to get there would be an airplane .
+2-1	We	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+2-2	decided	O	O	B-UnrelEv	_	_	
+2-3	the	O	O	O	_	_	
+2-4	best	O	O	O	_	_	
+2-5	way	O	O	O	_	_	
+2-6	to	O	O	O	_	_	
+2-7	get	O	O	B-UnrelEv	_	_	
+2-8	there	B-webanno.custom.Participants_	B-ScrPart_target_location	O	webanno.custom.Corefchains_	1-10	
+2-9	would	O	O	O	_	_	
+2-10	be	O	O	B-UnrelEv	_	_	
+2-11	an	O	O	O	_	_	
+2-12	airplane	B-webanno.custom.Participants_	B-ScrPart_plane	O	_	_	
+2-13	.	O	O	O	_	_	
+
+#id=3
+#text=We booked the tickets 3 months in advance to ensure we would have tickets to board the plane to take us to our vacation destination .
+3-1	We	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-1	
+3-2	booked	O	O	B-ScrEv_get_ticket	_	_	
+3-3	the	O	O	O	_	_	
+3-4	tickets	B-webanno.custom.Participants_	B-ScrPart_ticket	O	_	_	
+3-5	3	O	O	O	_	_	
+3-6	months	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+3-7	in	O	O	O	_	_	
+3-8	advance	O	O	O	_	_	
+3-9	to	O	O	O	_	_	
+3-10	ensure	O	O	B-UnrelEv	_	_	
+3-11	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-1	
+3-12	would	O	O	O	_	_	
+3-13	have	O	O	B-UnrelEv	_	_	
+3-14	tickets	O	O	O	_	_	
+3-15	to	O	O	O	_	_	
+3-16	board	O	O	B-ScrEv_board_plane	_	_	
+3-17	the	O	O	O	_	_	
+3-18	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	2-12	
+3-19	to	O	O	O	_	_	
+3-20	take	O	O	B-UnrelEv	_	_	
+3-21	us	O	O	O	_	_	
+3-22	to	O	O	O	_	_	
+3-23	our	O	O	O	_	_	
+3-24	vacation	B-webanno.custom.Participants_	B-ScrPart_target_location	O	_	_	
+3-25	destination	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_target_location|B-ScrPart_target_location	O	webanno.custom.Corefchains_	2-8	
+3-26	.	O	O	O	_	_	
+
+#id=4
+#text=When the day finally came fly on the airplane , we made sure we arrived at least an hour and a half early .
+4-1	When	O	O	O	_	_	
+4-2	the	O	O	O	_	_	
+4-3	day	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+4-4	finally	O	O	O	_	_	
+4-5	came	O	O	B-UnrelEv	_	_	
+4-6	fly	O	O	B-Evoking	_	_	
+4-7	on	O	O	I-Evoking	_	_	
+4-8	the	O	O	I-Evoking	_	_	
+4-9	airplane	B-webanno.custom.Participants_	B-ScrPart_plane	I-Evoking	webanno.custom.Corefchains_	3-18	
+4-10	,	O	O	O	_	_	
+4-11	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-11	
+4-12	made	O	O	B-UnrelEv	_	_	
+4-13	sure	O	O	I-UnrelEv	_	_	
+4-14	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-11	
+4-15	arrived	O	O	B-ScrEv_get_airport	_	_	
+4-16	at	O	O	O	_	_	
+4-17	least	O	O	O	_	_	
+4-18	an	O	O	O	_	_	
+4-19	hour	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+4-20	and	O	O	O	_	_	
+4-21	a	O	O	O	_	_	
+4-22	half	O	O	O	_	_	
+4-23	early	O	O	O	_	_	
+4-24	.	O	O	O	_	_	
+
+#id=5
+#text=There are many delays before you actually get on board an airplane .
+5-1	There	O	O	O	_	_	
+5-2	are	O	O	B-UnrelEv	_	_	
+5-3	many	O	O	O	_	_	
+5-4	delays	O	O	O	_	_	
+5-5	before	O	O	O	_	_	
+5-6	you	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-14	
+5-7	actually	O	O	O	_	_	
+5-8	get	O	O	B-ScrEv_board_plane	_	_	
+5-9	on	O	O	I-ScrEv_board_plane	_	_	
+5-10	board	O	O	I-ScrEv_board_plane	_	_	
+5-11	an	O	O	O	_	_	
+5-12	airplane	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	4-9	
+5-13	.	O	O	O	_	_	
+
+#id=6
+#text=First , , you have to go through a metal detector and wait in long lines just to get to the metal detectors .
+6-1	First	O	O	O	_	_	
+6-2	,	O	O	O	_	_	
+6-3	,	O	O	O	_	_	
+6-4	you	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-6	
+6-5	have	O	O	O	_	_	
+6-6	to	O	O	O	_	_	
+6-7	go	O	O	B-ScrEv_go_security_checks	_	_	
+6-8	through	O	O	I-ScrEv_go_security_checks	_	_	
+6-9	a	O	O	O	_	_	
+6-10	metal	B-webanno.custom.Participants_	B-NPart	O	_	_	
+6-11	detector	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-NPart|B-NPart	O	_	_	
+6-12	and	O	O	O	_	_	
+6-13	wait	O	O	B-ScrEv_wait	_	_	
+6-14	in	O	O	O	_	_	
+6-15	long	O	O	O	_	_	
+6-16	lines	B-webanno.custom.Participants_	B-ScrPart_line	O	_	_	
+6-17	just	O	O	O	_	_	
+6-18	to	O	O	O	_	_	
+6-19	get	O	O	B-ScrEv_go_security_checks	_	_	
+6-20	to	O	O	O	_	_	
+6-21	the	O	O	O	_	_	
+6-22	metal	B-webanno.custom.Participants_	B-NPart	O	_	_	
+6-23	detectors	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-NPart|B-NPart	O	_	_	
+6-24	.	O	O	O	_	_	
+
+#id=7
+#text=Then you have to check your luggage .
+7-1	Then	O	O	O	_	_	
+7-2	you	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-4	
+7-3	have	O	O	O	_	_	
+7-4	to	O	O	O	_	_	
+7-5	check	O	O	B-ScrEv_check_luggage	_	_	
+7-6	your	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-2	
+7-7	luggage	B-webanno.custom.Participants_	B-ScrPart_check_in_luggage	O	_	_	
+7-8	.	O	O	O	_	_	
+
+#id=8
+#text=After that , you have to go to the terminal and provide proof of a ticket .
+8-1	After	O	O	O	_	_	
+8-2	that	O	O	O	_	_	
+8-3	,	O	O	O	_	_	
+8-4	you	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-6	
+8-5	have	O	O	O	_	_	
+8-6	to	O	O	O	_	_	
+8-7	go	O	O	B-ScrEv_find_terminal	_	_	
+8-8	to	O	O	O	_	_	
+8-9	the	O	O	O	_	_	
+8-10	terminal	B-webanno.custom.Participants_	B-ScrPart_terminal/gate	O	_	_	
+8-11	and	O	O	O	_	_	
+8-12	provide	O	O	B-ScrEv_present_boarding_pass	_	_	
+8-13	proof	B-webanno.custom.Participants_	B-NPart	O	_	_	
+8-14	of	O	O	O	_	_	
+8-15	a	O	O	O	_	_	
+8-16	ticket	B-webanno.custom.Participants_	B-ScrPart_ticket	O	_	_	
+8-17	.	O	O	O	_	_	
+
+#id=9
+#text=Once you get on an airplane , you have to prepare for turbulence .
+9-1	Once	O	O	O	_	_	
+9-2	you	O	O	O	_	_	
+9-3	get	O	O	B-ScrEv_board_plane	_	_	
+9-4	on	O	O	I-ScrEv_board_plane	_	_	
+9-5	an	O	O	O	_	_	
+9-6	airplane	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	5-12	
+9-7	,	O	O	O	_	_	
+9-8	you	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-4	
+9-9	have	O	O	O	_	_	
+9-10	to	O	O	O	_	_	
+9-11	prepare	O	O	B-UnrelEv	_	_	
+9-12	for	O	O	O	_	_	
+9-13	turbulence	O	O	O	_	_	
+9-14	.	O	O	O	_	_	
+
+#id=10
+#text=Other than that , flying on an airplane is a safe and efficient way to travel .
+10-1	Other	O	O	O	_	_	
+10-2	than	O	O	O	_	_	
+10-3	that	O	O	O	_	_	
+10-4	,	O	O	O	_	_	
+10-5	flying	O	O	B-Evoking	_	_	
+10-6	on	O	O	I-Evoking	_	_	
+10-7	an	O	O	I-Evoking	_	_	
+10-8	airplane	B-webanno.custom.Participants_	B-ScrPart_plane	I-Evoking	webanno.custom.Corefchains_	9-6	
+10-9	is	O	O	B-UnrelEv	_	_	
+10-10	a	O	O	O	_	_	
+10-11	safe	O	O	O	_	_	
+10-12	and	O	O	O	_	_	
+10-13	efficient	O	O	O	_	_	
+10-14	way	O	O	O	_	_	
+10-15	to	O	O	O	_	_	
+10-16	travel	O	O	B-RelNScrEv	_	_	
+10-17	.	O	O	O	_	_	
+
+#id=11
+#text=When we landed , we went straight to the beach . 
+11-1	When	O	O	O	_	_	
+11-2	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-8	
+11-3	landed	O	O	B-ScrEv_landing	_	_	
+11-4	,	O	O	O	_	_	
+11-5	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	11-2	
+11-6	went	O	O	B-ScrEv_go_target_location	_	_	
+11-7	straight	O	O	O	_	_	
+11-8	to	O	O	O	_	_	
+11-9	the	O	O	O	_	_	
+11-10	beach	B-webanno.custom.Participants_	B-ScrPart_target_location	O	webanno.custom.Corefchains_	3-25	
+11-11	.	O	O	O	_	_	
+

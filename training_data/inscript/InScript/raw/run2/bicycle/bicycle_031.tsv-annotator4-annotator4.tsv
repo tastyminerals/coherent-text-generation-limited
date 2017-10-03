@@ -1,0 +1,197 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=When I was riding my bike this past summer , one of my tires went flat .
+1-1	When	O	O	
+1-2	I	B-ScrPart_rider	O	
+1-3	was	O	O	
+1-4	riding	O	B-ScrEv_ride_bike	
+1-5	my	B-ScrPart_rider	O	
+1-6	bike	B-ScrPart_bicycle	O	
+1-7	this	O	O	
+1-8	past	O	O	
+1-9	summer	B-NPart	O	
+1-10	,	O	O	
+1-11	one	O	O	
+1-12	of	O	O	
+1-13	my	B-ScrPart_rider	O	
+1-14	tires	B-ScrPart_tire	O	
+1-15	went	O	B-RelNScrEv	
+1-16	flat	O	O	
+1-17	.	O	O	
+
+#id=2
+#text=I noticed it went flat because it felt bumpy while I was riding down the street .
+2-1	I	B-ScrPart_rider	O	
+2-2	noticed	O	B-ScrEv_notice_problem	
+2-3	it	B-ScrPart_tire	O	
+2-4	went	O	B-RelNScrEv	
+2-5	flat	O	O	
+2-6	because	O	O	
+2-7	it	B-No_label	O	
+2-8	felt	O	B-ScrEv_notice_problem	
+2-9	bumpy	O	O	
+2-10	while	O	O	
+2-11	I	B-ScrPart_rider	O	
+2-12	was	O	O	
+2-13	riding	O	B-ScrEv_ride_bike	
+2-14	down	O	O	
+2-15	the	O	O	
+2-16	street	B-NPart	O	
+2-17	.	O	O	
+
+#id=3
+#text=I wheeled my bike home while walking next to it and pushing it .
+3-1	I	B-ScrPart_rider	O	
+3-2	wheeled	O	B-ScrEv_get_off	
+3-3	my	B-ScrPart_rider	O	
+3-4	bike	B-ScrPart_bicycle	O	
+3-5	home	B-ScrPart_location_repair	O	
+3-6	while	O	O	
+3-7	walking	O	B-RelNScrEv	
+3-8	next	O	O	
+3-9	to	O	O	
+3-10	it	B-ScrPart_bicycle	O	
+3-11	and	O	O	
+3-12	pushing	O	B-RelNScrEv	
+3-13	it	B-ScrPart_bicycle	O	
+3-14	.	O	O	
+
+#id=4
+#text=I asked my dad to help me fix the flat tire because I had never done it before .
+4-1	I	B-ScrPart_rider	O	
+4-2	asked	O	B-RelNScrEv	
+4-3	my	B-ScrPart_rider	O	
+4-4	dad	B-NPart	O	
+4-5	to	O	O	
+4-6	help	O	B-UnrelEv	
+4-7	me	B-ScrPart_rider	O	
+4-8	fix	O	B-Evoking	
+4-9	the	O	I-Evoking	
+4-10	flat	O	I-Evoking	
+4-11	tire	B-ScrPart_tire	I-Evoking	
+4-12	because	O	O	
+4-13	I	B-ScrPart_rider	O	
+4-14	had	O	O	
+4-15	never	O	O	
+4-16	done	O	B-UnrelEv	
+4-17	it	B-No_label	O	
+4-18	before	O	O	
+4-19	.	O	O	
+
+#id=5
+#text=He gave me the materials I needed to fix it , and he explained how to go about fixing it .
+5-1	He	B-NPart	O	
+5-2	gave	O	B-ScrEv_get_tools	
+5-3	me	B-ScrPart_rider	O	
+5-4	the	O	O	
+5-5	materials	B-ScrPart_tool	O	
+5-6	I	B-ScrPart_rider	O	
+5-7	needed	O	B-UnrelEv	
+5-8	to	O	O	
+5-9	fix	O	B-Evoking	
+5-10	it	B-ScrPart_tire	I-Evoking	
+5-11	,	O	O	
+5-12	and	O	O	
+5-13	he	B-NPart	O	
+5-14	explained	O	B-RelNScrEv	
+5-15	how	O	O	
+5-16	to	O	O	
+5-17	go	O	B-UnrelEv	
+5-18	about	O	O	
+5-19	fixing	O	B-Evoking	
+5-20	it	B-ScrPart_tire	I-Evoking	
+5-21	.	O	O	
+
+#id=6
+#text=To my surprise , it was very easy to fix the flat tire .
+6-1	To	O	O	
+6-2	my	B-ScrPart_rider	O	
+6-3	surprise	B-NPart	O	
+6-4	,	O	O	
+6-5	it	B-No_label	O	
+6-6	was	O	B-UnrelEv	
+6-7	very	O	O	
+6-8	easy	O	O	
+6-9	to	O	O	
+6-10	fix	O	B-Evoking	
+6-11	the	O	I-Evoking	
+6-12	flat	O	I-Evoking	
+6-13	tire	B-ScrPart_tire	I-Evoking	
+6-14	.	O	O	
+
+#id=7
+#text=I just had to patch up the hole with the materials he gave me .
+7-1	I	B-ScrPart_rider	O	
+7-2	just	O	O	
+7-3	had	O	O	
+7-4	to	O	O	
+7-5	patch	O	B-ScrEv_put_patch/seal	
+7-6	up	O	I-ScrEv_put_patch/seal	
+7-7	the	O	O	
+7-8	hole	B-ScrPart_damage	O	
+7-9	with	O	O	
+7-10	the	O	O	
+7-11	materials	B-ScrPart_tool	O	
+7-12	he	B-NPart	O	
+7-13	gave	O	B-ScrEv_get_tools	
+7-14	me	B-ScrPart_rider	O	
+7-15	.	O	O	
+
+#id=8
+#text=After I patched up the hole , I used an air pump to put air in both of my tires .
+8-1	After	O	O	
+8-2	I	B-ScrPart_rider	O	
+8-3	patched	O	B-ScrEv_put_patch/seal	
+8-4	up	O	I-ScrEv_put_patch/seal	
+8-5	the	O	O	
+8-6	hole	B-ScrPart_damage	O	
+8-7	,	O	O	
+8-8	I	B-ScrPart_rider	O	
+8-9	used	O	B-RelNScrEv	
+8-10	an	O	O	
+8-11	air	B-ScrPart_tool	O	
+8-12	pump	I-ScrPart_tool|B-ScrPart_tool	O	
+8-13	to	O	O	
+8-14	put	O	B-ScrEv_refill_tire_air	
+8-15	air	B-ScrPart_air	O	
+8-16	in	O	O	
+8-17	both	O	O	
+8-18	of	O	O	
+8-19	my	B-ScrPart_rider	O	
+8-20	tires	B-ScrPart_tire	O	
+8-21	.	O	O	
+
+#id=9
+#text=This completed the repair process for me .
+9-1	This	O	O	
+9-2	completed	O	B-UnrelEv	
+9-3	the	O	O	
+9-4	repair	B-???	O	
+9-5	process	I-???	O	
+9-6	for	O	O	
+9-7	me	B-ScrPart_rider	O	
+9-8	.	O	O	
+
+#id=10
+#text=The next day , I rode my bike again and I did not have any problems with the tire . 
+10-1	The	O	O	
+10-2	next	O	O	
+10-3	day	B-NPart	O	
+10-4	,	O	O	
+10-5	I	B-ScrPart_rider	O	
+10-6	rode	O	B-ScrEv_ride_bike	
+10-7	my	B-ScrPart_rider	O	
+10-8	bike	B-ScrPart_bicycle	O	
+10-9	again	O	O	
+10-10	and	O	O	
+10-11	I	B-ScrPart_rider	O	
+10-12	did	O	O	
+10-13	not	O	O	
+10-14	have	O	B-RelNScrEv	
+10-15	any	O	O	
+10-16	problems	B-SuppVComp	O	
+10-17	with	O	O	
+10-18	the	O	O	
+10-19	tire	B-ScrPart_tire	O	
+10-20	.	O	O	
+

@@ -1,0 +1,228 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=First , you need to pick out where you want to put your tree .
+1-1	First	O	O	_	_	
+1-2	,	O	O	_	_	
+1-3	you	B-ScrPart_gardener	O	_	_	
+1-4	need	O	O	_	_	
+1-5	to	O	O	_	_	
+1-6	pick	O	B-ScrEv_find_place|B-ScrEv_find_place	_	_	
+1-7	out	O	I-ScrEv_find_place	_	_	
+1-8	where	O	O	_	_	
+1-9	you	B-ScrPart_gardener	O	webanno.custom.Corefchains_	1-3	
+1-10	want	O	O	_	_	
+1-11	to	O	O	_	_	
+1-12	put	O	B-RelNScrEv	_	_	
+1-13	your	B-ScrPart_gardener	O	webanno.custom.Corefchains_	1-9	
+1-14	tree	B-ScrPart_tree	O	_	_	
+1-15	.	O	O	_	_	
+
+#id=2
+#text=You 're going to be digging quite a large hole , so you need to consider a few things .
+2-1	You	B-ScrPart_gardener	O	webanno.custom.Corefchains_	1-13	
+2-2	're	O	O	_	_	
+2-3	going	O	O	_	_	
+2-4	to	O	O	_	_	
+2-5	be	O	O	_	_	
+2-6	digging	O	B-ScrEv_dug_hole	_	_	
+2-7	quite	O	O	_	_	
+2-8	a	O	O	_	_	
+2-9	large	O	O	_	_	
+2-10	hole	B-ScrPart_hole	O	_	_	
+2-11	,	O	O	_	_	
+2-12	so	O	O	_	_	
+2-13	you	B-ScrPart_gardener	O	webanno.custom.Corefchains_	2-1	
+2-14	need	O	O	_	_	
+2-15	to	O	O	_	_	
+2-16	consider	O	B-RelNScrEv	_	_	
+2-17	a	O	O	_	_	
+2-18	few	O	O	_	_	
+2-19	things	B-NPart	O	_	_	
+2-20	.	O	O	_	_	
+
+#id=3
+#text=First of all , make sure you place your tree where it wo n't mess anything up as it grows .
+3-1	First	O	O	_	_	
+3-2	of	O	O	_	_	
+3-3	all	O	O	_	_	
+3-4	,	O	O	_	_	
+3-5	make	O	B-UnrelEv|B-UnrelEv	_	_	
+3-6	sure	O	I-UnrelEv	_	_	
+3-7	you	B-ScrPart_gardener	O	webanno.custom.Corefchains_	2-13	
+3-8	place	O	B-RelNScrEv	_	_	
+3-9	your	B-ScrPart_gardener	O	webanno.custom.Corefchains_	3-7	
+3-10	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	1-14	
+3-11	where	O	O	_	_	
+3-12	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	3-10	
+3-13	wo	O	O	_	_	
+3-14	n't	O	O	_	_	
+3-15	mess	O	B-UnrelEv	_	_	
+3-16	anything	O	O	_	_	
+3-17	up	O	O	_	_	
+3-18	as	O	O	_	_	
+3-19	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	3-12	
+3-20	grows	O	B-RelNScrEv	_	_	
+3-21	.	O	O	_	_	
+
+#id=4
+#text=You want to put it somewhere where it has plenty of room to grow , with soft dirt .
+4-1	You	B-ScrPart_gardener	O	webanno.custom.Corefchains_	3-9	
+4-2	want	O	O	_	_	
+4-3	to	O	O	_	_	
+4-4	put	O	B-RelNScrEv	_	_	
+4-5	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	3-19	
+4-6	somewhere	B-ScrPart_location_garden	O	_	_	
+4-7	where	O	O	_	_	
+4-8	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	4-5	
+4-9	has	O	B-UnrelEv	_	_	
+4-10	plenty	O	O	_	_	
+4-11	of	O	O	_	_	
+4-12	room	O	O	_	_	
+4-13	to	O	O	_	_	
+4-14	grow	O	B-RelNScrEv	_	_	
+4-15	,	O	O	_	_	
+4-16	with	O	O	_	_	
+4-17	soft	O	O	_	_	
+4-18	dirt	B-ScrPart_dirt	O	_	_	
+4-19	.	O	O	_	_	
+
+#id=5
+#text=Next , you need to gather the tree you 're going to plant as well as a shovel .
+5-1	Next	O	O	_	_	
+5-2	,	O	O	_	_	
+5-3	you	B-ScrPart_gardener	O	webanno.custom.Corefchains_	4-1	
+5-4	need	O	O	_	_	
+5-5	to	O	O	_	_	
+5-6	gather	O	B-ScrEv_get_tree	_	_	
+5-7	the	O	O	_	_	
+5-8	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	4-8	
+5-9	you	B-ScrPart_gardener	O	webanno.custom.Corefchains_	5-3	
+5-10	're	O	O	_	_	
+5-11	going	O	O	_	_	
+5-12	to	O	O	_	_	
+5-13	plant	O	B-RelNScrEv	_	_	
+5-14	as	O	O	_	_	
+5-15	well	O	O	_	_	
+5-16	as	O	O	_	_	
+5-17	a	O	O	_	_	
+5-18	shovel	B-ScrPart_gardening_tool	O	_	_	
+5-19	.	O	O	_	_	
+
+#id=6
+#text=Then you 're going to dig a nice big hole .
+6-1	Then	O	O	_	_	
+6-2	you	B-ScrPart_gardener	O	webanno.custom.Corefchains_	5-9	
+6-3	're	O	O	_	_	
+6-4	going	O	O	_	_	
+6-5	to	O	O	_	_	
+6-6	dig	O	B-ScrEv_dug_hole	_	_	
+6-7	a	O	O	_	_	
+6-8	nice	O	O	_	_	
+6-9	big	O	O	_	_	
+6-10	hole	B-ScrPart_hole	O	webanno.custom.Corefchains_	2-10	
+6-11	.	O	O	_	_	
+
+#id=7
+#text=You want the entire roots of the tree to be covered sufficiently in dirt , so make sure it 's plenty big enough .
+7-1	You	B-ScrPart_gardener	O	webanno.custom.Corefchains_	6-2	
+7-2	want	O	O	_	_	
+7-3	the	O	O	_	_	
+7-4	entire	O	O	_	_	
+7-5	roots	B-ScrPart_root	O	_	_	
+7-6	of	O	O	_	_	
+7-7	the	O	O	_	_	
+7-8	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	5-8	
+7-9	to	O	O	_	_	
+7-10	be	O	O	_	_	
+7-11	covered	O	B-UnrelEv	_	_	
+7-12	sufficiently	O	O	_	_	
+7-13	in	O	O	_	_	
+7-14	dirt	B-ScrPart_dirt	O	webanno.custom.Corefchains_	4-18	
+7-15	,	O	O	_	_	
+7-16	so	O	O	_	_	
+7-17	make	O	B-UnrelEv|B-UnrelEv	_	_	
+7-18	sure	O	I-UnrelEv	_	_	
+7-19	it	B-ScrPart_hole	O	webanno.custom.Corefchains_	6-10	
+7-20	's	O	B-UnrelEv	_	_	
+7-21	plenty	O	O	_	_	
+7-22	big	O	O	_	_	
+7-23	enough	O	O	_	_	
+7-24	.	O	O	_	_	
+
+#id=8
+#text=Next , you place your tree in it 's hole .
+8-1	Next	O	O	_	_	
+8-2	,	O	O	_	_	
+8-3	you	B-ScrPart_gardener	O	webanno.custom.Corefchains_	7-1	
+8-4	place	O	B-ScrEv_place_root	_	_	
+8-5	your	B-ScrPart_gardener	O	webanno.custom.Corefchains_	8-3	
+8-6	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	7-8	
+8-7	in	O	O	_	_	
+8-8	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	8-6	
+8-9	's	I-ScrPart_tree	O	webanno.custom.Corefchains_	8-6	
+8-10	hole	B-ScrPart_hole	O	webanno.custom.Corefchains_	7-19	
+8-11	.	O	O	_	_	
+
+#id=9
+#text=Position it properly .
+9-1	Position	O	B-MissScrEv	_	_	
+9-2	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	8-8	
+9-3	properly	O	O	_	_	
+9-4	.	O	O	_	_	
+
+#id=10
+#text=Make sure it 's got plenty of room .
+10-1	Make	O	B-UnrelEv|B-UnrelEv	_	_	
+10-2	sure	O	I-UnrelEv	_	_	
+10-3	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	9-2	
+10-4	's	O	O	_	_	
+10-5	got	O	B-UnrelEv	_	_	
+10-6	plenty	O	O	_	_	
+10-7	of	O	O	_	_	
+10-8	room	O	O	_	_	
+10-9	.	O	O	_	_	
+
+#id=11
+#text=Finally , you can fill in dirt around your tree .
+11-1	Finally	O	O	_	_	
+11-2	,	O	O	_	_	
+11-3	you	B-ScrPart_gardener	O	webanno.custom.Corefchains_	8-5	
+11-4	can	O	O	_	_	
+11-5	fill	O	B-ScrEv_refill_hole|B-ScrEv_refill_hole	_	_	
+11-6	in	O	I-ScrEv_refill_hole	_	_	
+11-7	dirt	B-ScrPart_dirt	O	webanno.custom.Corefchains_	7-14	
+11-8	around	O	O	_	_	
+11-9	your	B-ScrPart_gardener	O	webanno.custom.Corefchains_	11-3	
+11-10	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	10-3	
+11-11	.	O	O	_	_	
+
+#id=12
+#text=Now you 're finished and you can watch your tree grow !
+12-1	Now	O	O	_	_	
+12-2	you	B-ScrPart_gardener	O	webanno.custom.Corefchains_	11-9	
+12-3	're	O	O	_	_	
+12-4	finished	O	B-UnrelEv	_	_	
+12-5	and	O	O	_	_	
+12-6	you	B-ScrPart_gardener	O	webanno.custom.Corefchains_	12-2	
+12-7	can	O	O	_	_	
+12-8	watch	O	B-UnrelEv	_	_	
+12-9	your	B-ScrPart_gardener	O	webanno.custom.Corefchains_	12-6	
+12-10	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	11-10	
+12-11	grow	O	B-RelNScrEv	_	_	
+12-12	!	O	O	_	_	
+
+#id=13
+#text=Soon you 'll have a nice big tree to shade you ! 
+13-1	Soon	O	O	_	_	
+13-2	you	B-ScrPart_gardener	O	webanno.custom.Corefchains_	12-9	
+13-3	'll	O	O	_	_	
+13-4	have	O	B-UnrelEv	_	_	
+13-5	a	O	O	_	_	
+13-6	nice	O	O	_	_	
+13-7	big	O	O	_	_	
+13-8	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	12-10	
+13-9	to	O	O	_	_	
+13-10	shade	O	B-RelNScrEv	_	_	
+13-11	you	B-ScrPart_gardener	O	webanno.custom.Corefchains_	13-2	
+13-12	!	O	O	_	_	
+

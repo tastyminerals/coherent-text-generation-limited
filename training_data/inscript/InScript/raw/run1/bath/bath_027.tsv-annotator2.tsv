@@ -1,0 +1,197 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=After going to the gym , I knew I needed to take a bath .
+1-1	After	O	O	_	_	
+1-2	going	B-UnrelEv	O	_	_	
+1-3	to	O	O	_	_	
+1-4	the	O	O	_	_	
+1-5	gym	O	O	_	_	
+1-6	,	O	O	_	_	
+1-7	I	O	B-ScrPart_bather	_	_	
+1-8	knew	B-UnrelEv	O	_	_	
+1-9	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	1-7	
+1-10	needed	O	O	_	_	
+1-11	to	O	O	_	_	
+1-12	take	B-Evoking	O	_	_	
+1-13	a	I-Evoking	O	_	_	
+1-14	bath	I-Evoking	O	_	_	
+1-15	.	O	O	_	_	
+
+#id=2
+#text=I went to the bathroom and turned the faucet on in the tub while plugging the drain to fill it .
+2-1	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	1-9	
+2-2	went	B-ScrEv_enter_bathroom	O	_	_	
+2-3	to	O	O	_	_	
+2-4	the	O	O	_	_	
+2-5	bathroom	O	B-ScrPart_bathroom	_	_	
+2-6	and	O	O	_	_	
+2-7	turned	B-ScrEv_turn_water_on	O	_	_	
+2-8	the	O	O	_	_	
+2-9	faucet	O	B-ScrPart_tap	_	_	
+2-10	on	O	O	_	_	
+2-11	in	O	O	_	_	
+2-12	the	O	O	_	_	
+2-13	tub	O	B-ScrPart_bathtub	_	_	
+2-14	while	O	O	_	_	
+2-15	plugging	B-ScrEv_close_drain	O	_	_	
+2-16	the	O	O	_	_	
+2-17	drain	O	B-ScrPart_drain	_	_	
+2-18	to	O	O	_	_	
+2-19	fill	B-ScrEv_fill_water/wait	O	_	_	
+2-20	it	O	B-ScrPart_bathtub	webanno.custom.Corefchains_	2-13	
+2-21	.	O	O	_	_	
+
+#id=3
+#text=When the water was at a good level I shut the water off .
+3-1	When	O	O	_	_	
+3-2	the	O	O	_	_	
+3-3	water	O	B-ScrPart_water	_	_	
+3-4	was	B-UnrelEv	O	_	_	
+3-5	at	O	O	_	_	
+3-6	a	O	O	_	_	
+3-7	good	O	O	_	_	
+3-8	level	O	O	_	_	
+3-9	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	2-1	
+3-10	shut	B-ScrEv_turn_water_off	O	_	_	
+3-11	the	O	O	_	_	
+3-12	water	O	B-ScrPart_water	webanno.custom.Corefchains_	3-3	
+3-13	off	O	O	_	_	
+3-14	.	O	O	_	_	
+
+#id=4
+#text=I took off all my dirty gym clothes .
+4-1	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	3-9	
+4-2	took	B-ScrEv_undress	O	_	_	
+4-3	off	I-ScrEv_undress	O	_	_	
+4-4	all	O	O	_	_	
+4-5	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	4-1	
+4-6	dirty	O	O	_	_	
+4-7	gym	O	B-ScrPart_clothes	_	_	
+4-8	clothes	O	I-ScrPart_clothes|B-ScrPart_clothes	_	_	
+4-9	.	O	O	_	_	
+
+#id=5
+#text=I then made sure the temperature of the water was nice and warm before I slowly got inside .
+5-1	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	4-5	
+5-2	then	O	O	_	_	
+5-3	made	B-ScrEv_check_temp	O	_	_	
+5-4	sure	I-ScrEv_check_temp	O	_	_	
+5-5	the	O	O	_	_	
+5-6	temperature	O	B-ScrPart_temperature	_	_	
+5-7	of	O	O	_	_	
+5-8	the	O	O	_	_	
+5-9	water	O	B-ScrPart_water	webanno.custom.Corefchains_	3-12	
+5-10	was	B-UnrelEv	O	_	_	
+5-11	nice	O	O	_	_	
+5-12	and	O	O	_	_	
+5-13	warm	O	O	_	_	
+5-14	before	O	O	_	_	
+5-15	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	5-1	
+5-16	slowly	O	O	_	_	
+5-17	got	B-ScrEv_sink_water	O	_	_	
+5-18	inside	I-ScrEv_sink_water	O	_	_	
+5-19	.	O	O	_	_	
+
+#id=6
+#text=I soaked in the water for a little while before I grabbed a bar of soap and scrubbed and cleaned my body with it .
+6-1	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	5-15	
+6-2	soaked	B-RelNScrEv	O	_	_	
+6-3	in	O	O	_	_	
+6-4	the	O	O	_	_	
+6-5	water	O	B-ScrPart_water	webanno.custom.Corefchains_	5-9	
+6-6	for	O	O	_	_	
+6-7	a	O	O	_	_	
+6-8	little	O	O	_	_	
+6-9	while	O	B-NPart	_	_	
+6-10	before	O	O	_	_	
+6-11	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	6-1	
+6-12	grabbed	B-RelNScrEv	O	_	_	
+6-13	a	O	O	_	_	
+6-14	bar	O	B-NPart	_	_	
+6-15	of	O	O	_	_	
+6-16	soap	O	B-ScrPart_washing_tools	_	_	
+6-17	and	O	O	_	_	
+6-18	scrubbed	B-ScrEv_wash	O	_	_	
+6-19	and	O	O	_	_	
+6-20	cleaned	B-ScrEv_wash	O	_	_	
+6-21	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	6-11	
+6-22	body	O	B-ScrPart_body_part	_	_	
+6-23	with	O	O	_	_	
+6-24	it	O	B-ScrPart_washing_tools	webanno.custom.Corefchains_	6-16	
+6-25	.	O	O	_	_	
+
+#id=7
+#text=I also used some shampoo to clean my hair .
+7-1	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	6-21	
+7-2	also	O	O	_	_	
+7-3	used	B-UnrelEv	O	_	_	
+7-4	some	O	O	_	_	
+7-5	shampoo	O	B-ScrPart_washing_tools	_	_	
+7-6	to	O	O	_	_	
+7-7	clean	B-ScrEv_wash	O	_	_	
+7-8	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	7-1	
+7-9	hair	O	B-ScrPart_hair	_	_	
+7-10	.	O	O	_	_	
+
+#id=8
+#text=After dipping into the water to rinse all the shampoo and soap off my body , I unplugged the drain and emptied the water from the tub .
+8-1	After	O	O	_	_	
+8-2	dipping	B-RelNScrEv	O	_	_	
+8-3	into	O	O	_	_	
+8-4	the	O	O	_	_	
+8-5	water	O	B-ScrPart_water	webanno.custom.Corefchains_	6-5	
+8-6	to	O	O	_	_	
+8-7	rinse	B-RelNScrEv	O	_	_	
+8-8	all	O	O	_	_	
+8-9	the	O	O	_	_	
+8-10	shampoo	O	B-ScrPart_washing_tools	webanno.custom.Corefchains_	7-5	
+8-11	and	O	O	_	_	
+8-12	soap	O	B-ScrPart_washing_tools	webanno.custom.Corefchains_	6-24	
+8-13	off	O	O	_	_	
+8-14	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	7-8	
+8-15	body	O	B-ScrPart_body_part	webanno.custom.Corefchains_	6-22	
+8-16	,	O	O	_	_	
+8-17	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	8-14	
+8-18	unplugged	B-ScrEv_open_drain	O	_	_	
+8-19	the	O	O	_	_	
+8-20	drain	O	B-ScrPart_drain	webanno.custom.Corefchains_	2-17	
+8-21	and	O	O	_	_	
+8-22	emptied	B-RelNScrEv	O	_	_	
+8-23	the	O	O	_	_	
+8-24	water	O	B-ScrPart_water	webanno.custom.Corefchains_	8-5	
+8-25	from	O	O	_	_	
+8-26	the	O	O	_	_	
+8-27	tub	O	B-ScrPart_bathtub	webanno.custom.Corefchains_	2-20	
+8-28	.	O	O	_	_	
+
+#id=9
+#text=I got out and dried myself with a towel .
+9-1	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	8-17	
+9-2	got	B-ScrEv_get_out_bath	O	_	_	
+9-3	out	I-ScrEv_get_out_bath	O	_	_	
+9-4	and	O	O	_	_	
+9-5	dried	B-ScrEv_dry	O	_	_	
+9-6	myself	O	B-ScrPart_bather	webanno.custom.Corefchains_	9-1	
+9-7	with	O	O	_	_	
+9-8	a	O	O	_	_	
+9-9	towel	O	B-ScrPart_towel	_	_	
+9-10	.	O	O	_	_	
+
+#id=10
+#text=It sure made me feel a lot better to be clean after a workout . 
+10-1	It	O	O	_	_	
+10-2	sure	O	O	_	_	
+10-3	made	B-UnrelEv	O	_	_	
+10-4	me	O	B-ScrPart_bather	webanno.custom.Corefchains_	9-6	
+10-5	feel	B-UnrelEv	O	_	_	
+10-6	a	O	O	_	_	
+10-7	lot	O	O	_	_	
+10-8	better	O	O	_	_	
+10-9	to	O	O	_	_	
+10-10	be	B-UnrelEv	O	_	_	
+10-11	clean	O	O	_	_	
+10-12	after	O	O	_	_	
+10-13	a	O	O	_	_	
+10-14	workout	O	O	_	_	
+10-15	.	O	O	_	_	
+

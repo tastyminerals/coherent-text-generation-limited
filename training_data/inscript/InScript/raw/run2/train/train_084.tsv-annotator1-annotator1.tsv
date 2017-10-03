@@ -1,0 +1,238 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Riding on a train is a great way to commute , especially when frequenting a city !
+1-1	Riding	B-Evoking	O	_	_	
+1-2	on	I-Evoking	O	_	_	
+1-3	a	I-Evoking	O	_	_	
+1-4	train	I-Evoking	B-ScrPart_train	_	_	
+1-5	is	B-UnrelEv	O	_	_	
+1-6	a	O	O	_	_	
+1-7	great	O	O	_	_	
+1-8	way	O	B-No_label	_	_	
+1-9	to	O	O	_	_	
+1-10	commute	B-UnrelEv	O	_	_	
+1-11	,	O	O	_	_	
+1-12	especially	O	O	_	_	
+1-13	when	O	O	_	_	
+1-14	frequenting	B-UnrelEv	O	_	_	
+1-15	a	O	O	_	_	
+1-16	city	O	B-NPart	_	_	
+1-17	!	O	O	_	_	
+
+#id=2
+#text=It 's a great reminder of transportation of the past , and a great way to spend an afternoon .
+2-1	It	O	B-ScrPart_train	webanno.custom.Corefchains_	1-4	
+2-2	's	B-UnrelEv	O	_	_	
+2-3	a	O	O	_	_	
+2-4	great	O	O	_	_	
+2-5	reminder	O	B-NPart	_	_	
+2-6	of	O	O	_	_	
+2-7	transportation	O	B-ScrPart_other	_	_	
+2-8	of	O	O	_	_	
+2-9	the	O	O	_	_	
+2-10	past	O	B-NPart	_	_	
+2-11	,	O	O	_	_	
+2-12	and	O	O	_	_	
+2-13	a	O	O	_	_	
+2-14	great	O	O	_	_	
+2-15	way	O	B-No_label	_	_	
+2-16	to	O	O	_	_	
+2-17	spend	B-UnrelEv	O	_	_	
+2-18	an	O	O	_	_	
+2-19	afternoon	O	B-NPart	_	_	
+2-20	.	O	O	_	_	
+
+#id=3
+#text=A specific example would be when I frequent the great city of Boston .
+3-1	A	O	O	_	_	
+3-2	specific	O	O	_	_	
+3-3	example	O	B-NPart	_	_	
+3-4	would	O	O	_	_	
+3-5	be	B-UnrelEv	O	_	_	
+3-6	when	O	O	_	_	
+3-7	I	O	B-ScrPart_passenger	_	_	
+3-8	frequent	B-RelNScrEv	O	_	_	
+3-9	the	O	O	_	_	
+3-10	great	O	O	_	_	
+3-11	city	O	B-Head_of_Partitive	_	_	
+3-12	of	O	O	_	_	
+3-13	Boston	O	B-ScrPart_destination	_	_	
+3-14	.	O	O	_	_	
+
+#id=4
+#text=I always choose to take the train in , as driving into the big city can be a great hassle .
+4-1	I	O	B-ScrPart_passenger	_	_	
+4-2	always	O	O	_	_	
+4-3	choose	B-UnrelEv	O	_	_	
+4-4	to	O	O	_	_	
+4-5	take	B-Evoking	O	_	_	
+4-6	the	I-Evoking	O	_	_	
+4-7	train	I-Evoking	B-ScrPart_train	webanno.custom.Corefchains_	2-1	
+4-8	in	O	O	_	_	
+4-9	,	O	O	_	_	
+4-10	as	O	O	_	_	
+4-11	driving	B-UnrelEv	O	_	_	
+4-12	into	O	O	_	_	
+4-13	the	O	O	_	_	
+4-14	big	O	O	_	_	
+4-15	city	O	B-ScrPart_destination	webanno.custom.Corefchains_	3-13	
+4-16	can	O	O	_	_	
+4-17	be	B-UnrelEv	O	_	_	
+4-18	a	O	O	_	_	
+4-19	great	O	O	_	_	
+4-20	hassle	O	B-NPart	_	_	
+4-21	.	O	O	_	_	
+
+#id=5
+#text=In this day and age it 's convenient to look up train times ahead of time on the appropriate website .
+5-1	In	O	O	_	_	
+5-2	this	O	O	_	_	
+5-3	day	O	B-NPart	_	_	
+5-4	and	O	O	_	_	
+5-5	age	O	B-NPart	_	_	
+5-6	it	O	B-No_label	_	_	
+5-7	's	B-UnrelEv	O	_	_	
+5-8	convenient	O	O	_	_	
+5-9	to	O	O	_	_	
+5-10	look	B-ScrEv_check_time-table|B-ScrEv_check_time-table	O	_	_	
+5-11	up	I-ScrEv_check_time-table	O	_	_	
+5-12	train	O	B-ScrPart_time-table	_	_	
+5-13	times	O	I-ScrPart_time-table|B-ScrPart_time-table	_	_	
+5-14	ahead	O	O	_	_	
+5-15	of	O	O	_	_	
+5-16	time	O	B-NPart	_	_	
+5-17	on	O	O	_	_	
+5-18	the	O	O	_	_	
+5-19	appropriate	O	O	_	_	
+5-20	website	O	B-ScrPart_ticket_office/website	_	_	
+5-21	.	O	O	_	_	
+
+#id=6
+#text=Once you determine the train that you will take you will need to find transportation to the train stop , either by walking , bus , or getting dropped off .
+6-1	Once	O	O	_	_	
+6-2	you	O	B-ScrPart_passenger	_	_	
+6-3	determine	B-ScrEv_check_time-table	O	_	_	
+6-4	the	O	O	_	_	
+6-5	train	O	B-ScrPart_train	_	_	
+6-6	that	O	O	_	_	
+6-7	you	O	B-ScrPart_passenger	_	_	
+6-8	will	O	O	_	_	
+6-9	take	B-RelNScrEv	O	_	_	
+6-10	you	O	B-ScrPart_passenger	_	_	
+6-11	will	O	O	_	_	
+6-12	need	B-UnrelEv	O	_	_	
+6-13	to	O	O	_	_	
+6-14	find	B-ScrEv_get_train_station	O	_	_	
+6-15	transportation	O	B-NPart	_	_	
+6-16	to	O	O	_	_	
+6-17	the	O	O	_	_	
+6-18	train	O	B-ScrPart_train_station	_	_	
+6-19	stop	O	I-ScrPart_train_station|B-ScrPart_train_station	_	_	
+6-20	,	O	O	_	_	
+6-21	either	O	O	_	_	
+6-22	by	O	O	_	_	
+6-23	walking	O	O	_	_	
+6-24	,	O	O	_	_	
+6-25	bus	O	B-NPart	_	_	
+6-26	,	O	O	_	_	
+6-27	or	O	O	_	_	
+6-28	getting	O	O	_	_	
+6-29	dropped	B-ScrEv_get_train_station|B-ScrEv_get_train_station	O	_	_	
+6-30	off	I-ScrEv_get_train_station	O	_	_	
+6-31	.	O	O	_	_	
+
+#id=7
+#text=Once at the train station go up to the ticket window or use a handy kiosk to purchase your ticket .
+7-1	Once	O	O	_	_	
+7-2	at	O	O	_	_	
+7-3	the	O	O	_	_	
+7-4	train	O	B-ScrPart_train_station	_	_	
+7-5	station	O	I-ScrPart_train_station|B-ScrPart_train_station	_	_	
+7-6	go	B-RelNScrEv|B-RelNScrEv	O	_	_	
+7-7	up	I-RelNScrEv	O	_	_	
+7-8	to	O	O	_	_	
+7-9	the	O	O	_	_	
+7-10	ticket	O	B-ScrPart_ticket_office/website	_	_	
+7-11	window	O	I-ScrPart_ticket_office/website|B-ScrPart_ticket_office/website	_	_	
+7-12	or	O	O	_	_	
+7-13	use	B-RelNScrEv	O	_	_	
+7-14	a	O	O	_	_	
+7-15	handy	O	O	_	_	
+7-16	kiosk	O	B-ScrPart_ticket_office/website	_	_	
+7-17	to	O	O	_	_	
+7-18	purchase	B-ScrEv_get_tickets	O	_	_	
+7-19	your	O	B-ScrPart_passenger	_	_	
+7-20	ticket	O	B-ScrPart_card/ticket	_	_	
+7-21	.	O	O	_	_	
+
+#id=8
+#text=Take this ticket and head through the checkpoint , or if you are using a commuter rail bring it with you to give to the train attendant .
+8-1	Take	B-ScrEv_get_tickets	O	_	_	
+8-2	this	O	O	_	_	
+8-3	ticket	O	B-ScrPart_card/ticket	_	_	
+8-4	and	O	O	_	_	
+8-5	head	B-RelNScrEv	O	_	_	
+8-6	through	O	O	_	_	
+8-7	the	O	O	_	_	
+8-8	checkpoint	O	B-ScrPart_turnstile	_	_	
+8-9	,	O	O	_	_	
+8-10	or	O	O	_	_	
+8-11	if	O	O	_	_	
+8-12	you	O	B-ScrPart_passenger	_	_	
+8-13	are	O	O	_	_	
+8-14	using	B-RelNScrEv	O	_	_	
+8-15	a	O	O	_	_	
+8-16	commuter	O	O	_	_	
+8-17	rail	O	B-ScrPart_card/ticket	_	_	
+8-18	bring	B-RelNScrEv	O	_	_	
+8-19	it	O	B-ScrPart_card/ticket	_	_	
+8-20	with	O	O	_	_	
+8-21	you	O	B-ScrPart_passenger	_	_	
+8-22	to	O	O	_	_	
+8-23	give	B-ScrEv_conductor_checks	O	_	_	
+8-24	to	O	O	_	_	
+8-25	the	O	O	_	_	
+8-26	train	O	B-ScrPart_train_staff	_	_	
+8-27	attendant	O	I-ScrPart_train_staff|B-ScrPart_train_staff	_	_	
+8-28	.	O	O	_	_	
+
+#id=9
+#text=As you start moving and stopping they will announce each stop .
+9-1	As	O	O	_	_	
+9-2	you	O	B-ScrPart_train	_	_	
+9-3	start	B-UnrelEv	O	_	_	
+9-4	moving	B-ScrEv_train_departs	O	_	_	
+9-5	and	O	O	_	_	
+9-6	stopping	B-ScrEv_train_arrives	O	_	_	
+9-7	they	O	B-ScrPart_train_staff	_	_	
+9-8	will	O	O	_	_	
+9-9	announce	B-RelNScrEv	O	_	_	
+9-10	each	O	O	_	_	
+9-11	stop	O	B-ScrPart_train_station	_	_	
+9-12	.	O	O	_	_	
+
+#id=10
+#text=Wait until your stop has approached and exit the train .
+10-1	Wait	B-ScrEv_wait	O	_	_	
+10-2	until	O	O	_	_	
+10-3	your	O	B-ScrPart_passenger	_	_	
+10-4	stop	O	B-ScrPart_destination	_	_	
+10-5	has	O	O	_	_	
+10-6	approached	B-ScrEv_train_arrives	O	_	_	
+10-7	and	O	O	_	_	
+10-8	exit	B-ScrEv_get_off	O	_	_	
+10-9	the	O	O	_	_	
+10-10	train	O	B-ScrPart_train	_	_	
+10-11	.	O	O	_	_	
+
+#id=11
+#text=Congratulations , you just saw the countryside ! 
+11-1	Congratulations	O	B-No_label	_	_	
+11-2	,	O	O	_	_	
+11-3	you	O	B-ScrPart_passenger	_	_	
+11-4	just	O	O	_	_	
+11-5	saw	B-UnrelEv	O	_	_	
+11-6	the	O	O	_	_	
+11-7	countryside	O	B-NPart	_	_	
+11-8	!	O	O	_	_	
+

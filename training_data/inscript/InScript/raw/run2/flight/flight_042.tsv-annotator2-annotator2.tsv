@@ -1,0 +1,219 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events
+#id=1
+#text=My wife and I were flying to New York City for a vacation .
+1-1	My	B-webanno.custom.Participants_|B-webanno.custom.Participants_	B-ScrPart_passenger|B-ScrPart_passenger	O	
+1-2	wife	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_passenger|B-ScrPart_passenger	O	
+1-3	and	I-webanno.custom.Participants_	I-ScrPart_passenger	O	
+1-4	I	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_passenger|B-ScrPart_passenger	O	
+1-5	were	O	O	O	
+1-6	flying	O	O	B-Evoking	
+1-7	to	O	O	O	
+1-8	New	B-webanno.custom.Participants_	B-ScrPart_target_location	O	
+1-9	York	I-webanno.custom.Participants_	I-ScrPart_target_location	O	
+1-10	City	I-webanno.custom.Participants_	I-ScrPart_target_location	O	
+1-11	for	O	O	O	
+1-12	a	O	O	O	
+1-13	vacation	B-webanno.custom.Participants_	B-NPart	O	
+1-14	.	O	O	O	
+
+#id=2
+#text=We both like to fly .
+2-1	We	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+2-2	both	O	O	O	
+2-3	like	O	O	B-UnrelEv	
+2-4	to	O	O	O	
+2-5	fly	O	O	B-Evoking	
+2-6	.	O	O	O	
+
+#id=3
+#text=After going through the preliminaries and waiting in the lounge , we were soon stepping onto the plane and trying to find our seats .
+3-1	After	O	O	O	
+3-2	going	O	O	B-???	
+3-3	through	O	O	I-???	
+3-4	the	O	O	O	
+3-5	preliminaries	B-webanno.custom.Participants_	B-???	O	
+3-6	and	O	O	O	
+3-7	waiting	O	O	B-ScrEv_wait_boarding	
+3-8	in	O	O	O	
+3-9	the	O	O	O	
+3-10	lounge	B-webanno.custom.Participants_	B-NPart	O	
+3-11	,	O	O	O	
+3-12	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+3-13	were	O	O	O	
+3-14	soon	O	O	O	
+3-15	stepping	O	O	B-ScrEv_board_plane	
+3-16	onto	O	O	I-ScrEv_board_plane	
+3-17	the	O	O	O	
+3-18	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	
+3-19	and	O	O	O	
+3-20	trying	O	O	O	
+3-21	to	O	O	O	
+3-22	find	O	O	B-RelNScrEv	
+3-23	our	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+3-24	seats	B-webanno.custom.Participants_	B-ScrPart_seat	O	
+3-25	.	O	O	O	
+
+#id=4
+#text=Planes can be crowded when one is getting on or off , but we found our seats and buckled in .
+4-1	Planes	B-webanno.custom.Participants_	B-ScrPart_plane	O	
+4-2	can	O	O	O	
+4-3	be	O	O	B-UnrelEv	
+4-4	crowded	O	O	O	
+4-5	when	O	O	O	
+4-6	one	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+4-7	is	O	O	O	
+4-8	getting	O	O	B-???	
+4-9	on	O	O	O	
+4-10	or	O	O	O	
+4-11	off	O	O	O	
+4-12	,	O	O	O	
+4-13	but	O	O	O	
+4-14	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+4-15	found	O	O	B-RelNScrEv	
+4-16	our	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+4-17	seats	B-webanno.custom.Participants_	B-ScrPart_seat	O	
+4-18	and	O	O	O	
+4-19	buckled	O	O	B-ScrEv_buckle_seat_belt	
+4-20	in	O	O	O	
+4-21	.	O	O	O	
+
+#id=5
+#text=It took a bit of time for everyone to settle in , but before long the plane was taxiing down the runway .
+5-1	It	B-webanno.custom.Participants_	B-No_label	O	
+5-2	took	O	O	B-UnrelEv	
+5-3	a	O	O	O	
+5-4	bit	B-webanno.custom.Participants_	B-Head_of_Partitive	O	
+5-5	of	O	O	O	
+5-6	time	B-webanno.custom.Participants_	B-ScrPart_time/date	O	
+5-7	for	O	O	O	
+5-8	everyone	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+5-9	to	O	O	O	
+5-10	settle	O	O	B-ScrEv_take_seat	
+5-11	in	O	O	I-ScrEv_take_seat	
+5-12	,	O	O	O	
+5-13	but	O	O	O	
+5-14	before	O	O	O	
+5-15	long	O	O	O	
+5-16	the	O	O	O	
+5-17	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	
+5-18	was	O	O	O	
+5-19	taxiing	O	O	B-ScrEv_take_off_preparations	
+5-20	down	O	O	O	
+5-21	the	O	O	O	
+5-22	runway	B-webanno.custom.Participants_	B-ScrPart_location_airplane	O	
+5-23	.	O	O	O	
+
+#id=6
+#text=When the plane lifted off , I could feel it tilt to one side and then right itself again .
+6-1	When	O	O	O	
+6-2	the	O	O	O	
+6-3	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	
+6-4	lifted	O	O	B-ScrEv_take_off	
+6-5	off	O	O	I-ScrEv_take_off	
+6-6	,	O	O	O	
+6-7	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+6-8	could	O	O	O	
+6-9	feel	O	O	B-UnrelEv	
+6-10	it	B-webanno.custom.Participants_	B-ScrPart_plane	O	
+6-11	tilt	O	O	B-RelNScrEv	
+6-12	to	O	O	O	
+6-13	one	O	O	O	
+6-14	side	B-webanno.custom.Participants_	B-NPart	O	
+6-15	and	O	O	O	
+6-16	then	O	O	O	
+6-17	right	O	O	B-RelNScrEv	
+6-18	itself	B-webanno.custom.Participants_	B-ScrPart_plane	O	
+6-19	again	O	O	O	
+6-20	.	O	O	O	
+
+#id=7
+#text=It was fun looking out of the window and seeing the world below get smaller and smaller , then disappear as we climbed above the clouds .
+7-1	It	B-webanno.custom.Participants_	B-No_label	O	
+7-2	was	O	O	B-UnrelEv	
+7-3	fun	B-webanno.custom.Participants_	B-No_label	O	
+7-4	looking	O	O	B-ScrEv_spend_time_flight	
+7-5	out	O	O	O	
+7-6	of	O	O	O	
+7-7	the	O	O	O	
+7-8	window	B-webanno.custom.Participants_	B-NPart	O	
+7-9	and	O	O	O	
+7-10	seeing	O	O	B-ScrEv_spend_time_flight	
+7-11	the	O	O	O	
+7-12	world	B-webanno.custom.Participants_	B-NPart	O	
+7-13	below	O	O	O	
+7-14	get	O	O	B-UnrelEv	
+7-15	smaller	O	O	O	
+7-16	and	O	O	O	
+7-17	smaller	O	O	O	
+7-18	,	O	O	O	
+7-19	then	O	O	O	
+7-20	disappear	O	O	B-UnrelEv	
+7-21	as	O	O	O	
+7-22	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+7-23	climbed	O	O	B-ScrEv_other	
+7-24	above	O	O	O	
+7-25	the	O	O	O	
+7-26	clouds	B-webanno.custom.Participants_	B-NPart	O	
+7-27	.	O	O	O	
+
+#id=8
+#text=We both enjoyed the plane ride a great deal .
+8-1	We	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+8-2	both	O	O	O	
+8-3	enjoyed	O	O	B-UnrelEv	
+8-4	the	O	O	O	
+8-5	plane	B-webanno.custom.Participants_	B-ScrPart_flight	O	
+8-6	ride	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_flight|B-ScrPart_flight	O	
+8-7	a	O	O	O	
+8-8	great	O	O	O	
+8-9	deal	B-webanno.custom.Participants_	B-No_label	O	
+8-10	.	O	O	O	
+
+#id=9
+#text=A flight attendant offered us drinks and snacks , and we had some orange soda and complimentary peanuts .
+9-1	A	O	O	O	
+9-2	flight	B-webanno.custom.Participants_	B-ScrPart_staff	O	
+9-3	attendant	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_staff|B-ScrPart_staff	O	
+9-4	offered	O	O	B-RelNScrEv	
+9-5	us	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+9-6	drinks	B-webanno.custom.Participants_	B-ScrPart_in-flight_entertainment	O	
+9-7	and	O	O	O	
+9-8	snacks	B-webanno.custom.Participants_	B-ScrPart_in-flight_entertainment	O	
+9-9	,	O	O	O	
+9-10	and	O	O	O	
+9-11	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+9-12	had	O	O	B-ScrEv_spend_time_flight	
+9-13	some	O	O	O	
+9-14	orange	B-webanno.custom.Participants_	B-ScrPart_in-flight_entertainment	O	
+9-15	soda	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_in-flight_entertainment|B-ScrPart_in-flight_entertainment	O	
+9-16	and	O	O	O	
+9-17	complimentary	O	O	O	
+9-18	peanuts	B-webanno.custom.Participants_	B-ScrPart_in-flight_entertainment	O	
+9-19	.	O	O	O	
+
+#id=10
+#text=Soon the flight was over , and it was time to disembark .
+10-1	Soon	O	O	O	
+10-2	the	O	O	O	
+10-3	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	
+10-4	was	O	O	B-UnrelEv	
+10-5	over	O	O	O	
+10-6	,	O	O	O	
+10-7	and	O	O	O	
+10-8	it	B-webanno.custom.Participants_	B-No_label	O	
+10-9	was	O	O	O	
+10-10	time	B-webanno.custom.Participants_	B-No_label	O	
+10-11	to	O	O	O	
+10-12	disembark	O	O	B-ScrEv_exit_plane	
+10-13	.	O	O	O	
+
+#id=11
+#text=We had enjoyed the airplane ride . 
+11-1	We	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+11-2	had	O	O	O	
+11-3	enjoyed	O	O	B-UnrelEv	
+11-4	the	O	O	O	
+11-5	airplane	B-webanno.custom.Participants_	B-ScrPart_flight	O	
+11-6	ride	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_flight|B-ScrPart_flight	O	
+11-7	.	O	O	O	
+

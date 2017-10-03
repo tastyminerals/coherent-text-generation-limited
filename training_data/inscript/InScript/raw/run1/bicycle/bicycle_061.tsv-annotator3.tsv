@@ -1,0 +1,233 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I wanted to go for a bike ride , so I went out to the garage to get my bike .
+1-1	I	B-ScrPart_rider	O	_	_	
+1-2	wanted	O	B-UnrelEv	_	_	
+1-3	to	O	O	_	_	
+1-4	go	O	B-Evoking	_	_	
+1-5	for	O	I-Evoking	_	_	
+1-6	a	O	I-Evoking	_	_	
+1-7	bike	B-ScrPart_bicycle	I-Evoking	_	_	
+1-8	ride	O	I-Evoking|B-ScrEv_ride_bike	_	_	
+1-9	,	O	O	_	_	
+1-10	so	O	O	_	_	
+1-11	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-1	
+1-12	went	O	B-UnrelEv|B-UnrelEv	_	_	
+1-13	out	O	I-UnrelEv	_	_	
+1-14	to	O	O	_	_	
+1-15	the	O	O	_	_	
+1-16	garage	B-MissScrPart	O	_	_	
+1-17	to	O	O	_	_	
+1-18	get	O	B-MissScrEv	_	_	
+1-19	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-11	
+1-20	bike	B-ScrPart_bicycle	O	webanno.custom.Corefchains_	1-7	
+1-21	.	O	O	_	_	
+
+#id=2
+#text=I brought it out to the driveway and got on .
+2-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-19	
+2-2	brought	O	B-RelNScrEv	_	_	
+2-3	it	B-ScrPart_bicycle	O	webanno.custom.Corefchains_	1-20	
+2-4	out	O	O	_	_	
+2-5	to	O	O	_	_	
+2-6	the	O	O	_	_	
+2-7	driveway	B-NPart	O	_	_	
+2-8	and	O	O	_	_	
+2-9	got	O	B-RelNScrEv|B-RelNScrEv	_	_	
+2-10	on	O	I-RelNScrEv	_	_	
+2-11	.	O	O	_	_	
+
+#id=3
+#text=I noticed that something did n't feel right .
+3-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-1	
+3-2	noticed	O	B-ScrEv_notice_problem	_	_	
+3-3	that	O	O	_	_	
+3-4	something	B-NPart	O	_	_	
+3-5	did	O	O	_	_	
+3-6	n't	O	O	_	_	
+3-7	feel	O	B-UnrelEv	_	_	
+3-8	right	O	O	_	_	
+3-9	.	O	O	_	_	
+
+#id=4
+#text=It was too hard to pedal .
+4-1	It	O	O	_	_	
+4-2	was	O	B-UnrelEv	_	_	
+4-3	too	O	O	_	_	
+4-4	hard	O	O	_	_	
+4-5	to	O	O	_	_	
+4-6	pedal	O	B-RelNScrEv	_	_	
+4-7	.	O	O	_	_	
+
+#id=5
+#text=I looked down and noticed that my front tire was flat .
+5-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	3-1	
+5-2	looked	O	B-UnrelEv|B-UnrelEv	_	_	
+5-3	down	O	I-UnrelEv	_	_	
+5-4	and	O	O	_	_	
+5-5	noticed	O	B-ScrEv_notice_problem	_	_	
+5-6	that	O	O	_	_	
+5-7	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	5-1	
+5-8	front	O	O	_	_	
+5-9	tire	B-ScrPart_tire	O	_	_	
+5-10	was	O	B-UnrelEv	_	_	
+5-11	flat	O	O	_	_	
+5-12	.	O	O	_	_	
+
+#id=6
+#text=I went back into the garage and brought out my bicycle pump .
+6-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	5-7	
+6-2	went	O	B-UnrelEv|B-UnrelEv	_	_	
+6-3	back	O	I-UnrelEv	_	_	
+6-4	into	O	O	_	_	
+6-5	the	O	O	_	_	
+6-6	garage	B-MissScrPart	O	webanno.custom.Corefchains_	2-7	
+6-7	and	O	O	_	_	
+6-8	brought	O	B-ScrEv_get_tools|B-ScrEv_get_tools	_	_	
+6-9	out	O	I-ScrEv_get_tools	_	_	
+6-10	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	6-1	
+6-11	bicycle	B-ScrPart_tool	O	_	_	
+6-12	pump	I-ScrPart_tool|B-ScrPart_tool	O	_	_	
+6-13	.	O	O	_	_	
+
+#id=7
+#text=I removed the cover from the air valve and attached the pump to it .
+7-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	6-10	
+7-2	removed	O	B-MissScrEv	_	_	
+7-3	the	O	O	_	_	
+7-4	cover	B-ScrPart_bicycle_small_detail	O	_	_	
+7-5	from	O	O	_	_	
+7-6	the	O	O	_	_	
+7-7	air	B-ScrPart_bicycle_small_detail	O	_	_	
+7-8	valve	I-ScrPart_bicycle_small_detail|B-ScrPart_bicycle_small_detail	O	_	_	
+7-9	and	O	O	_	_	
+7-10	attached	O	B-MissScrEv	_	_	
+7-11	the	O	O	_	_	
+7-12	pump	B-ScrPart_tool	O	webanno.custom.Corefchains_	6-12	
+7-13	to	O	O	_	_	
+7-14	it	B-ScrPart_bicycle_small_detail	O	webanno.custom.Corefchains_	7-8	
+7-15	.	O	O	_	_	
+
+#id=8
+#text=I pumped up and down on the handle a few times and noticed that the air was not staying in .
+8-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	7-1	
+8-2	pumped	O	B-MissScrEv	_	_	
+8-3	up	O	O	_	_	
+8-4	and	O	O	_	_	
+8-5	down	O	O	_	_	
+8-6	on	O	O	_	_	
+8-7	the	O	O	_	_	
+8-8	handle	B-ScrPart_tool	O	_	_	
+8-9	a	O	O	_	_	
+8-10	few	O	O	_	_	
+8-11	times	B-NPart	O	_	_	
+8-12	and	O	O	_	_	
+8-13	noticed	O	B-ScrEv_notice_problem	_	_	
+8-14	that	O	O	_	_	
+8-15	the	O	O	_	_	
+8-16	air	B-ScrPart_air	O	_	_	
+8-17	was	O	O	_	_	
+8-18	not	O	O	_	_	
+8-19	staying	O	B-RelNScrEv|B-RelNScrEv	_	_	
+8-20	in	O	I-RelNScrEv	_	_	
+8-21	.	O	O	_	_	
+
+#id=9
+#text=I went back into the garage , again , and this time I brought out my bicycle repair kit .
+9-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	8-1	
+9-2	went	O	B-UnrelEv|B-UnrelEv	_	_	
+9-3	back	O	I-UnrelEv	_	_	
+9-4	into	O	O	_	_	
+9-5	the	O	O	_	_	
+9-6	garage	B-MissScrPart	O	webanno.custom.Corefchains_	6-6	
+9-7	,	O	O	_	_	
+9-8	again	O	O	_	_	
+9-9	,	O	O	_	_	
+9-10	and	O	O	_	_	
+9-11	this	O	O	_	_	
+9-12	time	B-NPart	O	_	_	
+9-13	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	9-1	
+9-14	brought	O	B-ScrEv_get_tools|B-ScrEv_get_tools	_	_	
+9-15	out	O	I-ScrEv_get_tools	_	_	
+9-16	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	9-13	
+9-17	bicycle	O	O	_	_	
+9-18	repair	B-ScrPart_tool	O	_	_	
+9-19	kit	I-ScrPart_tool|B-ScrPart_tool	O	_	_	
+9-20	.	O	O	_	_	
+
+#id=10
+#text=I found the hole in my tire , put a patch on , and then filled the tire with air .
+10-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	9-16	
+10-2	found	O	B-MissScrEv	_	_	
+10-3	the	O	O	_	_	
+10-4	hole	B-MissScrPart	O	_	_	
+10-5	in	O	O	_	_	
+10-6	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	10-1	
+10-7	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	5-9	
+10-8	,	O	O	_	_	
+10-9	put	O	B-ScrEv_put_patch/seal	_	_	
+10-10	a	O	O	_	_	
+10-11	patch	B-ScrPart_patch	O	_	_	
+10-12	on	O	O	_	_	
+10-13	,	O	O	_	_	
+10-14	and	O	O	_	_	
+10-15	then	O	O	_	_	
+10-16	filled	O	B-ScrEv_refill_tire_air	_	_	
+10-17	the	O	O	_	_	
+10-18	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	10-7	
+10-19	with	O	O	_	_	
+10-20	air	B-ScrPart_air	O	webanno.custom.Corefchains_	8-16	
+10-21	.	O	O	_	_	
+
+#id=11
+#text=The patch seemed to be nice and sturdy and I believed it was going to hold .
+11-1	The	O	O	_	_	
+11-2	patch	B-ScrPart_patch	O	webanno.custom.Corefchains_	10-11	
+11-3	seemed	O	B-UnrelEv	_	_	
+11-4	to	O	O	_	_	
+11-5	be	O	O	_	_	
+11-6	nice	O	O	_	_	
+11-7	and	O	O	_	_	
+11-8	sturdy	O	O	_	_	
+11-9	and	O	O	_	_	
+11-10	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	10-6	
+11-11	believed	O	B-UnrelEv	_	_	
+11-12	it	O	O	_	_	
+11-13	was	O	O	_	_	
+11-14	going	O	O	_	_	
+11-15	to	O	O	_	_	
+11-16	hold	O	B-RelNScrEv	_	_	
+11-17	.	O	O	_	_	
+
+#id=12
+#text=I put the air pump and the bicycle tire patch kit back into the garage , put on my helmet , and rode my bicycle down the street . 
+12-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	11-10	
+12-2	put	O	B-MissScrEv	_	_	
+12-3	the	O	O	_	_	
+12-4	air	B-ScrPart_tool	O	_	_	
+12-5	pump	I-ScrPart_tool|B-ScrPart_tool	O	webanno.custom.Corefchains_	7-12	
+12-6	and	O	O	_	_	
+12-7	the	O	O	_	_	
+12-8	bicycle	O	O	_	_	
+12-9	tire	O	O	_	_	
+12-10	patch	O	O	_	_	
+12-11	kit	B-ScrPart_tool	O	webanno.custom.Corefchains_	9-19	
+12-12	back	O	O	_	_	
+12-13	into	O	O	_	_	
+12-14	the	O	O	_	_	
+12-15	garage	B-MissScrPart	O	webanno.custom.Corefchains_	9-6	
+12-16	,	O	O	_	_	
+12-17	put	O	B-UnrelEv|B-UnrelEv	_	_	
+12-18	on	O	I-UnrelEv	_	_	
+12-19	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	12-1	
+12-20	helmet	B-NPart	O	_	_	
+12-21	,	O	O	_	_	
+12-22	and	O	O	_	_	
+12-23	rode	O	B-RelNScrEv	_	_	
+12-24	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	12-19	
+12-25	bicycle	B-ScrPart_bicycle	O	webanno.custom.Corefchains_	2-3	
+12-26	down	O	O	_	_	
+12-27	the	O	O	_	_	
+12-28	street	B-NPart	O	_	_	
+12-29	.	O	O	_	_	
+

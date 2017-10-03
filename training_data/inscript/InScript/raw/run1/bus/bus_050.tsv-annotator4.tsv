@@ -1,0 +1,202 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Eventsandparticipants | Event # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=A few years ago we took a Mexican vacation .
+1-1	A	O	O	_	_	
+1-2	few	O	O	_	_	
+1-3	years	O	O	_	_	
+1-4	ago	O	O	_	_	
+1-5	we	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-1	
+1-6	took	O	B-UnrelEv	_	_	
+1-7	a	O	O	_	_	
+1-8	Mexican	O	O	_	_	
+1-9	vacation	O	O	_	_	
+1-10	.	O	O	_	_	
+
+#id=2
+#text=We heard the best way to travel is on the bus .
+2-1	We	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-1	
+2-2	heard	O	B-UnrelEv	_	_	
+2-3	the	O	O	_	_	
+2-4	best	O	O	_	_	
+2-5	way	O	O	_	_	
+2-6	to	O	O	_	_	
+2-7	travel	O	B-UnrelEv	_	_	
+2-8	is	O	B-UnrelEv	_	_	
+2-9	on	O	O	_	_	
+2-10	the	O	O	_	_	
+2-11	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	4-13	
+2-12	.	O	O	_	_	
+
+#id=3
+#text=It was very hot and tropical .
+3-1	It	O	O	_	_	
+3-2	was	O	B-UnrelEv	_	_	
+3-3	very	O	O	_	_	
+3-4	hot	O	O	_	_	
+3-5	and	O	O	_	_	
+3-6	tropical	O	O	_	_	
+3-7	.	O	O	_	_	
+
+#id=4
+#text=We stood outside in the heat on the long sidewalk waiting for it .
+4-1	We	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-2	
+4-2	stood	O	B-ScrEv_wait	_	_	
+4-3	outside	O	O	_	_	
+4-4	in	O	O	_	_	
+4-5	the	O	O	_	_	
+4-6	heat	O	O	_	_	
+4-7	on	O	O	_	_	
+4-8	the	O	O	_	_	
+4-9	long	O	O	_	_	
+4-10	sidewalk	O	O	_	_	
+4-11	waiting	O	B-ScrEv_wait	_	_	
+4-12	for	O	I-ScrEv_wait	_	_	
+4-13	it	B-ScrPart_bus	O	webanno.custom.Corefchains_	7-5	
+4-14	.	O	O	_	_	
+
+#id=5
+#text=As we were standing there a giant gecko came out of the bushes .
+5-1	As	O	O	_	_	
+5-2	we	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-1	
+5-3	were	O	O	_	_	
+5-4	standing	O	B-ScrEv_wait	_	_	
+5-5	there	O	O	_	_	
+5-6	a	O	O	_	_	
+5-7	giant	O	O	_	_	
+5-8	gecko	O	O	_	_	
+5-9	came	O	B-UnrelEv	_	_	
+5-10	out	O	I-UnrelEv	_	_	
+5-11	of	O	O	_	_	
+5-12	the	O	O	_	_	
+5-13	bushes	O	O	_	_	
+5-14	.	O	O	_	_	
+
+#id=6
+#text=They say not to get near them .
+6-1	They	O	O	_	_	
+6-2	say	O	B-UnrelEv	_	_	
+6-3	not	O	O	_	_	
+6-4	to	O	O	_	_	
+6-5	get	O	B-UnrelEv	_	_	
+6-6	near	O	I-UnrelEv	_	_	
+6-7	them	O	O	_	_	
+6-8	.	O	O	_	_	
+
+#id=7
+#text=We hopped on the bus .
+7-1	We	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-1	
+7-2	hopped	O	B-ScrEv_board_bus	_	_	
+7-3	on	O	I-ScrEv_board_bus	_	_	
+7-4	the	O	O	_	_	
+7-5	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	8-2	
+7-6	.	O	O	_	_	
+
+#id=8
+#text=The bus was very inexpensive .
+8-1	The	O	O	_	_	
+8-2	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	10-6	
+8-3	was	O	B-UnrelEv	_	_	
+8-4	very	O	O	_	_	
+8-5	inexpensive	O	O	_	_	
+8-6	.	O	O	_	_	
+
+#id=9
+#text=It was a mixture of locals and tourists .
+9-1	It	O	O	_	_	
+9-2	was	O	B-UnrelEv	_	_	
+9-3	a	O	O	_	_	
+9-4	mixture	O	O	_	_	
+9-5	of	O	O	_	_	
+9-6	locals	B-ScrPart_passenger	O	_	_	
+9-7	and	O	O	_	_	
+9-8	tourists	B-ScrPart_passenger	O	_	_	
+9-9	.	O	O	_	_	
+
+#id=10
+#text=We decided to ride the bus to the old side of town .
+10-1	We	B-ScrPart_passenger	O	webanno.custom.Corefchains_	11-1	
+10-2	decided	O	B-UnrelEv	_	_	
+10-3	to	O	O	_	_	
+10-4	ride	O	B-Evoking	_	_	
+10-5	the	O	I-Evoking	_	_	
+10-6	bus	B-ScrPart_bus	I-Evoking	webanno.custom.Corefchains_	12-10	
+10-7	to	O	O	_	_	
+10-8	the	O	O	_	_	
+10-9	old	O	O	_	_	
+10-10	side	B-ScrPart_destination	O	_	_	
+10-11	of	O	O	_	_	
+10-12	town	O	O	_	_	
+10-13	.	O	O	_	_	
+
+#id=11
+#text=We got off near a strange McDonalds .
+11-1	We	B-ScrPart_passenger	O	webanno.custom.Corefchains_	12-5	
+11-2	got	O	B-ScrEv_get_off	_	_	
+11-3	off	O	I-ScrEv_get_off	_	_	
+11-4	near	O	O	_	_	
+11-5	a	O	O	_	_	
+11-6	strange	O	O	_	_	
+11-7	McDonalds	O	O	_	_	
+11-8	.	O	O	_	_	
+
+#id=12
+#text=Very soon after that we got back on the bus and went back into the main part of town where we felt safe .
+12-1	Very	O	O	_	_	
+12-2	soon	O	O	_	_	
+12-3	after	O	O	_	_	
+12-4	that	O	O	_	_	
+12-5	we	B-ScrPart_passenger	O	webanno.custom.Corefchains_	12-21	
+12-6	got	O	B-ScrEv_board_bus	_	_	
+12-7	back	O	I-ScrEv_board_bus	_	_	
+12-8	on	O	I-ScrEv_board_bus	_	_	
+12-9	the	O	O	_	_	
+12-10	bus	B-ScrPart_bus	O	_	_	
+12-11	and	O	O	_	_	
+12-12	went	O	B-???	_	_	
+12-13	back	O	I-???	_	_	
+12-14	into	O	O	_	_	
+12-15	the	O	O	_	_	
+12-16	main	O	O	_	_	
+12-17	part	B-ScrPart_destination	O	_	_	
+12-18	of	O	O	_	_	
+12-19	town	O	O	_	_	
+12-20	where	O	O	_	_	
+12-21	we	B-ScrPart_passenger	O	webanno.custom.Corefchains_	13-3	
+12-22	felt	O	B-UnrelEv	_	_	
+12-23	safe	O	O	_	_	
+12-24	.	O	O	_	_	
+
+#id=13
+#text=After that we just got on and off within a few mile radius of the hotel .
+13-1	After	O	O	_	_	
+13-2	that	O	O	_	_	
+13-3	we	B-ScrPart_passenger	O	webanno.custom.Corefchains_	14-1	
+13-4	just	O	O	_	_	
+13-5	got	O	B-???	_	_	
+13-6	on	O	I-???	_	_	
+13-7	and	O	O	_	_	
+13-8	off	O	O	_	_	
+13-9	within	O	O	_	_	
+13-10	a	O	O	_	_	
+13-11	few	O	O	_	_	
+13-12	mile	O	O	_	_	
+13-13	radius	O	O	_	_	
+13-14	of	O	O	_	_	
+13-15	the	O	O	_	_	
+13-16	hotel	O	O	_	_	
+13-17	.	O	O	_	_	
+
+#id=14
+#text=We did end up renting a car the next day . 
+14-1	We	B-ScrPart_passenger	O	_	_	
+14-2	did	O	O	_	_	
+14-3	end	O	B-UnrelEv	_	_	
+14-4	up	O	I-UnrelEv	_	_	
+14-5	renting	O	B-UnrelEv	_	_	
+14-6	a	O	O	_	_	
+14-7	car	O	O	_	_	
+14-8	the	O	O	_	_	
+14-9	next	O	O	_	_	
+14-10	day	O	O	_	_	
+14-11	.	O	O	_	_	
+

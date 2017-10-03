@@ -1,0 +1,198 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=As a young man I had always enjoyed watching the trains go by .
+1-1	As	O	O	_	_	
+1-2	a	O	O	_	_	
+1-3	young	O	O	_	_	
+1-4	man	B-ScrPart_passenger	O	_	_	
+1-5	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-4	
+1-6	had	O	B-UnrelEv	_	_	
+1-7	always	O	O	_	_	
+1-8	enjoyed	O	B-UnrelEv	_	_	
+1-9	watching	O	B-UnrelEv	_	_	
+1-10	the	O	O	_	_	
+1-11	trains	B-ScrPart_train	O	_	_	
+1-12	go	O	B-UnrelEv|B-UnrelEv	_	_	
+1-13	by	O	I-UnrelEv	_	_	
+1-14	.	O	O	_	_	
+
+#id=2
+#text=Although there are no passenger trains anywhere near where i live there are trains that deliver to local plants and factories .
+2-1	Although	O	O	_	_	
+2-2	there	O	O	_	_	
+2-3	are	O	B-UnrelEv	_	_	
+2-4	no	O	O	_	_	
+2-5	passenger	B-ScrPart_train	O	_	_	
+2-6	trains	I-ScrPart_train|B-ScrPart_train	O	webanno.custom.Corefchains_	1-11	
+2-7	anywhere	O	O	_	_	
+2-8	near	O	O	_	_	
+2-9	where	O	O	_	_	
+2-10	i	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-5	
+2-11	live	O	B-UnrelEv	_	_	
+2-12	there	O	O	_	_	
+2-13	are	O	O	_	_	
+2-14	trains	B-ScrPart_train	O	webanno.custom.Corefchains_	2-6	
+2-15	that	O	O	_	_	
+2-16	deliver	O	B-UnrelEv	_	_	
+2-17	to	O	O	_	_	
+2-18	local	O	O	_	_	
+2-19	plants	O	O	_	_	
+2-20	and	O	O	_	_	
+2-21	factories	O	O	_	_	
+2-22	.	O	O	_	_	
+
+#id=3
+#text=One day I decided that as the train slowed down as it rumbled across the road while cars where stopped I would run and grab hold of one of the train car handles and sneak a ride .
+3-1	One	O	O	_	_	
+3-2	day	B-ScrPart_time_date	O	_	_	
+3-3	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-10	
+3-4	decided	O	B-UnrelEv	_	_	
+3-5	that	O	O	_	_	
+3-6	as	O	O	_	_	
+3-7	the	O	O	_	_	
+3-8	train	B-ScrPart_train	O	webanno.custom.Corefchains_	2-14	
+3-9	slowed	O	B-RelNScrEv	_	_	
+3-10	down	O	O	_	_	
+3-11	as	O	O	_	_	
+3-12	it	B-ScrPart_train	O	webanno.custom.Corefchains_	3-8	
+3-13	rumbled	O	B-RelNScrEv	_	_	
+3-14	across	O	O	_	_	
+3-15	the	O	O	_	_	
+3-16	road	O	O	_	_	
+3-17	while	O	O	_	_	
+3-18	cars	O	O	_	_	
+3-19	where	O	O	_	_	
+3-20	stopped	O	B-UnrelEv	_	_	
+3-21	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-3	
+3-22	would	O	O	_	_	
+3-23	run	O	B-UnrelEv	_	_	
+3-24	and	O	O	_	_	
+3-25	grab	O	B-RelNScrEv	_	_	
+3-26	hold	O	O	_	_	
+3-27	of	O	O	_	_	
+3-28	one	O	O	_	_	
+3-29	of	O	O	_	_	
+3-30	the	O	O	_	_	
+3-31	train	B-ScrPart_coach	O	_	_	
+3-32	car	I-ScrPart_coach|B-ScrPart_coach	O	_	_	
+3-33	handles	O	O	_	_	
+3-34	and	O	O	_	_	
+3-35	sneak	O	B-UnrelEv	_	_	
+3-36	a	O	O	_	_	
+3-37	ride	B-MissScrPart	O	_	_	
+3-38	.	O	O	_	_	
+
+#id=4
+#text=Off I ran .
+4-1	Off	O	O	_	_	
+4-2	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-21	
+4-3	ran	O	B-UnrelEv	_	_	
+4-4	.	O	O	_	_	
+
+#id=5
+#text=I grabbed the handle and thought my arm was going to rip off as I tried to pull myself onto the train .
+5-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-2	
+5-2	grabbed	O	B-RelNScrEv	_	_	
+5-3	the	O	O	_	_	
+5-4	handle	O	O	_	_	
+5-5	and	O	O	_	_	
+5-6	thought	O	O	_	_	
+5-7	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-1	
+5-8	arm	O	O	_	_	
+5-9	was	O	O	_	_	
+5-10	going	O	O	_	_	
+5-11	to	O	O	_	_	
+5-12	rip	O	B-UnrelEv|B-UnrelEv	_	_	
+5-13	off	O	I-UnrelEv	_	_	
+5-14	as	O	O	_	_	
+5-15	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-7	
+5-16	tried	O	B-UnrelEv	_	_	
+5-17	to	O	O	_	_	
+5-18	pull	O	B-RelNScrEv	_	_	
+5-19	myself	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-15	
+5-20	onto	O	O	_	_	
+5-21	the	O	O	_	_	
+5-22	train	B-ScrPart_train	O	webanno.custom.Corefchains_	3-12	
+5-23	.	O	O	_	_	
+
+#id=6
+#text=Finally I made it and climbed up onto the top of the train car .
+6-1	Finally	O	O	_	_	
+6-2	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-19	
+6-3	made	O	B-UnrelEv	_	_	
+6-4	it	O	O	_	_	
+6-5	and	O	O	_	_	
+6-6	climbed	O	B-RelNScrEv|B-RelNScrEv	_	_	
+6-7	up	O	I-RelNScrEv	_	_	
+6-8	onto	O	O	_	_	
+6-9	the	O	O	_	_	
+6-10	top	O	O	_	_	
+6-11	of	O	O	_	_	
+6-12	the	O	O	_	_	
+6-13	train	B-ScrPart_coach	O	_	_	
+6-14	car	I-ScrPart_coach|B-ScrPart_coach	O	webanno.custom.Corefchains_	3-32	
+6-15	.	O	O	_	_	
+
+#id=7
+#text=I rode like that for several miles enjoying the vibration and speed of the train as it rumbled along the tracks .
+7-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-2	
+7-2	rode	O	B-RelNScrEv	_	_	
+7-3	like	O	O	_	_	
+7-4	that	O	O	_	_	
+7-5	for	O	O	_	_	
+7-6	several	O	O	_	_	
+7-7	miles	B-NPart	O	_	_	
+7-8	enjoying	O	B-UnrelEv	_	_	
+7-9	the	O	O	_	_	
+7-10	vibration	O	O	_	_	
+7-11	and	O	O	_	_	
+7-12	speed	O	O	_	_	
+7-13	of	O	O	_	_	
+7-14	the	O	O	_	_	
+7-15	train	B-ScrPart_train	O	webanno.custom.Corefchains_	5-22	
+7-16	as	O	O	_	_	
+7-17	it	B-ScrPart_train	O	webanno.custom.Corefchains_	7-15	
+7-18	rumbled	O	B-RelNScrEv	_	_	
+7-19	along	O	O	_	_	
+7-20	the	O	O	_	_	
+7-21	tracks	B-MissScrPart	O	_	_	
+7-22	.	O	O	_	_	
+
+#id=8
+#text=When it slowed down enough before it 's next stop I jumped off and hit the ground rolling .
+8-1	When	O	O	_	_	
+8-2	it	B-ScrPart_train	O	webanno.custom.Corefchains_	7-17	
+8-3	slowed	O	B-RelNScrEv|B-RelNScrEv	_	_	
+8-4	down	O	I-RelNScrEv	_	_	
+8-5	enough	O	O	_	_	
+8-6	before	O	O	_	_	
+8-7	it	B-ScrPart_train	O	webanno.custom.Corefchains_	8-2	
+8-8	's	I-ScrPart_train	O	webanno.custom.Corefchains_	8-2	
+8-9	next	O	O	_	_	
+8-10	stop	O	O	_	_	
+8-11	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-1	
+8-12	jumped	O	B-ScrEv_get_off|B-ScrEv_get_off	_	_	
+8-13	off	O	I-ScrEv_get_off	_	_	
+8-14	and	O	O	_	_	
+8-15	hit	O	B-UnrelEv	_	_	
+8-16	the	O	O	_	_	
+8-17	ground	O	O	_	_	
+8-18	rolling	O	B-UnrelEv	_	_	
+8-19	.	O	O	_	_	
+
+#id=9
+#text=Got battered and bruised but the experience was well worth the pain . 
+9-1	Got	O	O	_	_	
+9-2	battered	O	B-UnrelEv	_	_	
+9-3	and	O	O	_	_	
+9-4	bruised	O	B-UnrelEv	_	_	
+9-5	but	O	O	_	_	
+9-6	the	O	O	_	_	
+9-7	experience	O	O	_	_	
+9-8	was	O	B-UnrelEv	_	_	
+9-9	well	O	O	_	_	
+9-10	worth	O	O	_	_	
+9-11	the	O	O	_	_	
+9-12	pain	O	O	_	_	
+9-13	.	O	O	_	_	
+

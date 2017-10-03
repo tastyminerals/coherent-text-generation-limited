@@ -1,0 +1,525 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text='' `` Baking A Cake '' '' Grandma June was making a cake for uncle Max 's Birthday .
+1-1	''	O	O	O	_	_	
+1-2	``	O	O	O	_	_	
+1-3	Baking	B-Evoking	O	O	_	_	
+1-4	A	I-Evoking	O	O	_	_	
+1-5	Cake	I-Evoking	B-ScrPart_cake	B-webanno.custom.Participants_	_	_	
+1-6	''	O	O	O	_	_	
+1-7	''	O	O	O	_	_	
+1-8	Grandma	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+1-9	June	O	I-ScrPart_cook	I-webanno.custom.Participants_	_	_	
+1-10	was	O	O	O	_	_	
+1-11	making	B-Evoking	O	O	_	_	
+1-12	a	I-Evoking	O	O	_	_	
+1-13	cake	I-Evoking	B-ScrPart_cake	B-webanno.custom.Participants_	_	_	
+1-14	for	O	O	O	_	_	
+1-15	uncle	O	B-ScrPart_beneficiary	B-webanno.custom.Participants_	_	_	
+1-16	Max	O	I-ScrPart_beneficiary|B-ScrPart_beneficiary	I-webanno.custom.Participants_|B-webanno.custom.Participants_	_	_	
+1-17	's	O	O	O	_	_	
+1-18	Birthday	O	B-NPart	B-webanno.custom.Participants_	_	_	
+1-19	.	O	O	O	_	_	
+
+#id=2
+#text=Uncle Max was 45 years old !
+2-1	Uncle	O	B-ScrPart_beneficiary	B-webanno.custom.Participants_	_	_	
+2-2	Max	O	I-ScrPart_beneficiary|B-ScrPart_beneficiary	I-webanno.custom.Participants_|B-webanno.custom.Participants_	_	_	
+2-3	was	B-UnrelEv	O	O	_	_	
+2-4	45	O	O	O	_	_	
+2-5	years	O	B-NPart	B-webanno.custom.Participants_	_	_	
+2-6	old	O	O	O	_	_	
+2-7	!	O	O	O	_	_	
+
+#id=3
+#text=Julia thought that was pretty old .
+3-1	Julia	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+3-2	thought	B-UnrelEv	O	O	_	_	
+3-3	that	O	O	O	_	_	
+3-4	was	O	O	O	_	_	
+3-5	pretty	O	O	O	_	_	
+3-6	old	O	O	O	_	_	
+3-7	.	O	O	O	_	_	
+
+#id=4
+#text=She was excited because , Grandma June agreed to let her help .
+4-1	She	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+4-2	was	B-UnrelEv	O	O	_	_	
+4-3	excited	O	O	O	_	_	
+4-4	because	O	O	O	_	_	
+4-5	,	O	O	O	_	_	
+4-6	Grandma	O	B-ScrPart_cook	B-webanno.custom.Participants_	group_julia_grandma	5-1	
+4-7	June	O	I-ScrPart_cook	I-webanno.custom.Participants_	group_julia_grandma	5-1	
+4-8	agreed	B-UnrelEv	O	O	_	_	
+4-9	to	O	O	O	_	_	
+4-10	let	B-UnrelEv	O	O	_	_	
+4-11	her	O	B-ScrPart_cook	B-webanno.custom.Participants_	group_julia_grandma	5-1	
+4-12	help	B-UnrelEv	O	O	_	_	
+4-13	.	O	O	O	_	_	
+
+#id=5
+#text=They both washed their hands Grandma June said that is always the first step you take when cooking so you do n't spread germs .
+5-1	They	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+5-2	both	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+5-3	washed	B-RelNScrEv	O	O	_	_	
+5-4	their	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+5-5	hands	O	B-NPart	B-webanno.custom.Participants_	_	_	
+5-6	Grandma	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+5-7	June	O	I-ScrPart_cook	I-webanno.custom.Participants_	_	_	
+5-8	said	B-UnrelEv	O	O	_	_	
+5-9	that	O	O	O	_	_	
+5-10	is	B-UnrelEv	O	O	_	_	
+5-11	always	O	O	O	_	_	
+5-12	the	O	O	O	_	_	
+5-13	first	O	O	O	_	_	
+5-14	step	O	B-No_label	B-webanno.custom.Participants_	_	_	
+5-15	you	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+5-16	take	B-UnrelEv	O	O	_	_	
+5-17	when	O	O	O	_	_	
+5-18	cooking	B-Evoking	O	O	_	_	
+5-19	so	O	O	O	_	_	
+5-20	you	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+5-21	do	O	O	O	_	_	
+5-22	n't	O	O	O	_	_	
+5-23	spread	B-UnrelEv	O	O	_	_	
+5-24	germs	O	B-NPart	B-webanno.custom.Participants_	_	_	
+5-25	.	O	O	O	_	_	
+
+#id=6
+#text=Then Grandma June picked two shiny round cake pans .
+6-1	Then	O	O	O	_	_	
+6-2	Grandma	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+6-3	June	O	I-ScrPart_cook	I-webanno.custom.Participants_	_	_	
+6-4	picked	B-ScrEv_get_utensils	O	O	_	_	
+6-5	two	O	O	O	_	_	
+6-6	shiny	O	O	O	_	_	
+6-7	round	O	O	O	_	_	
+6-8	cake	O	B-ScrPart_cake_tin	B-webanno.custom.Participants_	_	_	
+6-9	pans	O	I-ScrPart_cake_tin|B-ScrPart_cake_tin	I-webanno.custom.Participants_|B-webanno.custom.Participants_	_	_	
+6-10	.	O	O	O	_	_	
+
+#id=7
+#text=She let Julia grease the whole inside of each pan with Shortening and then Grandma June dusted each pan lightly with flour .
+7-1	She	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+7-2	let	B-UnrelEv	O	O	_	_	
+7-3	Julia	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+7-4	grease	B-ScrEv_grease_cake_tin	O	O	_	_	
+7-5	the	O	O	O	_	_	
+7-6	whole	O	O	O	_	_	
+7-7	inside	O	B-NPart	B-webanno.custom.Participants_	_	_	
+7-8	of	O	O	O	_	_	
+7-9	each	O	O	O	_	_	
+7-10	pan	O	B-ScrPart_cake_tin	B-webanno.custom.Participants_	_	_	
+7-11	with	O	O	O	_	_	
+7-12	Shortening	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	_	_	
+7-13	and	O	O	O	_	_	
+7-14	then	O	O	O	_	_	
+7-15	Grandma	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+7-16	June	O	I-ScrPart_cook	I-webanno.custom.Participants_	_	_	
+7-17	dusted	B-ScrEv_grease_cake_tin	O	O	_	_	
+7-18	each	O	O	O	_	_	
+7-19	pan	O	B-ScrPart_cake_tin	B-webanno.custom.Participants_	_	_	
+7-20	lightly	O	O	O	_	_	
+7-21	with	O	O	O	_	_	
+7-22	flour	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	_	_	
+7-23	.	O	O	O	_	_	
+
+#id=8
+#text=This is so the cooked cakes would not stick .
+8-1	This	O	O	O	_	_	
+8-2	is	O	O	O	_	_	
+8-3	so	O	O	O	_	_	
+8-4	the	O	O	O	_	_	
+8-5	cooked	B-???	O	O	_	_	
+8-6	cakes	O	B-ScrPart_cake	B-webanno.custom.Participants_	_	_	
+8-7	would	O	O	O	_	_	
+8-8	not	O	O	O	_	_	
+8-9	stick	B-UnrelEv	O	O	_	_	
+8-10	.	O	O	O	_	_	
+
+#id=9
+#text=Grandma June turned the oven on to heat up to 350 degrees then she placed two bowl onto the counter one was for dry things such as flour , sugar , baking powder and salt .
+9-1	Grandma	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+9-2	June	O	I-ScrPart_cook	I-webanno.custom.Participants_	_	_	
+9-3	turned	B-ScrEv_preheat	O	O	_	_	
+9-4	the	O	O	O	_	_	
+9-5	oven	O	B-ScrPart_oven	B-webanno.custom.Participants_	_	_	
+9-6	on	O	O	O	_	_	
+9-7	to	O	O	O	_	_	
+9-8	heat	B-ScrEv_preheat	O	O	_	_	
+9-9	up	I-ScrEv_preheat	O	O	_	_	
+9-10	to	O	O	O	_	_	
+9-11	350	O	O	O	_	_	
+9-12	degrees	O	B-ScrPart_temperature	B-webanno.custom.Participants_	_	_	
+9-13	then	O	O	O	_	_	
+9-14	she	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+9-15	placed	B-ScrEv_get_utensils	O	O	_	_	
+9-16	two	O	O	O	_	_	
+9-17	bowl	O	B-ScrPart_utensil	B-webanno.custom.Participants_	_	_	
+9-18	onto	O	O	O	_	_	
+9-19	the	O	O	O	_	_	
+9-20	counter	O	B-ScrPart_other	B-webanno.custom.Participants_	_	_	
+9-21	one	O	O	O	_	_	
+9-22	was	B-UnrelEv	O	O	_	_	
+9-23	for	O	O	O	_	_	
+9-24	dry	O	O	O	_	_	
+9-25	things	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	_	_	
+9-26	such	O	O	O	_	_	
+9-27	as	O	O	O	_	_	
+9-28	flour	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	_	_	
+9-29	,	O	O	O	_	_	
+9-30	sugar	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	_	_	
+9-31	,	O	O	O	_	_	
+9-32	baking	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	_	_	
+9-33	powder	O	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	_	_	
+9-34	and	O	O	O	_	_	
+9-35	salt	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	_	_	
+9-36	.	O	O	O	_	_	
+
+#id=10
+#text=Grandma June carefully measured each one and let Julia pour them in .
+10-1	Grandma	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+10-2	June	O	I-ScrPart_cook	I-webanno.custom.Participants_	_	_	
+10-3	carefully	O	O	O	_	_	
+10-4	measured	B-RelNScrEv	O	O	_	_	
+10-5	each	O	O	O	_	_	
+10-6	one	O	O	O	_	_	
+10-7	and	O	O	O	_	_	
+10-8	let	O	O	O	_	_	
+10-9	Julia	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+10-10	pour	B-ScrEv_add_ingredients	O	O	_	_	
+10-11	them	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	_	_	
+10-12	in	O	O	O	_	_	
+10-13	.	O	O	O	_	_	
+
+#id=11
+#text=Then she mixed all the dry stuff really well .
+11-1	Then	O	O	O	_	_	
+11-2	she	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+11-3	mixed	B-ScrEv_prepare_ingredients	O	O	_	_	
+11-4	all	O	O	O	_	_	
+11-5	the	O	O	O	_	_	
+11-6	dry	O	O	O	_	_	
+11-7	stuff	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	_	_	
+11-8	really	O	O	O	_	_	
+11-9	well	O	O	O	_	_	
+11-10	.	O	O	O	_	_	
+
+#id=12
+#text=Julia 's Grandma June told her to mix well but carefully so the ingredients would not spill because baking is an exact science and the measurements had to be correct .
+12-1	Julia	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+12-2	's	O	O	O	_	_	
+12-3	Grandma	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+12-4	June	O	I-ScrPart_cook	I-webanno.custom.Participants_	_	_	
+12-5	told	B-UnrelEv	O	O	_	_	
+12-6	her	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+12-7	to	O	O	O	_	_	
+12-8	mix	B-ScrEv_prepare_ingredients	O	O	_	_	
+12-9	well	O	O	O	_	_	
+12-10	but	O	O	O	_	_	
+12-11	carefully	O	O	O	_	_	
+12-12	so	O	O	O	_	_	
+12-13	the	O	O	O	_	_	
+12-14	ingredients	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	_	_	
+12-15	would	O	O	O	_	_	
+12-16	not	O	O	O	_	_	
+12-17	spill	B-UnrelEv	O	O	_	_	
+12-18	because	O	O	O	_	_	
+12-19	baking	B-Evoking	O	O	_	_	
+12-20	is	O	O	O	_	_	
+12-21	an	O	O	O	_	_	
+12-22	exact	O	O	O	_	_	
+12-23	science	O	B-NPart	B-webanno.custom.Participants_	_	_	
+12-24	and	O	O	O	_	_	
+12-25	the	O	O	O	_	_	
+12-26	measurements	O	B-ScrPart_other	B-webanno.custom.Participants_	_	_	
+12-27	had	O	O	O	_	_	
+12-28	to	O	O	O	_	_	
+12-29	be	B-UnrelEv	O	O	_	_	
+12-30	correct	O	O	O	_	_	
+12-31	.	O	O	O	_	_	
+
+#id=13
+#text=In the next bowl they measured all the wet things .
+13-1	In	O	O	O	_	_	
+13-2	the	O	O	O	_	_	
+13-3	next	O	O	O	_	_	
+13-4	bowl	O	B-ScrPart_utensil	B-webanno.custom.Participants_	_	_	
+13-5	they	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+13-6	measured	B-RelNScrEv	O	O	_	_	
+13-7	all	O	O	O	_	_	
+13-8	the	O	O	O	_	_	
+13-9	wet	O	O	O	_	_	
+13-10	things	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	_	_	
+13-11	.	O	O	O	_	_	
+
+#id=14
+#text=In went butter , milk , vanilla and eggs .
+14-1	In	O	O	O	_	_	
+14-2	went	B-ScrEv_add_ingredients	O	O	_	_	
+14-3	butter	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	_	_	
+14-4	,	O	O	O	_	_	
+14-5	milk	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	_	_	
+14-6	,	O	O	O	_	_	
+14-7	vanilla	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	_	_	
+14-8	and	O	O	O	_	_	
+14-9	eggs	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	_	_	
+14-10	.	O	O	O	_	_	
+
+#id=15
+#text=Grandma June mixed them very smooth with a hand mixer .
+15-1	Grandma	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+15-2	June	O	I-ScrPart_cook	I-webanno.custom.Participants_	_	_	
+15-3	mixed	B-ScrEv_prepare_ingredients	O	O	_	_	
+15-4	them	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	_	_	
+15-5	very	O	O	O	_	_	
+15-6	smooth	O	O	O	_	_	
+15-7	with	O	O	O	_	_	
+15-8	a	O	O	O	_	_	
+15-9	hand	O	B-ScrPart_utensil	B-webanno.custom.Participants_	_	_	
+15-10	mixer	O	I-ScrPart_utensil|B-ScrPart_utensil	I-webanno.custom.Participants_|B-webanno.custom.Participants_	_	_	
+15-11	.	O	O	O	_	_	
+
+#id=16
+#text=Next they slowly added the wet ingredients to the dry a bit at a time mixing them well into a smooth batter .
+16-1	Next	O	O	O	_	_	
+16-2	they	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+16-3	slowly	O	O	O	_	_	
+16-4	added	B-ScrEv_add_ingredients	O	O	_	_	
+16-5	the	O	O	O	_	_	
+16-6	wet	O	O	O	_	_	
+16-7	ingredients	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	_	_	
+16-8	to	O	O	O	_	_	
+16-9	the	O	O	O	_	_	
+16-10	dry	O	O	O	_	_	
+16-11	a	O	O	O	_	_	
+16-12	bit	O	B-No_label	B-webanno.custom.Participants_	_	_	
+16-13	at	O	O	O	_	_	
+16-14	a	O	O	O	_	_	
+16-15	time	O	B-No_label	B-webanno.custom.Participants_	_	_	
+16-16	mixing	B-ScrEv_make_dough	O	O	_	_	
+16-17	them	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	_	_	
+16-18	well	O	O	O	_	_	
+16-19	into	O	O	O	_	_	
+16-20	a	O	O	O	_	_	
+16-21	smooth	O	O	O	_	_	
+16-22	batter	O	B-ScrPart_dough	B-webanno.custom.Participants_	_	_	
+16-23	.	O	O	O	_	_	
+
+#id=17
+#text=The batter get divided evenly between the two cake pans and placed in the hot oven to bake .
+17-1	The	O	O	O	_	_	
+17-2	batter	O	B-ScrPart_dough	B-webanno.custom.Participants_	_	_	
+17-3	get	O	O	O	_	_	
+17-4	divided	B-ScrEv_pour_dough	O	O	_	_	
+17-5	evenly	O	O	O	_	_	
+17-6	between	O	O	O	_	_	
+17-7	the	O	O	O	_	_	
+17-8	two	O	O	O	_	_	
+17-9	cake	O	B-ScrPart_cake_tin	B-webanno.custom.Participants_	_	_	
+17-10	pans	O	I-ScrPart_cake_tin|B-ScrPart_cake_tin	I-webanno.custom.Participants_|B-webanno.custom.Participants_	_	_	
+17-11	and	O	O	O	_	_	
+17-12	placed	B-ScrEv_put_cake_oven	O	O	_	_	
+17-13	in	O	O	O	_	_	
+17-14	the	O	O	O	_	_	
+17-15	hot	O	O	O	_	_	
+17-16	oven	O	B-ScrPart_oven	B-webanno.custom.Participants_	_	_	
+17-17	to	O	O	O	_	_	
+17-18	bake	B-ScrEv_wait	O	O	_	_	
+17-19	.	O	O	O	_	_	
+
+#id=18
+#text=After thirty minutes Grandma June poked each cake with a toothpick and it came out with no cake on it .
+18-1	After	O	O	O	_	_	
+18-2	thirty	O	O	O	_	_	
+18-3	minutes	O	B-ScrPart_time	B-webanno.custom.Participants_	_	_	
+18-4	Grandma	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+18-5	June	O	I-ScrPart_cook	I-webanno.custom.Participants_	_	_	
+18-6	poked	B-ScrEv_check	O	O	_	_	
+18-7	each	O	O	O	_	_	
+18-8	cake	O	B-ScrPart_cake	B-webanno.custom.Participants_	_	_	
+18-9	with	O	O	O	_	_	
+18-10	a	O	O	O	_	_	
+18-11	toothpick	O	B-ScrPart_utensil	B-webanno.custom.Participants_	_	_	
+18-12	and	O	O	O	_	_	
+18-13	it	O	B-ScrPart_utensil	B-webanno.custom.Participants_	_	_	
+18-14	came	B-ScrEv_check	O	O	_	_	
+18-15	out	I-ScrEv_check	O	O	_	_	
+18-16	with	O	O	O	_	_	
+18-17	no	O	O	O	_	_	
+18-18	cake	O	B-ScrPart_cake	B-webanno.custom.Participants_	_	_	
+18-19	on	O	O	O	_	_	
+18-20	it	O	B-ScrPart_utensil	B-webanno.custom.Participants_	_	_	
+18-21	.	O	O	O	_	_	
+
+#id=19
+#text=This meant the cakes were done .
+19-1	This	O	O	O	_	_	
+19-2	meant	B-UnrelEv	O	O	_	_	
+19-3	the	O	O	O	_	_	
+19-4	cakes	O	B-ScrPart_cake	B-webanno.custom.Participants_	_	_	
+19-5	were	O	O	O	_	_	
+19-6	done	O	O	O	_	_	
+19-7	.	O	O	O	_	_	
+
+#id=20
+#text=Grandma June carefully flipped the cakes over onto a cooling rack leave the cake there with no pan on it to cool .
+20-1	Grandma	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+20-2	June	O	I-ScrPart_cook	I-webanno.custom.Participants_	_	_	
+20-3	carefully	O	O	O	_	_	
+20-4	flipped	B-ScrEv_take_out_cake_tin	O	O	_	_	
+20-5	the	O	O	O	_	_	
+20-6	cakes	O	B-ScrPart_cake	B-webanno.custom.Participants_	_	_	
+20-7	over	O	O	O	_	_	
+20-8	onto	O	O	O	_	_	
+20-9	a	O	O	O	_	_	
+20-10	cooling	O	B-ScrPart_utensil	B-webanno.custom.Participants_	_	_	
+20-11	rack	O	I-ScrPart_utensil|B-ScrPart_utensil	I-webanno.custom.Participants_|B-webanno.custom.Participants_	_	_	
+20-12	leave	B-ScrEv_cool_down	O	O	_	_	
+20-13	the	O	O	O	_	_	
+20-14	cake	O	B-ScrPart_cake	B-webanno.custom.Participants_	_	_	
+20-15	there	O	O	O	_	_	
+20-16	with	O	O	O	_	_	
+20-17	no	O	O	O	_	_	
+20-18	pan	O	B-ScrPart_cake_tin	B-webanno.custom.Participants_	_	_	
+20-19	on	O	O	O	_	_	
+20-20	it	O	B-ScrPart_cake	B-webanno.custom.Participants_	_	_	
+20-21	to	O	O	O	_	_	
+20-22	cool	B-ScrEv_cool_down	O	O	_	_	
+20-23	.	O	O	O	_	_	
+
+#id=21
+#text=Julia waited for what seemed like a very long time until Grandma June said they were cool .
+21-1	Julia	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+21-2	waited	B-ScrEv_wait	O	O	_	_	
+21-3	for	O	O	O	_	_	
+21-4	what	O	O	O	_	_	
+21-5	seemed	O	O	O	_	_	
+21-6	like	O	O	O	_	_	
+21-7	a	O	O	O	_	_	
+21-8	very	O	O	O	_	_	
+21-9	long	O	O	O	_	_	
+21-10	time	O	B-ScrPart_time	B-webanno.custom.Participants_	_	_	
+21-11	until	O	O	O	_	_	
+21-12	Grandma	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+21-13	June	O	I-ScrPart_cook	I-webanno.custom.Participants_	_	_	
+21-14	said	B-UnrelEv	O	O	_	_	
+21-15	they	O	B-ScrPart_cake	B-webanno.custom.Participants_	_	_	
+21-16	were	O	O	O	_	_	
+21-17	cool	O	O	O	_	_	
+21-18	.	O	O	O	_	_	
+
+#id=22
+#text=She brought out her cake stand and placed one cake on it .
+22-1	She	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+22-2	brought	B-ScrEv_get_utensils	O	O	_	_	
+22-3	out	I-ScrEv_get_utensils	O	O	_	_	
+22-4	her	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+22-5	cake	O	B-ScrPart_utensil	B-webanno.custom.Participants_	_	_	
+22-6	stand	O	I-ScrPart_utensil|B-ScrPart_utensil	I-webanno.custom.Participants_|B-webanno.custom.Participants_	_	_	
+22-7	and	O	O	O	_	_	
+22-8	placed	B-UnrelEv	O	O	_	_	
+22-9	one	O	O	O	_	_	
+22-10	cake	O	B-ScrPart_cake	B-webanno.custom.Participants_	_	_	
+22-11	on	O	O	O	_	_	
+22-12	it	O	B-ScrPart_utensil	B-webanno.custom.Participants_	_	_	
+22-13	.	O	O	O	_	_	
+
+#id=23
+#text=Julia watched as Grandma June frosted the layer lightly then placed the other cake on top .
+23-1	Julia	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+23-2	watched	B-UnrelEv	O	O	_	_	
+23-3	as	O	O	O	_	_	
+23-4	Grandma	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+23-5	June	O	I-ScrPart_cook	I-webanno.custom.Participants_	_	_	
+23-6	frosted	B-ScrEv_decorate	O	O	_	_	
+23-7	the	O	O	O	_	_	
+23-8	layer	O	B-NPart	B-webanno.custom.Participants_	_	_	
+23-9	lightly	O	O	O	_	_	
+23-10	then	O	O	O	_	_	
+23-11	placed	B-ScrEv_decorate	O	O	_	_	
+23-12	the	O	O	O	_	_	
+23-13	other	O	O	O	_	_	
+23-14	cake	O	B-ScrPart_cake	B-webanno.custom.Participants_	_	_	
+23-15	on	O	O	O	_	_	
+23-16	top	O	B-No_label	B-webanno.custom.Participants_	_	_	
+23-17	.	O	O	O	_	_	
+
+#id=24
+#text=She made quick work of frosting both layers of stacked cakes with smooth fluffy white frosting .
+24-1	She	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+24-2	made	B-UnrelEv	O	O	_	_	
+24-3	quick	O	O	O	_	_	
+24-4	work	O	B-SuppVComp	B-webanno.custom.Participants_	_	_	
+24-5	of	O	O	O	_	_	
+24-6	frosting	B-ScrEv_decorate	O	O	_	_	
+24-7	both	O	O	O	_	_	
+24-8	layers	O	B-NPart	B-webanno.custom.Participants_	_	_	
+24-9	of	O	O	O	_	_	
+24-10	stacked	O	O	O	_	_	
+24-11	cakes	O	B-ScrPart_cake	B-webanno.custom.Participants_	_	_	
+24-12	with	O	O	O	_	_	
+24-13	smooth	O	O	O	_	_	
+24-14	fluffy	O	O	O	_	_	
+24-15	white	O	O	O	_	_	
+24-16	frosting	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	_	_	
+24-17	.	O	O	O	_	_	
+
+#id=25
+#text=Then came Julias part .
+25-1	Then	O	O	O	_	_	
+25-2	came	B-UnrelEv	O	O	_	_	
+25-3	Julias	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+25-4	part	O	B-No_label	B-webanno.custom.Participants_	_	_	
+25-5	.	O	O	O	_	_	
+
+#id=26
+#text=She placed the bid number four and five shaped candles next to each other on the cake .
+26-1	She	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+26-2	placed	B-ScrEv_decorate	O	O	_	_	
+26-3	the	O	O	O	_	_	
+26-4	bid	O	O	O	_	_	
+26-5	number	O	O	O	_	_	
+26-6	four	O	O	O	_	_	
+26-7	and	O	O	O	_	_	
+26-8	five	O	O	O	_	_	
+26-9	shaped	O	O	O	_	_	
+26-10	candles	O	B-ScrPart_decoration	B-webanno.custom.Participants_	_	_	
+26-11	next	O	O	O	_	_	
+26-12	to	O	O	O	_	_	
+26-13	each	O	O	O	_	_	
+26-14	other	O	O	O	_	_	
+26-15	on	O	O	O	_	_	
+26-16	the	O	O	O	_	_	
+26-17	cake	O	B-ScrPart_cake	B-webanno.custom.Participants_	_	_	
+26-18	.	O	O	O	_	_	
+
+#id=27
+#text=Julia thought making a cake was lots of work but fun as well .
+27-1	Julia	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+27-2	thought	B-UnrelEv	O	O	_	_	
+27-3	making	B-Evoking	O	O	_	_	
+27-4	a	I-Evoking	O	O	_	_	
+27-5	cake	I-Evoking	B-ScrPart_cake	B-webanno.custom.Participants_	_	_	
+27-6	was	O	O	O	_	_	
+27-7	lots	O	B-Head_of_Partitive	B-webanno.custom.Participants_	_	_	
+27-8	of	O	O	O	_	_	
+27-9	work	O	B-NPart	B-webanno.custom.Participants_	_	_	
+27-10	but	O	O	O	_	_	
+27-11	fun	O	B-NPart	B-webanno.custom.Participants_	_	_	
+27-12	as	O	O	O	_	_	
+27-13	well	O	O	O	_	_	
+27-14	.	O	O	O	_	_	
+
+#id=28
+#text=Especially when she did it with her grandma . 
+28-1	Especially	O	O	O	_	_	
+28-2	when	O	O	O	_	_	
+28-3	she	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+28-4	did	B-UnrelEv	O	O	_	_	
+28-5	it	O	B-No_label	B-webanno.custom.Participants_	_	_	
+28-6	with	O	O	O	_	_	
+28-7	her	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+28-8	grandma	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+28-9	.	O	O	O	_	_	
+

@@ -1,0 +1,332 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=I had just watched a movie , and saw that it had been based on a book .
+1-1	I	B-ScrPart_customer	O	
+1-2	had	O	O	
+1-3	just	O	O	
+1-4	watched	O	B-UnrelEv	
+1-5	a	O	O	
+1-6	movie	B-NPart	O	
+1-7	,	O	O	
+1-8	and	O	O	
+1-9	saw	O	B-UnrelEv	
+1-10	that	O	O	
+1-11	it	B-NPart	O	
+1-12	had	O	O	
+1-13	been	O	O	
+1-14	based	O	B-UnrelEv	
+1-15	on	O	O	
+1-16	a	O	O	
+1-17	book	B-ScrPart_book	O	
+1-18	.	O	O	
+
+#id=2
+#text=Since I liked the movie , I wanted to read the book and went to the library in my neighborhood to see if they had it .
+2-1	Since	O	O	
+2-2	I	B-ScrPart_customer	O	
+2-3	liked	O	B-UnrelEv	
+2-4	the	O	O	
+2-5	movie	B-NPart	O	
+2-6	,	O	O	
+2-7	I	B-ScrPart_customer	O	
+2-8	wanted	O	O	
+2-9	to	O	O	
+2-10	read	O	B-RelNScrEv	
+2-11	the	O	O	
+2-12	book	B-ScrPart_book	O	
+2-13	and	O	O	
+2-14	went	O	B-ScrEv_get_library	
+2-15	to	O	O	
+2-16	the	O	O	
+2-17	library	B-ScrPart_library	O	
+2-18	in	O	O	
+2-19	my	B-ScrPart_customer	O	
+2-20	neighborhood	B-NPart	O	
+2-21	to	O	O	
+2-22	see	O	B-ScrEv_look_for_book	
+2-23	if	O	O	
+2-24	they	B-ScrPart_staff	O	
+2-25	had	O	B-UnrelEv	
+2-26	it	B-ScrPart_book	O	
+2-27	.	O	O	
+
+#id=3
+#text=In the library the books were separated into fiction and non-fiction areas .
+3-1	In	O	O	
+3-2	the	O	O	
+3-3	library	B-ScrPart_library	O	
+3-4	the	O	O	
+3-5	books	B-ScrPart_book	O	
+3-6	were	O	O	
+3-7	separated	O	B-UnrelEv	
+3-8	into	O	O	
+3-9	fiction	B-ScrPart_location_library	O	
+3-10	and	O	O	
+3-11	non-fiction	B-ScrPart_location_library	O	
+3-12	areas	I-ScrPart_location_library|B-ScrPart_location_library	O	
+3-13	.	O	O	
+
+#id=4
+#text=Since the story was about something that happened in real life , it would be in the non-fiction area .
+4-1	Since	O	O	
+4-2	the	O	O	
+4-3	story	B-ScrPart_book	O	
+4-4	was	O	B-UnrelEv	
+4-5	about	O	O	
+4-6	something	B-No_label	O	
+4-7	that	O	O	
+4-8	happened	O	B-UnrelEv	
+4-9	in	O	O	
+4-10	real	O	O	
+4-11	life	B-NPart	O	
+4-12	,	O	O	
+4-13	it	B-ScrPart_book	O	
+4-14	would	O	O	
+4-15	be	O	B-UnrelEv	
+4-16	in	O	O	
+4-17	the	O	O	
+4-18	non-fiction	B-ScrPart_location_library	O	
+4-19	area	I-ScrPart_location_library|B-ScrPart_location_library	O	
+4-20	.	O	O	
+
+#id=5
+#text=If it were a make-believe story , it would have been in the fiction section .
+5-1	If	O	O	
+5-2	it	B-ScrPart_book	O	
+5-3	were	O	B-UnrelEv	
+5-4	a	O	O	
+5-5	make-believe	B-ScrPart_book	O	
+5-6	story	I-ScrPart_book|B-ScrPart_book	O	
+5-7	,	O	O	
+5-8	it	B-ScrPart_book	O	
+5-9	would	O	O	
+5-10	have	O	O	
+5-11	been	O	B-UnrelEv	
+5-12	in	O	O	
+5-13	the	O	O	
+5-14	fiction	B-ScrPart_location_library	O	
+5-15	section	I-ScrPart_location_library|B-ScrPart_location_library	O	
+5-16	.	O	O	
+
+#id=6
+#text=The person who wrote the book had a last name that began with S. I began looking on the shelves for authors with the last name that began with S. All the books were in alphabetical order according to the authors last name .
+6-1	The	O	O	
+6-2	person	B-NPart	O	
+6-3	who	O	O	
+6-4	wrote	O	B-UnrelEv	
+6-5	the	O	O	
+6-6	book	B-ScrPart_book	O	
+6-7	had	O	B-UnrelEv	
+6-8	a	O	O	
+6-9	last	O	O	
+6-10	name	B-NPart	O	
+6-11	that	O	O	
+6-12	began	O	B-UnrelEv	
+6-13	with	O	O	
+6-14	S.	B-No_label	O	
+6-15	I	B-ScrPart_customer	O	
+6-16	began	O	B-UnrelEv	
+6-17	looking	O	B-ScrEv_look_for_book	
+6-18	on	O	O	
+6-19	the	O	O	
+6-20	shelves	B-ScrPart_shelf	O	
+6-21	for	O	O	
+6-22	authors	B-NPart	O	
+6-23	with	O	O	
+6-24	the	O	O	
+6-25	last	O	O	
+6-26	name	B-NPart	O	
+6-27	that	O	O	
+6-28	began	O	B-UnrelEv	
+6-29	with	O	O	
+6-30	S.	B-No_label	O	
+6-31	All	O	O	
+6-32	the	O	O	
+6-33	books	B-ScrPart_book	O	
+6-34	were	O	B-UnrelEv	
+6-35	in	O	O	
+6-36	alphabetical	O	O	
+6-37	order	B-NPart	O	
+6-38	according	O	B-UnrelEv	
+6-39	to	O	O	
+6-40	the	O	O	
+6-41	authors	B-NPart	O	
+6-42	last	O	O	
+6-43	name	B-NPart	O	
+6-44	.	O	O	
+
+#id=7
+#text=I found the book I was looking for and took it off the shelf .
+7-1	I	B-ScrPart_customer	O	
+7-2	found	O	B-RelNScrEv	
+7-3	the	O	O	
+7-4	book	B-ScrPart_book	O	
+7-5	I	B-ScrPart_customer	O	
+7-6	was	O	O	
+7-7	looking	O	B-ScrEv_look_for_book	
+7-8	for	O	O	
+7-9	and	O	O	
+7-10	took	O	B-ScrEv_take_book	
+7-11	it	B-ScrPart_book	O	
+7-12	off	O	O	
+7-13	the	O	O	
+7-14	shelf	B-ScrPart_shelf	O	
+7-15	.	O	O	
+
+#id=8
+#text=I brought it to the desk where the librarian was and gave her the book .
+8-1	I	B-ScrPart_customer	O	
+8-2	brought	O	B-ScrEv_go_check_out	
+8-3	it	B-ScrPart_book	O	
+8-4	to	O	O	
+8-5	the	O	O	
+8-6	desk	B-ScrPart_check-out_desk	O	
+8-7	where	O	O	
+8-8	the	O	O	
+8-9	librarian	B-ScrPart_staff	O	
+8-10	was	O	B-UnrelEv	
+8-11	and	O	O	
+8-12	gave	O	B-RelNScrEv	
+8-13	her	B-ScrPart_staff	O	
+8-14	the	O	O	
+8-15	book	B-ScrPart_book	O	
+8-16	.	O	O	
+
+#id=9
+#text=She asked me for my library card , which gives me permission to borrow books .
+9-1	She	B-ScrPart_staff	O	
+9-2	asked	O	B-RelNScrEv	
+9-3	me	B-ScrPart_customer	O	
+9-4	for	O	O	
+9-5	my	B-ScrPart_customer	O	
+9-6	library	B-ScrPart_library_card	O	
+9-7	card	I-ScrPart_library_card|B-ScrPart_library_card	O	
+9-8	,	O	O	
+9-9	which	O	O	
+9-10	gives	O	B-UnrelEv	
+9-11	me	B-ScrPart_customer	O	
+9-12	permission	B-NPart	O	
+9-13	to	O	O	
+9-14	borrow	O	B-Evoking	
+9-15	books	B-ScrPart_book	I-Evoking	
+9-16	.	O	O	
+
+#id=10
+#text=She entered my information into her computer so she would know who borrowed the book .
+10-1	She	B-ScrPart_staff	O	
+10-2	entered	O	B-RelNScrEv	
+10-3	my	B-ScrPart_customer	O	
+10-4	information	B-NPart	O	
+10-5	into	O	O	
+10-6	her	B-ScrPart_staff	O	
+10-7	computer	B-ScrPart_institutional_devices	O	
+10-8	so	O	O	
+10-9	she	B-ScrPart_staff	O	
+10-10	would	O	O	
+10-11	know	O	B-UnrelEv	
+10-12	who	O	O	
+10-13	borrowed	O	B-Evoking	
+10-14	the	O	I-Evoking	
+10-15	book	B-ScrPart_book	I-Evoking	
+10-16	.	O	O	
+
+#id=11
+#text=She told me the book would be due back in the library in two weeks .
+11-1	She	B-ScrPart_staff	O	
+11-2	told	O	B-RelNScrEv	
+11-3	me	B-ScrPart_customer	O	
+11-4	the	O	O	
+11-5	book	B-ScrPart_book	O	
+11-6	would	O	O	
+11-7	be	O	B-UnrelEv	
+11-8	due	O	O	
+11-9	back	O	O	
+11-10	in	O	O	
+11-11	the	O	O	
+11-12	library	B-ScrPart_library	O	
+11-13	in	O	O	
+11-14	two	O	O	
+11-15	weeks	B-NPart	O	
+11-16	.	O	O	
+
+#id=12
+#text=If I did n't bring it back by then , I would have to pay the library money for every day the book was late .
+12-1	If	O	O	
+12-2	I	B-ScrPart_customer	O	
+12-3	did	O	O	
+12-4	n't	O	O	
+12-5	bring	O	B-RelNScrEv	
+12-6	it	B-ScrPart_book	O	
+12-7	back	O	O	
+12-8	by	O	O	
+12-9	then	B-ScrPart_return_date	O	
+12-10	,	O	O	
+12-11	I	B-ScrPart_customer	O	
+12-12	would	O	O	
+12-13	have	O	O	
+12-14	to	O	O	
+12-15	pay	O	B-UnrelEv	
+12-16	the	O	O	
+12-17	library	B-ScrPart_library	O	
+12-18	money	B-NPart	O	
+12-19	for	O	O	
+12-20	every	O	O	
+12-21	day	B-NPart	O	
+12-22	the	O	O	
+12-23	book	B-ScrPart_book	O	
+12-24	was	O	B-UnrelEv	
+12-25	late	O	O	
+12-26	.	O	O	
+
+#id=13
+#text=I did n't want to have any late fees , so I made sure I brought it back on time .
+13-1	I	B-ScrPart_customer	O	
+13-2	did	O	O	
+13-3	n't	O	O	
+13-4	want	O	O	
+13-5	to	O	O	
+13-6	have	O	B-UnrelEv	
+13-7	any	O	O	
+13-8	late	O	O	
+13-9	fees	B-NPart	O	
+13-10	,	O	O	
+13-11	so	O	O	
+13-12	I	B-ScrPart_customer	O	
+13-13	made	O	O	
+13-14	sure	O	O	
+13-15	I	B-ScrPart_customer	O	
+13-16	brought	O	B-RelNScrEv	
+13-17	it	B-ScrPart_book	O	
+13-18	back	O	O	
+13-19	on	O	O	
+13-20	time	B-No_label	O	
+13-21	.	O	O	
+
+#id=14
+#text=Since the book belonged to the library , I took good care of it so others could enjoy the book when they borrowed it . 
+14-1	Since	O	O	
+14-2	the	O	O	
+14-3	book	B-ScrPart_book	O	
+14-4	belonged	O	B-UnrelEv	
+14-5	to	O	O	
+14-6	the	O	O	
+14-7	library	B-ScrPart_library	O	
+14-8	,	O	O	
+14-9	I	B-ScrPart_customer	O	
+14-10	took	O	B-UnrelEv	
+14-11	good	O	O	
+14-12	care	B-SuppVComp	O	
+14-13	of	O	O	
+14-14	it	B-ScrPart_book	O	
+14-15	so	O	O	
+14-16	others	B-ScrPart_customer	O	
+14-17	could	O	O	
+14-18	enjoy	O	B-UnrelEv	
+14-19	the	O	O	
+14-20	book	B-ScrPart_book	O	
+14-21	when	O	O	
+14-22	they	B-ScrPart_customer	O	
+14-23	borrowed	O	B-Evoking	
+14-24	it	B-ScrPart_book	I-Evoking	
+14-25	.	O	O	
+

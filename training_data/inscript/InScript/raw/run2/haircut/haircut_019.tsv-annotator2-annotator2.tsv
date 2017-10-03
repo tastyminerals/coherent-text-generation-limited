@@ -1,0 +1,192 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=It had been a while since I had gotten a hair cut and decided it was time .
+1-1	It	B-No_label	O	
+1-2	had	O	O	
+1-3	been	O	B-UnrelEv	
+1-4	a	O	O	
+1-5	while	B-No_label	O	
+1-6	since	O	O	
+1-7	I	B-ScrPart_customer	O	
+1-8	had	O	O	
+1-9	gotten	O	B-Evoking	
+1-10	a	O	I-Evoking	
+1-11	hair	B-ScrPart_haircut	I-Evoking	
+1-12	cut	I-ScrPart_haircut	I-Evoking	
+1-13	and	O	O	
+1-14	decided	O	B-UnrelEv	
+1-15	it	B-No_label	O	
+1-16	was	O	B-UnrelEv	
+1-17	time	B-No_label	O	
+1-18	.	O	O	
+
+#id=2
+#text=I found the number of the salon in the phone book and called to make an appointment .
+2-1	I	B-ScrPart_customer	O	
+2-2	found	O	B-RelNScrEv	
+2-3	the	O	O	
+2-4	number	B-NPart	O	
+2-5	of	O	O	
+2-6	the	O	O	
+2-7	salon	B-ScrPart_salon	O	
+2-8	in	O	O	
+2-9	the	O	O	
+2-10	phone	B-NPart	O	
+2-11	book	I-NPart|B-NPart	O	
+2-12	and	O	O	
+2-13	called	O	B-ScrEv_make_appointment	
+2-14	to	O	O	
+2-15	make	O	B-ScrEv_make_appointment	
+2-16	an	O	O	
+2-17	appointment	B-ScrPart_appointment	O	
+2-18	.	O	O	
+
+#id=3
+#text=Then I drove to the salon .
+3-1	Then	O	O	
+3-2	I	B-ScrPart_customer	O	
+3-3	drove	O	B-ScrEv_get_salon	
+3-4	to	O	O	
+3-5	the	O	O	
+3-6	salon	B-ScrPart_salon	O	
+3-7	.	O	O	
+
+#id=4
+#text=My favorite stylist was there and she greeted me and had me sit down in a chair that was in her booth .
+4-1	My	B-ScrPart_customer	O	
+4-2	favorite	O	O	
+4-3	stylist	B-ScrPart_hairdresser	O	
+4-4	was	O	B-UnrelEv	
+4-5	there	B-ScrPart_salon	O	
+4-6	and	O	O	
+4-7	she	B-ScrPart_hairdresser	O	
+4-8	greeted	O	B-RelNScrEv	
+4-9	me	B-ScrPart_customer	O	
+4-10	and	O	O	
+4-11	had	O	O	
+4-12	me	B-ScrPart_customer	O	
+4-13	sit	O	B-ScrEv_sit_down	
+4-14	down	O	I-ScrEv_sit_down	
+4-15	in	O	O	
+4-16	a	O	O	
+4-17	chair	B-ScrPart_chair	O	
+4-18	that	O	O	
+4-19	was	O	B-UnrelEv	
+4-20	in	O	O	
+4-21	her	B-ScrPart_hairdresser	O	
+4-22	booth	B-ScrPart_location_salon	O	
+4-23	.	O	O	
+
+#id=5
+#text=She wrapped a plastic protector over me and bent the chair back .
+5-1	She	B-ScrPart_hairdresser	O	
+5-2	wrapped	O	B-ScrEv_put_on_cape	
+5-3	a	O	O	
+5-4	plastic	B-ScrPart_cape	O	
+5-5	protector	I-ScrPart_cape|B-ScrPart_cape	O	
+5-6	over	O	O	
+5-7	me	B-ScrPart_customer	O	
+5-8	and	O	O	
+5-9	bent	O	B-RelNScrEv	
+5-10	the	O	O	
+5-11	chair	B-ScrPart_chair	O	
+5-12	back	O	O	
+5-13	.	O	O	
+
+#id=6
+#text=Then she shampooed my hair .
+6-1	Then	O	O	
+6-2	she	B-ScrPart_hairdresser	O	
+6-3	shampooed	O	B-ScrEv_wash	
+6-4	my	B-ScrPart_customer	O	
+6-5	hair	B-ScrPart_hair	O	
+6-6	.	O	O	
+
+#id=7
+#text=Then she combed my hair to get it ready to be cut .
+7-1	Then	O	O	
+7-2	she	B-ScrPart_hairdresser	O	
+7-3	combed	O	B-ScrEv_comb	
+7-4	my	B-ScrPart_customer	O	
+7-5	hair	B-ScrPart_hair	O	
+7-6	to	O	O	
+7-7	get	O	B-UnrelEv	
+7-8	it	B-ScrPart_hair	O	
+7-9	ready	O	O	
+7-10	to	O	O	
+7-11	be	O	O	
+7-12	cut	O	B-ScrEv_cut	
+7-13	.	O	O	
+
+#id=8
+#text=Then she started cutting my hair with a special pair of scissors .
+8-1	Then	O	O	
+8-2	she	B-ScrPart_hairdresser	O	
+8-3	started	O	B-UnrelEv	
+8-4	cutting	O	B-ScrEv_cut	
+8-5	my	B-ScrPart_customer	O	
+8-6	hair	B-ScrPart_hair	O	
+8-7	with	O	O	
+8-8	a	O	O	
+8-9	special	O	O	
+8-10	pair	B-NPart	O	
+8-11	of	O	O	
+8-12	scissors	B-ScrPart_scissors	O	
+8-13	.	O	O	
+
+#id=9
+#text=She took her time about cutting my hair .
+9-1	She	B-ScrPart_hairdresser	O	
+9-2	took	O	B-UnrelEv	
+9-3	her	B-ScrPart_hairdresser	O	
+9-4	time	B-SuppVComp	O	
+9-5	about	O	O	
+9-6	cutting	O	B-ScrEv_cut	
+9-7	my	B-ScrPart_customer	O	
+9-8	hair	B-ScrPart_hair	O	
+9-9	.	O	O	
+
+#id=10
+#text=When she was all done she grabbed a hair dryer and dried it .
+10-1	When	O	O	
+10-2	she	B-ScrPart_hairdresser	O	
+10-3	was	O	B-UnrelEv	
+10-4	all	O	O	
+10-5	done	O	O	
+10-6	she	B-ScrPart_hairdresser	O	
+10-7	grabbed	O	B-RelNScrEv	
+10-8	a	O	O	
+10-9	hair	B-ScrPart_hairdryer	O	
+10-10	dryer	I-ScrPart_hairdryer|B-ScrPart_hairdryer	O	
+10-11	and	O	O	
+10-12	dried	O	B-ScrEv_dry	
+10-13	it	B-ScrPart_hair	O	
+10-14	.	O	O	
+
+#id=11
+#text=I thanked her and went to the counter to pay .
+11-1	I	B-ScrPart_customer	O	
+11-2	thanked	O	B-RelNScrEv	
+11-3	her	B-ScrPart_hairdresser	O	
+11-4	and	O	O	
+11-5	went	O	B-UnrelEv	
+11-6	to	O	O	
+11-7	the	O	O	
+11-8	counter	B-ScrPart_check_in_desk	O	
+11-9	to	O	O	
+11-10	pay	O	B-ScrEv_pay	
+11-11	.	O	O	
+
+#id=12
+#text=I paid , left the shop and drove home . 
+12-1	I	B-ScrPart_customer	O	
+12-2	paid	O	B-ScrEv_pay	
+12-3	,	O	O	
+12-4	left	O	B-ScrEv_leave	
+12-5	the	O	O	
+12-6	shop	B-ScrPart_salon	O	
+12-7	and	O	O	
+12-8	drove	O	B-ScrEv_leave	
+12-9	home	B-NPart	O	
+12-10	.	O	O	
+

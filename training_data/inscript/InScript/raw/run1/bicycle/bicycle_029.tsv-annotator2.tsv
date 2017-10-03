@@ -1,0 +1,197 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=It 's a major bummer when you are excited to ride your bike only to find that you have somehow ended up with a flat tire .
+1-1	It	O	O	_	_	
+1-2	's	B-UnrelEv	O	_	_	
+1-3	a	O	O	_	_	
+1-4	major	O	O	_	_	
+1-5	bummer	O	O	_	_	
+1-6	when	O	O	_	_	
+1-7	you	O	B-ScrPart_rider	_	_	
+1-8	are	B-UnrelEv	O	_	_	
+1-9	excited	O	O	_	_	
+1-10	to	O	O	_	_	
+1-11	ride	B-ScrEv_ride_bike	O	_	_	
+1-12	your	O	B-ScrPart_rider	webanno.custom.Corefchains_	1-7	
+1-13	bike	O	B-ScrPart_bicycle	_	_	
+1-14	only	O	O	_	_	
+1-15	to	O	O	_	_	
+1-16	find	B-ScrEv_notice_problem	O	_	_	
+1-17	that	O	O	_	_	
+1-18	you	O	B-ScrPart_rider	webanno.custom.Corefchains_	1-12	
+1-19	have	O	O	_	_	
+1-20	somehow	O	O	_	_	
+1-21	ended	B-UnrelEv	O	_	_	
+1-22	up	I-UnrelEv	O	_	_	
+1-23	with	O	O	_	_	
+1-24	a	O	O	_	_	
+1-25	flat	O	O	_	_	
+1-26	tire	O	B-ScrPart_tire	_	_	
+1-27	.	O	O	_	_	
+
+#id=2
+#text=I try to keep a repair kit on hand for just such an opportunity .
+2-1	I	O	B-ScrPart_rider	webanno.custom.Corefchains_	1-18	
+2-2	try	O	O	_	_	
+2-3	to	O	O	_	_	
+2-4	keep	B-UnrelEv	O	_	_	
+2-5	a	O	O	_	_	
+2-6	repair	O	B-ScrPart_tool	_	_	
+2-7	kit	O	I-ScrPart_tool|B-ScrPart_tool	_	_	
+2-8	on	O	O	_	_	
+2-9	hand	O	O	_	_	
+2-10	for	O	O	_	_	
+2-11	just	O	O	_	_	
+2-12	such	O	O	_	_	
+2-13	an	O	O	_	_	
+2-14	opportunity	O	O	_	_	
+2-15	.	O	O	_	_	
+
+#id=3
+#text=The first thing I do is determine what is the cause of the flat .
+3-1	The	O	O	_	_	
+3-2	first	O	O	_	_	
+3-3	thing	O	O	_	_	
+3-4	I	O	B-ScrPart_rider	webanno.custom.Corefchains_	2-1	
+3-5	do	B-UnrelEv	O	_	_	
+3-6	is	B-UnrelEv	O	_	_	
+3-7	determine	B-ScrEv_examine_tire	O	_	_	
+3-8	what	O	O	_	_	
+3-9	is	B-UnrelEv	O	_	_	
+3-10	the	O	O	_	_	
+3-11	cause	O	O	_	_	
+3-12	of	O	O	_	_	
+3-13	the	O	O	_	_	
+3-14	flat	O	B-ScrPart_tire	webanno.custom.Corefchains_	1-26	
+3-15	.	O	O	_	_	
+
+#id=4
+#text=Perhaps the tire has been punctured , or perhaps it is an older tire and the seal is failing .
+4-1	Perhaps	O	O	_	_	
+4-2	the	O	O	_	_	
+4-3	tire	O	B-ScrPart_tire	webanno.custom.Corefchains_	3-14	
+4-4	has	O	O	_	_	
+4-5	been	O	O	_	_	
+4-6	punctured	B-RelNScrEv	O	_	_	
+4-7	,	O	O	_	_	
+4-8	or	O	O	_	_	
+4-9	perhaps	O	O	_	_	
+4-10	it	O	B-ScrPart_tire	webanno.custom.Corefchains_	4-3	
+4-11	is	B-UnrelEv	O	_	_	
+4-12	an	O	O	_	_	
+4-13	older	O	O	_	_	
+4-14	tire	O	B-ScrPart_tire	webanno.custom.Corefchains_	4-10	
+4-15	and	O	O	_	_	
+4-16	the	O	O	_	_	
+4-17	seal	O	B-ScrPart_bicycle_small_detail	_	_	
+4-18	is	O	O	_	_	
+4-19	failing	B-RelNScrEv	O	_	_	
+4-20	.	O	O	_	_	
+
+#id=5
+#text=If it is a puncture , I would do my best to seal the hole with my available materials and then allow the sealant to dry for as long as is required .
+5-1	If	O	O	_	_	
+5-2	it	O	O	_	_	
+5-3	is	B-UnrelEv	O	_	_	
+5-4	a	O	O	_	_	
+5-5	puncture	O	B-ScrPart_object_damage	_	_	
+5-6	,	O	O	_	_	
+5-7	I	O	B-ScrPart_rider	webanno.custom.Corefchains_	3-4	
+5-8	would	O	O	_	_	
+5-9	do	B-UnrelEv	O	_	_	
+5-10	my	O	B-ScrPart_rider	webanno.custom.Corefchains_	5-7	
+5-11	best	O	O	_	_	
+5-12	to	O	O	_	_	
+5-13	seal	B-ScrEv_put_patch/seal	O	_	_	
+5-14	the	O	O	_	_	
+5-15	hole	O	B-ScrPart_object_damage	webanno.custom.Corefchains_	5-5	
+5-16	with	O	O	_	_	
+5-17	my	O	B-ScrPart_rider	webanno.custom.Corefchains_	5-10	
+5-18	available	O	O	_	_	
+5-19	materials	O	B-ScrPart_tool	_	_	
+5-20	and	O	O	_	_	
+5-21	then	O	O	_	_	
+5-22	allow	B-UnrelEv	O	_	_	
+5-23	the	O	O	_	_	
+5-24	sealant	O	B-ScrPart_patch	_	_	
+5-25	to	O	O	_	_	
+5-26	dry	B-RelNScrEv	O	_	_	
+5-27	for	O	O	_	_	
+5-28	as	O	O	_	_	
+5-29	long	O	O	_	_	
+5-30	as	O	O	_	_	
+5-31	is	B-UnrelEv	O	_	_	
+5-32	required	B-UnrelEv	O	_	_	
+5-33	.	O	O	_	_	
+
+#id=6
+#text=I have my tire pump on hand , so when the tire is ready I can slowly pump air while also watching to see if I am losing air .
+6-1	I	O	B-ScrPart_rider	webanno.custom.Corefchains_	5-17	
+6-2	have	B-UnrelEv	O	_	_	
+6-3	my	O	B-ScrPart_rider	webanno.custom.Corefchains_	6-1	
+6-4	tire	O	B-ScrPart_tool	_	_	
+6-5	pump	O	I-ScrPart_tool|B-ScrPart_tool	_	_	
+6-6	on	O	O	_	_	
+6-7	hand	O	O	_	_	
+6-8	,	O	O	_	_	
+6-9	so	O	O	_	_	
+6-10	when	O	O	_	_	
+6-11	the	O	O	_	_	
+6-12	tire	O	B-ScrPart_tire	webanno.custom.Corefchains_	4-14	
+6-13	is	B-UnrelEv	O	_	_	
+6-14	ready	O	O	_	_	
+6-15	I	O	B-ScrPart_rider	webanno.custom.Corefchains_	6-3	
+6-16	can	O	O	_	_	
+6-17	slowly	O	O	_	_	
+6-18	pump	B-ScrEv_refill_tire_air	O	_	_	
+6-19	air	O	B-ScrPart_air	_	_	
+6-20	while	O	O	_	_	
+6-21	also	O	O	_	_	
+6-22	watching	B-ScrEv_check_new_tire	O	_	_	
+6-23	to	O	O	_	_	
+6-24	see	B-ScrEv_check_new_tire	O	_	_	
+6-25	if	O	O	_	_	
+6-26	I	O	B-ScrPart_rider	webanno.custom.Corefchains_	6-15	
+6-27	am	O	O	_	_	
+6-28	losing	B-UnrelEv	O	_	_	
+6-29	air	O	B-ScrPart_air	webanno.custom.Corefchains_	6-19	
+6-30	.	O	O	_	_	
+
+#id=7
+#text=If the seal holds , my bike is good to go .
+7-1	If	O	O	_	_	
+7-2	the	O	O	_	_	
+7-3	seal	O	B-ScrPart_bicycle_small_detail	webanno.custom.Corefchains_	4-17	
+7-4	holds	B-UnrelEv	O	_	_	
+7-5	,	O	O	_	_	
+7-6	my	O	B-ScrPart_rider	webanno.custom.Corefchains_	6-26	
+7-7	bike	O	B-ScrPart_bicycle	webanno.custom.Corefchains_	1-13	
+7-8	is	B-UnrelEv	O	_	_	
+7-9	good	O	O	_	_	
+7-10	to	O	O	_	_	
+7-11	go	B-UnrelEv	O	_	_	
+7-12	.	O	O	_	_	
+
+#id=8
+#text=If I still feel or see a leak , I know there is a bigger issue to contend with . 
+8-1	If	O	O	_	_	
+8-2	I	O	B-ScrPart_rider	webanno.custom.Corefchains_	7-6	
+8-3	still	O	O	_	_	
+8-4	feel	B-ScrEv_check_new_tire	O	_	_	
+8-5	or	O	O	_	_	
+8-6	see	B-ScrEv_check_new_tire	O	_	_	
+8-7	a	O	O	_	_	
+8-8	leak	O	B-ScrPart_object_damage	webanno.custom.Corefchains_	5-15	
+8-9	,	O	O	_	_	
+8-10	I	O	B-ScrPart_rider	webanno.custom.Corefchains_	8-2	
+8-11	know	B-UnrelEv	O	_	_	
+8-12	there	O	O	_	_	
+8-13	is	B-UnrelEv	O	_	_	
+8-14	a	O	O	_	_	
+8-15	bigger	O	O	_	_	
+8-16	issue	O	O	_	_	
+8-17	to	O	O	_	_	
+8-18	contend	B-UnrelEv	O	_	_	
+8-19	with	O	O	_	_	
+8-20	.	O	O	_	_	
+

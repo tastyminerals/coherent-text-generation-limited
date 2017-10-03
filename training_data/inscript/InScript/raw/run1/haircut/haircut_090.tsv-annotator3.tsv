@@ -1,0 +1,230 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I have the luxury of having a hairdresser for a mother , but if you were interested in getting a haircut you are in luck as it is quite a simple process !
+1-1	I	O	O	_	_	
+1-2	have	B-UnrelEv	O	_	_	
+1-3	the	O	O	_	_	
+1-4	luxury	O	O	_	_	
+1-5	of	O	O	_	_	
+1-6	having	B-UnrelEv	O	_	_	
+1-7	a	O	O	_	_	
+1-8	hairdresser	O	B-ScrPart_hairdresser	_	_	
+1-9	for	O	O	_	_	
+1-10	a	O	O	_	_	
+1-11	mother	O	B-ScrPart_hairdresser	webanno.custom.Corefchains_	1-8	
+1-12	,	O	O	_	_	
+1-13	but	O	O	_	_	
+1-14	if	O	O	_	_	
+1-15	you	O	B-ScrPart_customer	_	_	
+1-16	were	B-UnrelEv	O	_	_	
+1-17	interested	B-UnrelEv	O	_	_	
+1-18	in	O	O	_	_	
+1-19	getting	B-Evoking	O	_	_	
+1-20	a	I-Evoking	O	_	_	
+1-21	haircut	I-Evoking	B-MissScrPart	_	_	
+1-22	you	O	B-ScrPart_customer	webanno.custom.Corefchains_	1-15	
+1-23	are	B-UnrelEv	O	_	_	
+1-24	in	O	O	_	_	
+1-25	luck	O	O	_	_	
+1-26	as	O	O	_	_	
+1-27	it	O	O	_	_	
+1-28	is	B-UnrelEv	O	_	_	
+1-29	quite	O	O	_	_	
+1-30	a	O	O	_	_	
+1-31	simple	O	O	_	_	
+1-32	process	O	O	_	_	
+1-33	!	O	O	_	_	
+
+#id=2
+#text=If you have short hair like me feel free to frequent a local chain establishment as they do just as good of a job as the luxury salons .
+2-1	If	O	O	_	_	
+2-2	you	O	B-ScrPart_customer	webanno.custom.Corefchains_	1-22	
+2-3	have	B-UnrelEv	O	_	_	
+2-4	short	O	O	_	_	
+2-5	hair	O	B-ScrPart_hair	_	_	
+2-6	like	O	O	_	_	
+2-7	me	O	O	_	_	
+2-8	feel	B-UnrelEv	O	_	_	
+2-9	free	O	O	_	_	
+2-10	to	O	O	_	_	
+2-11	frequent	B-ScrEv_get_salon	O	_	_	
+2-12	a	O	O	_	_	
+2-13	local	O	O	_	_	
+2-14	chain	O	B-ScrPart_salon	_	_	
+2-15	establishment	O	I-ScrPart_salon|B-ScrPart_salon	_	_	
+2-16	as	O	O	_	_	
+2-17	they	O	B-ScrPart_salon	webanno.custom.Corefchains_	2-15	
+2-18	do	B-RelNScrEv	O	_	_	
+2-19	just	O	O	_	_	
+2-20	as	O	O	_	_	
+2-21	good	O	O	_	_	
+2-22	of	O	O	_	_	
+2-23	a	O	O	_	_	
+2-24	job	O	B-SuppVComp	_	_	
+2-25	as	O	O	_	_	
+2-26	the	O	O	_	_	
+2-27	luxury	O	B-ScrPart_salon	_	_	
+2-28	salons	O	I-ScrPart_salon|B-ScrPart_salon	_	_	
+2-29	.	O	O	_	_	
+
+#id=3
+#text=A place like Cost Cutter or Supercuts will work just fine .
+3-1	A	O	O	_	_	
+3-2	place	O	B-ScrPart_salon	webanno.custom.Corefchains_	2-17	
+3-3	like	O	O	_	_	
+3-4	Cost	O	B-ScrPart_salon|B-ScrPart_salon	webanno.custom.Corefchains_	3-2	
+3-5	Cutter	O	I-ScrPart_salon|I-ScrPart_salon	webanno.custom.Corefchains_	3-2	
+3-6	or	O	I-ScrPart_salon	webanno.custom.Corefchains_	3-2	
+3-7	Supercuts	O	I-ScrPart_salon|B-ScrPart_salon	webanno.custom.Corefchains_	3-2	
+3-8	will	O	O	_	_	
+3-9	work	B-UnrelEv	O	_	_	
+3-10	just	O	O	_	_	
+3-11	fine	O	O	_	_	
+3-12	.	O	O	_	_	
+
+#id=4
+#text=Generally you can show up without any announcement and will only have to wait for a short period of time .
+4-1	Generally	O	O	_	_	
+4-2	you	O	B-ScrPart_customer	webanno.custom.Corefchains_	2-2	
+4-3	can	O	O	_	_	
+4-4	show	B-RelNScrEv|B-RelNScrEv	O	_	_	
+4-5	up	I-RelNScrEv	O	_	_	
+4-6	without	O	O	_	_	
+4-7	any	O	O	_	_	
+4-8	announcement	O	B-ScrPart_appointment	_	_	
+4-9	and	O	O	_	_	
+4-10	will	O	O	_	_	
+4-11	only	O	O	_	_	
+4-12	have	O	O	_	_	
+4-13	to	O	O	_	_	
+4-14	wait	B-ScrEv_wait	O	_	_	
+4-15	for	O	O	_	_	
+4-16	a	O	O	_	_	
+4-17	short	O	O	_	_	
+4-18	period	O	O	_	_	
+4-19	of	O	O	_	_	
+4-20	time	O	B-ScrPart_time/date	_	_	
+4-21	.	O	O	_	_	
+
+#id=5
+#text=Make sure to sign in when you get there .
+5-1	Make	B-UnrelEv|B-UnrelEv	O	_	_	
+5-2	sure	I-UnrelEv	O	_	_	
+5-3	to	O	O	_	_	
+5-4	sign	B-ScrEv_check_in|B-ScrEv_check_in	O	_	_	
+5-5	in	I-ScrEv_check_in	O	_	_	
+5-6	when	O	O	_	_	
+5-7	you	O	B-ScrPart_customer	webanno.custom.Corefchains_	4-2	
+5-8	get	O	O	_	_	
+5-9	there	O	B-ScrPart_salon	_	_	
+5-10	.	O	O	_	_	
+
+#id=6
+#text=Once you are called up sit in the chair and explain the details of your haircut to your hair dresser .
+6-1	Once	O	O	_	_	
+6-2	you	O	B-ScrPart_customer	webanno.custom.Corefchains_	5-7	
+6-3	are	O	O	_	_	
+6-4	called	B-MissScrEv|B-MissScrEv	O	_	_	
+6-5	up	I-MissScrEv	O	_	_	
+6-6	sit	B-ScrEv_sit_down	O	_	_	
+6-7	in	O	O	_	_	
+6-8	the	O	O	_	_	
+6-9	chair	O	B-ScrPart_chair	_	_	
+6-10	and	O	O	_	_	
+6-11	explain	B-ScrEv_talk_haircut	O	_	_	
+6-12	the	O	O	_	_	
+6-13	details	O	O	_	_	
+6-14	of	O	O	_	_	
+6-15	your	O	B-ScrPart_customer	webanno.custom.Corefchains_	6-2	
+6-16	haircut	O	B-MissScrPart	webanno.custom.Corefchains_	1-21	
+6-17	to	O	O	_	_	
+6-18	your	O	B-ScrPart_customer	webanno.custom.Corefchains_	6-15	
+6-19	hair	O	B-ScrPart_hairdresser	_	_	
+6-20	dresser	O	I-ScrPart_hairdresser|B-ScrPart_hairdresser	_	_	
+6-21	.	O	O	_	_	
+
+#id=7
+#text=Sometimes it helps if you bring a picture along with you .
+7-1	Sometimes	O	O	_	_	
+7-2	it	O	O	_	_	
+7-3	helps	B-UnrelEv	O	_	_	
+7-4	if	O	O	_	_	
+7-5	you	O	B-ScrPart_customer	webanno.custom.Corefchains_	6-18	
+7-6	bring	B-RelNScrEv	O	_	_	
+7-7	a	O	O	_	_	
+7-8	picture	O	B-MissScrPart	_	_	
+7-9	along	O	O	_	_	
+7-10	with	O	O	_	_	
+7-11	you	O	B-ScrPart_customer	webanno.custom.Corefchains_	7-5	
+7-12	.	O	O	_	_	
+
+#id=8
+#text=The haircut should be relatively quick if you have short hair , and then all you need to do is pay .
+8-1	The	O	O	_	_	
+8-2	haircut	O	B-MissScrPart	webanno.custom.Corefchains_	6-16	
+8-3	should	B-UnrelEv	O	_	_	
+8-4	be	B-UnrelEv	O	_	_	
+8-5	relatively	O	O	_	_	
+8-6	quick	O	O	_	_	
+8-7	if	O	O	_	_	
+8-8	you	O	B-ScrPart_customer	webanno.custom.Corefchains_	7-11	
+8-9	have	B-UnrelEv	O	_	_	
+8-10	short	O	O	_	_	
+8-11	hair	O	B-ScrPart_hair	webanno.custom.Corefchains_	2-5	
+8-12	,	O	O	_	_	
+8-13	and	O	O	_	_	
+8-14	then	O	O	_	_	
+8-15	all	O	O	_	_	
+8-16	you	O	B-ScrPart_customer	webanno.custom.Corefchains_	8-8	
+8-17	need	O	O	_	_	
+8-18	to	O	O	_	_	
+8-19	do	B-UnrelEv	O	_	_	
+8-20	is	O	O	_	_	
+8-21	pay	B-ScrEv_pay	O	_	_	
+8-22	.	O	O	_	_	
+
+#id=9
+#text=It is suggested that you tip the hair dresser for your haircut .
+9-1	It	O	O	_	_	
+9-2	is	O	O	_	_	
+9-3	suggested	B-UnrelEv	O	_	_	
+9-4	that	O	O	_	_	
+9-5	you	O	B-ScrPart_customer	_	_	
+9-6	tip	B-ScrEv_leave_tip	O	_	_	
+9-7	the	O	O	_	_	
+9-8	hair	O	B-ScrPart_hairdresser	_	_	
+9-9	dresser	O	I-ScrPart_hairdresser|B-ScrPart_hairdresser	_	_	
+9-10	for	O	O	_	_	
+9-11	your	O	B-ScrPart_customer	webanno.custom.Corefchains_|webanno.custom.Corefchains_	8-16|9-5	
+9-12	haircut	O	B-MissScrPart	webanno.custom.Corefchains_	8-2	
+9-13	.	O	O	_	_	
+
+#id=10
+#text=After this is done make sure to go to a public setting or over a friends house to see if they notice the new do ! 
+10-1	After	O	O	_	_	
+10-2	this	O	O	_	_	
+10-3	is	O	O	_	_	
+10-4	done	B-UnrelEv	O	_	_	
+10-5	make	B-UnrelEv|B-UnrelEv	O	_	_	
+10-6	sure	I-UnrelEv	O	_	_	
+10-7	to	O	O	_	_	
+10-8	go	B-UnrelEv	O	_	_	
+10-9	to	O	O	_	_	
+10-10	a	O	O	_	_	
+10-11	public	O	O	_	_	
+10-12	setting	O	O	_	_	
+10-13	or	O	O	_	_	
+10-14	over	O	O	_	_	
+10-15	a	O	O	_	_	
+10-16	friends	O	O	_	_	
+10-17	house	O	O	_	_	
+10-18	to	O	O	_	_	
+10-19	see	B-UnrelEv	O	_	_	
+10-20	if	O	O	_	_	
+10-21	they	O	O	_	_	
+10-22	notice	B-UnrelEv	O	_	_	
+10-23	the	O	O	_	_	
+10-24	new	O	O	_	_	
+10-25	do	O	B-MissScrPart	webanno.custom.Corefchains_	9-12	
+10-26	!	O	O	_	_	
+

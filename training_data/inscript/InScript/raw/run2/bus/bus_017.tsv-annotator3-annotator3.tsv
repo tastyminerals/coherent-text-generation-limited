@@ -1,0 +1,389 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Event | Events
+#id=1
+#text=This past weekend I rode a public bus .
+1-1	This	O	O	O	
+1-2	past	O	O	O	
+1-3	weekend	B-ScrPart_time/date	O	O	
+1-4	I	B-ScrPart_passenger	O	O	
+1-5	rode	O	B-webanno.custom.Events_	B-Evoking	
+1-6	a	O	I-webanno.custom.Events_	I-Evoking	
+1-7	public	O	I-webanno.custom.Events_	I-Evoking	
+1-8	bus	B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	
+1-9	.	O	O	O	
+
+#id=2
+#text=I was in a busy city and needed to get to a tour bus .
+2-1	I	B-ScrPart_passenger	O	O	
+2-2	was	O	B-webanno.custom.Events_	B-UnrelEv	
+2-3	in	O	O	O	
+2-4	a	O	O	O	
+2-5	busy	O	O	O	
+2-6	city	B-NPart	O	O	
+2-7	and	O	O	O	
+2-8	needed	O	O	O	
+2-9	to	O	O	O	
+2-10	get	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-RelNScrEv|B-RelNScrEv	
+2-11	to	O	I-webanno.custom.Events_	I-RelNScrEv	
+2-12	a	O	O	O	
+2-13	tour	B-ScrPart_destination	O	O	
+2-14	bus	I-ScrPart_destination|B-ScrPart_destination	O	O	
+2-15	.	O	O	O	
+
+#id=3
+#text=After getting of the train system I was directed to the city bus .
+3-1	After	O	O	O	
+3-2	getting	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-UnrelEv|B-UnrelEv	
+3-3	of	O	I-webanno.custom.Events_	I-UnrelEv	
+3-4	the	O	O	O	
+3-5	train	B-NPart	O	O	
+3-6	system	I-NPart|B-NPart	O	O	
+3-7	I	B-ScrPart_passenger	O	O	
+3-8	was	O	O	O	
+3-9	directed	O	B-webanno.custom.Events_	B-ScrEv_get_bus_stop	
+3-10	to	O	O	O	
+3-11	the	O	O	O	
+3-12	city	B-ScrPart_bus	O	O	
+3-13	bus	I-ScrPart_bus|B-ScrPart_bus	O	O	
+3-14	.	O	O	O	
+
+#id=4
+#text=I noticed a section of the block where a lot of people were standing around and the bus would stop in this area to put up passengers .
+4-1	I	B-ScrPart_passenger	O	O	
+4-2	noticed	O	B-webanno.custom.Events_	B-UnrelEv	
+4-3	a	O	O	O	
+4-4	section	B-NPart	O	O	
+4-5	of	O	O	O	
+4-6	the	O	O	O	
+4-7	block	B-NPart	O	O	
+4-8	where	O	O	O	
+4-9	a	O	O	O	
+4-10	lot	B-No_label	O	O	
+4-11	of	O	O	O	
+4-12	people	B-ScrPart_passenger	O	O	
+4-13	were	O	O	O	
+4-14	standing	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-RelNScrEv|B-RelNScrEv	
+4-15	around	O	I-webanno.custom.Events_	I-RelNScrEv	
+4-16	and	O	O	O	
+4-17	the	O	O	O	
+4-18	bus	B-ScrPart_bus	O	O	
+4-19	would	O	O	O	
+4-20	stop	O	B-webanno.custom.Events_	B-ScrEv_bus_stops	
+4-21	in	O	O	O	
+4-22	this	O	O	O	
+4-23	area	B-NPart	O	O	
+4-24	to	O	O	O	
+4-25	put	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-ScrEv_board_bus|B-ScrEv_board_bus	
+4-26	up	O	I-webanno.custom.Events_	I-ScrEv_board_bus	
+4-27	passengers	B-ScrPart_passenger	O	O	
+4-28	.	O	O	O	
+
+#id=5
+#text=There was but after bus after bus and you had to move fast .
+5-1	There	O	O	O	
+5-2	was	O	B-webanno.custom.Events_	B-UnrelEv	
+5-3	but	O	O	O	
+5-4	after	O	O	O	
+5-5	bus	B-ScrPart_bus	O	O	
+5-6	after	O	O	O	
+5-7	bus	B-ScrPart_bus	O	O	
+5-8	and	O	O	O	
+5-9	you	B-ScrPart_passenger	O	O	
+5-10	had	O	O	O	
+5-11	to	O	O	O	
+5-12	move	O	B-webanno.custom.Events_	B-UnrelEv	
+5-13	fast	O	O	O	
+5-14	.	O	O	O	
+
+#id=6
+#text=I was told that number 77 was my bus .
+6-1	I	B-ScrPart_passenger	O	O	
+6-2	was	O	O	O	
+6-3	told	O	B-webanno.custom.Events_	B-UnrelEv	
+6-4	that	O	O	O	
+6-5	number	B-ScrPart_bus	O	O	
+6-6	77	I-ScrPart_bus	O	O	
+6-7	was	O	B-webanno.custom.Events_	B-UnrelEv	
+6-8	my	B-ScrPart_passenger	O	O	
+6-9	bus	B-ScrPart_bus	O	O	
+6-10	.	O	O	O	
+
+#id=7
+#text=So when I saw it pull up I had to push through the crowd so that I could board my bus .
+7-1	So	O	O	O	
+7-2	when	O	O	O	
+7-3	I	B-ScrPart_passenger	O	O	
+7-4	saw	O	B-webanno.custom.Events_	B-UnrelEv	
+7-5	it	B-ScrPart_bus	O	O	
+7-6	pull	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-ScrEv_bus_comes|B-ScrEv_bus_comes	
+7-7	up	O	I-webanno.custom.Events_	I-ScrEv_bus_comes	
+7-8	I	B-ScrPart_passenger	O	O	
+7-9	had	O	O	O	
+7-10	to	O	O	O	
+7-11	push	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-ScrEv_other|B-ScrEv_other	
+7-12	through	O	I-webanno.custom.Events_	I-ScrEv_other	
+7-13	the	O	O	O	
+7-14	crowd	B-NPart	O	O	
+7-15	so	O	O	O	
+7-16	that	O	O	O	
+7-17	I	B-ScrPart_passenger	O	O	
+7-18	could	O	O	O	
+7-19	board	O	B-webanno.custom.Events_	B-ScrEv_board_bus	
+7-20	my	B-ScrPart_passenger	O	O	
+7-21	bus	B-ScrPart_bus	O	O	
+7-22	.	O	O	O	
+
+#id=8
+#text=I was able to get on and the bus captain came over to me after a minute or so and collected my fair .
+8-1	I	B-ScrPart_passenger	O	O	
+8-2	was	O	O	O	
+8-3	able	O	O	O	
+8-4	to	O	O	O	
+8-5	get	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-ScrEv_board_bus|B-ScrEv_board_bus	
+8-6	on	O	I-webanno.custom.Events_	I-ScrEv_board_bus	
+8-7	and	O	O	O	
+8-8	the	O	O	O	
+8-9	bus	B-ScrPart_bus_staff	O	O	
+8-10	captain	I-ScrPart_bus_staff|B-ScrPart_bus_staff	O	O	
+8-11	came	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-RelNScrEv|B-RelNScrEv	
+8-12	over	O	I-webanno.custom.Events_	I-RelNScrEv	
+8-13	to	O	O	O	
+8-14	me	B-ScrPart_passenger	O	O	
+8-15	after	O	O	O	
+8-16	a	O	O	O	
+8-17	minute	B-ScrPart_time/date	O	O	
+8-18	or	O	O	O	
+8-19	so	O	O	O	
+8-20	and	O	O	O	
+8-21	collected	O	B-webanno.custom.Events_	B-ScrEv_get_ticket	
+8-22	my	B-ScrPart_passenger	O	O	
+8-23	fair	B-ScrPart_money	O	O	
+8-24	.	O	O	O	
+
+#id=9
+#text=As I sat back to relaxed I noticed that the bus driver was driving the bus with wild abandon .
+9-1	As	O	O	O	
+9-2	I	B-ScrPart_passenger	O	O	
+9-3	sat	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-ScrEv_spend_time_bus|B-ScrEv_spend_time_bus	
+9-4	back	O	I-webanno.custom.Events_	I-ScrEv_spend_time_bus	
+9-5	to	O	O	O	
+9-6	relaxed	O	B-webanno.custom.Events_	B-ScrEv_spend_time_bus	
+9-7	I	B-ScrPart_passenger	O	O	
+9-8	noticed	O	B-webanno.custom.Events_	B-UnrelEv	
+9-9	that	O	O	O	
+9-10	the	O	O	O	
+9-11	bus	B-ScrPart_bus_staff	O	O	
+9-12	driver	I-ScrPart_bus_staff|B-ScrPart_bus_staff	O	O	
+9-13	was	O	O	O	
+9-14	driving	O	B-webanno.custom.Events_	B-RelNScrEv	
+9-15	the	O	O	O	
+9-16	bus	B-ScrPart_bus	O	O	
+9-17	with	O	O	O	
+9-18	wild	O	O	O	
+9-19	abandon	B-NPart	O	O	
+9-20	.	O	O	O	
+
+#id=10
+#text=He was flying through the street and than squealing the brakes as he tried to keep control of the vehicle .
+10-1	He	B-ScrPart_bus_staff	O	O	
+10-2	was	O	B-webanno.custom.Events_	B-UnrelEv	
+10-3	flying	O	B-webanno.custom.Events_	B-UnrelEv	
+10-4	through	O	O	O	
+10-5	the	O	O	O	
+10-6	street	B-ScrPart_other	O	O	
+10-7	and	O	O	O	
+10-8	than	O	O	O	
+10-9	squealing	O	B-webanno.custom.Events_	B-RelNScrEv	
+10-10	the	O	O	O	
+10-11	brakes	B-ScrPart_other	O	O	
+10-12	as	O	O	O	
+10-13	he	B-ScrPart_bus_staff	O	O	
+10-14	tried	O	B-webanno.custom.Events_	B-UnrelEv	
+10-15	to	O	O	O	
+10-16	keep	O	B-webanno.custom.Events_	B-RelNScrEv	
+10-17	control	B-SuppVComp	O	O	
+10-18	of	O	O	O	
+10-19	the	O	O	O	
+10-20	vehicle	B-ScrPart_bus	O	O	
+10-21	.	O	O	O	
+
+#id=11
+#text=I just knew we were all going to die .
+11-1	I	B-ScrPart_passenger	O	O	
+11-2	just	O	O	O	
+11-3	knew	O	B-webanno.custom.Events_	B-UnrelEv	
+11-4	we	B-ScrPart_passenger	O	O	
+11-5	were	O	O	O	
+11-6	all	O	O	O	
+11-7	going	O	O	O	
+11-8	to	O	O	O	
+11-9	die	O	B-webanno.custom.Events_	B-UnrelEv	
+11-10	.	O	O	O	
+
+#id=12
+#text=I was trying to get my friends attention but she was turned around and deep in a conversation .
+12-1	I	B-ScrPart_passenger	O	O	
+12-2	was	O	O	O	
+12-3	trying	O	B-webanno.custom.Events_	B-UnrelEv	
+12-4	to	O	O	O	
+12-5	get	O	B-webanno.custom.Events_	B-UnrelEv	
+12-6	my	B-ScrPart_passenger	O	O	
+12-7	friends	B-ScrPart_passenger	O	O	
+12-8	attention	B-NPart	O	O	
+12-9	but	O	O	O	
+12-10	she	B-ScrPart_passenger	O	O	
+12-11	was	O	B-webanno.custom.Events_	B-UnrelEv	
+12-12	turned	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-UnrelEv|B-UnrelEv	
+12-13	around	O	I-webanno.custom.Events_	I-UnrelEv	
+12-14	and	O	O	O	
+12-15	deep	O	O	O	
+12-16	in	O	O	O	
+12-17	a	O	O	O	
+12-18	conversation	B-NPart	O	O	
+12-19	.	O	O	O	
+
+#id=13
+#text=This was a nerve racking situation not only because of his driving but I did n't really know my stop so I was tried to calm my heart as we nearly missed car after car and look our the window to determine where the tour bus company was located .
+13-1	This	O	O	O	
+13-2	was	O	B-webanno.custom.Events_	B-UnrelEv	
+13-3	a	O	O	O	
+13-4	nerve	B-NPart	O	O	
+13-5	racking	O	O	O	
+13-6	situation	B-NPart	O	O	
+13-7	not	O	O	O	
+13-8	only	O	O	O	
+13-9	because	O	O	O	
+13-10	of	O	O	O	
+13-11	his	B-ScrPart_bus_staff	O	O	
+13-12	driving	O	B-webanno.custom.Events_	B-RelNScrEv	
+13-13	but	O	O	O	
+13-14	I	B-ScrPart_passenger	O	O	
+13-15	did	O	O	O	
+13-16	n't	O	O	O	
+13-17	really	O	O	O	
+13-18	know	O	B-webanno.custom.Events_	B-UnrelEv	
+13-19	my	B-ScrPart_passenger	O	O	
+13-20	stop	B-ScrPart_destination	O	O	
+13-21	so	O	O	O	
+13-22	I	B-ScrPart_passenger	O	O	
+13-23	was	O	O	O	
+13-24	tried	O	B-webanno.custom.Events_	B-UnrelEv	
+13-25	to	O	O	O	
+13-26	calm	O	B-webanno.custom.Events_	B-UnrelEv	
+13-27	my	B-ScrPart_passenger	O	O	
+13-28	heart	B-NPart	O	O	
+13-29	as	O	O	O	
+13-30	we	B-ScrPart_bus	O	O	
+13-31	nearly	O	O	O	
+13-32	missed	O	B-webanno.custom.Events_	B-UnrelEv	
+13-33	car	B-NPart	O	O	
+13-34	after	O	O	O	
+13-35	car	B-NPart	O	O	
+13-36	and	O	O	O	
+13-37	look	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-ScrEv_spend_time_bus|B-ScrEv_spend_time_bus	
+13-38	our	O	I-webanno.custom.Events_	I-ScrEv_spend_time_bus	
+13-39	the	O	O	O	
+13-40	window	B-ScrPart_other	O	O	
+13-41	to	O	O	O	
+13-42	determine	O	B-webanno.custom.Events_	B-UnrelEv	
+13-43	where	O	O	O	
+13-44	the	O	O	O	
+13-45	tour	B-ScrPart_destination	O	O	
+13-46	bus	I-ScrPart_destination	O	O	
+13-47	company	I-ScrPart_destination|B-ScrPart_destination	O	O	
+13-48	was	O	O	O	
+13-49	located	O	B-webanno.custom.Events_	B-UnrelEv	
+13-50	.	O	O	O	
+
+#id=14
+#text=It finally worked out because a few of the passengers was going to same place and directed me to get off at the right location .
+14-1	It	B-No_label	O	O	
+14-2	finally	O	O	O	
+14-3	worked	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-UnrelEv|B-UnrelEv	
+14-4	out	O	I-webanno.custom.Events_	I-UnrelEv	
+14-5	because	O	O	O	
+14-6	a	O	O	O	
+14-7	few	B-ScrPart_passenger	O	O	
+14-8	of	O	O	O	
+14-9	the	O	O	O	
+14-10	passengers	B-ScrPart_passenger	O	O	
+14-11	was	O	O	O	
+14-12	going	O	B-webanno.custom.Events_	B-RelNScrEv	
+14-13	to	O	O	O	
+14-14	same	O	O	O	
+14-15	place	B-ScrPart_destination	O	O	
+14-16	and	O	O	O	
+14-17	directed	O	B-webanno.custom.Events_	B-RelNScrEv	
+14-18	me	B-ScrPart_passenger	O	O	
+14-19	to	O	O	O	
+14-20	get	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-ScrEv_get_off|B-ScrEv_get_off	
+14-21	off	O	I-webanno.custom.Events_	I-ScrEv_get_off	
+14-22	at	O	O	O	
+14-23	the	O	O	O	
+14-24	right	O	O	O	
+14-25	location	B-ScrPart_destination	O	O	
+14-26	.	O	O	O	
+
+#id=15
+#text=They were so nice and I was able to speak with a few of them .
+15-1	They	B-ScrPart_passenger	O	O	
+15-2	were	O	B-webanno.custom.Events_	B-UnrelEv	
+15-3	so	O	O	O	
+15-4	nice	O	O	O	
+15-5	and	O	O	O	
+15-6	I	B-ScrPart_passenger	O	O	
+15-7	was	O	B-webanno.custom.Events_	B-UnrelEv	
+15-8	able	O	O	O	
+15-9	to	O	O	O	
+15-10	speak	O	B-webanno.custom.Events_	B-UnrelEv	
+15-11	with	O	O	O	
+15-12	a	O	O	O	
+15-13	few	O	O	O	
+15-14	of	O	O	O	
+15-15	them	B-ScrPart_passenger	O	O	
+15-16	.	O	O	O	
+
+#id=16
+#text=So , I guess I can say it was n't all bad because I made a friend or two with some of the passengers and I made it to my tour bus location in plenty of time for my trip home . 
+16-1	So	O	O	O	
+16-2	,	O	O	O	
+16-3	I	B-ScrPart_passenger	O	O	
+16-4	guess	O	B-webanno.custom.Events_	B-UnrelEv	
+16-5	I	B-ScrPart_passenger	O	O	
+16-6	can	O	O	O	
+16-7	say	O	B-webanno.custom.Events_	B-UnrelEv	
+16-8	it	B-No_label	O	O	
+16-9	was	O	B-webanno.custom.Events_	B-UnrelEv	
+16-10	n't	O	O	O	
+16-11	all	O	O	O	
+16-12	bad	O	O	O	
+16-13	because	O	O	O	
+16-14	I	B-ScrPart_passenger	O	O	
+16-15	made	O	B-webanno.custom.Events_	B-UnrelEv	
+16-16	a	O	O	O	
+16-17	friend	B-NPart	O	O	
+16-18	or	O	O	O	
+16-19	two	O	O	O	
+16-20	with	O	O	O	
+16-21	some	B-ScrPart_passenger	O	O	
+16-22	of	O	O	O	
+16-23	the	O	O	O	
+16-24	passengers	B-ScrPart_passenger	O	O	
+16-25	and	O	O	O	
+16-26	I	B-ScrPart_passenger	O	O	
+16-27	made	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-RelNScrEv|B-RelNScrEv	
+16-28	it	B-No_label	I-webanno.custom.Events_	I-RelNScrEv	
+16-29	to	O	O	O	
+16-30	my	B-ScrPart_passenger	O	O	
+16-31	tour	B-ScrPart_destination	O	O	
+16-32	bus	I-ScrPart_destination	O	O	
+16-33	location	I-ScrPart_destination|B-ScrPart_destination	O	O	
+16-34	in	O	O	O	
+16-35	plenty	B-No_label	O	O	
+16-36	of	O	O	O	
+16-37	time	B-ScrPart_time/date	O	O	
+16-38	for	O	O	O	
+16-39	my	B-ScrPart_passenger	O	O	
+16-40	trip	B-ScrPart_ride	O	O	
+16-41	home	B-NPart	O	O	
+16-42	.	O	O	O	
+

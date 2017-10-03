@@ -1,0 +1,235 @@
+ # webanno.custom.Participants | Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Thursday was my friend Tony 's birthday .
+1-1	Thursday	B-NPart	B-webanno.custom.Participants_	O	_	_	
+1-2	was	O	O	B-UnrelEv	_	_	
+1-3	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+1-4	friend	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	_	_	
+1-5	Tony	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	_	_	
+1-6	's	O	O	O	_	_	
+1-7	birthday	B-NPart	B-webanno.custom.Participants_	O	_	_	
+1-8	.	O	O	O	_	_	
+
+#id=2
+#text=It was also the day before Passover , which starts an eight-day stretch when he wo n't be able to eat a lot of foods , including foods with leavening agents and confectioner 's sugar .
+2-1	It	B-No_label	B-webanno.custom.Participants_	O	_	_	
+2-2	was	O	O	B-UnrelEv	_	_	
+2-3	also	O	O	O	_	_	
+2-4	the	O	O	O	_	_	
+2-5	day	B-NPart	B-webanno.custom.Participants_	O	_	_	
+2-6	before	O	O	O	_	_	
+2-7	Passover	B-NPart	B-webanno.custom.Participants_	O	_	_	
+2-8	,	O	O	O	_	_	
+2-9	which	O	O	O	_	_	
+2-10	starts	O	O	B-UnrelEv	_	_	
+2-11	an	O	O	O	_	_	
+2-12	eight-day	O	O	O	_	_	
+2-13	stretch	B-NPart	B-webanno.custom.Participants_	O	_	_	
+2-14	when	O	O	O	_	_	
+2-15	he	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	_	_	
+2-16	wo	O	O	O	_	_	
+2-17	n't	O	O	O	_	_	
+2-18	be	O	O	O	_	_	
+2-19	able	O	O	O	_	_	
+2-20	to	O	O	O	_	_	
+2-21	eat	O	O	B-UnrelEv	_	_	
+2-22	a	O	O	O	_	_	
+2-23	lot	B-Head_of_Partitive	B-webanno.custom.Participants_	O	_	_	
+2-24	of	O	O	O	_	_	
+2-25	foods	B-NPart	B-webanno.custom.Participants_	O	_	_	
+2-26	,	O	O	O	_	_	
+2-27	including	O	O	B-UnrelEv	_	_	
+2-28	foods	B-NPart	B-webanno.custom.Participants_	O	_	_	
+2-29	with	O	O	O	_	_	
+2-30	leavening	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+2-31	agents	I-ScrPart_ingredients	I-webanno.custom.Participants_	O	_	_	
+2-32	and	O	O	O	_	_	
+2-33	confectioner	B-No_label	B-webanno.custom.Participants_	O	_	_	
+2-34	's	O	O	O	_	_	
+2-35	sugar	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+2-36	.	O	O	O	_	_	
+
+#id=3
+#text=That meant no cake for Tony after Thursday , so I thought it would be a nice treat to make him a cake for that day .
+3-1	That	O	O	O	_	_	
+3-2	meant	O	O	B-UnrelEv	_	_	
+3-3	no	O	O	O	_	_	
+3-4	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	_	_	
+3-5	for	O	O	O	_	_	
+3-6	Tony	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	_	_	
+3-7	after	O	O	O	_	_	
+3-8	Thursday	B-NPart	B-webanno.custom.Participants_	O	_	_	
+3-9	,	O	O	O	_	_	
+3-10	so	O	O	O	_	_	
+3-11	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+3-12	thought	O	O	B-UnrelEv	_	_	
+3-13	it	B-No_label	B-webanno.custom.Participants_	O	_	_	
+3-14	would	O	O	O	_	_	
+3-15	be	O	O	B-UnrelEv	_	_	
+3-16	a	O	O	O	_	_	
+3-17	nice	O	O	O	_	_	
+3-18	treat	B-No_label	B-webanno.custom.Participants_	O	_	_	
+3-19	to	O	O	O	_	_	
+3-20	make	O	O	B-Evoking	_	_	
+3-21	him	B-ScrPart_beneficiary	B-webanno.custom.Participants_	I-Evoking	webanno.custom.Corefchains_	3-6	
+3-22	a	O	O	I-Evoking	_	_	
+3-23	cake	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	_	_	
+3-24	for	O	O	O	_	_	
+3-25	that	O	O	O	_	_	
+3-26	day	B-NPart	B-webanno.custom.Participants_	O	_	_	
+3-27	.	O	O	O	_	_	
+
+#id=4
+#text=He has very simple tastes , and likes white vanilla cake with butter cream frosting .
+4-1	He	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	3-21	
+4-2	has	O	O	B-UnrelEv	_	_	
+4-3	very	O	O	O	_	_	
+4-4	simple	O	O	O	_	_	
+4-5	tastes	B-NPart	B-webanno.custom.Participants_	O	_	_	
+4-6	,	O	O	O	_	_	
+4-7	and	O	O	O	_	_	
+4-8	likes	O	O	B-UnrelEv	_	_	
+4-9	white	O	O	O	_	_	
+4-10	vanilla	B-ScrPart_cake	B-webanno.custom.Participants_	O	_	_	
+4-11	cake	I-ScrPart_cake|B-ScrPart_cake	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+4-12	with	O	O	O	_	_	
+4-13	butter	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+4-14	cream	I-ScrPart_ingredients	I-webanno.custom.Participants_	O	_	_	
+4-15	frosting	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+4-16	.	O	O	O	_	_	
+
+#id=5
+#text=I did n't have any of the ingredients on hand except for vanilla , eggs , baking soda , and baking powder , so I had to go to the store to get flour , sugar , and the rest of the things that would go into the cake .
+5-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+5-2	did	O	O	O	_	_	
+5-3	n't	O	O	O	_	_	
+5-4	have	O	O	B-UnrelEv	_	_	
+5-5	any	O	O	O	_	_	
+5-6	of	O	O	O	_	_	
+5-7	the	O	O	O	_	_	
+5-8	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+5-9	on	O	O	O	_	_	
+5-10	hand	B-SuppVComp	B-webanno.custom.Participants_	O	_	_	
+5-11	except	O	O	O	_	_	
+5-12	for	O	O	O	_	_	
+5-13	vanilla	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+5-14	,	O	O	O	_	_	
+5-15	eggs	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+5-16	,	O	O	O	_	_	
+5-17	baking	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+5-18	soda	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+5-19	,	O	O	O	_	_	
+5-20	and	O	O	O	_	_	
+5-21	baking	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+5-22	powder	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+5-23	,	O	O	O	_	_	
+5-24	so	O	O	O	_	_	
+5-25	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+5-26	had	O	O	O	_	_	
+5-27	to	O	O	O	_	_	
+5-28	go	O	O	B-ScrEv_get_ingredients	_	_	
+5-29	to	O	O	I-ScrEv_get_ingredients	_	_	
+5-30	the	O	O	O	_	_	
+5-31	store	B-ScrPart_store	B-webanno.custom.Participants_	O	_	_	
+5-32	to	O	O	O	_	_	
+5-33	get	O	O	B-ScrEv_get_ingredients	_	_	
+5-34	flour	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+5-35	,	O	O	O	_	_	
+5-36	sugar	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	2-35	
+5-37	,	O	O	O	_	_	
+5-38	and	O	O	O	_	_	
+5-39	the	O	O	O	_	_	
+5-40	rest	B-Head_of_Partitive	B-webanno.custom.Participants_	O	_	_	
+5-41	of	O	O	O	_	_	
+5-42	the	O	O	O	_	_	
+5-43	things	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+5-44	that	O	O	O	_	_	
+5-45	would	O	O	O	_	_	
+5-46	go	O	O	B-UnrelEv	_	_	
+5-47	into	O	O	I-UnrelEv	_	_	
+5-48	the	O	O	O	_	_	
+5-49	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	_	_	
+5-50	.	O	O	O	_	_	
+
+#id=6
+#text=When I got home , I mixed the ingredients in a bowl , first sifting the dry ingredients together , and then beating in the butter , eggs , and sugar .
+6-1	When	O	O	O	_	_	
+6-2	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+6-3	got	O	O	B-RelNScrEv	_	_	
+6-4	home	B-ScrPart_kitchen/location	B-webanno.custom.Participants_	O	_	_	
+6-5	,	O	O	O	_	_	
+6-6	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+6-7	mixed	O	O	B-ScrEv_prepare_ingredients	_	_	
+6-8	the	O	O	O	_	_	
+6-9	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+6-10	in	O	O	O	_	_	
+6-11	a	O	O	O	_	_	
+6-12	bowl	B-ScrPart_utensil	B-webanno.custom.Participants_	O	_	_	
+6-13	,	O	O	O	_	_	
+6-14	first	O	O	O	_	_	
+6-15	sifting	O	O	B-ScrEv_prepare_ingredients	_	_	
+6-16	the	O	O	O	_	_	
+6-17	dry	O	O	O	_	_	
+6-18	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+6-19	together	O	O	O	_	_	
+6-20	,	O	O	O	_	_	
+6-21	and	O	O	O	_	_	
+6-22	then	O	O	O	_	_	
+6-23	beating	O	O	B-ScrEv_make_dough	_	_	
+6-24	in	O	O	I-ScrEv_make_dough	_	_	
+6-25	the	O	O	O	_	_	
+6-26	butter	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+6-27	,	O	O	O	_	_	
+6-28	eggs	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+6-29	,	O	O	O	_	_	
+6-30	and	O	O	O	_	_	
+6-31	sugar	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+6-32	.	O	O	O	_	_	
+
+#id=7
+#text=I baked the cake at 350 degrees for 25 minutes , then took it out of the oven , let it cool , and frosted it .
+7-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+7-2	baked	O	O	B-ScrEv_wait	_	_	
+7-3	the	O	O	O	_	_	
+7-4	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	_	_	
+7-5	at	O	O	O	_	_	
+7-6	350	O	O	O	_	_	
+7-7	degrees	B-ScrPart_temperature	B-webanno.custom.Participants_	O	_	_	
+7-8	for	O	O	O	_	_	
+7-9	25	O	O	O	_	_	
+7-10	minutes	B-ScrPart_time	B-webanno.custom.Participants_	O	_	_	
+7-11	,	O	O	O	_	_	
+7-12	then	O	O	O	_	_	
+7-13	took	O	O	B-ScrEv_take_out_oven	_	_	
+7-14	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	_	_	
+7-15	out	O	O	O	_	_	
+7-16	of	O	O	O	_	_	
+7-17	the	O	O	O	_	_	
+7-18	oven	B-ScrPart_oven	B-webanno.custom.Participants_	O	_	_	
+7-19	,	O	O	O	_	_	
+7-20	let	O	O	B-UnrelEv	_	_	
+7-21	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	_	_	
+7-22	cool	O	O	B-ScrEv_cool_down	_	_	
+7-23	,	O	O	O	_	_	
+7-24	and	O	O	O	_	_	
+7-25	frosted	O	O	B-ScrEv_decorate	_	_	
+7-26	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	_	_	
+7-27	.	O	O	O	_	_	
+
+#id=8
+#text=The cake was delicious , and Tony was very touched by the effort . 
+8-1	The	O	O	O	_	_	
+8-2	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	_	_	
+8-3	was	O	O	B-UnrelEv	_	_	
+8-4	delicious	O	O	O	_	_	
+8-5	,	O	O	O	_	_	
+8-6	and	O	O	O	_	_	
+8-7	Tony	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	_	_	
+8-8	was	O	O	B-UnrelEv	_	_	
+8-9	very	O	O	O	_	_	
+8-10	touched	O	O	B-UnrelEv	_	_	
+8-11	by	O	O	O	_	_	
+8-12	the	O	O	O	_	_	
+8-13	effort	B-NPart	B-webanno.custom.Participants_	O	_	_	
+8-14	.	O	O	O	_	_	
+

@@ -1,0 +1,200 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=While I was out riding my bike one warm spring day , one of the tires went flat .
+1-1	While	O	O	
+1-2	I	B-ScrPart_rider	O	
+1-3	was	O	B-UnrelEv	
+1-4	out	O	O	
+1-5	riding	O	B-ScrEv_ride_bike	
+1-6	my	B-ScrPart_rider	O	
+1-7	bike	B-ScrPart_bicycle	O	
+1-8	one	O	O	
+1-9	warm	O	O	
+1-10	spring	B-NPart	O	
+1-11	day	I-NPart|B-NPart	O	
+1-12	,	O	O	
+1-13	one	B-ScrPart_tire	O	
+1-14	of	O	O	
+1-15	the	O	O	
+1-16	tires	B-ScrPart_tire	O	
+1-17	went	O	B-RelNScrEv	
+1-18	flat	O	O	
+1-19	.	O	O	
+
+#id=2
+#text=Fortunately I had a repair kit with me in a pouch on the bike .
+2-1	Fortunately	O	O	
+2-2	I	B-ScrPart_rider	O	
+2-3	had	O	B-UnrelEv	
+2-4	a	O	O	
+2-5	repair	B-ScrPart_tool	O	
+2-6	kit	I-ScrPart_tool|B-ScrPart_tool	O	
+2-7	with	O	O	
+2-8	me	B-ScrPart_rider	O	
+2-9	in	O	O	
+2-10	a	O	O	
+2-11	pouch	B-ScrPart_other	O	
+2-12	on	O	O	
+2-13	the	O	O	
+2-14	bike	B-ScrPart_bicycle	O	
+2-15	.	O	O	
+
+#id=3
+#text=I always kept it with me on rides just in case of such an occurrence .
+3-1	I	B-ScrPart_rider	O	
+3-2	always	O	O	
+3-3	kept	O	B-UnrelEv	
+3-4	it	B-ScrPart_tool	O	
+3-5	with	O	O	
+3-6	me	B-ScrPart_rider	O	
+3-7	on	O	O	
+3-8	rides	B-ScrPart_ride	B-ScrEv_ride_bike	
+3-9	just	O	O	
+3-10	in	O	O	
+3-11	case	B-No_label	O	
+3-12	of	O	O	
+3-13	such	O	O	
+3-14	an	O	O	
+3-15	occurrence	B-NPart	O	
+3-16	.	O	O	
+
+#id=4
+#text=I got off and went to the side of the trail out of the way of other bikers and runners .
+4-1	I	B-ScrPart_rider	O	
+4-2	got	O	B-ScrEv_get_off	
+4-3	off	O	I-ScrEv_get_off	
+4-4	and	O	O	
+4-5	went	O	B-RelNScrEv	
+4-6	to	O	O	
+4-7	the	O	O	
+4-8	side	B-ScrPart_location_repair	O	
+4-9	of	O	O	
+4-10	the	O	O	
+4-11	trail	B-NPart	O	
+4-12	out	O	O	
+4-13	of	O	O	
+4-14	the	O	O	
+4-15	way	B-NPart	O	
+4-16	of	O	O	
+4-17	other	O	O	
+4-18	bikers	B-ScrPart_rider	O	
+4-19	and	O	O	
+4-20	runners	B-NPart	O	
+4-21	.	O	O	
+
+#id=5
+#text=I lay the bike on its side and got the repair kit out of the pouch .
+5-1	I	B-ScrPart_rider	O	
+5-2	lay	O	B-ScrEv_lay_bike_down	
+5-3	the	O	O	
+5-4	bike	B-ScrPart_bicycle	O	
+5-5	on	O	O	
+5-6	its	B-ScrPart_bicycle	O	
+5-7	side	B-NPart	O	
+5-8	and	O	O	
+5-9	got	O	B-ScrEv_get_tools	
+5-10	the	O	O	
+5-11	repair	B-ScrPart_tool	O	
+5-12	kit	I-ScrPart_tool|B-ScrPart_tool	O	
+5-13	out	O	O	
+5-14	of	O	O	
+5-15	the	O	O	
+5-16	pouch	B-NPart	O	
+5-17	.	O	O	
+
+#id=6
+#text=The repair kit contained a new inner tube which I inflated .
+6-1	The	O	O	
+6-2	repair	B-ScrPart_tool	O	
+6-3	kit	I-ScrPart_tool|B-ScrPart_tool	O	
+6-4	contained	O	B-UnrelEv	
+6-5	a	O	O	
+6-6	new	O	O	
+6-7	inner	O	O	
+6-8	tube	B-ScrPart_spare_tube	O	
+6-9	which	O	O	
+6-10	I	B-ScrPart_rider	O	
+6-11	inflated	O	B-ScrEv_refill_tire_air	
+6-12	.	O	O	
+
+#id=7
+#text=I then pulled the outer tire off of the inner tube .
+7-1	I	B-ScrPart_rider	O	
+7-2	then	O	O	
+7-3	pulled	O	B-ScrEv_take_tire_off	
+7-4	the	O	O	
+7-5	outer	O	O	
+7-6	tire	B-ScrPart_tire	O	
+7-7	off	O	O	
+7-8	of	O	O	
+7-9	the	O	O	
+7-10	inner	O	O	
+7-11	tube	B-ScrPart_tire	O	
+7-12	.	O	O	
+
+#id=8
+#text=I replaced the flattened inner tube with the new one and replaced the outer tire over it .
+8-1	I	B-ScrPart_rider	O	
+8-2	replaced	O	B-ScrEv_put_new_tire	
+8-3	the	O	O	
+8-4	flattened	O	B-RelNScrEv	
+8-5	inner	O	O	
+8-6	tube	B-ScrPart_tire	O	
+8-7	with	O	O	
+8-8	the	O	O	
+8-9	new	O	O	
+8-10	one	B-ScrPart_spare_tube	O	
+8-11	and	O	O	
+8-12	replaced	O	B-ScrEv_put_new_tire	
+8-13	the	O	O	
+8-14	outer	O	O	
+8-15	tire	B-ScrPart_tire	O	
+8-16	over	O	O	
+8-17	it	B-ScrPart_spare_tube	O	
+8-18	.	O	O	
+
+#id=9
+#text=I rode off slowly to make sure everything was correctly in place .
+9-1	I	B-ScrPart_rider	O	
+9-2	rode	O	B-ScrEv_ride_bike	
+9-3	off	O	I-ScrEv_ride_bike	
+9-4	slowly	O	O	
+9-5	to	O	O	
+9-6	make	O	B-ScrEv_check_new_tire	
+9-7	sure	O	I-ScrEv_check_new_tire	
+9-8	everything	B-No_label	O	
+9-9	was	O	B-UnrelEv	
+9-10	correctly	O	O	
+9-11	in	O	O	
+9-12	place	B-No_label	O	
+9-13	.	O	O	
+
+#id=10
+#text=Once I got home , I replaced the spare tire kit with a new one so that I would be prepared on my next ride . 
+10-1	Once	O	O	
+10-2	I	B-ScrPart_rider	O	
+10-3	got	O	B-UnrelEv	
+10-4	home	B-NPart	O	
+10-5	,	O	O	
+10-6	I	B-ScrPart_rider	O	
+10-7	replaced	O	B-UnrelEv	
+10-8	the	O	O	
+10-9	spare	O	O	
+10-10	tire	B-ScrPart_tool	O	
+10-11	kit	I-ScrPart_tool|B-ScrPart_tool	O	
+10-12	with	O	O	
+10-13	a	O	O	
+10-14	new	O	O	
+10-15	one	B-ScrPart_tool	O	
+10-16	so	O	O	
+10-17	that	O	O	
+10-18	I	B-ScrPart_rider	O	
+10-19	would	O	O	
+10-20	be	O	B-UnrelEv	
+10-21	prepared	O	O	
+10-22	on	O	O	
+10-23	my	B-ScrPart_rider	O	
+10-24	next	O	O	
+10-25	ride	B-ScrPart_ride	B-ScrEv_ride_bike	
+10-26	.	O	O	
+

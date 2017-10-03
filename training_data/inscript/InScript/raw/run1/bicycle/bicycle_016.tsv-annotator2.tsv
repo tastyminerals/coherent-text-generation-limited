@@ -1,0 +1,203 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Last week on a bike ride to my friends house , I was traveling on a very rough road with a lot of rocks on the side of it .
+1-1	Last	O	O	_	_	
+1-2	week	B-NPart	O	_	_	
+1-3	on	O	O	_	_	
+1-4	a	O	O	_	_	
+1-5	bike	O	B-ScrEv_ride_bike	_	_	
+1-6	ride	O	I-ScrEv_ride_bike	_	_	
+1-7	to	O	O	_	_	
+1-8	my	B-ScrPart_rider	O	_	_	
+1-9	friends	B-NPart	O	_	_	
+1-10	house	B-NPart	O	_	_	
+1-11	,	O	O	_	_	
+1-12	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-8	
+1-13	was	O	O	_	_	
+1-14	traveling	O	B-ScrEv_ride_bike	_	_	
+1-15	on	O	O	_	_	
+1-16	a	O	O	_	_	
+1-17	very	O	O	_	_	
+1-18	rough	O	O	_	_	
+1-19	road	B-ScrPart_location_repair	O	_	_	
+1-20	with	O	O	_	_	
+1-21	a	O	O	_	_	
+1-22	lot	B-NPart	O	_	_	
+1-23	of	O	O	_	_	
+1-24	rocks	B-NPart	O	_	_	
+1-25	on	O	O	_	_	
+1-26	the	O	O	_	_	
+1-27	side	B-NPart	O	_	_	
+1-28	of	O	O	_	_	
+1-29	it	B-ScrPart_location_repair	O	webanno.custom.Corefchains_	1-19	
+1-30	.	O	O	_	_	
+
+#id=2
+#text=I realized after about 10 minutes into my ride that I had a very bad flat tire .
+2-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-12	
+2-2	realized	O	B-ScrEv_notice_problem	_	_	
+2-3	after	O	O	_	_	
+2-4	about	O	O	_	_	
+2-5	10	O	O	_	_	
+2-6	minutes	B-NPart	O	_	_	
+2-7	into	O	O	_	_	
+2-8	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-1	
+2-9	ride	O	B-ScrEv_ride_bike	_	_	
+2-10	that	O	O	_	_	
+2-11	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-8	
+2-12	had	O	B-UnrelEv	_	_	
+2-13	a	O	O	_	_	
+2-14	very	O	O	_	_	
+2-15	bad	O	O	_	_	
+2-16	flat	O	O	_	_	
+2-17	tire	B-ScrPart_tire	O	_	_	
+2-18	.	O	O	_	_	
+
+#id=3
+#text=Thankfully I carry the proper tools and items with me to fix it .
+3-1	Thankfully	O	O	_	_	
+3-2	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-11	
+3-3	carry	O	B-UnrelEv	_	_	
+3-4	the	O	O	_	_	
+3-5	proper	O	O	_	_	
+3-6	tools	B-ScrPart_tool	O	_	_	
+3-7	and	O	O	_	_	
+3-8	items	B-ScrPart_tool	O	webanno.custom.Corefchains_	3-6	
+3-9	with	O	O	_	_	
+3-10	me	B-ScrPart_rider	O	webanno.custom.Corefchains_	3-2	
+3-11	to	O	O	_	_	
+3-12	fix	O	B-Evoking	_	_	
+3-13	it	B-ScrPart_tire	I-Evoking	webanno.custom.Corefchains_	2-17	
+3-14	.	O	O	_	_	
+
+#id=4
+#text=I pulled off the road and opened my bag with my tools .
+4-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	3-10	
+4-2	pulled	O	B-RelNScrEv	_	_	
+4-3	off	O	O	_	_	
+4-4	the	O	O	_	_	
+4-5	road	B-ScrPart_location_repair	O	webanno.custom.Corefchains_	1-29	
+4-6	and	O	O	_	_	
+4-7	opened	O	B-RelNScrEv	_	_	
+4-8	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	4-1	
+4-9	bag	B-NPart	O	_	_	
+4-10	with	O	O	_	_	
+4-11	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	4-8	
+4-12	tools	B-ScrPart_tool	O	webanno.custom.Corefchains_	3-8	
+4-13	.	O	O	_	_	
+
+#id=5
+#text=After removing the tire and the tube inside , I used my tools to put a brand new tube inside of the tire .
+5-1	After	O	O	_	_	
+5-2	removing	O	B-ScrEv_take_tire_off	_	_	
+5-3	the	O	O	_	_	
+5-4	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	3-13	
+5-5	and	O	O	_	_	
+5-6	the	O	O	_	_	
+5-7	tube	B-ScrPart_tire	O	_	_	
+5-8	inside	O	O	_	_	
+5-9	,	O	O	_	_	
+5-10	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	4-11	
+5-11	used	O	B-UnrelEv	_	_	
+5-12	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	5-10	
+5-13	tools	B-ScrPart_tool	O	webanno.custom.Corefchains_	4-12	
+5-14	to	O	O	_	_	
+5-15	put	O	B-ScrEv_put_new_tire	_	_	
+5-16	a	O	O	_	_	
+5-17	brand	O	O	_	_	
+5-18	new	O	O	_	_	
+5-19	tube	B-ScrPart_spare_tube	O	webanno.custom.Corefchains_	5-7	
+5-20	inside	O	O	_	_	
+5-21	of	O	O	_	_	
+5-22	the	O	O	_	_	
+5-23	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	5-4	
+5-24	.	O	O	_	_	
+
+#id=6
+#text=I checked it to make sure that I had aligned everything correctly and after ensuring that I did , I placed the tire back onto the bike .
+6-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	5-12	
+6-2	checked	O	B-ScrEv_check_new_tire	_	_	
+6-3	it	B-ScrPart_tire	O	webanno.custom.Corefchains_	5-23	
+6-4	to	O	O	_	_	
+6-5	make	O	B-ScrEv_check_new_tire	_	_	
+6-6	sure	O	I-ScrEv_check_new_tire	_	_	
+6-7	that	O	O	_	_	
+6-8	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	6-1	
+6-9	had	O	O	_	_	
+6-10	aligned	O	B-UnrelEv	_	_	
+6-11	everything	O	O	_	_	
+6-12	correctly	O	O	_	_	
+6-13	and	O	O	_	_	
+6-14	after	O	O	_	_	
+6-15	ensuring	O	B-ScrEv_check_new_tire	_	_	
+6-16	that	O	O	_	_	
+6-17	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	6-8	
+6-18	did	O	B-UnrelEv	_	_	
+6-19	,	O	O	_	_	
+6-20	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	6-17	
+6-21	placed	O	B-ScrEv_put_new_tire	_	_	
+6-22	the	O	O	_	_	
+6-23	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	6-3	
+6-24	back	O	O	_	_	
+6-25	onto	O	O	_	_	
+6-26	the	O	O	_	_	
+6-27	bike	B-ScrPart_bicycle	O	_	_	
+6-28	.	O	O	_	_	
+
+#id=7
+#text=I then used my portable pump to make sure that I had the proper amount of air pressure inside of it , because I did n't want another flat .
+7-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	6-20	
+7-2	then	O	O	_	_	
+7-3	used	O	B-UnrelEv	_	_	
+7-4	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	7-1	
+7-5	portable	O	O	_	_	
+7-6	pump	B-ScrPart_tool	O	webanno.custom.Corefchains_	5-13	
+7-7	to	O	O	_	_	
+7-8	make	O	B-ScrEv_check_new_tire	_	_	
+7-9	sure	O	I-ScrEv_check_new_tire	_	_	
+7-10	that	O	O	_	_	
+7-11	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	7-4	
+7-12	had	O	B-UnrelEv	_	_	
+7-13	the	O	O	_	_	
+7-14	proper	O	O	_	_	
+7-15	amount	O	O	_	_	
+7-16	of	O	O	_	_	
+7-17	air	B-ScrPart_pressure	O	_	_	
+7-18	pressure	I-ScrPart_pressure|B-ScrPart_pressure	O	_	_	
+7-19	inside	O	O	_	_	
+7-20	of	O	O	_	_	
+7-21	it	B-ScrPart_tire	O	webanno.custom.Corefchains_	6-23	
+7-22	,	O	O	_	_	
+7-23	because	O	O	_	_	
+7-24	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	7-11	
+7-25	did	O	O	_	_	
+7-26	n't	O	O	_	_	
+7-27	want	O	B-UnrelEv	_	_	
+7-28	another	O	O	_	_	
+7-29	flat	B-ScrPart_tire	O	_	_	
+7-30	.	O	O	_	_	
+
+#id=8
+#text=After checking everything twice , I was on my way again .
+8-1	After	O	O	_	_	
+8-2	checking	O	B-ScrEv_check_new_tire	_	_	
+8-3	everything	B-???	O	_	_	
+8-4	twice	O	O	_	_	
+8-5	,	O	O	_	_	
+8-6	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	7-24	
+8-7	was	O	B-UnrelEv	_	_	
+8-8	on	O	O	_	_	
+8-9	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	8-6	
+8-10	way	O	O	_	_	
+8-11	again	O	O	_	_	
+8-12	.	O	O	_	_	
+
+#id=9
+#text=It was an easy fix . 
+9-1	It	O	O	_	_	
+9-2	was	O	B-UnrelEv	_	_	
+9-3	an	O	O	_	_	
+9-4	easy	O	O	_	_	
+9-5	fix	O	O	_	_	
+9-6	.	O	O	_	_	
+

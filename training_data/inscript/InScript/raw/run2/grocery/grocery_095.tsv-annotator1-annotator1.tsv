@@ -1,0 +1,471 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=Sunday , my husband and I did our grocery shopping .
+1-1	Sunday	B-NPart	O	
+1-2	,	O	O	
+1-3	my	B-ScrPart_shopper	O	
+1-4	husband	B-ScrPart_shopper	O	
+1-5	and	O	O	
+1-6	I	B-ScrPart_shopper	O	
+1-7	did	O	O	
+1-8	our	B-ScrPart_shopper	O	
+1-9	grocery	B-ScrPart_groceries	B-Evoking	
+1-10	shopping	O	I-Evoking|B-ScrEv_get_groceries	
+1-11	.	O	O	
+
+#id=2
+#text=He had a shopping list recorded in his cell phone .
+2-1	He	B-ScrPart_shopper	O	
+2-2	had	O	O	
+2-3	a	O	O	
+2-4	shopping	B-ScrPart_grocery_list	O	
+2-5	list	I-ScrPart_grocery_list|B-ScrPart_grocery_list	O	
+2-6	recorded	O	B-ScrEv_make_list	
+2-7	in	O	O	
+2-8	his	B-ScrPart_shopper	O	
+2-9	cell	B-NPart	O	
+2-10	phone	I-NPart|B-NPart	O	
+2-11	.	O	O	
+
+#id=3
+#text=We arrived at the store in the early afternoon , and the first thing we did was get a shopping cart .
+3-1	We	B-ScrPart_shopper	O	
+3-2	arrived	O	B-ScrEv_go_grocery	
+3-3	at	O	O	
+3-4	the	O	O	
+3-5	store	B-ScrPart_grocery_shop	O	
+3-6	in	O	O	
+3-7	the	O	O	
+3-8	early	O	O	
+3-9	afternoon	B-NPart	O	
+3-10	,	O	O	
+3-11	and	O	O	
+3-12	the	O	O	
+3-13	first	O	O	
+3-14	thing	B-No_label	O	
+3-15	we	B-ScrPart_shopper	O	
+3-16	did	O	O	
+3-17	was	O	O	
+3-18	get	O	B-ScrEv_take_shop_cart	
+3-19	a	O	O	
+3-20	shopping	B-ScrPart_shopping_cart/basket	O	
+3-21	cart	I-ScrPart_shopping_cart/basket|B-ScrPart_shopping_cart/basket	O	
+3-22	.	O	O	
+
+#id=4
+#text=We walked in and went to the produce area first , where all the fruit and vegetables are .
+4-1	We	B-ScrPart_shopper	O	
+4-2	walked	O	B-ScrEv_enter|B-ScrEv_enter	
+4-3	in	O	I-ScrEv_enter	
+4-4	and	O	O	
+4-5	went	O	B-ScrEv_move_section	
+4-6	to	O	O	
+4-7	the	O	O	
+4-8	produce	B-ScrPart_section	O	
+4-9	area	I-ScrPart_section|B-ScrPart_section	O	
+4-10	first	O	O	
+4-11	,	O	O	
+4-12	where	O	O	
+4-13	all	O	O	
+4-14	the	O	O	
+4-15	fruit	B-ScrPart_groceries	O	
+4-16	and	O	O	
+4-17	vegetables	B-ScrPart_groceries	O	
+4-18	are	O	B-UnrelEv	
+4-19	.	O	O	
+
+#id=5
+#text=My husband checked the list .
+5-1	My	B-ScrPart_shopper	O	
+5-2	husband	B-ScrPart_shopper	O	
+5-3	checked	O	B-ScrEv_check_list	
+5-4	the	O	O	
+5-5	list	B-ScrPart_grocery_list	O	
+5-6	.	O	O	
+
+#id=6
+#text=We only had bananas on the list , but I said we should get things for salad , too , so he picked out bananas and bell peppers while I got lettuce and radishes and tomatoes .
+6-1	We	B-ScrPart_shopper	O	
+6-2	only	O	O	
+6-3	had	O	B-RelNScrEv	
+6-4	bananas	B-ScrPart_groceries	O	
+6-5	on	O	O	
+6-6	the	O	O	
+6-7	list	B-ScrPart_grocery_list	O	
+6-8	,	O	O	
+6-9	but	O	O	
+6-10	I	B-ScrPart_shopper	O	
+6-11	said	O	B-UnrelEv	
+6-12	we	B-ScrPart_shopper	O	
+6-13	should	O	O	
+6-14	get	O	B-ScrEv_get_groceries	
+6-15	things	B-ScrPart_groceries	O	
+6-16	for	O	O	
+6-17	salad	B-NPart	O	
+6-18	,	O	O	
+6-19	too	O	O	
+6-20	,	O	O	
+6-21	so	O	O	
+6-22	he	B-ScrPart_shopper	O	
+6-23	picked	O	B-ScrEv_get_groceries|B-ScrEv_get_groceries	
+6-24	out	O	I-ScrEv_get_groceries	
+6-25	bananas	B-ScrPart_groceries	O	
+6-26	and	O	O	
+6-27	bell	B-ScrPart_groceries	O	
+6-28	peppers	I-ScrPart_groceries|B-ScrPart_groceries	O	
+6-29	while	O	O	
+6-30	I	B-ScrPart_shopper	O	
+6-31	got	O	B-ScrEv_get_groceries	
+6-32	lettuce	B-ScrPart_groceries	O	
+6-33	and	O	O	
+6-34	radishes	B-ScrPart_groceries	O	
+6-35	and	O	O	
+6-36	tomatoes	B-ScrPart_groceries	O	
+6-37	.	O	O	
+
+#id=7
+#text=Then we went to the deli area and ordered some sliced turkey .
+7-1	Then	O	O	
+7-2	we	B-ScrPart_shopper	O	
+7-3	went	O	B-ScrEv_move_section	
+7-4	to	O	O	
+7-5	the	O	O	
+7-6	deli	B-ScrPart_section	O	
+7-7	area	I-ScrPart_section|B-ScrPart_section	O	
+7-8	and	O	O	
+7-9	ordered	O	B-ScrEv_other	
+7-10	some	O	O	
+7-11	sliced	O	O	
+7-12	turkey	B-ScrPart_groceries	O	
+7-13	.	O	O	
+
+#id=8
+#text=The man behind the counter sliced the turkey for us and measured it on a scale to give us the amount we wanted , then wrapped it up for us .
+8-1	The	O	O	
+8-2	man	B-ScrPart_grocery_staff	O	
+8-3	behind	O	O	
+8-4	the	O	O	
+8-5	counter	B-ScrPart_cash_desk	O	
+8-6	sliced	O	B-ScrEv_other	
+8-7	the	O	O	
+8-8	turkey	B-ScrPart_groceries	O	
+8-9	for	O	O	
+8-10	us	B-ScrPart_shopper	O	
+8-11	and	O	O	
+8-12	measured	O	B-ScrEv_other	
+8-13	it	B-ScrPart_groceries	O	
+8-14	on	O	O	
+8-15	a	O	O	
+8-16	scale	B-ScrPart_other	O	
+8-17	to	O	O	
+8-18	give	O	B-ScrEv_get_groceries	
+8-19	us	B-ScrPart_shopper	O	
+8-20	the	O	O	
+8-21	amount	B-???	O	
+8-22	we	B-ScrPart_shopper	O	
+8-23	wanted	O	B-UnrelEv	
+8-24	,	O	O	
+8-25	then	O	O	
+8-26	wrapped	O	B-ScrEv_pack_groceries	
+8-27	it	B-ScrPart_groceries	O	
+8-28	up	O	O	
+8-29	for	O	O	
+8-30	us	B-ScrPart_shopper	O	
+8-31	.	O	O	
+
+#id=9
+#text=Next we visited the bakery area and picked out a nice loaf of rye bread to put the turkey on .
+9-1	Next	O	O	
+9-2	we	B-ScrPart_shopper	O	
+9-3	visited	O	B-ScrEv_move_section	
+9-4	the	O	O	
+9-5	bakery	B-ScrPart_section	O	
+9-6	area	I-ScrPart_section|B-ScrPart_section	O	
+9-7	and	O	O	
+9-8	picked	O	B-ScrEv_get_groceries|B-ScrEv_get_groceries	
+9-9	out	O	I-ScrEv_get_groceries	
+9-10	a	O	O	
+9-11	nice	O	O	
+9-12	loaf	B-Head_of_Partitive	O	
+9-13	of	O	O	
+9-14	rye	B-ScrPart_groceries	O	
+9-15	bread	I-ScrPart_groceries|B-ScrPart_groceries	O	
+9-16	to	O	O	
+9-17	put	O	B-UnrelEv	
+9-18	the	O	O	
+9-19	turkey	B-ScrPart_groceries	O	
+9-20	on	O	O	
+9-21	.	O	O	
+
+#id=10
+#text=In the canned goods area , we picked out soup and white beans ; then we went to the pasta area to get pasta and sauce .
+10-1	In	O	O	
+10-2	the	O	O	
+10-3	canned	B-ScrPart_section	B-UnrelEv	
+10-4	goods	I-ScrPart_section	O	
+10-5	area	I-ScrPart_section|B-ScrPart_section	O	
+10-6	,	O	O	
+10-7	we	B-ScrPart_shopper	O	
+10-8	picked	O	B-ScrEv_get_groceries|B-ScrEv_get_groceries	
+10-9	out	O	I-ScrEv_get_groceries	
+10-10	soup	B-ScrPart_groceries	O	
+10-11	and	O	O	
+10-12	white	B-ScrPart_groceries	O	
+10-13	beans	I-ScrPart_groceries|B-ScrPart_groceries	O	
+10-14	;	O	O	
+10-15	then	O	O	
+10-16	we	B-ScrPart_shopper	O	
+10-17	went	O	B-ScrEv_move_section	
+10-18	to	O	O	
+10-19	the	O	O	
+10-20	pasta	B-ScrPart_section	O	
+10-21	area	I-ScrPart_section|B-ScrPart_section	O	
+10-22	to	O	O	
+10-23	get	O	B-ScrEv_get_groceries	
+10-24	pasta	B-ScrPart_groceries	O	
+10-25	and	O	O	
+10-26	sauce	B-ScrPart_groceries	O	
+10-27	.	O	O	
+
+#id=11
+#text=In the meat area , we picked up some chicken breasts and Italian sausage .
+11-1	In	O	O	
+11-2	the	O	O	
+11-3	meat	B-ScrPart_section	O	
+11-4	area	I-ScrPart_section|B-ScrPart_section	O	
+11-5	,	O	O	
+11-6	we	B-ScrPart_shopper	O	
+11-7	picked	O	B-ScrEv_get_groceries|B-ScrEv_get_groceries	
+11-8	up	O	I-ScrEv_get_groceries	
+11-9	some	O	O	
+11-10	chicken	B-ScrPart_groceries	O	
+11-11	breasts	I-ScrPart_groceries|B-ScrPart_groceries	O	
+11-12	and	O	O	
+11-13	Italian	O	O	
+11-14	sausage	B-ScrPart_groceries	O	
+11-15	.	O	O	
+
+#id=12
+#text=Then we went to the dairy refrigerators and we each picked out some flavors of yogurt we like , and got milk and butter and eggs .
+12-1	Then	O	O	
+12-2	we	B-ScrPart_shopper	O	
+12-3	went	O	B-ScrEv_move_section	
+12-4	to	O	O	
+12-5	the	O	O	
+12-6	dairy	B-ScrPart_section	O	
+12-7	refrigerators	I-ScrPart_section|B-ScrPart_section	O	
+12-8	and	O	O	
+12-9	we	B-ScrPart_shopper	O	
+12-10	each	O	O	
+12-11	picked	O	B-ScrEv_get_groceries|B-ScrEv_get_groceries	
+12-12	out	O	I-ScrEv_get_groceries	
+12-13	some	O	O	
+12-14	flavors	B-Head_of_Partitive	O	
+12-15	of	O	O	
+12-16	yogurt	B-ScrPart_groceries	O	
+12-17	we	B-ScrPart_shopper	O	
+12-18	like	O	B-UnrelEv	
+12-19	,	O	O	
+12-20	and	O	O	
+12-21	got	O	B-ScrEv_get_groceries	
+12-22	milk	B-ScrPart_groceries	O	
+12-23	and	O	O	
+12-24	butter	B-ScrPart_groceries	O	
+12-25	and	O	O	
+12-26	eggs	B-ScrPart_groceries	O	
+12-27	.	O	O	
+
+#id=13
+#text=We were nearly done , so my husband checked the list again and we saw we had forgotten tin foil and toilet paper , so we went back and got those two things .
+13-1	We	B-ScrPart_shopper	O	
+13-2	were	O	O	
+13-3	nearly	O	O	
+13-4	done	O	B-UnrelEv	
+13-5	,	O	O	
+13-6	so	O	O	
+13-7	my	B-ScrPart_shopper	O	
+13-8	husband	B-ScrPart_shopper	O	
+13-9	checked	O	B-ScrEv_check_list	
+13-10	the	O	O	
+13-11	list	B-ScrPart_grocery_list	O	
+13-12	again	O	O	
+13-13	and	O	O	
+13-14	we	B-ScrPart_shopper	O	
+13-15	saw	O	O	
+13-16	we	B-ScrPart_shopper	O	
+13-17	had	O	O	
+13-18	forgotten	O	B-UnrelEv	
+13-19	tin	B-ScrPart_other	O	
+13-20	foil	I-ScrPart_other|B-ScrPart_other	O	
+13-21	and	O	O	
+13-22	toilet	B-ScrPart_other	O	
+13-23	paper	I-ScrPart_other|B-ScrPart_other	O	
+13-24	,	O	O	
+13-25	so	O	O	
+13-26	we	B-ScrPart_shopper	O	
+13-27	went	O	B-ScrEv_move_section|B-ScrEv_move_section	
+13-28	back	O	I-ScrEv_move_section	
+13-29	and	O	O	
+13-30	got	O	B-ScrEv_get_groceries	
+13-31	those	O	O	
+13-32	two	O	O	
+13-33	things	B-ScrPart_other	O	
+13-34	.	O	O	
+
+#id=14
+#text=Then we went to the check-out where we put all our groceries on a conveyor belt and the clerk scanned each item in an electronic scanner to find out what it cost .
+14-1	Then	O	O	
+14-2	we	B-ScrPart_shopper	O	
+14-3	went	O	B-ScrEv_go_checkout	
+14-4	to	O	O	
+14-5	the	O	O	
+14-6	check-out	B-ScrPart_cash_desk	O	
+14-7	where	O	O	
+14-8	we	B-ScrPart_shopper	O	
+14-9	put	O	B-ScrEv_put_conveyor	
+14-10	all	O	O	
+14-11	our	B-ScrPart_shopper	O	
+14-12	groceries	B-ScrPart_groceries	O	
+14-13	on	O	O	
+14-14	a	O	O	
+14-15	conveyor	B-ScrPart_conveyor_belt	O	
+14-16	belt	I-ScrPart_conveyor_belt|B-ScrPart_conveyor_belt	O	
+14-17	and	O	O	
+14-18	the	O	O	
+14-19	clerk	B-ScrPart_grocery_staff	O	
+14-20	scanned	O	B-ScrEv_cashier_scan/weight	
+14-21	each	O	O	
+14-22	item	B-ScrPart_groceries	O	
+14-23	in	O	O	
+14-24	an	O	O	
+14-25	electronic	B-ScrPart_other	O	
+14-26	scanner	I-ScrPart_other|B-ScrPart_other	O	
+14-27	to	O	O	
+14-28	find	O	B-ScrEv_cashier_scan/weight|B-ScrEv_cashier_scan/weight	
+14-29	out	O	I-ScrEv_cashier_scan/weight	
+14-30	what	O	O	
+14-31	it	B-ScrPart_groceries	O	
+14-32	cost	O	B-RelNScrEv	
+14-33	.	O	O	
+
+#id=15
+#text=She told us the total , and I swiped my bank card through an electronic reader to pay .
+15-1	She	B-ScrPart_grocery_staff	O	
+15-2	told	O	B-UnrelEv	
+15-3	us	B-ScrPart_shopper	O	
+15-4	the	O	O	
+15-5	total	B-ScrPart_price	O	
+15-6	,	O	O	
+15-7	and	O	O	
+15-8	I	B-ScrPart_shopper	O	
+15-9	swiped	O	B-ScrEv_pay	
+15-10	my	B-ScrPart_shopper	O	
+15-11	bank	B-ScrPart_payment_means	O	
+15-12	card	I-ScrPart_payment_means|B-ScrPart_payment_means	O	
+15-13	through	O	O	
+15-14	an	O	O	
+15-15	electronic	B-ScrPart_other	O	
+15-16	reader	I-ScrPart_other|B-ScrPart_other	O	
+15-17	to	O	O	
+15-18	pay	O	B-ScrEv_pay	
+15-19	.	O	O	
+
+#id=16
+#text=Meanwhile , a bagger was putting our groceries into re-usable shopping bags that we had brought with us .
+16-1	Meanwhile	O	O	
+16-2	,	O	O	
+16-3	a	O	O	
+16-4	bagger	B-ScrPart_grocery_staff	O	
+16-5	was	O	O	
+16-6	putting	O	B-ScrEv_pack_groceries	
+16-7	our	B-ScrPart_shopper	O	
+16-8	groceries	B-ScrPart_groceries	O	
+16-9	into	O	O	
+16-10	re-usable	O	O	
+16-11	shopping	B-ScrPart_shopping_bags	O	
+16-12	bags	I-ScrPart_shopping_bags|B-ScrPart_shopping_bags	O	
+16-13	that	O	O	
+16-14	we	B-ScrPart_shopper	O	
+16-15	had	O	O	
+16-16	brought	O	B-ScrEv_take_bags	
+16-17	with	O	O	
+16-18	us	B-ScrPart_shopper	O	
+16-19	.	O	O	
+
+#id=17
+#text=He put the bags back into the cart .
+17-1	He	B-ScrPart_grocery_staff	O	
+17-2	put	O	B-ScrEv_other	
+17-3	the	O	O	
+17-4	bags	B-ScrPart_shopping_bags	O	
+17-5	back	O	O	
+17-6	into	O	O	
+17-7	the	O	O	
+17-8	cart	B-ScrPart_shopping_cart/basket	O	
+17-9	.	O	O	
+
+#id=18
+#text=We got a receipt from the clerk and pushed the cart out to our car , where we moved the bags into the back seat .
+18-1	We	B-ScrPart_shopper	O	
+18-2	got	O	B-ScrEv_get_receipt	
+18-3	a	O	O	
+18-4	receipt	B-ScrPart_receipt	O	
+18-5	from	O	O	
+18-6	the	O	O	
+18-7	clerk	B-ScrPart_grocery_staff	O	
+18-8	and	O	O	
+18-9	pushed	O	B-ScrEv_bring_vehicle	
+18-10	the	O	O	
+18-11	cart	B-ScrPart_shopping_cart/basket	O	
+18-12	out	O	O	
+18-13	to	O	O	
+18-14	our	B-ScrPart_shopper	O	
+18-15	car	B-ScrPart_vehicle	O	
+18-16	,	O	O	
+18-17	where	O	O	
+18-18	we	B-ScrPart_shopper	O	
+18-19	moved	O	B-ScrEv_bring_vehicle	
+18-20	the	O	O	
+18-21	bags	B-ScrPart_shopping_bags	O	
+18-22	into	O	O	
+18-23	the	O	O	
+18-24	back	B-ScrPart_vehicle	O	
+18-25	seat	I-ScrPart_vehicle|B-ScrPart_vehicle	O	
+18-26	.	O	O	
+
+#id=19
+#text=Then my husband put the cart in little corral in the parking lot that keeps the carts away from people 's cars , and we got in our car and went home . 
+19-1	Then	O	O	
+19-2	my	B-ScrPart_shopper	O	
+19-3	husband	B-ScrPart_shopper	O	
+19-4	put	O	B-ScrEv_return_shop_cart	
+19-5	the	O	O	
+19-6	cart	B-ScrPart_shopping_cart/basket	O	
+19-7	in	O	O	
+19-8	little	O	O	
+19-9	corral	B-NPart	O	
+19-10	in	O	O	
+19-11	the	O	O	
+19-12	parking	B-NPart	O	
+19-13	lot	I-NPart|B-NPart	O	
+19-14	that	O	O	
+19-15	keeps	O	B-UnrelEv	
+19-16	the	O	O	
+19-17	carts	B-ScrPart_shopping_cart/basket	O	
+19-18	away	O	O	
+19-19	from	O	O	
+19-20	people	B-ScrPart_shopper	O	
+19-21	's	O	O	
+19-22	cars	B-ScrPart_vehicle	O	
+19-23	,	O	O	
+19-24	and	O	O	
+19-25	we	B-ScrPart_shopper	O	
+19-26	got	O	B-ScrEv_leave|B-ScrEv_leave	
+19-27	in	O	I-ScrEv_leave	
+19-28	our	B-ScrPart_shopper	O	
+19-29	car	B-ScrPart_vehicle	O	
+19-30	and	O	O	
+19-31	went	O	B-ScrEv_leave	
+19-32	home	B-NPart	O	
+19-33	.	O	O	
+

@@ -1,0 +1,388 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Yesterday I did my weekly grocery shopping .
+1-1	Yesterday	B-NPart	O	_	_	
+1-2	I	B-NPart	O	_	_	
+1-3	did	O	B-UnrelEv	_	_	
+1-4	my	B-ScrPart_shopper	O	_	_	
+1-5	weekly	O	O	_	_	
+1-6	grocery	B-ScrPart_groceries	B-Evoking	_	_	
+1-7	shopping	O	I-Evoking|B-ScrEv_get_groceries	_	_	
+1-8	.	O	O	_	_	
+
+#id=2
+#text=I began the day by checking my cupboards and refrigerator to see what we were out of or running low on .
+2-1	I	B-ScrPart_shopper	O	_	_	
+2-2	began	O	B-UnrelEv	_	_	
+2-3	the	O	O	_	_	
+2-4	day	B-NPart	O	_	_	
+2-5	by	O	O	_	_	
+2-6	checking	O	B-RelNScrEv	_	_	
+2-7	my	B-ScrPart_shopper	O	_	_	
+2-8	cupboards	B-NPart	O	_	_	
+2-9	and	O	O	_	_	
+2-10	refrigerator	B-NPart	O	_	_	
+2-11	to	O	O	_	_	
+2-12	see	O	B-UnrelEv	_	_	
+2-13	what	O	O	_	_	
+2-14	we	B-NPart	O	_	_	
+2-15	were	O	O	_	_	
+2-16	out	O	O	_	_	
+2-17	of	O	O	_	_	
+2-18	or	O	O	_	_	
+2-19	running	O	B-UnrelEv	_	_	
+2-20	low	O	I-UnrelEv	_	_	
+2-21	on	O	O	_	_	
+2-22	.	O	O	_	_	
+
+#id=3
+#text=As I came across items I needed , I wrote them down on a piece of paper , which I planned to take with me to the store .
+3-1	As	O	O	_	_	
+3-2	I	B-ScrPart_shopper	O	_	_	
+3-3	came	O	B-UnrelEv	_	_	
+3-4	across	O	I-UnrelEv	_	_	
+3-5	items	B-ScrPart_groceries	O	_	_	
+3-6	I	B-ScrPart_shopper	O	_	_	
+3-7	needed	O	O	_	_	
+3-8	,	O	O	_	_	
+3-9	I	B-ScrPart_shopper	O	_	_	
+3-10	wrote	O	B-ScrEv_make_list	_	_	
+3-11	them	B-ScrPart_groceries	O	_	_	
+3-12	down	O	O	_	_	
+3-13	on	O	O	_	_	
+3-14	a	O	O	_	_	
+3-15	piece	B-ScrPart_grocery_list|B-ScrPart_grocery_list	O	_	_	
+3-16	of	I-ScrPart_grocery_list	O	_	_	
+3-17	paper	I-ScrPart_grocery_list|B-ScrPart_grocery_list	O	_	_	
+3-18	,	O	O	_	_	
+3-19	which	O	O	_	_	
+3-20	I	B-ScrPart_shopper	O	_	_	
+3-21	planned	O	B-UnrelEv	_	_	
+3-22	to	O	O	_	_	
+3-23	take	O	B-UnrelEv	_	_	
+3-24	with	O	O	_	_	
+3-25	me	B-ScrPart_shopper	O	_	_	
+3-26	to	O	O	_	_	
+3-27	the	O	O	_	_	
+3-28	store	B-ScrPart_grocery_shop	O	_	_	
+3-29	.	O	O	_	_	
+
+#id=4
+#text=That way , I would n't have to rely on my memory and forget anything .
+4-1	That	O	O	_	_	
+4-2	way	B-No_label	O	_	_	
+4-3	,	O	O	_	_	
+4-4	I	B-ScrPart_shopper	O	_	_	
+4-5	would	O	O	_	_	
+4-6	n't	O	O	_	_	
+4-7	have	O	O	_	_	
+4-8	to	O	O	_	_	
+4-9	rely	O	B-UnrelEv	_	_	
+4-10	on	O	O	_	_	
+4-11	my	B-ScrPart_shopper	O	_	_	
+4-12	memory	B-NPart	O	_	_	
+4-13	and	O	O	_	_	
+4-14	forget	O	B-UnrelEv	_	_	
+4-15	anything	B-No_label	O	_	_	
+4-16	.	O	O	_	_	
+
+#id=5
+#text=I gathered together my cloth grocery bags and put them in the car , then drove to the store .
+5-1	I	B-ScrPart_shopper	O	_	_	
+5-2	gathered	O	B-ScrEv_take_bags	_	_	
+5-3	together	O	O	_	_	
+5-4	my	B-ScrPart_shopper	O	_	_	
+5-5	cloth	O	O	_	_	
+5-6	grocery	B-ScrPart_shopping_bags	O	_	_	
+5-7	bags	I-ScrPart_shopping_bags|B-ScrPart_shopping_bags	O	_	_	
+5-8	and	O	O	_	_	
+5-9	put	O	B-ScrEv_take_bags	_	_	
+5-10	them	B-ScrPart_shopping_bags	O	_	_	
+5-11	in	O	O	_	_	
+5-12	the	O	O	_	_	
+5-13	car	B-ScrPart_vehicle	O	_	_	
+5-14	,	O	O	_	_	
+5-15	then	O	O	_	_	
+5-16	drove	O	B-ScrEv_go_grocery	_	_	
+5-17	to	O	O	_	_	
+5-18	the	O	O	_	_	
+5-19	store	B-ScrPart_grocery_shop	O	_	_	
+5-20	.	O	O	_	_	
+
+#id=6
+#text=Before heading in , I got a grocery cart from outside the store , and took out my shopping list .
+6-1	Before	O	O	_	_	
+6-2	heading	O	B-ScrEv_enter	_	_	
+6-3	in	O	O	_	_	
+6-4	,	O	O	_	_	
+6-5	I	B-ScrPart_shopper	O	_	_	
+6-6	got	O	B-ScrEv_take_shop_cart	_	_	
+6-7	a	O	O	_	_	
+6-8	grocery	B-ScrPart_shopping_cart/basket	O	_	_	
+6-9	cart	I-ScrPart_shopping_cart/basket|B-ScrPart_shopping_cart/basket	O	_	_	
+6-10	from	O	O	_	_	
+6-11	outside	O	O	_	_	
+6-12	the	O	O	_	_	
+6-13	store	B-ScrPart_grocery_shop	O	_	_	
+6-14	,	O	O	_	_	
+6-15	and	O	O	_	_	
+6-16	took	O	B-ScrEv_check_list	_	_	
+6-17	out	O	I-ScrEv_check_list	_	_	
+6-18	my	B-ScrPart_shopper	O	_	_	
+6-19	shopping	B-ScrPart_grocery_list	O	_	_	
+6-20	list	I-ScrPart_grocery_list|B-ScrPart_grocery_list	O	_	_	
+6-21	.	O	O	_	_	
+
+#id=7
+#text=As I went up and down the aisles , I crossed off items on my grocery list as I placed the items in the cart .
+7-1	As	O	O	_	_	
+7-2	I	B-ScrPart_shopper	O	_	_	
+7-3	went	O	B-ScrEv_move_section	_	_	
+7-4	up	O	O	_	_	
+7-5	and	O	O	_	_	
+7-6	down	O	O	_	_	
+7-7	the	O	O	_	_	
+7-8	aisles	B-ScrPart_section	O	_	_	
+7-9	,	O	O	_	_	
+7-10	I	B-ScrPart_shopper	O	_	_	
+7-11	crossed	O	B-ScrEv_check_off	_	_	
+7-12	off	O	I-ScrEv_check_off	_	_	
+7-13	items	B-ScrPart_groceries	O	_	_	
+7-14	on	O	O	_	_	
+7-15	my	B-ScrPart_shopper	O	_	_	
+7-16	grocery	B-ScrPart_grocery_list	O	_	_	
+7-17	list	I-ScrPart_grocery_list|B-ScrPart_grocery_list	O	_	_	
+7-18	as	O	O	_	_	
+7-19	I	B-ScrPart_shopper	O	_	_	
+7-20	placed	O	B-ScrEv_get_groceries	_	_	
+7-21	the	O	O	_	_	
+7-22	items	B-ScrPart_groceries	O	_	_	
+7-23	in	O	O	_	_	
+7-24	the	O	O	_	_	
+7-25	cart	B-ScrPart_shopping_cart/basket	O	_	_	
+7-26	.	O	O	_	_	
+
+#id=8
+#text=When all the items on my list were in the cart , I wheeled the cart to the check-out line .
+8-1	When	O	O	_	_	
+8-2	all	O	O	_	_	
+8-3	the	O	O	_	_	
+8-4	items	B-ScrPart_groceries	O	_	_	
+8-5	on	O	O	_	_	
+8-6	my	B-ScrPart_shopper	O	_	_	
+8-7	list	B-ScrPart_grocery_list	O	_	_	
+8-8	were	O	B-UnrelEv	_	_	
+8-9	in	O	O	_	_	
+8-10	the	O	O	_	_	
+8-11	cart	B-ScrPart_shopping_cart/basket	O	_	_	
+8-12	,	O	O	_	_	
+8-13	I	B-ScrPart_shopper	O	_	_	
+8-14	wheeled	O	B-ScrEv_go_checkout	_	_	
+8-15	the	O	O	_	_	
+8-16	cart	B-ScrPart_shopping_cart/basket	O	_	_	
+8-17	to	O	O	_	_	
+8-18	the	O	O	_	_	
+8-19	check-out	B-ScrPart_line	O	_	_	
+8-20	line	I-ScrPart_line|B-ScrPart_line	O	_	_	
+8-21	.	O	O	_	_	
+
+#id=9
+#text=I had to wait in line since there were some people ahead of me .
+9-1	I	B-ScrPart_shopper	O	_	_	
+9-2	had	O	O	_	_	
+9-3	to	O	O	_	_	
+9-4	wait	O	B-ScrEv_wait	_	_	
+9-5	in	O	O	_	_	
+9-6	line	B-ScrPart_line	O	_	_	
+9-7	since	O	O	_	_	
+9-8	there	O	O	_	_	
+9-9	were	O	B-UnrelEv	_	_	
+9-10	some	O	O	_	_	
+9-11	people	B-ScrPart_shopper	O	_	_	
+9-12	ahead	O	O	_	_	
+9-13	of	O	O	_	_	
+9-14	me	B-ScrPart_shopper	O	_	_	
+9-15	.	O	O	_	_	
+
+#id=10
+#text=When it was my turn , I took the items out of my cart and placed them on the conveyor belt that brought them up to the cashier .
+10-1	When	O	O	_	_	
+10-2	it	B-No_label	O	_	_	
+10-3	was	O	B-UnrelEv	_	_	
+10-4	my	B-ScrPart_shopper	O	_	_	
+10-5	turn	B-No_label	O	_	_	
+10-6	,	O	O	_	_	
+10-7	I	B-ScrPart_shopper	O	_	_	
+10-8	took	O	B-ScrEv_put_conveyor	_	_	
+10-9	the	O	O	_	_	
+10-10	items	B-ScrPart_groceries	O	_	_	
+10-11	out	O	O	_	_	
+10-12	of	O	O	_	_	
+10-13	my	B-ScrPart_shopper	O	_	_	
+10-14	cart	B-ScrPart_shopping_cart/basket	O	_	_	
+10-15	and	O	O	_	_	
+10-16	placed	O	B-ScrEv_put_conveyor	_	_	
+10-17	them	B-ScrPart_groceries	O	_	_	
+10-18	on	O	O	_	_	
+10-19	the	O	O	_	_	
+10-20	conveyor	B-ScrPart_conveyor_belt	O	_	_	
+10-21	belt	I-ScrPart_conveyor_belt|B-ScrPart_conveyor_belt	O	_	_	
+10-22	that	O	O	_	_	
+10-23	brought	O	B-UnrelEv	_	_	
+10-24	them	B-ScrPart_groceries	O	_	_	
+10-25	up	O	O	_	_	
+10-26	to	O	O	_	_	
+10-27	the	O	O	_	_	
+10-28	cashier	B-ScrPart_grocery_staff	O	_	_	
+10-29	.	O	O	_	_	
+
+#id=11
+#text=She took each item and swiped its bar code over a screen that gave her the price .
+11-1	She	B-ScrPart_grocery_staff	O	_	_	
+11-2	took	O	B-UnrelEv	_	_	
+11-3	each	O	O	_	_	
+11-4	item	B-ScrPart_groceries	O	_	_	
+11-5	and	O	O	_	_	
+11-6	swiped	O	B-ScrEv_cashier_scan/weight	_	_	
+11-7	its	B-ScrPart_groceries	O	_	_	
+11-8	bar	B-NPart	O	_	_	
+11-9	code	I-NPart|B-NPart	O	_	_	
+11-10	over	O	O	_	_	
+11-11	a	O	O	_	_	
+11-12	screen	B-NPart	O	_	_	
+11-13	that	O	O	_	_	
+11-14	gave	O	B-UnrelEv	_	_	
+11-15	her	B-ScrPart_grocery_staff	O	_	_	
+11-16	the	O	O	_	_	
+11-17	price	B-ScrPart_price	O	_	_	
+11-18	.	O	O	_	_	
+
+#id=12
+#text=When all the items had been checked out , she told me what the total would be .
+12-1	When	O	O	_	_	
+12-2	all	O	O	_	_	
+12-3	the	O	O	_	_	
+12-4	items	B-ScrPart_groceries	O	_	_	
+12-5	had	O	O	_	_	
+12-6	been	O	O	_	_	
+12-7	checked	O	B-ScrEv_cashier_scan/weight	_	_	
+12-8	out	O	I-ScrEv_cashier_scan/weight	_	_	
+12-9	,	O	O	_	_	
+12-10	she	B-ScrPart_grocery_staff	O	_	_	
+12-11	told	O	B-ScrEv_other	_	_	
+12-12	me	B-ScrPart_shopper	O	_	_	
+12-13	what	O	O	_	_	
+12-14	the	O	O	_	_	
+12-15	total	B-ScrPart_price	O	_	_	
+12-16	would	O	O	_	_	
+12-17	be	O	B-UnrelEv	_	_	
+12-18	.	O	O	_	_	
+
+#id=13
+#text=I paid for the groceries , and then wheeled my cart over to an area where I could place the groceries into my reusable bags .
+13-1	I	B-ScrPart_shopper	O	_	_	
+13-2	paid	O	B-ScrEv_pay	_	_	
+13-3	for	O	O	_	_	
+13-4	the	O	O	_	_	
+13-5	groceries	B-ScrPart_groceries	O	_	_	
+13-6	,	O	O	_	_	
+13-7	and	O	O	_	_	
+13-8	then	O	O	_	_	
+13-9	wheeled	O	B-ScrEv_move_section	_	_	
+13-10	my	B-ScrPart_shopper	O	_	_	
+13-11	cart	B-ScrPart_shopping_cart/basket	O	_	_	
+13-12	over	O	O	_	_	
+13-13	to	O	O	_	_	
+13-14	an	O	O	_	_	
+13-15	area	B-ScrPart_section	O	_	_	
+13-16	where	O	O	_	_	
+13-17	I	B-ScrPart_shopper	O	_	_	
+13-18	could	O	O	_	_	
+13-19	place	O	B-ScrEv_pack_groceries	_	_	
+13-20	the	O	O	_	_	
+13-21	groceries	B-ScrPart_groceries	O	_	_	
+13-22	into	O	O	_	_	
+13-23	my	B-ScrPart_shopper	O	_	_	
+13-24	reusable	B-ScrPart_shopping_bags	O	_	_	
+13-25	bags	I-ScrPart_shopping_bags|B-ScrPart_shopping_bags	O	_	_	
+13-26	.	O	O	_	_	
+
+#id=14
+#text=Once that was done , I pushed the cart through the parking lot to my car , where I loaded the bags of groceries into my car , and drove home .
+14-1	Once	O	O	_	_	
+14-2	that	O	O	_	_	
+14-3	was	O	O	_	_	
+14-4	done	O	B-UnrelEv	_	_	
+14-5	,	O	O	_	_	
+14-6	I	B-ScrPart_shopper	O	_	_	
+14-7	pushed	O	B-ScrEv_bring_vehicle	_	_	
+14-8	the	O	O	_	_	
+14-9	cart	B-ScrPart_shopping_cart/basket	O	_	_	
+14-10	through	O	O	_	_	
+14-11	the	O	O	_	_	
+14-12	parking	B-NPart	O	_	_	
+14-13	lot	I-NPart|B-NPart	O	_	_	
+14-14	to	O	O	_	_	
+14-15	my	B-ScrPart_shopper	O	_	_	
+14-16	car	B-ScrPart_vehicle	O	_	_	
+14-17	,	O	O	_	_	
+14-18	where	O	O	_	_	
+14-19	I	B-ScrPart_shopper	O	_	_	
+14-20	loaded	O	B-ScrEv_bring_vehicle	_	_	
+14-21	the	O	O	_	_	
+14-22	bags	B-ScrPart_shopping_bags	O	_	_	
+14-23	of	O	O	_	_	
+14-24	groceries	B-ScrPart_groceries	O	_	_	
+14-25	into	O	O	_	_	
+14-26	my	B-ScrPart_shopper	O	_	_	
+14-27	car	B-ScrPart_vehicle	O	_	_	
+14-28	,	O	O	_	_	
+14-29	and	O	O	_	_	
+14-30	drove	O	B-ScrEv_leave	_	_	
+14-31	home	B-NPart	O	_	_	
+14-32	.	O	O	_	_	
+
+#id=15
+#text=When I got home , I took the bags into the house and removed all the items from them .
+15-1	When	O	O	_	_	
+15-2	I	B-ScrPart_shopper	O	_	_	
+15-3	got	O	B-RelNScrEv	_	_	
+15-4	home	B-NPart	O	webanno.custom.Corefchains_	14-31	
+15-5	,	O	O	_	_	
+15-6	I	B-ScrPart_shopper	O	_	_	
+15-7	took	O	B-RelNScrEv	_	_	
+15-8	the	O	O	_	_	
+15-9	bags	B-ScrPart_shopping_bags	O	_	_	
+15-10	into	O	O	_	_	
+15-11	the	O	O	_	_	
+15-12	house	B-NPart	O	_	_	
+15-13	and	O	O	_	_	
+15-14	removed	O	B-RelNScrEv	_	_	
+15-15	all	O	O	_	_	
+15-16	the	O	O	_	_	
+15-17	items	B-ScrPart_groceries	O	_	_	
+15-18	from	O	O	_	_	
+15-19	them	B-ScrPart_shopping_bags	O	_	_	
+15-20	.	O	O	_	_	
+
+#id=16
+#text=Putting the groceries away in the cupboards and refrigerator was the final step of grocery shopping day . 
+16-1	Putting	O	B-RelNScrEv	_	_	
+16-2	the	O	O	_	_	
+16-3	groceries	B-ScrPart_groceries	O	_	_	
+16-4	away	O	O	_	_	
+16-5	in	O	O	_	_	
+16-6	the	O	O	_	_	
+16-7	cupboards	B-NPart	O	webanno.custom.Corefchains_	2-8	
+16-8	and	O	O	_	_	
+16-9	refrigerator	B-NPart	O	webanno.custom.Corefchains_	2-10	
+16-10	was	O	B-UnrelEv	_	_	
+16-11	the	O	O	_	_	
+16-12	final	O	O	_	_	
+16-13	step	B-No_label	O	_	_	
+16-14	of	O	O	_	_	
+16-15	grocery	B-ScrPart_groceries	B-Evoking	_	_	
+16-16	shopping	O	I-Evoking|B-ScrEv_get_groceries	_	_	
+16-17	day	B-NPart	O	webanno.custom.Corefchains_	2-4	
+16-18	.	O	O	_	_	
+

@@ -1,0 +1,188 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=It was Arbor day and because of the occasion I decided to plant a tree in my backyard .
+1-1	It	O	O	_	_	
+1-2	was	B-UnrelEv	O	_	_	
+1-3	Arbor	O	O	_	_	
+1-4	day	O	O	_	_	
+1-5	and	O	O	_	_	
+1-6	because	O	O	_	_	
+1-7	of	O	O	_	_	
+1-8	the	O	O	_	_	
+1-9	occasion	O	O	_	_	
+1-10	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	1-17	
+1-11	decided	B-UnrelEv	O	_	_	
+1-12	to	O	O	_	_	
+1-13	plant	B-Evoking	O	_	_	
+1-14	a	I-Evoking	O	_	_	
+1-15	tree	I-Evoking	B-ScrPart_tree	webanno.custom.Corefchains_	2-3	
+1-16	in	O	O	_	_	
+1-17	my	O	B-ScrPart_gardener	webanno.custom.Corefchains_	2-1	
+1-18	backyard	O	B-ScrPart_location_garden	_	_	
+1-19	.	O	O	_	_	
+
+#id=2
+#text=I figured it would help the environment as well as be an oxygen source and in a few years I could maybe cut it down for firewood .
+2-1	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	2-20	
+2-2	figured	B-UnrelEv	O	_	_	
+2-3	it	O	B-ScrPart_tree	webanno.custom.Corefchains_	2-24	
+2-4	would	O	O	_	_	
+2-5	help	B-???	O	_	_	
+2-6	the	O	O	_	_	
+2-7	environment	O	B-NPart	_	_	
+2-8	as	O	O	_	_	
+2-9	well	O	O	_	_	
+2-10	as	O	O	_	_	
+2-11	be	B-UnrelEv	O	_	_	
+2-12	an	O	O	_	_	
+2-13	oxygen	O	O	_	_	
+2-14	source	O	O	_	_	
+2-15	and	O	O	_	_	
+2-16	in	O	O	_	_	
+2-17	a	O	O	_	_	
+2-18	few	O	O	_	_	
+2-19	years	O	B-ScrPart_time	webanno.custom.Corefchains_	7-15	
+2-20	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	3-1	
+2-21	could	O	O	_	_	
+2-22	maybe	O	O	_	_	
+2-23	cut	B-UnrelEv	O	_	_	
+2-24	it	O	B-ScrPart_tree	webanno.custom.Corefchains_	4-26	
+2-25	down	O	O	_	_	
+2-26	for	O	O	_	_	
+2-27	firewood	O	O	_	_	
+2-28	.	O	O	_	_	
+
+#id=3
+#text=I decided to go down to my local Home Depot and buy tree seeds and a shovel .
+3-1	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	3-7	
+3-2	decided	B-UnrelEv	O	_	_	
+3-3	to	O	O	_	_	
+3-4	go	B-RelNScrEv	O	_	_	
+3-5	down	I-RelNScrEv	O	_	_	
+3-6	to	O	O	_	_	
+3-7	my	O	B-ScrPart_gardener	webanno.custom.Corefchains_	4-1	
+3-8	local	O	O	_	_	
+3-9	Home	O	B-ScrPart_shop	_	_	
+3-10	Depot	O	I-ScrPart_shop	_	_	
+3-11	and	O	O	_	_	
+3-12	buy	B-ScrEv_get_tree	O	_	_	
+3-13	tree	O	B-ScrPart_seeds	_	_	
+3-14	seeds	O	I-ScrPart_seeds|B-ScrPart_seeds	webanno.custom.Corefchains_	5-5	
+3-15	and	O	O	_	_	
+3-16	a	O	O	_	_	
+3-17	shovel	O	B-ScrPart_gardening_tool	_	_	
+3-18	.	O	O	_	_	
+
+#id=4
+#text=I then went back to my house and started uprooting the earth , creating a nice hole of dirt in which to plant my new tree .
+4-1	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	4-6	
+4-2	then	O	O	_	_	
+4-3	went	B-RelNScrEv	O	_	_	
+4-4	back	I-RelNScrEv	O	_	_	
+4-5	to	O	O	_	_	
+4-6	my	O	B-ScrPart_gardener	webanno.custom.Corefchains_	4-24	
+4-7	house	O	B-NPart	_	_	
+4-8	and	O	O	_	_	
+4-9	started	B-UnrelEv	O	_	_	
+4-10	uprooting	B-ScrEv_dug_hole	O	_	_	
+4-11	the	O	O	_	_	
+4-12	earth	O	B-ScrPart_dirt	webanno.custom.Corefchains_	4-19	
+4-13	,	O	O	_	_	
+4-14	creating	B-ScrEv_dug_hole	O	_	_	
+4-15	a	O	O	_	_	
+4-16	nice	O	O	_	_	
+4-17	hole	O	B-ScrPart_hole	webanno.custom.Corefchains_	4-21	
+4-18	of	O	O	_	_	
+4-19	dirt	O	B-ScrPart_dirt	webanno.custom.Corefchains_	5-11	
+4-20	in	O	O	_	_	
+4-21	which	O	B-ScrPart_hole	_	_	
+4-22	to	O	O	_	_	
+4-23	plant	B-ScrEv_place_root	O	_	_	
+4-24	my	O	B-ScrPart_gardener	webanno.custom.Corefchains_	5-1	
+4-25	new	O	O	_	_	
+4-26	tree	O	B-ScrPart_tree	webanno.custom.Corefchains_	6-5	
+4-27	.	O	O	_	_	
+
+#id=5
+#text=I got the tree seed and planted it into the dirt and covered it into the ground .
+5-1	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	7-1	
+5-2	got	B-ScrEv_get_tree	O	_	_	
+5-3	the	O	O	_	_	
+5-4	tree	O	B-ScrPart_seeds	_	_	
+5-5	seed	O	I-ScrPart_seeds|B-ScrPart_seeds	webanno.custom.Corefchains_	5-8	
+5-6	and	O	O	_	_	
+5-7	planted	B-ScrEv_place_root	O	_	_	
+5-8	it	O	B-ScrPart_seeds	webanno.custom.Corefchains_	5-14	
+5-9	into	O	O	_	_	
+5-10	the	O	O	_	_	
+5-11	dirt	O	B-ScrPart_dirt	webanno.custom.Corefchains_	5-17	
+5-12	and	O	O	_	_	
+5-13	covered	B-ScrEv_refill_hole	O	_	_	
+5-14	it	O	B-ScrPart_seeds	_	_	
+5-15	into	O	O	_	_	
+5-16	the	O	O	_	_	
+5-17	ground	O	B-ScrPart_dirt	_	_	
+5-18	.	O	O	_	_	
+
+#id=6
+#text=The good thing about trees are they are low maintenance and pretty self sufficient unlike other plants or flowers .
+6-1	The	O	O	_	_	
+6-2	good	O	O	_	_	
+6-3	thing	O	O	_	_	
+6-4	about	O	O	_	_	
+6-5	trees	O	B-ScrPart_tree	webanno.custom.Corefchains_	6-7	
+6-6	are	B-UnrelEv	O	_	_	
+6-7	they	O	B-ScrPart_tree	webanno.custom.Corefchains_	7-4	
+6-8	are	B-UnrelEv	O	_	_	
+6-9	low	O	O	_	_	
+6-10	maintenance	O	O	_	_	
+6-11	and	O	O	_	_	
+6-12	pretty	O	O	_	_	
+6-13	self	O	O	_	_	
+6-14	sufficient	O	O	_	_	
+6-15	unlike	O	O	_	_	
+6-16	other	O	O	_	_	
+6-17	plants	O	O	_	_	
+6-18	or	O	O	_	_	
+6-19	flowers	O	O	_	_	
+6-20	.	O	O	_	_	
+
+#id=7
+#text=I still watered it every day to get it going and in a few years I will have a large majestic oak tree to provide shade and a new home for birds and other wildlife . 
+7-1	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	7-16	
+7-2	still	O	O	_	_	
+7-3	watered	B-ScrEv_water	O	_	_	
+7-4	it	O	B-ScrPart_tree	webanno.custom.Corefchains_	7-9	
+7-5	every	O	O	_	_	
+7-6	day	O	B-ScrPart_time	_	_	
+7-7	to	O	O	_	_	
+7-8	get	B-UnrelEv	O	_	_	
+7-9	it	O	B-ScrPart_tree	webanno.custom.Corefchains_	7-23	
+7-10	going	B-RelNScrEv	O	_	_	
+7-11	and	O	O	_	_	
+7-12	in	O	O	_	_	
+7-13	a	O	O	_	_	
+7-14	few	O	O	_	_	
+7-15	years	O	B-ScrPart_time	_	_	
+7-16	I	O	B-ScrPart_gardener	_	_	
+7-17	will	O	O	_	_	
+7-18	have	B-UnrelEv	O	_	_	
+7-19	a	O	O	_	_	
+7-20	large	O	O	_	_	
+7-21	majestic	O	O	_	_	
+7-22	oak	O	B-ScrPart_tree	_	_	
+7-23	tree	O	I-ScrPart_tree|B-ScrPart_tree	_	_	
+7-24	to	O	O	_	_	
+7-25	provide	B-???	O	_	_	
+7-26	shade	O	B-NPart	_	_	
+7-27	and	O	O	_	_	
+7-28	a	O	O	_	_	
+7-29	new	O	O	_	_	
+7-30	home	O	B-NPart	_	_	
+7-31	for	O	O	_	_	
+7-32	birds	O	O	_	_	
+7-33	and	O	O	_	_	
+7-34	other	O	O	_	_	
+7-35	wildlife	O	O	_	_	
+7-36	.	O	O	_	_	
+

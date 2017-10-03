@@ -1,0 +1,194 @@
+# webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants					
+#id=1					
+#text=I recently got a flat bicycle tire while riding home from work .					
+1-1	I	B-ScrPart_rider	O	_	_
+1-2	recently	O	O	_	_
+1-3	got	O	B-Evoking	_	_
+1-4	a	O	I-Evoking	_	_
+1-5	flat	O	I-Evoking	_	_
+1-6	bicycle	B-ScrPart_tire	I-Evoking	_	_
+1-7	tire	I-ScrPart_tire|B-ScrPart_tire	I-Evoking	_	_
+1-8	while	O	O	_	_
+1-9	riding	O	B-ScrEv_ride_bike	_	_
+1-10	home	B-NPart	O	_	_
+1-11	from	O	O	_	_
+1-12	work	O	O	_	_
+1-13	.	O	O	_	_
+					
+#id=2					
+#text=As soon as I got home , I removed the tire from the bike and checked for the cause .					
+2-1	As	O	O	_	_
+2-2	soon	O	O	_	_
+2-3	as	O	O	_	_
+2-4	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-1
+2-5	got	O	B-RelNScrEv	_	_
+2-6	home	B-NPart	O	_	_
+2-7	,	O	O	_	_
+2-8	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-4
+2-9	removed	O	B-ScrEv_remove_tire	_	_
+2-10	the	O	O	_	_
+2-11	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	1-7
+2-12	from	O	O	_	_
+2-13	the	O	O	_	_
+2-14	bike	B-ScrPart_bicycle	O	_	_
+2-15	and	O	O	_	_
+2-16	checked	O	B-ScrEv_check_new_tire	_	_
+2-17	for	O	O	_	_
+2-18	the	O	O	_	_
+2-19	cause	B-MissScrPart	O	_	_
+2-20	.	O	O	_	_
+					
+#id=3					
+#text=Sure enough , there was a small puncture , I must have run over something sharp while commuting home .					
+3-1	Sure	O	O	_	_
+3-2	enough	O	O	_	_
+3-3	,	O	O	_	_
+3-4	there	O	O	_	_
+3-5	was	O	B-RelNScrEv	_	_
+3-6	a	O	O	_	_
+3-7	small	O	O	_	_
+3-8	puncture	B-MissScrPart	O	webanno.custom.Corefchains_	2-19
+3-9	,	O	O	_	_
+3-10	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-8
+3-11	must	O	O	_	_
+3-12	have	O	O	_	_
+3-13	run	O	B-RelNScrEv	_	_
+3-14	over	O	O	_	_
+3-15	something	B-ScrPart_object_damage	O	_	_
+3-16	sharp	O	O	_	_
+3-17	while	O	O	_	_
+3-18	commuting	O	B-ScrEv_ride_bike	_	_
+3-19	home	B-NPart	O	_	_
+3-20	.	O	O	_	_
+					
+#id=4					
+#text=I then went to the local bike shop and the man at the shop recommended that I buy a patch kit , since doing so is much cheaper than replacing the entire tube .					
+4-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	3-10
+4-2	then	O	O	_	_
+4-3	went	O	B-RelNScrEv	_	_
+4-4	to	O	O	_	_
+4-5	the	O	O	_	_
+4-6	local	O	O	_	_
+4-7	bike	B-ScrPart_shop	O	_	_
+4-8	shop	I-ScrPart_shop|B-ScrPart_shop	O	_	_
+4-9	and	O	O	_	_
+4-10	the	O	O	_	_
+4-11	man	B-NPart	O	_	_
+4-12	at	O	O	_	_
+4-13	the	O	O	_	_
+4-14	shop	B-ScrPart_shop	O	webanno.custom.Corefchains_	4-8
+4-15	recommended	O	B-RelNScrEv	_	_
+4-16	that	O	O	_	_
+4-17	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	4-1
+4-18	buy	O	B-ScrEv_get_tools	_	_
+4-19	a	O	O	_	_
+4-20	patch	B-ScrPart_tool	O	_	_
+4-21	kit	I-ScrPart_tool|B-ScrPart_tool	O	_	_
+4-22	,	O	O	_	_
+4-23	since	O	O	_	_
+4-24	doing	O	B-UnrelEv	_	_
+4-25	so	O	O	_	_
+4-26	is	O	B-UnrelEv	_	_
+4-27	much	O	O	_	_
+4-28	cheaper	O	O	_	_
+4-29	than	O	O	_	_
+4-30	replacing	O	B-Evoking	_	_
+4-31	the	O	I-Evoking	_	_
+4-32	entire	O	I-Evoking	_	_
+4-33	tube	B-ScrPart_tire	I-Evoking	webanno.custom.Corefchains_	2-11
+4-34	.	O	O	_	_
+					
+#id=5					
+#text=The patch kit was very easy to use as the instructions were very details .					
+5-1	The	O	O	_	_
+5-2	patch	B-ScrPart_tool	O	_	_
+5-3	kit	I-ScrPart_tool|B-ScrPart_tool	O	webanno.custom.Corefchains_	4-21
+5-4	was	O	B-UnrelEv	_	_
+5-5	very	O	O	_	_
+5-6	easy	O	O	_	_
+5-7	to	O	O	_	_
+5-8	use	O	B-UnrelEv	_	_
+5-9	as	O	O	_	_
+5-10	the	O	O	_	_
+5-11	instructions	O	O	_	_
+5-12	were	O	B-UnrelEv	_	_
+5-13	very	O	O	_	_
+5-14	details	O	O	_	_
+5-15	.	O	O	_	_
+					
+#id=6					
+#text=First I added glue to the area and then put the patch on top .					
+6-1	First	O	O	_	_
+6-2	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	4-17
+6-3	added	O	B-ScrEv_put_patch/seal	_	_
+6-4	glue	B-ScrPart_tool	O	_	_
+6-5	to	O	O	_	_
+6-6	the	O	O	_	_
+6-7	area	B-MissScrPart	O	webanno.custom.Corefchains_	3-8
+6-8	and	O	O	_	_
+6-9	then	O	O	_	_
+6-10	put	O	B-ScrEv_put_patch/seal	_	_
+6-11	the	O	O	_	_
+6-12	patch	B-ScrPart_patch	O	_	_
+6-13	on	O	O	_	_
+6-14	top	O	O	_	_
+6-15	.	O	O	_	_
+					
+#id=7					
+#text=After holding the patch in place for a few minutes , I added a little talc .					
+7-1	After	O	O	_	_
+7-2	holding	O	B-RelNScrEv	_	_
+7-3	the	O	O	_	_
+7-4	patch	B-ScrPart_patch	O	webanno.custom.Corefchains_	6-12
+7-5	in	O	O	_	_
+7-6	place	B-NPart	O	_	_
+7-7	for	O	O	_	_
+7-8	a	O	O	_	_
+7-9	few	O	O	_	_
+7-10	minutes	O	O	_	_
+7-11	,	O	O	_	_
+7-12	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	6-2
+7-13	added	O	B-RelNScrEv	_	_
+7-14	a	O	O	_	_
+7-15	little	O	O	_	_
+7-16	talc	B-ScrPart_tool	O	_	_
+7-17	.	O	O	_	_
+					
+#id=8					
+#text=I also added a little talc to the inside of the tire .					
+8-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	7-12
+8-2	also	O	O	_	_
+8-3	added	O	B-RelNScrEv	_	_
+8-4	a	O	O	_	_
+8-5	little	O	O	_	_
+8-6	talc	B-ScrPart_tool	O	webanno.custom.Corefchains_	7-16
+8-7	to	O	O	_	_
+8-8	the	O	O	_	_
+8-9	inside	O	O	_	_
+8-10	of	O	O	_	_
+8-11	the	O	O	_	_
+8-12	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	4-33
+8-13	.	O	O	_	_
+					
+#id=9					
+#text=Once everything was set , I put the wheel back on the bike and everything was good as new .					
+9-1	Once	O	O	_	_
+9-2	everything	B-NPart	O	_	_
+9-3	was	O	O	_	_
+9-4	set	O	B-RelNScrEv	_	_
+9-5	,	O	O	_	_
+9-6	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	8-1
+9-7	put	O	B-ScrEv_put_new_tire	_	_
+9-8	the	O	O	_	_
+9-9	wheel	B-ScrPart_tire	O	webanno.custom.Corefchains_	8-12
+9-10	back	O	O	_	_
+9-11	on	O	O	_	_
+9-12	the	O	O	_	_
+9-13	bike	B-ScrPart_bicycle	O	webanno.custom.Corefchains_	2-14
+9-14	and	O	O	_	_
+9-15	everything	O	O	_	_
+9-16	was	O	B-UnrelEv	_	_
+9-17	good	O	O	_	_
+9-18	as	O	O	_	_
+9-19	new	O	O	_	_
+9-20	.	O	O	_	_

@@ -1,0 +1,296 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I love going to the library to check out books .
+1-1	I	B-ScrPart_customer	O	_	_	
+1-2	love	O	B-UnrelEv	_	_	
+1-3	going	O	B-Evoking	_	_	
+1-4	to	O	I-Evoking	_	_	
+1-5	the	O	I-Evoking	_	_	
+1-6	library	B-ScrPart_library	I-Evoking	_	_	
+1-7	to	O	I-Evoking	_	_	
+1-8	check	O	I-Evoking	_	_	
+1-9	out	O	I-Evoking	_	_	
+1-10	books	B-ScrPart_book	I-Evoking	_	_	
+1-11	.	O	O	_	_	
+
+#id=2
+#text=It is probably one of my favorite places to go to , since I 'm a fairly avid reader .
+2-1	It	O	O	_	_	
+2-2	is	O	B-UnrelEv	_	_	
+2-3	probably	O	O	_	_	
+2-4	one	O	O	_	_	
+2-5	of	O	O	_	_	
+2-6	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-1	
+2-7	favorite	O	O	_	_	
+2-8	places	O	O	_	_	
+2-9	to	O	O	_	_	
+2-10	go	O	B-UnrelEv	_	_	
+2-11	to	O	O	_	_	
+2-12	,	O	O	_	_	
+2-13	since	O	O	_	_	
+2-14	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-6	
+2-15	'm	O	B-UnrelEv	_	_	
+2-16	a	O	O	_	_	
+2-17	fairly	O	O	_	_	
+2-18	avid	O	O	_	_	
+2-19	reader	O	O	_	_	
+2-20	.	O	O	_	_	
+
+#id=3
+#text=Anyway , I 'll usually bike to the library and bring a backpack with me so that I can easily bring my books home .
+3-1	Anyway	O	O	_	_	
+3-2	,	O	O	_	_	
+3-3	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-14	
+3-4	'll	O	O	_	_	
+3-5	usually	O	O	_	_	
+3-6	bike	O	B-ScrEv_get_library	_	_	
+3-7	to	O	O	_	_	
+3-8	the	O	O	_	_	
+3-9	library	B-ScrPart_library	O	webanno.custom.Corefchains_	1-6	
+3-10	and	O	O	_	_	
+3-11	bring	O	B-UnrelEv	_	_	
+3-12	a	O	O	_	_	
+3-13	backpack	B-ScrPart_bag	O	_	_	
+3-14	with	O	O	_	_	
+3-15	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-3	
+3-16	so	O	O	_	_	
+3-17	that	O	O	_	_	
+3-18	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-15	
+3-19	can	O	O	_	_	
+3-20	easily	O	O	_	_	
+3-21	bring	O	B-RelNScrEv	_	_	
+3-22	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-18	
+3-23	books	B-ScrPart_book	O	webanno.custom.Corefchains_	1-10	
+3-24	home	O	O	_	_	
+3-25	.	O	O	_	_	
+
+#id=4
+#text=The last time I went , I was looking for some books on local folklore for a class that I 'm taking .
+4-1	The	O	O	_	_	
+4-2	last	O	O	_	_	
+4-3	time	O	O	_	_	
+4-4	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-22	
+4-5	went	O	B-UnrelEv	_	_	
+4-6	,	O	O	_	_	
+4-7	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-4	
+4-8	was	O	O	_	_	
+4-9	looking	O	B-UnrelEv|B-UnrelEv	_	_	
+4-10	for	O	I-UnrelEv	_	_	
+4-11	some	O	O	_	_	
+4-12	books	B-ScrPart_book	O	webanno.custom.Corefchains_	3-23	
+4-13	on	O	O	_	_	
+4-14	local	O	O	_	_	
+4-15	folklore	O	O	_	_	
+4-16	for	O	O	_	_	
+4-17	a	O	O	_	_	
+4-18	class	O	O	_	_	
+4-19	that	O	O	_	_	
+4-20	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-7	
+4-21	'm	O	O	_	_	
+4-22	taking	O	B-UnrelEv	_	_	
+4-23	.	O	O	_	_	
+
+#id=5
+#text=I quickly went to one of the computer search stations and typed in the last name of an author that I knew had written a book on the subject .
+5-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-20	
+5-2	quickly	O	O	_	_	
+5-3	went	O	B-UnrelEv	_	_	
+5-4	to	O	O	_	_	
+5-5	one	O	O	_	_	
+5-6	of	O	O	_	_	
+5-7	the	O	O	_	_	
+5-8	computer	B-ScrPart_institutional_devices	O	_	_	
+5-9	search	I-ScrPart_institutional_devices	O	_	_	
+5-10	stations	I-ScrPart_institutional_devices|B-ScrPart_institutional_devices	O	_	_	
+5-11	and	O	O	_	_	
+5-12	typed	O	B-ScrEv_use_computer|B-ScrEv_use_computer	_	_	
+5-13	in	O	I-ScrEv_use_computer	_	_	
+5-14	the	O	O	_	_	
+5-15	last	O	O	_	_	
+5-16	name	O	O	_	_	
+5-17	of	O	O	_	_	
+5-18	an	O	O	_	_	
+5-19	author	B-MissScrPart	O	_	_	
+5-20	that	O	O	_	_	
+5-21	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-1	
+5-22	knew	O	B-UnrelEv	_	_	
+5-23	had	O	O	_	_	
+5-24	written	O	B-UnrelEv	_	_	
+5-25	a	O	O	_	_	
+5-26	book	B-ScrPart_book	O	webanno.custom.Corefchains_	4-12	
+5-27	on	O	O	_	_	
+5-28	the	O	O	_	_	
+5-29	subject	O	O	_	_	
+5-30	.	O	O	_	_	
+
+#id=6
+#text=I got back a couple more results than I had expected , so I made note of them .
+6-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-21	
+6-2	got	O	B-UnrelEv|B-UnrelEv	_	_	
+6-3	back	O	I-UnrelEv	_	_	
+6-4	a	O	O	_	_	
+6-5	couple	O	O	_	_	
+6-6	more	O	O	_	_	
+6-7	results	O	O	_	_	
+6-8	than	O	O	_	_	
+6-9	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-1	
+6-10	had	O	O	_	_	
+6-11	expected	O	B-UnrelEv	_	_	
+6-12	,	O	O	_	_	
+6-13	so	O	O	_	_	
+6-14	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-9	
+6-15	made	O	B-ScrEv_note_shelf	_	_	
+6-16	note	B-SuppVComp	O	_	_	
+6-17	of	O	O	_	_	
+6-18	them	O	O	_	_	
+6-19	.	O	O	_	_	
+
+#id=7
+#text=Then , I searched by just the topic of folklore , along with the tribe that I was covering .
+7-1	Then	O	O	_	_	
+7-2	,	O	O	_	_	
+7-3	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-14	
+7-4	searched	O	B-ScrEv_use_computer	_	_	
+7-5	by	O	O	_	_	
+7-6	just	O	O	_	_	
+7-7	the	O	O	_	_	
+7-8	topic	O	O	_	_	
+7-9	of	O	O	_	_	
+7-10	folklore	O	O	_	_	
+7-11	,	O	O	_	_	
+7-12	along	O	O	_	_	
+7-13	with	O	O	_	_	
+7-14	the	O	O	_	_	
+7-15	tribe	O	O	_	_	
+7-16	that	O	O	_	_	
+7-17	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-3	
+7-18	was	O	O	_	_	
+7-19	covering	O	B-UnrelEv	_	_	
+7-20	.	O	O	_	_	
+
+#id=8
+#text=I found several books that looked like they might be interesting .
+8-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-17	
+8-2	found	O	B-RelNScrEv	_	_	
+8-3	several	O	O	_	_	
+8-4	books	B-ScrPart_book	O	webanno.custom.Corefchains_	5-26	
+8-5	that	O	O	_	_	
+8-6	looked	O	B-UnrelEv	_	_	
+8-7	like	O	O	_	_	
+8-8	they	B-ScrPart_book	O	webanno.custom.Corefchains_	8-4	
+8-9	might	O	O	_	_	
+8-10	be	O	B-UnrelEv	_	_	
+8-11	interesting	O	O	_	_	
+8-12	.	O	O	_	_	
+
+#id=9
+#text=So , I took the numbers for where they would be and headed off towards the Stacks .
+9-1	So	O	O	_	_	
+9-2	,	O	O	_	_	
+9-3	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-1	
+9-4	took	O	B-ScrEv_note_shelf	_	_	
+9-5	the	O	O	_	_	
+9-6	numbers	B-ScrPart_section_id	O	_	_	
+9-7	for	O	O	_	_	
+9-8	where	O	O	_	_	
+9-9	they	O	O	_	_	
+9-10	would	O	O	_	_	
+9-11	be	O	O	_	_	
+9-12	and	O	O	_	_	
+9-13	headed	O	B-UnrelEv|B-UnrelEv	_	_	
+9-14	off	O	I-UnrelEv	_	_	
+9-15	towards	O	O	_	_	
+9-16	the	O	O	_	_	
+9-17	Stacks	O	O	_	_	
+9-18	.	O	O	_	_	
+
+#id=10
+#text=I followed the numbers to the different rows and picked up the books that I needed , as well as a couple other books that also sounded interesting .
+10-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-3	
+10-2	followed	O	B-UnrelEv	_	_	
+10-3	the	O	O	_	_	
+10-4	numbers	B-ScrPart_section_id	O	_	_	
+10-5	to	O	O	_	_	
+10-6	the	O	O	_	_	
+10-7	different	O	O	_	_	
+10-8	rows	B-ScrPart_location_library	O	_	_	
+10-9	and	O	O	_	_	
+10-10	picked	O	B-ScrEv_take_book|B-ScrEv_take_book	_	_	
+10-11	up	O	I-ScrEv_take_book	_	_	
+10-12	the	O	O	_	_	
+10-13	books	B-ScrPart_book	O	webanno.custom.Corefchains_	8-8	
+10-14	that	O	O	_	_	
+10-15	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	10-1	
+10-16	needed	O	B-UnrelEv	_	_	
+10-17	,	O	O	_	_	
+10-18	as	O	O	_	_	
+10-19	well	O	O	_	_	
+10-20	as	O	O	_	_	
+10-21	a	O	O	_	_	
+10-22	couple	O	O	_	_	
+10-23	other	O	O	_	_	
+10-24	books	B-ScrPart_book	O	webanno.custom.Corefchains_	10-13	
+10-25	that	O	O	_	_	
+10-26	also	O	O	_	_	
+10-27	sounded	O	B-UnrelEv	_	_	
+10-28	interesting	O	O	_	_	
+10-29	.	O	O	_	_	
+
+#id=11
+#text=My arms full , I took them all to the checkout counter , where a nice older man scanned them and gave me a printed receipt that said when I would need to have them back by .
+11-1	My	B-ScrPart_customer	O	webanno.custom.Corefchains_	10-15	
+11-2	arms	O	O	_	_	
+11-3	full	O	O	_	_	
+11-4	,	O	O	_	_	
+11-5	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	11-1	
+11-6	took	O	B-ScrEv_go_check_out	_	_	
+11-7	them	B-ScrPart_book	O	webanno.custom.Corefchains_	10-24	
+11-8	all	O	O	_	_	
+11-9	to	O	O	_	_	
+11-10	the	O	O	_	_	
+11-11	checkout	B-ScrPart_check-out_desk	O	_	_	
+11-12	counter	I-ScrPart_check-out_desk|B-ScrPart_check-out_desk	O	_	_	
+11-13	,	O	O	_	_	
+11-14	where	O	O	_	_	
+11-15	a	O	O	_	_	
+11-16	nice	O	O	_	_	
+11-17	older	O	O	_	_	
+11-18	man	B-ScrPart_staff	O	_	_	
+11-19	scanned	O	B-ScrEv_register	_	_	
+11-20	them	B-ScrPart_book	O	webanno.custom.Corefchains_	11-7	
+11-21	and	O	O	_	_	
+11-22	gave	O	B-MissScrEv	_	_	
+11-23	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	11-5	
+11-24	a	O	O	_	_	
+11-25	printed	O	B-UnrelEv	_	_	
+11-26	receipt	B-ScrPart_receipt	O	_	_	
+11-27	that	O	O	_	_	
+11-28	said	O	B-UnrelEv	_	_	
+11-29	when	O	O	_	_	
+11-30	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	11-23	
+11-31	would	O	O	_	_	
+11-32	need	O	O	_	_	
+11-33	to	O	O	_	_	
+11-34	have	O	B-UnrelEv	_	_	
+11-35	them	B-ScrPart_staff	O	webanno.custom.Corefchains_	11-20	
+11-36	back	O	O	_	_	
+11-37	by	O	O	_	_	
+11-38	.	O	O	_	_	
+
+#id=12
+#text=All in all , it was a pretty productive trip to the library . 
+12-1	All	O	O	_	_	
+12-2	in	O	O	_	_	
+12-3	all	O	O	_	_	
+12-4	,	O	O	_	_	
+12-5	it	O	O	_	_	
+12-6	was	O	B-UnrelEv	_	_	
+12-7	a	O	O	_	_	
+12-8	pretty	O	O	_	_	
+12-9	productive	O	O	_	_	
+12-10	trip	O	O	_	_	
+12-11	to	O	O	_	_	
+12-12	the	O	O	_	_	
+12-13	library	B-ScrPart_library	O	webanno.custom.Corefchains_	3-9	
+12-14	.	O	O	_	_	
+

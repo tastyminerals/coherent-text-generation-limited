@@ -1,0 +1,288 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Last summer , I decided I wanted to visit some family and friends of mine whom resided on the other side of the country .
+1-1	Last	O	O	_	_	
+1-2	summer	B-NPart	O	_	_	
+1-3	,	O	O	_	_	
+1-4	I	B-ScrPart_passenger	O	_	_	
+1-5	decided	O	B-UnrelEv	_	_	
+1-6	I	B-ScrPart_passenger	O	_	_	
+1-7	wanted	O	B-UnrelEv	_	_	
+1-8	to	O	O	_	_	
+1-9	visit	O	B-UnrelEv	_	_	
+1-10	some	O	O	_	_	
+1-11	family	B-NPart	O	_	_	
+1-12	and	O	O	_	_	
+1-13	friends	B-NPart	O	_	_	
+1-14	of	O	O	_	_	
+1-15	mine	B-ScrPart_passenger	O	_	_	
+1-16	whom	O	O	_	_	
+1-17	resided	O	B-UnrelEv	_	_	
+1-18	on	O	O	_	_	
+1-19	the	O	O	_	_	
+1-20	other	O	O	_	_	
+1-21	side	B-NPart	O	_	_	
+1-22	of	O	O	_	_	
+1-23	the	O	O	_	_	
+1-24	country	B-NPart	O	_	_	
+1-25	.	O	O	_	_	
+
+#id=2
+#text=I carefully considered my travel options and expenses , and decided it would be most economical to take the train .
+2-1	I	B-ScrPart_passenger	O	_	_	
+2-2	carefully	O	O	_	_	
+2-3	considered	O	B-UnrelEv	_	_	
+2-4	my	B-ScrPart_passenger	O	_	_	
+2-5	travel	B-NPart	O	_	_	
+2-6	options	I-NPart|B-NPart	O	_	_	
+2-7	and	O	O	_	_	
+2-8	expenses	B-NPart	O	_	_	
+2-9	,	O	O	_	_	
+2-10	and	O	O	_	_	
+2-11	decided	O	B-UnrelEv	_	_	
+2-12	it	B-No_label	O	_	_	
+2-13	would	O	O	_	_	
+2-14	be	O	B-UnrelEv	_	_	
+2-15	most	O	O	_	_	
+2-16	economical	O	O	_	_	
+2-17	to	O	O	_	_	
+2-18	take	O	B-Evoking	_	_	
+2-19	the	O	I-Evoking	_	_	
+2-20	train	B-ScrPart_train	I-Evoking	_	_	
+2-21	.	O	O	_	_	
+
+#id=3
+#text=Traveling by train is an easy and straight forward experience , but is also fun and enjoyable .
+3-1	Traveling	O	B-Evoking	_	_	
+3-2	by	O	I-Evoking	_	_	
+3-3	train	B-ScrPart_train	I-Evoking	_	_	
+3-4	is	O	B-UnrelEv	_	_	
+3-5	an	O	O	_	_	
+3-6	easy	O	O	_	_	
+3-7	and	O	O	_	_	
+3-8	straight	O	O	_	_	
+3-9	forward	O	O	_	_	
+3-10	experience	B-NPart	O	_	_	
+3-11	,	O	O	_	_	
+3-12	but	O	O	_	_	
+3-13	is	O	B-UnrelEv	_	_	
+3-14	also	O	O	_	_	
+3-15	fun	B-NPart	O	_	_	
+3-16	and	O	O	_	_	
+3-17	enjoyable	O	O	_	_	
+3-18	.	O	O	_	_	
+
+#id=4
+#text=To begin , I visited the railroad 's website and booked my ticket .
+4-1	To	O	O	_	_	
+4-2	begin	O	B-UnrelEv	_	_	
+4-3	,	O	O	_	_	
+4-4	I	B-ScrPart_passenger	O	_	_	
+4-5	visited	O	B-RelNScrEv	_	_	
+4-6	the	O	O	_	_	
+4-7	railroad	B-NPart	O	_	_	
+4-8	's	O	O	_	_	
+4-9	website	B-ScrPart_ticket_office/website	O	_	_	
+4-10	and	O	O	_	_	
+4-11	booked	O	B-ScrEv_get_tickets	_	_	
+4-12	my	B-ScrPart_passenger	O	_	_	
+4-13	ticket	B-ScrPart_card/ticket	O	_	_	
+4-14	.	O	O	_	_	
+
+#id=5
+#text=The ticket was then sent to me via email , which I could print out or display on my mobile device .
+5-1	The	O	O	_	_	
+5-2	ticket	B-ScrPart_card/ticket	O	_	_	
+5-3	was	O	O	_	_	
+5-4	then	O	O	_	_	
+5-5	sent	O	B-RelNScrEv	_	_	
+5-6	to	O	O	_	_	
+5-7	me	B-ScrPart_passenger	O	_	_	
+5-8	via	O	O	_	_	
+5-9	email	B-NPart	O	_	_	
+5-10	,	O	O	_	_	
+5-11	which	B-ScrPart_card/ticket	O	_	_	
+5-12	I	B-ScrPart_passenger	O	_	_	
+5-13	could	O	O	_	_	
+5-14	print	O	B-ScrEv_get_tickets	_	_	
+5-15	out	O	I-ScrEv_get_tickets	_	_	
+5-16	or	O	O	_	_	
+5-17	display	O	B-ScrEv_conductor_checks	_	_	
+5-18	on	O	O	_	_	
+5-19	my	B-ScrPart_passenger	O	_	_	
+5-20	mobile	B-NPart	O	_	_	
+5-21	device	I-NPart|B-NPart	O	_	_	
+5-22	.	O	O	_	_	
+
+#id=6
+#text=On the day of travel , I arrived at the train station about a half an hour early and waited for the train to arrive .
+6-1	On	O	O	_	_	
+6-2	the	O	O	_	_	
+6-3	day	B-ScrPart_time_date	O	_	_	
+6-4	of	O	O	_	_	
+6-5	travel	B-ScrPart_trip	O	_	_	
+6-6	,	O	O	_	_	
+6-7	I	B-ScrPart_passenger	O	_	_	
+6-8	arrived	O	B-ScrEv_get_train_station	_	_	
+6-9	at	O	O	_	_	
+6-10	the	O	O	_	_	
+6-11	train	B-ScrPart_train_station	O	_	_	
+6-12	station	I-ScrPart_train_station|B-ScrPart_train_station	O	_	_	
+6-13	about	O	O	_	_	
+6-14	a	O	O	_	_	
+6-15	half	B-Head_of_Partitive	O	_	_	
+6-16	an	O	O	_	_	
+6-17	hour	B-ScrPart_time_date	O	_	_	
+6-18	early	O	O	_	_	
+6-19	and	O	O	_	_	
+6-20	waited	O	B-ScrEv_wait	_	_	
+6-21	for	O	O	_	_	
+6-22	the	O	O	_	_	
+6-23	train	B-ScrPart_train	O	_	_	
+6-24	to	O	O	_	_	
+6-25	arrive	O	B-ScrEv_train_arrives	_	_	
+6-26	.	O	O	_	_	
+
+#id=7
+#text=When the train arrived , the conductor stepped off and asked for tickets .
+7-1	When	O	O	_	_	
+7-2	the	O	O	_	_	
+7-3	train	B-ScrPart_train	O	_	_	
+7-4	arrived	O	B-ScrEv_train_arrives	_	_	
+7-5	,	O	O	_	_	
+7-6	the	O	O	_	_	
+7-7	conductor	B-ScrPart_train_staff	O	_	_	
+7-8	stepped	O	B-ScrEv_get_off	_	_	
+7-9	off	O	I-ScrEv_get_off	_	_	
+7-10	and	O	O	_	_	
+7-11	asked	O	B-ScrEv_conductor_checks	_	_	
+7-12	for	O	O	_	_	
+7-13	tickets	B-ScrPart_card/ticket	O	_	_	
+7-14	.	O	O	_	_	
+
+#id=8
+#text=I had elected to use my mobile device to display my ticket , so I showed the ticket to the conductor and he scanned it with his phone .
+8-1	I	B-ScrPart_passenger	O	_	_	
+8-2	had	O	O	_	_	
+8-3	elected	O	B-UnrelEv	_	_	
+8-4	to	O	O	_	_	
+8-5	use	O	B-RelNScrEv	_	_	
+8-6	my	B-ScrPart_passenger	O	_	_	
+8-7	mobile	B-NPart	O	_	_	
+8-8	device	I-NPart|B-NPart	O	_	_	
+8-9	to	O	O	_	_	
+8-10	display	O	B-ScrEv_conductor_checks	_	_	
+8-11	my	B-ScrPart_passenger	O	_	_	
+8-12	ticket	B-ScrPart_card/ticket	O	_	_	
+8-13	,	O	O	_	_	
+8-14	so	O	O	_	_	
+8-15	I	B-ScrPart_passenger	O	_	_	
+8-16	showed	O	B-ScrEv_conductor_checks	_	_	
+8-17	the	O	O	_	_	
+8-18	ticket	B-ScrPart_card/ticket	O	_	_	
+8-19	to	O	O	_	_	
+8-20	the	O	O	_	_	
+8-21	conductor	B-ScrPart_train_staff	O	_	_	
+8-22	and	O	O	_	_	
+8-23	he	B-ScrPart_train_staff	O	_	_	
+8-24	scanned	O	B-ScrEv_conductor_checks	_	_	
+8-25	it	B-ScrPart_card/ticket	O	_	_	
+8-26	with	O	O	_	_	
+8-27	his	B-ScrPart_train_staff	O	_	_	
+8-28	phone	B-NPart	O	_	_	
+8-29	.	O	O	_	_	
+
+#id=9
+#text=I was then directed towards my assigned seat .
+9-1	I	B-ScrPart_passenger	O	_	_	
+9-2	was	O	O	_	_	
+9-3	then	O	O	_	_	
+9-4	directed	O	B-ScrEv_find_place	_	_	
+9-5	towards	O	O	_	_	
+9-6	my	B-ScrPart_passenger	O	_	_	
+9-7	assigned	O	B-RelNScrEv	_	_	
+9-8	seat	B-ScrPart_seat	O	_	_	
+9-9	.	O	O	_	_	
+
+#id=10
+#text=I settled in for the ride , with food and entertainment I had brought with me .
+10-1	I	B-ScrPart_passenger	O	_	_	
+10-2	settled	O	B-ScrEv_find_place	_	_	
+10-3	in	O	I-ScrEv_find_place	_	_	
+10-4	for	O	O	_	_	
+10-5	the	O	O	_	_	
+10-6	ride	B-ScrPart_trip	O	webanno.custom.Corefchains_	6-5	
+10-7	,	O	O	_	_	
+10-8	with	O	O	_	_	
+10-9	food	B-ScrPart_in-train_entertainment	O	_	_	
+10-10	and	O	O	_	_	
+10-11	entertainment	B-ScrPart_in-train_entertainment	O	_	_	
+10-12	I	B-ScrPart_passenger	O	_	_	
+10-13	had	O	O	_	_	
+10-14	brought	O	B-RelNScrEv	_	_	
+10-15	with	O	O	_	_	
+10-16	me	B-ScrPart_passenger	O	_	_	
+10-17	.	O	O	_	_	
+
+#id=11
+#text=For most of the ride however , I was glued to the window , enjoying the sights of town after town that we traveled through .
+11-1	For	O	O	_	_	
+11-2	most	O	O	_	_	
+11-3	of	O	O	_	_	
+11-4	the	O	O	_	_	
+11-5	ride	B-ScrPart_trip	O	webanno.custom.Corefchains_	10-6	
+11-6	however	O	O	_	_	
+11-7	,	O	O	_	_	
+11-8	I	B-ScrPart_passenger	O	_	_	
+11-9	was	O	O	_	_	
+11-10	glued	O	B-ScrEv_spend_time_train	_	_	
+11-11	to	O	O	_	_	
+11-12	the	O	O	_	_	
+11-13	window	B-ScrPart_in-train_entertainment	O	_	_	
+11-14	,	O	O	_	_	
+11-15	enjoying	O	B-ScrEv_spend_time_train	_	_	
+11-16	the	O	O	_	_	
+11-17	sights	B-ScrPart_in-train_entertainment	O	_	_	
+11-18	of	O	O	_	_	
+11-19	town	B-ScrPart_location_train	O	_	_	
+11-20	after	O	O	_	_	
+11-21	town	B-ScrPart_location_train	O	_	_	
+11-22	that	B-ScrPart_location_train	O	_	_	
+11-23	we	B-ScrPart_passenger	O	_	_	
+11-24	traveled	O	B-RelNScrEv	_	_	
+11-25	through	O	O	_	_	
+11-26	.	O	O	_	_	
+
+#id=12
+#text=The next day I arrived at my destination .
+12-1	The	O	O	_	_	
+12-2	next	O	O	_	_	
+12-3	day	B-ScrPart_time_date	O	_	_	
+12-4	I	B-ScrPart_passenger	O	_	_	
+12-5	arrived	O	B-ScrEv_arrive_destination	_	_	
+12-6	at	O	O	_	_	
+12-7	my	B-ScrPart_passenger	O	_	_	
+12-8	destination	B-ScrPart_destination	O	_	_	
+12-9	.	O	O	_	_	
+
+#id=13
+#text=I gathered my bags and stepped off the train , knowing I would return again very soon . 
+13-1	I	B-ScrPart_passenger	O	_	_	
+13-2	gathered	O	B-RelNScrEv	_	_	
+13-3	my	B-ScrPart_passenger	O	_	_	
+13-4	bags	B-ScrPart_luggage	O	_	_	
+13-5	and	O	O	_	_	
+13-6	stepped	O	B-ScrEv_get_off	_	_	
+13-7	off	O	I-ScrEv_get_off	_	_	
+13-8	the	O	O	_	_	
+13-9	train	B-ScrPart_train	O	_	_	
+13-10	,	O	O	_	_	
+13-11	knowing	O	B-UnrelEv	_	_	
+13-12	I	B-ScrPart_passenger	O	_	_	
+13-13	would	O	O	_	_	
+13-14	return	O	B-RelNScrEv	_	_	
+13-15	again	O	O	_	_	
+13-16	very	O	O	_	_	
+13-17	soon	O	O	_	_	
+13-18	.	O	O	_	_	
+

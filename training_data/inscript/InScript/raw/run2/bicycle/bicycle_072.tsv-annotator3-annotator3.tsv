@@ -1,0 +1,307 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Last week when I went biking on a trail with a friend , she rode over a nail and one of her bike tires was punctured .
+1-1	Last	O	O	_	_	
+1-2	week	B-NPart	O	_	_	
+1-3	when	O	O	_	_	
+1-4	I	B-ScrPart_rider	O	_	_	
+1-5	went	O	O	_	_	
+1-6	biking	O	B-ScrEv_ride_bike	_	_	
+1-7	on	O	O	_	_	
+1-8	a	O	O	_	_	
+1-9	trail	B-NPart	O	_	_	
+1-10	with	O	O	_	_	
+1-11	a	O	O	_	_	
+1-12	friend	B-ScrPart_rider	O	_	_	
+1-13	,	O	O	_	_	
+1-14	she	B-ScrPart_rider	O	_	_	
+1-15	rode	O	B-ScrEv_ride_bike|B-ScrEv_ride_bike	_	_	
+1-16	over	O	I-ScrEv_ride_bike	_	_	
+1-17	a	O	O	_	_	
+1-18	nail	B-ScrPart_object_damage	O	_	_	
+1-19	and	O	O	_	_	
+1-20	one	B-ScrPart_tire	O	_	_	
+1-21	of	O	O	_	_	
+1-22	her	B-ScrPart_rider	O	_	_	
+1-23	bike	B-ScrPart_tire	O	_	_	
+1-24	tires	I-ScrPart_tire|B-ScrPart_tire	O	_	_	
+1-25	was	O	B-UnrelEv	_	_	
+1-26	punctured	O	B-RelNScrEv	_	_	
+1-27	.	O	O	_	_	
+
+#id=2
+#text=We immediately stopped riding so that we could fix the problem , and we were lucky that it was n't too bad of an issue .
+2-1	We	B-ScrPart_rider	O	_	_	
+2-2	immediately	O	O	_	_	
+2-3	stopped	O	B-ScrEv_get_off	_	_	
+2-4	riding	O	B-ScrEv_ride_bike	_	_	
+2-5	so	O	O	_	_	
+2-6	that	O	O	_	_	
+2-7	we	B-ScrPart_rider	O	_	_	
+2-8	could	O	O	_	_	
+2-9	fix	O	B-Evoking	_	_	
+2-10	the	O	I-Evoking	_	_	
+2-11	problem	B-ScrPart_damage	I-Evoking	_	_	
+2-12	,	O	O	_	_	
+2-13	and	O	O	_	_	
+2-14	we	B-ScrPart_rider	O	_	_	
+2-15	were	O	B-UnrelEv	_	_	
+2-16	lucky	O	O	_	_	
+2-17	that	O	O	_	_	
+2-18	it	B-ScrPart_damage	O	webanno.custom.Corefchains_	2-11	
+2-19	was	O	B-UnrelEv	_	_	
+2-20	n't	O	O	_	_	
+2-21	too	O	O	_	_	
+2-22	bad	O	O	_	_	
+2-23	of	O	O	_	_	
+2-24	an	O	O	_	_	
+2-25	issue	B-ScrPart_damage	O	webanno.custom.Corefchains_	2-18	
+2-26	.	O	O	_	_	
+
+#id=3
+#text=To fix it , we had to return home and take care of it with the tools we had there .
+3-1	To	O	O	_	_	
+3-2	fix	O	B-Evoking	_	_	
+3-3	it	B-No_label	O	_	_	
+3-4	,	O	O	_	_	
+3-5	we	B-ScrPart_rider	O	_	_	
+3-6	had	O	O	_	_	
+3-7	to	O	O	_	_	
+3-8	return	O	B-ScrEv_other	_	_	
+3-9	home	B-ScrPart_location_repair	O	_	_	
+3-10	and	O	O	_	_	
+3-11	take	O	B-RelNScrEv	_	_	
+3-12	care	B-SuppVComp	O	_	_	
+3-13	of	O	O	_	_	
+3-14	it	B-No_label	O	_	_	
+3-15	with	O	O	_	_	
+3-16	the	O	O	_	_	
+3-17	tools	B-ScrPart_tool	O	_	_	
+3-18	we	B-ScrPart_rider	O	_	_	
+3-19	had	O	B-RelNScrEv	_	_	
+3-20	there	B-ScrPart_location_repair	O	_	_	
+3-21	.	O	O	_	_	
+
+#id=4
+#text=We turned the bike over so it was resting on the handlebars and the seat so that we would have access to the wheel very easily .
+4-1	We	B-ScrPart_rider	O	_	_	
+4-2	turned	O	B-ScrEv_lay_bike_down	_	_	
+4-3	the	O	O	_	_	
+4-4	bike	B-ScrPart_bicycle	O	_	_	
+4-5	over	O	O	_	_	
+4-6	so	O	O	_	_	
+4-7	it	B-ScrPart_bicycle	O	_	_	
+4-8	was	O	O	_	_	
+4-9	resting	O	B-RelNScrEv	_	_	
+4-10	on	O	O	_	_	
+4-11	the	O	O	_	_	
+4-12	handlebars	B-ScrPart_bicycle_small_detail	O	_	_	
+4-13	and	O	O	_	_	
+4-14	the	O	O	_	_	
+4-15	seat	B-ScrPart_bicycle_small_detail	O	_	_	
+4-16	so	O	O	_	_	
+4-17	that	O	O	_	_	
+4-18	we	B-ScrPart_rider	O	_	_	
+4-19	would	O	O	_	_	
+4-20	have	O	B-UnrelEv	_	_	
+4-21	access	B-No_label	O	_	_	
+4-22	to	O	O	_	_	
+4-23	the	O	O	_	_	
+4-24	wheel	B-ScrPart_tire	O	_	_	
+4-25	very	O	O	_	_	
+4-26	easily	O	O	_	_	
+4-27	.	O	O	_	_	
+
+#id=5
+#text=Upon spinning the wheel , we found the nail she had run over and removed it .
+5-1	Upon	O	O	_	_	
+5-2	spinning	O	B-ScrEv_other	_	_	
+5-3	the	O	O	_	_	
+5-4	wheel	B-ScrPart_tire	O	_	_	
+5-5	,	O	O	_	_	
+5-6	we	B-ScrPart_rider	O	_	_	
+5-7	found	O	B-RelNScrEv	_	_	
+5-8	the	O	O	_	_	
+5-9	nail	B-ScrPart_object_damage	O	_	_	
+5-10	she	B-ScrPart_rider	O	_	_	
+5-11	had	O	O	_	_	
+5-12	run	O	B-RelNScrEv|B-RelNScrEv	_	_	
+5-13	over	O	I-RelNScrEv	_	_	
+5-14	and	O	O	_	_	
+5-15	removed	O	B-ScrEv_other	_	_	
+5-16	it	B-ScrPart_object_damage	O	_	_	
+5-17	.	O	O	_	_	
+
+#id=6
+#text=We had to release all the air from the tube to begin with , then take the tire off of the rim using tools called a tire levers .
+6-1	We	B-ScrPart_rider	O	_	_	
+6-2	had	O	O	_	_	
+6-3	to	O	O	_	_	
+6-4	release	O	B-ScrEv_other	_	_	
+6-5	all	O	O	_	_	
+6-6	the	O	O	_	_	
+6-7	air	B-ScrPart_air	O	_	_	
+6-8	from	O	O	_	_	
+6-9	the	O	O	_	_	
+6-10	tube	B-ScrPart_tire	O	_	_	
+6-11	to	O	O	_	_	
+6-12	begin	O	B-UnrelEv	_	_	
+6-13	with	O	O	_	_	
+6-14	,	O	O	_	_	
+6-15	then	O	O	_	_	
+6-16	take	O	B-ScrEv_take_tire_off	_	_	
+6-17	the	O	O	_	_	
+6-18	tire	B-ScrPart_tire	O	_	_	
+6-19	off	O	O	_	_	
+6-20	of	O	O	_	_	
+6-21	the	O	O	_	_	
+6-22	rim	B-ScrPart_rim	O	_	_	
+6-23	using	O	B-RelNScrEv	_	_	
+6-24	tools	B-ScrPart_tool	O	_	_	
+6-25	called	O	B-UnrelEv	_	_	
+6-26	a	O	O	_	_	
+6-27	tire	B-ScrPart_tool	O	_	_	
+6-28	levers	I-ScrPart_tool|B-ScrPart_tool	O	_	_	
+6-29	.	O	O	_	_	
+
+#id=7
+#text=After we had that off , we had to remove the tube from the tire and inflate it with enough air to find the hole .
+7-1	After	O	O	_	_	
+7-2	we	B-ScrPart_rider	O	_	_	
+7-3	had	O	B-UnrelEv	_	_	
+7-4	that	O	O	_	_	
+7-5	off	O	O	_	_	
+7-6	,	O	O	_	_	
+7-7	we	B-ScrPart_rider	O	_	_	
+7-8	had	O	O	_	_	
+7-9	to	O	O	_	_	
+7-10	remove	O	B-ScrEv_take_tire_off	_	_	
+7-11	the	O	O	_	_	
+7-12	tube	B-ScrPart_tire	O	_	_	
+7-13	from	O	O	_	_	
+7-14	the	O	O	_	_	
+7-15	tire	B-ScrPart_tire	O	_	_	
+7-16	and	O	O	_	_	
+7-17	inflate	O	B-ScrEv_refill_tire_air	_	_	
+7-18	it	B-ScrPart_tire	O	_	_	
+7-19	with	O	O	_	_	
+7-20	enough	O	O	_	_	
+7-21	air	B-ScrPart_air	O	_	_	
+7-22	to	O	O	_	_	
+7-23	find	O	B-RelNScrEv	_	_	
+7-24	the	O	O	_	_	
+7-25	hole	B-ScrPart_damage	O	_	_	
+7-26	.	O	O	_	_	
+
+#id=8
+#text=We knew about where it would be .
+8-1	We	B-ScrPart_rider	O	_	_	
+8-2	knew	O	B-UnrelEv	_	_	
+8-3	about	O	O	_	_	
+8-4	where	O	O	_	_	
+8-5	it	B-No_label	O	_	_	
+8-6	would	O	O	_	_	
+8-7	be	O	B-UnrelEv	_	_	
+8-8	.	O	O	_	_	
+
+#id=9
+#text=Using a piece of my brother 's chalk , we marked where the hole was so we would n't lose the spot , and then we took the air out of the tube again .
+9-1	Using	O	B-RelNScrEv	_	_	
+9-2	a	O	O	_	_	
+9-3	piece	B-ScrPart_tool	O	_	_	
+9-4	of	O	O	_	_	
+9-5	my	B-ScrPart_rider	O	_	_	
+9-6	brother	B-NPart	O	_	_	
+9-7	's	O	O	_	_	
+9-8	chalk	B-ScrPart_tool	O	_	_	
+9-9	,	O	O	_	_	
+9-10	we	B-ScrPart_rider	O	_	_	
+9-11	marked	O	B-ScrEv_other	_	_	
+9-12	where	O	O	_	_	
+9-13	the	O	O	_	_	
+9-14	hole	B-ScrPart_damage	O	webanno.custom.Corefchains_	7-25	
+9-15	was	O	B-UnrelEv	_	_	
+9-16	so	O	O	_	_	
+9-17	we	B-ScrPart_rider	O	_	_	
+9-18	would	O	O	_	_	
+9-19	n't	O	O	_	_	
+9-20	lose	O	B-UnrelEv	_	_	
+9-21	the	O	O	_	_	
+9-22	spot	B-NPart	O	_	_	
+9-23	,	O	O	_	_	
+9-24	and	O	O	_	_	
+9-25	then	O	O	_	_	
+9-26	we	B-ScrPart_rider	O	_	_	
+9-27	took	O	B-ScrEv_other	_	_	
+9-28	the	O	O	_	_	
+9-29	air	B-ScrPart_air	O	_	_	
+9-30	out	O	O	_	_	
+9-31	of	O	O	_	_	
+9-32	the	O	O	_	_	
+9-33	tube	B-ScrPart_tire	O	_	_	
+9-34	again	O	O	_	_	
+9-35	.	O	O	_	_	
+
+#id=10
+#text=Using a patch kit designed for this kind of issue , we patched up the hole and put the tube back into the tire .
+10-1	Using	O	B-RelNScrEv	_	_	
+10-2	a	O	O	_	_	
+10-3	patch	B-ScrPart_patch	O	_	_	
+10-4	kit	I-ScrPart_patch|B-ScrPart_patch	O	_	_	
+10-5	designed	O	B-UnrelEv	_	_	
+10-6	for	O	O	_	_	
+10-7	this	O	O	_	_	
+10-8	kind	B-Head_of_Partitive	O	_	_	
+10-9	of	O	O	_	_	
+10-10	issue	B-NPart	O	_	_	
+10-11	,	O	O	_	_	
+10-12	we	B-ScrPart_rider	O	_	_	
+10-13	patched	O	B-ScrEv_put_patch/seal|B-ScrEv_put_patch/seal	_	_	
+10-14	up	O	I-ScrEv_put_patch/seal	_	_	
+10-15	the	O	O	_	_	
+10-16	hole	B-ScrPart_damage	O	webanno.custom.Corefchains_	9-14	
+10-17	and	O	O	_	_	
+10-18	put	O	B-ScrEv_other	_	_	
+10-19	the	O	O	_	_	
+10-20	tube	B-ScrPart_tire	O	_	_	
+10-21	back	O	O	_	_	
+10-22	into	O	O	_	_	
+10-23	the	O	O	_	_	
+10-24	tire	B-ScrPart_tire	O	_	_	
+10-25	.	O	O	_	_	
+
+#id=11
+#text=We put the tire back on the wheel and re-inflated it .
+11-1	We	B-ScrPart_rider	O	_	_	
+11-2	put	O	B-ScrEv_put_new_tire	_	_	
+11-3	the	O	O	_	_	
+11-4	tire	B-ScrPart_tire	O	_	_	
+11-5	back	O	O	_	_	
+11-6	on	O	O	_	_	
+11-7	the	O	O	_	_	
+11-8	wheel	B-ScrPart_tire	O	_	_	
+11-9	and	O	O	_	_	
+11-10	re-inflated	O	B-ScrEv_refill_tire_air	_	_	
+11-11	it	B-ScrPart_tire	O	_	_	
+11-12	.	O	O	_	_	
+
+#id=12
+#text=The patch worked perfectly and we were able to go out biking again the next day ! 
+12-1	The	O	O	_	_	
+12-2	patch	B-ScrPart_patch	O	_	_	
+12-3	worked	O	B-UnrelEv	_	_	
+12-4	perfectly	O	O	_	_	
+12-5	and	O	O	_	_	
+12-6	we	B-ScrPart_rider	O	_	_	
+12-7	were	O	O	_	_	
+12-8	able	O	O	_	_	
+12-9	to	O	O	_	_	
+12-10	go	O	B-UnrelEv|B-UnrelEv	_	_	
+12-11	out	O	I-UnrelEv	_	_	
+12-12	biking	O	B-ScrEv_ride_bike	_	_	
+12-13	again	O	O	_	_	
+12-14	the	O	O	_	_	
+12-15	next	O	O	_	_	
+12-16	day	B-NPart	O	_	_	
+12-17	!	O	O	_	_	
+

@@ -1,0 +1,205 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=A few months ago , I went to the library to check out a couple of books .
+1-1	A	O	O	_	_	
+1-2	few	O	O	_	_	
+1-3	months	O	O	_	_	
+1-4	ago	O	O	_	_	
+1-5	,	O	O	_	_	
+1-6	I	B-ScrPart_customer	O	_	_	
+1-7	went	O	B-ScrEv_get_library	_	_	
+1-8	to	O	O	_	_	
+1-9	the	O	O	_	_	
+1-10	library	B-ScrPart_library	O	_	_	
+1-11	to	O	O	_	_	
+1-12	check	O	B-Evoking	_	_	
+1-13	out	O	I-Evoking	_	_	
+1-14	a	O	I-Evoking	_	_	
+1-15	couple	O	I-Evoking	_	_	
+1-16	of	O	I-Evoking	_	_	
+1-17	books	B-ScrPart_book	I-Evoking	_	_	
+1-18	.	O	O	_	_	
+
+#id=2
+#text=Our local library is very large and full of very interesting books , magazines and movies .
+2-1	Our	O	O	_	_	
+2-2	local	O	O	_	_	
+2-3	library	B-ScrPart_library	O	webanno.custom.Corefchains_	1-10	
+2-4	is	O	B-UnrelEv	_	_	
+2-5	very	O	O	_	_	
+2-6	large	O	O	_	_	
+2-7	and	O	O	_	_	
+2-8	full	O	O	_	_	
+2-9	of	O	O	_	_	
+2-10	very	O	O	_	_	
+2-11	interesting	O	O	_	_	
+2-12	books	B-ScrPart_book	O	webanno.custom.Corefchains_	1-17	
+2-13	,	O	O	_	_	
+2-14	magazines	O	O	_	_	
+2-15	and	O	O	_	_	
+2-16	movies	O	O	_	_	
+2-17	.	O	O	_	_	
+
+#id=3
+#text=Before I went to find my books , I stopped at the coffee shop in the library .
+3-1	Before	O	O	_	_	
+3-2	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-6	
+3-3	went	O	B-ScrEv_get_shelf	_	_	
+3-4	to	O	O	_	_	
+3-5	find	O	B-ScrEv_look_for_book	_	_	
+3-6	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-2	
+3-7	books	B-ScrPart_book	O	webanno.custom.Corefchains_	2-12	
+3-8	,	O	O	_	_	
+3-9	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-6	
+3-10	stopped	O	B-RelNScrEv	_	_	
+3-11	at	O	O	_	_	
+3-12	the	O	O	_	_	
+3-13	coffee	B-NPart	O	_	_	
+3-14	shop	I-NPart|B-NPart	O	_	_	
+3-15	in	O	O	_	_	
+3-16	the	O	O	_	_	
+3-17	library	B-ScrPart_library	O	webanno.custom.Corefchains_	2-3	
+3-18	.	O	O	_	_	
+
+#id=4
+#text=I ordered a coffee and a blueberry muffin so I could have a snack .
+4-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-9	
+4-2	ordered	O	B-RelNScrEv	_	_	
+4-3	a	O	O	_	_	
+4-4	coffee	B-NPart	O	_	_	
+4-5	and	O	O	_	_	
+4-6	a	O	O	_	_	
+4-7	blueberry	O	O	_	_	
+4-8	muffin	B-NPart	O	_	_	
+4-9	so	O	O	_	_	
+4-10	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-1	
+4-11	could	O	O	_	_	
+4-12	have	O	B-RelNScrEv	_	_	
+4-13	a	O	O	_	_	
+4-14	snack	B-NPart	O	_	_	
+4-15	.	O	O	_	_	
+
+#id=5
+#text=Once I finished my snack , I began to look for my books .
+5-1	Once	O	O	_	_	
+5-2	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-10	
+5-3	finished	O	B-RelNScrEv	_	_	
+5-4	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-2	
+5-5	snack	B-NPart	O	_	_	
+5-6	,	O	O	_	_	
+5-7	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-4	
+5-8	began	O	B-UnrelEv	_	_	
+5-9	to	O	O	_	_	
+5-10	look	O	B-ScrEv_look_for_book	_	_	
+5-11	for	O	I-ScrEv_look_for_book	_	_	
+5-12	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-7	
+5-13	books	B-ScrPart_book	O	webanno.custom.Corefchains_	3-7	
+5-14	.	O	O	_	_	
+
+#id=6
+#text=I used the library 's computer to find the location of each book .
+6-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-12	
+6-2	used	O	B-ScrEv_use_computer	_	_	
+6-3	the	O	O	_	_	
+6-4	library	B-ScrPart_library	O	webanno.custom.Corefchains_	3-17	
+6-5	's	O	O	_	_	
+6-6	computer	B-ScrPart_institutional_devices	O	_	_	
+6-7	to	O	O	_	_	
+6-8	find	O	B-ScrEv_use_computer	_	_	
+6-9	the	O	O	_	_	
+6-10	location	B-ScrPart_location_library	O	_	_	
+6-11	of	O	O	_	_	
+6-12	each	O	O	_	_	
+6-13	book	B-ScrPart_book	O	webanno.custom.Corefchains_	5-13	
+6-14	.	O	O	_	_	
+
+#id=7
+#text=Finding the books only took me about 10 minutes .
+7-1	Finding	O	B-ScrEv_look_for_book	_	_	
+7-2	the	O	O	_	_	
+7-3	books	B-ScrPart_book	O	webanno.custom.Corefchains_	6-13	
+7-4	only	O	O	_	_	
+7-5	took	O	B-UnrelEv	_	_	
+7-6	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-1	
+7-7	about	O	O	_	_	
+7-8	10	O	O	_	_	
+7-9	minutes	O	O	_	_	
+7-10	.	O	O	_	_	
+
+#id=8
+#text=After I found the books , I sat down in a comfortable chair that was next to a lamp .
+8-1	After	O	O	_	_	
+8-2	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-6	
+8-3	found	O	B-ScrEv_take_book	_	_	
+8-4	the	O	O	_	_	
+8-5	books	B-ScrPart_book	O	webanno.custom.Corefchains_	7-3	
+8-6	,	O	O	_	_	
+8-7	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-2	
+8-8	sat	O	B-RelNScrEv	_	_	
+8-9	down	O	I-RelNScrEv	_	_	
+8-10	in	O	O	_	_	
+8-11	a	O	O	_	_	
+8-12	comfortable	O	O	_	_	
+8-13	chair	B-ScrPart_reading_area_furniture	O	_	_	
+8-14	that	B-ScrPart_reading_area_furniture	O	webanno.custom.Corefchains_	8-13	
+8-15	was	O	B-UnrelEv	_	_	
+8-16	next	O	O	_	_	
+8-17	to	O	O	_	_	
+8-18	a	O	O	_	_	
+8-19	lamp	O	O	_	_	
+8-20	.	O	O	_	_	
+
+#id=9
+#text=I began reading one of my books while I was drinking my coffee .
+9-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-7	
+9-2	began	O	B-UnrelEv	_	_	
+9-3	reading	O	B-RelNScrEv	_	_	
+9-4	one	O	O	_	_	
+9-5	of	O	O	_	_	
+9-6	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-1	
+9-7	books	B-ScrPart_book	O	webanno.custom.Corefchains_	8-5	
+9-8	while	O	O	_	_	
+9-9	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-6	
+9-10	was	O	O	_	_	
+9-11	drinking	O	B-RelNScrEv	_	_	
+9-12	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-9	
+9-13	coffee	B-NPart	O	_	_	
+9-14	.	O	O	_	_	
+
+#id=10
+#text=I stayed at the library and read for about thirty minutes .
+10-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-12	
+10-2	stayed	O	B-RelNScrEv	_	_	
+10-3	at	O	O	_	_	
+10-4	the	O	O	_	_	
+10-5	library	B-ScrPart_library	O	webanno.custom.Corefchains_	6-4	
+10-6	and	O	O	_	_	
+10-7	read	O	B-RelNScrEv	_	_	
+10-8	for	O	O	_	_	
+10-9	about	O	O	_	_	
+10-10	thirty	O	O	_	_	
+10-11	minutes	O	O	_	_	
+10-12	.	O	O	_	_	
+
+#id=11
+#text=I went to the checkout to check out my books , and then I left to walk home . 
+11-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	10-1	
+11-2	went	O	B-ScrEv_go_check_out	_	_	
+11-3	to	O	O	_	_	
+11-4	the	O	O	_	_	
+11-5	checkout	B-ScrPart_check-out_desk	O	_	_	
+11-6	to	O	O	_	_	
+11-7	check	O	B-ScrEv_register	_	_	
+11-8	out	O	I-ScrEv_register	_	_	
+11-9	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	11-1	
+11-10	books	B-ScrPart_book	O	webanno.custom.Corefchains_	9-7	
+11-11	,	O	O	_	_	
+11-12	and	O	O	_	_	
+11-13	then	O	O	_	_	
+11-14	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	11-9	
+11-15	left	O	B-ScrEv_leave	_	_	
+11-16	to	O	O	_	_	
+11-17	walk	O	B-RelNScrEv	_	_	
+11-18	home	B-NPart	O	_	_	
+11-19	.	O	O	_	_	
+

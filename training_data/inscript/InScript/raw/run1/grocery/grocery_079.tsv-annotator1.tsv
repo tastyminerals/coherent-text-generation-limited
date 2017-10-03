@@ -1,0 +1,312 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=The Empty Refrigerator One evening I returned home from work and realized that I was very hungry .
+1-1	The	O	O	_	_	
+1-2	Empty	O	O	_	_	
+1-3	Refrigerator	O	O	_	_	
+1-4	One	O	O	_	_	
+1-5	evening	O	O	_	_	
+1-6	I	B-ScrPart_shopper	O	_	_	
+1-7	returned	O	B-UnrelEv	_	_	
+1-8	home	O	O	_	_	
+1-9	from	O	O	_	_	
+1-10	work	O	O	_	_	
+1-11	and	O	O	_	_	
+1-12	realized	O	B-UnrelEv	_	_	
+1-13	that	O	O	_	_	
+1-14	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	1-6	
+1-15	was	O	B-UnrelEv	_	_	
+1-16	very	O	O	_	_	
+1-17	hungry	O	O	_	_	
+1-18	.	O	O	_	_	
+
+#id=2
+#text=However , when I opened the door to my refrigerator , I saw that there was nothing in it besides a gallon of water and a half-used bottle of ketchup .
+2-1	However	O	O	_	_	
+2-2	,	O	O	_	_	
+2-3	when	O	O	_	_	
+2-4	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	1-14	
+2-5	opened	O	B-UnrelEv	_	_	
+2-6	the	O	O	_	_	
+2-7	door	O	O	_	_	
+2-8	to	O	O	_	_	
+2-9	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	2-4	
+2-10	refrigerator	O	O	_	_	
+2-11	,	O	O	_	_	
+2-12	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	2-9	
+2-13	saw	O	B-UnrelEv	_	_	
+2-14	that	O	O	_	_	
+2-15	there	O	O	_	_	
+2-16	was	O	B-UnrelEv	_	_	
+2-17	nothing	O	O	_	_	
+2-18	in	O	O	_	_	
+2-19	it	O	O	_	_	
+2-20	besides	O	O	_	_	
+2-21	a	O	O	_	_	
+2-22	gallon	O	O	_	_	
+2-23	of	O	O	_	_	
+2-24	water	O	O	_	_	
+2-25	and	O	O	_	_	
+2-26	a	O	O	_	_	
+2-27	half-used	O	O	_	_	
+2-28	bottle	O	O	_	_	
+2-29	of	O	O	_	_	
+2-30	ketchup	O	O	_	_	
+2-31	.	O	O	_	_	
+
+#id=3
+#text=I opened my freezer to only find two trays of ice .
+3-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	2-12	
+3-2	opened	O	B-UnrelEv	_	_	
+3-3	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	3-1	
+3-4	freezer	O	O	_	_	
+3-5	to	O	O	_	_	
+3-6	only	O	O	_	_	
+3-7	find	O	B-UnrelEv	_	_	
+3-8	two	O	O	_	_	
+3-9	trays	O	O	_	_	
+3-10	of	O	O	_	_	
+3-11	ice	O	O	_	_	
+3-12	.	O	O	_	_	
+
+#id=4
+#text=This did not look promising at all .
+4-1	This	O	O	_	_	
+4-2	did	O	O	_	_	
+4-3	not	O	O	_	_	
+4-4	look	O	B-UnrelEv	_	_	
+4-5	promising	O	B-UnrelEv	_	_	
+4-6	at	O	O	_	_	
+4-7	all	O	O	_	_	
+4-8	.	O	O	_	_	
+
+#id=5
+#text=Since I was very hungry , I decided to go out to eat and then go grocery shopping .
+5-1	Since	O	O	_	_	
+5-2	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	3-3	
+5-3	was	O	B-UnrelEv	_	_	
+5-4	very	O	O	_	_	
+5-5	hungry	O	O	_	_	
+5-6	,	O	O	_	_	
+5-7	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	5-2	
+5-8	decided	O	B-UnrelEv	_	_	
+5-9	to	O	O	_	_	
+5-10	go	O	B-UnrelEv|B-UnrelEv	_	_	
+5-11	out	O	I-UnrelEv	_	_	
+5-12	to	O	O	_	_	
+5-13	eat	O	B-UnrelEv	_	_	
+5-14	and	O	O	_	_	
+5-15	then	O	O	_	_	
+5-16	go	O	B-Evoking|B-ScrEv_go_grocery	_	_	
+5-17	grocery	O	I-Evoking	_	_	
+5-18	shopping	O	I-Evoking|B-ScrEv_get_groceries	_	_	
+5-19	.	O	O	_	_	
+
+#id=6
+#text=I went to eat at a restaurant near my favorite grocery store and then started my grocery shopping quest .
+6-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	5-7	
+6-2	went	O	B-UnrelEv	_	_	
+6-3	to	O	O	_	_	
+6-4	eat	O	B-UnrelEv	_	_	
+6-5	at	O	O	_	_	
+6-6	a	O	O	_	_	
+6-7	restaurant	O	O	_	_	
+6-8	near	O	O	_	_	
+6-9	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	6-1	
+6-10	favorite	O	O	_	_	
+6-11	grocery	B-ScrPart_grocery_shop	O	_	_	
+6-12	store	I-ScrPart_grocery_shop|B-ScrPart_grocery_shop	O	_	_	
+6-13	and	O	O	_	_	
+6-14	then	O	O	_	_	
+6-15	started	O	B-UnrelEv	_	_	
+6-16	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	6-9	
+6-17	grocery	O	O	_	_	
+6-18	shopping	O	B-ScrEv_get_groceries	_	_	
+6-19	quest	O	O	_	_	
+6-20	.	O	O	_	_	
+
+#id=7
+#text=I first went to the produce aisle and picked out an assortment of fruits and vegetables .
+7-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	6-16	
+7-2	first	O	O	_	_	
+7-3	went	O	B-ScrEv_move_section	_	_	
+7-4	to	O	O	_	_	
+7-5	the	O	O	_	_	
+7-6	produce	B-ScrPart_section	O	_	_	
+7-7	aisle	I-ScrPart_section|B-ScrPart_section	O	_	_	
+7-8	and	O	O	_	_	
+7-9	picked	O	B-ScrEv_get_groceries|B-ScrEv_get_groceries	_	_	
+7-10	out	O	I-ScrEv_get_groceries	_	_	
+7-11	an	O	O	_	_	
+7-12	assortment	O	O	_	_	
+7-13	of	O	O	_	_	
+7-14	fruits	B-ScrPart_groceries	O	_	_	
+7-15	and	O	O	_	_	
+7-16	vegetables	B-ScrPart_groceries	O	_	_	
+7-17	.	O	O	_	_	
+
+#id=8
+#text=I then proceeded to the meat section where I picked out some chicken , pork chops , hamburger , and a beef roast .
+8-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	7-1	
+8-2	then	O	O	_	_	
+8-3	proceeded	O	B-ScrEv_move_section	_	_	
+8-4	to	O	O	_	_	
+8-5	the	O	O	_	_	
+8-6	meat	B-ScrPart_section	O	_	_	
+8-7	section	I-ScrPart_section|B-ScrPart_section	O	_	_	
+8-8	where	O	O	_	_	
+8-9	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	8-1	
+8-10	picked	O	B-ScrEv_get_groceries|B-ScrEv_get_groceries	_	_	
+8-11	out	O	I-ScrEv_get_groceries	_	_	
+8-12	some	O	O	_	_	
+8-13	chicken	B-ScrPart_groceries	O	_	_	
+8-14	,	O	O	_	_	
+8-15	pork	B-ScrPart_groceries	O	_	_	
+8-16	chops	I-ScrPart_groceries|B-ScrPart_groceries	O	_	_	
+8-17	,	O	O	_	_	
+8-18	hamburger	B-ScrPart_groceries	O	_	_	
+8-19	,	O	O	_	_	
+8-20	and	O	O	_	_	
+8-21	a	O	O	_	_	
+8-22	beef	B-ScrPart_groceries	O	_	_	
+8-23	roast	I-ScrPart_groceries|B-ScrPart_groceries	O	_	_	
+8-24	.	O	O	_	_	
+
+#id=9
+#text=Next , I picked up some canned items and some taco shells , taco seasoning , pizza crust mix , and peanut buttter .
+9-1	Next	O	O	_	_	
+9-2	,	O	O	_	_	
+9-3	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	8-9	
+9-4	picked	O	B-ScrEv_get_groceries|B-ScrEv_get_groceries	_	_	
+9-5	up	O	I-ScrEv_get_groceries	_	_	
+9-6	some	O	O	_	_	
+9-7	canned	O	B-UnrelEv	_	_	
+9-8	items	B-ScrPart_groceries	O	_	_	
+9-9	and	O	O	_	_	
+9-10	some	O	O	_	_	
+9-11	taco	B-ScrPart_groceries	O	_	_	
+9-12	shells	I-ScrPart_groceries|B-ScrPart_groceries	O	_	_	
+9-13	,	O	O	_	_	
+9-14	taco	B-ScrPart_groceries	O	_	_	
+9-15	seasoning	I-ScrPart_groceries|B-ScrPart_groceries	O	_	_	
+9-16	,	O	O	_	_	
+9-17	pizza	B-ScrPart_groceries	O	_	_	
+9-18	crust	I-ScrPart_groceries	O	_	_	
+9-19	mix	I-ScrPart_groceries|B-ScrPart_groceries	O	_	_	
+9-20	,	O	O	_	_	
+9-21	and	O	O	_	_	
+9-22	peanut	B-ScrPart_groceries	O	_	_	
+9-23	buttter	I-ScrPart_groceries|B-ScrPart_groceries	O	_	_	
+9-24	.	O	O	_	_	
+
+#id=10
+#text=After this , I went to the dairy section and picked up some cheese and milk .
+10-1	After	O	O	_	_	
+10-2	this	O	O	_	_	
+10-3	,	O	O	_	_	
+10-4	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	9-3	
+10-5	went	O	B-ScrEv_move_section	_	_	
+10-6	to	O	O	_	_	
+10-7	the	O	O	_	_	
+10-8	dairy	B-ScrPart_section	O	_	_	
+10-9	section	I-ScrPart_section|B-ScrPart_section	O	_	_	
+10-10	and	O	O	_	_	
+10-11	picked	O	B-ScrEv_get_groceries|B-ScrEv_get_groceries	_	_	
+10-12	up	O	I-ScrEv_get_groceries	_	_	
+10-13	some	O	O	_	_	
+10-14	cheese	B-ScrPart_groceries	O	_	_	
+10-15	and	O	O	_	_	
+10-16	milk	B-ScrPart_groceries	O	_	_	
+10-17	.	O	O	_	_	
+
+#id=11
+#text=My next stop was the frozen section where I tossed some ready-made meals in my cart along with chicken strips , frozen vegetables , tator tots , and frozen pizza .
+11-1	My	B-ScrPart_shopper	O	webanno.custom.Corefchains_	10-4	
+11-2	next	O	O	_	_	
+11-3	stop	O	O	_	_	
+11-4	was	O	B-UnrelEv	_	_	
+11-5	the	O	O	_	_	
+11-6	frozen	B-ScrPart_section	O	_	_	
+11-7	section	I-ScrPart_section|B-ScrPart_section	O	_	_	
+11-8	where	O	O	_	_	
+11-9	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	11-1	
+11-10	tossed	O	B-ScrEv_get_groceries	_	_	
+11-11	some	O	O	_	_	
+11-12	ready-made	B-ScrPart_groceries	O	_	_	
+11-13	meals	I-ScrPart_groceries|B-ScrPart_groceries	O	_	_	
+11-14	in	O	O	_	_	
+11-15	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	11-9	
+11-16	cart	B-ScrPart_shopping_cart/basket	O	_	_	
+11-17	along	O	O	_	_	
+11-18	with	O	O	_	_	
+11-19	chicken	B-ScrPart_groceries	O	_	_	
+11-20	strips	I-ScrPart_groceries|B-ScrPart_groceries	O	_	_	
+11-21	,	O	O	_	_	
+11-22	frozen	B-ScrPart_groceries	O	_	_	
+11-23	vegetables	I-ScrPart_groceries|B-ScrPart_groceries	O	_	_	
+11-24	,	O	O	_	_	
+11-25	tator	B-ScrPart_groceries	O	_	_	
+11-26	tots	I-ScrPart_groceries|B-ScrPart_groceries	O	_	_	
+11-27	,	O	O	_	_	
+11-28	and	O	O	_	_	
+11-29	frozen	B-ScrPart_groceries	O	_	_	
+11-30	pizza	I-ScrPart_groceries|B-ScrPart_groceries	O	_	_	
+11-31	.	O	O	_	_	
+
+#id=12
+#text=Before I made it to the checkout area , I picked up a loaf of bread .
+12-1	Before	O	O	_	_	
+12-2	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	11-15	
+12-3	made	O	B-ScrEv_move_section	_	_	
+12-4	it	O	O	_	_	
+12-5	to	O	O	_	_	
+12-6	the	O	O	_	_	
+12-7	checkout	B-ScrPart_section	O	_	_	
+12-8	area	I-ScrPart_section|B-ScrPart_section	O	_	_	
+12-9	,	O	O	_	_	
+12-10	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	12-2	
+12-11	picked	O	B-ScrEv_get_groceries|B-ScrEv_get_groceries	_	_	
+12-12	up	O	I-ScrEv_get_groceries	_	_	
+12-13	a	B-ScrPart_groceries	O	_	_	
+12-14	loaf	I-ScrPart_groceries	O	_	_	
+12-15	of	I-ScrPart_groceries	O	_	_	
+12-16	bread	I-ScrPart_groceries|B-ScrPart_groceries	O	_	_	
+12-17	.	O	O	_	_	
+
+#id=13
+#text=I know had a good assortment of food and it would be a long time before I would come home to an empty refrigerator and freezer again which was a very good thing . 
+13-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	12-10	
+13-2	know	O	B-UnrelEv	_	_	
+13-3	had	O	B-UnrelEv	_	_	
+13-4	a	O	O	_	_	
+13-5	good	O	O	_	_	
+13-6	assortment	O	O	_	_	
+13-7	of	O	O	_	_	
+13-8	food	B-ScrPart_groceries	O	_	_	
+13-9	and	O	O	_	_	
+13-10	it	O	O	_	_	
+13-11	would	O	O	_	_	
+13-12	be	O	B-UnrelEv	_	_	
+13-13	a	O	O	_	_	
+13-14	long	O	O	_	_	
+13-15	time	O	O	_	_	
+13-16	before	O	O	_	_	
+13-17	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	13-1	
+13-18	would	O	O	_	_	
+13-19	come	O	B-UnrelEv	_	_	
+13-20	home	O	O	_	_	
+13-21	to	O	O	_	_	
+13-22	an	O	O	_	_	
+13-23	empty	O	O	_	_	
+13-24	refrigerator	O	O	_	_	
+13-25	and	O	O	_	_	
+13-26	freezer	O	O	_	_	
+13-27	again	O	O	_	_	
+13-28	which	O	O	_	_	
+13-29	was	O	B-UnrelEv	_	_	
+13-30	a	O	O	_	_	
+13-31	very	O	O	_	_	
+13-32	good	O	O	_	_	
+13-33	thing	O	O	_	_	
+13-34	.	O	O	_	_	
+

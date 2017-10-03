@@ -1,0 +1,214 @@
+ # webanno.custom.Participants | Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I was watching a cooking show yesterday on television about different recipes for cake mix cakes .
+1-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+1-2	was	O	O	O	_	_	
+1-3	watching	O	O	B-ScrEv_choose_recipe	_	_	
+1-4	a	O	O	O	_	_	
+1-5	cooking	B-ScrPart_recipe_source	B-webanno.custom.Participants_	O	_	_	
+1-6	show	I-ScrPart_recipe_source|B-ScrPart_recipe_source	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+1-7	yesterday	B-NPart	B-webanno.custom.Participants_	O	_	_	
+1-8	on	O	O	O	_	_	
+1-9	television	B-ScrPart_recipe_source	B-webanno.custom.Participants_	O	_	_	
+1-10	about	O	O	O	_	_	
+1-11	different	O	O	O	_	_	
+1-12	recipes	B-ScrPart_baking_instructions	B-webanno.custom.Participants_	O	_	_	
+1-13	for	O	O	O	_	_	
+1-14	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	_	_	
+1-15	mix	I-ScrPart_cake	I-webanno.custom.Participants_	O	_	_	
+1-16	cakes	I-ScrPart_cake|B-ScrPart_cake	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+1-17	.	O	O	O	_	_	
+
+#id=2
+#text=I saw a recipe that looked good .
+2-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+2-2	saw	O	O	B-ScrEv_choose_recipe	_	_	
+2-3	a	O	O	O	_	_	
+2-4	recipe	B-ScrPart_baking_instructions	B-webanno.custom.Participants_	O	_	_	
+2-5	that	O	O	O	_	_	
+2-6	looked	O	O	O	_	_	
+2-7	good	O	O	O	_	_	
+2-8	.	O	O	O	_	_	
+
+#id=3
+#text=I had a Red Velvet chocolate cake mix in a box and the blueberries required .
+3-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+3-2	had	O	O	B-UnrelEv	_	_	
+3-3	a	O	O	O	_	_	
+3-4	Red	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+3-5	Velvet	I-ScrPart_ingredients	I-webanno.custom.Participants_	O	_	_	
+3-6	chocolate	I-ScrPart_ingredients	I-webanno.custom.Participants_	O	_	_	
+3-7	cake	I-ScrPart_ingredients	I-webanno.custom.Participants_	O	_	_	
+3-8	mix	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+3-9	in	O	O	O	_	_	
+3-10	a	O	O	O	_	_	
+3-11	box	B-ScrPart_other	B-webanno.custom.Participants_	O	_	_	
+3-12	and	O	O	O	_	_	
+3-13	the	O	O	O	_	_	
+3-14	blueberries	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+3-15	required	O	O	B-UnrelEv	_	_	
+3-16	.	O	O	O	_	_	
+
+#id=4
+#text=I 'm too adventurous for my own good .
+4-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+4-2	'm	O	O	B-UnrelEv	_	_	
+4-3	too	O	O	O	_	_	
+4-4	adventurous	O	O	O	_	_	
+4-5	for	O	O	O	_	_	
+4-6	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+4-7	own	O	O	O	_	_	
+4-8	good	O	O	O	_	_	
+4-9	.	O	O	O	_	_	
+
+#id=5
+#text=I figured I 'd try it .
+5-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+5-2	figured	O	O	B-UnrelEv	_	_	
+5-3	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+5-4	'd	O	O	O	_	_	
+5-5	try	O	O	B-UnrelEv	_	_	
+5-6	it	B-No_label	B-webanno.custom.Participants_	O	_	_	
+5-7	.	O	O	O	_	_	
+
+#id=6
+#text=I tossed the blueberries with sugar and put them in the baking dish .
+6-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+6-2	tossed	O	O	B-ScrEv_prepare_ingridients	_	_	
+6-3	the	O	O	O	_	_	
+6-4	blueberries	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	group_blueberries_sugar	6-9	
+6-5	with	O	O	O	_	_	
+6-6	sugar	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	group_blueberries_sugar	6-9	
+6-7	and	O	O	O	_	_	
+6-8	put	O	O	B-ScrEv_add_ingridients	_	_	
+6-9	them	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+6-10	in	O	O	O	_	_	
+6-11	the	O	O	O	_	_	
+6-12	baking	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	_	_	
+6-13	dish	I-ScrPart_cake_tin|B-ScrPart_cake_tin	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+6-14	.	O	O	O	_	_	
+
+#id=7
+#text=I then mixed butter and a little milk with the cake mix .
+7-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+7-2	then	O	O	O	_	_	
+7-3	mixed	O	O	B-ScrEv_make_dough	_	_	
+7-4	butter	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+7-5	and	O	O	O	_	_	
+7-6	a	O	O	O	_	_	
+7-7	little	O	O	O	_	_	
+7-8	milk	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+7-9	with	O	O	O	_	_	
+7-10	the	O	O	O	_	_	
+7-11	cake	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+7-12	mix	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+7-13	.	O	O	O	_	_	
+
+#id=8
+#text=I put it on top of the blueberries .
+8-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+8-2	put	O	O	B-ScrEv_pour_dough	_	_	
+8-3	it	B-ScrPart_dough	B-webanno.custom.Participants_	O	_	_	
+8-4	on	O	O	O	_	_	
+8-5	top	B-No_label	B-webanno.custom.Participants_	O	_	_	
+8-6	of	O	O	O	_	_	
+8-7	the	O	O	O	_	_	
+8-8	blueberries	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+8-9	.	O	O	O	_	_	
+
+#id=9
+#text=I put it in the oven .
+9-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+9-2	put	O	O	B-ScrEv_put_cake_oven	_	_	
+9-3	it	B-ScrPart_dough	B-webanno.custom.Participants_	O	_	_	
+9-4	in	O	O	O	_	_	
+9-5	the	O	O	O	_	_	
+9-6	oven	B-ScrPart_oven	B-webanno.custom.Participants_	O	_	_	
+9-7	.	O	O	O	_	_	
+
+#id=10
+#text=It was supposed to be like a cobbler .
+10-1	It	B-ScrPart_cake	B-webanno.custom.Participants_	O	_	_	
+10-2	was	O	O	O	_	_	
+10-3	supposed	O	O	B-UnrelEv	_	_	
+10-4	to	O	O	O	_	_	
+10-5	be	O	O	B-UnrelEv	_	_	
+10-6	like	O	O	O	_	_	
+10-7	a	O	O	O	_	_	
+10-8	cobbler	B-NPart	B-webanno.custom.Participants_	O	_	_	
+10-9	.	O	O	O	_	_	
+
+#id=11
+#text=The cake was pretty bad .
+11-1	The	O	O	O	_	_	
+11-2	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	_	_	
+11-3	was	O	O	B-UnrelEv	_	_	
+11-4	pretty	O	O	O	_	_	
+11-5	bad	O	O	O	_	_	
+11-6	.	O	O	O	_	_	
+
+#id=12
+#text=The bottom was all watery and the cake mix was super mushy because of all the liquid .
+12-1	The	O	O	O	_	_	
+12-2	bottom	B-NPart	B-webanno.custom.Participants_	O	_	_	
+12-3	was	O	O	B-UnrelEv	_	_	
+12-4	all	O	O	O	_	_	
+12-5	watery	O	O	O	_	_	
+12-6	and	O	O	O	_	_	
+12-7	the	O	O	O	_	_	
+12-8	cake	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+12-9	mix	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+12-10	was	O	O	B-UnrelEv	_	_	
+12-11	super	O	O	O	_	_	
+12-12	mushy	O	O	O	_	_	
+12-13	because	O	O	O	_	_	
+12-14	of	O	O	O	_	_	
+12-15	all	O	O	O	_	_	
+12-16	the	O	O	O	_	_	
+12-17	liquid	B-ScrPart_other	B-webanno.custom.Participants_	O	_	_	
+12-18	.	O	O	O	_	_	
+
+#id=13
+#text=The first couple of bites were okay .
+13-1	The	O	O	O	_	_	
+13-2	first	O	O	O	_	_	
+13-3	couple	B-Head_of_Partitive	B-webanno.custom.Participants_	O	_	_	
+13-4	of	O	O	O	_	_	
+13-5	bites	B-NPart	B-webanno.custom.Participants_	O	_	_	
+13-6	were	O	O	B-UnrelEv	_	_	
+13-7	okay	O	O	O	_	_	
+13-8	.	O	O	O	_	_	
+
+#id=14
+#text=That was about all anyone could eat .
+14-1	That	O	O	O	_	_	
+14-2	was	O	O	B-UnrelEv	_	_	
+14-3	about	O	O	O	_	_	
+14-4	all	O	O	O	_	_	
+14-5	anyone	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	_	_	
+14-6	could	O	O	O	_	_	
+14-7	eat	O	O	B-ScrEv_eat	_	_	
+14-8	.	O	O	O	_	_	
+
+#id=15
+#text=I even tried to get the juice out .
+15-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+15-2	even	O	O	O	_	_	
+15-3	tried	O	O	B-UnrelEv	_	_	
+15-4	to	O	O	O	_	_	
+15-5	get	O	O	B-UnrelEv	_	_	
+15-6	the	O	O	O	_	_	
+15-7	juice	B-ScrPart_other	B-webanno.custom.Participants_	O	_	_	
+15-8	out	O	O	O	_	_	
+15-9	.	O	O	O	_	_	
+
+#id=16
+#text=I 'm tossing it this morning . 
+16-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+16-2	'm	O	O	O	_	_	
+16-3	tossing	O	O	B-UnrelEv	_	_	
+16-4	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	_	_	
+16-5	this	O	O	O	_	_	
+16-6	morning	B-NPart	B-webanno.custom.Participants_	O	_	_	
+16-7	.	O	O	O	_	_	
+

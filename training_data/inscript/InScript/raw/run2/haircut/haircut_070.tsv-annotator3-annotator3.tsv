@@ -1,0 +1,263 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=Every two months or so I go and get my hair trimmed .
+1-1	Every	O	O	
+1-2	two	O	O	
+1-3	months	B-ScrPart_time/date	O	
+1-4	or	O	O	
+1-5	so	O	O	
+1-6	I	B-ScrPart_customer	O	
+1-7	go	O	B-ScrEv_get_salon	
+1-8	and	O	O	
+1-9	get	O	B-Evoking	
+1-10	my	B-ScrPart_customer	I-Evoking	
+1-11	hair	B-ScrPart_hair	I-Evoking	
+1-12	trimmed	O	I-Evoking|B-ScrEv_cut	
+1-13	.	O	O	
+
+#id=2
+#text=It 's always the same thing .
+2-1	It	B-No_label	O	
+2-2	's	O	B-UnrelEv	
+2-3	always	O	O	
+2-4	the	O	O	
+2-5	same	O	O	
+2-6	thing	B-No_label	O	
+2-7	.	O	O	
+
+#id=3
+#text=I wash it before I leave the house , which is funny because I also pay to have it washed at the salon .
+3-1	I	B-ScrPart_customer	O	
+3-2	wash	O	B-ScrEv_wash	
+3-3	it	B-ScrPart_hair	O	
+3-4	before	O	O	
+3-5	I	B-ScrPart_customer	O	
+3-6	leave	O	B-UnrelEv	
+3-7	the	O	O	
+3-8	house	B-NPart	O	
+3-9	,	O	O	
+3-10	which	O	O	
+3-11	is	O	B-UnrelEv	
+3-12	funny	O	O	
+3-13	because	O	O	
+3-14	I	B-ScrPart_customer	O	
+3-15	also	O	O	
+3-16	pay	O	B-ScrEv_pay	
+3-17	to	O	O	
+3-18	have	O	B-UnrelEv	
+3-19	it	B-ScrPart_hair	O	
+3-20	washed	O	B-ScrEv_wash	
+3-21	at	O	O	
+3-22	the	O	O	
+3-23	salon	B-ScrPart_salon	O	
+3-24	.	O	O	
+
+#id=4
+#text=I just do n't want to show up with dirty hair !
+4-1	I	B-ScrPart_customer	O	
+4-2	just	O	O	
+4-3	do	O	O	
+4-4	n't	O	O	
+4-5	want	O	B-UnrelEv	
+4-6	to	O	O	
+4-7	show	O	B-UnrelEv|B-UnrelEv	
+4-8	up	O	I-UnrelEv	
+4-9	with	O	O	
+4-10	dirty	O	B-UnrelEv	
+4-11	hair	B-ScrPart_hair	O	
+4-12	!	O	O	
+
+#id=5
+#text=Once there , my regular girl Betty takes me back and washes it , then directs me to her station where I sit in a raised chair .
+5-1	Once	O	O	
+5-2	there	B-ScrPart_salon	O	
+5-3	,	O	O	
+5-4	my	B-ScrPart_customer	O	
+5-5	regular	O	O	
+5-6	girl	B-ScrPart_hairdresser	O	
+5-7	Betty	B-ScrPart_hairdresser	O	
+5-8	takes	O	B-ScrEv_move_in_salon	
+5-9	me	B-ScrPart_customer	O	
+5-10	back	O	O	
+5-11	and	O	O	
+5-12	washes	O	B-ScrEv_wash	
+5-13	it	B-ScrPart_hair	O	
+5-14	,	O	O	
+5-15	then	O	O	
+5-16	directs	O	B-ScrEv_move_in_salon	
+5-17	me	B-ScrPart_customer	O	
+5-18	to	O	O	
+5-19	her	B-ScrPart_hairdresser	O	
+5-20	station	B-ScrPart_location_salon	O	
+5-21	where	O	O	
+5-22	I	B-ScrPart_customer	O	
+5-23	sit	O	B-ScrEv_sit_down	
+5-24	in	O	O	
+5-25	a	O	O	
+5-26	raised	O	B-UnrelEv	
+5-27	chair	B-ScrPart_chair	O	
+5-28	.	O	O	
+
+#id=6
+#text=She snips and buzzes and cuts quickly , she knows exactly how I like my hair cut .
+6-1	She	B-ScrPart_hairdresser	O	
+6-2	snips	O	B-ScrEv_cut	
+6-3	and	O	O	
+6-4	buzzes	O	B-ScrEv_cut	
+6-5	and	O	O	
+6-6	cuts	O	B-ScrEv_cut	
+6-7	quickly	O	O	
+6-8	,	O	O	
+6-9	she	B-ScrPart_hairdresser	O	
+6-10	knows	O	B-RelNScrEv	
+6-11	exactly	O	O	
+6-12	how	O	O	
+6-13	I	B-ScrPart_customer	O	
+6-14	like	O	B-UnrelEv	
+6-15	my	B-ScrPart_customer	O	
+6-16	hair	B-ScrPart_hair	O	
+6-17	cut	O	B-RelNScrEv	
+6-18	.	O	O	
+
+#id=7
+#text=While she does all that , I 'm huddled under a protective cape , and I like to just chat with her about everything that comes to mind .
+7-1	While	O	O	
+7-2	she	B-ScrPart_hairdresser	O	
+7-3	does	O	B-ScrEv_cut	
+7-4	all	O	O	
+7-5	that	O	O	
+7-6	,	O	O	
+7-7	I	B-ScrPart_customer	O	
+7-8	'm	O	O	
+7-9	huddled	O	B-UnrelEv	
+7-10	under	O	O	
+7-11	a	O	O	
+7-12	protective	O	O	
+7-13	cape	B-ScrPart_cape	O	
+7-14	,	O	O	
+7-15	and	O	O	
+7-16	I	B-ScrPart_customer	O	
+7-17	like	O	B-UnrelEv	
+7-18	to	O	O	
+7-19	just	O	O	
+7-20	chat	O	B-ScrEv_small_talk	
+7-21	with	O	O	
+7-22	her	B-ScrPart_hairdresser	O	
+7-23	about	O	O	
+7-24	everything	B-NPart	O	
+7-25	that	O	O	
+7-26	comes	O	B-UnrelEv	
+7-27	to	O	O	
+7-28	mind	B-NPart	O	
+7-29	.	O	O	
+
+#id=8
+#text=We gossip about the local people , I share my upcoming travels , she fills me in on her kid 's latest happenings .
+8-1	We	B-ScrPart_hairdresser_customer	O	
+8-2	gossip	O	B-ScrEv_small_talk	
+8-3	about	O	O	
+8-4	the	O	O	
+8-5	local	O	O	
+8-6	people	B-NPart	O	
+8-7	,	O	O	
+8-8	I	B-ScrPart_customer	O	
+8-9	share	O	B-ScrEv_small_talk	
+8-10	my	B-ScrPart_customer	O	
+8-11	upcoming	O	B-UnrelEv	
+8-12	travels	B-NPart	O	
+8-13	,	O	O	
+8-14	she	B-ScrPart_hairdresser	O	
+8-15	fills	O	B-ScrEv_small_talk	
+8-16	me	B-ScrPart_customer	O	
+8-17	in	O	O	
+8-18	on	O	O	
+8-19	her	B-ScrPart_hairdresser	O	
+8-20	kid	B-NPart	O	
+8-21	's	O	O	
+8-22	latest	O	O	
+8-23	happenings	O	B-UnrelEv	
+8-24	.	O	O	
+
+#id=9
+#text=Then before I know it , I 'm all trimmed up and she 's got the hair dryer and round brush out making it look beautiful .
+9-1	Then	O	O	
+9-2	before	O	O	
+9-3	I	B-ScrPart_customer	O	
+9-4	know	O	B-UnrelEv	
+9-5	it	B-NPart	O	
+9-6	,	O	O	
+9-7	I	B-ScrPart_customer	O	
+9-8	'm	O	O	
+9-9	all	O	O	
+9-10	trimmed	O	B-ScrEv_cut|B-ScrEv_cut	
+9-11	up	O	I-ScrEv_cut	
+9-12	and	O	O	
+9-13	she	B-ScrPart_hairdresser	O	
+9-14	's	O	O	
+9-15	got	O	B-RelNScrEv	
+9-16	the	O	O	
+9-17	hair	B-ScrPart_hairdryer	O	
+9-18	dryer	I-ScrPart_hairdryer|B-ScrPart_hairdryer	O	
+9-19	and	O	O	
+9-20	round	B-ScrPart_comb	O	
+9-21	brush	I-ScrPart_comb|B-ScrPart_comb	O	
+9-22	out	O	O	
+9-23	making	O	B-ScrEv_make_hair_style	
+9-24	it	B-ScrPart_hair	O	
+9-25	look	O	B-UnrelEv	
+9-26	beautiful	O	O	
+9-27	.	O	O	
+
+#id=10
+#text=I can never copy what she does at home , so I just let myself enjoy it while I can !
+10-1	I	B-ScrPart_customer	O	
+10-2	can	O	B-UnrelEv	
+10-3	never	O	O	
+10-4	copy	O	B-UnrelEv	
+10-5	what	O	O	
+10-6	she	B-ScrPart_hairdresser	O	
+10-7	does	O	B-RelNScrEv	
+10-8	at	O	O	
+10-9	home	B-NPart	O	
+10-10	,	O	O	
+10-11	so	O	O	
+10-12	I	B-ScrPart_customer	O	
+10-13	just	O	O	
+10-14	let	O	B-UnrelEv	
+10-15	myself	B-ScrPart_customer	O	
+10-16	enjoy	O	B-ScrEv_customer_opinion	
+10-17	it	B-NPart	O	
+10-18	while	O	O	
+10-19	I	B-ScrPart_customer	O	
+10-20	can	O	B-UnrelEv	
+10-21	!	O	O	
+
+#id=11
+#text=After that I pay , and always come back to slip her a cash tip and tell her I 'll see her in two months . 
+11-1	After	O	O	
+11-2	that	O	O	
+11-3	I	B-ScrPart_customer	O	
+11-4	pay	O	B-ScrEv_pay	
+11-5	,	O	O	
+11-6	and	O	O	
+11-7	always	O	O	
+11-8	come	O	B-UnrelEv|B-UnrelEv	
+11-9	back	O	I-UnrelEv	
+11-10	to	O	O	
+11-11	slip	O	B-ScrEv_leave_tip	
+11-12	her	B-ScrPart_hairdresser	O	
+11-13	a	O	O	
+11-14	cash	B-ScrPart_tip	O	
+11-15	tip	I-ScrPart_tip|B-ScrPart_tip	O	
+11-16	and	O	O	
+11-17	tell	O	B-UnrelEv	
+11-18	her	B-ScrPart_hairdresser	O	
+11-19	I	B-ScrPart_customer	O	
+11-20	'll	O	O	
+11-21	see	O	B-UnrelEv	
+11-22	her	B-ScrPart_hairdresser	O	
+11-23	in	O	O	
+11-24	two	O	O	
+11-25	months	B-ScrPart_time/date	O	
+11-26	.	O	O	
+

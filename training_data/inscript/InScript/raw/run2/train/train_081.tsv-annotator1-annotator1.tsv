@@ -1,0 +1,232 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=The last train trip I took was with a couple of friends to go and check out an art museum that was fairly far away .
+1-1	The	O	O	_	_	
+1-2	last	O	O	_	_	
+1-3	train	B-Evoking	B-ScrPart_trip	_	_	
+1-4	trip	I-Evoking	I-ScrPart_trip|B-ScrPart_trip	_	_	
+1-5	I	I-Evoking	B-ScrPart_passenger	_	_	
+1-6	took	I-Evoking	O	_	_	
+1-7	was	O	O	_	_	
+1-8	with	O	O	_	_	
+1-9	a	O	O	_	_	
+1-10	couple	O	B-Head_of_Partitive	_	_	
+1-11	of	O	O	_	_	
+1-12	friends	O	B-ScrPart_passenger	_	_	
+1-13	to	O	O	_	_	
+1-14	go	B-UnrelEv	O	_	_	
+1-15	and	O	O	_	_	
+1-16	check	B-UnrelEv|B-UnrelEv	O	_	_	
+1-17	out	I-UnrelEv	O	_	_	
+1-18	an	O	O	_	_	
+1-19	art	O	B-NPart	_	_	
+1-20	museum	O	I-NPart|B-NPart	_	_	
+1-21	that	O	O	_	_	
+1-22	was	B-UnrelEv	O	_	_	
+1-23	fairly	O	O	_	_	
+1-24	far	O	O	_	_	
+1-25	away	O	O	_	_	
+1-26	.	O	O	_	_	
+
+#id=2
+#text=We met up at the station with plenty of time to spare , so we chatted for a bit while we waited .
+2-1	We	O	B-ScrPart_passenger	_	_	
+2-2	met	B-RelNScrEv|B-RelNScrEv	O	_	_	
+2-3	up	I-RelNScrEv	O	_	_	
+2-4	at	O	O	_	_	
+2-5	the	O	O	_	_	
+2-6	station	O	B-ScrPart_train_station	_	_	
+2-7	with	O	O	_	_	
+2-8	plenty	O	B-Head_of_Partitive	_	_	
+2-9	of	O	O	_	_	
+2-10	time	O	B-No_label	_	_	
+2-11	to	O	O	_	_	
+2-12	spare	B-UnrelEv	O	_	_	
+2-13	,	O	O	_	_	
+2-14	so	O	O	_	_	
+2-15	we	O	B-ScrPart_passenger	_	_	
+2-16	chatted	B-RelNScrEv	O	_	_	
+2-17	for	O	O	_	_	
+2-18	a	O	O	_	_	
+2-19	bit	O	B-No_label	_	_	
+2-20	while	O	O	_	_	
+2-21	we	O	B-ScrPart_passenger	_	_	
+2-22	waited	B-ScrEv_wait	O	_	_	
+2-23	.	O	O	_	_	
+
+#id=3
+#text=We had already purchased our tickets ahead of time , just to make things easier .
+3-1	We	O	B-ScrPart_passenger	_	_	
+3-2	had	O	O	_	_	
+3-3	already	O	O	_	_	
+3-4	purchased	B-ScrEv_get_tickets	O	_	_	
+3-5	our	O	B-ScrPart_passenger	_	_	
+3-6	tickets	O	B-ScrPart_card/ticket	_	_	
+3-7	ahead	O	O	_	_	
+3-8	of	O	O	_	_	
+3-9	time	O	B-No_label	_	_	
+3-10	,	O	O	_	_	
+3-11	just	O	O	_	_	
+3-12	to	O	O	_	_	
+3-13	make	B-UnrelEv	O	_	_	
+3-14	things	O	B-No_label	_	_	
+3-15	easier	O	O	_	_	
+3-16	.	O	O	_	_	
+
+#id=4
+#text=When the train arrived , we boarded and found our seats .
+4-1	When	O	O	_	_	
+4-2	the	O	O	_	_	
+4-3	train	O	B-ScrPart_train	_	_	
+4-4	arrived	B-ScrEv_train_arrives	O	_	_	
+4-5	,	O	O	_	_	
+4-6	we	O	B-ScrPart_passenger	_	_	
+4-7	boarded	B-ScrEv_get_on	O	_	_	
+4-8	and	O	O	_	_	
+4-9	found	B-ScrEv_find_place	O	_	_	
+4-10	our	O	B-ScrPart_passenger	_	_	
+4-11	seats	O	B-ScrPart_seat	_	_	
+4-12	.	O	O	_	_	
+
+#id=5
+#text=We did n't bring much , just small bags , so we did n't have to stow anything .
+5-1	We	O	B-ScrPart_passenger	_	_	
+5-2	did	O	O	_	_	
+5-3	n't	O	O	_	_	
+5-4	bring	B-RelNScrEv	O	_	_	
+5-5	much	O	O	_	_	
+5-6	,	O	O	_	_	
+5-7	just	O	O	_	_	
+5-8	small	O	O	_	_	
+5-9	bags	O	B-ScrPart_personal_belongings	_	_	
+5-10	,	O	O	_	_	
+5-11	so	O	O	_	_	
+5-12	we	O	B-ScrPart_passenger	_	_	
+5-13	did	O	O	_	_	
+5-14	n't	O	O	_	_	
+5-15	have	O	O	_	_	
+5-16	to	O	O	_	_	
+5-17	stow	B-ScrEv_other	O	_	_	
+5-18	anything	O	B-ScrPart_luggage	_	_	
+5-19	.	O	O	_	_	
+
+#id=6
+#text=The conductor came by and checked our tickets as the train left the station .
+6-1	The	O	O	_	_	
+6-2	conductor	O	B-ScrPart_train_staff	_	_	
+6-3	came	B-ScrEv_conductor_checks	O	_	_	
+6-4	by	O	O	_	_	
+6-5	and	O	O	_	_	
+6-6	checked	B-ScrEv_conductor_checks	O	_	_	
+6-7	our	O	B-ScrPart_passenger	_	_	
+6-8	tickets	O	B-ScrPart_card/ticket	_	_	
+6-9	as	O	O	_	_	
+6-10	the	O	O	_	_	
+6-11	train	O	B-ScrPart_train	_	_	
+6-12	left	B-ScrEv_train_departs	O	_	_	
+6-13	the	O	O	_	_	
+6-14	station	O	B-ScrPart_train_station	_	_	
+6-15	.	O	O	_	_	
+
+#id=7
+#text=It was a nice ride .
+7-1	It	O	B-No_label	_	_	
+7-2	was	B-UnrelEv	O	_	_	
+7-3	a	O	O	_	_	
+7-4	nice	O	O	_	_	
+7-5	ride	B-Evoking	B-ScrPart_trip	webanno.custom.Corefchains_	1-4	
+7-6	.	O	O	_	_	
+
+#id=8
+#text=The train seats are always fairly comfortable and we had time to play racing games on our DSs while we rode .
+8-1	The	O	O	_	_	
+8-2	train	O	B-ScrPart_seat|B-ScrPart_train	_	_	
+8-3	seats	O	I-ScrPart_seat|B-ScrPart_seat	_	_	
+8-4	are	B-UnrelEv	O	_	_	
+8-5	always	O	O	_	_	
+8-6	fairly	O	O	_	_	
+8-7	comfortable	O	O	_	_	
+8-8	and	O	O	_	_	
+8-9	we	O	B-ScrPart_passenger	_	_	
+8-10	had	B-UnrelEv	O	_	_	
+8-11	time	O	B-No_label	_	_	
+8-12	to	O	O	_	_	
+8-13	play	B-ScrEv_spend_time_train	O	_	_	
+8-14	racing	O	O	_	_	
+8-15	games	O	B-ScrPart_in-train_entertainment	_	_	
+8-16	on	O	O	_	_	
+8-17	our	O	B-ScrPart_passenger	_	_	
+8-18	DSs	O	B-ScrPart_in-train_entertainment	_	_	
+8-19	while	O	O	_	_	
+8-20	we	O	B-ScrPart_passenger	_	_	
+8-21	rode	B-RelNScrEv	O	_	_	
+8-22	.	O	O	_	_	
+
+#id=9
+#text=I also got to watch some rather lovely scenery , once we got out of the city .
+9-1	I	O	B-ScrPart_passenger	_	_	
+9-2	also	O	O	_	_	
+9-3	got	O	O	_	_	
+9-4	to	O	O	_	_	
+9-5	watch	B-ScrEv_spend_time_train	O	_	_	
+9-6	some	O	O	_	_	
+9-7	rather	O	O	_	_	
+9-8	lovely	O	O	_	_	
+9-9	scenery	O	B-ScrPart_in-train_entertainment	_	_	
+9-10	,	O	O	_	_	
+9-11	once	O	O	_	_	
+9-12	we	O	B-ScrPart_passenger	_	_	
+9-13	got	B-RelNScrEv|B-RelNScrEv	O	_	_	
+9-14	out	I-RelNScrEv	O	_	_	
+9-15	of	O	O	_	_	
+9-16	the	O	O	_	_	
+9-17	city	O	B-NPart	_	_	
+9-18	.	O	O	_	_	
+
+#id=10
+#text=Going by trees and landscapes and watching them pass is pretty fun too .
+10-1	Going	B-RelNScrEv|B-RelNScrEv	O	_	_	
+10-2	by	I-RelNScrEv	O	_	_	
+10-3	trees	O	B-ScrPart_in-train_entertainment	_	_	
+10-4	and	O	O	_	_	
+10-5	landscapes	O	B-ScrPart_in-train_entertainment	_	_	
+10-6	and	O	O	_	_	
+10-7	watching	B-ScrEv_spend_time_train	O	_	_	
+10-8	them	O	B-ScrPart_in-train_entertainment	group_trees_landscapes|group_trees_landscapes	10-3|10-5	
+10-9	pass	O	O	_	_	
+10-10	is	B-UnrelEv	O	_	_	
+10-11	pretty	O	O	_	_	
+10-12	fun	O	B-NPart	_	_	
+10-13	too	O	O	_	_	
+10-14	.	O	O	_	_	
+
+#id=11
+#text=Plus , there were n't that many other people in the train car that we were in , so it was a nice and peaceful ride . 
+11-1	Plus	O	B-No_label	_	_	
+11-2	,	O	O	_	_	
+11-3	there	O	O	_	_	
+11-4	were	B-RelNScrEv	O	_	_	
+11-5	n't	O	O	_	_	
+11-6	that	O	O	_	_	
+11-7	many	O	O	_	_	
+11-8	other	O	O	_	_	
+11-9	people	O	B-ScrPart_passenger	_	_	
+11-10	in	O	O	_	_	
+11-11	the	O	O	_	_	
+11-12	train	O	B-ScrPart_coach	_	_	
+11-13	car	O	I-ScrPart_coach|B-ScrPart_coach	_	_	
+11-14	that	O	O	_	_	
+11-15	we	O	B-ScrPart_passenger	_	_	
+11-16	were	B-UnrelEv	O	_	_	
+11-17	in	O	O	_	_	
+11-18	,	O	O	_	_	
+11-19	so	O	O	_	_	
+11-20	it	O	B-No_label	_	_	
+11-21	was	B-UnrelEv	O	_	_	
+11-22	a	O	O	_	_	
+11-23	nice	O	O	_	_	
+11-24	and	O	O	_	_	
+11-25	peaceful	O	O	_	_	
+11-26	ride	B-Evoking	B-ScrPart_trip	webanno.custom.Corefchains_	7-5	
+11-27	.	O	O	_	_	
+

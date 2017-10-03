@@ -1,0 +1,253 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=For a long time , I was planning to read a book about stock trading .
+1-1	For	O	O	
+1-2	a	O	O	
+1-3	long	O	O	
+1-4	time	B-NPart	O	
+1-5	,	O	O	
+1-6	I	B-ScrPart_customer	O	
+1-7	was	O	O	
+1-8	planning	O	B-UnrelEv	
+1-9	to	O	O	
+1-10	read	O	B-RelNScrEv	
+1-11	a	O	O	
+1-12	book	B-ScrPart_book	O	
+1-13	about	O	O	
+1-14	stock	B-NPart	O	
+1-15	trading	I-NPart	O	
+1-16	.	O	O	
+
+#id=2
+#text=When I went online most of the books were quite expensive .
+2-1	When	O	O	
+2-2	I	B-ScrPart_customer	O	
+2-3	went	O	B-UnrelEv	
+2-4	online	O	O	
+2-5	most	O	O	
+2-6	of	O	O	
+2-7	the	O	O	
+2-8	books	B-ScrPart_book	O	
+2-9	were	O	B-UnrelEv	
+2-10	quite	O	O	
+2-11	expensive	O	O	
+2-12	.	O	O	
+
+#id=3
+#text=But there was a library very close to my house .
+3-1	But	O	O	
+3-2	there	O	O	
+3-3	was	O	B-UnrelEv	
+3-4	a	O	O	
+3-5	library	B-ScrPart_library	O	
+3-6	very	O	O	
+3-7	close	O	O	
+3-8	to	O	O	
+3-9	my	B-ScrPart_customer	O	
+3-10	house	B-NPart	O	
+3-11	.	O	O	
+
+#id=4
+#text=That lead me to think about borrowing one book from the library .
+4-1	That	O	O	
+4-2	lead	O	B-UnrelEv	
+4-3	me	B-ScrPart_customer	O	
+4-4	to	O	O	
+4-5	think	O	B-UnrelEv|B-UnrelEv	
+4-6	about	O	I-UnrelEv	
+4-7	borrowing	O	B-Evoking	
+4-8	one	O	I-Evoking	
+4-9	book	B-ScrPart_book	I-Evoking	
+4-10	from	O	I-Evoking	
+4-11	the	O	I-Evoking	
+4-12	library	B-ScrPart_library	I-Evoking	
+4-13	.	O	O	
+
+#id=5
+#text=One Saturday morning I went there and browsed several books .
+5-1	One	O	O	
+5-2	Saturday	B-NPart	O	
+5-3	morning	I-NPart	O	
+5-4	I	B-ScrPart_customer	O	
+5-5	went	O	B-ScrEv_get_library	
+5-6	there	B-ScrPart_library	O	
+5-7	and	O	O	
+5-8	browsed	O	B-ScrEv_other	
+5-9	several	O	O	
+5-10	books	B-ScrPart_book	O	
+5-11	.	O	O	
+
+#id=6
+#text=I spent almost 2 hours to finalize a book .
+6-1	I	B-ScrPart_customer	O	
+6-2	spent	O	B-UnrelEv	
+6-3	almost	O	O	
+6-4	2	O	O	
+6-5	hours	B-NPart	O	
+6-6	to	O	O	
+6-7	finalize	O	B-RelNScrEv	
+6-8	a	O	O	
+6-9	book	B-ScrPart_book	O	
+6-10	.	O	O	
+
+#id=7
+#text=Finally I stood in the line for the check out counter .
+7-1	Finally	O	O	
+7-2	I	B-ScrPart_customer	O	
+7-3	stood	O	B-ScrEv_go_check_out	
+7-4	in	O	O	
+7-5	the	O	O	
+7-6	line	B-ScrPart_line	O	
+7-7	for	O	O	
+7-8	the	O	O	
+7-9	check	B-ScrPart_check-out_desk	O	
+7-10	out	I-ScrPart_check-out_desk	O	
+7-11	counter	I-ScrPart_check-out_desk|B-ScrPart_check-out_desk	O	
+7-12	.	O	O	
+
+#id=8
+#text=When it was my turn , I gave the person at the counter the book that I chose .
+8-1	When	O	O	
+8-2	it	B-No_label	O	
+8-3	was	O	B-UnrelEv	
+8-4	my	B-ScrPart_customer	O	
+8-5	turn	B-No_label	O	
+8-6	,	O	O	
+8-7	I	B-ScrPart_customer	O	
+8-8	gave	O	B-ScrEv_other	
+8-9	the	O	O	
+8-10	person	B-ScrPart_staff	O	
+8-11	at	O	O	
+8-12	the	O	O	
+8-13	counter	B-ScrPart_check-out_desk	O	
+8-14	the	O	O	
+8-15	book	B-ScrPart_book	O	
+8-16	that	O	O	
+8-17	I	B-ScrPart_customer	O	
+8-18	chose	O	B-RelNScrEv	
+8-19	.	O	O	
+
+#id=9
+#text=They asked me for the membership card but that is when I realized that I did n't have one .
+9-1	They	B-ScrPart_staff	O	
+9-2	asked	O	B-RelNScrEv	
+9-3	me	B-ScrPart_customer	O	
+9-4	for	O	O	
+9-5	the	O	O	
+9-6	membership	O	O	
+9-7	card	B-ScrPart_library_card	O	
+9-8	but	O	O	
+9-9	that	O	O	
+9-10	is	O	O	
+9-11	when	O	O	
+9-12	I	B-ScrPart_customer	O	
+9-13	realized	O	B-UnrelEv	
+9-14	that	O	O	
+9-15	I	B-ScrPart_customer	O	
+9-16	did	O	O	
+9-17	n't	O	O	
+9-18	have	O	B-UnrelEv	
+9-19	one	O	O	
+9-20	.	O	O	
+
+#id=10
+#text=I decided to apply for a new membership card .
+10-1	I	B-ScrPart_customer	O	
+10-2	decided	O	B-UnrelEv	
+10-3	to	O	O	
+10-4	apply	O	B-RelNScrEv	
+10-5	for	O	O	
+10-6	a	O	O	
+10-7	new	O	O	
+10-8	membership	B-ScrPart_library_card	O	
+10-9	card	I-ScrPart_library_card	O	
+10-10	.	O	O	
+
+#id=11
+#text=All that was needed for the membership application was my ID card .
+11-1	All	O	O	
+11-2	that	O	O	
+11-3	was	O	O	
+11-4	needed	O	B-UnrelEv	
+11-5	for	O	O	
+11-6	the	O	O	
+11-7	membership	B-ScrPart_other	O	
+11-8	application	I-ScrPart_other|B-ScrPart_other	O	
+11-9	was	O	O	
+11-10	my	B-ScrPart_customer	O	
+11-11	ID	B-NPart	O	
+11-12	card	I-NPart|B-NPart	O	
+11-13	.	O	O	
+
+#id=12
+#text=I gave them my driving license .
+12-1	I	B-ScrPart_customer	O	
+12-2	gave	O	B-RelNScrEv	
+12-3	them	B-ScrPart_staff	O	
+12-4	my	B-ScrPart_customer	O	
+12-5	driving	B-NPart	O	
+12-6	license	I-NPart|B-NPart	O	
+12-7	.	O	O	
+
+#id=13
+#text=I was given a new membership card within 5 minutes .
+13-1	I	B-ScrPart_customer	O	
+13-2	was	O	O	
+13-3	given	O	B-ScrEv_obtain_card	
+13-4	a	O	O	
+13-5	new	O	O	
+13-6	membership	B-ScrPart_library_card	O	
+13-7	card	I-ScrPart_library_card|B-ScrPart_library_card	O	
+13-8	within	O	O	
+13-9	5	O	O	
+13-10	minutes	B-NPart	O	
+13-11	.	O	O	
+
+#id=14
+#text=I used it to borrow the book that I selected .
+14-1	I	B-ScrPart_customer	O	
+14-2	used	O	B-ScrEv_show_card	
+14-3	it	B-ScrPart_library_card	O	
+14-4	to	O	O	
+14-5	borrow	O	B-ScrEv_other	
+14-6	the	O	O	
+14-7	book	B-ScrPart_book	O	
+14-8	that	O	O	
+14-9	I	B-ScrPart_customer	O	
+14-10	selected	O	B-RelNScrEv	
+14-11	.	O	O	
+
+#id=15
+#text=I was told that the book needs to be returned within 7 days .
+15-1	I	B-ScrPart_customer	O	
+15-2	was	O	O	
+15-3	told	O	B-UnrelEv	
+15-4	that	O	O	
+15-5	the	O	O	
+15-6	book	B-ScrPart_book	O	
+15-7	needs	O	B-UnrelEv	
+15-8	to	O	O	
+15-9	be	O	O	
+15-10	returned	O	B-RelNScrEv	
+15-11	within	O	O	
+15-12	7	O	O	
+15-13	days	B-ScrPart_return_date	O	
+15-14	.	O	O	
+
+#id=16
+#text=Overall the experience was a nice one and I would keep going there . 
+16-1	Overall	O	O	
+16-2	the	O	O	
+16-3	experience	B-NPart	O	
+16-4	was	O	B-UnrelEv	
+16-5	a	O	O	
+16-6	nice	O	O	
+16-7	one	O	O	
+16-8	and	O	O	
+16-9	I	B-ScrPart_customer	O	
+16-10	would	O	O	
+16-11	keep	O	B-UnrelEv	
+16-12	going	O	B-UnrelEv	
+16-13	there	B-ScrPart_library	O	
+16-14	.	O	O	
+

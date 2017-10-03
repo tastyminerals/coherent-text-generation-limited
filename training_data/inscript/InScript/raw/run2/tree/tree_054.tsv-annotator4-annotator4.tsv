@@ -1,0 +1,222 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=Last year we had a fire .
+1-1	Last	O	O	
+1-2	year	B-NPart	O	
+1-3	we	B-NPart	O	
+1-4	had	O	B-UnrelEv	
+1-5	a	O	O	
+1-6	fire	B-NPart	O	
+1-7	.	O	O	
+
+#id=2
+#text=A large fire , that burned down homes and trees .
+2-1	A	O	O	
+2-2	large	O	O	
+2-3	fire	B-NPart	O	
+2-4	,	O	O	
+2-5	that	O	O	
+2-6	burned	O	B-UnrelEv	
+2-7	down	O	I-UnrelEv	
+2-8	homes	B-NPart	O	
+2-9	and	O	O	
+2-10	trees	B-NPart	O	
+2-11	.	O	O	
+
+#id=3
+#text=I felt lucky that my home had survived , but the trees nearby had not .
+3-1	I	B-ScrPart_gardener	O	
+3-2	felt	O	B-UnrelEv	
+3-3	lucky	O	O	
+3-4	that	O	O	
+3-5	my	B-ScrPart_gardener	O	
+3-6	home	B-NPart	O	
+3-7	had	O	O	
+3-8	survived	O	B-UnrelEv	
+3-9	,	O	O	
+3-10	but	O	O	
+3-11	the	O	O	
+3-12	trees	B-ScrPart_tree	O	
+3-13	nearby	O	O	
+3-14	had	O	B-UnrelEv	
+3-15	not	O	O	
+3-16	.	O	O	
+
+#id=4
+#text=I had just returned from a trip to the nursery where I had picked out a couple of small fruit bearing saplings .
+4-1	I	B-ScrPart_gardener	O	
+4-2	had	O	O	
+4-3	just	O	O	
+4-4	returned	O	B-ScrEv_take_home	
+4-5	from	O	O	
+4-6	a	O	O	
+4-7	trip	B-NPart	O	
+4-8	to	O	O	
+4-9	the	O	O	
+4-10	nursery	B-ScrPart_shop	O	
+4-11	where	O	O	
+4-12	I	B-ScrPart_gardener	O	
+4-13	had	O	O	
+4-14	picked	O	B-ScrEv_choose_tree	
+4-15	out	O	I-ScrEv_choose_tree	
+4-16	a	O	O	
+4-17	couple	B-Head_of_Partitive	O	
+4-18	of	O	O	
+4-19	small	O	O	
+4-20	fruit	B-ScrPart_tree	O	
+4-21	bearing	I-ScrPart_tree	O	
+4-22	saplings	I-ScrPart_tree|B-ScrPart_tree	O	
+4-23	.	O	O	
+
+#id=5
+#text=One was cherry , the other was plum .
+5-1	One	B-ScrPart_tree	O	
+5-2	was	O	B-UnrelEv	
+5-3	cherry	B-ScrPart_tree	O	
+5-4	,	O	O	
+5-5	the	O	O	
+5-6	other	B-ScrPart_tree	O	
+5-7	was	O	B-UnrelEv	
+5-8	plum	B-ScrPart_tree	O	
+5-9	.	O	O	
+
+#id=6
+#text=Now they sit next to the car , along with a shovel .
+6-1	Now	O	O	
+6-2	they	B-ScrPart_tree	O	
+6-3	sit	O	B-RelNScrEv	
+6-4	next	O	O	
+6-5	to	O	O	
+6-6	the	O	O	
+6-7	car	B-NPart	O	
+6-8	,	O	O	
+6-9	along	O	O	
+6-10	with	O	O	
+6-11	a	O	O	
+6-12	shovel	B-ScrPart_gardening_tool	O	
+6-13	.	O	O	
+
+#id=7
+#text=After some consideration , I pulled on my gloves and stepped out into the now barren area next to my house to dig two holes , approximately 20 feet apart .
+7-1	After	O	O	
+7-2	some	O	O	
+7-3	consideration	B-NPart	O	
+7-4	,	O	O	
+7-5	I	B-ScrPart_gardener	O	
+7-6	pulled	O	B-ScrEv_get_tools	
+7-7	on	O	I-ScrEv_get_tools	
+7-8	my	B-ScrPart_gardener	O	
+7-9	gloves	B-ScrPart_gardening_tool	O	
+7-10	and	O	O	
+7-11	stepped	O	B-RelNScrEv	
+7-12	out	O	I-RelNScrEv	
+7-13	into	O	O	
+7-14	the	O	O	
+7-15	now	O	O	
+7-16	barren	O	O	
+7-17	area	B-ScrPart_location_garden	O	
+7-18	next	O	O	
+7-19	to	O	O	
+7-20	my	B-ScrPart_gardener	O	
+7-21	house	B-NPart	O	
+7-22	to	O	O	
+7-23	dig	O	B-ScrEv_dug_hole	
+7-24	two	O	O	
+7-25	holes	B-ScrPart_hole	O	
+7-26	,	O	O	
+7-27	approximately	O	O	
+7-28	20	O	O	
+7-29	feet	B-NPart	O	
+7-30	apart	O	O	
+7-31	.	O	O	
+
+#id=8
+#text=I wanted to give them room to grow , yet close enough to have company .
+8-1	I	B-ScrPart_gardener	O	
+8-2	wanted	O	B-UnrelEv	
+8-3	to	O	O	
+8-4	give	O	B-RelNScrEv	
+8-5	them	B-ScrPart_tree	O	
+8-6	room	B-NPart	O	
+8-7	to	O	O	
+8-8	grow	O	B-RelNScrEv	
+8-9	,	O	O	
+8-10	yet	O	O	
+8-11	close	O	O	
+8-12	enough	O	O	
+8-13	to	O	O	
+8-14	have	O	B-UnrelEv	
+8-15	company	B-NPart	O	
+8-16	.	O	O	
+
+#id=9
+#text=This thought amused me .
+9-1	This	O	O	
+9-2	thought	B-NPart	O	
+9-3	amused	O	B-UnrelEv	
+9-4	me	B-ScrPart_gardener	O	
+9-5	.	O	O	
+
+#id=10
+#text=I places each sapling into its hole , patting new earth around it in a mound .
+10-1	I	B-ScrPart_gardener	O	
+10-2	places	O	B-ScrEv_place_root	
+10-3	each	O	O	
+10-4	sapling	B-ScrPart_tree	O	
+10-5	into	O	O	
+10-6	its	B-ScrPart_tree	O	
+10-7	hole	B-ScrPart_hole	O	
+10-8	,	O	O	
+10-9	patting	O	B-ScrEv_refill_hole	
+10-10	new	O	O	
+10-11	earth	B-ScrPart_dirt	O	
+10-12	around	O	O	
+10-13	it	B-ScrPart_tree	O	
+10-14	in	O	O	
+10-15	a	O	O	
+10-16	mound	B-NPart	O	
+10-17	.	O	O	
+
+#id=11
+#text=The I turned on the water hose , and gave them a good drink , tapping down the new earth with the shovel . ''
+11-1	The	O	O	
+11-2	I	B-ScrPart_gardener	O	
+11-3	turned	O	B-ScrEv_water	
+11-4	on	O	I-ScrEv_water	
+11-5	the	O	O	
+11-6	water	B-ScrPart_gardening_tool	O	
+11-7	hose	I-ScrPart_gardening_tool|B-ScrPart_gardening_tool	O	
+11-8	,	O	O	
+11-9	and	O	O	
+11-10	gave	O	B-ScrEv_water	
+11-11	them	B-ScrPart_tree	O	
+11-12	a	O	O	
+11-13	good	O	O	
+11-14	drink	B-ScrPart_water	O	
+11-15	,	O	O	
+11-16	tapping	O	B-ScrEv_damp_dirt	
+11-17	down	O	I-ScrEv_damp_dirt	
+11-18	the	O	O	
+11-19	new	O	O	
+11-20	earth	B-ScrPart_dirt	O	
+11-21	with	O	O	
+11-22	the	O	O	
+11-23	shovel	B-ScrPart_gardening_tool	O	
+11-24	.	O	O	
+11-25	''	O	O	
+
+#id=12
+#text=`` Welcome home '' '' I thought , as I smiled . 
+12-1	``	O	O	
+12-2	Welcome	O	O	
+12-3	home	B-NPart	O	
+12-4	''	O	O	
+12-5	''	O	O	
+12-6	I	B-ScrPart_gardener	O	
+12-7	thought	O	B-UnrelEv	
+12-8	,	O	O	
+12-9	as	O	O	
+12-10	I	B-ScrPart_gardener	O	
+12-11	smiled	O	B-UnrelEv	
+12-12	.	O	O	
+

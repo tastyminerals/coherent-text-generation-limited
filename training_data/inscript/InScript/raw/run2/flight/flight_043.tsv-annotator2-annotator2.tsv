@@ -1,0 +1,240 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events
+#id=1
+#text=I flew on an airplane about 2 months ago .
+1-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+1-2	flew	O	O	B-Evoking	
+1-3	on	O	O	I-Evoking	
+1-4	an	O	O	I-Evoking	
+1-5	airplane	B-webanno.custom.Participants_	B-ScrPart_plane	I-Evoking	
+1-6	about	O	O	O	
+1-7	2	O	O	O	
+1-8	months	B-webanno.custom.Participants_	B-ScrPart_time/date	O	
+1-9	ago	O	O	O	
+1-10	.	O	O	O	
+
+#id=2
+#text=I was going from Chicago to Los Angeles .
+2-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+2-2	was	O	O	O	
+2-3	going	O	O	B-RelNScrEv	
+2-4	from	O	O	O	
+2-5	Chicago	B-webanno.custom.Participants_	B-NPart	O	
+2-6	to	O	O	O	
+2-7	Los	B-webanno.custom.Participants_	B-ScrPart_target_location	O	
+2-8	Angeles	I-webanno.custom.Participants_	I-ScrPart_target_location	O	
+2-9	.	O	O	O	
+
+#id=3
+#text=It was a very early flight .
+3-1	It	B-webanno.custom.Participants_	B-No_label	O	
+3-2	was	O	O	B-UnrelEv	
+3-3	a	O	O	O	
+3-4	very	O	O	O	
+3-5	early	O	O	O	
+3-6	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	
+3-7	.	O	O	O	
+
+#id=4
+#text=My brother was able to drop me off at the airport .
+4-1	My	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+4-2	brother	B-webanno.custom.Participants_	B-ScrPart_accomp_person	O	
+4-3	was	O	O	O	
+4-4	able	O	O	O	
+4-5	to	O	O	O	
+4-6	drop	O	O	B-ScrEv_get_airport	
+4-7	me	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+4-8	off	O	O	O	
+4-9	at	O	O	O	
+4-10	the	O	O	O	
+4-11	airport	B-webanno.custom.Participants_	B-ScrPart_airport	O	
+4-12	.	O	O	O	
+
+#id=5
+#text=I had already checked in online the night before and had no bags to check , so I walked straight to the security line .
+5-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+5-2	had	O	O	O	
+5-3	already	O	O	O	
+5-4	checked	O	O	B-ScrEv_check_in	
+5-5	in	O	O	I-ScrEv_check_in	
+5-6	online	B-webanno.custom.Participants_	B-ScrPart_other	O	
+5-7	the	O	O	O	
+5-8	night	B-webanno.custom.Participants_	B-NPart	O	
+5-9	before	O	O	O	
+5-10	and	O	O	O	
+5-11	had	O	O	B-UnrelEv	
+5-12	no	O	O	O	
+5-13	bags	B-webanno.custom.Participants_	B-ScrPart_check_in_luggage	O	
+5-14	to	O	O	O	
+5-15	check	O	O	B-ScrEv_check_luggage	
+5-16	,	O	O	O	
+5-17	so	O	O	O	
+5-18	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+5-19	walked	O	O	B-RelNScrEv	
+5-20	straight	O	O	O	
+5-21	to	O	O	O	
+5-22	the	O	O	O	
+5-23	security	B-webanno.custom.Participants_	B-ScrPart_line	O	
+5-24	line	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_line|B-ScrPart_line	O	
+5-25	.	O	O	O	
+
+#id=6
+#text=Once TSA checked my ID and boarding pass , I stood in line for about 10 minutes while I waited for my bags\/body to be scanned .
+6-1	Once	O	O	O	
+6-2	TSA	B-webanno.custom.Participants_	B-ScrPart_staff	O	
+6-3	checked	O	O	B-ScrEv_present_ID/ticket	
+6-4	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+6-5	ID	B-webanno.custom.Participants_	B-ScrPart_passport/ID	O	
+6-6	and	O	O	O	
+6-7	boarding	B-webanno.custom.Participants_	B-ScrPart_boarding_pass	O	
+6-8	pass	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_boarding_pass|B-ScrPart_boarding_pass	O	
+6-9	,	O	O	O	
+6-10	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+6-11	stood	O	O	B-ScrEv_wait	
+6-12	in	O	O	O	
+6-13	line	B-webanno.custom.Participants_	B-ScrPart_line	O	
+6-14	for	O	O	O	
+6-15	about	O	O	O	
+6-16	10	O	O	O	
+6-17	minutes	B-webanno.custom.Participants_	B-ScrPart_time/date	O	
+6-18	while	O	O	O	
+6-19	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+6-20	waited	O	O	B-ScrEv_wait	
+6-21	for	O	O	O	
+6-22	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+6-23	bags\/body	B-webanno.custom.Participants_	B-???	O	
+6-24	to	O	O	O	
+6-25	be	O	O	O	
+6-26	scanned	O	O	B-ScrEv_go_security_checks	
+6-27	.	O	O	O	
+
+#id=7
+#text=Once through security , I checked the monitors to see that my flight was on time and that there was not a last minute gate change .
+7-1	Once	O	O	O	
+7-2	through	O	O	O	
+7-3	security	B-webanno.custom.Participants_	B-ScrPart_security_check	O	
+7-4	,	O	O	O	
+7-5	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+7-6	checked	O	O	B-RelNScrEv	
+7-7	the	O	O	O	
+7-8	monitors	B-webanno.custom.Participants_	B-NPart	O	
+7-9	to	O	O	O	
+7-10	see	O	O	B-UnrelEv	
+7-11	that	O	O	O	
+7-12	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+7-13	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	
+7-14	was	O	O	B-UnrelEv	
+7-15	on	O	O	O	
+7-16	time	B-webanno.custom.Participants_	B-No_label	O	
+7-17	and	O	O	O	
+7-18	that	O	O	O	
+7-19	there	O	O	O	
+7-20	was	O	O	B-UnrelEv	
+7-21	not	O	O	O	
+7-22	a	O	O	O	
+7-23	last	B-webanno.custom.Participants_	B-NPart	O	
+7-24	minute	I-webanno.custom.Participants_	I-NPart	O	
+7-25	gate	I-webanno.custom.Participants_	I-NPart	O	
+7-26	change	I-webanno.custom.Participants_	I-NPart	O	
+7-27	.	O	O	O	
+
+#id=8
+#text=I then walked to the gate and boarded the plane about 10 minutes later .
+8-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+8-2	then	O	O	O	
+8-3	walked	O	O	B-ScrEv_find_terminal	
+8-4	to	O	O	O	
+8-5	the	O	O	O	
+8-6	gate	B-webanno.custom.Participants_	B-ScrPart_terminal/gate	O	
+8-7	and	O	O	O	
+8-8	boarded	O	O	B-ScrEv_board_plane	
+8-9	the	O	O	O	
+8-10	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	
+8-11	about	O	O	O	
+8-12	10	O	O	O	
+8-13	minutes	B-webanno.custom.Participants_	B-ScrPart_time/date	O	
+8-14	later	O	O	O	
+8-15	.	O	O	O	
+
+#id=9
+#text=The flight attendants went over the safety procedures , the captain gave his greetings , and we were on our way .
+9-1	The	O	O	O	
+9-2	flight	B-webanno.custom.Participants_	B-ScrPart_staff	O	
+9-3	attendants	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_staff|B-ScrPart_staff	O	
+9-4	went	O	O	B-ScrEv_listen_crew	
+9-5	over	O	O	I-ScrEv_listen_crew	
+9-6	the	O	O	O	
+9-7	safety	B-webanno.custom.Participants_	B-NPart	O	
+9-8	procedures	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-NPart|B-NPart	O	
+9-9	,	O	O	O	
+9-10	the	O	O	O	
+9-11	captain	B-webanno.custom.Participants_	B-ScrPart_staff	O	
+9-12	gave	O	O	B-ScrEv_listen_crew	
+9-13	his	B-webanno.custom.Participants_	B-ScrPart_staff	O	
+9-14	greetings	B-webanno.custom.Participants_	B-SuppVComp	O	
+9-15	,	O	O	O	
+9-16	and	O	O	O	
+9-17	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+9-18	were	O	O	B-UnrelEv	
+9-19	on	O	O	O	
+9-20	our	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+9-21	way	B-webanno.custom.Participants_	B-No_label	O	
+9-22	.	O	O	O	
+
+#id=10
+#text=The flight was very smooth and quiet .
+10-1	The	O	O	O	
+10-2	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	
+10-3	was	O	O	B-UnrelEv	
+10-4	very	O	O	O	
+10-5	smooth	O	O	O	
+10-6	and	O	O	O	
+10-7	quiet	O	O	O	
+10-8	.	O	O	O	
+
+#id=11
+#text=The time flew by , as I slept most of the way .
+11-1	The	O	O	O	
+11-2	time	B-webanno.custom.Participants_	B-ScrPart_time/date	O	
+11-3	flew	O	O	B-UnrelEv	
+11-4	by	O	O	I-UnrelEv	
+11-5	,	O	O	O	
+11-6	as	O	O	O	
+11-7	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+11-8	slept	O	O	B-ScrEv_spend_time_flight	
+11-9	most	O	O	O	
+11-10	of	O	O	O	
+11-11	the	O	O	O	
+11-12	way	B-webanno.custom.Participants_	B-NPart	O	
+11-13	.	O	O	O	
+
+#id=12
+#text=We landed on time .
+12-1	We	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+12-2	landed	O	O	B-ScrEv_landing	
+12-3	on	O	O	O	
+12-4	time	B-webanno.custom.Participants_	B-No_label	O	
+12-5	.	O	O	O	
+
+#id=13
+#text=The plane then taxied to the gate and everyone exited the plane .
+13-1	The	O	O	O	
+13-2	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	
+13-3	then	O	O	O	
+13-4	taxied	O	O	B-RelNScrEv	
+13-5	to	O	O	O	
+13-6	the	O	O	O	
+13-7	gate	B-webanno.custom.Participants_	B-ScrPart_terminal/gate	O	
+13-8	and	O	O	O	
+13-9	everyone	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+13-10	exited	O	O	B-ScrEv_exit_plane	
+13-11	the	O	O	O	
+13-12	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	
+13-13	.	O	O	O	
+
+#id=14
+#text=Another successful flight . 
+14-1	Another	O	O	O	
+14-2	successful	O	O	O	
+14-3	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	
+14-4	.	O	O	O	
+

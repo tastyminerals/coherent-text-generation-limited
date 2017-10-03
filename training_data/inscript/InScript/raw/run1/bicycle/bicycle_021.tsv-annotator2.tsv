@@ -1,0 +1,180 @@
+# webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants					
+#id=1					
+#text=One time I drove over a piece of glass and it put a hole into my bicycle tire .					
+1-1	One	O	O	_	_
+1-2	time	O	O	_	_
+1-3	I	B-ScrPart_rider	O	_	_
+1-4	drove	O	B-ScrEv_ride_bike	_	_
+1-5	over	O	O	_	_
+1-6	a	O	O	_	_
+1-7	piece	B-ScrPart_object_damage	O	_	_
+1-8	of	O	O	_	_
+1-9	glass	B-ScrPart_object_damage	O	webanno.custom.Corefchains_	1-7
+1-10	and	O	O	_	_
+1-11	it	B-ScrPart_object_damage	O	webanno.custom.Corefchains_	1-9
+1-12	put	O	B-RelNScrEv	_	_
+1-13	a	O	O	_	_
+1-14	hole	B-ScrPart_object_damage	O	_	_
+1-15	into	O	O	_	_
+1-16	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-3
+1-17	bicycle	B-ScrPart_tire	O	_	_
+1-18	tire	I-ScrPart_tire|B-ScrPart_tire	O	_	_
+1-19	.	O	O	_	_
+					
+#id=2					
+#text=I had to walk my bicycle all the way home , which was very unpleasant , and then I could not use my bike again until I had fixed it .					
+2-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-16
+2-2	had	O	O	_	_
+2-3	to	O	O	_	_
+2-4	walk	O	B-RelNScrEv	_	_
+2-5	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-1
+2-6	bicycle	B-ScrPart_bicycle	O	_	_
+2-7	all	O	O	_	_
+2-8	the	O	O	_	_
+2-9	way	O	O	_	_
+2-10	home	B-ScrPart_location_repair	O	_	_
+2-11	,	O	O	_	_
+2-12	which	O	O	_	_
+2-13	was	O	B-UnrelEv	_	_
+2-14	very	O	O	_	_
+2-15	unpleasant	O	O	_	_
+2-16	,	O	O	_	_
+2-17	and	O	O	_	_
+2-18	then	O	O	_	_
+2-19	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-5
+2-20	could	O	O	_	_
+2-21	not	O	O	_	_
+2-22	use	O	B-ScrEv_ride_bike	_	_
+2-23	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-19
+2-24	bike	B-ScrPart_bicycle	O	webanno.custom.Corefchains_	2-6
+2-25	again	O	O	_	_
+2-26	until	O	O	_	_
+2-27	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-23
+2-28	had	O	O	_	_
+2-29	fixed	O	B-Evoking	_	_
+2-30	it	B-ScrPart_bicycle	I-Evoking	webanno.custom.Corefchains_	2-24
+2-31	.	O	O	_	_
+					
+#id=3					
+#text=So I looked up online how to fix a punctured tire , and went to the hardware store to pick up the necessary tools .					
+3-1	So	O	O	_	_
+3-2	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-27
+3-3	looked	O	B-RelNScrEv	_	_
+3-4	up	O	I-RelNScrEv	_	_
+3-5	online	O	O	_	_
+3-6	how	O	O	_	_
+3-7	to	O	O	_	_
+3-8	fix	O	B-Evoking	_	_
+3-9	a	O	I-Evoking	_	_
+3-10	punctured	O	I-Evoking|B-RelNScrEv	_	_
+3-11	tire	B-ScrPart_tire	I-Evoking	webanno.custom.Corefchains_	1-18
+3-12	,	O	O	_	_
+3-13	and	O	O	_	_
+3-14	went	O	B-RelNScrEv	_	_
+3-15	to	O	O	_	_
+3-16	the	O	O	_	_
+3-17	hardware	B-ScrPart_shop	O	_	_
+3-18	store	I-ScrPart_shop|B-ScrPart_shop	O	_	_
+3-19	to	O	O	_	_
+3-20	pick	O	B-ScrEv_get_tools	_	_
+3-21	up	O	I-ScrEv_get_tools	_	_
+3-22	the	O	O	_	_
+3-23	necessary	O	O	_	_
+3-24	tools	B-ScrPart_tool	O	_	_
+3-25	.	O	O	_	_
+					
+#id=4					
+#text=After purchasing these tools I pumped some air into the tire to locate the hole and then I took the tire off of the wheel to repair it .					
+4-1	After	O	O	_	_
+4-2	purchasing	O	B-ScrEv_get_tools	_	_
+4-3	these	O	O	_	_
+4-4	tools	B-ScrPart_tool	O	webanno.custom.Corefchains_	3-24
+4-5	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	3-2
+4-6	pumped	O	B-ScrEv_refill_tire_air	_	_
+4-7	some	O	O	_	_
+4-8	air	B-ScrPart_air	O	_	_
+4-9	into	O	O	_	_
+4-10	the	O	O	_	_
+4-11	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	3-11
+4-12	to	O	O	_	_
+4-13	locate	O	B-RelNScrEv	_	_
+4-14	the	O	O	_	_
+4-15	hole	B-ScrPart_object_damage	O	webanno.custom.Corefchains_	1-14
+4-16	and	O	O	_	_
+4-17	then	O	O	_	_
+4-18	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	4-5
+4-19	took	O	B-ScrEv_take_tire_off	_	_
+4-20	the	O	O	_	_
+4-21	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	4-11
+4-22	off	O	O	_	_
+4-23	of	O	O	_	_
+4-24	the	O	O	_	_
+4-25	wheel	B-ScrPart_wheel	O	_	_
+4-26	to	O	O	_	_
+4-27	repair	O	B-Evoking	_	_
+4-28	it	B-ScrPart_tire	I-Evoking	webanno.custom.Corefchains_	4-21
+4-29	.	O	O	_	_
+					
+#id=5					
+#text=I followed the directions on the repair kit which were actually very simple .					
+5-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	4-18
+5-2	followed	O	B-UnrelEv	_	_
+5-3	the	O	O	_	_
+5-4	directions	O	O	_	_
+5-5	on	O	O	_	_
+5-6	the	O	O	_	_
+5-7	repair	B-ScrPart_tool	O	_	_
+5-8	kit	I-ScrPart_tool|B-ScrPart_tool	O	group_tools	4-4
+5-9	which	O	O	_	_
+5-10	were	O	B-UnrelEv	_	_
+5-11	actually	O	O	_	_
+5-12	very	O	O	_	_
+5-13	simple	O	O	_	_
+5-14	.	O	O	_	_
+					
+#id=6					
+#text=After I had patched the hole , I waited for the adhesive material to dry and then I took the bike out for a short test run to make sure that if the tire failed again I would not be far from home .					
+6-1	After	O	O	_	_
+6-2	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	5-1
+6-3	had	O	O	_	_
+6-4	patched	O	B-ScrEv_put_patch/seal	_	_
+6-5	the	O	O	_	_
+6-6	hole	B-ScrPart_object_damage	O	webanno.custom.Corefchains_	4-15
+6-7	,	O	O	_	_
+6-8	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	6-2
+6-9	waited	O	B-RelNScrEv	_	_
+6-10	for	O	O	_	_
+6-11	the	O	O	_	_
+6-12	adhesive	O	O	_	_
+6-13	material	B-ScrPart_patch	O	_	_
+6-14	to	O	O	_	_
+6-15	dry	O	B-RelNScrEv	_	_
+6-16	and	O	O	_	_
+6-17	then	O	O	_	_
+6-18	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	6-8
+6-19	took	O	B-ScrEv_ride_bike	_	_
+6-20	the	O	O	_	_
+6-21	bike	B-ScrPart_bicycle	O	webanno.custom.Corefchains_	2-30
+6-22	out	O	O	_	_
+6-23	for	O	O	_	_
+6-24	a	O	O	_	_
+6-25	short	O	O	_	_
+6-26	test	B-SuppVComp	O	_	_
+6-27	run	I-SuppVComp|B-SuppVComp	O	_	_
+6-28	to	O	O	_	_
+6-29	make	O	B-ScrEv_check_new_tire	_	_
+6-30	sure	O	I-ScrEv_check_new_tire	_	_
+6-31	that	O	O	_	_
+6-32	if	O	O	_	_
+6-33	the	O	O	_	_
+6-34	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	4-28
+6-35	failed	O	B-RelNScrEv	_	_
+6-36	again	O	O	_	_
+6-37	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	6-18
+6-38	would	O	O	_	_
+6-39	not	O	O	_	_
+6-40	be	O	B-UnrelEv	_	_
+6-41	far	O	O	_	_
+6-42	from	O	O	_	_
+6-43	home	B-ScrPart_location_repair	O	webanno.custom.Corefchains_	2-10
+6-44	.	O	O	_	_

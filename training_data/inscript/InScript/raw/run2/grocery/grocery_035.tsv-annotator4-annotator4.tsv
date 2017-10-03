@@ -1,0 +1,221 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=I was out of food so I went to my local market .
+1-1	I	B-ScrPart_shopper	O	
+1-2	was	O	B-RelNScrEv	
+1-3	out	O	O	
+1-4	of	O	O	
+1-5	food	B-ScrPart_groceries	O	
+1-6	so	O	O	
+1-7	I	B-ScrPart_shopper	O	
+1-8	went	O	B-Evoking	
+1-9	to	O	I-Evoking	
+1-10	my	B-ScrPart_shopper	I-Evoking	
+1-11	local	O	I-Evoking	
+1-12	market	B-ScrPart_grocery_shop	I-Evoking	
+1-13	.	O	O	
+
+#id=2
+#text=I parked the car and walked to the door .
+2-1	I	B-ScrPart_shopper	O	
+2-2	parked	O	B-RelNScrEv	
+2-3	the	O	O	
+2-4	car	B-ScrPart_vehicle	O	
+2-5	and	O	O	
+2-6	walked	O	B-ScrEv_enter	
+2-7	to	O	O	
+2-8	the	O	O	
+2-9	door	B-NPart	O	
+2-10	.	O	O	
+
+#id=3
+#text=I grabbed a cart on the way .
+3-1	I	B-ScrPart_shopper	O	
+3-2	grabbed	O	B-ScrEv_take_shop_cart	
+3-3	a	O	O	
+3-4	cart	B-ScrPart_shopping_cart/basket	O	
+3-5	on	O	O	
+3-6	the	O	O	
+3-7	way	B-No_label	O	
+3-8	.	O	O	
+
+#id=4
+#text=Once inside i vowed to stick to the outside edges of the store , away from processed foods .
+4-1	Once	O	O	
+4-2	inside	O	O	
+4-3	i	B-ScrPart_shopper	O	
+4-4	vowed	O	B-UnrelEv	
+4-5	to	O	O	
+4-6	stick	O	B-ScrEv_move_section	
+4-7	to	O	O	
+4-8	the	O	O	
+4-9	outside	O	O	
+4-10	edges	B-NPart	O	
+4-11	of	O	O	
+4-12	the	O	O	
+4-13	store	B-ScrPart_grocery_shop	O	
+4-14	,	O	O	
+4-15	away	O	O	
+4-16	from	O	O	
+4-17	processed	O	B-UnrelEv	
+4-18	foods	B-ScrPart_groceries	O	
+4-19	.	O	O	
+
+#id=5
+#text=I bought all my produce and some fresh baked bread .
+5-1	I	B-ScrPart_shopper	O	
+5-2	bought	O	B-ScrEv_get_groceries	
+5-3	all	O	O	
+5-4	my	B-ScrPart_shopper	O	
+5-5	produce	B-ScrPart_groceries	O	
+5-6	and	O	O	
+5-7	some	O	O	
+5-8	fresh	O	O	
+5-9	baked	O	B-UnrelEv	
+5-10	bread	B-ScrPart_groceries	O	
+5-11	.	O	O	
+
+#id=6
+#text=I also got milk and eggs and cheese .
+6-1	I	B-ScrPart_shopper	O	
+6-2	also	O	O	
+6-3	got	O	B-ScrEv_get_groceries	
+6-4	milk	B-ScrPart_groceries	O	
+6-5	and	O	O	
+6-6	eggs	B-ScrPart_groceries	O	
+6-7	and	O	O	
+6-8	cheese	B-ScrPart_groceries	O	
+6-9	.	O	O	
+
+#id=7
+#text=I caved and bought some tortilla chips because I had a mean craving for nachos .
+7-1	I	B-ScrPart_shopper	O	
+7-2	caved	O	B-RelNScrEv	
+7-3	and	O	O	
+7-4	bought	O	B-ScrEv_get_groceries	
+7-5	some	O	O	
+7-6	tortilla	B-ScrPart_groceries	O	
+7-7	chips	I-ScrPart_groceries|B-ScrPart_groceries	O	
+7-8	because	O	O	
+7-9	I	B-ScrPart_shopper	O	
+7-10	had	O	B-UnrelEv	
+7-11	a	O	O	
+7-12	mean	O	O	
+7-13	craving	B-NPart	O	
+7-14	for	O	O	
+7-15	nachos	B-ScrPart_groceries	O	
+7-16	.	O	O	
+
+#id=8
+#text=I also checked the frozen aisle for cheese taquitos .
+8-1	I	B-ScrPart_shopper	O	
+8-2	also	O	O	
+8-3	checked	O	B-RelNScrEv	
+8-4	the	O	O	
+8-5	frozen	O	B-UnrelEv	
+8-6	aisle	B-ScrPart_section	O	
+8-7	for	O	O	
+8-8	cheese	B-ScrPart_groceries	O	
+8-9	taquitos	I-ScrPart_groceries|B-ScrPart_groceries	O	
+8-10	.	O	O	
+
+#id=9
+#text=I found cheese taquitos once , years ago , but had never seen them again .
+9-1	I	B-ScrPart_shopper	O	
+9-2	found	O	B-ScrEv_get_groceries	
+9-3	cheese	B-ScrPart_groceries	O	
+9-4	taquitos	I-ScrPart_groceries|B-ScrPart_groceries	O	
+9-5	once	O	O	
+9-6	,	O	O	
+9-7	years	B-No_label	O	
+9-8	ago	O	O	
+9-9	,	O	O	
+9-10	but	O	O	
+9-11	had	O	O	
+9-12	never	O	O	
+9-13	seen	O	B-UnrelEv	
+9-14	them	B-ScrPart_groceries	O	
+9-15	again	O	O	
+9-16	.	O	O	
+
+#id=10
+#text=I always check in vain , hoping one day to see them next to the chicken taquitos .
+10-1	I	B-ScrPart_shopper	O	
+10-2	always	O	O	
+10-3	check	O	B-RelNScrEv	
+10-4	in	O	O	
+10-5	vain	O	O	
+10-6	,	O	O	
+10-7	hoping	O	B-UnrelEv	
+10-8	one	O	O	
+10-9	day	B-No_label	O	
+10-10	to	O	O	
+10-11	see	O	B-UnrelEv	
+10-12	them	B-ScrPart_groceries	O	
+10-13	next	O	O	
+10-14	to	O	O	
+10-15	the	O	O	
+10-16	chicken	B-ScrPart_groceries	O	
+10-17	taquitos	I-ScrPart_groceries|B-ScrPart_groceries	O	
+10-18	.	O	O	
+
+#id=11
+#text=After I had all my goods I went to the check out line .
+11-1	After	O	O	
+11-2	I	B-ScrPart_shopper	O	
+11-3	had	O	B-RelNScrEv	
+11-4	all	O	O	
+11-5	my	B-ScrPart_shopper	O	
+11-6	goods	B-ScrPart_groceries	O	
+11-7	I	B-ScrPart_shopper	O	
+11-8	went	O	B-ScrEv_go_checkout	
+11-9	to	O	O	
+11-10	the	O	O	
+11-11	check	B-ScrPart_line	O	
+11-12	out	I-ScrPart_line	O	
+11-13	line	I-ScrPart_line|B-ScrPart_line	O	
+11-14	.	O	O	
+
+#id=12
+#text=I made small talk with the cashier after I loaded my items on the the conveyor belt .
+12-1	I	B-ScrPart_shopper	O	
+12-2	made	O	B-RelNScrEv	
+12-3	small	B-NPart	O	
+12-4	talk	I-NPart	O	
+12-5	with	O	O	
+12-6	the	O	O	
+12-7	cashier	B-ScrPart_grocery_staff	O	
+12-8	after	O	O	
+12-9	I	B-ScrPart_shopper	O	
+12-10	loaded	O	B-ScrEv_put_conveyor	
+12-11	my	B-ScrPart_shopper	O	
+12-12	items	B-ScrPart_groceries	O	
+12-13	on	O	O	
+12-14	the	O	O	
+12-15	the	O	O	
+12-16	conveyor	B-ScrPart_conveyor_belt	O	
+12-17	belt	I-ScrPart_conveyor_belt	O	
+12-18	.	O	O	
+
+#id=13
+#text=I paid after everything was bagged in my cart .
+13-1	I	B-ScrPart_shopper	O	
+13-2	paid	O	B-ScrEv_pay	
+13-3	after	O	O	
+13-4	everything	B-ScrPart_groceries	O	
+13-5	was	O	O	
+13-6	bagged	O	B-ScrEv_pack_groceries	
+13-7	in	O	O	
+13-8	my	B-ScrPart_shopper	O	
+13-9	cart	B-ScrPart_shopping_cart/basket	O	
+13-10	.	O	O	
+
+#id=14
+#text=Then I left for home . 
+14-1	Then	O	O	
+14-2	I	B-ScrPart_shopper	O	
+14-3	left	O	B-ScrEv_leave	
+14-4	for	O	O	
+14-5	home	B-NPart	O	
+14-6	.	O	O	
+

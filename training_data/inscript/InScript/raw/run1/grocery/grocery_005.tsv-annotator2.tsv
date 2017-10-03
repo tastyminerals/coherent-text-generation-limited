@@ -1,0 +1,290 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Last night , I made a grocery list and went shopping .
+1-1	Last	O	O	_	_	
+1-2	night	O	O	_	_	
+1-3	,	O	O	_	_	
+1-4	I	B-ScrPart_shopper	O	_	_	
+1-5	made	O	B-ScrEv_make_list	_	_	
+1-6	a	O	O	_	_	
+1-7	grocery	B-ScrPart_grocery_list	O	_	_	
+1-8	list	I-ScrPart_grocery_list|B-ScrPart_grocery_list	O	_	_	
+1-9	and	O	O	_	_	
+1-10	went	O	B-Evoking	_	_	
+1-11	shopping	O	I-Evoking	_	_	
+1-12	.	O	O	_	_	
+
+#id=2
+#text=To make a list , I go through my cabinets and refrigerator and write down things that I am out of .
+2-1	To	O	O	_	_	
+2-2	make	O	B-ScrEv_make_list	_	_	
+2-3	a	O	O	_	_	
+2-4	list	B-ScrPart_grocery_list	O	webanno.custom.Corefchains_	1-8	
+2-5	,	O	O	_	_	
+2-6	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	1-4	
+2-7	go	O	B-RelNScrEv	_	_	
+2-8	through	O	O	_	_	
+2-9	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	2-6	
+2-10	cabinets	B-NPart	O	_	_	
+2-11	and	O	O	_	_	
+2-12	refrigerator	B-NPart	O	_	_	
+2-13	and	O	O	_	_	
+2-14	write	O	B-ScrEv_make_list	_	_	
+2-15	down	O	I-ScrEv_make_list	_	_	
+2-16	things	B-ScrPart_groceries	O	_	_	
+2-17	that	O	O	_	_	
+2-18	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	2-9	
+2-19	am	O	B-UnrelEv	_	_	
+2-20	out	O	O	_	_	
+2-21	of	O	O	_	_	
+2-22	.	O	O	_	_	
+
+#id=3
+#text=These are always the same things like coffee and milk .
+3-1	These	B-ScrPart_groceries	O	webanno.custom.Corefchains_	2-16	
+3-2	are	O	B-UnrelEv	_	_	
+3-3	always	O	O	_	_	
+3-4	the	O	O	_	_	
+3-5	same	O	O	_	_	
+3-6	things	B-ScrPart_groceries	O	webanno.custom.Corefchains_	3-1	
+3-7	like	O	O	_	_	
+3-8	coffee	B-ScrPart_groceries	O	_	_	
+3-9	and	O	O	_	_	
+3-10	milk	B-ScrPart_groceries	O	_	_	
+3-11	.	O	O	_	_	
+
+#id=4
+#text=Then I thought of some recipes I wanted to make .
+4-1	Then	O	O	_	_	
+4-2	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	2-18	
+4-3	thought	O	B-UnrelEv	_	_	
+4-4	of	O	O	_	_	
+4-5	some	O	O	_	_	
+4-6	recipes	O	O	_	_	
+4-7	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	4-2	
+4-8	wanted	O	O	_	_	
+4-9	to	O	O	_	_	
+4-10	make	O	B-UnrelEv	_	_	
+4-11	.	O	O	_	_	
+
+#id=5
+#text=I wrote down pasta shells , ricotta cheese , Parmesan cheese , spinach , and tomato sauce .
+5-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	4-7	
+5-2	wrote	O	B-ScrEv_make_list	_	_	
+5-3	down	O	I-ScrEv_make_list	_	_	
+5-4	pasta	B-ScrPart_groceries	O	_	_	
+5-5	shells	I-ScrPart_groceries|B-ScrPart_groceries	O	_	_	
+5-6	,	O	O	_	_	
+5-7	ricotta	B-ScrPart_groceries	O	_	_	
+5-8	cheese	I-ScrPart_groceries|B-ScrPart_groceries	O	_	_	
+5-9	,	O	O	_	_	
+5-10	Parmesan	B-ScrPart_groceries	O	_	_	
+5-11	cheese	I-ScrPart_groceries|B-ScrPart_groceries	O	_	_	
+5-12	,	O	O	_	_	
+5-13	spinach	B-ScrPart_groceries	O	_	_	
+5-14	,	O	O	_	_	
+5-15	and	O	O	_	_	
+5-16	tomato	B-ScrPart_groceries	O	_	_	
+5-17	sauce	I-ScrPart_groceries|B-ScrPart_groceries	O	_	_	
+5-18	.	O	O	_	_	
+
+#id=6
+#text=I am going to make stuffed shells this week !
+6-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	5-1	
+6-2	am	O	O	_	_	
+6-3	going	O	O	_	_	
+6-4	to	O	O	_	_	
+6-5	make	O	B-UnrelEv	_	_	
+6-6	stuffed	O	O	_	_	
+6-7	shells	B-ScrPart_groceries	O	webanno.custom.Corefchains_	5-5	
+6-8	this	O	O	_	_	
+6-9	week	O	O	_	_	
+6-10	!	O	O	_	_	
+
+#id=7
+#text=When I got to the store , I got my reusable bags out of the car .
+7-1	When	O	O	_	_	
+7-2	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	6-1	
+7-3	got	O	B-ScrEv_go_grocery	_	_	
+7-4	to	O	O	_	_	
+7-5	the	O	O	_	_	
+7-6	store	B-ScrPart_grocery_shop	O	_	_	
+7-7	,	O	O	_	_	
+7-8	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	7-2	
+7-9	got	O	B-ScrEv_take_bags	_	_	
+7-10	my	O	O	_	_	
+7-11	reusable	O	O	_	_	
+7-12	bags	B-ScrPart_shopping_bags	O	_	_	
+7-13	out	O	O	_	_	
+7-14	of	O	O	_	_	
+7-15	the	O	O	_	_	
+7-16	car	B-ScrPart_vehicle	O	_	_	
+7-17	.	O	O	_	_	
+
+#id=8
+#text=Using no plastic bags is a great way to help the environment .
+8-1	Using	O	B-UnrelEv	_	_	
+8-2	no	O	O	_	_	
+8-3	plastic	O	O	_	_	
+8-4	bags	B-ScrPart_shopping_bags	O	_	_	
+8-5	is	O	B-UnrelEv	_	_	
+8-6	a	O	O	_	_	
+8-7	great	O	O	_	_	
+8-8	way	O	O	_	_	
+8-9	to	O	O	_	_	
+8-10	help	O	B-UnrelEv	_	_	
+8-11	the	O	O	_	_	
+8-12	environment	O	O	_	_	
+8-13	.	O	O	_	_	
+
+#id=9
+#text=Since I went to the store around 8 p.m. , it was n't very crowded .
+9-1	Since	O	O	_	_	
+9-2	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	7-8	
+9-3	went	O	B-ScrEv_go_grocery	_	_	
+9-4	to	O	O	_	_	
+9-5	the	O	O	_	_	
+9-6	store	B-ScrPart_grocery_shop	O	webanno.custom.Corefchains_	7-6	
+9-7	around	O	O	_	_	
+9-8	8	O	O	_	_	
+9-9	p.m.	O	O	_	_	
+9-10	,	O	O	_	_	
+9-11	it	B-ScrPart_grocery_shop	O	webanno.custom.Corefchains_	9-6	
+9-12	was	O	B-UnrelEv	_	_	
+9-13	n't	O	O	_	_	
+9-14	very	O	O	_	_	
+9-15	crowded	O	O	_	_	
+9-16	.	O	O	_	_	
+
+#id=10
+#text=I could relax as I moved my way from produce , dry goods , and then dairy .
+10-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	9-2	
+10-2	could	O	O	_	_	
+10-3	relax	O	B-UnrelEv	_	_	
+10-4	as	O	O	_	_	
+10-5	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	10-1	
+10-6	moved	O	B-ScrEv_move_section	_	_	
+10-7	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	10-5	
+10-8	way	B-SuppVComp	O	_	_	
+10-9	from	O	O	_	_	
+10-10	produce	B-ScrPart_section	O	_	_	
+10-11	,	O	O	_	_	
+10-12	dry	O	O	_	_	
+10-13	goods	B-ScrPart_section	O	_	_	
+10-14	,	O	O	_	_	
+10-15	and	O	O	_	_	
+10-16	then	O	O	_	_	
+10-17	dairy	B-ScrPart_section	O	_	_	
+10-18	.	O	O	_	_	
+
+#id=11
+#text=I saw a huge display of Easter candy because it is March and the holiday is coming up .
+11-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	10-7	
+11-2	saw	O	B-RelNScrEv	_	_	
+11-3	a	O	O	_	_	
+11-4	huge	O	O	_	_	
+11-5	display	B-NPart	O	_	_	
+11-6	of	O	O	_	_	
+11-7	Easter	B-ScrPart_groceries	O	_	_	
+11-8	candy	I-ScrPart_groceries|B-ScrPart_groceries	O	_	_	
+11-9	because	O	O	_	_	
+11-10	it	O	O	_	_	
+11-11	is	O	B-UnrelEv	_	_	
+11-12	March	O	O	_	_	
+11-13	and	O	O	_	_	
+11-14	the	O	O	_	_	
+11-15	holiday	O	O	_	_	
+11-16	is	O	O	_	_	
+11-17	coming	O	B-UnrelEv	_	_	
+11-18	up	O	I-UnrelEv	_	_	
+11-19	.	O	O	_	_	
+
+#id=12
+#text=I was so tempted to buy a lot of chocolate but I did n't .
+12-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	11-1	
+12-2	was	O	B-UnrelEv	_	_	
+12-3	so	O	O	_	_	
+12-4	tempted	O	O	_	_	
+12-5	to	O	O	_	_	
+12-6	buy	O	B-ScrEv_get_groceries	_	_	
+12-7	a	O	O	_	_	
+12-8	lot	O	O	_	_	
+12-9	of	O	O	_	_	
+12-10	chocolate	B-ScrPart_groceries	O	webanno.custom.Corefchains_	11-8	
+12-11	but	O	O	_	_	
+12-12	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	12-1	
+12-13	did	O	B-UnrelEv	_	_	
+12-14	n't	O	O	_	_	
+12-15	.	O	O	_	_	
+
+#id=13
+#text=I only try to get treats once in awhile .
+13-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	12-12	
+13-2	only	O	O	_	_	
+13-3	try	O	O	_	_	
+13-4	to	O	O	_	_	
+13-5	get	O	B-ScrEv_get_groceries	_	_	
+13-6	treats	B-ScrPart_groceries	O	webanno.custom.Corefchains_	12-10	
+13-7	once	O	O	_	_	
+13-8	in	O	O	_	_	
+13-9	awhile	O	O	_	_	
+13-10	.	O	O	_	_	
+
+#id=14
+#text=Finally , I went to the front check out .
+14-1	Finally	O	O	_	_	
+14-2	,	O	O	_	_	
+14-3	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	13-1	
+14-4	went	O	B-ScrEv_move_section	_	_	
+14-5	to	O	O	_	_	
+14-6	the	O	O	_	_	
+14-7	front	O	O	_	_	
+14-8	check	B-ScrPart_cash_desk	O	_	_	
+14-9	out	I-ScrPart_cash_desk	O	_	_	
+14-10	.	O	O	_	_	
+
+#id=15
+#text=The cashier was nice and the bagger was happy to use my own bags .
+15-1	The	O	O	_	_	
+15-2	cashier	B-ScrPart_grocery_staff	O	_	_	
+15-3	was	O	B-UnrelEv	_	_	
+15-4	nice	O	O	_	_	
+15-5	and	O	O	_	_	
+15-6	the	O	O	_	_	
+15-7	bagger	B-ScrPart_grocery_staff	O	_	_	
+15-8	was	O	B-UnrelEv	_	_	
+15-9	happy	O	O	_	_	
+15-10	to	O	O	_	_	
+15-11	use	O	B-ScrEv_pack_groceries	_	_	
+15-12	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	14-3	
+15-13	own	O	O	_	_	
+15-14	bags	B-ScrPart_shopping_bags	O	webanno.custom.Corefchains_	7-12	
+15-15	.	O	O	_	_	
+
+#id=16
+#text=I got home and put everything away .
+16-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	15-12	
+16-2	got	O	B-ScrEv_leave	_	_	
+16-3	home	B-NPart	O	_	_	
+16-4	and	O	O	_	_	
+16-5	put	O	B-RelNScrEv	_	_	
+16-6	everything	B-ScrPart_groceries	O	webanno.custom.Corefchains_	3-6	
+16-7	away	O	O	_	_	
+16-8	.	O	O	_	_	
+
+#id=17
+#text=Now I ca n't wait to make my stuffed shells for dinner ! 
+17-1	Now	O	O	_	_	
+17-2	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	16-1	
+17-3	ca	O	O	_	_	
+17-4	n't	O	O	_	_	
+17-5	wait	O	B-UnrelEv	_	_	
+17-6	to	O	O	_	_	
+17-7	make	O	B-UnrelEv	_	_	
+17-8	my	O	O	_	_	
+17-9	stuffed	O	O	_	_	
+17-10	shells	B-ScrPart_groceries	O	webanno.custom.Corefchains_	6-7	
+17-11	for	O	O	_	_	
+17-12	dinner	O	O	_	_	
+17-13	!	O	O	_	_	
+

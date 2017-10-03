@@ -1,0 +1,340 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Event | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Last weekend there was a parade in the downtown area of my city , and I decided to take my little sister - we had so much fun !
+1-1	Last	O	O	O	_	_	
+1-2	weekend	B-NPart	O	O	_	_	
+1-3	there	O	O	O	_	_	
+1-4	was	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+1-5	a	O	O	O	_	_	
+1-6	parade	B-NPart	O	O	_	_	
+1-7	in	O	O	O	_	_	
+1-8	the	O	O	O	_	_	
+1-9	downtown	B-NPart	O	O	_	_	
+1-10	area	I-NPart	O	O	_	_	
+1-11	of	O	O	O	_	_	
+1-12	my	B-ScrPart_passenger	O	O	_	_	
+1-13	city	B-NPart	O	O	_	_	
+1-14	,	O	O	O	_	_	
+1-15	and	O	O	O	_	_	
+1-16	I	B-ScrPart_passenger	O	O	webanno.custom.Corefchains_	1-12	
+1-17	decided	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+1-18	to	O	O	O	_	_	
+1-19	take	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+1-20	my	B-ScrPart_passenger	O	O	_	_	
+1-21	little	O	O	O	_	_	
+1-22	sister	B-ScrPart_passenger	O	O	_	_	
+1-23	-	O	O	O	_	_	
+1-24	we	B-ScrPart_passenger	O	O	_	_	
+1-25	had	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+1-26	so	O	O	O	_	_	
+1-27	much	O	O	O	_	_	
+1-28	fun	B-NPart	O	O	_	_	
+1-29	!	O	O	O	_	_	
+
+#id=2
+#text=I 'm not old enough to drive and our parents were busy , so I decided to take the bus .
+2-1	I	B-ScrPart_passenger	O	O	_	_	
+2-2	'm	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+2-3	not	O	O	O	_	_	
+2-4	old	O	O	O	_	_	
+2-5	enough	O	O	O	_	_	
+2-6	to	O	O	O	_	_	
+2-7	drive	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+2-8	and	O	O	O	_	_	
+2-9	our	B-ScrPart_passenger	O	O	_	_	
+2-10	parents	B-NPart	O	O	_	_	
+2-11	were	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+2-12	busy	O	O	O	_	_	
+2-13	,	O	O	O	_	_	
+2-14	so	O	O	O	_	_	
+2-15	I	B-ScrPart_passenger	O	O	_	_	
+2-16	decided	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+2-17	to	O	O	O	_	_	
+2-18	take	O	B-webanno.custom.Events_	B-Evoking	_	_	
+2-19	the	O	I-webanno.custom.Events_	I-Evoking	_	_	
+2-20	bus	B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	_	_	
+2-21	.	O	O	O	_	_	
+
+#id=3
+#text=I went online and looked at the bus route to determine which stop let us off closest to the parade , and then I looked at the bus schedule to see what time the bus would come and how often it ran .
+3-1	I	B-ScrPart_passenger	O	O	_	_	
+3-2	went	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+3-3	online	O	I-webanno.custom.Events_	I-RelNScrEv	_	_	
+3-4	and	O	O	O	_	_	
+3-5	looked	O	B-webanno.custom.Events_	B-ScrEv_find_bus	_	_	
+3-6	at	O	O	O	_	_	
+3-7	the	O	O	O	_	_	
+3-8	bus	B-ScrPart_route	O	O	_	_	
+3-9	route	I-ScrPart_route|B-ScrPart_route	O	O	_	_	
+3-10	to	O	O	O	_	_	
+3-11	determine	O	B-webanno.custom.Events_	B-ScrEv_find_bus	_	_	
+3-12	which	O	O	O	_	_	
+3-13	stop	B-ScrPart_bus_stop	O	O	_	_	
+3-14	let	O	B-webanno.custom.Events_	B-ScrEv_get_off	_	_	
+3-15	us	B-ScrPart_passenger	O	O	_	_	
+3-16	off	O	O	O	_	_	
+3-17	closest	O	O	O	_	_	
+3-18	to	O	O	O	_	_	
+3-19	the	O	O	O	_	_	
+3-20	parade	B-NPart	O	O	_	_	
+3-21	,	O	O	O	_	_	
+3-22	and	O	O	O	_	_	
+3-23	then	O	O	O	_	_	
+3-24	I	B-ScrPart_passenger	O	O	_	_	
+3-25	looked	O	B-webanno.custom.Events_	B-ScrEv_check_time-table	_	_	
+3-26	at	O	O	O	_	_	
+3-27	the	O	O	O	_	_	
+3-28	bus	B-ScrPart_time-table	O	O	_	_	
+3-29	schedule	I-ScrPart_time-table|B-ScrPart_time-table	O	O	_	_	
+3-30	to	O	O	O	_	_	
+3-31	see	O	B-webanno.custom.Events_	B-ScrEv_check_time-table	_	_	
+3-32	what	O	O	O	_	_	
+3-33	time	B-ScrPart_time/date	O	O	_	_	
+3-34	the	O	O	O	_	_	
+3-35	bus	B-ScrPart_bus	O	O	_	_	
+3-36	would	O	O	O	_	_	
+3-37	come	O	B-webanno.custom.Events_	B-ScrEv_bus_comes	_	_	
+3-38	and	O	O	O	_	_	
+3-39	how	O	O	O	_	_	
+3-40	often	O	O	O	_	_	
+3-41	it	B-ScrPart_bus	O	O	_	_	
+3-42	ran	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+3-43	.	O	O	O	_	_	
+
+#id=4
+#text=I also found out how much the ride costs , and Mom gave me the money I needed for both of us .
+4-1	I	B-ScrPart_passenger	O	O	_	_	
+4-2	also	O	O	O	_	_	
+4-3	found	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+4-4	out	O	I-webanno.custom.Events_	I-RelNScrEv	_	_	
+4-5	how	O	O	O	_	_	
+4-6	much	O	O	O	_	_	
+4-7	the	O	O	O	_	_	
+4-8	ride	B-ScrPart_ride	O	O	_	_	
+4-9	costs	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+4-10	,	O	O	O	_	_	
+4-11	and	O	O	O	_	_	
+4-12	Mom	B-NPart	O	O	_	_	
+4-13	gave	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+4-14	me	B-ScrPart_passenger	O	O	_	_	
+4-15	the	O	O	O	_	_	
+4-16	money	B-ScrPart_money	O	O	_	_	
+4-17	I	B-ScrPart_passenger	O	O	_	_	
+4-18	needed	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+4-19	for	O	O	O	_	_	
+4-20	both	O	O	O	_	_	
+4-21	of	O	O	O	_	_	
+4-22	us	B-ScrPart_passenger	O	O	_	_	
+4-23	.	O	O	O	_	_	
+
+#id=5
+#text=The day of the parade my sister and I walked the two short blocks to the bus stop and waited inside the little bus shelter .
+5-1	The	O	O	O	_	_	
+5-2	day	B-NPart	O	O	_	_	
+5-3	of	O	O	O	_	_	
+5-4	the	O	O	O	_	_	
+5-5	parade	B-NPart	O	O	_	_	
+5-6	my	B-ScrPart_passenger|B-ScrPart_passenger	O	O	_	_	
+5-7	sister	I-ScrPart_passenger|B-ScrPart_passenger	O	O	_	_	
+5-8	and	I-ScrPart_passenger	O	O	_	_	
+5-9	I	I-ScrPart_passenger|B-ScrPart_passenger	O	O	_	_	
+5-10	walked	O	B-webanno.custom.Events_	B-ScrEv_get_bus_stop	_	_	
+5-11	the	O	O	O	_	_	
+5-12	two	O	O	O	_	_	
+5-13	short	O	O	O	_	_	
+5-14	blocks	B-NPart	O	O	_	_	
+5-15	to	O	O	O	_	_	
+5-16	the	O	O	O	_	_	
+5-17	bus	B-ScrPart_bus_stop	O	O	_	_	
+5-18	stop	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	O	_	_	
+5-19	and	O	O	O	_	_	
+5-20	waited	O	B-webanno.custom.Events_	B-ScrEv_wait	_	_	
+5-21	inside	O	O	O	_	_	
+5-22	the	O	O	O	_	_	
+5-23	little	O	O	O	_	_	
+5-24	bus	B-NPart	O	O	_	_	
+5-25	shelter	I-NPart|B-NPart	O	O	_	_	
+5-26	.	O	O	O	_	_	
+
+#id=6
+#text=When the bus came , the driver came to a stop and the doors opened and we walked up the two steps .
+6-1	When	O	O	O	_	_	
+6-2	the	O	O	O	_	_	
+6-3	bus	B-ScrPart_bus	O	O	_	_	
+6-4	came	O	B-webanno.custom.Events_	B-ScrEv_bus_comes	_	_	
+6-5	,	O	O	O	_	_	
+6-6	the	O	O	O	_	_	
+6-7	driver	B-ScrPart_bus_staff	O	O	_	_	
+6-8	came	O	B-webanno.custom.Events_	B-ScrEv_bus_stops	_	_	
+6-9	to	O	O	O	_	_	
+6-10	a	O	O	O	_	_	
+6-11	stop	B-SuppVComp	O	O	_	_	
+6-12	and	O	O	O	_	_	
+6-13	the	O	O	O	_	_	
+6-14	doors	B-ScrPart_door	O	O	_	_	
+6-15	opened	O	B-webanno.custom.Events_	B-ScrEv_door_opens	_	_	
+6-16	and	O	O	O	_	_	
+6-17	we	B-ScrPart_passenger	O	O	_	_	
+6-18	walked	O	B-webanno.custom.Events_	B-ScrEv_board_bus	_	_	
+6-19	up	O	I-webanno.custom.Events_	I-ScrEv_board_bus	_	_	
+6-20	the	O	O	O	_	_	
+6-21	two	O	O	O	_	_	
+6-22	steps	B-NPart	O	O	_	_	
+6-23	.	O	O	O	_	_	
+
+#id=7
+#text=We said hello to the driver and paid the fare - my sister loved putting the coins in the fare box .
+7-1	We	B-ScrPart_passenger	O	O	_	_	
+7-2	said	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+7-3	hello	O	O	O	_	_	
+7-4	to	O	O	O	_	_	
+7-5	the	O	O	O	_	_	
+7-6	driver	B-ScrPart_bus_staff	O	O	_	_	
+7-7	and	O	O	O	_	_	
+7-8	paid	O	B-webanno.custom.Events_	B-ScrEv_get_ticket	_	_	
+7-9	the	O	O	O	_	_	
+7-10	fare	B-ScrPart_money	O	O	_	_	
+7-11	-	O	O	O	_	_	
+7-12	my	B-ScrPart_passenger	O	O	_	_	
+7-13	sister	B-ScrPart_passenger	O	O	_	_	
+7-14	loved	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+7-15	putting	O	B-webanno.custom.Events_	B-ScrEv_get_ticket	_	_	
+7-16	the	O	O	O	_	_	
+7-17	coins	B-ScrPart_money	O	O	_	_	
+7-18	in	O	O	O	_	_	
+7-19	the	O	O	O	_	_	
+7-20	fare	B-ScrPart_payment_machine	O	O	_	_	
+7-21	box	I-ScrPart_payment_machine|B-ScrPart_payment_machine	O	O	_	_	
+7-22	.	O	O	O	_	_	
+
+#id=8
+#text=We walked a few steps down the aisle and took a seat near the front of the bus and settled in to look out of the window .
+8-1	We	B-ScrPart_passenger	O	O	_	_	
+8-2	walked	O	B-webanno.custom.Events_	B-ScrEv_find_place	_	_	
+8-3	a	O	O	O	_	_	
+8-4	few	O	O	O	_	_	
+8-5	steps	B-NPart	O	O	_	_	
+8-6	down	O	O	O	_	_	
+8-7	the	O	O	O	_	_	
+8-8	aisle	B-NPart	O	O	_	_	
+8-9	and	O	O	O	_	_	
+8-10	took	O	B-webanno.custom.Events_	B-ScrEv_find_place	_	_	
+8-11	a	O	O	O	_	_	
+8-12	seat	B-ScrPart_seat_in_bus	O	O	_	_	
+8-13	near	O	O	O	_	_	
+8-14	the	O	O	O	_	_	
+8-15	front	B-NPart	O	O	_	_	
+8-16	of	O	O	O	_	_	
+8-17	the	O	O	O	_	_	
+8-18	bus	B-ScrPart_bus	O	O	_	_	
+8-19	and	O	O	O	_	_	
+8-20	settled	O	B-webanno.custom.Events_	B-ScrEv_find_place	_	_	
+8-21	in	O	I-webanno.custom.Events_	I-ScrEv_find_place	_	_	
+8-22	to	O	O	O	_	_	
+8-23	look	O	B-webanno.custom.Events_	B-ScrEv_spend_time_bus	_	_	
+8-24	out	O	O	O	_	_	
+8-25	of	O	O	O	_	_	
+8-26	the	O	O	O	_	_	
+8-27	window	B-NPart	O	O	_	_	
+8-28	.	O	O	O	_	_	
+
+#id=9
+#text=The bus made a lot of stops and all types of people got on and off of the bus ; it was pretty noisy !
+9-1	The	O	O	O	_	_	
+9-2	bus	B-ScrPart_bus	O	O	_	_	
+9-3	made	O	B-webanno.custom.Events_	B-ScrEv_bus_stops	_	_	
+9-4	a	O	O	O	_	_	
+9-5	lot	B-Head_of_Partitive	O	O	_	_	
+9-6	of	O	O	O	_	_	
+9-7	stops	B-SuppVComp	O	O	_	_	
+9-8	and	O	O	O	_	_	
+9-9	all	O	O	O	_	_	
+9-10	types	B-Head_of_Partitive	O	O	_	_	
+9-11	of	O	O	O	_	_	
+9-12	people	B-ScrPart_passenger	O	O	_	_	
+9-13	got	O	B-webanno.custom.Events_	B-???	_	_	
+9-14	on	O	O	O	_	_	
+9-15	and	O	O	O	_	_	
+9-16	off	O	O	O	_	_	
+9-17	of	O	O	O	_	_	
+9-18	the	O	O	O	_	_	
+9-19	bus	B-ScrPart_bus	O	O	_	_	
+9-20	;	O	O	O	_	_	
+9-21	it	B-No_label	O	O	_	_	
+9-22	was	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+9-23	pretty	O	O	O	_	_	
+9-24	noisy	O	O	O	_	_	
+9-25	!	O	O	O	_	_	
+
+#id=10
+#text=When I could tell we were getting close to our stop , I pulled the chord to alert the driver that we were getting off at the next stop .
+10-1	When	O	O	O	_	_	
+10-2	I	B-ScrPart_passenger	O	O	_	_	
+10-3	could	O	O	O	_	_	
+10-4	tell	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+10-5	we	B-ScrPart_passenger	O	O	_	_	
+10-6	were	O	O	O	_	_	
+10-7	getting	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+10-8	close	O	I-webanno.custom.Events_	I-RelNScrEv	_	_	
+10-9	to	O	O	O	_	_	
+10-10	our	B-ScrPart_passenger	O	O	_	_	
+10-11	stop	B-ScrPart_bus_stop	O	O	_	_	
+10-12	,	O	O	O	_	_	
+10-13	I	B-ScrPart_passenger	O	O	_	_	
+10-14	pulled	O	B-webanno.custom.Events_	B-ScrEv_press_stop_button	_	_	
+10-15	the	O	O	O	_	_	
+10-16	chord	B-ScrPart_stop_button/door_opener	O	O	_	_	
+10-17	to	O	O	O	_	_	
+10-18	alert	O	B-webanno.custom.Events_	B-ScrEv_press_stop_button	_	_	
+10-19	the	O	O	O	_	_	
+10-20	driver	B-ScrPart_bus_staff	O	O	_	_	
+10-21	that	O	O	O	_	_	
+10-22	we	B-ScrPart_passenger	O	O	_	_	
+10-23	were	O	O	O	_	_	
+10-24	getting	O	B-webanno.custom.Events_	B-ScrEv_get_off	_	_	
+10-25	off	O	I-webanno.custom.Events_	I-ScrEv_get_off	_	_	
+10-26	at	O	O	O	_	_	
+10-27	the	O	O	O	_	_	
+10-28	next	O	O	O	_	_	
+10-29	stop	B-ScrPart_bus_stop	O	O	_	_	
+10-30	.	O	O	O	_	_	
+
+#id=11
+#text=When we reached our stop , my sister and I walked down the aisle and off of the bus .
+11-1	When	O	O	O	_	_	
+11-2	we	B-ScrPart_passenger	O	O	_	_	
+11-3	reached	O	B-webanno.custom.Events_	B-ScrEv_bus_stops	_	_	
+11-4	our	B-ScrPart_passenger	O	O	_	_	
+11-5	stop	B-ScrPart_bus_stop	O	O	_	_	
+11-6	,	O	O	O	_	_	
+11-7	my	B-ScrPart_passenger|B-ScrPart_passenger	O	O	_	_	
+11-8	sister	I-ScrPart_passenger|B-ScrPart_passenger	O	O	_	_	
+11-9	and	I-ScrPart_passenger	O	O	_	_	
+11-10	I	I-ScrPart_passenger|B-ScrPart_passenger	O	O	_	_	
+11-11	walked	O	B-webanno.custom.Events_	B-ScrEv_go_exit	_	_	
+11-12	down	O	O	O	_	_	
+11-13	the	O	O	O	_	_	
+11-14	aisle	B-NPart	O	O	_	_	
+11-15	and	O	O	O	_	_	
+11-16	off	O	O	O	_	_	
+11-17	of	O	O	O	_	_	
+11-18	the	O	O	O	_	_	
+11-19	bus	B-ScrPart_bus	O	O	_	_	
+11-20	.	O	O	O	_	_	
+
+#id=12
+#text=We were just in time to see the beginning of the parade ! 
+12-1	We	B-ScrPart_passenger	O	O	_	_	
+12-2	were	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+12-3	just	O	O	O	_	_	
+12-4	in	O	O	O	_	_	
+12-5	time	B-No_label	O	O	_	_	
+12-6	to	O	O	O	_	_	
+12-7	see	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+12-8	the	O	O	O	_	_	
+12-9	beginning	B-NPart	O	O	_	_	
+12-10	of	O	O	O	_	_	
+12-11	the	O	O	O	_	_	
+12-12	parade	B-NPart	O	O	_	_	
+12-13	!	O	O	O	_	_	
+

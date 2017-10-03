@@ -1,0 +1,216 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Taking the train is an efficient method of transportation to get from place to place .
+1-1	Taking	B-Evoking	O	_	_	
+1-2	the	I-Evoking	O	_	_	
+1-3	train	I-Evoking	B-ScrPart_train	_	_	
+1-4	is	B-UnrelEv	O	_	_	
+1-5	an	O	O	_	_	
+1-6	efficient	O	O	_	_	
+1-7	method	O	O	_	_	
+1-8	of	O	O	_	_	
+1-9	transportation	O	O	_	_	
+1-10	to	O	O	_	_	
+1-11	get	B-RelNScrEv	O	_	_	
+1-12	from	O	O	_	_	
+1-13	place	O	B-NPart	_	_	
+1-14	to	O	O	_	_	
+1-15	place	O	B-NPart	_	_	
+1-16	.	O	O	_	_	
+
+#id=2
+#text=Before taking the train , I will make sure my transit card has enough fare on it .
+2-1	Before	O	O	_	_	
+2-2	taking	B-Evoking	O	_	_	
+2-3	the	I-Evoking	O	_	_	
+2-4	train	I-Evoking	B-ScrPart_train	webanno.custom.Corefchains_	1-3	
+2-5	,	O	O	_	_	
+2-6	I	O	B-ScrPart_passenger	_	_	
+2-7	will	O	O	_	_	
+2-8	make	B-UnrelEv	O	_	_	
+2-9	sure	I-UnrelEv	O	_	_	
+2-10	my	O	B-ScrPart_passenger	webanno.custom.Corefchains_	2-6	
+2-11	transit	O	B-ScrPart_card/ticket	_	_	
+2-12	card	O	I-ScrPart_card/ticket|B-ScrPart_card/ticket	_	_	
+2-13	has	B-RelNScrEv	O	_	_	
+2-14	enough	O	O	_	_	
+2-15	fare	O	B-ScrPart_card/ticket	_	_	
+2-16	on	O	O	_	_	
+2-17	it	O	B-ScrPart_card/ticket	webanno.custom.Corefchains_	2-12	
+2-18	.	O	O	_	_	
+
+#id=3
+#text=This can be checked at the ticketing machines .
+3-1	This	O	B-NPart	_	_	
+3-2	can	O	O	_	_	
+3-3	be	O	O	_	_	
+3-4	checked	B-RelNScrEv	O	_	_	
+3-5	at	O	O	_	_	
+3-6	the	O	O	_	_	
+3-7	ticketing	O	B-ScrPart_ticket_office/website	_	_	
+3-8	machines	O	I-ScrPart_ticket_office/website|B-ScrPart_ticket_office/website	_	_	
+3-9	.	O	O	_	_	
+
+#id=4
+#text=If I am low , I will top-up the card with more money .
+4-1	If	O	O	_	_	
+4-2	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	2-10	
+4-3	am	B-UnrelEv	O	_	_	
+4-4	low	O	O	_	_	
+4-5	,	O	O	_	_	
+4-6	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	4-2	
+4-7	will	O	O	_	_	
+4-8	top-up	B-ScrEv_get_tickets	O	_	_	
+4-9	the	O	O	_	_	
+4-10	card	O	B-ScrPart_card/ticket	webanno.custom.Corefchains_	2-17	
+4-11	with	O	O	_	_	
+4-12	more	O	O	_	_	
+4-13	money	O	B-ScrPart_payment_means	_	_	
+4-14	.	O	O	_	_	
+
+#id=5
+#text=Once this is all set , I will head towards the gate to scan my transit card .
+5-1	Once	O	O	_	_	
+5-2	this	O	O	_	_	
+5-3	is	O	O	_	_	
+5-4	all	O	O	_	_	
+5-5	set	B-UnrelEv	O	_	_	
+5-6	,	O	O	_	_	
+5-7	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	4-6	
+5-8	will	O	O	_	_	
+5-9	head	B-RelNScrEv	O	_	_	
+5-10	towards	O	O	_	_	
+5-11	the	O	O	_	_	
+5-12	gate	O	B-ScrPart_turnstile	_	_	
+5-13	to	O	O	_	_	
+5-14	scan	B-ScrEv_get_tickets	O	_	_	
+5-15	my	O	B-ScrPart_passenger	webanno.custom.Corefchains_	5-7	
+5-16	transit	O	B-ScrPart_card/ticket	_	_	
+5-17	card	O	I-ScrPart_card/ticket|B-ScrPart_card/ticket	webanno.custom.Corefchains_	4-10	
+5-18	.	O	O	_	_	
+
+#id=6
+#text=The gates will open and the fare will be collected .
+6-1	The	O	O	_	_	
+6-2	gates	O	B-ScrPart_turnstile	webanno.custom.Corefchains_	5-12	
+6-3	will	O	O	_	_	
+6-4	open	B-RelNScrEv	O	_	_	
+6-5	and	O	O	_	_	
+6-6	the	O	O	_	_	
+6-7	fare	O	B-ScrPart_card/ticket	webanno.custom.Corefchains_	2-15	
+6-8	will	O	O	_	_	
+6-9	be	O	O	_	_	
+6-10	collected	B-ScrEv_get_tickets	O	_	_	
+6-11	.	O	O	_	_	
+
+#id=7
+#text=Usually I already know where I need to go , but in case I do not know .
+7-1	Usually	O	O	_	_	
+7-2	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	5-15	
+7-3	already	O	O	_	_	
+7-4	know	B-UnrelEv	O	_	_	
+7-5	where	O	O	_	_	
+7-6	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	7-2	
+7-7	need	O	O	_	_	
+7-8	to	O	O	_	_	
+7-9	go	B-RelNScrEv	O	_	_	
+7-10	,	O	O	_	_	
+7-11	but	O	O	_	_	
+7-12	in	O	O	_	_	
+7-13	case	O	O	_	_	
+7-14	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	7-6	
+7-15	do	O	O	_	_	
+7-16	not	O	O	_	_	
+7-17	know	B-UnrelEv	O	_	_	
+7-18	.	O	O	_	_	
+
+#id=8
+#text=I will check the many maps posted around the station .
+8-1	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	7-14	
+8-2	will	O	O	_	_	
+8-3	check	B-ScrEv_check_time-table	O	_	_	
+8-4	the	O	O	_	_	
+8-5	many	O	O	_	_	
+8-6	maps	O	B-ScrPart_time-table	_	_	
+8-7	posted	B-UnrelEv	O	_	_	
+8-8	around	O	O	_	_	
+8-9	the	O	O	_	_	
+8-10	station	O	B-ScrPart_train_station	_	_	
+8-11	.	O	O	_	_	
+
+#id=9
+#text=Knowing which direction the train heads towards is the most important thing as you do n't want to waste time going the wrong way .
+9-1	Knowing	B-UnrelEv	O	_	_	
+9-2	which	O	O	_	_	
+9-3	direction	O	B-NPart	_	_	
+9-4	the	O	O	_	_	
+9-5	train	O	B-ScrPart_train	webanno.custom.Corefchains_	2-4	
+9-6	heads	B-RelNScrEv	O	_	_	
+9-7	towards	O	O	_	_	
+9-8	is	B-UnrelEv	O	_	_	
+9-9	the	O	O	_	_	
+9-10	most	O	O	_	_	
+9-11	important	O	O	_	_	
+9-12	thing	O	O	_	_	
+9-13	as	O	O	_	_	
+9-14	you	O	B-ScrPart_passenger	webanno.custom.Corefchains_	8-1	
+9-15	do	O	O	_	_	
+9-16	n't	O	O	_	_	
+9-17	want	B-UnrelEv	O	_	_	
+9-18	to	O	O	_	_	
+9-19	waste	B-UnrelEv	O	_	_	
+9-20	time	O	O	_	_	
+9-21	going	B-RelNScrEv	O	_	_	
+9-22	the	O	O	_	_	
+9-23	wrong	O	O	_	_	
+9-24	way	O	B-NPart	_	_	
+9-25	.	O	O	_	_	
+
+#id=10
+#text=Once this is determined , I will head towards the train platform and wait until the train arrives .
+10-1	Once	O	O	_	_	
+10-2	this	O	B-NPart	_	_	
+10-3	is	O	O	_	_	
+10-4	determined	B-ScrEv_check_time-table	O	_	_	
+10-5	,	O	O	_	_	
+10-6	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	9-14	
+10-7	will	O	O	_	_	
+10-8	head	B-ScrEv_get_platform	O	_	_	
+10-9	towards	O	O	_	_	
+10-10	the	O	O	_	_	
+10-11	train	O	B-ScrPart_platform	_	_	
+10-12	platform	O	I-ScrPart_platform|B-ScrPart_platform	_	_	
+10-13	and	O	O	_	_	
+10-14	wait	B-ScrEv_wait	O	_	_	
+10-15	until	O	O	_	_	
+10-16	the	O	O	_	_	
+10-17	train	O	B-ScrPart_train	webanno.custom.Corefchains_	9-5	
+10-18	arrives	B-ScrEv_train_arrives	O	_	_	
+10-19	.	O	O	_	_	
+
+#id=11
+#text=Once the train is here , I am all set and I will board the train and get off at my destination . 
+11-1	Once	O	O	_	_	
+11-2	the	O	O	_	_	
+11-3	train	O	B-ScrPart_train	webanno.custom.Corefchains_	10-17	
+11-4	is	B-ScrEv_train_arrives	O	_	_	
+11-5	here	O	O	_	_	
+11-6	,	O	O	_	_	
+11-7	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	10-6	
+11-8	am	O	O	_	_	
+11-9	all	O	O	_	_	
+11-10	set	B-UnrelEv	O	_	_	
+11-11	and	O	O	_	_	
+11-12	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	11-7	
+11-13	will	O	O	_	_	
+11-14	board	B-MissScrEv	O	_	_	
+11-15	the	O	O	_	_	
+11-16	train	O	B-ScrPart_train	webanno.custom.Corefchains_	11-3	
+11-17	and	O	O	_	_	
+11-18	get	B-ScrEv_get_off	O	_	_	
+11-19	off	I-ScrEv_get_off	O	_	_	
+11-20	at	O	O	_	_	
+11-21	my	O	B-ScrPart_passenger	webanno.custom.Corefchains_	11-12	
+11-22	destination	O	B-ScrPart_destination	_	_	
+11-23	.	O	O	_	_	
+

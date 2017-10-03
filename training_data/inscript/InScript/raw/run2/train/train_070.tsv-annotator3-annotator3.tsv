@@ -1,0 +1,208 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant
+#id=1
+#text=Taking the train into the city is so much fun !
+1-1	Taking	B-Evoking	O	
+1-2	the	I-Evoking	O	
+1-3	train	I-Evoking	B-ScrPart_train	
+1-4	into	O	O	
+1-5	the	O	O	
+1-6	city	O	B-ScrPart_destination	
+1-7	is	B-UnrelEv	O	
+1-8	so	O	O	
+1-9	much	O	O	
+1-10	fun	O	B-NPart	
+1-11	!	O	O	
+
+#id=2
+#text=We go into the train station and buy tickets for the train we want to take .
+2-1	We	O	B-ScrPart_passenger	
+2-2	go	B-ScrEv_get_train_station	O	
+2-3	into	O	O	
+2-4	the	O	O	
+2-5	train	O	B-ScrPart_train_station	
+2-6	station	O	I-ScrPart_train_station|B-ScrPart_train_station	
+2-7	and	O	O	
+2-8	buy	B-ScrEv_get_tickets	O	
+2-9	tickets	O	B-ScrPart_card/ticket	
+2-10	for	O	O	
+2-11	the	O	O	
+2-12	train	O	B-ScrPart_train	
+2-13	we	O	B-ScrPart_passenger	
+2-14	want	B-UnrelEv	O	
+2-15	to	O	O	
+2-16	take	B-Evoking	O	
+2-17	.	O	O	
+
+#id=3
+#text=When the train arrives at the station it is very loud .
+3-1	When	O	O	
+3-2	the	O	O	
+3-3	train	O	B-ScrPart_train	
+3-4	arrives	B-ScrEv_train_arrives	O	
+3-5	at	O	O	
+3-6	the	O	O	
+3-7	station	O	B-ScrPart_train_station	
+3-8	it	O	B-ScrPart_train	
+3-9	is	B-UnrelEv	O	
+3-10	very	O	O	
+3-11	loud	O	O	
+3-12	.	O	O	
+
+#id=4
+#text=We wait for it to stop and then follow the other passengers on board .
+4-1	We	O	B-ScrPart_passenger	
+4-2	wait	B-ScrEv_wait	O	
+4-3	for	O	O	
+4-4	it	O	B-ScrPart_train	
+4-5	to	O	O	
+4-6	stop	B-RelNScrEv	O	
+4-7	and	O	O	
+4-8	then	O	O	
+4-9	follow	B-ScrEv_get_on	O	
+4-10	the	O	O	
+4-11	other	O	O	
+4-12	passengers	O	B-ScrPart_passenger	
+4-13	on	O	O	
+4-14	board	O	B-SuppVComp	
+4-15	.	O	O	
+
+#id=5
+#text=We find our seats , hopefully near a window , and sit down .
+5-1	We	O	B-ScrPart_passenger	
+5-2	find	B-ScrEv_find_place	O	
+5-3	our	O	B-ScrPart_passenger	
+5-4	seats	O	B-ScrPart_seat	
+5-5	,	O	O	
+5-6	hopefully	O	O	
+5-7	near	O	O	
+5-8	a	O	O	
+5-9	window	O	B-ScrPart_in-train_entertainment	
+5-10	,	O	O	
+5-11	and	O	O	
+5-12	sit	B-UnrelEv|B-UnrelEv	O	
+5-13	down	I-UnrelEv	O	
+5-14	.	O	O	
+
+#id=6
+#text=When the conductor comes around , we give him our tickets and he punches a hole in each of them .
+6-1	When	O	O	
+6-2	the	O	O	
+6-3	conductor	O	B-ScrPart_train_staff	
+6-4	comes	B-ScrEv_conductor_checks|B-ScrEv_conductor_checks	O	
+6-5	around	I-ScrEv_conductor_checks	O	
+6-6	,	O	O	
+6-7	we	O	B-ScrPart_passenger	
+6-8	give	B-ScrEv_other	O	
+6-9	him	O	B-ScrPart_train_staff	
+6-10	our	O	B-ScrPart_passenger	
+6-11	tickets	O	B-ScrPart_card/ticket	
+6-12	and	O	O	
+6-13	he	O	B-ScrPart_train_staff	
+6-14	punches	B-ScrEv_conductor_checks	O	
+6-15	a	O	O	
+6-16	hole	O	B-NPart	
+6-17	in	O	O	
+6-18	each	O	O	
+6-19	of	O	O	
+6-20	them	O	B-ScrPart_card/ticket	
+6-21	.	O	O	
+
+#id=7
+#text=The train begins to move and it makes a clickety-clack sound as it travels towards the next stop .
+7-1	The	O	O	
+7-2	train	O	B-ScrPart_train	
+7-3	begins	B-UnrelEv	O	
+7-4	to	O	O	
+7-5	move	B-ScrEv_train_departs	O	
+7-6	and	O	O	
+7-7	it	O	B-ScrPart_train	
+7-8	makes	B-UnrelEv	O	
+7-9	a	O	O	
+7-10	clickety-clack	O	B-NPart	
+7-11	sound	O	I-NPart	
+7-12	as	O	O	
+7-13	it	O	B-ScrPart_train	
+7-14	travels	B-RelNScrEv	O	
+7-15	towards	O	O	
+7-16	the	O	O	
+7-17	next	O	O	
+7-18	stop	O	B-ScrPart_other	
+7-19	.	O	O	
+
+#id=8
+#text=The buildings and trees we pass look blurry because we are going so fast .
+8-1	The	O	O	
+8-2	buildings	O	B-NPart	
+8-3	and	O	O	
+8-4	trees	O	B-NPart	
+8-5	we	O	B-ScrPart_passenger	
+8-6	pass	B-RelNScrEv	O	
+8-7	look	B-UnrelEv	O	
+8-8	blurry	O	O	
+8-9	because	O	O	
+8-10	we	O	B-ScrPart_passenger	
+8-11	are	O	O	
+8-12	going	B-UnrelEv	O	
+8-13	so	O	O	
+8-14	fast	O	O	
+8-15	.	O	O	
+
+#id=9
+#text=We pass railroad crossings with cars lined up waiting for us to pass .
+9-1	We	O	B-ScrPart_passenger	
+9-2	pass	B-RelNScrEv	O	
+9-3	railroad	O	B-NPart	
+9-4	crossings	O	I-NPart|B-NPart	
+9-5	with	O	O	
+9-6	cars	O	B-NPart	
+9-7	lined	B-UnrelEv|B-UnrelEv	O	
+9-8	up	I-UnrelEv	O	
+9-9	waiting	B-UnrelEv|B-UnrelEv	O	
+9-10	for	I-UnrelEv	O	
+9-11	us	O	B-ScrPart_passenger	
+9-12	to	O	O	
+9-13	pass	B-RelNScrEv	O	
+9-14	.	O	O	
+
+#id=10
+#text=After 10 stops , at different train stations , we arrive at the big one in the city .
+10-1	After	O	O	
+10-2	10	O	O	
+10-3	stops	O	B-ScrPart_other	
+10-4	,	O	O	
+10-5	at	O	O	
+10-6	different	O	O	
+10-7	train	O	B-ScrPart_train_station	
+10-8	stations	O	I-ScrPart_train_station|B-ScrPart_train_station	
+10-9	,	O	O	
+10-10	we	O	B-ScrPart_passenger	
+10-11	arrive	B-ScrEv_arrive_destination	O	
+10-12	at	O	O	
+10-13	the	O	O	
+10-14	big	O	O	
+10-15	one	O	B-ScrPart_train_station	
+10-16	in	O	O	
+10-17	the	O	O	
+10-18	city	O	B-ScrPart_destination	
+10-19	.	O	O	
+
+#id=11
+#text=We get off the train and take the escalator up to get out of the station . 
+11-1	We	O	B-ScrPart_passenger	
+11-2	get	B-ScrEv_get_off|B-ScrEv_get_off	O	
+11-3	off	I-ScrEv_get_off	O	
+11-4	the	O	O	
+11-5	train	O	B-ScrPart_train	
+11-6	and	O	O	
+11-7	take	B-UnrelEv	O	
+11-8	the	O	O	
+11-9	escalator	O	B-ScrPart_other	
+11-10	up	O	O	
+11-11	to	O	O	
+11-12	get	B-ScrEv_other|B-ScrEv_other	O	
+11-13	out	I-ScrEv_other	O	
+11-14	of	O	O	
+11-15	the	O	O	
+11-16	station	O	B-ScrPart_train_station	
+11-17	.	O	O	
+

@@ -1,0 +1,354 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I went out to ride my bicycle one morning , only to find that my front tire was very flat .
+1-1	I	B-ScrPart_rider	O	_	_	
+1-2	went	O	B-UnrelEv	_	_	
+1-3	out	O	O	_	_	
+1-4	to	O	O	_	_	
+1-5	ride	O	B-ScrEv_ride_bike	_	_	
+1-6	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-1	
+1-7	bicycle	B-ScrPart_bicycle	O	_	_	
+1-8	one	O	O	_	_	
+1-9	morning	B-NPart	O	_	_	
+1-10	,	O	O	_	_	
+1-11	only	O	O	_	_	
+1-12	to	O	O	_	_	
+1-13	find	O	B-ScrEv_notice_problem	_	_	
+1-14	that	O	O	_	_	
+1-15	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-6	
+1-16	front	B-ScrPart_tire	O	_	_	
+1-17	tire	I-ScrPart_tire|B-ScrPart_tire	O	_	_	
+1-18	was	O	B-UnrelEv	_	_	
+1-19	very	O	O	_	_	
+1-20	flat	O	O	_	_	
+1-21	.	O	O	_	_	
+
+#id=2
+#text=I grabbed my manual air pump and tried to put air into it , but it would not hold any and kept going flat .
+2-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-15	
+2-2	grabbed	O	B-ScrEv_get_tools	_	_	
+2-3	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-1	
+2-4	manual	O	O	_	_	
+2-5	air	B-ScrPart_tool	O	_	_	
+2-6	pump	I-ScrPart_tool|B-ScrPart_tool	O	_	_	
+2-7	and	O	O	_	_	
+2-8	tried	O	B-UnrelEv	_	_	
+2-9	to	O	O	_	_	
+2-10	put	O	B-ScrEv_refill_tire_air	_	_	
+2-11	air	B-ScrPart_air	O	_	_	
+2-12	into	O	O	_	_	
+2-13	it	B-ScrPart_tire	O	webanno.custom.Corefchains_	1-17	
+2-14	,	O	O	_	_	
+2-15	but	O	O	_	_	
+2-16	it	B-ScrPart_tire	O	webanno.custom.Corefchains_	2-13	
+2-17	would	O	O	_	_	
+2-18	not	O	O	_	_	
+2-19	hold	O	B-UnrelEv	_	_	
+2-20	any	O	O	_	_	
+2-21	and	O	O	_	_	
+2-22	kept	O	B-UnrelEv	_	_	
+2-23	going	O	B-RelNScrEv	_	_	
+2-24	flat	O	O	_	_	
+2-25	.	O	O	_	_	
+
+#id=3
+#text=I heard a hissing sound , so I knew I had punctured the tire somehow .
+3-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-3	
+3-2	heard	O	B-UnrelEv	_	_	
+3-3	a	O	O	_	_	
+3-4	hissing	O	B-UnrelEv	_	_	
+3-5	sound	O	O	_	_	
+3-6	,	O	O	_	_	
+3-7	so	O	O	_	_	
+3-8	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	3-1	
+3-9	knew	O	B-UnrelEv	_	_	
+3-10	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	3-8	
+3-11	had	O	O	_	_	
+3-12	punctured	O	B-RelNScrEv	_	_	
+3-13	the	O	O	_	_	
+3-14	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	2-16	
+3-15	somehow	O	O	_	_	
+3-16	.	O	O	_	_	
+
+#id=4
+#text=Luckily I had a spare inner tube that I could put on .
+4-1	Luckily	O	O	_	_	
+4-2	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	3-10	
+4-3	had	O	B-UnrelEv	_	_	
+4-4	a	O	O	_	_	
+4-5	spare	O	O	_	_	
+4-6	inner	O	O	_	_	
+4-7	tube	B-ScrPart_spare_tube	O	_	_	
+4-8	that	O	O	_	_	
+4-9	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	4-2	
+4-10	could	O	O	_	_	
+4-11	put	O	B-ScrEv_put_new_tire	_	_	
+4-12	on	O	I-ScrEv_put_new_tire	_	_	
+4-13	.	O	O	_	_	
+
+#id=5
+#text=I flipped my bicycle over and took a wrench to remove the tire from the spokes .
+5-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	4-9	
+5-2	flipped	O	B-RelNScrEv	_	_	
+5-3	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	5-1	
+5-4	bicycle	B-ScrPart_bicycle	O	webanno.custom.Corefchains_	1-7	
+5-5	over	O	O	_	_	
+5-6	and	O	O	_	_	
+5-7	took	O	B-ScrEv_get_tools	_	_	
+5-8	a	O	O	_	_	
+5-9	wrench	B-ScrPart_tool	O	_	_	
+5-10	to	O	O	_	_	
+5-11	remove	O	B-ScrEv_take_tire_off	_	_	
+5-12	the	O	O	_	_	
+5-13	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	3-14	
+5-14	from	O	O	_	_	
+5-15	the	O	O	_	_	
+5-16	spokes	B-ScrPart_wheel	O	_	_	
+5-17	.	O	O	_	_	
+
+#id=6
+#text=It was kind of greasy and messy , but I did n't mind .
+6-1	It	O	O	_	_	
+6-2	was	O	B-UnrelEv	_	_	
+6-3	kind	O	O	_	_	
+6-4	of	O	O	_	_	
+6-5	greasy	O	O	_	_	
+6-6	and	O	O	_	_	
+6-7	messy	O	O	_	_	
+6-8	,	O	O	_	_	
+6-9	but	O	O	_	_	
+6-10	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	5-3	
+6-11	did	O	O	_	_	
+6-12	n't	O	O	_	_	
+6-13	mind	O	B-UnrelEv	_	_	
+6-14	.	O	O	_	_	
+
+#id=7
+#text=I was able to get it off pretty easily .
+7-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	6-10	
+7-2	was	O	O	_	_	
+7-3	able	O	O	_	_	
+7-4	to	O	O	_	_	
+7-5	get	O	B-ScrEv_take_tire_off	_	_	
+7-6	it	B-ScrPart_tire	O	webanno.custom.Corefchains_	5-13	
+7-7	off	O	O	_	_	
+7-8	pretty	O	O	_	_	
+7-9	easily	O	O	_	_	
+7-10	.	O	O	_	_	
+
+#id=8
+#text=I then pushed the tire off of the rim all the way around .
+8-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	7-1	
+8-2	then	O	O	_	_	
+8-3	pushed	O	B-ScrEv_take_tire_off	_	_	
+8-4	the	O	O	_	_	
+8-5	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	7-6	
+8-6	off	O	O	_	_	
+8-7	of	O	O	_	_	
+8-8	the	O	O	_	_	
+8-9	rim	B-ScrPart_rim	O	_	_	
+8-10	all	O	O	_	_	
+8-11	the	O	O	_	_	
+8-12	way	O	O	_	_	
+8-13	around	O	O	_	_	
+8-14	.	O	O	_	_	
+
+#id=9
+#text=When the tire was off the rim , I took the spare tube I had and put it all around the inside of the tire .
+9-1	When	O	O	_	_	
+9-2	the	O	O	_	_	
+9-3	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	8-5	
+9-4	was	O	B-UnrelEv	_	_	
+9-5	off	O	O	_	_	
+9-6	the	O	O	_	_	
+9-7	rim	B-ScrPart_rim	O	webanno.custom.Corefchains_	8-9	
+9-8	,	O	O	_	_	
+9-9	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	8-1	
+9-10	took	O	B-RelNScrEv	_	_	
+9-11	the	O	O	_	_	
+9-12	spare	O	O	_	_	
+9-13	tube	B-ScrPart_spare_tube	O	webanno.custom.Corefchains_	4-7	
+9-14	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	9-9	
+9-15	had	O	B-UnrelEv	_	_	
+9-16	and	O	O	_	_	
+9-17	put	O	B-ScrEv_put_new_tire	_	_	
+9-18	it	B-ScrPart_spare_tube	O	webanno.custom.Corefchains_	9-13	
+9-19	all	O	O	_	_	
+9-20	around	O	O	_	_	
+9-21	the	O	O	_	_	
+9-22	inside	B-NPart	O	_	_	
+9-23	of	O	O	_	_	
+9-24	the	O	O	_	_	
+9-25	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	9-3	
+9-26	.	O	O	_	_	
+
+#id=10
+#text=I then pushed the tire back onto the rim .
+10-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	9-14	
+10-2	then	O	O	_	_	
+10-3	pushed	O	B-ScrEv_put_new_tire	_	_	
+10-4	the	O	O	_	_	
+10-5	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	9-25	
+10-6	back	O	O	_	_	
+10-7	onto	O	O	_	_	
+10-8	the	O	O	_	_	
+10-9	rim	B-ScrPart_rim	O	webanno.custom.Corefchains_	9-7	
+10-10	.	O	O	_	_	
+
+#id=11
+#text=It did not go on as easily as it came off , and it took a bit of struggling with the tire to get it back on .
+11-1	It	B-ScrPart_tire	O	webanno.custom.Corefchains_	10-5	
+11-2	did	O	O	_	_	
+11-3	not	O	O	_	_	
+11-4	go	O	B-UnrelEv	_	_	
+11-5	on	O	I-UnrelEv	_	_	
+11-6	as	O	O	_	_	
+11-7	easily	O	O	_	_	
+11-8	as	O	O	_	_	
+11-9	it	B-ScrPart_tire	O	webanno.custom.Corefchains_	11-1	
+11-10	came	O	B-UnrelEv	_	_	
+11-11	off	O	I-UnrelEv	_	_	
+11-12	,	O	O	_	_	
+11-13	and	O	O	_	_	
+11-14	it	O	O	_	_	
+11-15	took	O	B-UnrelEv	_	_	
+11-16	a	O	O	_	_	
+11-17	bit	O	O	_	_	
+11-18	of	O	O	_	_	
+11-19	struggling	O	B-UnrelEv	_	_	
+11-20	with	O	O	_	_	
+11-21	the	O	O	_	_	
+11-22	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	11-9	
+11-23	to	O	O	_	_	
+11-24	get	O	B-ScrEv_put_new_tire	_	_	
+11-25	it	B-ScrPart_tire	O	webanno.custom.Corefchains_	11-22	
+11-26	back	O	O	_	_	
+11-27	on	O	O	_	_	
+11-28	.	O	O	_	_	
+
+#id=12
+#text=Finally I had it on .
+12-1	Finally	O	O	_	_	
+12-2	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	10-1	
+12-3	had	O	B-UnrelEv	_	_	
+12-4	it	B-ScrPart_tire	O	webanno.custom.Corefchains_	11-25	
+12-5	on	O	O	_	_	
+12-6	.	O	O	_	_	
+
+#id=13
+#text=I took my manual air pump and pumped up the tube inside of the tire .
+13-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	12-2	
+13-2	took	O	B-ScrEv_get_tools	_	_	
+13-3	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	13-1	
+13-4	manual	O	O	_	_	
+13-5	air	B-ScrPart_tool	O	_	_	
+13-6	pump	I-ScrPart_tool|B-ScrPart_tool	O	webanno.custom.Corefchains_	2-6	
+13-7	and	O	O	_	_	
+13-8	pumped	O	B-ScrEv_refill_tire_air	_	_	
+13-9	up	O	O	_	_	
+13-10	the	O	O	_	_	
+13-11	tube	B-ScrPart_spare_tube	O	webanno.custom.Corefchains_	9-18	
+13-12	inside	O	O	_	_	
+13-13	of	O	O	_	_	
+13-14	the	O	O	_	_	
+13-15	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	12-4	
+13-16	.	O	O	_	_	
+
+#id=14
+#text=It held air very nicely , and I did n't hear any hissing and it did not go flat .
+14-1	It	B-ScrPart_tire	O	webanno.custom.Corefchains_	13-15	
+14-2	held	O	B-UnrelEv	_	_	
+14-3	air	B-ScrPart_air	O	webanno.custom.Corefchains_	2-11	
+14-4	very	O	O	_	_	
+14-5	nicely	O	O	_	_	
+14-6	,	O	O	_	_	
+14-7	and	O	O	_	_	
+14-8	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	13-3	
+14-9	did	O	O	_	_	
+14-10	n't	O	O	_	_	
+14-11	hear	O	B-UnrelEv	_	_	
+14-12	any	O	O	_	_	
+14-13	hissing	O	B-UnrelEv	_	_	
+14-14	and	O	O	_	_	
+14-15	it	B-ScrPart_tire	O	webanno.custom.Corefchains_	14-1	
+14-16	did	O	O	_	_	
+14-17	not	O	O	_	_	
+14-18	go	O	B-RelNScrEv	_	_	
+14-19	flat	O	O	_	_	
+14-20	.	O	O	_	_	
+
+#id=15
+#text=I then put the tire back on the front bicycle fork , and tightened the nuts so it would hold very well and not slip or come off .
+15-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	14-8	
+15-2	then	O	O	_	_	
+15-3	put	O	B-MissScrEv	_	_	
+15-4	the	O	O	_	_	
+15-5	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	14-15	
+15-6	back	O	O	_	_	
+15-7	on	O	O	_	_	
+15-8	the	O	O	_	_	
+15-9	front	B-ScrPart_bicycle_small_detail	O	_	_	
+15-10	bicycle	I-ScrPart_bicycle_small_detail	O	_	_	
+15-11	fork	I-ScrPart_bicycle_small_detail|B-ScrPart_bicycle_small_detail	O	_	_	
+15-12	,	O	O	_	_	
+15-13	and	O	O	_	_	
+15-14	tightened	O	B-MissScrEv	_	_	
+15-15	the	O	O	_	_	
+15-16	nuts	B-ScrPart_bicycle_small_detail	O	_	_	
+15-17	so	O	O	_	_	
+15-18	it	B-ScrPart_tire	O	webanno.custom.Corefchains_	15-5	
+15-19	would	O	O	_	_	
+15-20	hold	O	B-UnrelEv	_	_	
+15-21	very	O	O	_	_	
+15-22	well	O	O	_	_	
+15-23	and	O	O	_	_	
+15-24	not	O	O	_	_	
+15-25	slip	O	B-UnrelEv	_	_	
+15-26	or	O	O	_	_	
+15-27	come	O	B-UnrelEv	_	_	
+15-28	off	O	I-UnrelEv	_	_	
+15-29	.	O	O	_	_	
+
+#id=16
+#text=I then flipped my bicycle over and made sure the tire was still holding air .
+16-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	15-1	
+16-2	then	O	O	_	_	
+16-3	flipped	O	B-RelNScrEv	_	_	
+16-4	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	16-1	
+16-5	bicycle	B-ScrPart_bicycle	O	webanno.custom.Corefchains_	5-4	
+16-6	over	O	O	_	_	
+16-7	and	O	O	_	_	
+16-8	made	O	B-ScrEv_check_new_tire	_	_	
+16-9	sure	O	I-ScrEv_check_new_tire	_	_	
+16-10	the	O	O	_	_	
+16-11	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	15-18	
+16-12	was	O	O	_	_	
+16-13	still	O	O	_	_	
+16-14	holding	O	B-UnrelEv	_	_	
+16-15	air	B-ScrPart_air	O	webanno.custom.Corefchains_	14-3	
+16-16	.	O	O	_	_	
+
+#id=17
+#text=It was , so I put on my helmet , and finally was able to enjoy my morning bike ride . 
+17-1	It	B-ScrPart_tire	O	webanno.custom.Corefchains_	16-11	
+17-2	was	O	B-UnrelEv	_	_	
+17-3	,	O	O	_	_	
+17-4	so	O	O	_	_	
+17-5	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	16-4	
+17-6	put	O	B-UnrelEv	_	_	
+17-7	on	O	I-UnrelEv	_	_	
+17-8	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	17-5	
+17-9	helmet	O	O	_	_	
+17-10	,	O	O	_	_	
+17-11	and	O	O	_	_	
+17-12	finally	O	O	_	_	
+17-13	was	O	O	_	_	
+17-14	able	O	O	_	_	
+17-15	to	O	O	_	_	
+17-16	enjoy	O	B-UnrelEv	_	_	
+17-17	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	17-8	
+17-18	morning	O	O	_	_	
+17-19	bike	O	B-ScrEv_ride_bike	_	_	
+17-20	ride	O	I-ScrEv_ride_bike	_	_	
+17-21	.	O	O	_	_	
+

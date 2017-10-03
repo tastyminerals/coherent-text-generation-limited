@@ -1,0 +1,249 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=After a long day , I decided to take a bath .
+1-1	After	O	O	O	_	_	
+1-2	a	O	O	O	_	_	
+1-3	long	O	O	O	_	_	
+1-4	day	B-NPart	B-webanno.custom.Participants_	O	_	_	
+1-5	,	O	O	O	_	_	
+1-6	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+1-7	decided	O	O	B-UnrelEv	_	_	
+1-8	to	O	O	O	_	_	
+1-9	take	O	O	B-Evoking	_	_	
+1-10	a	O	O	I-Evoking	_	_	
+1-11	bath	B-ScrPart_bath	B-webanno.custom.Participants_	I-Evoking	_	_	
+1-12	.	O	O	O	_	_	
+
+#id=2
+#text=I changed out of my clothes into a plush bathrobe .
+2-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+2-2	changed	O	O	B-RelNScrEv	_	_	
+2-3	out	O	O	O	_	_	
+2-4	of	O	O	O	_	_	
+2-5	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+2-6	clothes	B-ScrPart_clothes	B-webanno.custom.Participants_	O	_	_	
+2-7	into	O	O	O	_	_	
+2-8	a	O	O	O	_	_	
+2-9	plush	B-ScrPart_clothes	B-webanno.custom.Participants_	O	_	_	
+2-10	bathrobe	I-ScrPart_clothes|B-ScrPart_clothes	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+2-11	.	O	O	O	_	_	
+
+#id=3
+#text=I placed a plug in the tub drain so the tub could fill up .
+3-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+3-2	placed	O	O	B-ScrEv_close_drain	_	_	
+3-3	a	O	O	O	_	_	
+3-4	plug	B-ScrPart_plug	B-webanno.custom.Participants_	O	_	_	
+3-5	in	O	O	O	_	_	
+3-6	the	O	O	O	_	_	
+3-7	tub	B-ScrPart_drain	B-webanno.custom.Participants_	O	_	_	
+3-8	drain	I-ScrPart_drain|B-ScrPart_drain	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+3-9	so	O	O	O	_	_	
+3-10	the	O	O	O	_	_	
+3-11	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	_	_	
+3-12	could	O	O	O	_	_	
+3-13	fill	O	O	B-ScrEv_fill_water/wait	_	_	
+3-14	up	O	O	I-ScrEv_fill_water/wait	_	_	
+3-15	.	O	O	O	_	_	
+
+#id=4
+#text=I turned on the water and adjusted it so it was just the right temperature - hot , but not too hot .
+4-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+4-2	turned	O	O	B-ScrEv_turn_water_on	_	_	
+4-3	on	O	O	I-ScrEv_turn_water_on	_	_	
+4-4	the	O	O	O	_	_	
+4-5	water	B-ScrPart_water	B-webanno.custom.Participants_	O	_	_	
+4-6	and	O	O	O	_	_	
+4-7	adjusted	O	O	B-RelNScrEv	_	_	
+4-8	it	B-ScrPart_water	B-webanno.custom.Participants_	O	_	_	
+4-9	so	O	O	O	_	_	
+4-10	it	B-ScrPart_water	B-webanno.custom.Participants_	O	_	_	
+4-11	was	O	O	B-UnrelEv	_	_	
+4-12	just	O	O	O	_	_	
+4-13	the	O	O	O	_	_	
+4-14	right	O	O	O	_	_	
+4-15	temperature	B-ScrPart_temperature	B-webanno.custom.Participants_	O	_	_	
+4-16	-	O	O	O	_	_	
+4-17	hot	O	O	O	_	_	
+4-18	,	O	O	O	_	_	
+4-19	but	O	O	O	_	_	
+4-20	not	O	O	O	_	_	
+4-21	too	O	O	O	_	_	
+4-22	hot	O	O	O	_	_	
+4-23	.	O	O	O	_	_	
+
+#id=5
+#text=I sprinkled in some lavender scented bath salts to make it extra relaxing .
+5-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+5-2	sprinkled	O	O	B-ScrEv_put_bubble_bath_scent	_	_	
+5-3	in	O	O	I-ScrEv_put_bubble_bath_scent	_	_	
+5-4	some	O	O	O	_	_	
+5-5	lavender	B-NPart	B-webanno.custom.Participants_	O	_	_	
+5-6	scented	O	O	B-UnrelEv	_	_	
+5-7	bath	B-ScrPart_bath_means	B-webanno.custom.Participants_	O	_	_	
+5-8	salts	I-ScrPart_bath_means	I-webanno.custom.Participants_	O	_	_	
+5-9	to	O	O	O	_	_	
+5-10	make	O	O	B-UnrelEv	_	_	
+5-11	it	B-No_label	B-webanno.custom.Participants_	O	_	_	
+5-12	extra	O	O	O	_	_	
+5-13	relaxing	O	O	B-ScrEv_relax	_	_	
+5-14	.	O	O	O	_	_	
+
+#id=6
+#text=It took about five minutes for the whole tub to fill up .
+6-1	It	B-No_label	B-webanno.custom.Participants_	O	_	_	
+6-2	took	O	O	B-UnrelEv	_	_	
+6-3	about	O	O	O	_	_	
+6-4	five	O	O	O	_	_	
+6-5	minutes	B-NPart	B-webanno.custom.Participants_	O	_	_	
+6-6	for	O	O	O	_	_	
+6-7	the	O	O	O	_	_	
+6-8	whole	O	O	O	_	_	
+6-9	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	_	_	
+6-10	to	O	O	O	_	_	
+6-11	fill	O	O	B-ScrEv_fill_water/wait	_	_	
+6-12	up	O	O	I-ScrEv_fill_water/wait	_	_	
+6-13	.	O	O	O	_	_	
+
+#id=7
+#text=I did n't fill it all the way to the top .
+7-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+7-2	did	O	O	O	_	_	
+7-3	n't	O	O	O	_	_	
+7-4	fill	O	O	B-ScrEv_fill_water/wait	_	_	
+7-5	it	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	_	_	
+7-6	all	O	O	O	_	_	
+7-7	the	O	O	O	_	_	
+7-8	way	B-No_label	B-webanno.custom.Participants_	O	_	_	
+7-9	to	O	O	O	_	_	
+7-10	the	O	O	O	_	_	
+7-11	top	B-NPart	B-webanno.custom.Participants_	O	_	_	
+7-12	.	O	O	O	_	_	
+
+#id=8
+#text=I had to leave some room since I 'd be getting in .
+8-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+8-2	had	O	O	O	_	_	
+8-3	to	O	O	O	_	_	
+8-4	leave	O	O	B-UnrelEv	_	_	
+8-5	some	O	O	O	_	_	
+8-6	room	B-No_label	B-webanno.custom.Participants_	O	_	_	
+8-7	since	O	O	O	_	_	
+8-8	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+8-9	'd	O	O	O	_	_	
+8-10	be	O	O	O	_	_	
+8-11	getting	O	O	B-ScrEv_sink_water	_	_	
+8-12	in	O	O	I-ScrEv_sink_water	_	_	
+8-13	.	O	O	O	_	_	
+
+#id=9
+#text=When it was ready , I dipped my toe in first , testing out the water .
+9-1	When	O	O	O	_	_	
+9-2	it	B-ScrPart_water	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	4-10	
+9-3	was	O	O	B-UnrelEv	_	_	
+9-4	ready	O	O	O	_	_	
+9-5	,	O	O	O	_	_	
+9-6	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+9-7	dipped	O	O	B-RelNScrEv	_	_	
+9-8	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+9-9	toe	B-ScrPart_body_part	B-webanno.custom.Participants_	O	_	_	
+9-10	in	O	O	O	_	_	
+9-11	first	O	O	O	_	_	
+9-12	,	O	O	O	_	_	
+9-13	testing	O	O	B-ScrEv_check_temp	_	_	
+9-14	out	O	O	I-ScrEv_check_temp	_	_	
+9-15	the	O	O	O	_	_	
+9-16	water	B-ScrPart_water	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	9-2	
+9-17	.	O	O	O	_	_	
+
+#id=10
+#text=I hung my robe on the back of the door , and got into the tub .
+10-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+10-2	hung	O	O	B-ScrEv_undress	_	_	
+10-3	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+10-4	robe	B-ScrPart_clothes	B-webanno.custom.Participants_	O	_	_	
+10-5	on	O	O	O	_	_	
+10-6	the	O	O	O	_	_	
+10-7	back	B-NPart	B-webanno.custom.Participants_	O	_	_	
+10-8	of	O	O	O	_	_	
+10-9	the	O	O	O	_	_	
+10-10	door	B-NPart	B-webanno.custom.Participants_	O	_	_	
+10-11	,	O	O	O	_	_	
+10-12	and	O	O	O	_	_	
+10-13	got	O	O	B-ScrEv_sink_water	_	_	
+10-14	into	O	O	O	_	_	
+10-15	the	O	O	O	_	_	
+10-16	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	_	_	
+10-17	.	O	O	O	_	_	
+
+#id=11
+#text=I eased in slowly since the water was hot .
+11-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+11-2	eased	O	O	B-ScrEv_sink_water	_	_	
+11-3	in	O	O	I-ScrEv_sink_water	_	_	
+11-4	slowly	O	O	O	_	_	
+11-5	since	O	O	O	_	_	
+11-6	the	O	O	O	_	_	
+11-7	water	B-ScrPart_water	B-webanno.custom.Participants_	O	_	_	
+11-8	was	O	O	B-UnrelEv	_	_	
+11-9	hot	O	O	O	_	_	
+11-10	.	O	O	O	_	_	
+
+#id=12
+#text=I got nestled in to the water and washed myself with a washcloth and soap .
+12-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+12-2	got	O	O	B-???	_	_	
+12-3	nestled	O	O	I-???	_	_	
+12-4	in	O	O	O	_	_	
+12-5	to	O	O	O	_	_	
+12-6	the	O	O	O	_	_	
+12-7	water	B-ScrPart_water	B-webanno.custom.Participants_	O	_	_	
+12-8	and	O	O	O	_	_	
+12-9	washed	O	O	B-ScrEv_wash	_	_	
+12-10	myself	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+12-11	with	O	O	O	_	_	
+12-12	a	O	O	O	_	_	
+12-13	washcloth	B-ScrPart_washing_tools	B-webanno.custom.Participants_	O	_	_	
+12-14	and	O	O	O	_	_	
+12-15	soap	B-ScrPart_washing_tools	B-webanno.custom.Participants_	O	_	_	
+12-16	.	O	O	O	_	_	
+
+#id=13
+#text=Then I leaned my head against the rim of the bathtub .
+13-1	Then	O	O	O	_	_	
+13-2	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+13-3	leaned	O	O	B-UnrelEv	_	_	
+13-4	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+13-5	head	B-ScrPart_body_part	B-webanno.custom.Participants_	O	_	_	
+13-6	against	O	O	O	_	_	
+13-7	the	O	O	O	_	_	
+13-8	rim	B-NPart	B-webanno.custom.Participants_	O	_	_	
+13-9	of	O	O	O	_	_	
+13-10	the	O	O	O	_	_	
+13-11	bathtub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	_	_	
+13-12	.	O	O	O	_	_	
+
+#id=14
+#text=I breathed in the aroma of lavender , closed my eyes , and felt my body and mind completely relax . 
+14-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+14-2	breathed	O	O	B-UnrelEv	_	_	
+14-3	in	O	O	I-UnrelEv	_	_	
+14-4	the	O	O	O	_	_	
+14-5	aroma	B-NPart	B-webanno.custom.Participants_	O	_	_	
+14-6	of	O	O	O	_	_	
+14-7	lavender	B-NPart	B-webanno.custom.Participants_	O	_	_	
+14-8	,	O	O	O	_	_	
+14-9	closed	O	O	B-UnrelEv	_	_	
+14-10	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+14-11	eyes	B-ScrPart_body_part	B-webanno.custom.Participants_	O	_	_	
+14-12	,	O	O	O	_	_	
+14-13	and	O	O	O	_	_	
+14-14	felt	O	O	B-UnrelEv	_	_	
+14-15	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+14-16	body	B-ScrPart_body_part	B-webanno.custom.Participants_	O	_	_	
+14-17	and	O	O	O	_	_	
+14-18	mind	B-NPart	B-webanno.custom.Participants_	O	_	_	
+14-19	completely	O	O	O	_	_	
+14-20	relax	O	O	B-ScrEv_relax	_	_	
+14-21	.	O	O	O	_	_	
+

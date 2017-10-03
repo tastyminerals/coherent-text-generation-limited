@@ -1,0 +1,186 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Getting a hair cut is not always fun but it has to be done regularly if you want to control your hair and not look shaggy and mangy .
+1-1	Getting	B-Evoking	O	_	_	
+1-2	a	I-Evoking	O	_	_	
+1-3	hair	I-Evoking	O	_	_	
+1-4	cut	I-Evoking	O	_	_	
+1-5	is	B-UnrelEv	O	_	_	
+1-6	not	O	O	_	_	
+1-7	always	O	O	_	_	
+1-8	fun	O	O	_	_	
+1-9	but	O	O	_	_	
+1-10	it	O	O	_	_	
+1-11	has	O	O	_	_	
+1-12	to	O	O	_	_	
+1-13	be	O	O	_	_	
+1-14	done	B-UnrelEv	O	_	_	
+1-15	regularly	O	O	_	_	
+1-16	if	O	O	_	_	
+1-17	you	O	B-ScrPart_customer	_	_	
+1-18	want	B-UnrelEv	O	_	_	
+1-19	to	O	O	_	_	
+1-20	control	B-UnrelEv	O	_	_	
+1-21	your	O	B-ScrPart_customer	webanno.custom.Corefchains_	1-17	
+1-22	hair	O	B-ScrPart_hair	_	_	
+1-23	and	O	O	_	_	
+1-24	not	O	O	_	_	
+1-25	look	B-UnrelEv	O	_	_	
+1-26	shaggy	O	O	_	_	
+1-27	and	O	O	_	_	
+1-28	mangy	O	O	_	_	
+1-29	.	O	O	_	_	
+
+#id=2
+#text=First pick a good barber or stylist that you think does a good job and stick with them .
+2-1	First	O	O	_	_	
+2-2	pick	B-RelNScrEv	O	_	_	
+2-3	a	O	O	_	_	
+2-4	good	O	O	_	_	
+2-5	barber	O	B-ScrPart_hairdresser	_	_	
+2-6	or	O	O	_	_	
+2-7	stylist	O	B-ScrPart_hairdresser	_	_	
+2-8	that	O	O	_	_	
+2-9	you	O	B-ScrPart_customer	webanno.custom.Corefchains_	1-21	
+2-10	think	B-UnrelEv	O	_	_	
+2-11	does	B-UnrelEv	O	_	_	
+2-12	a	O	O	_	_	
+2-13	good	O	O	_	_	
+2-14	job	O	O	_	_	
+2-15	and	O	O	_	_	
+2-16	stick	B-UnrelEv	O	_	_	
+2-17	with	O	O	_	_	
+2-18	them	O	B-ScrPart_hairdresser	group_stylist_barber|group_stylist_barber	2-5|2-7	
+2-19	.	O	O	_	_	
+
+#id=3
+#text=In time they will get to know your hair and needs and will consistantly cut your hair to your liking .
+3-1	In	O	O	_	_	
+3-2	time	O	O	_	_	
+3-3	they	O	B-ScrPart_hairdresser	webanno.custom.Corefchains_	2-18	
+3-4	will	O	O	_	_	
+3-5	get	O	O	_	_	
+3-6	to	O	O	_	_	
+3-7	know	B-RelNScrEv	O	_	_	
+3-8	your	O	B-ScrPart_customer	webanno.custom.Corefchains_	2-9	
+3-9	hair	O	B-ScrPart_hair	webanno.custom.Corefchains_	1-22	
+3-10	and	O	O	_	_	
+3-11	needs	O	B-MissScrPart	_	_	
+3-12	and	O	O	_	_	
+3-13	will	O	O	_	_	
+3-14	consistantly	O	O	_	_	
+3-15	cut	B-ScrEv_cut	O	_	_	
+3-16	your	O	B-ScrPart_customer	webanno.custom.Corefchains_	3-8	
+3-17	hair	O	B-ScrPart_hair	webanno.custom.Corefchains_	3-9	
+3-18	to	O	O	_	_	
+3-19	your	O	B-ScrPart_customer	webanno.custom.Corefchains_	3-16	
+3-20	liking	B-RelNScrEv	O	_	_	
+3-21	.	O	O	_	_	
+
+#id=4
+#text=Do n't be afraid to look at pictures of models or whatever to see styles you like and then ask the stylist to try to cut your hair like that .
+4-1	Do	O	O	_	_	
+4-2	n't	O	O	_	_	
+4-3	be	B-UnrelEv	O	_	_	
+4-4	afraid	O	O	_	_	
+4-5	to	O	O	_	_	
+4-6	look	B-RelNScrEv	O	_	_	
+4-7	at	O	O	_	_	
+4-8	pictures	O	B-MissScrPart	_	_	
+4-9	of	O	O	_	_	
+4-10	models	O	O	_	_	
+4-11	or	O	O	_	_	
+4-12	whatever	O	O	_	_	
+4-13	to	O	O	_	_	
+4-14	see	B-RelNScrEv	O	_	_	
+4-15	styles	O	B-MissScrPart	_	_	
+4-16	you	O	B-ScrPart_customer	webanno.custom.Corefchains_	3-19	
+4-17	like	B-UnrelEv	O	_	_	
+4-18	and	O	O	_	_	
+4-19	then	O	O	_	_	
+4-20	ask	B-ScrEv_talk_haircut	O	_	_	
+4-21	the	O	O	_	_	
+4-22	stylist	O	B-ScrPart_hairdresser	webanno.custom.Corefchains_	2-7	
+4-23	to	O	O	_	_	
+4-24	try	B-UnrelEv	O	_	_	
+4-25	to	O	O	_	_	
+4-26	cut	B-ScrEv_cut	O	_	_	
+4-27	your	O	B-ScrPart_customer	webanno.custom.Corefchains_	4-16	
+4-28	hair	O	B-ScrPart_hair	webanno.custom.Corefchains_	3-17	
+4-29	like	O	O	_	_	
+4-30	that	O	O	_	_	
+4-31	.	O	O	_	_	
+
+#id=5
+#text=And always sit still so as they cut your hair they dont slip and mess up a cut .
+5-1	And	O	O	_	_	
+5-2	always	O	O	_	_	
+5-3	sit	B-ScrEv_sit_down	O	_	_	
+5-4	still	O	O	_	_	
+5-5	so	O	O	_	_	
+5-6	as	O	O	_	_	
+5-7	they	O	B-ScrPart_hairdresser	webanno.custom.Corefchains_	3-3	
+5-8	cut	B-ScrEv_cut	O	_	_	
+5-9	your	O	B-ScrPart_customer	webanno.custom.Corefchains_	4-27	
+5-10	hair	O	B-ScrPart_hair	webanno.custom.Corefchains_	4-28	
+5-11	they	O	B-ScrPart_hairdresser	webanno.custom.Corefchains_	5-7	
+5-12	dont	O	O	_	_	
+5-13	slip	B-RelNScrEv	O	_	_	
+5-14	and	O	O	_	_	
+5-15	mess	B-RelNScrEv|B-RelNScrEv	O	_	_	
+5-16	up	I-RelNScrEv	O	_	_	
+5-17	a	O	O	_	_	
+5-18	cut	O	B-MissScrPart	_	_	
+5-19	.	O	O	_	_	
+
+#id=6
+#text=Then let them show your full cut from front to back with a mirror you hold up and look into the other mirror .
+6-1	Then	O	O	_	_	
+6-2	let	O	O	_	_	
+6-3	them	O	B-ScrPart_hairdresser	webanno.custom.Corefchains_	5-11	
+6-4	show	B-ScrEv_look_mirror	O	_	_	
+6-5	your	O	B-ScrPart_customer	webanno.custom.Corefchains_	5-9	
+6-6	full	O	O	_	_	
+6-7	cut	O	B-MissScrPart	webanno.custom.Corefchains_	5-18	
+6-8	from	O	O	_	_	
+6-9	front	O	O	_	_	
+6-10	to	O	O	_	_	
+6-11	back	O	O	_	_	
+6-12	with	O	O	_	_	
+6-13	a	O	O	_	_	
+6-14	mirror	O	B-ScrPart_mirror	_	_	
+6-15	you	O	B-ScrPart_customer	webanno.custom.Corefchains_	6-5	
+6-16	hold	B-RelNScrEv	O	_	_	
+6-17	up	O	O	_	_	
+6-18	and	O	O	_	_	
+6-19	look	B-ScrEv_look_mirror	O	_	_	
+6-20	into	O	O	_	_	
+6-21	the	O	O	_	_	
+6-22	other	O	O	_	_	
+6-23	mirror	O	B-ScrPart_mirror	_	_	
+6-24	.	O	O	_	_	
+
+#id=7
+#text=After they take your hair cover thing then give them their money and a few extra dollars for a tip . 
+7-1	After	O	O	_	_	
+7-2	they	O	B-ScrPart_hairdresser	group_hairdresser_barber	6-3	
+7-3	take	B-ScrEv_remove_cap	O	_	_	
+7-4	your	O	B-ScrPart_customer	webanno.custom.Corefchains_	6-15	
+7-5	hair	O	B-ScrPart_hair	_	_	
+7-6	cover	O	B-ScrPart_cape	_	_	
+7-7	thing	O	I-ScrPart_cape|B-ScrPart_cape	_	_	
+7-8	then	O	O	_	_	
+7-9	give	B-ScrEv_pay	O	_	_	
+7-10	them	O	B-ScrPart_hairdresser	webanno.custom.Corefchains_	7-2	
+7-11	their	O	B-ScrPart_hairdresser	webanno.custom.Corefchains_	7-10	
+7-12	money	O	B-ScrPart_bill	_	_	
+7-13	and	O	O	_	_	
+7-14	a	O	O	_	_	
+7-15	few	O	O	_	_	
+7-16	extra	O	O	_	_	
+7-17	dollars	O	O	_	_	
+7-18	for	O	O	_	_	
+7-19	a	O	O	_	_	
+7-20	tip	O	B-ScrPart_tip	_	_	
+7-21	.	O	O	_	_	
+

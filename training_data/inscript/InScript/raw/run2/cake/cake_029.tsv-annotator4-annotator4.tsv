@@ -1,0 +1,197 @@
+ # webanno.custom.Participants | Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=It was my girlfriend 's birthday so I baked her a cake .
+1-1	It	B-No_label	B-webanno.custom.Participants_	O	_	_	
+1-2	was	O	O	B-UnrelEv	_	_	
+1-3	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+1-4	girlfriend	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	_	_	
+1-5	's	O	O	O	_	_	
+1-6	birthday	B-NPart	B-webanno.custom.Participants_	O	_	_	
+1-7	so	O	O	O	_	_	
+1-8	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+1-9	baked	O	O	B-Evoking	_	_	
+1-10	her	B-ScrPart_beneficiary	B-webanno.custom.Participants_	I-Evoking	_	_	
+1-11	a	O	O	I-Evoking	_	_	
+1-12	cake	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	_	_	
+1-13	.	O	O	O	_	_	
+
+#id=2
+#text=It was nothing fancy , just a cake from a box .
+2-1	It	B-ScrPart_cake	B-webanno.custom.Participants_	O	_	_	
+2-2	was	O	O	B-UnrelEv	_	_	
+2-3	nothing	B-No_label	B-webanno.custom.Participants_	O	_	_	
+2-4	fancy	O	O	O	_	_	
+2-5	,	O	O	O	_	_	
+2-6	just	O	O	O	_	_	
+2-7	a	O	O	O	_	_	
+2-8	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	_	_	
+2-9	from	O	O	O	_	_	
+2-10	a	O	O	O	_	_	
+2-11	box	B-NPart	B-webanno.custom.Participants_	O	_	_	
+2-12	.	O	O	O	_	_	
+
+#id=3
+#text=I mixed all the ingredients together after I preheated the oven to the appropriate temperature .
+3-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+3-2	mixed	O	O	B-ScrEv_make_dough	_	_	
+3-3	all	O	O	O	_	_	
+3-4	the	O	O	O	_	_	
+3-5	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+3-6	together	O	O	O	_	_	
+3-7	after	O	O	O	_	_	
+3-8	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+3-9	preheated	O	O	B-ScrEv_preheat	_	_	
+3-10	the	O	O	O	_	_	
+3-11	oven	B-ScrPart_oven	B-webanno.custom.Participants_	O	_	_	
+3-12	to	O	O	O	_	_	
+3-13	the	O	O	O	_	_	
+3-14	appropriate	O	O	O	_	_	
+3-15	temperature	B-ScrPart_temperature	B-webanno.custom.Participants_	O	_	_	
+3-16	.	O	O	O	_	_	
+
+#id=4
+#text=After mixing the ingredients I poured them into a baking pan .
+4-1	After	O	O	O	_	_	
+4-2	mixing	O	O	B-ScrEv_make_dough	_	_	
+4-3	the	O	O	O	_	_	
+4-4	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+4-5	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+4-6	poured	O	O	B-ScrEv_pour_dough	_	_	
+4-7	them	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+4-8	into	O	O	O	_	_	
+4-9	a	O	O	O	_	_	
+4-10	baking	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	_	_	
+4-11	pan	I-ScrPart_cake_tin|B-ScrPart_cake_tin	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+4-12	.	O	O	O	_	_	
+
+#id=5
+#text=Then I put the pan in the oven .
+5-1	Then	O	O	O	_	_	
+5-2	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+5-3	put	O	O	B-ScrEv_put_cake_oven	_	_	
+5-4	the	O	O	O	_	_	
+5-5	pan	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	_	_	
+5-6	in	O	O	O	_	_	
+5-7	the	O	O	O	_	_	
+5-8	oven	B-ScrPart_oven	B-webanno.custom.Participants_	O	_	_	
+5-9	.	O	O	O	_	_	
+
+#id=6
+#text=While I waited for the cake to cook I made an icing to go on top .
+6-1	While	O	O	O	_	_	
+6-2	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+6-3	waited	O	O	B-ScrEv_wait	_	_	
+6-4	for	O	O	O	_	_	
+6-5	the	O	O	O	_	_	
+6-6	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	_	_	
+6-7	to	O	O	O	_	_	
+6-8	cook	O	O	B-ScrEv_wait	_	_	
+6-9	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+6-10	made	O	O	B-ScrEv_prepare_ingredients	_	_	
+6-11	an	O	O	O	_	_	
+6-12	icing	B-ScrPart_decoration	B-webanno.custom.Participants_	O	_	_	
+6-13	to	O	O	O	_	_	
+6-14	go	O	O	B-ScrEv_decorate	_	_	
+6-15	on	O	O	O	_	_	
+6-16	top	B-NPart	B-webanno.custom.Participants_	O	_	_	
+6-17	.	O	O	O	_	_	
+
+#id=7
+#text=I made it from cream cheese and strawberries which I whipped together with sugar .
+7-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+7-2	made	O	O	B-ScrEv_prepare_ingredients	_	_	
+7-3	it	B-ScrPart_decoration	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	6-12	
+7-4	from	O	O	O	_	_	
+7-5	cream	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+7-6	cheese	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+7-7	and	O	O	O	_	_	
+7-8	strawberries	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+7-9	which	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+7-10	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+7-11	whipped	O	O	B-ScrEv_prepare_ingredients	_	_	
+7-12	together	O	O	I-ScrEv_prepare_ingredients	_	_	
+7-13	with	O	O	O	_	_	
+7-14	sugar	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+7-15	.	O	O	O	_	_	
+
+#id=8
+#text=Once the cake was done baking I pulled it from the oven and set it aside to cool .
+8-1	Once	O	O	O	_	_	
+8-2	the	O	O	O	_	_	
+8-3	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	_	_	
+8-4	was	O	O	O	_	_	
+8-5	done	O	O	B-UnrelEv	_	_	
+8-6	baking	O	O	B-ScrEv_wait	_	_	
+8-7	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+8-8	pulled	O	O	B-ScrEv_take_out_oven	_	_	
+8-9	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	_	_	
+8-10	from	O	O	O	_	_	
+8-11	the	O	O	O	_	_	
+8-12	oven	B-ScrPart_oven	B-webanno.custom.Participants_	O	_	_	
+8-13	and	O	O	O	_	_	
+8-14	set	O	O	B-ScrEv_cool_down	_	_	
+8-15	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	_	_	
+8-16	aside	O	O	O	_	_	
+8-17	to	O	O	O	_	_	
+8-18	cool	O	O	B-ScrEv_cool_down	_	_	
+8-19	.	O	O	O	_	_	
+
+#id=9
+#text=After it was cool I frosted it with my homemade icing .
+9-1	After	O	O	O	_	_	
+9-2	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	_	_	
+9-3	was	O	O	O	_	_	
+9-4	cool	O	O	B-ScrEv_cool_down	_	_	
+9-5	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+9-6	frosted	O	O	B-ScrEv_decorate	_	_	
+9-7	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	_	_	
+9-8	with	O	O	O	_	_	
+9-9	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+9-10	homemade	O	O	O	_	_	
+9-11	icing	B-ScrPart_decoration	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	7-3	
+9-12	.	O	O	O	_	_	
+
+#id=10
+#text=Then I piped her name on top in fancy lettering .
+10-1	Then	O	O	O	_	_	
+10-2	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+10-3	piped	O	O	B-ScrEv_decorate	_	_	
+10-4	her	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	_	_	
+10-5	name	B-NPart	B-webanno.custom.Participants_	O	_	_	
+10-6	on	O	O	O	_	_	
+10-7	top	B-NPart	B-webanno.custom.Participants_	O	_	_	
+10-8	in	O	O	O	_	_	
+10-9	fancy	O	O	O	_	_	
+10-10	lettering	B-ScrPart_decoration	B-webanno.custom.Participants_	O	_	_	
+10-11	.	O	O	O	_	_	
+
+#id=11
+#text=Once that was done I placed it on a fancy cake tray and waited for her to arrive home so we could eat the cake together . 
+11-1	Once	O	O	O	_	_	
+11-2	that	B-No_label	B-webanno.custom.Participants_	O	_	_	
+11-3	was	O	O	O	_	_	
+11-4	done	O	O	B-ScrEv_decorate	_	_	
+11-5	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+11-6	placed	O	O	B-ScrEv_decorate	_	_	
+11-7	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	_	_	
+11-8	on	O	O	O	_	_	
+11-9	a	O	O	O	_	_	
+11-10	fancy	O	O	O	_	_	
+11-11	cake	B-ScrPart_utensil	B-webanno.custom.Participants_	O	_	_	
+11-12	tray	I-ScrPart_utensil|B-ScrPart_utensil	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+11-13	and	O	O	O	_	_	
+11-14	waited	O	O	B-UnrelEv	_	_	
+11-15	for	O	O	O	_	_	
+11-16	her	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	_	_	
+11-17	to	O	O	O	_	_	
+11-18	arrive	O	O	B-UnrelEv	_	_	
+11-19	home	B-NPart	B-webanno.custom.Participants_	O	_	_	
+11-20	so	O	O	O	_	_	
+11-21	we	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	_	_	
+11-22	could	O	O	O	_	_	
+11-23	eat	O	O	B-ScrEv_eat	_	_	
+11-24	the	O	O	O	_	_	
+11-25	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	_	_	
+11-26	together	O	O	O	_	_	
+11-27	.	O	O	O	_	_	
+

@@ -1,0 +1,199 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=I needed to read a book for my history class , so I decided to see if the local library had a copy .
+1-1	I	B-ScrPart_customer	O	
+1-2	needed	O	O	
+1-3	to	O	O	
+1-4	read	O	B-RelNScrEv	
+1-5	a	O	O	
+1-6	book	B-ScrPart_book	O	
+1-7	for	O	O	
+1-8	my	B-ScrPart_customer	O	
+1-9	history	B-NPart	O	
+1-10	class	I-NPart|B-NPart	O	
+1-11	,	O	O	
+1-12	so	O	O	
+1-13	I	B-ScrPart_customer	O	
+1-14	decided	O	B-UnrelEv	
+1-15	to	O	O	
+1-16	see	O	B-RelNScrEv	
+1-17	if	O	O	
+1-18	the	O	O	
+1-19	local	O	O	
+1-20	library	B-ScrPart_library	O	
+1-21	had	O	B-UnrelEv	
+1-22	a	O	O	
+1-23	copy	B-ScrPart_book	O	
+1-24	.	O	O	
+
+#id=2
+#text=I went to the library 's website and searched for the book .
+2-1	I	B-ScrPart_customer	O	
+2-2	went	O	B-RelNScrEv	
+2-3	to	O	O	
+2-4	the	O	O	
+2-5	library	B-ScrPart_library	O	
+2-6	's	O	O	
+2-7	website	B-NPart	O	
+2-8	and	O	O	
+2-9	searched	O	B-ScrEv_check_catalog	
+2-10	for	O	O	
+2-11	the	O	O	
+2-12	book	B-ScrPart_book	O	
+2-13	.	O	O	
+
+#id=3
+#text=I saw that they had it in stock , so I walked to the library .
+3-1	I	B-ScrPart_customer	O	
+3-2	saw	O	B-RelNScrEv	
+3-3	that	O	O	
+3-4	they	B-ScrPart_staff	O	
+3-5	had	O	B-UnrelEv	
+3-6	it	B-ScrPart_book	O	
+3-7	in	O	O	
+3-8	stock	B-No_label	O	
+3-9	,	O	O	
+3-10	so	O	O	
+3-11	I	B-ScrPart_customer	O	
+3-12	walked	O	B-ScrEv_get_library	
+3-13	to	O	O	
+3-14	the	O	O	
+3-15	library	B-ScrPart_library	O	
+3-16	.	O	O	
+
+#id=4
+#text=When I entered the library , I walked over to the front desk and told the librarian the name of the book I was looking for .
+4-1	When	O	O	
+4-2	I	B-ScrPart_customer	O	
+4-3	entered	O	B-RelNScrEv	
+4-4	the	O	O	
+4-5	library	B-ScrPart_library	O	
+4-6	,	O	O	
+4-7	I	B-ScrPart_customer	O	
+4-8	walked	O	B-RelNScrEv	
+4-9	over	O	O	
+4-10	to	O	O	
+4-11	the	O	O	
+4-12	front	B-ScrPart_check-out_desk	O	
+4-13	desk	I-ScrPart_check-out_desk|B-ScrPart_check-out_desk	O	
+4-14	and	O	O	
+4-15	told	O	B-ScrEv_ask_librarian	
+4-16	the	O	O	
+4-17	librarian	B-ScrPart_staff	O	
+4-18	the	O	O	
+4-19	name	B-NPart	O	
+4-20	of	O	O	
+4-21	the	O	O	
+4-22	book	B-ScrPart_book	O	
+4-23	I	B-ScrPart_customer	O	
+4-24	was	O	O	
+4-25	looking	O	B-ScrEv_look_for_book	
+4-26	for	O	O	
+4-27	.	O	O	
+
+#id=5
+#text=He showed me where the book was and asked me if I 'd like to look for anything else .
+5-1	He	B-ScrPart_staff	O	
+5-2	showed	O	B-RelNScrEv	
+5-3	me	B-ScrPart_customer	O	
+5-4	where	O	O	
+5-5	the	O	O	
+5-6	book	B-ScrPart_book	O	
+5-7	was	O	B-UnrelEv	
+5-8	and	O	O	
+5-9	asked	O	B-RelNScrEv	
+5-10	me	B-ScrPart_customer	O	
+5-11	if	O	O	
+5-12	I	B-ScrPart_customer	O	
+5-13	'd	O	O	
+5-14	like	O	O	
+5-15	to	O	O	
+5-16	look	O	B-ScrEv_look_for_book	
+5-17	for	O	O	
+5-18	anything	B-ScrPart_book	O	
+5-19	else	O	O	
+5-20	.	O	O	
+
+#id=6
+#text=I said that would be all , so he took the book over to the front desk , and I followed .
+6-1	I	B-ScrPart_customer	O	
+6-2	said	O	B-UnrelEv	
+6-3	that	O	O	
+6-4	would	O	O	
+6-5	be	O	B-UnrelEv	
+6-6	all	O	O	
+6-7	,	O	O	
+6-8	so	O	O	
+6-9	he	B-ScrPart_staff	O	
+6-10	took	O	B-ScrEv_go_check_out	
+6-11	the	O	O	
+6-12	book	B-ScrPart_book	O	
+6-13	over	O	O	
+6-14	to	O	O	
+6-15	the	O	O	
+6-16	front	B-ScrPart_check-out_desk	O	
+6-17	desk	I-ScrPart_check-out_desk|B-ScrPart_check-out_desk	O	
+6-18	,	O	O	
+6-19	and	O	O	
+6-20	I	B-ScrPart_customer	O	
+6-21	followed	O	B-ScrEv_go_check_out	
+6-22	.	O	O	
+
+#id=7
+#text=At the desk , he scanned the book and asked me if I had a library card .
+7-1	At	O	O	
+7-2	the	O	O	
+7-3	desk	B-ScrPart_check-out_desk	O	
+7-4	,	O	O	
+7-5	he	B-ScrPart_staff	O	
+7-6	scanned	O	B-ScrEv_register	
+7-7	the	O	O	
+7-8	book	B-ScrPart_book	O	
+7-9	and	O	O	
+7-10	asked	O	B-RelNScrEv	
+7-11	me	B-ScrPart_customer	O	
+7-12	if	O	O	
+7-13	I	B-ScrPart_customer	O	
+7-14	had	O	B-UnrelEv	
+7-15	a	O	O	
+7-16	library	B-ScrPart_library_card	O	
+7-17	card	I-ScrPart_library_card|B-ScrPart_library_card	O	
+7-18	.	O	O	
+
+#id=8
+#text=I said I did and showed him .
+8-1	I	B-ScrPart_customer	O	
+8-2	said	O	B-UnrelEv	
+8-3	I	B-ScrPart_customer	O	
+8-4	did	O	B-UnrelEv	
+8-5	and	O	O	
+8-6	showed	O	B-ScrEv_show_card	
+8-7	him	B-ScrPart_staff	O	
+8-8	.	O	O	
+
+#id=9
+#text=He then scanned my card , handed me the book , and told me it would be due back in two weeks . 
+9-1	He	B-ScrPart_staff	O	
+9-2	then	O	O	
+9-3	scanned	O	B-ScrEv_register	
+9-4	my	B-ScrPart_customer	O	
+9-5	card	B-ScrPart_library_card	O	
+9-6	,	O	O	
+9-7	handed	O	B-RelNScrEv	
+9-8	me	B-ScrPart_customer	O	
+9-9	the	O	O	
+9-10	book	B-ScrPart_book	O	
+9-11	,	O	O	
+9-12	and	O	O	
+9-13	told	O	B-RelNScrEv	
+9-14	me	B-ScrPart_customer	O	
+9-15	it	B-ScrPart_book	O	
+9-16	would	O	O	
+9-17	be	O	B-UnrelEv	
+9-18	due	O	O	
+9-19	back	O	O	
+9-20	in	O	O	
+9-21	two	O	O	
+9-22	weeks	B-NPart	O	
+9-23	.	O	O	
+

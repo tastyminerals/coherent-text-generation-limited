@@ -1,0 +1,227 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I noticed my hair was getting very long and needed to get a trim .
+1-1	I	B-ScrPart_customer	O	_	_	
+1-2	noticed	O	B-UnrelEv	_	_	
+1-3	my	B-ScrPart_customer	O	_	_	
+1-4	hair	B-ScrPart_hair	O	_	_	
+1-5	was	O	O	_	_	
+1-6	getting	O	B-UnrelEv	_	_	
+1-7	very	O	O	_	_	
+1-8	long	O	O	_	_	
+1-9	and	O	O	_	_	
+1-10	needed	O	B-UnrelEv	_	_	
+1-11	to	O	O	_	_	
+1-12	get	O	B-Evoking	_	_	
+1-13	a	O	I-Evoking	_	_	
+1-14	trim	O	I-Evoking	_	_	
+1-15	.	O	O	_	_	
+
+#id=2
+#text=My previous haircut was done very poorly at what I thought it would be a decent place .
+2-1	My	B-ScrPart_customer	O	_	_	
+2-2	previous	O	O	_	_	
+2-3	haircut	B-ScrPart_haircut	O	_	_	
+2-4	was	O	O	_	_	
+2-5	done	O	B-UnrelEv	_	_	
+2-6	very	O	O	_	_	
+2-7	poorly	O	O	_	_	
+2-8	at	O	O	_	_	
+2-9	what	O	O	_	_	
+2-10	I	B-ScrPart_customer	O	_	_	
+2-11	thought	O	B-UnrelEv	_	_	
+2-12	it	B-No_label	O	_	_	
+2-13	would	O	O	_	_	
+2-14	be	O	B-UnrelEv	_	_	
+2-15	a	O	O	_	_	
+2-16	decent	O	O	_	_	
+2-17	place	B-ScrPart_salon	O	_	_	
+2-18	.	O	O	_	_	
+
+#id=3
+#text=I looked up other nearby barbers by doing a google search for them in my zip code .
+3-1	I	B-ScrPart_customer	O	_	_	
+3-2	looked	O	B-RelNScrEv	_	_	
+3-3	up	O	I-RelNScrEv	_	_	
+3-4	other	O	O	_	_	
+3-5	nearby	O	O	_	_	
+3-6	barbers	B-ScrPart_hairdresser	O	_	_	
+3-7	by	O	O	_	_	
+3-8	doing	O	B-RelNScrEv	_	_	
+3-9	a	O	O	_	_	
+3-10	google	B-SuppVComp	O	_	_	
+3-11	search	I-SuppVComp|B-SuppVComp	O	_	_	
+3-12	for	O	O	_	_	
+3-13	them	B-ScrPart_hairdresser	O	_	_	
+3-14	in	O	O	_	_	
+3-15	my	B-ScrPart_customer	O	_	_	
+3-16	zip	B-NPart	O	_	_	
+3-17	code	I-NPart	O	_	_	
+3-18	.	O	O	_	_	
+
+#id=4
+#text=I ended up choosing one place I used to frequent in the past and knew to be reliable .
+4-1	I	B-ScrPart_customer	O	_	_	
+4-2	ended	O	O	_	_	
+4-3	up	O	O	_	_	
+4-4	choosing	O	B-RelNScrEv	_	_	
+4-5	one	O	O	_	_	
+4-6	place	B-ScrPart_salon	O	_	_	
+4-7	I	B-ScrPart_customer	O	_	_	
+4-8	used	O	B-UnrelEv	_	_	
+4-9	to	O	O	_	_	
+4-10	frequent	O	B-UnrelEv	_	_	
+4-11	in	O	O	_	_	
+4-12	the	O	O	_	_	
+4-13	past	B-NPart	O	_	_	
+4-14	and	O	O	_	_	
+4-15	knew	O	B-UnrelEv	_	_	
+4-16	to	O	O	_	_	
+4-17	be	O	B-UnrelEv	_	_	
+4-18	reliable	O	O	_	_	
+4-19	.	O	O	_	_	
+
+#id=5
+#text=I drove over to the barber and entered the store .
+5-1	I	B-ScrPart_customer	O	_	_	
+5-2	drove	O	B-ScrEv_get_salon	_	_	
+5-3	over	O	O	_	_	
+5-4	to	O	O	_	_	
+5-5	the	O	O	_	_	
+5-6	barber	B-ScrPart_hairdresser	O	_	_	
+5-7	and	O	O	_	_	
+5-8	entered	O	B-ScrEv_enter	_	_	
+5-9	the	O	O	_	_	
+5-10	store	B-ScrPart_salon	O	_	_	
+5-11	.	O	O	_	_	
+
+#id=6
+#text=It was during a non-busy hour so when I entered they immediately asked me to come to the account register .
+6-1	It	B-No_label	O	_	_	
+6-2	was	O	B-UnrelEv	_	_	
+6-3	during	O	O	_	_	
+6-4	a	O	O	_	_	
+6-5	non-busy	O	O	_	_	
+6-6	hour	B-No_label	O	_	_	
+6-7	so	O	O	_	_	
+6-8	when	O	O	_	_	
+6-9	I	B-ScrPart_customer	O	_	_	
+6-10	entered	O	B-ScrEv_enter	_	_	
+6-11	they	B-ScrPart_staff	O	_	_	
+6-12	immediately	O	O	_	_	
+6-13	asked	O	B-RelNScrEv	_	_	
+6-14	me	B-ScrPart_customer	O	_	_	
+6-15	to	O	O	_	_	
+6-16	come	O	B-ScrEv_check_in	_	_	
+6-17	to	O	O	_	_	
+6-18	the	O	O	_	_	
+6-19	account	B-ScrPart_check_in_desk	O	_	_	
+6-20	register	I-ScrPart_check_in_desk|B-ScrPart_check_in_desk	O	_	_	
+6-21	.	O	O	_	_	
+
+#id=7
+#text=I gave them some basic info about me and was sat down in a chair .
+7-1	I	B-ScrPart_customer	O	_	_	
+7-2	gave	O	B-ScrEv_check_in	_	_	
+7-3	them	B-ScrPart_staff	O	_	_	
+7-4	some	O	O	_	_	
+7-5	basic	O	O	_	_	
+7-6	info	B-NPart	O	_	_	
+7-7	about	O	O	_	_	
+7-8	me	B-ScrPart_customer	O	_	_	
+7-9	and	O	O	_	_	
+7-10	was	O	O	_	_	
+7-11	sat	O	B-ScrEv_sit_down	_	_	
+7-12	down	O	I-ScrEv_sit_down	_	_	
+7-13	in	O	O	_	_	
+7-14	a	O	O	_	_	
+7-15	chair	B-ScrPart_chair	O	_	_	
+7-16	.	O	O	_	_	
+
+#id=8
+#text=They asked me what style I would like and I told them I wanted to have a look similar to a celebrity I knew .
+8-1	They	B-ScrPart_hairdresser	O	_	_	
+8-2	asked	O	B-ScrEv_talk_haircut	_	_	
+8-3	me	B-ScrPart_customer	O	_	_	
+8-4	what	O	O	_	_	
+8-5	style	B-ScrPart_haircut	O	_	_	
+8-6	I	B-ScrPart_customer	O	_	_	
+8-7	would	O	O	_	_	
+8-8	like	O	B-UnrelEv	_	_	
+8-9	and	O	O	_	_	
+8-10	I	B-ScrPart_customer	O	_	_	
+8-11	told	O	B-ScrEv_talk_haircut	_	_	
+8-12	them	B-ScrPart_hairdresser	O	_	_	
+8-13	I	B-ScrPart_customer	O	_	_	
+8-14	wanted	O	O	_	_	
+8-15	to	O	O	_	_	
+8-16	have	O	B-UnrelEv	_	_	
+8-17	a	O	O	_	_	
+8-18	look	B-ScrPart_haircut	O	webanno.custom.Corefchains_	8-5	
+8-19	similar	O	O	_	_	
+8-20	to	O	O	_	_	
+8-21	a	O	O	_	_	
+8-22	celebrity	B-NPart	O	_	_	
+8-23	I	B-ScrPart_customer	O	_	_	
+8-24	knew	O	B-UnrelEv	_	_	
+8-25	.	O	O	_	_	
+
+#id=9
+#text=It was an unusual style so instead I ended up taking their recommendation .
+9-1	It	B-ScrPart_haircut	O	webanno.custom.Corefchains_	8-18	
+9-2	was	O	B-UnrelEv	_	_	
+9-3	an	O	O	_	_	
+9-4	unusual	O	O	_	_	
+9-5	style	B-ScrPart_haircut	O	webanno.custom.Corefchains_	9-1	
+9-6	so	O	O	_	_	
+9-7	instead	O	O	_	_	
+9-8	I	B-ScrPart_customer	O	_	_	
+9-9	ended	O	B-UnrelEv	_	_	
+9-10	up	O	I-UnrelEv	_	_	
+9-11	taking	O	B-RelNScrEv	_	_	
+9-12	their	B-ScrPart_hairdresser	O	_	_	
+9-13	recommendation	B-SuppVComp	O	_	_	
+9-14	.	O	O	_	_	
+
+#id=10
+#text=The haircut did n't take long at all .
+10-1	The	O	O	_	_	
+10-2	haircut	B-ScrPart_haircut	O	webanno.custom.Corefchains_	9-5	
+10-3	did	O	O	_	_	
+10-4	n't	O	O	_	_	
+10-5	take	O	B-UnrelEv	_	_	
+10-6	long	O	O	_	_	
+10-7	at	O	O	_	_	
+10-8	all	O	O	_	_	
+10-9	.	O	O	_	_	
+
+#id=11
+#text=And after I got out of my chair , I headed over to the register again and paid .
+11-1	And	O	O	_	_	
+11-2	after	O	O	_	_	
+11-3	I	B-ScrPart_customer	O	_	_	
+11-4	got	O	B-RelNScrEv	_	_	
+11-5	out	O	O	_	_	
+11-6	of	O	O	_	_	
+11-7	my	B-ScrPart_customer	O	_	_	
+11-8	chair	B-ScrPart_chair	O	_	_	
+11-9	,	O	O	_	_	
+11-10	I	B-ScrPart_customer	O	_	_	
+11-11	headed	O	B-UnrelEv	_	_	
+11-12	over	O	O	_	_	
+11-13	to	O	O	_	_	
+11-14	the	O	O	_	_	
+11-15	register	B-ScrPart_check_in_desk	O	_	_	
+11-16	again	O	O	_	_	
+11-17	and	O	O	_	_	
+11-18	paid	O	B-ScrEv_pay	_	_	
+11-19	.	O	O	_	_	
+
+#id=12
+#text=My hair looked great . 
+12-1	My	B-ScrPart_customer	O	_	_	
+12-2	hair	B-ScrPart_hair	O	_	_	
+12-3	looked	O	B-UnrelEv	_	_	
+12-4	great	O	O	_	_	
+12-5	.	O	O	_	_	
+

@@ -1,0 +1,211 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant
+#id=1
+#text=While looking for something to eat in our home , my wife and I decided it was time to go grocery shopping .
+1-1	While	O	O	
+1-2	looking	B-UnrelEv|B-UnrelEv	O	
+1-3	for	I-UnrelEv	O	
+1-4	something	O	B-No_label	
+1-5	to	O	O	
+1-6	eat	B-UnrelEv	O	
+1-7	in	O	O	
+1-8	our	O	B-ScrPart_shopper	
+1-9	home	O	B-NPart	
+1-10	,	O	O	
+1-11	my	O	B-ScrPart_shopper	
+1-12	wife	O	B-ScrPart_shopper	
+1-13	and	O	O	
+1-14	I	O	B-ScrPart_shopper	
+1-15	decided	B-UnrelEv	O	
+1-16	it	O	B-No_label	
+1-17	was	B-UnrelEv	O	
+1-18	time	O	B-No_label	
+1-19	to	O	O	
+1-20	go	B-Evoking	O	
+1-21	grocery	I-Evoking	O	
+1-22	shopping	I-Evoking	O	
+1-23	.	O	O	
+
+#id=2
+#text=First , we decided to take inventory on everything we had in the house , to see if we 'd need to buy more of it in our trip to the grocery store .
+2-1	First	O	O	
+2-2	,	O	O	
+2-3	we	O	B-ScrPart_shopper	
+2-4	decided	B-UnrelEv	O	
+2-5	to	O	O	
+2-6	take	B-RelNScrEv	O	
+2-7	inventory	O	B-SuppVComp	
+2-8	on	O	O	
+2-9	everything	O	B-ScrPart_groceries	
+2-10	we	O	B-ScrPart_shopper	
+2-11	had	O	O	
+2-12	in	O	O	
+2-13	the	O	O	
+2-14	house	O	B-NPart	
+2-15	,	O	O	
+2-16	to	O	O	
+2-17	see	O	O	
+2-18	if	O	O	
+2-19	we	O	B-ScrPart_shopper	
+2-20	'd	O	O	
+2-21	need	O	O	
+2-22	to	O	O	
+2-23	buy	B-RelNScrEv	O	
+2-24	more	O	O	
+2-25	of	O	O	
+2-26	it	O	B-ScrPart_groceries	
+2-27	in	O	O	
+2-28	our	O	B-ScrPart_shopper	
+2-29	trip	O	B-NPart	
+2-30	to	O	O	
+2-31	the	O	O	
+2-32	grocery	O	B-ScrPart_grocery_shop	
+2-33	store	O	I-ScrPart_grocery_shop|B-ScrPart_grocery_shop	
+2-34	.	O	O	
+
+#id=3
+#text=After that , we made a list of things we need and want .
+3-1	After	O	O	
+3-2	that	O	O	
+3-3	,	O	O	
+3-4	we	O	B-ScrPart_shopper	
+3-5	made	B-ScrEv_make_list	O	
+3-6	a	O	O	
+3-7	list	O	B-ScrPart_grocery_list	
+3-8	of	O	O	
+3-9	things	O	B-ScrPart_groceries	
+3-10	we	O	B-ScrPart_shopper	
+3-11	need	B-RelNScrEv	O	
+3-12	and	O	O	
+3-13	want	B-RelNScrEv	O	
+3-14	.	O	O	
+
+#id=4
+#text=After that we drove to the grocery store and got a cart .
+4-1	After	O	O	
+4-2	that	O	O	
+4-3	we	O	B-ScrPart_shopper	
+4-4	drove	B-ScrEv_go_grocery	O	
+4-5	to	O	O	
+4-6	the	O	O	
+4-7	grocery	O	B-ScrPart_grocery_shop	
+4-8	store	O	I-ScrPart_grocery_shop|B-ScrPart_grocery_shop	
+4-9	and	O	O	
+4-10	got	B-ScrEv_take_shop_cart	O	
+4-11	a	O	O	
+4-12	cart	O	B-ScrPart_shopping_cart/basket	
+4-13	.	O	O	
+
+#id=5
+#text=We walked around the grocery store , getting everything that we put on our list .
+5-1	We	O	B-ScrPart_shopper	
+5-2	walked	B-ScrEv_move_section	O	
+5-3	around	O	O	
+5-4	the	O	O	
+5-5	grocery	O	B-ScrPart_grocery_shop	
+5-6	store	O	I-ScrPart_grocery_shop|B-ScrPart_grocery_shop	
+5-7	,	O	O	
+5-8	getting	B-ScrEv_get_groceries	O	
+5-9	everything	O	B-ScrPart_groceries	
+5-10	that	O	O	
+5-11	we	O	B-ScrPart_shopper	
+5-12	put	B-ScrEv_make_list	O	
+5-13	on	O	O	
+5-14	our	O	B-ScrPart_shopper	
+5-15	list	O	B-ScrPart_grocery_list	
+5-16	.	O	O	
+
+#id=6
+#text=After , we still had some extra spending money and decided to get some extra things .
+6-1	After	O	O	
+6-2	,	O	O	
+6-3	we	O	B-ScrPart_shopper	
+6-4	still	O	O	
+6-5	had	B-UnrelEv	O	
+6-6	some	O	O	
+6-7	extra	O	O	
+6-8	spending	B-RelNScrEv	O	
+6-9	money	O	B-ScrPart_payment_means	
+6-10	and	O	O	
+6-11	decided	B-UnrelEv	O	
+6-12	to	O	O	
+6-13	get	O	O	
+6-14	some	O	O	
+6-15	extra	O	O	
+6-16	things	O	B-ScrPart_groceries	
+6-17	.	O	O	
+
+#id=7
+#text=She was pregnant so she craves weird things .
+7-1	She	O	B-ScrPart_shopper	
+7-2	was	B-UnrelEv	O	
+7-3	pregnant	O	O	
+7-4	so	O	O	
+7-5	she	O	B-ScrPart_shopper	
+7-6	craves	B-UnrelEv	O	
+7-7	weird	O	O	
+7-8	things	O	B-ScrPart_groceries	
+7-9	.	O	O	
+
+#id=8
+#text=We got plenty of desserts .
+8-1	We	O	B-ScrPart_shopper	
+8-2	got	B-ScrEv_get_groceries	O	
+8-3	plenty	O	B-Head_of_Partitive	
+8-4	of	O	O	
+8-5	desserts	O	B-ScrPart_groceries	
+8-6	.	O	O	
+
+#id=9
+#text=When we were done picking everything , we headed towards the cash registers to check out .
+9-1	When	O	O	
+9-2	we	O	B-ScrPart_shopper	
+9-3	were	O	O	
+9-4	done	B-UnrelEv	O	
+9-5	picking	B-ScrEv_get_groceries	O	
+9-6	everything	O	B-ScrPart_groceries	
+9-7	,	O	O	
+9-8	we	O	B-ScrPart_shopper	
+9-9	headed	B-ScrEv_go_checkout	O	
+9-10	towards	O	O	
+9-11	the	O	O	
+9-12	cash	O	B-ScrPart_cash_desk	
+9-13	registers	O	I-ScrPart_cash_desk|B-ScrPart_cash_desk	
+9-14	to	O	O	
+9-15	check	B-ScrEv_pay	O	
+9-16	out	O	O	
+9-17	.	O	O	
+
+#id=10
+#text=We got everything scanned and handed the cashier the money to pay for everything .
+10-1	We	O	B-ScrPart_shopper	
+10-2	got	B-UnrelEv	O	
+10-3	everything	O	B-ScrPart_groceries	
+10-4	scanned	B-ScrEv_cashier_scan/weight	O	
+10-5	and	O	O	
+10-6	handed	O	O	
+10-7	the	O	O	
+10-8	cashier	O	B-ScrPart_grocery_staff	
+10-9	the	O	O	
+10-10	money	O	B-ScrPart_payment_means	
+10-11	to	O	O	
+10-12	pay	B-ScrEv_pay	O	
+10-13	for	O	O	
+10-14	everything	O	B-ScrPart_groceries	
+10-15	.	O	O	
+
+#id=11
+#text=After that , we went home and put everything where it belongs . 
+11-1	After	O	O	
+11-2	that	O	O	
+11-3	,	O	O	
+11-4	we	O	B-ScrPart_shopper	
+11-5	went	B-UnrelEv	O	
+11-6	home	O	B-No_label	
+11-7	and	O	O	
+11-8	put	B-RelNScrEv	O	
+11-9	everything	O	B-ScrPart_groceries	
+11-10	where	O	O	
+11-11	it	O	B-ScrPart_groceries	
+11-12	belongs	B-UnrelEv	O	
+11-13	.	O	O	
+

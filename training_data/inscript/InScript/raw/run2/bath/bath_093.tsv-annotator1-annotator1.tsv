@@ -1,0 +1,251 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=First , I get in the bathroom and make sure that there is a clean towel .
+1-1	First	O	O	O	_	_	
+1-2	,	O	O	O	_	_	
+1-3	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+1-4	get	O	O	B-ScrEv_enter_bathroom	_	_	
+1-5	in	O	O	O	_	_	
+1-6	the	O	O	O	_	_	
+1-7	bathroom	B-ScrPart_bathroom	B-webanno.custom.Participants_	O	_	_	
+1-8	and	O	O	O	_	_	
+1-9	make	O	O	B-UnrelEv	_	_	
+1-10	sure	O	O	O	_	_	
+1-11	that	O	O	O	_	_	
+1-12	there	O	O	O	_	_	
+1-13	is	O	O	B-UnrelEv	_	_	
+1-14	a	O	O	O	_	_	
+1-15	clean	O	O	O	_	_	
+1-16	towel	B-ScrPart_towel	B-webanno.custom.Participants_	O	_	_	
+1-17	.	O	O	O	_	_	
+
+#id=2
+#text=If there is not , I go and grab a clean one .
+2-1	If	O	O	O	_	_	
+2-2	there	O	O	O	_	_	
+2-3	is	O	O	B-UnrelEv	_	_	
+2-4	not	O	O	O	_	_	
+2-5	,	O	O	O	_	_	
+2-6	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+2-7	go	O	O	B-UnrelEv	_	_	
+2-8	and	O	O	O	_	_	
+2-9	grab	O	O	B-ScrEv_prepare_bath	_	_	
+2-10	a	O	O	O	_	_	
+2-11	clean	O	O	O	_	_	
+2-12	one	B-ScrPart_towel	B-webanno.custom.Participants_	O	_	_	
+2-13	.	O	O	O	_	_	
+
+#id=3
+#text=Then I pull the shower curtain and start the water as hot as it goes .
+3-1	Then	O	O	O	_	_	
+3-2	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+3-3	pull	O	O	B-ScrEv_prepare_bath	_	_	
+3-4	the	O	O	O	_	_	
+3-5	shower	B-ScrPart_shower	B-webanno.custom.Participants_	O	_	_	
+3-6	curtain	B-ScrPart_other	B-webanno.custom.Participants_	O	_	_	
+3-7	and	O	O	O	_	_	
+3-8	start	O	O	B-ScrEv_turn_water_on	_	_	
+3-9	the	O	O	O	_	_	
+3-10	water	B-ScrPart_water	B-webanno.custom.Participants_	O	_	_	
+3-11	as	O	O	O	_	_	
+3-12	hot	O	O	O	_	_	
+3-13	as	O	O	O	_	_	
+3-14	it	B-ScrPart_water	B-webanno.custom.Participants_	O	_	_	
+3-15	goes	O	O	B-UnrelEv	_	_	
+3-16	.	O	O	O	_	_	
+
+#id=4
+#text=While the water is warming up , and the tub is filling , I brush my hair out .
+4-1	While	O	O	O	_	_	
+4-2	the	O	O	O	_	_	
+4-3	water	B-ScrPart_water	B-webanno.custom.Participants_	O	_	_	
+4-4	is	O	O	O	_	_	
+4-5	warming	O	O	B-ScrEv_fill_water/wait	_	_	
+4-6	up	O	O	O	_	_	
+4-7	,	O	O	O	_	_	
+4-8	and	O	O	O	_	_	
+4-9	the	O	O	O	_	_	
+4-10	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	_	_	
+4-11	is	O	O	O	_	_	
+4-12	filling	O	O	B-ScrEv_fill_water/wait	_	_	
+4-13	,	O	O	O	_	_	
+4-14	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+4-15	brush	O	O	B-ScrEv_prepare_bath	_	_	
+4-16	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+4-17	hair	B-ScrPart_hair	B-webanno.custom.Participants_	O	_	_	
+4-18	out	O	O	O	_	_	
+4-19	.	O	O	O	_	_	
+
+#id=5
+#text=When the tub is filled , I get undressed , pull the curtain back and get in the tub .
+5-1	When	O	O	O	_	_	
+5-2	the	O	O	O	_	_	
+5-3	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	_	_	
+5-4	is	O	O	O	_	_	
+5-5	filled	O	O	B-ScrEv_fill_water/wait	_	_	
+5-6	,	O	O	O	_	_	
+5-7	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+5-8	get	O	O	O	_	_	
+5-9	undressed	O	O	B-ScrEv_undress	_	_	
+5-10	,	O	O	O	_	_	
+5-11	pull	O	O	B-RelNScrEv	_	_	
+5-12	the	O	O	O	_	_	
+5-13	curtain	B-ScrPart_other	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	3-6	
+5-14	back	O	O	O	_	_	
+5-15	and	O	O	O	_	_	
+5-16	get	O	O	B-ScrEv_sink_water	_	_	
+5-17	in	O	O	O	_	_	
+5-18	the	O	O	O	_	_	
+5-19	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	_	_	
+5-20	.	O	O	O	_	_	
+
+#id=6
+#text=If I am taking a bath for pleasure , I will put on some enjoyable music and light some candles .
+6-1	If	O	O	O	_	_	
+6-2	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+6-3	am	O	O	O	_	_	
+6-4	taking	O	O	B-Evoking	_	_	
+6-5	a	O	O	I-Evoking	_	_	
+6-6	bath	B-SuppVComp	B-webanno.custom.Participants_	I-Evoking	_	_	
+6-7	for	O	O	O	_	_	
+6-8	pleasure	B-NPart	B-webanno.custom.Participants_	O	_	_	
+6-9	,	O	O	O	_	_	
+6-10	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+6-11	will	O	O	O	_	_	
+6-12	put	O	O	B-ScrEv_prepare_bath	_	_	
+6-13	on	O	O	O	_	_	
+6-14	some	O	O	O	_	_	
+6-15	enjoyable	O	O	O	_	_	
+6-16	music	B-ScrPart_in-bath_entertainment	B-webanno.custom.Participants_	O	_	_	
+6-17	and	O	O	O	_	_	
+6-18	light	O	O	B-ScrEv_prepare_bath	_	_	
+6-19	some	O	O	O	_	_	
+6-20	candles	B-ScrPart_in-bath_entertainment	B-webanno.custom.Participants_	O	_	_	
+6-21	.	O	O	O	_	_	
+
+#id=7
+#text=If I am sitting in the tub for enjoyment I will relax and maybe read a book .
+7-1	If	O	O	O	_	_	
+7-2	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+7-3	am	O	O	O	_	_	
+7-4	sitting	O	O	B-ScrEv_relax	_	_	
+7-5	in	O	O	O	_	_	
+7-6	the	O	O	O	_	_	
+7-7	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	_	_	
+7-8	for	O	O	O	_	_	
+7-9	enjoyment	B-NPart	B-webanno.custom.Participants_	O	_	_	
+7-10	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+7-11	will	O	O	O	_	_	
+7-12	relax	O	O	B-ScrEv_relax	_	_	
+7-13	and	O	O	O	_	_	
+7-14	maybe	O	O	O	_	_	
+7-15	read	O	O	B-RelNScrEv	_	_	
+7-16	a	O	O	O	_	_	
+7-17	book	B-ScrPart_in-bath_entertainment	B-webanno.custom.Participants_	O	_	_	
+7-18	.	O	O	O	_	_	
+
+#id=8
+#text=If not , I will wet my hair and apply shampoo and rinse it out .
+8-1	If	O	O	O	_	_	
+8-2	not	O	O	O	_	_	
+8-3	,	O	O	O	_	_	
+8-4	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+8-5	will	O	O	O	_	_	
+8-6	wet	O	O	B-ScrEv_wash	_	_	
+8-7	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+8-8	hair	B-ScrPart_hair	B-webanno.custom.Participants_	O	_	_	
+8-9	and	O	O	O	_	_	
+8-10	apply	O	O	B-ScrEv_wash	_	_	
+8-11	shampoo	B-ScrPart_washing_tools	B-webanno.custom.Participants_	O	_	_	
+8-12	and	O	O	O	_	_	
+8-13	rinse	O	O	B-ScrEv_wash	_	_	
+8-14	it	B-ScrPart_washing_tools	B-webanno.custom.Participants_	O	_	_	
+8-15	out	O	O	O	_	_	
+8-16	.	O	O	O	_	_	
+
+#id=9
+#text=Then i will apply conditioner and let it sit in my hair .
+9-1	Then	O	O	O	_	_	
+9-2	i	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+9-3	will	O	O	O	_	_	
+9-4	apply	O	O	B-ScrEv_wash	_	_	
+9-5	conditioner	B-ScrPart_washing_tools	B-webanno.custom.Participants_	O	_	_	
+9-6	and	O	O	O	_	_	
+9-7	let	O	O	O	_	_	
+9-8	it	B-ScrPart_washing_tools	B-webanno.custom.Participants_	O	_	_	
+9-9	sit	O	O	B-ScrEv_wash	_	_	
+9-10	in	O	O	O	_	_	
+9-11	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+9-12	hair	B-ScrPart_hair	B-webanno.custom.Participants_	O	_	_	
+9-13	.	O	O	O	_	_	
+
+#id=10
+#text=While its sitting , I wash my body with soap , and then rinseout the conditioner .
+10-1	While	O	O	O	_	_	
+10-2	its	B-ScrPart_washing_tools	B-webanno.custom.Participants_	O	_	_	
+10-3	sitting	O	O	B-ScrEv_wash	_	_	
+10-4	,	O	O	O	_	_	
+10-5	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+10-6	wash	O	O	B-ScrEv_wash	_	_	
+10-7	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+10-8	body	B-ScrPart_body_part	B-webanno.custom.Participants_	O	_	_	
+10-9	with	O	O	O	_	_	
+10-10	soap	B-ScrPart_washing_tools	B-webanno.custom.Participants_	O	_	_	
+10-11	,	O	O	O	_	_	
+10-12	and	O	O	O	_	_	
+10-13	then	O	O	O	_	_	
+10-14	rinseout	O	O	B-ScrEv_wash	_	_	
+10-15	the	O	O	O	_	_	
+10-16	conditioner	B-ScrPart_washing_tools	B-webanno.custom.Participants_	O	_	_	
+10-17	.	O	O	O	_	_	
+
+#id=11
+#text=Before I leave the tub , I pull the drain and the shower curtain and run the shower to rinse off .
+11-1	Before	O	O	O	_	_	
+11-2	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+11-3	leave	O	O	B-ScrEv_get_out_bath	_	_	
+11-4	the	O	O	O	_	_	
+11-5	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	_	_	
+11-6	,	O	O	O	_	_	
+11-7	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+11-8	pull	O	O	B-ScrEv_open_drain	_	_	
+11-9	the	O	O	O	_	_	
+11-10	drain	B-ScrPart_drain	B-webanno.custom.Participants_	O	_	_	
+11-11	and	O	O	O	_	_	
+11-12	the	O	O	O	_	_	
+11-13	shower	B-ScrPart_shower	B-webanno.custom.Participants_	O	_	_	
+11-14	curtain	B-ScrPart_other	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-13	
+11-15	and	O	O	O	_	_	
+11-16	run	O	O	B-ScrEv_turn_water_on	_	_	
+11-17	the	O	O	O	_	_	
+11-18	shower	B-ScrPart_shower	B-webanno.custom.Participants_	O	_	_	
+11-19	to	O	O	O	_	_	
+11-20	rinse	O	O	B-ScrEv_wash|B-ScrEv_wash	_	_	
+11-21	off	O	O	I-ScrEv_wash	_	_	
+11-22	.	O	O	O	_	_	
+
+#id=12
+#text=I then turn off the shower , and wrap myself in a towel to dry off and my bath is done . 
+12-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+12-2	then	O	O	O	_	_	
+12-3	turn	O	O	B-ScrEv_turn_water_off|B-ScrEv_turn_water_off	_	_	
+12-4	off	O	O	I-ScrEv_turn_water_off	_	_	
+12-5	the	O	O	O	_	_	
+12-6	shower	B-ScrPart_shower	B-webanno.custom.Participants_	O	_	_	
+12-7	,	O	O	O	_	_	
+12-8	and	O	O	O	_	_	
+12-9	wrap	O	O	B-ScrEv_dry	_	_	
+12-10	myself	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+12-11	in	O	O	O	_	_	
+12-12	a	O	O	O	_	_	
+12-13	towel	B-ScrPart_towel	B-webanno.custom.Participants_	O	_	_	
+12-14	to	O	O	O	_	_	
+12-15	dry	O	O	B-ScrEv_dry|B-ScrEv_dry	_	_	
+12-16	off	O	O	I-ScrEv_dry	_	_	
+12-17	and	O	O	O	_	_	
+12-18	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+12-19	bath	B-ScrPart_bath	B-webanno.custom.Participants_	B-Evoking	webanno.custom.Corefchains_	6-6	
+12-20	is	O	O	O	_	_	
+12-21	done	O	O	B-UnrelEv	_	_	
+12-22	.	O	O	O	_	_	
+

@@ -1,0 +1,259 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=I needed to learn about gardening and was n't sure where to start .
+1-1	I	B-ScrPart_customer	O	
+1-2	needed	O	O	
+1-3	to	O	O	
+1-4	learn	O	B-UnrelEv	
+1-5	about	O	O	
+1-6	gardening	O	B-UnrelEv	
+1-7	and	O	O	
+1-8	was	O	O	
+1-9	n't	O	O	
+1-10	sure	O	O	
+1-11	where	O	O	
+1-12	to	O	O	
+1-13	start	O	B-UnrelEv	
+1-14	.	O	O	
+
+#id=2
+#text=A friend of mine recommended a book .
+2-1	A	O	O	
+2-2	friend	B-NPart	O	
+2-3	of	O	O	
+2-4	mine	B-ScrPart_customer	O	
+2-5	recommended	O	B-UnrelEv	
+2-6	a	O	O	
+2-7	book	B-ScrPart_book	O	
+2-8	.	O	O	
+
+#id=3
+#text=I decided to check it out from the local library .
+3-1	I	B-ScrPart_customer	O	
+3-2	decided	O	B-UnrelEv	
+3-3	to	O	O	
+3-4	check	O	B-Evoking	
+3-5	it	B-ScrPart_book	I-Evoking	
+3-6	out	O	I-Evoking	
+3-7	from	O	I-Evoking	
+3-8	the	O	I-Evoking	
+3-9	local	O	I-Evoking	
+3-10	library	B-ScrPart_library	I-Evoking	
+3-11	.	O	O	
+
+#id=4
+#text=I walked to the library .
+4-1	I	B-ScrPart_customer	O	
+4-2	walked	O	B-ScrEv_get_library	
+4-3	to	O	O	
+4-4	the	O	O	
+4-5	library	B-ScrPart_library	O	
+4-6	.	O	O	
+
+#id=5
+#text=Inside there was a computer to look up where books are located .
+5-1	Inside	O	O	
+5-2	there	O	O	
+5-3	was	O	B-UnrelEv	
+5-4	a	O	O	
+5-5	computer	B-ScrPart_institutional_devices	O	
+5-6	to	O	O	
+5-7	look	O	B-ScrEv_use_computer	
+5-8	up	O	I-ScrEv_use_computer	
+5-9	where	O	O	
+5-10	books	B-ScrPart_book	O	
+5-11	are	O	O	
+5-12	located	O	B-UnrelEv	
+5-13	.	O	O	
+
+#id=6
+#text=I typed in the name of the book I was looking for and it showed me the call number , a unique number used to tell where the book is located in the library .
+6-1	I	B-ScrPart_customer	O	
+6-2	typed	O	B-ScrEv_use_computer	
+6-3	in	O	O	
+6-4	the	O	O	
+6-5	name	B-NPart	O	
+6-6	of	O	O	
+6-7	the	O	O	
+6-8	book	B-ScrPart_book	O	
+6-9	I	B-ScrPart_customer	O	
+6-10	was	O	O	
+6-11	looking	O	B-ScrEv_look_for_book	
+6-12	for	O	O	
+6-13	and	O	O	
+6-14	it	B-ScrPart_institutional_devices	O	
+6-15	showed	O	B-RelNScrEv	
+6-16	me	B-ScrPart_customer	O	
+6-17	the	O	O	
+6-18	call	B-ScrPart_section_id	O	
+6-19	number	I-ScrPart_section_id|B-ScrPart_section_id	O	
+6-20	,	O	O	
+6-21	a	O	O	
+6-22	unique	O	O	
+6-23	number	B-ScrPart_section_id	O	
+6-24	used	O	B-UnrelEv	
+6-25	to	O	O	
+6-26	tell	O	B-UnrelEv	
+6-27	where	O	O	
+6-28	the	O	O	
+6-29	book	B-ScrPart_book	O	
+6-30	is	O	O	
+6-31	located	O	B-UnrelEv	
+6-32	in	O	O	
+6-33	the	O	O	
+6-34	library	B-ScrPart_library	O	
+6-35	.	O	O	
+
+#id=7
+#text=I wrote the call number down and looked at the stacks of books .
+7-1	I	B-ScrPart_customer	O	
+7-2	wrote	O	B-ScrEv_note_shelf	
+7-3	the	O	O	
+7-4	call	B-ScrPart_section_id	O	
+7-5	number	I-ScrPart_section_id|B-ScrPart_section_id	O	
+7-6	down	O	O	
+7-7	and	O	O	
+7-8	looked	O	B-ScrEv_look_for_book	
+7-9	at	O	O	
+7-10	the	O	O	
+7-11	stacks	B-Head_of_Partitive	O	
+7-12	of	O	O	
+7-13	books	B-ScrPart_book	O	
+7-14	.	O	O	
+
+#id=8
+#text=Each stack had a range of numbers printed on a card taped to the side of the bookshelf .
+8-1	Each	O	O	
+8-2	stack	B-Head_of_Partitive	O	
+8-3	had	O	B-UnrelEv	
+8-4	a	O	O	
+8-5	range	B-Head_of_Partitive	O	
+8-6	of	O	O	
+8-7	numbers	B-ScrPart_section_id	O	
+8-8	printed	O	B-UnrelEv	
+8-9	on	O	O	
+8-10	a	O	O	
+8-11	card	B-NPart	O	
+8-12	taped	O	B-UnrelEv	
+8-13	to	O	O	
+8-14	the	O	O	
+8-15	side	B-Head_of_Partitive	O	
+8-16	of	O	O	
+8-17	the	O	O	
+8-18	bookshelf	B-ScrPart_shelf	O	
+8-19	.	O	O	
+
+#id=9
+#text=I looked for my call number on the printed cards on the side of the bookshelves , then searched the books until I found the one I was looking for .
+9-1	I	B-ScrPart_customer	O	
+9-2	looked	O	B-ScrEv_look_for_book	
+9-3	for	O	O	
+9-4	my	B-ScrPart_customer	O	
+9-5	call	B-ScrPart_section_id	O	
+9-6	number	I-ScrPart_section_id|B-ScrPart_section_id	O	
+9-7	on	O	O	
+9-8	the	O	O	
+9-9	printed	O	B-UnrelEv	
+9-10	cards	B-NPart	O	
+9-11	on	O	O	
+9-12	the	O	O	
+9-13	side	B-Head_of_Partitive	O	
+9-14	of	O	O	
+9-15	the	O	O	
+9-16	bookshelves	B-ScrPart_shelf	O	
+9-17	,	O	O	
+9-18	then	O	O	
+9-19	searched	O	B-ScrEv_look_for_book	
+9-20	the	O	O	
+9-21	books	B-ScrPart_book	O	
+9-22	until	O	O	
+9-23	I	B-ScrPart_customer	O	
+9-24	found	O	B-RelNScrEv	
+9-25	the	O	O	
+9-26	one	B-ScrPart_book	O	
+9-27	I	B-ScrPart_customer	O	
+9-28	was	O	O	
+9-29	looking	O	B-ScrEv_look_for_book	
+9-30	for	O	O	
+9-31	.	O	O	
+
+#id=10
+#text=I brought the book up to the front of the library .
+10-1	I	B-ScrPart_customer	O	
+10-2	brought	O	B-ScrEv_go_check_out	
+10-3	the	O	O	
+10-4	book	B-ScrPart_book	O	
+10-5	up	O	O	
+10-6	to	O	O	
+10-7	the	O	O	
+10-8	front	B-ScrPart_location_library	O	
+10-9	of	O	O	
+10-10	the	O	O	
+10-11	library	B-ScrPart_library	O	
+10-12	.	O	O	
+
+#id=11
+#text=The librarian took my library card and scanned it and my book with a special scanner .
+11-1	The	O	O	
+11-2	librarian	B-ScrPart_staff	O	
+11-3	took	O	B-RelNScrEv	
+11-4	my	B-ScrPart_customer	O	
+11-5	library	B-ScrPart_library_card	O	
+11-6	card	I-ScrPart_library_card|B-ScrPart_library_card	O	
+11-7	and	O	O	
+11-8	scanned	O	B-ScrEv_register	
+11-9	it	B-ScrPart_library_card	O	
+11-10	and	O	O	
+11-11	my	B-ScrPart_customer	O	
+11-12	book	B-ScrPart_book	O	
+11-13	with	O	O	
+11-14	a	O	O	
+11-15	special	O	O	
+11-16	scanner	B-ScrPart_institutional_devices	O	
+11-17	.	O	O	
+
+#id=12
+#text=She gave me a piece of paper inside the book that said I needed to bring it back within 2 weeks .
+12-1	She	B-ScrPart_staff	O	
+12-2	gave	O	B-ScrEv_get_receipt	
+12-3	me	B-ScrPart_customer	O	
+12-4	a	O	O	
+12-5	piece	B-ScrPart_receipt	O	
+12-6	of	O	O	
+12-7	paper	B-ScrPart_receipt	O	
+12-8	inside	O	O	
+12-9	the	O	O	
+12-10	book	B-ScrPart_book	O	
+12-11	that	O	O	
+12-12	said	O	B-UnrelEv	
+12-13	I	B-ScrPart_customer	O	
+12-14	needed	O	O	
+12-15	to	O	O	
+12-16	bring	O	B-RelNScrEv	
+12-17	it	B-ScrPart_book	O	
+12-18	back	O	O	
+12-19	within	O	O	
+12-20	2	O	O	
+12-21	weeks	B-NPart	O	
+12-22	.	O	O	
+
+#id=13
+#text=I brought the book home and read it , then brought it back to the librarian . 
+13-1	I	B-ScrPart_customer	O	
+13-2	brought	O	B-ScrEv_leave	
+13-3	the	O	O	
+13-4	book	B-ScrPart_book	O	
+13-5	home	B-NPart	O	
+13-6	and	O	O	
+13-7	read	O	B-RelNScrEv	
+13-8	it	B-ScrPart_book	O	
+13-9	,	O	O	
+13-10	then	O	O	
+13-11	brought	O	B-RelNScrEv	
+13-12	it	B-ScrPart_book	O	
+13-13	back	O	O	
+13-14	to	O	O	
+13-15	the	O	O	
+13-16	librarian	B-ScrPart_staff	O	
+13-17	.	O	O	
+

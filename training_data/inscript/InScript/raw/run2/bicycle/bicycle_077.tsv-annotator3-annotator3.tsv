@@ -1,0 +1,201 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=If you love riding bikes when the weather starts getting better an important thing to know is how to repair your tire if you encounter a flat .
+1-1	If	O	O	
+1-2	you	B-ScrPart_rider	O	
+1-3	love	O	B-UnrelEv	
+1-4	riding	O	B-ScrEv_ride_bike	
+1-5	bikes	B-ScrPart_bicycle	O	
+1-6	when	O	O	
+1-7	the	O	O	
+1-8	weather	B-NPart	O	
+1-9	starts	O	O	
+1-10	getting	O	B-UnrelEv	
+1-11	better	O	O	
+1-12	an	O	O	
+1-13	important	O	O	
+1-14	thing	B-No_label	O	
+1-15	to	O	O	
+1-16	know	O	B-UnrelEv	
+1-17	is	O	O	
+1-18	how	O	O	
+1-19	to	O	O	
+1-20	repair	O	B-Evoking	
+1-21	your	B-ScrPart_rider	I-Evoking	
+1-22	tire	B-ScrPart_tire	I-Evoking	
+1-23	if	O	O	
+1-24	you	B-NPart	O	
+1-25	encounter	O	B-UnrelEv	
+1-26	a	O	O	
+1-27	flat	B-ScrPart_other	O	
+1-28	.	O	O	
+
+#id=2
+#text=Head on over to your local auto shop and find a patch kit , and make sure to invest in an air pump if you do n't have one .
+2-1	Head	O	B-ScrEv_other	
+2-2	on	O	O	
+2-3	over	O	O	
+2-4	to	O	O	
+2-5	your	B-ScrPart_rider	O	
+2-6	local	O	O	
+2-7	auto	B-ScrPart_shop	O	
+2-8	shop	I-ScrPart_shop|B-ScrPart_shop	O	
+2-9	and	O	O	
+2-10	find	O	B-ScrEv_get_tools	
+2-11	a	O	O	
+2-12	patch	B-ScrPart_tool	O	
+2-13	kit	I-ScrPart_tool|B-ScrPart_tool	O	
+2-14	,	O	O	
+2-15	and	O	O	
+2-16	make	O	B-UnrelEv|B-UnrelEv	
+2-17	sure	O	I-UnrelEv	
+2-18	to	O	O	
+2-19	invest	O	B-UnrelEv	
+2-20	in	O	O	
+2-21	an	O	O	
+2-22	air	B-ScrPart_tool	O	
+2-23	pump	I-ScrPart_tool|B-ScrPart_tool	O	
+2-24	if	O	O	
+2-25	you	B-ScrPart_rider	O	
+2-26	do	O	O	
+2-27	n't	O	O	
+2-28	have	O	B-UnrelEv	
+2-29	one	B-Head_of_Partitive	O	
+2-30	.	O	O	
+
+#id=3
+#text=Sometimes the bike tire will go flat by losing air due to weather conditions .
+3-1	Sometimes	O	O	
+3-2	the	O	O	
+3-3	bike	B-ScrPart_tire	O	
+3-4	tire	I-ScrPart_tire|B-ScrPart_tire	O	
+3-5	will	O	O	
+3-6	go	O	B-RelNScrEv	
+3-7	flat	O	O	
+3-8	by	O	O	
+3-9	losing	O	B-RelNScrEv	
+3-10	air	B-ScrPart_air	O	
+3-11	due	O	O	
+3-12	to	O	O	
+3-13	weather	B-NPart	O	
+3-14	conditions	I-NPart|B-NPart	O	
+3-15	.	O	O	
+
+#id=4
+#text=If this is your case , simply unscrew the cap and pump more air into the tire .
+4-1	If	O	O	
+4-2	this	O	O	
+4-3	is	O	B-UnrelEv	
+4-4	your	B-ScrPart_rider	O	
+4-5	case	B-No_label	O	
+4-6	,	O	O	
+4-7	simply	O	O	
+4-8	unscrew	O	B-ScrEv_other	
+4-9	the	O	O	
+4-10	cap	B-ScrPart_bicycle_small_detail	O	
+4-11	and	O	O	
+4-12	pump	O	B-ScrEv_refill_tire_air	
+4-13	more	O	O	
+4-14	air	B-ScrPart_air	O	
+4-15	into	O	O	
+4-16	the	O	O	
+4-17	tire	B-ScrPart_tire	O	
+4-18	.	O	O	
+
+#id=5
+#text=If you have a puncture in a tire then you will need to try patching .
+5-1	If	O	O	
+5-2	you	B-ScrPart_rider	O	
+5-3	have	O	B-UnrelEv	
+5-4	a	O	O	
+5-5	puncture	B-ScrPart_damage	O	
+5-6	in	O	O	
+5-7	a	O	O	
+5-8	tire	B-ScrPart_tire	O	
+5-9	then	O	O	
+5-10	you	B-ScrPart_rider	O	
+5-11	will	O	O	
+5-12	need	O	B-UnrelEv	
+5-13	to	O	O	
+5-14	try	O	O	
+5-15	patching	O	B-ScrEv_put_patch/seal	
+5-16	.	O	O	
+
+#id=6
+#text=By using the kit you just purchased you can find the problem area , install a mesh patch over it , and use the kit to fuse it to the tire .
+6-1	By	O	O	
+6-2	using	O	B-UnrelEv	
+6-3	the	O	O	
+6-4	kit	B-ScrPart_tool	O	
+6-5	you	B-ScrPart_rider	O	
+6-6	just	O	O	
+6-7	purchased	O	B-ScrEv_get_tools	
+6-8	you	B-ScrPart_rider	O	
+6-9	can	O	O	
+6-10	find	O	B-UnrelEv	
+6-11	the	O	O	
+6-12	problem	B-NPart	O	
+6-13	area	I-NPart|B-NPart	O	
+6-14	,	O	O	
+6-15	install	O	B-ScrEv_put_patch/seal	
+6-16	a	O	O	
+6-17	mesh	O	O	
+6-18	patch	B-ScrPart_patch	O	
+6-19	over	O	O	
+6-20	it	B-NPart	O	
+6-21	,	O	O	
+6-22	and	O	O	
+6-23	use	O	B-UnrelEv	
+6-24	the	O	O	
+6-25	kit	B-ScrPart_tool	O	
+6-26	to	O	O	
+6-27	fuse	O	B-RelNScrEv	
+6-28	it	B-ScrPart_patch	O	
+6-29	to	O	O	
+6-30	the	O	O	
+6-31	tire	B-ScrPart_tire	O	
+6-32	.	O	O	
+
+#id=7
+#text=Once it has been applied you can fill the tire with air and enjoy your bike again .
+7-1	Once	O	O	
+7-2	it	B-ScrPart_patch	O	
+7-3	has	O	O	
+7-4	been	O	O	
+7-5	applied	O	B-ScrEv_put_patch/seal	
+7-6	you	B-ScrPart_rider	O	
+7-7	can	O	O	
+7-8	fill	O	B-ScrEv_refill_tire_air	
+7-9	the	O	O	
+7-10	tire	B-ScrPart_tire	O	
+7-11	with	O	O	
+7-12	air	B-ScrPart_air	O	
+7-13	and	O	O	
+7-14	enjoy	O	B-UnrelEv	
+7-15	your	B-ScrPart_rider	O	
+7-16	bike	B-ScrPart_bicycle	O	
+7-17	again	O	O	
+7-18	.	O	O	
+
+#id=8
+#text=If the tire is still losing air then you will unfortunately need to invest in a new tire . 
+8-1	If	O	O	
+8-2	the	O	O	
+8-3	tire	B-ScrPart_tire	O	
+8-4	is	O	O	
+8-5	still	O	O	
+8-6	losing	O	B-RelNScrEv	
+8-7	air	B-ScrPart_air	O	
+8-8	then	O	O	
+8-9	you	B-ScrPart_rider	O	
+8-10	will	O	O	
+8-11	unfortunately	O	O	
+8-12	need	O	O	
+8-13	to	O	O	
+8-14	invest	O	B-RelNScrEv	
+8-15	in	O	O	
+8-16	a	O	O	
+8-17	new	O	O	
+8-18	tire	B-ScrPart_spare_tube	O	
+8-19	.	O	O	
+

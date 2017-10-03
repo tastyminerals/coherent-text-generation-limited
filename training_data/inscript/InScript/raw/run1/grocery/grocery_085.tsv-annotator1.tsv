@@ -1,0 +1,235 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=On Friday , I decided to go grocery shopping .
+1-1	On	O	O	_	_	
+1-2	Friday	O	O	_	_	
+1-3	,	O	O	_	_	
+1-4	I	B-ScrPart_shopper	O	_	_	
+1-5	decided	O	B-UnrelEv	_	_	
+1-6	to	O	O	_	_	
+1-7	go	O	B-Evoking|B-ScrEv_go_grocery	_	_	
+1-8	grocery	O	I-Evoking	_	_	
+1-9	shopping	O	I-Evoking	_	_	
+1-10	.	O	O	_	_	
+
+#id=2
+#text=My mother made a list of all the items we needed and I went to go buy them .
+2-1	My	B-ScrPart_shopper	O	webanno.custom.Corefchains_	1-4	
+2-2	mother	B-NPart	O	_	_	
+2-3	made	O	B-ScrEv_make_list	_	_	
+2-4	a	O	O	_	_	
+2-5	list	B-ScrPart_grocery_list	O	_	_	
+2-6	of	O	O	_	_	
+2-7	all	O	O	_	_	
+2-8	the	O	O	_	_	
+2-9	items	B-ScrPart_groceries	O	_	_	
+2-10	we	B-NPart	O	group_mother_I|group_mother_I	2-2|2-13	
+2-11	needed	O	B-RelNScrEv	_	_	
+2-12	and	O	O	_	_	
+2-13	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	2-1	
+2-14	went	O	B-ScrEv_go_grocery	_	_	
+2-15	to	O	O	_	_	
+2-16	go	O	B-ScrEv_go_grocery	_	_	
+2-17	buy	O	B-ScrEv_get_groceries	_	_	
+2-18	them	B-ScrPart_groceries	O	webanno.custom.Corefchains_	2-9	
+2-19	.	O	O	_	_	
+
+#id=3
+#text=While I was at the grocery store , I looked for everything on the list .
+3-1	While	O	O	_	_	
+3-2	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	2-13	
+3-3	was	O	B-UnrelEv	_	_	
+3-4	at	O	O	_	_	
+3-5	the	O	O	_	_	
+3-6	grocery	O	O	_	_	
+3-7	store	B-ScrPart_grocery_shop	O	_	_	
+3-8	,	O	O	_	_	
+3-9	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	3-2	
+3-10	looked	O	B-MissScrEv	_	_	
+3-11	for	O	O	_	_	
+3-12	everything	B-ScrPart_groceries	O	_	_	
+3-13	on	O	O	_	_	
+3-14	the	O	O	_	_	
+3-15	list	B-ScrPart_grocery_list	O	webanno.custom.Corefchains_	2-5	
+3-16	.	O	O	_	_	
+
+#id=4
+#text=Some of them were hard to find , so I had to ask a worker where to find them .
+4-1	Some	O	O	_	_	
+4-2	of	O	O	_	_	
+4-3	them	B-ScrPart_groceries	O	webanno.custom.Corefchains_	3-12	
+4-4	were	O	B-UnrelEv	_	_	
+4-5	hard	O	O	_	_	
+4-6	to	O	O	_	_	
+4-7	find	O	B-MissScrEv	_	_	
+4-8	,	O	O	_	_	
+4-9	so	O	O	_	_	
+4-10	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	3-9	
+4-11	had	O	O	_	_	
+4-12	to	O	O	_	_	
+4-13	ask	O	B-RelNScrEv	_	_	
+4-14	a	O	O	_	_	
+4-15	worker	B-ScrPart_grocery_staff	O	_	_	
+4-16	where	O	O	_	_	
+4-17	to	O	O	_	_	
+4-18	find	O	B-MissScrEv	_	_	
+4-19	them	B-ScrPart_groceries	O	webanno.custom.Corefchains_	4-3	
+4-20	.	O	O	_	_	
+
+#id=5
+#text=They were very helpful and pointed where to go .
+5-1	They	B-ScrPart_grocery_staff	O	webanno.custom.Corefchains_	4-15	
+5-2	were	O	B-UnrelEv	_	_	
+5-3	very	O	O	_	_	
+5-4	helpful	O	O	_	_	
+5-5	and	O	O	_	_	
+5-6	pointed	O	B-RelNScrEv	_	_	
+5-7	where	O	O	_	_	
+5-8	to	O	O	_	_	
+5-9	go	O	B-ScrEv_move_section	_	_	
+5-10	.	O	O	_	_	
+
+#id=6
+#text=Some of the items were not available so I had to get a raincheck .
+6-1	Some	O	O	_	_	
+6-2	of	O	O	_	_	
+6-3	the	O	O	_	_	
+6-4	items	B-ScrPart_groceries	O	webanno.custom.Corefchains_	4-19	
+6-5	were	O	B-UnrelEv	_	_	
+6-6	not	O	O	_	_	
+6-7	available	O	O	_	_	
+6-8	so	O	O	_	_	
+6-9	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	4-10	
+6-10	had	O	O	_	_	
+6-11	to	O	O	_	_	
+6-12	get	O	B-RelNScrEv	_	_	
+6-13	a	O	O	_	_	
+6-14	raincheck	B-MissScrPart	O	_	_	
+6-15	.	O	O	_	_	
+
+#id=7
+#text=After I got all the available items , I had to stand on line at the checkout .
+7-1	After	O	O	_	_	
+7-2	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	6-9	
+7-3	got	O	B-ScrEv_get_groceries	_	_	
+7-4	all	O	O	_	_	
+7-5	the	O	O	_	_	
+7-6	available	O	O	_	_	
+7-7	items	B-ScrPart_groceries	O	webanno.custom.Corefchains_	6-4	
+7-8	,	O	O	_	_	
+7-9	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	7-2	
+7-10	had	O	O	_	_	
+7-11	to	O	O	_	_	
+7-12	stand	O	B-ScrEv_wait	_	_	
+7-13	on	O	O	_	_	
+7-14	line	B-ScrPart_line	O	_	_	
+7-15	at	O	O	_	_	
+7-16	the	O	O	_	_	
+7-17	checkout	B-ScrPart_section	O	_	_	
+7-18	.	O	O	_	_	
+
+#id=8
+#text=The line was very long and there were no other checkout lines open .
+8-1	The	O	O	_	_	
+8-2	line	B-ScrPart_line	O	webanno.custom.Corefchains_	7-14	
+8-3	was	O	B-UnrelEv	_	_	
+8-4	very	O	O	_	_	
+8-5	long	O	O	_	_	
+8-6	and	O	O	_	_	
+8-7	there	O	O	_	_	
+8-8	were	O	O	_	_	
+8-9	no	O	O	_	_	
+8-10	other	O	O	_	_	
+8-11	checkout	O	O	_	_	
+8-12	lines	B-ScrPart_line	O	_	_	
+8-13	open	O	B-RelNScrEv	_	_	
+8-14	.	O	O	_	_	
+
+#id=9
+#text=It was frustrating because I did not have that much items to buy .
+9-1	It	O	O	_	_	
+9-2	was	O	O	_	_	
+9-3	frustrating	O	B-UnrelEv	_	_	
+9-4	because	O	O	_	_	
+9-5	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	7-9	
+9-6	did	O	O	_	_	
+9-7	not	O	O	_	_	
+9-8	have	O	O	_	_	
+9-9	that	O	O	_	_	
+9-10	much	O	O	_	_	
+9-11	items	B-ScrPart_groceries	O	webanno.custom.Corefchains_	7-7	
+9-12	to	O	O	_	_	
+9-13	buy	O	B-ScrEv_get_groceries	_	_	
+9-14	.	O	O	_	_	
+
+#id=10
+#text=Meanwhile , there were at least four people ahead of me with a lot of items to buy .
+10-1	Meanwhile	O	O	_	_	
+10-2	,	O	O	_	_	
+10-3	there	O	O	_	_	
+10-4	were	O	B-ScrEv_wait	_	_	
+10-5	at	O	O	_	_	
+10-6	least	O	O	_	_	
+10-7	four	O	O	_	_	
+10-8	people	B-ScrPart_shopper	O	_	_	
+10-9	ahead	O	O	_	_	
+10-10	of	O	O	_	_	
+10-11	me	B-ScrPart_shopper	O	webanno.custom.Corefchains_	9-5	
+10-12	with	O	O	_	_	
+10-13	a	O	O	_	_	
+10-14	lot	O	O	_	_	
+10-15	of	O	O	_	_	
+10-16	items	B-ScrPart_groceries	O	_	_	
+10-17	to	O	O	_	_	
+10-18	buy	O	B-ScrEv_get_groceries	_	_	
+10-19	.	O	O	_	_	
+
+#id=11
+#text=I am very impatient .
+11-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	10-11	
+11-2	am	O	B-UnrelEv	_	_	
+11-3	very	O	O	_	_	
+11-4	impatient	O	O	_	_	
+11-5	.	O	O	_	_	
+
+#id=12
+#text=Fortunately , one person ahead of me was kind enough to let me skip him .
+12-1	Fortunately	O	O	_	_	
+12-2	,	O	O	_	_	
+12-3	one	O	O	_	_	
+12-4	person	B-ScrPart_shopper	O	_	_	
+12-5	ahead	O	O	_	_	
+12-6	of	O	O	_	_	
+12-7	me	B-ScrPart_shopper	O	webanno.custom.Corefchains_	11-1	
+12-8	was	O	B-UnrelEv	_	_	
+12-9	kind	O	O	_	_	
+12-10	enough	O	O	_	_	
+12-11	to	O	O	_	_	
+12-12	let	O	O	_	_	
+12-13	me	B-ScrPart_shopper	O	webanno.custom.Corefchains_	12-7	
+12-14	skip	O	B-RelNScrEv	_	_	
+12-15	him	B-ScrPart_shopper	O	webanno.custom.Corefchains_	12-4	
+12-16	.	O	O	_	_	
+
+#id=13
+#text=I was very appreciative .
+13-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	12-13	
+13-2	was	O	B-UnrelEv	_	_	
+13-3	very	O	O	_	_	
+13-4	appreciative	O	O	_	_	
+13-5	.	O	O	_	_	
+
+#id=14
+#text=Finally , I left the grocery store with my items . 
+14-1	Finally	O	O	_	_	
+14-2	,	O	O	_	_	
+14-3	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	13-1	
+14-4	left	O	B-ScrEv_leave	_	_	
+14-5	the	O	O	_	_	
+14-6	grocery	O	O	_	_	
+14-7	store	B-ScrPart_grocery_shop	O	webanno.custom.Corefchains_	3-7	
+14-8	with	O	O	_	_	
+14-9	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	14-3	
+14-10	items	B-ScrPart_groceries	O	webanno.custom.Corefchains_	9-11	
+14-11	.	O	O	_	_	
+

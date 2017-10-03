@@ -1,0 +1,254 @@
+ # webanno.custom.Eventsandparticipants | Event # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Riding a public bus is a good way to get around a city .
+1-1	Riding	B-Evoking	O	_	_	
+1-2	a	I-Evoking	O	_	_	
+1-3	public	I-Evoking	O	_	_	
+1-4	bus	I-Evoking	B-ScrPart_bus	_	_	
+1-5	is	B-UnrelEv	O	_	_	
+1-6	a	O	O	_	_	
+1-7	good	O	O	_	_	
+1-8	way	O	O	_	_	
+1-9	to	O	O	_	_	
+1-10	get	B-UnrelEv	O	_	_	
+1-11	around	O	O	_	_	
+1-12	a	O	O	_	_	
+1-13	city	O	O	_	_	
+1-14	.	O	O	_	_	
+
+#id=2
+#text=If I am traveling in a big city , I think it 's easier to take the bus than depend on my car .
+2-1	If	O	O	_	_	
+2-2	I	O	B-ScrPart_passenger	_	_	
+2-3	am	O	O	_	_	
+2-4	traveling	B-UnrelEv	O	_	_	
+2-5	in	O	O	_	_	
+2-6	a	O	O	_	_	
+2-7	big	O	O	_	_	
+2-8	city	O	O	_	_	
+2-9	,	O	O	_	_	
+2-10	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	2-2	
+2-11	think	O	O	_	_	
+2-12	it	O	O	_	_	
+2-13	's	O	O	_	_	
+2-14	easier	O	O	_	_	
+2-15	to	O	O	_	_	
+2-16	take	B-Evoking	O	_	_	
+2-17	the	I-Evoking	O	_	_	
+2-18	bus	I-Evoking	B-ScrPart_bus	webanno.custom.Corefchains_	1-4	
+2-19	than	O	O	_	_	
+2-20	depend	B-UnrelEv	O	_	_	
+2-21	on	O	O	_	_	
+2-22	my	O	O	_	_	
+2-23	car	O	O	_	_	
+2-24	.	O	O	_	_	
+
+#id=3
+#text=In Chicago , I can get anywhere in the city more quickly and inexpensively using public transit .
+3-1	In	O	O	_	_	
+3-2	Chicago	O	B-NPart	_	_	
+3-3	,	O	O	_	_	
+3-4	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	2-10	
+3-5	can	O	O	_	_	
+3-6	get	B-RelNScrEv	O	_	_	
+3-7	anywhere	O	B-NPart	_	_	
+3-8	in	O	O	_	_	
+3-9	the	O	O	_	_	
+3-10	city	O	B-NPart	_	_	
+3-11	more	O	O	_	_	
+3-12	quickly	O	O	_	_	
+3-13	and	O	O	_	_	
+3-14	inexpensively	O	O	_	_	
+3-15	using	B-RelNScrEv	O	_	_	
+3-16	public	O	B-ScrPart_bus	_	_	
+3-17	transit	O	I-ScrPart_bus|B-ScrPart_bus	webanno.custom.Corefchains_	2-18	
+3-18	.	O	O	_	_	
+
+#id=4
+#text=First , I look online to find the stop nearest to where my hotel is .
+4-1	First	O	O	_	_	
+4-2	,	O	O	_	_	
+4-3	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	3-4	
+4-4	look	B-MissScrEv	O	_	_	
+4-5	online	O	B-SuppVComp	_	_	
+4-6	to	O	O	_	_	
+4-7	find	B-RelNScrEv	O	_	_	
+4-8	the	O	O	_	_	
+4-9	stop	O	B-ScrPart_bus_stop	_	_	
+4-10	nearest	O	O	_	_	
+4-11	to	O	O	_	_	
+4-12	where	O	O	_	_	
+4-13	my	O	B-ScrPart_passenger	webanno.custom.Corefchains_	4-3	
+4-14	hotel	O	O	_	_	
+4-15	is	B-UnrelEv	O	_	_	
+4-16	.	O	O	_	_	
+
+#id=5
+#text=Then I plan out the stops i want to make .
+5-1	Then	O	O	_	_	
+5-2	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	4-13	
+5-3	plan	B-MissScrEv	O	_	_	
+5-4	out	O	O	_	_	
+5-5	the	O	O	_	_	
+5-6	stops	O	B-NPart	_	_	
+5-7	i	O	B-ScrPart_passenger	webanno.custom.Corefchains_	5-2	
+5-8	want	O	O	_	_	
+5-9	to	O	O	_	_	
+5-10	make	B-UnrelEv	O	_	_	
+5-11	.	O	O	_	_	
+
+#id=6
+#text=Maybe I am going to a museum or the zoo .
+6-1	Maybe	O	O	_	_	
+6-2	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	5-7	
+6-3	am	O	O	_	_	
+6-4	going	B-UnrelEv	O	_	_	
+6-5	to	O	O	_	_	
+6-6	a	O	O	_	_	
+6-7	museum	O	O	_	_	
+6-8	or	O	O	_	_	
+6-9	the	O	O	_	_	
+6-10	zoo	O	O	_	_	
+6-11	.	O	O	_	_	
+
+#id=7
+#text=I find the bus routes that go where I want to go .
+7-1	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	6-2	
+7-2	find	B-MissScrEv	O	_	_	
+7-3	the	O	O	_	_	
+7-4	bus	O	B-MissScrPart	_	_	
+7-5	routes	O	I-MissScrPart|B-MissScrPart	_	_	
+7-6	that	O	O	_	_	
+7-7	go	B-RelNScrEv	O	_	_	
+7-8	where	O	O	_	_	
+7-9	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	7-1	
+7-10	want	O	O	_	_	
+7-11	to	O	O	_	_	
+7-12	go	B-UnrelEv	O	_	_	
+7-13	.	O	O	_	_	
+
+#id=8
+#text=I go to the bus stop and wait for the bus to come along .
+8-1	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	7-9	
+8-2	go	B-ScrEv_get_bus_stop	O	_	_	
+8-3	to	O	O	_	_	
+8-4	the	O	O	_	_	
+8-5	bus	O	B-ScrPart_bus_stop	_	_	
+8-6	stop	O	I-ScrPart_bus_stop|B-ScrPart_bus_stop	_	_	
+8-7	and	O	O	_	_	
+8-8	wait	B-ScrEv_wait	O	_	_	
+8-9	for	O	O	_	_	
+8-10	the	O	O	_	_	
+8-11	bus	O	B-ScrPart_bus	webanno.custom.Corefchains_	3-17	
+8-12	to	O	O	_	_	
+8-13	come	B-ScrEv_bus_comes	O	_	_	
+8-14	along	O	O	_	_	
+8-15	.	O	O	_	_	
+
+#id=9
+#text=Then I hop on and pay my fare .
+9-1	Then	O	O	_	_	
+9-2	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	8-1	
+9-3	hop	B-ScrEv_board_bus|B-ScrEv_board_bus	O	_	_	
+9-4	on	I-ScrEv_board_bus	O	_	_	
+9-5	and	O	O	_	_	
+9-6	pay	B-ScrEv_get_ticket	O	_	_	
+9-7	my	O	B-ScrPart_bus	webanno.custom.Corefchains_	9-2	
+9-8	fare	O	B-MissScrPart	_	_	
+9-9	.	O	O	_	_	
+
+#id=10
+#text=I like to sit by the window and get a good glimpse of the city I am in .
+10-1	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	9-7	
+10-2	like	B-UnrelEv	O	_	_	
+10-3	to	O	O	_	_	
+10-4	sit	B-ScrEv_take_seat	O	_	_	
+10-5	by	O	O	_	_	
+10-6	the	O	O	_	_	
+10-7	window	O	B-MissScrPart	_	_	
+10-8	and	O	O	_	_	
+10-9	get	B-ScrEv_spend_time_bus	O	_	_	
+10-10	a	O	O	_	_	
+10-11	good	O	O	_	_	
+10-12	glimpse	O	B-NPart	_	_	
+10-13	of	O	O	_	_	
+10-14	the	O	O	_	_	
+10-15	city	O	B-NPart	_	_	
+10-16	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	10-1	
+10-17	am	B-UnrelEv	O	_	_	
+10-18	in	O	O	_	_	
+10-19	.	O	O	_	_	
+
+#id=11
+#text=Sometimes I will even see something that catches my eye and I will get off before I planned !
+11-1	Sometimes	O	O	_	_	
+11-2	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	10-16	
+11-3	will	O	O	_	_	
+11-4	even	O	O	_	_	
+11-5	see	B-ScrEv_spend_time_bus	O	_	_	
+11-6	something	O	B-NPart	_	_	
+11-7	that	O	O	_	_	
+11-8	catches	B-UnrelEv	O	_	_	
+11-9	my	O	B-ScrPart_passenger	webanno.custom.Corefchains_	11-2	
+11-10	eye	O	O	_	_	
+11-11	and	O	O	_	_	
+11-12	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	11-9	
+11-13	will	O	O	_	_	
+11-14	get	B-ScrEv_get_off|B-ScrEv_get_off	O	_	_	
+11-15	off	I-ScrEv_get_off	O	_	_	
+11-16	before	O	O	_	_	
+11-17	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	11-12	
+11-18	planned	B-UnrelEv	O	_	_	
+11-19	!	O	O	_	_	
+
+#id=12
+#text=When it 's time for me to depart , I pull the cord and let the driver know I want to get off .
+12-1	When	O	O	_	_	
+12-2	it	O	O	_	_	
+12-3	's	B-UnrelEv	O	_	_	
+12-4	time	O	O	_	_	
+12-5	for	O	O	_	_	
+12-6	me	O	B-ScrPart_passenger	webanno.custom.Corefchains_	11-17	
+12-7	to	O	O	_	_	
+12-8	depart	B-RelNScrEv	O	_	_	
+12-9	,	O	O	_	_	
+12-10	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	12-6	
+12-11	pull	B-ScrEv_press_stop_button	O	_	_	
+12-12	the	O	O	_	_	
+12-13	cord	O	B-ScrPart_stop_button/door_opener	_	_	
+12-14	and	O	O	_	_	
+12-15	let	B-UnrelEv	O	_	_	
+12-16	the	O	O	_	_	
+12-17	driver	O	B-ScrPart_bus_staff	_	_	
+12-18	know	B-RelNScrEv	O	_	_	
+12-19	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	12-10	
+12-20	want	B-UnrelEv	O	_	_	
+12-21	to	O	O	_	_	
+12-22	get	B-ScrEv_get_off|B-ScrEv_get_off	O	_	_	
+12-23	off	I-ScrEv_get_off	O	_	_	
+12-24	.	O	O	_	_	
+
+#id=13
+#text=Then I get off at the next opportunity and continue on with my day without needing to deal with parking ! 
+13-1	Then	O	O	_	_	
+13-2	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	12-19	
+13-3	get	B-ScrEv_get_off|B-ScrEv_get_off	O	_	_	
+13-4	off	I-ScrEv_get_off	O	_	_	
+13-5	at	O	O	_	_	
+13-6	the	O	O	_	_	
+13-7	next	O	O	_	_	
+13-8	opportunity	O	B-NPart	_	_	
+13-9	and	O	O	_	_	
+13-10	continue	B-UnrelEv	O	_	_	
+13-11	on	O	O	_	_	
+13-12	with	O	O	_	_	
+13-13	my	O	B-ScrPart_passenger	webanno.custom.Corefchains_	13-2	
+13-14	day	O	O	_	_	
+13-15	without	O	O	_	_	
+13-16	needing	B-UnrelEv	O	_	_	
+13-17	to	O	O	_	_	
+13-18	deal	B-UnrelEv|B-UnrelEv	O	_	_	
+13-19	with	I-UnrelEv	O	_	_	
+13-20	parking	B-UnrelEv	O	_	_	
+13-21	!	O	O	_	_	
+

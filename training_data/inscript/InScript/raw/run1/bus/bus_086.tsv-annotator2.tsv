@@ -1,0 +1,217 @@
+ # webanno.custom.Eventsandparticipants | Event # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=When riding a public bus , I usually feel anxious so I try not to do it too often .
+1-1	When	O	O	_	_	
+1-2	riding	B-Evoking	O	_	_	
+1-3	a	I-Evoking	O	_	_	
+1-4	public	I-Evoking	O	_	_	
+1-5	bus	I-Evoking	B-ScrPart_bus	_	_	
+1-6	,	O	O	_	_	
+1-7	I	O	B-ScrPart_passenger	_	_	
+1-8	usually	O	O	_	_	
+1-9	feel	B-UnrelEv	O	_	_	
+1-10	anxious	O	O	_	_	
+1-11	so	O	O	_	_	
+1-12	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	1-7	
+1-13	try	O	O	_	_	
+1-14	not	O	O	_	_	
+1-15	to	O	O	_	_	
+1-16	do	B-UnrelEv	O	_	_	
+1-17	it	O	O	_	_	
+1-18	too	O	O	_	_	
+1-19	often	O	O	_	_	
+1-20	.	O	O	_	_	
+
+#id=2
+#text=I wait at the bus stop until the bus I am looking to board arrives .
+2-1	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	1-12	
+2-2	wait	B-ScrEv_wait	O	_	_	
+2-3	at	O	O	_	_	
+2-4	the	O	O	_	_	
+2-5	bus	O	B-ScrPart_bus_stop	_	_	
+2-6	stop	O	I-ScrPart_bus_stop|B-ScrPart_bus_stop	_	_	
+2-7	until	O	O	_	_	
+2-8	the	O	O	_	_	
+2-9	bus	O	B-ScrPart_bus	webanno.custom.Corefchains_	1-5	
+2-10	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	2-1	
+2-11	am	O	O	_	_	
+2-12	looking	O	O	_	_	
+2-13	to	O	O	_	_	
+2-14	board	B-ScrEv_board_bus	O	_	_	
+2-15	arrives	B-ScrEv_bus_comes	O	_	_	
+2-16	.	O	O	_	_	
+
+#id=3
+#text=I usually walk to the bus stop .
+3-1	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	2-10	
+3-2	usually	O	O	_	_	
+3-3	walk	B-ScrEv_get_bus_stop	O	_	_	
+3-4	to	O	O	_	_	
+3-5	the	O	O	_	_	
+3-6	bus	O	B-ScrPart_bus_stop	_	_	
+3-7	stop	O	I-ScrPart_bus_stop|B-ScrPart_bus_stop	webanno.custom.Corefchains_	2-6	
+3-8	.	O	O	_	_	
+
+#id=4
+#text=When the bus arrives , i pay the fare and it .
+4-1	When	O	O	_	_	
+4-2	the	O	O	_	_	
+4-3	bus	O	B-ScrPart_bus	webanno.custom.Corefchains_	2-9	
+4-4	arrives	B-ScrEv_board_bus	O	_	_	
+4-5	,	O	O	_	_	
+4-6	i	O	B-ScrPart_passenger	webanno.custom.Corefchains_	3-1	
+4-7	pay	B-ScrEv_get_ticket	O	_	_	
+4-8	the	O	O	_	_	
+4-9	fare	O	B-ScrPart_money	_	_	
+4-10	and	O	O	_	_	
+4-11	it	O	O	_	_	
+4-12	.	O	O	_	_	
+
+#id=5
+#text=I usually hope that the bus will not be too full , since I do not like to sit with strangers .
+5-1	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	4-6	
+5-2	usually	O	O	_	_	
+5-3	hope	B-UnrelEv	O	_	_	
+5-4	that	O	O	_	_	
+5-5	the	O	O	_	_	
+5-6	bus	O	B-ScrPart_bus	webanno.custom.Corefchains_	4-3	
+5-7	will	O	O	_	_	
+5-8	not	O	O	_	_	
+5-9	be	B-UnrelEv	O	_	_	
+5-10	too	O	O	_	_	
+5-11	full	O	O	_	_	
+5-12	,	O	O	_	_	
+5-13	since	O	O	_	_	
+5-14	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	5-1	
+5-15	do	O	O	_	_	
+5-16	not	O	O	_	_	
+5-17	like	B-UnrelEv	O	_	_	
+5-18	to	O	O	_	_	
+5-19	sit	B-ScrEv_spend_time_bus	O	_	_	
+5-20	with	O	O	_	_	
+5-21	strangers	O	B-ScrPart_passenger	_	_	
+5-22	.	O	O	_	_	
+
+#id=6
+#text=Hopefully I can sit somewhere by myself .
+6-1	Hopefully	O	O	_	_	
+6-2	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	5-14	
+6-3	can	O	O	_	_	
+6-4	sit	B-ScrEv_spend_time_bus	O	_	_	
+6-5	somewhere	O	O	_	_	
+6-6	by	O	O	_	_	
+6-7	myself	O	B-ScrPart_passenger	webanno.custom.Corefchains_	6-2	
+6-8	.	O	O	_	_	
+
+#id=7
+#text=I sit down and usually put on some headphones so that no one tried to have a conversation with my .
+7-1	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	6-7	
+7-2	sit	B-ScrEv_find_place	O	_	_	
+7-3	down	I-ScrEv_find_place	O	_	_	
+7-4	and	O	O	_	_	
+7-5	usually	O	O	_	_	
+7-6	put	B-ScrEv_spend_time_bus	O	_	_	
+7-7	on	I-ScrEv_spend_time_bus	O	_	_	
+7-8	some	O	O	_	_	
+7-9	headphones	O	B-ScrPart_in-bus_entertainment	_	_	
+7-10	so	O	O	_	_	
+7-11	that	O	O	_	_	
+7-12	no	O	O	_	_	
+7-13	one	O	O	_	_	
+7-14	tried	O	O	_	_	
+7-15	to	O	O	_	_	
+7-16	have	B-ScrEv_spend_time_bus	O	_	_	
+7-17	a	O	O	_	_	
+7-18	conversation	O	B-SuppVComp	_	_	
+7-19	with	O	O	_	_	
+7-20	my	O	B-ScrPart_passenger	webanno.custom.Corefchains_	7-1	
+7-21	.	O	O	_	_	
+
+#id=8
+#text=Hopefully I was able to secure a window seat so I stare out the window while I wait to get to my destination .
+8-1	Hopefully	O	O	_	_	
+8-2	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	7-20	
+8-3	was	O	O	_	_	
+8-4	able	O	O	_	_	
+8-5	to	O	O	_	_	
+8-6	secure	B-ScrEv_find_place	O	_	_	
+8-7	a	O	O	_	_	
+8-8	window	O	B-ScrPart_seat_in_bus	_	_	
+8-9	seat	O	I-ScrPart_seat_in_bus|B-ScrPart_seat_in_bus	_	_	
+8-10	so	O	O	_	_	
+8-11	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	8-2	
+8-12	stare	B-ScrEv_spend_time_bus	O	_	_	
+8-13	out	O	O	_	_	
+8-14	the	O	O	_	_	
+8-15	window	O	B-NPart	_	_	
+8-16	while	O	O	_	_	
+8-17	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	8-11	
+8-18	wait	B-ScrEv_spend_time_bus	O	_	_	
+8-19	to	O	O	_	_	
+8-20	get	B-RelNScrEv	O	_	_	
+8-21	to	O	O	_	_	
+8-22	my	O	B-ScrPart_passenger	webanno.custom.Corefchains_	8-17	
+8-23	destination	O	B-ScrPart_destination	_	_	
+8-24	.	O	O	_	_	
+
+#id=9
+#text=I use a lot of hand sanitizer since buses skeeve me out .
+9-1	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	8-22	
+9-2	use	B-UnrelEv	O	_	_	
+9-3	a	O	O	_	_	
+9-4	lot	O	O	_	_	
+9-5	of	O	O	_	_	
+9-6	hand	O	O	_	_	
+9-7	sanitizer	O	O	_	_	
+9-8	since	O	O	_	_	
+9-9	buses	O	B-ScrPart_bus	webanno.custom.Corefchains_	5-6	
+9-10	skeeve	B-UnrelEv	O	_	_	
+9-11	me	O	B-ScrPart_passenger	webanno.custom.Corefchains_	9-1	
+9-12	out	O	O	_	_	
+9-13	.	O	O	_	_	
+
+#id=10
+#text=If i 'm going to be on the bus for a long time , I will use a antibacterial wipe to clean around me .
+10-1	If	O	O	_	_	
+10-2	i	O	B-ScrPart_passenger	webanno.custom.Corefchains_	9-11	
+10-3	'm	O	O	_	_	
+10-4	going	O	O	_	_	
+10-5	to	O	O	_	_	
+10-6	be	B-ScrEv_spend_time_bus	O	_	_	
+10-7	on	O	O	_	_	
+10-8	the	O	O	_	_	
+10-9	bus	O	B-ScrPart_bus	webanno.custom.Corefchains_	9-9	
+10-10	for	O	O	_	_	
+10-11	a	O	O	_	_	
+10-12	long	O	O	_	_	
+10-13	time	O	B-ScrPart_time/date	_	_	
+10-14	,	O	O	_	_	
+10-15	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	10-2	
+10-16	will	O	O	_	_	
+10-17	use	B-UnrelEv	O	_	_	
+10-18	a	O	O	_	_	
+10-19	antibacterial	O	O	_	_	
+10-20	wipe	O	O	_	_	
+10-21	to	O	O	_	_	
+10-22	clean	B-UnrelEv	O	_	_	
+10-23	around	O	O	_	_	
+10-24	me	O	B-ScrPart_passenger	webanno.custom.Corefchains_	10-15	
+10-25	.	O	O	_	_	
+
+#id=11
+#text=When we get to my destination I will be very relieve and leave . 
+11-1	When	O	O	_	_	
+11-2	we	O	B-ScrPart_passenger	_	_	
+11-3	get	B-ScrEv_bus_stops	O	_	_	
+11-4	to	O	O	_	_	
+11-5	my	O	B-ScrPart_passenger	webanno.custom.Corefchains_|group_I_passengers	10-24|11-2	
+11-6	destination	O	B-ScrPart_destination	_	_	
+11-7	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	11-5	
+11-8	will	O	O	_	_	
+11-9	be	B-UnrelEv	O	_	_	
+11-10	very	O	O	_	_	
+11-11	relieve	O	O	_	_	
+11-12	and	O	O	_	_	
+11-13	leave	B-RelNScrEv	O	_	_	
+11-14	.	O	O	_	_	
+

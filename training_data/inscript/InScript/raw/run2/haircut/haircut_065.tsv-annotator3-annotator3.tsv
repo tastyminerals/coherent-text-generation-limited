@@ -1,0 +1,203 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=I usually get a haircut every few months to maintain .
+1-1	I	B-ScrPart_customer	O	
+1-2	usually	O	O	
+1-3	get	O	B-Evoking	
+1-4	a	O	I-Evoking	
+1-5	haircut	B-ScrPart_haircut	I-Evoking	
+1-6	every	O	O	
+1-7	few	O	O	
+1-8	months	B-ScrPart_time/date	O	
+1-9	to	O	O	
+1-10	maintain	O	B-UnrelEv	
+1-11	.	O	O	
+
+#id=2
+#text=I choose a day where I have time to relax and will reserve an appointment at my favorite salon and with my favorite stylist to get my haircut .
+2-1	I	B-ScrPart_customer	O	
+2-2	choose	O	B-UnrelEv	
+2-3	a	O	O	
+2-4	day	B-ScrPart_time/date	O	
+2-5	where	O	O	
+2-6	I	B-ScrPart_customer	O	
+2-7	have	O	B-UnrelEv	
+2-8	time	B-ScrPart_time/date	O	
+2-9	to	O	O	
+2-10	relax	O	B-UnrelEv	
+2-11	and	O	O	
+2-12	will	O	O	
+2-13	reserve	O	B-ScrEv_make_appointment	
+2-14	an	O	O	
+2-15	appointment	B-ScrPart_appointment	O	
+2-16	at	O	O	
+2-17	my	B-ScrPart_customer	O	
+2-18	favorite	O	O	
+2-19	salon	B-ScrPart_salon	O	
+2-20	and	O	O	
+2-21	with	O	O	
+2-22	my	B-ScrPart_customer	O	
+2-23	favorite	O	O	
+2-24	stylist	B-ScrPart_hairdresser	O	
+2-25	to	O	O	
+2-26	get	O	B-Evoking	
+2-27	my	B-ScrPart_customer	I-Evoking	
+2-28	haircut	B-ScrPart_haircut	I-Evoking	
+2-29	.	O	O	
+
+#id=3
+#text=I arrive at my salon and was greeted nicely .
+3-1	I	B-ScrPart_customer	O	
+3-2	arrive	O	B-ScrEv_get_salon	
+3-3	at	O	O	
+3-4	my	B-ScrPart_customer	O	
+3-5	salon	B-ScrPart_salon	O	
+3-6	and	O	O	
+3-7	was	O	O	
+3-8	greeted	O	B-RelNScrEv	
+3-9	nicely	O	O	
+3-10	.	O	O	
+
+#id=4
+#text=I hang my jacket in their closet .
+4-1	I	B-ScrPart_customer	O	
+4-2	hang	O	B-ScrEv_put_coat	
+4-3	my	B-ScrPart_customer	O	
+4-4	jacket	B-ScrPart_coat	O	
+4-5	in	O	O	
+4-6	their	B-ScrPart_salon	O	
+4-7	closet	B-NPart	O	
+4-8	.	O	O	
+
+#id=5
+#text=I start my getting a hair wash .
+5-1	I	B-ScrPart_customer	O	
+5-2	start	O	B-UnrelEv	
+5-3	my	B-ScrPart_customer	O	
+5-4	getting	O	B-ScrEv_wash	
+5-5	a	O	O	
+5-6	hair	B-ScrPart_other	O	
+5-7	wash	I-ScrPart_other|B-ScrPart_other	O	
+5-8	.	O	O	
+
+#id=6
+#text=I sit and relax as they massage and wash my hair with very fragrant shampoos and conditioners .
+6-1	I	B-ScrPart_customer	O	
+6-2	sit	O	B-ScrEv_sit_down	
+6-3	and	O	O	
+6-4	relax	O	B-UnrelEv	
+6-5	as	O	O	
+6-6	they	B-ScrPart_hairdresser	O	
+6-7	massage	O	B-ScrEv_scalp_massage	
+6-8	and	O	O	
+6-9	wash	O	B-ScrEv_wash	
+6-10	my	B-ScrPart_customer	O	
+6-11	hair	B-ScrPart_hair	O	
+6-12	with	O	O	
+6-13	very	O	O	
+6-14	fragrant	O	O	
+6-15	shampoos	B-ScrPart_hair_styling/treatment	O	
+6-16	and	O	O	
+6-17	conditioners	B-ScrPart_hair_styling/treatment	O	
+6-18	.	O	O	
+
+#id=7
+#text=After the hair wash I go sit in the chair of my favorite stylist .
+7-1	After	O	O	
+7-2	the	O	O	
+7-3	hair	B-ScrPart_other	O	
+7-4	wash	I-ScrPart_other|B-ScrPart_other	O	
+7-5	I	B-ScrPart_customer	O	
+7-6	go	O	B-UnrelEv	
+7-7	sit	O	B-ScrEv_sit_down	
+7-8	in	O	O	
+7-9	the	O	O	
+7-10	chair	B-ScrPart_chair	O	
+7-11	of	O	O	
+7-12	my	B-ScrPart_customer	O	
+7-13	favorite	O	O	
+7-14	stylist	B-ScrPart_hairdresser	O	
+7-15	.	O	O	
+
+#id=8
+#text=He greets me with a smile and asks me what kind of haircut would I like this time and I had said just a trim .
+8-1	He	B-ScrPart_hairdresser	O	
+8-2	greets	O	B-ScrEv_small_talk	
+8-3	me	B-ScrPart_customer	O	
+8-4	with	O	O	
+8-5	a	O	O	
+8-6	smile	B-NPart	O	
+8-7	and	O	O	
+8-8	asks	O	B-ScrEv_talk_haircut	
+8-9	me	B-ScrPart_customer	O	
+8-10	what	O	O	
+8-11	kind	B-NPart	O	
+8-12	of	O	O	
+8-13	haircut	B-ScrPart_haircut	O	
+8-14	would	O	O	
+8-15	I	B-ScrPart_customer	O	
+8-16	like	O	B-RelNScrEv	
+8-17	this	O	O	
+8-18	time	B-ScrPart_time/date	O	
+8-19	and	O	O	
+8-20	I	B-ScrPart_customer	O	
+8-21	had	O	O	
+8-22	said	O	B-ScrEv_talk_haircut	
+8-23	just	O	O	
+8-24	a	O	O	
+8-25	trim	B-ScrPart_haircut	O	
+8-26	.	O	O	
+
+#id=9
+#text=He blows my hair dry first and cuts my hair nicely as always and then ends it by styling it with some hair product .
+9-1	He	B-ScrPart_hairdresser	O	
+9-2	blows	O	B-ScrEv_dry	
+9-3	my	B-ScrPart_customer	O	
+9-4	hair	B-ScrPart_hair	O	
+9-5	dry	O	O	
+9-6	first	O	O	
+9-7	and	O	O	
+9-8	cuts	O	B-ScrEv_cut	
+9-9	my	B-ScrPart_customer	O	
+9-10	hair	B-ScrPart_hair	O	
+9-11	nicely	O	O	
+9-12	as	O	O	
+9-13	always	O	O	
+9-14	and	O	O	
+9-15	then	O	O	
+9-16	ends	O	B-UnrelEv	
+9-17	it	B-NPart	O	
+9-18	by	O	O	
+9-19	styling	O	B-ScrEv_make_hair_style	
+9-20	it	B-ScrPart_hair	O	
+9-21	with	O	O	
+9-22	some	O	O	
+9-23	hair	B-ScrPart_hair_styling/treatment	O	
+9-24	product	I-ScrPart_hair_styling/treatment|B-ScrPart_hair_styling/treatment	O	
+9-25	.	O	O	
+
+#id=10
+#text=I pay the cashier and tip my stylist well .
+10-1	I	B-ScrPart_customer	O	
+10-2	pay	O	B-ScrEv_pay	
+10-3	the	O	O	
+10-4	cashier	B-ScrPart_staff	O	
+10-5	and	O	O	
+10-6	tip	O	B-ScrEv_leave_tip	
+10-7	my	B-ScrPart_customer	O	
+10-8	stylist	B-ScrPart_hairdresser	O	
+10-9	well	O	O	
+10-10	.	O	O	
+
+#id=11
+#text=I leave the salon with nice salon hair . 
+11-1	I	B-ScrPart_customer	O	
+11-2	leave	O	B-ScrEv_leave	
+11-3	the	O	O	
+11-4	salon	B-ScrPart_salon	O	
+11-5	with	O	O	
+11-6	nice	O	O	
+11-7	salon	B-ScrPart_location_salon	O	
+11-8	hair	B-ScrPart_hair	O	
+11-9	.	O	O	
+

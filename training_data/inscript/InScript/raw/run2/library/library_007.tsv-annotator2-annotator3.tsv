@@ -1,0 +1,241 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=Today I took a trip to the library .
+1-1	Today	B-No_label	O	
+1-2	I	B-ScrPart_customer	O	
+1-3	took	O	B-ScrEv_get_library	
+1-4	a	O	O	
+1-5	trip	B-SuppVComp	O	
+1-6	to	O	O	
+1-7	the	O	O	
+1-8	library	B-ScrPart_library	O	
+1-9	.	O	O	
+
+#id=2
+#text=The library is so much fun because there are so many different books to see there .
+2-1	The	O	O	
+2-2	library	B-ScrPart_library	O	
+2-3	is	O	B-UnrelEv	
+2-4	so	O	O	
+2-5	much	O	O	
+2-6	fun	B-NPart	O	
+2-7	because	O	O	
+2-8	there	O	O	
+2-9	are	O	B-UnrelEv	
+2-10	so	O	O	
+2-11	many	O	O	
+2-12	different	O	O	
+2-13	books	B-ScrPart_book	O	
+2-14	to	O	O	
+2-15	see	O	B-RelNScrEv	
+2-16	there	B-ScrPart_library	O	
+2-17	.	O	O	
+
+#id=3
+#text=When I got to the library I walked up and down the aisles looking for the perfect book for me .
+3-1	When	O	O	
+3-2	I	B-ScrPart_customer	O	
+3-3	got	O	B-ScrEv_get_library	
+3-4	to	O	O	
+3-5	the	O	O	
+3-6	library	B-ScrPart_library	O	
+3-7	I	B-ScrPart_customer	O	
+3-8	walked	O	B-RelNScrEv	
+3-9	up	O	O	
+3-10	and	O	O	
+3-11	down	O	O	
+3-12	the	O	O	
+3-13	aisles	B-ScrPart_location_library	O	
+3-14	looking	O	B-ScrEv_look_for_book	
+3-15	for	O	O	
+3-16	the	O	O	
+3-17	perfect	O	O	
+3-18	book	B-ScrPart_book	O	
+3-19	for	O	O	
+3-20	me	B-ScrPart_customer	O	
+3-21	.	O	O	
+
+#id=4
+#text=I wanted to read a book about horses or basketball .
+4-1	I	B-ScrPart_customer	O	
+4-2	wanted	O	O	
+4-3	to	O	O	
+4-4	read	O	B-RelNScrEv	
+4-5	a	O	O	
+4-6	book	B-ScrPart_book	O	
+4-7	about	O	O	
+4-8	horses	B-NPart	O	
+4-9	or	O	O	
+4-10	basketball	B-NPart	O	
+4-11	.	O	O	
+
+#id=5
+#text=I asked the librarian to help me find one .
+5-1	I	B-ScrPart_customer	O	
+5-2	asked	O	B-ScrEv_ask_librarian	
+5-3	the	O	O	
+5-4	librarian	B-ScrPart_staff	O	
+5-5	to	O	O	
+5-6	help	O	B-RelNScrEv	
+5-7	me	B-ScrPart_customer	O	
+5-8	find	O	B-ScrEv_look_for_book	
+5-9	one	B-ScrPart_book	O	
+5-10	.	O	O	
+
+#id=6
+#text=She looked on her computer and found a great book about horses but it had already been taken home by someone else .
+6-1	She	B-ScrPart_staff	O	
+6-2	looked	O	B-ScrEv_use_computer	
+6-3	on	O	O	
+6-4	her	B-ScrPart_staff	O	
+6-5	computer	B-ScrPart_institutional_devices	O	
+6-6	and	O	O	
+6-7	found	O	B-RelNScrEv	
+6-8	a	O	O	
+6-9	great	O	O	
+6-10	book	B-ScrPart_book	O	
+6-11	about	O	O	
+6-12	horses	B-NPart	O	
+6-13	but	O	O	
+6-14	it	B-ScrPart_book	O	
+6-15	had	O	O	
+6-16	already	O	O	
+6-17	been	O	O	
+6-18	taken	O	B-RelNScrEv	
+6-19	home	B-No_label	O	
+6-20	by	O	O	
+6-21	someone	B-ScrPart_customer	O	
+6-22	else	O	O	
+6-23	.	O	O	
+
+#id=7
+#text=So she looked again and found a cool book about basketball .
+7-1	So	O	O	
+7-2	she	B-ScrPart_staff	O	
+7-3	looked	O	B-ScrEv_use_computer	
+7-4	again	O	O	
+7-5	and	O	O	
+7-6	found	O	B-RelNScrEv	
+7-7	a	O	O	
+7-8	cool	O	O	
+7-9	book	B-ScrPart_book	O	
+7-10	about	O	O	
+7-11	basketball	B-NPart	O	
+7-12	.	O	O	
+
+#id=8
+#text=She went with me to the shelf and helped me find the book .
+8-1	She	B-ScrPart_staff	O	
+8-2	went	O	B-ScrEv_get_shelf	
+8-3	with	O	O	
+8-4	me	B-ScrPart_customer	O	
+8-5	to	O	O	
+8-6	the	O	O	
+8-7	shelf	B-ScrPart_shelf	O	
+8-8	and	O	O	
+8-9	helped	O	B-RelNScrEv	
+8-10	me	B-ScrPart_customer	O	
+8-11	find	O	B-RelNScrEv	
+8-12	the	O	O	
+8-13	book	B-ScrPart_book	O	
+8-14	.	O	O	
+
+#id=9
+#text=After I got the book off of the shelf , I took it over to the counter and gave it to a lady behind the desk .
+9-1	After	O	O	
+9-2	I	B-ScrPart_customer	O	
+9-3	got	O	B-ScrEv_take_book	
+9-4	the	O	O	
+9-5	book	B-ScrPart_book	O	
+9-6	off	O	O	
+9-7	of	O	O	
+9-8	the	O	O	
+9-9	shelf	B-ScrPart_shelf	O	
+9-10	,	O	O	
+9-11	I	B-ScrPart_customer	O	
+9-12	took	O	B-ScrEv_go_check_out	
+9-13	it	B-ScrPart_book	O	
+9-14	over	O	O	
+9-15	to	O	O	
+9-16	the	O	O	
+9-17	counter	B-ScrPart_check-out_desk	O	
+9-18	and	O	O	
+9-19	gave	O	B-RelNScrEv	
+9-20	it	B-ScrPart_book	O	
+9-21	to	O	O	
+9-22	a	O	O	
+9-23	lady	B-ScrPart_staff	O	
+9-24	behind	O	O	
+9-25	the	O	O	
+9-26	desk	B-ScrPart_check-out_desk	O	
+9-27	.	O	O	
+
+#id=10
+#text=She asked for my library card .
+10-1	She	B-ScrPart_staff	O	
+10-2	asked	O	B-RelNScrEv	
+10-3	for	O	O	
+10-4	my	B-ScrPart_customer	O	
+10-5	library	B-ScrPart_library_card	O	
+10-6	card	I-ScrPart_library_card|B-ScrPart_library_card	O	
+10-7	.	O	O	
+
+#id=11
+#text=I gave her the card and she scanned it and my book .
+11-1	I	B-ScrPart_customer	O	
+11-2	gave	O	B-ScrEv_show_card	
+11-3	her	B-ScrPart_staff	O	
+11-4	the	O	O	
+11-5	card	B-ScrPart_library_card	O	
+11-6	and	O	O	
+11-7	she	B-ScrPart_staff	O	
+11-8	scanned	O	B-ScrEv_register	
+11-9	it	B-ScrPart_library_card	O	
+11-10	and	O	O	
+11-11	my	B-ScrPart_customer	O	
+11-12	book	B-ScrPart_book	O	
+11-13	.	O	O	
+
+#id=12
+#text=Then she gave me a slip of paper that said I needed to bring the book back in two weeks .
+12-1	Then	O	O	
+12-2	she	B-ScrPart_staff	O	
+12-3	gave	O	B-ScrEv_get_receipt	
+12-4	me	B-ScrPart_customer	O	
+12-5	a	O	O	
+12-6	slip	B-ScrPart_receipt	O	
+12-7	of	O	O	
+12-8	paper	B-ScrPart_receipt	O	
+12-9	that	O	O	
+12-10	said	O	B-UnrelEv	
+12-11	I	B-ScrPart_customer	O	
+12-12	needed	O	O	
+12-13	to	O	O	
+12-14	bring	O	B-RelNScrEv	
+12-15	the	O	O	
+12-16	book	B-ScrPart_book	O	
+12-17	back	O	O	
+12-18	in	O	O	
+12-19	two	O	O	
+12-20	weeks	B-NPart	O	
+12-21	.	O	O	
+
+#id=13
+#text=I was very excited to leave the library with a book to read about basketball ! 
+13-1	I	B-ScrPart_customer	O	
+13-2	was	O	B-UnrelEv	
+13-3	very	O	O	
+13-4	excited	O	O	
+13-5	to	O	O	
+13-6	leave	O	B-ScrEv_leave	
+13-7	the	O	O	
+13-8	library	B-ScrPart_library	O	
+13-9	with	O	O	
+13-10	a	O	O	
+13-11	book	B-ScrPart_book	O	
+13-12	to	O	O	
+13-13	read	O	B-RelNScrEv	
+13-14	about	O	O	
+13-15	basketball	B-NPart	O	
+13-16	!	O	O	
+

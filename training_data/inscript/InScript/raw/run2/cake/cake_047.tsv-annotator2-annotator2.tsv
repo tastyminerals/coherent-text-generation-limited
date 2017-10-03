@@ -1,0 +1,241 @@
+ # webanno.custom.Participants | Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=Yesterday was my mom 's birthday .
+1-1	Yesterday	B-NPart	B-webanno.custom.Participants_	O	
+1-2	was	O	O	B-UnrelEv	
+1-3	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+1-4	mom	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	
+1-5	's	O	O	O	
+1-6	birthday	B-NPart	B-webanno.custom.Participants_	O	
+1-7	.	O	O	O	
+
+#id=2
+#text=I wanted to do something special for her , so I decided to bake a cake from scratch .
+2-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+2-2	wanted	O	O	B-UnrelEv	
+2-3	to	O	O	O	
+2-4	do	O	O	B-UnrelEv	
+2-5	something	B-No_label	B-webanno.custom.Participants_	O	
+2-6	special	O	O	O	
+2-7	for	O	O	O	
+2-8	her	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	
+2-9	,	O	O	O	
+2-10	so	O	O	O	
+2-11	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+2-12	decided	O	O	B-UnrelEv	
+2-13	to	O	O	O	
+2-14	bake	O	O	B-Evoking	
+2-15	a	O	O	I-Evoking	
+2-16	cake	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	
+2-17	from	O	O	O	
+2-18	scratch	B-No_label	B-webanno.custom.Participants_	O	
+2-19	.	O	O	O	
+
+#id=3
+#text=I preheated my oven so it was nice and warm by the time i was done preparing the cake batter .
+3-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+3-2	preheated	O	O	B-ScrEv_preheat	
+3-3	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+3-4	oven	B-ScrPart_oven	B-webanno.custom.Participants_	O	
+3-5	so	O	O	O	
+3-6	it	B-ScrPart_oven	B-webanno.custom.Participants_	O	
+3-7	was	O	O	B-UnrelEv	
+3-8	nice	O	O	O	
+3-9	and	O	O	O	
+3-10	warm	O	O	O	
+3-11	by	O	O	O	
+3-12	the	O	O	O	
+3-13	time	B-NPart	B-webanno.custom.Participants_	O	
+3-14	i	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+3-15	was	O	O	O	
+3-16	done	O	O	B-UnrelEv	
+3-17	preparing	O	O	B-ScrEv_make_dough	
+3-18	the	O	O	O	
+3-19	cake	B-ScrPart_dough	B-webanno.custom.Participants_	O	
+3-20	batter	I-ScrPart_dough|B-ScrPart_dough	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+3-21	.	O	O	O	
+
+#id=4
+#text=Then , I gathered all the necessary ingredients for baking a cake .
+4-1	Then	O	O	O	
+4-2	,	O	O	O	
+4-3	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+4-4	gathered	O	O	B-ScrEv_get_ingridients	
+4-5	all	O	O	O	
+4-6	the	O	O	O	
+4-7	necessary	O	O	O	
+4-8	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+4-9	for	O	O	O	
+4-10	baking	O	O	B-Evoking	
+4-11	a	O	O	I-Evoking	
+4-12	cake	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	
+4-13	.	O	O	O	
+
+#id=5
+#text=There are a lot of ingredients so I wo n't get into much detail about what went into it .
+5-1	There	O	O	O	
+5-2	are	O	O	B-UnrelEv	
+5-3	a	O	O	O	
+5-4	lot	B-No_label	B-webanno.custom.Participants_	O	
+5-5	of	O	O	O	
+5-6	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+5-7	so	O	O	O	
+5-8	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+5-9	wo	O	O	O	
+5-10	n't	O	O	O	
+5-11	get	O	O	B-UnrelEv	
+5-12	into	O	O	I-UnrelEv	
+5-13	much	O	O	O	
+5-14	detail	B-NPart	B-webanno.custom.Participants_	O	
+5-15	about	O	O	O	
+5-16	what	O	O	O	
+5-17	went	O	O	B-UnrelEv	
+5-18	into	O	O	I-UnrelEv	
+5-19	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+5-20	.	O	O	O	
+
+#id=6
+#text=After gathering all the cake ingredients , now it was time to mix them together .
+6-1	After	O	O	O	
+6-2	gathering	O	O	B-ScrEv_get_ingridients	
+6-3	all	O	O	O	
+6-4	the	O	O	O	
+6-5	cake	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+6-6	ingredients	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+6-7	,	O	O	O	
+6-8	now	O	O	O	
+6-9	it	B-No_label	B-webanno.custom.Participants_	O	
+6-10	was	O	O	B-UnrelEv	
+6-11	time	B-No_label	B-webanno.custom.Participants_	O	
+6-12	to	O	O	O	
+6-13	mix	O	O	B-ScrEv_prepare_ingridients	
+6-14	them	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+6-15	together	O	O	O	
+6-16	.	O	O	O	
+
+#id=7
+#text=I got the largest bowl in my house and put all of the dry ingredients in it .
+7-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+7-2	got	O	O	B-ScrEv_get_utensils	
+7-3	the	O	O	O	
+7-4	largest	O	O	O	
+7-5	bowl	B-ScrPart_utensil	B-webanno.custom.Participants_	O	
+7-6	in	O	O	O	
+7-7	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+7-8	house	B-ScrPart_kitchen/location	B-webanno.custom.Participants_	O	
+7-9	and	O	O	O	
+7-10	put	O	O	B-ScrEv_add_ingridients	
+7-11	all	O	O	O	
+7-12	of	O	O	O	
+7-13	the	O	O	O	
+7-14	dry	O	O	O	
+7-15	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+7-16	in	O	O	O	
+7-17	it	B-ScrPart_utensil	B-webanno.custom.Participants_	O	
+7-18	.	O	O	O	
+
+#id=8
+#text=Then , in a separate bowl , I mixed together all of the wet ingredients .
+8-1	Then	O	O	O	
+8-2	,	O	O	O	
+8-3	in	O	O	O	
+8-4	a	O	O	O	
+8-5	separate	O	O	O	
+8-6	bowl	B-ScrPart_utensil	B-webanno.custom.Participants_	O	
+8-7	,	O	O	O	
+8-8	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+8-9	mixed	O	O	B-ScrEv_prepare_ingridients	
+8-10	together	O	O	O	
+8-11	all	O	O	O	
+8-12	of	O	O	O	
+8-13	the	O	O	O	
+8-14	wet	O	O	O	
+8-15	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+8-16	.	O	O	O	
+
+#id=9
+#text=Then i combined the wet and dry ingredients into the large bowl , and began to beat them until it was well blended .
+9-1	Then	O	O	O	
+9-2	i	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+9-3	combined	O	O	B-ScrEv_add_ingridients	
+9-4	the	O	O	O	
+9-5	wet	O	O	O	
+9-6	and	O	O	O	
+9-7	dry	O	O	O	
+9-8	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+9-9	into	O	O	O	
+9-10	the	O	O	O	
+9-11	large	O	O	O	
+9-12	bowl	B-ScrPart_utensil	B-webanno.custom.Participants_	O	
+9-13	,	O	O	O	
+9-14	and	O	O	O	
+9-15	began	O	O	O	
+9-16	to	O	O	O	
+9-17	beat	O	O	B-ScrEv_make_dough	
+9-18	them	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+9-19	until	O	O	O	
+9-20	it	B-ScrPart_dough	B-webanno.custom.Participants_	O	
+9-21	was	O	O	O	
+9-22	well	O	O	O	
+9-23	blended	O	O	B-ScrEv_make_dough	
+9-24	.	O	O	O	
+
+#id=10
+#text=I poured the cake batter into a cake pan and put the cake in the oven for 30 minutes .
+10-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+10-2	poured	O	O	B-ScrEv_pour_dough	
+10-3	the	O	O	O	
+10-4	cake	B-ScrPart_dough	B-webanno.custom.Participants_	O	
+10-5	batter	I-ScrPart_dough|B-ScrPart_dough	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+10-6	into	O	O	O	
+10-7	a	O	O	O	
+10-8	cake	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	
+10-9	pan	I-ScrPart_cake_tin|B-ScrPart_cake_tin	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+10-10	and	O	O	O	
+10-11	put	O	O	B-ScrEv_put_cake_oven	
+10-12	the	O	O	O	
+10-13	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+10-14	in	O	O	O	
+10-15	the	O	O	O	
+10-16	oven	B-ScrPart_oven	B-webanno.custom.Participants_	O	
+10-17	for	O	O	O	
+10-18	30	O	O	O	
+10-19	minutes	B-ScrPart_time	B-webanno.custom.Participants_	O	
+10-20	.	O	O	O	
+
+#id=11
+#text=When it was done , I took it out the oven and let it cool off .
+11-1	When	O	O	O	
+11-2	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+11-3	was	O	O	O	
+11-4	done	O	O	O	
+11-5	,	O	O	O	
+11-6	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+11-7	took	O	O	B-ScrEv_take_out_oven	
+11-8	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+11-9	out	O	O	O	
+11-10	the	O	O	O	
+11-11	oven	B-ScrPart_oven	B-webanno.custom.Participants_	O	
+11-12	and	O	O	O	
+11-13	let	O	O	B-UnrelEv	
+11-14	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+11-15	cool	O	O	B-ScrEv_cool_down	
+11-16	off	O	O	I-ScrEv_cool_down	
+11-17	.	O	O	O	
+
+#id=12
+#text=We had the cake after dinner and it was a huge success ! 
+12-1	We	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	
+12-2	had	O	O	B-ScrEv_eat	
+12-3	the	O	O	O	
+12-4	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+12-5	after	O	O	O	
+12-6	dinner	B-NPart	B-webanno.custom.Participants_	O	
+12-7	and	O	O	O	
+12-8	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+12-9	was	O	O	B-UnrelEv	
+12-10	a	O	O	O	
+12-11	huge	O	O	O	
+12-12	success	B-NPart	B-webanno.custom.Participants_	O	
+12-13	!	O	O	O	
+

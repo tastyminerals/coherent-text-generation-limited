@@ -1,0 +1,296 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=I love going to the library to check out books .
+1-1	I	B-ScrPart_customer	O	
+1-2	love	O	B-UnrelEv	
+1-3	going	O	B-Evoking	
+1-4	to	O	I-Evoking	
+1-5	the	O	I-Evoking	
+1-6	library	B-ScrPart_library	I-Evoking	
+1-7	to	O	I-Evoking	
+1-8	check	O	I-Evoking	
+1-9	out	O	I-Evoking	
+1-10	books	B-ScrPart_book	I-Evoking	
+1-11	.	O	O	
+
+#id=2
+#text=It is probably one of my favorite places to go to , since I 'm a fairly avid reader .
+2-1	It	B-No_label	O	
+2-2	is	O	B-UnrelEv	
+2-3	probably	O	O	
+2-4	one	O	O	
+2-5	of	O	O	
+2-6	my	B-ScrPart_customer	O	
+2-7	favorite	O	O	
+2-8	places	B-NPart	O	
+2-9	to	O	O	
+2-10	go	O	B-UnrelEv	
+2-11	to	O	O	
+2-12	,	O	O	
+2-13	since	O	O	
+2-14	I	B-ScrPart_customer	O	
+2-15	'm	O	B-UnrelEv	
+2-16	a	O	O	
+2-17	fairly	O	O	
+2-18	avid	O	O	
+2-19	reader	B-NPart	O	
+2-20	.	O	O	
+
+#id=3
+#text=Anyway , I 'll usually bike to the library and bring a backpack with me so that I can easily bring my books home .
+3-1	Anyway	O	O	
+3-2	,	O	O	
+3-3	I	B-ScrPart_customer	O	
+3-4	'll	O	O	
+3-5	usually	O	O	
+3-6	bike	O	B-ScrEv_get_library	
+3-7	to	O	O	
+3-8	the	O	O	
+3-9	library	B-ScrPart_library	O	
+3-10	and	O	O	
+3-11	bring	O	B-UnrelEv	
+3-12	a	O	O	
+3-13	backpack	B-ScrPart_bag	O	
+3-14	with	O	O	
+3-15	me	B-ScrPart_customer	O	
+3-16	so	O	O	
+3-17	that	O	O	
+3-18	I	B-ScrPart_customer	O	
+3-19	can	O	O	
+3-20	easily	O	O	
+3-21	bring	O	B-RelNScrEv	
+3-22	my	B-ScrPart_customer	O	
+3-23	books	B-ScrPart_book	O	
+3-24	home	B-No_label	O	
+3-25	.	O	O	
+
+#id=4
+#text=The last time I went , I was looking for some books on local folklore for a class that I 'm taking .
+4-1	The	O	O	
+4-2	last	O	O	
+4-3	time	B-NPart	O	
+4-4	I	B-ScrPart_customer	O	
+4-5	went	O	B-UnrelEv	
+4-6	,	O	O	
+4-7	I	B-ScrPart_customer	O	
+4-8	was	O	O	
+4-9	looking	O	B-UnrelEv|B-UnrelEv	
+4-10	for	O	I-UnrelEv	
+4-11	some	O	O	
+4-12	books	B-ScrPart_book	O	
+4-13	on	O	O	
+4-14	local	O	O	
+4-15	folklore	B-NPart	O	
+4-16	for	O	O	
+4-17	a	O	O	
+4-18	class	B-NPart	O	
+4-19	that	O	O	
+4-20	I	B-ScrPart_customer	O	
+4-21	'm	O	O	
+4-22	taking	O	B-UnrelEv	
+4-23	.	O	O	
+
+#id=5
+#text=I quickly went to one of the computer search stations and typed in the last name of an author that I knew had written a book on the subject .
+5-1	I	B-ScrPart_customer	O	
+5-2	quickly	O	O	
+5-3	went	O	B-UnrelEv	
+5-4	to	O	O	
+5-5	one	O	O	
+5-6	of	O	O	
+5-7	the	O	O	
+5-8	computer	B-ScrPart_institutional_devices	O	
+5-9	search	I-ScrPart_institutional_devices	O	
+5-10	stations	I-ScrPart_institutional_devices|B-ScrPart_institutional_devices	O	
+5-11	and	O	O	
+5-12	typed	O	B-ScrEv_use_computer|B-ScrEv_use_computer	
+5-13	in	O	I-ScrEv_use_computer	
+5-14	the	O	O	
+5-15	last	O	O	
+5-16	name	B-NPart	O	
+5-17	of	O	O	
+5-18	an	O	O	
+5-19	author	B-ScrPart_other	O	
+5-20	that	O	O	
+5-21	I	B-ScrPart_customer	O	
+5-22	knew	O	B-UnrelEv	
+5-23	had	O	O	
+5-24	written	O	B-UnrelEv	
+5-25	a	O	O	
+5-26	book	B-ScrPart_book	O	
+5-27	on	O	O	
+5-28	the	O	O	
+5-29	subject	B-NPart	O	
+5-30	.	O	O	
+
+#id=6
+#text=I got back a couple more results than I had expected , so I made note of them .
+6-1	I	B-ScrPart_customer	O	
+6-2	got	O	B-UnrelEv|B-UnrelEv	
+6-3	back	O	I-UnrelEv	
+6-4	a	O	O	
+6-5	couple	B-Head_of_Partitive	O	
+6-6	more	O	O	
+6-7	results	B-NPart	O	
+6-8	than	O	O	
+6-9	I	B-ScrPart_customer	O	
+6-10	had	O	O	
+6-11	expected	O	B-UnrelEv	
+6-12	,	O	O	
+6-13	so	O	O	
+6-14	I	B-ScrPart_customer	O	
+6-15	made	O	B-ScrEv_note_shelf	
+6-16	note	B-SuppVComp	O	
+6-17	of	O	O	
+6-18	them	B-NPart	O	
+6-19	.	O	O	
+
+#id=7
+#text=Then , I searched by just the topic of folklore , along with the tribe that I was covering .
+7-1	Then	O	O	
+7-2	,	O	O	
+7-3	I	B-ScrPart_customer	O	
+7-4	searched	O	B-ScrEv_use_computer	
+7-5	by	O	O	
+7-6	just	O	O	
+7-7	the	O	O	
+7-8	topic	B-NPart	O	
+7-9	of	O	O	
+7-10	folklore	B-NPart	O	
+7-11	,	O	O	
+7-12	along	O	O	
+7-13	with	O	O	
+7-14	the	O	O	
+7-15	tribe	B-NPart	O	
+7-16	that	O	O	
+7-17	I	B-ScrPart_customer	O	
+7-18	was	O	O	
+7-19	covering	O	B-UnrelEv	
+7-20	.	O	O	
+
+#id=8
+#text=I found several books that looked like they might be interesting .
+8-1	I	B-ScrPart_customer	O	
+8-2	found	O	B-RelNScrEv	
+8-3	several	O	O	
+8-4	books	B-ScrPart_book	O	
+8-5	that	O	O	
+8-6	looked	O	B-UnrelEv	
+8-7	like	O	O	
+8-8	they	B-ScrPart_book	O	
+8-9	might	O	O	
+8-10	be	O	B-UnrelEv	
+8-11	interesting	O	O	
+8-12	.	O	O	
+
+#id=9
+#text=So , I took the numbers for where they would be and headed off towards the Stacks .
+9-1	So	O	O	
+9-2	,	O	O	
+9-3	I	B-ScrPart_customer	O	
+9-4	took	O	B-ScrEv_note_shelf	
+9-5	the	O	O	
+9-6	numbers	B-ScrPart_section_id	O	
+9-7	for	O	O	
+9-8	where	O	O	
+9-9	they	B-NPart	O	
+9-10	would	O	O	
+9-11	be	O	O	
+9-12	and	O	O	
+9-13	headed	O	B-UnrelEv|B-UnrelEv	
+9-14	off	O	I-UnrelEv	
+9-15	towards	O	O	
+9-16	the	O	O	
+9-17	Stacks	B-NPart	O	
+9-18	.	O	O	
+
+#id=10
+#text=I followed the numbers to the different rows and picked up the books that I needed , as well as a couple other books that also sounded interesting .
+10-1	I	B-ScrPart_customer	O	
+10-2	followed	O	B-UnrelEv	
+10-3	the	O	O	
+10-4	numbers	B-ScrPart_section_id	O	
+10-5	to	O	O	
+10-6	the	O	O	
+10-7	different	O	O	
+10-8	rows	B-ScrPart_location_library	O	
+10-9	and	O	O	
+10-10	picked	O	B-ScrEv_take_book|B-ScrEv_take_book	
+10-11	up	O	I-ScrEv_take_book	
+10-12	the	O	O	
+10-13	books	B-ScrPart_book	O	
+10-14	that	O	O	
+10-15	I	B-ScrPart_customer	O	
+10-16	needed	O	B-UnrelEv	
+10-17	,	O	O	
+10-18	as	O	O	
+10-19	well	O	O	
+10-20	as	O	O	
+10-21	a	O	O	
+10-22	couple	B-Head_of_Partitive	O	
+10-23	other	O	O	
+10-24	books	B-ScrPart_book	O	
+10-25	that	O	O	
+10-26	also	O	O	
+10-27	sounded	O	B-UnrelEv	
+10-28	interesting	O	O	
+10-29	.	O	O	
+
+#id=11
+#text=My arms full , I took them all to the checkout counter , where a nice older man scanned them and gave me a printed receipt that said when I would need to have them back by .
+11-1	My	B-ScrPart_customer	O	
+11-2	arms	B-NPart	O	
+11-3	full	O	O	
+11-4	,	O	O	
+11-5	I	B-ScrPart_customer	O	
+11-6	took	O	B-ScrEv_go_check_out	
+11-7	them	B-ScrPart_book	O	
+11-8	all	O	O	
+11-9	to	O	O	
+11-10	the	O	O	
+11-11	checkout	B-ScrPart_check-out_desk	O	
+11-12	counter	I-ScrPart_check-out_desk|B-ScrPart_check-out_desk	O	
+11-13	,	O	O	
+11-14	where	O	O	
+11-15	a	O	O	
+11-16	nice	O	O	
+11-17	older	O	O	
+11-18	man	B-ScrPart_staff	O	
+11-19	scanned	O	B-ScrEv_register	
+11-20	them	B-ScrPart_book	O	
+11-21	and	O	O	
+11-22	gave	O	B-ScrEv_other	
+11-23	me	B-ScrPart_customer	O	
+11-24	a	O	O	
+11-25	printed	O	B-UnrelEv	
+11-26	receipt	B-ScrPart_receipt	O	
+11-27	that	O	O	
+11-28	said	O	B-UnrelEv	
+11-29	when	O	O	
+11-30	I	B-ScrPart_customer	O	
+11-31	would	O	O	
+11-32	need	O	O	
+11-33	to	O	O	
+11-34	have	O	B-UnrelEv	
+11-35	them	B-ScrPart_staff	O	
+11-36	back	O	O	
+11-37	by	O	O	
+11-38	.	O	O	
+
+#id=12
+#text=All in all , it was a pretty productive trip to the library . 
+12-1	All	O	O	
+12-2	in	O	O	
+12-3	all	O	O	
+12-4	,	O	O	
+12-5	it	B-No_label	O	
+12-6	was	O	B-UnrelEv	
+12-7	a	O	O	
+12-8	pretty	O	O	
+12-9	productive	O	O	
+12-10	trip	B-NPart	O	
+12-11	to	O	O	
+12-12	the	O	O	
+12-13	library	B-ScrPart_library	O	
+12-14	.	O	O	
+

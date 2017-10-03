@@ -1,0 +1,223 @@
+ # webanno.custom.Events | Event | Events # webanno.custom.Participants | Participant
+#id=1
+#text=After looking for a bus route to my workplace online , I headed outside .
+1-1	After	O	O	O	
+1-2	looking	B-webanno.custom.Events_|B-webanno.custom.Events_|B-webanno.custom.Events_	B-Evoking|B-ScrEv_other|B-ScrEv_other	O	
+1-3	for	I-webanno.custom.Events_|I-webanno.custom.Events_	I-Evoking|I-ScrEv_other	O	
+1-4	a	I-webanno.custom.Events_	I-Evoking	O	
+1-5	bus	I-webanno.custom.Events_	I-Evoking	B-ScrPart_route	
+1-6	route	I-webanno.custom.Events_	I-Evoking	I-ScrPart_route|B-ScrPart_route	
+1-7	to	O	O	O	
+1-8	my	O	O	B-ScrPart_passenger	
+1-9	workplace	O	O	B-ScrPart_destination	
+1-10	online	O	O	B-No_label	
+1-11	,	O	O	O	
+1-12	I	O	O	B-ScrPart_passenger	
+1-13	headed	B-webanno.custom.Events_	B-ScrEv_get_bus_stop	O	
+1-14	outside	O	O	B-NPart	
+1-15	.	O	O	O	
+
+#id=2
+#text=The nearest bus stop was only about a block or two away so I walked over .
+2-1	The	O	O	O	
+2-2	nearest	O	O	O	
+2-3	bus	O	O	B-ScrPart_bus_stop	
+2-4	stop	O	O	I-ScrPart_bus_stop|B-ScrPart_bus_stop	
+2-5	was	B-webanno.custom.Events_	B-UnrelEv	O	
+2-6	only	O	O	O	
+2-7	about	O	O	O	
+2-8	a	O	O	O	
+2-9	block	O	O	B-NPart	
+2-10	or	O	O	O	
+2-11	two	O	O	O	
+2-12	away	O	O	O	
+2-13	so	O	O	O	
+2-14	I	O	O	B-ScrPart_passenger	
+2-15	walked	B-webanno.custom.Events_|B-webanno.custom.Events_	B-ScrEv_get_bus_stop|B-ScrEv_get_bus_stop	O	
+2-16	over	I-webanno.custom.Events_	I-ScrEv_get_bus_stop	O	
+2-17	.	O	O	O	
+
+#id=3
+#text=There were two bus stops at the same intersection , one on either side of the road .
+3-1	There	O	O	O	
+3-2	were	B-webanno.custom.Events_	B-UnrelEv	O	
+3-3	two	O	O	O	
+3-4	bus	O	O	B-ScrPart_bus_stop	
+3-5	stops	O	O	I-ScrPart_bus_stop|B-ScrPart_bus_stop	
+3-6	at	O	O	O	
+3-7	the	O	O	O	
+3-8	same	O	O	O	
+3-9	intersection	O	O	B-NPart	
+3-10	,	O	O	O	
+3-11	one	O	O	O	
+3-12	on	O	O	O	
+3-13	either	O	O	O	
+3-14	side	O	O	B-NPart	
+3-15	of	O	O	O	
+3-16	the	O	O	O	
+3-17	road	O	O	B-ScrPart_route	
+3-18	.	O	O	O	
+
+#id=4
+#text=I made sure I was at the right stop by reading the stop location id listed on the sign next to the bus stop .
+4-1	I	O	O	B-ScrPart_passenger	
+4-2	made	B-webanno.custom.Events_|B-webanno.custom.Events_	B-UnrelEv|B-UnrelEv	O	
+4-3	sure	I-webanno.custom.Events_	I-UnrelEv	O	
+4-4	I	O	O	B-ScrPart_passenger	
+4-5	was	B-webanno.custom.Events_	B-UnrelEv	O	
+4-6	at	O	O	O	
+4-7	the	O	O	O	
+4-8	right	O	O	O	
+4-9	stop	O	O	B-ScrPart_bus_stop	
+4-10	by	O	O	O	
+4-11	reading	B-webanno.custom.Events_	B-RelNScrEv	O	
+4-12	the	O	O	O	
+4-13	stop	O	O	B-ScrPart_other	
+4-14	location	O	O	I-ScrPart_other	
+4-15	id	O	O	I-ScrPart_other|B-ScrPart_other	
+4-16	listed	B-webanno.custom.Events_	B-RelNScrEv	O	
+4-17	on	O	O	O	
+4-18	the	O	O	O	
+4-19	sign	O	O	B-ScrPart_other	
+4-20	next	O	O	O	
+4-21	to	O	O	O	
+4-22	the	O	O	O	
+4-23	bus	O	O	B-ScrPart_bus_stop	
+4-24	stop	O	O	I-ScrPart_bus_stop|B-ScrPart_bus_stop	
+4-25	.	O	O	O	
+
+#id=5
+#text=My bus arrived in about five minutes and I got on board .
+5-1	My	O	O	B-ScrPart_passenger	
+5-2	bus	O	O	B-ScrPart_bus	
+5-3	arrived	B-webanno.custom.Events_	B-ScrEv_bus_comes	O	
+5-4	in	O	O	O	
+5-5	about	O	O	O	
+5-6	five	O	O	O	
+5-7	minutes	O	O	B-ScrPart_time/date	
+5-8	and	O	O	O	
+5-9	I	O	O	B-ScrPart_passenger	
+5-10	got	B-webanno.custom.Events_	B-ScrEv_board_bus	O	
+5-11	on	O	O	O	
+5-12	board	O	O	B-SuppVComp	
+5-13	.	O	O	O	
+
+#id=6
+#text=I waited until I got to the rider before taking out my wallet , and quickly paid the exact fee for a one day , unlimited bus pass .
+6-1	I	O	O	B-ScrPart_passenger	
+6-2	waited	B-webanno.custom.Events_	B-ScrEv_wait	O	
+6-3	until	O	O	B-ScrPart_passenger	
+6-4	I	O	O	B-ScrPart_passenger	
+6-5	got	B-webanno.custom.Events_	B-UnrelEv	O	
+6-6	to	O	O	O	
+6-7	the	O	O	O	
+6-8	rider	O	O	B-ScrPart_bus_staff	
+6-9	before	O	O	O	
+6-10	taking	B-webanno.custom.Events_|B-webanno.custom.Events_	B-RelNScrEv|B-RelNScrEv	O	
+6-11	out	I-webanno.custom.Events_	I-RelNScrEv	O	
+6-12	my	O	O	B-ScrPart_passenger	
+6-13	wallet	O	O	B-NPart	
+6-14	,	O	O	O	
+6-15	and	O	O	O	
+6-16	quickly	O	O	O	
+6-17	paid	B-webanno.custom.Events_	B-ScrEv_get_ticket	O	
+6-18	the	O	O	O	
+6-19	exact	O	O	O	
+6-20	fee	O	O	B-ScrPart_money	
+6-21	for	O	O	O	
+6-22	a	O	O	O	
+6-23	one	O	O	O	
+6-24	day	O	O	B-ScrPart_time/date	
+6-25	,	O	O	O	
+6-26	unlimited	O	O	O	
+6-27	bus	O	O	B-ScrPart_card/ticket	
+6-28	pass	O	O	I-ScrPart_card/ticket|B-ScrPart_card/ticket	
+6-29	.	O	O	O	
+
+#id=7
+#text=After receiving the pass , I walked inside the bus and looked for the nearest , open seat .
+7-1	After	O	O	O	
+7-2	receiving	B-webanno.custom.Events_	B-ScrEv_get_ticket	O	
+7-3	the	O	O	O	
+7-4	pass	O	O	B-ScrPart_card/ticket	
+7-5	,	O	O	O	
+7-6	I	O	O	B-ScrPart_passenger	
+7-7	walked	B-webanno.custom.Events_	B-ScrEv_other	O	
+7-8	inside	O	O	O	
+7-9	the	O	O	O	
+7-10	bus	O	O	B-ScrPart_bus	
+7-11	and	O	O	O	
+7-12	looked	B-webanno.custom.Events_|B-webanno.custom.Events_	B-ScrEv_find_place|B-ScrEv_find_place	O	
+7-13	for	I-webanno.custom.Events_	I-ScrEv_find_place	O	
+7-14	the	O	O	O	
+7-15	nearest	O	O	O	
+7-16	,	O	O	O	
+7-17	open	O	O	O	
+7-18	seat	O	O	B-ScrPart_seat_in_bus	
+7-19	.	O	O	O	
+
+#id=8
+#text=I found one close to the back of the bus .
+8-1	I	O	O	B-ScrPart_passenger	
+8-2	found	B-webanno.custom.Events_	B-ScrEv_find_place	O	
+8-3	one	O	O	B-ScrPart_seat_in_bus	
+8-4	close	O	O	O	
+8-5	to	O	O	O	
+8-6	the	O	O	O	
+8-7	back	O	O	B-Head_of_Partitive	
+8-8	of	O	O	O	
+8-9	the	O	O	O	
+8-10	bus	O	O	B-ScrPart_bus	
+8-11	.	O	O	O	
+
+#id=9
+#text=Since my stop was a common one , I did n't have to let the bus driver know when I needed to get off .
+9-1	Since	O	O	O	
+9-2	my	O	O	B-ScrPart_passenger	
+9-3	stop	O	O	B-ScrPart_destination	
+9-4	was	B-webanno.custom.Events_	B-UnrelEv	O	
+9-5	a	O	O	O	
+9-6	common	O	O	O	
+9-7	one	O	O	O	
+9-8	,	O	O	O	
+9-9	I	O	O	B-ScrPart_passenger	
+9-10	did	O	O	O	
+9-11	n't	O	O	O	
+9-12	have	O	O	O	
+9-13	to	O	O	O	
+9-14	let	B-webanno.custom.Events_	B-RelNScrEv	O	
+9-15	the	O	O	O	
+9-16	bus	O	O	B-ScrPart_bus_staff	
+9-17	driver	O	O	I-ScrPart_bus_staff|B-ScrPart_bus_staff	
+9-18	know	B-webanno.custom.Events_	B-UnrelEv	O	
+9-19	when	O	O	O	
+9-20	I	O	O	B-ScrPart_passenger	
+9-21	needed	O	O	O	
+9-22	to	O	O	O	
+9-23	get	B-webanno.custom.Events_|B-webanno.custom.Events_	B-RelNScrEv|B-RelNScrEv	O	
+9-24	off	I-webanno.custom.Events_	I-RelNScrEv	O	
+9-25	.	O	O	O	
+
+#id=10
+#text=Once we arrived at my stop , me and several others all got off and went our separate ways . 
+10-1	Once	O	O	O	
+10-2	we	O	O	B-ScrPart_bus	
+10-3	arrived	B-webanno.custom.Events_	B-ScrEv_other	O	
+10-4	at	O	O	O	
+10-5	my	O	O	B-ScrPart_passenger	
+10-6	stop	O	O	B-ScrPart_destination	
+10-7	,	O	O	O	
+10-8	me	O	O	B-ScrPart_passenger	
+10-9	and	O	O	O	
+10-10	several	O	O	O	
+10-11	others	O	O	B-ScrPart_passenger	
+10-12	all	O	O	O	
+10-13	got	B-webanno.custom.Events_|B-webanno.custom.Events_	B-ScrEv_get_off|B-ScrEv_get_off	O	
+10-14	off	I-webanno.custom.Events_	I-ScrEv_get_off	O	
+10-15	and	O	O	O	
+10-16	went	B-webanno.custom.Events_	B-UnrelEv	O	
+10-17	our	O	O	B-ScrPart_passenger	
+10-18	separate	O	O	O	
+10-19	ways	O	O	B-No_label	
+10-20	.	O	O	O	
+

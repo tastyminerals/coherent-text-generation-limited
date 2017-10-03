@@ -1,0 +1,254 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Last week , I decided to take a nice relaxing bubble bath after a hard day of work .
+1-1	Last	O	O	_	_	
+1-2	week	O	O	_	_	
+1-3	,	O	O	_	_	
+1-4	I	B-ScrPart_bather	O	_	_	
+1-5	decided	O	B-UnrelEv	_	_	
+1-6	to	O	O	_	_	
+1-7	take	O	B-Evoking	_	_	
+1-8	a	O	I-Evoking	_	_	
+1-9	nice	O	I-Evoking	_	_	
+1-10	relaxing	O	I-Evoking|B-ScrEv_relax	_	_	
+1-11	bubble	O	I-Evoking	_	_	
+1-12	bath	B-SuppVComp	I-Evoking	_	_	
+1-13	after	O	O	_	_	
+1-14	a	O	O	_	_	
+1-15	hard	O	O	_	_	
+1-16	day	O	O	_	_	
+1-17	of	O	O	_	_	
+1-18	work	O	O	_	_	
+1-19	.	O	O	_	_	
+
+#id=2
+#text=After getting done with my chores , I went up stairs into the bedroom to grab some clothes .
+2-1	After	O	O	_	_	
+2-2	getting	O	B-UnrelEv	_	_	
+2-3	done	O	B-UnrelEv	_	_	
+2-4	with	O	O	_	_	
+2-5	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	1-4	
+2-6	chores	O	O	_	_	
+2-7	,	O	O	_	_	
+2-8	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	2-5	
+2-9	went	O	B-RelNScrEv	_	_	
+2-10	up	O	O	_	_	
+2-11	stairs	O	O	_	_	
+2-12	into	O	O	_	_	
+2-13	the	O	O	_	_	
+2-14	bedroom	O	O	_	_	
+2-15	to	O	O	_	_	
+2-16	grab	O	B-ScrEv_take_clean_clothes	_	_	
+2-17	some	O	O	_	_	
+2-18	clothes	B-ScrPart_clothes	O	_	_	
+2-19	.	O	O	_	_	
+
+#id=3
+#text=After finding on what I wanted to wear , I went into the bathroom and shut the door .
+3-1	After	O	O	_	_	
+3-2	finding	O	B-ScrEv_take_clean_clothes	_	_	
+3-3	on	O	I-ScrEv_take_clean_clothes	_	_	
+3-4	what	O	O	_	_	
+3-5	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	2-8	
+3-6	wanted	O	B-UnrelEv	_	_	
+3-7	to	O	O	_	_	
+3-8	wear	O	B-???	_	_	
+3-9	,	O	O	_	_	
+3-10	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	3-5	
+3-11	went	O	B-ScrEv_enter_bathroom	_	_	
+3-12	into	O	O	_	_	
+3-13	the	O	O	_	_	
+3-14	bathroom	B-ScrPart_bathroom	O	_	_	
+3-15	and	O	O	_	_	
+3-16	shut	O	B-RelNScrEv	_	_	
+3-17	the	O	O	_	_	
+3-18	door	B-NPart	O	_	_	
+3-19	.	O	O	_	_	
+
+#id=4
+#text=I went to the bath tub , and turned on the faucet .
+4-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	3-10	
+4-2	went	O	B-RelNScrEv	_	_	
+4-3	to	O	O	_	_	
+4-4	the	O	O	_	_	
+4-5	bath	B-ScrPart_bathtub	O	_	_	
+4-6	tub	I-ScrPart_bathtub|B-ScrPart_bathtub	O	_	_	
+4-7	,	O	O	_	_	
+4-8	and	O	O	_	_	
+4-9	turned	O	B-ScrEv_turn_water_on	_	_	
+4-10	on	O	I-ScrEv_turn_water_on	_	_	
+4-11	the	O	O	_	_	
+4-12	faucet	B-ScrPart_tap	O	_	_	
+4-13	.	O	O	_	_	
+
+#id=5
+#text=I messed around with the knobs on the faucet to get some hot water that was perfect temperature .
+5-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	4-1	
+5-2	messed	O	B-ScrEv_turn_water_on	_	_	
+5-3	around	O	I-ScrEv_turn_water_on	_	_	
+5-4	with	O	O	_	_	
+5-5	the	O	O	_	_	
+5-6	knobs	B-NPart	O	_	_	
+5-7	on	O	O	_	_	
+5-8	the	O	O	_	_	
+5-9	faucet	B-ScrPart_tap	O	webanno.custom.Corefchains_	4-12	
+5-10	to	O	O	_	_	
+5-11	get	O	B-ScrEv_turn_water_on	_	_	
+5-12	some	O	O	_	_	
+5-13	hot	O	O	_	_	
+5-14	water	B-ScrPart_water	O	_	_	
+5-15	that	B-ScrPart_water	O	webanno.custom.Corefchains_	5-14	
+5-16	was	O	B-UnrelEv	_	_	
+5-17	perfect	O	O	_	_	
+5-18	temperature	B-ScrPart_temperature	O	_	_	
+5-19	.	O	O	_	_	
+
+#id=6
+#text=After I found the perfect temperature I then plug the drain and then put a small amount of bubble bath into the tub .
+6-1	After	O	O	_	_	
+6-2	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	5-1	
+6-3	found	O	B-ScrEv_check_temp	_	_	
+6-4	the	O	O	_	_	
+6-5	perfect	O	O	_	_	
+6-6	temperature	B-ScrPart_temperature	O	webanno.custom.Corefchains_	5-18	
+6-7	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	6-2	
+6-8	then	O	O	_	_	
+6-9	plug	O	B-ScrEv_close_drain	_	_	
+6-10	the	O	O	_	_	
+6-11	drain	B-ScrPart_drain	O	_	_	
+6-12	and	O	O	_	_	
+6-13	then	O	O	_	_	
+6-14	put	O	B-ScrEv_put_bubble_bath_scent	_	_	
+6-15	a	O	O	_	_	
+6-16	small	O	O	_	_	
+6-17	amount	O	O	_	_	
+6-18	of	O	O	_	_	
+6-19	bubble	B-ScrPart_bath_means	O	_	_	
+6-20	bath	I-ScrPart_bath_means|B-ScrPart_bath_means	O	_	_	
+6-21	into	O	O	_	_	
+6-22	the	O	O	_	_	
+6-23	tub	B-ScrPart_bathtub	O	webanno.custom.Corefchains_	4-6	
+6-24	.	O	O	_	_	
+
+#id=7
+#text=While I am waiting for the water to raise , I take off my clothes and put them into the laundry basket .
+7-1	While	O	O	_	_	
+7-2	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	6-7	
+7-3	am	O	O	_	_	
+7-4	waiting	O	B-ScrEv_fill_water/wait	_	_	
+7-5	for	O	O	_	_	
+7-6	the	O	O	_	_	
+7-7	water	B-ScrPart_water	O	webanno.custom.Corefchains_	5-15	
+7-8	to	O	O	_	_	
+7-9	raise	O	B-ScrEv_fill_water/wait	_	_	
+7-10	,	O	O	_	_	
+7-11	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	7-2	
+7-12	take	O	B-ScrEv_undress	_	_	
+7-13	off	O	I-ScrEv_undress	_	_	
+7-14	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	7-11	
+7-15	clothes	B-ScrPart_clothes	O	webanno.custom.Corefchains_	2-18	
+7-16	and	O	O	_	_	
+7-17	put	O	B-RelNScrEv	_	_	
+7-18	them	B-ScrPart_clothes	O	webanno.custom.Corefchains_	7-15	
+7-19	into	O	O	_	_	
+7-20	the	O	O	_	_	
+7-21	laundry	B-ScrPart_hamper	O	_	_	
+7-22	basket	I-ScrPart_hamper|B-ScrPart_hamper	O	_	_	
+7-23	.	O	O	_	_	
+
+#id=8
+#text=After the water is at an acceptable level , I turn off the faucet completely .
+8-1	After	O	O	_	_	
+8-2	the	O	O	_	_	
+8-3	water	B-ScrPart_water	O	webanno.custom.Corefchains_	7-7	
+8-4	is	O	B-UnrelEv	_	_	
+8-5	at	O	O	_	_	
+8-6	an	O	O	_	_	
+8-7	acceptable	O	O	_	_	
+8-8	level	O	O	_	_	
+8-9	,	O	O	_	_	
+8-10	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	7-14	
+8-11	turn	O	B-ScrEv_turn_water_off	_	_	
+8-12	off	O	I-ScrEv_turn_water_off	_	_	
+8-13	the	O	O	_	_	
+8-14	faucet	B-ScrPart_tap	O	webanno.custom.Corefchains_	5-9	
+8-15	completely	O	O	_	_	
+8-16	.	O	O	_	_	
+
+#id=9
+#text=I then turn some music on , and sit down in the tub and relax for a while .
+9-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	8-10	
+9-2	then	O	O	_	_	
+9-3	turn	O	B-ScrEv_prepare_bath	_	_	
+9-4	some	O	O	_	_	
+9-5	music	B-ScrPart_in-bath_entertainment	O	_	_	
+9-6	on	O	O	_	_	
+9-7	,	O	O	_	_	
+9-8	and	O	O	_	_	
+9-9	sit	O	B-ScrEv_sink_water	_	_	
+9-10	down	O	I-ScrEv_sink_water	_	_	
+9-11	in	O	O	_	_	
+9-12	the	O	O	_	_	
+9-13	tub	B-ScrPart_bathtub	O	webanno.custom.Corefchains_	6-23	
+9-14	and	O	O	_	_	
+9-15	relax	O	B-ScrEv_relax	_	_	
+9-16	for	O	O	_	_	
+9-17	a	O	O	_	_	
+9-18	while	O	O	_	_	
+9-19	.	O	O	_	_	
+
+#id=10
+#text=I get a washcloth and clean myself up everywhere .
+10-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	9-1	
+10-2	get	O	B-ScrEv_prepare_bath	_	_	
+10-3	a	O	O	_	_	
+10-4	washcloth	B-ScrPart_washing_tools	O	_	_	
+10-5	and	O	O	_	_	
+10-6	clean	O	B-ScrEv_wash	_	_	
+10-7	myself	B-ScrPart_bather	O	webanno.custom.Corefchains_	10-1	
+10-8	up	O	O	_	_	
+10-9	everywhere	O	O	_	_	
+10-10	.	O	O	_	_	
+
+#id=11
+#text=After I am done I then get up and dry myself off with a towel and drain the water .
+11-1	After	O	O	_	_	
+11-2	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	10-7	
+11-3	am	O	O	_	_	
+11-4	done	O	B-UnrelEv	_	_	
+11-5	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	11-2	
+11-6	then	O	O	_	_	
+11-7	get	O	B-ScrEv_get_out_bath	_	_	
+11-8	up	O	I-ScrEv_get_out_bath	_	_	
+11-9	and	O	O	_	_	
+11-10	dry	O	B-ScrEv_dry	_	_	
+11-11	myself	B-ScrPart_bather	O	webanno.custom.Corefchains_	11-5	
+11-12	off	O	O	_	_	
+11-13	with	O	O	_	_	
+11-14	a	O	O	_	_	
+11-15	towel	B-ScrPart_towel	O	_	_	
+11-16	and	O	O	_	_	
+11-17	drain	O	B-ScrEv_open_drain	_	_	
+11-18	the	O	O	_	_	
+11-19	water	B-ScrPart_water	O	webanno.custom.Corefchains_	8-3	
+11-20	.	O	O	_	_	
+
+#id=12
+#text=After I am dried I put my new clothes on and clean up the bathroom . 
+12-1	After	O	O	_	_	
+12-2	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	11-11	
+12-3	am	O	O	_	_	
+12-4	dried	O	B-ScrEv_dry	_	_	
+12-5	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	12-2	
+12-6	put	O	B-ScrEv_get_dressed	_	_	
+12-7	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	12-5	
+12-8	new	O	O	_	_	
+12-9	clothes	B-ScrPart_clothes	O	webanno.custom.Corefchains_	7-18	
+12-10	on	O	O	_	_	
+12-11	and	O	O	_	_	
+12-12	clean	O	B-MissScrEv	_	_	
+12-13	up	O	I-MissScrEv	_	_	
+12-14	the	O	O	_	_	
+12-15	bathroom	B-ScrPart_bathroom	O	webanno.custom.Corefchains_	3-14	
+12-16	.	O	O	_	_	
+

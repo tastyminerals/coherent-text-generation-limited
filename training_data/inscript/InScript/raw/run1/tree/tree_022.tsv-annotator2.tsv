@@ -1,0 +1,206 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=My friend 's yard needed some more shade to help make it cooler during the summer .
+1-1	My	B-ScrPart_gardener	O	group_I_friend	2-1	
+1-2	friend	B-ScrPart_gardener	O	group_I_friend	2-1	
+1-3	's	O	O	_	_	
+1-4	yard	O	O	_	_	
+1-5	needed	O	B-UnrelEv	_	_	
+1-6	some	O	O	_	_	
+1-7	more	O	O	_	_	
+1-8	shade	O	O	_	_	
+1-9	to	O	O	_	_	
+1-10	help	O	B-UnrelEv	_	_	
+1-11	make	O	B-UnrelEv	_	_	
+1-12	it	O	O	_	_	
+1-13	cooler	O	O	_	_	
+1-14	during	O	O	_	_	
+1-15	the	O	O	_	_	
+1-16	summer	O	O	_	_	
+1-17	.	O	O	_	_	
+
+#id=2
+#text=We both decided to plant a tree to help with the problem .
+2-1	We	B-ScrPart_gardener	O	_	_	
+2-2	both	O	O	_	_	
+2-3	decided	O	B-UnrelEv	_	_	
+2-4	to	O	O	_	_	
+2-5	plant	O	B-Evoking	_	_	
+2-6	a	O	I-Evoking	_	_	
+2-7	tree	B-ScrPart_tree	I-Evoking	_	_	
+2-8	to	O	O	_	_	
+2-9	help	O	B-UnrelEv	_	_	
+2-10	with	O	O	_	_	
+2-11	the	O	O	_	_	
+2-12	problem	O	O	_	_	
+2-13	.	O	O	_	_	
+
+#id=3
+#text=We went to the store and bought a small tree that we could plant and grow .
+3-1	We	B-ScrPart_gardener	O	webanno.custom.Corefchains_	2-1	
+3-2	went	O	B-RelNScrEv	_	_	
+3-3	to	O	O	_	_	
+3-4	the	O	O	_	_	
+3-5	store	B-ScrPart_shop	O	_	_	
+3-6	and	O	O	_	_	
+3-7	bought	O	B-ScrEv_get_tree	_	_	
+3-8	a	O	O	_	_	
+3-9	small	O	O	_	_	
+3-10	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	2-7	
+3-11	that	O	O	_	_	
+3-12	we	B-ScrPart_gardener	O	webanno.custom.Corefchains_	3-1	
+3-13	could	O	O	_	_	
+3-14	plant	O	B-Evoking	_	_	
+3-15	and	O	O	_	_	
+3-16	grow	O	B-RelNScrEv	_	_	
+3-17	.	O	O	_	_	
+
+#id=4
+#text=We then took it home .
+4-1	We	B-ScrPart_gardener	O	webanno.custom.Corefchains_	3-12	
+4-2	then	O	O	_	_	
+4-3	took	O	B-ScrEv_get_tree	_	_	
+4-4	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	3-10	
+4-5	home	B-NPart	O	_	_	
+4-6	.	O	O	_	_	
+
+#id=5
+#text=The next step was to plant it .
+5-1	The	O	O	_	_	
+5-2	next	O	O	_	_	
+5-3	step	O	O	_	_	
+5-4	was	O	B-UnrelEv	_	_	
+5-5	to	O	O	_	_	
+5-6	plant	O	B-Evoking	_	_	
+5-7	it	B-ScrPart_tree	I-Evoking	webanno.custom.Corefchains_	4-4	
+5-8	.	O	O	_	_	
+
+#id=6
+#text=We had to dig up a hole in the backyard to plant it in .
+6-1	We	B-ScrPart_gardener	O	webanno.custom.Corefchains_	4-1	
+6-2	had	O	O	_	_	
+6-3	to	O	O	_	_	
+6-4	dig	O	B-ScrEv_dug_hole	_	_	
+6-5	up	O	I-ScrEv_dug_hole	_	_	
+6-6	a	O	O	_	_	
+6-7	hole	B-ScrPart_hole	O	_	_	
+6-8	in	O	O	_	_	
+6-9	the	O	O	_	_	
+6-10	backyard	B-NPart	O	_	_	
+6-11	to	O	O	_	_	
+6-12	plant	O	B-Evoking	_	_	
+6-13	it	B-ScrPart_tree	I-Evoking	webanno.custom.Corefchains_	5-7	
+6-14	in	O	O	_	_	
+6-15	.	O	O	_	_	
+
+#id=7
+#text=We used shovels and a wheelbarrow to pick up the dirt and take it away .
+7-1	We	B-ScrPart_gardener	O	webanno.custom.Corefchains_	6-1	
+7-2	used	O	B-UnrelEv	_	_	
+7-3	shovels	B-ScrPart_gardening_tool	O	_	_	
+7-4	and	O	O	_	_	
+7-5	a	O	O	_	_	
+7-6	wheelbarrow	B-ScrPart_gardening_tool	O	_	_	
+7-7	to	O	O	_	_	
+7-8	pick	O	B-RelNScrEv	_	_	
+7-9	up	O	I-RelNScrEv	_	_	
+7-10	the	O	O	_	_	
+7-11	dirt	B-ScrPart_dirt	O	_	_	
+7-12	and	O	O	_	_	
+7-13	take	O	B-RelNScrEv	_	_	
+7-14	it	B-ScrPart_dirt	O	webanno.custom.Corefchains_	7-11	
+7-15	away	O	O	_	_	
+7-16	.	O	O	_	_	
+
+#id=8
+#text=When the hole was good enough , we planted the tree in the hole .
+8-1	When	O	O	_	_	
+8-2	the	O	O	_	_	
+8-3	hole	B-ScrPart_hole	O	webanno.custom.Corefchains_	6-7	
+8-4	was	O	B-UnrelEv	_	_	
+8-5	good	O	O	_	_	
+8-6	enough	O	O	_	_	
+8-7	,	O	O	_	_	
+8-8	we	B-ScrPart_gardener	O	webanno.custom.Corefchains_	7-1	
+8-9	planted	O	B-ScrEv_place_root	_	_	
+8-10	the	O	O	_	_	
+8-11	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	6-13	
+8-12	in	O	O	_	_	
+8-13	the	O	O	_	_	
+8-14	hole	B-ScrPart_hole	O	webanno.custom.Corefchains_	8-3	
+8-15	.	O	O	_	_	
+
+#id=9
+#text=We then made sure to put back some of the dirt around the root and base of the tree to make sure it was secure .
+9-1	We	B-ScrPart_gardener	O	webanno.custom.Corefchains_	8-8	
+9-2	then	O	O	_	_	
+9-3	made	O	B-UnrelEv	_	_	
+9-4	sure	O	I-UnrelEv	_	_	
+9-5	to	O	O	_	_	
+9-6	put	O	B-ScrEv_refill_hole	_	_	
+9-7	back	O	O	_	_	
+9-8	some	O	O	_	_	
+9-9	of	O	O	_	_	
+9-10	the	O	O	_	_	
+9-11	dirt	B-ScrPart_dirt	O	webanno.custom.Corefchains_	7-14	
+9-12	around	O	O	_	_	
+9-13	the	O	O	_	_	
+9-14	root	B-ScrPart_root	O	_	_	
+9-15	and	O	O	_	_	
+9-16	base	B-NPart	O	_	_	
+9-17	of	O	O	_	_	
+9-18	the	O	O	_	_	
+9-19	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	8-11	
+9-20	to	O	O	_	_	
+9-21	make	O	O	_	_	
+9-22	sure	O	O	_	_	
+9-23	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	9-19	
+9-24	was	O	B-UnrelEv	_	_	
+9-25	secure	O	O	_	_	
+9-26	.	O	O	_	_	
+
+#id=10
+#text=After we were sure the tree was secure , my friend and I watered the area surrounding it to make sure it would grow properly .
+10-1	After	O	O	_	_	
+10-2	we	B-ScrPart_gardener	O	webanno.custom.Corefchains_	9-1	
+10-3	were	O	B-UnrelEv	_	_	
+10-4	sure	O	O	_	_	
+10-5	the	O	O	_	_	
+10-6	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	9-23	
+10-7	was	O	B-UnrelEv	_	_	
+10-8	secure	O	O	_	_	
+10-9	,	O	O	_	_	
+10-10	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	1-1	
+10-11	friend	B-ScrPart_gardener	O	webanno.custom.Corefchains_	1-2	
+10-12	and	O	O	_	_	
+10-13	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	10-10	
+10-14	watered	O	B-ScrEv_water	_	_	
+10-15	the	O	O	_	_	
+10-16	area	B-ScrPart_location_garden	O	_	_	
+10-17	surrounding	O	B-UnrelEv	_	_	
+10-18	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	10-6	
+10-19	to	O	O	_	_	
+10-20	make	O	B-UnrelEv	_	_	
+10-21	sure	O	I-UnrelEv	_	_	
+10-22	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	10-18	
+10-23	would	O	O	_	_	
+10-24	grow	O	B-RelNScrEv	_	_	
+10-25	properly	O	O	_	_	
+10-26	.	O	O	_	_	
+
+#id=11
+#text=We hope that the tree will offer some shade by next summer . 
+11-1	We	B-ScrPart_gardener	O	webanno.custom.Corefchains_	10-2	
+11-2	hope	O	B-UnrelEv	_	_	
+11-3	that	O	O	_	_	
+11-4	the	O	O	_	_	
+11-5	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	10-22	
+11-6	will	O	O	_	_	
+11-7	offer	O	B-UnrelEv	_	_	
+11-8	some	O	O	_	_	
+11-9	shade	O	O	_	_	
+11-10	by	O	O	_	_	
+11-11	next	O	O	_	_	
+11-12	summer	O	O	_	_	
+11-13	.	O	O	_	_	
+

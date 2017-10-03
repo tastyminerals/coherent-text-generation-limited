@@ -1,0 +1,211 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I wanted to take a trip on a train .
+1-1	I	B-ScrPart_passenger	O	_	_	
+1-2	wanted	O	O	_	_	
+1-3	to	O	O	_	_	
+1-4	take	O	B-Evoking	_	_	
+1-5	a	O	I-Evoking	_	_	
+1-6	trip	B-ScrPart_trip	I-Evoking	_	_	
+1-7	on	O	I-Evoking	_	_	
+1-8	a	O	I-Evoking	_	_	
+1-9	train	B-ScrPart_train	I-Evoking	_	_	
+1-10	.	O	O	_	_	
+
+#id=2
+#text=I thought it would be fun to travel through the countryside .
+2-1	I	B-ScrPart_passenger	O	_	_	
+2-2	thought	O	B-UnrelEv	_	_	
+2-3	it	B-No_label	O	_	_	
+2-4	would	O	O	_	_	
+2-5	be	O	B-UnrelEv	_	_	
+2-6	fun	B-No_label	O	_	_	
+2-7	to	O	O	_	_	
+2-8	travel	O	B-RelNScrEv	_	_	
+2-9	through	O	O	_	_	
+2-10	the	O	O	_	_	
+2-11	countryside	B-ScrPart_in-train_entertainment	O	_	_	
+2-12	.	O	O	_	_	
+
+#id=3
+#text=I called the train directory and booked a ticket for a country journey day trip .
+3-1	I	B-ScrPart_passenger	O	_	_	
+3-2	called	O	B-RelNScrEv	_	_	
+3-3	the	O	O	_	_	
+3-4	train	B-ScrPart_ticket_office/website	O	_	_	
+3-5	directory	I-ScrPart_ticket_office/website|B-ScrPart_ticket_office/website	O	_	_	
+3-6	and	O	O	_	_	
+3-7	booked	O	B-ScrEv_get_tickets	_	_	
+3-8	a	O	O	_	_	
+3-9	ticket	B-ScrPart_card/ticket	O	_	_	
+3-10	for	O	O	_	_	
+3-11	a	O	O	_	_	
+3-12	country	B-ScrPart_trip	O	_	_	
+3-13	journey	I-ScrPart_trip	O	_	_	
+3-14	day	I-ScrPart_trip	O	_	_	
+3-15	trip	I-ScrPart_trip|B-ScrPart_trip	O	webanno.custom.Corefchains_	1-6	
+3-16	.	O	O	_	_	
+
+#id=4
+#text=I arrived at the train station , full of excitement .
+4-1	I	B-ScrPart_passenger	O	_	_	
+4-2	arrived	O	B-ScrEv_get_train_station	_	_	
+4-3	at	O	O	_	_	
+4-4	the	O	O	_	_	
+4-5	train	B-ScrPart_train_station	O	_	_	
+4-6	station	I-ScrPart_train_station|B-ScrPart_train_station	O	_	_	
+4-7	,	O	O	_	_	
+4-8	full	O	O	_	_	
+4-9	of	O	O	_	_	
+4-10	excitement	B-NPart	O	_	_	
+4-11	.	O	O	_	_	
+
+#id=5
+#text=I handed my ticket to the conductor .
+5-1	I	B-ScrPart_passenger	O	_	_	
+5-2	handed	O	B-RelNScrEv	_	_	
+5-3	my	B-ScrPart_passenger	O	_	_	
+5-4	ticket	B-ScrPart_card/ticket	O	_	_	
+5-5	to	O	O	_	_	
+5-6	the	O	O	_	_	
+5-7	conductor	B-ScrPart_train_staff	O	_	_	
+5-8	.	O	O	_	_	
+
+#id=6
+#text=I found my seat which was near a window , so I would be able to take in all the sights as the train traveled along .
+6-1	I	B-ScrPart_passenger	O	_	_	
+6-2	found	O	B-ScrEv_find_place	_	_	
+6-3	my	B-ScrPart_passenger	O	_	_	
+6-4	seat	B-ScrPart_seat	O	_	_	
+6-5	which	O	O	_	_	
+6-6	was	O	B-UnrelEv	_	_	
+6-7	near	O	O	_	_	
+6-8	a	O	O	_	_	
+6-9	window	B-ScrPart_in-train_entertainment	O	_	_	
+6-10	,	O	O	_	_	
+6-11	so	O	O	_	_	
+6-12	I	B-ScrPart_passenger	O	_	_	
+6-13	would	O	O	_	_	
+6-14	be	O	O	_	_	
+6-15	able	O	O	_	_	
+6-16	to	O	O	_	_	
+6-17	take	O	B-ScrEv_spend_time_train	_	_	
+6-18	in	O	I-ScrEv_spend_time_train	_	_	
+6-19	all	O	O	_	_	
+6-20	the	O	O	_	_	
+6-21	sights	B-ScrPart_in-train_entertainment	O	_	_	
+6-22	as	O	O	_	_	
+6-23	the	O	O	_	_	
+6-24	train	B-ScrPart_train	O	_	_	
+6-25	traveled	O	B-RelNScrEv	_	_	
+6-26	along	O	I-RelNScrEv	_	_	
+6-27	.	O	O	_	_	
+
+#id=7
+#text=After the train car was filled , the conductor told us that we would be departing on our journey and when we would arrive at our destination .
+7-1	After	O	O	_	_	
+7-2	the	O	O	_	_	
+7-3	train	B-ScrPart_coach	O	_	_	
+7-4	car	I-ScrPart_coach|B-ScrPart_coach	O	_	_	
+7-5	was	O	O	_	_	
+7-6	filled	O	B-UnrelEv	_	_	
+7-7	,	O	O	_	_	
+7-8	the	O	O	_	_	
+7-9	conductor	B-ScrPart_train_staff	O	_	_	
+7-10	told	O	B-RelNScrEv	_	_	
+7-11	us	B-ScrPart_passenger	O	_	_	
+7-12	that	O	O	_	_	
+7-13	we	B-ScrPart_passenger	O	_	_	
+7-14	would	O	O	_	_	
+7-15	be	O	O	_	_	
+7-16	departing	O	B-ScrEv_train_departs	_	_	
+7-17	on	O	O	_	_	
+7-18	our	B-ScrPart_passenger	O	_	_	
+7-19	journey	B-ScrPart_trip	O	webanno.custom.Corefchains_	3-15	
+7-20	and	O	O	_	_	
+7-21	when	O	O	_	_	
+7-22	we	B-ScrPart_passenger	O	_	_	
+7-23	would	O	O	_	_	
+7-24	arrive	O	B-ScrEv_arrive_destination	_	_	
+7-25	at	O	O	_	_	
+7-26	our	B-ScrPart_passenger	O	_	_	
+7-27	destination	B-ScrPart_destination	O	_	_	
+7-28	.	O	O	_	_	
+
+#id=8
+#text=The train lurched forward with a mighty gust and began to chug along .
+8-1	The	O	O	_	_	
+8-2	train	B-ScrPart_train	O	_	_	
+8-3	lurched	O	B-ScrEv_train_departs	_	_	
+8-4	forward	O	O	_	_	
+8-5	with	O	O	_	_	
+8-6	a	O	O	_	_	
+8-7	mighty	O	O	_	_	
+8-8	gust	B-NPart	O	_	_	
+8-9	and	O	O	_	_	
+8-10	began	O	B-UnrelEv	_	_	
+8-11	to	O	O	_	_	
+8-12	chug	O	B-ScrEv_train_departs	_	_	
+8-13	along	O	I-ScrEv_train_departs	_	_	
+8-14	.	O	O	_	_	
+
+#id=9
+#text=I could hear the wheels clacking across the tracks as I enjoyed the lovely scenery that was passing by .
+9-1	I	B-ScrPart_passenger	O	_	_	
+9-2	could	O	O	_	_	
+9-3	hear	O	B-UnrelEv	_	_	
+9-4	the	O	O	_	_	
+9-5	wheels	B-ScrPart_other	O	_	_	
+9-6	clacking	O	B-UnrelEv	_	_	
+9-7	across	O	O	_	_	
+9-8	the	O	O	_	_	
+9-9	tracks	B-ScrPart_other	O	_	_	
+9-10	as	O	O	_	_	
+9-11	I	B-ScrPart_passenger	O	_	_	
+9-12	enjoyed	O	B-ScrEv_spend_time_train	_	_	
+9-13	the	O	O	_	_	
+9-14	lovely	O	O	_	_	
+9-15	scenery	B-ScrPart_in-train_entertainment	O	_	_	
+9-16	that	O	O	_	_	
+9-17	was	O	O	_	_	
+9-18	passing	O	B-UnrelEv	_	_	
+9-19	by	O	I-UnrelEv	_	_	
+9-20	.	O	O	_	_	
+
+#id=10
+#text=When we arrived at the destination , we approached the station and the train screeched to a stop .
+10-1	When	O	O	_	_	
+10-2	we	B-ScrPart_passenger	O	_	_	
+10-3	arrived	O	B-ScrEv_arrive_destination	_	_	
+10-4	at	O	O	_	_	
+10-5	the	O	O	_	_	
+10-6	destination	B-ScrPart_destination	O	_	_	
+10-7	,	O	O	_	_	
+10-8	we	B-ScrPart_passenger	O	_	_	
+10-9	approached	O	B-RelNScrEv	_	_	
+10-10	the	O	O	_	_	
+10-11	station	B-ScrPart_train_station	O	_	_	
+10-12	and	O	O	_	_	
+10-13	the	O	O	_	_	
+10-14	train	B-ScrPart_train	O	_	_	
+10-15	screeched	O	B-UnrelEv	_	_	
+10-16	to	O	O	_	_	
+10-17	a	O	O	_	_	
+10-18	stop	B-???	O	_	_	
+10-19	.	O	O	_	_	
+
+#id=11
+#text=I exited the train filled with wonderful thoughts about my experience . 
+11-1	I	B-ScrPart_passenger	O	_	_	
+11-2	exited	O	B-ScrEv_get_off	_	_	
+11-3	the	O	O	_	_	
+11-4	train	B-ScrPart_train	O	_	_	
+11-5	filled	O	B-UnrelEv	_	_	
+11-6	with	O	O	_	_	
+11-7	wonderful	O	O	_	_	
+11-8	thoughts	B-NPart	O	_	_	
+11-9	about	O	O	_	_	
+11-10	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	11-1	
+11-11	experience	B-NPart	O	_	_	
+11-12	.	O	O	_	_	
+

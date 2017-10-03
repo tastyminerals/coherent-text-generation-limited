@@ -1,0 +1,198 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Every year we celebrate Arbor Day .
+1-1	Every	O	O	_	_	
+1-2	year	B-NPart	O	_	_	
+1-3	we	B-ScrPart_gardener	O	_	_	
+1-4	celebrate	O	B-UnrelEv	_	_	
+1-5	Arbor	B-NPart	O	_	_	
+1-6	Day	I-NPart	O	_	_	
+1-7	.	O	O	_	_	
+
+#id=2
+#text=Last year we we decided to celebrate the holiday by planing a tree .
+2-1	Last	O	O	_	_	
+2-2	year	B-NPart	O	_	_	
+2-3	we	B-ScrPart_gardener	O	_	_	
+2-4	we	B-???	O	_	_	
+2-5	decided	O	B-UnrelEv	_	_	
+2-6	to	O	O	_	_	
+2-7	celebrate	O	B-UnrelEv	_	_	
+2-8	the	O	O	_	_	
+2-9	holiday	B-NPart	O	_	_	
+2-10	by	O	O	_	_	
+2-11	planing	O	B-Evoking	_	_	
+2-12	a	O	I-Evoking	_	_	
+2-13	tree	B-ScrPart_tree	I-Evoking	_	_	
+2-14	.	O	O	_	_	
+
+#id=3
+#text=We went to the local plant nursery .
+3-1	We	B-ScrPart_gardener	O	_	_	
+3-2	went	O	B-RelNScrEv	_	_	
+3-3	to	O	O	_	_	
+3-4	the	O	O	_	_	
+3-5	local	O	O	_	_	
+3-6	plant	B-ScrPart_shop	O	_	_	
+3-7	nursery	I-ScrPart_shop|B-ScrPart_shop	O	_	_	
+3-8	.	O	O	_	_	
+
+#id=4
+#text=We talked to the employees to find out which trees grow well in our area and in the type of soil we have .
+4-1	We	B-ScrPart_gardener	O	_	_	
+4-2	talked	O	B-RelNScrEv	_	_	
+4-3	to	O	O	_	_	
+4-4	the	O	O	_	_	
+4-5	employees	B-ScrPart_staff	O	_	_	
+4-6	to	O	O	_	_	
+4-7	find	O	B-RelNScrEv	_	_	
+4-8	out	O	I-RelNScrEv	_	_	
+4-9	which	O	O	_	_	
+4-10	trees	B-ScrPart_tree	O	_	_	
+4-11	grow	O	B-RelNScrEv	_	_	
+4-12	well	O	O	_	_	
+4-13	in	O	O	_	_	
+4-14	our	B-NPart	O	_	_	
+4-15	area	B-NPart	O	_	_	
+4-16	and	O	O	_	_	
+4-17	in	O	O	_	_	
+4-18	the	O	O	_	_	
+4-19	type	B-NPart	O	_	_	
+4-20	of	O	O	_	_	
+4-21	soil	B-ScrPart_dirt	O	_	_	
+4-22	we	B-ScrPart_gardener	O	_	_	
+4-23	have	O	B-UnrelEv	_	_	
+4-24	.	O	O	_	_	
+
+#id=5
+#text=We chose a small maple seedling .
+5-1	We	B-ScrPart_gardener	O	_	_	
+5-2	chose	O	B-ScrEv_choose_tree	_	_	
+5-3	a	O	O	_	_	
+5-4	small	O	O	_	_	
+5-5	maple	B-ScrPart_tree	O	_	_	
+5-6	seedling	I-ScrPart_tree|B-ScrPart_tree	O	_	_	
+5-7	.	O	O	_	_	
+
+#id=6
+#text=When we got home , we chose an area of our yard with lots of sun .
+6-1	When	O	O	_	_	
+6-2	we	B-ScrPart_gardener	O	_	_	
+6-3	got	O	B-ScrEv_take_home	_	_	
+6-4	home	B-NPart	O	_	_	
+6-5	,	O	O	_	_	
+6-6	we	B-ScrPart_gardener	O	_	_	
+6-7	chose	O	B-ScrEv_find_place	_	_	
+6-8	an	O	O	_	_	
+6-9	area	B-ScrPart_location_garden	O	_	_	
+6-10	of	O	O	_	_	
+6-11	our	B-ScrPart_gardener	O	webanno.custom.Corefchains_	6-6	
+6-12	yard	B-NPart	O	_	_	
+6-13	with	O	O	_	_	
+6-14	lots	B-Head_of_Partitive	O	_	_	
+6-15	of	O	O	_	_	
+6-16	sun	B-NPart	O	_	_	
+6-17	.	O	O	_	_	
+
+#id=7
+#text=We dug a hole just a little bigger than the roots of our seedling .
+7-1	We	B-ScrPart_gardener	O	webanno.custom.Corefchains_	6-11	
+7-2	dug	O	B-ScrEv_dug_hole	_	_	
+7-3	a	O	O	_	_	
+7-4	hole	B-ScrPart_hole	O	_	_	
+7-5	just	O	O	_	_	
+7-6	a	O	O	_	_	
+7-7	little	O	O	_	_	
+7-8	bigger	O	O	_	_	
+7-9	than	O	O	_	_	
+7-10	the	O	O	_	_	
+7-11	roots	B-ScrPart_root	O	_	_	
+7-12	of	O	O	_	_	
+7-13	our	B-ScrPart_gardener	O	webanno.custom.Corefchains_	7-1	
+7-14	seedling	B-ScrPart_tree	O	_	_	
+7-15	.	O	O	_	_	
+
+#id=8
+#text=We put the seedling in the hole in the ground very carefully , then covered the roots with dirt .
+8-1	We	B-ScrPart_gardener	O	webanno.custom.Corefchains_	7-13	
+8-2	put	O	B-ScrEv_place_root	_	_	
+8-3	the	O	O	_	_	
+8-4	seedling	B-ScrPart_tree	O	_	_	
+8-5	in	O	O	_	_	
+8-6	the	O	O	_	_	
+8-7	hole	B-ScrPart_hole	O	_	_	
+8-8	in	O	O	_	_	
+8-9	the	O	O	_	_	
+8-10	ground	B-NPart	O	_	_	
+8-11	very	O	O	_	_	
+8-12	carefully	O	O	_	_	
+8-13	,	O	O	_	_	
+8-14	then	O	O	_	_	
+8-15	covered	O	B-ScrEv_refill_hole	_	_	
+8-16	the	O	O	_	_	
+8-17	roots	B-ScrPart_root	O	_	_	
+8-18	with	O	O	_	_	
+8-19	dirt	B-ScrPart_dirt	O	_	_	
+8-20	.	O	O	_	_	
+
+#id=9
+#text=We patted the dirt down really good to make sure the little tree seedling would be stable in the ground when it was windy .
+9-1	We	B-ScrPart_gardener	O	_	_	
+9-2	patted	O	B-ScrEv_tamp_dirt	_	_	
+9-3	the	O	O	_	_	
+9-4	dirt	B-ScrPart_dirt	O	_	_	
+9-5	down	O	O	_	_	
+9-6	really	O	O	_	_	
+9-7	good	O	O	_	_	
+9-8	to	O	O	_	_	
+9-9	make	O	B-UnrelEv	_	_	
+9-10	sure	O	I-UnrelEv	_	_	
+9-11	the	O	O	_	_	
+9-12	little	O	O	_	_	
+9-13	tree	B-ScrPart_tree	O	_	_	
+9-14	seedling	I-ScrPart_tree|B-ScrPart_tree	O	_	_	
+9-15	would	O	O	_	_	
+9-16	be	O	B-UnrelEv	_	_	
+9-17	stable	O	O	_	_	
+9-18	in	O	O	_	_	
+9-19	the	O	O	_	_	
+9-20	ground	B-NPart	O	_	_	
+9-21	when	O	O	_	_	
+9-22	it	B-No_label	O	_	_	
+9-23	was	O	B-UnrelEv	_	_	
+9-24	windy	O	O	_	_	
+9-25	.	O	O	_	_	
+
+#id=10
+#text=Then we watered the tree .
+10-1	Then	O	O	_	_	
+10-2	we	B-ScrPart_gardener	O	_	_	
+10-3	watered	O	B-ScrEv_water	_	_	
+10-4	the	O	O	_	_	
+10-5	tree	B-ScrPart_tree	O	_	_	
+10-6	.	O	O	_	_	
+
+#id=11
+#text=We 've been watching and watering our tree for a year and slowly but surely our little tree is growing . 
+11-1	We	B-ScrPart_gardener	O	_	_	
+11-2	've	O	O	_	_	
+11-3	been	O	O	_	_	
+11-4	watching	O	B-UnrelEv	_	_	
+11-5	and	O	O	_	_	
+11-6	watering	O	B-ScrEv_water	_	_	
+11-7	our	B-ScrPart_gardener	O	webanno.custom.Corefchains_	11-1	
+11-8	tree	B-ScrPart_tree	O	_	_	
+11-9	for	O	O	_	_	
+11-10	a	O	O	_	_	
+11-11	year	B-ScrPart_time	O	_	_	
+11-12	and	O	O	_	_	
+11-13	slowly	O	O	_	_	
+11-14	but	O	O	_	_	
+11-15	surely	O	O	_	_	
+11-16	our	B-ScrPart_gardener	O	webanno.custom.Corefchains_	11-7	
+11-17	little	O	O	_	_	
+11-18	tree	B-ScrPart_tree	O	_	_	
+11-19	is	O	O	_	_	
+11-20	growing	O	B-RelNScrEv	_	_	
+11-21	.	O	O	_	_	
+

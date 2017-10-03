@@ -1,0 +1,222 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=As I was riding home from school one day the worst possible thing that could happen did happen .
+1-1	As	O	O	_	_	
+1-2	I	B-ScrPart_rider	O	_	_	
+1-3	was	O	O	_	_	
+1-4	riding	O	B-ScrEv_ride_bike	_	_	
+1-5	home	B-NPart	O	_	_	
+1-6	from	O	O	_	_	
+1-7	school	B-NPart	O	_	_	
+1-8	one	O	O	_	_	
+1-9	day	B-NPart	O	_	_	
+1-10	the	O	O	_	_	
+1-11	worst	O	O	_	_	
+1-12	possible	O	O	_	_	
+1-13	thing	O	O	_	_	
+1-14	that	O	O	_	_	
+1-15	could	O	O	_	_	
+1-16	happen	O	B-UnrelEv	_	_	
+1-17	did	O	O	_	_	
+1-18	happen	O	B-UnrelEv	_	_	
+1-19	.	O	O	_	_	
+
+#id=2
+#text=My tire popped .
+2-1	My	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-2	
+2-2	tire	O	O	_	_	
+2-3	popped	O	B-MissScrEv	_	_	
+2-4	.	O	O	_	_	
+
+#id=3
+#text=I knew I was in deep because I had no idea how to repair a flat bicycle tire .
+3-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-1	
+3-2	knew	O	B-UnrelEv	_	_	
+3-3	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	3-1	
+3-4	was	O	B-UnrelEv|B-UnrelEv	_	_	
+3-5	in	O	I-UnrelEv	_	_	
+3-6	deep	O	O	_	_	
+3-7	because	O	O	_	_	
+3-8	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	3-3	
+3-9	had	O	B-UnrelEv	_	_	
+3-10	no	O	O	_	_	
+3-11	idea	O	O	_	_	
+3-12	how	O	O	_	_	
+3-13	to	O	O	_	_	
+3-14	repair	O	B-Evoking	_	_	
+3-15	a	O	I-Evoking	_	_	
+3-16	flat	O	I-Evoking	_	_	
+3-17	bicycle	B-ScrPart_tire	I-Evoking	_	_	
+3-18	tire	I-ScrPart_tire|B-ScrPart_tire	I-Evoking	_	_	
+3-19	.	O	O	_	_	
+
+#id=4
+#text=Luckily my grandfather did and with his advice we went to get a new tube for the rims of my bike 's tire .
+4-1	Luckily	O	O	_	_	
+4-2	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	3-8	
+4-3	grandfather	B-NPart	O	group_I_grandfather	4-2	
+4-4	did	O	B-UnrelEv	_	_	
+4-5	and	O	O	_	_	
+4-6	with	O	O	_	_	
+4-7	his	O	O	_	_	
+4-8	advice	O	O	_	_	
+4-9	we	B-ScrPart_rider	O	group_I_grandfather	4-3	
+4-10	went	O	B-UnrelEv	_	_	
+4-11	to	O	O	_	_	
+4-12	get	O	B-ScrEv_get_tire	_	_	
+4-13	a	O	O	_	_	
+4-14	new	O	O	_	_	
+4-15	tube	B-ScrPart_spare_tube	O	_	_	
+4-16	for	O	O	_	_	
+4-17	the	O	O	_	_	
+4-18	rims	B-ScrPart_rim	O	_	_	
+4-19	of	O	O	_	_	
+4-20	my	O	O	_	_	
+4-21	bike	B-ScrPart_bicycle	O	_	_	
+4-22	's	O	O	_	_	
+4-23	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	3-18	
+4-24	.	O	O	_	_	
+
+#id=5
+#text=We arrive at the store and I am swamped .
+5-1	We	B-ScrPart_rider	O	webanno.custom.Corefchains_	4-9	
+5-2	arrive	O	B-MissScrEv	_	_	
+5-3	at	O	O	_	_	
+5-4	the	O	O	_	_	
+5-5	store	B-ScrPart_shop	O	_	_	
+5-6	and	O	O	_	_	
+5-7	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	4-2	
+5-8	am	O	O	_	_	
+5-9	swamped	O	B-UnrelEv	_	_	
+5-10	.	O	O	_	_	
+
+#id=6
+#text=There are so many different kinds and sizes of tubes .
+6-1	There	O	O	_	_	
+6-2	are	O	B-UnrelEv	_	_	
+6-3	so	O	O	_	_	
+6-4	many	O	O	_	_	
+6-5	different	O	O	_	_	
+6-6	kinds	B-NPart	O	_	_	
+6-7	and	O	O	_	_	
+6-8	sizes	B-NPart	O	_	_	
+6-9	of	O	O	_	_	
+6-10	tubes	B-ScrPart_spare_tube	O	webanno.custom.Corefchains_	4-15	
+6-11	.	O	O	_	_	
+
+#id=7
+#text=Well luckily my grandfather had already looked before we had left and knew which kind we needed .
+7-1	Well	O	O	_	_	
+7-2	luckily	O	O	_	_	
+7-3	my	O	O	_	_	
+7-4	grandfather	B-NPart	O	webanno.custom.Corefchains_	4-3	
+7-5	had	O	B-UnrelEv	_	_	
+7-6	already	O	O	_	_	
+7-7	looked	O	B-UnrelEv	_	_	
+7-8	before	O	O	_	_	
+7-9	we	B-ScrPart_rider	O	webanno.custom.Corefchains_	5-1	
+7-10	had	O	O	_	_	
+7-11	left	O	B-UnrelEv	_	_	
+7-12	and	O	O	_	_	
+7-13	knew	O	B-UnrelEv	_	_	
+7-14	which	O	O	_	_	
+7-15	kind	B-ScrPart_spare_tube	O	webanno.custom.Corefchains_	6-10	
+7-16	we	B-ScrPart_rider	O	webanno.custom.Corefchains_	7-9	
+7-17	needed	O	B-UnrelEv	_	_	
+7-18	.	O	O	_	_	
+
+#id=8
+#text=With that in mind we purchased the one we needed and returned home ready to go .
+8-1	With	O	O	_	_	
+8-2	that	O	O	_	_	
+8-3	in	O	O	_	_	
+8-4	mind	B-NPart	O	_	_	
+8-5	we	B-ScrPart_rider	O	webanno.custom.Corefchains_	7-16	
+8-6	purchased	O	B-ScrEv_get_tools	_	_	
+8-7	the	O	O	_	_	
+8-8	one	O	O	_	_	
+8-9	we	B-ScrPart_rider	O	webanno.custom.Corefchains_	8-5	
+8-10	needed	O	B-UnrelEv	_	_	
+8-11	and	O	O	_	_	
+8-12	returned	O	B-UnrelEv	_	_	
+8-13	home	O	O	_	_	
+8-14	ready	O	O	_	_	
+8-15	to	O	O	_	_	
+8-16	go	O	B-UnrelEv	_	_	
+8-17	.	O	O	_	_	
+
+#id=9
+#text=My grandfather showed me that to repair a tire you need to take off the old broken tube and the replace it with the new one .
+9-1	My	B-ScrPart_rider	O	webanno.custom.Corefchains_	5-7	
+9-2	grandfather	B-NPart	O	webanno.custom.Corefchains_	7-4	
+9-3	showed	O	B-UnrelEv	_	_	
+9-4	me	B-ScrPart_rider	O	webanno.custom.Corefchains_	9-1	
+9-5	that	O	O	_	_	
+9-6	to	O	O	_	_	
+9-7	repair	O	B-Evoking	_	_	
+9-8	a	O	O	_	_	
+9-9	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	4-23	
+9-10	you	B-ScrPart_rider	O	_	_	
+9-11	need	O	O	_	_	
+9-12	to	O	O	_	_	
+9-13	take	O	B-ScrEv_take_tire_off|B-ScrEv_take_tire_off	_	_	
+9-14	off	O	I-ScrEv_take_tire_off	_	_	
+9-15	the	O	O	_	_	
+9-16	old	O	O	_	_	
+9-17	broken	O	O	_	_	
+9-18	tube	B-ScrPart_tire	O	webanno.custom.Corefchains_	9-9	
+9-19	and	O	O	_	_	
+9-20	the	O	O	_	_	
+9-21	replace	O	B-ScrEv_put_new_tire	_	_	
+9-22	it	B-ScrPart_tire	O	webanno.custom.Corefchains_	9-18	
+9-23	with	O	O	_	_	
+9-24	the	O	O	_	_	
+9-25	new	O	O	_	_	
+9-26	one	B-ScrPart_spare_tube	O	webanno.custom.Corefchains_	7-15	
+9-27	.	O	O	_	_	
+
+#id=10
+#text=After that you take a pump and pump air into the tire until it is full .
+10-1	After	O	O	_	_	
+10-2	that	O	O	_	_	
+10-3	you	B-ScrPart_rider	O	webanno.custom.Corefchains_	9-10	
+10-4	take	O	B-ScrEv_get_tools	_	_	
+10-5	a	O	O	_	_	
+10-6	pump	O	O	_	_	
+10-7	and	O	O	_	_	
+10-8	pump	O	B-ScrEv_refill_tire_air	_	_	
+10-9	air	B-ScrPart_air	O	_	_	
+10-10	into	O	O	_	_	
+10-11	the	O	O	_	_	
+10-12	tire	B-ScrPart_spare_tube	O	webanno.custom.Corefchains_	9-26	
+10-13	until	O	O	_	_	
+10-14	it	B-ScrPart_spare_tube	O	webanno.custom.Corefchains_	10-12	
+10-15	is	O	O	_	_	
+10-16	full	O	O	_	_	
+10-17	.	O	O	_	_	
+
+#id=11
+#text=I was n't prepared last time for my tire to pop but you can be sure that I will be the next 
+11-1	I	B-ScrPart_rider	O	_	_	
+11-2	was	O	B-UnrelEv	_	_	
+11-3	n't	O	O	_	_	
+11-4	prepared	O	O	_	_	
+11-5	last	O	O	_	_	
+11-6	time	B-NPart	O	_	_	
+11-7	for	O	O	_	_	
+11-8	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	11-1	
+11-9	tire	B-ScrPart_spare_tube	O	webanno.custom.Corefchains_	10-14	
+11-10	to	O	O	_	_	
+11-11	pop	O	B-RelNScrEv	_	_	
+11-12	but	O	O	_	_	
+11-13	you	B-ScrPart_rider	O	webanno.custom.Corefchains_	11-8	
+11-14	can	O	O	_	_	
+11-15	be	O	B-UnrelEv	_	_	
+11-16	sure	O	O	_	_	
+11-17	that	O	O	_	_	
+11-18	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	11-13	
+11-19	will	O	O	_	_	
+11-20	be	O	B-UnrelEv	_	_	
+11-21	the	O	O	_	_	
+11-22	next	O	O	_	_	
+

@@ -1,0 +1,207 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=Yesterday I went to the library to look at some books .
+1-1	Yesterday	B-NPart	O	
+1-2	I	B-ScrPart_customer	O	
+1-3	went	O	B-Evoking	
+1-4	to	O	I-Evoking	
+1-5	the	O	I-Evoking	
+1-6	library	B-ScrPart_library	I-Evoking	
+1-7	to	O	O	
+1-8	look	O	B-ScrEv_look_for_book	
+1-9	at	O	O	
+1-10	some	O	O	
+1-11	books	B-ScrPart_book	O	
+1-12	.	O	O	
+
+#id=2
+#text=My favorite type of books are books about animals .
+2-1	My	B-ScrPart_customer	O	
+2-2	favorite	O	O	
+2-3	type	B-Head_of_Partitive	O	
+2-4	of	O	O	
+2-5	books	B-ScrPart_book	O	
+2-6	are	O	B-UnrelEv	
+2-7	books	B-ScrPart_book	O	
+2-8	about	O	O	
+2-9	animals	B-NPart	O	
+2-10	.	O	O	
+
+#id=3
+#text=I love cats and wolves and many other fantastic creatures .
+3-1	I	B-ScrPart_customer	O	
+3-2	love	O	B-UnrelEv	
+3-3	cats	B-NPart	O	
+3-4	and	O	O	
+3-5	wolves	B-NPart	O	
+3-6	and	O	O	
+3-7	many	O	O	
+3-8	other	O	O	
+3-9	fantastic	O	O	
+3-10	creatures	B-NPart	O	
+3-11	.	O	O	
+
+#id=4
+#text=My dad dropped me off at the library at 3:00 PM .
+4-1	My	B-ScrPart_customer	O	
+4-2	dad	B-NPart	O	
+4-3	dropped	O	B-ScrEv_get_library	
+4-4	me	B-ScrPart_customer	O	
+4-5	off	O	O	
+4-6	at	O	O	
+4-7	the	O	O	
+4-8	library	B-ScrPart_library	O	
+4-9	at	O	O	
+4-10	3:00	O	O	
+4-11	PM	B-No_label	O	
+4-12	.	O	O	
+
+#id=5
+#text=I asked the librarian at the desk where I could find some books on animals .
+5-1	I	B-ScrPart_customer	O	
+5-2	asked	O	B-ScrEv_ask_librarian	
+5-3	the	O	O	
+5-4	librarian	B-ScrPart_staff	O	
+5-5	at	O	O	
+5-6	the	O	O	
+5-7	desk	B-ScrPart_check-out_desk	O	
+5-8	where	O	O	
+5-9	I	B-ScrPart_customer	O	
+5-10	could	O	O	
+5-11	find	O	B-RelNScrEv	
+5-12	some	O	O	
+5-13	books	B-ScrPart_book	O	
+5-14	on	O	O	
+5-15	animals	B-NPart	O	
+5-16	.	O	O	
+
+#id=6
+#text=She directed me to a large shelf in the back .
+6-1	She	B-ScrPart_staff	O	
+6-2	directed	O	B-RelNScrEv	
+6-3	me	B-ScrPart_customer	O	
+6-4	to	O	O	
+6-5	a	O	O	
+6-6	large	O	O	
+6-7	shelf	B-ScrPart_shelf	O	
+6-8	in	O	O	
+6-9	the	O	O	
+6-10	back	B-ScrPart_location_library	O	
+6-11	.	O	O	
+
+#id=7
+#text=I started to look at the books and found one on wolves and another on leopards .
+7-1	I	B-ScrPart_customer	O	
+7-2	started	O	B-UnrelEv	
+7-3	to	O	O	
+7-4	look	O	B-UnrelEv	
+7-5	at	O	O	
+7-6	the	O	O	
+7-7	books	B-ScrPart_book	O	
+7-8	and	O	O	
+7-9	found	O	B-ScrEv_other	
+7-10	one	B-ScrPart_book	O	
+7-11	on	O	O	
+7-12	wolves	B-NPart	O	
+7-13	and	O	O	
+7-14	another	O	O	
+7-15	on	O	O	
+7-16	leopards	B-NPart	O	
+7-17	.	O	O	
+
+#id=8
+#text=I took the books off the shelf and sat down at a table .
+8-1	I	B-ScrPart_customer	O	
+8-2	took	O	B-ScrEv_take_book	
+8-3	the	O	O	
+8-4	books	B-ScrPart_book	O	
+8-5	off	O	O	
+8-6	the	O	O	
+8-7	shelf	B-ScrPart_shelf	O	
+8-8	and	O	O	
+8-9	sat	O	B-UnrelEv|B-UnrelEv	
+8-10	down	O	I-UnrelEv	
+8-11	at	O	O	
+8-12	a	O	O	
+8-13	table	B-ScrPart_reading_area_furniture	O	
+8-14	.	O	O	
+
+#id=9
+#text=I started reading them and was so into them that I lost track of time .
+9-1	I	B-ScrPart_customer	O	
+9-2	started	O	B-UnrelEv	
+9-3	reading	O	B-RelNScrEv	
+9-4	them	B-ScrPart_book	O	
+9-5	and	O	O	
+9-6	was	O	B-UnrelEv	
+9-7	so	O	O	
+9-8	into	O	O	
+9-9	them	B-ScrPart_book	O	
+9-10	that	O	O	
+9-11	I	B-ScrPart_customer	O	
+9-12	lost	O	B-UnrelEv	
+9-13	track	B-No_label	O	
+9-14	of	O	O	
+9-15	time	B-No_label	O	
+9-16	.	O	O	
+
+#id=10
+#text=Soon it was 6:00 PM and my father was waiting outside to pick me up .
+10-1	Soon	O	O	
+10-2	it	B-No_label	O	
+10-3	was	O	B-UnrelEv	
+10-4	6:00	O	O	
+10-5	PM	B-No_label	O	
+10-6	and	O	O	
+10-7	my	B-ScrPart_customer	O	
+10-8	father	B-NPart	O	
+10-9	was	O	O	
+10-10	waiting	O	B-UnrelEv	
+10-11	outside	O	O	
+10-12	to	O	O	
+10-13	pick	O	B-UnrelEv	
+10-14	me	B-ScrPart_customer	O	
+10-15	up	O	O	
+10-16	.	O	O	
+
+#id=11
+#text=I took both books to the front desk and had the librarian check them out for me .
+11-1	I	B-ScrPart_customer	O	
+11-2	took	O	B-ScrEv_take_book	
+11-3	both	O	O	
+11-4	books	B-ScrPart_book	O	
+11-5	to	O	O	
+11-6	the	O	O	
+11-7	front	B-ScrPart_check-out_desk	O	
+11-8	desk	I-ScrPart_check-out_desk|B-ScrPart_check-out_desk	O	
+11-9	and	O	O	
+11-10	had	O	B-UnrelEv	
+11-11	the	O	O	
+11-12	librarian	B-ScrPart_staff	O	
+11-13	check	O	B-ScrEv_register	
+11-14	them	B-ScrPart_book	O	
+11-15	out	O	O	
+11-16	for	O	O	
+11-17	me	B-ScrPart_customer	O	
+11-18	.	O	O	
+
+#id=12
+#text=I was so excited to continue reading them and I went outside and we drove home . 
+12-1	I	B-ScrPart_customer	O	
+12-2	was	O	B-UnrelEv	
+12-3	so	O	O	
+12-4	excited	O	O	
+12-5	to	O	O	
+12-6	continue	O	B-UnrelEv	
+12-7	reading	O	B-RelNScrEv	
+12-8	them	B-ScrPart_book	O	
+12-9	and	O	O	
+12-10	I	B-ScrPart_customer	O	
+12-11	went	O	B-ScrEv_leave	
+12-12	outside	O	O	
+12-13	and	O	O	
+12-14	we	B-ScrPart_customer	O	
+12-15	drove	O	B-UnrelEv	
+12-16	home	B-No_label	O	
+12-17	.	O	O	
+

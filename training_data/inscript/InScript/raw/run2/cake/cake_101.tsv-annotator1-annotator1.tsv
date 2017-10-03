@@ -1,0 +1,220 @@
+ # webanno.custom.Participants | Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=Yesterday was my sisters birthday so I decided to bake a cake for her .
+1-1	Yesterday	B-NPart	B-webanno.custom.Participants_	O	
+1-2	was	O	O	B-UnrelEv	
+1-3	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+1-4	sisters	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	
+1-5	birthday	B-NPart	B-webanno.custom.Participants_	O	
+1-6	so	O	O	O	
+1-7	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+1-8	decided	O	O	B-UnrelEv	
+1-9	to	O	O	O	
+1-10	bake	O	O	B-Evoking	
+1-11	a	O	O	I-Evoking	
+1-12	cake	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	
+1-13	for	O	O	O	
+1-14	her	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	
+1-15	.	O	O	O	
+
+#id=2
+#text=I looked up the recipe for a chocolate cake in my cooking book .
+2-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+2-2	looked	O	O	B-ScrEv_choose_recipe|B-ScrEv_choose_recipe	
+2-3	up	O	O	I-ScrEv_choose_recipe	
+2-4	the	O	O	O	
+2-5	recipe	B-ScrPart_baking_instructions	B-webanno.custom.Participants_	O	
+2-6	for	O	O	O	
+2-7	a	O	O	O	
+2-8	chocolate	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+2-9	cake	I-ScrPart_cake|B-ScrPart_cake	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+2-10	in	O	O	O	
+2-11	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+2-12	cooking	B-ScrPart_recipe_source	B-webanno.custom.Participants_	O	
+2-13	book	I-ScrPart_recipe_source|B-ScrPart_recipe_source	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+2-14	.	O	O	O	
+
+#id=3
+#text=Chocolate cake is my sisters favorite kind of cake .
+3-1	Chocolate	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+3-2	cake	I-ScrPart_cake|B-ScrPart_cake	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+3-3	is	O	O	B-UnrelEv	
+3-4	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+3-5	sisters	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	
+3-6	favorite	O	O	O	
+3-7	kind	B-Head_of_Partitive	B-webanno.custom.Participants_	O	
+3-8	of	O	O	O	
+3-9	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+3-10	.	O	O	O	
+
+#id=4
+#text=I looked at the list of ingredients and checked my cupboards to make sure I had them all .
+4-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+4-2	looked	O	O	B-RelNScrEv	
+4-3	at	O	O	I-RelNScrEv	
+4-4	the	O	O	O	
+4-5	list	B-ScrPart_recipe_source	B-webanno.custom.Participants_	O	
+4-6	of	O	O	O	
+4-7	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+4-8	and	O	O	O	
+4-9	checked	O	O	B-RelNScrEv	
+4-10	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+4-11	cupboards	B-ScrPart_cabinet	B-webanno.custom.Participants_	O	
+4-12	to	O	O	O	
+4-13	make	O	O	B-UnrelEv	
+4-14	sure	O	O	O	
+4-15	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+4-16	had	O	O	B-UnrelEv	
+4-17	them	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+4-18	all	O	O	O	
+4-19	.	O	O	O	
+
+#id=5
+#text=I did .
+5-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+5-2	did	O	O	B-UnrelEv	
+5-3	.	O	O	O	
+
+#id=6
+#text=I preheated the oven as instructed by the recipe .
+6-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+6-2	preheated	O	O	B-ScrEv_preheat	
+6-3	the	O	O	O	
+6-4	oven	B-ScrPart_oven	B-webanno.custom.Participants_	O	
+6-5	as	O	O	O	
+6-6	instructed	O	O	B-RelNScrEv	
+6-7	by	O	O	O	
+6-8	the	O	O	O	
+6-9	recipe	B-ScrPart_baking_instructions	B-webanno.custom.Participants_	O	
+6-10	.	O	O	O	
+
+#id=7
+#text=I weighed the ingredients with the weighing scales .
+7-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+7-2	weighed	O	O	B-ScrEv_prepare_ingredients	
+7-3	the	O	O	O	
+7-4	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+7-5	with	O	O	O	
+7-6	the	O	O	O	
+7-7	weighing	B-ScrPart_utensil	B-webanno.custom.Participants_	O	
+7-8	scales	I-ScrPart_utensil|B-ScrPart_utensil	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+7-9	.	O	O	O	
+
+#id=8
+#text=I cracked two eggs into the mixing bowl .
+8-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+8-2	cracked	O	O	B-ScrEv_prepare_ingredients	
+8-3	two	O	O	O	
+8-4	eggs	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+8-5	into	O	O	O	
+8-6	the	O	O	O	
+8-7	mixing	B-ScrPart_utensil	B-webanno.custom.Participants_	O	
+8-8	bowl	I-ScrPart_utensil|B-ScrPart_utensil	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+8-9	.	O	O	O	
+
+#id=9
+#text=I then poured the rest of the ingredients into the bowl .
+9-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+9-2	then	O	O	O	
+9-3	poured	O	O	B-ScrEv_prepare_ingredients	
+9-4	the	O	O	O	
+9-5	rest	B-Head_of_Partitive	B-webanno.custom.Participants_	O	
+9-6	of	O	O	O	
+9-7	the	O	O	O	
+9-8	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+9-9	into	O	O	O	
+9-10	the	O	O	O	
+9-11	bowl	B-ScrPart_utensil	B-webanno.custom.Participants_	O	
+9-12	.	O	O	O	
+
+#id=10
+#text=I mixed the ingredients for 5 minutes with an electric mixer .
+10-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+10-2	mixed	O	O	B-ScrEv_prepare_ingredients	
+10-3	the	O	O	O	
+10-4	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+10-5	for	O	O	O	
+10-6	5	O	O	O	
+10-7	minutes	B-ScrPart_time	B-webanno.custom.Participants_	O	
+10-8	with	O	O	O	
+10-9	an	O	O	O	
+10-10	electric	B-ScrPart_utensil	B-webanno.custom.Participants_	O	
+10-11	mixer	I-ScrPart_utensil|B-ScrPart_utensil	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+10-12	.	O	O	O	
+
+#id=11
+#text=I poured the mixed ingredients into a cake tin and placed it in the oven .
+11-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+11-2	poured	O	O	B-ScrEv_pour_dough	
+11-3	the	O	O	O	
+11-4	mixed	O	O	B-ScrEv_prepare_ingredients	
+11-5	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+11-6	into	O	O	O	
+11-7	a	O	O	O	
+11-8	cake	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	
+11-9	tin	I-ScrPart_cake_tin|B-ScrPart_cake_tin	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+11-10	and	O	O	O	
+11-11	placed	O	O	B-ScrEv_put_cake_oven	
+11-12	it	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	
+11-13	in	O	O	O	
+11-14	the	O	O	O	
+11-15	oven	B-ScrPart_oven	B-webanno.custom.Participants_	O	
+11-16	.	O	O	O	
+
+#id=12
+#text=After 20 minutes the cake was finished and I removed it from the oven .
+12-1	After	O	O	O	
+12-2	20	O	O	O	
+12-3	minutes	B-ScrPart_time	B-webanno.custom.Participants_	O	
+12-4	the	O	O	O	
+12-5	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+12-6	was	O	O	O	
+12-7	finished	O	O	B-RelNScrEv	
+12-8	and	O	O	O	
+12-9	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+12-10	removed	O	O	B-ScrEv_take_out_oven	
+12-11	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+12-12	from	O	O	O	
+12-13	the	O	O	O	
+12-14	oven	B-ScrPart_oven	B-webanno.custom.Participants_	O	
+12-15	.	O	O	O	
+
+#id=13
+#text=I let it cool down for a few minutes while I made some icing .
+13-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+13-2	let	O	O	O	
+13-3	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+13-4	cool	O	O	B-ScrEv_cool_down	
+13-5	down	O	O	O	
+13-6	for	O	O	O	
+13-7	a	O	O	O	
+13-8	few	O	O	O	
+13-9	minutes	B-ScrPart_time	B-webanno.custom.Participants_	O	
+13-10	while	O	O	O	
+13-11	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+13-12	made	O	O	B-ScrEv_decorate	
+13-13	some	O	O	O	
+13-14	icing	B-ScrPart_decoration	B-webanno.custom.Participants_	O	
+13-15	.	O	O	O	
+
+#id=14
+#text=I poured the icing over the cooled down cake and decorated the cake with some edible glitter . 
+14-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+14-2	poured	O	O	B-ScrEv_decorate	
+14-3	the	O	O	O	
+14-4	icing	B-ScrPart_decoration	B-webanno.custom.Participants_	O	
+14-5	over	O	O	O	
+14-6	the	O	O	O	
+14-7	cooled	O	O	B-ScrEv_cool_down	
+14-8	down	O	O	O	
+14-9	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+14-10	and	O	O	O	
+14-11	decorated	O	O	B-ScrEv_decorate	
+14-12	the	O	O	O	
+14-13	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+14-14	with	O	O	O	
+14-15	some	O	O	O	
+14-16	edible	O	O	O	
+14-17	glitter	B-ScrPart_decoration	B-webanno.custom.Participants_	O	
+14-18	.	O	O	O	
+

@@ -1,0 +1,276 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I flew to Iceland one year on vacation .
+1-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+1-2	flew	O	O	B-Evoking	_	_	
+1-3	to	O	O	O	_	_	
+1-4	Iceland	B-webanno.custom.Participants_	B-ScrPart_target_location	O	_	_	
+1-5	one	O	O	O	_	_	
+1-6	year	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+1-7	on	O	O	O	_	_	
+1-8	vacation	B-webanno.custom.Participants_	B-NPart	O	_	_	
+1-9	.	O	O	O	_	_	
+
+#id=2
+#text=I left JFK airport in New York and flew to Keflavik in Iceland .
+2-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-1	
+2-2	left	O	O	B-RelNScrEv	_	_	
+2-3	JFK	B-webanno.custom.Participants_	B-ScrPart_airport	O	_	_	
+2-4	airport	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_airport|B-ScrPart_airport	O	_	_	
+2-5	in	O	O	O	_	_	
+2-6	New	O	O	O	_	_	
+2-7	York	O	O	O	_	_	
+2-8	and	O	O	O	_	_	
+2-9	flew	O	O	B-Evoking	_	_	
+2-10	to	O	O	O	_	_	
+2-11	Keflavik	B-webanno.custom.Participants_	B-ScrPart_target_location	O	_	_	
+2-12	in	O	O	O	_	_	
+2-13	Iceland	B-webanno.custom.Participants_	B-ScrPart_target_location	O	webanno.custom.Corefchains_	1-4	
+2-14	.	O	O	O	_	_	
+
+#id=3
+#text=JFK is an enormous airport .
+3-1	JFK	B-webanno.custom.Participants_	B-ScrPart_airport	O	webanno.custom.Corefchains_	2-4	
+3-2	is	O	O	B-UnrelEv	_	_	
+3-3	an	O	O	O	_	_	
+3-4	enormous	O	O	O	_	_	
+3-5	airport	B-webanno.custom.Participants_	B-ScrPart_airport	O	webanno.custom.Corefchains_	3-1	
+3-6	.	O	O	O	_	_	
+
+#id=4
+#text=I parked in long term parking and then took a shuttle to actual terminals .
+4-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-1	
+4-2	parked	O	O	B-ScrEv_get_airport	_	_	
+4-3	in	O	O	O	_	_	
+4-4	long	B-webanno.custom.Participants_	B-MissScrPart	O	_	_	
+4-5	term	I-webanno.custom.Participants_	I-MissScrPart	O	_	_	
+4-6	parking	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-MissScrPart|B-MissScrPart	O	_	_	
+4-7	and	O	O	O	_	_	
+4-8	then	O	O	O	_	_	
+4-9	took	O	O	B-ScrEv_get_on_shuttle	_	_	
+4-10	a	O	O	O	_	_	
+4-11	shuttle	B-webanno.custom.Participants_	B-ScrPart_shuttle	O	_	_	
+4-12	to	O	O	O	_	_	
+4-13	actual	O	O	O	_	_	
+4-14	terminals	B-webanno.custom.Participants_	B-ScrPart_terminal/gate	O	_	_	
+4-15	.	O	O	O	_	_	
+
+#id=5
+#text=I felt so nervous that I would n't make my flight !
+5-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-1	
+5-2	felt	O	O	B-UnrelEv	_	_	
+5-3	so	O	O	O	_	_	
+5-4	nervous	O	O	O	_	_	
+5-5	that	O	O	O	_	_	
+5-6	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-1	
+5-7	would	O	O	O	_	_	
+5-8	n't	O	O	O	_	_	
+5-9	make	O	O	B-RelNScrEv	_	_	
+5-10	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-6	
+5-11	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	_	_	
+5-12	!	O	O	O	_	_	
+
+#id=6
+#text=I was so afraid beforehand of getting my bag lost that I just packed everything I needed into a small carry on bag .
+6-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-10	
+6-2	was	O	O	B-UnrelEv	_	_	
+6-3	so	O	O	O	_	_	
+6-4	afraid	O	O	O	_	_	
+6-5	beforehand	O	O	O	_	_	
+6-6	of	O	O	O	_	_	
+6-7	getting	O	O	B-UnrelEv	_	_	
+6-8	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-1	
+6-9	bag	B-webanno.custom.Participants_	B-ScrPart_check_in_luggage	O	_	_	
+6-10	lost	O	O	B-RelNScrEv	_	_	
+6-11	that	O	O	O	_	_	
+6-12	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-8	
+6-13	just	O	O	O	_	_	
+6-14	packed	O	O	B-ScrEv_pack_luggage	_	_	
+6-15	everything	B-webanno.custom.Participants_	B-ScrPart_personal_belongings	O	_	_	
+6-16	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-12	
+6-17	needed	O	O	B-UnrelEv	_	_	
+6-18	into	O	O	O	_	_	
+6-19	a	O	O	O	_	_	
+6-20	small	O	O	O	_	_	
+6-21	carry	B-webanno.custom.Participants_	B-ScrPart_carry_on_luggage	O	_	_	
+6-22	on	I-webanno.custom.Participants_	I-ScrPart_carry_on_luggage	O	_	_	
+6-23	bag	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_carry_on_luggage|B-ScrPart_carry_on_luggage	O	_	_	
+6-24	.	O	O	O	_	_	
+
+#id=7
+#text=I checked in and then went to security .
+7-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-16	
+7-2	checked	O	O	B-ScrEv_check_in|B-ScrEv_check_in	_	_	
+7-3	in	O	O	I-ScrEv_check_in	_	_	
+7-4	and	O	O	O	_	_	
+7-5	then	O	O	O	_	_	
+7-6	went	O	O	B-ScrEv_go_security_checks	_	_	
+7-7	to	O	O	O	_	_	
+7-8	security	B-webanno.custom.Participants_	B-ScrPart_security_check	O	_	_	
+7-9	.	O	O	O	_	_	
+
+#id=8
+#text=Security moved along quickly and I was waiting at my gate to catch my flight .
+8-1	Security	B-webanno.custom.Participants_	B-ScrPart_security_check	O	webanno.custom.Corefchains_	7-8	
+8-2	moved	O	O	B-ScrEv_go_security_checks|B-ScrEv_go_security_checks	_	_	
+8-3	along	O	O	I-ScrEv_go_security_checks	_	_	
+8-4	quickly	O	O	O	_	_	
+8-5	and	O	O	O	_	_	
+8-6	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-1	
+8-7	was	O	O	O	_	_	
+8-8	waiting	O	O	B-ScrEv_wait_boarding	_	_	
+8-9	at	O	O	O	_	_	
+8-10	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-6	
+8-11	gate	B-webanno.custom.Participants_	B-ScrPart_terminal/gate	O	_	_	
+8-12	to	O	O	O	_	_	
+8-13	catch	O	O	B-RelNScrEv	_	_	
+8-14	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-10	
+8-15	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	_	_	
+8-16	.	O	O	O	_	_	
+
+#id=9
+#text=JFK airport is pretty gross !
+9-1	JFK	B-webanno.custom.Participants_	B-ScrPart_airport	O	_	_	
+9-2	airport	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_airport|B-ScrPart_airport	O	webanno.custom.Corefchains_	2-4	
+9-3	is	O	O	B-UnrelEv	_	_	
+9-4	pretty	O	O	O	_	_	
+9-5	gross	O	O	O	_	_	
+9-6	!	O	O	O	_	_	
+
+#id=10
+#text=While I was waiting , I had a beer at a restaurant .
+10-1	While	O	O	O	_	_	
+10-2	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-14	
+10-3	was	O	O	O	_	_	
+10-4	waiting	O	O	B-ScrEv_wait_boarding	_	_	
+10-5	,	O	O	O	_	_	
+10-6	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-2	
+10-7	had	O	O	B-UnrelEv	_	_	
+10-8	a	O	O	O	_	_	
+10-9	beer	B-webanno.custom.Participants_	B-NPart	O	_	_	
+10-10	at	O	O	O	_	_	
+10-11	a	O	O	O	_	_	
+10-12	restaurant	B-webanno.custom.Participants_	B-NPart	O	_	_	
+10-13	.	O	O	O	_	_	
+
+#id=11
+#text=A roach fell on my husband who was with me !
+11-1	A	O	O	O	_	_	
+11-2	roach	O	O	O	_	_	
+11-3	fell	O	O	B-UnrelEv	_	_	
+11-4	on	O	O	O	_	_	
+11-5	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-6	
+11-6	husband	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+11-7	who	O	O	O	_	_	
+11-8	was	O	O	B-UnrelEv	_	_	
+11-9	with	O	O	O	_	_	
+11-10	me	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_|group_I_husband	11-5|11-6	
+11-11	!	O	O	O	_	_	
+
+#id=12
+#text=We quietly called our server over and she stepped on it and told us it happens all the time !
+12-1	We	B-webanno.custom.Participants_	B-ScrPart_passenger	O	group_I_husband	11-10	
+12-2	quietly	O	O	O	_	_	
+12-3	called	O	O	B-UnrelEv	_	_	
+12-4	our	O	O	O	_	_	
+12-5	server	B-webanno.custom.Participants_	B-ScrPart_staff	O	_	_	
+12-6	over	O	O	O	_	_	
+12-7	and	O	O	O	_	_	
+12-8	she	B-webanno.custom.Participants_	B-ScrPart_staff	O	webanno.custom.Corefchains_	12-5	
+12-9	stepped	O	O	B-UnrelEv|B-UnrelEv	_	_	
+12-10	on	O	O	I-UnrelEv	_	_	
+12-11	it	O	O	O	_	_	
+12-12	and	O	O	O	_	_	
+12-13	told	O	O	B-UnrelEv	_	_	
+12-14	us	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	12-1	
+12-15	it	O	O	O	_	_	
+12-16	happens	O	O	B-UnrelEv	_	_	
+12-17	all	O	O	O	_	_	
+12-18	the	O	O	O	_	_	
+12-19	time	O	O	O	_	_	
+12-20	!	O	O	O	_	_	
+
+#id=13
+#text=We were so disgusted .
+13-1	We	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	12-14	
+13-2	were	O	O	B-UnrelEv	_	_	
+13-3	so	O	O	O	_	_	
+13-4	disgusted	O	O	O	_	_	
+13-5	.	O	O	O	_	_	
+
+#id=14
+#text=It actually made us want to get on the plane even quicker and get out of there .
+14-1	It	O	O	O	_	_	
+14-2	actually	O	O	O	_	_	
+14-3	made	O	O	B-UnrelEv	_	_	
+14-4	us	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	13-1	
+14-5	want	O	O	O	_	_	
+14-6	to	O	O	O	_	_	
+14-7	get	O	O	B-ScrEv_board_plane|B-ScrEv_board_plane	_	_	
+14-8	on	O	O	I-ScrEv_board_plane	_	_	
+14-9	the	O	O	O	_	_	
+14-10	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	_	_	
+14-11	even	O	O	O	_	_	
+14-12	quicker	O	O	O	_	_	
+14-13	and	O	O	O	_	_	
+14-14	get	O	O	B-UnrelEv	_	_	
+14-15	out	O	O	O	_	_	
+14-16	of	O	O	O	_	_	
+14-17	there	B-webanno.custom.Participants_	B-NPart	O	_	_	
+14-18	.	O	O	O	_	_	
+
+#id=15
+#text=Finally , we boarded the plane and were seated next to some nice people from Oregon .
+15-1	Finally	O	O	O	_	_	
+15-2	,	O	O	O	_	_	
+15-3	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	14-4	
+15-4	boarded	O	O	B-ScrEv_board_plane	_	_	
+15-5	the	O	O	O	_	_	
+15-6	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	14-10	
+15-7	and	O	O	O	_	_	
+15-8	were	O	O	O	_	_	
+15-9	seated	O	O	B-ScrEv_take_seat	_	_	
+15-10	next	O	O	O	_	_	
+15-11	to	O	O	O	_	_	
+15-12	some	O	O	O	_	_	
+15-13	nice	O	O	O	_	_	
+15-14	people	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+15-15	from	O	O	O	_	_	
+15-16	Oregon	O	O	O	_	_	
+15-17	.	O	O	O	_	_	
+
+#id=16
+#text=We chatted a bit with them and I watched an in-flight movie of Jane Eyre .
+16-1	We	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	15-3	
+16-2	chatted	O	O	B-UnrelEv	_	_	
+16-3	a	O	O	O	_	_	
+16-4	bit	O	O	O	_	_	
+16-5	with	O	O	O	_	_	
+16-6	them	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	15-14	
+16-7	and	O	O	O	_	_	
+16-8	I	O	O	O	_	_	
+16-9	watched	O	O	B-UnrelEv	_	_	
+16-10	an	O	O	O	_	_	
+16-11	in-flight	B-webanno.custom.Participants_	B-ScrPart_in-flight_entertainment	O	_	_	
+16-12	movie	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_in-flight_entertainment|B-ScrPart_in-flight_entertainment	O	_	_	
+16-13	of	O	O	O	_	_	
+16-14	Jane	O	O	O	_	_	
+16-15	Eyre	O	O	O	_	_	
+16-16	.	O	O	O	_	_	
+
+#id=17
+#text=Finally we got to Iceland .
+17-1	Finally	O	O	O	_	_	
+17-2	we	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	16-1	
+17-3	got	O	O	B-UnrelEv	_	_	
+17-4	to	O	O	O	_	_	
+17-5	Iceland	B-webanno.custom.Participants_	B-ScrPart_target_location	O	webanno.custom.Corefchains_	2-13	
+17-6	.	O	O	O	_	_	
+
+#id=18
+#text=I loved flying ! 
+18-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	11-10	
+18-2	loved	O	O	B-UnrelEv	_	_	
+18-3	flying	O	O	B-RelNScrEv	_	_	
+18-4	!	O	O	O	_	_	
+

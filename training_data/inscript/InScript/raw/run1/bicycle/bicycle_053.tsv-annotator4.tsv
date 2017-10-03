@@ -1,0 +1,210 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=When I was riding my bike last week I must have ran over something sharp , because when I got home I noticed that the front tire was flat .
+1-1	When	O	O	_	_	
+1-2	I	B-ScrPart_rider	O	_	_	
+1-3	was	O	O	_	_	
+1-4	riding	O	B-ScrEv_ride_bike	_	_	
+1-5	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-2	
+1-6	bike	B-ScrPart_bicycle	O	_	_	
+1-7	last	O	O	_	_	
+1-8	week	O	O	_	_	
+1-9	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-5	
+1-10	must	O	O	_	_	
+1-11	have	O	O	_	_	
+1-12	ran	O	B-RelNScrEv	_	_	
+1-13	over	O	O	_	_	
+1-14	something	B-ScrPart_object_damage	O	_	_	
+1-15	sharp	O	O	_	_	
+1-16	,	O	O	_	_	
+1-17	because	O	O	_	_	
+1-18	when	O	O	_	_	
+1-19	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-9	
+1-20	got	O	B-RelNScrEv	_	_	
+1-21	home	B-NPart	O	_	_	
+1-22	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-19	
+1-23	noticed	O	B-ScrEv_notice_problem	_	_	
+1-24	that	O	O	_	_	
+1-25	the	O	O	_	_	
+1-26	front	O	O	_	_	
+1-27	tire	B-ScrPart_tire	O	_	_	
+1-28	was	O	B-UnrelEv	_	_	
+1-29	flat	O	O	_	_	
+1-30	.	O	O	_	_	
+
+#id=2
+#text=This was annoying especially since I did n't have the equipment to fix it .
+2-1	This	O	O	_	_	
+2-2	was	O	O	_	_	
+2-3	annoying	O	B-UnrelEv	_	_	
+2-4	especially	O	O	_	_	
+2-5	since	O	O	_	_	
+2-6	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-22	
+2-7	did	O	O	_	_	
+2-8	n't	O	O	_	_	
+2-9	have	O	B-UnrelEv	_	_	
+2-10	the	O	O	_	_	
+2-11	equipment	B-ScrPart_tool	O	_	_	
+2-12	to	O	O	_	_	
+2-13	fix	O	B-Evoking	_	_	
+2-14	it	B-ScrPart_tire	I-Evoking	webanno.custom.Corefchains_	1-27	
+2-15	.	O	O	_	_	
+
+#id=3
+#text=So later that day I drove over to the local sports store and bought a new tire inner tube and an air pump .
+3-1	So	O	O	_	_	
+3-2	later	O	O	_	_	
+3-3	that	O	O	_	_	
+3-4	day	O	O	_	_	
+3-5	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-6	
+3-6	drove	O	B-RelNScrEv	_	_	
+3-7	over	O	O	_	_	
+3-8	to	O	O	_	_	
+3-9	the	O	O	_	_	
+3-10	local	O	O	_	_	
+3-11	sports	B-ScrPart_shop	O	_	_	
+3-12	store	I-ScrPart_shop|B-ScrPart_shop	O	_	_	
+3-13	and	O	O	_	_	
+3-14	bought	O	B-ScrEv_get_tire	_	_	
+3-15	a	O	O	_	_	
+3-16	new	O	O	_	_	
+3-17	tire	B-ScrPart_spare_tube	O	_	_	
+3-18	inner	I-ScrPart_spare_tube	O	_	_	
+3-19	tube	I-ScrPart_spare_tube|B-ScrPart_spare_tube	O	_	_	
+3-20	and	O	O	_	_	
+3-21	an	O	O	_	_	
+3-22	air	B-ScrPart_tool	O	_	_	
+3-23	pump	I-ScrPart_tool|B-ScrPart_tool	O	webanno.custom.Corefchains_	2-11	
+3-24	.	O	O	_	_	
+
+#id=4
+#text=When I got home I took out the old punctured inner tube from the tire and replaced it with the new once .
+4-1	When	O	O	_	_	
+4-2	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	3-5	
+4-3	got	O	B-RelNScrEv	_	_	
+4-4	home	B-NPart	O	_	_	
+4-5	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	4-2	
+4-6	took	O	B-ScrEv_remove_tire	_	_	
+4-7	out	O	I-ScrEv_remove_tire	_	_	
+4-8	the	O	O	_	_	
+4-9	old	O	O	_	_	
+4-10	punctured	O	B-RelNScrEv	_	_	
+4-11	inner	O	O	_	_	
+4-12	tube	B-ScrPart_tire	O	webanno.custom.Corefchains_	2-14	
+4-13	from	O	O	_	_	
+4-14	the	O	O	_	_	
+4-15	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	4-12	
+4-16	and	O	O	_	_	
+4-17	replaced	O	B-ScrEv_put_new_tire	_	_	
+4-18	it	B-ScrPart_tire	O	webanno.custom.Corefchains_	4-15	
+4-19	with	O	O	_	_	
+4-20	the	O	O	_	_	
+4-21	new	O	O	_	_	
+4-22	once	B-ScrPart_spare_tube	O	webanno.custom.Corefchains_	3-19	
+4-23	.	O	O	_	_	
+
+#id=5
+#text=I then unscrewed the air cap on the tire and attached the air pump .
+5-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	4-5	
+5-2	then	O	O	_	_	
+5-3	unscrewed	O	B-ScrEv_pull_air_pin	_	_	
+5-4	the	O	O	_	_	
+5-5	air	B-ScrPart_bicycle_small_detail	O	_	_	
+5-6	cap	I-ScrPart_bicycle_small_detail|B-ScrPart_bicycle_small_detail	O	_	_	
+5-7	on	O	O	_	_	
+5-8	the	O	O	_	_	
+5-9	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	4-18	
+5-10	and	O	O	_	_	
+5-11	attached	O	B-ScrEv_refill_tire_air	_	_	
+5-12	the	O	O	_	_	
+5-13	air	B-ScrPart_tool	O	_	_	
+5-14	pump	I-ScrPart_tool|B-ScrPart_tool	O	webanno.custom.Corefchains_	3-23	
+5-15	.	O	O	_	_	
+
+#id=6
+#text=I began pumping air into the tire , it took about 30 pumps before it was fully filled up with air .
+6-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	5-1	
+6-2	began	O	B-UnrelEv	_	_	
+6-3	pumping	O	B-ScrEv_refill_tire_air	_	_	
+6-4	air	B-ScrPart_air	O	_	_	
+6-5	into	O	O	_	_	
+6-6	the	O	O	_	_	
+6-7	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	5-9	
+6-8	,	O	O	_	_	
+6-9	it	O	O	_	_	
+6-10	took	O	B-UnrelEv	_	_	
+6-11	about	O	O	_	_	
+6-12	30	O	O	_	_	
+6-13	pumps	O	O	_	_	
+6-14	before	O	O	_	_	
+6-15	it	B-ScrPart_tire	O	webanno.custom.Corefchains_	6-7	
+6-16	was	O	O	_	_	
+6-17	fully	O	O	_	_	
+6-18	filled	O	B-ScrEv_refill_tire_air	_	_	
+6-19	up	O	I-ScrEv_refill_tire_air	_	_	
+6-20	with	O	O	_	_	
+6-21	air	B-ScrPart_air	O	webanno.custom.Corefchains_	6-4	
+6-22	.	O	O	_	_	
+
+#id=7
+#text=I then got on the bike and tested it to see how it would hold up .
+7-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	6-1	
+7-2	then	O	O	_	_	
+7-3	got	O	B-ScrEv_ride_bike	_	_	
+7-4	on	O	O	_	_	
+7-5	the	O	O	_	_	
+7-6	bike	B-ScrPart_bicycle	O	webanno.custom.Corefchains_	1-6	
+7-7	and	O	O	_	_	
+7-8	tested	O	B-ScrEv_check_new_tire	_	_	
+7-9	it	B-ScrPart_tire	O	webanno.custom.Corefchains_	6-15	
+7-10	to	O	O	_	_	
+7-11	see	O	B-ScrEv_check_new_tire	_	_	
+7-12	how	O	O	_	_	
+7-13	it	B-ScrPart_tire	O	webanno.custom.Corefchains_	7-9	
+7-14	would	O	O	_	_	
+7-15	hold	O	B-RelNScrEv	_	_	
+7-16	up	O	I-RelNScrEv	_	_	
+7-17	.	O	O	_	_	
+
+#id=8
+#text=It felt good as new .
+8-1	It	O	O	_	_	
+8-2	felt	O	B-UnrelEv	_	_	
+8-3	good	O	O	_	_	
+8-4	as	O	O	_	_	
+8-5	new	O	O	_	_	
+8-6	.	O	O	_	_	
+
+#id=9
+#text=I rode around happy that it was fixed , and also happy that I now had the equipment to fix it again if it went flat in the future . 
+9-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	7-1	
+9-2	rode	O	B-ScrEv_ride_bike	_	_	
+9-3	around	O	O	_	_	
+9-4	happy	O	O	_	_	
+9-5	that	O	O	_	_	
+9-6	it	B-ScrPart_tire	O	webanno.custom.Corefchains_	7-13	
+9-7	was	O	O	_	_	
+9-8	fixed	O	B-Evoking	_	_	
+9-9	,	O	O	_	_	
+9-10	and	O	O	_	_	
+9-11	also	O	O	_	_	
+9-12	happy	O	O	_	_	
+9-13	that	O	O	_	_	
+9-14	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	9-1	
+9-15	now	O	O	_	_	
+9-16	had	O	B-ScrEv_get_tools	_	_	
+9-17	the	O	O	_	_	
+9-18	equipment	B-ScrPart_tool	O	webanno.custom.Corefchains_	5-14	
+9-19	to	O	O	_	_	
+9-20	fix	O	B-Evoking	_	_	
+9-21	it	B-ScrPart_tire	I-Evoking	webanno.custom.Corefchains_	9-6	
+9-22	again	O	O	_	_	
+9-23	if	O	O	_	_	
+9-24	it	B-ScrPart_tire	O	webanno.custom.Corefchains_	9-21	
+9-25	went	O	B-RelNScrEv	_	_	
+9-26	flat	O	O	_	_	
+9-27	in	O	O	_	_	
+9-28	the	O	O	_	_	
+9-29	future	O	O	_	_	
+9-30	.	O	O	_	_	
+

@@ -1,0 +1,340 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=I took a bus to the train station and then walked into the big , brick building .
+1-1	I	B-ScrPart_passenger	O	
+1-2	took	O	B-ScrEv_get_train_station	
+1-3	a	O	O	
+1-4	bus	B-NPart	O	
+1-5	to	O	O	
+1-6	the	O	O	
+1-7	train	B-ScrPart_train_station	O	
+1-8	station	I-ScrPart_train_station|B-ScrPart_train_station	O	
+1-9	and	O	O	
+1-10	then	O	O	
+1-11	walked	O	B-ScrEv_get_train_station	
+1-12	into	O	O	
+1-13	the	O	O	
+1-14	big	O	O	
+1-15	,	O	O	
+1-16	brick	B-ScrPart_train_station	O	
+1-17	building	I-ScrPart_train_station|B-ScrPart_train_station	O	
+1-18	.	O	O	
+
+#id=2
+#text=There 's a bank of windows at the far side of the building .
+2-1	There	O	O	
+2-2	's	O	B-UnrelEv	
+2-3	a	O	O	
+2-4	bank	B-Head_of_Partitive	O	
+2-5	of	O	O	
+2-6	windows	B-ScrPart_ticket_office/website	O	
+2-7	at	O	O	
+2-8	the	O	O	
+2-9	far	O	O	
+2-10	side	B-NPart	O	
+2-11	of	O	O	
+2-12	the	O	O	
+2-13	building	B-ScrPart_train_station	O	
+2-14	.	O	O	
+
+#id=3
+#text=I went over to one of them and asked for a one way ticket to New York City .
+3-1	I	B-ScrPart_passenger	O	
+3-2	went	O	B-RelNScrEv	
+3-3	over	O	I-RelNScrEv	
+3-4	to	O	O	
+3-5	one	O	O	
+3-6	of	O	O	
+3-7	them	B-ScrPart_ticket_office/website	O	
+3-8	and	O	O	
+3-9	asked	O	B-ScrEv_get_tickets	
+3-10	for	O	O	
+3-11	a	O	O	
+3-12	one	B-ScrPart_card/ticket	O	
+3-13	way	I-ScrPart_card/ticket	O	
+3-14	ticket	I-ScrPart_card/ticket|B-ScrPart_card/ticket	O	
+3-15	to	O	O	
+3-16	New	B-ScrPart_destination	O	
+3-17	York	I-ScrPart_destination	O	
+3-18	City	I-ScrPart_destination	O	
+3-19	.	O	O	
+
+#id=4
+#text=I paid for the ticket with my credit card and then went to sit on the hard wooden booths in the middle of the station .
+4-1	I	B-ScrPart_passenger	O	
+4-2	paid	O	B-ScrEv_get_tickets	
+4-3	for	O	O	
+4-4	the	O	O	
+4-5	ticket	B-ScrPart_card/ticket	O	
+4-6	with	O	O	
+4-7	my	B-ScrPart_passenger	O	
+4-8	credit	B-ScrPart_payment_means	O	
+4-9	card	I-ScrPart_payment_means|B-ScrPart_payment_means	O	
+4-10	and	O	O	
+4-11	then	O	O	
+4-12	went	O	B-UnrelEv	
+4-13	to	O	O	
+4-14	sit	O	B-ScrEv_wait	
+4-15	on	O	O	
+4-16	the	O	O	
+4-17	hard	O	O	
+4-18	wooden	O	O	
+4-19	booths	B-ScrPart_waiting_area	O	
+4-20	in	O	O	
+4-21	the	O	O	
+4-22	middle	B-Head_of_Partitive	O	
+4-23	of	O	O	
+4-24	the	O	O	
+4-25	station	B-ScrPart_train_station	O	
+4-26	.	O	O	
+
+#id=5
+#text=I looked up at the huge arrival screen at the front of the station .
+5-1	I	B-ScrPart_passenger	O	
+5-2	looked	O	B-ScrEv_check_time-table	
+5-3	up	O	I-ScrEv_check_time-table	
+5-4	at	O	O	
+5-5	the	O	O	
+5-6	huge	O	O	
+5-7	arrival	B-ScrPart_time-table	O	
+5-8	screen	I-ScrPart_time-table|B-ScrPart_time-table	O	
+5-9	at	O	O	
+5-10	the	O	O	
+5-11	front	B-Head_of_Partitive	O	
+5-12	of	O	O	
+5-13	the	O	O	
+5-14	station	B-ScrPart_train_station	O	
+5-15	.	O	O	
+
+#id=6
+#text=My train was listed there with a number of others .
+6-1	My	B-ScrPart_passenger	O	
+6-2	train	B-ScrPart_train	O	
+6-3	was	O	O	
+6-4	listed	O	B-ScrEv_check_time-table	
+6-5	there	O	O	
+6-6	with	O	O	
+6-7	a	O	O	
+6-8	number	B-Head_of_Partitive	O	
+6-9	of	O	O	
+6-10	others	B-ScrPart_train	O	
+6-11	.	O	O	
+
+#id=7
+#text=It said the train was on time and would arrive at the station soon .
+7-1	It	B-ScrPart_time-table	O	
+7-2	said	O	B-ScrEv_check_time-table	
+7-3	the	O	O	
+7-4	train	B-ScrPart_train	O	
+7-5	was	O	B-RelNScrEv	
+7-6	on	O	O	
+7-7	time	B-ScrPart_time_date	O	
+7-8	and	O	O	
+7-9	would	O	O	
+7-10	arrive	O	B-ScrEv_train_arrives	
+7-11	at	O	O	
+7-12	the	O	O	
+7-13	station	B-ScrPart_train_station	O	
+7-14	soon	O	O	
+7-15	.	O	O	
+
+#id=8
+#text=When it came in , there was an announcement that the train to New York was boarding .
+8-1	When	O	O	
+8-2	it	B-ScrPart_train	O	
+8-3	came	O	B-ScrEv_train_arrives	
+8-4	in	O	I-ScrEv_train_arrives	
+8-5	,	O	O	
+8-6	there	O	O	
+8-7	was	O	B-RelNScrEv	
+8-8	an	O	O	
+8-9	announcement	B-NPart	O	
+8-10	that	O	O	
+8-11	the	O	O	
+8-12	train	B-ScrPart_train	O	
+8-13	to	O	O	
+8-14	New	B-ScrPart_destination	O	
+8-15	York	I-ScrPart_destination	O	
+8-16	was	O	O	
+8-17	boarding	O	B-ScrEv_get_on	
+8-18	.	O	O	
+
+#id=9
+#text=I got up and walked with about thirty other travelers down some stairs and along a long hallway , then up another flight of stairs and out onto a platform .
+9-1	I	B-ScrPart_passenger	O	
+9-2	got	O	B-RelNScrEv	
+9-3	up	O	I-RelNScrEv	
+9-4	and	O	O	
+9-5	walked	O	B-ScrEv_get_platform	
+9-6	with	O	O	
+9-7	about	O	O	
+9-8	thirty	O	O	
+9-9	other	O	O	
+9-10	travelers	B-ScrPart_passenger	O	
+9-11	down	O	O	
+9-12	some	O	O	
+9-13	stairs	B-NPart	O	
+9-14	and	O	O	
+9-15	along	O	O	
+9-16	a	O	O	
+9-17	long	O	O	
+9-18	hallway	B-NPart	O	
+9-19	,	O	O	
+9-20	then	O	O	
+9-21	up	O	O	
+9-22	another	O	O	
+9-23	flight	B-Head_of_Partitive	O	
+9-24	of	O	O	
+9-25	stairs	B-NPart	O	
+9-26	and	O	O	
+9-27	out	O	O	
+9-28	onto	O	O	
+9-29	a	O	O	
+9-30	platform	B-ScrPart_platform	O	
+9-31	.	O	O	
+
+#id=10
+#text=The train was there next to the platform with its doors open .
+10-1	The	O	O	
+10-2	train	B-ScrPart_train	O	
+10-3	was	O	B-RelNScrEv	
+10-4	there	O	O	
+10-5	next	O	O	
+10-6	to	O	O	
+10-7	the	O	O	
+10-8	platform	B-ScrPart_platform	O	
+10-9	with	O	O	
+10-10	its	B-ScrPart_train	O	
+10-11	doors	B-ScrPart_door	O	
+10-12	open	O	O	
+10-13	.	O	O	
+
+#id=11
+#text=I walked into the train and took a seat by the window so I could watch things go by as we traveled .
+11-1	I	B-ScrPart_passenger	O	
+11-2	walked	O	B-ScrEv_get_on	
+11-3	into	O	O	
+11-4	the	O	O	
+11-5	train	B-ScrPart_train	O	
+11-6	and	O	O	
+11-7	took	O	B-ScrEv_find_place	
+11-8	a	O	O	
+11-9	seat	B-ScrPart_seat	O	
+11-10	by	O	O	
+11-11	the	O	O	
+11-12	window	B-ScrPart_in-train_entertainment	O	
+11-13	so	O	O	
+11-14	I	B-ScrPart_passenger	O	
+11-15	could	O	O	
+11-16	watch	O	B-ScrEv_spend_time_train	
+11-17	things	B-NPart	O	
+11-18	go	O	B-RelNScrEv	
+11-19	by	O	I-RelNScrEv	
+11-20	as	O	O	
+11-21	we	B-ScrPart_passenger	O	
+11-22	traveled	O	B-RelNScrEv	
+11-23	.	O	O	
+
+#id=12
+#text=Soon the train started moving along the tracks .
+12-1	Soon	O	O	
+12-2	the	O	O	
+12-3	train	B-ScrPart_train	O	
+12-4	started	O	B-UnrelEv	
+12-5	moving	O	B-ScrEv_train_departs	
+12-6	along	O	O	
+12-7	the	O	O	
+12-8	tracks	B-NPart	O	
+12-9	.	O	O	
+
+#id=13
+#text=After a while the train 's conductor walked down the aisles saying , Tickets please .
+13-1	After	O	O	
+13-2	a	O	O	
+13-3	while	B-No_label	O	
+13-4	the	O	O	
+13-5	train	B-ScrPart_train	O	
+13-6	's	O	O	
+13-7	conductor	B-ScrPart_train_staff	O	
+13-8	walked	O	B-RelNScrEv	
+13-9	down	O	I-RelNScrEv	
+13-10	the	O	O	
+13-11	aisles	B-ScrPart_coach	O	
+13-12	saying	O	B-RelNScrEv	
+13-13	,	O	O	
+13-14	Tickets	B-ScrPart_card/ticket	O	
+13-15	please	O	O	
+13-16	.	O	O	
+
+#id=14
+#text=Tickets .
+14-1	Tickets	B-ScrPart_card/ticket	O	
+14-2	.	O	O	
+
+#id=15
+#text=over and over .
+15-1	over	O	O	
+15-2	and	O	O	
+15-3	over	O	O	
+15-4	.	O	O	
+
+#id=16
+#text=I handed him my ticket and he punched a hole in it and put a ticket stub in the back of the seat in front of me .
+16-1	I	B-ScrPart_passenger	O	
+16-2	handed	O	B-ScrEv_conductor_checks	
+16-3	him	B-ScrPart_train_staff	O	
+16-4	my	B-ScrPart_passenger	O	
+16-5	ticket	B-ScrPart_card/ticket	O	
+16-6	and	O	O	
+16-7	he	B-ScrPart_train_staff	O	
+16-8	punched	O	B-ScrEv_conductor_checks	
+16-9	a	O	O	
+16-10	hole	B-NPart	O	
+16-11	in	O	O	
+16-12	it	B-ScrPart_card/ticket	O	
+16-13	and	O	O	
+16-14	put	O	B-RelNScrEv	
+16-15	a	O	O	
+16-16	ticket	B-NPart	O	
+16-17	stub	I-NPart|B-NPart	O	
+16-18	in	O	O	
+16-19	the	O	O	
+16-20	back	B-Head_of_Partitive	O	
+16-21	of	O	O	
+16-22	the	O	O	
+16-23	seat	B-ScrPart_seat	O	
+16-24	in	O	O	
+16-25	front	O	O	
+16-26	of	O	O	
+16-27	me	B-ScrPart_passenger	O	
+16-28	.	O	O	
+
+#id=17
+#text=When the train got to New York City I got off the train and walked out onto one of the platforms at Grand Central Station . 
+17-1	When	O	O	
+17-2	the	O	O	
+17-3	train	B-ScrPart_train	O	
+17-4	got	O	B-ScrEv_arrive_destination	
+17-5	to	O	O	
+17-6	New	B-ScrPart_destination	O	
+17-7	York	I-ScrPart_destination	O	
+17-8	City	I-ScrPart_destination	O	
+17-9	I	B-ScrPart_passenger	O	
+17-10	got	O	B-ScrEv_get_off	
+17-11	off	O	I-ScrEv_get_off	
+17-12	the	O	O	
+17-13	train	B-ScrPart_train	O	
+17-14	and	O	O	
+17-15	walked	O	B-ScrEv_get_off	
+17-16	out	O	I-ScrEv_get_off	
+17-17	onto	O	O	
+17-18	one	O	O	
+17-19	of	O	O	
+17-20	the	O	O	
+17-21	platforms	B-ScrPart_platform	O	
+17-22	at	O	O	
+17-23	Grand	B-ScrPart_train_station	O	
+17-24	Central	I-ScrPart_train_station	O	
+17-25	Station	I-ScrPart_train_station	O	
+17-26	.	O	O	
+

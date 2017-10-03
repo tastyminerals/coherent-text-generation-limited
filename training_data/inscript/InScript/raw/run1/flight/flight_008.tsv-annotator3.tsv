@@ -1,0 +1,326 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I flew from Amsterdam to New York City last week .
+1-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+1-2	flew	O	O	B-Evoking	_	_	
+1-3	from	O	O	I-Evoking	_	_	
+1-4	Amsterdam	O	O	I-Evoking	_	_	
+1-5	to	O	O	I-Evoking	_	_	
+1-6	New	B-webanno.custom.Participants_	B-ScrPart_target_location	I-Evoking	_	_	
+1-7	York	I-webanno.custom.Participants_	I-ScrPart_target_location	I-Evoking	_	_	
+1-8	City	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_target_location|B-ScrPart_target_location	I-Evoking	_	_	
+1-9	last	O	O	O	_	_	
+1-10	week	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+1-11	.	O	O	O	_	_	
+
+#id=2
+#text=I had purchased and reserved my ticket a week in advance .
+2-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-1	
+2-2	had	O	O	O	_	_	
+2-3	purchased	O	O	B-ScrEv_get_ticket	_	_	
+2-4	and	O	O	O	_	_	
+2-5	reserved	O	O	B-ScrEv_get_ticket	_	_	
+2-6	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-1	
+2-7	ticket	B-webanno.custom.Participants_	B-ScrPart_ticket	O	_	_	
+2-8	a	O	O	O	_	_	
+2-9	week	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+2-10	in	O	O	O	_	_	
+2-11	advance	B-webanno.custom.Participants_	B-NPart	O	_	_	
+2-12	.	O	O	O	_	_	
+
+#id=3
+#text=I left the hostel I was staying and arrived at Schiphol Airport at about 21:00 .
+3-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-6	
+3-2	left	O	O	B-UnrelEv	_	_	
+3-3	the	O	O	O	_	_	
+3-4	hostel	B-webanno.custom.Participants_	B-NPart	O	_	_	
+3-5	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-1	
+3-6	was	O	O	O	_	_	
+3-7	staying	O	O	B-UnrelEv	_	_	
+3-8	and	O	O	O	_	_	
+3-9	arrived	O	O	B-ScrEv_get_airport	_	_	
+3-10	at	O	O	O	_	_	
+3-11	Schiphol	B-webanno.custom.Participants_	B-ScrPart_airport	O	_	_	
+3-12	Airport	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_airport|B-ScrPart_airport	O	_	_	
+3-13	at	O	O	O	_	_	
+3-14	about	O	O	O	_	_	
+3-15	21:00	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+3-16	.	O	O	O	_	_	
+
+#id=4
+#text=After waiting about 2 hours for the flight check-in , I boarded the plane .
+4-1	After	O	O	O	_	_	
+4-2	waiting	O	O	B-ScrEv_wait	_	_	
+4-3	about	O	O	O	_	_	
+4-4	2	O	O	O	_	_	
+4-5	hours	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+4-6	for	O	O	O	_	_	
+4-7	the	O	O	O	_	_	
+4-8	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	_	_	
+4-9	check-in	O	O	B-ScrEv_check_in	_	_	
+4-10	,	O	O	O	_	_	
+4-11	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-5	
+4-12	boarded	O	O	B-ScrEv_board_plane	_	_	
+4-13	the	O	O	O	_	_	
+4-14	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	_	_	
+4-15	.	O	O	O	_	_	
+
+#id=5
+#text=I went to and found my seat , located on the left-hand side near the middle of the plane .
+5-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-11	
+5-2	went	O	O	B-MissScrEv	_	_	
+5-3	to	O	O	O	_	_	
+5-4	and	O	O	O	_	_	
+5-5	found	O	O	B-ScrEv_take_seat	_	_	
+5-6	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-1	
+5-7	seat	B-webanno.custom.Participants_	B-ScrPart_seat	O	_	_	
+5-8	,	O	O	O	_	_	
+5-9	located	O	O	B-UnrelEv	_	_	
+5-10	on	O	O	O	_	_	
+5-11	the	O	O	O	_	_	
+5-12	left-hand	O	O	O	_	_	
+5-13	side	B-webanno.custom.Participants_	B-NPart	O	_	_	
+5-14	near	O	O	O	_	_	
+5-15	the	O	O	O	_	_	
+5-16	middle	B-webanno.custom.Participants_	B-NPart	O	_	_	
+5-17	of	O	O	O	_	_	
+5-18	the	O	O	O	_	_	
+5-19	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	4-14	
+5-20	.	O	O	O	_	_	
+
+#id=6
+#text=I placed some of my hand luggage in an overhead compartment and sat down next to another passenger who was seated to my right .
+6-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-6	
+6-2	placed	O	O	B-ScrEv_stow_away_luggage	_	_	
+6-3	some	O	O	O	_	_	
+6-4	of	O	O	O	_	_	
+6-5	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-1	
+6-6	hand	B-webanno.custom.Participants_	B-ScrPart_carry_on_luggage	O	_	_	
+6-7	luggage	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_carry_on_luggage|B-ScrPart_carry_on_luggage	O	_	_	
+6-8	in	O	O	O	_	_	
+6-9	an	O	O	O	_	_	
+6-10	overhead	B-webanno.custom.Participants_	B-MissScrPart	O	_	_	
+6-11	compartment	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-MissScrPart|B-MissScrPart	O	_	_	
+6-12	and	O	O	O	_	_	
+6-13	sat	O	O	B-ScrEv_take_seat	_	_	
+6-14	down	O	O	O	_	_	
+6-15	next	O	O	O	_	_	
+6-16	to	O	O	O	_	_	
+6-17	another	O	O	O	_	_	
+6-18	passenger	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+6-19	who	O	O	O	_	_	
+6-20	was	O	O	O	_	_	
+6-21	seated	O	O	B-RelNScrEv	_	_	
+6-22	to	O	O	O	_	_	
+6-23	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-5	
+6-24	right	O	O	O	_	_	
+6-25	.	O	O	O	_	_	
+
+#id=7
+#text=I watched the rest of remaining passengers who were heading to their seats .
+7-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-23	
+7-2	watched	O	O	B-UnrelEv	_	_	
+7-3	the	O	O	O	_	_	
+7-4	rest	O	O	O	_	_	
+7-5	of	O	O	O	_	_	
+7-6	remaining	O	O	O	_	_	
+7-7	passengers	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+7-8	who	O	O	O	_	_	
+7-9	were	O	O	O	_	_	
+7-10	heading	O	O	B-UnrelEv	_	_	
+7-11	to	O	O	O	_	_	
+7-12	their	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-7	
+7-13	seats	O	O	O	_	_	
+7-14	.	O	O	O	_	_	
+
+#id=8
+#text=About 20 minutes later , once everyone was seated and were given basic safety instructions by the flight attendants , the pilot announced that the we were now going to take off for New York .
+8-1	About	O	O	O	_	_	
+8-2	20	O	O	O	_	_	
+8-3	minutes	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+8-4	later	O	O	O	_	_	
+8-5	,	O	O	O	_	_	
+8-6	once	O	O	O	_	_	
+8-7	everyone	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+8-8	was	O	O	O	_	_	
+8-9	seated	O	O	B-RelNScrEv	_	_	
+8-10	and	O	O	O	_	_	
+8-11	were	O	O	O	_	_	
+8-12	given	O	O	B-ScrEv_listen_crew	_	_	
+8-13	basic	O	O	O	_	_	
+8-14	safety	B-webanno.custom.Participants_	B-MissScrPart	O	_	_	
+8-15	instructions	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-MissScrPart|B-MissScrPart	O	_	_	
+8-16	by	O	O	O	_	_	
+8-17	the	O	O	O	_	_	
+8-18	flight	B-webanno.custom.Participants_	B-ScrPart_staff	O	_	_	
+8-19	attendants	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_staff|B-ScrPart_staff	O	_	_	
+8-20	,	O	O	O	_	_	
+8-21	the	O	O	O	_	_	
+8-22	pilot	B-webanno.custom.Participants_	B-ScrPart_staff	O	_	_	
+8-23	announced	O	O	B-ScrEv_listen_crew	_	_	
+8-24	that	O	O	O	_	_	
+8-25	the	O	O	O	_	_	
+8-26	we	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	5-19	
+8-27	were	O	O	O	_	_	
+8-28	now	O	O	O	_	_	
+8-29	going	O	O	O	_	_	
+8-30	to	O	O	O	_	_	
+8-31	take	O	O	B-RelNScrEv|B-RelNScrEv	_	_	
+8-32	off	O	O	I-RelNScrEv	_	_	
+8-33	for	O	O	O	_	_	
+8-34	New	B-webanno.custom.Participants_	B-ScrPart_target_location	O	webanno.custom.Corefchains_	1-8	
+8-35	York	I-webanno.custom.Participants_	I-ScrPart_target_location	O	webanno.custom.Corefchains_	1-8	
+8-36	.	O	O	O	_	_	
+
+#id=9
+#text=The plane engines then started , and we were soon airborne with Amsterdam soon far below us .
+9-1	The	O	O	O	_	_	
+9-2	plane	B-webanno.custom.Participants_	B-MissScrPart	O	_	_	
+9-3	engines	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-MissScrPart|B-MissScrPart	O	_	_	
+9-4	then	O	O	O	_	_	
+9-5	started	O	O	B-ScrEv_take_off	_	_	
+9-6	,	O	O	O	_	_	
+9-7	and	O	O	O	_	_	
+9-8	we	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	8-26	
+9-9	were	O	O	B-UnrelEv	_	_	
+9-10	soon	O	O	O	_	_	
+9-11	airborne	O	O	O	_	_	
+9-12	with	O	O	O	_	_	
+9-13	Amsterdam	O	O	O	_	_	
+9-14	soon	O	O	O	_	_	
+9-15	far	O	O	O	_	_	
+9-16	below	O	O	O	_	_	
+9-17	us	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	9-8	
+9-18	.	O	O	O	_	_	
+
+#id=10
+#text=It was a evening flight , so I slept on and off for a little while , then began watching an in-flight movie .
+10-1	It	O	O	O	_	_	
+10-2	was	O	O	B-UnrelEv	_	_	
+10-3	a	O	O	O	_	_	
+10-4	evening	O	O	O	_	_	
+10-5	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	_	_	
+10-6	,	O	O	O	_	_	
+10-7	so	O	O	O	_	_	
+10-8	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-1	
+10-9	slept	O	O	B-ScrEv_spend_time_flight	_	_	
+10-10	on	O	O	O	_	_	
+10-11	and	O	O	O	_	_	
+10-12	off	O	O	O	_	_	
+10-13	for	O	O	O	_	_	
+10-14	a	O	O	O	_	_	
+10-15	little	O	O	O	_	_	
+10-16	while	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+10-17	,	O	O	O	_	_	
+10-18	then	O	O	O	_	_	
+10-19	began	O	O	B-UnrelEv	_	_	
+10-20	watching	O	O	B-ScrEv_spend_time_flight	_	_	
+10-21	an	O	O	O	_	_	
+10-22	in-flight	B-webanno.custom.Participants_	B-ScrPart_in-flight_entertainment	O	_	_	
+10-23	movie	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_in-flight_entertainment|B-ScrPart_in-flight_entertainment	O	_	_	
+10-24	.	O	O	O	_	_	
+
+#id=11
+#text=After about 3 hours , we were served a light dinner of a chicken entree , bread , and juice .
+11-1	After	O	O	O	_	_	
+11-2	about	O	O	O	_	_	
+11-3	3	O	O	O	_	_	
+11-4	hours	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+11-5	,	O	O	O	_	_	
+11-6	we	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	9-17	
+11-7	were	O	O	O	_	_	
+11-8	served	O	O	B-ScrEv_spend_time_flight	_	_	
+11-9	a	O	O	O	_	_	
+11-10	light	O	O	O	_	_	
+11-11	dinner	B-webanno.custom.Participants_	B-MissScrPart	O	_	_	
+11-12	of	O	O	O	_	_	
+11-13	a	O	O	O	_	_	
+11-14	chicken	B-webanno.custom.Participants_|B-webanno.custom.Participants_	B-MissScrPart|B-MissScrPart	O	webanno.custom.Corefchains_	11-11	
+11-15	entree	I-webanno.custom.Participants_|I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-MissScrPart|I-MissScrPart|B-MissScrPart	O	webanno.custom.Corefchains_	11-11	
+11-16	,	I-webanno.custom.Participants_	I-MissScrPart	O	webanno.custom.Corefchains_	11-11	
+11-17	bread	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-MissScrPart|B-MissScrPart	O	webanno.custom.Corefchains_	11-11	
+11-18	,	I-webanno.custom.Participants_	I-MissScrPart	O	webanno.custom.Corefchains_	11-11	
+11-19	and	I-webanno.custom.Participants_	I-MissScrPart	O	webanno.custom.Corefchains_	11-11	
+11-20	juice	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-MissScrPart|B-MissScrPart	O	webanno.custom.Corefchains_	11-11	
+11-21	.	O	O	O	_	_	
+
+#id=12
+#text=The food was surprisingly tasty and I enjoyed it .
+12-1	The	O	O	O	_	_	
+12-2	food	B-webanno.custom.Participants_	B-MissScrPart	O	webanno.custom.Corefchains_	11-14	
+12-3	was	O	O	B-UnrelEv	_	_	
+12-4	surprisingly	O	O	O	_	_	
+12-5	tasty	O	O	O	_	_	
+12-6	and	O	O	O	_	_	
+12-7	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-8	
+12-8	enjoyed	O	O	B-UnrelEv	_	_	
+12-9	it	B-webanno.custom.Participants_	B-MissScrPart	O	webanno.custom.Corefchains_	12-2	
+12-10	.	O	O	O	_	_	
+
+#id=13
+#text=After finishing my meal , I relaxed and occasionally looked out the window at the night sky , as well as occasionally chatting with the person sitting next to me .
+13-1	After	O	O	O	_	_	
+13-2	finishing	O	O	B-UnrelEv	_	_	
+13-3	my	O	O	O	_	_	
+13-4	meal	B-webanno.custom.Participants_	B-MissScrPart	O	webanno.custom.Corefchains_	12-9	
+13-5	,	O	O	O	_	_	
+13-6	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	12-7	
+13-7	relaxed	O	O	B-UnrelEv	_	_	
+13-8	and	O	O	O	_	_	
+13-9	occasionally	O	O	O	_	_	
+13-10	looked	O	O	B-ScrEv_spend_time_flight	_	_	
+13-11	out	O	O	O	_	_	
+13-12	the	O	O	O	_	_	
+13-13	window	B-webanno.custom.Participants_	B-MissScrPart	O	_	_	
+13-14	at	O	O	O	_	_	
+13-15	the	O	O	O	_	_	
+13-16	night	B-webanno.custom.Participants_	B-NPart	O	_	_	
+13-17	sky	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-NPart|B-NPart	O	_	_	
+13-18	,	O	O	O	_	_	
+13-19	as	O	O	O	_	_	
+13-20	well	O	O	O	_	_	
+13-21	as	O	O	O	_	_	
+13-22	occasionally	O	O	O	_	_	
+13-23	chatting	O	O	B-ScrEv_spend_time_flight	_	_	
+13-24	with	O	O	O	_	_	
+13-25	the	O	O	O	_	_	
+13-26	person	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+13-27	sitting	O	O	O	_	_	
+13-28	next	O	O	O	_	_	
+13-29	to	O	O	O	_	_	
+13-30	me	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	13-6	
+13-31	.	O	O	O	_	_	
+
+#id=14
+#text=Finally , the pilot announced that we were approaching JFK airport .
+14-1	Finally	O	O	O	_	_	
+14-2	,	O	O	O	_	_	
+14-3	the	O	O	O	_	_	
+14-4	pilot	B-webanno.custom.Participants_	B-ScrPart_staff	O	_	_	
+14-5	announced	O	O	B-ScrEv_listen_crew	_	_	
+14-6	that	O	O	O	_	_	
+14-7	we	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	11-6	
+14-8	were	O	O	O	_	_	
+14-9	approaching	O	O	B-ScrEv_get_destination_airport	_	_	
+14-10	JFK	B-webanno.custom.Participants_	B-ScrPart_airport	O	_	_	
+14-11	airport	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_airport|B-ScrPart_airport	O	_	_	
+14-12	.	O	O	O	_	_	
+
+#id=15
+#text=The plane touched down shortly afterwards , and we safely landed in New York . 
+15-1	The	O	O	O	_	_	
+15-2	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	14-7	
+15-3	touched	O	O	B-ScrEv_landing	_	_	
+15-4	down	O	O	O	_	_	
+15-5	shortly	O	O	O	_	_	
+15-6	afterwards	O	O	O	_	_	
+15-7	,	O	O	O	_	_	
+15-8	and	O	O	O	_	_	
+15-9	we	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	15-2	
+15-10	safely	O	O	O	_	_	
+15-11	landed	O	O	B-ScrEv_landing	_	_	
+15-12	in	O	O	O	_	_	
+15-13	New	B-webanno.custom.Participants_	B-ScrPart_target_location	O	webanno.custom.Corefchains_	8-34	
+15-14	York	I-webanno.custom.Participants_	I-ScrPart_target_location	O	webanno.custom.Corefchains_	8-34	
+15-15	.	O	O	O	_	_	
+

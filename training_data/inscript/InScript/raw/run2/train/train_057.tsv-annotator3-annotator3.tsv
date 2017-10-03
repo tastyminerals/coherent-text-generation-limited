@@ -1,0 +1,205 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=I needed to travel across the state , and the train was the quickest and most efficient way to do that as my car is unable to make a long trip .
+1-1	I	B-ScrPart_passenger	O	
+1-2	needed	O	O	
+1-3	to	O	O	
+1-4	travel	O	B-UnrelEv	
+1-5	across	O	O	
+1-6	the	O	O	
+1-7	state	B-NPart	O	
+1-8	,	O	O	
+1-9	and	O	O	
+1-10	the	O	B-Evoking	
+1-11	train	B-ScrPart_train	I-Evoking	
+1-12	was	O	I-Evoking	
+1-13	the	O	I-Evoking	
+1-14	quickest	O	I-Evoking	
+1-15	and	O	I-Evoking	
+1-16	most	O	I-Evoking	
+1-17	efficient	O	I-Evoking	
+1-18	way	B-No_label	I-Evoking	
+1-19	to	O	O	
+1-20	do	O	B-UnrelEv	
+1-21	that	O	I-UnrelEv	
+1-22	as	O	O	
+1-23	my	B-ScrPart_passenger	O	
+1-24	car	B-NPart	O	
+1-25	is	O	B-UnrelEv	
+1-26	unable	O	O	
+1-27	to	O	O	
+1-28	make	O	B-UnrelEv	
+1-29	a	O	O	
+1-30	long	O	O	
+1-31	trip	B-NPart	O	
+1-32	.	O	O	
+
+#id=2
+#text=I went online to the Amtrak website and checked the schedule and prices , and then made a reservation .
+2-1	I	B-ScrPart_passenger	O	
+2-2	went	O	B-UnrelEv|B-UnrelEv	
+2-3	online	B-No_label	I-UnrelEv	
+2-4	to	O	O	
+2-5	the	O	O	
+2-6	Amtrak	B-NPart	O	
+2-7	website	I-NPart	O	
+2-8	and	O	O	
+2-9	checked	O	B-ScrEv_other	
+2-10	the	O	O	
+2-11	schedule	B-ScrPart_time-table	O	
+2-12	and	O	O	
+2-13	prices	B-ScrPart_other	O	
+2-14	,	O	O	
+2-15	and	O	O	
+2-16	then	O	O	
+2-17	made	O	B-ScrEv_other	
+2-18	a	O	O	
+2-19	reservation	B-ScrPart_other	O	
+2-20	.	O	O	
+
+#id=3
+#text=A friend gave me a lift to the depot and once there I purchased my ticket and then boarded the train when it arrived on time .
+3-1	A	O	O	
+3-2	friend	B-NPart	O	
+3-3	gave	O	B-ScrEv_get_train_station	
+3-4	me	B-ScrPart_passenger	O	
+3-5	a	O	O	
+3-6	lift	B-SuppVComp	O	
+3-7	to	O	O	
+3-8	the	O	O	
+3-9	depot	B-ScrPart_train_station	O	
+3-10	and	O	O	
+3-11	once	O	O	
+3-12	there	O	O	
+3-13	I	B-ScrPart_passenger	O	
+3-14	purchased	O	B-ScrEv_get_tickets	
+3-15	my	B-ScrPart_passenger	O	
+3-16	ticket	B-ScrPart_card/ticket	O	
+3-17	and	O	O	
+3-18	then	O	O	
+3-19	boarded	O	B-ScrEv_get_on	
+3-20	the	O	O	
+3-21	train	B-ScrPart_train	O	
+3-22	when	O	O	
+3-23	it	B-ScrPart_train	O	
+3-24	arrived	O	B-ScrEv_train_arrives	
+3-25	on	O	O	
+3-26	time	B-ScrPart_time_date	O	
+3-27	.	O	O	
+
+#id=4
+#text=I brought my small suitcase onboard with me and did not need to check any other bags .
+4-1	I	B-ScrPart_passenger	O	
+4-2	brought	O	B-UnrelEv	
+4-3	my	B-ScrPart_passenger	O	
+4-4	small	O	O	
+4-5	suitcase	B-ScrPart_luggage	O	
+4-6	onboard	B-NPart	O	
+4-7	with	O	O	
+4-8	me	B-ScrPart_passenger	O	
+4-9	and	O	O	
+4-10	did	O	O	
+4-11	not	O	O	
+4-12	need	O	O	
+4-13	to	O	O	
+4-14	check	O	B-UnrelEv	
+4-15	any	O	O	
+4-16	other	O	O	
+4-17	bags	B-ScrPart_luggage	O	
+4-18	.	O	O	
+
+#id=5
+#text=The train ride was comfortable and not crowded , so I had my own seat .
+5-1	The	O	O	
+5-2	train	B-ScrPart_trip	O	
+5-3	ride	I-ScrPart_trip|B-ScrPart_trip	O	
+5-4	was	O	B-UnrelEv	
+5-5	comfortable	O	O	
+5-6	and	O	O	
+5-7	not	O	O	
+5-8	crowded	O	O	
+5-9	,	O	O	
+5-10	so	O	O	
+5-11	I	B-ScrPart_passenger	O	
+5-12	had	O	B-UnrelEv	
+5-13	my	B-ScrPart_passenger	O	
+5-14	own	O	O	
+5-15	seat	B-ScrPart_seat	O	
+5-16	.	O	O	
+
+#id=6
+#text=There were no delays on the tracks and my carriage had only mature adults who were peaceful and quiet , so it was a pleasant and quiet journey .
+6-1	There	O	O	
+6-2	were	O	B-UnrelEv	
+6-3	no	O	O	
+6-4	delays	B-NPart	O	
+6-5	on	O	O	
+6-6	the	O	O	
+6-7	tracks	B-NPart	O	
+6-8	and	O	O	
+6-9	my	B-ScrPart_passenger	O	
+6-10	carriage	B-ScrPart_coach	O	
+6-11	had	O	B-UnrelEv	
+6-12	only	O	O	
+6-13	mature	O	O	
+6-14	adults	B-ScrPart_passenger	O	
+6-15	who	O	O	
+6-16	were	O	B-UnrelEv	
+6-17	peaceful	O	O	
+6-18	and	O	O	
+6-19	quiet	O	O	
+6-20	,	O	O	
+6-21	so	O	O	
+6-22	it	B-ScrPart_seat	O	
+6-23	was	O	B-UnrelEv	
+6-24	a	O	O	
+6-25	pleasant	O	O	
+6-26	and	O	O	
+6-27	quiet	O	O	
+6-28	journey	B-ScrPart_seat	O	
+6-29	.	O	O	
+
+#id=7
+#text=I visited the dining car to get a snack and though it was expensive it was well stocked , and I bought a coffee and a turkey sandwich .
+7-1	I	B-ScrPart_passenger	O	
+7-2	visited	O	B-ScrEv_spend_time_train	
+7-3	the	O	O	
+7-4	dining	B-ScrPart_other	O	
+7-5	car	I-ScrPart_other|B-ScrPart_other	O	
+7-6	to	O	O	
+7-7	get	O	B-ScrEv_spend_time_train	
+7-8	a	O	O	
+7-9	snack	B-ScrPart_in-train_entertainment	O	
+7-10	and	O	O	
+7-11	though	O	O	
+7-12	it	B-ScrPart_other	O	
+7-13	was	O	B-UnrelEv	
+7-14	expensive	O	O	
+7-15	it	B-ScrPart_other	O	
+7-16	was	O	B-UnrelEv	
+7-17	well	O	O	
+7-18	stocked	O	O	
+7-19	,	O	O	
+7-20	and	O	O	
+7-21	I	B-ScrPart_passenger	O	
+7-22	bought	O	B-UnrelEv	
+7-23	a	O	O	
+7-24	coffee	B-NPart	O	
+7-25	and	O	O	
+7-26	a	O	O	
+7-27	turkey	B-NPart	O	
+7-28	sandwich	I-NPart|B-NPart	O	
+7-29	.	O	O	
+
+#id=8
+#text=My arrival was on time and I disembarked . 
+8-1	My	B-ScrPart_passenger	O	
+8-2	arrival	B-NPart	O	
+8-3	was	O	B-UnrelEv	
+8-4	on	O	O	
+8-5	time	B-ScrPart_time_date	O	
+8-6	and	O	O	
+8-7	I	B-ScrPart_passenger	O	
+8-8	disembarked	O	B-ScrEv_get_off	
+8-9	.	O	O	
+

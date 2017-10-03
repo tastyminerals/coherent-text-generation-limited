@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE story SYSTEM "../InScript.dtd">
+<story id="035" scenario="library">
+    <text>
+        <content>Borrowing a book from the library is quite a fun task . 
+Make sure you have a library card first . 
+If not , you can ask the librarian about how to sign up for one . 
+Library cards are usually free . 
+Next , you 'll want to find a book that you 'll want to read . 
+If you have something in mind already , then you 'll head over to the computers and use the search to find the book . 
+The computer search will tell you where exactly in the library the book is located , or it might tell you the book is not at this library and that you 'll have to request that they send it to the library for pick up later . 
+If the book is available , navigate through the shelves to find the book . 
+Each book has a unique number that is in order which makes finding the book pretty easy . 
+Once you have located the book , bring the book with you to the counter and finish checking out the book . 
+Be sure to remember when you have to return the book by ! </content>
+        <sentences>
+            <sentence id="1">
+                <token content="Borrowing" id="1-1">
+                    <pos type="VBG"/>
+                    <lemma type="borrow"/>
+                </token>
+                <token content="a" id="1-2">
+                    <pos type="DT"/>
+                    <lemma type="a"/>
+                </token>
+                <token content="book" id="1-3">
+                    <pos type="NN"/>
+                    <lemma type="book"/>
+                    <dep head="1-1" type="dobj"/>
+                </token>
+                <token content="from" id="1-4"/>
+                <token content="the" id="1-5">
+                    <pos type="DT"/>
+                    <lemma type="the"/>
+                </token>
+                <token content="library" id="1-6">
+                    <pos type="NN"/>
+                    <lemma type="library"/>
+                    <dep head="1-1" type="prep"/>
+                </token>
+                <token content="is" id="1-7">
+                    <pos type="VBZ"/>
+                    <lemma type="be"/>
+                </token>
+                <token content="quite" id="1-8">
+                    <pos type="RB"/>
+                    <lemma type="quite"/>
+                </token>
+                <token content="a" id="1-9">
+                    <pos type="DT"/>
+                    <lemma type="a"/>
+                </token>
+                <token content="fun" id="1-10">
+                    <pos type="NN"/>
+                    <lemma type="fun"/>
+                </token>
+                <token content="task" id="1-11">
+                    <pos type="NN"/>
+                    <lemma type="task"/>
+                </token>
+                <token content="." id="1-12"/>
+            </sentence>
+            <sentence id="2">
+                <token content="Make" id="2-1">
+                    <pos type="VB"/>
+                    <lemma type="make"/>
+                </token>
+                <token content="sure" id="2-2">
+                    <pos type="JJ"/>
+                    <lemma type="sure"/>
+                    <dep head="2-1" type="acomp"/>
+                </token>
+                <token content="you" id="2-3">
+                    <pos type="PRP"/>
+                    <lemma type="you"/>
+                    <dep head="2-4" type="nsubj"/>
+                </token>
+                <token content="have" id="2-4">
+                    <pos type="VBP"/>
+                    <lemma type="have"/>
+                </token>
+                <token content="a" id="2-5">
+                    <pos type="DT"/>
+                    <lemma type="a"/>
+                </token>
+                <token content="library" id="2-6">
+                    <pos type="NN"/>
+                    <lemma type="library"/>
+                </token>
+                <token content="card" id="2-7">
+                    <pos type="NN"/>
+                    <lemma type="card"/>
+                    <dep head="2-4" type="dobj"/>
+                </token>
+                <token content="first" id="2-8">
+                    <pos type="JJ"/>
+                    <lemma type="first"/>
+                </token>
+                <token content="." id="2-9"/>
+            </sentence>
+            <sentence id="3">
+                <token content="If" id="3-1">
+                    <pos type="IN"/>
+                    <lemma type="if"/>
+                    <dep head="3-6" type="dep"/>
+                </token>
+                <token content="not" id="3-2">
+                    <pos type="RB"/>
+                    <lemma type="not"/>
+                </token>
+                <token content="," id="3-3"/>
+                <token content="you" id="3-4">
+                    <pos type="PRP"/>
+                    <lemma type="you"/>
+                    <dep head="3-6" type="nsubj"/>
+                </token>
+                <token content="can" id="3-5">
+                    <pos type="MD"/>
+                    <lemma type="can"/>
+                    <dep head="3-6" type="aux"/>
+                </token>
+                <token content="ask" id="3-6">
+                    <pos type="VB"/>
+                    <lemma type="ask"/>
+                </token>
+                <token content="the" id="3-7">
+                    <pos type="DT"/>
+                    <lemma type="the"/>
+                </token>
+                <token content="librarian" id="3-8">
+                    <pos type="NN"/>
+                    <lemma type="librarian"/>
+                    <dep head="3-6" type="dobj"/>
+                </token>
+                <token content="about" id="3-9"/>
+                <token content="how" id="3-10">
+                    <pos type="WRB"/>
+                    <lemma type="how"/>
+                    <dep head="3-12" type="advmod"/>
+                </token>
+                <token content="to" id="3-11">
+                    <pos type="TO"/>
+                    <lemma type="to"/>
+                    <dep head="3-12" type="aux"/>
+                </token>
+                <token content="sign" id="3-12">
+                    <pos type="VB"/>
+                    <lemma type="sign"/>
+                    <dep head="3-6" type="prepc"/>
+                </token>
+                <token content="up" id="3-13">
+                    <pos type="RP"/>
+                    <lemma type="up"/>
+                    <dep head="3-12" type="prt"/>
+                </token>
+                <token content="for" id="3-14"/>
+                <token content="one" id="3-15">
+                    <pos type="CD"/>
+                    <lemma type="one"/>
+                    <dep head="3-12" type="prep"/>
+                </token>
+                <token content="." id="3-16"/>
+            </sentence>
+            <sentence id="4">
+                <token content="Library" id="4-1">
+                    <pos type="NNP"/>
+                    <lemma type="Library"/>
+                </token>
+                <token content="cards" id="4-2">
+                    <pos type="NNS"/>
+                    <lemma type="card"/>
+                </token>
+                <token content="are" id="4-3">
+                    <pos type="VBP"/>
+                    <lemma type="be"/>
+                </token>
+                <token content="usually" id="4-4">
+                    <pos type="RB"/>
+                    <lemma type="usually"/>
+                </token>
+                <token content="free" id="4-5">
+                    <pos type="JJ"/>
+                    <lemma type="free"/>
+                </token>
+                <token content="." id="4-6"/>
+            </sentence>
+            <sentence id="5">
+                <token content="Next" id="5-1">
+                    <pos type="RB"/>
+                    <lemma type="next"/>
+                    <dep head="5-5" type="advmod"/>
+                </token>
+                <token content="," id="5-2"/>
+                <token content="you" id="5-3">
+                    <pos type="PRP"/>
+                    <lemma type="you"/>
+                    <dep head="5-5" type="nsubj"/>
+                </token>
+                <token content="'ll" id="5-4">
+                    <pos type="MD"/>
+                    <lemma type="'ll"/>
+                    <dep head="5-5" type="aux"/>
+                </token>
+                <token content="want" id="5-5">
+                    <pos type="VB"/>
+                    <lemma type="want"/>
+                </token>
+                <token content="to" id="5-6">
+                    <pos type="TO"/>
+                    <lemma type="to"/>
+                    <dep head="5-7" type="aux"/>
+                </token>
+                <token content="find" id="5-7">
+                    <pos type="VB"/>
+                    <lemma type="find"/>
+                    <dep head="5-5" type="xcomp"/>
+                </token>
+                <token content="a" id="5-8">
+                    <pos type="DT"/>
+                    <lemma type="a"/>
+                </token>
+                <token content="book" id="5-9">
+                    <pos type="NN"/>
+                    <lemma type="book"/>
+                    <dep head="5-7" type="dobj"/>
+                </token>
+                <token content="that" id="5-10">
+                    <pos type="IN"/>
+                    <lemma type="that"/>
+                    <dep head="5-13" type="mark"/>
+                </token>
+                <token content="you" id="5-11">
+                    <pos type="PRP"/>
+                    <lemma type="you"/>
+                    <dep head="5-13" type="nsubj"/>
+                </token>
+                <token content="'ll" id="5-12">
+                    <pos type="MD"/>
+                    <lemma type="'ll"/>
+                    <dep head="5-13" type="aux"/>
+                </token>
+                <token content="want" id="5-13">
+                    <pos type="VB"/>
+                    <lemma type="want"/>
+                    <dep head="5-7" type="ccomp"/>
+                </token>
+                <token content="to" id="5-14">
+                    <pos type="TO"/>
+                    <lemma type="to"/>
+                    <dep head="5-15" type="aux"/>
+                </token>
+                <token content="read" id="5-15">
+                    <pos type="VB"/>
+                    <lemma type="read"/>
+                    <dep head="5-13" type="xcomp"/>
+                </token>
+                <token content="." id="5-16"/>
+            </sentence>
+            <sentence id="6">
+                <token content="If" id="6-1">
+                    <pos type="IN"/>
+                    <lemma type="if"/>
+                    <dep head="6-3" type="mark"/>
+                </token>
+                <token content="you" id="6-2">
+                    <pos type="PRP"/>
+                    <lemma type="you"/>
+                    <dep head="6-3" type="nsubj"/>
+                </token>
+                <token content="have" id="6-3">
+                    <pos type="VBP"/>
+                    <lemma type="have"/>
+                    <dep head="6-12" type="advcl"/>
+                </token>
+                <token content="something" id="6-4">
+                    <pos type="NN"/>
+                    <lemma type="something"/>
+                    <dep head="6-3" type="dobj"/>
+                </token>
+                <token content="in" id="6-5"/>
+                <token content="mind" id="6-6">
+                    <pos type="NN"/>
+                    <lemma type="mind"/>
+                </token>
+                <token content="already" id="6-7">
+                    <pos type="RB"/>
+                    <lemma type="already"/>
+                    <dep head="6-3" type="advmod"/>
+                </token>
+                <token content="," id="6-8"/>
+                <token content="then" id="6-9">
+                    <pos type="RB"/>
+                    <lemma type="then"/>
+                    <dep head="6-3" type="advmod"/>
+                </token>
+                <token content="you" id="6-10">
+                    <pos type="PRP"/>
+                    <lemma type="you"/>
+                    <dep head="6-12" type="nsubj"/>
+                </token>
+                <token content="'ll" id="6-11">
+                    <pos type="MD"/>
+                    <lemma type="'ll"/>
+                    <dep head="6-12" type="aux"/>
+                </token>
+                <token content="head" id="6-12">
+                    <pos type="VB"/>
+                    <lemma type="head"/>
+                </token>
+                <token content="over" id="6-13">
+                    <pos type="RP"/>
+                    <lemma type="over"/>
+                    <dep head="6-12" type="prt"/>
+                </token>
+                <token content="to" id="6-14"/>
+                <token content="the" id="6-15">
+                    <pos type="DT"/>
+                    <lemma type="the"/>
+                </token>
+                <token content="computers" id="6-16">
+                    <pos type="NNS"/>
+                    <lemma type="computer"/>
+                    <dep head="6-12" type="prep"/>
+                </token>
+                <token content="and" id="6-17"/>
+                <token content="use" id="6-18">
+                    <pos type="VB"/>
+                    <lemma type="use"/>
+                    <dep head="6-12" type="conj"/>
+                </token>
+                <token content="the" id="6-19">
+                    <pos type="DT"/>
+                    <lemma type="the"/>
+                </token>
+                <token content="search" id="6-20">
+                    <pos type="NN"/>
+                    <lemma type="search"/>
+                    <dep head="6-18" type="dobj"/>
+                </token>
+                <token content="to" id="6-21">
+                    <pos type="TO"/>
+                    <lemma type="to"/>
+                    <dep head="6-22" type="aux"/>
+                </token>
+                <token content="find" id="6-22">
+                    <pos type="VB"/>
+                    <lemma type="find"/>
+                </token>
+                <token content="the" id="6-23">
+                    <pos type="DT"/>
+                    <lemma type="the"/>
+                </token>
+                <token content="book" id="6-24">
+                    <pos type="NN"/>
+                    <lemma type="book"/>
+                    <dep head="6-22" type="dobj"/>
+                </token>
+                <token content="." id="6-25"/>
+            </sentence>
+            <sentence id="7">
+                <token content="The" id="7-1">
+                    <pos type="DT"/>
+                    <lemma type="the"/>
+                </token>
+                <token content="computer" id="7-2">
+                    <pos type="NN"/>
+                    <lemma type="computer"/>
+                </token>
+                <token content="search" id="7-3">
+                    <pos type="NN"/>
+                    <lemma type="search"/>
+                    <dep head="7-5" type="nsubj"/>
+                </token>
+                <token content="will" id="7-4">
+                    <pos type="MD"/>
+                    <lemma type="will"/>
+                    <dep head="7-5" type="aux"/>
+                </token>
+                <token content="tell" id="7-5">
+                    <pos type="VB"/>
+                    <lemma type="tell"/>
+                </token>
+                <token content="you" id="7-6">
+                    <pos type="PRP"/>
+                    <lemma type="you"/>
+                    <dep head="7-5" type="dobj"/>
+                </token>
+                <token content="where" id="7-7">
+                    <pos type="WRB"/>
+                    <lemma type="where"/>
+                </token>
+                <token content="exactly" id="7-8">
+                    <pos type="RB"/>
+                    <lemma type="exactly"/>
+                    <dep head="7-15" type="advmod"/>
+                </token>
+                <token content="in" id="7-9"/>
+                <token content="the" id="7-10">
+                    <pos type="DT"/>
+                    <lemma type="the"/>
+                </token>
+                <token content="library" id="7-11">
+                    <pos type="NN"/>
+                    <lemma type="library"/>
+                    <dep head="7-15" type="prep"/>
+                </token>
+                <token content="the" id="7-12">
+                    <pos type="DT"/>
+                    <lemma type="the"/>
+                </token>
+                <token content="book" id="7-13">
+                    <pos type="NN"/>
+                    <lemma type="book"/>
+                    <dep head="7-15" type="nsubjpass"/>
+                </token>
+                <token content="is" id="7-14">
+                    <pos type="VBZ"/>
+                    <lemma type="be"/>
+                    <dep head="7-15" type="auxpass"/>
+                </token>
+                <token content="located" id="7-15">
+                    <pos type="VBN"/>
+                    <lemma type="locate"/>
+                    <dep head="7-5" type="ccomp"/>
+                </token>
+                <token content="," id="7-16"/>
+                <token content="or" id="7-17"/>
+                <token content="it" id="7-18">
+                    <pos type="PRP"/>
+                    <lemma type="it"/>
+                    <dep head="7-20" type="nsubj"/>
+                </token>
+                <token content="might" id="7-19">
+                    <pos type="MD"/>
+                    <lemma type="might"/>
+                    <dep head="7-20" type="aux"/>
+                </token>
+                <token content="tell" id="7-20">
+                    <pos type="VB"/>
+                    <lemma type="tell"/>
+                    <dep head="7-5" type="conj"/>
+                </token>
+                <token content="you" id="7-21">
+                    <pos type="PRP"/>
+                    <lemma type="you"/>
+                    <dep head="7-20" type="dobj"/>
+                </token>
+                <token content="the" id="7-22">
+                    <pos type="DT"/>
+                    <lemma type="the"/>
+                </token>
+                <token content="book" id="7-23">
+                    <pos type="NN"/>
+                    <lemma type="book"/>
+                    <dep head="7-24" type="nsubj"/>
+                </token>
+                <token content="is" id="7-24">
+                    <pos type="VBZ"/>
+                    <lemma type="be"/>
+                    <dep head="7-20" type="ccomp"/>
+                </token>
+                <token content="not" id="7-25">
+                    <pos type="RB"/>
+                    <lemma type="not"/>
+                    <dep head="7-24" type="neg"/>
+                </token>
+                <token content="at" id="7-26"/>
+                <token content="this" id="7-27">
+                    <pos type="DT"/>
+                    <lemma type="this"/>
+                </token>
+                <token content="library" id="7-28">
+                    <pos type="NN"/>
+                    <lemma type="library"/>
+                    <dep head="7-24" type="prep"/>
+                </token>
+                <token content="and" id="7-29"/>
+                <token content="that" id="7-30">
+                    <pos type="IN"/>
+                    <lemma type="that"/>
+                    <dep head="7-33" type="mark"/>
+                </token>
+                <token content="you" id="7-31">
+                    <pos type="PRP"/>
+                    <lemma type="you"/>
+                    <dep head="7-33" type="nsubj"/>
+                </token>
+                <token content="'ll" id="7-32">
+                    <pos type="MD"/>
+                    <lemma type="'ll"/>
+                    <dep head="7-33" type="aux"/>
+                </token>
+                <token content="have" id="7-33">
+                    <pos type="VB"/>
+                    <lemma type="have"/>
+                    <dep head="7-24" type="conj"/>
+                </token>
+                <token content="to" id="7-34">
+                    <pos type="TO"/>
+                    <lemma type="to"/>
+                    <dep head="7-35" type="aux"/>
+                </token>
+                <token content="request" id="7-35">
+                    <pos type="VB"/>
+                    <lemma type="request"/>
+                    <dep head="7-33" type="xcomp"/>
+                </token>
+                <token content="that" id="7-36">
+                    <pos type="IN"/>
+                    <lemma type="that"/>
+                    <dep head="7-38" type="mark"/>
+                </token>
+                <token content="they" id="7-37">
+                    <pos type="PRP"/>
+                    <lemma type="they"/>
+                    <dep head="7-38" type="nsubj"/>
+                </token>
+                <token content="send" id="7-38">
+                    <pos type="VBP"/>
+                    <lemma type="send"/>
+                    <dep head="7-35" type="ccomp"/>
+                </token>
+                <token content="it" id="7-39">
+                    <pos type="PRP"/>
+                    <lemma type="it"/>
+                    <dep head="7-38" type="dobj"/>
+                </token>
+                <token content="to" id="7-40"/>
+                <token content="the" id="7-41">
+                    <pos type="DT"/>
+                    <lemma type="the"/>
+                </token>
+                <token content="library" id="7-42">
+                    <pos type="NN"/>
+                    <lemma type="library"/>
+                    <dep head="7-38" type="prep"/>
+                </token>
+                <token content="for" id="7-43"/>
+                <token content="pick" id="7-44">
+                    <pos type="NN"/>
+                    <lemma type="pick"/>
+                </token>
+                <token content="up" id="7-45">
+                    <pos type="RB"/>
+                    <lemma type="up"/>
+                </token>
+                <token content="later" id="7-46">
+                    <pos type="RB"/>
+                    <lemma type="later"/>
+                    <dep head="7-38" type="advmod"/>
+                </token>
+                <token content="." id="7-47"/>
+            </sentence>
+            <sentence id="8">
+                <token content="If" id="8-1">
+                    <pos type="IN"/>
+                    <lemma type="if"/>
+                </token>
+                <token content="the" id="8-2">
+                    <pos type="DT"/>
+                    <lemma type="the"/>
+                </token>
+                <token content="book" id="8-3">
+                    <pos type="NN"/>
+                    <lemma type="book"/>
+                </token>
+                <token content="is" id="8-4">
+                    <pos type="VBZ"/>
+                    <lemma type="be"/>
+                </token>
+                <token content="available" id="8-5">
+                    <pos type="JJ"/>
+                    <lemma type="available"/>
+                    <dep head="8-7" type="advcl"/>
+                </token>
+                <token content="," id="8-6"/>
+                <token content="navigate" id="8-7">
+                    <pos type="VB"/>
+                    <lemma type="navigate"/>
+                </token>
+                <token content="through" id="8-8"/>
+                <token content="the" id="8-9">
+                    <pos type="DT"/>
+                    <lemma type="the"/>
+                </token>
+                <token content="shelves" id="8-10">
+                    <pos type="NNS"/>
+                    <lemma type="shelf"/>
+                    <dep head="8-7" type="prep"/>
+                </token>
+                <token content="to" id="8-11">
+                    <pos type="TO"/>
+                    <lemma type="to"/>
+                    <dep head="8-12" type="aux"/>
+                </token>
+                <token content="find" id="8-12">
+                    <pos type="VB"/>
+                    <lemma type="find"/>
+                    <dep head="8-7" type="xcomp"/>
+                </token>
+                <token content="the" id="8-13">
+                    <pos type="DT"/>
+                    <lemma type="the"/>
+                </token>
+                <token content="book" id="8-14">
+                    <pos type="NN"/>
+                    <lemma type="book"/>
+                    <dep head="8-12" type="dobj"/>
+                </token>
+                <token content="." id="8-15"/>
+            </sentence>
+            <sentence id="9">
+                <token content="Each" id="9-1">
+                    <pos type="DT"/>
+                    <lemma type="each"/>
+                </token>
+                <token content="book" id="9-2">
+                    <pos type="NN"/>
+                    <lemma type="book"/>
+                    <dep head="9-3" type="nsubj"/>
+                </token>
+                <token content="has" id="9-3">
+                    <pos type="VBZ"/>
+                    <lemma type="have"/>
+                </token>
+                <token content="a" id="9-4">
+                    <pos type="DT"/>
+                    <lemma type="a"/>
+                </token>
+                <token content="unique" id="9-5">
+                    <pos type="JJ"/>
+                    <lemma type="unique"/>
+                </token>
+                <token content="number" id="9-6">
+                    <pos type="NN"/>
+                    <lemma type="number"/>
+                    <dep head="9-3" type="dobj"/>
+                </token>
+                <token content="that" id="9-7">
+                    <pos type="WDT"/>
+                    <lemma type="that"/>
+                    <dep head="9-8" type="nsubj"/>
+                </token>
+                <token content="is" id="9-8">
+                    <pos type="VBZ"/>
+                    <lemma type="be"/>
+                </token>
+                <token content="in" id="9-9"/>
+                <token content="order" id="9-10">
+                    <pos type="NN"/>
+                    <lemma type="order"/>
+                    <dep head="9-8" type="prep"/>
+                </token>
+                <token content="which" id="9-11">
+                    <pos type="WDT"/>
+                    <lemma type="which"/>
+                    <dep head="9-12" type="nsubj"/>
+                </token>
+                <token content="makes" id="9-12">
+                    <pos type="VBZ"/>
+                    <lemma type="make"/>
+                </token>
+                <token content="finding" id="9-13">
+                    <pos type="VBG"/>
+                    <lemma type="find"/>
+                    <dep head="9-12" type="xcomp"/>
+                </token>
+                <token content="the" id="9-14">
+                    <pos type="DT"/>
+                    <lemma type="the"/>
+                </token>
+                <token content="book" id="9-15">
+                    <pos type="NN"/>
+                    <lemma type="book"/>
+                </token>
+                <token content="pretty" id="9-16">
+                    <pos type="RB"/>
+                    <lemma type="pretty"/>
+                </token>
+                <token content="easy" id="9-17">
+                    <pos type="JJ"/>
+                    <lemma type="easy"/>
+                    <dep head="9-13" type="xcomp"/>
+                </token>
+                <token content="." id="9-18"/>
+            </sentence>
+            <sentence id="10">
+                <token content="Once" id="10-1">
+                    <pos type="IN"/>
+                    <lemma type="once"/>
+                    <dep head="10-4" type="mark"/>
+                </token>
+                <token content="you" id="10-2">
+                    <pos type="PRP"/>
+                    <lemma type="you"/>
+                    <dep head="10-4" type="nsubj"/>
+                </token>
+                <token content="have" id="10-3">
+                    <pos type="VBP"/>
+                    <lemma type="have"/>
+                    <dep head="10-4" type="aux"/>
+                </token>
+                <token content="located" id="10-4">
+                    <pos type="VBN"/>
+                    <lemma type="locate"/>
+                    <dep head="10-8" type="advcl"/>
+                </token>
+                <token content="the" id="10-5">
+                    <pos type="DT"/>
+                    <lemma type="the"/>
+                </token>
+                <token content="book" id="10-6">
+                    <pos type="NN"/>
+                    <lemma type="book"/>
+                    <dep head="10-4" type="dobj"/>
+                </token>
+                <token content="," id="10-7"/>
+                <token content="bring" id="10-8">
+                    <pos type="VB"/>
+                    <lemma type="bring"/>
+                </token>
+                <token content="the" id="10-9">
+                    <pos type="DT"/>
+                    <lemma type="the"/>
+                </token>
+                <token content="book" id="10-10">
+                    <pos type="NN"/>
+                    <lemma type="book"/>
+                    <dep head="10-8" type="dobj"/>
+                </token>
+                <token content="with" id="10-11"/>
+                <token content="you" id="10-12">
+                    <pos type="PRP"/>
+                    <lemma type="you"/>
+                </token>
+                <token content="to" id="10-13"/>
+                <token content="the" id="10-14">
+                    <pos type="DT"/>
+                    <lemma type="the"/>
+                </token>
+                <token content="counter" id="10-15">
+                    <pos type="NN"/>
+                    <lemma type="counter"/>
+                    <dep head="10-8" type="prep"/>
+                </token>
+                <token content="and" id="10-16"/>
+                <token content="finish" id="10-17">
+                    <pos type="VB"/>
+                    <lemma type="finish"/>
+                    <dep head="10-8" type="conj"/>
+                </token>
+                <token content="checking" id="10-18">
+                    <pos type="VBG"/>
+                    <lemma type="check"/>
+                    <dep head="10-17" type="xcomp"/>
+                </token>
+                <token content="out" id="10-19">
+                    <pos type="RP"/>
+                    <lemma type="out"/>
+                    <dep head="10-18" type="prt"/>
+                </token>
+                <token content="the" id="10-20">
+                    <pos type="DT"/>
+                    <lemma type="the"/>
+                </token>
+                <token content="book" id="10-21">
+                    <pos type="NN"/>
+                    <lemma type="book"/>
+                    <dep head="10-18" type="dobj"/>
+                </token>
+                <token content="." id="10-22"/>
+            </sentence>
+            <sentence id="11">
+                <token content="Be" id="11-1">
+                    <pos type="VB"/>
+                    <lemma type="be"/>
+                </token>
+                <token content="sure" id="11-2">
+                    <pos type="JJ"/>
+                    <lemma type="sure"/>
+                </token>
+                <token content="to" id="11-3">
+                    <pos type="TO"/>
+                    <lemma type="to"/>
+                    <dep head="11-4" type="aux"/>
+                </token>
+                <token content="remember" id="11-4">
+                    <pos type="VB"/>
+                    <lemma type="remember"/>
+                </token>
+                <token content="when" id="11-5">
+                    <pos type="WRB"/>
+                    <lemma type="when"/>
+                    <dep head="11-7" type="advmod"/>
+                </token>
+                <token content="you" id="11-6">
+                    <pos type="PRP"/>
+                    <lemma type="you"/>
+                    <dep head="11-7" type="nsubj"/>
+                </token>
+                <token content="have" id="11-7">
+                    <pos type="VBP"/>
+                    <lemma type="have"/>
+                    <dep head="11-4" type="advcl"/>
+                </token>
+                <token content="to" id="11-8">
+                    <pos type="TO"/>
+                    <lemma type="to"/>
+                    <dep head="11-9" type="aux"/>
+                </token>
+                <token content="return" id="11-9">
+                    <pos type="VB"/>
+                    <lemma type="return"/>
+                    <dep head="11-7" type="xcomp"/>
+                </token>
+                <token content="the" id="11-10">
+                    <pos type="DT"/>
+                    <lemma type="the"/>
+                </token>
+                <token content="book" id="11-11">
+                    <pos type="NN"/>
+                    <lemma type="book"/>
+                    <dep head="11-9" type="dobj"/>
+                </token>
+                <token content="by" id="11-12">
+                    <pos type="IN"/>
+                    <lemma type="by"/>
+                    <dep head="11-9" type="prep"/>
+                </token>
+                <token content="!" id="11-13"/>
+            </sentence>
+        </sentences>
+    </text>
+    <annotations>
+        <participants>
+            <label from="1-3" id="0" name="ScrPart_book" text="book" type="participant"/>
+            <label from="1-6" id="1" name="ScrPart_library" text="library" type="participant"/>
+            <label from="1-11" id="2" name="NPart" text="task" type="participant"/>
+            <label from="2-3" id="3" name="ScrPart_customer" text="you" type="participant"/>
+            <label from="2-6" id="4" name="ScrPart_library_card" text="library card" to="2-7" type="participant"/>
+            <label from="2-7" id="5" name="ScrPart_library_card" text="card" type="participant"/>
+            <label from="3-4" id="6" name="ScrPart_customer" text="you" type="participant"/>
+            <label from="3-8" id="7" name="ScrPart_staff" text="librarian" type="participant"/>
+            <label from="3-15" id="8" name="ScrPart_library_card" text="one" type="participant"/>
+            <label from="4-1" id="9" name="ScrPart_library_card" text="Library cards" to="4-2" type="participant"/>
+            <label from="4-2" id="10" name="ScrPart_library_card" text="cards" type="participant"/>
+            <label from="5-3" id="11" name="ScrPart_customer" text="you" type="participant"/>
+            <label from="5-9" id="12" name="ScrPart_book" text="book" type="participant"/>
+            <label from="5-10" id="13" name="ScrPart_book" text="that" type="participant"/>
+            <label from="5-11" id="14" name="ScrPart_customer" text="you" type="participant"/>
+            <label from="6-2" id="15" name="ScrPart_customer" text="you" type="participant"/>
+            <label from="6-4" id="16" name="ScrPart_book" text="something" type="participant"/>
+            <label from="6-6" id="17" name="No_label" text="mind" type="participant"/>
+            <label from="6-10" id="18" name="ScrPart_customer" text="you" type="participant"/>
+            <label from="6-16" id="19" name="ScrPart_institutional_devices" text="computers" type="participant"/>
+            <label from="6-20" id="20" name="ScrPart_institutional_devices" text="search" type="participant"/>
+            <label from="6-24" id="21" name="ScrPart_book" text="book" type="participant"/>
+            <label from="7-2" id="22" name="ScrPart_institutional_devices" text="computer search" to="7-3" type="participant"/>
+            <label from="7-3" id="23" name="ScrPart_institutional_devices" text="search" type="participant"/>
+            <label from="7-6" id="24" name="ScrPart_customer" text="you" type="participant"/>
+            <label from="7-11" id="25" name="ScrPart_library" text="library" type="participant"/>
+            <label from="7-13" id="26" name="ScrPart_book" text="book" type="participant"/>
+            <label from="7-18" id="27" name="ScrPart_institutional_devices" text="it" type="participant"/>
+            <label from="7-21" id="28" name="ScrPart_customer" text="you" type="participant"/>
+            <label from="7-23" id="29" name="ScrPart_book" text="book" type="participant"/>
+            <label from="7-28" id="30" name="ScrPart_library" text="library" type="participant"/>
+            <label from="7-31" id="31" name="ScrPart_customer" text="you" type="participant"/>
+            <label from="7-37" id="32" name="ScrPart_staff" text="they" type="participant"/>
+            <label from="7-39" id="33" name="ScrPart_book" text="it" type="participant"/>
+            <label from="7-42" id="34" name="ScrPart_library" text="library" type="participant"/>
+            <label from="7-44" id="35" name="ScrPart_other" text="pick up" to="7-45" type="participant"/>
+            <label from="8-3" id="36" name="ScrPart_book" text="book" type="participant"/>
+            <label from="8-10" id="37" name="ScrPart_shelf" text="shelves" type="participant"/>
+            <label from="8-14" id="38" name="ScrPart_book" text="book" type="participant"/>
+            <label from="9-2" id="39" name="ScrPart_book" text="book" type="participant"/>
+            <label from="9-6" id="40" name="ScrPart_book_id" text="number" type="participant"/>
+            <label from="9-10" id="41" name="NPart" text="order" type="participant"/>
+            <label from="9-15" id="42" name="ScrPart_book" text="book" type="participant"/>
+            <label from="10-2" id="43" name="ScrPart_customer" text="you" type="participant"/>
+            <label from="10-6" id="44" name="ScrPart_book" text="book" type="participant"/>
+            <label from="10-10" id="45" name="ScrPart_book" text="book" type="participant"/>
+            <label from="10-12" id="46" name="ScrPart_customer" text="you" type="participant"/>
+            <label from="10-15" id="47" name="ScrPart_check-out_desk" text="counter" type="participant"/>
+            <label from="10-21" id="48" name="ScrPart_book" text="book" type="participant"/>
+            <label from="11-6" id="49" name="ScrPart_customer" text="you" type="participant"/>
+            <label from="11-11" id="50" name="ScrPart_book" text="book" type="participant"/>
+        </participants>
+        <events>
+            <label from="1-1" id="51" name="Evoking" text="Borrowing a book from the library" to="1-6" type="event"/>
+            <label from="1-7" id="52" name="UnrelEv" text="is" type="event"/>
+            <label from="2-1" id="53" name="UnrelEv" text="Make sure" to="2-2" type="event"/>
+            <label from="2-4" id="54" name="ScrEv_obtain_card" text="have" type="event"/>
+            <label from="3-6" id="55" name="ScrEv_ask_librarian" text="ask" type="event"/>
+            <label from="3-12" id="56" name="ScrEv_obtain_card" text="sign up" to="3-13" type="event"/>
+            <label from="4-3" id="57" name="UnrelEv" text="are" type="event"/>
+            <label from="5-5" id="58" name="UnrelEv" text="want" type="event"/>
+            <label from="5-7" id="59" name="ScrEv_other" text="find" type="event"/>
+            <label from="5-13" id="60" name="UnrelEv" text="want" type="event"/>
+            <label from="5-15" id="61" name="RelNScrEv" text="read" type="event"/>
+            <label from="6-3" id="62" name="UnrelEv" text="have" type="event"/>
+            <label from="6-12" id="63" name="RelNScrEv" text="head over" to="6-13" type="event"/>
+            <label from="6-18" id="64" name="ScrEv_use_computer" text="use" type="event"/>
+            <label from="6-22" id="65" name="ScrEv_use_computer" text="find" type="event"/>
+            <label from="7-5" id="66" name="ScrEv_use_computer" text="tell" type="event"/>
+            <label from="7-15" id="67" name="RelNScrEv" text="located" type="event"/>
+            <label from="7-20" id="68" name="ScrEv_use_computer" text="tell" type="event"/>
+            <label from="7-24" id="69" name="UnrelEv" text="is" type="event"/>
+            <label from="7-35" id="70" name="ScrEv_other" text="request" type="event"/>
+            <label from="7-38" id="71" name="RelNScrEv" text="send" type="event"/>
+            <label from="8-4" id="72" name="RelNScrEv" text="is" type="event"/>
+            <label from="8-7" id="73" name="ScrEv_get_shelf" text="navigate" type="event"/>
+            <label from="8-12" id="74" name="ScrEv_look_for_book" text="find" type="event"/>
+            <label from="9-3" id="75" name="UnrelEv" text="has" type="event"/>
+            <label from="9-8" id="76" name="UnrelEv" text="is" type="event"/>
+            <label from="9-12" id="77" name="UnrelEv" text="makes" type="event"/>
+            <label from="9-13" id="78" name="ScrEv_look_for_book" text="finding" type="event"/>
+            <label from="10-4" id="79" name="ScrEv_take_book" text="located" type="event"/>
+            <label from="10-8" id="80" name="ScrEv_go_check_out" text="bring" type="event"/>
+            <label from="10-17" id="81" name="UnrelEv" text="finish" type="event"/>
+            <label from="10-18" id="82" name="ScrEv_register" text="checking out" to="10-19" type="event"/>
+            <label from="11-1" id="83" name="UnrelEv" text="Be sure" to="11-2" type="event"/>
+            <label from="11-4" id="84" name="RelNScrEv" text="remember" type="event"/>
+            <label from="11-9" id="85" name="ScrEv_return_book" text="return" type="event"/>
+        </events>
+        <chains>
+            <chain elements="3 6 11 14 15 18 24 28 31 43 46 49"/>
+            <chain elements="5 8 10"/>
+            <chain elements="0 12 13 16 21 26 29 33 36 38 39 42 44 45 48 50"/>
+            <chain elements="19 20 23 27"/>
+            <chain elements="1 25 30 34"/>
+            <chain elements="7 32"/>
+        </chains>
+    </annotations>
+</story>

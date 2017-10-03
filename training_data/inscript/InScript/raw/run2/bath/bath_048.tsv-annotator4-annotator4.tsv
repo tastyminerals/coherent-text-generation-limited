@@ -1,0 +1,201 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events
+#id=1
+#text=I go to my bedroom and select clean clothes to put on after taking a bath .
+1-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+1-2	go	O	O	B-RelNScrEv	
+1-3	to	O	O	O	
+1-4	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+1-5	bedroom	B-NPart	B-webanno.custom.Participants_	O	
+1-6	and	O	O	O	
+1-7	select	O	O	B-ScrEv_take_clean_clothes	
+1-8	clean	O	O	O	
+1-9	clothes	B-ScrPart_clothes	B-webanno.custom.Participants_	O	
+1-10	to	O	O	O	
+1-11	put	O	O	B-ScrEv_get_dressed	
+1-12	on	O	O	I-ScrEv_get_dressed	
+1-13	after	O	O	O	
+1-14	taking	O	O	B-Evoking	
+1-15	a	O	O	I-Evoking	
+1-16	bath	B-SuppVComp	B-webanno.custom.Participants_	I-Evoking	
+1-17	.	O	O	O	
+
+#id=2
+#text=Go into the bathroom and turn on the water at let it run until it reaches a comfortable temperature and reaches a good height .
+2-1	Go	O	O	B-ScrEv_enter_bathroom	
+2-2	into	O	O	O	
+2-3	the	O	O	O	
+2-4	bathroom	B-ScrPart_bathroom	B-webanno.custom.Participants_	O	
+2-5	and	O	O	O	
+2-6	turn	O	O	B-ScrEv_turn_water_on	
+2-7	on	O	O	I-ScrEv_turn_water_on	
+2-8	the	O	O	O	
+2-9	water	B-ScrPart_water	B-webanno.custom.Participants_	O	
+2-10	at	O	O	O	
+2-11	let	O	O	B-UnrelEv	
+2-12	it	B-ScrPart_water	B-webanno.custom.Participants_	O	
+2-13	run	O	O	B-ScrEv_fill_water/wait	
+2-14	until	O	O	O	
+2-15	it	B-ScrPart_water	B-webanno.custom.Participants_	O	
+2-16	reaches	O	O	B-ScrEv_check_temp	
+2-17	a	O	O	O	
+2-18	comfortable	O	O	O	
+2-19	temperature	B-ScrPart_temperature	B-webanno.custom.Participants_	O	
+2-20	and	O	O	O	
+2-21	reaches	O	O	B-ScrEv_fill_water/wait	
+2-22	a	O	O	O	
+2-23	good	O	O	O	
+2-24	height	B-NPart	B-webanno.custom.Participants_	O	
+2-25	.	O	O	O	
+
+#id=3
+#text=I undress and gently touch the water with my foot to ensure its comfort .
+3-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+3-2	undress	O	O	B-ScrEv_undress	
+3-3	and	O	O	O	
+3-4	gently	O	O	O	
+3-5	touch	O	O	B-ScrEv_check_temp	
+3-6	the	O	O	O	
+3-7	water	B-ScrPart_water	B-webanno.custom.Participants_	O	
+3-8	with	O	O	O	
+3-9	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+3-10	foot	B-ScrPart_body_part	B-webanno.custom.Participants_	O	
+3-11	to	O	O	O	
+3-12	ensure	O	O	B-ScrEv_check_temp	
+3-13	its	B-ScrPart_water	B-webanno.custom.Participants_	O	
+3-14	comfort	B-???	B-webanno.custom.Participants_	O	
+3-15	.	O	O	O	
+
+#id=4
+#text=Then I go fully into the water and take a deep breath for relaxation .
+4-1	Then	O	O	O	
+4-2	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+4-3	go	O	O	B-ScrEv_sink_water	
+4-4	fully	O	O	O	
+4-5	into	O	O	O	
+4-6	the	O	O	O	
+4-7	water	B-ScrPart_water	B-webanno.custom.Participants_	O	
+4-8	and	O	O	O	
+4-9	take	O	O	B-ScrEv_relax	
+4-10	a	O	O	O	
+4-11	deep	O	O	O	
+4-12	breath	B-SuppVComp	B-webanno.custom.Participants_	O	
+4-13	for	O	O	O	
+4-14	relaxation	B-NPart	B-webanno.custom.Participants_	O	
+4-15	.	O	O	O	
+
+#id=5
+#text=I soap up my wash clothe and start cleaning the parts of my body that are not exposed to the water .
+5-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+5-2	soap	O	O	B-ScrEv_apply_soap	
+5-3	up	O	O	I-ScrEv_apply_soap	
+5-4	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+5-5	wash	B-ScrPart_washing_tools	B-webanno.custom.Participants_	O	
+5-6	clothe	I-ScrPart_washing_tools|B-ScrPart_washing_tools	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+5-7	and	O	O	O	
+5-8	start	O	O	B-UnrelEv	
+5-9	cleaning	O	O	B-ScrEv_wash	
+5-10	the	O	O	O	
+5-11	parts	B-Head_of_Partitive	B-webanno.custom.Participants_	O	
+5-12	of	O	O	O	
+5-13	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+5-14	body	B-ScrPart_body_part	B-webanno.custom.Participants_	O	
+5-15	that	B-ScrPart_body_part	B-webanno.custom.Participants_	O	
+5-16	are	O	O	O	
+5-17	not	O	O	O	
+5-18	exposed	O	O	B-UnrelEv	
+5-19	to	O	O	O	
+5-20	the	O	O	O	
+5-21	water	B-ScrPart_water	B-webanno.custom.Participants_	O	
+5-22	.	O	O	O	
+
+#id=6
+#text=After that I stand up and finish soaping my the remainder of my body .
+6-1	After	O	O	O	
+6-2	that	O	O	O	
+6-3	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+6-4	stand	O	O	B-RelNScrEv	
+6-5	up	O	O	I-RelNScrEv	
+6-6	and	O	O	O	
+6-7	finish	O	O	B-UnrelEv	
+6-8	soaping	O	O	B-ScrEv_wash	
+6-9	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+6-10	the	O	O	O	
+6-11	remainder	B-Head_of_Partitive	B-webanno.custom.Participants_	O	
+6-12	of	O	O	O	
+6-13	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+6-14	body	B-ScrPart_body_part	B-webanno.custom.Participants_	O	
+6-15	.	O	O	O	
+
+#id=7
+#text=I start letting the water drain while turning on the shower and wash my hair .
+7-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+7-2	start	O	O	B-UnrelEv	
+7-3	letting	O	O	B-UnrelEv	
+7-4	the	O	O	O	
+7-5	water	B-ScrPart_water	B-webanno.custom.Participants_	O	
+7-6	drain	O	O	B-ScrEv_open_drain	
+7-7	while	O	O	O	
+7-8	turning	O	O	B-RelNScrEv	
+7-9	on	O	O	I-RelNScrEv	
+7-10	the	O	O	O	
+7-11	shower	B-ScrPart_shower	B-webanno.custom.Participants_	O	
+7-12	and	O	O	O	
+7-13	wash	O	O	B-ScrEv_wash	
+7-14	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+7-15	hair	B-ScrPart_hair	B-webanno.custom.Participants_	O	
+7-16	.	O	O	O	
+
+#id=8
+#text=I completely rinse off and dry myself .
+8-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+8-2	completely	O	O	O	
+8-3	rinse	O	O	B-RelNScrEv	
+8-4	off	O	O	I-RelNScrEv	
+8-5	and	O	O	O	
+8-6	dry	O	O	B-ScrEv_dry	
+8-7	myself	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+8-8	.	O	O	O	
+
+#id=9
+#text=Then I get dressed and put on some after shower cologne .
+9-1	Then	O	O	O	
+9-2	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+9-3	get	O	O	B-UnrelEv	
+9-4	dressed	O	O	B-ScrEv_get_dressed	
+9-5	and	O	O	O	
+9-6	put	O	O	B-ScrEv_put_after_shower	
+9-7	on	O	O	I-ScrEv_put_after_shower	
+9-8	some	O	O	O	
+9-9	after	B-ScrPart_bath_means	B-webanno.custom.Participants_	O	
+9-10	shower	I-ScrPart_bath_means	I-webanno.custom.Participants_	O	
+9-11	cologne	I-ScrPart_bath_means|B-ScrPart_bath_means	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+9-12	.	O	O	O	
+
+#id=10
+#text=I exit the bathroom but leave the door open to remove the steam .
+10-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+10-2	exit	O	O	B-RelNScrEv	
+10-3	the	O	O	O	
+10-4	bathroom	B-ScrPart_bathroom	B-webanno.custom.Participants_	O	
+10-5	but	O	O	O	
+10-6	leave	O	O	B-RelNScrEv	
+10-7	the	O	O	O	
+10-8	door	B-NPart	B-webanno.custom.Participants_	O	
+10-9	open	O	O	O	
+10-10	to	O	O	O	
+10-11	remove	O	O	B-ScrEv_air_bathroom	
+10-12	the	O	O	O	
+10-13	steam	B-ScrPart_other	B-webanno.custom.Participants_	O	
+10-14	.	O	O	O	
+
+#id=11
+#text=A nice relaxing bath is now complete . 
+11-1	A	O	O	O	
+11-2	nice	O	O	O	
+11-3	relaxing	O	O	B-ScrEv_relax	
+11-4	bath	B-ScrPart_bath	B-webanno.custom.Participants_	O	
+11-5	is	O	O	B-UnrelEv	
+11-6	now	O	O	O	
+11-7	complete	O	O	O	
+11-8	.	O	O	O	
+

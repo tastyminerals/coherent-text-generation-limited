@@ -1,0 +1,196 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Event | Events
+#id=1
+#text=Tonight I road on a public bus .
+1-1	Tonight	B-ScrPart_time/date	O	O	
+1-2	I	B-ScrPart_passenger	O	O	
+1-3	road	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-Evoking|B-ScrEv_ride	
+1-4	on	O	I-webanno.custom.Events_	I-Evoking	
+1-5	a	O	I-webanno.custom.Events_	I-Evoking	
+1-6	public	O	I-webanno.custom.Events_	I-Evoking	
+1-7	bus	B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	
+1-8	.	O	O	O	
+
+#id=2
+#text=I waited outside of the store near my house for the bus which runs on a schedule .
+2-1	I	B-ScrPart_passenger	O	O	
+2-2	waited	O	B-webanno.custom.Events_	B-ScrEv_wait	
+2-3	outside	O	O	O	
+2-4	of	O	O	O	
+2-5	the	O	O	O	
+2-6	store	B-NPart	O	O	
+2-7	near	O	O	O	
+2-8	my	B-ScrPart_passenger	O	O	
+2-9	house	B-NPart	O	O	
+2-10	for	O	O	O	
+2-11	the	O	O	O	
+2-12	bus	B-ScrPart_bus	O	O	
+2-13	which	O	O	O	
+2-14	runs	O	B-webanno.custom.Events_	B-RelNScrEv	
+2-15	on	O	O	O	
+2-16	a	O	O	O	
+2-17	schedule	B-ScrPart_time-table	O	O	
+2-18	.	O	O	O	
+
+#id=3
+#text=Once the bus came I got on and paid the bus fare .
+3-1	Once	O	O	O	
+3-2	the	O	O	O	
+3-3	bus	B-ScrPart_bus	O	O	
+3-4	came	O	B-webanno.custom.Events_	B-ScrEv_bus_comes	
+3-5	I	B-ScrPart_passenger	O	O	
+3-6	got	O	O	O	
+3-7	on	O	O	O	
+3-8	and	O	O	O	
+3-9	paid	O	B-webanno.custom.Events_	B-ScrEv_get_ticket	
+3-10	the	O	O	O	
+3-11	bus	B-ScrPart_other	O	O	
+3-12	fare	I-ScrPart_other|B-ScrPart_other	O	O	
+3-13	.	O	O	O	
+
+#id=4
+#text=After that I took my seat I looked around at all the other people .
+4-1	After	O	O	O	
+4-2	that	O	O	O	
+4-3	I	B-ScrPart_passenger	O	O	
+4-4	took	O	B-webanno.custom.Events_	B-ScrEv_take_seat	
+4-5	my	B-ScrPart_passenger	O	O	
+4-6	seat	B-ScrPart_seat_in_bus	O	O	
+4-7	I	B-ScrPart_passenger	O	O	
+4-8	looked	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-ScrEv_spend_time_bus|B-ScrEv_spend_time_bus	
+4-9	around	O	I-webanno.custom.Events_	I-ScrEv_spend_time_bus	
+4-10	at	O	O	O	
+4-11	all	O	O	O	
+4-12	the	O	O	O	
+4-13	other	O	O	O	
+4-14	people	B-ScrPart_passenger	O	O	
+4-15	.	O	O	O	
+
+#id=5
+#text=When you ride on the bus there can be all types of people on the bus with you .
+5-1	When	O	O	O	
+5-2	you	B-ScrPart_passenger	O	O	
+5-3	ride	O	B-webanno.custom.Events_	B-Evoking	
+5-4	on	O	I-webanno.custom.Events_	I-Evoking	
+5-5	the	O	I-webanno.custom.Events_	I-Evoking	
+5-6	bus	B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	
+5-7	there	O	O	O	
+5-8	can	O	O	O	
+5-9	be	O	B-webanno.custom.Events_	B-UnrelEv	
+5-10	all	O	O	O	
+5-11	types	B-Head_of_Partitive	O	O	
+5-12	of	O	O	O	
+5-13	people	B-ScrPart_passenger	O	O	
+5-14	on	O	O	O	
+5-15	the	O	O	O	
+5-16	bus	B-ScrPart_bus	O	O	
+5-17	with	O	O	O	
+5-18	you	B-ScrPart_passenger	O	O	
+5-19	.	O	O	O	
+
+#id=6
+#text=I had my MP3 player with me with ear-buds so I put my ear-buds into my ears and turned on my MP3 player and began listening to my music .
+6-1	I	B-ScrPart_passenger	O	O	
+6-2	had	O	B-webanno.custom.Events_	B-UnrelEv	
+6-3	my	B-ScrPart_passenger	O	O	
+6-4	MP3	B-NPart	O	O	
+6-5	player	I-NPart	O	O	
+6-6	with	O	O	O	
+6-7	me	B-ScrPart_passenger	O	O	
+6-8	with	O	O	O	
+6-9	ear-buds	B-NPart	O	O	
+6-10	so	O	O	O	
+6-11	I	B-ScrPart_passenger	O	O	
+6-12	put	O	B-webanno.custom.Events_	B-RelNScrEv	
+6-13	my	B-ScrPart_passenger	O	O	
+6-14	ear-buds	B-NPart	O	O	
+6-15	into	O	O	O	
+6-16	my	B-ScrPart_passenger	O	O	
+6-17	ears	B-NPart	O	O	
+6-18	and	O	O	O	
+6-19	turned	O	B-webanno.custom.Events_	B-UnrelEv	
+6-20	on	O	O	O	
+6-21	my	B-ScrPart_passenger	O	O	
+6-22	MP3	B-NPart	O	O	
+6-23	player	I-NPart	O	O	
+6-24	and	O	O	O	
+6-25	began	O	B-webanno.custom.Events_	B-UnrelEv	
+6-26	listening	O	B-webanno.custom.Events_	B-ScrEv_spend_time_bus	
+6-27	to	O	O	O	
+6-28	my	B-ScrPart_passenger	O	O	
+6-29	music	B-NPart	O	O	
+6-30	.	O	O	O	
+
+#id=7
+#text=My public bus ride was n't very long so after a little while the bus stopped at my stop and I got off the bus and arrived at my destination .
+7-1	My	B-ScrPart_passenger	O	O	
+7-2	public	O	O	O	
+7-3	bus	B-ScrPart_bus	O	O	
+7-4	ride	B-ScrPart_ride	O	O	
+7-5	was	O	B-webanno.custom.Events_	B-UnrelEv	
+7-6	n't	O	O	O	
+7-7	very	O	O	O	
+7-8	long	O	O	O	
+7-9	so	O	O	O	
+7-10	after	O	O	O	
+7-11	a	O	O	O	
+7-12	little	O	O	O	
+7-13	while	O	O	O	
+7-14	the	O	O	O	
+7-15	bus	B-ScrPart_bus	O	O	
+7-16	stopped	O	B-webanno.custom.Events_	B-ScrEv_bus_stops	
+7-17	at	O	O	O	
+7-18	my	B-ScrPart_passenger	O	O	
+7-19	stop	B-ScrPart_bus_stop	O	O	
+7-20	and	O	O	O	
+7-21	I	B-ScrPart_passenger	O	O	
+7-22	got	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-ScrEv_get_off|B-ScrEv_get_off	
+7-23	off	O	I-webanno.custom.Events_	I-ScrEv_get_off	
+7-24	the	O	O	O	
+7-25	bus	B-ScrPart_bus	O	O	
+7-26	and	O	O	O	
+7-27	arrived	O	B-webanno.custom.Events_	B-UnrelEv	
+7-28	at	O	O	O	
+7-29	my	B-ScrPart_passenger	O	O	
+7-30	destination	B-ScrPart_destination	O	O	
+7-31	.	O	O	O	
+
+#id=8
+#text=Riding on a public bus can be a fun experience if you want it to be and you can even talk to the other people on the public bus but overall I had a good experience . 
+8-1	Riding	O	B-webanno.custom.Events_	B-Evoking	
+8-2	on	O	I-webanno.custom.Events_	I-Evoking	
+8-3	a	O	I-webanno.custom.Events_	I-Evoking	
+8-4	public	O	I-webanno.custom.Events_	I-Evoking	
+8-5	bus	B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	
+8-6	can	O	O	O	
+8-7	be	O	B-webanno.custom.Events_	B-UnrelEv	
+8-8	a	O	O	O	
+8-9	fun	B-NPart	O	O	
+8-10	experience	I-NPart	O	O	
+8-11	if	O	O	O	
+8-12	you	B-ScrPart_passenger	O	O	
+8-13	want	O	B-webanno.custom.Events_	B-UnrelEv	
+8-14	it	B-No_label	O	O	
+8-15	to	O	O	O	
+8-16	be	O	B-webanno.custom.Events_	B-UnrelEv	
+8-17	and	O	O	O	
+8-18	you	B-ScrPart_passenger	O	O	
+8-19	can	O	O	O	
+8-20	even	O	O	O	
+8-21	talk	O	B-webanno.custom.Events_	B-UnrelEv	
+8-22	to	O	O	O	
+8-23	the	O	O	O	
+8-24	other	O	O	O	
+8-25	people	B-ScrPart_passenger	O	O	
+8-26	on	O	O	O	
+8-27	the	O	O	O	
+8-28	public	O	O	O	
+8-29	bus	B-ScrPart_bus	O	O	
+8-30	but	O	O	O	
+8-31	overall	O	O	O	
+8-32	I	B-ScrPart_passenger	O	O	
+8-33	had	O	B-webanno.custom.Events_	B-UnrelEv	
+8-34	a	O	O	O	
+8-35	good	O	O	O	
+8-36	experience	B-NPart	O	O	
+8-37	.	O	O	O	
+

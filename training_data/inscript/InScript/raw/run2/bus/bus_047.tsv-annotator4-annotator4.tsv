@@ -1,0 +1,188 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Event | Events
+#id=1
+#text=I walk a few blocks from my home to the local bus stop picking up a newspaper along the way .
+1-1	I	B-ScrPart_passenger	O	O	
+1-2	walk	O	B-webanno.custom.Events_	B-ScrEv_get_bus_stop	
+1-3	a	O	O	O	
+1-4	few	O	O	O	
+1-5	blocks	B-NPart	O	O	
+1-6	from	O	O	O	
+1-7	my	B-ScrPart_passenger	O	O	
+1-8	home	B-NPart	O	O	
+1-9	to	O	O	O	
+1-10	the	O	O	O	
+1-11	local	O	O	O	
+1-12	bus	B-ScrPart_bus_stop	O	O	
+1-13	stop	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	O	
+1-14	picking	O	B-webanno.custom.Events_	B-UnrelEv	
+1-15	up	O	I-webanno.custom.Events_	I-UnrelEv	
+1-16	a	O	O	O	
+1-17	newspaper	B-ScrPart_in-bus_entertainment	O	O	
+1-18	along	O	O	O	
+1-19	the	O	O	O	
+1-20	way	B-No_label	O	O	
+1-21	.	O	O	O	
+
+#id=2
+#text=As the bus arrives I prepare to remove money from my wallet for the fare .
+2-1	As	O	O	O	
+2-2	the	O	O	O	
+2-3	bus	B-ScrPart_bus	O	O	
+2-4	arrives	O	B-webanno.custom.Events_	B-ScrEv_bus_comes	
+2-5	I	B-ScrPart_passenger	O	O	
+2-6	prepare	O	B-webanno.custom.Events_	B-UnrelEv	
+2-7	to	O	O	O	
+2-8	remove	O	B-webanno.custom.Events_	B-RelNScrEv	
+2-9	money	B-ScrPart_money	O	O	
+2-10	from	O	O	O	
+2-11	my	B-ScrPart_passenger	O	O	
+2-12	wallet	B-NPart	O	O	
+2-13	for	O	O	O	
+2-14	the	O	O	O	
+2-15	fare	B-ScrPart_money	O	O	
+2-16	.	O	O	O	
+
+#id=3
+#text=As the bus stops the doors open and I walk up the metal steps and stop to pay my fare to the driver .
+3-1	As	O	O	O	
+3-2	the	O	O	O	
+3-3	bus	B-ScrPart_bus	O	O	
+3-4	stops	O	B-webanno.custom.Events_	B-ScrEv_bus_comes	
+3-5	the	O	O	O	
+3-6	doors	B-ScrPart_door	O	O	
+3-7	open	O	B-webanno.custom.Events_	B-ScrEv_door_opens	
+3-8	and	O	O	O	
+3-9	I	B-ScrPart_passenger	O	O	
+3-10	walk	O	B-webanno.custom.Events_	B-ScrEv_board_bus	
+3-11	up	O	I-webanno.custom.Events_	I-ScrEv_board_bus	
+3-12	the	O	O	O	
+3-13	metal	B-NPart	O	O	
+3-14	steps	I-NPart|B-NPart	O	O	
+3-15	and	O	O	O	
+3-16	stop	O	B-webanno.custom.Events_	B-UnrelEv	
+3-17	to	O	O	O	
+3-18	pay	O	B-webanno.custom.Events_	B-ScrEv_get_ticket	
+3-19	my	B-ScrPart_passenger	O	O	
+3-20	fare	B-ScrPart_money	O	O	
+3-21	to	O	O	O	
+3-22	the	O	O	O	
+3-23	driver	B-ScrPart_bus_staff	O	O	
+3-24	.	O	O	O	
+
+#id=4
+#text=The bus is partially full but with enough seats to choose from I select a window seat .
+4-1	The	O	O	O	
+4-2	bus	B-ScrPart_bus	O	O	
+4-3	is	O	B-webanno.custom.Events_	B-UnrelEv	
+4-4	partially	O	O	O	
+4-5	full	O	O	O	
+4-6	but	O	O	O	
+4-7	with	O	O	O	
+4-8	enough	O	O	O	
+4-9	seats	B-ScrPart_seat_in_bus	O	O	
+4-10	to	O	O	O	
+4-11	choose	O	B-webanno.custom.Events_	B-ScrEv_find_place	
+4-12	from	O	O	O	
+4-13	I	B-ScrPart_passenger	O	O	
+4-14	select	O	B-webanno.custom.Events_	B-ScrEv_find_place	
+4-15	a	O	O	O	
+4-16	window	B-ScrPart_seat_in_bus	O	O	
+4-17	seat	I-ScrPart_seat_in_bus|B-ScrPart_seat_in_bus	O	O	
+4-18	.	O	O	O	
+
+#id=5
+#text=Being a warm day I open the window a crack to get a breeze on me .
+5-1	Being	O	B-webanno.custom.Events_	B-UnrelEv	
+5-2	a	O	O	O	
+5-3	warm	O	O	O	
+5-4	day	B-NPart	O	O	
+5-5	I	B-ScrPart_passenger	O	O	
+5-6	open	O	B-webanno.custom.Events_	B-ScrEv_spend_time_bus	
+5-7	the	O	O	O	
+5-8	window	B-ScrPart_in-bus_entertainment	O	O	
+5-9	a	O	O	O	
+5-10	crack	B-NPart	O	O	
+5-11	to	O	O	O	
+5-12	get	O	B-webanno.custom.Events_	B-UnrelEv	
+5-13	a	O	O	O	
+5-14	breeze	B-NPart	O	O	
+5-15	on	O	O	O	
+5-16	me	B-ScrPart_passenger	O	O	
+5-17	.	O	O	O	
+
+#id=6
+#text=During my ride just out of curiosity I check out all of the other passengers before settling down to read my newspaper .
+6-1	During	O	O	O	
+6-2	my	B-ScrPart_passenger	O	O	
+6-3	ride	B-ScrPart_ride	O	O	
+6-4	just	O	O	O	
+6-5	out	O	O	O	
+6-6	of	O	O	O	
+6-7	curiosity	B-NPart	O	O	
+6-8	I	B-ScrPart_passenger	O	O	
+6-9	check	O	B-webanno.custom.Events_	B-ScrEv_spend_time_bus	
+6-10	out	O	I-webanno.custom.Events_	I-ScrEv_spend_time_bus	
+6-11	all	O	O	O	
+6-12	of	O	O	O	
+6-13	the	O	O	O	
+6-14	other	O	O	O	
+6-15	passengers	B-ScrPart_passenger	O	O	
+6-16	before	O	O	O	
+6-17	settling	O	B-webanno.custom.Events_	B-UnrelEv	
+6-18	down	O	I-webanno.custom.Events_	I-UnrelEv	
+6-19	to	O	O	O	
+6-20	read	O	B-webanno.custom.Events_	B-ScrEv_spend_time_bus	
+6-21	my	B-ScrPart_passenger	O	O	
+6-22	newspaper	B-ScrPart_in-bus_entertainment	O	O	
+6-23	.	O	O	O	
+
+#id=7
+#text=I check out the local scores in the sports section first then continue to read the remainder of the paper .
+7-1	I	B-ScrPart_passenger	O	O	
+7-2	check	O	B-webanno.custom.Events_	B-ScrEv_spend_time_bus	
+7-3	out	O	I-webanno.custom.Events_	I-ScrEv_spend_time_bus	
+7-4	the	O	O	O	
+7-5	local	O	O	O	
+7-6	scores	B-ScrPart_in-bus_entertainment	O	O	
+7-7	in	O	O	O	
+7-8	the	O	O	O	
+7-9	sports	B-NPart	O	O	
+7-10	section	I-NPart|B-NPart	O	O	
+7-11	first	O	O	O	
+7-12	then	O	O	O	
+7-13	continue	O	B-webanno.custom.Events_	B-UnrelEv	
+7-14	to	O	O	O	
+7-15	read	O	B-webanno.custom.Events_	B-ScrEv_spend_time_bus	
+7-16	the	O	O	O	
+7-17	remainder	B-Head_of_Partitive	O	O	
+7-18	of	O	O	O	
+7-19	the	O	O	O	
+7-20	paper	B-ScrPart_in-bus_entertainment	O	O	
+7-21	.	O	O	O	
+
+#id=8
+#text=As the bus nears my stop I get up and walk to the exit waiting for the door to open then depart . 
+8-1	As	O	O	O	
+8-2	the	O	O	O	
+8-3	bus	B-ScrPart_bus	O	O	
+8-4	nears	O	B-webanno.custom.Events_	B-ScrEv_bus_stops	
+8-5	my	B-ScrPart_passenger	O	O	
+8-6	stop	B-ScrPart_destination	O	O	
+8-7	I	B-ScrPart_passenger	O	O	
+8-8	get	O	B-webanno.custom.Events_	B-ScrEv_go_exit	
+8-9	up	O	I-webanno.custom.Events_	I-ScrEv_go_exit	
+8-10	and	O	O	O	
+8-11	walk	O	B-webanno.custom.Events_	B-ScrEv_go_exit	
+8-12	to	O	O	O	
+8-13	the	O	O	O	
+8-14	exit	B-ScrPart_door	O	O	
+8-15	waiting	O	B-webanno.custom.Events_	B-RelNScrEv	
+8-16	for	O	O	O	
+8-17	the	O	O	O	
+8-18	door	B-ScrPart_door	O	O	
+8-19	to	O	O	O	
+8-20	open	O	B-webanno.custom.Events_	B-ScrEv_door_opens	
+8-21	then	O	O	O	
+8-22	depart	O	B-webanno.custom.Events_	B-ScrEv_get_off	
+8-23	.	O	O	O	
+

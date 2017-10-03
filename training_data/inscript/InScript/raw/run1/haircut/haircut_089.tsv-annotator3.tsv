@@ -1,0 +1,201 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=My sons Todd 's hair seemed to grow at an exceptionally fast rate compared to other four year olds .
+1-1	My	B-ScrPart_customer	O	_	_	
+1-2	sons	B-ScrPart_customer	O	_	_	
+1-3	Todd	B-ScrPart_customer	O	group_I_Todd|webanno.custom.Corefchains_	1-1|1-2	
+1-4	's	O	O	_	_	
+1-5	hair	O	O	_	_	
+1-6	seemed	O	B-UnrelEv	_	_	
+1-7	to	O	O	_	_	
+1-8	grow	O	B-UnrelEv	_	_	
+1-9	at	O	O	_	_	
+1-10	an	O	O	_	_	
+1-11	exceptionally	O	O	_	_	
+1-12	fast	O	O	_	_	
+1-13	rate	O	O	_	_	
+1-14	compared	O	O	_	_	
+1-15	to	O	O	_	_	
+1-16	other	O	O	_	_	
+1-17	four	O	O	_	_	
+1-18	year	O	O	_	_	
+1-19	olds	O	O	_	_	
+1-20	.	O	O	_	_	
+
+#id=2
+#text=It seemed as if every single week he needed a hair cut .
+2-1	It	O	O	_	_	
+2-2	seemed	O	B-UnrelEv	_	_	
+2-3	as	O	O	_	_	
+2-4	if	O	O	_	_	
+2-5	every	O	O	_	_	
+2-6	single	O	O	_	_	
+2-7	week	B-ScrPart_time/date	O	_	_	
+2-8	he	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-3	
+2-9	needed	O	B-Evoking	_	_	
+2-10	a	O	I-Evoking	_	_	
+2-11	hair	B-MissScrPart	I-Evoking	_	_	
+2-12	cut	I-MissScrPart	I-Evoking	_	_	
+2-13	.	O	O	_	_	
+
+#id=3
+#text=He would fret every time he knew we were going and even threw tantrums .
+3-1	He	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-8	
+3-2	would	O	O	_	_	
+3-3	fret	O	B-UnrelEv	_	_	
+3-4	every	O	O	_	_	
+3-5	time	O	O	_	_	
+3-6	he	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-1	
+3-7	knew	O	B-UnrelEv	_	_	
+3-8	we	O	O	_	_	
+3-9	were	O	O	_	_	
+3-10	going	O	B-UnrelEv	_	_	
+3-11	and	O	O	_	_	
+3-12	even	O	O	_	_	
+3-13	threw	O	B-UnrelEv	_	_	
+3-14	tantrums	O	O	_	_	
+3-15	.	O	O	_	_	
+
+#id=4
+#text=But once we get there things seemed to be smoother with him .
+4-1	But	O	O	_	_	
+4-2	once	O	O	_	_	
+4-3	we	B-ScrPart_customer	O	group_I_Todd	1-3	
+4-4	get	O	B-ScrEv_get_salon	_	_	
+4-5	there	B-ScrPart_salon	O	_	_	
+4-6	things	O	O	_	_	
+4-7	seemed	O	B-UnrelEv	_	_	
+4-8	to	O	O	_	_	
+4-9	be	O	B-UnrelEv	_	_	
+4-10	smoother	O	O	_	_	
+4-11	with	O	O	_	_	
+4-12	him	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-6	
+4-13	.	O	O	_	_	
+
+#id=5
+#text=We would grab a seat and wait for our favorite barber to get an opening .
+5-1	We	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-3	
+5-2	would	O	O	_	_	
+5-3	grab	O	B-ScrEv_sit_down	_	_	
+5-4	a	O	O	_	_	
+5-5	seat	B-SuppVComp	O	_	_	
+5-6	and	O	O	_	_	
+5-7	wait	O	B-ScrEv_wait	_	_	
+5-8	for	O	O	_	_	
+5-9	our	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-1	
+5-10	favorite	O	O	_	_	
+5-11	barber	B-ScrPart_hairdresser	O	_	_	
+5-12	to	O	O	_	_	
+5-13	get	O	B-RelNScrEv	_	_	
+5-14	an	O	O	_	_	
+5-15	opening	B-NPart	O	_	_	
+5-16	.	O	O	_	_	
+
+#id=6
+#text=As soon as he did Todd would run up to him and sit in the chair knowing he would get ice cream if he sat still .
+6-1	As	O	O	_	_	
+6-2	soon	O	O	_	_	
+6-3	as	O	O	_	_	
+6-4	he	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	5-11	
+6-5	did	O	B-UnrelEv	_	_	
+6-6	Todd	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-12	
+6-7	would	O	O	_	_	
+6-8	run	O	B-RelNScrEv|B-RelNScrEv	_	_	
+6-9	up	O	I-RelNScrEv	_	_	
+6-10	to	O	O	_	_	
+6-11	him	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-4	
+6-12	and	O	O	_	_	
+6-13	sit	O	B-ScrEv_sit_down	_	_	
+6-14	in	O	O	_	_	
+6-15	the	O	O	_	_	
+6-16	chair	B-ScrPart_chair	O	_	_	
+6-17	knowing	O	B-UnrelEv	_	_	
+6-18	he	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-6	
+6-19	would	O	O	_	_	
+6-20	get	O	B-UnrelEv	_	_	
+6-21	ice	O	O	_	_	
+6-22	cream	O	O	_	_	
+6-23	if	O	O	_	_	
+6-24	he	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-18	
+6-25	sat	O	B-UnrelEv	_	_	
+6-26	still	O	O	_	_	
+6-27	.	O	O	_	_	
+
+#id=7
+#text=The barber draped a piece of plastic around Todd 's shoulder so that hair would n't get on his clothes .
+7-1	The	O	O	_	_	
+7-2	barber	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	6-11	
+7-3	draped	O	B-ScrEv_put_on_cape	_	_	
+7-4	a	O	O	_	_	
+7-5	piece	O	O	_	_	
+7-6	of	O	O	_	_	
+7-7	plastic	B-ScrPart_cape	O	_	_	
+7-8	around	O	O	_	_	
+7-9	Todd	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-24	
+7-10	's	O	O	_	_	
+7-11	shoulder	B-NPart	O	_	_	
+7-12	so	O	O	_	_	
+7-13	that	O	O	_	_	
+7-14	hair	B-ScrPart_hair	O	_	_	
+7-15	would	O	O	_	_	
+7-16	n't	O	O	_	_	
+7-17	get	O	B-RelNScrEv	_	_	
+7-18	on	O	O	_	_	
+7-19	his	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-9	
+7-20	clothes	B-NPart	O	_	_	
+7-21	.	O	O	_	_	
+
+#id=8
+#text=The sound of the hair clippers tiny motor always had my boy on edge but he always sticks it out like a champ .
+8-1	The	O	O	_	_	
+8-2	sound	O	O	_	_	
+8-3	of	O	O	_	_	
+8-4	the	O	O	_	_	
+8-5	hair	B-MissScrPart	O	_	_	
+8-6	clippers	I-MissScrPart|B-MissScrPart	O	_	_	
+8-7	tiny	O	O	_	_	
+8-8	motor	O	O	_	_	
+8-9	always	O	O	_	_	
+8-10	had	O	B-UnrelEv	_	_	
+8-11	my	O	O	_	_	
+8-12	boy	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-19	
+8-13	on	O	O	_	_	
+8-14	edge	O	O	_	_	
+8-15	but	O	O	_	_	
+8-16	he	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-12	
+8-17	always	O	O	_	_	
+8-18	sticks	O	B-UnrelEv	_	_	
+8-19	it	O	O	_	_	
+8-20	out	O	O	_	_	
+8-21	like	O	O	_	_	
+8-22	a	O	O	_	_	
+8-23	champ	O	O	_	_	
+8-24	.	O	O	_	_	
+
+#id=9
+#text=Fifteen minutes later a brand new child walks out of the barber shop ; clean shaven and ready for a cool yummy treat . 
+9-1	Fifteen	O	O	_	_	
+9-2	minutes	B-ScrPart_time/date	O	_	_	
+9-3	later	O	O	_	_	
+9-4	a	O	O	_	_	
+9-5	brand	O	O	_	_	
+9-6	new	O	O	_	_	
+9-7	child	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-16	
+9-8	walks	O	B-ScrEv_leave|B-ScrEv_leave	_	_	
+9-9	out	O	I-ScrEv_leave	_	_	
+9-10	of	O	O	_	_	
+9-11	the	O	O	_	_	
+9-12	barber	B-ScrPart_salon	O	_	_	
+9-13	shop	I-ScrPart_salon|B-ScrPart_salon	O	webanno.custom.Corefchains_	4-5	
+9-14	;	O	O	_	_	
+9-15	clean	O	O	_	_	
+9-16	shaven	O	B-RelNScrEv	_	_	
+9-17	and	O	O	_	_	
+9-18	ready	O	O	_	_	
+9-19	for	O	O	_	_	
+9-20	a	O	O	_	_	
+9-21	cool	O	O	_	_	
+9-22	yummy	O	O	_	_	
+9-23	treat	O	O	_	_	
+9-24	.	O	O	_	_	
+

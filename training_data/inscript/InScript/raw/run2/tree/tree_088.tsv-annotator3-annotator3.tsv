@@ -1,0 +1,211 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=The only time I have ever planted a tree was as a memorial .
+1-1	The	O	O	
+1-2	only	O	O	
+1-3	time	B-No_label	O	
+1-4	I	B-ScrPart_gardener	O	
+1-5	have	O	O	
+1-6	ever	O	O	
+1-7	planted	O	B-Evoking	
+1-8	a	O	I-Evoking	
+1-9	tree	B-ScrPart_tree	I-Evoking	
+1-10	was	O	O	
+1-11	as	O	O	
+1-12	a	O	O	
+1-13	memorial	B-NPart	O	
+1-14	.	O	O	
+
+#id=2
+#text=We had raised the funds to buy the tree .
+2-1	We	B-ScrPart_gardener	O	
+2-2	had	O	O	
+2-3	raised	O	B-UnrelEv	
+2-4	the	O	O	
+2-5	funds	B-NPart	O	
+2-6	to	O	O	
+2-7	buy	O	B-ScrEv_get_tree	
+2-8	the	O	O	
+2-9	tree	B-ScrPart_tree	O	
+2-10	.	O	O	
+
+#id=3
+#text=Then I went to Home depot to pick out the tree .
+3-1	Then	O	O	
+3-2	I	B-ScrPart_gardener	O	
+3-3	went	O	B-ScrEv_other	
+3-4	to	O	O	
+3-5	Home	B-ScrPart_shop	O	
+3-6	depot	I-ScrPart_shop	O	
+3-7	to	O	O	
+3-8	pick	O	B-ScrEv_choose_tree	
+3-9	out	O	O	
+3-10	the	O	O	
+3-11	tree	B-ScrPart_tree	O	
+3-12	.	O	O	
+
+#id=4
+#text=I know nothing about trees , so I had the employee at Home Depot help me .
+4-1	I	B-ScrPart_gardener	O	
+4-2	know	O	B-UnrelEv	
+4-3	nothing	B-No_label	O	
+4-4	about	O	O	
+4-5	trees	B-ScrPart_tree	O	
+4-6	,	O	O	
+4-7	so	O	O	
+4-8	I	B-ScrPart_gardener	O	
+4-9	had	O	B-UnrelEv	
+4-10	the	O	O	
+4-11	employee	B-ScrPart_staff	O	
+4-12	at	O	O	
+4-13	Home	B-ScrPart_shop	O	
+4-14	Depot	I-ScrPart_shop	O	
+4-15	help	O	B-RelNScrEv	
+4-16	me	B-ScrPart_gardener	O	
+4-17	.	O	O	
+
+#id=5
+#text=She helped me decide the best tree for the area that we were planting it .
+5-1	She	B-ScrPart_staff	O	
+5-2	helped	O	B-RelNScrEv	
+5-3	me	B-ScrPart_gardener	O	
+5-4	decide	O	B-ScrEv_choose_tree	
+5-5	the	O	O	
+5-6	best	O	O	
+5-7	tree	B-ScrPart_tree	O	
+5-8	for	O	O	
+5-9	the	O	O	
+5-10	area	B-NPart	O	
+5-11	that	O	O	
+5-12	we	B-ScrPart_gardener	O	
+5-13	were	O	O	
+5-14	planting	O	B-Evoking	
+5-15	it	B-ScrPart_tree	O	
+5-16	.	O	O	
+
+#id=6
+#text=One that would n't need much work or upkeep .
+6-1	One	B-ScrPart_tree	O	
+6-2	that	O	O	
+6-3	would	O	O	
+6-4	n't	O	O	
+6-5	need	O	B-UnrelEv	
+6-6	much	O	O	
+6-7	work	B-NPart	O	
+6-8	or	O	O	
+6-9	upkeep	B-NPart	O	
+6-10	.	O	O	
+
+#id=7
+#text=Then she showed me what else I would need for the tree .
+7-1	Then	O	O	
+7-2	she	B-ScrPart_staff	O	
+7-3	showed	O	B-RelNScrEv	
+7-4	me	B-ScrPart_gardener	O	
+7-5	what	O	O	
+7-6	else	O	O	
+7-7	I	B-ScrPart_gardener	O	
+7-8	would	O	O	
+7-9	need	O	B-RelNScrEv	
+7-10	for	O	O	
+7-11	the	O	O	
+7-12	tree	B-ScrPart_tree	O	
+7-13	.	O	O	
+
+#id=8
+#text=I bought soil and a shovel .
+8-1	I	B-ScrPart_gardener	O	
+8-2	bought	O	B-ScrEv_get_tools	
+8-3	soil	B-ScrPart_dirt	O	
+8-4	and	O	O	
+8-5	a	O	O	
+8-6	shovel	B-ScrPart_gardening_tool	O	
+8-7	.	O	O	
+
+#id=9
+#text=We went to the park where we were planting the tree and dug the hole for the tree .
+9-1	We	B-ScrPart_gardener	O	
+9-2	went	O	B-ScrEv_take_home	
+9-3	to	O	O	
+9-4	the	O	O	
+9-5	park	B-NPart	O	
+9-6	where	O	O	
+9-7	we	B-ScrPart_gardener	O	
+9-8	were	O	O	
+9-9	planting	O	B-Evoking	
+9-10	the	O	I-Evoking	
+9-11	tree	B-ScrPart_tree	I-Evoking	
+9-12	and	O	O	
+9-13	dug	O	B-ScrEv_dug_hole	
+9-14	the	O	O	
+9-15	hole	B-ScrPart_hole	O	
+9-16	for	O	O	
+9-17	the	O	O	
+9-18	tree	B-ScrPart_tree	O	
+9-19	.	O	O	
+
+#id=10
+#text=After we place the tree and put in the supports , we filled the hole back in , packing the soil tight .
+10-1	After	O	O	
+10-2	we	B-ScrPart_gardener	O	
+10-3	place	O	B-ScrEv_place_root	
+10-4	the	O	O	
+10-5	tree	B-ScrPart_tree	O	
+10-6	and	O	O	
+10-7	put	O	B-ScrEv_place_fertilizers|B-ScrEv_place_fertilizers	
+10-8	in	O	I-ScrEv_place_fertilizers	
+10-9	the	O	O	
+10-10	supports	B-ScrPart_fertilizer	O	
+10-11	,	O	O	
+10-12	we	B-ScrPart_gardener	O	
+10-13	filled	O	B-ScrEv_refill_hole	
+10-14	the	O	O	
+10-15	hole	B-ScrPart_hole	O	
+10-16	back	O	O	
+10-17	in	O	O	
+10-18	,	O	O	
+10-19	packing	O	B-ScrEv_tamp_dirt	
+10-20	the	O	O	
+10-21	soil	B-ScrPart_dirt	O	
+10-22	tight	O	O	
+10-23	.	O	O	
+
+#id=11
+#text=We said a few words and watered the tree .
+11-1	We	B-ScrPart_gardener	O	
+11-2	said	O	B-UnrelEv	
+11-3	a	O	O	
+11-4	few	O	O	
+11-5	words	B-NPart	O	
+11-6	and	O	O	
+11-7	watered	O	B-ScrEv_water	
+11-8	the	O	O	
+11-9	tree	B-ScrPart_tree	O	
+11-10	.	O	O	
+
+#id=12
+#text=Lastly , we put the memorial plaque in front of the tree since it was a memorial for someone who has passed . 
+12-1	Lastly	O	O	
+12-2	,	O	O	
+12-3	we	B-ScrPart_gardener	O	
+12-4	put	O	B-UnrelEv	
+12-5	the	O	O	
+12-6	memorial	B-NPart	O	
+12-7	plaque	I-NPart|B-NPart	O	
+12-8	in	O	O	
+12-9	front	B-No_label	O	
+12-10	of	O	O	
+12-11	the	O	O	
+12-12	tree	B-ScrPart_tree	O	
+12-13	since	O	O	
+12-14	it	B-No_label	O	
+12-15	was	O	B-UnrelEv	
+12-16	a	O	O	
+12-17	memorial	B-NPart	O	
+12-18	for	O	O	
+12-19	someone	B-No_label	O	
+12-20	who	O	O	
+12-21	has	O	O	
+12-22	passed	O	B-UnrelEv	
+12-23	.	O	O	
+

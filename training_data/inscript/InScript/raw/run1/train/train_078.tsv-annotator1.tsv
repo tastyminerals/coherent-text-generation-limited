@@ -1,0 +1,237 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Every time I have to go to the city , I have to take the train .
+1-1	Every	O	O	_	_	
+1-2	time	O	O	_	_	
+1-3	I	B-ScrPart_passenger	O	_	_	
+1-4	have	O	O	_	_	
+1-5	to	O	O	_	_	
+1-6	go	O	B-UnrelEv	_	_	
+1-7	to	O	O	_	_	
+1-8	the	O	O	_	_	
+1-9	city	O	O	_	_	
+1-10	,	O	O	_	_	
+1-11	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-3	
+1-12	have	O	O	_	_	
+1-13	to	O	O	_	_	
+1-14	take	O	B-Evoking	_	_	
+1-15	the	O	I-Evoking	_	_	
+1-16	train	O	I-Evoking	_	_	
+1-17	.	O	O	_	_	
+
+#id=2
+#text=One day , when I was on the train , I had to wait twenty minutes for the next train to arrive .
+2-1	One	O	O	_	_	
+2-2	day	O	O	_	_	
+2-3	,	O	O	_	_	
+2-4	when	O	O	_	_	
+2-5	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-11	
+2-6	was	O	B-Evoking	_	_	
+2-7	on	O	I-Evoking	_	_	
+2-8	the	O	I-Evoking	_	_	
+2-9	train	O	I-Evoking	_	_	
+2-10	,	O	O	_	_	
+2-11	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-5	
+2-12	had	O	O	_	_	
+2-13	to	O	O	_	_	
+2-14	wait	O	B-ScrEv_wait	_	_	
+2-15	twenty	O	O	_	_	
+2-16	minutes	B-ScrPart_time_date	O	_	_	
+2-17	for	O	O	_	_	
+2-18	the	O	O	_	_	
+2-19	next	O	O	_	_	
+2-20	train	B-ScrPart_train	O	_	_	
+2-21	to	O	O	_	_	
+2-22	arrive	O	B-ScrEv_train_arrives	_	_	
+2-23	.	O	O	_	_	
+
+#id=3
+#text=When it arrived , , the place was full .
+3-1	When	O	O	_	_	
+3-2	it	B-ScrPart_train	O	webanno.custom.Corefchains_	2-20	
+3-3	arrived	O	B-ScrEv_train_arrives	_	_	
+3-4	,	O	O	_	_	
+3-5	,	O	O	_	_	
+3-6	the	O	O	_	_	
+3-7	place	B-ScrPart_train	O	webanno.custom.Corefchains_	3-2	
+3-8	was	O	B-RelNScrEv	_	_	
+3-9	full	O	O	_	_	
+3-10	.	O	O	_	_	
+
+#id=4
+#text=It was full because it was rush hour .
+4-1	It	B-ScrPart_train	O	webanno.custom.Corefchains_	3-7	
+4-2	was	O	B-RelNScrEv	_	_	
+4-3	full	O	O	_	_	
+4-4	because	O	O	_	_	
+4-5	it	O	O	_	_	
+4-6	was	O	B-RelNScrEv	_	_	
+4-7	rush	O	O	_	_	
+4-8	hour	O	O	_	_	
+4-9	.	O	O	_	_	
+
+#id=5
+#text=That 's the time when everyone is coming out of work or school .
+5-1	That	O	O	_	_	
+5-2	's	O	O	_	_	
+5-3	the	O	O	_	_	
+5-4	time	O	O	_	_	
+5-5	when	O	O	_	_	
+5-6	everyone	B-ScrPart_passenger	O	_	_	
+5-7	is	O	O	_	_	
+5-8	coming	O	B-UnrelEv|B-UnrelEv	_	_	
+5-9	out	O	I-UnrelEv	_	_	
+5-10	of	O	O	_	_	
+5-11	work	O	O	_	_	
+5-12	or	O	O	_	_	
+5-13	school	O	O	_	_	
+5-14	.	O	O	_	_	
+
+#id=6
+#text=I could n't find a seat at all !
+6-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-11	
+6-2	could	O	O	_	_	
+6-3	n't	O	O	_	_	
+6-4	find	O	B-ScrEv_find_place	_	_	
+6-5	a	O	O	_	_	
+6-6	seat	B-ScrPart_seat	O	_	_	
+6-7	at	O	O	_	_	
+6-8	all	O	O	_	_	
+6-9	!	O	O	_	_	
+
+#id=7
+#text=I had to stand up throughout my whole ride .
+7-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-1	
+7-2	had	O	O	_	_	
+7-3	to	O	O	_	_	
+7-4	stand	O	B-ScrEv_find_place|B-ScrEv_find_place	_	_	
+7-5	up	O	I-ScrEv_find_place	_	_	
+7-6	throughout	O	O	_	_	
+7-7	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-1	
+7-8	whole	O	O	_	_	
+7-9	ride	O	B-Evoking	_	_	
+7-10	.	O	O	_	_	
+
+#id=8
+#text=It was very uncomfortable because I had to stand up for an hour ride .
+8-1	It	O	O	_	_	
+8-2	was	O	B-UnrelEv	_	_	
+8-3	very	O	O	_	_	
+8-4	uncomfortable	O	O	_	_	
+8-5	because	O	O	_	_	
+8-6	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-7	
+8-7	had	O	O	_	_	
+8-8	to	O	O	_	_	
+8-9	stand	O	B-ScrEv_find_place|B-ScrEv_find_place	_	_	
+8-10	up	O	I-ScrEv_find_place	_	_	
+8-11	for	O	O	_	_	
+8-12	an	O	O	_	_	
+8-13	hour	O	O	_	_	
+8-14	ride	O	B-Evoking	_	_	
+8-15	.	O	O	_	_	
+
+#id=9
+#text=To make matters worse , more people wanted to squeeze inside the train .
+9-1	To	O	O	_	_	
+9-2	make	O	B-UnrelEv	_	_	
+9-3	matters	O	O	_	_	
+9-4	worse	O	O	_	_	
+9-5	,	O	O	_	_	
+9-6	more	O	O	_	_	
+9-7	people	B-ScrPart_passenger	O	_	_	
+9-8	wanted	O	B-UnrelEv	_	_	
+9-9	to	O	O	_	_	
+9-10	squeeze	O	B-RelNScrEv	_	_	
+9-11	inside	O	O	_	_	
+9-12	the	O	O	_	_	
+9-13	train	B-ScrPart_train	O	webanno.custom.Corefchains_	4-1	
+9-14	.	O	O	_	_	
+
+#id=10
+#text=Now everybody was on top of one another .
+10-1	Now	O	O	_	_	
+10-2	everybody	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-7	
+10-3	was	O	B-UnrelEv	_	_	
+10-4	on	O	O	_	_	
+10-5	top	O	O	_	_	
+10-6	of	O	O	_	_	
+10-7	one	O	O	_	_	
+10-8	another	O	O	_	_	
+10-9	.	O	O	_	_	
+
+#id=11
+#text=Soon , the train could n't move anymore because there were just too many people on the train .
+11-1	Soon	O	O	_	_	
+11-2	,	O	O	_	_	
+11-3	the	O	O	_	_	
+11-4	train	B-ScrPart_train	O	webanno.custom.Corefchains_	9-13	
+11-5	could	O	O	_	_	
+11-6	n't	O	O	_	_	
+11-7	move	O	B-MissScrEv	_	_	
+11-8	anymore	O	O	_	_	
+11-9	because	O	O	_	_	
+11-10	there	O	O	_	_	
+11-11	were	O	B-UnrelEv	_	_	
+11-12	just	O	O	_	_	
+11-13	too	O	O	_	_	
+11-14	many	O	O	_	_	
+11-15	people	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-2	
+11-16	on	O	O	_	_	
+11-17	the	O	O	_	_	
+11-18	train	B-ScrPart_train	O	webanno.custom.Corefchains_	11-4	
+11-19	.	O	O	_	_	
+
+#id=12
+#text=The door would n't close therefore ; the conductor could n't drive the train .
+12-1	The	O	O	_	_	
+12-2	door	B-ScrPart_door	O	_	_	
+12-3	would	O	O	_	_	
+12-4	n't	O	O	_	_	
+12-5	close	O	B-MissScrEv	_	_	
+12-6	therefore	O	O	_	_	
+12-7	;	O	O	_	_	
+12-8	the	O	O	_	_	
+12-9	conductor	B-ScrPart_train_staff	O	_	_	
+12-10	could	O	O	_	_	
+12-11	n't	O	O	_	_	
+12-12	drive	O	B-MissScrEv	_	_	
+12-13	the	O	O	_	_	
+12-14	train	B-ScrPart_train	O	webanno.custom.Corefchains_	11-18	
+12-15	.	O	O	_	_	
+
+#id=13
+#text=Eventually , people started to come out and I was able to breathe .
+13-1	Eventually	O	O	_	_	
+13-2	,	O	O	_	_	
+13-3	people	B-ScrPart_passenger	O	webanno.custom.Corefchains_	11-15	
+13-4	started	O	B-UnrelEv	_	_	
+13-5	to	O	O	_	_	
+13-6	come	O	B-ScrEv_get_off|B-ScrEv_get_off	_	_	
+13-7	out	O	I-ScrEv_get_off	_	_	
+13-8	and	O	O	_	_	
+13-9	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-6	
+13-10	was	O	B-UnrelEv	_	_	
+13-11	able	O	O	_	_	
+13-12	to	O	O	_	_	
+13-13	breathe	O	B-UnrelEv	_	_	
+13-14	.	O	O	_	_	
+
+#id=14
+#text=Finally , I reached my stop and was relieved to be out of that train . 
+14-1	Finally	O	O	_	_	
+14-2	,	O	O	_	_	
+14-3	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	13-9	
+14-4	reached	O	B-ScrEv_train_arrives	_	_	
+14-5	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	14-3	
+14-6	stop	B-ScrPart_destination	O	_	_	
+14-7	and	O	O	_	_	
+14-8	was	O	O	_	_	
+14-9	relieved	O	B-UnrelEv	_	_	
+14-10	to	O	O	_	_	
+14-11	be	O	B-UnrelEv	_	_	
+14-12	out	O	O	_	_	
+14-13	of	O	O	_	_	
+14-14	that	O	O	_	_	
+14-15	train	B-ScrPart_train	O	webanno.custom.Corefchains_	12-14	
+14-16	.	O	O	_	_	
+

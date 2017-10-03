@@ -1,0 +1,239 @@
+ # webanno.custom.Participants | Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=My daughters birthday is today and She wants a pineapple upside down cake .
+1-1	My	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+1-2	daughters	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	
+1-3	birthday	B-NPart	B-webanno.custom.Participants_	O	
+1-4	is	O	O	B-UnrelEv	
+1-5	today	B-NPart	B-webanno.custom.Participants_	O	
+1-6	and	O	O	O	
+1-7	She	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	
+1-8	wants	O	O	B-Evoking	
+1-9	a	O	O	I-Evoking	
+1-10	pineapple	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	
+1-11	upside	I-ScrPart_cake	I-webanno.custom.Participants_	I-Evoking	
+1-12	down	I-ScrPart_cake	I-webanno.custom.Participants_	I-Evoking	
+1-13	cake	I-ScrPart_cake|B-ScrPart_cake	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-Evoking	
+1-14	.	O	O	O	
+
+#id=2
+#text=I have all the ingredients and I gather them according to the recipe and place them on the counter .
+2-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+2-2	have	O	O	B-UnrelEv	
+2-3	all	O	O	O	
+2-4	the	O	O	O	
+2-5	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+2-6	and	O	O	O	
+2-7	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+2-8	gather	O	O	B-ScrEv_get_ingredients	
+2-9	them	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+2-10	according	O	O	O	
+2-11	to	O	O	O	
+2-12	the	O	O	O	
+2-13	recipe	B-ScrPart_baking_instructions	B-webanno.custom.Participants_	O	
+2-14	and	O	O	O	
+2-15	place	O	O	B-ScrEv_get_ingredients	
+2-16	them	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+2-17	on	O	O	O	
+2-18	the	O	O	O	
+2-19	counter	B-ScrPart_other	B-webanno.custom.Participants_	O	
+2-20	.	O	O	O	
+
+#id=3
+#text=I like having everything together before hand .
+3-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+3-2	like	O	O	B-UnrelEv	
+3-3	having	O	O	B-UnrelEv	
+3-4	everything	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+3-5	together	O	O	O	
+3-6	before	O	O	O	
+3-7	hand	B-No_label	B-webanno.custom.Participants_	O	
+3-8	.	O	O	O	
+
+#id=4
+#text=The cake needs to bake at 350 degrees , so I turned the oven on to preheat so it is at the right temperature when I am done mixing the cake , The recipes say to put all the wet ingredient into the mixer first and mix well .
+4-1	The	O	O	O	
+4-2	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+4-3	needs	O	O	O	
+4-4	to	O	O	O	
+4-5	bake	O	O	B-RelNScrEv	
+4-6	at	O	O	O	
+4-7	350	O	O	O	
+4-8	degrees	B-ScrPart_temperature	B-webanno.custom.Participants_	O	
+4-9	,	O	O	O	
+4-10	so	O	O	O	
+4-11	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+4-12	turned	O	O	B-ScrEv_preheat	
+4-13	the	O	O	O	
+4-14	oven	B-ScrPart_oven	B-webanno.custom.Participants_	O	
+4-15	on	O	O	O	
+4-16	to	O	O	O	
+4-17	preheat	O	O	B-ScrEv_preheat	
+4-18	so	O	O	O	
+4-19	it	B-ScrPart_oven	B-webanno.custom.Participants_	O	
+4-20	is	O	O	B-UnrelEv	
+4-21	at	O	O	O	
+4-22	the	O	O	O	
+4-23	right	O	O	O	
+4-24	temperature	B-ScrPart_temperature	B-webanno.custom.Participants_	O	
+4-25	when	O	O	O	
+4-26	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+4-27	am	O	O	O	
+4-28	done	O	O	B-UnrelEv	
+4-29	mixing	O	O	B-ScrEv_make_dough	
+4-30	the	O	O	O	
+4-31	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+4-32	,	O	O	O	
+4-33	The	O	O	O	
+4-34	recipes	B-ScrPart_baking_instructions	B-webanno.custom.Participants_	O	
+4-35	say	O	O	B-UnrelEv	
+4-36	to	O	O	O	
+4-37	put	O	O	B-ScrEv_add_ingredients	
+4-38	all	O	O	O	
+4-39	the	O	O	O	
+4-40	wet	O	O	O	
+4-41	ingredient	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+4-42	into	O	O	O	
+4-43	the	O	O	O	
+4-44	mixer	B-ScrPart_utensil	B-webanno.custom.Participants_	O	
+4-45	first	O	O	O	
+4-46	and	O	O	O	
+4-47	mix	O	O	B-ScrEv_make_dough	
+4-48	well	O	O	O	
+4-49	.	O	O	O	
+
+#id=5
+#text=Then all the dry ingredients go in and mix for 3 minutes .
+5-1	Then	O	O	O	
+5-2	all	O	O	O	
+5-3	the	O	O	O	
+5-4	dry	O	O	O	
+5-5	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+5-6	go	O	O	B-ScrEv_add_ingredients|B-ScrEv_add_ingredients	
+5-7	in	O	O	I-ScrEv_add_ingredients	
+5-8	and	O	O	O	
+5-9	mix	O	O	B-ScrEv_make_dough	
+5-10	for	O	O	O	
+5-11	3	O	O	O	
+5-12	minutes	B-ScrPart_time	B-webanno.custom.Participants_	O	
+5-13	.	O	O	O	
+
+#id=6
+#text=The mixture is now a thick batter that I can pour into cake pans that have been greased with shortening or butter and coated with a bit of flour so the cake does not stick .
+6-1	The	O	O	O	
+6-2	mixture	B-ScrPart_dough	B-webanno.custom.Participants_	O	
+6-3	is	O	O	B-UnrelEv	
+6-4	now	O	O	O	
+6-5	a	O	O	O	
+6-6	thick	O	O	O	
+6-7	batter	B-ScrPart_dough	B-webanno.custom.Participants_	O	
+6-8	that	O	O	O	
+6-9	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+6-10	can	O	O	O	
+6-11	pour	O	O	B-ScrEv_pour_dough	
+6-12	into	O	O	O	
+6-13	cake	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	
+6-14	pans	I-ScrPart_cake_tin|B-ScrPart_cake_tin	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+6-15	that	O	O	O	
+6-16	have	O	O	O	
+6-17	been	O	O	O	
+6-18	greased	O	O	B-ScrEv_grease_cake_tin	
+6-19	with	O	O	O	
+6-20	shortening	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+6-21	or	O	O	O	
+6-22	butter	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+6-23	and	O	O	O	
+6-24	coated	O	O	B-ScrEv_other	
+6-25	with	O	O	O	
+6-26	a	O	O	O	
+6-27	bit	B-NPart	B-webanno.custom.Participants_	O	
+6-28	of	O	O	O	
+6-29	flour	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+6-30	so	O	O	O	
+6-31	the	O	O	O	
+6-32	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+6-33	does	O	O	O	
+6-34	not	O	O	O	
+6-35	stick	O	O	B-RelNScrEv	
+6-36	.	O	O	O	
+
+#id=7
+#text=I place the brown sugar and pineapple in the bottom of the pan and split the batter equally between the two pans and put them into the oven .
+7-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+7-2	place	O	O	B-ScrEv_add_ingredients	
+7-3	the	O	O	O	
+7-4	brown	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+7-5	sugar	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+7-6	and	O	O	O	
+7-7	pineapple	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+7-8	in	O	O	O	
+7-9	the	O	O	O	
+7-10	bottom	B-NPart	B-webanno.custom.Participants_	O	
+7-11	of	O	O	O	
+7-12	the	O	O	O	
+7-13	pan	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	
+7-14	and	O	O	O	
+7-15	split	O	O	B-ScrEv_pour_dough	
+7-16	the	O	O	O	
+7-17	batter	B-ScrPart_dough	B-webanno.custom.Participants_	O	
+7-18	equally	O	O	O	
+7-19	between	O	O	O	
+7-20	the	O	O	O	
+7-21	two	O	O	O	
+7-22	pans	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	
+7-23	and	O	O	O	
+7-24	put	O	O	B-ScrEv_put_cake_oven	
+7-25	them	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	
+7-26	into	O	O	O	
+7-27	the	O	O	O	
+7-28	oven	B-ScrPart_oven	B-webanno.custom.Participants_	O	
+7-29	.	O	O	O	
+
+#id=8
+#text=A short time late the cakes are done and I take them out to cool , when I turn the over I can see the pineapple is baked into the top of the cake .
+8-1	A	O	O	O	
+8-2	short	O	O	O	
+8-3	time	B-ScrPart_time	B-webanno.custom.Participants_	O	
+8-4	late	O	O	O	
+8-5	the	O	O	O	
+8-6	cakes	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+8-7	are	O	O	O	
+8-8	done	O	O	B-UnrelEv	
+8-9	and	O	O	O	
+8-10	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+8-11	take	O	O	B-ScrEv_take_out_oven	
+8-12	them	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+8-13	out	O	O	O	
+8-14	to	O	O	O	
+8-15	cool	O	O	B-ScrEv_cool_down	
+8-16	,	O	O	O	
+8-17	when	O	O	O	
+8-18	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+8-19	turn	O	O	B-ScrEv_take_out_cake_tin	
+8-20	the	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+8-21	over	O	O	O	
+8-22	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+8-23	can	O	O	O	
+8-24	see	O	O	O	
+8-25	the	O	O	O	
+8-26	pineapple	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+8-27	is	O	O	O	
+8-28	baked	O	O	B-RelNScrEv	
+8-29	into	O	O	O	
+8-30	the	O	O	O	
+8-31	top	B-NPart	B-webanno.custom.Participants_	O	
+8-32	of	O	O	O	
+8-33	the	O	O	O	
+8-34	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+8-35	.	O	O	O	
+
+#id=9
+#text=I know she will love it ! 
+9-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+9-2	know	O	O	B-UnrelEv	
+9-3	she	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	
+9-4	will	O	O	O	
+9-5	love	O	O	B-UnrelEv	
+9-6	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+9-7	!	O	O	O	
+

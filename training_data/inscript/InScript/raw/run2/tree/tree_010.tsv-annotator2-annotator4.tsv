@@ -1,0 +1,241 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=My friend , Tom , had moved into a new house , and decided to plant a small tree to help make his yard look better .
+1-1	My	B-NPart	O	_	_	
+1-2	friend	B-ScrPart_gardener	O	_	_	
+1-3	,	O	O	_	_	
+1-4	Tom	B-ScrPart_gardener	O	_	_	
+1-5	,	O	O	_	_	
+1-6	had	O	O	_	_	
+1-7	moved	O	B-UnrelEv	_	_	
+1-8	into	O	O	_	_	
+1-9	a	O	O	_	_	
+1-10	new	O	O	_	_	
+1-11	house	B-NPart	O	_	_	
+1-12	,	O	O	_	_	
+1-13	and	O	O	_	_	
+1-14	decided	O	B-UnrelEv	_	_	
+1-15	to	O	O	_	_	
+1-16	plant	O	B-Evoking	_	_	
+1-17	a	O	I-Evoking	_	_	
+1-18	small	O	I-Evoking	_	_	
+1-19	tree	B-ScrPart_tree	I-Evoking	_	_	
+1-20	to	O	O	_	_	
+1-21	help	O	B-UnrelEv	_	_	
+1-22	make	O	B-UnrelEv	_	_	
+1-23	his	B-ScrPart_gardener	O	webanno.custom.Corefchains_	1-4	
+1-24	yard	B-NPart	O	_	_	
+1-25	look	O	B-UnrelEv	_	_	
+1-26	better	O	O	_	_	
+1-27	.	O	O	_	_	
+
+#id=2
+#text=He had been advised by a tree expert , that the best time to plant it was in April or May .
+2-1	He	B-ScrPart_gardener	O	webanno.custom.Corefchains_	1-23	
+2-2	had	O	O	_	_	
+2-3	been	O	O	_	_	
+2-4	advised	O	B-RelNScrEv	_	_	
+2-5	by	O	O	_	_	
+2-6	a	O	O	_	_	
+2-7	tree	B-ScrPart_staff	O	_	_	
+2-8	expert	I-ScrPart_staff|B-ScrPart_staff	O	_	_	
+2-9	,	O	O	_	_	
+2-10	that	O	O	_	_	
+2-11	the	O	O	_	_	
+2-12	best	O	O	_	_	
+2-13	time	B-ScrPart_time	O	_	_	
+2-14	to	O	O	_	_	
+2-15	plant	O	B-Evoking	_	_	
+2-16	it	B-ScrPart_tree	I-Evoking	_	_	
+2-17	was	O	B-UnrelEv	_	_	
+2-18	in	O	O	_	_	
+2-19	April	B-ScrPart_time	O	_	_	
+2-20	or	O	O	_	_	
+2-21	May	B-ScrPart_time	O	_	_	
+2-22	.	O	O	_	_	
+
+#id=3
+#text=So about several weeks after Tom had moved into his new home , he went ahead to plant the tree in mid April .
+3-1	So	O	O	_	_	
+3-2	about	O	O	_	_	
+3-3	several	O	O	_	_	
+3-4	weeks	B-NPart	O	_	_	
+3-5	after	O	O	_	_	
+3-6	Tom	B-ScrPart_gardener	O	_	_	
+3-7	had	O	O	_	_	
+3-8	moved	O	B-UnrelEv	_	_	
+3-9	into	O	O	_	_	
+3-10	his	B-ScrPart_gardener	O	webanno.custom.Corefchains_	3-6	
+3-11	new	O	O	_	_	
+3-12	home	B-NPart	O	_	_	
+3-13	,	O	O	_	_	
+3-14	he	B-ScrPart_gardener	O	webanno.custom.Corefchains_	3-10	
+3-15	went	O	B-UnrelEv	_	_	
+3-16	ahead	O	I-UnrelEv	_	_	
+3-17	to	O	O	_	_	
+3-18	plant	O	B-Evoking	_	_	
+3-19	the	O	I-Evoking	_	_	
+3-20	tree	B-ScrPart_tree	I-Evoking	_	_	
+3-21	in	O	O	_	_	
+3-22	mid	O	O	_	_	
+3-23	April	B-ScrPart_time	O	_	_	
+3-24	.	O	O	_	_	
+
+#id=4
+#text=He first got and checked some maps to make sure he did n't mistakenly end up digging into any telephone or gas lines .
+4-1	He	B-ScrPart_gardener	O	webanno.custom.Corefchains_	3-14	
+4-2	first	O	O	_	_	
+4-3	got	O	B-UnrelEv	_	_	
+4-4	and	O	O	_	_	
+4-5	checked	O	B-UnrelEv	_	_	
+4-6	some	O	O	_	_	
+4-7	maps	B-NPart	O	_	_	
+4-8	to	O	O	_	_	
+4-9	make	O	B-UnrelEv	_	_	
+4-10	sure	O	I-UnrelEv	_	_	
+4-11	he	B-ScrPart_gardener	O	webanno.custom.Corefchains_	4-1	
+4-12	did	O	O	_	_	
+4-13	n't	O	O	_	_	
+4-14	mistakenly	O	O	_	_	
+4-15	end	O	B-UnrelEv	_	_	
+4-16	up	O	I-UnrelEv	_	_	
+4-17	digging	O	B-ScrEv_dug_hole	_	_	
+4-18	into	O	O	_	_	
+4-19	any	O	O	_	_	
+4-20	telephone	B-NPart	O	_	_	
+4-21	or	O	O	_	_	
+4-22	gas	B-NPart	O	_	_	
+4-23	lines	I-NPart|B-NPart	O	_	_	
+4-24	.	O	O	_	_	
+
+#id=5
+#text=Once he found a suitable spot to plant his new tree , Tom took a shovel and began preparing the hole to place it in .
+5-1	Once	O	O	_	_	
+5-2	he	B-ScrPart_gardener	O	_	_	
+5-3	found	O	B-ScrEv_find_place	_	_	
+5-4	a	O	O	_	_	
+5-5	suitable	O	O	_	_	
+5-6	spot	B-ScrPart_location_garden	O	_	_	
+5-7	to	O	O	_	_	
+5-8	plant	O	B-Evoking	_	_	
+5-9	his	B-ScrPart_gardener	I-Evoking	_	_	
+5-10	new	O	I-Evoking	_	_	
+5-11	tree	B-ScrPart_tree	I-Evoking	_	_	
+5-12	,	O	O	_	_	
+5-13	Tom	B-ScrPart_gardener	O	_	_	
+5-14	took	O	B-ScrEv_get_tools	_	_	
+5-15	a	O	O	_	_	
+5-16	shovel	B-ScrPart_gardening_tool	O	_	_	
+5-17	and	O	O	_	_	
+5-18	began	O	B-UnrelEv	_	_	
+5-19	preparing	O	B-ScrEv_dug_hole	_	_	
+5-20	the	O	O	_	_	
+5-21	hole	B-ScrPart_hole	O	_	_	
+5-22	to	O	O	_	_	
+5-23	place	O	B-ScrEv_place_root	_	_	
+5-24	it	B-ScrPart_tree	O	_	_	
+5-25	in	O	O	_	_	
+5-26	.	O	O	_	_	
+
+#id=6
+#text=Next , he prepared the tree for planting by turning carefully upside down to remove it from the pot it came in .
+6-1	Next	O	O	_	_	
+6-2	,	O	O	_	_	
+6-3	he	B-ScrPart_gardener	O	_	_	
+6-4	prepared	O	B-RelNScrEv	_	_	
+6-5	the	O	O	_	_	
+6-6	tree	B-ScrPart_tree	O	_	_	
+6-7	for	O	O	_	_	
+6-8	planting	O	B-Evoking	_	_	
+6-9	by	O	O	_	_	
+6-10	turning	O	B-RelNScrEv	_	_	
+6-11	carefully	O	O	_	_	
+6-12	upside	O	O	_	_	
+6-13	down	O	O	_	_	
+6-14	to	O	O	_	_	
+6-15	remove	O	B-RelNScrEv	_	_	
+6-16	it	B-ScrPart_tree	O	_	_	
+6-17	from	O	O	_	_	
+6-18	the	O	O	_	_	
+6-19	pot	B-NPart	O	_	_	
+6-20	it	B-ScrPart_tree	O	_	_	
+6-21	came	O	B-UnrelEv	_	_	
+6-22	in	O	O	_	_	
+6-23	.	O	O	_	_	
+
+#id=7
+#text=He then gently , placed the tree into the hole .
+7-1	He	B-ScrPart_gardener	O	_	_	
+7-2	then	O	O	_	_	
+7-3	gently	O	O	_	_	
+7-4	,	O	O	_	_	
+7-5	placed	O	B-ScrEv_place_root	_	_	
+7-6	the	O	O	_	_	
+7-7	tree	B-ScrPart_tree	O	_	_	
+7-8	into	O	O	_	_	
+7-9	the	O	O	_	_	
+7-10	hole	B-ScrPart_hole	O	_	_	
+7-11	.	O	O	_	_	
+
+#id=8
+#text=Tom also filled the hole with some compost and manure to help the tree grow better .
+8-1	Tom	B-ScrPart_gardener	O	_	_	
+8-2	also	O	O	_	_	
+8-3	filled	O	B-ScrEv_refill_hole	_	_	
+8-4	the	O	O	_	_	
+8-5	hole	B-ScrPart_hole	O	_	_	
+8-6	with	O	O	_	_	
+8-7	some	O	O	_	_	
+8-8	compost	B-ScrPart_fertilizer	O	_	_	
+8-9	and	O	O	_	_	
+8-10	manure	B-ScrPart_fertilizer	O	_	_	
+8-11	to	O	O	_	_	
+8-12	help	O	B-UnrelEv	_	_	
+8-13	the	O	O	_	_	
+8-14	tree	B-ScrPart_tree	O	_	_	
+8-15	grow	O	B-RelNScrEv	_	_	
+8-16	better	O	O	_	_	
+8-17	.	O	O	_	_	
+
+#id=9
+#text=Once this was done , he filled up the hole completely and watered the tree .
+9-1	Once	O	O	_	_	
+9-2	this	O	O	_	_	
+9-3	was	O	B-UnrelEv	_	_	
+9-4	done	O	O	_	_	
+9-5	,	O	O	_	_	
+9-6	he	B-ScrPart_gardener	O	_	_	
+9-7	filled	O	B-ScrEv_refill_hole	_	_	
+9-8	up	O	O	_	_	
+9-9	the	O	O	_	_	
+9-10	hole	B-ScrPart_hole	O	_	_	
+9-11	completely	O	O	_	_	
+9-12	and	O	O	_	_	
+9-13	watered	O	B-ScrEv_water	_	_	
+9-14	the	O	O	_	_	
+9-15	tree	B-ScrPart_tree	O	_	_	
+9-16	.	O	O	_	_	
+
+#id=10
+#text=Finally , he placed mulch on top and then stopped to admire the beautiful new tree in his yard . 
+10-1	Finally	O	O	_	_	
+10-2	,	O	O	_	_	
+10-3	he	B-ScrPart_gardener	O	_	_	
+10-4	placed	O	B-RelNScrEv	_	_	
+10-5	mulch	B-NPart	O	_	_	
+10-6	on	O	O	_	_	
+10-7	top	O	O	_	_	
+10-8	and	O	O	_	_	
+10-9	then	O	O	_	_	
+10-10	stopped	O	B-UnrelEv	_	_	
+10-11	to	O	O	_	_	
+10-12	admire	O	B-UnrelEv	_	_	
+10-13	the	O	O	_	_	
+10-14	beautiful	O	O	_	_	
+10-15	new	O	O	_	_	
+10-16	tree	B-ScrPart_tree	O	_	_	
+10-17	in	O	O	_	_	
+10-18	his	B-ScrPart_gardener	O	_	_	
+10-19	yard	B-NPart	O	_	_	
+10-20	.	O	O	_	_	
+

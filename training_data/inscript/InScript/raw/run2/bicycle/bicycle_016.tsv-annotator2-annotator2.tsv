@@ -1,0 +1,203 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=Last week on a bike ride to my friends house , I was traveling on a very rough road with a lot of rocks on the side of it .
+1-1	Last	O	O	
+1-2	week	B-NPart	O	
+1-3	on	O	O	
+1-4	a	O	O	
+1-5	bike	B-ScrPart_ride	B-ScrEv_ride_bike	
+1-6	ride	I-ScrPart_ride	I-ScrEv_ride_bike	
+1-7	to	O	O	
+1-8	my	B-ScrPart_rider	O	
+1-9	friends	B-NPart	O	
+1-10	house	B-NPart	O	
+1-11	,	O	O	
+1-12	I	B-ScrPart_rider	O	
+1-13	was	O	O	
+1-14	traveling	O	B-ScrEv_ride_bike	
+1-15	on	O	O	
+1-16	a	O	O	
+1-17	very	O	O	
+1-18	rough	O	O	
+1-19	road	B-ScrPart_location_repair	O	
+1-20	with	O	O	
+1-21	a	O	O	
+1-22	lot	B-NPart	O	
+1-23	of	O	O	
+1-24	rocks	B-NPart	O	
+1-25	on	O	O	
+1-26	the	O	O	
+1-27	side	B-NPart	O	
+1-28	of	O	O	
+1-29	it	B-ScrPart_location_repair	O	
+1-30	.	O	O	
+
+#id=2
+#text=I realized after about 10 minutes into my ride that I had a very bad flat tire .
+2-1	I	B-ScrPart_rider	O	
+2-2	realized	O	B-ScrEv_notice_problem	
+2-3	after	O	O	
+2-4	about	O	O	
+2-5	10	O	O	
+2-6	minutes	B-NPart	O	
+2-7	into	O	O	
+2-8	my	B-ScrPart_rider	O	
+2-9	ride	B-ScrPart_ride	B-ScrEv_ride_bike	
+2-10	that	O	O	
+2-11	I	B-ScrPart_rider	O	
+2-12	had	O	B-UnrelEv	
+2-13	a	O	O	
+2-14	very	O	O	
+2-15	bad	O	O	
+2-16	flat	O	O	
+2-17	tire	B-ScrPart_tire	O	
+2-18	.	O	O	
+
+#id=3
+#text=Thankfully I carry the proper tools and items with me to fix it .
+3-1	Thankfully	O	O	
+3-2	I	B-ScrPart_rider	O	
+3-3	carry	O	B-UnrelEv	
+3-4	the	O	O	
+3-5	proper	O	O	
+3-6	tools	B-ScrPart_tool	O	
+3-7	and	O	O	
+3-8	items	B-ScrPart_tool	O	
+3-9	with	O	O	
+3-10	me	B-ScrPart_rider	O	
+3-11	to	O	O	
+3-12	fix	O	B-Evoking	
+3-13	it	B-ScrPart_tire	I-Evoking	
+3-14	.	O	O	
+
+#id=4
+#text=I pulled off the road and opened my bag with my tools .
+4-1	I	B-ScrPart_rider	O	
+4-2	pulled	O	B-RelNScrEv	
+4-3	off	O	O	
+4-4	the	O	O	
+4-5	road	B-ScrPart_location_repair	O	
+4-6	and	O	O	
+4-7	opened	O	B-RelNScrEv	
+4-8	my	B-ScrPart_rider	O	
+4-9	bag	B-NPart	O	
+4-10	with	O	O	
+4-11	my	B-ScrPart_rider	O	
+4-12	tools	B-ScrPart_tool	O	
+4-13	.	O	O	
+
+#id=5
+#text=After removing the tire and the tube inside , I used my tools to put a brand new tube inside of the tire .
+5-1	After	O	O	
+5-2	removing	O	B-ScrEv_take_tire_off	
+5-3	the	O	O	
+5-4	tire	B-ScrPart_tire	O	
+5-5	and	O	O	
+5-6	the	O	O	
+5-7	tube	B-ScrPart_tire	O	
+5-8	inside	O	O	
+5-9	,	O	O	
+5-10	I	B-ScrPart_rider	O	
+5-11	used	O	B-UnrelEv	
+5-12	my	B-ScrPart_rider	O	
+5-13	tools	B-ScrPart_tool	O	
+5-14	to	O	O	
+5-15	put	O	B-ScrEv_put_new_tire	
+5-16	a	O	O	
+5-17	brand	O	O	
+5-18	new	O	O	
+5-19	tube	B-ScrPart_spare_tube	O	
+5-20	inside	O	O	
+5-21	of	O	O	
+5-22	the	O	O	
+5-23	tire	B-ScrPart_tire	O	
+5-24	.	O	O	
+
+#id=6
+#text=I checked it to make sure that I had aligned everything correctly and after ensuring that I did , I placed the tire back onto the bike .
+6-1	I	B-ScrPart_rider	O	
+6-2	checked	O	B-ScrEv_check_new_tire	
+6-3	it	B-ScrPart_tire	O	
+6-4	to	O	O	
+6-5	make	O	B-ScrEv_check_new_tire	
+6-6	sure	O	I-ScrEv_check_new_tire	
+6-7	that	O	O	
+6-8	I	B-ScrPart_rider	O	
+6-9	had	O	O	
+6-10	aligned	O	B-UnrelEv	
+6-11	everything	B-No_label	O	
+6-12	correctly	O	O	
+6-13	and	O	O	
+6-14	after	O	O	
+6-15	ensuring	O	B-ScrEv_check_new_tire	
+6-16	that	O	O	
+6-17	I	B-ScrPart_rider	O	
+6-18	did	O	B-UnrelEv	
+6-19	,	O	O	
+6-20	I	B-ScrPart_rider	O	
+6-21	placed	O	B-ScrEv_put_new_tire	
+6-22	the	O	O	
+6-23	tire	B-ScrPart_tire	O	
+6-24	back	O	O	
+6-25	onto	O	O	
+6-26	the	O	O	
+6-27	bike	B-ScrPart_bicycle	O	
+6-28	.	O	O	
+
+#id=7
+#text=I then used my portable pump to make sure that I had the proper amount of air pressure inside of it , because I did n't want another flat .
+7-1	I	B-ScrPart_rider	O	
+7-2	then	O	O	
+7-3	used	O	B-UnrelEv	
+7-4	my	B-ScrPart_rider	O	
+7-5	portable	O	O	
+7-6	pump	B-ScrPart_tool	O	
+7-7	to	O	O	
+7-8	make	O	B-ScrEv_check_new_tire	
+7-9	sure	O	I-ScrEv_check_new_tire	
+7-10	that	O	O	
+7-11	I	B-ScrPart_rider	O	
+7-12	had	O	B-UnrelEv	
+7-13	the	O	O	
+7-14	proper	O	O	
+7-15	amount	B-Head_of_Partitive	O	
+7-16	of	O	O	
+7-17	air	B-ScrPart_pressure	O	
+7-18	pressure	I-ScrPart_pressure|B-ScrPart_pressure	O	
+7-19	inside	O	O	
+7-20	of	O	O	
+7-21	it	B-ScrPart_tire	O	
+7-22	,	O	O	
+7-23	because	O	O	
+7-24	I	B-ScrPart_rider	O	
+7-25	did	O	O	
+7-26	n't	O	O	
+7-27	want	O	B-UnrelEv	
+7-28	another	O	O	
+7-29	flat	B-ScrPart_tire	O	
+7-30	.	O	O	
+
+#id=8
+#text=After checking everything twice , I was on my way again .
+8-1	After	O	O	
+8-2	checking	O	B-ScrEv_check_new_tire	
+8-3	everything	B-No_label	O	
+8-4	twice	O	O	
+8-5	,	O	O	
+8-6	I	B-ScrPart_rider	O	
+8-7	was	O	B-UnrelEv	
+8-8	on	O	O	
+8-9	my	B-ScrPart_rider	O	
+8-10	way	B-NPart	O	
+8-11	again	O	O	
+8-12	.	O	O	
+
+#id=9
+#text=It was an easy fix . 
+9-1	It	B-No_label	O	
+9-2	was	O	B-UnrelEv	
+9-3	an	O	O	
+9-4	easy	O	O	
+9-5	fix	B-NPart	O	
+9-6	.	O	O	
+

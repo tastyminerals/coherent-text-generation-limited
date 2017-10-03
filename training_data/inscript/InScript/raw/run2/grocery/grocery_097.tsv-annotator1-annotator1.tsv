@@ -1,0 +1,247 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant
+#id=1
+#text=Grocery shopping can be a stressful event , but if you come prepared then you can usually leave without a headache .
+1-1	Grocery	B-Evoking	B-ScrPart_groceries	
+1-2	shopping	I-Evoking|B-ScrEv_get_groceries	O	
+1-3	can	O	O	
+1-4	be	B-UnrelEv	O	
+1-5	a	O	O	
+1-6	stressful	O	O	
+1-7	event	O	B-NPart	
+1-8	,	O	O	
+1-9	but	O	O	
+1-10	if	O	O	
+1-11	you	O	B-ScrPart_shopper	
+1-12	come	B-ScrEv_go_grocery	O	
+1-13	prepared	B-UnrelEv	O	
+1-14	then	O	O	
+1-15	you	O	B-ScrPart_shopper	
+1-16	can	O	O	
+1-17	usually	O	O	
+1-18	leave	B-ScrEv_leave	O	
+1-19	without	O	O	
+1-20	a	O	O	
+1-21	headache	O	B-NPart	
+1-22	.	O	O	
+
+#id=2
+#text=Before we head over to the store we need to make a list of all the items that we need .
+2-1	Before	O	O	
+2-2	we	O	B-ScrPart_shopper	
+2-3	head	B-ScrEv_go_grocery|B-ScrEv_go_grocery	O	
+2-4	over	I-ScrEv_go_grocery	O	
+2-5	to	O	O	
+2-6	the	O	O	
+2-7	store	O	B-ScrPart_grocery_shop	
+2-8	we	O	B-ScrPart_shopper	
+2-9	need	B-RelNScrEv	O	
+2-10	to	O	O	
+2-11	make	B-ScrEv_make_list	O	
+2-12	a	O	O	
+2-13	list	O	B-ScrPart_grocery_list	
+2-14	of	O	O	
+2-15	all	O	O	
+2-16	the	O	O	
+2-17	items	O	B-ScrPart_groceries	
+2-18	that	O	O	
+2-19	we	O	B-ScrPart_shopper	
+2-20	need	B-RelNScrEv	O	
+2-21	.	O	O	
+
+#id=3
+#text=Once you arrive at the store if you have a short list make sure to grab a basket .
+3-1	Once	O	O	
+3-2	you	O	B-ScrPart_shopper	
+3-3	arrive	B-ScrEv_enter	O	
+3-4	at	O	O	
+3-5	the	O	O	
+3-6	store	O	B-ScrPart_grocery_shop	
+3-7	if	O	O	
+3-8	you	O	B-ScrPart_shopper	
+3-9	have	B-UnrelEv	O	
+3-10	a	O	O	
+3-11	short	O	O	
+3-12	list	O	B-ScrPart_grocery_list	
+3-13	make	B-UnrelEv	O	
+3-14	sure	O	O	
+3-15	to	O	O	
+3-16	grab	B-ScrEv_take_shop_cart	O	
+3-17	a	O	O	
+3-18	basket	O	B-ScrPart_shopping_cart/basket	
+3-19	.	O	O	
+
+#id=4
+#text=If you are purchasing a wider variety of items then grab a shopping cart .
+4-1	If	O	O	
+4-2	you	O	B-ScrPart_shopper	
+4-3	are	O	O	
+4-4	purchasing	B-ScrEv_get_groceries	O	
+4-5	a	O	O	
+4-6	wider	O	O	
+4-7	variety	O	B-Head_of_Partitive	
+4-8	of	O	O	
+4-9	items	O	B-ScrPart_groceries	
+4-10	then	O	O	
+4-11	grab	B-ScrEv_take_shop_cart	O	
+4-12	a	O	O	
+4-13	shopping	O	B-ScrPart_shopping_cart/basket	
+4-14	cart	O	I-ScrPart_shopping_cart/basket|B-ScrPart_shopping_cart/basket	
+4-15	.	O	O	
+
+#id=5
+#text=I would recommend starting on the outside perimeter of the store , hitting up your dairy , meats , and vegetables .
+5-1	I	O	B-ScrPart_shopper	
+5-2	would	O	O	
+5-3	recommend	B-UnrelEv	O	
+5-4	starting	B-???	O	
+5-5	on	O	O	
+5-6	the	O	O	
+5-7	outside	O	O	
+5-8	perimeter	O	B-Head_of_Partitive	
+5-9	of	O	O	
+5-10	the	O	O	
+5-11	store	O	B-ScrPart_grocery_shop	
+5-12	,	O	O	
+5-13	hitting	B-ScrEv_get_groceries|B-ScrEv_get_groceries	O	
+5-14	up	I-ScrEv_get_groceries	O	
+5-15	your	O	B-ScrPart_shopper	
+5-16	dairy	O	B-ScrPart_groceries	
+5-17	,	O	O	
+5-18	meats	O	B-ScrPart_groceries	
+5-19	,	O	O	
+5-20	and	O	O	
+5-21	vegetables	O	B-ScrPart_groceries	
+5-22	.	O	O	
+
+#id=6
+#text=While you are working your way clockwise or counter-clockwise you can frequent the aisles in the middle to pickup the remainder of items .
+6-1	While	O	O	
+6-2	you	O	B-ScrPart_shopper	
+6-3	are	O	O	
+6-4	working	B-ScrEv_move_section	O	
+6-5	your	O	B-ScrPart_shopper	
+6-6	way	O	B-No_label	
+6-7	clockwise	O	O	
+6-8	or	O	O	
+6-9	counter-clockwise	O	O	
+6-10	you	O	B-ScrPart_shopper	
+6-11	can	O	O	
+6-12	frequent	B-ScrEv_move_section	O	
+6-13	the	O	O	
+6-14	aisles	O	B-ScrPart_section	
+6-15	in	O	O	
+6-16	the	O	O	
+6-17	middle	O	O	
+6-18	to	O	O	
+6-19	pickup	B-ScrEv_get_groceries	O	
+6-20	the	O	O	
+6-21	remainder	O	B-Head_of_Partitive	
+6-22	of	O	O	
+6-23	items	O	B-ScrPart_groceries	
+6-24	.	O	O	
+
+#id=7
+#text=Spending a lot of time in the aisles can become frustrating since people are more likely to be in your way .
+7-1	Spending	B-RelNScrEv	O	
+7-2	a	O	O	
+7-3	lot	O	B-Head_of_Partitive	
+7-4	of	O	O	
+7-5	time	O	B-???	
+7-6	in	O	O	
+7-7	the	O	O	
+7-8	aisles	O	B-ScrPart_section	
+7-9	can	O	O	
+7-10	become	B-UnrelEv	O	
+7-11	frustrating	B-UnrelEv	O	
+7-12	since	O	O	
+7-13	people	O	B-ScrPart_shopper	
+7-14	are	O	O	
+7-15	more	O	O	
+7-16	likely	O	O	
+7-17	to	O	O	
+7-18	be	B-UnrelEv	O	
+7-19	in	O	O	
+7-20	your	O	B-ScrPart_shopper	
+7-21	way	O	B-No_label	
+7-22	.	O	O	
+
+#id=8
+#text=After you select all the items to purchase , find the shortest checkout line .
+8-1	After	O	O	
+8-2	you	O	B-ScrPart_shopper	
+8-3	select	B-ScrEv_get_groceries	O	
+8-4	all	O	O	
+8-5	the	O	O	
+8-6	items	O	B-ScrPart_groceries	
+8-7	to	O	O	
+8-8	purchase	B-ScrEv_get_groceries	O	
+8-9	,	O	O	
+8-10	find	B-ScrEv_go_checkout	O	
+8-11	the	O	O	
+8-12	shortest	O	O	
+8-13	checkout	O	B-ScrPart_line	
+8-14	line	O	I-ScrPart_line|B-ScrPart_line	
+8-15	.	O	O	
+
+#id=9
+#text=Once you are close enough start piling your groceries on the belt , and take out your form of payment .
+9-1	Once	O	O	
+9-2	you	O	B-ScrPart_shopper	
+9-3	are	B-UnrelEv	O	
+9-4	close	O	O	
+9-5	enough	O	O	
+9-6	start	B-UnrelEv	O	
+9-7	piling	B-ScrEv_put_conveyor	O	
+9-8	your	O	B-ScrPart_shopper	
+9-9	groceries	O	B-ScrPart_groceries	
+9-10	on	O	O	
+9-11	the	O	O	
+9-12	belt	O	B-ScrPart_conveyor_belt	
+9-13	,	O	O	
+9-14	and	O	O	
+9-15	take	B-ScrEv_pay|B-ScrEv_pay	O	
+9-16	out	I-ScrEv_pay	O	
+9-17	your	O	B-ScrPart_shopper	
+9-18	form	O	B-Head_of_Partitive	
+9-19	of	O	O	
+9-20	payment	O	B-ScrPart_payment_means	
+9-21	.	O	O	
+
+#id=10
+#text=Once paid , the store will generally bag your groceries for you .
+10-1	Once	O	O	
+10-2	paid	B-ScrEv_pay	O	
+10-3	,	O	O	
+10-4	the	O	O	
+10-5	store	O	B-ScrPart_grocery_staff	
+10-6	will	O	O	
+10-7	generally	O	O	
+10-8	bag	B-ScrEv_pack_groceries	O	
+10-9	your	O	B-ScrPart_shopper	
+10-10	groceries	O	B-ScrPart_groceries	
+10-11	for	O	O	
+10-12	you	O	B-ScrPart_shopper	
+10-13	.	O	O	
+
+#id=11
+#text=Now you just need to load your car , drive home , and unload all of your bounty ! 
+11-1	Now	O	O	
+11-2	you	O	B-ScrPart_shopper	
+11-3	just	O	O	
+11-4	need	B-UnrelEv	O	
+11-5	to	O	O	
+11-6	load	B-ScrEv_bring_vehicle	O	
+11-7	your	O	B-ScrPart_shopper	
+11-8	car	O	B-ScrPart_vehicle	
+11-9	,	O	O	
+11-10	drive	B-ScrEv_leave	O	
+11-11	home	O	B-NPart	
+11-12	,	O	O	
+11-13	and	O	O	
+11-14	unload	B-RelNScrEv	O	
+11-15	all	O	O	
+11-16	of	O	O	
+11-17	your	O	B-ScrPart_shopper	
+11-18	bounty	O	B-ScrPart_groceries	
+11-19	!	O	O	
+

@@ -1,0 +1,219 @@
+ # webanno.custom.Participants | Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=Lucy is very fond of food .
+1-1	Lucy	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+1-2	is	O	O	B-UnrelEv	
+1-3	very	O	O	O	
+1-4	fond	O	O	O	
+1-5	of	O	O	O	
+1-6	food	B-NPart	B-webanno.custom.Participants_	O	
+1-7	.	O	O	O	
+
+#id=2
+#text=She loves to make cakes .
+2-1	She	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+2-2	loves	O	O	B-UnrelEv	
+2-3	to	O	O	O	
+2-4	make	O	O	B-Evoking	
+2-5	cakes	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	
+2-6	.	O	O	O	
+
+#id=3
+#text=Today she wants to bake a cake .
+3-1	Today	B-NPart	B-webanno.custom.Participants_	O	
+3-2	she	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+3-3	wants	O	O	B-UnrelEv	
+3-4	to	O	O	O	
+3-5	bake	O	O	B-Evoking	
+3-6	a	O	O	I-Evoking	
+3-7	cake	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	
+3-8	.	O	O	O	
+
+#id=4
+#text=She brought cake flour , sugar and cream from the supermarket .
+4-1	She	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+4-2	brought	O	O	B-ScrEv_get_ingredients	
+4-3	cake	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+4-4	flour	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+4-5	,	O	O	O	
+4-6	sugar	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+4-7	and	O	O	O	
+4-8	cream	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+4-9	from	O	O	O	
+4-10	the	O	O	O	
+4-11	supermarket	B-ScrPart_store	B-webanno.custom.Participants_	O	
+4-12	.	O	O	O	
+
+#id=5
+#text=She is standing at the kitchen and ready to start .
+5-1	She	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+5-2	is	O	O	O	
+5-3	standing	O	O	B-UnrelEv	
+5-4	at	O	O	O	
+5-5	the	O	O	O	
+5-6	kitchen	B-ScrPart_kitchen/location	B-webanno.custom.Participants_	O	
+5-7	and	O	O	O	
+5-8	ready	O	O	O	
+5-9	to	O	O	O	
+5-10	start	O	O	O	
+5-11	.	O	O	O	
+
+#id=6
+#text=She pour three cups of flour into a large bowl .
+6-1	She	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+6-2	pour	O	O	B-ScrEv_add_ingredients	
+6-3	three	O	O	O	
+6-4	cups	B-Head_of_Partitive	B-webanno.custom.Participants_	O	
+6-5	of	O	O	O	
+6-6	flour	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+6-7	into	O	O	O	
+6-8	a	O	O	O	
+6-9	large	O	O	O	
+6-10	bowl	B-ScrPart_utensil	B-webanno.custom.Participants_	O	
+6-11	.	O	O	O	
+
+#id=7
+#text=In another bowl , she separate the egg white and yolk from four eggs .
+7-1	In	O	O	O	
+7-2	another	O	O	O	
+7-3	bowl	B-ScrPart_utensil	B-webanno.custom.Participants_	O	
+7-4	,	O	O	O	
+7-5	she	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+7-6	separate	O	O	B-ScrEv_prepare_ingredients	
+7-7	the	O	O	O	
+7-8	egg	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+7-9	white	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+7-10	and	O	O	O	
+7-11	yolk	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+7-12	from	O	O	O	
+7-13	four	O	O	O	
+7-14	eggs	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+7-15	.	O	O	O	
+
+#id=8
+#text=She use Kitchen Aid to beat the egg white until soft peaks form and she can lift up the whip .
+8-1	She	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+8-2	use	O	O	B-UnrelEv	
+8-3	Kitchen	B-ScrPart_utensil	B-webanno.custom.Participants_	O	
+8-4	Aid	I-ScrPart_utensil	I-webanno.custom.Participants_	O	
+8-5	to	O	O	O	
+8-6	beat	O	O	B-ScrEv_prepare_ingredients	
+8-7	the	O	O	O	
+8-8	egg	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+8-9	white	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+8-10	until	O	O	O	
+8-11	soft	O	O	O	
+8-12	peaks	B-NPart	B-webanno.custom.Participants_	O	
+8-13	form	O	O	B-UnrelEv	
+8-14	and	O	O	O	
+8-15	she	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+8-16	can	O	O	O	
+8-17	lift	O	O	B-UnrelEv	
+8-18	up	O	O	I-UnrelEv	
+8-19	the	O	O	O	
+8-20	whip	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+8-21	.	O	O	O	
+
+#id=9
+#text=She adds one cup of oil , half cup of sugar , egg yolk into the flour and mixed together , then she adds the egg white and mixes all together until it is well mixed .
+9-1	She	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+9-2	adds	O	O	B-ScrEv_add_ingredients	
+9-3	one	O	O	O	
+9-4	cup	B-Head_of_Partitive	B-webanno.custom.Participants_	O	
+9-5	of	O	O	O	
+9-6	oil	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+9-7	,	O	O	O	
+9-8	half	B-Head_of_Partitive	B-webanno.custom.Participants_	O	
+9-9	cup	I-Head_of_Partitive	I-webanno.custom.Participants_	O	
+9-10	of	O	O	O	
+9-11	sugar	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+9-12	,	O	O	O	
+9-13	egg	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+9-14	yolk	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+9-15	into	O	O	O	
+9-16	the	O	O	O	
+9-17	flour	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+9-18	and	O	O	O	
+9-19	mixed	O	O	B-ScrEv_prepare_ingredients	
+9-20	together	O	O	O	
+9-21	,	O	O	O	
+9-22	then	O	O	O	
+9-23	she	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+9-24	adds	O	O	B-ScrEv_add_ingredients	
+9-25	the	O	O	O	
+9-26	egg	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+9-27	white	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+9-28	and	O	O	O	
+9-29	mixes	O	O	B-ScrEv_make_dough	
+9-30	all	O	O	O	
+9-31	together	O	O	O	
+9-32	until	O	O	O	
+9-33	it	B-ScrPart_dough	B-webanno.custom.Participants_	O	
+9-34	is	O	O	O	
+9-35	well	O	O	O	
+9-36	mixed	O	O	B-ScrEv_make_dough	
+9-37	.	O	O	O	
+
+#id=10
+#text=She pour the mixture into a cake baking pan and put it into the oven .
+10-1	She	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+10-2	pour	O	O	B-ScrEv_pour_dough	
+10-3	the	O	O	O	
+10-4	mixture	B-ScrPart_dough	B-webanno.custom.Participants_	O	
+10-5	into	O	O	O	
+10-6	a	O	O	O	
+10-7	cake	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	
+10-8	baking	I-ScrPart_cake_tin	I-webanno.custom.Participants_	O	
+10-9	pan	I-ScrPart_cake_tin|B-ScrPart_cake_tin	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+10-10	and	O	O	O	
+10-11	put	O	O	B-ScrEv_put_cake_oven	
+10-12	it	B-ScrPart_dough	B-webanno.custom.Participants_	O	
+10-13	into	O	O	O	
+10-14	the	O	O	O	
+10-15	oven	B-ScrPart_oven	B-webanno.custom.Participants_	O	
+10-16	.	O	O	O	
+
+#id=11
+#text=It is set at 350 degree .
+11-1	It	B-ScrPart_oven	B-webanno.custom.Participants_	O	
+11-2	is	O	O	O	
+11-3	set	O	O	B-ScrEv_preheat	
+11-4	at	O	O	O	
+11-5	350	O	O	O	
+11-6	degree	B-ScrPart_temperature	B-webanno.custom.Participants_	O	
+11-7	.	O	O	O	
+
+#id=12
+#text=After around 30 minutes , the cake is ready .
+12-1	After	O	O	O	
+12-2	around	O	O	O	
+12-3	30	O	O	O	
+12-4	minutes	B-ScrPart_time	B-webanno.custom.Participants_	O	
+12-5	,	O	O	O	
+12-6	the	O	O	O	
+12-7	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+12-8	is	O	O	B-UnrelEv	
+12-9	ready	O	O	O	
+12-10	.	O	O	O	
+
+#id=13
+#text=It is very nice .
+13-1	It	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+13-2	is	O	O	B-UnrelEv	
+13-3	very	O	O	O	
+13-4	nice	O	O	O	
+13-5	.	O	O	O	
+
+#id=14
+#text=She then use the cream to decorate the cake . 
+14-1	She	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+14-2	then	O	O	O	
+14-3	use	O	O	B-UnrelEv	
+14-4	the	O	O	O	
+14-5	cream	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+14-6	to	O	O	O	
+14-7	decorate	O	O	B-ScrEv_decorate	
+14-8	the	O	O	O	
+14-9	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+14-10	.	O	O	O	
+

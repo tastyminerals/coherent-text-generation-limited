@@ -1,0 +1,182 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I was skimming my Nook for something good to read and found that I had either read everything or that I was not interested in what I had not read .
+1-1	I	B-ScrPart_customer	O	_	_	
+1-2	was	O	O	_	_	
+1-3	skimming	O	B-UnrelEv	_	_	
+1-4	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-1	
+1-5	Nook	O	O	_	_	
+1-6	for	O	O	_	_	
+1-7	something	O	O	_	_	
+1-8	good	O	O	_	_	
+1-9	to	O	O	_	_	
+1-10	read	O	B-RelNScrEv	_	_	
+1-11	and	O	O	_	_	
+1-12	found	O	B-UnrelEv	_	_	
+1-13	that	O	O	_	_	
+1-14	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-4	
+1-15	had	O	O	_	_	
+1-16	either	O	O	_	_	
+1-17	read	O	B-RelNScrEv	_	_	
+1-18	everything	O	O	_	_	
+1-19	or	O	O	_	_	
+1-20	that	O	O	_	_	
+1-21	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-14	
+1-22	was	O	B-UnrelEv	_	_	
+1-23	not	O	O	_	_	
+1-24	interested	O	O	_	_	
+1-25	in	O	O	_	_	
+1-26	what	O	O	_	_	
+1-27	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-21	
+1-28	had	O	O	_	_	
+1-29	not	O	O	_	_	
+1-30	read	O	B-RelNScrEv	_	_	
+1-31	.	O	O	_	_	
+
+#id=2
+#text=So I decided to go to the local library and get one of the old fashioned paper books that I had not read .
+2-1	So	O	O	_	_	
+2-2	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-27	
+2-3	decided	O	B-UnrelEv	_	_	
+2-4	to	O	O	_	_	
+2-5	go	O	B-Evoking	_	_	
+2-6	to	O	I-Evoking	_	_	
+2-7	the	O	I-Evoking	_	_	
+2-8	local	O	I-Evoking	_	_	
+2-9	library	B-ScrPart_library	I-Evoking	_	_	
+2-10	and	O	O	_	_	
+2-11	get	O	B-RelNScrEv	_	_	
+2-12	one	O	O	_	_	
+2-13	of	O	O	_	_	
+2-14	the	O	O	_	_	
+2-15	old	O	O	_	_	
+2-16	fashioned	O	O	_	_	
+2-17	paper	B-ScrPart_book	O	_	_	
+2-18	books	I-ScrPart_book|B-ScrPart_book	O	_	_	
+2-19	that	O	O	_	_	
+2-20	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-2	
+2-21	had	O	O	_	_	
+2-22	not	O	O	_	_	
+2-23	read	O	B-RelNScrEv	_	_	
+2-24	.	O	O	_	_	
+
+#id=3
+#text=I went and looked around the shelves and talked to the librarian and other customers about what was good to read .
+3-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-20	
+3-2	went	O	B-ScrEv_get_library	_	_	
+3-3	and	O	O	_	_	
+3-4	looked	O	B-ScrEv_look_for_book	_	_	
+3-5	around	O	O	_	_	
+3-6	the	O	O	_	_	
+3-7	shelves	B-ScrPart_shelf	O	_	_	
+3-8	and	O	O	_	_	
+3-9	talked	O	B-ScrEv_ask_librarian|B-ScrEv_ask_librarian	_	_	
+3-10	to	O	I-ScrEv_ask_librarian	_	_	
+3-11	the	O	O	_	_	
+3-12	librarian	B-ScrPart_staff	O	_	_	
+3-13	and	O	O	_	_	
+3-14	other	O	O	_	_	
+3-15	customers	B-ScrPart_customer	O	_	_	
+3-16	about	O	O	_	_	
+3-17	what	O	O	_	_	
+3-18	was	O	B-UnrelEv	_	_	
+3-19	good	O	O	_	_	
+3-20	to	O	O	_	_	
+3-21	read	O	B-RelNScrEv	_	_	
+3-22	.	O	O	_	_	
+
+#id=4
+#text=After picking up a few and reading the summary I finally found one of interest and took it to the checkout line .
+4-1	After	O	O	_	_	
+4-2	picking	O	B-ScrEv_take_book|B-ScrEv_take_book	_	_	
+4-3	up	O	I-ScrEv_take_book	_	_	
+4-4	a	O	O	_	_	
+4-5	few	B-ScrPart_book	O	webanno.custom.Corefchains_	2-18	
+4-6	and	O	O	_	_	
+4-7	reading	O	B-RelNScrEv	_	_	
+4-8	the	O	O	_	_	
+4-9	summary	B-MissScrPart	O	_	_	
+4-10	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-1	
+4-11	finally	O	O	_	_	
+4-12	found	O	B-MissScrEv	_	_	
+4-13	one	B-ScrPart_book	O	webanno.custom.Corefchains_	4-5	
+4-14	of	O	O	_	_	
+4-15	interest	O	O	_	_	
+4-16	and	O	O	_	_	
+4-17	took	O	B-ScrEv_take_book	_	_	
+4-18	it	B-ScrPart_book	O	webanno.custom.Corefchains_	4-13	
+4-19	to	O	O	_	_	
+4-20	the	O	O	_	_	
+4-21	checkout	B-ScrPart_line	O	_	_	
+4-22	line	I-ScrPart_line|B-ScrPart_line	O	_	_	
+4-23	.	O	O	_	_	
+
+#id=5
+#text=While checking out the book the librarian noticed the handgun on my hip and we had a great conversation about the importance of being ready , willing , and able to protect yourself in any situation and in any locality .
+5-1	While	O	O	_	_	
+5-2	checking	O	B-ScrEv_register|B-ScrEv_register	_	_	
+5-3	out	O	I-ScrEv_register	_	_	
+5-4	the	O	O	_	_	
+5-5	book	B-ScrPart_book	O	webanno.custom.Corefchains_	4-18	
+5-6	the	O	O	_	_	
+5-7	librarian	B-ScrPart_staff	O	webanno.custom.Corefchains_	3-12	
+5-8	noticed	O	B-UnrelEv	_	_	
+5-9	the	O	O	_	_	
+5-10	handgun	O	O	_	_	
+5-11	on	O	O	_	_	
+5-12	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-10	
+5-13	hip	O	O	_	_	
+5-14	and	O	O	_	_	
+5-15	we	B-???	O	group_I_librarian|group_I_librarian	5-7|5-12	
+5-16	had	O	B-UnrelEv	_	_	
+5-17	a	O	O	_	_	
+5-18	great	O	O	_	_	
+5-19	conversation	O	O	_	_	
+5-20	about	O	O	_	_	
+5-21	the	O	O	_	_	
+5-22	importance	O	O	_	_	
+5-23	of	O	O	_	_	
+5-24	being	O	B-UnrelEv	_	_	
+5-25	ready	O	O	_	_	
+5-26	,	O	O	_	_	
+5-27	willing	O	O	_	_	
+5-28	,	O	O	_	_	
+5-29	and	O	O	_	_	
+5-30	able	O	O	_	_	
+5-31	to	O	O	_	_	
+5-32	protect	O	B-UnrelEv	_	_	
+5-33	yourself	O	O	_	_	
+5-34	in	O	O	_	_	
+5-35	any	O	O	_	_	
+5-36	situation	O	O	_	_	
+5-37	and	O	O	_	_	
+5-38	in	O	O	_	_	
+5-39	any	O	O	_	_	
+5-40	locality	O	O	_	_	
+5-41	.	O	O	_	_	
+
+#id=6
+#text=She said she was grateful to live in a Nation where we had that right and I heartily agreed with her . 
+6-1	She	B-ScrPart_staff	O	webanno.custom.Corefchains_	5-7	
+6-2	said	O	B-UnrelEv	_	_	
+6-3	she	B-ScrPart_staff	O	webanno.custom.Corefchains_	6-1	
+6-4	was	O	O	_	_	
+6-5	grateful	O	O	_	_	
+6-6	to	O	O	_	_	
+6-7	live	O	B-UnrelEv	_	_	
+6-8	in	O	O	_	_	
+6-9	a	O	O	_	_	
+6-10	Nation	O	O	_	_	
+6-11	where	O	O	_	_	
+6-12	we	O	O	_	_	
+6-13	had	O	B-UnrelEv	_	_	
+6-14	that	O	O	_	_	
+6-15	right	O	O	_	_	
+6-16	and	O	O	_	_	
+6-17	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-12	
+6-18	heartily	O	O	_	_	
+6-19	agreed	O	B-UnrelEv	_	_	
+6-20	with	O	O	_	_	
+6-21	her	B-ScrPart_staff	O	webanno.custom.Corefchains_	6-3	
+6-22	.	O	O	_	_	
+

@@ -1,0 +1,195 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=The first step to planting a tree is to find a suitable spot for the tree .
+1-1	The	O	O	_	_	
+1-2	first	O	O	_	_	
+1-3	step	O	O	_	_	
+1-4	to	O	O	_	_	
+1-5	planting	B-Evoking	O	_	_	
+1-6	a	I-Evoking	O	_	_	
+1-7	tree	I-Evoking	B-ScrPart_tree	_	_	
+1-8	is	O	O	_	_	
+1-9	to	O	O	_	_	
+1-10	find	B-ScrEv_find_place	O	_	_	
+1-11	a	O	O	_	_	
+1-12	suitable	O	O	_	_	
+1-13	spot	O	B-ScrPart_location_garden	_	_	
+1-14	for	O	O	_	_	
+1-15	the	O	O	_	_	
+1-16	tree	O	B-ScrPart_tree	webanno.custom.Corefchains_	1-7	
+1-17	.	O	O	_	_	
+
+#id=2
+#text=One thing many people do not think about is the amount of airspace needed once the tree actually starts growing .
+2-1	One	O	O	_	_	
+2-2	thing	O	O	_	_	
+2-3	many	O	O	_	_	
+2-4	people	O	O	_	_	
+2-5	do	O	O	_	_	
+2-6	not	O	O	_	_	
+2-7	think	B-UnrelEv	O	_	_	
+2-8	about	O	O	_	_	
+2-9	is	O	O	_	_	
+2-10	the	O	O	_	_	
+2-11	amount	O	O	_	_	
+2-12	of	O	O	_	_	
+2-13	airspace	O	O	_	_	
+2-14	needed	B-UnrelEv	O	_	_	
+2-15	once	O	O	_	_	
+2-16	the	O	O	_	_	
+2-17	tree	O	B-ScrPart_tree	webanno.custom.Corefchains_	1-16	
+2-18	actually	O	O	_	_	
+2-19	starts	O	O	_	_	
+2-20	growing	B-RelNScrEv	O	_	_	
+2-21	.	O	O	_	_	
+
+#id=3
+#text=make sure there are know power-lines or other objects that may be affected the growing tree .
+3-1	make	O	O	_	_	
+3-2	sure	O	O	_	_	
+3-3	there	O	O	_	_	
+3-4	are	B-UnrelEv	O	_	_	
+3-5	know	O	O	_	_	
+3-6	power-lines	O	O	_	_	
+3-7	or	O	O	_	_	
+3-8	other	O	O	_	_	
+3-9	objects	O	O	_	_	
+3-10	that	O	O	_	_	
+3-11	may	O	O	_	_	
+3-12	be	O	O	_	_	
+3-13	affected	B-UnrelEv	O	_	_	
+3-14	the	O	O	_	_	
+3-15	growing	B-RelNScrEv	O	_	_	
+3-16	tree	O	B-ScrPart_tree	webanno.custom.Corefchains_	2-17	
+3-17	.	O	O	_	_	
+
+#id=4
+#text=After a suitable spot is found , get a shovel and dig a whole large enough to cover the entire base off the tree with at least six inches of soil to spare on top of the trees root bulb .
+4-1	After	O	O	_	_	
+4-2	a	O	O	_	_	
+4-3	suitable	O	O	_	_	
+4-4	spot	O	B-ScrPart_location_garden	webanno.custom.Corefchains_	1-13	
+4-5	is	O	O	_	_	
+4-6	found	B-ScrEv_find_place	O	_	_	
+4-7	,	O	O	_	_	
+4-8	get	B-ScrEv_get_tools	O	_	_	
+4-9	a	O	O	_	_	
+4-10	shovel	O	B-ScrPart_gardening_tool	_	_	
+4-11	and	O	O	_	_	
+4-12	dig	B-ScrEv_dug_hole	O	_	_	
+4-13	a	O	O	_	_	
+4-14	whole	O	B-ScrPart_hole	_	_	
+4-15	large	O	O	_	_	
+4-16	enough	O	O	_	_	
+4-17	to	O	O	_	_	
+4-18	cover	B-UnrelEv	O	_	_	
+4-19	the	O	O	_	_	
+4-20	entire	O	O	_	_	
+4-21	base	O	O	_	_	
+4-22	off	O	O	_	_	
+4-23	the	O	O	_	_	
+4-24	tree	O	B-ScrPart_tree	webanno.custom.Corefchains_	3-16	
+4-25	with	O	O	_	_	
+4-26	at	O	O	_	_	
+4-27	least	O	O	_	_	
+4-28	six	O	O	_	_	
+4-29	inches	O	O	_	_	
+4-30	of	O	O	_	_	
+4-31	soil	O	B-ScrPart_dirt	_	_	
+4-32	to	O	O	_	_	
+4-33	spare	O	O	_	_	
+4-34	on	O	O	_	_	
+4-35	top	O	O	_	_	
+4-36	of	O	O	_	_	
+4-37	the	O	O	_	_	
+4-38	trees	O	B-ScrPart_tree	webanno.custom.Corefchains_	4-24	
+4-39	root	O	B-ScrPart_root	_	_	
+4-40	bulb	O	I-ScrPart_root|B-ScrPart_root	_	_	
+4-41	.	O	O	_	_	
+
+#id=5
+#text=When the hole is dug , shake some of the loose dirt from the tree 's root bulb and then place the tree into the newly created hole .
+5-1	When	O	O	_	_	
+5-2	the	O	O	_	_	
+5-3	hole	O	B-ScrPart_hole	webanno.custom.Corefchains_	4-14	
+5-4	is	O	O	_	_	
+5-5	dug	B-ScrEv_dug_hole	O	_	_	
+5-6	,	O	O	_	_	
+5-7	shake	B-RelNScrEv	O	_	_	
+5-8	some	O	O	_	_	
+5-9	of	O	O	_	_	
+5-10	the	O	O	_	_	
+5-11	loose	O	O	_	_	
+5-12	dirt	O	B-ScrPart_dirt	_	_	
+5-13	from	O	O	_	_	
+5-14	the	O	O	_	_	
+5-15	tree	O	B-ScrPart_tree	webanno.custom.Corefchains_	4-38	
+5-16	's	O	O	_	_	
+5-17	root	O	B-ScrPart_root	_	_	
+5-18	bulb	O	I-ScrPart_root|B-ScrPart_root	webanno.custom.Corefchains_	4-40	
+5-19	and	O	O	_	_	
+5-20	then	O	O	_	_	
+5-21	place	B-ScrEv_place_root	O	_	_	
+5-22	the	O	O	_	_	
+5-23	tree	O	B-ScrPart_tree	webanno.custom.Corefchains_	5-15	
+5-24	into	O	O	_	_	
+5-25	the	O	O	_	_	
+5-26	newly	O	O	_	_	
+5-27	created	B-ScrEv_dug_hole	O	_	_	
+5-28	hole	O	B-ScrPart_hole	webanno.custom.Corefchains_	5-3	
+5-29	.	O	O	_	_	
+
+#id=6
+#text=Pack the area around the hole and tree bulb with some of the dirt that was excavated from the hole .
+6-1	Pack	B-ScrEv_refill_hole	O	_	_	
+6-2	the	O	O	_	_	
+6-3	area	O	B-ScrPart_location_garden	_	_	
+6-4	around	O	O	_	_	
+6-5	the	O	O	_	_	
+6-6	hole	O	B-ScrPart_hole	webanno.custom.Corefchains_	5-28	
+6-7	and	O	O	_	_	
+6-8	tree	O	B-ScrPart_root	_	_	
+6-9	bulb	O	I-ScrPart_root|B-ScrPart_root	webanno.custom.Corefchains_	5-18	
+6-10	with	O	O	_	_	
+6-11	some	O	O	_	_	
+6-12	of	O	O	_	_	
+6-13	the	O	O	_	_	
+6-14	dirt	O	B-ScrPart_dirt	webanno.custom.Corefchains_	4-31	
+6-15	that	O	O	_	_	
+6-16	was	O	O	_	_	
+6-17	excavated	B-ScrEv_dug_hole	O	_	_	
+6-18	from	O	O	_	_	
+6-19	the	O	O	_	_	
+6-20	hole	O	B-ScrPart_hole	webanno.custom.Corefchains_	6-6	
+6-21	.	O	O	_	_	
+
+#id=7
+#text=Water the hole , the use the shovel to pat the area around the tree down .
+7-1	Water	B-ScrEv_water	O	_	_	
+7-2	the	O	O	_	_	
+7-3	hole	O	B-ScrPart_hole	webanno.custom.Corefchains_	6-20	
+7-4	,	O	O	_	_	
+7-5	the	O	O	_	_	
+7-6	use	B-UnrelEv	O	_	_	
+7-7	the	O	O	_	_	
+7-8	shovel	O	B-ScrPart_gardening_tool	webanno.custom.Corefchains_	4-10	
+7-9	to	O	O	_	_	
+7-10	pat	B-ScrEv_tamp_dirt	O	_	_	
+7-11	the	O	O	_	_	
+7-12	area	O	B-ScrPart_location_garden	webanno.custom.Corefchains_	6-3	
+7-13	around	O	O	_	_	
+7-14	the	O	O	_	_	
+7-15	tree	O	B-ScrPart_tree	webanno.custom.Corefchains_	5-23	
+7-16	down	O	O	_	_	
+7-17	.	O	O	_	_	
+
+#id=8
+#text=Water the area one more time . 
+8-1	Water	B-ScrEv_water	O	_	_	
+8-2	the	O	O	_	_	
+8-3	area	O	B-ScrPart_location_garden	webanno.custom.Corefchains_	7-12	
+8-4	one	O	O	_	_	
+8-5	more	O	O	_	_	
+8-6	time	O	O	_	_	
+8-7	.	O	O	_	_	
+

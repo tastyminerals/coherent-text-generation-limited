@@ -1,0 +1,212 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I was about to go for a bicycle ride , but when I went to the garage to get my bike I realized the tire was completely flat .
+1-1	I	B-ScrPart_rider	O	_	_	
+1-2	was	O	B-UnrelEv	_	_	
+1-3	about	O	O	_	_	
+1-4	to	O	O	_	_	
+1-5	go	O	B-ScrEv_ride_bike	_	_	
+1-6	for	O	O	_	_	
+1-7	a	O	O	_	_	
+1-8	bicycle	B-ScrPart_ride	O	_	_	
+1-9	ride	I-ScrPart_ride|B-ScrPart_ride	O	_	_	
+1-10	,	O	O	_	_	
+1-11	but	O	O	_	_	
+1-12	when	O	O	_	_	
+1-13	I	B-ScrPart_rider	O	_	_	
+1-14	went	O	B-RelNScrEv	_	_	
+1-15	to	O	O	_	_	
+1-16	the	O	O	_	_	
+1-17	garage	B-ScrPart_location_repair	O	_	_	
+1-18	to	O	O	_	_	
+1-19	get	O	B-RelNScrEv	_	_	
+1-20	my	B-ScrPart_rider	O	_	_	
+1-21	bike	B-ScrPart_bicycle	O	_	_	
+1-22	I	B-ScrPart_rider	O	_	_	
+1-23	realized	O	B-ScrEv_notice_problem	_	_	
+1-24	the	O	O	_	_	
+1-25	tire	B-ScrPart_tire	O	_	_	
+1-26	was	O	B-Evoking	_	_	
+1-27	completely	O	I-Evoking	_	_	
+1-28	flat	O	I-Evoking	_	_	
+1-29	.	O	O	_	_	
+
+#id=2
+#text=Luckily I was prepared for just such an event .
+2-1	Luckily	O	O	_	_	
+2-2	I	B-ScrPart_rider	O	_	_	
+2-3	was	O	O	_	_	
+2-4	prepared	O	B-RelNScrEv	_	_	
+2-5	for	O	O	_	_	
+2-6	just	O	O	_	_	
+2-7	such	O	O	_	_	
+2-8	an	O	O	_	_	
+2-9	event	B-NPart	O	_	_	
+2-10	.	O	O	_	_	
+
+#id=3
+#text=I went to a shelf and found my bicycle repair kit .
+3-1	I	B-ScrPart_rider	O	_	_	
+3-2	went	O	B-RelNScrEv	_	_	
+3-3	to	O	O	_	_	
+3-4	a	O	O	_	_	
+3-5	shelf	B-NPart	O	_	_	
+3-6	and	O	O	_	_	
+3-7	found	O	B-ScrEv_get_tools	_	_	
+3-8	my	B-ScrPart_rider	O	_	_	
+3-9	bicycle	B-ScrPart_tool	O	_	_	
+3-10	repair	I-ScrPart_tool	O	_	_	
+3-11	kit	I-ScrPart_tool|B-ScrPart_tool	O	_	_	
+3-12	.	O	O	_	_	
+
+#id=4
+#text=Then I took a close look at the bicycle tire .
+4-1	Then	O	O	_	_	
+4-2	I	B-ScrPart_rider	O	_	_	
+4-3	took	O	B-ScrEv_examine_tire	_	_	
+4-4	a	O	O	_	_	
+4-5	close	O	O	_	_	
+4-6	look	B-SuppVComp	O	_	_	
+4-7	at	O	O	_	_	
+4-8	the	O	O	_	_	
+4-9	bicycle	B-ScrPart_tire	O	_	_	
+4-10	tire	I-ScrPart_tire|B-ScrPart_tire	O	_	_	
+4-11	.	O	O	_	_	
+
+#id=5
+#text=If I could n't find the leak , I could always fill a tub with water , put the tire under the water and see where the bubbles come out .
+5-1	If	O	O	_	_	
+5-2	I	B-ScrPart_rider	O	_	_	
+5-3	could	O	O	_	_	
+5-4	n't	O	O	_	_	
+5-5	find	O	B-ScrEv_examine_tire	_	_	
+5-6	the	O	O	_	_	
+5-7	leak	B-ScrPart_damage	O	_	_	
+5-8	,	O	O	_	_	
+5-9	I	B-ScrPart_rider	O	_	_	
+5-10	could	O	O	_	_	
+5-11	always	O	O	_	_	
+5-12	fill	O	B-RelNScrEv	_	_	
+5-13	a	O	O	_	_	
+5-14	tub	B-ScrPart_tool	O	_	_	
+5-15	with	O	O	_	_	
+5-16	water	B-NPart	O	_	_	
+5-17	,	O	O	_	_	
+5-18	put	O	B-RelNScrEv	_	_	
+5-19	the	O	O	_	_	
+5-20	tire	B-ScrPart_tire	O	_	_	
+5-21	under	O	O	_	_	
+5-22	the	O	O	_	_	
+5-23	water	B-NPart	O	_	_	
+5-24	and	O	O	_	_	
+5-25	see	O	B-ScrEv_examine_tire	_	_	
+5-26	where	O	O	_	_	
+5-27	the	O	O	_	_	
+5-28	bubbles	B-NPart	O	_	_	
+5-29	come	O	B-RelNScrEv	_	_	
+5-30	out	O	I-RelNScrEv	_	_	
+5-31	.	O	O	_	_	
+
+#id=6
+#text=Luckily the leak was obvious .
+6-1	Luckily	O	O	_	_	
+6-2	the	O	O	_	_	
+6-3	leak	B-ScrPart_damage	O	webanno.custom.Corefchains_	5-7	
+6-4	was	O	B-UnrelEv	_	_	
+6-5	obvious	O	O	_	_	
+6-6	.	O	O	_	_	
+
+#id=7
+#text=I applied some adhesive from the kit and put on a rubber patch .
+7-1	I	B-ScrPart_rider	O	_	_	
+7-2	applied	O	B-ScrEv_put_patch/seal	_	_	
+7-3	some	O	O	_	_	
+7-4	adhesive	B-ScrPart_tool	O	_	_	
+7-5	from	O	O	_	_	
+7-6	the	O	O	_	_	
+7-7	kit	B-ScrPart_tool	O	_	_	
+7-8	and	O	O	_	_	
+7-9	put	O	B-ScrEv_put_patch/seal	_	_	
+7-10	on	O	I-ScrEv_put_patch/seal	_	_	
+7-11	a	O	O	_	_	
+7-12	rubber	B-ScrPart_tool	O	_	_	
+7-13	patch	I-ScrPart_tool|B-ScrPart_tool	O	_	_	
+7-14	.	O	O	_	_	
+
+#id=8
+#text=Then I got down my bicycle pump .
+8-1	Then	O	O	_	_	
+8-2	I	B-ScrPart_rider	O	_	_	
+8-3	got	O	B-ScrEv_get_tools	_	_	
+8-4	down	O	I-ScrEv_get_tools	_	_	
+8-5	my	B-ScrPart_rider	O	_	_	
+8-6	bicycle	B-ScrPart_tool	O	_	_	
+8-7	pump	I-ScrPart_tool|B-ScrPart_tool	O	_	_	
+8-8	.	O	O	_	_	
+
+#id=9
+#text=I hooked the hose up to the nipple on the tire and then pumped up and down vigorously for a few minutes .
+9-1	I	B-ScrPart_rider	O	_	_	
+9-2	hooked	O	B-ScrEv_pull_air_pin	_	_	
+9-3	the	O	O	_	_	
+9-4	hose	B-ScrPart_tool	O	_	_	
+9-5	up	O	O	_	_	
+9-6	to	O	O	_	_	
+9-7	the	O	O	_	_	
+9-8	nipple	B-ScrPart_bicycle_small_detail	O	_	_	
+9-9	on	O	O	_	_	
+9-10	the	O	O	_	_	
+9-11	tire	B-ScrPart_tire	O	_	_	
+9-12	and	O	O	_	_	
+9-13	then	O	O	_	_	
+9-14	pumped	O	B-ScrEv_refill_tire_air	_	_	
+9-15	up	O	O	_	_	
+9-16	and	O	O	_	_	
+9-17	down	O	O	_	_	
+9-18	vigorously	O	O	_	_	
+9-19	for	O	O	_	_	
+9-20	a	O	O	_	_	
+9-21	few	O	O	_	_	
+9-22	minutes	B-NPart	O	_	_	
+9-23	.	O	O	_	_	
+
+#id=10
+#text=I felt the tire .
+10-1	I	B-ScrPart_rider	O	_	_	
+10-2	felt	O	B-ScrEv_check_new_tire	_	_	
+10-3	the	O	O	_	_	
+10-4	tire	B-ScrPart_tire	O	_	_	
+10-5	.	O	O	_	_	
+
+#id=11
+#text=It was nice and firm .
+11-1	It	B-ScrPart_tire	O	_	_	
+11-2	was	O	B-UnrelEv	_	_	
+11-3	nice	O	O	_	_	
+11-4	and	O	O	_	_	
+11-5	firm	O	O	_	_	
+11-6	.	O	O	_	_	
+
+#id=12
+#text=Success !
+12-1	Success	B-NPart	O	_	_	
+12-2	!	O	O	_	_	
+
+#id=13
+#text=I put away the pump and kit and hopped on for my bike ride . 
+13-1	I	B-ScrPart_rider	O	_	_	
+13-2	put	O	B-ScrEv_other	_	_	
+13-3	away	O	I-ScrEv_other	_	_	
+13-4	the	O	O	_	_	
+13-5	pump	B-ScrPart_tool	O	_	_	
+13-6	and	O	O	_	_	
+13-7	kit	B-ScrPart_tool	O	_	_	
+13-8	and	O	O	_	_	
+13-9	hopped	O	B-ScrEv_ride_bike	_	_	
+13-10	on	O	I-ScrEv_ride_bike	_	_	
+13-11	for	O	O	_	_	
+13-12	my	B-ScrPart_rider	O	_	_	
+13-13	bike	B-ScrPart_ride	O	_	_	
+13-14	ride	I-ScrPart_ride|B-ScrPart_ride	O	webanno.custom.Corefchains_	1-9	
+13-15	.	O	O	_	_	
+

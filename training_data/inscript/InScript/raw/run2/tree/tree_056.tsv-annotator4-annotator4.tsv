@@ -1,0 +1,339 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=When I was a child my elementary school got a grant .
+1-1	When	O	O	
+1-2	I	B-NPart	O	
+1-3	was	O	B-UnrelEv	
+1-4	a	O	O	
+1-5	child	B-NPart	O	
+1-6	my	B-NPart	O	
+1-7	elementary	O	O	
+1-8	school	B-NPart	O	
+1-9	got	O	B-UnrelEv	
+1-10	a	O	O	
+1-11	grant	B-NPart	O	
+1-12	.	O	O	
+
+#id=2
+#text=-LRB- Actually I think it may have been a grant given to the entire school district -RRB- .
+2-1	-LRB-	O	O	
+2-2	Actually	O	O	
+2-3	I	B-NPart	O	
+2-4	think	O	B-UnrelEv	
+2-5	it	B-NPart	O	
+2-6	may	O	O	
+2-7	have	O	O	
+2-8	been	O	B-UnrelEv	
+2-9	a	O	O	
+2-10	grant	B-NPart	O	
+2-11	given	O	B-UnrelEv	
+2-12	to	O	O	
+2-13	the	O	O	
+2-14	entire	O	O	
+2-15	school	B-NPart	O	
+2-16	district	I-NPart|B-NPart	O	
+2-17	-RRB-	O	O	
+2-18	.	O	O	
+
+#id=3
+#text=The grant was for putting in new shade trees at the school .
+3-1	The	O	O	
+3-2	grant	B-NPart	O	
+3-3	was	O	B-UnrelEv	
+3-4	for	O	O	
+3-5	putting	O	B-Evoking	
+3-6	in	O	I-Evoking	
+3-7	new	O	I-Evoking	
+3-8	shade	B-ScrPart_tree	I-Evoking	
+3-9	trees	I-ScrPart_tree|B-ScrPart_tree	I-Evoking	
+3-10	at	O	O	
+3-11	the	O	O	
+3-12	school	B-NPart	O	
+3-13	.	O	O	
+
+#id=4
+#text=Of course I was in fourth grade , so I was never really able to benefit from the new tree , as it probably took five to 8 years to produce any real shade .
+4-1	Of	O	O	
+4-2	course	O	O	
+4-3	I	B-NPart	O	
+4-4	was	O	B-UnrelEv	
+4-5	in	O	O	
+4-6	fourth	O	O	
+4-7	grade	B-NPart	O	
+4-8	,	O	O	
+4-9	so	O	O	
+4-10	I	B-NPart	O	
+4-11	was	O	O	
+4-12	never	O	O	
+4-13	really	O	O	
+4-14	able	O	B-UnrelEv	
+4-15	to	O	O	
+4-16	benefit	O	B-UnrelEv	
+4-17	from	O	O	
+4-18	the	O	O	
+4-19	new	O	O	
+4-20	tree	B-ScrPart_tree	O	
+4-21	,	O	O	
+4-22	as	O	O	
+4-23	it	B-NPart	O	
+4-24	probably	O	O	
+4-25	took	O	B-UnrelEv	
+4-26	five	O	O	
+4-27	to	O	O	
+4-28	8	O	O	
+4-29	years	B-ScrPart_time	O	
+4-30	to	O	O	
+4-31	produce	O	B-UnrelEv	
+4-32	any	O	O	
+4-33	real	O	O	
+4-34	shade	B-NPart	O	
+4-35	.	O	O	
+
+#id=5
+#text=The school made a big deal about the new trees , I think there were 5 of them .
+5-1	The	O	O	
+5-2	school	B-NPart	O	
+5-3	made	O	B-UnrelEv	
+5-4	a	O	O	
+5-5	big	O	O	
+5-6	deal	B-No_label	O	
+5-7	about	O	O	
+5-8	the	O	O	
+5-9	new	O	O	
+5-10	trees	B-ScrPart_tree	O	
+5-11	,	O	O	
+5-12	I	B-NPart	O	
+5-13	think	O	O	
+5-14	there	O	O	
+5-15	were	O	B-UnrelEv	
+5-16	5	O	O	
+5-17	of	O	O	
+5-18	them	B-ScrPart_tree	O	
+5-19	.	O	O	
+
+#id=6
+#text=The principal -LRB- and probably many other adults -RRB- met to decide where to put the trees .
+6-1	The	O	O	
+6-2	principal	B-NPart	O	
+6-3	-LRB-	O	O	
+6-4	and	O	O	
+6-5	probably	O	O	
+6-6	many	O	O	
+6-7	other	O	O	
+6-8	adults	B-NPart	O	
+6-9	-RRB-	O	O	
+6-10	met	O	B-UnrelEv	
+6-11	to	O	O	
+6-12	decide	O	B-ScrEv_find_place	
+6-13	where	O	O	
+6-14	to	O	O	
+6-15	put	O	B-Evoking	
+6-16	the	O	I-Evoking	
+6-17	trees	B-ScrPart_tree	I-Evoking	
+6-18	.	O	O	
+
+#id=7
+#text=Then there was a contest to see which classes got to plant them .
+7-1	Then	O	O	
+7-2	there	O	O	
+7-3	was	O	B-UnrelEv	
+7-4	a	O	O	
+7-5	contest	B-NPart	O	
+7-6	to	O	O	
+7-7	see	O	B-UnrelEv	
+7-8	which	O	O	
+7-9	classes	B-ScrPart_gardener	O	
+7-10	got	O	B-UnrelEv	
+7-11	to	O	O	
+7-12	plant	O	B-Evoking	
+7-13	them	B-ScrPart_tree	I-Evoking	
+7-14	.	O	O	
+
+#id=8
+#text=My class ` won ' the chance and all of us in the class got to take a scoop of dirt out , it was of course a mess .
+8-1	My	B-NPart	O	
+8-2	class	B-ScrPart_gardener	O	
+8-3	`	O	O	
+8-4	won	O	B-UnrelEv	
+8-5	'	O	O	
+8-6	the	O	O	
+8-7	chance	B-NPart	O	
+8-8	and	O	O	
+8-9	all	O	O	
+8-10	of	O	O	
+8-11	us	B-ScrPart_gardener	O	
+8-12	in	O	O	
+8-13	the	O	O	
+8-14	class	B-NPart	O	
+8-15	got	O	B-UnrelEv	
+8-16	to	O	O	
+8-17	take	O	B-ScrEv_dug_hole	
+8-18	a	O	O	
+8-19	scoop	B-Head_of_Partitive	O	
+8-20	of	O	O	
+8-21	dirt	B-ScrPart_dirt	O	
+8-22	out	O	O	
+8-23	,	O	O	
+8-24	it	B-No_label	O	
+8-25	was	O	B-UnrelEv	
+8-26	of	O	O	
+8-27	course	O	O	
+8-28	a	O	O	
+8-29	mess	B-NPart	O	
+8-30	.	O	O	
+
+#id=9
+#text=Then a landscaper came , quickly fixed the hole , set the tree in and let all of the kids who wanted to put the dirt back around the tree by hand .
+9-1	Then	O	O	
+9-2	a	O	O	
+9-3	landscaper	B-ScrPart_gardener	O	
+9-4	came	O	B-RelNScrEv	
+9-5	,	O	O	
+9-6	quickly	O	O	
+9-7	fixed	O	B-ScrEv_dug_hole	
+9-8	the	O	O	
+9-9	hole	B-ScrPart_hole	O	
+9-10	,	O	O	
+9-11	set	O	B-ScrEv_place_root	
+9-12	the	O	O	
+9-13	tree	B-ScrPart_tree	O	
+9-14	in	O	O	
+9-15	and	O	O	
+9-16	let	O	B-UnrelEv	
+9-17	all	O	O	
+9-18	of	O	O	
+9-19	the	O	O	
+9-20	kids	B-ScrPart_gardener	O	
+9-21	who	B-ScrPart_gardener	O	
+9-22	wanted	O	B-UnrelEv	
+9-23	to	O	O	
+9-24	put	O	B-ScrEv_refill_hole	
+9-25	the	O	O	
+9-26	dirt	B-ScrPart_dirt	O	
+9-27	back	O	O	
+9-28	around	O	O	
+9-29	the	O	O	
+9-30	tree	B-ScrPart_tree	O	
+9-31	by	O	O	
+9-32	hand	B-NPart	O	
+9-33	.	O	O	
+
+#id=10
+#text=It was messy work and he constantly told us not to push down on the dirt .
+10-1	It	B-No_label	O	
+10-2	was	O	B-UnrelEv	
+10-3	messy	O	O	
+10-4	work	B-NPart	O	
+10-5	and	O	O	
+10-6	he	B-ScrPart_gardener	O	
+10-7	constantly	O	O	
+10-8	told	O	B-UnrelEv	
+10-9	us	B-ScrPart_gardener	O	
+10-10	not	O	O	
+10-11	to	O	O	
+10-12	push	O	B-ScrEv_damp_dirt	
+10-13	down	O	I-ScrEv_damp_dirt	
+10-14	on	O	O	
+10-15	the	O	O	
+10-16	dirt	B-ScrPart_dirt	O	
+10-17	.	O	O	
+
+#id=11
+#text=Then he put in 3 stakes to hold the tree up and we watered it .
+11-1	Then	O	O	
+11-2	he	B-ScrPart_gardener	O	
+11-3	put	O	B-ScrEv_tie_stakes_up	
+11-4	in	O	I-ScrEv_tie_stakes_up	
+11-5	3	O	O	
+11-6	stakes	B-ScrPart_stake	O	
+11-7	to	O	O	
+11-8	hold	O	B-RelNScrEv	
+11-9	the	O	O	
+11-10	tree	B-ScrPart_tree	O	
+11-11	up	O	O	
+11-12	and	O	O	
+11-13	we	B-ScrPart_gardener	O	
+11-14	watered	O	B-ScrEv_water	
+11-15	it	B-ScrPart_tree	O	
+11-16	.	O	O	
+
+#id=12
+#text=I being a child , promptly forgot the tree and did not think about it again for years , but when I went back to the school as a teenager -LRB- to play on the swings -RRB- I remembered and was surprised how big it was .
+12-1	I	B-NPart	O	
+12-2	being	O	B-UnrelEv	
+12-3	a	O	O	
+12-4	child	B-NPart	O	
+12-5	,	O	O	
+12-6	promptly	O	O	
+12-7	forgot	O	B-UnrelEv	
+12-8	the	O	O	
+12-9	tree	B-ScrPart_tree	O	
+12-10	and	O	O	
+12-11	did	O	O	
+12-12	not	O	O	
+12-13	think	O	B-UnrelEv	
+12-14	about	O	O	
+12-15	it	B-ScrPart_tree	O	
+12-16	again	O	O	
+12-17	for	O	O	
+12-18	years	B-NPart	O	
+12-19	,	O	O	
+12-20	but	O	O	
+12-21	when	O	O	
+12-22	I	B-NPart	O	
+12-23	went	O	B-UnrelEv	
+12-24	back	O	I-UnrelEv	
+12-25	to	O	O	
+12-26	the	O	O	
+12-27	school	B-NPart	O	
+12-28	as	O	O	
+12-29	a	O	O	
+12-30	teenager	B-NPart	O	
+12-31	-LRB-	O	O	
+12-32	to	O	O	
+12-33	play	O	B-UnrelEv	
+12-34	on	O	O	
+12-35	the	O	O	
+12-36	swings	B-NPart	O	
+12-37	-RRB-	O	O	
+12-38	I	B-NPart	O	
+12-39	remembered	O	B-UnrelEv	
+12-40	and	O	O	
+12-41	was	O	O	
+12-42	surprised	O	B-UnrelEv	
+12-43	how	O	O	
+12-44	big	O	O	
+12-45	it	B-ScrPart_tree	O	
+12-46	was	O	B-UnrelEv	
+12-47	.	O	O	
+
+#id=13
+#text=Because the tree was out in a large open play area it was great that it provided a lot of shade for the children at recess . 
+13-1	Because	O	O	
+13-2	the	O	O	
+13-3	tree	B-ScrPart_tree	O	
+13-4	was	O	B-UnrelEv	
+13-5	out	O	O	
+13-6	in	O	O	
+13-7	a	O	O	
+13-8	large	O	O	
+13-9	open	O	O	
+13-10	play	B-NPart	O	
+13-11	area	I-NPart|B-NPart	O	
+13-12	it	B-No_label	O	
+13-13	was	O	B-UnrelEv	
+13-14	great	O	O	
+13-15	that	O	O	
+13-16	it	B-ScrPart_tree	O	
+13-17	provided	O	B-UnrelEv	
+13-18	a	O	O	
+13-19	lot	B-Head_of_Partitive	O	
+13-20	of	O	O	
+13-21	shade	B-NPart	O	
+13-22	for	O	O	
+13-23	the	O	O	
+13-24	children	B-NPart	O	
+13-25	at	O	O	
+13-26	recess	B-NPart	O	
+13-27	.	O	O	
+

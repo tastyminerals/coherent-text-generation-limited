@@ -1,0 +1,216 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I recently got a haircut .
+1-1	I	B-ScrPart_customer	O	_	_	
+1-2	recently	O	O	_	_	
+1-3	got	O	B-Evoking	_	_	
+1-4	a	O	I-Evoking	_	_	
+1-5	haircut	B-ScrPart_haircut	I-Evoking	_	_	
+1-6	.	O	O	_	_	
+
+#id=2
+#text=I was n't happy with my previous haircut , so I wanted to try someplace new .
+2-1	I	B-ScrPart_customer	O	_	_	
+2-2	was	O	B-ScrEv_customer_opinion	_	_	
+2-3	n't	O	O	_	_	
+2-4	happy	O	O	_	_	
+2-5	with	O	O	_	_	
+2-6	my	B-ScrPart_customer	O	_	_	
+2-7	previous	O	O	_	_	
+2-8	haircut	B-ScrPart_haircut	O	webanno.custom.Corefchains_	1-5	
+2-9	,	O	O	_	_	
+2-10	so	O	O	_	_	
+2-11	I	B-ScrPart_customer	O	_	_	
+2-12	wanted	O	B-UnrelEv	_	_	
+2-13	to	O	O	_	_	
+2-14	try	O	B-UnrelEv	_	_	
+2-15	someplace	B-ScrPart_salon	O	_	_	
+2-16	new	O	O	_	_	
+2-17	.	O	O	_	_	
+
+#id=3
+#text=I searched online for barbers and salons that were highly rated in the area .
+3-1	I	B-ScrPart_customer	O	_	_	
+3-2	searched	O	B-RelNScrEv	_	_	
+3-3	online	O	O	_	_	
+3-4	for	O	O	_	_	
+3-5	barbers	B-ScrPart_salon	O	_	_	
+3-6	and	O	O	_	_	
+3-7	salons	B-ScrPart_salon	O	_	_	
+3-8	that	B-ScrPart_salon	O	_	_	
+3-9	were	O	O	_	_	
+3-10	highly	O	O	_	_	
+3-11	rated	O	B-UnrelEv	_	_	
+3-12	in	O	O	_	_	
+3-13	the	O	O	_	_	
+3-14	area	B-NPart	O	_	_	
+3-15	.	O	O	_	_	
+
+#id=4
+#text=I finally decided on one that was fairly close by , highly reviewed , and had fair prices .
+4-1	I	B-ScrPart_customer	O	_	_	
+4-2	finally	O	O	_	_	
+4-3	decided	O	B-RelNScrEv	_	_	
+4-4	on	O	I-RelNScrEv	_	_	
+4-5	one	B-ScrPart_salon	O	_	_	
+4-6	that	B-ScrPart_salon	O	_	_	
+4-7	was	O	B-UnrelEv	_	_	
+4-8	fairly	O	O	_	_	
+4-9	close	O	O	_	_	
+4-10	by	O	O	_	_	
+4-11	,	O	O	_	_	
+4-12	highly	O	O	_	_	
+4-13	reviewed	O	B-UnrelEv	_	_	
+4-14	,	O	O	_	_	
+4-15	and	O	O	_	_	
+4-16	had	O	B-UnrelEv	_	_	
+4-17	fair	O	O	_	_	
+4-18	prices	B-ScrPart_other	O	_	_	
+4-19	.	O	O	_	_	
+
+#id=5
+#text=I called the salon and made an appointment for the next day .
+5-1	I	B-ScrPart_customer	O	_	_	
+5-2	called	O	B-ScrEv_make_appointment	_	_	
+5-3	the	O	O	_	_	
+5-4	salon	B-ScrPart_salon	O	_	_	
+5-5	and	O	O	_	_	
+5-6	made	O	B-ScrEv_make_appointment	_	_	
+5-7	an	O	O	_	_	
+5-8	appointment	B-ScrPart_appointment	O	_	_	
+5-9	for	O	O	_	_	
+5-10	the	O	O	_	_	
+5-11	next	O	O	_	_	
+5-12	day	B-ScrPart_time/date	O	_	_	
+5-13	.	O	O	_	_	
+
+#id=6
+#text=Upon arriving , I was greeted by a very nice hair stylist .
+6-1	Upon	O	O	_	_	
+6-2	arriving	O	B-ScrEv_enter	_	_	
+6-3	,	O	O	_	_	
+6-4	I	B-ScrPart_customer	O	_	_	
+6-5	was	O	O	_	_	
+6-6	greeted	O	B-ScrEv_small_talk	_	_	
+6-7	by	O	O	_	_	
+6-8	a	O	O	_	_	
+6-9	very	O	O	_	_	
+6-10	nice	O	O	_	_	
+6-11	hair	B-ScrPart_hairdresser	O	_	_	
+6-12	stylist	I-ScrPart_hairdresser|B-ScrPart_hairdresser	O	_	_	
+6-13	.	O	O	_	_	
+
+#id=7
+#text=She had me sit in the chair and asked me how I wanted my hair cut .
+7-1	She	B-ScrPart_hairdresser	O	_	_	
+7-2	had	O	O	_	_	
+7-3	me	B-ScrPart_customer	O	_	_	
+7-4	sit	O	B-ScrEv_sit_down	_	_	
+7-5	in	O	O	_	_	
+7-6	the	O	O	_	_	
+7-7	chair	B-ScrPart_chair	O	_	_	
+7-8	and	O	O	_	_	
+7-9	asked	O	B-ScrEv_talk_haircut	_	_	
+7-10	me	B-ScrPart_customer	O	_	_	
+7-11	how	O	O	_	_	
+7-12	I	B-ScrPart_customer	O	_	_	
+7-13	wanted	O	B-ScrEv_talk_haircut	_	_	
+7-14	my	B-ScrPart_customer	O	_	_	
+7-15	hair	B-ScrPart_hair	O	_	_	
+7-16	cut	O	B-ScrEv_cut	_	_	
+7-17	.	O	O	_	_	
+
+#id=8
+#text=I told her exactly what I wanted and she understood completely .
+8-1	I	B-ScrPart_customer	O	_	_	
+8-2	told	O	B-ScrEv_talk_haircut	_	_	
+8-3	her	B-ScrPart_hairdresser	O	_	_	
+8-4	exactly	O	O	_	_	
+8-5	what	B-NPart	O	_	_	
+8-6	I	B-ScrPart_customer	O	_	_	
+8-7	wanted	O	B-ScrEv_talk_haircut	_	_	
+8-8	and	O	O	_	_	
+8-9	she	B-ScrPart_hairdresser	O	_	_	
+8-10	understood	O	B-ScrEv_talk_haircut	_	_	
+8-11	completely	O	O	_	_	
+8-12	.	O	O	_	_	
+
+#id=9
+#text=She went to work immediately , we made small talk .
+9-1	She	B-ScrPart_hairdresser	O	_	_	
+9-2	went	O	B-RelNScrEv	_	_	
+9-3	to	O	O	_	_	
+9-4	work	B-NPart	O	_	_	
+9-5	immediately	O	O	_	_	
+9-6	,	O	O	_	_	
+9-7	we	B-ScrPart_hairdresser_customer	O	_	_	
+9-8	made	O	B-ScrEv_small_talk	_	_	
+9-9	small	B-ScrPart_entertainment	O	_	_	
+9-10	talk	I-ScrPart_entertainment	O	_	_	
+9-11	.	O	O	_	_	
+
+#id=10
+#text=She was very friendly .
+10-1	She	B-ScrPart_hairdresser	O	_	_	
+10-2	was	O	B-UnrelEv	_	_	
+10-3	very	O	O	_	_	
+10-4	friendly	O	O	_	_	
+10-5	.	O	O	_	_	
+
+#id=11
+#text=After she cut my hair , she washed it .
+11-1	After	O	O	_	_	
+11-2	she	B-ScrPart_hairdresser	O	_	_	
+11-3	cut	O	B-ScrEv_cut	_	_	
+11-4	my	B-ScrPart_customer	O	_	_	
+11-5	hair	B-ScrPart_hair	O	_	_	
+11-6	,	O	O	_	_	
+11-7	she	B-ScrPart_hairdresser	O	_	_	
+11-8	washed	O	B-ScrEv_wash	_	_	
+11-9	it	B-ScrPart_hair	O	_	_	
+11-10	.	O	O	_	_	
+
+#id=12
+#text=After drying my hair , she added a little wax to style the hair .
+12-1	After	O	O	_	_	
+12-2	drying	O	B-ScrEv_dry	_	_	
+12-3	my	B-ScrPart_customer	O	_	_	
+12-4	hair	B-ScrPart_hair	O	_	_	
+12-5	,	O	O	_	_	
+12-6	she	B-ScrPart_hairdresser	O	_	_	
+12-7	added	O	B-ScrEv_make_hair_style	_	_	
+12-8	a	O	O	_	_	
+12-9	little	O	O	_	_	
+12-10	wax	B-ScrPart_hair_styling/treatment	O	_	_	
+12-11	to	O	O	_	_	
+12-12	style	O	B-ScrEv_make_hair_style	_	_	
+12-13	the	O	O	_	_	
+12-14	hair	B-ScrPart_hair	O	_	_	
+12-15	.	O	O	_	_	
+
+#id=13
+#text=I was very happy with the haircut .
+13-1	I	B-ScrPart_customer	O	_	_	
+13-2	was	O	B-ScrEv_customer_opinion	_	_	
+13-3	very	O	O	_	_	
+13-4	happy	O	O	_	_	
+13-5	with	O	O	_	_	
+13-6	the	O	O	_	_	
+13-7	haircut	B-ScrPart_haircut	O	webanno.custom.Corefchains_	2-8	
+13-8	.	O	O	_	_	
+
+#id=14
+#text=I then paid and gave her a tip for her service . 
+14-1	I	B-ScrPart_customer	O	_	_	
+14-2	then	O	O	_	_	
+14-3	paid	O	B-ScrEv_pay	_	_	
+14-4	and	O	O	_	_	
+14-5	gave	O	B-ScrEv_leave_tip	_	_	
+14-6	her	B-ScrPart_hairdresser	O	_	_	
+14-7	a	O	O	_	_	
+14-8	tip	B-ScrPart_tip	O	_	_	
+14-9	for	O	O	_	_	
+14-10	her	B-ScrPart_hairdresser	O	_	_	
+14-11	service	B-NPart	O	_	_	
+14-12	.	O	O	_	_	
+

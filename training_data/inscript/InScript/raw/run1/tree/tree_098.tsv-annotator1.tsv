@@ -1,0 +1,219 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I found a beautiful little tree at the local nursery and brought it home to plant in my garden .
+1-1	I	B-ScrPart_gardener	O	_	_	
+1-2	found	O	B-ScrEv_get_tree	_	_	
+1-3	a	O	O	_	_	
+1-4	beautiful	O	O	_	_	
+1-5	little	O	O	_	_	
+1-6	tree	B-ScrPart_tree	O	_	_	
+1-7	at	O	O	_	_	
+1-8	the	O	O	_	_	
+1-9	local	O	O	_	_	
+1-10	nursery	B-ScrPart_shop	O	_	_	
+1-11	and	O	O	_	_	
+1-12	brought	O	B-ScrEv_get_tree	_	_	
+1-13	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	1-6	
+1-14	home	B-NPart	O	_	_	
+1-15	to	O	O	_	_	
+1-16	plant	O	B-Evoking	_	_	
+1-17	in	O	O	_	_	
+1-18	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	1-1	
+1-19	garden	B-ScrPart_location_garden	O	_	_	
+1-20	.	O	O	_	_	
+
+#id=2
+#text=I had already picked the spot it was to go , a place in the middle of my yard where it could get full sun .
+2-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	1-18	
+2-2	had	O	O	_	_	
+2-3	already	O	O	_	_	
+2-4	picked	O	B-ScrEv_find_place	_	_	
+2-5	the	O	O	_	_	
+2-6	spot	B-ScrPart_location_garden	O	_	_	
+2-7	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	1-13	
+2-8	was	O	O	_	_	
+2-9	to	O	O	_	_	
+2-10	go	O	B-ScrEv_find_place	_	_	
+2-11	,	O	O	_	_	
+2-12	a	O	O	_	_	
+2-13	place	B-ScrPart_location_garden	O	webanno.custom.Corefchains_	2-6	
+2-14	in	O	O	_	_	
+2-15	the	O	O	_	_	
+2-16	middle	O	O	_	_	
+2-17	of	O	O	_	_	
+2-18	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	2-1	
+2-19	yard	B-ScrPart_location_garden	O	webanno.custom.Corefchains_	1-19	
+2-20	where	O	O	_	_	
+2-21	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	2-7	
+2-22	could	O	O	_	_	
+2-23	get	O	B-RelNScrEv	_	_	
+2-24	full	O	O	_	_	
+2-25	sun	B-MissScrPart	O	_	_	
+2-26	.	O	O	_	_	
+
+#id=3
+#text=After gathering the shovel and watering hose , and putting on my gardening gloves , I set to work on digging the hole .
+3-1	After	O	O	_	_	
+3-2	gathering	O	B-ScrEv_get_tools	_	_	
+3-3	the	O	O	_	_	
+3-4	shovel	B-ScrPart_gardening_tool	O	_	_	
+3-5	and	O	O	_	_	
+3-6	watering	O	O	_	_	
+3-7	hose	B-ScrPart_gardening_tool	O	_	_	
+3-8	,	O	O	_	_	
+3-9	and	O	O	_	_	
+3-10	putting	O	B-ScrEv_get_tools|B-ScrEv_get_tools	_	_	
+3-11	on	O	I-ScrEv_get_tools	_	_	
+3-12	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	2-18	
+3-13	gardening	O	O	_	_	
+3-14	gloves	B-ScrPart_gardening_tool	O	_	_	
+3-15	,	O	O	_	_	
+3-16	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	3-12	
+3-17	set	O	O	_	_	
+3-18	to	O	O	_	_	
+3-19	work	O	B-ScrEv_dug_hole	_	_	
+3-20	on	O	O	_	_	
+3-21	digging	O	B-ScrEv_dug_hole	_	_	
+3-22	the	O	O	_	_	
+3-23	hole	B-ScrPart_hole	O	_	_	
+3-24	.	O	O	_	_	
+
+#id=4
+#text=I had to make sure the hole was deep enough to fit its roots comfortably .
+4-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	3-16	
+4-2	had	O	O	_	_	
+4-3	to	O	O	_	_	
+4-4	make	O	B-UnrelEv	_	_	
+4-5	sure	O	O	_	_	
+4-6	the	O	O	_	_	
+4-7	hole	B-ScrPart_hole	O	webanno.custom.Corefchains_	3-23	
+4-8	was	O	B-UnrelEv	_	_	
+4-9	deep	O	O	_	_	
+4-10	enough	O	O	_	_	
+4-11	to	O	O	_	_	
+4-12	fit	O	B-ScrEv_place_root	_	_	
+4-13	its	O	O	_	_	
+4-14	roots	B-ScrPart_root	O	_	_	
+4-15	comfortably	O	O	_	_	
+4-16	.	O	O	_	_	
+
+#id=5
+#text=I dampened the soil in the hole with a little water .
+5-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	4-1	
+5-2	dampened	O	B-MissScrEv	_	_	
+5-3	the	O	O	_	_	
+5-4	soil	B-ScrPart_dirt	O	_	_	
+5-5	in	O	O	_	_	
+5-6	the	O	O	_	_	
+5-7	hole	B-ScrPart_hole	O	webanno.custom.Corefchains_	4-7	
+5-8	with	O	O	_	_	
+5-9	a	O	O	_	_	
+5-10	little	O	O	_	_	
+5-11	water	B-ScrPart_water	O	_	_	
+5-12	.	O	O	_	_	
+
+#id=6
+#text=Once the hole was ready , I laid the tree on its side and gently removed the pot from it .
+6-1	Once	O	O	_	_	
+6-2	the	O	O	_	_	
+6-3	hole	B-ScrPart_hole	O	webanno.custom.Corefchains_	5-7	
+6-4	was	O	B-UnrelEv	_	_	
+6-5	ready	O	O	_	_	
+6-6	,	O	O	_	_	
+6-7	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	5-1	
+6-8	laid	O	B-RelNScrEv	_	_	
+6-9	the	O	O	_	_	
+6-10	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	2-21	
+6-11	on	O	O	_	_	
+6-12	its	B-ScrPart_hole	O	webanno.custom.Corefchains_	6-3	
+6-13	side	O	O	_	_	
+6-14	and	O	O	_	_	
+6-15	gently	O	O	_	_	
+6-16	removed	O	B-ScrEv_unwrap_root	_	_	
+6-17	the	O	O	_	_	
+6-18	pot	B-ScrPart_wrapping	O	_	_	
+6-19	from	O	O	_	_	
+6-20	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	6-10	
+6-21	.	O	O	_	_	
+
+#id=7
+#text=I placed the sapling into the hole and looked to see that the base of its trunk would be level with the ground , then began scraping the soil back into the hole , over the roots .
+7-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	6-7	
+7-2	placed	O	B-ScrEv_place_root	_	_	
+7-3	the	O	O	_	_	
+7-4	sapling	B-ScrPart_tree	O	webanno.custom.Corefchains_	6-20	
+7-5	into	O	O	_	_	
+7-6	the	O	O	_	_	
+7-7	hole	B-ScrPart_hole	O	webanno.custom.Corefchains_	6-12	
+7-8	and	O	O	_	_	
+7-9	looked	O	B-UnrelEv	_	_	
+7-10	to	O	O	_	_	
+7-11	see	O	B-UnrelEv	_	_	
+7-12	that	O	O	_	_	
+7-13	the	O	O	_	_	
+7-14	base	B-MissScrPart	O	_	_	
+7-15	of	O	O	_	_	
+7-16	its	B-ScrPart_tree	O	webanno.custom.Corefchains_	7-4	
+7-17	trunk	B-MissScrPart	O	_	_	
+7-18	would	O	O	_	_	
+7-19	be	O	O	_	_	
+7-20	level	O	B-RelNScrEv	_	_	
+7-21	with	O	O	_	_	
+7-22	the	O	O	_	_	
+7-23	ground	B-MissScrPart	O	_	_	
+7-24	,	O	O	_	_	
+7-25	then	O	O	_	_	
+7-26	began	O	B-UnrelEv	_	_	
+7-27	scraping	O	B-ScrEv_refill_hole	_	_	
+7-28	the	O	O	_	_	
+7-29	soil	B-ScrPart_dirt	O	_	_	
+7-30	back	O	O	_	_	
+7-31	into	O	O	_	_	
+7-32	the	O	O	_	_	
+7-33	hole	B-ScrPart_hole	O	webanno.custom.Corefchains_	7-7	
+7-34	,	O	O	_	_	
+7-35	over	O	O	_	_	
+7-36	the	O	O	_	_	
+7-37	roots	B-ScrPart_root	O	webanno.custom.Corefchains_	4-14	
+7-38	.	O	O	_	_	
+
+#id=8
+#text=I tamped the soil down , so as to prevent any air pockets , and watered it once more .
+8-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	7-1	
+8-2	tamped	O	B-ScrEv_tamp_dirt	_	_	
+8-3	the	O	O	_	_	
+8-4	soil	B-ScrPart_dirt	O	_	_	
+8-5	down	O	O	_	_	
+8-6	,	O	O	_	_	
+8-7	so	O	O	_	_	
+8-8	as	O	O	_	_	
+8-9	to	O	O	_	_	
+8-10	prevent	O	B-RelNScrEv	_	_	
+8-11	any	O	O	_	_	
+8-12	air	B-MissScrPart	O	_	_	
+8-13	pockets	I-MissScrPart|B-MissScrPart	O	_	_	
+8-14	,	O	O	_	_	
+8-15	and	O	O	_	_	
+8-16	watered	O	B-ScrEv_water	_	_	
+8-17	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	7-16	
+8-18	once	O	O	_	_	
+8-19	more	O	O	_	_	
+8-20	.	O	O	_	_	
+
+#id=9
+#text=I think this little tree will make a wonderful addition to my yard ! 
+9-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	8-1	
+9-2	think	O	B-UnrelEv	_	_	
+9-3	this	O	O	_	_	
+9-4	little	O	O	_	_	
+9-5	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	8-17	
+9-6	will	O	O	_	_	
+9-7	make	O	B-UnrelEv	_	_	
+9-8	a	O	O	_	_	
+9-9	wonderful	O	O	_	_	
+9-10	addition	O	O	_	_	
+9-11	to	O	O	_	_	
+9-12	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	9-1	
+9-13	yard	B-ScrPart_location_garden	O	webanno.custom.Corefchains_	2-19	
+9-14	!	O	O	_	_	
+

@@ -1,0 +1,212 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I wanted to take a train trip through the countryside .
+1-1	I	B-ScrPart_passenger	O	_	_	
+1-2	wanted	O	B-UnrelEv	_	_	
+1-3	to	O	O	_	_	
+1-4	take	O	B-Evoking	_	_	
+1-5	a	O	I-Evoking	_	_	
+1-6	train	O	I-Evoking	_	_	
+1-7	trip	B-MissScrPart	I-Evoking	_	_	
+1-8	through	O	O	_	_	
+1-9	the	O	O	_	_	
+1-10	countryside	O	O	_	_	
+1-11	.	O	O	_	_	
+
+#id=2
+#text=I went to the local train station .
+2-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-1	
+2-2	went	O	B-ScrEv_get_train_station	_	_	
+2-3	to	O	O	_	_	
+2-4	the	O	O	_	_	
+2-5	local	O	O	_	_	
+2-6	train	B-ScrPart_train_station	O	_	_	
+2-7	station	I-ScrPart_train_station|B-ScrPart_train_station	O	_	_	
+2-8	.	O	O	_	_	
+
+#id=3
+#text=Once I was at the station I carefully reviewed the train schedule until I found a train that was going where I wanted to go at a convenient time .
+3-1	Once	O	O	_	_	
+3-2	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-1	
+3-3	was	O	B-ScrEv_get_train_station	_	_	
+3-4	at	O	O	_	_	
+3-5	the	O	O	_	_	
+3-6	station	B-ScrPart_train_station	O	webanno.custom.Corefchains_	2-7	
+3-7	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-2	
+3-8	carefully	O	O	_	_	
+3-9	reviewed	O	B-ScrEv_check_time-table	_	_	
+3-10	the	O	O	_	_	
+3-11	train	O	O	_	_	
+3-12	schedule	B-ScrPart_time-table	O	_	_	
+3-13	until	O	O	_	_	
+3-14	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-7	
+3-15	found	O	B-ScrEv_check_time-table	_	_	
+3-16	a	O	O	_	_	
+3-17	train	B-ScrPart_train	O	_	_	
+3-18	that	O	O	_	_	
+3-19	was	O	O	_	_	
+3-20	going	O	B-RelNScrEv	_	_	
+3-21	where	B-ScrPart_destination	O	_	_	
+3-22	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-14	
+3-23	wanted	O	B-UnrelEv	_	_	
+3-24	to	O	O	_	_	
+3-25	go	O	B-RelNScrEv	_	_	
+3-26	at	O	O	_	_	
+3-27	a	O	O	_	_	
+3-28	convenient	O	O	_	_	
+3-29	time	B-ScrPart_time_date	O	_	_	
+3-30	.	O	O	_	_	
+
+#id=4
+#text=The trip I picked happened to leave at 8 am the next day .
+4-1	The	O	O	_	_	
+4-2	trip	B-MissScrPart	O	webanno.custom.Corefchains_	1-7	
+4-3	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-22	
+4-4	picked	O	B-RelNScrEv	_	_	
+4-5	happened	O	B-UnrelEv	_	_	
+4-6	to	O	O	_	_	
+4-7	leave	O	B-ScrEv_train_departs	_	_	
+4-8	at	O	O	_	_	
+4-9	8	B-ScrPart_time_date	O	_	_	
+4-10	am	I-ScrPart_time_date	O	_	_	
+4-11	the	O	O	_	_	
+4-12	next	B-ScrPart_time_date	O	_	_	
+4-13	day	I-ScrPart_time_date|B-ScrPart_time_date	O	_	_	
+4-14	.	O	O	_	_	
+
+#id=5
+#text=I went to the ticket window and bought a round trip ticket for the train I had selected .
+5-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-3	
+5-2	went	O	B-ScrEv_get_tickets	_	_	
+5-3	to	O	O	_	_	
+5-4	the	O	O	_	_	
+5-5	ticket	B-ScrPart_ticket_office/website	O	_	_	
+5-6	window	I-ScrPart_ticket_office/website|B-ScrPart_ticket_office/website	O	_	_	
+5-7	and	O	O	_	_	
+5-8	bought	O	B-ScrEv_get_tickets	_	_	
+5-9	a	O	O	_	_	
+5-10	round	O	O	_	_	
+5-11	trip	O	O	_	_	
+5-12	ticket	B-ScrPart_card/ticket	O	_	_	
+5-13	for	O	O	_	_	
+5-14	the	O	O	_	_	
+5-15	train	B-ScrPart_train	O	webanno.custom.Corefchains_	3-17	
+5-16	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-1	
+5-17	had	O	O	_	_	
+5-18	selected	O	B-RelNScrEv	_	_	
+5-19	.	O	O	_	_	
+
+#id=6
+#text=Having purchased my tickets , I went home and I packed a light suitcase with the necessities I would need for my trip .
+6-1	Having	O	O	_	_	
+6-2	purchased	O	B-ScrEv_get_tickets	_	_	
+6-3	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-16	
+6-4	tickets	B-ScrPart_card/ticket	O	webanno.custom.Corefchains_	5-12	
+6-5	,	O	O	_	_	
+6-6	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-3	
+6-7	went	O	B-UnrelEv	_	_	
+6-8	home	B-NPart	O	_	_	
+6-9	and	O	O	_	_	
+6-10	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-6	
+6-11	packed	O	B-RelNScrEv	_	_	
+6-12	a	O	O	_	_	
+6-13	light	O	O	_	_	
+6-14	suitcase	B-ScrPart_luggage	O	_	_	
+6-15	with	O	O	_	_	
+6-16	the	O	O	_	_	
+6-17	necessities	B-ScrPart_personal_belongings	O	_	_	
+6-18	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-10	
+6-19	would	O	O	_	_	
+6-20	need	O	B-UnrelEv	_	_	
+6-21	for	O	O	_	_	
+6-22	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-18	
+6-23	trip	B-MissScrPart	O	webanno.custom.Corefchains_	4-2	
+6-24	.	O	O	_	_	
+
+#id=7
+#text=That evening I set my alarm clock extra early so I would be sure to be on time for the train .
+7-1	That	O	O	_	_	
+7-2	evening	B-ScrPart_time_date	O	_	_	
+7-3	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-22	
+7-4	set	O	B-UnrelEv	_	_	
+7-5	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-3	
+7-6	alarm	O	O	_	_	
+7-7	clock	O	O	_	_	
+7-8	extra	O	O	_	_	
+7-9	early	O	O	_	_	
+7-10	so	O	O	_	_	
+7-11	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-5	
+7-12	would	O	O	_	_	
+7-13	be	O	B-UnrelEv	_	_	
+7-14	sure	O	O	_	_	
+7-15	to	O	O	_	_	
+7-16	be	O	B-RelNScrEv	_	_	
+7-17	on	O	O	_	_	
+7-18	time	O	O	_	_	
+7-19	for	O	O	_	_	
+7-20	the	O	O	_	_	
+7-21	train	B-ScrPart_train	O	webanno.custom.Corefchains_	5-15	
+7-22	.	O	O	_	_	
+
+#id=8
+#text=I woke up the next morning thanks to my early alarm clock .
+8-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-11	
+8-2	woke	O	B-UnrelEv|B-UnrelEv	_	_	
+8-3	up	O	I-UnrelEv	_	_	
+8-4	the	O	O	_	_	
+8-5	next	O	O	_	_	
+8-6	morning	B-ScrPart_time_date	O	_	_	
+8-7	thanks	O	B-UnrelEv	_	_	
+8-8	to	O	O	_	_	
+8-9	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-1	
+8-10	early	O	O	_	_	
+8-11	alarm	O	O	_	_	
+8-12	clock	O	O	_	_	
+8-13	.	O	O	_	_	
+
+#id=9
+#text=I then showered , ate my breakfast and took my suitcase and left home for the train station .
+9-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-9	
+9-2	then	O	O	_	_	
+9-3	showered	O	B-UnrelEv	_	_	
+9-4	,	O	O	_	_	
+9-5	ate	O	O	_	_	
+9-6	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-1	
+9-7	breakfast	O	O	_	_	
+9-8	and	O	O	_	_	
+9-9	took	O	B-MissScrEv	_	_	
+9-10	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-6	
+9-11	suitcase	B-ScrPart_luggage	O	webanno.custom.Corefchains_	6-14	
+9-12	and	O	O	_	_	
+9-13	left	O	B-UnrelEv	_	_	
+9-14	home	B-NPart	O	_	_	
+9-15	for	O	O	_	_	
+9-16	the	O	O	_	_	
+9-17	train	B-ScrPart_train_station	O	_	_	
+9-18	station	I-ScrPart_train_station|B-ScrPart_train_station	O	webanno.custom.Corefchains_	3-6	
+9-19	.	O	O	_	_	
+
+#id=10
+#text=I arrived 20 minutes early which gave me plenty of time to get on the train and enjoy my trip . 
+10-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-10	
+10-2	arrived	O	B-ScrEv_get_train_station	_	_	
+10-3	20	O	O	_	_	
+10-4	minutes	B-ScrPart_time_date	O	_	_	
+10-5	early	O	O	_	_	
+10-6	which	O	O	_	_	
+10-7	gave	O	B-UnrelEv	_	_	
+10-8	me	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-1	
+10-9	plenty	O	O	_	_	
+10-10	of	O	O	_	_	
+10-11	time	B-ScrPart_time_date	O	_	_	
+10-12	to	O	O	_	_	
+10-13	get	O	B-MissScrEv|B-MissScrEv	_	_	
+10-14	on	O	I-MissScrEv	_	_	
+10-15	the	O	O	_	_	
+10-16	train	B-ScrPart_train	O	webanno.custom.Corefchains_	7-21	
+10-17	and	O	O	_	_	
+10-18	enjoy	O	B-UnrelEv	_	_	
+10-19	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-8	
+10-20	trip	B-MissScrPart	O	webanno.custom.Corefchains_	6-23	
+10-21	.	O	O	_	_	
+

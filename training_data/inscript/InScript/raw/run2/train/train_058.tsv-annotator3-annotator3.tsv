@@ -1,0 +1,222 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=Last month I visited my relatives who live 500 miles away .
+1-1	Last	O	O	
+1-2	month	B-NPart	O	
+1-3	I	B-ScrPart_passenger	O	
+1-4	visited	O	B-UnrelEv	
+1-5	my	B-ScrPart_passenger	O	
+1-6	relatives	B-NPart	O	
+1-7	who	O	O	
+1-8	live	O	B-UnrelEv	
+1-9	500	O	O	
+1-10	miles	B-NPart	O	
+1-11	away	O	O	
+1-12	.	O	O	
+
+#id=2
+#text=I did n't want to drive all the way there myself , so I decided one of the best methods for me to get there would be to take a train .
+2-1	I	B-ScrPart_passenger	O	
+2-2	did	O	O	
+2-3	n't	O	O	
+2-4	want	O	B-UnrelEv	
+2-5	to	O	O	
+2-6	drive	O	B-UnrelEv	
+2-7	all	O	O	
+2-8	the	O	O	
+2-9	way	B-No_label	O	
+2-10	there	O	O	
+2-11	myself	B-ScrPart_passenger	O	
+2-12	,	O	O	
+2-13	so	O	O	
+2-14	I	B-ScrPart_passenger	O	
+2-15	decided	O	B-UnrelEv	
+2-16	one	O	O	
+2-17	of	O	O	
+2-18	the	O	O	
+2-19	best	O	O	
+2-20	methods	B-NPart	O	
+2-21	for	O	O	
+2-22	me	B-ScrPart_passenger	O	
+2-23	to	O	O	
+2-24	get	O	B-UnrelEv	
+2-25	there	O	O	
+2-26	would	O	O	
+2-27	be	O	O	
+2-28	to	O	O	
+2-29	take	O	B-Evoking	
+2-30	a	O	I-Evoking	
+2-31	train	B-ScrPart_train	I-Evoking	
+2-32	.	O	O	
+
+#id=3
+#text=Since I have n't traveled on a train before I did n't know where I should begin .
+3-1	Since	O	O	
+3-2	I	B-ScrPart_passenger	O	
+3-3	have	O	O	
+3-4	n't	O	O	
+3-5	traveled	O	B-Evoking	
+3-6	on	O	I-Evoking	
+3-7	a	O	I-Evoking	
+3-8	train	B-ScrPart_train	I-Evoking	
+3-9	before	O	O	
+3-10	I	B-ScrPart_passenger	O	
+3-11	did	O	O	
+3-12	n't	O	O	
+3-13	know	O	B-UnrelEv	
+3-14	where	O	O	
+3-15	I	B-ScrPart_passenger	O	
+3-16	should	O	O	
+3-17	begin	O	B-UnrelEv	
+3-18	.	O	O	
+
+#id=4
+#text=I decided to look online for instructions on what to do .
+4-1	I	B-ScrPart_passenger	O	
+4-2	decided	O	B-UnrelEv	
+4-3	to	O	O	
+4-4	look	O	B-RelNScrEv|B-RelNScrEv	
+4-5	online	B-No_label	I-RelNScrEv	
+4-6	for	O	O	
+4-7	instructions	B-NPart	O	
+4-8	on	O	O	
+4-9	what	O	O	
+4-10	to	O	O	
+4-11	do	O	B-UnrelEv	
+4-12	.	O	O	
+
+#id=5
+#text=Luckily I was able to find all the necessary information to make my trip possible .
+5-1	Luckily	O	O	
+5-2	I	B-ScrPart_passenger	O	
+5-3	was	O	B-UnrelEv	
+5-4	able	O	O	
+5-5	to	O	O	
+5-6	find	O	B-RelNScrEv	
+5-7	all	O	O	
+5-8	the	O	O	
+5-9	necessary	O	O	
+5-10	information	B-NPart	O	
+5-11	to	O	O	
+5-12	make	O	B-UnrelEv	
+5-13	my	B-ScrPart_passenger	O	
+5-14	trip	B-ScrPart_trip	O	
+5-15	possible	O	O	
+5-16	.	O	O	
+
+#id=6
+#text=The next day I drove over to the train station and parked in the secured parking lot .
+6-1	The	O	O	
+6-2	next	O	O	
+6-3	day	B-NPart	O	
+6-4	I	B-ScrPart_passenger	O	
+6-5	drove	O	B-ScrEv_get_train_station|B-ScrEv_get_train_station	
+6-6	over	O	I-ScrEv_get_train_station	
+6-7	to	O	O	
+6-8	the	O	O	
+6-9	train	B-ScrPart_train_station	O	
+6-10	station	I-ScrPart_train_station|B-ScrPart_train_station	O	
+6-11	and	O	O	
+6-12	parked	O	B-UnrelEv	
+6-13	in	O	O	
+6-14	the	O	O	
+6-15	secured	O	O	
+6-16	parking	B-NPart	O	
+6-17	lot	I-NPart	O	
+6-18	.	O	O	
+
+#id=7
+#text=I went over to the ticket booth and paid for a ticket , it cost me around $ 50 .
+7-1	I	B-ScrPart_passenger	O	
+7-2	went	O	B-UnrelEv|B-UnrelEv	
+7-3	over	O	I-UnrelEv	
+7-4	to	O	O	
+7-5	the	O	O	
+7-6	ticket	B-ScrPart_ticket_office/website	O	
+7-7	booth	I-ScrPart_ticket_office/website|B-ScrPart_ticket_office/website	O	
+7-8	and	O	O	
+7-9	paid	O	B-RelNScrEv	
+7-10	for	O	O	
+7-11	a	O	O	
+7-12	ticket	B-ScrPart_card/ticket	O	
+7-13	,	O	O	
+7-14	it	B-No_label	O	
+7-15	cost	O	B-RelNScrEv	
+7-16	me	B-ScrPart_passenger	O	
+7-17	around	O	O	
+7-18	$	O	O	
+7-19	50	B-NPart	O	
+7-20	.	O	O	
+
+#id=8
+#text=I then waited for the train to arrive .
+8-1	I	B-ScrPart_passenger	O	
+8-2	then	O	O	
+8-3	waited	O	B-ScrEv_wait	
+8-4	for	O	O	
+8-5	the	O	O	
+8-6	train	B-ScrPart_train	O	
+8-7	to	O	O	
+8-8	arrive	O	B-ScrEv_train_arrives	
+8-9	.	O	O	
+
+#id=9
+#text=Once it did I got on board and stored my belongings in the luggage compartment .
+9-1	Once	O	O	
+9-2	it	B-ScrPart_train	O	
+9-3	did	O	B-ScrEv_train_arrives	
+9-4	I	B-ScrPart_passenger	O	
+9-5	got	O	B-ScrEv_get_on	
+9-6	on	O	O	
+9-7	board	B-SuppVComp	O	
+9-8	and	O	O	
+9-9	stored	O	B-ScrEv_other	
+9-10	my	B-ScrPart_passenger	O	
+9-11	belongings	B-ScrPart_luggage	O	
+9-12	in	O	O	
+9-13	the	O	O	
+9-14	luggage	B-ScrPart_other	O	
+9-15	compartment	I-ScrPart_other|B-ScrPart_other	O	
+9-16	.	O	O	
+
+#id=10
+#text=I then took a seat and relaxed .
+10-1	I	B-ScrPart_passenger	O	
+10-2	then	O	O	
+10-3	took	O	B-ScrEv_find_place	
+10-4	a	O	O	
+10-5	seat	B-ScrPart_seat	O	
+10-6	and	O	O	
+10-7	relaxed	O	B-ScrEv_spend_time_train	
+10-8	.	O	O	
+
+#id=11
+#text=The train started up , and after a couple of hours I reached my destination .
+11-1	The	O	O	
+11-2	train	B-ScrPart_train	O	
+11-3	started	O	B-ScrEv_train_departs|B-ScrEv_train_departs	
+11-4	up	O	I-ScrEv_train_departs	
+11-5	,	O	O	
+11-6	and	O	O	
+11-7	after	O	O	
+11-8	a	O	O	
+11-9	couple	B-Head_of_Partitive	O	
+11-10	of	O	O	
+11-11	hours	B-ScrPart_time_date	O	
+11-12	I	B-ScrPart_passenger	O	
+11-13	reached	O	B-ScrEv_arrive_destination	
+11-14	my	B-ScrPart_passenger	O	
+11-15	destination	B-ScrPart_destination	O	
+11-16	.	O	O	
+
+#id=12
+#text=It was an interesting and fun experience . 
+12-1	It	B-No_label	O	
+12-2	was	O	B-UnrelEv	
+12-3	an	O	O	
+12-4	interesting	O	O	
+12-5	and	O	O	
+12-6	fun	O	O	
+12-7	experience	B-NPart	O	
+12-8	.	O	O	
+

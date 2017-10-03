@@ -1,0 +1,227 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=Last weekend , I took the train into the city with my younger brother to attend a concert .
+1-1	Last	O	O	
+1-2	weekend	B-NPart	O	
+1-3	,	O	O	
+1-4	I	B-ScrPart_passenger	O	
+1-5	took	O	B-Evoking	
+1-6	the	O	I-Evoking	
+1-7	train	B-ScrPart_train	I-Evoking	
+1-8	into	O	O	
+1-9	the	O	O	
+1-10	city	B-ScrPart_destination	O	
+1-11	with	O	O	
+1-12	my	B-ScrPart_passenger	O	
+1-13	younger	O	O	
+1-14	brother	B-ScrPart_passenger	O	
+1-15	to	O	O	
+1-16	attend	O	B-UnrelEv	
+1-17	a	O	O	
+1-18	concert	B-NPart	O	
+1-19	.	O	O	
+
+#id=2
+#text=We drove to the train station to catch the 4 PM train .
+2-1	We	B-ScrPart_passenger	O	
+2-2	drove	O	B-ScrEv_get_train_station	
+2-3	to	O	O	
+2-4	the	O	O	
+2-5	train	B-ScrPart_train_station	O	
+2-6	station	I-ScrPart_train_station|B-ScrPart_train_station	O	
+2-7	to	O	O	
+2-8	catch	O	B-ScrEv_get_on	
+2-9	the	O	O	
+2-10	4	B-ScrPart_train	O	
+2-11	PM	I-ScrPart_train	O	
+2-12	train	I-ScrPart_train|B-ScrPart_train	O	
+2-13	.	O	O	
+
+#id=3
+#text=It took a while to find parking .
+3-1	It	B-No_label	O	
+3-2	took	O	B-UnrelEv	
+3-3	a	O	O	
+3-4	while	B-No_label	O	
+3-5	to	O	O	
+3-6	find	O	B-RelNScrEv	
+3-7	parking	O	B-RelNScrEv	
+3-8	.	O	O	
+
+#id=4
+#text=Once we boarded the train , we took a seat .
+4-1	Once	O	O	
+4-2	we	B-ScrPart_passenger	O	
+4-3	boarded	O	B-ScrEv_get_on	
+4-4	the	O	O	
+4-5	train	B-ScrPart_train	O	
+4-6	,	O	O	
+4-7	we	B-ScrPart_passenger	O	
+4-8	took	O	B-ScrEv_find_place	
+4-9	a	O	O	
+4-10	seat	B-ScrPart_seat	O	
+4-11	.	O	O	
+
+#id=5
+#text=The train conductor came by and we purchased 2 round trip tickets with cash .
+5-1	The	O	O	
+5-2	train	B-ScrPart_train_staff	O	
+5-3	conductor	I-ScrPart_train_staff|B-ScrPart_train_staff	O	
+5-4	came	O	B-RelNScrEv	
+5-5	by	O	I-RelNScrEv	
+5-6	and	O	O	
+5-7	we	B-ScrPart_passenger	O	
+5-8	purchased	O	B-ScrEv_get_tickets	
+5-9	2	O	O	
+5-10	round	B-ScrPart_card/ticket	O	
+5-11	trip	I-ScrPart_card/ticket	O	
+5-12	tickets	I-ScrPart_card/ticket|B-ScrPart_card/ticket	O	
+5-13	with	O	O	
+5-14	cash	B-ScrPart_payment_means	O	
+5-15	.	O	O	
+
+#id=6
+#text=The ride to the city took about an hour .
+6-1	The	O	O	
+6-2	ride	B-ScrPart_trip	O	
+6-3	to	O	O	
+6-4	the	O	O	
+6-5	city	B-ScrPart_destination	O	
+6-6	took	O	B-RelNScrEv	
+6-7	about	O	O	
+6-8	an	O	O	
+6-9	hour	B-ScrPart_time_date	O	
+6-10	.	O	O	
+
+#id=7
+#text=Many people got on and off at every stop .
+7-1	Many	O	O	
+7-2	people	B-ScrPart_passenger	O	
+7-3	got	O	B-ScrEv_get_on	
+7-4	on	O	O	
+7-5	and	O	O	
+7-6	off	O	O	
+7-7	at	O	O	
+7-8	every	O	O	
+7-9	stop	B-ScrPart_other	O	
+7-10	.	O	O	
+
+#id=8
+#text=I enjoyed the people watching .
+8-1	I	B-ScrPart_passenger	O	
+8-2	enjoyed	O	B-UnrelEv	
+8-3	the	O	O	
+8-4	people	O	B-ScrEv_spend_time_train	
+8-5	watching	O	I-ScrEv_spend_time_train	
+8-6	.	O	O	
+
+#id=9
+#text=There were many different types of people , the business types , students , families , and coeds .
+9-1	There	O	O	
+9-2	were	O	B-UnrelEv	
+9-3	many	O	O	
+9-4	different	O	O	
+9-5	types	B-Head_of_Partitive	O	
+9-6	of	O	O	
+9-7	people	B-ScrPart_passenger	O	
+9-8	,	O	O	
+9-9	the	O	O	
+9-10	business	B-ScrPart_passenger	O	
+9-11	types	I-ScrPart_passenger|B-ScrPart_passenger	O	
+9-12	,	O	O	
+9-13	students	B-ScrPart_passenger	O	
+9-14	,	O	O	
+9-15	families	B-ScrPart_passenger	O	
+9-16	,	O	O	
+9-17	and	O	O	
+9-18	coeds	B-ScrPart_passenger	O	
+9-19	.	O	O	
+
+#id=10
+#text=There were a couple loud babies and annoying blondes as well .
+10-1	There	O	O	
+10-2	were	O	B-UnrelEv	
+10-3	a	O	O	
+10-4	couple	B-Head_of_Partitive	O	
+10-5	loud	O	O	
+10-6	babies	B-ScrPart_passenger	O	
+10-7	and	O	O	
+10-8	annoying	O	B-UnrelEv	
+10-9	blondes	B-ScrPart_passenger	O	
+10-10	as	O	O	
+10-11	well	O	O	
+10-12	.	O	O	
+
+#id=11
+#text=It was very loud .
+11-1	It	B-No_label	O	
+11-2	was	O	B-UnrelEv	
+11-3	very	O	O	
+11-4	loud	O	O	
+11-5	.	O	O	
+
+#id=12
+#text=After about an hour , we were almost to our stop .
+12-1	After	O	O	
+12-2	about	O	O	
+12-3	an	O	O	
+12-4	hour	B-NPart	O	
+12-5	,	O	O	
+12-6	we	B-ScrPart_passenger	O	
+12-7	were	O	B-UnrelEv	
+12-8	almost	O	O	
+12-9	to	O	O	
+12-10	our	B-ScrPart_passenger	O	
+12-11	stop	B-ScrPart_destination	O	
+12-12	.	O	O	
+
+#id=13
+#text=Once we arrived , the train pulled into the system and the conductor announced that it was the last stop and that everything had to depart .
+13-1	Once	O	O	
+13-2	we	B-ScrPart_passenger	O	
+13-3	arrived	O	B-ScrEv_arrive_destination	
+13-4	,	O	O	
+13-5	the	O	O	
+13-6	train	B-ScrPart_train	O	
+13-7	pulled	O	B-RelNScrEv	
+13-8	into	O	O	
+13-9	the	O	O	
+13-10	system	B-ScrPart_location_train	O	
+13-11	and	O	O	
+13-12	the	O	O	
+13-13	conductor	B-ScrPart_train_staff	O	
+13-14	announced	O	B-RelNScrEv	
+13-15	that	O	O	
+13-16	it	B-NPart	O	
+13-17	was	O	B-UnrelEv	
+13-18	the	O	O	
+13-19	last	O	O	
+13-20	stop	B-ScrPart_destination	O	
+13-21	and	O	O	
+13-22	that	O	O	
+13-23	everything	B-ScrPart_passenger	O	
+13-24	had	O	O	
+13-25	to	O	O	
+13-26	depart	O	B-ScrEv_get_off	
+13-27	.	O	O	
+
+#id=14
+#text=We walked onto the platform and into the train station , then were on our way . 
+14-1	We	B-ScrPart_passenger	O	
+14-2	walked	O	B-ScrEv_get_off	
+14-3	onto	O	O	
+14-4	the	O	O	
+14-5	platform	B-ScrPart_platform	O	
+14-6	and	O	O	
+14-7	into	O	O	
+14-8	the	O	O	
+14-9	train	B-ScrPart_train_station	O	
+14-10	station	I-ScrPart_train_station|B-ScrPart_train_station	O	
+14-11	,	O	O	
+14-12	then	O	O	
+14-13	were	O	B-UnrelEv	
+14-14	on	O	O	
+14-15	our	B-ScrPart_passenger	O	
+14-16	way	B-NPart	O	
+14-17	.	O	O	
+

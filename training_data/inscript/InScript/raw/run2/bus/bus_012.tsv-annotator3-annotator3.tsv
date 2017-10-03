@@ -1,0 +1,252 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Event | Events
+#id=1
+#text=I love to ride the bus in my town .
+1-1	I	B-ScrPart_passenger	O	O	
+1-2	love	O	O	O	
+1-3	to	O	O	O	
+1-4	ride	O	B-webanno.custom.Events_	B-Evoking	
+1-5	the	O	I-webanno.custom.Events_	I-Evoking	
+1-6	bus	B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	
+1-7	in	O	O	O	
+1-8	my	B-ScrPart_passenger	O	O	
+1-9	town	B-ScrPart_destination	O	O	
+1-10	.	O	O	O	
+
+#id=2
+#text=The fare is only 75 cents .
+2-1	The	O	O	O	
+2-2	fare	B-ScrPart_money	O	O	
+2-3	is	O	B-webanno.custom.Events_	B-RelNScrEv	
+2-4	only	O	O	O	
+2-5	75	O	O	O	
+2-6	cents	B-ScrPart_money	O	O	
+2-7	.	O	O	O	
+
+#id=3
+#text=It will take you anywhere .
+3-1	It	B-ScrPart_bus	O	O	
+3-2	will	O	O	O	
+3-3	take	O	B-webanno.custom.Events_	B-RelNScrEv	
+3-4	you	B-ScrPart_passenger	O	O	
+3-5	anywhere	B-NPart	O	O	
+3-6	.	O	O	O	
+
+#id=4
+#text=On Saturdays I get up early and walk down to the bus stop .
+4-1	On	O	O	O	
+4-2	Saturdays	B-NPart	O	O	
+4-3	I	B-ScrPart_passenger	O	O	
+4-4	get	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-UnrelEv|B-UnrelEv	
+4-5	up	O	I-webanno.custom.Events_	I-UnrelEv	
+4-6	early	O	O	O	
+4-7	and	O	O	O	
+4-8	walk	O	B-webanno.custom.Events_	B-ScrEv_get_bus_stop	
+4-9	down	O	O	O	
+4-10	to	O	O	O	
+4-11	the	O	O	O	
+4-12	bus	B-ScrPart_bus_stop	O	O	
+4-13	stop	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	O	
+4-14	.	O	O	O	
+
+#id=5
+#text=I wait for the bus to come at 8:15 .
+5-1	I	B-ScrPart_passenger	O	O	
+5-2	wait	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-ScrEv_wait|B-ScrEv_wait	
+5-3	for	O	I-webanno.custom.Events_	I-ScrEv_wait	
+5-4	the	O	O	O	
+5-5	bus	B-ScrPart_bus	O	O	
+5-6	to	O	O	O	
+5-7	come	O	B-webanno.custom.Events_	B-ScrEv_bus_comes	
+5-8	at	O	O	O	
+5-9	8:15	B-ScrPart_time/date	O	O	
+5-10	.	O	O	O	
+
+#id=6
+#text=I climb up the stairs and drop my fare into the collection box and say hello to the driver .
+6-1	I	B-ScrPart_passenger	O	O	
+6-2	climb	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-ScrEv_board_bus|B-ScrEv_board_bus	
+6-3	up	O	I-webanno.custom.Events_	I-ScrEv_board_bus	
+6-4	the	O	O	O	
+6-5	stairs	B-ScrPart_other	O	O	
+6-6	and	O	O	O	
+6-7	drop	O	B-webanno.custom.Events_	B-ScrEv_get_ticket	
+6-8	my	B-ScrPart_passenger	O	O	
+6-9	fare	B-ScrPart_money	O	O	
+6-10	into	O	O	O	
+6-11	the	O	O	O	
+6-12	collection	B-ScrPart_payment_machine	O	O	
+6-13	box	I-ScrPart_payment_machine|B-ScrPart_payment_machine	O	O	
+6-14	and	O	O	O	
+6-15	say	O	B-webanno.custom.Events_	B-UnrelEv	
+6-16	hello	O	O	O	
+6-17	to	O	O	O	
+6-18	the	O	O	O	
+6-19	driver	B-ScrPart_bus_staff	O	O	
+6-20	.	O	O	O	
+
+#id=7
+#text=Before the bus starts up again I move all the way to the back to sit in the last row of seats .
+7-1	Before	O	O	O	
+7-2	the	O	O	O	
+7-3	bus	B-ScrPart_bus	O	O	
+7-4	starts	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-RelNScrEv|B-RelNScrEv	
+7-5	up	O	I-webanno.custom.Events_	I-RelNScrEv	
+7-6	again	O	O	O	
+7-7	I	B-ScrPart_passenger	O	O	
+7-8	move	O	B-webanno.custom.Events_	B-ScrEv_other	
+7-9	all	O	O	O	
+7-10	the	O	O	O	
+7-11	way	B-NPart	O	O	
+7-12	to	O	O	O	
+7-13	the	O	O	O	
+7-14	back	B-ScrPart_other	O	O	
+7-15	to	O	O	O	
+7-16	sit	O	B-webanno.custom.Events_	B-ScrEv_take_seat	
+7-17	in	O	O	O	
+7-18	the	O	O	O	
+7-19	last	O	O	O	
+7-20	row	B-ScrPart_seat_in_bus	O	O	
+7-21	of	I-ScrPart_seat_in_bus	O	O	
+7-22	seats	I-ScrPart_seat_in_bus|B-ScrPart_seat_in_bus	O	O	
+7-23	.	O	O	O	
+
+#id=8
+#text=Lots of different people get on .
+8-1	Lots	B-No_label	O	O	
+8-2	of	O	O	O	
+8-3	different	O	O	O	
+8-4	people	B-ScrPart_passenger	O	O	
+8-5	get	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-ScrEv_board_bus|B-ScrEv_board_bus	
+8-6	on	O	I-webanno.custom.Events_	I-ScrEv_board_bus	
+8-7	.	O	O	O	
+
+#id=9
+#text=Some with shopping bags , others all dressed up and some like me dressed casual for a summer morning .
+9-1	Some	O	O	O	
+9-2	with	O	O	O	
+9-3	shopping	B-NPart	O	O	
+9-4	bags	I-NPart|B-NPart	O	O	
+9-5	,	O	O	O	
+9-6	others	B-NPart	O	O	
+9-7	all	O	O	O	
+9-8	dressed	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-UnrelEv|B-UnrelEv	
+9-9	up	O	I-webanno.custom.Events_	I-UnrelEv	
+9-10	and	O	O	O	
+9-11	some	O	O	O	
+9-12	like	O	O	O	
+9-13	me	B-ScrPart_passenger	O	O	
+9-14	dressed	O	B-webanno.custom.Events_	B-UnrelEv	
+9-15	casual	O	O	O	
+9-16	for	O	O	O	
+9-17	a	O	O	O	
+9-18	summer	B-NPart	O	O	
+9-19	morning	I-NPart|B-NPart	O	O	
+9-20	.	O	O	O	
+
+#id=10
+#text=I take the bus all the way until it gets to the center of town where I get off .
+10-1	I	B-ScrPart_passenger	O	O	
+10-2	take	O	B-webanno.custom.Events_	B-RelNScrEv	
+10-3	the	O	O	O	
+10-4	bus	B-ScrPart_bus	O	O	
+10-5	all	O	O	O	
+10-6	the	O	O	O	
+10-7	way	B-NPart	O	O	
+10-8	until	O	O	O	
+10-9	it	B-ScrPart_bus	O	O	
+10-10	gets	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-ScrEv_ride|B-ScrEv_ride	
+10-11	to	O	I-webanno.custom.Events_	I-ScrEv_ride	
+10-12	the	O	O	O	
+10-13	center	B-ScrPart_destination	O	O	
+10-14	of	I-ScrPart_destination	O	O	
+10-15	town	I-ScrPart_destination|B-ScrPart_destination	O	O	
+10-16	where	O	O	O	
+10-17	I	B-ScrPart_passenger	O	O	
+10-18	get	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-ScrEv_get_off|B-ScrEv_get_off	
+10-19	off	O	I-webanno.custom.Events_	I-ScrEv_get_off	
+10-20	.	O	O	O	
+
+#id=11
+#text=Before i get off I get a transfer ticket .
+11-1	Before	O	O	O	
+11-2	i	B-ScrPart_passenger	O	O	
+11-3	get	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-ScrEv_get_off|B-ScrEv_get_off	
+11-4	off	O	I-webanno.custom.Events_	I-ScrEv_get_off	
+11-5	I	B-ScrPart_passenger	O	O	
+11-6	get	O	B-webanno.custom.Events_	B-ScrEv_get_ticket	
+11-7	a	O	O	O	
+11-8	transfer	B-ScrPart_card/ticket	O	O	
+11-9	ticket	I-ScrPart_card/ticket|B-ScrPart_card/ticket	O	O	
+11-10	.	O	O	O	
+
+#id=12
+#text=And then the fun begins .
+12-1	And	O	O	O	
+12-2	then	O	O	O	
+12-3	the	O	O	O	
+12-4	fun	B-NPart	O	O	
+12-5	begins	O	B-webanno.custom.Events_	B-UnrelEv	
+12-6	.	O	O	O	
+
+#id=13
+#text=I look at the bus route map at the bus stop and look for a part of the city i want to explore .
+13-1	I	B-ScrPart_passenger	O	O	
+13-2	look	O	B-webanno.custom.Events_	B-ScrEv_other	
+13-3	at	O	O	O	
+13-4	the	O	O	O	
+13-5	bus	B-ScrPart_other	O	O	
+13-6	route	I-ScrPart_other	O	O	
+13-7	map	I-ScrPart_other|B-ScrPart_other	O	O	
+13-8	at	O	O	O	
+13-9	the	O	O	O	
+13-10	bus	B-ScrPart_bus_stop	O	O	
+13-11	stop	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	O	
+13-12	and	O	O	O	
+13-13	look	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-UnrelEv|B-UnrelEv	
+13-14	for	O	I-webanno.custom.Events_	I-UnrelEv	
+13-15	a	O	O	O	
+13-16	part	B-Head_of_Partitive	O	O	
+13-17	of	O	O	O	
+13-18	the	O	O	O	
+13-19	city	B-ScrPart_destination	O	O	
+13-20	i	B-ScrPart_passenger	O	O	
+13-21	want	O	O	O	
+13-22	to	O	O	O	
+13-23	explore	O	B-webanno.custom.Events_	B-UnrelEv	
+13-24	.	O	O	O	
+
+#id=14
+#text=For 75 cents i can get to any part of my city .
+14-1	For	O	O	O	
+14-2	75	O	O	O	
+14-3	cents	B-ScrPart_money	O	O	
+14-4	i	B-ScrPart_passenger	O	O	
+14-5	can	O	O	O	
+14-6	get	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-RelNScrEv|B-RelNScrEv	
+14-7	to	O	I-webanno.custom.Events_	I-RelNScrEv	
+14-8	any	O	O	O	
+14-9	part	B-NPart	O	O	
+14-10	of	O	O	O	
+14-11	my	B-ScrPart_passenger	O	O	
+14-12	city	B-ScrPart_destination	O	O	
+14-13	.	O	O	O	
+
+#id=15
+#text=I see all kinds of people and get to explore the city I live in . 
+15-1	I	B-ScrPart_passenger	O	O	
+15-2	see	O	B-webanno.custom.Events_	B-UnrelEv	
+15-3	all	O	O	O	
+15-4	kinds	B-Head_of_Partitive	O	O	
+15-5	of	O	O	O	
+15-6	people	B-NPart	O	O	
+15-7	and	O	O	O	
+15-8	get	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-UnrelEv|B-UnrelEv	
+15-9	to	O	I-webanno.custom.Events_	I-UnrelEv	
+15-10	explore	O	B-webanno.custom.Events_	B-UnrelEv	
+15-11	the	O	O	O	
+15-12	city	B-ScrPart_destination	O	O	
+15-13	I	B-ScrPart_passenger	O	O	
+15-14	live	O	B-webanno.custom.Events_	B-UnrelEv	
+15-15	in	O	O	O	
+15-16	.	O	O	O	
+

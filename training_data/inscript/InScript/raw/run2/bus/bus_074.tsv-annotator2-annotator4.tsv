@@ -1,0 +1,311 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Event | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I live in a city where there is never enough parking .
+1-1	I	B-ScrPart_passenger	O	O	_	_	
+1-2	live	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+1-3	in	O	O	O	_	_	
+1-4	a	O	O	O	_	_	
+1-5	city	B-NPart	O	O	_	_	
+1-6	where	O	O	O	_	_	
+1-7	there	O	O	O	_	_	
+1-8	is	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+1-9	never	O	O	O	_	_	
+1-10	enough	O	O	O	_	_	
+1-11	parking	B-NPart	O	O	_	_	
+1-12	.	O	O	O	_	_	
+
+#id=2
+#text=Because of this , I like to take the bus .
+2-1	Because	O	O	O	_	_	
+2-2	of	O	O	O	_	_	
+2-3	this	O	O	O	_	_	
+2-4	,	O	O	O	_	_	
+2-5	I	B-ScrPart_passenger	O	O	_	_	
+2-6	like	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+2-7	to	O	O	O	_	_	
+2-8	take	O	B-webanno.custom.Events_	B-Evoking	_	_	
+2-9	the	O	I-webanno.custom.Events_	I-Evoking	_	_	
+2-10	bus	B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	_	_	
+2-11	.	O	O	O	_	_	
+
+#id=3
+#text=If you know what bus to take , you can get almost anywhere !
+3-1	If	O	O	O	_	_	
+3-2	you	B-NPart	O	O	_	_	
+3-3	know	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+3-4	what	O	O	O	_	_	
+3-5	bus	B-ScrPart_bus	O	O	_	_	
+3-6	to	O	O	O	_	_	
+3-7	take	O	B-webanno.custom.Events_	B-???	_	_	
+3-8	,	O	O	O	_	_	
+3-9	you	B-ScrPart_passenger	O	O	_	_	
+3-10	can	O	O	O	_	_	
+3-11	get	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+3-12	almost	O	O	O	_	_	
+3-13	anywhere	O	O	O	_	_	
+3-14	!	O	O	O	_	_	
+
+#id=4
+#text=Today I needed to go to the grocery store to get ingredients for dinner .
+4-1	Today	O	O	O	_	_	
+4-2	I	B-ScrPart_passenger	O	O	_	_	
+4-3	needed	O	O	O	_	_	
+4-4	to	O	O	O	_	_	
+4-5	go	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+4-6	to	O	O	O	_	_	
+4-7	the	O	O	O	_	_	
+4-8	grocery	B-ScrPart_destination	O	O	_	_	
+4-9	store	I-ScrPart_destination|B-ScrPart_destination	O	O	_	_	
+4-10	to	O	O	O	_	_	
+4-11	get	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+4-12	ingredients	B-NPart	O	O	_	_	
+4-13	for	O	O	O	_	_	
+4-14	dinner	B-NPart	O	O	_	_	
+4-15	.	O	O	O	_	_	
+
+#id=5
+#text=Happily , there is a bus stop only a block from my apartment .
+5-1	Happily	O	O	O	_	_	
+5-2	,	O	O	O	_	_	
+5-3	there	O	O	O	_	_	
+5-4	is	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+5-5	a	O	O	O	_	_	
+5-6	bus	B-ScrPart_bus_stop	O	O	_	_	
+5-7	stop	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	O	_	_	
+5-8	only	O	O	O	_	_	
+5-9	a	O	O	O	_	_	
+5-10	block	B-NPart	O	O	_	_	
+5-11	from	O	O	O	_	_	
+5-12	my	B-ScrPart_passenger	O	O	_	_	
+5-13	apartment	B-NPart	O	O	_	_	
+5-14	.	O	O	O	_	_	
+
+#id=6
+#text=Before I left the house I made sure to check if I had my bus pass .
+6-1	Before	O	O	O	_	_	
+6-2	I	B-ScrPart_passenger	O	O	_	_	
+6-3	left	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+6-4	the	O	O	O	_	_	
+6-5	house	B-NPart	O	O	_	_	
+6-6	I	B-ScrPart_passenger	O	O	_	_	
+6-7	made	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+6-8	sure	O	I-webanno.custom.Events_	I-UnrelEv	_	_	
+6-9	to	O	O	O	_	_	
+6-10	check	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+6-11	if	O	O	O	_	_	
+6-12	I	B-ScrPart_passenger	O	O	_	_	
+6-13	had	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+6-14	my	B-ScrPart_passenger	O	O	webanno.custom.Corefchains_	6-12	
+6-15	bus	B-ScrPart_card/ticket	O	O	_	_	
+6-16	pass	I-ScrPart_card/ticket|B-ScrPart_card/ticket	O	O	_	_	
+6-17	.	O	O	O	_	_	
+
+#id=7
+#text=My pass allows me to ride the bus whenever I want !
+7-1	My	B-ScrPart_passenger	O	O	webanno.custom.Corefchains_	6-14	
+7-2	pass	B-ScrPart_card/ticket	O	O	_	_	
+7-3	allows	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+7-4	me	B-ScrPart_passenger	O	O	_	_	
+7-5	to	O	O	O	_	_	
+7-6	ride	O	B-webanno.custom.Events_	B-Evoking	_	_	
+7-7	the	O	I-webanno.custom.Events_	I-Evoking	_	_	
+7-8	bus	B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	_	_	
+7-9	whenever	O	O	O	_	_	
+7-10	I	B-ScrPart_passenger	O	O	_	_	
+7-11	want	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+7-12	!	O	O	O	_	_	
+
+#id=8
+#text=If I did n't have it , I would have to pay $ 2.10 for the ride .
+8-1	If	O	O	O	_	_	
+8-2	I	B-ScrPart_passenger	O	O	_	_	
+8-3	did	O	O	O	_	_	
+8-4	n't	O	O	O	_	_	
+8-5	have	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+8-6	it	B-ScrPart_card/ticket	O	O	_	_	
+8-7	,	O	O	O	_	_	
+8-8	I	B-ScrPart_passenger	O	O	_	_	
+8-9	would	O	O	O	_	_	
+8-10	have	O	O	O	_	_	
+8-11	to	O	O	O	_	_	
+8-12	pay	O	B-webanno.custom.Events_	B-ScrEv_get_ticket	_	_	
+8-13	$	B-ScrPart_money	O	O	_	_	
+8-14	2.10	I-ScrPart_money	O	O	_	_	
+8-15	for	O	O	O	_	_	
+8-16	the	O	O	O	_	_	
+8-17	ride	B-ScrPart_ride	O	O	_	_	
+8-18	.	O	O	O	_	_	
+
+#id=9
+#text=I waited at the bus stop for just a few minutes before a bus drove by .
+9-1	I	B-ScrPart_passenger	O	O	_	_	
+9-2	waited	O	B-webanno.custom.Events_	B-ScrEv_wait	_	_	
+9-3	at	O	O	O	_	_	
+9-4	the	O	O	O	_	_	
+9-5	bus	B-ScrPart_bus_stop	O	O	_	_	
+9-6	stop	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	O	_	_	
+9-7	for	O	O	O	_	_	
+9-8	just	O	O	O	_	_	
+9-9	a	O	O	O	_	_	
+9-10	few	O	O	O	_	_	
+9-11	minutes	B-ScrPart_time/date	O	O	_	_	
+9-12	before	O	O	O	_	_	
+9-13	a	O	O	O	_	_	
+9-14	bus	B-ScrPart_bus	O	O	_	_	
+9-15	drove	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+9-16	by	O	I-webanno.custom.Events_	I-RelNScrEv	_	_	
+9-17	.	O	O	O	_	_	
+
+#id=10
+#text=I did n't get on it , however , because it was the 90 bus .
+10-1	I	B-ScrPart_passenger	O	O	_	_	
+10-2	did	O	O	O	_	_	
+10-3	n't	O	O	O	_	_	
+10-4	get	O	B-webanno.custom.Events_	B-ScrEv_board_bus	_	_	
+10-5	on	O	I-webanno.custom.Events_	I-ScrEv_board_bus	_	_	
+10-6	it	B-ScrPart_bus	O	O	_	_	
+10-7	,	O	O	O	_	_	
+10-8	however	O	O	O	_	_	
+10-9	,	O	O	O	_	_	
+10-10	because	O	O	O	_	_	
+10-11	it	B-ScrPart_bus	O	O	_	_	
+10-12	was	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+10-13	the	O	O	O	_	_	
+10-14	90	O	O	O	_	_	
+10-15	bus	B-ScrPart_bus	O	O	_	_	
+10-16	.	O	O	O	_	_	
+
+#id=11
+#text=I know that I need to take the 87 or 88 to get to the grocery store .
+11-1	I	B-ScrPart_passenger	O	O	_	_	
+11-2	know	O	O	O	_	_	
+11-3	that	O	O	O	_	_	
+11-4	I	B-ScrPart_passenger	O	O	_	_	
+11-5	need	O	O	O	_	_	
+11-6	to	O	O	O	_	_	
+11-7	take	O	B-webanno.custom.Events_	B-???	_	_	
+11-8	the	O	O	O	_	_	
+11-9	87	O	O	O	_	_	
+11-10	or	O	O	O	_	_	
+11-11	88	O	O	O	_	_	
+11-12	to	O	O	O	_	_	
+11-13	get	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+11-14	to	O	O	O	_	_	
+11-15	the	O	O	O	_	_	
+11-16	grocery	B-ScrPart_destination	O	O	_	_	
+11-17	store	I-ScrPart_destination|B-ScrPart_destination	O	O	_	_	
+11-18	.	O	O	O	_	_	
+
+#id=12
+#text=Finally an 87 bus stopped , and I got on , tapping my bus pass onto a special box near the door .
+12-1	Finally	O	O	O	_	_	
+12-2	an	O	O	O	_	_	
+12-3	87	O	O	O	_	_	
+12-4	bus	B-ScrPart_bus	O	O	_	_	
+12-5	stopped	O	B-webanno.custom.Events_	B-ScrEv_bus_stops	_	_	
+12-6	,	O	O	O	_	_	
+12-7	and	O	O	O	_	_	
+12-8	I	B-ScrPart_passenger	O	O	_	_	
+12-9	got	O	B-webanno.custom.Events_	B-ScrEv_board_bus	_	_	
+12-10	on	O	I-webanno.custom.Events_	I-ScrEv_board_bus	_	_	
+12-11	,	O	O	O	_	_	
+12-12	tapping	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+12-13	my	B-ScrPart_passenger	O	O	_	_	
+12-14	bus	B-ScrPart_card/ticket	O	O	_	_	
+12-15	pass	I-ScrPart_card/ticket|B-ScrPart_card/ticket	O	O	_	_	
+12-16	onto	O	O	O	_	_	
+12-17	a	O	O	O	_	_	
+12-18	special	O	O	O	_	_	
+12-19	box	B-NPart	O	O	_	_	
+12-20	near	O	O	O	_	_	
+12-21	the	O	O	O	_	_	
+12-22	door	B-ScrPart_door	O	O	_	_	
+12-23	.	O	O	O	_	_	
+
+#id=13
+#text=The driver started driving down the street .
+13-1	The	O	O	O	_	_	
+13-2	driver	B-ScrPart_bus_staff	O	O	_	_	
+13-3	started	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+13-4	driving	O	B-webanno.custom.Events_	B-ScrEv_ride	_	_	
+13-5	down	O	O	O	_	_	
+13-6	the	O	O	O	_	_	
+13-7	street	B-ScrPart_route	O	O	_	_	
+13-8	.	O	O	O	_	_	
+
+#id=14
+#text=We stopped a couple of times at Lexington Road and then Drove Street .
+14-1	We	B-ScrPart_passenger	O	O	_	_	
+14-2	stopped	O	B-webanno.custom.Events_	B-ScrEv_bus_stops	_	_	
+14-3	a	O	O	O	_	_	
+14-4	couple	B-Head_of_Partitive	O	O	_	_	
+14-5	of	O	O	O	_	_	
+14-6	times	B-No_label	O	O	_	_	
+14-7	at	O	O	O	_	_	
+14-8	Lexington	B-NPart	O	O	_	_	
+14-9	Road	I-NPart	O	O	_	_	
+14-10	and	O	O	O	_	_	
+14-11	then	O	O	O	_	_	
+14-12	Drove	B-NPart	O	O	_	_	
+14-13	Street	I-NPart	O	O	_	_	
+14-14	.	O	O	O	_	_	
+
+#id=15
+#text=Sometimes people got off the bus , and sometimes people got on .
+15-1	Sometimes	O	O	O	_	_	
+15-2	people	B-ScrPart_passenger	O	O	_	_	
+15-3	got	O	B-webanno.custom.Events_	B-ScrEv_get_off	_	_	
+15-4	off	O	I-webanno.custom.Events_	I-ScrEv_get_off	_	_	
+15-5	the	O	O	O	_	_	
+15-6	bus	B-ScrPart_bus	O	O	_	_	
+15-7	,	O	O	O	_	_	
+15-8	and	O	O	O	_	_	
+15-9	sometimes	O	O	O	_	_	
+15-10	people	B-ScrPart_passenger	O	O	_	_	
+15-11	got	O	B-webanno.custom.Events_	B-ScrEv_board_bus	_	_	
+15-12	on	O	I-webanno.custom.Events_	I-ScrEv_board_bus	_	_	
+15-13	.	O	O	O	_	_	
+
+#id=16
+#text=Next it was my stop : Broadway Street .
+16-1	Next	O	O	O	_	_	
+16-2	it	B-No_label	O	O	_	_	
+16-3	was	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+16-4	my	B-ScrPart_passenger	O	O	_	_	
+16-5	stop	B-ScrPart_bus_stop	O	O	_	_	
+16-6	:	O	O	O	_	_	
+16-7	Broadway	B-NPart	O	O	_	_	
+16-8	Street	I-NPart	O	O	_	_	
+16-9	.	O	O	O	_	_	
+
+#id=17
+#text=I thanked the bus driver as I got off .
+17-1	I	B-ScrPart_passenger	O	O	_	_	
+17-2	thanked	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+17-3	the	O	O	O	_	_	
+17-4	bus	B-ScrPart_bus_staff	O	O	_	_	
+17-5	driver	I-ScrPart_bus_staff|B-ScrPart_bus_staff	O	O	_	_	
+17-6	as	O	O	O	_	_	
+17-7	I	B-ScrPart_passenger	O	O	_	_	
+17-8	got	O	B-webanno.custom.Events_	B-ScrEv_get_off	_	_	
+17-9	off	O	I-webanno.custom.Events_	I-ScrEv_get_off	_	_	
+17-10	.	O	O	O	_	_	
+
+#id=18
+#text=It 's so much nicer to take the bus than walk all that way ! 
+18-1	It	B-No_label	O	O	_	_	
+18-2	's	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+18-3	so	O	O	O	_	_	
+18-4	much	O	O	O	_	_	
+18-5	nicer	O	O	O	_	_	
+18-6	to	O	O	O	_	_	
+18-7	take	O	B-webanno.custom.Events_	B-Evoking	_	_	
+18-8	the	O	I-webanno.custom.Events_	I-Evoking	_	_	
+18-9	bus	B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	_	_	
+18-10	than	O	O	O	_	_	
+18-11	walk	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+18-12	all	O	O	O	_	_	
+18-13	that	O	O	O	_	_	
+18-14	way	B-NPart	O	O	_	_	
+18-15	!	O	O	O	_	_	
+

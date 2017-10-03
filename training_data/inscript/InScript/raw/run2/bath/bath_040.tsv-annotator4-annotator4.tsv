@@ -1,0 +1,210 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events
+#id=1
+#text=I thought about taking my usual shower today , but decided to take a bath instead .
+1-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+1-2	thought	O	O	B-UnrelEv	
+1-3	about	O	O	O	
+1-4	taking	O	O	B-UnrelEv	
+1-5	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+1-6	usual	O	O	O	
+1-7	shower	B-ScrPart_shower	B-webanno.custom.Participants_	O	
+1-8	today	O	O	O	
+1-9	,	O	O	O	
+1-10	but	O	O	O	
+1-11	decided	O	O	B-UnrelEv	
+1-12	to	O	O	O	
+1-13	take	O	O	B-Evoking	
+1-14	a	O	O	I-Evoking	
+1-15	bath	B-SuppVComp	B-webanno.custom.Participants_	I-Evoking	
+1-16	instead	O	O	O	
+1-17	.	O	O	O	
+
+#id=2
+#text=I have had a stressful week and the relaxation will do me good .
+2-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+2-2	have	O	O	O	
+2-3	had	O	O	B-UnrelEv	
+2-4	a	O	O	O	
+2-5	stressful	O	O	O	
+2-6	week	B-NPart	B-webanno.custom.Participants_	O	
+2-7	and	O	O	O	
+2-8	the	O	O	O	
+2-9	relaxation	B-NPart	B-webanno.custom.Participants_	O	
+2-10	will	O	O	O	
+2-11	do	O	O	B-UnrelEv	
+2-12	me	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+2-13	good	O	O	O	
+2-14	.	O	O	O	
+
+#id=3
+#text=I get everything ready that I will need-my towel , my bath beads , a book and a candle .
+3-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+3-2	get	O	O	B-ScrEv_prepare_bath	
+3-3	everything	B-???	B-webanno.custom.Participants_	O	
+3-4	ready	O	O	O	
+3-5	that	B-???	B-webanno.custom.Participants_	O	
+3-6	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+3-7	will	O	O	O	
+3-8	need-my	B-ScrPart_bather	B-webanno.custom.Participants_	B-UnrelEv	
+3-9	towel	B-ScrPart_towel	B-webanno.custom.Participants_	O	
+3-10	,	O	O	O	
+3-11	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+3-12	bath	B-ScrPart_bath_means	B-webanno.custom.Participants_	O	
+3-13	beads	I-ScrPart_bath_means|B-ScrPart_bath_means	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+3-14	,	O	O	O	
+3-15	a	O	O	O	
+3-16	book	B-ScrPart_in-bath_entertainment	B-webanno.custom.Participants_	O	
+3-17	and	O	O	O	
+3-18	a	O	O	O	
+3-19	candle	B-ScrPart_in-bath_entertainment	B-webanno.custom.Participants_	O	
+3-20	.	O	O	O	
+
+#id=4
+#text=I run the water just a bit on the warm side since I do n't want the bath getting cold too soon .
+4-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+4-2	run	O	O	B-ScrEv_turn_water_on	
+4-3	the	O	O	O	
+4-4	water	B-ScrPart_water	B-webanno.custom.Participants_	O	
+4-5	just	O	O	O	
+4-6	a	O	O	O	
+4-7	bit	B-No_label	B-webanno.custom.Participants_	O	
+4-8	on	O	O	O	
+4-9	the	O	O	O	
+4-10	warm	O	O	O	
+4-11	side	B-No_label	B-webanno.custom.Participants_	O	
+4-12	since	O	O	O	
+4-13	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+4-14	do	O	O	O	
+4-15	n't	O	O	O	
+4-16	want	O	O	B-UnrelEv	
+4-17	the	O	O	O	
+4-18	bath	B-ScrPart_bath	B-webanno.custom.Participants_	O	
+4-19	getting	O	O	B-RelNScrEv	
+4-20	cold	O	O	O	
+4-21	too	O	O	O	
+4-22	soon	O	O	O	
+4-23	.	O	O	O	
+
+#id=5
+#text=I put the stopper in on the bath drain and then pour in my bath beads .
+5-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+5-2	put	O	O	B-ScrEv_close_drain	
+5-3	the	O	O	O	
+5-4	stopper	B-ScrPart_plug	B-webanno.custom.Participants_	O	
+5-5	in	O	O	O	
+5-6	on	O	O	O	
+5-7	the	O	O	O	
+5-8	bath	B-ScrPart_drain	B-webanno.custom.Participants_	O	
+5-9	drain	I-ScrPart_drain|B-ScrPart_drain	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+5-10	and	O	O	O	
+5-11	then	O	O	O	
+5-12	pour	O	O	B-ScrEv_put_bubble_bath_scent	
+5-13	in	O	O	I-ScrEv_put_bubble_bath_scent	
+5-14	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+5-15	bath	B-ScrPart_bath_means	B-webanno.custom.Participants_	O	
+5-16	beads	I-ScrPart_bath_means|B-ScrPart_bath_means	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+5-17	.	O	O	O	
+
+#id=6
+#text=Time to run the water .
+6-1	Time	B-NPart	B-webanno.custom.Participants_	O	
+6-2	to	O	O	O	
+6-3	run	O	O	B-ScrEv_fill_water/wait	
+6-4	the	O	O	O	
+6-5	water	B-ScrPart_water	B-webanno.custom.Participants_	O	
+6-6	.	O	O	O	
+
+#id=7
+#text=I 've lit my candle and grabbed my book .
+7-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+7-2	've	O	O	O	
+7-3	lit	O	O	B-ScrEv_prepare_bath	
+7-4	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+7-5	candle	B-ScrPart_in-bath_entertainment	B-webanno.custom.Participants_	O	
+7-6	and	O	O	O	
+7-7	grabbed	O	O	B-ScrEv_prepare_bath	
+7-8	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+7-9	book	B-ScrPart_in-bath_entertainment	B-webanno.custom.Participants_	O	
+7-10	.	O	O	O	
+
+#id=8
+#text=I love to soak for a bit , it 's so relaxing .
+8-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+8-2	love	O	O	B-UnrelEv	
+8-3	to	O	O	O	
+8-4	soak	O	O	B-ScrEv_relax	
+8-5	for	O	O	O	
+8-6	a	O	O	O	
+8-7	bit	B-No_label	B-webanno.custom.Participants_	O	
+8-8	,	O	O	O	
+8-9	it	B-No_label	B-webanno.custom.Participants_	O	
+8-10	's	O	O	B-UnrelEv	
+8-11	so	O	O	O	
+8-12	relaxing	O	O	B-ScrEv_relax	
+8-13	.	O	O	O	
+
+#id=9
+#text=I will get through a chapter or two of my book , depending how fast I feel like reading .
+9-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+9-2	will	O	O	O	
+9-3	get	O	O	B-RelNScrEv	
+9-4	through	O	O	I-RelNScrEv	
+9-5	a	O	O	O	
+9-6	chapter	B-Head_of_Partitive	B-webanno.custom.Participants_	O	
+9-7	or	O	O	O	
+9-8	two	O	O	O	
+9-9	of	O	O	O	
+9-10	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+9-11	book	B-ScrPart_in-bath_entertainment	B-webanno.custom.Participants_	O	
+9-12	,	O	O	O	
+9-13	depending	O	O	B-UnrelEv	
+9-14	how	O	O	O	
+9-15	fast	O	O	O	
+9-16	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+9-17	feel	O	O	B-UnrelEv	
+9-18	like	O	O	O	
+9-19	reading	O	O	B-RelNScrEv	
+9-20	.	O	O	O	
+
+#id=10
+#text=The whole atmosphere is de-stressing me .
+10-1	The	O	O	O	
+10-2	whole	O	O	O	
+10-3	atmosphere	B-NPart	B-webanno.custom.Participants_	O	
+10-4	is	O	O	O	
+10-5	de-stressing	O	O	B-ScrEv_relax	
+10-6	me	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+10-7	.	O	O	O	
+
+#id=11
+#text=After my bath , I will towel off and get into my pajamas .
+11-1	After	O	O	O	
+11-2	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+11-3	bath	B-ScrPart_bath	B-webanno.custom.Participants_	O	
+11-4	,	O	O	O	
+11-5	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+11-6	will	O	O	O	
+11-7	towel	O	O	B-ScrEv_dry	
+11-8	off	O	O	I-ScrEv_dry	
+11-9	and	O	O	O	
+11-10	get	O	O	B-ScrEv_get_dressed	
+11-11	into	O	O	O	
+11-12	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+11-13	pajamas	B-ScrPart_clothes	B-webanno.custom.Participants_	O	
+11-14	.	O	O	O	
+
+#id=12
+#text=I always seem to sleep better after taking a relaxing bath . 
+12-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+12-2	always	O	O	O	
+12-3	seem	O	O	B-UnrelEv	
+12-4	to	O	O	O	
+12-5	sleep	O	O	B-UnrelEv	
+12-6	better	O	O	O	
+12-7	after	O	O	O	
+12-8	taking	O	O	B-Evoking	
+12-9	a	O	O	I-Evoking	
+12-10	relaxing	O	O	I-Evoking|B-ScrEv_relax	
+12-11	bath	B-SuppVComp	B-webanno.custom.Participants_	I-Evoking	
+12-12	.	O	O	O	
+

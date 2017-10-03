@@ -1,0 +1,295 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I was excited to go home for the holidays last December , but I was less excited about having to take an airplane !
+1-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+1-2	was	O	O	B-UnrelEv	_	_	
+1-3	excited	O	O	B-UnrelEv	_	_	
+1-4	to	O	O	O	_	_	
+1-5	go	O	O	B-UnrelEv	_	_	
+1-6	home	B-webanno.custom.Participants_	B-ScrPart_target_location	O	_	_	
+1-7	for	O	O	O	_	_	
+1-8	the	O	O	O	_	_	
+1-9	holidays	O	O	O	_	_	
+1-10	last	O	O	O	_	_	
+1-11	December	O	O	O	_	_	
+1-12	,	O	O	O	_	_	
+1-13	but	O	O	O	_	_	
+1-14	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-1	
+1-15	was	O	O	O	_	_	
+1-16	less	O	O	O	_	_	
+1-17	excited	O	O	B-UnrelEv	_	_	
+1-18	about	O	O	O	_	_	
+1-19	having	O	O	B-Evoking	_	_	
+1-20	to	O	O	I-Evoking	_	_	
+1-21	take	O	O	I-Evoking	_	_	
+1-22	an	O	O	I-Evoking	_	_	
+1-23	airplane	B-webanno.custom.Participants_	B-ScrPart_plane	I-Evoking	_	_	
+1-24	!	O	O	O	_	_	
+
+#id=2
+#text=I normally would drive , but my mother persuaded me to take a plane because she was afraid I would have to drive through snow .
+2-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-14	
+2-2	normally	O	O	O	_	_	
+2-3	would	O	O	O	_	_	
+2-4	drive	O	O	B-UnrelEv	_	_	
+2-5	,	O	O	O	_	_	
+2-6	but	O	O	O	_	_	
+2-7	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-1	
+2-8	mother	O	O	O	_	_	
+2-9	persuaded	O	O	B-UnrelEv	_	_	
+2-10	me	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-7	
+2-11	to	O	O	O	_	_	
+2-12	take	O	O	B-Evoking	_	_	
+2-13	a	O	O	I-Evoking	_	_	
+2-14	plane	O	O	I-Evoking	_	_	
+2-15	because	O	O	O	_	_	
+2-16	she	O	O	O	_	_	
+2-17	was	O	O	B-UnrelEv	_	_	
+2-18	afraid	O	O	O	_	_	
+2-19	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-10	
+2-20	would	O	O	O	_	_	
+2-21	have	O	O	O	_	_	
+2-22	to	O	O	O	_	_	
+2-23	drive	O	O	B-UnrelEv	_	_	
+2-24	through	O	O	O	_	_	
+2-25	snow	O	O	O	_	_	
+2-26	.	O	O	O	_	_	
+
+#id=3
+#text=I filled a single suitcase with as many necessities I could fit , because I did not want to have to deal with putting multiple suitcases through the luggage handler .
+3-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-19	
+3-2	filled	O	O	B-ScrEv_pack_luggage	_	_	
+3-3	a	O	O	O	_	_	
+3-4	single	O	O	O	_	_	
+3-5	suitcase	B-webanno.custom.Participants_	B-ScrPart_check_in_luggage	O	_	_	
+3-6	with	O	O	O	_	_	
+3-7	as	O	O	O	_	_	
+3-8	many	O	O	O	_	_	
+3-9	necessities	B-webanno.custom.Participants_	B-ScrPart_personal_belongings	O	_	_	
+3-10	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-1	
+3-11	could	O	O	O	_	_	
+3-12	fit	O	O	B-UnrelEv	_	_	
+3-13	,	O	O	O	_	_	
+3-14	because	O	O	O	_	_	
+3-15	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-10	
+3-16	did	O	O	O	_	_	
+3-17	not	O	O	O	_	_	
+3-18	want	O	O	B-UnrelEv|B-UnrelEv	_	_	
+3-19	to	O	O	I-UnrelEv	_	_	
+3-20	have	O	O	O	_	_	
+3-21	to	O	O	O	_	_	
+3-22	deal	O	O	B-UnrelEv|B-UnrelEv	_	_	
+3-23	with	O	O	I-UnrelEv	_	_	
+3-24	putting	O	O	B-RelNScrEv	_	_	
+3-25	multiple	O	O	O	_	_	
+3-26	suitcases	B-webanno.custom.Participants_	B-ScrPart_check_in_luggage	O	_	_	
+3-27	through	O	O	O	_	_	
+3-28	the	O	O	O	_	_	
+3-29	luggage	B-webanno.custom.Participants_	B-ScrPart_institutional_devices	O	_	_	
+3-30	handler	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_institutional_devices|B-ScrPart_institutional_devices	O	_	_	
+3-31	.	O	O	O	_	_	
+
+#id=4
+#text=I arrived at the airport and waited in line to check in .
+4-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-15	
+4-2	arrived	O	O	B-ScrEv_get_airport	_	_	
+4-3	at	O	O	O	_	_	
+4-4	the	O	O	O	_	_	
+4-5	airport	B-webanno.custom.Participants_	B-ScrPart_airport	O	_	_	
+4-6	and	O	O	O	_	_	
+4-7	waited	O	O	B-ScrEv_wait	_	_	
+4-8	in	O	O	O	_	_	
+4-9	line	B-webanno.custom.Participants_	B-SuppVComp	O	_	_	
+4-10	to	O	O	O	_	_	
+4-11	check	O	O	B-ScrEv_check_in|B-ScrEv_check_in	_	_	
+4-12	in	O	O	I-ScrEv_check_in	_	_	
+4-13	.	O	O	O	_	_	
+
+#id=5
+#text=I let the TSA search me for any contraband that would not be allowed on the plane , and then waited to be allowed to board .
+5-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-1	
+5-2	let	O	O	B-UnrelEv	_	_	
+5-3	the	O	O	O	_	_	
+5-4	TSA	B-webanno.custom.Participants_	B-ScrPart_staff	O	_	_	
+5-5	search	O	O	B-ScrEv_go_security_checks|B-ScrEv_go_security_checks	_	_	
+5-6	me	O	O	I-ScrEv_go_security_checks	_	_	
+5-7	for	O	O	O	_	_	
+5-8	any	O	O	O	_	_	
+5-9	contraband	B-webanno.custom.Participants_	B-MissScrPart	O	_	_	
+5-10	that	O	O	O	_	_	
+5-11	would	O	O	O	_	_	
+5-12	not	O	O	O	_	_	
+5-13	be	O	O	O	_	_	
+5-14	allowed	O	O	B-UnrelEv	_	_	
+5-15	on	O	O	O	_	_	
+5-16	the	O	O	O	_	_	
+5-17	plane	B-webanno.custom.Participants_	B-ScrPart_airport	O	webanno.custom.Corefchains_	1-23	
+5-18	,	O	O	O	_	_	
+5-19	and	O	O	O	_	_	
+5-20	then	O	O	O	_	_	
+5-21	waited	O	O	B-ScrEv_wait_boarding	_	_	
+5-22	to	O	O	O	_	_	
+5-23	be	O	O	O	_	_	
+5-24	allowed	O	O	B-UnrelEv	_	_	
+5-25	to	O	O	O	_	_	
+5-26	board	O	O	B-ScrEv_board_plane	_	_	
+5-27	.	O	O	O	_	_	
+
+#id=6
+#text=Once we were let on the plane , I walked over to my seat and shoved my suitcase into the overhead compartment .
+6-1	Once	O	O	O	_	_	
+6-2	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+6-3	were	O	O	O	_	_	
+6-4	let	O	O	B-ScrEv_board_plane|B-ScrEv_board_plane	_	_	
+6-5	on	O	O	I-ScrEv_board_plane	_	_	
+6-6	the	O	O	O	_	_	
+6-7	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	5-17	
+6-8	,	O	O	O	_	_	
+6-9	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-1	
+6-10	walked	O	O	B-ScrEv_take_seat|B-ScrEv_take_seat	_	_	
+6-11	over	O	O	I-ScrEv_take_seat	_	_	
+6-12	to	O	O	O	_	_	
+6-13	my	O	O	O	_	_	
+6-14	seat	B-webanno.custom.Participants_	B-ScrPart_seat	O	_	_	
+6-15	and	O	O	O	_	_	
+6-16	shoved	O	O	B-ScrEv_stow_away_luggage	_	_	
+6-17	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-9	
+6-18	suitcase	B-webanno.custom.Participants_	B-ScrPart_carry_on_luggage	O	_	_	
+6-19	into	O	O	O	_	_	
+6-20	the	O	O	O	_	_	
+6-21	overhead	B-webanno.custom.Participants_	B-MissScrPart	O	_	_	
+6-22	compartment	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-MissScrPart|B-MissScrPart	O	_	_	
+6-23	.	O	O	O	_	_	
+
+#id=7
+#text=Luckily it fit , so I would be able to keep it with me .
+7-1	Luckily	O	O	O	_	_	
+7-2	it	B-webanno.custom.Participants_	B-ScrPart_carry_on_luggage	O	webanno.custom.Corefchains_	6-18	
+7-3	fit	O	O	B-RelNScrEv	_	_	
+7-4	,	O	O	O	_	_	
+7-5	so	O	O	O	_	_	
+7-6	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-17	
+7-7	would	O	O	O	_	_	
+7-8	be	O	O	B-UnrelEv	_	_	
+7-9	able	O	O	O	_	_	
+7-10	to	O	O	O	_	_	
+7-11	keep	O	O	B-RelNScrEv	_	_	
+7-12	it	B-webanno.custom.Participants_	B-ScrPart_carry_on_luggage	O	webanno.custom.Corefchains_	7-2	
+7-13	with	O	O	O	_	_	
+7-14	me	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-6	
+7-15	.	O	O	O	_	_	
+
+#id=8
+#text=I snuggled into my seat and tried to ignore the butterflies in my stomach .
+8-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-14	
+8-2	snuggled	O	O	B-RelNScrEv	_	_	
+8-3	into	O	O	O	_	_	
+8-4	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-1	
+8-5	seat	B-webanno.custom.Participants_	B-ScrPart_seat	O	_	_	
+8-6	and	O	O	O	_	_	
+8-7	tried	O	O	B-UnrelEv	_	_	
+8-8	to	O	O	O	_	_	
+8-9	ignore	O	O	B-UnrelEv	_	_	
+8-10	the	O	O	O	_	_	
+8-11	butterflies	B-webanno.custom.Participants_	B-NPart	O	_	_	
+8-12	in	O	O	O	_	_	
+8-13	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-4	
+8-14	stomach	B-webanno.custom.Participants_	B-NPart	O	_	_	
+8-15	.	O	O	O	_	_	
+
+#id=9
+#text=Flying always makes me nervous .
+9-1	Flying	O	O	B-RelNScrEv	_	_	
+9-2	always	O	O	O	_	_	
+9-3	makes	O	O	B-RelNScrEv	_	_	
+9-4	me	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-13	
+9-5	nervous	O	O	O	_	_	
+9-6	.	O	O	O	_	_	
+
+#id=10
+#text=The person seated directly next to me was a middle aged woman flying alone .
+10-1	The	O	O	O	_	_	
+10-2	person	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+10-3	seated	O	O	B-RelNScrEv	_	_	
+10-4	directly	O	O	O	_	_	
+10-5	next	O	O	O	_	_	
+10-6	to	O	O	O	_	_	
+10-7	me	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-4	
+10-8	was	O	O	O	_	_	
+10-9	a	O	O	O	_	_	
+10-10	middle	O	O	O	_	_	
+10-11	aged	O	O	O	_	_	
+10-12	woman	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-2	
+10-13	flying	O	O	B-RelNScrEv	_	_	
+10-14	alone	O	O	O	_	_	
+10-15	.	O	O	O	_	_	
+
+#id=11
+#text=She gave me a sympathetic smile and asked me if I was as nervous as she was .
+11-1	She	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-12	
+11-2	gave	O	O	B-UnrelEv	_	_	
+11-3	me	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-7	
+11-4	a	O	O	O	_	_	
+11-5	sympathetic	O	O	O	_	_	
+11-6	smile	O	O	O	_	_	
+11-7	and	O	O	O	_	_	
+11-8	asked	O	O	B-UnrelEv	_	_	
+11-9	me	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	11-3	
+11-10	if	O	O	O	_	_	
+11-11	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	11-9	
+11-12	was	O	O	B-UnrelEv	_	_	
+11-13	as	O	O	O	_	_	
+11-14	nervous	O	O	O	_	_	
+11-15	as	O	O	O	_	_	
+11-16	she	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	11-1	
+11-17	was	O	O	B-UnrelEv	_	_	
+11-18	.	O	O	O	_	_	
+
+#id=12
+#text=I said yes , and I think we both felt better that at least we would be good seatmates .
+12-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	11-11	
+12-2	said	O	O	B-UnrelEv	_	_	
+12-3	yes	O	O	O	_	_	
+12-4	,	O	O	O	_	_	
+12-5	and	O	O	O	_	_	
+12-6	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	12-1	
+12-7	think	O	O	B-UnrelEv	_	_	
+12-8	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	group_I_woman|group_I_woman	11-16|12-6	
+12-9	both	O	O	O	_	_	
+12-10	felt	O	O	B-UnrelEv	_	_	
+12-11	better	O	O	O	_	_	
+12-12	that	O	O	O	_	_	
+12-13	at	O	O	O	_	_	
+12-14	least	O	O	O	_	_	
+12-15	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	group_I_woman	12-8	
+12-16	would	O	O	O	_	_	
+12-17	be	O	O	B-UnrelEv	_	_	
+12-18	good	O	O	O	_	_	
+12-19	seatmates	B-webanno.custom.Participants_	B-ScrPart_passenger	O	group_I_woman	12-15	
+12-20	.	O	O	O	_	_	
+
+#id=13
+#text=The plane ride was uneventful ; after five hours in the air , we landed at our destination in one piece . 
+13-1	The	O	O	O	_	_	
+13-2	plane	B-webanno.custom.Participants_	B-ScrPart_flight	O	_	_	
+13-3	ride	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_flight|B-ScrPart_flight	O	_	_	
+13-4	was	O	O	B-UnrelEv	_	_	
+13-5	uneventful	O	O	O	_	_	
+13-6	;	O	O	O	_	_	
+13-7	after	O	O	O	_	_	
+13-8	five	O	O	O	_	_	
+13-9	hours	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+13-10	in	O	O	O	_	_	
+13-11	the	O	O	O	_	_	
+13-12	air	B-webanno.custom.Participants_	B-ScrPart_location_airplane	O	_	_	
+13-13	,	O	O	O	_	_	
+13-14	we	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	6-7	
+13-15	landed	O	O	B-ScrEv_landing	_	_	
+13-16	at	O	O	O	_	_	
+13-17	our	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	13-14	
+13-18	destination	B-webanno.custom.Participants_	B-ScrPart_target_location	O	_	_	
+13-19	in	O	O	O	_	_	
+13-20	one	O	O	O	_	_	
+13-21	piece	B-webanno.custom.Participants_	B-NPart	O	_	_	
+13-22	.	O	O	O	_	_	
+

@@ -1,0 +1,210 @@
+ # webanno.custom.Participants | Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=One day , a friend and I decided to bake a cake .
+1-1	One	O	O	O	_	_	
+1-2	day	O	O	O	_	_	
+1-3	,	O	O	O	_	_	
+1-4	a	B-ScrPart_cook|B-ScrPart_cook	B-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+1-5	friend	I-ScrPart_cook|I-ScrPart_cook	I-webanno.custom.Participants_|I-webanno.custom.Participants_	O	_	_	
+1-6	and	I-ScrPart_cook	I-webanno.custom.Participants_	O	_	_	
+1-7	I	I-ScrPart_cook|B-ScrPart_cook	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+1-8	decided	O	O	B-UnrelEv	_	_	
+1-9	to	O	O	O	_	_	
+1-10	bake	O	O	B-Evoking	_	_	
+1-11	a	O	O	I-Evoking	_	_	
+1-12	cake	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	_	_	
+1-13	.	O	O	O	_	_	
+
+#id=2
+#text=We first looked up ingredients online to make the type of cake we wanted .
+2-1	We	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	1-4	
+2-2	first	O	O	O	_	_	
+2-3	looked	O	O	B-ScrEv_choose_recipe|B-ScrEv_choose_recipe	_	_	
+2-4	up	O	O	I-ScrEv_choose_recipe	_	_	
+2-5	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+2-6	online	B-ScrPart_recipe_source	B-webanno.custom.Participants_	O	_	_	
+2-7	to	O	O	O	_	_	
+2-8	make	O	O	B-RelNScrEv	_	_	
+2-9	the	O	O	O	_	_	
+2-10	type	O	O	O	_	_	
+2-11	of	O	O	O	_	_	
+2-12	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	1-12	
+2-13	we	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	2-1	
+2-14	wanted	O	O	B-UnrelEv	_	_	
+2-15	.	O	O	O	_	_	
+
+#id=3
+#text=Then we went to the supermarket and bought all of them .
+3-1	Then	O	O	O	_	_	
+3-2	we	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	2-13	
+3-3	went	O	O	B-MissScrEvent	_	_	
+3-4	to	O	O	O	_	_	
+3-5	the	O	O	O	_	_	
+3-6	supermarket	B-ScrPart_store	B-webanno.custom.Participants_	O	_	_	
+3-7	and	O	O	O	_	_	
+3-8	bought	O	O	B-ScrEv_get_ingredients	_	_	
+3-9	all	O	O	O	_	_	
+3-10	of	O	O	O	_	_	
+3-11	them	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	2-5	
+3-12	.	O	O	O	_	_	
+
+#id=4
+#text=After bringing all of our ingredients home , we followed the recipe instructions closely to ensure we were not doing anything wrong .
+4-1	After	O	O	O	_	_	
+4-2	bringing	O	O	B-MissScrEvent	_	_	
+4-3	all	O	O	O	_	_	
+4-4	of	O	O	O	_	_	
+4-5	our	O	O	O	_	_	
+4-6	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	3-11	
+4-7	home	B-ScrPart_kitchen/location	B-webanno.custom.Participants_	O	_	_	
+4-8	,	O	O	O	_	_	
+4-9	we	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	3-2	
+4-10	followed	O	O	B-RelNScrEv	_	_	
+4-11	the	O	O	O	_	_	
+4-12	recipe	B-ScrPart_baking_instructions	B-webanno.custom.Participants_	O	_	_	
+4-13	instructions	I-ScrPart_baking_instructions|B-ScrPart_baking_instructions	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+4-14	closely	O	O	O	_	_	
+4-15	to	O	O	O	_	_	
+4-16	ensure	O	O	B-UnrelEv	_	_	
+4-17	we	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	4-9	
+4-18	were	O	O	O	_	_	
+4-19	not	O	O	O	_	_	
+4-20	doing	O	O	B-UnrelEv	_	_	
+4-21	anything	O	O	O	_	_	
+4-22	wrong	O	O	O	_	_	
+4-23	.	O	O	O	_	_	
+
+#id=5
+#text=We put our ingredients together to make sure they were at the right temperature , preheated the oven , and pulled out the proper utensils .
+5-1	We	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	4-17	
+5-2	put	O	O	B-ScrEv_prepare_ingredients	_	_	
+5-3	our	O	O	O	_	_	
+5-4	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+5-5	together	O	O	O	_	_	
+5-6	to	O	O	O	_	_	
+5-7	make	O	O	B-UnrelEv|B-UnrelEv	_	_	
+5-8	sure	O	O	I-UnrelEv	_	_	
+5-9	they	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-4	
+5-10	were	O	O	O	_	_	
+5-11	at	O	O	O	_	_	
+5-12	the	O	O	O	_	_	
+5-13	right	O	O	O	_	_	
+5-14	temperature	B-ScrPart_temperature	B-webanno.custom.Participants_	O	_	_	
+5-15	,	O	O	O	_	_	
+5-16	preheated	O	O	B-ScrEv_preheat	_	_	
+5-17	the	O	O	O	_	_	
+5-18	oven	B-ScrPart_oven	B-webanno.custom.Participants_	O	_	_	
+5-19	,	O	O	O	_	_	
+5-20	and	O	O	O	_	_	
+5-21	pulled	O	O	B-ScrEv_get_utensils|B-ScrEv_get_utensils	_	_	
+5-22	out	O	O	I-ScrEv_get_utensils	_	_	
+5-23	the	O	O	O	_	_	
+5-24	proper	O	O	O	_	_	
+5-25	utensils	B-ScrPart_utensil	B-webanno.custom.Participants_	O	_	_	
+5-26	.	O	O	O	_	_	
+
+#id=6
+#text=We then prepared the batter using eggs and some other materials we purchased and then poured them into a pan .
+6-1	We	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-1	
+6-2	then	O	O	O	_	_	
+6-3	prepared	O	O	B-ScrEv_make_dough	_	_	
+6-4	the	O	O	O	_	_	
+6-5	batter	B-ScrPart_dough	B-webanno.custom.Participants_	O	_	_	
+6-6	using	O	O	B-UnrelEv	_	_	
+6-7	eggs	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+6-8	and	O	O	O	_	_	
+6-9	some	O	O	O	_	_	
+6-10	other	O	O	O	_	_	
+6-11	materials	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+6-12	we	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	6-1	
+6-13	purchased	O	O	B-UnrelEv	_	_	
+6-14	and	O	O	O	_	_	
+6-15	then	O	O	O	_	_	
+6-16	poured	O	O	B-ScrEv_pour_dough	_	_	
+6-17	them	B-ScrPart_dough	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	6-5	
+6-18	into	O	O	O	_	_	
+6-19	a	O	O	O	_	_	
+6-20	pan	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	_	_	
+6-21	.	O	O	O	_	_	
+
+#id=7
+#text=We then put the pan in the oven and baked it according to the instructions .
+7-1	We	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	6-12	
+7-2	then	O	O	O	_	_	
+7-3	put	O	O	B-ScrEv_put_cake_oven	_	_	
+7-4	the	O	O	O	_	_	
+7-5	pan	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	_	_	
+7-6	in	O	O	O	_	_	
+7-7	the	O	O	O	_	_	
+7-8	oven	B-ScrPart_oven	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-18	
+7-9	and	O	O	O	_	_	
+7-10	baked	O	O	B-RelNScrEv	_	_	
+7-11	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	2-12	
+7-12	according	O	O	O	_	_	
+7-13	to	O	O	O	_	_	
+7-14	the	O	O	O	_	_	
+7-15	instructions	B-ScrPart_baking_instructions	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	4-13	
+7-16	.	O	O	O	_	_	
+
+#id=8
+#text=After baking the cake in the oven for the time the recipe told us too , we then double checked to make sure it was done by pushing a knife into the center .
+8-1	After	O	O	O	_	_	
+8-2	baking	O	O	B-Evoking	_	_	
+8-3	the	O	O	I-Evoking	_	_	
+8-4	cake	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	webanno.custom.Corefchains_	7-11	
+8-5	in	O	O	O	_	_	
+8-6	the	O	O	O	_	_	
+8-7	oven	B-ScrPart_oven	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	7-8	
+8-8	for	O	O	O	_	_	
+8-9	the	O	O	O	_	_	
+8-10	time	O	O	O	_	_	
+8-11	the	O	O	O	_	_	
+8-12	recipe	B-ScrPart_baking_instructions	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	7-15	
+8-13	told	O	O	B-UnrelEv	_	_	
+8-14	us	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	7-1	
+8-15	too	O	O	O	_	_	
+8-16	,	O	O	O	_	_	
+8-17	we	O	O	O	_	_	
+8-18	then	O	O	O	_	_	
+8-19	double	O	O	O	_	_	
+8-20	checked	O	O	B-ScrEv_check	_	_	
+8-21	to	O	O	O	_	_	
+8-22	make	O	O	B-UnrelEv|B-UnrelEv	_	_	
+8-23	sure	O	O	I-UnrelEv	_	_	
+8-24	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	8-4	
+8-25	was	O	O	O	_	_	
+8-26	done	O	O	B-UnrelEv	_	_	
+8-27	by	O	O	O	_	_	
+8-28	pushing	O	O	B-ScrEv_check	_	_	
+8-29	a	O	O	O	_	_	
+8-30	knife	B-ScrPart_utensil	B-webanno.custom.Participants_	O	_	_	
+8-31	into	O	O	O	_	_	
+8-32	the	O	O	O	_	_	
+8-33	center	B-NPart	B-webanno.custom.Participants_	O	_	_	
+8-34	.	O	O	O	_	_	
+
+#id=9
+#text=We saw some crumbs sticking to the knife when we pulled it out so we knew it was ready to eat ! 
+9-1	We	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	8-14	
+9-2	saw	O	O	B-UnrelEv	_	_	
+9-3	some	O	O	O	_	_	
+9-4	crumbs	B-NPart	B-webanno.custom.Participants_	O	_	_	
+9-5	sticking	O	O	O	_	_	
+9-6	to	O	O	O	_	_	
+9-7	the	O	O	O	_	_	
+9-8	knife	B-ScrPart_utensil	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	8-30	
+9-9	when	O	O	O	_	_	
+9-10	we	O	O	O	_	_	
+9-11	pulled	O	O	B-UnrelEv	_	_	
+9-12	it	B-ScrPart_utensil	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	9-8	
+9-13	out	O	O	O	_	_	
+9-14	so	O	O	O	_	_	
+9-15	we	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	9-1	
+9-16	knew	O	O	O	_	_	
+9-17	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	8-24	
+9-18	was	O	O	B-UnrelEv	_	_	
+9-19	ready	O	O	O	_	_	
+9-20	to	O	O	O	_	_	
+9-21	eat	O	O	B-ScrEv_eat	_	_	
+9-22	!	O	O	O	_	_	
+

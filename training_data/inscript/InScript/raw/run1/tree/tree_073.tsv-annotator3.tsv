@@ -1,0 +1,192 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Unfortunately my poor dog just passed away .
+1-1	Unfortunately	O	O	_	_	
+1-2	my	B-ScrPart_gardener	O	_	_	
+1-3	poor	O	O	_	_	
+1-4	dog	O	O	_	_	
+1-5	just	O	O	_	_	
+1-6	passed	O	B-UnrelEv|B-UnrelEv	_	_	
+1-7	away	O	I-UnrelEv	_	_	
+1-8	.	O	O	_	_	
+
+#id=2
+#text=He was a good and loyal friend who never failed to alert me if someone came on my property .
+2-1	He	O	O	_	_	
+2-2	was	O	B-UnrelEv	_	_	
+2-3	a	O	O	_	_	
+2-4	good	O	O	_	_	
+2-5	and	O	O	_	_	
+2-6	loyal	O	O	_	_	
+2-7	friend	O	O	_	_	
+2-8	who	O	O	_	_	
+2-9	never	O	O	_	_	
+2-10	failed	O	B-UnrelEv	_	_	
+2-11	to	O	O	_	_	
+2-12	alert	O	B-UnrelEv	_	_	
+2-13	me	B-ScrPart_gardener	O	webanno.custom.Corefchains_	1-2	
+2-14	if	O	O	_	_	
+2-15	someone	O	O	_	_	
+2-16	came	O	B-UnrelEv	_	_	
+2-17	on	O	O	_	_	
+2-18	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	2-13	
+2-19	property	O	O	_	_	
+2-20	.	O	O	_	_	
+
+#id=3
+#text=As I was looking upon his poor stiffening body I could not find a way to say goodbye to such a great creature .
+3-1	As	O	O	_	_	
+3-2	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	2-18	
+3-3	was	O	O	_	_	
+3-4	looking	O	B-UnrelEv	_	_	
+3-5	upon	O	O	_	_	
+3-6	his	O	O	_	_	
+3-7	poor	O	O	_	_	
+3-8	stiffening	O	B-UnrelEv	_	_	
+3-9	body	O	O	_	_	
+3-10	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	3-2	
+3-11	could	O	O	_	_	
+3-12	not	O	O	_	_	
+3-13	find	O	B-UnrelEv	_	_	
+3-14	a	O	O	_	_	
+3-15	way	O	O	_	_	
+3-16	to	O	O	_	_	
+3-17	say	O	B-UnrelEv	_	_	
+3-18	goodbye	O	O	_	_	
+3-19	to	O	O	_	_	
+3-20	such	O	O	_	_	
+3-21	a	O	O	_	_	
+3-22	great	O	O	_	_	
+3-23	creature	O	O	_	_	
+3-24	.	O	O	_	_	
+
+#id=4
+#text=Finally I decided to bury him in the front yard of the house he had so faithfully guarded for many , many years .
+4-1	Finally	O	O	_	_	
+4-2	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	3-10	
+4-3	decided	O	B-UnrelEv	_	_	
+4-4	to	O	O	_	_	
+4-5	bury	O	B-UnrelEv	_	_	
+4-6	him	O	O	_	_	
+4-7	in	O	O	_	_	
+4-8	the	O	O	_	_	
+4-9	front	B-ScrPart_location_garden	O	_	_	
+4-10	yard	I-ScrPart_location_garden|B-ScrPart_location_garden	O	_	_	
+4-11	of	O	O	_	_	
+4-12	the	O	O	_	_	
+4-13	house	O	O	_	_	
+4-14	he	O	O	_	_	
+4-15	had	O	O	_	_	
+4-16	so	O	O	_	_	
+4-17	faithfully	O	O	_	_	
+4-18	guarded	O	B-UnrelEv	_	_	
+4-19	for	O	O	_	_	
+4-20	many	O	O	_	_	
+4-21	,	O	O	_	_	
+4-22	many	O	O	_	_	
+4-23	years	O	O	_	_	
+4-24	.	O	O	_	_	
+
+#id=5
+#text=I went to the store and purchased a black cherry tree .
+5-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	4-2	
+5-2	went	O	B-UnrelEv	_	_	
+5-3	to	O	O	_	_	
+5-4	the	O	O	_	_	
+5-5	store	O	O	_	_	
+5-6	and	O	O	_	_	
+5-7	purchased	O	B-ScrEv_get_tree	_	_	
+5-8	a	O	O	_	_	
+5-9	black	B-ScrPart_tree	O	_	_	
+5-10	cherry	I-ScrPart_tree	O	_	_	
+5-11	tree	I-ScrPart_tree|B-ScrPart_tree	O	_	_	
+5-12	.	O	O	_	_	
+
+#id=6
+#text=I dug a hole and placed his carefully and lovingly wrapped body in to the hole .
+6-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	5-1	
+6-2	dug	O	B-ScrEv_dug_hole	_	_	
+6-3	a	O	O	_	_	
+6-4	hole	B-ScrPart_hole	O	_	_	
+6-5	and	O	O	_	_	
+6-6	placed	O	B-UnrelEv	_	_	
+6-7	his	O	O	_	_	
+6-8	carefully	O	O	_	_	
+6-9	and	O	O	_	_	
+6-10	lovingly	O	O	_	_	
+6-11	wrapped	O	O	_	_	
+6-12	body	O	O	_	_	
+6-13	in	O	O	_	_	
+6-14	to	O	O	_	_	
+6-15	the	O	O	_	_	
+6-16	hole	B-ScrPart_hole	O	webanno.custom.Corefchains_	6-4	
+6-17	.	O	O	_	_	
+
+#id=7
+#text=I then placed the cherry tree on top of where he lay for eternal rest and watered it and staked it and placed a small fence around it .
+7-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	6-1	
+7-2	then	O	O	_	_	
+7-3	placed	O	B-ScrEv_place_root	_	_	
+7-4	the	O	O	_	_	
+7-5	cherry	B-ScrPart_tree	O	_	_	
+7-6	tree	I-ScrPart_tree|B-ScrPart_tree	O	webanno.custom.Corefchains_	5-11	
+7-7	on	O	O	_	_	
+7-8	top	O	O	_	_	
+7-9	of	O	O	_	_	
+7-10	where	O	O	_	_	
+7-11	he	O	O	_	_	
+7-12	lay	O	O	_	_	
+7-13	for	O	O	_	_	
+7-14	eternal	O	O	_	_	
+7-15	rest	O	O	_	_	
+7-16	and	O	O	_	_	
+7-17	watered	O	B-ScrEv_water	_	_	
+7-18	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	7-6	
+7-19	and	O	O	_	_	
+7-20	staked	O	B-MissScrEv	_	_	
+7-21	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	7-18	
+7-22	and	O	O	_	_	
+7-23	placed	O	B-RelNScrEv	_	_	
+7-24	a	O	O	_	_	
+7-25	small	O	O	_	_	
+7-26	fence	B-MissScrPart	O	_	_	
+7-27	around	O	O	_	_	
+7-28	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	7-21	
+7-29	.	O	O	_	_	
+
+#id=8
+#text=Now as the tree grows it will absorb my frind and in a sense he will always be there to watch over my home and the yard he loved to play in . 
+8-1	Now	O	O	_	_	
+8-2	as	O	O	_	_	
+8-3	the	O	O	_	_	
+8-4	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	7-28	
+8-5	grows	O	B-RelNScrEv	_	_	
+8-6	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	8-4	
+8-7	will	O	O	_	_	
+8-8	absorb	O	B-UnrelEv	_	_	
+8-9	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	7-1	
+8-10	frind	O	O	_	_	
+8-11	and	O	O	_	_	
+8-12	in	O	O	_	_	
+8-13	a	O	O	_	_	
+8-14	sense	O	O	_	_	
+8-15	he	O	O	_	_	
+8-16	will	O	O	_	_	
+8-17	always	O	O	_	_	
+8-18	be	O	B-UnrelEv	_	_	
+8-19	there	O	O	_	_	
+8-20	to	O	O	_	_	
+8-21	watch	O	B-UnrelEv	_	_	
+8-22	over	O	O	_	_	
+8-23	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	8-9	
+8-24	home	O	O	_	_	
+8-25	and	O	O	_	_	
+8-26	the	O	O	_	_	
+8-27	yard	O	O	_	_	
+8-28	he	O	O	_	_	
+8-29	loved	O	B-UnrelEv	_	_	
+8-30	to	O	O	_	_	
+8-31	play	O	B-UnrelEv	_	_	
+8-32	in	O	O	_	_	
+8-33	.	O	O	_	_	
+

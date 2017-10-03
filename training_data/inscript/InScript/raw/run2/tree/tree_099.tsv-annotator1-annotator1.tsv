@@ -1,0 +1,296 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=Last year when I worked for a friend doing landscaping jobs , we often had to plant trees .
+1-1	Last	O	O	
+1-2	year	B-ScrPart_time	O	
+1-3	when	O	O	
+1-4	I	B-ScrPart_gardener	O	
+1-5	worked	O	B-UnrelEv	
+1-6	for	O	O	
+1-7	a	O	O	
+1-8	friend	B-ScrPart_gardener	O	
+1-9	doing	O	B-UnrelEv	
+1-10	landscaping	B-NPart	O	
+1-11	jobs	I-NPart|B-NPart	O	
+1-12	,	O	O	
+1-13	we	B-ScrPart_gardener	O	
+1-14	often	O	O	
+1-15	had	O	O	
+1-16	to	O	O	
+1-17	plant	O	B-Evoking	
+1-18	trees	B-ScrPart_tree	I-Evoking	
+1-19	.	O	O	
+
+#id=2
+#text=Generally , we would choose a tree from a near by plant store based on what our customer desired .
+2-1	Generally	O	O	
+2-2	,	O	O	
+2-3	we	B-ScrPart_gardener	O	
+2-4	would	O	O	
+2-5	choose	O	B-ScrEv_choose_tree	
+2-6	a	O	O	
+2-7	tree	B-ScrPart_tree	O	
+2-8	from	O	O	
+2-9	a	O	O	
+2-10	near	O	O	
+2-11	by	O	O	
+2-12	plant	B-ScrPart_shop	O	
+2-13	store	I-ScrPart_shop|B-ScrPart_shop	O	
+2-14	based	O	B-UnrelEv	
+2-15	on	O	O	
+2-16	what	O	O	
+2-17	our	B-ScrPart_gardener	O	
+2-18	customer	B-???	O	
+2-19	desired	O	B-UnrelEv	
+2-20	.	O	O	
+
+#id=3
+#text=Trees can be purchased at all different ages , from very small to the size of a large pot .
+3-1	Trees	B-ScrPart_tree	O	
+3-2	can	O	O	
+3-3	be	O	O	
+3-4	purchased	O	B-ScrEv_get_tree	
+3-5	at	O	O	
+3-6	all	O	O	
+3-7	different	O	O	
+3-8	ages	B-NPart	O	
+3-9	,	O	O	
+3-10	from	O	O	
+3-11	very	O	O	
+3-12	small	O	O	
+3-13	to	O	O	
+3-14	the	O	O	
+3-15	size	B-No_label	O	
+3-16	of	O	O	
+3-17	a	O	O	
+3-18	large	O	O	
+3-19	pot	B-NPart	O	
+3-20	.	O	O	
+
+#id=4
+#text=Then , after buying the tree or trees , we would purchase mulch , or fertilizer , to give the tree the proper nutrients so it can grow big and strong .
+4-1	Then	O	O	
+4-2	,	O	O	
+4-3	after	O	O	
+4-4	buying	O	B-ScrEv_get_tree	
+4-5	the	O	O	
+4-6	tree	B-ScrPart_tree	O	
+4-7	or	O	O	
+4-8	trees	B-ScrPart_tree	O	
+4-9	,	O	O	
+4-10	we	B-ScrPart_gardener	O	
+4-11	would	O	O	
+4-12	purchase	O	B-ScrEv_other	
+4-13	mulch	B-ScrPart_fertilizer	O	
+4-14	,	O	O	
+4-15	or	O	O	
+4-16	fertilizer	B-ScrPart_fertilizer	O	
+4-17	,	O	O	
+4-18	to	O	O	
+4-19	give	O	B-ScrEv_place_fertilizers	
+4-20	the	O	O	
+4-21	tree	B-ScrPart_tree	O	
+4-22	the	O	O	
+4-23	proper	O	O	
+4-24	nutrients	B-ScrPart_fertilizer	O	
+4-25	so	O	O	
+4-26	it	B-ScrPart_tree	O	
+4-27	can	O	O	
+4-28	grow	O	B-RelNScrEv	
+4-29	big	O	O	
+4-30	and	O	O	
+4-31	strong	O	O	
+4-32	.	O	O	
+
+#id=5
+#text=After the tree and fertilizer is purchased , we were off the house to perform our various activities .
+5-1	After	O	O	
+5-2	the	O	O	
+5-3	tree	B-ScrPart_tree	O	
+5-4	and	O	O	
+5-5	fertilizer	B-ScrPart_fertilizer	O	
+5-6	is	O	O	
+5-7	purchased	O	B-ScrEv_get_tree	
+5-8	,	O	O	
+5-9	we	B-ScrPart_gardener	O	
+5-10	were	O	B-UnrelEv	
+5-11	off	O	O	
+5-12	the	O	O	
+5-13	house	B-NPart	O	
+5-14	to	O	O	
+5-15	perform	O	B-UnrelEv	
+5-16	our	B-ScrPart_gardener	O	
+5-17	various	O	O	
+5-18	activities	B-NPart	O	
+5-19	.	O	O	
+
+#id=6
+#text=We lived in a desert environment , so we first had to push all the rocks out of the way with either a rake , a hoe , or one of our other tools .
+6-1	We	B-ScrPart_gardener	O	
+6-2	lived	O	B-UnrelEv	
+6-3	in	O	O	
+6-4	a	O	O	
+6-5	desert	B-NPart	O	
+6-6	environment	I-NPart|B-NPart	O	
+6-7	,	O	O	
+6-8	so	O	O	
+6-9	we	B-ScrPart_gardener	O	
+6-10	first	O	O	
+6-11	had	O	O	
+6-12	to	O	O	
+6-13	push	O	B-ScrEv_other	
+6-14	all	O	O	
+6-15	the	O	O	
+6-16	rocks	B-ScrPart_other	O	
+6-17	out	O	O	
+6-18	of	O	O	
+6-19	the	O	O	
+6-20	way	B-No_label	O	
+6-21	with	O	O	
+6-22	either	O	O	
+6-23	a	O	O	
+6-24	rake	B-ScrPart_gardening_tool	O	
+6-25	,	O	O	
+6-26	a	O	O	
+6-27	hoe	B-ScrPart_gardening_tool	O	
+6-28	,	O	O	
+6-29	or	O	O	
+6-30	one	O	O	
+6-31	of	O	O	
+6-32	our	B-ScrPart_gardener	O	
+6-33	other	O	O	
+6-34	tools	B-ScrPart_gardening_tool	O	
+6-35	.	O	O	
+
+#id=7
+#text=After clearing the area in the yard for the tree , we then took our shovels and started digging away in the area chosen to plant the tree .
+7-1	After	O	O	
+7-2	clearing	O	B-ScrEv_other	
+7-3	the	O	O	
+7-4	area	B-ScrPart_location_garden	O	
+7-5	in	O	O	
+7-6	the	O	O	
+7-7	yard	B-ScrPart_location_garden	O	
+7-8	for	O	O	
+7-9	the	O	O	
+7-10	tree	B-ScrPart_tree	O	
+7-11	,	O	O	
+7-12	we	B-ScrPart_gardener	O	
+7-13	then	O	O	
+7-14	took	O	B-ScrEv_get_tools	
+7-15	our	B-ScrPart_gardener	O	
+7-16	shovels	B-ScrPart_gardening_tool	O	
+7-17	and	O	O	
+7-18	started	O	B-UnrelEv	
+7-19	digging	O	B-ScrEv_dug_hole|B-ScrEv_dug_hole	
+7-20	away	O	I-ScrEv_dug_hole	
+7-21	in	O	O	
+7-22	the	O	O	
+7-23	area	B-ScrPart_location_garden	O	
+7-24	chosen	O	B-ScrEv_find_place	
+7-25	to	O	O	
+7-26	plant	O	B-Evoking	
+7-27	the	O	I-Evoking	
+7-28	tree	B-ScrPart_tree	I-Evoking	
+7-29	.	O	O	
+
+#id=8
+#text=We had to dig our hole big enough so that the entire bottom of the tree with roots and dirt fits snugly into the ground .
+8-1	We	B-ScrPart_gardener	O	
+8-2	had	O	O	
+8-3	to	O	O	
+8-4	dig	O	B-ScrEv_dug_hole	
+8-5	our	B-ScrPart_gardener	O	
+8-6	hole	B-ScrPart_hole	O	
+8-7	big	O	O	
+8-8	enough	O	O	
+8-9	so	O	O	
+8-10	that	O	O	
+8-11	the	O	O	
+8-12	entire	O	O	
+8-13	bottom	B-Head_of_Partitive	O	
+8-14	of	O	O	
+8-15	the	O	O	
+8-16	tree	B-ScrPart_tree	O	
+8-17	with	O	O	
+8-18	roots	B-ScrPart_root	O	
+8-19	and	O	O	
+8-20	dirt	B-ScrPart_dirt	O	
+8-21	fits	O	B-RelNScrEv	
+8-22	snugly	O	O	
+8-23	into	O	O	
+8-24	the	O	O	
+8-25	ground	B-ScrPart_hole	O	
+8-26	.	O	O	
+
+#id=9
+#text=After that is done , we would fill the hole with a mixture of mulch and the dirt we pulled up when we first shoveled our hole open .
+9-1	After	O	O	
+9-2	that	O	O	
+9-3	is	O	O	
+9-4	done	O	B-UnrelEv	
+9-5	,	O	O	
+9-6	we	B-ScrPart_gardener	O	
+9-7	would	O	O	
+9-8	fill	O	B-ScrEv_place_fertilizers	
+9-9	the	O	O	
+9-10	hole	B-ScrPart_hole	O	
+9-11	with	O	O	
+9-12	a	O	O	
+9-13	mixture	B-Head_of_Partitive	O	
+9-14	of	O	O	
+9-15	mulch	B-ScrPart_fertilizer	O	
+9-16	and	O	O	
+9-17	the	O	O	
+9-18	dirt	B-ScrPart_dirt	O	
+9-19	we	B-ScrPart_gardener	O	
+9-20	pulled	O	B-ScrEv_get_tools|B-ScrEv_get_tools	
+9-21	up	O	I-ScrEv_get_tools	
+9-22	when	O	O	
+9-23	we	B-ScrPart_gardener	O	
+9-24	first	O	O	
+9-25	shoveled	O	B-ScrEv_dug_hole	
+9-26	our	B-ScrPart_gardener	O	
+9-27	hole	B-ScrPart_hole	O	
+9-28	open	O	O	
+9-29	.	O	O	
+
+#id=10
+#text=After the tree has been firmly planted , we either had to turn on the sprinklers in the lawn , or find the nearest hose and water the plants for about five to ten minutes . 
+10-1	After	O	O	
+10-2	the	O	O	
+10-3	tree	B-ScrPart_tree	O	
+10-4	has	O	O	
+10-5	been	O	O	
+10-6	firmly	O	O	
+10-7	planted	O	B-ScrEv_place_root	
+10-8	,	O	O	
+10-9	we	B-ScrPart_gardener	O	
+10-10	either	O	O	
+10-11	had	O	O	
+10-12	to	O	O	
+10-13	turn	O	B-ScrEv_water|B-ScrEv_water	
+10-14	on	O	I-ScrEv_water	
+10-15	the	O	O	
+10-16	sprinklers	B-ScrPart_gardening_tool	O	
+10-17	in	O	O	
+10-18	the	O	O	
+10-19	lawn	B-ScrPart_location_garden	O	
+10-20	,	O	O	
+10-21	or	O	O	
+10-22	find	O	B-ScrEv_get_tools	
+10-23	the	O	O	
+10-24	nearest	O	O	
+10-25	hose	B-ScrPart_gardening_tool	O	
+10-26	and	O	O	
+10-27	water	O	B-ScrEv_water	
+10-28	the	O	O	
+10-29	plants	B-ScrPart_tree	O	
+10-30	for	O	O	
+10-31	about	O	O	
+10-32	five	O	O	
+10-33	to	O	O	
+10-34	ten	O	O	
+10-35	minutes	B-ScrPart_time	O	
+10-36	.	O	O	
+

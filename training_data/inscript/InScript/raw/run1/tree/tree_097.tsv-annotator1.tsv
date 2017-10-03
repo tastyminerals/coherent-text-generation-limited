@@ -1,0 +1,211 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I went out to my backyard with the appropriate tools needed to plant my tree .
+1-1	I	B-ScrPart_gardener	O	_	_	
+1-2	went	O	B-MissScrEv	_	_	
+1-3	out	O	O	_	_	
+1-4	to	O	O	_	_	
+1-5	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	1-1	
+1-6	backyard	B-ScrPart_location_garden	O	_	_	
+1-7	with	O	O	_	_	
+1-8	the	O	O	_	_	
+1-9	appropriate	O	O	_	_	
+1-10	tools	B-ScrPart_gardening_tool	O	_	_	
+1-11	needed	O	B-RelNScrEv	_	_	
+1-12	to	O	O	_	_	
+1-13	plant	O	B-Evoking	_	_	
+1-14	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	1-5	
+1-15	tree	B-ScrPart_tree	O	_	_	
+1-16	.	O	O	_	_	
+
+#id=2
+#text=I was planning on planting an orange tree as I could harvest the oranges once they become ripe .
+2-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	1-14	
+2-2	was	O	O	_	_	
+2-3	planning	O	B-ScrEv_choose_tree	_	_	
+2-4	on	O	O	_	_	
+2-5	planting	O	B-Evoking	_	_	
+2-6	an	O	O	_	_	
+2-7	orange	B-ScrPart_tree	O	_	_	
+2-8	tree	I-ScrPart_tree|B-ScrPart_tree	O	webanno.custom.Corefchains_	1-15	
+2-9	as	O	O	_	_	
+2-10	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	2-1	
+2-11	could	O	O	_	_	
+2-12	harvest	O	B-RelNScrEv	_	_	
+2-13	the	O	O	_	_	
+2-14	oranges	B-MissScrPart	O	_	_	
+2-15	once	O	O	_	_	
+2-16	they	B-MissScrPart	O	webanno.custom.Corefchains_	2-14	
+2-17	become	O	B-RelNScrEv	_	_	
+2-18	ripe	B-SuppVComp	O	_	_	
+2-19	.	O	O	_	_	
+
+#id=3
+#text=I started digging into the soil where my old tree used to be -LRB- but was unfortunately torn down as a result of old age and danger of power lines , but I got the clear to plant another tree if I had wished -RRB- .
+3-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	2-10	
+3-2	started	O	B-UnrelEv	_	_	
+3-3	digging	O	B-ScrEv_dug_hole	_	_	
+3-4	into	O	O	_	_	
+3-5	the	O	O	_	_	
+3-6	soil	B-ScrPart_dirt	O	_	_	
+3-7	where	O	O	_	_	
+3-8	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	3-1	
+3-9	old	O	O	_	_	
+3-10	tree	B-ScrPart_tree	O	_	_	
+3-11	used	O	O	_	_	
+3-12	to	O	O	_	_	
+3-13	be	O	B-UnrelEv	_	_	
+3-14	-LRB-	O	O	_	_	
+3-15	but	O	O	_	_	
+3-16	was	O	O	_	_	
+3-17	unfortunately	O	O	_	_	
+3-18	torn	O	B-RelNScrEv|B-RelNScrEv	_	_	
+3-19	down	O	I-RelNScrEv	_	_	
+3-20	as	O	O	_	_	
+3-21	a	O	O	_	_	
+3-22	result	O	O	_	_	
+3-23	of	O	O	_	_	
+3-24	old	O	O	_	_	
+3-25	age	O	O	_	_	
+3-26	and	O	O	_	_	
+3-27	danger	O	O	_	_	
+3-28	of	O	O	_	_	
+3-29	power	O	O	_	_	
+3-30	lines	O	O	_	_	
+3-31	,	O	O	_	_	
+3-32	but	O	O	_	_	
+3-33	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	3-8	
+3-34	got	O	B-MissScrEv	_	_	
+3-35	the	O	O	_	_	
+3-36	clear	B-SuppVComp	O	_	_	
+3-37	to	O	O	_	_	
+3-38	plant	O	B-Evoking	_	_	
+3-39	another	O	O	_	_	
+3-40	tree	B-ScrPart_tree	O	_	_	
+3-41	if	O	O	_	_	
+3-42	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	3-33	
+3-43	had	O	O	_	_	
+3-44	wished	O	B-UnrelEv	_	_	
+3-45	-RRB-	O	O	_	_	
+3-46	.	O	O	_	_	
+
+#id=4
+#text=I then planted my several orange tree seeds into the ground , and started covering them with dirt again .
+4-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	3-42	
+4-2	then	O	O	_	_	
+4-3	planted	O	B-Evoking	_	_	
+4-4	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	4-1	
+4-5	several	O	O	_	_	
+4-6	orange	O	O	_	_	
+4-7	tree	O	O	_	_	
+4-8	seeds	B-MissScrPart	O	_	_	
+4-9	into	O	O	_	_	
+4-10	the	O	O	_	_	
+4-11	ground	B-ScrPart_hole	O	_	_	
+4-12	,	O	O	_	_	
+4-13	and	O	O	_	_	
+4-14	started	O	B-UnrelEv	_	_	
+4-15	covering	O	B-ScrEv_refill_hole	_	_	
+4-16	them	B-MissScrPart	O	webanno.custom.Corefchains_	4-8	
+4-17	with	O	O	_	_	
+4-18	dirt	B-ScrPart_dirt	O	_	_	
+4-19	again	O	O	_	_	
+4-20	.	O	O	_	_	
+
+#id=5
+#text=I tilled the dirt over and around the planted seeds to smooth out the surface .
+5-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	4-4	
+5-2	tilled	O	B-ScrEv_tamp_dirt	_	_	
+5-3	the	O	O	_	_	
+5-4	dirt	B-ScrPart_dirt	O	_	_	
+5-5	over	O	O	_	_	
+5-6	and	O	O	_	_	
+5-7	around	O	O	_	_	
+5-8	the	O	O	_	_	
+5-9	planted	O	B-Evoking	_	_	
+5-10	seeds	B-MissScrPart	O	webanno.custom.Corefchains_	4-16	
+5-11	to	O	O	_	_	
+5-12	smooth	O	B-ScrEv_tamp_dirt|B-ScrEv_tamp_dirt	_	_	
+5-13	out	O	I-ScrEv_tamp_dirt	_	_	
+5-14	the	O	O	_	_	
+5-15	surface	B-MissScrPart	O	_	_	
+5-16	.	O	O	_	_	
+
+#id=6
+#text=I then took my garden hose and watered the area for about ten to fifteen minutes .
+6-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	5-1	
+6-2	then	O	O	_	_	
+6-3	took	O	B-ScrEv_get_tools	_	_	
+6-4	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	6-1	
+6-5	garden	O	O	_	_	
+6-6	hose	B-ScrPart_gardening_tool	O	_	_	
+6-7	and	O	O	_	_	
+6-8	watered	O	B-ScrEv_water	_	_	
+6-9	the	O	O	_	_	
+6-10	area	B-ScrPart_location_garden	O	_	_	
+6-11	for	O	O	_	_	
+6-12	about	O	O	_	_	
+6-13	ten	O	O	_	_	
+6-14	to	O	O	_	_	
+6-15	fifteen	O	O	_	_	
+6-16	minutes	B-ScrPart_time	O	_	_	
+6-17	.	O	O	_	_	
+
+#id=7
+#text=Once I was done with watering , I made sure the seeds did not get flooded to the surface of the soil as a result of my watering , to which I noticed they had been finely secured underground .
+7-1	Once	O	O	_	_	
+7-2	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	6-4	
+7-3	was	O	O	_	_	
+7-4	done	O	B-UnrelEv	_	_	
+7-5	with	O	O	_	_	
+7-6	watering	O	B-ScrEv_water	_	_	
+7-7	,	O	O	_	_	
+7-8	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	7-2	
+7-9	made	O	B-UnrelEv	_	_	
+7-10	sure	O	O	_	_	
+7-11	the	O	O	_	_	
+7-12	seeds	B-MissScrPart	O	webanno.custom.Corefchains_	5-10	
+7-13	did	O	O	_	_	
+7-14	not	O	O	_	_	
+7-15	get	O	O	_	_	
+7-16	flooded	O	B-RelNScrEv	_	_	
+7-17	to	O	O	_	_	
+7-18	the	O	O	_	_	
+7-19	surface	B-MissScrPart	O	webanno.custom.Corefchains_	5-15	
+7-20	of	O	O	_	_	
+7-21	the	O	O	_	_	
+7-22	soil	B-ScrPart_dirt	O	_	_	
+7-23	as	O	O	_	_	
+7-24	a	O	O	_	_	
+7-25	result	O	O	_	_	
+7-26	of	O	O	_	_	
+7-27	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	7-8	
+7-28	watering	O	B-ScrEv_water	_	_	
+7-29	,	O	O	_	_	
+7-30	to	O	O	_	_	
+7-31	which	O	O	_	_	
+7-32	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	7-27	
+7-33	noticed	O	B-UnrelEv	_	_	
+7-34	they	B-MissScrPart	O	webanno.custom.Corefchains_	7-12	
+7-35	had	O	O	_	_	
+7-36	been	O	O	_	_	
+7-37	finely	O	O	_	_	
+7-38	secured	O	B-RelNScrEv	_	_	
+7-39	underground	O	O	_	_	
+7-40	.	O	O	_	_	
+
+#id=8
+#text=I put my materials away and went back into my house . 
+8-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	7-32	
+8-2	put	O	B-ScrEv_put_away_tools	_	_	
+8-3	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	8-1	
+8-4	materials	B-ScrPart_gardening_tool	O	webanno.custom.Corefchains_	1-10	
+8-5	away	O	O	_	_	
+8-6	and	O	O	_	_	
+8-7	went	O	B-UnrelEv|B-UnrelEv	_	_	
+8-8	back	O	I-UnrelEv	_	_	
+8-9	into	O	O	_	_	
+8-10	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	8-3	
+8-11	house	B-NPart	O	_	_	
+8-12	.	O	O	_	_	
+

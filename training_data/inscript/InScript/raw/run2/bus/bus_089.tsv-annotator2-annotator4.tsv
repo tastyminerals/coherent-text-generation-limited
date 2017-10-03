@@ -1,0 +1,211 @@
+ # webanno.custom.Events | Event | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Before leaving my house , I check the bus schedule on the internet .
+1-1	Before	O	O	O	_	_	
+1-2	leaving	B-webanno.custom.Events_	B-RelNScrEv	O	_	_	
+1-3	my	O	O	B-ScrPart_passenger	_	_	
+1-4	house	O	O	B-NPart	_	_	
+1-5	,	O	O	O	_	_	
+1-6	I	O	O	B-ScrPart_passenger	_	_	
+1-7	check	B-webanno.custom.Events_	B-ScrEv_check_time-table	O	_	_	
+1-8	the	O	O	O	_	_	
+1-9	bus	O	O	B-ScrPart_time-table	_	_	
+1-10	schedule	O	O	I-ScrPart_time-table|B-ScrPart_time-table	_	_	
+1-11	on	O	O	O	_	_	
+1-12	the	O	O	O	_	_	
+1-13	internet	O	O	B-NPart	_	_	
+1-14	.	O	O	O	_	_	
+
+#id=2
+#text=I noticed the bus was running late today , but I went outside to wait at the bus stop anyway .
+2-1	I	O	O	B-ScrPart_passenger	_	_	
+2-2	noticed	B-webanno.custom.Events_	B-ScrEv_check_time-table	O	_	_	
+2-3	the	O	O	O	_	_	
+2-4	bus	O	O	B-ScrPart_bus	_	_	
+2-5	was	O	O	O	_	_	
+2-6	running	B-webanno.custom.Events_	B-RelNScrEv	O	_	_	
+2-7	late	I-webanno.custom.Events_	I-RelNScrEv	O	_	_	
+2-8	today	O	O	B-ScrPart_time/date	_	_	
+2-9	,	O	O	O	_	_	
+2-10	but	O	O	O	_	_	
+2-11	I	O	O	B-ScrPart_passenger	_	_	
+2-12	went	B-webanno.custom.Events_	B-ScrEv_get_bus_stop	O	_	_	
+2-13	outside	O	O	O	_	_	
+2-14	to	O	O	O	_	_	
+2-15	wait	B-webanno.custom.Events_	B-ScrEv_wait	O	_	_	
+2-16	at	O	O	O	_	_	
+2-17	the	O	O	O	_	_	
+2-18	bus	O	O	B-ScrPart_bus_stop	_	_	
+2-19	stop	O	O	I-ScrPart_bus_stop|B-ScrPart_bus_stop	_	_	
+2-20	anyway	O	O	O	_	_	
+2-21	.	O	O	O	_	_	
+
+#id=3
+#text=The bus actually arrived even later than it was estimated on the internet .
+3-1	The	O	O	O	_	_	
+3-2	bus	O	O	B-ScrPart_bus	_	_	
+3-3	actually	O	O	O	_	_	
+3-4	arrived	B-webanno.custom.Events_	B-ScrEv_bus_comes	O	_	_	
+3-5	even	O	O	O	_	_	
+3-6	later	O	O	O	_	_	
+3-7	than	O	O	O	_	_	
+3-8	it	O	O	B-No_label	_	_	
+3-9	was	O	O	O	_	_	
+3-10	estimated	B-webanno.custom.Events_	B-UnrelEv	O	_	_	
+3-11	on	O	O	O	_	_	
+3-12	the	O	O	O	_	_	
+3-13	internet	O	O	B-NPart	_	_	
+3-14	.	O	O	O	_	_	
+
+#id=4
+#text=I got onto the bus after the arriving passengers exited .
+4-1	I	O	O	B-ScrPart_passenger	_	_	
+4-2	got	B-webanno.custom.Events_	B-ScrEv_board_bus	O	_	_	
+4-3	onto	I-webanno.custom.Events_	I-ScrEv_board_bus	O	_	_	
+4-4	the	O	O	O	_	_	
+4-5	bus	O	O	B-ScrPart_bus	_	_	
+4-6	after	O	O	O	_	_	
+4-7	the	O	O	O	_	_	
+4-8	arriving	B-webanno.custom.Events_	B-???	O	_	_	
+4-9	passengers	O	O	B-ScrPart_passenger	_	_	
+4-10	exited	B-webanno.custom.Events_	B-ScrEv_get_off	O	_	_	
+4-11	.	O	O	O	_	_	
+
+#id=5
+#text=I paid with exact change into the money collector .
+5-1	I	O	O	B-ScrPart_passenger	_	_	
+5-2	paid	B-webanno.custom.Events_	B-ScrEv_get_ticket	O	_	_	
+5-3	with	O	O	O	_	_	
+5-4	exact	O	O	O	_	_	
+5-5	change	O	O	B-ScrPart_money	_	_	
+5-6	into	O	O	O	_	_	
+5-7	the	O	O	O	_	_	
+5-8	money	O	O	B-ScrPart_payment_machine	_	_	
+5-9	collector	O	O	I-ScrPart_payment_machine|B-ScrPart_payment_machine	_	_	
+5-10	.	O	O	O	_	_	
+
+#id=6
+#text=There were no empty seats on the bus and almost all the places to stand were full too .
+6-1	There	O	O	O	_	_	
+6-2	were	B-webanno.custom.Events_	B-UnrelEv	O	_	_	
+6-3	no	O	O	O	_	_	
+6-4	empty	O	O	O	_	_	
+6-5	seats	O	O	B-ScrPart_seat_in_bus	_	_	
+6-6	on	O	O	O	_	_	
+6-7	the	O	O	O	_	_	
+6-8	bus	O	O	B-ScrPart_bus	_	_	
+6-9	and	O	O	O	_	_	
+6-10	almost	O	O	O	_	_	
+6-11	all	O	O	O	_	_	
+6-12	the	O	O	O	_	_	
+6-13	places	O	O	B-ScrPart_other	_	_	
+6-14	to	O	O	O	_	_	
+6-15	stand	B-webanno.custom.Events_	B-ScrEv_spend_time_bus	O	_	_	
+6-16	were	B-webanno.custom.Events_	B-UnrelEv	O	_	_	
+6-17	full	O	O	O	_	_	
+6-18	too	O	O	O	_	_	
+6-19	.	O	O	O	_	_	
+
+#id=7
+#text=I found a spot next to a man who smelled like he was eating onions .
+7-1	I	O	O	B-ScrPart_passenger	_	_	
+7-2	found	B-webanno.custom.Events_	B-ScrEv_find_place	O	_	_	
+7-3	a	O	O	O	_	_	
+7-4	spot	O	O	B-ScrPart_other	webanno.custom.Corefchains_	6-13	
+7-5	next	O	O	O	_	_	
+7-6	to	O	O	O	_	_	
+7-7	a	O	O	O	_	_	
+7-8	man	O	O	B-ScrPart_passenger	_	_	
+7-9	who	O	O	O	_	_	
+7-10	smelled	B-webanno.custom.Events_	B-UnrelEv	O	_	_	
+7-11	like	O	O	O	_	_	
+7-12	he	O	O	B-ScrPart_passenger	_	_	
+7-13	was	O	O	O	_	_	
+7-14	eating	B-webanno.custom.Events_	B-UnrelEv	O	_	_	
+7-15	onions	O	O	B-NPart	_	_	
+7-16	.	O	O	O	_	_	
+
+#id=8
+#text=For the next 22 blocks I had to smell him before he exited the bus .
+8-1	For	O	O	O	_	_	
+8-2	the	O	O	O	_	_	
+8-3	next	O	O	O	_	_	
+8-4	22	O	O	O	_	_	
+8-5	blocks	O	O	B-NPart	_	_	
+8-6	I	O	O	B-ScrPart_passenger	_	_	
+8-7	had	O	O	O	_	_	
+8-8	to	O	O	O	_	_	
+8-9	smell	B-webanno.custom.Events_	B-UnrelEv	O	_	_	
+8-10	him	O	O	B-ScrPart_passenger	_	_	
+8-11	before	O	O	O	_	_	
+8-12	he	O	O	B-ScrPart_passenger	_	_	
+8-13	exited	B-webanno.custom.Events_	B-ScrEv_get_off	O	_	_	
+8-14	the	O	O	O	_	_	
+8-15	bus	O	O	B-ScrPart_bus	_	_	
+8-16	.	O	O	O	_	_	
+
+#id=9
+#text=The next person who stood by me was a morbidly obese man who liked to talk about anything he could think of .
+9-1	The	O	O	O	_	_	
+9-2	next	O	O	O	_	_	
+9-3	person	O	O	B-ScrPart_passenger	_	_	
+9-4	who	O	O	O	_	_	
+9-5	stood	B-webanno.custom.Events_	B-ScrEv_spend_time_bus	O	_	_	
+9-6	by	O	O	O	_	_	
+9-7	me	O	O	B-ScrPart_passenger	_	_	
+9-8	was	B-webanno.custom.Events_	B-UnrelEv	O	_	_	
+9-9	a	O	O	O	_	_	
+9-10	morbidly	O	O	O	_	_	
+9-11	obese	O	O	O	_	_	
+9-12	man	O	O	B-ScrPart_passenger	_	_	
+9-13	who	O	O	O	_	_	
+9-14	liked	B-webanno.custom.Events_	B-UnrelEv	O	_	_	
+9-15	to	O	O	O	_	_	
+9-16	talk	B-webanno.custom.Events_	B-ScrEv_spend_time_bus	O	_	_	
+9-17	about	O	O	O	_	_	
+9-18	anything	O	O	B-NPart	_	_	
+9-19	he	O	O	B-ScrPart_passenger	_	_	
+9-20	could	O	O	O	_	_	
+9-21	think	B-webanno.custom.Events_	B-UnrelEv	O	_	_	
+9-22	of	O	O	O	_	_	
+9-23	.	O	O	O	_	_	
+
+#id=10
+#text=I tried to just look out the window because it was so uncomfortable .
+10-1	I	O	O	B-ScrPart_passenger	_	_	
+10-2	tried	B-webanno.custom.Events_	B-UnrelEv	O	_	_	
+10-3	to	O	O	O	_	_	
+10-4	just	O	O	O	_	_	
+10-5	look	B-webanno.custom.Events_	B-ScrEv_spend_time_bus	O	_	_	
+10-6	out	O	O	O	_	_	
+10-7	the	O	O	O	_	_	
+10-8	window	O	O	B-NPart	_	_	
+10-9	because	O	O	O	_	_	
+10-10	it	O	O	B-No_label	_	_	
+10-11	was	B-webanno.custom.Events_	B-UnrelEv	O	_	_	
+10-12	so	O	O	O	_	_	
+10-13	uncomfortable	O	O	O	_	_	
+10-14	.	O	O	O	_	_	
+
+#id=11
+#text=Finally , seven blocks later I was at my stop and I could not have been more relieved . 
+11-1	Finally	O	O	O	_	_	
+11-2	,	O	O	O	_	_	
+11-3	seven	O	O	O	_	_	
+11-4	blocks	O	O	B-NPart	_	_	
+11-5	later	O	O	O	_	_	
+11-6	I	O	O	B-ScrPart_passenger	_	_	
+11-7	was	B-webanno.custom.Events_	B-UnrelEv	O	_	_	
+11-8	at	O	O	O	_	_	
+11-9	my	O	O	B-ScrPart_passenger	_	_	
+11-10	stop	O	O	B-ScrPart_bus_stop	_	_	
+11-11	and	O	O	O	_	_	
+11-12	I	O	O	B-ScrPart_passenger	_	_	
+11-13	could	O	O	O	_	_	
+11-14	not	O	O	O	_	_	
+11-15	have	O	O	O	_	_	
+11-16	been	B-webanno.custom.Events_	B-UnrelEv	O	_	_	
+11-17	more	O	O	O	_	_	
+11-18	relieved	O	O	O	_	_	
+11-19	.	O	O	O	_	_	
+

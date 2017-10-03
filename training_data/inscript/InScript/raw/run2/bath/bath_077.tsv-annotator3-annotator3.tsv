@@ -1,0 +1,192 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I had been outside playing basketball for several hours .
+1-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+1-2	had	O	O	O	_	_	
+1-3	been	O	O	B-UnrelEv	_	_	
+1-4	outside	O	O	O	_	_	
+1-5	playing	O	O	B-UnrelEv	_	_	
+1-6	basketball	B-NPart	B-webanno.custom.Participants_	O	_	_	
+1-7	for	O	O	O	_	_	
+1-8	several	O	O	O	_	_	
+1-9	hours	B-NPart	B-webanno.custom.Participants_	O	_	_	
+1-10	.	O	O	O	_	_	
+
+#id=2
+#text=It was a hot day and I got quite sweaty and dirty .
+2-1	It	B-No_label	B-webanno.custom.Participants_	O	_	_	
+2-2	was	O	O	B-UnrelEv	_	_	
+2-3	a	O	O	O	_	_	
+2-4	hot	O	O	O	_	_	
+2-5	day	B-NPart	B-webanno.custom.Participants_	O	_	_	
+2-6	and	O	O	O	_	_	
+2-7	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+2-8	got	O	O	B-UnrelEv	_	_	
+2-9	quite	O	O	O	_	_	
+2-10	sweaty	O	O	O	_	_	
+2-11	and	O	O	O	_	_	
+2-12	dirty	O	O	O	_	_	
+2-13	.	O	O	O	_	_	
+
+#id=3
+#text=I was sort from so much activity and just walked through my front door .
+3-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+3-2	was	O	O	B-UnrelEv	_	_	
+3-3	sort	O	O	O	_	_	
+3-4	from	O	O	O	_	_	
+3-5	so	O	O	O	_	_	
+3-6	much	O	O	O	_	_	
+3-7	activity	B-NPart	B-webanno.custom.Participants_	O	_	_	
+3-8	and	O	O	O	_	_	
+3-9	just	O	O	O	_	_	
+3-10	walked	O	O	B-UnrelEv	_	_	
+3-11	through	O	O	O	_	_	
+3-12	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+3-13	front	O	O	O	_	_	
+3-14	door	B-NPart	B-webanno.custom.Participants_	O	_	_	
+3-15	.	O	O	O	_	_	
+
+#id=4
+#text=The first thing I did when I got to my bathroom was disrobe and started the warm water -- I was going to prepare a bath to soak in it and relax my sore muscles from so much activity while also cleaning the sweat and grime from myself from working up such a sweat .
+4-1	The	O	O	O	_	_	
+4-2	first	O	O	O	_	_	
+4-3	thing	B-No_label	B-webanno.custom.Participants_	O	_	_	
+4-4	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+4-5	did	O	O	B-UnrelEv	_	_	
+4-6	when	O	O	O	_	_	
+4-7	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+4-8	got	O	O	B-UnrelEv	_	_	
+4-9	to	O	O	O	_	_	
+4-10	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+4-11	bathroom	B-ScrPart_bathroom	B-webanno.custom.Participants_	O	_	_	
+4-12	was	O	O	O	_	_	
+4-13	disrobe	O	O	B-ScrEv_undress	_	_	
+4-14	and	O	O	O	_	_	
+4-15	started	O	O	B-UnrelEv	_	_	
+4-16	the	O	O	O	_	_	
+4-17	warm	O	O	O	_	_	
+4-18	water	B-ScrPart_water	B-webanno.custom.Participants_	O	_	_	
+4-19	--	O	O	O	_	_	
+4-20	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+4-21	was	O	O	O	_	_	
+4-22	going	O	O	O	_	_	
+4-23	to	O	O	O	_	_	
+4-24	prepare	O	O	B-ScrEv_prepare_bath	_	_	
+4-25	a	O	O	O	_	_	
+4-26	bath	B-ScrPart_bath	B-webanno.custom.Participants_	O	_	_	
+4-27	to	O	O	O	_	_	
+4-28	soak	O	O	B-UnrelEv|B-UnrelEv	_	_	
+4-29	in	O	O	I-UnrelEv	_	_	
+4-30	it	B-ScrPart_bath	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	4-26	
+4-31	and	O	O	O	_	_	
+4-32	relax	O	O	B-ScrEv_relax	_	_	
+4-33	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+4-34	sore	O	O	O	_	_	
+4-35	muscles	B-ScrPart_body_part	B-webanno.custom.Participants_	O	_	_	
+4-36	from	O	O	O	_	_	
+4-37	so	O	O	O	_	_	
+4-38	much	O	O	O	_	_	
+4-39	activity	B-NPart	B-webanno.custom.Participants_	O	_	_	
+4-40	while	O	O	O	_	_	
+4-41	also	O	O	O	_	_	
+4-42	cleaning	O	O	B-ScrEv_wash	_	_	
+4-43	the	O	O	O	_	_	
+4-44	sweat	B-NPart	B-webanno.custom.Participants_	O	_	_	
+4-45	and	O	O	O	_	_	
+4-46	grime	B-NPart	B-webanno.custom.Participants_	O	_	_	
+4-47	from	O	O	O	_	_	
+4-48	myself	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+4-49	from	O	O	O	_	_	
+4-50	working	O	O	B-UnrelEv	_	_	
+4-51	up	O	O	O	_	_	
+4-52	such	O	O	O	_	_	
+4-53	a	O	O	O	_	_	
+4-54	sweat	B-NPart	B-webanno.custom.Participants_	O	_	_	
+4-55	.	O	O	O	_	_	
+
+#id=5
+#text=The water filled the bath and I got in and sat in the warm water for the better part of an hour , enjoying the relaxing bath as the ache and tiredness in my muscles washed away .
+5-1	The	O	O	O	_	_	
+5-2	water	B-ScrPart_water	B-webanno.custom.Participants_	O	_	_	
+5-3	filled	O	O	B-ScrEv_fill_water/wait	_	_	
+5-4	the	O	O	O	_	_	
+5-5	bath	B-ScrPart_bath	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	4-30	
+5-6	and	O	O	O	_	_	
+5-7	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+5-8	got	O	O	B-ScrEv_sink_water|B-ScrEv_sink_water	_	_	
+5-9	in	O	O	I-ScrEv_sink_water	_	_	
+5-10	and	O	O	O	_	_	
+5-11	sat	O	O	B-UnrelEv	_	_	
+5-12	in	O	O	O	_	_	
+5-13	the	O	O	O	_	_	
+5-14	warm	O	O	O	_	_	
+5-15	water	B-ScrPart_water	B-webanno.custom.Participants_	O	_	_	
+5-16	for	O	O	O	_	_	
+5-17	the	O	O	O	_	_	
+5-18	better	O	O	O	_	_	
+5-19	part	B-Head_of_Partitive	B-webanno.custom.Participants_	O	_	_	
+5-20	of	O	O	O	_	_	
+5-21	an	O	O	O	_	_	
+5-22	hour	B-NPart	B-webanno.custom.Participants_	O	_	_	
+5-23	,	O	O	O	_	_	
+5-24	enjoying	O	O	B-UnrelEv	_	_	
+5-25	the	O	O	O	_	_	
+5-26	relaxing	O	O	B-ScrEv_relax	_	_	
+5-27	bath	B-ScrPart_bath	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-5	
+5-28	as	O	O	O	_	_	
+5-29	the	O	O	O	_	_	
+5-30	ache	B-NPart	B-webanno.custom.Participants_	O	_	_	
+5-31	and	O	O	O	_	_	
+5-32	tiredness	B-NPart	B-webanno.custom.Participants_	O	_	_	
+5-33	in	O	O	O	_	_	
+5-34	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+5-35	muscles	B-ScrPart_body_part	B-webanno.custom.Participants_	O	_	_	
+5-36	washed	O	O	B-UnrelEv|B-UnrelEv	_	_	
+5-37	away	O	O	I-UnrelEv	_	_	
+5-38	.	O	O	O	_	_	
+
+#id=6
+#text=I cleaned my hair with some shampoo and washed my body with a washcloth and rinsed off with the shower head as I was finishing up .
+6-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+6-2	cleaned	O	O	B-ScrEv_wash	_	_	
+6-3	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+6-4	hair	B-ScrPart_body_part	B-webanno.custom.Participants_	O	_	_	
+6-5	with	O	O	O	_	_	
+6-6	some	O	O	O	_	_	
+6-7	shampoo	B-ScrPart_washing_tools	B-webanno.custom.Participants_	O	_	_	
+6-8	and	O	O	O	_	_	
+6-9	washed	O	O	B-ScrEv_wash	_	_	
+6-10	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+6-11	body	B-ScrPart_body_part	B-webanno.custom.Participants_	O	_	_	
+6-12	with	O	O	O	_	_	
+6-13	a	O	O	O	_	_	
+6-14	washcloth	B-ScrPart_washing_tools	B-webanno.custom.Participants_	O	_	_	
+6-15	and	O	O	O	_	_	
+6-16	rinsed	O	O	B-ScrEv_wash|B-ScrEv_wash	_	_	
+6-17	off	O	O	I-ScrEv_wash	_	_	
+6-18	with	O	O	O	_	_	
+6-19	the	O	O	O	_	_	
+6-20	shower	B-ScrPart_shower	B-webanno.custom.Participants_	O	_	_	
+6-21	head	I-ScrPart_shower|B-ScrPart_shower	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+6-22	as	O	O	O	_	_	
+6-23	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+6-24	was	O	O	O	_	_	
+6-25	finishing	O	O	B-UnrelEv|B-UnrelEv	_	_	
+6-26	up	O	O	I-UnrelEv	_	_	
+6-27	.	O	O	O	_	_	
+
+#id=7
+#text=I dried off and sat on the couch for hours later . 
+7-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+7-2	dried	O	O	B-ScrEv_dry|B-ScrEv_dry	_	_	
+7-3	off	O	O	I-ScrEv_dry	_	_	
+7-4	and	O	O	O	_	_	
+7-5	sat	O	O	B-UnrelEv	_	_	
+7-6	on	O	O	O	_	_	
+7-7	the	O	O	O	_	_	
+7-8	couch	B-NPart	B-webanno.custom.Participants_	O	_	_	
+7-9	for	O	O	O	_	_	
+7-10	hours	B-NPart	B-webanno.custom.Participants_	O	_	_	
+7-11	later	O	O	O	_	_	
+7-12	.	O	O	O	_	_	
+

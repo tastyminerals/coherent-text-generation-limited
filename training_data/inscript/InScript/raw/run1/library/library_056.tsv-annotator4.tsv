@@ -1,0 +1,250 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=There is a book I wanted to read .
+1-1	There	O	O	_	_	
+1-2	is	B-UnrelEv	O	_	_	
+1-3	a	O	O	_	_	
+1-4	book	O	B-ScrPart_book	_	_	
+1-5	I	O	B-ScrPart_customer	_	_	
+1-6	wanted	B-UnrelEv	O	_	_	
+1-7	to	O	O	_	_	
+1-8	read	B-RelNScrEv	O	_	_	
+1-9	.	O	O	_	_	
+
+#id=2
+#text=However , I was n't sure if it was a book I actually wanted to buy .
+2-1	However	O	O	_	_	
+2-2	,	O	O	_	_	
+2-3	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	1-5	
+2-4	was	B-UnrelEv	O	_	_	
+2-5	n't	O	O	_	_	
+2-6	sure	O	O	_	_	
+2-7	if	O	O	_	_	
+2-8	it	O	O	_	_	
+2-9	was	B-UnrelEv	O	_	_	
+2-10	a	O	O	_	_	
+2-11	book	O	B-ScrPart_book	webanno.custom.Corefchains_	1-4	
+2-12	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	2-3	
+2-13	actually	O	O	_	_	
+2-14	wanted	B-UnrelEv	O	_	_	
+2-15	to	O	O	_	_	
+2-16	buy	B-UnrelEv	O	_	_	
+2-17	.	O	O	_	_	
+
+#id=3
+#text=Instead , I decided to go to the public library to see if I could borrow it .
+3-1	Instead	O	O	_	_	
+3-2	,	O	O	_	_	
+3-3	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	2-12	
+3-4	decided	B-UnrelEv	O	_	_	
+3-5	to	O	O	_	_	
+3-6	go	B-ScrEv_get_library	O	_	_	
+3-7	to	O	O	_	_	
+3-8	the	O	O	_	_	
+3-9	public	O	O	_	_	
+3-10	library	O	B-ScrPart_library	_	_	
+3-11	to	O	O	_	_	
+3-12	see	B-UnrelEv	O	_	_	
+3-13	if	O	O	_	_	
+3-14	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	3-3	
+3-15	could	O	O	_	_	
+3-16	borrow	B-Evoking	O	_	_	
+3-17	it	I-Evoking	B-ScrPart_book	webanno.custom.Corefchains_	2-11	
+3-18	.	O	O	_	_	
+
+#id=4
+#text=Once I got to the library , I decided to use the card catalog to see if the particular book I wanted was carried by the library .
+4-1	Once	O	O	_	_	
+4-2	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	3-14	
+4-3	got	B-ScrEv_get_library	O	_	_	
+4-4	to	O	O	_	_	
+4-5	the	O	O	_	_	
+4-6	library	O	B-ScrPart_library	webanno.custom.Corefchains_	3-10	
+4-7	,	O	O	_	_	
+4-8	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	4-2	
+4-9	decided	B-UnrelEv	O	_	_	
+4-10	to	O	O	_	_	
+4-11	use	B-ScrEv_check_catalog	O	_	_	
+4-12	the	O	O	_	_	
+4-13	card	O	B-ScrPart_catalog	_	_	
+4-14	catalog	O	I-ScrPart_catalog|B-ScrPart_catalog	_	_	
+4-15	to	O	O	_	_	
+4-16	see	B-UnrelEv	O	_	_	
+4-17	if	O	O	_	_	
+4-18	the	O	O	_	_	
+4-19	particular	O	O	_	_	
+4-20	book	O	B-ScrPart_book	webanno.custom.Corefchains_	3-17	
+4-21	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	4-8	
+4-22	wanted	B-UnrelEv	O	_	_	
+4-23	was	O	O	_	_	
+4-24	carried	B-RelNScrEv	O	_	_	
+4-25	by	O	O	_	_	
+4-26	the	O	O	_	_	
+4-27	library	O	B-ScrPart_library	webanno.custom.Corefchains_	4-6	
+4-28	.	O	O	_	_	
+
+#id=5
+#text=Luckily , it was .
+5-1	Luckily	O	O	_	_	
+5-2	,	O	O	_	_	
+5-3	it	O	B-ScrPart_book	webanno.custom.Corefchains_	4-20	
+5-4	was	B-UnrelEv	O	_	_	
+5-5	.	O	O	_	_	
+
+#id=6
+#text=I used the paper and pen provided to write down the aisle and shelf number where the book would be located .
+6-1	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	4-21	
+6-2	used	B-UnrelEv	O	_	_	
+6-3	the	O	O	_	_	
+6-4	paper	O	O	_	_	
+6-5	and	O	O	_	_	
+6-6	pen	O	O	_	_	
+6-7	provided	B-UnrelEv	O	_	_	
+6-8	to	O	O	_	_	
+6-9	write	B-ScrEv_note_shelf	O	_	_	
+6-10	down	I-ScrEv_note_shelf	O	_	_	
+6-11	the	O	O	_	_	
+6-12	aisle	O	B-ScrPart_location_library	_	_	
+6-13	and	O	O	_	_	
+6-14	shelf	O	B-ScrPart_section_id	_	_	
+6-15	number	O	I-ScrPart_section_id|B-ScrPart_section_id	_	_	
+6-16	where	O	O	_	_	
+6-17	the	O	O	_	_	
+6-18	book	O	B-ScrPart_book	webanno.custom.Corefchains_	5-3	
+6-19	would	O	O	_	_	
+6-20	be	O	O	_	_	
+6-21	located	B-UnrelEv	O	_	_	
+6-22	.	O	O	_	_	
+
+#id=7
+#text=Walking down the aisles of shelves , I found the one where my book should have been .
+7-1	Walking	B-ScrEv_get_shelf	O	_	_	
+7-2	down	O	O	_	_	
+7-3	the	O	O	_	_	
+7-4	aisles	O	B-ScrPart_location_library	webanno.custom.Corefchains_	6-12	
+7-5	of	O	O	_	_	
+7-6	shelves	O	B-ScrPart_shelf	_	_	
+7-7	,	O	O	_	_	
+7-8	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	6-1	
+7-9	found	B-ScrEv_get_shelf	O	_	_	
+7-10	the	O	O	_	_	
+7-11	one	O	B-ScrPart_shelf	webanno.custom.Corefchains_	7-6	
+7-12	where	O	O	_	_	
+7-13	my	O	B-ScrPart_customer	webanno.custom.Corefchains_	7-8	
+7-14	book	O	B-ScrPart_book	webanno.custom.Corefchains_	6-18	
+7-15	should	O	O	_	_	
+7-16	have	O	O	_	_	
+7-17	been	B-UnrelEv	O	_	_	
+7-18	.	O	O	_	_	
+
+#id=8
+#text=However , it was n't there .
+8-1	However	O	O	_	_	
+8-2	,	O	O	_	_	
+8-3	it	O	B-ScrPart_book	webanno.custom.Corefchains_	7-14	
+8-4	was	B-UnrelEv	O	_	_	
+8-5	n't	O	O	_	_	
+8-6	there	O	O	_	_	
+8-7	.	O	O	_	_	
+
+#id=9
+#text=I then went to the front desk and asked the librarian if the book was out .
+9-1	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	7-13	
+9-2	then	O	O	_	_	
+9-3	went	B-ScrEv_go_check_out	O	_	_	
+9-4	to	O	O	_	_	
+9-5	the	O	O	_	_	
+9-6	front	O	O	_	_	
+9-7	desk	O	B-ScrPart_check-out_desk	_	_	
+9-8	and	O	O	_	_	
+9-9	asked	B-ScrEv_ask_librarian	O	_	_	
+9-10	the	O	O	_	_	
+9-11	librarian	O	B-ScrPart_staff	_	_	
+9-12	if	O	O	_	_	
+9-13	the	O	O	_	_	
+9-14	book	O	B-ScrPart_book	webanno.custom.Corefchains_	8-3	
+9-15	was	B-RelNScrEv	O	_	_	
+9-16	out	O	O	_	_	
+9-17	.	O	O	_	_	
+
+#id=10
+#text=She told me it had just come back in , and if I could wait a bit for it to be processed , I could then borrow it .
+10-1	She	O	B-ScrPart_staff	webanno.custom.Corefchains_	9-11	
+10-2	told	B-UnrelEv	O	_	_	
+10-3	me	O	B-ScrPart_customer	webanno.custom.Corefchains_	9-1	
+10-4	it	O	B-ScrPart_book	webanno.custom.Corefchains_	9-14	
+10-5	had	O	O	_	_	
+10-6	just	O	O	_	_	
+10-7	come	B-ScrEv_return_book	O	_	_	
+10-8	back	I-ScrEv_return_book	O	_	_	
+10-9	in	O	O	_	_	
+10-10	,	O	O	_	_	
+10-11	and	O	O	_	_	
+10-12	if	O	O	_	_	
+10-13	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	10-3	
+10-14	could	O	O	_	_	
+10-15	wait	B-ScrEv_wait	O	_	_	
+10-16	a	O	O	_	_	
+10-17	bit	O	O	_	_	
+10-18	for	O	O	_	_	
+10-19	it	O	B-ScrPart_book	webanno.custom.Corefchains_	10-4	
+10-20	to	O	O	_	_	
+10-21	be	O	O	_	_	
+10-22	processed	B-RelNScrEv	O	_	_	
+10-23	,	O	O	_	_	
+10-24	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	10-13	
+10-25	could	O	O	_	_	
+10-26	then	O	O	_	_	
+10-27	borrow	B-ScrEv_register	O	_	_	
+10-28	it	O	B-ScrPart_book	webanno.custom.Corefchains_	10-19	
+10-29	.	O	O	_	_	
+
+#id=11
+#text=Once she checked it in , she let me have it and I then checked it out .
+11-1	Once	O	O	_	_	
+11-2	she	O	B-ScrPart_staff	webanno.custom.Corefchains_	10-1	
+11-3	checked	B-ScrEv_return_book	O	_	_	
+11-4	it	O	B-ScrPart_book	webanno.custom.Corefchains_	10-28	
+11-5	in	O	O	_	_	
+11-6	,	O	O	_	_	
+11-7	she	O	B-ScrPart_staff	webanno.custom.Corefchains_	11-2	
+11-8	let	B-UnrelEv	O	_	_	
+11-9	me	O	B-ScrPart_customer	webanno.custom.Corefchains_	10-24	
+11-10	have	B-ScrEv_take_book	O	_	_	
+11-11	it	O	B-ScrPart_book	webanno.custom.Corefchains_	11-4	
+11-12	and	O	O	_	_	
+11-13	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	11-9	
+11-14	then	O	O	_	_	
+11-15	checked	B-ScrEv_register	O	_	_	
+11-16	it	O	B-ScrPart_book	webanno.custom.Corefchains_	11-11	
+11-17	out	O	O	_	_	
+11-18	.	O	O	_	_	
+
+#id=12
+#text=I had to show her my library card , and she told me my due date to return the book was in two weeks . 
+12-1	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	11-13	
+12-2	had	O	O	_	_	
+12-3	to	O	O	_	_	
+12-4	show	B-ScrEv_show_card	O	_	_	
+12-5	her	O	B-ScrPart_staff	webanno.custom.Corefchains_	11-7	
+12-6	my	O	B-ScrPart_customer	webanno.custom.Corefchains_	12-1	
+12-7	library	O	B-ScrPart_library_card	_	_	
+12-8	card	O	I-ScrPart_library_card|B-ScrPart_library_card	_	_	
+12-9	,	O	O	_	_	
+12-10	and	O	O	_	_	
+12-11	she	O	B-ScrPart_staff	webanno.custom.Corefchains_	12-5	
+12-12	told	B-RelNScrEv	O	_	_	
+12-13	me	O	B-ScrPart_customer	webanno.custom.Corefchains_	12-6	
+12-14	my	O	B-ScrPart_customer	webanno.custom.Corefchains_	12-13	
+12-15	due	O	B-ScrPart_return_date	_	_	
+12-16	date	O	I-ScrPart_return_date|B-ScrPart_return_date	_	_	
+12-17	to	O	O	_	_	
+12-18	return	B-ScrEv_return_book	O	_	_	
+12-19	the	O	O	_	_	
+12-20	book	O	B-ScrPart_book	webanno.custom.Corefchains_	11-16	
+12-21	was	B-UnrelEv	O	_	_	
+12-22	in	O	O	_	_	
+12-23	two	O	O	_	_	
+12-24	weeks	O	B-ScrPart_return_date	webanno.custom.Corefchains_	12-16	
+12-25	.	O	O	_	_	
+

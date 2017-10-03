@@ -1,0 +1,240 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I recently started biking to lose weight and for health .
+1-1	I	B-ScrPart_rider	O	_	_	
+1-2	recently	O	O	_	_	
+1-3	started	O	B-UnrelEv	_	_	
+1-4	biking	O	B-ScrEv_ride_bike	_	_	
+1-5	to	O	O	_	_	
+1-6	lose	O	B-UnrelEv	_	_	
+1-7	weight	O	O	_	_	
+1-8	and	O	O	_	_	
+1-9	for	O	O	_	_	
+1-10	health	O	O	_	_	
+1-11	.	O	O	_	_	
+
+#id=2
+#text=After a month of biking everyday , my bike hit a nail in the road which I think is pretty dangerous .
+2-1	After	O	O	_	_	
+2-2	a	O	O	_	_	
+2-3	month	O	O	_	_	
+2-4	of	O	O	_	_	
+2-5	biking	O	B-ScrEv_ride_bike	_	_	
+2-6	everyday	O	O	_	_	
+2-7	,	O	O	_	_	
+2-8	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-1	
+2-9	bike	B-ScrPart_bicycle	O	_	_	
+2-10	hit	O	B-ScrEv_notice_problem	_	_	
+2-11	a	O	O	_	_	
+2-12	nail	B-ScrPart_object_damage	O	_	_	
+2-13	in	O	O	_	_	
+2-14	the	O	O	_	_	
+2-15	road	O	O	_	_	
+2-16	which	O	O	_	_	
+2-17	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-8	
+2-18	think	O	B-UnrelEv	_	_	
+2-19	is	O	B-UnrelEv	_	_	
+2-20	pretty	O	O	_	_	
+2-21	dangerous	O	O	_	_	
+2-22	.	O	O	_	_	
+
+#id=3
+#text=What if a kid was playing ?
+3-1	What	O	O	_	_	
+3-2	if	O	O	_	_	
+3-3	a	O	O	_	_	
+3-4	kid	O	O	_	_	
+3-5	was	O	O	_	_	
+3-6	playing	O	B-UnrelEv	_	_	
+3-7	?	O	O	_	_	
+
+#id=4
+#text=I was pretty devastated .
+4-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-17	
+4-2	was	O	O	_	_	
+4-3	pretty	O	O	_	_	
+4-4	devastated	O	B-UnrelEv	_	_	
+4-5	.	O	O	_	_	
+
+#id=5
+#text=Because of the expenses with school , I would not be able to afford a new tire .
+5-1	Because	O	O	_	_	
+5-2	of	O	O	_	_	
+5-3	the	O	O	_	_	
+5-4	expenses	O	O	_	_	
+5-5	with	O	O	_	_	
+5-6	school	O	O	_	_	
+5-7	,	O	O	_	_	
+5-8	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	4-1	
+5-9	would	O	O	_	_	
+5-10	not	O	O	_	_	
+5-11	be	O	B-UnrelEv	_	_	
+5-12	able	O	O	_	_	
+5-13	to	O	O	_	_	
+5-14	afford	O	B-RelNScrEv	_	_	
+5-15	a	O	O	_	_	
+5-16	new	O	O	_	_	
+5-17	tire	B-ScrPart_spare_tube	O	_	_	
+5-18	.	O	O	_	_	
+
+#id=6
+#text=So I thought to myself , maybe I can fix it .
+6-1	So	O	O	_	_	
+6-2	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	5-8	
+6-3	thought	O	B-UnrelEv	_	_	
+6-4	to	O	O	_	_	
+6-5	myself	B-ScrPart_rider	O	webanno.custom.Corefchains_	6-2	
+6-6	,	O	O	_	_	
+6-7	maybe	O	O	_	_	
+6-8	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	6-5	
+6-9	can	O	O	_	_	
+6-10	fix	O	B-Evoking	_	_	
+6-11	it	B-ScrPart_tire	I-Evoking	_	_	
+6-12	.	O	O	_	_	
+
+#id=7
+#text=I resolved to fix it this Sunday , because I figured Friday and Saturday would be too busy .
+7-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	6-8	
+7-2	resolved	O	B-UnrelEv	_	_	
+7-3	to	O	O	_	_	
+7-4	fix	O	B-Evoking	_	_	
+7-5	it	B-ScrPart_tire	I-Evoking	webanno.custom.Corefchains_	6-11	
+7-6	this	O	O	_	_	
+7-7	Sunday	O	O	_	_	
+7-8	,	O	O	_	_	
+7-9	because	O	O	_	_	
+7-10	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	7-1	
+7-11	figured	O	B-UnrelEv	_	_	
+7-12	Friday	O	O	_	_	
+7-13	and	O	O	_	_	
+7-14	Saturday	O	O	_	_	
+7-15	would	O	O	_	_	
+7-16	be	O	B-UnrelEv	_	_	
+7-17	too	O	O	_	_	
+7-18	busy	O	O	_	_	
+7-19	.	O	O	_	_	
+
+#id=8
+#text=I 've never repaired a bike tire before .
+8-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	7-10	
+8-2	've	O	O	_	_	
+8-3	never	O	O	_	_	
+8-4	repaired	O	B-Evoking	_	_	
+8-5	a	O	I-Evoking	_	_	
+8-6	bike	B-ScrPart_tire	I-Evoking	_	_	
+8-7	tire	I-ScrPart_tire|B-ScrPart_tire	I-Evoking	webanno.custom.Corefchains_	7-5	
+8-8	before	O	O	_	_	
+8-9	.	O	O	_	_	
+
+#id=9
+#text=So I searched google for some tutorials .
+9-1	So	O	O	_	_	
+9-2	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	8-1	
+9-3	searched	O	B-RelNScrEv	_	_	
+9-4	google	B-NPart	O	_	_	
+9-5	for	O	O	_	_	
+9-6	some	O	O	_	_	
+9-7	tutorials	O	O	_	_	
+9-8	.	O	O	_	_	
+
+#id=10
+#text=Turns out , I can just use a sticky material to cover the part that 's broken .
+10-1	Turns	O	B-UnrelEv	_	_	
+10-2	out	O	O	_	_	
+10-3	,	O	O	_	_	
+10-4	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	9-2	
+10-5	can	O	O	_	_	
+10-6	just	O	O	_	_	
+10-7	use	O	B-RelNScrEv	_	_	
+10-8	a	O	O	_	_	
+10-9	sticky	O	O	_	_	
+10-10	material	B-ScrPart_patch	O	_	_	
+10-11	to	O	O	_	_	
+10-12	cover	O	B-ScrEv_put_patch/seal	_	_	
+10-13	the	O	O	_	_	
+10-14	part	B-MissScrPart	O	_	_	
+10-15	that	B-MissScrPart	O	webanno.custom.Corefchains_	10-14	
+10-16	's	O	O	_	_	
+10-17	broken	O	B-RelNScrEv	_	_	
+10-18	.	O	O	_	_	
+
+#id=11
+#text=I looked at various online store .
+11-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	10-4	
+11-2	looked	O	B-RelNScrEv	_	_	
+11-3	at	O	O	_	_	
+11-4	various	O	O	_	_	
+11-5	online	O	O	_	_	
+11-6	store	B-ScrPart_shop	O	_	_	
+11-7	.	O	O	_	_	
+
+#id=12
+#text=No one seemed to have it .
+12-1	No	O	O	_	_	
+12-2	one	B-ScrPart_shop	O	webanno.custom.Corefchains_	11-6	
+12-3	seemed	O	B-UnrelEv	_	_	
+12-4	to	O	O	_	_	
+12-5	have	O	B-RelNScrEv	_	_	
+12-6	it	B-ScrPart_patch	O	webanno.custom.Corefchains_	10-10	
+12-7	.	O	O	_	_	
+
+#id=13
+#text=Just my luck .
+13-1	Just	O	O	_	_	
+13-2	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	11-1	
+13-3	luck	O	O	_	_	
+13-4	.	O	O	_	_	
+
+#id=14
+#text=Then it occurred to me that maybe an automotive store would have it , and they did !
+14-1	Then	O	O	_	_	
+14-2	it	O	O	_	_	
+14-3	occurred	O	B-UnrelEv	_	_	
+14-4	to	O	O	_	_	
+14-5	me	B-ScrPart_rider	O	webanno.custom.Corefchains_	13-2	
+14-6	that	O	O	_	_	
+14-7	maybe	O	O	_	_	
+14-8	an	O	O	_	_	
+14-9	automotive	O	O	_	_	
+14-10	store	B-ScrPart_shop	O	webanno.custom.Corefchains_	12-2	
+14-11	would	O	O	_	_	
+14-12	have	O	B-RelNScrEv	_	_	
+14-13	it	B-ScrPart_patch	O	webanno.custom.Corefchains_	12-6	
+14-14	,	O	O	_	_	
+14-15	and	O	O	_	_	
+14-16	they	B-ScrPart_shop	O	webanno.custom.Corefchains_	14-10	
+14-17	did	O	B-UnrelEv	_	_	
+14-18	!	O	O	_	_	
+
+#id=15
+#text=It was only $ 5 .
+15-1	It	B-ScrPart_patch	O	webanno.custom.Corefchains_	14-13	
+15-2	was	O	B-UnrelEv	_	_	
+15-3	only	O	O	_	_	
+15-4	$	O	O	_	_	
+15-5	5	O	O	_	_	
+15-6	.	O	O	_	_	
+
+#id=16
+#text=Stuck it in and inflated my tire .
+16-1	Stuck	O	B-ScrEv_put_patch/seal	_	_	
+16-2	it	B-ScrPart_patch	O	webanno.custom.Corefchains_	15-1	
+16-3	in	O	O	_	_	
+16-4	and	O	O	_	_	
+16-5	inflated	O	B-ScrEv_refill_tire_air	_	_	
+16-6	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	14-5	
+16-7	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	8-7	
+16-8	.	O	O	_	_	
+
+#id=17
+#text=It 's been working for months ever since ! 
+17-1	It	O	O	_	_	
+17-2	's	O	O	_	_	
+17-3	been	O	O	_	_	
+17-4	working	O	B-UnrelEv	_	_	
+17-5	for	O	O	_	_	
+17-6	months	O	O	_	_	
+17-7	ever	O	O	_	_	
+17-8	since	O	O	_	_	
+17-9	!	O	O	_	_	
+

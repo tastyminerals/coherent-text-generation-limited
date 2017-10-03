@@ -1,0 +1,239 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=After breakfast I got in my car and drove to the grocery store to buy food for the next several days .
+1-1	After	O	O	_	_	
+1-2	breakfast	O	O	_	_	
+1-3	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	1-6	
+1-4	got	O	B-UnrelEv	_	_	
+1-5	in	O	O	_	_	
+1-6	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	2-1	
+1-7	car	B-ScrPart_vehicle	O	webanno.custom.Corefchains_	12-11	
+1-8	and	O	O	_	_	
+1-9	drove	O	B-ScrEv_go_grocery	_	_	
+1-10	to	O	O	_	_	
+1-11	the	O	O	_	_	
+1-12	grocery	B-ScrPart_grocery_shop	O	_	_	
+1-13	store	I-ScrPart_grocery_shop|B-ScrPart_grocery_shop	O	webanno.custom.Corefchains_	3-5	
+1-14	to	O	O	_	_	
+1-15	buy	O	B-Evoking	_	_	
+1-16	food	B-ScrPart_groceries	I-Evoking	_	_	
+1-17	for	O	O	_	_	
+1-18	the	O	O	_	_	
+1-19	next	O	O	_	_	
+1-20	several	O	O	_	_	
+1-21	days	O	O	_	_	
+1-22	.	O	O	_	_	
+
+#id=2
+#text=I like to walk so I parked in the back row of the parking lot .
+2-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	2-6	
+2-2	like	O	B-UnrelEv	_	_	
+2-3	to	O	O	_	_	
+2-4	walk	O	B-UnrelEv	_	_	
+2-5	so	O	O	_	_	
+2-6	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	3-1	
+2-7	parked	O	B-RelNScrEv	_	_	
+2-8	in	O	O	_	_	
+2-9	the	O	O	_	_	
+2-10	back	O	O	_	_	
+2-11	row	O	O	_	_	
+2-12	of	O	O	_	_	
+2-13	the	O	O	_	_	
+2-14	parking	O	O	_	_	
+2-15	lot	O	O	_	_	
+2-16	.	O	O	_	_	
+
+#id=3
+#text=I walked in the store and selected a shopping cart that did n't have stuck wheels .
+3-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	4-2	
+3-2	walked	O	B-ScrEv_enter	_	_	
+3-3	in	O	O	_	_	
+3-4	the	O	O	_	_	
+3-5	store	B-ScrPart_grocery_shop	O	_	_	
+3-6	and	O	O	_	_	
+3-7	selected	O	B-ScrEv_take_shop_cart	_	_	
+3-8	a	O	O	_	_	
+3-9	shopping	B-ScrPart_shopping_cart/basket	O	_	_	
+3-10	cart	I-ScrPart_shopping_cart/basket|B-ScrPart_shopping_cart/basket	O	webanno.custom.Corefchains_	3-11	
+3-11	that	B-ScrPart_shopping_cart/basket	O	_	_	
+3-12	did	O	O	_	_	
+3-13	n't	O	O	_	_	
+3-14	have	O	O	_	_	
+3-15	stuck	O	B-RelNScrEv	_	_	
+3-16	wheels	B-NPart	O	_	_	
+3-17	.	O	O	_	_	
+
+#id=4
+#text=As I normally do I first proceeded to the deli department and got a number .
+4-1	As	O	O	_	_	
+4-2	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	4-5	
+4-3	normally	O	O	_	_	
+4-4	do	O	B-UnrelEv	_	_	
+4-5	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	5-9	
+4-6	first	O	O	_	_	
+4-7	proceeded	O	B-ScrEv_move_section	_	_	
+4-8	to	O	O	_	_	
+4-9	the	O	O	_	_	
+4-10	deli	B-ScrPart_section	O	_	_	
+4-11	department	I-ScrPart_section|B-ScrPart_section	O	webanno.custom.Corefchains_	5-16	
+4-12	and	O	O	_	_	
+4-13	got	O	B-RelNScrEv	_	_	
+4-14	a	O	O	_	_	
+4-15	number	B-NPart	O	_	_	
+4-16	.	O	O	_	_	
+
+#id=5
+#text=Since there were several people in front of me I started my shopping near the deli .
+5-1	Since	O	O	_	_	
+5-2	there	O	O	_	_	
+5-3	were	O	B-UnrelEv	_	_	
+5-4	several	O	O	_	_	
+5-5	people	B-ScrPart_shopper	O	_	_	
+5-6	in	O	O	_	_	
+5-7	front	O	O	_	_	
+5-8	of	O	O	_	_	
+5-9	me	B-ScrPart_shopper	O	webanno.custom.Corefchains_	5-10	
+5-10	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	5-12	
+5-11	started	O	B-UnrelEv	_	_	
+5-12	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	6-1	
+5-13	shopping	O	B-Evoking	_	_	
+5-14	near	O	O	_	_	
+5-15	the	O	O	_	_	
+5-16	deli	B-ScrPart_section	O	webanno.custom.Corefchains_	7-3	
+5-17	.	O	O	_	_	
+
+#id=6
+#text=I picked some fresh produce and vegetables until my number was called .
+6-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	6-9	
+6-2	picked	O	B-ScrEv_get_groceries	_	_	
+6-3	some	O	O	_	_	
+6-4	fresh	O	O	_	_	
+6-5	produce	B-ScrPart_groceries	O	_	_	
+6-6	and	O	O	_	_	
+6-7	vegetables	B-ScrPart_groceries	O	_	_	
+6-8	until	O	O	_	_	
+6-9	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	7-4	
+6-10	number	B-NPart	O	_	_	
+6-11	was	O	O	_	_	
+6-12	called	O	B-RelNScrEv	_	_	
+6-13	.	O	O	_	_	
+
+#id=7
+#text=At the deli I purchased ham , cheese and salami .
+7-1	At	O	O	_	_	
+7-2	the	O	O	_	_	
+7-3	deli	B-ScrPart_section	O	_	_	
+7-4	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	8-1	
+7-5	purchased	O	B-ScrEv_get_groceries	_	_	
+7-6	ham	B-ScrPart_groceries	O	_	_	
+7-7	,	O	O	_	_	
+7-8	cheese	B-ScrPart_groceries	O	_	_	
+7-9	and	O	O	_	_	
+7-10	salami	B-ScrPart_groceries	O	_	_	
+7-11	.	O	O	_	_	
+
+#id=8
+#text=I picked up a whole chicken and a steak , the steak would be for tonight the chicken for a few days .
+8-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	9-1	
+8-2	picked	O	B-ScrEv_get_groceries	_	_	
+8-3	up	O	I-ScrEv_get_groceries	_	_	
+8-4	a	O	O	_	_	
+8-5	whole	O	O	_	_	
+8-6	chicken	B-ScrPart_groceries	O	webanno.custom.Corefchains_	8-18	
+8-7	and	O	O	_	_	
+8-8	a	O	O	_	_	
+8-9	steak	B-ScrPart_groceries	O	webanno.custom.Corefchains_	8-12	
+8-10	,	O	O	_	_	
+8-11	the	O	O	_	_	
+8-12	steak	B-ScrPart_groceries	O	_	_	
+8-13	would	O	O	_	_	
+8-14	be	O	B-UnrelEv	_	_	
+8-15	for	O	O	_	_	
+8-16	tonight	O	O	_	_	
+8-17	the	O	O	_	_	
+8-18	chicken	B-ScrPart_groceries	O	webanno.custom.Corefchains_	9-9	
+8-19	for	O	O	_	_	
+8-20	a	O	O	_	_	
+8-21	few	O	O	_	_	
+8-22	days	O	O	_	_	
+8-23	.	O	O	_	_	
+
+#id=9
+#text=I picked up stuffing and gravy for the chicken .
+9-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	10-1	
+9-2	picked	O	B-ScrEv_get_groceries	_	_	
+9-3	up	O	I-ScrEv_get_groceries	_	_	
+9-4	stuffing	B-ScrPart_groceries	O	_	_	
+9-5	and	O	O	_	_	
+9-6	gravy	B-ScrPart_groceries	O	_	_	
+9-7	for	O	O	_	_	
+9-8	the	O	O	_	_	
+9-9	chicken	B-ScrPart_groceries	O	_	_	
+9-10	.	O	O	_	_	
+
+#id=10
+#text=I browsed through the isles selecting various items that I did n't really need .
+10-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	10-10	
+10-2	browsed	O	B-ScrEv_move_section	_	_	
+10-3	through	O	O	_	_	
+10-4	the	O	O	_	_	
+10-5	isles	B-ScrPart_section	O	_	_	
+10-6	selecting	O	B-ScrEv_get_groceries	_	_	
+10-7	various	O	O	_	_	
+10-8	items	B-ScrPart_groceries	O	webanno.custom.Corefchains_	10-9	
+10-9	that	B-ScrPart_groceries	O	webanno.custom.Corefchains_	11-19	
+10-10	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	11-2	
+10-11	did	O	O	_	_	
+10-12	n't	O	O	_	_	
+10-13	really	O	O	_	_	
+10-14	need	O	B-RelNScrEv	_	_	
+10-15	.	O	O	_	_	
+
+#id=11
+#text=As I proceeded to the checkout there was a sale isle which I picked up a few more items .
+11-1	As	O	O	_	_	
+11-2	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	11-13	
+11-3	proceeded	O	B-ScrEv_move_section	_	_	
+11-4	to	O	O	_	_	
+11-5	the	O	O	_	_	
+11-6	checkout	B-ScrPart_cash_desk	O	_	_	
+11-7	there	O	O	_	_	
+11-8	was	O	B-UnrelEv	_	_	
+11-9	a	O	O	_	_	
+11-10	sale	B-ScrPart_section	O	_	_	
+11-11	isle	I-ScrPart_section|B-ScrPart_section	O	_	_	
+11-12	which	O	O	_	_	
+11-13	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	12-1	
+11-14	picked	O	B-ScrEv_get_groceries	_	_	
+11-15	up	O	I-ScrEv_get_groceries	_	_	
+11-16	a	O	O	_	_	
+11-17	few	O	O	_	_	
+11-18	more	O	O	_	_	
+11-19	items	B-ScrPart_groceries	O	webanno.custom.Corefchains_	12-5	
+11-20	.	O	O	_	_	
+
+#id=12
+#text=I paid for my groceries and walked back to my car , placing the bags in the car and drove home . 
+12-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	12-4	
+12-2	paid	O	B-ScrEv_pay	_	_	
+12-3	for	O	O	_	_	
+12-4	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	12-10	
+12-5	groceries	B-ScrPart_groceries	O	_	_	
+12-6	and	O	O	_	_	
+12-7	walked	O	B-ScrEv_bring_vehicle	_	_	
+12-8	back	O	I-ScrEv_bring_vehicle	_	_	
+12-9	to	O	O	_	_	
+12-10	my	B-ScrPart_shopper	O	_	_	
+12-11	car	B-ScrPart_vehicle	O	webanno.custom.Corefchains_	12-18	
+12-12	,	O	O	_	_	
+12-13	placing	O	B-ScrEv_bring_vehicle	_	_	
+12-14	the	O	O	_	_	
+12-15	bags	B-ScrPart_shopping_bags	O	_	_	
+12-16	in	O	O	_	_	
+12-17	the	O	O	_	_	
+12-18	car	B-ScrPart_vehicle	O	_	_	
+12-19	and	O	O	_	_	
+12-20	drove	O	B-ScrEv_leave	_	_	
+12-21	home	B-NPart	O	_	_	
+12-22	.	O	O	_	_	
+

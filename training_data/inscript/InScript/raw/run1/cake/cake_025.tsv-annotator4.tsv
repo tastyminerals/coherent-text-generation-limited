@@ -1,0 +1,227 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Baking a cake and be fun and eating the cake even more fun .
+1-1	Baking	B-Evoking	O	O	_	_	
+1-2	a	I-Evoking	O	O	_	_	
+1-3	cake	I-Evoking	B-ScrPart_cake	B-webanno.custom.Participants_	webanno.custom.Corefchains_	1-10	
+1-4	and	O	O	O	_	_	
+1-5	be	B-UnrelEv	O	O	_	_	
+1-6	fun	O	O	O	_	_	
+1-7	and	O	O	O	_	_	
+1-8	eating	B-ScrEv_eat	O	O	_	_	
+1-9	the	O	O	O	_	_	
+1-10	cake	O	B-ScrPart_cake	B-webanno.custom.Participants_	webanno.custom.Corefchains_	2-4	
+1-11	even	O	O	O	_	_	
+1-12	more	O	O	O	_	_	
+1-13	fun	O	O	O	_	_	
+1-14	.	O	O	O	_	_	
+
+#id=2
+#text=I have made cakes homemade from scratch using a recipe from my mom .
+2-1	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	2-12	
+2-2	have	O	O	O	_	_	
+2-3	made	B-Evoking	O	O	_	_	
+2-4	cakes	I-Evoking	B-ScrPart_cake	B-webanno.custom.Participants_	webanno.custom.Corefchains_	3-5	
+2-5	homemade	B-Evoking	O	O	_	_	
+2-6	from	O	O	O	_	_	
+2-7	scratch	O	O	O	_	_	
+2-8	using	B-ScrEv_choose_recipe	O	O	_	_	
+2-9	a	O	O	O	_	_	
+2-10	recipe	O	B-ScrPart_baking_instructions	B-webanno.custom.Participants_	_	_	
+2-11	from	O	O	O	_	_	
+2-12	my	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	3-6	
+2-13	mom	O	O	O	_	_	
+2-14	.	O	O	O	_	_	
+
+#id=3
+#text=But most of the cakes I have made have been from a box mix .
+3-1	But	O	O	O	_	_	
+3-2	most	O	O	O	_	_	
+3-3	of	O	O	O	_	_	
+3-4	the	O	O	O	_	_	
+3-5	cakes	O	B-ScrPart_cake	B-webanno.custom.Participants_	webanno.custom.Corefchains_	4-7	
+3-6	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	4-1	
+3-7	have	O	O	O	_	_	
+3-8	made	B-RelNScrEv	O	O	_	_	
+3-9	have	O	O	O	_	_	
+3-10	been	B-UnrelEv	O	O	_	_	
+3-11	from	O	O	O	_	_	
+3-12	a	O	O	O	_	_	
+3-13	box	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	_	_	
+3-14	mix	O	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	webanno.custom.Corefchains_	6-3	
+3-15	.	O	O	O	_	_	
+
+#id=4
+#text=I recently made myself a birthday cake .
+4-1	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	4-4	
+4-2	recently	O	O	O	_	_	
+4-3	made	B-Evoking	O	O	_	_	
+4-4	myself	I-Evoking	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	5-1	
+4-5	a	I-Evoking	O	O	_	_	
+4-6	birthday	I-Evoking	O	O	_	_	
+4-7	cake	I-Evoking	B-ScrPart_cake	B-webanno.custom.Participants_	webanno.custom.Corefchains_	5-6	
+4-8	.	O	O	O	_	_	
+
+#id=5
+#text=I made a German chocolate cake and it was delicious .
+5-1	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	7-2	
+5-2	made	B-Evoking	O	O	_	_	
+5-3	a	I-Evoking	O	O	_	_	
+5-4	German	I-Evoking	O	O	_	_	
+5-5	chocolate	I-Evoking	B-ScrPart_cake	B-webanno.custom.Participants_	_	_	
+5-6	cake	I-Evoking	I-ScrPart_cake|B-ScrPart_cake	I-webanno.custom.Participants_|B-webanno.custom.Participants_	webanno.custom.Corefchains_	5-8	
+5-7	and	O	O	O	_	_	
+5-8	it	O	B-ScrPart_cake	B-webanno.custom.Participants_	webanno.custom.Corefchains_	8-4	
+5-9	was	B-RelNScrEv	O	O	_	_	
+5-10	delicious	O	O	O	_	_	
+5-11	.	O	O	O	_	_	
+
+#id=6
+#text=Most box mixed call for a couple eggs and water .
+6-1	Most	O	O	O	_	_	
+6-2	box	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	_	_	
+6-3	mixed	O	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	_	_	
+6-4	call	B-ScrEv_add_ingredients	O	O	_	_	
+6-5	for	I-ScrEv_add_ingredients	O	O	_	_	
+6-6	a	O	O	O	_	_	
+6-7	couple	O	O	O	_	_	
+6-8	eggs	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	_	_	
+6-9	and	O	O	O	_	_	
+6-10	water	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	_	_	
+6-11	.	O	O	O	_	_	
+
+#id=7
+#text=Sometimes you have to add oil also .
+7-1	Sometimes	O	O	O	_	_	
+7-2	you	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	8-5	
+7-3	have	O	O	O	_	_	
+7-4	to	O	O	O	_	_	
+7-5	add	B-ScrEv_add_ingredients	O	O	_	_	
+7-6	oil	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	webanno.custom.Corefchains_	8-9	
+7-7	also	O	O	O	_	_	
+7-8	.	O	O	O	_	_	
+
+#id=8
+#text=The German chocolate cake I made called for oil and I used coconut oil .
+8-1	The	O	O	O	_	_	
+8-2	German	O	O	O	_	_	
+8-3	chocolate	O	B-ScrPart_cake	B-webanno.custom.Participants_	_	_	
+8-4	cake	O	I-ScrPart_cake|B-ScrPart_cake	I-webanno.custom.Participants_|B-webanno.custom.Participants_	webanno.custom.Corefchains_	9-5	
+8-5	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	8-11	
+8-6	made	B-RelNScrEv	O	O	_	_	
+8-7	called	B-ScrEv_add_ingredients	O	O	_	_	
+8-8	for	I-ScrEv_add_ingredients	O	O	_	_	
+8-9	oil	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	webanno.custom.Corefchains_	8-14	
+8-10	and	O	O	O	_	_	
+8-11	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	9-2	
+8-12	used	B-ScrEv_add_ingredients	O	O	_	_	
+8-13	coconut	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	_	_	
+8-14	oil	O	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	_	_	
+8-15	.	O	O	O	_	_	
+
+#id=9
+#text=When you bake a cake you always have to oil and flour the cake pan so it does not stick .
+9-1	When	O	O	O	_	_	
+9-2	you	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	9-6	
+9-3	bake	B-Evoking	O	O	_	_	
+9-4	a	I-Evoking	O	O	_	_	
+9-5	cake	I-Evoking	B-ScrPart_cake	B-webanno.custom.Participants_	webanno.custom.Corefchains_	10-10	
+9-6	you	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	10-1	
+9-7	always	O	O	O	_	_	
+9-8	have	O	O	O	_	_	
+9-9	to	O	O	O	_	_	
+9-10	oil	B-ScrEv_grease_cake_tin	O	O	_	_	
+9-11	and	O	O	O	_	_	
+9-12	flour	B-ScrEv_grease_cake_tin	O	O	_	_	
+9-13	the	O	O	O	_	_	
+9-14	cake	O	B-ScrPart_cake_tin	B-webanno.custom.Participants_	_	_	
+9-15	pan	O	I-ScrPart_cake_tin|B-ScrPart_cake_tin	I-webanno.custom.Participants_|B-webanno.custom.Participants_	webanno.custom.Corefchains_	9-17	
+9-16	so	O	O	O	_	_	
+9-17	it	O	B-ScrPart_cake_tin	B-webanno.custom.Participants_	webanno.custom.Corefchains_	10-6	
+9-18	does	O	O	O	_	_	
+9-19	not	O	O	O	_	_	
+9-20	stick	B-RelNScrEv	O	O	_	_	
+9-21	.	O	O	O	_	_	
+
+#id=10
+#text=I used two round cake pans for my birthday cake but I have often used a square pan or a bunt pan .
+10-1	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	10-8	
+10-2	used	B-ScrEv_get_utensils	O	O	_	_	
+10-3	two	O	O	O	_	_	
+10-4	round	O	O	O	_	_	
+10-5	cake	O	B-ScrPart_cake_tin	B-webanno.custom.Participants_	_	_	
+10-6	pans	O	I-ScrPart_cake_tin|B-ScrPart_cake_tin	I-webanno.custom.Participants_|B-webanno.custom.Participants_	webanno.custom.Corefchains_	10-18	
+10-7	for	O	O	O	_	_	
+10-8	my	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	10-12	
+10-9	birthday	O	B-ScrPart_cake	B-webanno.custom.Participants_	_	_	
+10-10	cake	O	I-ScrPart_cake|B-ScrPart_cake	I-webanno.custom.Participants_|B-webanno.custom.Participants_	webanno.custom.Corefchains_	11-4	
+10-11	but	O	O	O	_	_	
+10-12	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	11-9	
+10-13	have	O	O	O	_	_	
+10-14	often	O	O	O	_	_	
+10-15	used	B-ScrEv_get_utensils	O	O	_	_	
+10-16	a	O	O	O	_	_	
+10-17	square	O	B-ScrPart_cake_tin	B-webanno.custom.Participants_	_	_	
+10-18	pan	O	I-ScrPart_cake_tin|B-ScrPart_cake_tin	I-webanno.custom.Participants_|B-webanno.custom.Participants_	webanno.custom.Corefchains_	10-22	
+10-19	or	O	O	O	_	_	
+10-20	a	O	O	O	_	_	
+10-21	bunt	O	B-ScrPart_cake_tin	B-webanno.custom.Participants_	_	_	
+10-22	pan	O	I-ScrPart_cake_tin|B-ScrPart_cake_tin	I-webanno.custom.Participants_|B-webanno.custom.Participants_	_	_	
+10-23	.	O	O	O	_	_	
+
+#id=11
+#text=After taking a cake out of the oven you need to let it cool .
+11-1	After	O	O	O	_	_	
+11-2	taking	B-ScrEv_take_out_oven	O	O	_	_	
+11-3	a	O	O	O	_	_	
+11-4	cake	O	B-ScrPart_cake	B-webanno.custom.Participants_	webanno.custom.Corefchains_	11-13	
+11-5	out	O	O	O	_	_	
+11-6	of	O	O	O	_	_	
+11-7	the	O	O	O	_	_	
+11-8	oven	O	B-ScrPart_oven	B-webanno.custom.Participants_	_	_	
+11-9	you	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	12-1	
+11-10	need	O	O	O	_	_	
+11-11	to	O	O	O	_	_	
+11-12	let	B-UnrelEv	O	O	_	_	
+11-13	it	O	B-ScrPart_cake	B-webanno.custom.Participants_	webanno.custom.Corefchains_	12-7	
+11-14	cool	B-ScrEv_cool_down	O	O	_	_	
+11-15	.	O	O	O	_	_	
+
+#id=12
+#text=I was eager for my birthday cake to cool so I could frost it .
+12-1	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	12-5	
+12-2	was	B-UnrelEv	O	O	_	_	
+12-3	eager	O	O	O	_	_	
+12-4	for	O	O	O	_	_	
+12-5	my	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	12-11	
+12-6	birthday	O	B-ScrPart_cake	B-webanno.custom.Participants_	_	_	
+12-7	cake	O	I-ScrPart_cake|B-ScrPart_cake	I-webanno.custom.Participants_|B-webanno.custom.Participants_	webanno.custom.Corefchains_	12-14	
+12-8	to	O	O	O	_	_	
+12-9	cool	B-ScrEv_cool_down	O	O	_	_	
+12-10	so	O	O	O	_	_	
+12-11	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	13-15	
+12-12	could	O	O	O	_	_	
+12-13	frost	B-ScrEv_decorate	O	O	_	_	
+12-14	it	O	B-ScrPart_cake	B-webanno.custom.Participants_	webanno.custom.Corefchains_	13-3	
+12-15	.	O	O	O	_	_	
+
+#id=13
+#text=German chocolate cake typically has a coconut and pecan frosting and this is what I used . 
+13-1	German	O	O	O	_	_	
+13-2	chocolate	O	B-ScrPart_cake	B-webanno.custom.Participants_	_	_	
+13-3	cake	O	I-ScrPart_cake|B-ScrPart_cake	I-webanno.custom.Participants_|B-webanno.custom.Participants_	_	_	
+13-4	typically	O	O	O	_	_	
+13-5	has	B-UnrelEv	O	O	_	_	
+13-6	a	O	O	O	_	_	
+13-7	coconut	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	_	_	
+13-8	and	O	I-ScrPart_ingredients	I-webanno.custom.Participants_	_	_	
+13-9	pecan	O	I-ScrPart_ingredients	I-webanno.custom.Participants_	_	_	
+13-10	frosting	O	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	webanno.custom.Corefchains_	13-12	
+13-11	and	O	O	O	_	_	
+13-12	this	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	webanno.custom.Corefchains_	13-14	
+13-13	is	B-UnrelEv	O	O	_	_	
+13-14	what	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	_	_	
+13-15	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+13-16	used	B-ScrEv_decorate	O	O	_	_	
+13-17	.	O	O	O	_	_	
+

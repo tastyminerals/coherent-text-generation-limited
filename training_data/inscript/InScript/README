@@ -1,0 +1,45 @@
+##########################################################################
+# InScript (A Corpus of Narrative Texts INstantiating SCRIPT Structures) #
+##########################################################################
+
+### OVERVIEW ###
+
+* The InScript corpus contains a total of 910 narrative texts crowdsourced via Amazon Mechanical Turk. The texts cover 10 different scenarios describing everyday situations like taking a bath, baking a cake etc.
+
+* It is annotated with 
+	* script information in the form of scenario-specific event type labels
+	* script information in the form of scenario-specific participant type labels
+	* coreference chains linking different mentions of the same entity within one text
+
+* Hand-crafted scenario templates define the participant and event type labels that are used for annotation.
+
+
+
+### DATA ###
+
+* Directory structure:
+	/corpus - contains one folder per scenario that contain all stories for the respective scenario, with the full annotation in xml format.
+	/templates - contains the hand-crafted templates used for annotation
+	/raw - contains the raw data collected via webanno, in webanno tsv format. 
+		/run1 files from the first annotation run
+		/run2 files from the second annotation run
+
+* Every folder also contains a readme that describes its content.
+
+* IMPORTANT NOTE: The usage of the raw data is highly discouraged since there are some amibguities with the tsv format that we resolved in the xml files! The raw data set does not contain the final label sets for templates, but intermediate ones. If you want to use the raw data, please take a look at the respective readme!
+
+
+
+### REFERENCE ###
+please cite as:
+
+	Modi, A., Anikina, T. , Ostermann, S. & Pinkal, M. (2016). InScript: Narrative texts annotated with script information. Proceedings of the 10th International Conference on Language Resources and Evaluation (LREC 16), Portorož, Slovenia.	
+
+	BibTeX:
+	@INPROCEEDINGS{wanz16,
+	  author = {Modi, A. and Anikina, T. and Ostermann, S. and Pinkal, M.},
+	  title = {InScript: Narrative texts annotated with script information},
+	  year = {2016},
+	  publisher = {Proceedings of the 10th International Conference on Language Resources
+		and Evaluation (LREC 16),Portorož, Slovenia}
+	}

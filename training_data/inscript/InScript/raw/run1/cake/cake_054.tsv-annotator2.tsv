@@ -1,0 +1,321 @@
+ # webanno.custom.Participants | Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I love too cook .
+1-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+1-2	love	O	O	B-UnrelEv	_	_	
+1-3	too	O	O	O	_	_	
+1-4	cook	O	O	B-Evoking	_	_	
+1-5	.	O	O	O	_	_	
+
+#id=2
+#text=Cooking is far easier than most people think , in fact , I believe that it is often as easy to make good food from scratch as it is to make something from a box , and it tastes a million times better .
+2-1	Cooking	O	O	B-Evoking	_	_	
+2-2	is	O	O	B-UnrelEv	_	_	
+2-3	far	O	O	O	_	_	
+2-4	easier	O	O	O	_	_	
+2-5	than	O	O	O	_	_	
+2-6	most	O	O	O	_	_	
+2-7	people	O	O	O	_	_	
+2-8	think	O	O	B-UnrelEv	_	_	
+2-9	,	O	O	O	_	_	
+2-10	in	O	O	O	_	_	
+2-11	fact	O	O	O	_	_	
+2-12	,	O	O	O	_	_	
+2-13	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	1-1	
+2-14	believe	O	O	B-UnrelEv	_	_	
+2-15	that	O	O	O	_	_	
+2-16	it	O	O	O	_	_	
+2-17	is	O	O	B-UnrelEv	_	_	
+2-18	often	O	O	O	_	_	
+2-19	as	O	O	O	_	_	
+2-20	easy	O	O	O	_	_	
+2-21	to	O	O	O	_	_	
+2-22	make	O	O	B-UnrelEv	_	_	
+2-23	good	O	O	O	_	_	
+2-24	food	O	O	O	_	_	
+2-25	from	O	O	O	_	_	
+2-26	scratch	O	O	O	_	_	
+2-27	as	O	O	O	_	_	
+2-28	it	O	O	O	_	_	
+2-29	is	O	O	B-UnrelEv	_	_	
+2-30	to	O	O	O	_	_	
+2-31	make	O	O	B-UnrelEv	_	_	
+2-32	something	O	O	O	_	_	
+2-33	from	O	O	O	_	_	
+2-34	a	O	O	O	_	_	
+2-35	box	O	O	O	_	_	
+2-36	,	O	O	O	_	_	
+2-37	and	O	O	O	_	_	
+2-38	it	O	O	O	_	_	
+2-39	tastes	O	O	B-UnrelEv	_	_	
+2-40	a	O	O	O	_	_	
+2-41	million	O	O	O	_	_	
+2-42	times	O	O	O	_	_	
+2-43	better	O	O	O	_	_	
+2-44	.	O	O	O	_	_	
+
+#id=3
+#text=One of the best examples of this is a simple cake .
+3-1	One	O	O	O	_	_	
+3-2	of	O	O	O	_	_	
+3-3	the	O	O	O	_	_	
+3-4	best	O	O	O	_	_	
+3-5	examples	O	O	O	_	_	
+3-6	of	O	O	O	_	_	
+3-7	this	O	O	O	_	_	
+3-8	is	O	O	B-UnrelEv	_	_	
+3-9	a	O	O	O	_	_	
+3-10	simple	O	O	O	_	_	
+3-11	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	_	_	
+3-12	.	O	O	O	_	_	
+
+#id=4
+#text=A basic yellow cake takes only a few ingredients ; flour , sugar , eggs milk , baking powder , salt , vanilla , and water .
+4-1	A	O	O	O	_	_	
+4-2	basic	O	O	O	_	_	
+4-3	yellow	O	O	O	_	_	
+4-4	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	3-11	
+4-5	takes	O	O	B-UnrelEv	_	_	
+4-6	only	O	O	O	_	_	
+4-7	a	O	O	O	_	_	
+4-8	few	O	O	O	_	_	
+4-9	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+4-10	;	O	O	O	_	_	
+4-11	flour	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+4-12	,	O	O	O	_	_	
+4-13	sugar	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+4-14	,	O	O	O	_	_	
+4-15	eggs	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+4-16	milk	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+4-17	,	O	O	O	_	_	
+4-18	baking	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+4-19	powder	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+4-20	,	O	O	O	_	_	
+4-21	salt	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+4-22	,	O	O	O	_	_	
+4-23	vanilla	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+4-24	,	O	O	O	_	_	
+4-25	and	O	O	O	_	_	
+4-26	water	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+4-27	.	O	O	O	_	_	
+
+#id=5
+#text=Once a person sifts the dry ingredients together it is the same a making a box cake mix .
+5-1	Once	O	O	O	_	_	
+5-2	a	O	O	O	_	_	
+5-3	person	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+5-4	sifts	O	O	B-ScrEv_prepare_ingredients	_	_	
+5-5	the	O	O	O	_	_	
+5-6	dry	O	O	O	_	_	
+5-7	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+5-8	together	O	O	O	_	_	
+5-9	it	O	O	O	_	_	
+5-10	is	O	O	B-UnrelEv	_	_	
+5-11	the	O	O	O	_	_	
+5-12	same	O	O	O	_	_	
+5-13	a	O	O	O	_	_	
+5-14	making	O	O	B-???	_	_	
+5-15	a	O	O	O	_	_	
+5-16	box	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+5-17	cake	I-ScrPart_ingredients	I-webanno.custom.Participants_	O	_	_	
+5-18	mix	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+5-19	.	O	O	O	_	_	
+
+#id=6
+#text=The time and directions are nearly identical , but the result is much cheaper and more delicious than anything out of a box .
+6-1	The	O	O	O	_	_	
+6-2	time	B-ScrPart_time	B-webanno.custom.Participants_	O	_	_	
+6-3	and	O	O	O	_	_	
+6-4	directions	B-ScrPart_baking_instructions	B-webanno.custom.Participants_	O	_	_	
+6-5	are	O	O	B-UnrelEv	_	_	
+6-6	nearly	O	O	O	_	_	
+6-7	identical	O	O	O	_	_	
+6-8	,	O	O	O	_	_	
+6-9	but	O	O	O	_	_	
+6-10	the	O	O	O	_	_	
+6-11	result	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	4-4	
+6-12	is	O	O	B-UnrelEv	_	_	
+6-13	much	O	O	O	_	_	
+6-14	cheaper	O	O	O	_	_	
+6-15	and	O	O	O	_	_	
+6-16	more	O	O	O	_	_	
+6-17	delicious	O	O	O	_	_	
+6-18	than	O	O	O	_	_	
+6-19	anything	O	O	O	_	_	
+6-20	out	O	O	O	_	_	
+6-21	of	O	O	O	_	_	
+6-22	a	O	O	O	_	_	
+6-23	box	O	O	O	_	_	
+6-24	.	O	O	O	_	_	
+
+#id=7
+#text=While the cake is baking it is wise to make a good frosting for the cake , once someone has home made frosting , the stuff in a can tastes only like chemicals .
+7-1	While	O	O	O	_	_	
+7-2	the	O	O	O	_	_	
+7-3	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	6-11	
+7-4	is	O	O	O	_	_	
+7-5	baking	O	O	B-ScrEv_wait	_	_	
+7-6	it	O	O	O	_	_	
+7-7	is	O	O	B-UnrelEv	_	_	
+7-8	wise	O	O	O	_	_	
+7-9	to	O	O	O	_	_	
+7-10	make	O	O	B-ScrEv_prepare_ingredients	_	_	
+7-11	a	O	O	O	_	_	
+7-12	good	O	O	O	_	_	
+7-13	frosting	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+7-14	for	O	O	O	_	_	
+7-15	the	O	O	O	_	_	
+7-16	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	7-3	
+7-17	,	O	O	O	_	_	
+7-18	once	O	O	O	_	_	
+7-19	someone	O	O	O	_	_	
+7-20	has	O	O	B-UnrelEv	_	_	
+7-21	home	O	O	O	_	_	
+7-22	made	O	O	O	_	_	
+7-23	frosting	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	7-13	
+7-24	,	O	O	O	_	_	
+7-25	the	O	O	O	_	_	
+7-26	stuff	O	O	O	_	_	
+7-27	in	O	O	O	_	_	
+7-28	a	O	O	O	_	_	
+7-29	can	O	O	O	_	_	
+7-30	tastes	O	O	B-UnrelEv	_	_	
+7-31	only	O	O	O	_	_	
+7-32	like	O	O	O	_	_	
+7-33	chemicals	O	O	O	_	_	
+7-34	.	O	O	O	_	_	
+
+#id=8
+#text=Frosting is even easier than the cake to prepare , Vanilla butter cream frosting the just ; powdered sugar , vanilla , butter and milk .
+8-1	Frosting	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	7-23	
+8-2	is	O	O	O	_	_	
+8-3	even	O	O	O	_	_	
+8-4	easier	O	O	O	_	_	
+8-5	than	O	O	O	_	_	
+8-6	the	O	O	O	_	_	
+8-7	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	7-16	
+8-8	to	O	O	O	_	_	
+8-9	prepare	O	O	B-ScrEv_prepare_ingredients	_	_	
+8-10	,	O	O	O	_	_	
+8-11	Vanilla	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+8-12	butter	I-ScrPart_ingredients	I-webanno.custom.Participants_	O	_	_	
+8-13	cream	I-ScrPart_ingredients	I-webanno.custom.Participants_	O	_	_	
+8-14	frosting	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	8-1	
+8-15	the	O	O	O	_	_	
+8-16	just	O	O	O	_	_	
+8-17	;	O	O	O	_	_	
+8-18	powdered	O	O	O	_	_	
+8-19	sugar	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	4-13	
+8-20	,	O	O	O	_	_	
+8-21	vanilla	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	4-23	
+8-22	,	O	O	O	_	_	
+8-23	butter	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+8-24	and	O	O	O	_	_	
+8-25	milk	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	4-16	
+8-26	.	O	O	O	_	_	
+
+#id=9
+#text=When mixed in the correct proportions and whipped up this is the perfect topping for any cake , and with food coloring is an excellent medium for any decorated cakes , because any color will take easily to the stark white base .
+9-1	When	O	O	O	_	_	
+9-2	mixed	O	O	B-ScrEv_prepare_ingredients	_	_	
+9-3	in	O	O	O	_	_	
+9-4	the	O	O	O	_	_	
+9-5	correct	O	O	O	_	_	
+9-6	proportions	O	O	O	_	_	
+9-7	and	O	O	O	_	_	
+9-8	whipped	O	O	B-ScrEv_prepare_ingredients	_	_	
+9-9	up	O	O	I-ScrEv_prepare_ingredients	_	_	
+9-10	this	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	8-14	
+9-11	is	O	O	B-UnrelEv	_	_	
+9-12	the	O	O	O	_	_	
+9-13	perfect	O	O	O	_	_	
+9-14	topping	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	9-10	
+9-15	for	O	O	O	_	_	
+9-16	any	O	O	O	_	_	
+9-17	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	8-7	
+9-18	,	O	O	O	_	_	
+9-19	and	O	O	O	_	_	
+9-20	with	O	O	O	_	_	
+9-21	food	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+9-22	coloring	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+9-23	is	O	O	B-UnrelEv	_	_	
+9-24	an	O	O	O	_	_	
+9-25	excellent	O	O	O	_	_	
+9-26	medium	O	O	O	_	_	
+9-27	for	O	O	O	_	_	
+9-28	any	O	O	O	_	_	
+9-29	decorated	O	O	O	_	_	
+9-30	cakes	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	9-17	
+9-31	,	O	O	O	_	_	
+9-32	because	O	O	O	_	_	
+9-33	any	O	O	O	_	_	
+9-34	color	O	O	O	_	_	
+9-35	will	O	O	O	_	_	
+9-36	take	O	O	B-UnrelEv	_	_	
+9-37	easily	O	O	O	_	_	
+9-38	to	O	O	O	_	_	
+9-39	the	O	O	O	_	_	
+9-40	stark	O	O	O	_	_	
+9-41	white	O	O	O	_	_	
+9-42	base	O	O	O	_	_	
+9-43	.	O	O	O	_	_	
+
+#id=10
+#text=Once the cake is baked it is important to watch it , to be sure it cools enough before removing it from the pan to frost .
+10-1	Once	O	O	O	_	_	
+10-2	the	O	O	O	_	_	
+10-3	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	9-30	
+10-4	is	O	O	O	_	_	
+10-5	baked	O	O	B-???	_	_	
+10-6	it	O	O	O	_	_	
+10-7	is	O	O	B-UnrelEv	_	_	
+10-8	important	O	O	O	_	_	
+10-9	to	O	O	O	_	_	
+10-10	watch	O	O	B-RelNScrEv	_	_	
+10-11	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	10-3	
+10-12	,	O	O	O	_	_	
+10-13	to	O	O	O	_	_	
+10-14	be	O	O	O	_	_	
+10-15	sure	O	O	O	_	_	
+10-16	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	10-11	
+10-17	cools	O	O	B-ScrEv_cool_down	_	_	
+10-18	enough	O	O	O	_	_	
+10-19	before	O	O	O	_	_	
+10-20	removing	O	O	B-ScrEv_take_out_cake_tin	_	_	
+10-21	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	10-16	
+10-22	from	O	O	O	_	_	
+10-23	the	O	O	O	_	_	
+10-24	pan	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	_	_	
+10-25	to	O	O	O	_	_	
+10-26	frost	O	O	B-ScrEv_decorate	_	_	
+10-27	.	O	O	O	_	_	
+
+#id=11
+#text=A cake plate -LRB- the kind on a small pedestal -RRB- is the perfect thing to make guests fawn over this quick and easy dessert . 
+11-1	A	O	O	O	_	_	
+11-2	cake	B-ScrPart_utensil	B-webanno.custom.Participants_	O	_	_	
+11-3	plate	I-ScrPart_utensil|B-ScrPart_utensil	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+11-4	-LRB-	O	O	O	_	_	
+11-5	the	O	O	O	_	_	
+11-6	kind	O	O	O	_	_	
+11-7	on	O	O	O	_	_	
+11-8	a	O	O	O	_	_	
+11-9	small	O	O	O	_	_	
+11-10	pedestal	O	O	O	_	_	
+11-11	-RRB-	O	O	O	_	_	
+11-12	is	O	O	B-UnrelEv	_	_	
+11-13	the	O	O	O	_	_	
+11-14	perfect	O	O	O	_	_	
+11-15	thing	O	O	O	_	_	
+11-16	to	O	O	O	_	_	
+11-17	make	O	O	O	_	_	
+11-18	guests	O	O	O	_	_	
+11-19	fawn	O	O	B-UnrelEv	_	_	
+11-20	over	O	O	O	_	_	
+11-21	this	O	O	O	_	_	
+11-22	quick	O	O	O	_	_	
+11-23	and	O	O	O	_	_	
+11-24	easy	O	O	O	_	_	
+11-25	dessert	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	10-21	
+11-26	.	O	O	O	_	_	
+

@@ -1,0 +1,231 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=The first and only time I have rode on a train was in November 1978 .
+1-1	The	O	O	_	_	
+1-2	first	O	O	_	_	
+1-3	and	O	O	_	_	
+1-4	only	O	O	_	_	
+1-5	time	O	O	_	_	
+1-6	I	B-ScrPart_passenger	O	_	_	
+1-7	have	O	O	_	_	
+1-8	rode	O	B-Evoking	_	_	
+1-9	on	O	I-Evoking	_	_	
+1-10	a	O	I-Evoking	_	_	
+1-11	train	B-ScrPart_train	I-Evoking	_	_	
+1-12	was	O	B-UnrelEv	_	_	
+1-13	in	O	O	_	_	
+1-14	November	O	O	_	_	
+1-15	1978	O	O	_	_	
+1-16	.	O	O	_	_	
+
+#id=2
+#text=My family and I traveled to Carbondale Illinois on an Amtrak train for Thanksgiving .
+2-1	My	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-6	
+2-2	family	B-ScrPart_passenger	O	_	_	
+2-3	and	O	O	_	_	
+2-4	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-1	
+2-5	traveled	O	B-Evoking	_	_	
+2-6	to	O	O	_	_	
+2-7	Carbondale	B-ScrPart_destination	O	_	_	
+2-8	Illinois	I-ScrPart_destination	O	_	_	
+2-9	on	O	O	_	_	
+2-10	an	O	O	_	_	
+2-11	Amtrak	B-ScrPart_train	O	_	_	
+2-12	train	I-ScrPart_train|B-ScrPart_train	O	webanno.custom.Corefchains_	1-11	
+2-13	for	O	O	_	_	
+2-14	Thanksgiving	B-NPart	O	_	_	
+2-15	.	O	O	_	_	
+
+#id=3
+#text=I had a brother who attended Southern Illinois University and we had dinner with his family .
+3-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-4	
+3-2	had	O	B-UnrelEv	_	_	
+3-3	a	O	O	_	_	
+3-4	brother	O	O	_	_	
+3-5	who	O	O	_	_	
+3-6	attended	O	B-UnrelEv	_	_	
+3-7	Southern	O	O	_	_	
+3-8	Illinois	O	O	_	_	
+3-9	University	O	O	_	_	
+3-10	and	O	O	_	_	
+3-11	we	B-ScrPart_passenger	O	coref_group_I_family|coref_group_I_family	2-2|2-4	
+3-12	had	O	B-UnrelEv	_	_	
+3-13	dinner	O	O	_	_	
+3-14	with	O	O	_	_	
+3-15	his	O	O	_	_	
+3-16	family	O	O	_	_	
+3-17	.	O	O	_	_	
+
+#id=4
+#text=The university is located near Carbondale .
+4-1	The	O	O	_	_	
+4-2	university	O	O	_	_	
+4-3	is	O	O	_	_	
+4-4	located	O	B-UnrelEv	_	_	
+4-5	near	O	O	_	_	
+4-6	Carbondale	B-ScrPart_destination	O	webanno.custom.Corefchains_	2-7	
+4-7	.	O	O	_	_	
+
+#id=5
+#text=I remember the ride being long but smooth .
+5-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-1	
+5-2	remember	O	B-UnrelEv	_	_	
+5-3	the	O	O	_	_	
+5-4	ride	O	O	_	_	
+5-5	being	O	B-UnrelEv	_	_	
+5-6	long	O	O	_	_	
+5-7	but	O	O	_	_	
+5-8	smooth	O	O	_	_	
+5-9	.	O	O	_	_	
+
+#id=6
+#text=My sister and I took turns sitting by the window .
+6-1	My	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-1	
+6-2	sister	B-ScrPart_passenger	O	coref_group_part_of_family	2-2	
+6-3	and	O	O	_	_	
+6-4	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-1	
+6-5	took	O	B-UnrelEv	_	_	
+6-6	turns	O	O	_	_	
+6-7	sitting	O	B-ScrEv_find_place	_	_	
+6-8	by	O	O	_	_	
+6-9	the	O	O	_	_	
+6-10	window	B-ScrPart_in-train_entertainment	O	_	_	
+6-11	.	O	O	_	_	
+
+#id=7
+#text=Sometimes all we saw was cornfields and cattle .
+7-1	Sometimes	O	O	_	_	
+7-2	all	O	O	_	_	
+7-3	we	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-11	
+7-4	saw	O	B-RelNScrEv	_	_	
+7-5	was	O	B-UnrelEv	_	_	
+7-6	cornfields	B-NPart	O	_	_	
+7-7	and	O	O	_	_	
+7-8	cattle	B-NPart	O	_	_	
+7-9	.	O	O	_	_	
+
+#id=8
+#text=Occasionally , we would pass a small town and see people at different stops .
+8-1	Occasionally	O	O	_	_	
+8-2	,	O	O	_	_	
+8-3	we	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-3	
+8-4	would	O	O	_	_	
+8-5	pass	O	B-RelNScrEv	_	_	
+8-6	a	O	O	_	_	
+8-7	small	O	O	_	_	
+8-8	town	B-ScrPart_location_train	O	_	_	
+8-9	and	O	O	_	_	
+8-10	see	O	B-RelNScrEv	_	_	
+8-11	people	B-NPart	O	_	_	
+8-12	at	O	O	_	_	
+8-13	different	O	O	_	_	
+8-14	stops	B-???	O	_	_	
+8-15	.	O	O	_	_	
+
+#id=9
+#text=We didn ' t order food on the train because we brought our own .
+9-1	We	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-3	
+9-2	didn	O	O	_	_	
+9-3	'	O	O	_	_	
+9-4	t	O	O	_	_	
+9-5	order	O	B-ScrEv_spend_time_train	_	_	
+9-6	food	B-ScrPart_in-train_entertainment	O	_	_	
+9-7	on	O	O	_	_	
+9-8	the	O	O	_	_	
+9-9	train	B-ScrPart_train	O	webanno.custom.Corefchains_	2-12	
+9-10	because	O	O	_	_	
+9-11	we	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-1	
+9-12	brought	O	B-RelNScrEv	_	_	
+9-13	our	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-11	
+9-14	own	B-ScrPart_in-train_entertainment	O	webanno.custom.Corefchains_	9-6	
+9-15	.	O	O	_	_	
+
+#id=10
+#text=We actually had brought cakes , pies and sandwiches to carry us over .
+10-1	We	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-13	
+10-2	actually	O	O	_	_	
+10-3	had	O	O	_	_	
+10-4	brought	O	B-RelNScrEv	_	_	
+10-5	cakes	B-ScrPart_in-train_entertainment	O	coref_group_food	9-14	
+10-6	,	O	O	_	_	
+10-7	pies	B-ScrPart_in-train_entertainment	O	coref_group_food	9-14	
+10-8	and	O	O	_	_	
+10-9	sandwiches	B-ScrPart_in-train_entertainment	O	coref_group_food	9-14	
+10-10	to	O	O	_	_	
+10-11	carry	O	B-RelNScrEv	_	_	
+10-12	us	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-1	
+10-13	over	O	O	_	_	
+10-14	.	O	O	_	_	
+
+#id=11
+#text=We shared our food with the people around us .
+11-1	We	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-12	
+11-2	shared	O	B-ScrEv_spend_time_train	_	_	
+11-3	our	B-ScrPart_passenger	O	webanno.custom.Corefchains_	11-1	
+11-4	food	B-ScrPart_in-train_entertainment	O	webanno.custom.Corefchains_	9-14	
+11-5	with	O	O	_	_	
+11-6	the	O	O	_	_	
+11-7	people	B-ScrPart_passenger	O	_	_	
+11-8	around	O	O	_	_	
+11-9	us	B-ScrPart_passenger	O	webanno.custom.Corefchains_	11-3	
+11-10	.	O	O	_	_	
+
+#id=12
+#text=The whole car sang Christmas carols and there was plenty of laughter .
+12-1	The	O	O	_	_	
+12-2	whole	O	O	_	_	
+12-3	car	B-ScrPart_passenger	O	coref_group_we_passenger|coref_group_we_passenger	11-7|11-9	
+12-4	sang	O	B-ScrEv_spend_time_train	_	_	
+12-5	Christmas	B-ScrPart_in-train_entertainment	O	_	_	
+12-6	carols	I-ScrPart_in-train_entertainment|B-ScrPart_in-train_entertainment	O	_	_	
+12-7	and	O	O	_	_	
+12-8	there	O	O	_	_	
+12-9	was	O	B-RelNScrEv	_	_	
+12-10	plenty	O	O	_	_	
+12-11	of	O	O	_	_	
+12-12	laughter	B-ScrPart_in-train_entertainment	O	_	_	
+12-13	.	O	O	_	_	
+
+#id=13
+#text=I would love to take a train vacation and travel from the West coast back to the East coast .
+13-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-4	
+13-2	would	O	O	_	_	
+13-3	love	O	B-UnrelEv	_	_	
+13-4	to	O	O	_	_	
+13-5	take	O	B-Evoking	_	_	
+13-6	a	O	I-Evoking	_	_	
+13-7	train	B-SuppVComp	I-Evoking	_	_	
+13-8	vacation	I-SuppVComp|B-SuppVComp	I-Evoking	_	_	
+13-9	and	O	O	_	_	
+13-10	travel	O	B-RelNScrEv	_	_	
+13-11	from	O	O	_	_	
+13-12	the	O	O	_	_	
+13-13	West	B-NPart	O	_	_	
+13-14	coast	I-NPart|B-NPart	O	_	_	
+13-15	back	O	O	_	_	
+13-16	to	O	O	_	_	
+13-17	the	O	O	_	_	
+13-18	East	B-ScrPart_destination	O	_	_	
+13-19	coast	I-ScrPart_destination|B-ScrPart_destination	O	_	_	
+13-20	.	O	O	_	_	
+
+#id=14
+#text=When that comes , I think I will eat whatever they are serving on the train . 
+14-1	When	O	O	_	_	
+14-2	that	O	O	_	_	
+14-3	comes	O	B-UnrelEv	_	_	
+14-4	,	O	O	_	_	
+14-5	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	13-1	
+14-6	think	O	B-UnrelEv	_	_	
+14-7	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	14-5	
+14-8	will	O	O	_	_	
+14-9	eat	O	B-ScrEv_spend_time_train	_	_	
+14-10	whatever	B-ScrPart_in-train_entertainment	O	webanno.custom.Corefchains_	11-4	
+14-11	they	B-ScrPart_train_staff	O	_	_	
+14-12	are	O	O	_	_	
+14-13	serving	O	B-RelNScrEv	_	_	
+14-14	on	O	O	_	_	
+14-15	the	O	O	_	_	
+14-16	train	B-ScrPart_train	O	webanno.custom.Corefchains_	9-9	
+14-17	.	O	O	_	_	
+

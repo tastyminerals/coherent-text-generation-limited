@@ -1,0 +1,207 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=My family decided to take a train in to the city and have an afternoon of shopping .
+1-1	My	B-ScrPart_passenger	O	_	_	
+1-2	family	B-ScrPart_passenger	O	_	_	
+1-3	decided	O	B-UnrelEv	_	_	
+1-4	to	O	O	_	_	
+1-5	take	O	B-Evoking	_	_	
+1-6	a	O	I-Evoking	_	_	
+1-7	train	B-ScrPart_train	I-Evoking	_	_	
+1-8	in	O	O	_	_	
+1-9	to	O	O	_	_	
+1-10	the	O	O	_	_	
+1-11	city	B-ScrPart_destination	O	_	_	
+1-12	and	O	O	_	_	
+1-13	have	O	B-UnrelEv	_	_	
+1-14	an	O	O	_	_	
+1-15	afternoon	B-NPart	O	_	_	
+1-16	of	O	O	_	_	
+1-17	shopping	O	B-UnrelEv	_	_	
+1-18	.	O	O	_	_	
+
+#id=2
+#text=We went to the station and bought tickets from the vending machine there .
+2-1	We	B-ScrPart_passenger	O	_	_	
+2-2	went	O	B-ScrEv_get_train_station	_	_	
+2-3	to	O	O	_	_	
+2-4	the	O	O	_	_	
+2-5	station	B-ScrPart_train_station	O	_	_	
+2-6	and	O	O	_	_	
+2-7	bought	O	B-ScrEv_get_tickets	_	_	
+2-8	tickets	B-ScrPart_card/ticket	O	_	_	
+2-9	from	O	O	_	_	
+2-10	the	O	O	_	_	
+2-11	vending	B-ScrPart_ticket_office/website	O	_	_	
+2-12	machine	I-ScrPart_ticket_office/website|B-ScrPart_ticket_office/website	O	_	_	
+2-13	there	O	O	_	_	
+2-14	.	O	O	_	_	
+
+#id=3
+#text=We often bought the ten-trip ticket because it was a good bargain .
+3-1	We	B-ScrPart_passenger	O	_	_	
+3-2	often	O	O	_	_	
+3-3	bought	O	B-ScrEv_get_tickets	_	_	
+3-4	the	O	O	_	_	
+3-5	ten-trip	B-ScrPart_card/ticket	O	_	_	
+3-6	ticket	I-ScrPart_card/ticket|B-ScrPart_card/ticket	O	_	_	
+3-7	because	O	O	_	_	
+3-8	it	B-ScrPart_card/ticket	O	_	_	
+3-9	was	O	B-UnrelEv	_	_	
+3-10	a	O	O	_	_	
+3-11	good	O	O	_	_	
+3-12	bargain	B-NPart	O	_	_	
+3-13	.	O	O	_	_	
+
+#id=4
+#text=Then we had to wait for our train to arrive .
+4-1	Then	O	O	_	_	
+4-2	we	B-ScrPart_passenger	O	_	_	
+4-3	had	O	O	_	_	
+4-4	to	O	O	_	_	
+4-5	wait	O	B-ScrEv_wait	_	_	
+4-6	for	O	O	_	_	
+4-7	our	B-ScrPart_passenger	O	_	_	
+4-8	train	B-ScrPart_train	O	_	_	
+4-9	to	O	O	_	_	
+4-10	arrive	O	B-ScrEv_train_arrives	_	_	
+4-11	.	O	O	_	_	
+
+#id=5
+#text=When it did , we stepped through the open doors into the car , stepping carefully over the gap between the platform and the train .
+5-1	When	O	O	_	_	
+5-2	it	B-ScrPart_train	O	_	_	
+5-3	did	O	B-UnrelEv	_	_	
+5-4	,	O	O	_	_	
+5-5	we	B-ScrPart_passenger	O	_	_	
+5-6	stepped	O	B-ScrEv_get_on	_	_	
+5-7	through	O	O	_	_	
+5-8	the	O	O	_	_	
+5-9	open	O	O	_	_	
+5-10	doors	B-ScrPart_door	O	_	_	
+5-11	into	O	O	_	_	
+5-12	the	O	O	_	_	
+5-13	car	B-ScrPart_coach	O	_	_	
+5-14	,	O	O	_	_	
+5-15	stepping	O	B-ScrEv_get_on	_	_	
+5-16	carefully	O	O	_	_	
+5-17	over	O	O	_	_	
+5-18	the	O	O	_	_	
+5-19	gap	B-NPart	O	_	_	
+5-20	between	O	O	_	_	
+5-21	the	O	O	_	_	
+5-22	platform	B-ScrPart_platform	O	_	_	
+5-23	and	O	O	_	_	
+5-24	the	O	O	_	_	
+5-25	train	B-ScrPart_train	O	_	_	
+5-26	.	O	O	_	_	
+
+#id=6
+#text=We found ourselves a nice seat .
+6-1	We	B-ScrPart_passenger	O	_	_	
+6-2	found	O	B-ScrEv_find_place	_	_	
+6-3	ourselves	B-ScrPart_passenger	O	_	_	
+6-4	a	O	O	_	_	
+6-5	nice	O	O	_	_	
+6-6	seat	B-ScrPart_seat	O	_	_	
+6-7	.	O	O	_	_	
+
+#id=7
+#text=My sister took a seat by the window because she always likes to watch the moving landscape .
+7-1	My	B-ScrPart_passenger	O	_	_	
+7-2	sister	B-ScrPart_passenger	O	_	_	
+7-3	took	O	B-ScrEv_find_place	_	_	
+7-4	a	O	O	_	_	
+7-5	seat	B-ScrPart_seat	O	_	_	
+7-6	by	O	O	_	_	
+7-7	the	O	O	_	_	
+7-8	window	B-ScrPart_in-train_entertainment	O	_	_	
+7-9	because	O	O	_	_	
+7-10	she	B-ScrPart_passenger	O	_	_	
+7-11	always	O	O	_	_	
+7-12	likes	O	B-UnrelEv	_	_	
+7-13	to	O	O	_	_	
+7-14	watch	O	B-ScrEv_spend_time_train	_	_	
+7-15	the	O	O	_	_	
+7-16	moving	O	B-RelNScrEv	_	_	
+7-17	landscape	B-ScrPart_location_train	O	_	_	
+7-18	.	O	O	_	_	
+
+#id=8
+#text=We all enjoyed a train ride .
+8-1	We	B-ScrPart_passenger	O	_	_	
+8-2	all	O	O	_	_	
+8-3	enjoyed	O	B-ScrEv_spend_time_train	_	_	
+8-4	a	O	O	_	_	
+8-5	train	B-ScrPart_trip	O	_	_	
+8-6	ride	I-ScrPart_trip|B-ScrPart_trip	O	_	_	
+8-7	.	O	O	_	_	
+
+#id=9
+#text=The sound of the wheels on the tracks was soothing and the rides were n't too long .
+9-1	The	O	O	_	_	
+9-2	sound	B-NPart	O	_	_	
+9-3	of	O	O	_	_	
+9-4	the	O	O	_	_	
+9-5	wheels	B-NPart	O	_	_	
+9-6	on	O	O	_	_	
+9-7	the	O	O	_	_	
+9-8	tracks	B-NPart	O	_	_	
+9-9	was	O	O	_	_	
+9-10	soothing	O	B-UnrelEv	_	_	
+9-11	and	O	O	_	_	
+9-12	the	O	O	_	_	
+9-13	rides	B-ScrPart_trip	O	webanno.custom.Corefchains_	8-6	
+9-14	were	O	B-UnrelEv	_	_	
+9-15	n't	O	O	_	_	
+9-16	too	O	O	_	_	
+9-17	long	O	O	_	_	
+9-18	.	O	O	_	_	
+
+#id=10
+#text=Before long , the conductor came and took our tickets .
+10-1	Before	O	O	_	_	
+10-2	long	O	O	_	_	
+10-3	,	O	O	_	_	
+10-4	the	O	O	_	_	
+10-5	conductor	B-ScrPart_train_staff	O	_	_	
+10-6	came	O	B-RelNScrEv	_	_	
+10-7	and	O	O	_	_	
+10-8	took	O	B-ScrEv_conductor_checks	_	_	
+10-9	our	B-ScrPart_passenger	O	_	_	
+10-10	tickets	B-ScrPart_card/ticket	O	_	_	
+10-11	.	O	O	_	_	
+
+#id=11
+#text=She was very polite and friendly .
+11-1	She	B-ScrPart_train_staff	O	_	_	
+11-2	was	O	B-UnrelEv	_	_	
+11-3	very	O	O	_	_	
+11-4	polite	O	O	_	_	
+11-5	and	O	O	_	_	
+11-6	friendly	O	O	_	_	
+11-7	.	O	O	_	_	
+
+#id=12
+#text=It was not long before the train went into the tunnel and we knew the ride was nearly over . 
+12-1	It	B-No_label	O	_	_	
+12-2	was	O	B-UnrelEv	_	_	
+12-3	not	O	O	_	_	
+12-4	long	O	O	_	_	
+12-5	before	O	O	_	_	
+12-6	the	O	O	_	_	
+12-7	train	B-ScrPart_train	O	_	_	
+12-8	went	O	B-RelNScrEv	_	_	
+12-9	into	O	O	_	_	
+12-10	the	O	O	_	_	
+12-11	tunnel	B-ScrPart_location_train	O	_	_	
+12-12	and	O	O	_	_	
+12-13	we	B-ScrPart_passenger	O	_	_	
+12-14	knew	O	B-UnrelEv	_	_	
+12-15	the	O	O	_	_	
+12-16	ride	B-ScrPart_trip	O	webanno.custom.Corefchains_	9-13	
+12-17	was	O	B-ScrEv_arrive_destination	_	_	
+12-18	nearly	O	O	_	_	
+12-19	over	O	O	_	_	
+12-20	.	O	O	_	_	
+

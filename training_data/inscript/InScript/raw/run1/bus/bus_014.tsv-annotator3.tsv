@@ -1,0 +1,241 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Eventsandparticipants | Event # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=This morning I rode a public bus to college .
+1-1	This	O	O	_	_	
+1-2	morning	B-ScrPart_time/date	O	_	_	
+1-3	I	B-ScrPart_passenger	O	_	_	
+1-4	rode	O	B-Evoking	_	_	
+1-5	a	O	I-Evoking	_	_	
+1-6	public	O	I-Evoking	_	_	
+1-7	bus	B-ScrPart_bus	I-Evoking	_	_	
+1-8	to	O	O	_	_	
+1-9	college	B-ScrPart_destination	O	_	_	
+1-10	.	O	O	_	_	
+
+#id=2
+#text=Before I left my house , I checked the bus schedule so I would know what time the bus was meant to arrive .
+2-1	Before	O	O	_	_	
+2-2	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-3	
+2-3	left	O	B-UnrelEv	_	_	
+2-4	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-2	
+2-5	house	O	O	_	_	
+2-6	,	O	O	_	_	
+2-7	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-4	
+2-8	checked	O	B-MissScrEv	_	_	
+2-9	the	O	O	_	_	
+2-10	bus	B-ScrPart_time-table	O	_	_	
+2-11	schedule	I-ScrPart_time-table|B-ScrPart_time-table	O	_	_	
+2-12	so	O	O	_	_	
+2-13	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-7	
+2-14	would	O	O	_	_	
+2-15	know	O	B-UnrelEv	_	_	
+2-16	what	O	O	_	_	
+2-17	time	B-ScrPart_time/date	O	_	_	
+2-18	the	O	O	_	_	
+2-19	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	1-7	
+2-20	was	O	O	_	_	
+2-21	meant	O	B-UnrelEv|B-UnrelEv	_	_	
+2-22	to	O	I-UnrelEv	_	_	
+2-23	arrive	O	B-ScrEv_bus_comes	_	_	
+2-24	.	O	O	_	_	
+
+#id=3
+#text=I then left my house and walked to the bus stop right outside my house .
+3-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-13	
+3-2	then	O	O	_	_	
+3-3	left	O	B-UnrelEv	_	_	
+3-4	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-1	
+3-5	house	O	O	_	_	
+3-6	and	O	O	_	_	
+3-7	walked	O	B-ScrEv_get_bus_stop|B-ScrEv_get_bus_stop	_	_	
+3-8	to	O	I-ScrEv_get_bus_stop	_	_	
+3-9	the	O	O	_	_	
+3-10	bus	B-ScrPart_bus_stop	O	_	_	
+3-11	stop	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	_	_	
+3-12	right	O	O	_	_	
+3-13	outside	O	O	_	_	
+3-14	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-4	
+3-15	house	B-NPart	O	_	_	
+3-16	.	O	O	_	_	
+
+#id=4
+#text=I then sat on the bench next to an old man and waited for the bus to arrive .
+4-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-14	
+4-2	then	O	O	_	_	
+4-3	sat	O	B-UnrelEv	_	_	
+4-4	on	O	O	_	_	
+4-5	the	O	O	_	_	
+4-6	bench	O	O	_	_	
+4-7	next	O	O	_	_	
+4-8	to	O	O	_	_	
+4-9	an	O	O	_	_	
+4-10	old	O	O	_	_	
+4-11	man	B-ScrPart_passenger	O	_	_	
+4-12	and	O	O	_	_	
+4-13	waited	O	B-ScrEv_wait	_	_	
+4-14	for	O	O	_	_	
+4-15	the	O	O	_	_	
+4-16	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	2-19	
+4-17	to	O	O	_	_	
+4-18	arrive	O	B-ScrEv_bus_comes	_	_	
+4-19	.	O	O	_	_	
+
+#id=5
+#text=While I waited , I chatted with the old man .
+5-1	While	O	O	_	_	
+5-2	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-1	
+5-3	waited	O	B-ScrEv_wait	_	_	
+5-4	,	O	O	_	_	
+5-5	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-2	
+5-6	chatted	O	B-UnrelEv	_	_	
+5-7	with	O	O	_	_	
+5-8	the	O	O	_	_	
+5-9	old	O	O	_	_	
+5-10	man	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-11	
+5-11	.	O	O	_	_	
+
+#id=6
+#text=When the bus arrived , I let the old man get on in front of me .
+6-1	When	O	O	_	_	
+6-2	the	O	O	_	_	
+6-3	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	4-16	
+6-4	arrived	O	B-ScrEv_bus_comes	_	_	
+6-5	,	O	O	_	_	
+6-6	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-5	
+6-7	let	O	B-UnrelEv	_	_	
+6-8	the	O	O	_	_	
+6-9	old	O	O	_	_	
+6-10	man	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-10	
+6-11	get	O	B-ScrEv_board_bus|B-ScrEv_board_bus	_	_	
+6-12	on	O	I-ScrEv_board_bus	_	_	
+6-13	in	O	O	_	_	
+6-14	front	B-NPart	O	_	_	
+6-15	of	O	O	_	_	
+6-16	me	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-6	
+6-17	.	O	O	_	_	
+
+#id=7
+#text=I then climbed on board the bus , paid the bus driver the bus fare , and the bus driver said '' `` Good morning '' '' as he handed me my ticket .
+7-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-16	
+7-2	then	O	O	_	_	
+7-3	climbed	O	B-ScrEv_board_bus	_	_	
+7-4	on	O	O	_	_	
+7-5	board	B-NPart	O	_	_	
+7-6	the	O	O	_	_	
+7-7	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	6-3	
+7-8	,	O	O	_	_	
+7-9	paid	O	B-ScrEv_get_ticket	_	_	
+7-10	the	O	O	_	_	
+7-11	bus	B-ScrPart_bus_staff	O	_	_	
+7-12	driver	I-ScrPart_bus_staff|B-ScrPart_bus_staff	O	_	_	
+7-13	the	O	O	_	_	
+7-14	bus	B-MissScrPart	O	_	_	
+7-15	fare	I-MissScrPart|B-MissScrPart	O	_	_	
+7-16	,	O	O	_	_	
+7-17	and	O	O	_	_	
+7-18	the	O	O	_	_	
+7-19	bus	B-ScrPart_bus_staff	O	_	_	
+7-20	driver	I-ScrPart_bus_staff|B-ScrPart_bus_staff	O	webanno.custom.Corefchains_	7-12	
+7-21	said	O	B-RelNScrEv	_	_	
+7-22	''	O	O	_	_	
+7-23	``	O	O	_	_	
+7-24	Good	O	O	_	_	
+7-25	morning	B-NPart	O	_	_	
+7-26	''	O	O	_	_	
+7-27	''	O	O	_	_	
+7-28	as	O	O	_	_	
+7-29	he	O	O	_	_	
+7-30	handed	O	B-MissScrEv	_	_	
+7-31	me	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-1	
+7-32	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-31	
+7-33	ticket	B-ScrPart_card/ticket	O	_	_	
+7-34	.	O	O	_	_	
+
+#id=8
+#text=Holding onto my ticket , I took a seat near the front of the bus .
+8-1	Holding	O	B-UnrelEv|B-UnrelEv	_	_	
+8-2	onto	O	I-UnrelEv	_	_	
+8-3	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-32	
+8-4	ticket	B-ScrPart_card/ticket	O	webanno.custom.Corefchains_	7-33	
+8-5	,	O	O	_	_	
+8-6	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-3	
+8-7	took	O	B-ScrEv_take_seat	_	_	
+8-8	a	O	O	_	_	
+8-9	seat	B-ScrPart_seat_in_bus	O	_	_	
+8-10	near	O	O	_	_	
+8-11	the	O	O	_	_	
+8-12	front	B-NPart	O	_	_	
+8-13	of	O	O	_	_	
+8-14	the	O	O	_	_	
+8-15	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	7-7	
+8-16	.	O	O	_	_	
+
+#id=9
+#text=I stared out the window throughout the bus journey , just enjoying the view .
+9-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-6	
+9-2	stared	O	B-ScrEv_spend_time_bus|B-ScrEv_spend_time_bus	_	_	
+9-3	out	O	I-ScrEv_spend_time_bus	_	_	
+9-4	the	O	O	_	_	
+9-5	window	B-MissScrPart	O	_	_	
+9-6	throughout	O	O	_	_	
+9-7	the	O	O	_	_	
+9-8	bus	B-MissScrPart	O	_	_	
+9-9	journey	I-MissScrPart|B-MissScrPart	O	_	_	
+9-10	,	O	O	_	_	
+9-11	just	O	O	_	_	
+9-12	enjoying	O	B-ScrEv_spend_time_bus	_	_	
+9-13	the	O	O	_	_	
+9-14	view	B-NPart	O	_	_	
+9-15	.	O	O	_	_	
+
+#id=10
+#text=When my stop was coming up , I pressed the button to let the bus driver know to stop the bus .
+10-1	When	O	O	_	_	
+10-2	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-1	
+10-3	stop	B-ScrPart_bus_stop	O	_	_	
+10-4	was	O	O	_	_	
+10-5	coming	O	B-MissScrEv|B-MissScrEv	_	_	
+10-6	up	O	I-MissScrEv	_	_	
+10-7	,	O	O	_	_	
+10-8	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-2	
+10-9	pressed	O	B-ScrEv_press_stop_button	_	_	
+10-10	the	O	O	_	_	
+10-11	button	B-ScrPart_stop_button/door_opener	O	_	_	
+10-12	to	O	O	_	_	
+10-13	let	O	B-UnrelEv	_	_	
+10-14	the	O	O	_	_	
+10-15	bus	B-ScrPart_bus_staff	O	_	_	
+10-16	driver	I-ScrPart_bus_staff|B-ScrPart_bus_staff	O	webanno.custom.Corefchains_	7-20	
+10-17	know	O	B-UnrelEv	_	_	
+10-18	to	O	O	_	_	
+10-19	stop	O	B-ScrEv_bus_stops	_	_	
+10-20	the	O	O	_	_	
+10-21	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	8-15	
+10-22	.	O	O	_	_	
+
+#id=11
+#text=He stopped at my stop and I stood up and got off the bus , thanking the bus driver before I exited . 
+11-1	He	B-ScrPart_bus_staff	O	webanno.custom.Corefchains_	10-16	
+11-2	stopped	O	B-ScrEv_bus_stops	_	_	
+11-3	at	O	O	_	_	
+11-4	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-8	
+11-5	stop	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-3	
+11-6	and	O	O	_	_	
+11-7	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	11-4	
+11-8	stood	O	B-MissScrEv|B-MissScrEv	_	_	
+11-9	up	O	I-MissScrEv	_	_	
+11-10	and	O	O	_	_	
+11-11	got	O	B-ScrEv_get_off|B-ScrEv_get_off	_	_	
+11-12	off	O	I-ScrEv_get_off	_	_	
+11-13	the	O	O	_	_	
+11-14	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	10-21	
+11-15	,	O	O	_	_	
+11-16	thanking	O	B-RelNScrEv	_	_	
+11-17	the	O	O	_	_	
+11-18	bus	B-ScrPart_bus_staff	O	_	_	
+11-19	driver	I-ScrPart_bus_staff|B-ScrPart_bus_staff	O	webanno.custom.Corefchains_	11-1	
+11-20	before	O	O	_	_	
+11-21	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	11-7	
+11-22	exited	O	B-ScrEv_get_off	_	_	
+11-23	.	O	O	_	_	
+

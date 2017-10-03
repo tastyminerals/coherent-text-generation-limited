@@ -1,0 +1,259 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=On Arbor Day this year , I decided to plant a new tree in my front yard .
+1-1	On	O	O	
+1-2	Arbor	B-ScrPart_time	O	
+1-3	Day	I-ScrPart_time	O	
+1-4	this	O	O	
+1-5	year	B-ScrPart_time	O	
+1-6	,	O	O	
+1-7	I	B-ScrPart_gardener	O	
+1-8	decided	O	B-UnrelEv	
+1-9	to	O	O	
+1-10	plant	O	B-Evoking	
+1-11	a	O	I-Evoking	
+1-12	new	O	I-Evoking	
+1-13	tree	B-ScrPart_tree	I-Evoking	
+1-14	in	O	O	
+1-15	my	B-ScrPart_gardener	O	
+1-16	front	B-No_label	O	
+1-17	yard	B-ScrPart_location_garden	O	
+1-18	.	O	O	
+
+#id=2
+#text=I went out and dug a hole where I decided the tree would go , and I kept the dirt I dug up off to the side for easy access to replant with .
+2-1	I	B-ScrPart_gardener	O	
+2-2	went	O	B-UnrelEv|B-UnrelEv	
+2-3	out	O	I-UnrelEv	
+2-4	and	O	O	
+2-5	dug	O	B-ScrEv_dug_hole	
+2-6	a	O	O	
+2-7	hole	B-ScrPart_hole	O	
+2-8	where	O	B-ScrEv_find_place	
+2-9	I	B-ScrPart_gardener	O	
+2-10	decided	O	B-ScrEv_find_place	
+2-11	the	O	O	
+2-12	tree	B-ScrPart_tree	O	
+2-13	would	O	O	
+2-14	go	O	B-RelNScrEv	
+2-15	,	O	O	
+2-16	and	O	O	
+2-17	I	B-ScrPart_gardener	O	
+2-18	kept	O	B-RelNScrEv	
+2-19	the	O	O	
+2-20	dirt	B-ScrPart_dirt	O	
+2-21	I	B-ScrPart_gardener	O	
+2-22	dug	O	B-ScrEv_dug_hole|B-ScrEv_dug_hole	
+2-23	up	O	I-ScrEv_dug_hole	
+2-24	off	O	O	
+2-25	to	O	O	
+2-26	the	O	O	
+2-27	side	B-NPart	O	
+2-28	for	O	O	
+2-29	easy	O	O	
+2-30	access	B-NPart	O	
+2-31	to	O	O	
+2-32	replant	O	B-RelNScrEv	
+2-33	with	O	O	
+2-34	.	O	O	
+
+#id=3
+#text=I got in my car and drove to the local nursery to look at trees .
+3-1	I	B-ScrPart_gardener	O	
+3-2	got	O	B-UnrelEv	
+3-3	in	O	O	
+3-4	my	B-ScrPart_gardener	O	
+3-5	car	B-NPart	O	
+3-6	and	O	O	
+3-7	drove	O	B-UnrelEv	
+3-8	to	O	O	
+3-9	the	O	O	
+3-10	local	O	O	
+3-11	nursery	B-ScrPart_shop	O	
+3-12	to	O	O	
+3-13	look	O	B-ScrEv_choose_tree|B-ScrEv_choose_tree	
+3-14	at	O	I-ScrEv_choose_tree	
+3-15	trees	B-ScrPart_tree	O	
+3-16	.	O	O	
+
+#id=4
+#text=I had an idea of what I wanted in mind , but they had so many different trees when I got there that I had a very hard time deciding .
+4-1	I	B-ScrPart_gardener	O	
+4-2	had	O	B-UnrelEv	
+4-3	an	O	O	
+4-4	idea	B-NPart	O	
+4-5	of	O	O	
+4-6	what	O	O	
+4-7	I	B-ScrPart_gardener	O	
+4-8	wanted	O	B-UnrelEv	
+4-9	in	O	O	
+4-10	mind	B-NPart	O	
+4-11	,	O	O	
+4-12	but	O	O	
+4-13	they	B-NPart	O	
+4-14	had	O	B-UnrelEv	
+4-15	so	O	O	
+4-16	many	O	O	
+4-17	different	O	O	
+4-18	trees	B-ScrPart_tree	O	
+4-19	when	O	O	
+4-20	I	B-ScrPart_gardener	O	
+4-21	got	O	B-UnrelEv	
+4-22	there	B-ScrPart_shop	O	
+4-23	that	O	O	
+4-24	I	B-ScrPart_gardener	O	
+4-25	had	O	B-UnrelEv	
+4-26	a	O	O	
+4-27	very	O	O	
+4-28	hard	O	O	
+4-29	time	B-No_label	O	
+4-30	deciding	O	B-ScrEv_choose_tree	
+4-31	.	O	O	
+
+#id=5
+#text=Finally , I just decided to go with the tree I had originally planned to purchase .
+5-1	Finally	O	O	
+5-2	,	O	O	
+5-3	I	B-ScrPart_gardener	O	
+5-4	just	O	O	
+5-5	decided	O	B-ScrEv_choose_tree	
+5-6	to	O	O	
+5-7	go	O	B-UnrelEv	
+5-8	with	O	B-UnrelEv	
+5-9	the	O	O	
+5-10	tree	B-ScrPart_tree	O	
+5-11	I	B-ScrPart_gardener	O	
+5-12	had	O	O	
+5-13	originally	O	O	
+5-14	planned	O	B-UnrelEv	
+5-15	to	O	O	
+5-16	purchase	O	B-ScrEv_get_tree	
+5-17	.	O	O	
+
+#id=6
+#text=I went to the cashier and paid for the tree and loaded it in my truck to drive home .
+6-1	I	B-ScrPart_gardener	O	
+6-2	went	O	B-UnrelEv	
+6-3	to	O	O	
+6-4	the	O	O	
+6-5	cashier	B-ScrPart_staff	O	
+6-6	and	O	O	
+6-7	paid	O	B-ScrEv_get_tree	
+6-8	for	O	O	
+6-9	the	O	O	
+6-10	tree	B-ScrPart_tree	O	
+6-11	and	O	O	
+6-12	loaded	O	B-ScrEv_other	
+6-13	it	B-ScrPart_tree	O	
+6-14	in	O	O	
+6-15	my	B-ScrPart_gardener	O	
+6-16	truck	B-NPart	O	
+6-17	to	O	O	
+6-18	drive	O	B-UnrelEv	
+6-19	home	B-No_label	O	
+6-20	.	O	O	
+
+#id=7
+#text=Once I got home , I brought the tree out to the spot in my yard where I had dug the hole .
+7-1	Once	O	O	
+7-2	I	B-ScrPart_gardener	O	
+7-3	got	O	B-UnrelEv	
+7-4	home	B-No_label	O	
+7-5	,	O	O	
+7-6	I	B-ScrPart_gardener	O	
+7-7	brought	O	B-ScrEv_other	
+7-8	the	O	O	
+7-9	tree	B-ScrPart_tree	O	
+7-10	out	O	O	
+7-11	to	B-ScrPart_gardener	O	
+7-12	the	O	O	
+7-13	spot	B-No_label	O	
+7-14	in	O	O	
+7-15	my	B-ScrPart_gardener	O	
+7-16	yard	B-ScrPart_location_garden	O	
+7-17	where	O	O	
+7-18	I	B-ScrPart_gardener	O	
+7-19	had	O	O	
+7-20	dug	O	B-ScrEv_dug_hole	
+7-21	the	O	O	
+7-22	hole	B-ScrPart_hole	O	
+7-23	.	O	O	
+
+#id=8
+#text=I unwrapped the bottom of the tree that had been wrapped up to prevent a mess , and I placed it in the dirt .
+8-1	I	B-ScrPart_gardener	O	
+8-2	unwrapped	O	B-ScrEv_unwrap_root	
+8-3	the	O	O	
+8-4	bottom	B-NPart	O	
+8-5	of	O	O	
+8-6	the	O	O	
+8-7	tree	B-ScrPart_tree	O	
+8-8	that	O	O	
+8-9	had	O	O	
+8-10	been	O	O	
+8-11	wrapped	O	B-RelNScrEv|B-RelNScrEv	
+8-12	up	O	I-RelNScrEv	
+8-13	to	O	O	
+8-14	prevent	O	B-UnrelEv	
+8-15	a	O	O	
+8-16	mess	B-NPart	O	
+8-17	,	O	O	
+8-18	and	O	O	
+8-19	I	B-ScrPart_gardener	O	
+8-20	placed	O	B-ScrEv_find_place	
+8-21	it	B-ScrPart_tree	O	
+8-22	in	O	O	
+8-23	the	O	O	
+8-24	dirt	B-ScrPart_dirt	O	
+8-25	.	O	O	
+
+#id=9
+#text=I packed the dirt I had dug up around the bottom of the tree to keep it secure , and I watered it and tied some stakes up to keep the tree level and upright .
+9-1	I	B-ScrPart_gardener	O	
+9-2	packed	O	B-ScrEv_refill_hole	
+9-3	the	O	O	
+9-4	dirt	B-ScrPart_dirt	O	
+9-5	I	B-ScrPart_gardener	O	
+9-6	had	O	O	
+9-7	dug	O	B-ScrEv_dug_hole|B-ScrEv_dug_hole	
+9-8	up	O	I-ScrEv_dug_hole	
+9-9	around	O	O	
+9-10	the	O	O	
+9-11	bottom	B-NPart	O	
+9-12	of	O	O	
+9-13	the	O	O	
+9-14	tree	B-ScrPart_tree	O	
+9-15	to	O	O	
+9-16	keep	O	B-UnrelEv	
+9-17	it	B-ScrPart_tree	O	
+9-18	secure	O	O	
+9-19	,	O	O	
+9-20	and	O	O	
+9-21	I	B-ScrPart_gardener	O	
+9-22	watered	O	B-ScrEv_water	
+9-23	it	B-ScrPart_tree	O	
+9-24	and	O	O	
+9-25	tied	O	B-ScrEv_tie_stakes_up	
+9-26	some	O	O	
+9-27	stakes	B-ScrPart_stake	O	
+9-28	up	O	O	
+9-29	to	O	O	
+9-30	keep	O	B-UnrelEv	
+9-31	the	O	O	
+9-32	tree	B-ScrPart_tree	O	
+9-33	level	O	O	
+9-34	and	O	O	
+9-35	upright	O	O	
+9-36	.	O	O	
+
+#id=10
+#text=That 's how I planted a tree . 
+10-1	That	O	O	
+10-2	's	O	O	
+10-3	how	O	O	
+10-4	I	B-ScrPart_gardener	O	
+10-5	planted	O	B-Evoking	
+10-6	a	O	I-Evoking	
+10-7	tree	B-ScrPart_tree	I-Evoking	
+10-8	.	O	O	
+

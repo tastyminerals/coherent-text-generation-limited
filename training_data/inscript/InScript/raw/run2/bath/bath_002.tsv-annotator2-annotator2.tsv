@@ -1,0 +1,215 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Yesterday was a long and stressful day .
+1-1	Yesterday	B-NPart	B-webanno.custom.Participants_	O	_	_	
+1-2	was	O	O	B-UnrelEv	_	_	
+1-3	a	O	O	O	_	_	
+1-4	long	O	O	O	_	_	
+1-5	and	O	O	O	_	_	
+1-6	stressful	O	O	O	_	_	
+1-7	day	B-NPart	B-webanno.custom.Participants_	O	_	_	
+1-8	.	O	O	O	_	_	
+
+#id=2
+#text=From start to finish , it felt like nothing could possibly go right .
+2-1	From	O	O	O	_	_	
+2-2	start	B-No_label	B-webanno.custom.Participants_	O	_	_	
+2-3	to	O	O	O	_	_	
+2-4	finish	O	O	O	_	_	
+2-5	,	O	O	O	_	_	
+2-6	it	B-No_label	B-webanno.custom.Participants_	O	_	_	
+2-7	felt	O	O	B-UnrelEv	_	_	
+2-8	like	O	O	O	_	_	
+2-9	nothing	B-No_label	B-webanno.custom.Participants_	O	_	_	
+2-10	could	O	O	O	_	_	
+2-11	possibly	O	O	O	_	_	
+2-12	go	O	O	B-UnrelEv	_	_	
+2-13	right	O	O	O	_	_	
+2-14	.	O	O	O	_	_	
+
+#id=3
+#text=On days like those , I really love a nice bubble bath to relax and wash off the stress , so that is what I did .
+3-1	On	O	O	O	_	_	
+3-2	days	B-NPart	B-webanno.custom.Participants_	O	_	_	
+3-3	like	O	O	O	_	_	
+3-4	those	O	O	O	_	_	
+3-5	,	O	O	O	_	_	
+3-6	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+3-7	really	O	O	O	_	_	
+3-8	love	O	O	B-UnrelEv	_	_	
+3-9	a	O	O	O	_	_	
+3-10	nice	O	O	O	_	_	
+3-11	bubble	B-ScrPart_bath_means	B-webanno.custom.Participants_	O	_	_	
+3-12	bath	I-ScrPart_bath_means	I-webanno.custom.Participants_	O	_	_	
+3-13	to	O	O	O	_	_	
+3-14	relax	O	O	B-ScrEv_relax	_	_	
+3-15	and	O	O	O	_	_	
+3-16	wash	O	O	B-ScrEv_wash	_	_	
+3-17	off	O	O	I-ScrEv_wash	_	_	
+3-18	the	O	O	O	_	_	
+3-19	stress	B-NPart	B-webanno.custom.Participants_	O	_	_	
+3-20	,	O	O	O	_	_	
+3-21	so	O	O	O	_	_	
+3-22	that	O	O	O	_	_	
+3-23	is	O	O	B-UnrelEv	_	_	
+3-24	what	O	O	O	_	_	
+3-25	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+3-26	did	O	O	B-UnrelEv	_	_	
+3-27	.	O	O	O	_	_	
+
+#id=4
+#text=I gathered up a towel , body wash , shampoo , conditioner , bubble bath and a few candles and walked into my bathroom to take a nice , long bath .
+4-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+4-2	gathered	O	O	B-ScrEv_prepare_bath	_	_	
+4-3	up	O	O	I-ScrEv_prepare_bath	_	_	
+4-4	a	O	O	O	_	_	
+4-5	towel	B-ScrPart_towel	B-webanno.custom.Participants_	O	_	_	
+4-6	,	O	O	O	_	_	
+4-7	body	B-ScrPart_washing_tools	B-webanno.custom.Participants_	O	_	_	
+4-8	wash	I-ScrPart_washing_tools|B-ScrPart_washing_tools	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+4-9	,	O	O	O	_	_	
+4-10	shampoo	B-ScrPart_washing_tools	B-webanno.custom.Participants_	O	_	_	
+4-11	,	O	O	O	_	_	
+4-12	conditioner	B-ScrPart_washing_tools	B-webanno.custom.Participants_	O	_	_	
+4-13	,	O	O	O	_	_	
+4-14	bubble	B-ScrPart_bath_means	B-webanno.custom.Participants_	O	_	_	
+4-15	bath	I-ScrPart_bath_means	I-webanno.custom.Participants_	O	_	_	
+4-16	and	O	O	O	_	_	
+4-17	a	O	O	O	_	_	
+4-18	few	O	O	O	_	_	
+4-19	candles	B-ScrPart_in-bath_entertainment	B-webanno.custom.Participants_	O	_	_	
+4-20	and	O	O	O	_	_	
+4-21	walked	O	O	B-ScrEv_enter_bathroom	_	_	
+4-22	into	O	O	O	_	_	
+4-23	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+4-24	bathroom	B-ScrPart_bathroom	B-webanno.custom.Participants_	O	_	_	
+4-25	to	O	O	O	_	_	
+4-26	take	O	O	B-Evoking	_	_	
+4-27	a	O	O	I-Evoking	_	_	
+4-28	nice	O	O	I-Evoking	_	_	
+4-29	,	O	O	I-Evoking	_	_	
+4-30	long	O	O	I-Evoking	_	_	
+4-31	bath	B-ScrPart_bath	B-webanno.custom.Participants_	I-Evoking	_	_	
+4-32	.	O	O	O	_	_	
+
+#id=5
+#text=I lit the cinnamon-scented candles , turned on the water to make sure it would be warm before I stepped in , then I dropped a little bit of the bubble bath in the water to create a gentle lather .
+5-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+5-2	lit	O	O	B-ScrEv_prepare_bath	_	_	
+5-3	the	O	O	O	_	_	
+5-4	cinnamon-scented	O	O	O	_	_	
+5-5	candles	B-ScrPart_in-bath_entertainment	B-webanno.custom.Participants_	O	_	_	
+5-6	,	O	O	O	_	_	
+5-7	turned	O	O	B-ScrEv_turn_water_on	_	_	
+5-8	on	O	O	I-ScrEv_turn_water_on	_	_	
+5-9	the	O	O	O	_	_	
+5-10	water	B-ScrPart_water	B-webanno.custom.Participants_	O	_	_	
+5-11	to	O	O	O	_	_	
+5-12	make	O	O	B-UnrelEv	_	_	
+5-13	sure	O	O	I-UnrelEv	_	_	
+5-14	it	B-ScrPart_water	B-webanno.custom.Participants_	O	_	_	
+5-15	would	O	O	O	_	_	
+5-16	be	O	O	B-UnrelEv	_	_	
+5-17	warm	O	O	O	_	_	
+5-18	before	O	O	O	_	_	
+5-19	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+5-20	stepped	O	O	B-ScrEv_sink_water	_	_	
+5-21	in	O	O	I-ScrEv_sink_water	_	_	
+5-22	,	O	O	O	_	_	
+5-23	then	O	O	O	_	_	
+5-24	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+5-25	dropped	O	O	B-ScrEv_put_bubble_bath_scent	_	_	
+5-26	a	O	O	O	_	_	
+5-27	little	O	O	O	_	_	
+5-28	bit	B-Head_of_Partitive	B-webanno.custom.Participants_	O	_	_	
+5-29	of	O	O	O	_	_	
+5-30	the	O	O	O	_	_	
+5-31	bubble	B-ScrPart_bath_means	B-webanno.custom.Participants_	O	_	_	
+5-32	bath	I-ScrPart_bath_means	I-webanno.custom.Participants_	O	_	_	
+5-33	in	O	O	O	_	_	
+5-34	the	O	O	O	_	_	
+5-35	water	B-ScrPart_water	B-webanno.custom.Participants_	O	_	_	
+5-36	to	O	O	O	_	_	
+5-37	create	O	O	B-UnrelEv	_	_	
+5-38	a	O	O	O	_	_	
+5-39	gentle	O	O	O	_	_	
+5-40	lather	B-ScrPart_other	B-webanno.custom.Participants_	O	_	_	
+5-41	.	O	O	O	_	_	
+
+#id=6
+#text=I sank into the bubbles and took a deep breath .
+6-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+6-2	sank	O	O	B-ScrEv_sink_water	_	_	
+6-3	into	O	O	O	_	_	
+6-4	the	O	O	O	_	_	
+6-5	bubbles	B-ScrPart_other	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-40	
+6-6	and	O	O	O	_	_	
+6-7	took	O	O	B-UnrelEv	_	_	
+6-8	a	O	O	O	_	_	
+6-9	deep	O	O	O	_	_	
+6-10	breath	B-SuppVComp	B-webanno.custom.Participants_	O	_	_	
+6-11	.	O	O	O	_	_	
+
+#id=7
+#text=It felt amazing to get to relax after such a rough day .
+7-1	It	B-No_label	B-webanno.custom.Participants_	O	_	_	
+7-2	felt	O	O	B-UnrelEv	_	_	
+7-3	amazing	O	O	O	_	_	
+7-4	to	O	O	O	_	_	
+7-5	get	O	O	B-UnrelEv	_	_	
+7-6	to	O	O	O	_	_	
+7-7	relax	O	O	B-ScrEv_relax	_	_	
+7-8	after	O	O	O	_	_	
+7-9	such	O	O	O	_	_	
+7-10	a	O	O	O	_	_	
+7-11	rough	O	O	O	_	_	
+7-12	day	B-NPart	B-webanno.custom.Participants_	O	_	_	
+7-13	.	O	O	O	_	_	
+
+#id=8
+#text=The candles made the whole bathroom smell great and the water was awesome on my skin .
+8-1	The	O	O	O	_	_	
+8-2	candles	B-ScrPart_in-bath_entertainment	B-webanno.custom.Participants_	O	_	_	
+8-3	made	O	O	B-UnrelEv	_	_	
+8-4	the	O	O	O	_	_	
+8-5	whole	O	O	O	_	_	
+8-6	bathroom	B-ScrPart_bathroom	B-webanno.custom.Participants_	O	_	_	
+8-7	smell	O	O	B-UnrelEv	_	_	
+8-8	great	O	O	O	_	_	
+8-9	and	O	O	O	_	_	
+8-10	the	O	O	O	_	_	
+8-11	water	B-ScrPart_water	B-webanno.custom.Participants_	O	_	_	
+8-12	was	O	O	B-UnrelEv	_	_	
+8-13	awesome	O	O	O	_	_	
+8-14	on	O	O	O	_	_	
+8-15	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+8-16	skin	B-ScrPart_body_part	B-webanno.custom.Participants_	O	_	_	
+8-17	.	O	O	O	_	_	
+
+#id=9
+#text=Finally , I shampooed my hair and washed myself , then toweled off and put on my pajamas to get ready for bed . 
+9-1	Finally	O	O	O	_	_	
+9-2	,	O	O	O	_	_	
+9-3	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+9-4	shampooed	O	O	B-ScrEv_wash	_	_	
+9-5	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+9-6	hair	B-ScrPart_hair	B-webanno.custom.Participants_	O	_	_	
+9-7	and	O	O	O	_	_	
+9-8	washed	O	O	B-ScrEv_wash	_	_	
+9-9	myself	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+9-10	,	O	O	O	_	_	
+9-11	then	O	O	O	_	_	
+9-12	toweled	O	O	B-ScrEv_dry	_	_	
+9-13	off	O	O	I-ScrEv_dry	_	_	
+9-14	and	O	O	O	_	_	
+9-15	put	O	O	B-ScrEv_get_dressed	_	_	
+9-16	on	O	O	I-ScrEv_get_dressed	_	_	
+9-17	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+9-18	pajamas	B-ScrPart_clothes	B-webanno.custom.Participants_	O	_	_	
+9-19	to	O	O	O	_	_	
+9-20	get	O	O	B-UnrelEv	_	_	
+9-21	ready	O	O	I-UnrelEv	_	_	
+9-22	for	O	O	O	_	_	
+9-23	bed	B-NPart	B-webanno.custom.Participants_	O	_	_	
+9-24	.	O	O	O	_	_	
+

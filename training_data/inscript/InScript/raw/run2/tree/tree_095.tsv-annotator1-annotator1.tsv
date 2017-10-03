@@ -1,0 +1,184 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Last year , I was outside working in the garden when I realized that my front yard would like much nicer if I planted a tree to provide it with a little shade .
+1-1	Last	O	O	_	_	
+1-2	year	B-ScrPart_time	O	_	_	
+1-3	,	O	O	_	_	
+1-4	I	B-ScrPart_gardener	O	_	_	
+1-5	was	O	B-UnrelEv	_	_	
+1-6	outside	O	O	_	_	
+1-7	working	O	B-RelNScrEv	_	_	
+1-8	in	O	O	_	_	
+1-9	the	O	O	_	_	
+1-10	garden	B-ScrPart_location_garden	O	_	_	
+1-11	when	O	O	_	_	
+1-12	I	B-ScrPart_gardener	O	_	_	
+1-13	realized	O	B-UnrelEv	_	_	
+1-14	that	O	O	_	_	
+1-15	my	B-ScrPart_gardener	O	_	_	
+1-16	front	B-ScrPart_location_garden	O	_	_	
+1-17	yard	I-ScrPart_location_garden|B-ScrPart_location_garden	O	_	_	
+1-18	would	O	O	_	_	
+1-19	like	O	B-UnrelEv	_	_	
+1-20	much	O	O	_	_	
+1-21	nicer	O	O	_	_	
+1-22	if	O	O	_	_	
+1-23	I	B-ScrPart_gardener	O	_	_	
+1-24	planted	O	B-Evoking	_	_	
+1-25	a	O	I-Evoking	_	_	
+1-26	tree	B-ScrPart_tree	I-Evoking	_	_	
+1-27	to	O	O	_	_	
+1-28	provide	O	B-RelNScrEv	_	_	
+1-29	it	B-ScrPart_location_garden	O	_	_	
+1-30	with	O	O	_	_	
+1-31	a	O	O	_	_	
+1-32	little	O	O	_	_	
+1-33	shade	B-ScrPart_other	O	_	_	
+1-34	.	O	O	_	_	
+
+#id=2
+#text=I went to the gardeners store down the street and pick up some seeds to plant my tree .
+2-1	I	B-ScrPart_gardener	O	_	_	
+2-2	went	O	B-ScrEv_get_tree	_	_	
+2-3	to	O	O	_	_	
+2-4	the	O	O	_	_	
+2-5	gardeners	B-ScrPart_shop	O	_	_	
+2-6	store	I-ScrPart_shop|B-ScrPart_shop	O	_	_	
+2-7	down	O	O	_	_	
+2-8	the	O	O	_	_	
+2-9	street	B-NPart	O	_	_	
+2-10	and	O	O	_	_	
+2-11	pick	O	B-ScrEv_get_tree|B-ScrEv_get_tree	_	_	
+2-12	up	O	I-ScrEv_get_tree	_	_	
+2-13	some	O	O	_	_	
+2-14	seeds	B-ScrPart_seeds	O	_	_	
+2-15	to	O	O	_	_	
+2-16	plant	O	B-Evoking	_	_	
+2-17	my	B-ScrPart_gardener	I-Evoking	webanno.custom.Corefchains_	2-1	
+2-18	tree	B-ScrPart_tree	I-Evoking	_	_	
+2-19	.	O	O	_	_	
+
+#id=3
+#text=I decided on a maple tree as that would look nice and make a perfect amount of shade for my front lawn .
+3-1	I	B-ScrPart_gardener	O	_	_	
+3-2	decided	O	B-UnrelEv	_	_	
+3-3	on	O	O	_	_	
+3-4	a	O	O	_	_	
+3-5	maple	B-ScrPart_tree	O	_	_	
+3-6	tree	I-ScrPart_tree|B-ScrPart_tree	O	_	_	
+3-7	as	O	O	_	_	
+3-8	that	B-ScrPart_tree	O	_	_	
+3-9	would	O	O	_	_	
+3-10	look	O	B-UnrelEv	_	_	
+3-11	nice	O	O	_	_	
+3-12	and	O	O	_	_	
+3-13	make	O	B-RelNScrEv	_	_	
+3-14	a	O	O	_	_	
+3-15	perfect	O	O	_	_	
+3-16	amount	B-Head_of_Partitive	O	_	_	
+3-17	of	O	O	_	_	
+3-18	shade	B-ScrPart_other	O	_	_	
+3-19	for	O	O	_	_	
+3-20	my	B-ScrPart_gardener	O	_	_	
+3-21	front	B-ScrPart_location_garden	O	_	_	
+3-22	lawn	I-ScrPart_location_garden|B-ScrPart_location_garden	O	_	_	
+3-23	.	O	O	_	_	
+
+#id=4
+#text=I dug a small hole where I wanted to plant the tree and put the seeds in place .
+4-1	I	B-ScrPart_gardener	O	_	_	
+4-2	dug	O	B-ScrEv_dug_hole	_	_	
+4-3	a	O	O	_	_	
+4-4	small	O	O	_	_	
+4-5	hole	B-ScrPart_hole	O	_	_	
+4-6	where	O	O	_	_	
+4-7	I	B-ScrPart_gardener	O	_	_	
+4-8	wanted	O	B-UnrelEv	_	_	
+4-9	to	O	O	_	_	
+4-10	plant	O	B-Evoking	_	_	
+4-11	the	O	I-Evoking	_	_	
+4-12	tree	B-ScrPart_tree	I-Evoking	_	_	
+4-13	and	O	O	_	_	
+4-14	put	O	B-ScrEv_other	_	_	
+4-15	the	O	O	_	_	
+4-16	seeds	B-ScrPart_seeds	O	_	_	
+4-17	in	O	O	_	_	
+4-18	place	B-ScrPart_hole	O	_	_	
+4-19	.	O	O	_	_	
+
+#id=5
+#text=Every few weeks I noticed that the tree started to grow more and more as I provided it with the correct amount of water and nutrients .
+5-1	Every	O	O	_	_	
+5-2	few	O	O	_	_	
+5-3	weeks	B-ScrPart_time	O	_	_	
+5-4	I	B-ScrPart_gardener	O	_	_	
+5-5	noticed	O	B-UnrelEv	_	_	
+5-6	that	O	O	_	_	
+5-7	the	O	O	_	_	
+5-8	tree	B-ScrPart_tree	O	_	_	
+5-9	started	O	B-UnrelEv	_	_	
+5-10	to	O	O	_	_	
+5-11	grow	O	B-RelNScrEv	_	_	
+5-12	more	O	O	_	_	
+5-13	and	O	O	_	_	
+5-14	more	O	O	_	_	
+5-15	as	O	O	_	_	
+5-16	I	B-ScrPart_gardener	O	_	_	
+5-17	provided	O	B-ScrEv_place_fertilizers	_	_	
+5-18	it	B-ScrPart_tree	O	_	_	
+5-19	with	O	O	_	_	
+5-20	the	O	O	_	_	
+5-21	correct	O	O	_	_	
+5-22	amount	B-Head_of_Partitive	O	_	_	
+5-23	of	O	O	_	_	
+5-24	water	B-ScrPart_water	O	_	_	
+5-25	and	O	O	_	_	
+5-26	nutrients	B-ScrPart_fertilizer	O	_	_	
+5-27	.	O	O	_	_	
+
+#id=6
+#text=After about 12 months the tree I had planted was nearly fully grown and looked wonderful next to me garden .
+6-1	After	O	O	_	_	
+6-2	about	O	O	_	_	
+6-3	12	O	O	_	_	
+6-4	months	B-ScrPart_time	O	_	_	
+6-5	the	O	O	_	_	
+6-6	tree	B-ScrPart_tree	O	_	_	
+6-7	I	B-ScrPart_gardener	O	_	_	
+6-8	had	O	O	_	_	
+6-9	planted	O	B-Evoking	_	_	
+6-10	was	O	O	_	_	
+6-11	nearly	O	O	_	_	
+6-12	fully	O	O	_	_	
+6-13	grown	O	B-RelNScrEv	_	_	
+6-14	and	O	O	_	_	
+6-15	looked	O	B-UnrelEv	_	_	
+6-16	wonderful	O	O	_	_	
+6-17	next	O	O	_	_	
+6-18	to	O	O	_	_	
+6-19	me	B-ScrPart_gardener	O	_	_	
+6-20	garden	B-ScrPart_location_garden	O	_	_	
+6-21	.	O	O	_	_	
+
+#id=7
+#text=I was very satisfied with the entire situation and love the idea of plants growing from the ground . 
+7-1	I	B-ScrPart_gardener	O	_	_	
+7-2	was	O	O	_	_	
+7-3	very	O	O	_	_	
+7-4	satisfied	O	B-UnrelEv	_	_	
+7-5	with	O	O	_	_	
+7-6	the	O	O	_	_	
+7-7	entire	O	O	_	_	
+7-8	situation	B-NPart	O	_	_	
+7-9	and	O	O	_	_	
+7-10	love	O	B-UnrelEv	_	_	
+7-11	the	O	O	_	_	
+7-12	idea	B-NPart	O	_	_	
+7-13	of	O	O	_	_	
+7-14	plants	B-ScrPart_tree	O	_	_	
+7-15	growing	O	B-RelNScrEv	_	_	
+7-16	from	O	O	_	_	
+7-17	the	O	O	_	_	
+7-18	ground	B-ScrPart_other	O	_	_	
+7-19	.	O	O	_	_	
+

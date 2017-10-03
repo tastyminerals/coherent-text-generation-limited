@@ -1,0 +1,227 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Event | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I live in an area with good train and bus coverage .
+1-1	I	B-ScrPart_passenger	O	O	_	_	
+1-2	live	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+1-3	in	O	O	O	_	_	
+1-4	an	O	O	O	_	_	
+1-5	area	B-NPart	O	O	_	_	
+1-6	with	O	O	O	_	_	
+1-7	good	O	O	O	_	_	
+1-8	train	B-NPart	O	O	_	_	
+1-9	and	I-NPart	O	O	_	_	
+1-10	bus	I-NPart	O	O	_	_	
+1-11	coverage	I-NPart|B-NPart	O	O	_	_	
+1-12	.	O	O	O	_	_	
+
+#id=2
+#text=I typically choose the train as it is more predictable but for some parts of the city that the train can not reach , I will take the bus .
+2-1	I	B-ScrPart_passenger	O	O	_	_	
+2-2	typically	O	O	O	_	_	
+2-3	choose	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+2-4	the	O	O	O	_	_	
+2-5	train	B-NPart	O	O	_	_	
+2-6	as	O	O	O	_	_	
+2-7	it	B-NPart	O	O	_	_	
+2-8	is	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+2-9	more	O	O	O	_	_	
+2-10	predictable	O	O	O	_	_	
+2-11	but	O	O	O	_	_	
+2-12	for	O	O	O	_	_	
+2-13	some	O	O	O	_	_	
+2-14	parts	B-Head_of_Partitive	O	O	_	_	
+2-15	of	O	O	O	_	_	
+2-16	the	O	O	O	_	_	
+2-17	city	B-NPart	O	O	_	_	
+2-18	that	O	O	O	_	_	
+2-19	the	O	O	O	_	_	
+2-20	train	B-NPart	O	O	_	_	
+2-21	can	O	O	O	_	_	
+2-22	not	O	O	O	_	_	
+2-23	reach	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+2-24	,	O	O	O	_	_	
+2-25	I	B-ScrPart_passenger	O	O	_	_	
+2-26	will	O	O	O	_	_	
+2-27	take	O	B-webanno.custom.Events_	B-Evoking	_	_	
+2-28	the	O	I-webanno.custom.Events_	I-Evoking	_	_	
+2-29	bus	B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	_	_	
+2-30	.	O	O	O	_	_	
+
+#id=3
+#text=The bus stations are typically outdoors so depending on where I 'm going I 'll head to the nearest bus stop .
+3-1	The	O	O	O	_	_	
+3-2	bus	B-ScrPart_bus_stop	O	O	_	_	
+3-3	stations	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	O	_	_	
+3-4	are	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+3-5	typically	O	O	O	_	_	
+3-6	outdoors	O	O	O	_	_	
+3-7	so	O	O	O	_	_	
+3-8	depending	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+3-9	on	O	O	O	_	_	
+3-10	where	O	O	O	_	_	
+3-11	I	B-ScrPart_passenger	O	O	_	_	
+3-12	'm	O	O	O	_	_	
+3-13	going	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+3-14	I	B-ScrPart_passenger	O	O	_	_	
+3-15	'll	O	O	O	_	_	
+3-16	head	O	B-webanno.custom.Events_	B-ScrEv_get_bus_stop	_	_	
+3-17	to	O	O	O	_	_	
+3-18	the	O	O	O	_	_	
+3-19	nearest	O	O	O	_	_	
+3-20	bus	B-ScrPart_bus_stop	O	O	_	_	
+3-21	stop	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	O	_	_	
+3-22	.	O	O	O	_	_	
+
+#id=4
+#text=There 's an app that shoes when the next bus is coming so I 'll take out my phone to see how long the wait is .
+4-1	There	O	O	O	_	_	
+4-2	's	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+4-3	an	O	O	O	_	_	
+4-4	app	B-ScrPart_time-table	O	O	_	_	
+4-5	that	B-ScrPart_time-table	O	O	_	_	
+4-6	shoes	O	B-webanno.custom.Events_	B-ScrEv_check_time-table	_	_	
+4-7	when	O	O	O	_	_	
+4-8	the	O	O	O	_	_	
+4-9	next	O	O	O	_	_	
+4-10	bus	B-ScrPart_bus	O	O	_	_	
+4-11	is	O	O	O	_	_	
+4-12	coming	O	B-webanno.custom.Events_	B-ScrEv_bus_comes	_	_	
+4-13	so	O	O	O	_	_	
+4-14	I	B-ScrPart_passenger	O	O	_	_	
+4-15	'll	O	O	O	_	_	
+4-16	take	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+4-17	out	O	I-webanno.custom.Events_	I-RelNScrEv	_	_	
+4-18	my	B-ScrPart_passenger	O	O	_	_	
+4-19	phone	B-NPart	O	O	_	_	
+4-20	to	O	O	O	_	_	
+4-21	see	O	B-webanno.custom.Events_	B-ScrEv_check_time-table	_	_	
+4-22	how	O	O	O	_	_	
+4-23	long	O	O	O	_	_	
+4-24	the	O	O	O	_	_	
+4-25	wait	B-ScrPart_other	O	O	_	_	
+4-26	is	O	B-webanno.custom.Events_	B-ScrEv_wait	_	_	
+4-27	.	O	O	O	_	_	
+
+#id=5
+#text=Typically the wait is about 10-15 minutes .
+5-1	Typically	O	O	O	_	_	
+5-2	the	O	O	O	_	_	
+5-3	wait	B-ScrPart_other	O	O	webanno.custom.Corefchains_	4-25	
+5-4	is	O	B-webanno.custom.Events_	B-ScrEv_wait	_	_	
+5-5	about	O	O	O	_	_	
+5-6	10-15	B-ScrPart_time/date	O	O	_	_	
+5-7	minutes	I-ScrPart_time/date	O	O	_	_	
+5-8	.	O	O	O	_	_	
+
+#id=6
+#text=Once the bus arrives , I take out my transit card to tap on the machine that collects the fare .
+6-1	Once	O	O	O	_	_	
+6-2	the	O	O	O	_	_	
+6-3	bus	B-ScrPart_bus	O	O	_	_	
+6-4	arrives	O	B-webanno.custom.Events_	B-ScrEv_bus_comes	_	_	
+6-5	,	O	O	O	_	_	
+6-6	I	B-ScrPart_passenger	O	O	_	_	
+6-7	take	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+6-8	out	O	I-webanno.custom.Events_	I-RelNScrEv	_	_	
+6-9	my	B-ScrPart_passenger	O	O	_	_	
+6-10	transit	B-ScrPart_card/ticket	O	O	_	_	
+6-11	card	I-ScrPart_card/ticket|B-ScrPart_card/ticket	O	O	_	_	
+6-12	to	O	O	O	_	_	
+6-13	tap	O	B-webanno.custom.Events_	B-ScrEv_get_ticket	_	_	
+6-14	on	O	O	O	_	_	
+6-15	the	O	O	O	_	_	
+6-16	machine	B-ScrPart_payment_machine	O	O	_	_	
+6-17	that	B-ScrPart_payment_machine	O	O	_	_	
+6-18	collects	O	B-webanno.custom.Events_	B-ScrEv_get_ticket	_	_	
+6-19	the	O	O	O	_	_	
+6-20	fare	B-ScrPart_money	O	O	_	_	
+6-21	.	O	O	O	_	_	
+
+#id=7
+#text=This is done at the very beginning at the entrance of the bus .
+7-1	This	O	O	O	_	_	
+7-2	is	O	O	O	_	_	
+7-3	done	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+7-4	at	O	O	O	_	_	
+7-5	the	O	O	O	_	_	
+7-6	very	O	O	O	_	_	
+7-7	beginning	O	O	O	_	_	
+7-8	at	O	O	O	_	_	
+7-9	the	O	O	O	_	_	
+7-10	entrance	B-ScrPart_door	O	O	_	_	
+7-11	of	O	O	O	_	_	
+7-12	the	O	O	O	_	_	
+7-13	bus	B-ScrPart_bus	O	O	_	_	
+7-14	.	O	O	O	_	_	
+
+#id=8
+#text=Once I hear the beep notifying me that the fare has been collected I will take a seat upstairs if it 's a double decker bus .
+8-1	Once	O	O	O	_	_	
+8-2	I	B-ScrPart_passenger	O	O	_	_	
+8-3	hear	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+8-4	the	O	O	O	_	_	
+8-5	beep	B-NPart	O	O	_	_	
+8-6	notifying	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+8-7	me	B-ScrPart_passenger	O	O	_	_	
+8-8	that	O	O	O	_	_	
+8-9	the	O	O	O	_	_	
+8-10	fare	B-ScrPart_money	O	O	_	_	
+8-11	has	O	O	O	_	_	
+8-12	been	O	O	O	_	_	
+8-13	collected	O	B-webanno.custom.Events_	B-ScrEv_get_ticket	_	_	
+8-14	I	B-ScrPart_passenger	O	O	_	_	
+8-15	will	O	O	O	_	_	
+8-16	take	O	B-webanno.custom.Events_	B-ScrEv_take_seat	_	_	
+8-17	a	O	O	O	_	_	
+8-18	seat	B-ScrPart_seat_in_bus	O	O	_	_	
+8-19	upstairs	O	O	O	_	_	
+8-20	if	O	O	O	_	_	
+8-21	it	B-ScrPart_bus	O	O	_	_	
+8-22	's	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+8-23	a	O	O	O	_	_	
+8-24	double	B-ScrPart_bus	O	O	_	_	
+8-25	decker	I-ScrPart_bus	O	O	_	_	
+8-26	bus	I-ScrPart_bus|B-ScrPart_bus	O	O	_	_	
+8-27	.	O	O	O	_	_	
+
+#id=9
+#text=The view is much better from the top and there are usually seats at the top .
+9-1	The	O	O	O	_	_	
+9-2	view	B-ScrPart_in-bus_entertainment	O	O	_	_	
+9-3	is	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+9-4	much	O	O	O	_	_	
+9-5	better	O	O	O	_	_	
+9-6	from	O	O	O	_	_	
+9-7	the	O	O	O	_	_	
+9-8	top	B-NPart	O	O	_	_	
+9-9	and	O	O	O	_	_	
+9-10	there	O	O	O	_	_	
+9-11	are	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+9-12	usually	O	O	O	_	_	
+9-13	seats	B-ScrPart_seat_in_bus	O	O	_	_	
+9-14	at	O	O	O	_	_	
+9-15	the	O	O	O	_	_	
+9-16	top	B-NPart	O	O	_	_	
+9-17	.	O	O	O	_	_	
+
+#id=10
+#text=Now it 's time to sit back and enjoy the ride and get off at my destination . 
+10-1	Now	O	O	O	_	_	
+10-2	it	B-No_label	O	O	_	_	
+10-3	's	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+10-4	time	B-No_label	O	O	_	_	
+10-5	to	O	O	O	_	_	
+10-6	sit	O	B-webanno.custom.Events_	B-ScrEv_spend_time_bus	_	_	
+10-7	back	O	I-webanno.custom.Events_	I-ScrEv_spend_time_bus	_	_	
+10-8	and	O	O	O	_	_	
+10-9	enjoy	O	B-webanno.custom.Events_	B-ScrEv_spend_time_bus	_	_	
+10-10	the	O	O	O	_	_	
+10-11	ride	B-ScrPart_ride	O	O	_	_	
+10-12	and	O	O	O	_	_	
+10-13	get	O	B-webanno.custom.Events_	B-ScrEv_get_off	_	_	
+10-14	off	O	I-webanno.custom.Events_	I-ScrEv_get_off	_	_	
+10-15	at	O	O	O	_	_	
+10-16	my	B-ScrPart_passenger	O	O	_	_	
+10-17	destination	B-ScrPart_destination	O	O	_	_	
+10-18	.	O	O	O	_	_	
+

@@ -1,0 +1,202 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Once you have located an area where you want to plant your tree , you will need a shovel to begin digging a nice sized hole in the ground .
+1-1	Once	O	O	_	_	
+1-2	you	B-ScrPart_gardener	O	webanno.custom.Corefchains_	1-8	
+1-3	have	O	O	_	_	
+1-4	located	O	B-ScrEv_find_place	_	_	
+1-5	an	O	O	_	_	
+1-6	area	B-ScrPart_location_garden	O	webanno.custom.Corefchains_	6-23	
+1-7	where	O	O	_	_	
+1-8	you	B-ScrPart_gardener	O	webanno.custom.Corefchains_	1-12	
+1-9	want	O	B-UnrelEv	_	_	
+1-10	to	O	O	_	_	
+1-11	plant	O	B-Evoking	_	_	
+1-12	your	B-ScrPart_gardener	I-Evoking	webanno.custom.Corefchains_	1-15	
+1-13	tree	B-ScrPart_tree	I-Evoking	webanno.custom.Corefchains_	2-11	
+1-14	,	O	O	_	_	
+1-15	you	B-ScrPart_gardener	O	webanno.custom.Corefchains_	2-10	
+1-16	will	O	O	_	_	
+1-17	need	O	B-ScrEv_get_tools	_	_	
+1-18	a	O	O	_	_	
+1-19	shovel	B-ScrPart_gardening_tool	O	_	_	
+1-20	to	O	O	_	_	
+1-21	begin	O	B-UnrelEv	_	_	
+1-22	digging	O	B-ScrEv_dug_hole	_	_	
+1-23	a	O	O	_	_	
+1-24	nice	O	O	_	_	
+1-25	sized	O	B-UnrelEv	_	_	
+1-26	hole	B-ScrPart_hole	O	webanno.custom.Corefchains_	2-25	
+1-27	in	O	O	_	_	
+1-28	the	O	O	_	_	
+1-29	ground	B-ScrPart_dirt	O	webanno.custom.Corefchains_	4-3	
+1-30	.	O	O	_	_	
+
+#id=2
+#text=This will require some effort depending on how big your tree already is as the bigger the tree , the bigger and deeper the hole will need to be .
+2-1	This	O	O	_	_	
+2-2	will	O	O	_	_	
+2-3	require	O	B-UnrelEv	_	_	
+2-4	some	O	O	_	_	
+2-5	effort	O	O	_	_	
+2-6	depending	O	B-UnrelEv	_	_	
+2-7	on	O	O	_	_	
+2-8	how	O	O	_	_	
+2-9	big	O	O	_	_	
+2-10	your	B-ScrPart_gardener	O	webanno.custom.Corefchains_	4-11	
+2-11	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	2-18	
+2-12	already	O	O	_	_	
+2-13	is	O	B-UnrelEv	_	_	
+2-14	as	O	O	_	_	
+2-15	the	O	O	_	_	
+2-16	bigger	O	O	_	_	
+2-17	the	O	O	_	_	
+2-18	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	3-8	
+2-19	,	O	O	_	_	
+2-20	the	O	O	_	_	
+2-21	bigger	O	O	_	_	
+2-22	and	O	O	_	_	
+2-23	deeper	O	O	_	_	
+2-24	the	O	O	_	_	
+2-25	hole	B-ScrPart_hole	O	webanno.custom.Corefchains_	3-4	
+2-26	will	O	O	_	_	
+2-27	need	O	O	_	_	
+2-28	to	O	O	_	_	
+2-29	be	O	B-UnrelEv	_	_	
+2-30	.	O	O	_	_	
+
+#id=3
+#text=After digging the hole , pull the tree out of the container that the tree is currently sitting in , and then place the tree into the hole .
+3-1	After	O	O	_	_	
+3-2	digging	O	B-ScrEv_dug_hole	_	_	
+3-3	the	O	O	_	_	
+3-4	hole	B-ScrPart_hole	O	webanno.custom.Corefchains_	3-28	
+3-5	,	O	O	_	_	
+3-6	pull	O	B-ScrEv_unwrap_root	_	_	
+3-7	the	O	O	_	_	
+3-8	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	3-15	
+3-9	out	O	O	_	_	
+3-10	of	O	O	_	_	
+3-11	the	O	O	_	_	
+3-12	container	B-ScrPart_wrapping	O	webanno.custom.Corefchains_	3-13	
+3-13	that	B-ScrPart_wrapping	O	_	_	
+3-14	the	O	O	_	_	
+3-15	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	3-25	
+3-16	is	O	O	_	_	
+3-17	currently	O	O	_	_	
+3-18	sitting	O	B-RelNScrEv	_	_	
+3-19	in	O	I-RelNScrEv	_	_	
+3-20	,	O	O	_	_	
+3-21	and	O	O	_	_	
+3-22	then	O	O	_	_	
+3-23	place	O	B-ScrEv_place_root	_	_	
+3-24	the	O	O	_	_	
+3-25	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	6-7	
+3-26	into	O	O	_	_	
+3-27	the	O	O	_	_	
+3-28	hole	B-ScrPart_hole	O	webanno.custom.Corefchains_	4-19	
+3-29	.	O	O	_	_	
+
+#id=4
+#text=If the dirt that was removed looks fertile , then you can push the dirt back into the hole to fill it back up .
+4-1	If	O	O	_	_	
+4-2	the	O	O	_	_	
+4-3	dirt	B-ScrPart_dirt	O	webanno.custom.Corefchains_	4-4	
+4-4	that	B-ScrPart_dirt	O	webanno.custom.Corefchains_	4-15	
+4-5	was	O	O	_	_	
+4-6	removed	O	B-ScrEv_dug_hole	_	_	
+4-7	looks	O	B-UnrelEv	_	_	
+4-8	fertile	O	O	_	_	
+4-9	,	O	O	_	_	
+4-10	then	O	O	_	_	
+4-11	you	B-ScrPart_gardener	O	webanno.custom.Corefchains_	5-7	
+4-12	can	O	O	_	_	
+4-13	push	O	B-ScrEv_refill_hole	_	_	
+4-14	the	O	O	_	_	
+4-15	dirt	B-ScrPart_dirt	O	webanno.custom.Corefchains_	5-3	
+4-16	back	O	O	_	_	
+4-17	into	O	O	_	_	
+4-18	the	O	O	_	_	
+4-19	hole	B-ScrPart_hole	O	webanno.custom.Corefchains_	4-22	
+4-20	to	O	O	_	_	
+4-21	fill	O	B-ScrEv_refill_hole	_	_	
+4-22	it	B-ScrPart_hole	O	webanno.custom.Corefchains_	5-24	
+4-23	back	O	O	_	_	
+4-24	up	O	O	_	_	
+4-25	.	O	O	_	_	
+
+#id=5
+#text=If the dirt looks dry , you may get a bag of potting soil and pour that into the remaining area of the hole .
+5-1	If	O	O	_	_	
+5-2	the	O	O	_	_	
+5-3	dirt	B-ScrPart_dirt	O	webanno.custom.Corefchains_	5-14	
+5-4	looks	O	B-UnrelEv	_	_	
+5-5	dry	O	O	_	_	
+5-6	,	O	O	_	_	
+5-7	you	B-ScrPart_gardener	O	webanno.custom.Corefchains_	6-6	
+5-8	may	O	O	_	_	
+5-9	get	O	B-ScrEv_get_tools	_	_	
+5-10	a	O	O	_	_	
+5-11	bag	O	O	_	_	
+5-12	of	O	O	_	_	
+5-13	potting	B-ScrPart_dirt	O	_	_	
+5-14	soil	I-ScrPart_dirt|B-ScrPart_dirt	O	webanno.custom.Corefchains_	5-17	
+5-15	and	O	O	_	_	
+5-16	pour	O	B-ScrEv_refill_hole	_	_	
+5-17	that	B-ScrPart_dirt	O	webanno.custom.Corefchains_	6-2	
+5-18	into	O	O	_	_	
+5-19	the	O	O	_	_	
+5-20	remaining	O	B-UnrelEv	_	_	
+5-21	area	B-NPart	O	_	_	
+5-22	of	O	O	_	_	
+5-23	the	O	O	_	_	
+5-24	hole	B-ScrPart_hole	O	_	_	
+5-25	.	O	O	_	_	
+
+#id=6
+#text=Good soil will ensure that your plant -LRB- especially if the plant is young -RRB- to have all the proper nutrition and environment to begin growing .
+6-1	Good	O	O	_	_	
+6-2	soil	B-ScrPart_dirt	O	_	_	
+6-3	will	O	O	_	_	
+6-4	ensure	O	B-UnrelEv	_	_	
+6-5	that	O	O	_	_	
+6-6	your	B-ScrPart_gardener	O	webanno.custom.Corefchains_	7-11	
+6-7	plant	B-ScrPart_tree	O	webanno.custom.Corefchains_	6-12	
+6-8	-LRB-	O	O	_	_	
+6-9	especially	O	O	_	_	
+6-10	if	O	O	_	_	
+6-11	the	O	O	_	_	
+6-12	plant	B-ScrPart_tree	O	webanno.custom.Corefchains_	7-8	
+6-13	is	O	B-UnrelEv	_	_	
+6-14	young	O	O	_	_	
+6-15	-RRB-	O	O	_	_	
+6-16	to	O	O	_	_	
+6-17	have	O	B-ScrEv_place_fertilizers	_	_	
+6-18	all	O	O	_	_	
+6-19	the	O	O	_	_	
+6-20	proper	O	O	_	_	
+6-21	nutrition	B-NPart	O	_	_	
+6-22	and	O	O	_	_	
+6-23	environment	B-ScrPart_location_garden	O	webanno.custom.Corefchains_	7-5	
+6-24	to	O	O	_	_	
+6-25	begin	O	B-UnrelEv	_	_	
+6-26	growing	O	B-RelNScrEv	_	_	
+6-27	.	O	O	_	_	
+
+#id=7
+#text=Lastly , water the area where the plant is and you 're done . 
+7-1	Lastly	O	O	_	_	
+7-2	,	O	O	_	_	
+7-3	water	O	B-ScrEv_water	_	_	
+7-4	the	O	O	_	_	
+7-5	area	B-ScrPart_location_garden	O	_	_	
+7-6	where	O	O	_	_	
+7-7	the	O	O	_	_	
+7-8	plant	B-ScrPart_tree	O	_	_	
+7-9	is	O	B-UnrelEv	_	_	
+7-10	and	O	O	_	_	
+7-11	you	B-ScrPart_gardener	O	_	_	
+7-12	're	O	O	_	_	
+7-13	done	O	B-UnrelEv	_	_	
+7-14	.	O	O	_	_	
+

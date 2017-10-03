@@ -1,0 +1,200 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events
+#id=1
+#text=My younger brother was turning twenty-one last month , and the family decided on a trip to Las Vegas .
+1-1	My	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+1-2	younger	O	O	O	
+1-3	brother	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+1-4	was	O	O	O	
+1-5	turning	O	O	B-UnrelEv	
+1-6	twenty-one	O	O	O	
+1-7	last	O	O	O	
+1-8	month	B-webanno.custom.Participants_	B-NPart	O	
+1-9	,	O	O	O	
+1-10	and	O	O	O	
+1-11	the	O	O	O	
+1-12	family	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+1-13	decided	O	O	B-UnrelEv	
+1-14	on	O	O	I-UnrelEv	
+1-15	a	O	O	O	
+1-16	trip	B-webanno.custom.Participants_	B-NPart	O	
+1-17	to	O	O	O	
+1-18	Las	B-webanno.custom.Participants_	B-ScrPart_target_location	O	
+1-19	Vegas	I-webanno.custom.Participants_	I-ScrPart_target_location	O	
+1-20	.	O	O	O	
+
+#id=2
+#text=We packed our things , and had our grandmother drive us to the airport .
+2-1	We	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+2-2	packed	O	O	B-ScrEv_pack_luggage	
+2-3	our	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+2-4	things	B-webanno.custom.Participants_	B-ScrPart_carry_on_luggage	O	
+2-5	,	O	O	O	
+2-6	and	O	O	O	
+2-7	had	O	O	B-UnrelEv	
+2-8	our	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+2-9	grandmother	B-webanno.custom.Participants_	B-ScrPart_accomp_person	O	
+2-10	drive	O	O	B-ScrEv_get_airport	
+2-11	us	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+2-12	to	O	O	O	
+2-13	the	O	O	O	
+2-14	airport	B-webanno.custom.Participants_	B-ScrPart_airport	O	
+2-15	.	O	O	O	
+
+#id=3
+#text=We had already purchased tickets online , so we went straight to the gates to find the waiting area for out flight .
+3-1	We	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+3-2	had	O	O	O	
+3-3	already	O	O	O	
+3-4	purchased	O	O	B-ScrEv_get_ticket	
+3-5	tickets	B-webanno.custom.Participants_	B-ScrPart_airport	O	
+3-6	online	O	O	O	
+3-7	,	O	O	O	
+3-8	so	O	O	O	
+3-9	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+3-10	went	O	O	B-ScrEv_find_terminal	
+3-11	straight	O	O	O	
+3-12	to	O	O	O	
+3-13	the	O	O	O	
+3-14	gates	B-webanno.custom.Participants_	B-ScrPart_terminal/gate	O	
+3-15	to	O	O	O	
+3-16	find	O	O	B-ScrEv_find_terminal	
+3-17	the	O	O	O	
+3-18	waiting	B-webanno.custom.Participants_	B-ScrPart_terminal/gate	O	
+3-19	area	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_terminal/gate|B-ScrPart_terminal/gate	O	
+3-20	for	O	O	O	
+3-21	out	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+3-22	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	
+3-23	.	O	O	O	
+
+#id=4
+#text=The TSA conducted a minor inspection of out belongings , everything turned out just fine .
+4-1	The	O	O	O	
+4-2	TSA	B-webanno.custom.Participants_	B-ScrPart_security_check	O	
+4-3	conducted	O	O	B-ScrEv_go_security_checks	
+4-4	a	O	O	O	
+4-5	minor	O	O	O	
+4-6	inspection	B-webanno.custom.Participants_	B-ScrPart_security_check	O	
+4-7	of	O	O	O	
+4-8	out	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+4-9	belongings	B-webanno.custom.Participants_	B-ScrPart_personal_belongings	O	
+4-10	,	O	O	O	
+4-11	everything	B-webanno.custom.Participants_	B-No_label	O	
+4-12	turned	O	O	B-UnrelEv	
+4-13	out	O	O	I-UnrelEv	
+4-14	just	O	O	O	
+4-15	fine	O	O	O	
+4-16	.	O	O	O	
+
+#id=5
+#text=We waited close to fifteen minutes before we were called up for boarding the plane .
+5-1	We	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+5-2	waited	O	O	B-ScrEv_wait_boarding	
+5-3	close	O	O	O	
+5-4	to	O	O	O	
+5-5	fifteen	B-webanno.custom.Participants_	B-ScrPart_time/date	O	
+5-6	minutes	I-webanno.custom.Participants_	I-ScrPart_time/date	O	
+5-7	before	O	O	O	
+5-8	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+5-9	were	O	O	O	
+5-10	called	O	O	B-ScrEv_listen_call	
+5-11	up	O	O	I-ScrEv_listen_call	
+5-12	for	O	O	O	
+5-13	boarding	O	O	B-ScrEv_board_plane	
+5-14	the	O	O	O	
+5-15	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	
+5-16	.	O	O	O	
+
+#id=6
+#text=After finding our seats on the passenger jet , we were instructed by the flight attendants what we needed to do in case of emergency , and well as show us how to use out seat belts correctly .
+6-1	After	O	O	O	
+6-2	finding	O	O	B-ScrEv_take_seat	
+6-3	our	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+6-4	seats	B-webanno.custom.Participants_	B-ScrPart_seat	O	
+6-5	on	O	O	O	
+6-6	the	O	O	O	
+6-7	passenger	B-webanno.custom.Participants_	B-ScrPart_plane	O	
+6-8	jet	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_plane|B-ScrPart_plane	O	
+6-9	,	O	O	O	
+6-10	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+6-11	were	O	O	O	
+6-12	instructed	O	O	B-ScrEv_listen_crew	
+6-13	by	O	O	O	
+6-14	the	O	O	O	
+6-15	flight	B-webanno.custom.Participants_	B-ScrPart_staff	O	
+6-16	attendants	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_staff|B-ScrPart_staff	O	
+6-17	what	O	O	O	
+6-18	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+6-19	needed	O	O	O	
+6-20	to	O	O	O	
+6-21	do	O	O	B-UnrelEv	
+6-22	in	O	O	O	
+6-23	case	B-webanno.custom.Participants_	B-NPart	O	
+6-24	of	O	O	O	
+6-25	emergency	B-webanno.custom.Participants_	B-ScrPart_safety_instructions	O	
+6-26	,	O	O	O	
+6-27	and	O	O	O	
+6-28	well	O	O	O	
+6-29	as	O	O	O	
+6-30	show	O	O	B-ScrEv_listen_crew	
+6-31	us	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+6-32	how	O	O	O	
+6-33	to	O	O	O	
+6-34	use	O	O	B-ScrEv_buckle_seat_belt	
+6-35	out	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+6-36	seat	B-webanno.custom.Participants_	B-ScrPart_seat_belt	O	
+6-37	belts	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_seat_belt|B-ScrPart_seat_belt	O	
+6-38	correctly	O	O	O	
+6-39	.	O	O	O	
+
+#id=7
+#text=We were instructed to turn off out electrical devices during take off .
+7-1	We	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+7-2	were	O	O	O	
+7-3	instructed	O	O	B-ScrEv_listen_crew	
+7-4	to	O	O	O	
+7-5	turn	O	O	B-ScrEv_take_off_preparations	
+7-6	off	O	O	I-ScrEv_take_off_preparations	
+7-7	out	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+7-8	electrical	B-webanno.custom.Participants_	B-ScrPart_personal_belongings	O	
+7-9	devices	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_personal_belongings|B-ScrPart_personal_belongings	O	
+7-10	during	O	O	O	
+7-11	take	O	O	B-ScrEv_take_off	
+7-12	off	O	O	I-ScrEv_take_off	
+7-13	.	O	O	O	
+
+#id=8
+#text=Before we knew it , we were in the sky , thousands of feet above the earth 's surface .
+8-1	Before	O	O	O	
+8-2	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+8-3	knew	O	O	B-UnrelEv	
+8-4	it	B-webanno.custom.Participants_	B-No_label	O	
+8-5	,	O	O	O	
+8-6	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+8-7	were	O	O	B-ScrEv_take_off	
+8-8	in	O	O	O	
+8-9	the	O	O	O	
+8-10	sky	B-webanno.custom.Participants_	B-ScrPart_location_airplane	O	
+8-11	,	O	O	O	
+8-12	thousands	B-webanno.custom.Participants_	B-Head_of_Partitive	O	
+8-13	of	O	O	O	
+8-14	feet	B-webanno.custom.Participants_	B-NPart	O	
+8-15	above	O	O	O	
+8-16	the	O	O	O	
+8-17	earth	B-webanno.custom.Participants_	B-NPart	O	
+8-18	's	O	O	O	
+8-19	surface	B-webanno.custom.Participants_	B-NPart	O	
+8-20	.	O	O	O	
+
+#id=9
+#text=The flight did not have any issues with turbulence . 
+9-1	The	O	O	O	
+9-2	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	
+9-3	did	O	O	O	
+9-4	not	O	O	O	
+9-5	have	O	O	B-RelNScrEv	
+9-6	any	O	O	O	
+9-7	issues	B-webanno.custom.Participants_	B-NPart	O	
+9-8	with	O	O	O	
+9-9	turbulence	B-webanno.custom.Participants_	B-ScrPart_other	O	
+9-10	.	O	O	O	
+

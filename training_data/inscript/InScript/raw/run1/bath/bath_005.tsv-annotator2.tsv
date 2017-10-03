@@ -1,0 +1,268 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I like taking a bath instead of a shower sometimes .
+1-1	I	B-ScrPart_bather	O	_	_	
+1-2	like	O	B-UnrelEv	_	_	
+1-3	taking	O	B-Evoking	_	_	
+1-4	a	O	I-Evoking	_	_	
+1-5	bath	O	I-Evoking	_	_	
+1-6	instead	O	O	_	_	
+1-7	of	O	O	_	_	
+1-8	a	O	O	_	_	
+1-9	shower	O	O	_	_	
+1-10	sometimes	O	O	_	_	
+1-11	.	O	O	_	_	
+
+#id=2
+#text=I start by closing the drain at the bottom of the tub .
+2-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	1-1	
+2-2	start	O	B-UnrelEv	_	_	
+2-3	by	O	O	_	_	
+2-4	closing	O	B-ScrEv_close_drain	_	_	
+2-5	the	O	O	_	_	
+2-6	drain	B-ScrPart_drain	O	_	_	
+2-7	at	O	O	_	_	
+2-8	the	O	O	_	_	
+2-9	bottom	B-NPart	O	_	_	
+2-10	of	O	O	_	_	
+2-11	the	O	O	_	_	
+2-12	tub	B-ScrPart_bathtub	O	group_tubs	3-2	
+2-13	.	O	O	_	_	
+
+#id=3
+#text=Some tubs have a stopper and some have a thing you push down to close it .
+3-1	Some	O	O	_	_	
+3-2	tubs	B-ScrPart_bathtub	O	_	_	
+3-3	have	O	B-UnrelEv	_	_	
+3-4	a	O	O	_	_	
+3-5	stopper	B-MissScrPart	O	_	_	
+3-6	and	O	O	_	_	
+3-7	some	B-ScrPart_bathtub	O	webanno.custom.Corefchains_	3-2	
+3-8	have	O	B-UnrelEv	_	_	
+3-9	a	O	O	_	_	
+3-10	thing	O	O	_	_	
+3-11	you	O	O	_	_	
+3-12	push	O	B-UnrelEv	_	_	
+3-13	down	O	O	_	_	
+3-14	to	O	O	_	_	
+3-15	close	O	B-ScrEv_close_drain	_	_	
+3-16	it	B-ScrPart_drain	O	webanno.custom.Corefchains_	2-6	
+3-17	.	O	O	_	_	
+
+#id=4
+#text=After it 's closed I like to run both hot and cold water to make warm water and then I let the tub fill up to about a hand 's height from the top of the tub .
+4-1	After	O	O	_	_	
+4-2	it	B-ScrPart_drain	O	webanno.custom.Corefchains_	3-16	
+4-3	's	O	B-UnrelEv	_	_	
+4-4	closed	O	B-ScrEv_close_drain	_	_	
+4-5	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	2-1	
+4-6	like	O	B-UnrelEv	_	_	
+4-7	to	O	O	_	_	
+4-8	run	O	B-RelNScrEv	_	_	
+4-9	both	O	O	_	_	
+4-10	hot	O	O	_	_	
+4-11	and	O	O	_	_	
+4-12	cold	O	O	_	_	
+4-13	water	B-ScrPart_water	O	_	_	
+4-14	to	O	O	_	_	
+4-15	make	O	B-UnrelEv	_	_	
+4-16	warm	O	O	_	_	
+4-17	water	B-ScrPart_water	O	webanno.custom.Corefchains_	4-13	
+4-18	and	O	O	_	_	
+4-19	then	O	O	_	_	
+4-20	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	4-5	
+4-21	let	O	B-UnrelEv	_	_	
+4-22	the	O	O	_	_	
+4-23	tub	B-ScrPart_bathtub	O	webanno.custom.Corefchains_	2-12	
+4-24	fill	O	B-ScrEv_fill_water/wait	_	_	
+4-25	up	O	I-ScrEv_fill_water/wait	_	_	
+4-26	to	O	O	_	_	
+4-27	about	O	O	_	_	
+4-28	a	O	O	_	_	
+4-29	hand	B-ScrPart_body_part	O	_	_	
+4-30	's	O	O	_	_	
+4-31	height	B-NPart	O	_	_	
+4-32	from	O	O	_	_	
+4-33	the	O	O	_	_	
+4-34	top	B-NPart	O	_	_	
+4-35	of	O	O	_	_	
+4-36	the	O	O	_	_	
+4-37	tub	B-ScrPart_bathtub	O	webanno.custom.Corefchains_	4-23	
+4-38	.	O	O	_	_	
+
+#id=5
+#text=While the water is running , I squirt in bubbles and make sure I have a clean washcloth and towel .
+5-1	While	O	O	_	_	
+5-2	the	O	O	_	_	
+5-3	water	B-ScrPart_water	O	webanno.custom.Corefchains_	4-17	
+5-4	is	O	O	_	_	
+5-5	running	O	B-ScrEv_fill_water/wait	_	_	
+5-6	,	O	O	_	_	
+5-7	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	4-20	
+5-8	squirt	O	B-ScrEv_put_bubble_bath_scent	_	_	
+5-9	in	O	I-ScrEv_put_bubble_bath_scent	_	_	
+5-10	bubbles	B-ScrPart_bath_means	O	_	_	
+5-11	and	O	O	_	_	
+5-12	make	O	B-ScrEv_prepare_bath	_	_	
+5-13	sure	O	I-ScrEv_prepare_bath	_	_	
+5-14	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	5-7	
+5-15	have	O	B-UnrelEv	_	_	
+5-16	a	O	O	_	_	
+5-17	clean	O	O	_	_	
+5-18	washcloth	B-ScrPart_washing_tools	O	_	_	
+5-19	and	O	O	_	_	
+5-20	towel	B-ScrPart_towel	O	_	_	
+5-21	.	O	O	_	_	
+
+#id=6
+#text=After I carefully climb into the tub , I make sure I wash my whole body with the soap and washcloth , even behind my ears and between my toes .
+6-1	After	O	O	_	_	
+6-2	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	5-14	
+6-3	carefully	O	O	_	_	
+6-4	climb	O	B-ScrEv_sink_water	_	_	
+6-5	into	O	O	_	_	
+6-6	the	O	O	_	_	
+6-7	tub	B-ScrPart_bathtub	O	webanno.custom.Corefchains_	4-37	
+6-8	,	O	O	_	_	
+6-9	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	6-2	
+6-10	make	O	B-UnrelEv	_	_	
+6-11	sure	O	I-UnrelEv	_	_	
+6-12	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	6-9	
+6-13	wash	O	B-ScrEv_wash	_	_	
+6-14	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	6-12	
+6-15	whole	O	O	_	_	
+6-16	body	B-ScrPart_body_part	O	_	_	
+6-17	with	O	O	_	_	
+6-18	the	O	O	_	_	
+6-19	soap	B-ScrPart_washing_tools	O	_	_	
+6-20	and	O	O	_	_	
+6-21	washcloth	B-ScrPart_washing_tools	O	webanno.custom.Corefchains_	5-18	
+6-22	,	O	O	_	_	
+6-23	even	O	O	_	_	
+6-24	behind	O	O	_	_	
+6-25	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	6-14	
+6-26	ears	B-ScrPart_body_part	O	_	_	
+6-27	and	O	O	_	_	
+6-28	between	O	O	_	_	
+6-29	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	6-25	
+6-30	toes	B-ScrPart_body_part	O	_	_	
+6-31	.	O	O	_	_	
+
+#id=7
+#text=Then I can either soak and relax in the tub or I can play with toys .
+7-1	Then	O	O	_	_	
+7-2	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	6-29	
+7-3	can	O	O	_	_	
+7-4	either	O	O	_	_	
+7-5	soak	O	B-RelNScrEv	_	_	
+7-6	and	O	O	_	_	
+7-7	relax	O	B-ScrEv_relax	_	_	
+7-8	in	O	O	_	_	
+7-9	the	O	O	_	_	
+7-10	tub	B-ScrPart_bathtub	O	webanno.custom.Corefchains_	6-7	
+7-11	or	O	O	_	_	
+7-12	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	7-2	
+7-13	can	O	O	_	_	
+7-14	play	O	B-RelNScrEv	_	_	
+7-15	with	O	O	_	_	
+7-16	toys	B-ScrPart_in-bath_entertainment	O	_	_	
+7-17	.	O	O	_	_	
+
+#id=8
+#text=Fun toys for the bathtub are boats and plastic water animals like whales and ducks .
+8-1	Fun	O	O	_	_	
+8-2	toys	B-ScrPart_in-bath_entertainment	O	webanno.custom.Corefchains_	7-16	
+8-3	for	O	O	_	_	
+8-4	the	O	O	_	_	
+8-5	bathtub	B-ScrPart_bathtub	O	webanno.custom.Corefchains_	7-10	
+8-6	are	O	B-UnrelEv	_	_	
+8-7	boats	B-ScrPart_in-bath_entertainment	O	group_toys	8-2	
+8-8	and	O	O	_	_	
+8-9	plastic	B-ScrPart_in-bath_entertainment	O	_	_	
+8-10	water	I-ScrPart_in-bath_entertainment	O	_	_	
+8-11	animals	I-ScrPart_in-bath_entertainment|B-ScrPart_in-bath_entertainment	O	group_toys	8-2	
+8-12	like	O	O	_	_	
+8-13	whales	B-ScrPart_in-bath_entertainment	O	group_plastic_animals	8-11	
+8-14	and	O	O	_	_	
+8-15	ducks	B-ScrPart_in-bath_entertainment	O	group_plastic_animals	8-11	
+8-16	.	O	O	_	_	
+
+#id=9
+#text=Once the water starts to turn a little cold , it 's time to get out so I open the drain again and let the water empty out .
+9-1	Once	O	O	_	_	
+9-2	the	O	O	_	_	
+9-3	water	B-ScrPart_water	O	webanno.custom.Corefchains_	5-3	
+9-4	starts	O	B-UnrelEv	_	_	
+9-5	to	O	O	_	_	
+9-6	turn	O	B-RelNScrEv	_	_	
+9-7	a	O	O	_	_	
+9-8	little	O	O	_	_	
+9-9	cold	O	O	_	_	
+9-10	,	O	O	_	_	
+9-11	it	O	O	_	_	
+9-12	's	O	B-UnrelEv	_	_	
+9-13	time	O	O	_	_	
+9-14	to	O	O	_	_	
+9-15	get	O	B-ScrEv_get_out_bath	_	_	
+9-16	out	O	I-ScrEv_get_out_bath	_	_	
+9-17	so	O	O	_	_	
+9-18	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	7-12	
+9-19	open	O	B-ScrEv_open_drain	_	_	
+9-20	the	O	O	_	_	
+9-21	drain	B-ScrPart_drain	O	webanno.custom.Corefchains_	4-2	
+9-22	again	O	O	_	_	
+9-23	and	O	O	_	_	
+9-24	let	O	B-UnrelEv	_	_	
+9-25	the	O	O	_	_	
+9-26	water	B-ScrPart_water	O	webanno.custom.Corefchains_	9-3	
+9-27	empty	O	B-RelNScrEv	_	_	
+9-28	out	O	I-RelNScrEv	_	_	
+9-29	.	O	O	_	_	
+
+#id=10
+#text=While it 's draining I carefully stand up and reach for my towel to dry off .
+10-1	While	O	O	_	_	
+10-2	it	B-ScrPart_water	O	webanno.custom.Corefchains_	9-26	
+10-3	's	O	O	_	_	
+10-4	draining	O	B-RelNScrEv	_	_	
+10-5	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	9-18	
+10-6	carefully	O	O	_	_	
+10-7	stand	O	B-RelNScrEv	_	_	
+10-8	up	O	I-RelNScrEv	_	_	
+10-9	and	O	O	_	_	
+10-10	reach	O	B-UnrelEv	_	_	
+10-11	for	O	O	_	_	
+10-12	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	10-5	
+10-13	towel	B-ScrPart_towel	O	webanno.custom.Corefchains_	5-20	
+10-14	to	O	O	_	_	
+10-15	dry	O	B-ScrEv_dry	_	_	
+10-16	off	O	I-ScrEv_dry	_	_	
+10-17	.	O	O	_	_	
+
+#id=11
+#text=I always be sure the tub is clean when I 'm finished , with toys and the dirty washcloth put where they belong . 
+11-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	10-12	
+11-2	always	O	O	_	_	
+11-3	be	O	B-RelNScrEv	_	_	
+11-4	sure	O	I-RelNScrEv	_	_	
+11-5	the	O	O	_	_	
+11-6	tub	B-ScrPart_bathtub	O	webanno.custom.Corefchains_	8-5	
+11-7	is	O	B-UnrelEv	_	_	
+11-8	clean	O	O	_	_	
+11-9	when	O	O	_	_	
+11-10	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	11-1	
+11-11	'm	O	B-UnrelEv	_	_	
+11-12	finished	O	O	_	_	
+11-13	,	O	O	_	_	
+11-14	with	O	O	_	_	
+11-15	toys	B-ScrPart_in-bath_entertainment	O	webanno.custom.Corefchains_|group_toys_washcloth	8-2|11-22	
+11-16	and	O	O	_	_	
+11-17	the	O	O	_	_	
+11-18	dirty	O	O	_	_	
+11-19	washcloth	B-ScrPart_washing_tools	O	webanno.custom.Corefchains_|group_toys_washcloth	6-21|11-22	
+11-20	put	O	B-RelNScrEv	_	_	
+11-21	where	O	O	_	_	
+11-22	they	B-???	O	_	_	
+11-23	belong	O	B-UnrelEv	_	_	
+11-24	.	O	O	_	_	
+

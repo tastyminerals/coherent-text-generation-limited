@@ -1,0 +1,196 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=It first begins with turning on the heater in the bathroom for 10 minutes so that when I am waiting for the water to be warm I do not freeze .
+1-1	It	O	O	_	_	
+1-2	first	O	O	_	_	
+1-3	begins	B-UnrelEv	O	_	_	
+1-4	with	O	O	_	_	
+1-5	turning	B-MissScrEv	O	_	_	
+1-6	on	O	O	_	_	
+1-7	the	O	O	_	_	
+1-8	heater	O	B-MissScrPart	_	_	
+1-9	in	O	O	_	_	
+1-10	the	O	O	_	_	
+1-11	bathroom	O	B-ScrPart_bathroom	_	_	
+1-12	for	O	O	_	_	
+1-13	10	O	O	_	_	
+1-14	minutes	O	B-NPart	_	_	
+1-15	so	O	O	_	_	
+1-16	that	O	O	_	_	
+1-17	when	O	O	_	_	
+1-18	I	O	B-ScrPart_bather	_	_	
+1-19	am	O	O	_	_	
+1-20	waiting	B-ScrEv_fill_water/wait	O	_	_	
+1-21	for	O	O	_	_	
+1-22	the	O	O	_	_	
+1-23	water	O	B-ScrPart_water	_	_	
+1-24	to	O	O	_	_	
+1-25	be	B-UnrelEv	O	_	_	
+1-26	warm	O	O	_	_	
+1-27	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	1-18	
+1-28	do	O	O	_	_	
+1-29	not	O	O	_	_	
+1-30	freeze	B-UnrelEv	O	_	_	
+1-31	.	O	O	_	_	
+
+#id=2
+#text=My parents and siblings think that this is weird but I do not care because it is my way of doing things .
+2-1	My	O	B-ScrPart_bather	webanno.custom.Corefchains_	1-27	
+2-2	parents	O	O	_	_	
+2-3	and	O	O	_	_	
+2-4	siblings	O	O	_	_	
+2-5	think	B-UnrelEv	O	_	_	
+2-6	that	O	O	_	_	
+2-7	this	O	O	_	_	
+2-8	is	B-UnrelEv	O	_	_	
+2-9	weird	O	O	_	_	
+2-10	but	O	O	_	_	
+2-11	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	2-1	
+2-12	do	O	O	_	_	
+2-13	not	O	O	_	_	
+2-14	care	B-UnrelEv	O	_	_	
+2-15	because	O	O	_	_	
+2-16	it	O	O	_	_	
+2-17	is	B-UnrelEv	O	_	_	
+2-18	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	2-11	
+2-19	way	O	O	_	_	
+2-20	of	O	O	_	_	
+2-21	doing	B-UnrelEv	O	_	_	
+2-22	things	O	O	_	_	
+2-23	.	O	O	_	_	
+
+#id=3
+#text=I look forward to a warm bath and enjoy getting clean and soaking afterwards to relax .
+3-1	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	2-18	
+3-2	look	B-UnrelEv|B-UnrelEv	O	_	_	
+3-3	forward	I-UnrelEv	O	_	_	
+3-4	to	O	O	_	_	
+3-5	a	O	O	_	_	
+3-6	warm	O	O	_	_	
+3-7	bath	O	B-MissScrPart	_	_	
+3-8	and	O	O	_	_	
+3-9	enjoy	B-UnrelEv	O	_	_	
+3-10	getting	B-RelNScrEv	O	_	_	
+3-11	clean	O	O	_	_	
+3-12	and	O	O	_	_	
+3-13	soaking	B-RelNScrEv	O	_	_	
+3-14	afterwards	O	O	_	_	
+3-15	to	O	O	_	_	
+3-16	relax	B-ScrEv_relax	O	_	_	
+3-17	.	O	O	_	_	
+
+#id=4
+#text=Once the bath is full I slowly get in and feel the warmth wrap around my body .
+4-1	Once	O	O	_	_	
+4-2	the	O	O	_	_	
+4-3	bath	O	B-MissScrPart	webanno.custom.Corefchains_	3-7	
+4-4	is	B-UnrelEv	O	_	_	
+4-5	full	O	O	_	_	
+4-6	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	3-1	
+4-7	slowly	O	O	_	_	
+4-8	get	B-ScrEv_sink_water|B-ScrEv_sink_water	O	_	_	
+4-9	in	I-ScrEv_sink_water	O	_	_	
+4-10	and	O	O	_	_	
+4-11	feel	B-UnrelEv	O	_	_	
+4-12	the	O	O	_	_	
+4-13	warmth	O	O	_	_	
+4-14	wrap	B-UnrelEv	O	_	_	
+4-15	around	O	O	_	_	
+4-16	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	4-6	
+4-17	body	O	B-ScrPart_body_part	_	_	
+4-18	.	O	O	_	_	
+
+#id=5
+#text=After getting comfy I close my eyes and relax for 10 or 15 minutes before beginning to get clean and proceed to get out .
+5-1	After	O	O	_	_	
+5-2	getting	B-UnrelEv	O	_	_	
+5-3	comfy	O	O	_	_	
+5-4	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	4-16	
+5-5	close	B-UnrelEv	O	_	_	
+5-6	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	5-4	
+5-7	eyes	O	B-ScrPart_body_part	_	_	
+5-8	and	O	O	_	_	
+5-9	relax	B-ScrEv_relax	O	_	_	
+5-10	for	O	O	_	_	
+5-11	10	O	O	_	_	
+5-12	or	O	O	_	_	
+5-13	15	O	O	_	_	
+5-14	minutes	O	B-NPart	_	_	
+5-15	before	O	O	_	_	
+5-16	beginning	B-UnrelEv	O	_	_	
+5-17	to	O	O	_	_	
+5-18	get	B-ScrEv_wash	O	_	_	
+5-19	clean	O	O	_	_	
+5-20	and	O	O	_	_	
+5-21	proceed	B-UnrelEv	O	_	_	
+5-22	to	O	O	_	_	
+5-23	get	B-ScrEv_get_out_bath|B-ScrEv_get_out_bath	O	_	_	
+5-24	out	I-ScrEv_get_out_bath	O	_	_	
+5-25	.	O	O	_	_	
+
+#id=6
+#text=After cleaning I do not like to relax any longer because you are basically sitting in your dirt , grime , and filth .
+6-1	After	O	O	_	_	
+6-2	cleaning	B-ScrEv_wash	O	_	_	
+6-3	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	5-6	
+6-4	do	O	O	_	_	
+6-5	not	O	O	_	_	
+6-6	like	B-UnrelEv	O	_	_	
+6-7	to	O	O	_	_	
+6-8	relax	B-ScrEv_relax	O	_	_	
+6-9	any	O	O	_	_	
+6-10	longer	O	O	_	_	
+6-11	because	O	O	_	_	
+6-12	you	O	B-ScrPart_bather	webanno.custom.Corefchains_	6-3	
+6-13	are	O	O	_	_	
+6-14	basically	O	O	_	_	
+6-15	sitting	B-UnrelEv	O	_	_	
+6-16	in	O	O	_	_	
+6-17	your	O	B-ScrPart_bather	webanno.custom.Corefchains_	6-12	
+6-18	dirt	O	O	_	_	
+6-19	,	O	O	_	_	
+6-20	grime	O	O	_	_	
+6-21	,	O	O	_	_	
+6-22	and	O	O	_	_	
+6-23	filth	O	O	_	_	
+6-24	.	O	O	_	_	
+
+#id=7
+#text=This is quite disgusting to think about and I would not ever recommend anyone to rest or relax in the filth .
+7-1	This	O	O	_	_	
+7-2	is	B-UnrelEv	O	_	_	
+7-3	quite	O	O	_	_	
+7-4	disgusting	B-UnrelEv	O	_	_	
+7-5	to	O	O	_	_	
+7-6	think	B-UnrelEv|B-UnrelEv	O	_	_	
+7-7	about	I-UnrelEv	O	_	_	
+7-8	and	O	O	_	_	
+7-9	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	6-17	
+7-10	would	O	O	_	_	
+7-11	not	O	O	_	_	
+7-12	ever	O	O	_	_	
+7-13	recommend	B-UnrelEv	O	_	_	
+7-14	anyone	O	O	_	_	
+7-15	to	O	O	_	_	
+7-16	rest	B-ScrEv_relax	O	_	_	
+7-17	or	O	O	_	_	
+7-18	relax	B-ScrEv_relax	O	_	_	
+7-19	in	O	O	_	_	
+7-20	the	O	O	_	_	
+7-21	filth	O	B-MissScrPart	_	_	
+7-22	.	O	O	_	_	
+
+#id=8
+#text=No matter how warm or cozy the water still seems . 
+8-1	No	O	O	_	_	
+8-2	matter	O	O	_	_	
+8-3	how	O	O	_	_	
+8-4	warm	O	O	_	_	
+8-5	or	O	O	_	_	
+8-6	cozy	O	O	_	_	
+8-7	the	O	O	_	_	
+8-8	water	O	B-ScrPart_water	webanno.custom.Corefchains_	1-23	
+8-9	still	O	O	_	_	
+8-10	seems	B-UnrelEv	O	_	_	
+8-11	.	O	O	_	_	
+

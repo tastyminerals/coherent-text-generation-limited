@@ -1,0 +1,234 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant | Participants # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Some people view flying in an airplane as a chore , but I truly enjoy it .
+1-1	Some	O	O	O	_	_	
+1-2	people	O	O	O	_	_	
+1-3	view	B-UnrelEv	O	O	_	_	
+1-4	flying	B-Evoking	O	O	_	_	
+1-5	in	I-Evoking	O	O	_	_	
+1-6	an	I-Evoking	O	O	_	_	
+1-7	airplane	I-Evoking	B-webanno.custom.Participants_	B-ScrPart_plane	_	_	
+1-8	as	O	O	O	_	_	
+1-9	a	O	O	O	_	_	
+1-10	chore	O	O	O	_	_	
+1-11	,	O	O	O	_	_	
+1-12	but	O	O	O	_	_	
+1-13	I	O	B-webanno.custom.Participants_	B-ScrPart_passenger	_	_	
+1-14	truly	O	O	O	_	_	
+1-15	enjoy	B-UnrelEv	O	O	_	_	
+1-16	it	O	O	O	_	_	
+1-17	.	O	O	O	_	_	
+
+#id=2
+#text=Finding the best fare and route to meet your needs is a very important first step , and I usually utilize various travel websites to ensure I 'm getting the best possible deal .
+2-1	Finding	B-ScrEv_get_ticket	O	O	_	_	
+2-2	the	O	O	O	_	_	
+2-3	best	O	O	O	_	_	
+2-4	fare	O	B-webanno.custom.Participants_	B-MissScrPart	_	_	
+2-5	and	O	O	O	_	_	
+2-6	route	O	B-webanno.custom.Participants_	B-NPart	_	_	
+2-7	to	O	O	O	_	_	
+2-8	meet	B-UnrelEv	O	O	_	_	
+2-9	your	O	O	O	_	_	
+2-10	needs	O	O	O	_	_	
+2-11	is	O	O	O	_	_	
+2-12	a	O	O	O	_	_	
+2-13	very	O	O	O	_	_	
+2-14	important	O	O	O	_	_	
+2-15	first	O	O	O	_	_	
+2-16	step	O	O	O	_	_	
+2-17	,	O	O	O	_	_	
+2-18	and	O	O	O	_	_	
+2-19	I	O	B-webanno.custom.Participants_	B-ScrPart_passenger	webanno.custom.Corefchains_	1-13	
+2-20	usually	O	O	O	_	_	
+2-21	utilize	B-UnrelEv	O	O	_	_	
+2-22	various	O	O	O	_	_	
+2-23	travel	O	B-webanno.custom.Participants_	B-MissScrPart	_	_	
+2-24	websites	O	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-MissScrPart|B-MissScrPart	_	_	
+2-25	to	O	O	O	_	_	
+2-26	ensure	B-UnrelEv	O	O	_	_	
+2-27	I	O	B-webanno.custom.Participants_	B-ScrPart_passenger	webanno.custom.Corefchains_	2-19	
+2-28	'm	O	O	O	_	_	
+2-29	getting	B-UnrelEv	O	O	_	_	
+2-30	the	O	O	O	_	_	
+2-31	best	O	O	O	_	_	
+2-32	possible	O	O	O	_	_	
+2-33	deal	O	O	O	_	_	
+2-34	.	O	O	O	_	_	
+
+#id=3
+#text=On the day of my flight I go to the airport with plenty of time to check in luggage and get through security checks .
+3-1	On	O	O	O	_	_	
+3-2	the	O	O	O	_	_	
+3-3	day	O	B-webanno.custom.Participants_	B-ScrPart_time/date	_	_	
+3-4	of	O	O	O	_	_	
+3-5	my	O	B-webanno.custom.Participants_	B-ScrPart_passenger	webanno.custom.Corefchains_	2-27	
+3-6	flight	O	B-webanno.custom.Participants_	B-ScrPart_flight	_	_	
+3-7	I	O	B-webanno.custom.Participants_	B-ScrPart_passenger	webanno.custom.Corefchains_	3-5	
+3-8	go	B-ScrEv_get_airport	O	O	_	_	
+3-9	to	I-ScrEv_get_airport	O	O	_	_	
+3-10	the	O	O	O	_	_	
+3-11	airport	O	B-webanno.custom.Participants_	B-ScrPart_airport	_	_	
+3-12	with	O	O	O	_	_	
+3-13	plenty	O	O	O	_	_	
+3-14	of	O	O	O	_	_	
+3-15	time	O	B-webanno.custom.Participants_	B-ScrPart_time/date	_	_	
+3-16	to	O	O	O	_	_	
+3-17	check	B-ScrEv_check_luggage	O	O	_	_	
+3-18	in	I-ScrEv_check_luggage	O	O	_	_	
+3-19	luggage	O	B-webanno.custom.Participants_	B-ScrPart_check_in_luggage	_	_	
+3-20	and	O	O	O	_	_	
+3-21	get	B-ScrEv_go_security_checks	O	O	_	_	
+3-22	through	I-ScrEv_go_security_checks	O	O	_	_	
+3-23	security	O	B-webanno.custom.Participants_	B-ScrPart_security_check	_	_	
+3-24	checks	O	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_security_check|B-ScrPart_security_check	_	_	
+3-25	.	O	O	O	_	_	
+
+#id=4
+#text=Having traveled before , I know this can be quite time consuming , so I try to be there at least an hour and a half before boarding time .
+4-1	Having	O	O	O	_	_	
+4-2	traveled	B-RelNScrEv	O	O	_	_	
+4-3	before	O	O	O	_	_	
+4-4	,	O	O	O	_	_	
+4-5	I	O	B-webanno.custom.Participants_	B-ScrPart_passenger	webanno.custom.Corefchains_	3-7	
+4-6	know	B-UnrelEv	O	O	_	_	
+4-7	this	O	O	O	_	_	
+4-8	can	O	O	O	_	_	
+4-9	be	B-UnrelEv	O	O	_	_	
+4-10	quite	O	O	O	_	_	
+4-11	time	O	O	O	_	_	
+4-12	consuming	O	O	O	_	_	
+4-13	,	O	O	O	_	_	
+4-14	so	O	O	O	_	_	
+4-15	I	O	B-webanno.custom.Participants_	B-ScrPart_passenger	webanno.custom.Corefchains_	4-5	
+4-16	try	O	O	O	_	_	
+4-17	to	O	O	O	_	_	
+4-18	be	B-UnrelEv	O	O	_	_	
+4-19	there	O	O	O	_	_	
+4-20	at	O	O	O	_	_	
+4-21	least	O	O	O	_	_	
+4-22	an	O	O	O	_	_	
+4-23	hour	O	B-webanno.custom.Participants_	B-ScrPart_time/date	_	_	
+4-24	and	O	O	O	_	_	
+4-25	a	O	O	O	_	_	
+4-26	half	O	O	O	_	_	
+4-27	before	O	O	O	_	_	
+4-28	boarding	O	B-webanno.custom.Participants_	B-ScrPart_time/date	_	_	
+4-29	time	O	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_time/date|B-ScrPart_time/date	_	_	
+4-30	.	O	O	O	_	_	
+
+#id=5
+#text=Once I 'm through security I head towards my gate .
+5-1	Once	O	O	O	_	_	
+5-2	I	O	B-webanno.custom.Participants_	B-ScrPart_passenger	webanno.custom.Corefchains_	4-15	
+5-3	'm	B-UnrelEv	O	O	_	_	
+5-4	through	O	O	O	_	_	
+5-5	security	O	B-webanno.custom.Participants_	B-ScrPart_security_check	webanno.custom.Corefchains_	3-24	
+5-6	I	O	B-webanno.custom.Participants_	B-ScrPart_passenger	webanno.custom.Corefchains_	5-2	
+5-7	head	B-ScrEv_find_terminal	O	O	_	_	
+5-8	towards	O	O	O	_	_	
+5-9	my	O	O	O	_	_	
+5-10	gate	O	B-webanno.custom.Participants_	B-ScrPart_terminal/gate	_	_	
+5-11	.	O	O	O	_	_	
+
+#id=6
+#text=If I have time I may stop for a snack or some shopping , though I make sure to keep an ear out for my flight to be called for boarding .
+6-1	If	O	O	O	_	_	
+6-2	I	O	B-webanno.custom.Participants_	B-ScrPart_passenger	webanno.custom.Corefchains_	5-6	
+6-3	have	B-UnrelEv	O	O	_	_	
+6-4	time	O	B-webanno.custom.Participants_	B-ScrPart_time/date	_	_	
+6-5	I	O	B-webanno.custom.Participants_	B-ScrPart_passenger	webanno.custom.Corefchains_	6-2	
+6-6	may	O	O	O	_	_	
+6-7	stop	B-UnrelEv	O	O	_	_	
+6-8	for	O	O	O	_	_	
+6-9	a	O	O	O	_	_	
+6-10	snack	O	O	O	_	_	
+6-11	or	O	O	O	_	_	
+6-12	some	O	O	O	_	_	
+6-13	shopping	B-RelNScrEv	O	O	_	_	
+6-14	,	O	O	O	_	_	
+6-15	though	O	O	O	_	_	
+6-16	I	O	B-webanno.custom.Participants_	B-ScrPart_passenger	webanno.custom.Corefchains_	6-5	
+6-17	make	B-UnrelEv	O	O	_	_	
+6-18	sure	I-UnrelEv	O	O	_	_	
+6-19	to	O	O	O	_	_	
+6-20	keep	B-ScrEv_listen_call	O	O	_	_	
+6-21	an	O	O	O	_	_	
+6-22	ear	O	B-webanno.custom.Participants_	B-SuppVComp	_	_	
+6-23	out	O	O	O	_	_	
+6-24	for	O	O	O	_	_	
+6-25	my	O	B-webanno.custom.Participants_	B-ScrPart_passenger	webanno.custom.Corefchains_	6-16	
+6-26	flight	O	B-webanno.custom.Participants_	B-ScrPart_flight	webanno.custom.Corefchains_	3-6	
+6-27	to	O	O	O	_	_	
+6-28	be	O	O	O	_	_	
+6-29	called	B-ScrEv_listen_call	O	O	_	_	
+6-30	for	O	O	O	_	_	
+6-31	boarding	B-ScrEv_board_plane	O	O	_	_	
+6-32	.	O	O	O	_	_	
+
+#id=7
+#text=Once I am called , I patiently and orderly wait my turn to enter the airplane .
+7-1	Once	O	O	O	_	_	
+7-2	I	O	B-webanno.custom.Participants_	B-ScrPart_passenger	webanno.custom.Corefchains_	6-25	
+7-3	am	O	O	O	_	_	
+7-4	called	B-ScrEv_listen_call	O	O	_	_	
+7-5	,	O	O	O	_	_	
+7-6	I	O	B-webanno.custom.Participants_	B-ScrPart_passenger	webanno.custom.Corefchains_	7-2	
+7-7	patiently	O	O	O	_	_	
+7-8	and	O	O	O	_	_	
+7-9	orderly	O	O	O	_	_	
+7-10	wait	B-ScrEv_wait_boarding	O	O	_	_	
+7-11	my	O	B-webanno.custom.Participants_	B-ScrPart_passenger	webanno.custom.Corefchains_	7-6	
+7-12	turn	O	B-webanno.custom.Participants_	B-NPart	_	_	
+7-13	to	O	O	O	_	_	
+7-14	enter	B-ScrEv_board_plane	O	O	_	_	
+7-15	the	O	O	O	_	_	
+7-16	airplane	O	B-webanno.custom.Participants_	B-ScrPart_plane	webanno.custom.Corefchains_	1-7	
+7-17	.	O	O	O	_	_	
+
+#id=8
+#text=I place my carry on in the assigned bin , take my seat , get a book out and make myself as comfortable as possible .
+8-1	I	O	B-webanno.custom.Participants_	B-ScrPart_passenger	webanno.custom.Corefchains_	7-11	
+8-2	place	B-ScrEv_stow_away_luggage	O	O	_	_	
+8-3	my	O	B-webanno.custom.Participants_	B-ScrPart_passenger	webanno.custom.Corefchains_	8-1	
+8-4	carry	O	B-webanno.custom.Participants_	B-ScrPart_carry_on_luggage	_	_	
+8-5	on	O	O	O	_	_	
+8-6	in	O	O	O	_	_	
+8-7	the	O	O	O	_	_	
+8-8	assigned	B-RelNScrEv	O	O	_	_	
+8-9	bin	O	B-webanno.custom.Participants_	B-NPart	_	_	
+8-10	,	O	O	O	_	_	
+8-11	take	B-ScrEv_take_seat	O	O	_	_	
+8-12	my	O	B-webanno.custom.Participants_	B-ScrPart_passenger	webanno.custom.Corefchains_	8-3	
+8-13	seat	O	B-webanno.custom.Participants_	B-ScrPart_seat	_	_	
+8-14	,	O	O	O	_	_	
+8-15	get	B-RelNScrEv	O	O	_	_	
+8-16	a	O	O	O	_	_	
+8-17	book	O	B-webanno.custom.Participants_	B-ScrPart_in-flight_entertainment	_	_	
+8-18	out	O	O	O	_	_	
+8-19	and	O	O	O	_	_	
+8-20	make	B-UnrelEv	O	O	_	_	
+8-21	myself	O	B-webanno.custom.Participants_	B-ScrPart_passenger	webanno.custom.Corefchains_	8-12	
+8-22	as	O	O	O	_	_	
+8-23	comfortable	O	O	O	_	_	
+8-24	as	O	O	O	_	_	
+8-25	possible	O	O	O	_	_	
+8-26	.	O	O	O	_	_	
+
+#id=9
+#text=If I 'm correctly prepared , flying can be a wholly pleasant experience . 
+9-1	If	O	O	O	_	_	
+9-2	I	O	B-webanno.custom.Participants_	B-ScrPart_passenger	webanno.custom.Corefchains_	8-21	
+9-3	'm	O	O	O	_	_	
+9-4	correctly	O	O	O	_	_	
+9-5	prepared	B-RelNScrEv	O	O	_	_	
+9-6	,	O	O	O	_	_	
+9-7	flying	B-Evoking	O	O	_	_	
+9-8	can	O	O	O	_	_	
+9-9	be	B-UnrelEv	O	O	_	_	
+9-10	a	O	O	O	_	_	
+9-11	wholly	O	O	O	_	_	
+9-12	pleasant	O	O	O	_	_	
+9-13	experience	O	O	O	_	_	
+9-14	.	O	O	O	_	_	
+

@@ -1,0 +1,222 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=We began by driving past the overloaded parking lot dreading finding a parking spot .
+1-1	We	B-ScrPart_shopper	O	_	_	
+1-2	began	O	B-UnrelEv	_	_	
+1-3	by	O	O	_	_	
+1-4	driving	O	B-ScrEv_go_grocery	_	_	
+1-5	past	O	O	_	_	
+1-6	the	O	O	_	_	
+1-7	overloaded	O	B-UnrelEv	_	_	
+1-8	parking	B-MissScrPart	O	_	_	
+1-9	lot	I-MissScrPart|B-MissScrPart	O	_	_	
+1-10	dreading	O	B-UnrelEv	_	_	
+1-11	finding	O	B-RelNScrEv	_	_	
+1-12	a	O	O	_	_	
+1-13	parking	B-MissScrPart	O	_	_	
+1-14	spot	I-MissScrPart|B-MissScrPart	O	_	_	
+1-15	.	O	O	_	_	
+
+#id=2
+#text=Luckily we know of a spot on the side of the grocery store that is almost always vacant .
+2-1	Luckily	O	O	_	_	
+2-2	we	B-ScrPart_shopper	O	webanno.custom.Corefchains_	1-1	
+2-3	know	O	B-UnrelEv	_	_	
+2-4	of	O	O	_	_	
+2-5	a	O	O	_	_	
+2-6	spot	B-MissScrPart	O	webanno.custom.Corefchains_	1-14	
+2-7	on	O	O	_	_	
+2-8	the	O	O	_	_	
+2-9	side	O	O	_	_	
+2-10	of	O	O	_	_	
+2-11	the	O	O	_	_	
+2-12	grocery	O	B-Evoking	_	_	
+2-13	store	B-ScrPart_grocery_shop	I-Evoking	_	_	
+2-14	that	O	O	_	_	
+2-15	is	O	B-UnrelEv	_	_	
+2-16	almost	O	O	_	_	
+2-17	always	O	O	_	_	
+2-18	vacant	O	O	_	_	
+2-19	.	O	O	_	_	
+
+#id=3
+#text=My girlfriend and I park in our normal spot and walk inside .
+3-1	My	B-ScrPart_shopper	O	webanno.custom.Corefchains_	2-2	
+3-2	girlfriend	B-ScrPart_shopper	O	webanno.custom.Corefchains_	2-2	
+3-3	and	O	O	webanno.custom.Corefchains_	2-2	
+3-4	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_|webanno.custom.Corefchains_	2-2|3-1	
+3-5	park	O	B-RelNScrEv	_	_	
+3-6	in	O	O	_	_	
+3-7	our	B-ScrPart_shopper	O	_	_	
+3-8	normal	O	O	_	_	
+3-9	spot	B-MissScrPart	O	webanno.custom.Corefchains_	2-6	
+3-10	and	O	O	_	_	
+3-11	walk	O	B-ScrEv_enter	_	_	
+3-12	inside	O	O	_	_	
+3-13	.	O	O	_	_	
+
+#id=4
+#text=The store is booming with people and all the lines are full .
+4-1	The	O	O	_	_	
+4-2	store	B-ScrPart_grocery_shop	O	webanno.custom.Corefchains_	2-13	
+4-3	is	O	O	_	_	
+4-4	booming	O	B-RelNScrEv	_	_	
+4-5	with	O	O	_	_	
+4-6	people	B-ScrPart_shopper	O	_	_	
+4-7	and	O	O	_	_	
+4-8	all	O	O	_	_	
+4-9	the	O	O	_	_	
+4-10	lines	B-ScrPart_line	O	_	_	
+4-11	are	O	B-RelNScrEv	_	_	
+4-12	full	O	O	_	_	
+4-13	.	O	O	_	_	
+
+#id=5
+#text=We are the type of people who do not like a lot of people so we wanted to get in and out as fast as we could .
+5-1	We	B-ScrPart_shopper	O	group_I_girlfriend|group_I_girlfriend|webanno.custom.Corefchains_	3-1|3-2|3-7	
+5-2	are	O	B-UnrelEv	_	_	
+5-3	the	O	O	_	_	
+5-4	type	O	O	_	_	
+5-5	of	O	O	_	_	
+5-6	people	O	O	_	_	
+5-7	who	O	O	_	_	
+5-8	do	O	O	_	_	
+5-9	not	O	O	_	_	
+5-10	like	O	B-UnrelEv	_	_	
+5-11	a	O	O	_	_	
+5-12	lot	O	O	_	_	
+5-13	of	O	O	_	_	
+5-14	people	O	O	_	_	
+5-15	so	O	O	_	_	
+5-16	we	B-ScrPart_shopper	O	webanno.custom.Corefchains_	5-1	
+5-17	wanted	O	B-UnrelEv	_	_	
+5-18	to	O	O	_	_	
+5-19	get	O	B-ScrEv_enter|B-ScrEv_enter	_	_	
+5-20	in	O	I-ScrEv_enter	_	_	
+5-21	and	O	O	_	_	
+5-22	out	O	O	_	_	
+5-23	as	O	O	_	_	
+5-24	fast	O	O	_	_	
+5-25	as	O	O	_	_	
+5-26	we	B-ScrPart_shopper	O	webanno.custom.Corefchains_	5-16	
+5-27	could	O	O	_	_	
+5-28	.	O	O	_	_	
+
+#id=6
+#text=Quickly we get all the groceries marked down on the list and we head to the checkout line .
+6-1	Quickly	O	O	_	_	
+6-2	we	B-ScrPart_shopper	O	webanno.custom.Corefchains_	5-26	
+6-3	get	O	B-ScrEv_get_groceries	_	_	
+6-4	all	O	O	_	_	
+6-5	the	O	O	_	_	
+6-6	groceries	B-ScrPart_groceries	O	_	_	
+6-7	marked	O	B-RelNScrEv|B-RelNScrEv	_	_	
+6-8	down	O	I-RelNScrEv	_	_	
+6-9	on	O	O	_	_	
+6-10	the	O	O	_	_	
+6-11	list	B-ScrPart_grocery_list	O	_	_	
+6-12	and	O	O	_	_	
+6-13	we	B-ScrPart_shopper	O	webanno.custom.Corefchains_	6-2	
+6-14	head	O	B-ScrEv_move_section	_	_	
+6-15	to	O	O	_	_	
+6-16	the	O	O	_	_	
+6-17	checkout	B-ScrPart_line	O	_	_	
+6-18	line	I-ScrPart_line|B-ScrPart_line	O	_	_	
+6-19	.	O	O	_	_	
+
+#id=7
+#text=We found a shorter line that was for a lesser amount of groceries .
+7-1	We	B-ScrPart_shopper	O	webanno.custom.Corefchains_	6-13	
+7-2	found	O	B-UnrelEv	_	_	
+7-3	a	O	O	_	_	
+7-4	shorter	O	O	_	_	
+7-5	line	B-ScrPart_line	O	_	_	
+7-6	that	O	O	_	_	
+7-7	was	O	B-UnrelEv	_	_	
+7-8	for	O	O	_	_	
+7-9	a	O	O	_	_	
+7-10	lesser	O	O	_	_	
+7-11	amount	O	O	_	_	
+7-12	of	O	O	_	_	
+7-13	groceries	B-ScrPart_groceries	O	_	_	
+7-14	.	O	O	_	_	
+
+#id=8
+#text=Luckily we had 2 items less than the maximum for the line , so we hopped in and quickly got checked out and on our way .
+8-1	Luckily	O	O	_	_	
+8-2	we	B-ScrPart_shopper	O	webanno.custom.Corefchains_	7-1	
+8-3	had	O	B-ScrEv_get_groceries	_	_	
+8-4	2	O	O	_	_	
+8-5	items	B-ScrPart_groceries	O	_	_	
+8-6	less	O	O	_	_	
+8-7	than	O	O	_	_	
+8-8	the	O	O	_	_	
+8-9	maximum	O	O	_	_	
+8-10	for	O	O	_	_	
+8-11	the	O	O	_	_	
+8-12	line	B-ScrPart_line	O	webanno.custom.Corefchains_	7-5	
+8-13	,	O	O	_	_	
+8-14	so	O	O	_	_	
+8-15	we	B-ScrPart_shopper	O	webanno.custom.Corefchains_	8-2	
+8-16	hopped	O	B-ScrEv_move_section|B-ScrEv_move_section	_	_	
+8-17	in	O	I-ScrEv_move_section	_	_	
+8-18	and	O	O	_	_	
+8-19	quickly	O	O	_	_	
+8-20	got	O	O	_	_	
+8-21	checked	O	B-ScrEv_pay|B-ScrEv_pay	_	_	
+8-22	out	O	I-ScrEv_pay	_	_	
+8-23	and	O	O	_	_	
+8-24	on	O	O	_	_	
+8-25	our	B-ScrPart_shopper	O	webanno.custom.Corefchains_	8-15	
+8-26	way	O	O	_	_	
+8-27	.	O	O	_	_	
+
+#id=9
+#text=I carried the groceries out to the car rather than having the employees do it because there are much less able people who need there help more than I do .
+9-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	3-4	
+9-2	carried	O	B-ScrEv_bring_vehicle	_	_	
+9-3	the	O	O	_	_	
+9-4	groceries	B-ScrPart_groceries	O	webanno.custom.Corefchains_	6-6	
+9-5	out	O	O	_	_	
+9-6	to	O	O	_	_	
+9-7	the	O	O	_	_	
+9-8	car	B-ScrPart_vehicle	O	_	_	
+9-9	rather	O	O	_	_	
+9-10	than	O	O	_	_	
+9-11	having	O	O	_	_	
+9-12	the	O	O	_	_	
+9-13	employees	B-ScrPart_grocery_staff	O	_	_	
+9-14	do	O	B-ScrEv_bring_vehicle	_	_	
+9-15	it	O	O	_	_	
+9-16	because	O	O	_	_	
+9-17	there	O	O	_	_	
+9-18	are	O	B-UnrelEv	_	_	
+9-19	much	O	O	_	_	
+9-20	less	O	O	_	_	
+9-21	able	O	O	_	_	
+9-22	people	B-ScrPart_shopper	O	_	_	
+9-23	who	O	O	_	_	
+9-24	need	O	B-UnrelEv	_	_	
+9-25	there	O	O	_	_	
+9-26	help	O	O	_	_	
+9-27	more	O	O	_	_	
+9-28	than	O	O	_	_	
+9-29	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	9-1	
+9-30	do	O	B-UnrelEv	_	_	
+9-31	.	O	O	_	_	
+
+#id=10
+#text=Finally we headed home and used our groceries to cook dinner . 
+10-1	Finally	O	O	_	_	
+10-2	we	B-ScrPart_shopper	O	webanno.custom.Corefchains_	8-25	
+10-3	headed	O	B-ScrEv_leave	_	_	
+10-4	home	B-NPart	O	_	_	
+10-5	and	O	O	_	_	
+10-6	used	O	B-UnrelEv	_	_	
+10-7	our	B-ScrPart_shopper	O	webanno.custom.Corefchains_	10-2	
+10-8	groceries	B-ScrPart_groceries	O	webanno.custom.Corefchains_	9-4	
+10-9	to	O	O	_	_	
+10-10	cook	O	B-UnrelEv	_	_	
+10-11	dinner	O	O	_	_	
+10-12	.	O	O	_	_	
+

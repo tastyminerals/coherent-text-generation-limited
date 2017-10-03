@@ -1,0 +1,211 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Reading is very important to me , and with the amount that I read , it is economical to use a library to borrow the books I would like to read .
+1-1	Reading	B-RelNScrEv	O	_	_	
+1-2	is	B-UnrelEv	O	_	_	
+1-3	very	O	O	_	_	
+1-4	important	O	O	_	_	
+1-5	to	O	O	_	_	
+1-6	me	O	B-ScrPart_customer	_	_	
+1-7	,	O	O	_	_	
+1-8	and	O	O	_	_	
+1-9	with	O	O	_	_	
+1-10	the	O	O	_	_	
+1-11	amount	O	B-ScrPart_book	_	_	
+1-12	that	O	O	_	_	
+1-13	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	1-6	
+1-14	read	B-RelNScrEv	O	_	_	
+1-15	,	O	O	_	_	
+1-16	it	O	O	_	_	
+1-17	is	B-UnrelEv	O	_	_	
+1-18	economical	O	O	_	_	
+1-19	to	O	O	_	_	
+1-20	use	B-Evoking|B-RelNScrEv	O	_	_	
+1-21	a	I-Evoking	O	_	_	
+1-22	library	I-Evoking	B-ScrPart_library	_	_	
+1-23	to	O	O	_	_	
+1-24	borrow	B-Evoking	O	_	_	
+1-25	the	O	O	_	_	
+1-26	books	O	B-ScrPart_book	_	_	
+1-27	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	1-13	
+1-28	would	O	O	_	_	
+1-29	like	O	O	_	_	
+1-30	to	O	O	_	_	
+1-31	read	B-RelNScrEv	O	_	_	
+1-32	.	O	O	_	_	
+
+#id=2
+#text=When borrowing a book , I get my son into the car and we drive to the library .
+2-1	When	O	O	_	_	
+2-2	borrowing	B-Evoking	O	_	_	
+2-3	a	O	O	_	_	
+2-4	book	O	B-ScrPart_book	_	_	
+2-5	,	O	O	_	_	
+2-6	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	1-27	
+2-7	get	B-UnrelEv	O	_	_	
+2-8	my	O	B-ScrPart_customer	webanno.custom.Corefchains_	2-6	
+2-9	son	O	B-ScrPart_customer	_	_	
+2-10	into	O	O	_	_	
+2-11	the	O	O	_	_	
+2-12	car	O	B-NPart	_	_	
+2-13	and	O	O	_	_	
+2-14	we	O	B-ScrPart_customer	group_I_son|group_I_son	1-6|2-9	
+2-15	drive	B-ScrEv_get_library	O	_	_	
+2-16	to	O	O	_	_	
+2-17	the	O	O	_	_	
+2-18	library	O	B-ScrPart_library	_	_	
+2-19	.	O	O	_	_	
+
+#id=3
+#text=Usually we find a few books for him to borrow as well , so we go to the children 's section first and pick out two or three books for him .
+3-1	Usually	O	O	_	_	
+3-2	we	O	B-ScrPart_customer	webanno.custom.Corefchains_	2-14	
+3-3	find	B-ScrEv_look_for_book	O	_	_	
+3-4	a	O	O	_	_	
+3-5	few	O	O	_	_	
+3-6	books	O	B-ScrPart_book	_	_	
+3-7	for	O	O	_	_	
+3-8	him	O	B-ScrPart_customer	webanno.custom.Corefchains_	2-9	
+3-9	to	O	O	_	_	
+3-10	borrow	B-ScrEv_take_book	O	_	_	
+3-11	as	O	O	_	_	
+3-12	well	O	O	_	_	
+3-13	,	O	O	_	_	
+3-14	so	O	O	_	_	
+3-15	we	O	B-ScrPart_customer	webanno.custom.Corefchains_	3-2	
+3-16	go	B-ScrEv_get_shelf	O	_	_	
+3-17	to	O	O	_	_	
+3-18	the	O	O	_	_	
+3-19	children	O	B-ScrPart_location_library	_	_	
+3-20	's	O	I-ScrPart_location_library	_	_	
+3-21	section	O	I-ScrPart_location_library|B-ScrPart_location_library	_	_	
+3-22	first	O	O	_	_	
+3-23	and	O	O	_	_	
+3-24	pick	B-ScrEv_take_book|B-ScrEv_take_book	O	_	_	
+3-25	out	I-ScrEv_take_book	O	_	_	
+3-26	two	O	O	_	_	
+3-27	or	O	O	_	_	
+3-28	three	O	O	_	_	
+3-29	books	O	B-ScrPart_book	webanno.custom.Corefchains_	3-6	
+3-30	for	O	O	_	_	
+3-31	him	O	B-ScrPart_customer	webanno.custom.Corefchains_	3-8	
+3-32	.	O	O	_	_	
+
+#id=4
+#text=That way , when we go to find a book for me , he has something to entertain him .
+4-1	That	O	O	_	_	
+4-2	way	O	O	_	_	
+4-3	,	O	O	_	_	
+4-4	when	O	O	_	_	
+4-5	we	O	B-ScrPart_customer	webanno.custom.Corefchains_	3-15	
+4-6	go	B-ScrEv_get_shelf	O	_	_	
+4-7	to	O	O	_	_	
+4-8	find	B-ScrEv_look_for_book	O	_	_	
+4-9	a	O	O	_	_	
+4-10	book	O	B-ScrPart_book	_	_	
+4-11	for	O	O	_	_	
+4-12	me	O	B-ScrPart_customer	webanno.custom.Corefchains_	2-8	
+4-13	,	O	O	_	_	
+4-14	he	O	B-ScrPart_customer	webanno.custom.Corefchains_	3-31	
+4-15	has	B-UnrelEv	O	_	_	
+4-16	something	O	B-ScrPart_book	webanno.custom.Corefchains_	3-29	
+4-17	to	O	O	_	_	
+4-18	entertain	B-UnrelEv	O	_	_	
+4-19	him	O	B-ScrPart_customer	webanno.custom.Corefchains_	4-14	
+4-20	.	O	O	_	_	
+
+#id=5
+#text=Then we go to the fiction section for adults .
+5-1	Then	O	O	_	_	
+5-2	we	O	B-ScrPart_customer	webanno.custom.Corefchains_	4-5	
+5-3	go	B-ScrEv_get_shelf	O	_	_	
+5-4	to	O	O	_	_	
+5-5	the	O	O	_	_	
+5-6	fiction	O	B-ScrPart_location_library	_	_	
+5-7	section	O	I-ScrPart_location_library|B-ScrPart_location_library	_	_	
+5-8	for	O	O	_	_	
+5-9	adults	O	O	_	_	
+5-10	.	O	O	_	_	
+
+#id=6
+#text=Usually my son Ryan will sit on the floor looking at his books next to me while I find book to check out .
+6-1	Usually	O	O	_	_	
+6-2	my	O	B-ScrPart_customer	webanno.custom.Corefchains_	4-12	
+6-3	son	O	B-ScrPart_customer	webanno.custom.Corefchains_	4-19	
+6-4	Ryan	O	B-ScrPart_customer	webanno.custom.Corefchains_	6-3	
+6-5	will	O	O	_	_	
+6-6	sit	B-UnrelEv	O	_	_	
+6-7	on	O	O	_	_	
+6-8	the	O	O	_	_	
+6-9	floor	O	O	_	_	
+6-10	looking	B-RelNScrEv	O	_	_	
+6-11	at	O	O	_	_	
+6-12	his	O	B-ScrPart_customer	webanno.custom.Corefchains_	6-4	
+6-13	books	O	B-ScrPart_book	webanno.custom.Corefchains_	4-16	
+6-14	next	O	O	_	_	
+6-15	to	O	O	_	_	
+6-16	me	O	B-ScrPart_customer	webanno.custom.Corefchains_	6-2	
+6-17	while	O	O	_	_	
+6-18	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	6-16	
+6-19	find	B-ScrEv_look_for_book	O	_	_	
+6-20	book	O	B-ScrPart_book	webanno.custom.Corefchains_	4-10	
+6-21	to	O	O	_	_	
+6-22	check	B-ScrEv_register|B-ScrEv_register	O	_	_	
+6-23	out	I-ScrEv_register	O	_	_	
+6-24	.	O	O	_	_	
+
+#id=7
+#text=I find a book or two and then Ryan and I go to the check out and use my library card to check out the books .
+7-1	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	6-18	
+7-2	find	B-ScrEv_look_for_book	O	_	_	
+7-3	a	O	O	_	_	
+7-4	book	O	B-ScrPart_book	webanno.custom.Corefchains_	6-20	
+7-5	or	O	O	_	_	
+7-6	two	O	O	_	_	
+7-7	and	O	O	_	_	
+7-8	then	O	O	_	_	
+7-9	Ryan	O	B-ScrPart_customer	webanno.custom.Corefchains_	6-12	
+7-10	and	O	O	_	_	
+7-11	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	7-1	
+7-12	go	B-ScrEv_go_check_out	O	_	_	
+7-13	to	O	O	_	_	
+7-14	the	O	O	_	_	
+7-15	check	O	B-ScrPart_check-out_desk|B-ScrPart_check-out_desk	_	_	
+7-16	out	O	I-ScrPart_check-out_desk	_	_	
+7-17	and	O	O	_	_	
+7-18	use	B-ScrEv_show_card	O	_	_	
+7-19	my	O	B-ScrPart_customer	webanno.custom.Corefchains_	7-11	
+7-20	library	O	B-ScrPart_library_card	_	_	
+7-21	card	O	I-ScrPart_library_card|B-ScrPart_library_card	_	_	
+7-22	to	O	O	_	_	
+7-23	check	B-ScrEv_register|B-ScrEv_register	O	_	_	
+7-24	out	I-ScrEv_register	O	_	_	
+7-25	the	O	O	_	_	
+7-26	books	O	B-ScrPart_book	group_book1_book2|group_book1_book2	6-13|7-4	
+7-27	.	O	O	_	_	
+
+#id=8
+#text=The librarian usually puts them in a bag and then we leave the library to go home and enjoy our books . 
+8-1	The	O	O	_	_	
+8-2	librarian	O	B-ScrPart_staff	_	_	
+8-3	usually	O	O	_	_	
+8-4	puts	B-ScrEv_put_book_bag	O	_	_	
+8-5	them	O	B-ScrPart_book	webanno.custom.Corefchains_	7-26	
+8-6	in	O	O	_	_	
+8-7	a	O	O	_	_	
+8-8	bag	O	B-ScrPart_bag	_	_	
+8-9	and	O	O	_	_	
+8-10	then	O	O	_	_	
+8-11	we	O	B-ScrPart_customer	webanno.custom.Corefchains_	5-2	
+8-12	leave	B-ScrEv_leave	O	_	_	
+8-13	the	O	O	_	_	
+8-14	library	O	B-ScrPart_library	webanno.custom.Corefchains_	2-18	
+8-15	to	O	O	_	_	
+8-16	go	B-UnrelEv	O	_	_	
+8-17	home	O	O	_	_	
+8-18	and	O	O	_	_	
+8-19	enjoy	B-UnrelEv	O	_	_	
+8-20	our	O	B-ScrPart_customer	webanno.custom.Corefchains_	8-11	
+8-21	books	O	B-ScrPart_book	webanno.custom.Corefchains_	8-5	
+8-22	.	O	O	_	_	
+

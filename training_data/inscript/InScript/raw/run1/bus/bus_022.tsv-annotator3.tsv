@@ -1,0 +1,288 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Eventsandparticipants | Event # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I wanted to go the museum downtown Milwaukee .
+1-1	I	B-ScrPart_passenger	O	_	_	
+1-2	wanted	O	B-UnrelEv	_	_	
+1-3	to	O	O	_	_	
+1-4	go	O	B-UnrelEv	_	_	
+1-5	the	O	O	_	_	
+1-6	museum	B-ScrPart_destination	O	_	_	
+1-7	downtown	O	O	_	_	
+1-8	Milwaukee	O	O	_	_	
+1-9	.	O	O	_	_	
+
+#id=2
+#text=I got ten dollars from my bank and put in my pocket .
+2-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-1	
+2-2	got	O	B-UnrelEv	_	_	
+2-3	ten	O	O	_	_	
+2-4	dollars	O	O	_	_	
+2-5	from	O	O	_	_	
+2-6	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-1	
+2-7	bank	O	O	_	_	
+2-8	and	O	O	_	_	
+2-9	put	O	B-UnrelEv	_	_	
+2-10	in	O	O	_	_	
+2-11	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-6	
+2-12	pocket	O	O	_	_	
+2-13	.	O	O	_	_	
+
+#id=3
+#text=I walked a block from my house to catch the bus .
+3-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-11	
+3-2	walked	O	B-ScrEv_get_bus_stop	_	_	
+3-3	a	O	O	_	_	
+3-4	block	O	O	_	_	
+3-5	from	O	O	_	_	
+3-6	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-1	
+3-7	house	O	O	_	_	
+3-8	to	O	O	_	_	
+3-9	catch	O	B-Evoking	_	_	
+3-10	the	O	I-Evoking	_	_	
+3-11	bus	B-ScrPart_bus	I-Evoking	_	_	
+3-12	.	O	O	_	_	
+
+#id=4
+#text=The number nine bus came ten minutes later .
+4-1	The	O	O	_	_	
+4-2	number	O	O	_	_	
+4-3	nine	O	O	_	_	
+4-4	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	3-11	
+4-5	came	O	B-ScrEv_bus_comes	_	_	
+4-6	ten	O	O	_	_	
+4-7	minutes	B-ScrPart_time/date	O	_	_	
+4-8	later	O	O	_	_	
+4-9	.	O	O	_	_	
+
+#id=5
+#text=I boarded the bus and asked the driver “ How much ? ”
+5-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-6	
+5-2	boarded	O	B-ScrEv_board_bus	_	_	
+5-3	the	O	O	_	_	
+5-4	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	4-4	
+5-5	and	O	O	_	_	
+5-6	asked	O	B-RelNScrEv	_	_	
+5-7	the	O	O	_	_	
+5-8	driver	B-ScrPart_bus_staff	O	_	_	
+5-9	”	O	O	_	_	
+5-10	How	O	O	_	_	
+5-11	much	O	O	_	_	
+5-12	?	O	O	_	_	
+5-13	”	O	O	_	_	
+
+#id=6
+#text=The driver asked me where I was going and when I told him he said “ That� ll be two seventy five . ”
+6-1	The	O	O	_	_	
+6-2	driver	B-ScrPart_bus_staff	O	_	_	
+6-3	asked	O	B-RelNScrEv	_	_	
+6-4	me	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-1	
+6-5	where	O	O	_	_	
+6-6	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-4	
+6-7	was	O	O	_	_	
+6-8	going	O	B-UnrelEv	_	_	
+6-9	and	O	O	_	_	
+6-10	when	O	O	_	_	
+6-11	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-6	
+6-12	told	O	B-RelNScrEv	_	_	
+6-13	him	B-ScrPart_bus_staff	O	webanno.custom.Corefchains_	6-2	
+6-14	he	B-ScrPart_bus_staff	O	webanno.custom.Corefchains_	6-13	
+6-15	said	O	B-RelNScrEv	_	_	
+6-16	“	O	O	_	_	
+6-17	That�	O	O	_	_	
+6-18	ll	O	O	_	_	
+6-19	be	O	B-RelNScrEv	_	_	
+6-20	two	B-ScrPart_money	O	_	_	
+6-21	seventy	I-ScrPart_money	O	_	_	
+6-22	five	I-ScrPart_money	O	_	_	
+6-23	.	O	O	_	_	
+6-24	”	O	O	_	_	
+
+#id=7
+#text=I pulled three dollars out of my pocket and put them in the bus money collection machine .
+7-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-11	
+7-2	pulled	O	B-MissScrEv	_	_	
+7-3	three	O	O	_	_	
+7-4	dollars	B-ScrPart_money	O	_	_	
+7-5	out	O	O	_	_	
+7-6	of	O	O	_	_	
+7-7	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-1	
+7-8	pocket	B-NPart	O	_	_	
+7-9	and	O	O	_	_	
+7-10	put	O	B-ScrEv_get_ticket	_	_	
+7-11	them	B-ScrPart_money	O	webanno.custom.Corefchains_	7-4	
+7-12	in	O	O	_	_	
+7-13	the	O	O	_	_	
+7-14	bus	O	O	_	_	
+7-15	money	O	O	_	_	
+7-16	collection	B-ScrPart_payment_machine	O	_	_	
+7-17	machine	I-ScrPart_payment_machine|B-ScrPart_payment_machine	O	_	_	
+7-18	.	O	O	_	_	
+
+#id=8
+#text=The machine showed three dollars were entered and that my ride would cost two seventy five .
+8-1	The	O	O	_	_	
+8-2	machine	B-ScrPart_payment_machine	O	webanno.custom.Corefchains_	7-17	
+8-3	showed	O	B-RelNScrEv	_	_	
+8-4	three	O	O	_	_	
+8-5	dollars	B-ScrPart_money	O	webanno.custom.Corefchains_	7-11	
+8-6	were	O	O	_	_	
+8-7	entered	O	B-UnrelEv	_	_	
+8-8	and	O	O	_	_	
+8-9	that	O	O	_	_	
+8-10	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-7	
+8-11	ride	B-MissScrPart	O	_	_	
+8-12	would	O	O	_	_	
+8-13	cost	O	B-RelNScrEv	_	_	
+8-14	two	B-ScrPart_money	O	webanno.custom.Corefchains_	6-20	
+8-15	seventy	I-ScrPart_money	O	webanno.custom.Corefchains_	6-20	
+8-16	five	I-ScrPart_money	O	webanno.custom.Corefchains_	6-20	
+8-17	.	O	O	_	_	
+
+#id=9
+#text=A quarter dropped in the drop box .
+9-1	A	O	O	_	_	
+9-2	quarter	O	O	_	_	
+9-3	dropped	O	B-UnrelEv	_	_	
+9-4	in	O	O	_	_	
+9-5	the	O	O	_	_	
+9-6	drop	O	O	_	_	
+9-7	box	O	O	_	_	
+9-8	.	O	O	_	_	
+
+#id=10
+#text=I retrieved the quarter and then found a seat .
+10-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-10	
+10-2	retrieved	O	B-UnrelEv	_	_	
+10-3	the	O	O	_	_	
+10-4	quarter	O	O	_	_	
+10-5	and	O	O	_	_	
+10-6	then	O	O	_	_	
+10-7	found	O	B-ScrEv_find_place	_	_	
+10-8	a	O	O	_	_	
+10-9	seat	B-ScrPart_seat_in_bus	O	_	_	
+10-10	.	O	O	_	_	
+
+#id=11
+#text=The bus driver told I had ten stops before mine so I started counting stops .
+11-1	The	O	O	_	_	
+11-2	bus	B-ScrPart_bus_staff	O	_	_	
+11-3	driver	I-ScrPart_bus_staff|B-ScrPart_bus_staff	O	webanno.custom.Corefchains_	6-14	
+11-4	told	O	B-RelNScrEv	_	_	
+11-5	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-1	
+11-6	had	O	B-UnrelEv	_	_	
+11-7	ten	O	O	_	_	
+11-8	stops	O	O	_	_	
+11-9	before	O	O	_	_	
+11-10	mine	O	O	_	_	
+11-11	so	O	O	_	_	
+11-12	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	11-5	
+11-13	started	O	B-UnrelEv	_	_	
+11-14	counting	O	B-RelNScrEv	_	_	
+11-15	stops	B-ScrPart_bus_stop	O	_	_	
+11-16	.	O	O	_	_	
+
+#id=12
+#text=The first stop was fifth street .
+12-1	The	O	O	_	_	
+12-2	first	O	O	_	_	
+12-3	stop	B-ScrPart_bus_stop	O	_	_	
+12-4	was	O	B-ScrEv_bus_stops	_	_	
+12-5	fifth	B-ScrPart_bus_stop	O	_	_	
+12-6	street	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	webanno.custom.Corefchains_	12-3	
+12-7	.	O	O	_	_	
+
+#id=13
+#text=The second was Hadley Avenue .
+13-1	The	O	O	_	_	
+13-2	second	B-ScrPart_bus_stop	O	_	_	
+13-3	was	O	B-ScrEv_bus_stops	_	_	
+13-4	Hadley	B-ScrPart_bus_stop	O	_	_	
+13-5	Avenue	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	webanno.custom.Corefchains_	13-2	
+13-6	.	O	O	_	_	
+
+#id=14
+#text=The next stop was Dobson .
+14-1	The	O	O	_	_	
+14-2	next	O	O	_	_	
+14-3	stop	B-ScrPart_bus_stop	O	_	_	
+14-4	was	O	B-ScrEv_bus_stops	_	_	
+14-5	Dobson	B-ScrPart_bus_stop	O	webanno.custom.Corefchains_	14-3	
+14-6	.	O	O	_	_	
+
+#id=15
+#text=Adams was the ninth stop .
+15-1	Adams	B-ScrPart_bus_stop	O	_	_	
+15-2	was	O	B-ScrEv_bus_stops	_	_	
+15-3	the	O	O	_	_	
+15-4	ninth	O	O	_	_	
+15-5	stop	B-ScrPart_bus_stop	O	webanno.custom.Corefchains_	15-1	
+15-6	.	O	O	_	_	
+
+#id=16
+#text=Finally , Main Street came up .
+16-1	Finally	O	O	_	_	
+16-2	,	O	O	_	_	
+16-3	Main	B-ScrPart_bus_stop	O	_	_	
+16-4	Street	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	_	_	
+16-5	came	O	B-RelNScrEv|B-RelNScrEv	_	_	
+16-6	up	O	I-RelNScrEv	_	_	
+16-7	.	O	O	_	_	
+
+#id=17
+#text=I pulled the bus s rider cord to let the bus driver I wanted to get off .
+17-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	11-12	
+17-2	pulled	O	B-ScrEv_press_stop_button	_	_	
+17-3	the	O	O	_	_	
+17-4	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	5-4	
+17-5	s	O	O	_	_	
+17-6	rider	B-ScrPart_stop_button/door_opener	O	_	_	
+17-7	cord	I-ScrPart_stop_button/door_opener|B-ScrPart_stop_button/door_opener	O	_	_	
+17-8	to	O	O	_	_	
+17-9	let	O	B-RelNScrEv	_	_	
+17-10	the	O	O	_	_	
+17-11	bus	B-ScrPart_bus_staff	O	_	_	
+17-12	driver	I-ScrPart_bus_staff|B-ScrPart_bus_staff	O	webanno.custom.Corefchains_	11-3	
+17-13	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	17-1	
+17-14	wanted	O	B-UnrelEv	_	_	
+17-15	to	O	O	_	_	
+17-16	get	O	B-ScrEv_get_off|B-ScrEv_get_off	_	_	
+17-17	off	O	I-ScrEv_get_off	_	_	
+17-18	.	O	O	_	_	
+
+#id=18
+#text=The bus let me off in the front of the Milwaukee Public Museum .
+18-1	The	O	O	_	_	
+18-2	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	17-4	
+18-3	let	O	B-ScrEv_get_off	_	_	
+18-4	me	B-ScrPart_passenger	O	webanno.custom.Corefchains_	17-13	
+18-5	off	O	O	_	_	
+18-6	in	O	O	_	_	
+18-7	the	O	O	_	_	
+18-8	front	B-NPart	O	_	_	
+18-9	of	O	O	_	_	
+18-10	the	O	O	_	_	
+18-11	Milwaukee	O	O	_	_	
+18-12	Public	O	O	_	_	
+18-13	Museum	B-ScrPart_destination	O	webanno.custom.Corefchains_	1-6	
+18-14	.	O	O	_	_	
+
+#id=19
+#text=I spent almost the whole day there and then returned home the opposite way I came . 
+19-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	18-4	
+19-2	spent	O	B-UnrelEv	_	_	
+19-3	almost	O	O	_	_	
+19-4	the	O	O	_	_	
+19-5	whole	O	O	_	_	
+19-6	day	O	O	_	_	
+19-7	there	B-ScrPart_destination	O	webanno.custom.Corefchains_	18-13	
+19-8	and	O	O	_	_	
+19-9	then	O	O	_	_	
+19-10	returned	O	B-UnrelEv	_	_	
+19-11	home	O	O	_	_	
+19-12	the	O	O	_	_	
+19-13	opposite	O	O	_	_	
+19-14	way	O	O	_	_	
+19-15	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	19-1	
+19-16	came	O	B-UnrelEv	_	_	
+19-17	.	O	O	_	_	
+

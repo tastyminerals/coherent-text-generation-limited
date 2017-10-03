@@ -1,0 +1,194 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=When I took the train it was a lot of work .
+1-1	When	O	O	_	_	
+1-2	I	B-ScrPart_passenger	O	_	_	
+1-3	took	O	B-Evoking	_	_	
+1-4	the	O	I-Evoking	_	_	
+1-5	train	B-ScrPart_train	I-Evoking	_	_	
+1-6	it	O	O	_	_	
+1-7	was	O	B-UnrelEv	_	_	
+1-8	a	O	O	_	_	
+1-9	lot	O	O	_	_	
+1-10	of	O	O	_	_	
+1-11	work	O	O	_	_	
+1-12	.	O	O	_	_	
+
+#id=2
+#text=First I had to buy my ticket in advance , which I managed to do for 30 dollars .
+2-1	First	O	O	_	_	
+2-2	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-2	
+2-3	had	O	O	_	_	
+2-4	to	O	O	_	_	
+2-5	buy	O	B-ScrEv_get_tickets	_	_	
+2-6	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-2	
+2-7	ticket	B-ScrPart_card/ticket	O	_	_	
+2-8	in	O	O	_	_	
+2-9	advance	B-NPart	O	_	_	
+2-10	,	O	O	_	_	
+2-11	which	O	O	_	_	
+2-12	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-6	
+2-13	managed	O	B-UnrelEv	_	_	
+2-14	to	O	O	_	_	
+2-15	do	O	B-UnrelEv	_	_	
+2-16	for	O	O	_	_	
+2-17	30	O	O	_	_	
+2-18	dollars	B-ScrPart_payment_means	O	_	_	
+2-19	.	O	O	_	_	
+
+#id=3
+#text=Next I had to figure out how I was going to get to my train , which I decided to do using the bus .
+3-1	Next	O	O	_	_	
+3-2	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-12	
+3-3	had	O	O	_	_	
+3-4	to	O	O	_	_	
+3-5	figure	O	B-UnrelEv	_	_	
+3-6	out	O	I-UnrelEv	_	_	
+3-7	how	O	O	_	_	
+3-8	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-2	
+3-9	was	O	O	_	_	
+3-10	going	O	O	_	_	
+3-11	to	O	O	_	_	
+3-12	get	O	B-ScrEv_get_train_station	_	_	
+3-13	to	O	O	_	_	
+3-14	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-8	
+3-15	train	B-ScrPart_train	O	webanno.custom.Corefchains_	1-5	
+3-16	,	O	O	_	_	
+3-17	which	O	O	_	_	
+3-18	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-14	
+3-19	decided	O	B-UnrelEv	_	_	
+3-20	to	O	O	_	_	
+3-21	do	O	B-UnrelEv	_	_	
+3-22	using	O	B-UnrelEv	_	_	
+3-23	the	O	O	_	_	
+3-24	bus	O	O	_	_	
+3-25	.	O	O	_	_	
+
+#id=4
+#text=After figuring that it would take thirty minutes for me to get to the train I decided to allow an hour and thirty minutes to be certain I would not miss it .
+4-1	After	O	O	_	_	
+4-2	figuring	O	B-UnrelEv	_	_	
+4-3	that	O	O	_	_	
+4-4	it	O	O	_	_	
+4-5	would	O	O	_	_	
+4-6	take	O	B-UnrelEv	_	_	
+4-7	thirty	O	O	_	_	
+4-8	minutes	B-ScrPart_time_date	O	_	_	
+4-9	for	O	O	_	_	
+4-10	me	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-18	
+4-11	to	O	O	_	_	
+4-12	get	O	B-ScrEv_get_train_station	_	_	
+4-13	to	O	O	_	_	
+4-14	the	O	O	_	_	
+4-15	train	B-ScrPart_train	O	webanno.custom.Corefchains_	3-15	
+4-16	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-10	
+4-17	decided	O	B-UnrelEv	_	_	
+4-18	to	O	O	_	_	
+4-19	allow	O	B-UnrelEv	_	_	
+4-20	an	O	O	_	_	
+4-21	hour	B-ScrPart_time_date	O	_	_	
+4-22	and	O	O	_	_	
+4-23	thirty	O	O	_	_	
+4-24	minutes	B-ScrPart_time_date	O	_	_	
+4-25	to	O	O	_	_	
+4-26	be	O	B-UnrelEv	_	_	
+4-27	certain	O	O	_	_	
+4-28	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-16	
+4-29	would	O	O	_	_	
+4-30	not	O	O	_	_	
+4-31	miss	O	B-RelNScrEv	_	_	
+4-32	it	B-ScrPart_train	O	webanno.custom.Corefchains_	4-15	
+4-33	.	O	O	_	_	
+
+#id=5
+#text=This was a smart decision because I arrived with only 10 minutes to spare , being burdened by all my luggage .
+5-1	This	O	O	_	_	
+5-2	was	O	B-UnrelEv	_	_	
+5-3	a	O	O	_	_	
+5-4	smart	O	O	_	_	
+5-5	decision	O	O	_	_	
+5-6	because	O	O	_	_	
+5-7	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-28	
+5-8	arrived	O	B-ScrEv_get_train_station	_	_	
+5-9	with	O	O	_	_	
+5-10	only	O	O	_	_	
+5-11	10	O	O	_	_	
+5-12	minutes	B-ScrPart_time_date	O	_	_	
+5-13	to	O	O	_	_	
+5-14	spare	O	B-UnrelEv	_	_	
+5-15	,	O	O	_	_	
+5-16	being	O	O	_	_	
+5-17	burdened	O	B-UnrelEv	_	_	
+5-18	by	O	O	_	_	
+5-19	all	O	O	_	_	
+5-20	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-7	
+5-21	luggage	B-ScrPart_luggage	O	_	_	
+5-22	.	O	O	_	_	
+
+#id=6
+#text=I presented my ticket to the conductor and got on .
+6-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-20	
+6-2	presented	O	B-RelNScrEv	_	_	
+6-3	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-1	
+6-4	ticket	B-ScrPart_card/ticket	O	webanno.custom.Corefchains_	2-7	
+6-5	to	O	O	_	_	
+6-6	the	O	O	_	_	
+6-7	conductor	B-ScrPart_train_staff	O	_	_	
+6-8	and	O	O	_	_	
+6-9	got	O	B-MissScrEv	_	_	
+6-10	on	O	I-MissScrEv	_	_	
+6-11	.	O	O	_	_	
+
+#id=7
+#text=Then I spent the train ride reading some books that I had packed , sleeping , and looking at the scenery .
+7-1	Then	O	O	_	_	
+7-2	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-3	
+7-3	spent	O	B-ScrEv_spend_time_train	_	_	
+7-4	the	O	O	_	_	
+7-5	train	B-NPart	O	_	_	
+7-6	ride	I-NPart|B-NPart	O	_	_	
+7-7	reading	O	B-ScrEv_spend_time_train	_	_	
+7-8	some	O	O	_	_	
+7-9	books	B-ScrPart_in-train_entertainment	O	_	_	
+7-10	that	O	O	_	_	
+7-11	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-2	
+7-12	had	O	O	_	_	
+7-13	packed	O	B-RelNScrEv	_	_	
+7-14	,	O	O	_	_	
+7-15	sleeping	O	B-ScrEv_spend_time_train	_	_	
+7-16	,	O	O	_	_	
+7-17	and	O	O	_	_	
+7-18	looking	O	B-ScrEv_spend_time_train	_	_	
+7-19	at	O	O	_	_	
+7-20	the	O	O	_	_	
+7-21	scenery	B-ScrPart_in-train_entertainment	O	_	_	
+7-22	.	O	O	_	_	
+
+#id=8
+#text=While it was a lot of effort to take the train , in the end I found it to be an affordable and relaxing experience 
+8-1	While	O	O	_	_	
+8-2	it	O	O	_	_	
+8-3	was	O	B-UnrelEv	_	_	
+8-4	a	O	O	_	_	
+8-5	lot	O	O	_	_	
+8-6	of	O	O	_	_	
+8-7	effort	O	O	_	_	
+8-8	to	O	O	_	_	
+8-9	take	O	B-Evoking	_	_	
+8-10	the	O	I-Evoking	_	_	
+8-11	train	B-ScrPart_train	I-Evoking	webanno.custom.Corefchains_	4-32	
+8-12	,	O	O	_	_	
+8-13	in	O	O	_	_	
+8-14	the	O	O	_	_	
+8-15	end	O	O	_	_	
+8-16	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-11	
+8-17	found	O	B-UnrelEv	_	_	
+8-18	it	O	O	_	_	
+8-19	to	O	O	_	_	
+8-20	be	O	B-UnrelEv	_	_	
+8-21	an	O	O	_	_	
+8-22	affordable	O	O	_	_	
+8-23	and	O	O	_	_	
+8-24	relaxing	O	B-UnrelEv	_	_	
+8-25	experience	O	O	_	_	
+

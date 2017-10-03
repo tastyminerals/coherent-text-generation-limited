@@ -1,0 +1,221 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Event | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Yesterday I decided I needed to get to the grocery bus .
+1-1	Yesterday	O	O	O	_	_	
+1-2	I	B-ScrPart_passenger	O	O	_	_	
+1-3	decided	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+1-4	I	B-ScrPart_passenger	O	O	_	_	
+1-5	needed	O	O	O	_	_	
+1-6	to	O	O	O	_	_	
+1-7	get	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+1-8	to	O	O	O	_	_	
+1-9	the	O	O	O	_	_	
+1-10	grocery	B-ScrPart_destination	O	O	_	_	
+1-11	bus	I-ScrPart_destination|B-ScrPart_destination	O	O	_	_	
+1-12	.	O	O	O	_	_	
+
+#id=2
+#text=My car had a flat tire , so I decided to ride the public bus .
+2-1	My	B-ScrPart_passenger	O	O	_	_	
+2-2	car	B-NPart	O	O	_	_	
+2-3	had	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+2-4	a	O	O	O	_	_	
+2-5	flat	O	O	O	_	_	
+2-6	tire	B-NPart	O	O	_	_	
+2-7	,	O	O	O	_	_	
+2-8	so	O	O	O	_	_	
+2-9	I	B-ScrPart_passenger	O	O	_	_	
+2-10	decided	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+2-11	to	O	O	O	_	_	
+2-12	ride	O	B-webanno.custom.Events_	B-Evoking	_	_	
+2-13	the	O	I-webanno.custom.Events_	I-Evoking	_	_	
+2-14	public	O	I-webanno.custom.Events_	I-Evoking	_	_	
+2-15	bus	B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	_	_	
+2-16	.	O	O	O	_	_	
+
+#id=3
+#text=First , I went online to see the map of the public bus ' because it overwhelms me and I am afraid I will get lost .
+3-1	First	O	O	O	_	_	
+3-2	,	O	O	O	_	_	
+3-3	I	B-ScrPart_passenger	O	O	_	_	
+3-4	went	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+3-5	online	O	I-webanno.custom.Events_	I-RelNScrEv	_	_	
+3-6	to	O	O	O	_	_	
+3-7	see	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+3-8	the	O	O	O	_	_	
+3-9	map	B-NPart	O	O	_	_	
+3-10	of	O	O	O	_	_	
+3-11	the	O	O	O	_	_	
+3-12	public	O	O	O	_	_	
+3-13	bus	B-ScrPart_bus	O	O	_	_	
+3-14	'	O	O	O	_	_	
+3-15	because	O	O	O	_	_	
+3-16	it	B-No_label	O	O	_	_	
+3-17	overwhelms	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+3-18	me	B-ScrPart_passenger	O	O	_	_	
+3-19	and	O	O	O	_	_	
+3-20	I	B-ScrPart_passenger	O	O	_	_	
+3-21	am	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+3-22	afraid	O	I-webanno.custom.Events_	I-UnrelEv	_	_	
+3-23	I	B-ScrPart_passenger	O	O	_	_	
+3-24	will	O	O	O	_	_	
+3-25	get	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+3-26	lost	O	I-webanno.custom.Events_	I-UnrelEv	_	_	
+3-27	.	O	O	O	_	_	
+
+#id=4
+#text=Then I called the bus hotline and asked the operator how to get where I wanted to go .
+4-1	Then	O	O	O	_	_	
+4-2	I	B-ScrPart_passenger	O	O	_	_	
+4-3	called	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+4-4	the	O	O	O	_	_	
+4-5	bus	B-NPart	O	O	_	_	
+4-6	hotline	I-NPart|B-NPart	O	O	_	_	
+4-7	and	O	O	O	_	_	
+4-8	asked	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+4-9	the	O	O	O	_	_	
+4-10	operator	B-NPart	O	O	_	_	
+4-11	how	O	O	O	_	_	
+4-12	to	O	O	O	_	_	
+4-13	get	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+4-14	where	O	O	O	_	_	
+4-15	I	B-ScrPart_passenger	O	O	_	_	
+4-16	wanted	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+4-17	to	O	O	O	_	_	
+4-18	go	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+4-19	.	O	O	O	_	_	
+
+#id=5
+#text=He helped me figure out what buses I need to take where .
+5-1	He	B-NPart	O	O	_	_	
+5-2	helped	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+5-3	me	B-ScrPart_passenger	O	O	_	_	
+5-4	figure	O	B-webanno.custom.Events_	B-ScrEv_check_time-table	_	_	
+5-5	out	O	I-webanno.custom.Events_	I-ScrEv_check_time-table	_	_	
+5-6	what	O	O	O	_	_	
+5-7	buses	B-ScrPart_bus	O	O	_	_	
+5-8	I	B-ScrPart_passenger	O	O	_	_	
+5-9	need	O	O	O	_	_	
+5-10	to	O	O	O	_	_	
+5-11	take	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+5-12	where	O	O	O	_	_	
+5-13	.	O	O	O	_	_	
+
+#id=6
+#text=Then , I had some lunch , took my backpack and left the house .
+6-1	Then	O	O	O	_	_	
+6-2	,	O	O	O	_	_	
+6-3	I	B-ScrPart_passenger	O	O	_	_	
+6-4	had	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+6-5	some	O	O	O	_	_	
+6-6	lunch	B-NPart	O	O	_	_	
+6-7	,	O	O	O	_	_	
+6-8	took	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+6-9	my	B-ScrPart_passenger	O	O	webanno.custom.Corefchains_	6-3	
+6-10	backpack	B-NPart	O	O	_	_	
+6-11	and	O	O	O	_	_	
+6-12	left	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+6-13	the	O	O	O	_	_	
+6-14	house	B-NPart	O	O	_	_	
+6-15	.	O	O	O	_	_	
+
+#id=7
+#text=I had to walk to the bus stop .
+7-1	I	B-ScrPart_passenger	O	O	webanno.custom.Corefchains_	6-9	
+7-2	had	O	O	O	_	_	
+7-3	to	O	O	O	_	_	
+7-4	walk	O	B-webanno.custom.Events_	B-ScrEv_get_bus_stop	_	_	
+7-5	to	O	O	O	_	_	
+7-6	the	O	O	O	_	_	
+7-7	bus	B-ScrPart_bus_stop	O	O	_	_	
+7-8	stop	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	O	_	_	
+7-9	.	O	O	O	_	_	
+
+#id=8
+#text=On the way , I could smell the exhaust from the cars and I already started freaking out .
+8-1	On	O	O	O	_	_	
+8-2	the	O	O	O	_	_	
+8-3	way	B-NPart	O	O	_	_	
+8-4	,	O	O	O	_	_	
+8-5	I	B-ScrPart_passenger	O	O	_	_	
+8-6	could	O	O	O	_	_	
+8-7	smell	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+8-8	the	O	O	O	_	_	
+8-9	exhaust	B-NPart	O	O	_	_	
+8-10	from	O	O	O	_	_	
+8-11	the	O	O	O	_	_	
+8-12	cars	B-NPart	O	O	_	_	
+8-13	and	O	O	O	_	_	
+8-14	I	B-ScrPart_passenger	O	O	_	_	
+8-15	already	O	O	O	_	_	
+8-16	started	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+8-17	freaking	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+8-18	out	O	I-webanno.custom.Events_	I-UnrelEv	_	_	
+8-19	.	O	O	O	_	_	
+
+#id=9
+#text=The exhaust is really unhealthy for you .
+9-1	The	O	O	O	_	_	
+9-2	exhaust	B-NPart	O	O	_	_	
+9-3	is	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+9-4	really	O	O	O	_	_	
+9-5	unhealthy	O	O	O	_	_	
+9-6	for	O	O	O	_	_	
+9-7	you	B-NPart	O	O	_	_	
+9-8	.	O	O	O	_	_	
+
+#id=10
+#text=Then I waited for the bus at the stop .
+10-1	Then	O	O	O	_	_	
+10-2	I	B-ScrPart_passenger	O	O	_	_	
+10-3	waited	O	B-webanno.custom.Events_	B-ScrEv_wait	_	_	
+10-4	for	O	O	O	_	_	
+10-5	the	O	O	O	_	_	
+10-6	bus	B-ScrPart_bus	O	O	_	_	
+10-7	at	O	O	O	_	_	
+10-8	the	O	O	O	_	_	
+10-9	stop	B-ScrPart_bus_stop	O	O	_	_	
+10-10	.	O	O	O	_	_	
+
+#id=11
+#text=After 20 minutes , the bus I needed finally came .
+11-1	After	O	O	O	_	_	
+11-2	20	O	O	O	_	_	
+11-3	minutes	B-ScrPart_time/date	O	O	_	_	
+11-4	,	O	O	O	_	_	
+11-5	the	O	O	O	_	_	
+11-6	bus	B-ScrPart_bus	O	O	_	_	
+11-7	I	B-ScrPart_passenger	O	O	_	_	
+11-8	needed	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+11-9	finally	O	O	O	_	_	
+11-10	came	O	B-webanno.custom.Events_	B-ScrEv_bus_comes	_	_	
+11-11	.	O	O	O	_	_	
+
+#id=12
+#text=The bus came to stop , the doors opened .
+12-1	The	O	O	O	_	_	
+12-2	bus	B-ScrPart_bus	O	O	_	_	
+12-3	came	O	B-webanno.custom.Events_	B-ScrEv_bus_stops	_	_	
+12-4	to	O	O	O	_	_	
+12-5	stop	B-SuppVComp	O	O	_	_	
+12-6	,	O	O	O	_	_	
+12-7	the	O	O	O	_	_	
+12-8	doors	B-ScrPart_door	O	O	_	_	
+12-9	opened	O	B-webanno.custom.Events_	B-ScrEv_door_opens	_	_	
+12-10	.	O	O	O	_	_	
+
+#id=13
+#text=I stepped onto the bus and gave the driver my money . 
+13-1	I	B-ScrPart_passenger	O	O	_	_	
+13-2	stepped	O	B-webanno.custom.Events_	B-ScrEv_board_bus	_	_	
+13-3	onto	O	O	O	_	_	
+13-4	the	O	O	O	_	_	
+13-5	bus	B-ScrPart_bus	O	O	_	_	
+13-6	and	O	O	O	_	_	
+13-7	gave	O	B-webanno.custom.Events_	B-ScrEv_get_ticket	_	_	
+13-8	the	O	O	O	_	_	
+13-9	driver	B-ScrPart_bus_staff	O	O	_	_	
+13-10	my	B-ScrPart_passenger	O	O	_	_	
+13-11	money	B-ScrPart_money	O	O	_	_	
+13-12	.	O	O	O	_	_	
+

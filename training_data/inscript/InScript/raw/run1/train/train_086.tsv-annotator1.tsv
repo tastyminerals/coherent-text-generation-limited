@@ -1,0 +1,217 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Yes going on a train , this is was our ideal weekend activity not too long ago .
+1-1	Yes	O	O	_	_	
+1-2	going	B-Evoking	O	_	_	
+1-3	on	I-Evoking	O	_	_	
+1-4	a	I-Evoking	O	_	_	
+1-5	train	I-Evoking	O	_	_	
+1-6	,	O	O	_	_	
+1-7	this	O	O	_	_	
+1-8	is	O	O	_	_	
+1-9	was	B-UnrelEv	O	_	_	
+1-10	our	O	B-ScrPart_passenger	_	_	
+1-11	ideal	O	O	_	_	
+1-12	weekend	O	O	_	_	
+1-13	activity	O	O	_	_	
+1-14	not	O	O	_	_	
+1-15	too	O	O	_	_	
+1-16	long	O	O	_	_	
+1-17	ago	O	O	_	_	
+1-18	.	O	O	_	_	
+
+#id=2
+#text=We purchased tickets to travel from Boston to New York City .
+2-1	We	O	B-ScrPart_passenger	webanno.custom.Corefchains_	1-10	
+2-2	purchased	B-ScrEv_get_tickets	O	_	_	
+2-3	tickets	O	B-ScrPart_card/ticket	_	_	
+2-4	to	O	O	_	_	
+2-5	travel	B-RelNScrEv	O	_	_	
+2-6	from	O	O	_	_	
+2-7	Boston	O	O	_	_	
+2-8	to	O	O	_	_	
+2-9	New	O	B-ScrPart_destination	_	_	
+2-10	York	O	I-ScrPart_destination	_	_	
+2-11	City	O	I-ScrPart_destination	_	_	
+2-12	.	O	O	_	_	
+
+#id=3
+#text=As we entered the platform of the train is was pure steel and looked so solidly strong .
+3-1	As	O	O	_	_	
+3-2	we	O	B-ScrPart_passenger	webanno.custom.Corefchains_	2-1	
+3-3	entered	B-ScrEv_get_platform	O	_	_	
+3-4	the	O	O	_	_	
+3-5	platform	O	B-ScrPart_platform	_	_	
+3-6	of	O	O	_	_	
+3-7	the	O	O	_	_	
+3-8	train	O	B-ScrPart_train	_	_	
+3-9	is	O	O	_	_	
+3-10	was	B-UnrelEv	O	_	_	
+3-11	pure	O	O	_	_	
+3-12	steel	O	O	_	_	
+3-13	and	O	O	_	_	
+3-14	looked	B-UnrelEv	O	_	_	
+3-15	so	O	O	_	_	
+3-16	solidly	O	O	_	_	
+3-17	strong	O	O	_	_	
+3-18	.	O	O	_	_	
+
+#id=4
+#text=We walked down the isle and found an comfortable looking seat and decided to sit there .
+4-1	We	O	B-ScrPart_passenger	webanno.custom.Corefchains_	3-2	
+4-2	walked	B-RelNScrEv|B-RelNScrEv	O	_	_	
+4-3	down	I-RelNScrEv	O	_	_	
+4-4	the	O	O	_	_	
+4-5	isle	O	B-ScrPart_location_train	_	_	
+4-6	and	O	O	_	_	
+4-7	found	B-ScrEv_find_place	O	_	_	
+4-8	an	O	O	_	_	
+4-9	comfortable	O	O	_	_	
+4-10	looking	B-UnrelEv	O	_	_	
+4-11	seat	O	B-ScrPart_seat	_	_	
+4-12	and	O	O	_	_	
+4-13	decided	B-UnrelEv	O	_	_	
+4-14	to	O	O	_	_	
+4-15	sit	B-ScrEv_find_place	O	_	_	
+4-16	there	O	B-ScrPart_location_train	_	_	
+4-17	.	O	O	_	_	
+
+#id=5
+#text=Shortly the train horn blasted making me jump of my seat lol .
+5-1	Shortly	O	O	_	_	
+5-2	the	O	O	_	_	
+5-3	train	O	O	_	_	
+5-4	horn	O	B-MissScrPart	_	_	
+5-5	blasted	B-RelNScrEv	O	_	_	
+5-6	making	O	O	_	_	
+5-7	me	O	B-ScrPart_passenger	_	_	
+5-8	jump	B-UnrelEv	O	_	_	
+5-9	of	O	O	_	_	
+5-10	my	O	B-ScrPart_passenger	webanno.custom.Corefchains_	5-7	
+5-11	seat	O	B-ScrPart_seat	webanno.custom.Corefchains_	4-11	
+5-12	lol	O	O	_	_	
+5-13	.	O	O	_	_	
+
+#id=6
+#text=Anyway we soon started moving and our train ride was underway .
+6-1	Anyway	O	O	_	_	
+6-2	we	O	B-ScrPart_train	webanno.custom.Corefchains_	3-8	
+6-3	soon	O	O	_	_	
+6-4	started	B-UnrelEv	O	_	_	
+6-5	moving	B-ScrEv_train_departs	O	_	_	
+6-6	and	O	O	_	_	
+6-7	our	O	O	_	_	
+6-8	train	B-Evoking	O	_	_	
+6-9	ride	I-Evoking	O	_	_	
+6-10	was	B-UnrelEv	O	_	_	
+6-11	underway	O	O	_	_	
+6-12	.	O	O	_	_	
+
+#id=7
+#text=The conductor walked the isles and collected our tickets .
+7-1	The	O	O	_	_	
+7-2	conductor	O	B-ScrPart_train_staff	_	_	
+7-3	walked	B-ScrEv_conductor_checks	O	_	_	
+7-4	the	O	O	_	_	
+7-5	isles	O	B-ScrPart_location_train	_	_	
+7-6	and	O	O	_	_	
+7-7	collected	B-ScrEv_conductor_checks	O	_	_	
+7-8	our	O	B-ScrPart_passenger	webanno.custom.Corefchains_	4-1	
+7-9	tickets	O	B-ScrPart_card/ticket	webanno.custom.Corefchains_	2-3	
+7-10	.	O	O	_	_	
+
+#id=8
+#text=love scenery so I had the window seat watching everything along the way .
+8-1	love	B-UnrelEv	O	_	_	
+8-2	scenery	O	O	_	_	
+8-3	so	O	O	_	_	
+8-4	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	5-10	
+8-5	had	B-UnrelEv	O	_	_	
+8-6	the	O	O	_	_	
+8-7	window	O	O	_	_	
+8-8	seat	O	B-ScrPart_seat	webanno.custom.Corefchains_	5-11	
+8-9	watching	B-ScrEv_spend_time_train	O	_	_	
+8-10	everything	O	B-ScrPart_in-train_entertainment	_	_	
+8-11	along	O	O	_	_	
+8-12	the	O	O	_	_	
+8-13	way	O	O	_	_	
+8-14	.	O	O	_	_	
+
+#id=9
+#text=First I saw large suburban areas but as we got into Connecticut many farms were being spotted .
+9-1	First	O	O	_	_	
+9-2	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	8-4	
+9-3	saw	B-UnrelEv	O	_	_	
+9-4	large	O	O	_	_	
+9-5	suburban	O	O	_	_	
+9-6	areas	O	B-ScrPart_in-train_entertainment	_	_	
+9-7	but	O	O	_	_	
+9-8	as	O	O	_	_	
+9-9	we	O	B-ScrPart_train	webanno.custom.Corefchains_	6-2	
+9-10	got	B-ScrEv_train_arrives	O	_	_	
+9-11	into	O	O	_	_	
+9-12	Connecticut	O	B-MissScrPart	_	_	
+9-13	many	O	O	_	_	
+9-14	farms	O	O	_	_	
+9-15	were	O	O	_	_	
+9-16	being	O	O	_	_	
+9-17	spotted	B-UnrelEv	O	_	_	
+9-18	.	O	O	_	_	
+
+#id=10
+#text=It was n't very hilly but sure was a country atmosphere .
+10-1	It	O	O	_	_	
+10-2	was	B-UnrelEv	O	_	_	
+10-3	n't	O	O	_	_	
+10-4	very	O	O	_	_	
+10-5	hilly	O	O	_	_	
+10-6	but	O	O	_	_	
+10-7	sure	O	O	_	_	
+10-8	was	B-UnrelEv	O	_	_	
+10-9	a	O	O	_	_	
+10-10	country	O	O	_	_	
+10-11	atmosphere	O	O	_	_	
+10-12	.	O	O	_	_	
+
+#id=11
+#text=Soon we approached NYC and the train came to slow stop , we had arrived at our destination .
+11-1	Soon	O	O	_	_	
+11-2	we	O	B-ScrPart_train	webanno.custom.Corefchains_	9-9	
+11-3	approached	B-ScrEv_arrive_destination	O	_	_	
+11-4	NYC	O	B-ScrPart_destination	webanno.custom.Corefchains_	2-9	
+11-5	and	O	O	_	_	
+11-6	the	O	O	_	_	
+11-7	train	O	B-ScrPart_train	webanno.custom.Corefchains_	11-2	
+11-8	came	B-ScrEv_train_arrives	O	_	_	
+11-9	to	O	O	_	_	
+11-10	slow	O	O	_	_	
+11-11	stop	O	B-SuppVComp	_	_	
+11-12	,	O	O	_	_	
+11-13	we	O	B-ScrPart_passenger	webanno.custom.Corefchains_	7-8	
+11-14	had	O	O	_	_	
+11-15	arrived	B-ScrEv_arrive_destination	O	_	_	
+11-16	at	O	O	_	_	
+11-17	our	O	B-ScrPart_passenger	webanno.custom.Corefchains_	11-13	
+11-18	destination	O	B-ScrPart_destination	webanno.custom.Corefchains_	11-4	
+11-19	.	O	O	_	_	
+
+#id=12
+#text=The ride overall was rather smooth and it did n't seem to take all that long . 
+12-1	The	O	O	_	_	
+12-2	ride	O	O	_	_	
+12-3	overall	O	O	_	_	
+12-4	was	B-UnrelEv	O	_	_	
+12-5	rather	O	O	_	_	
+12-6	smooth	O	O	_	_	
+12-7	and	O	O	_	_	
+12-8	it	O	O	_	_	
+12-9	did	O	O	_	_	
+12-10	n't	O	O	_	_	
+12-11	seem	B-UnrelEv	O	_	_	
+12-12	to	O	O	_	_	
+12-13	take	B-RelNScrEv	O	_	_	
+12-14	all	O	O	_	_	
+12-15	that	O	O	_	_	
+12-16	long	O	O	_	_	
+12-17	.	O	O	_	_	
+

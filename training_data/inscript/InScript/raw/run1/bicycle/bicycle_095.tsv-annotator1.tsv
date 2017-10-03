@@ -1,0 +1,225 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I once had a flat tire on my bicycle .
+1-1	I	B-ScrPart_rider	O	_	_	
+1-2	once	O	O	_	_	
+1-3	had	O	B-Evoking	_	_	
+1-4	a	O	I-Evoking	_	_	
+1-5	flat	O	I-Evoking	_	_	
+1-6	tire	O	I-Evoking	_	_	
+1-7	on	O	I-Evoking	_	_	
+1-8	my	B-ScrPart_rider	I-Evoking	webanno.custom.Corefchains_	1-1	
+1-9	bicycle	B-ScrPart_bicycle	I-Evoking	_	_	
+1-10	.	O	O	_	_	
+
+#id=2
+#text=It was quite a surprise when it happened .
+2-1	It	O	O	_	_	
+2-2	was	O	B-UnrelEv	_	_	
+2-3	quite	O	O	_	_	
+2-4	a	O	O	_	_	
+2-5	surprise	O	O	_	_	
+2-6	when	O	O	_	_	
+2-7	it	O	O	_	_	
+2-8	happened	O	B-UnrelEv	_	_	
+2-9	.	O	O	_	_	
+
+#id=3
+#text=I had been having a good time riding my bike along a trail and the air went right out of it .
+3-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-8	
+3-2	had	O	O	_	_	
+3-3	been	O	O	_	_	
+3-4	having	O	B-UnrelEv	_	_	
+3-5	a	O	O	_	_	
+3-6	good	O	O	_	_	
+3-7	time	O	O	_	_	
+3-8	riding	O	B-Evoking	_	_	
+3-9	my	B-ScrPart_rider	I-Evoking	webanno.custom.Corefchains_	3-1	
+3-10	bike	B-ScrPart_bicycle	I-Evoking	webanno.custom.Corefchains_	1-9	
+3-11	along	O	O	_	_	
+3-12	a	O	O	_	_	
+3-13	trail	O	O	_	_	
+3-14	and	O	O	_	_	
+3-15	the	O	O	_	_	
+3-16	air	O	O	_	_	
+3-17	went	O	B-RelNScrEv	_	_	
+3-18	right	O	O	_	_	
+3-19	out	O	O	_	_	
+3-20	of	O	O	_	_	
+3-21	it	O	O	_	_	
+3-22	.	O	O	_	_	
+
+#id=4
+#text=I proceeded to flip my bicycle over so it was standing on the handlebars and seat to inspect the damage .
+4-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	3-9	
+4-2	proceeded	O	B-UnrelEv	_	_	
+4-3	to	O	O	_	_	
+4-4	flip	O	B-ScrEv_lay_bike_down	_	_	
+4-5	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	4-1	
+4-6	bicycle	B-ScrPart_bicycle	O	webanno.custom.Corefchains_	3-10	
+4-7	over	O	O	_	_	
+4-8	so	O	O	_	_	
+4-9	it	B-ScrPart_bicycle	O	webanno.custom.Corefchains_	4-6	
+4-10	was	O	O	_	_	
+4-11	standing	O	B-ScrEv_lay_bike_down	_	_	
+4-12	on	O	O	_	_	
+4-13	the	O	O	_	_	
+4-14	handlebars	B-ScrPart_bicycle_small_detail	O	_	_	
+4-15	and	O	O	_	_	
+4-16	seat	O	B-UnrelEv	_	_	
+4-17	to	O	O	_	_	
+4-18	inspect	O	B-ScrEv_examine_tire	_	_	
+4-19	the	O	O	_	_	
+4-20	damage	B-ScrPart_object_damage	O	_	_	
+4-21	.	O	O	_	_	
+
+#id=5
+#text=Once I had that accomplished I had to remove the wheel from the bike .
+5-1	Once	O	O	_	_	
+5-2	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	4-5	
+5-3	had	O	O	_	_	
+5-4	that	O	O	_	_	
+5-5	accomplished	O	B-UnrelEv	_	_	
+5-6	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	5-2	
+5-7	had	O	O	_	_	
+5-8	to	O	O	_	_	
+5-9	remove	O	B-ScrEv_remove_tire	_	_	
+5-10	the	O	O	_	_	
+5-11	wheel	B-ScrPart_wheel	O	_	_	
+5-12	from	O	O	_	_	
+5-13	the	O	O	_	_	
+5-14	bike	B-ScrPart_bicycle	O	webanno.custom.Corefchains_	4-9	
+5-15	.	O	O	_	_	
+
+#id=6
+#text=This took a little bit and I needed some tools to finish this task .
+6-1	This	O	O	_	_	
+6-2	took	O	B-UnrelEv	_	_	
+6-3	a	O	O	_	_	
+6-4	little	O	O	_	_	
+6-5	bit	O	O	_	_	
+6-6	and	O	O	_	_	
+6-7	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	5-6	
+6-8	needed	O	B-ScrEv_get_tools	_	_	
+6-9	some	O	O	_	_	
+6-10	tools	B-ScrPart_tool	O	_	_	
+6-11	to	O	O	_	_	
+6-12	finish	O	B-UnrelEv	_	_	
+6-13	this	O	O	_	_	
+6-14	task	O	O	_	_	
+6-15	.	O	O	_	_	
+
+#id=7
+#text=My bike has a tube in each tire to keep it inflated .
+7-1	My	B-ScrPart_rider	O	webanno.custom.Corefchains_	6-7	
+7-2	bike	B-ScrPart_bicycle	O	webanno.custom.Corefchains_	5-14	
+7-3	has	O	B-RelNScrEv	_	_	
+7-4	a	O	O	_	_	
+7-5	tube	B-ScrPart_bicycle_small_detail	O	_	_	
+7-6	in	O	O	_	_	
+7-7	each	O	O	_	_	
+7-8	tire	B-ScrPart_tire	O	_	_	
+7-9	to	O	O	_	_	
+7-10	keep	O	O	_	_	
+7-11	it	B-ScrPart_tire	O	webanno.custom.Corefchains_	7-8	
+7-12	inflated	O	B-RelNScrEv	_	_	
+7-13	.	O	O	_	_	
+
+#id=8
+#text=Something had gone through the outer rubber and punctured that inner tube .
+8-1	Something	B-ScrPart_object_damage	O	_	_	
+8-2	had	O	O	_	_	
+8-3	gone	O	B-MissScrEv	_	_	
+8-4	through	O	O	_	_	
+8-5	the	O	O	_	_	
+8-6	outer	O	O	_	_	
+8-7	rubber	B-ScrPart_tire	O	_	_	
+8-8	and	O	O	_	_	
+8-9	punctured	O	B-MissScrEv	_	_	
+8-10	that	O	O	_	_	
+8-11	inner	O	O	_	_	
+8-12	tube	B-ScrPart_tire	O	webanno.custom.Corefchains_	7-5	
+8-13	.	O	O	_	_	
+
+#id=9
+#text=I had to remove the outer rubber and find the spot on the inner tube where the hole was .
+9-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	7-1	
+9-2	had	O	O	_	_	
+9-3	to	O	O	_	_	
+9-4	remove	O	B-ScrEv_remove_tire	_	_	
+9-5	the	O	O	_	_	
+9-6	outer	O	O	_	_	
+9-7	rubber	B-ScrPart_tire	O	webanno.custom.Corefchains_	8-7	
+9-8	and	O	O	_	_	
+9-9	find	O	B-ScrEv_examine_tire	_	_	
+9-10	the	O	O	_	_	
+9-11	spot	B-ScrPart_object_damage	O	_	_	
+9-12	on	O	O	_	_	
+9-13	the	O	O	_	_	
+9-14	inner	O	O	_	_	
+9-15	tube	B-ScrPart_tire	O	webanno.custom.Corefchains_	8-12	
+9-16	where	O	O	_	_	
+9-17	the	O	O	_	_	
+9-18	hole	B-ScrPart_object_damage	O	_	_	
+9-19	was	O	B-RelNScrEv	_	_	
+9-20	.	O	O	_	_	
+
+#id=10
+#text=Luckily I had a patch kit with me and was able to patch the tube once I found the hole .
+10-1	Luckily	O	O	_	_	
+10-2	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	9-1	
+10-3	had	O	B-ScrEv_get_tools	_	_	
+10-4	a	O	O	_	_	
+10-5	patch	O	O	_	_	
+10-6	kit	B-ScrPart_tool	O	_	_	
+10-7	with	O	O	_	_	
+10-8	me	B-ScrPart_rider	O	webanno.custom.Corefchains_	10-2	
+10-9	and	O	O	_	_	
+10-10	was	O	O	_	_	
+10-11	able	O	O	_	_	
+10-12	to	O	O	_	_	
+10-13	patch	O	B-ScrEv_put_patch/seal	_	_	
+10-14	the	O	O	_	_	
+10-15	tube	B-ScrPart_tire	O	webanno.custom.Corefchains_	9-15	
+10-16	once	O	O	_	_	
+10-17	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	10-8	
+10-18	found	O	B-ScrEv_notice_problem	_	_	
+10-19	the	O	O	_	_	
+10-20	hole	B-ScrPart_object_damage	O	webanno.custom.Corefchains_	9-18	
+10-21	.	O	O	_	_	
+
+#id=11
+#text=After waiting for the patch adhesive to set I put the wheel back together .
+11-1	After	O	O	_	_	
+11-2	waiting	O	B-RelNScrEv	_	_	
+11-3	for	O	O	_	_	
+11-4	the	O	O	_	_	
+11-5	patch	B-ScrPart_patch	O	_	_	
+11-6	adhesive	O	O	_	_	
+11-7	to	O	O	_	_	
+11-8	set	O	B-ScrEv_put_patch/seal	_	_	
+11-9	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	10-17	
+11-10	put	O	B-ScrEv_put_new_tire	_	_	
+11-11	the	O	O	_	_	
+11-12	wheel	B-ScrPart_wheel	O	webanno.custom.Corefchains_	5-11	
+11-13	back	O	O	_	_	
+11-14	together	O	O	_	_	
+11-15	.	O	O	_	_	
+
+#id=12
+#text=Once the wheel was back on my bike I was off riding again . 
+12-1	Once	O	O	_	_	
+12-2	the	O	O	_	_	
+12-3	wheel	B-ScrPart_wheel	O	webanno.custom.Corefchains_	11-12	
+12-4	was	O	B-ScrEv_put_new_tire	_	_	
+12-5	back	O	O	_	_	
+12-6	on	O	O	_	_	
+12-7	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	11-9	
+12-8	bike	B-ScrPart_bicycle	O	webanno.custom.Corefchains_	7-2	
+12-9	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	12-7	
+12-10	was	O	O	_	_	
+12-11	off	O	O	_	_	
+12-12	riding	O	B-Evoking	_	_	
+12-13	again	O	O	_	_	
+12-14	.	O	O	_	_	
+

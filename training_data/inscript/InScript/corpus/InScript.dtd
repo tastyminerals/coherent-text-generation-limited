@@ -1,0 +1,56 @@
+<!-- element definitions -->
+<!-- root element -->
+<!ELEMENT story (text, annotations)>
+
+<!-- the text -->
+<!ELEMENT text (content, sentences)>
+<!ELEMENT content (#PCDATA)>
+<!ELEMENT sentences (sentence*)>
+<!ELEMENT sentence (token*)>
+<!ELEMENT token (pos?, lemma?, dep?)>
+<!ELEMENT pos EMPTY>
+<!ELEMENT lemma EMPTY>
+<!ELEMENT dep EMPTY>
+
+<!-- annotations -->
+<!ELEMENT annotations (participants, events, chains)>
+<!ELEMENT participants (label*)>
+<!ELEMENT events (label*)>
+<!ELEMENT chains (chain*)>
+<!ELEMENT label EMPTY>
+<!ELEMENT chain EMPTY>
+
+
+<!-- attribute definitions -->
+<!-- root element -->
+<!ATTLIST story 
+	id			CDATA	#REQUIRED
+	scenario	CDATA	#REQUIRED
+>
+
+<!-- the text -->
+<!ATTLIST sentence id CDATA #REQUIRED>
+<!ATTLIST token 
+	content	CDATA	#REQUIRED
+	id		CDATA	#REQUIRED
+>
+<!ATTLIST pos type CDATA #REQUIRED>
+<!ATTLIST lemma type CDATA #REQUIRED>
+<!ATTLIST dep 
+	type	CDATA	#REQUIRED
+	head	CDATA	#REQUIRED
+>
+	
+<!-- annotations -->
+<!ATTLIST label 
+	from	CDATA				#REQUIRED
+	id		CDATA				#REQUIRED
+	name	CDATA				#REQUIRED
+	type	(participant|event)	#REQUIRED
+	to		CDATA				#IMPLIED
+	text	CDATA				#REQUIRED
+>
+<!ATTLIST chain 
+	elements	CDATA	#REQUIRED
+	name		CDATA	#IMPLIED
+>

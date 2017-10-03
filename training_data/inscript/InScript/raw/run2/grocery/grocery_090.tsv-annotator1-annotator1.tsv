@@ -1,0 +1,290 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=I went grocery shopping late last night .
+1-1	I	B-ScrPart_shopper	O	
+1-2	went	O	B-ScrEv_go_grocery	
+1-3	grocery	B-ScrPart_groceries	B-Evoking	
+1-4	shopping	O	I-Evoking|B-ScrEv_get_groceries	
+1-5	late	O	O	
+1-6	last	O	O	
+1-7	night	B-NPart	O	
+1-8	.	O	O	
+
+#id=2
+#text=I like going at night because it 's not so crowded .
+2-1	I	B-ScrPart_shopper	O	
+2-2	like	O	O	
+2-3	going	O	B-ScrEv_go_grocery	
+2-4	at	O	O	
+2-5	night	B-NPart	O	
+2-6	because	O	O	
+2-7	it	B-No_label	O	
+2-8	's	O	O	
+2-9	not	O	O	
+2-10	so	O	O	
+2-11	crowded	O	B-RelNScrEv	
+2-12	.	O	O	
+
+#id=3
+#text=First I made a list of the things I needed then headed to the store .
+3-1	First	O	O	
+3-2	I	B-ScrPart_shopper	O	
+3-3	made	O	B-ScrEv_make_list	
+3-4	a	O	O	
+3-5	list	B-ScrPart_grocery_list	O	
+3-6	of	O	O	
+3-7	the	O	O	
+3-8	things	B-ScrPart_groceries	O	
+3-9	I	B-ScrPart_shopper	O	
+3-10	needed	O	B-RelNScrEv	
+3-11	then	O	O	
+3-12	headed	O	B-ScrEv_go_grocery	
+3-13	to	O	O	
+3-14	the	O	O	
+3-15	store	B-ScrPart_grocery_shop	O	
+3-16	.	O	O	
+
+#id=4
+#text=Another nice thing about shopping late is that you get to park right near the door , which makes things easier when you come out .
+4-1	Another	O	O	
+4-2	nice	O	O	
+4-3	thing	B-No_label	O	
+4-4	about	O	O	
+4-5	shopping	O	B-ScrEv_get_groceries	
+4-6	late	O	O	
+4-7	is	O	O	
+4-8	that	O	O	
+4-9	you	B-ScrPart_shopper	O	
+4-10	get	O	O	
+4-11	to	O	O	
+4-12	park	O	B-RelNScrEv	
+4-13	right	O	O	
+4-14	near	O	O	
+4-15	the	O	O	
+4-16	door	B-ScrPart_section	O	
+4-17	,	O	O	
+4-18	which	O	O	
+4-19	makes	O	B-UnrelEv	
+4-20	things	B-No_label	O	
+4-21	easier	O	O	
+4-22	when	O	O	
+4-23	you	B-ScrPart_shopper	O	
+4-24	come	O	B-ScrEv_leave|B-ScrEv_leave	
+4-25	out	O	I-ScrEv_leave	
+4-26	.	O	O	
+
+#id=5
+#text=Once I got inside , I grabbed a shopping cart and took out my list .
+5-1	Once	O	O	
+5-2	I	B-ScrPart_shopper	O	
+5-3	got	O	B-ScrEv_enter|B-ScrEv_enter	
+5-4	inside	O	I-ScrEv_enter	
+5-5	,	O	O	
+5-6	I	B-ScrPart_shopper	O	
+5-7	grabbed	O	B-ScrEv_take_shop_cart	
+5-8	a	O	O	
+5-9	shopping	B-ScrPart_shopping_cart/basket	O	
+5-10	cart	I-ScrPart_shopping_cart/basket|B-ScrPart_shopping_cart/basket	O	
+5-11	and	O	O	
+5-12	took	O	B-ScrEv_check_list|B-ScrEv_check_list	
+5-13	out	O	I-ScrEv_check_list	
+5-14	my	B-ScrPart_shopper	O	
+5-15	list	B-ScrPart_grocery_list	O	
+5-16	.	O	O	
+
+#id=6
+#text=There was nothing out of the ordinary on the list , so I started heading down the aisles just like I always do .
+6-1	There	O	O	
+6-2	was	O	B-UnrelEv	
+6-3	nothing	B-No_label	O	
+6-4	out	O	O	
+6-5	of	O	O	
+6-6	the	O	O	
+6-7	ordinary	O	O	
+6-8	on	O	O	
+6-9	the	O	O	
+6-10	list	B-ScrPart_grocery_list	O	
+6-11	,	O	O	
+6-12	so	O	O	
+6-13	I	B-ScrPart_shopper	O	
+6-14	started	O	B-UnrelEv	
+6-15	heading	O	B-ScrEv_move_section|B-ScrEv_move_section	
+6-16	down	O	I-ScrEv_move_section	
+6-17	the	O	O	
+6-18	aisles	B-ScrPart_section	O	
+6-19	just	O	O	
+6-20	like	O	O	
+6-21	I	B-ScrPart_shopper	O	
+6-22	always	O	O	
+6-23	do	O	B-UnrelEv	
+6-24	.	O	O	
+
+#id=7
+#text=I always keep track of the cost of everything I pick out on my tablet as I go so that I know if I can afford anything extra .
+7-1	I	B-ScrPart_shopper	O	
+7-2	always	O	O	
+7-3	keep	O	B-RelNScrEv|B-RelNScrEv	
+7-4	track	O	I-RelNScrEv	
+7-5	of	O	O	
+7-6	the	O	O	
+7-7	cost	B-ScrPart_price	O	
+7-8	of	O	O	
+7-9	everything	B-ScrPart_groceries	O	
+7-10	I	B-ScrPart_shopper	O	
+7-11	pick	O	B-ScrEv_get_groceries|B-ScrEv_get_groceries	
+7-12	out	O	I-ScrEv_get_groceries	
+7-13	on	O	O	
+7-14	my	B-ScrPart_shopper	O	
+7-15	tablet	B-ScrPart_shopping_cart/basket	O	
+7-16	as	O	O	
+7-17	I	B-ScrPart_shopper	O	
+7-18	go	O	B-ScrEv_move_section	
+7-19	so	O	O	
+7-20	that	O	O	
+7-21	I	B-ScrPart_shopper	O	
+7-22	know	O	B-UnrelEv	
+7-23	if	O	O	
+7-24	I	B-ScrPart_shopper	O	
+7-25	can	O	O	
+7-26	afford	O	B-UnrelEv	
+7-27	anything	B-No_label	O	
+7-28	extra	O	O	
+7-29	.	O	O	
+
+#id=8
+#text=The time a couple thing I needed were on sale , so I did have some extra money .
+8-1	The	O	O	
+8-2	time	B-No_label	O	
+8-3	a	O	O	
+8-4	couple	B-Head_of_Partitive	O	
+8-5	thing	B-ScrPart_groceries	O	
+8-6	I	B-ScrPart_shopper	O	
+8-7	needed	O	B-RelNScrEv	
+8-8	were	O	B-RelNScrEv	
+8-9	on	O	O	
+8-10	sale	B-ScrPart_other	O	
+8-11	,	O	O	
+8-12	so	O	O	
+8-13	I	B-ScrPart_shopper	O	
+8-14	did	O	O	
+8-15	have	O	B-UnrelEv	
+8-16	some	O	O	
+8-17	extra	O	O	
+8-18	money	B-ScrPart_payment_means	O	
+8-19	.	O	O	
+
+#id=9
+#text=I decided that I needed some cookies and headed over the the cookie aisle .
+9-1	I	B-ScrPart_shopper	O	
+9-2	decided	O	B-UnrelEv	
+9-3	that	O	O	
+9-4	I	B-ScrPart_shopper	O	
+9-5	needed	O	B-RelNScrEv	
+9-6	some	O	O	
+9-7	cookies	B-ScrPart_groceries	O	
+9-8	and	O	O	
+9-9	headed	O	B-ScrEv_move_section|B-ScrEv_move_section	
+9-10	over	O	I-ScrEv_move_section	
+9-11	the	O	O	
+9-12	the	O	O	
+9-13	cookie	B-ScrPart_section	O	
+9-14	aisle	I-ScrPart_section|B-ScrPart_section	O	
+9-15	.	O	O	
+
+#id=10
+#text=I looked at the Oreos for a little while , then checked the other cookies .
+10-1	I	B-ScrPart_shopper	O	
+10-2	looked	O	B-UnrelEv	
+10-3	at	O	O	
+10-4	the	O	O	
+10-5	Oreos	B-ScrPart_groceries	O	
+10-6	for	O	O	
+10-7	a	O	O	
+10-8	little	O	O	
+10-9	while	B-No_label	O	
+10-10	,	O	O	
+10-11	then	O	O	
+10-12	checked	O	B-RelNScrEv	
+10-13	the	O	O	
+10-14	other	O	O	
+10-15	cookies	B-ScrPart_groceries	O	
+10-16	.	O	O	
+
+#id=11
+#text=I decided on chocolate chip cookies this time , so I put the on top of the other things in my cart and went to the checkout lane .
+11-1	I	B-ScrPart_shopper	O	
+11-2	decided	O	B-UnrelEv	
+11-3	on	O	O	
+11-4	chocolate	B-ScrPart_groceries	O	
+11-5	chip	I-ScrPart_groceries	O	
+11-6	cookies	I-ScrPart_groceries|B-ScrPart_groceries	O	
+11-7	this	O	O	
+11-8	time	B-No_label	O	
+11-9	,	O	O	
+11-10	so	O	O	
+11-11	I	B-ScrPart_shopper	O	
+11-12	put	O	B-ScrEv_get_groceries	
+11-13	the	B-ScrPart_groceries	O	
+11-14	on	O	O	
+11-15	top	B-Head_of_Partitive	O	
+11-16	of	O	O	
+11-17	the	O	O	
+11-18	other	O	O	
+11-19	things	B-ScrPart_groceries	O	
+11-20	in	O	O	
+11-21	my	B-ScrPart_shopper	O	
+11-22	cart	B-ScrPart_shopping_cart/basket	O	
+11-23	and	O	O	
+11-24	went	O	B-ScrEv_go_checkout	
+11-25	to	O	O	
+11-26	the	O	O	
+11-27	checkout	B-ScrPart_cash_desk	O	
+11-28	lane	I-ScrPart_cash_desk|B-ScrPart_cash_desk	O	
+11-29	.	O	O	
+
+#id=12
+#text=I paid and got everything bagged , then headed out to my car .
+12-1	I	B-ScrPart_shopper	O	
+12-2	paid	O	B-ScrEv_pay	
+12-3	and	O	O	
+12-4	got	O	O	
+12-5	everything	B-ScrPart_groceries	O	
+12-6	bagged	O	B-ScrEv_pack_groceries	
+12-7	,	O	O	
+12-8	then	O	O	
+12-9	headed	O	B-ScrEv_bring_vehicle|B-ScrEv_bring_vehicle	
+12-10	out	O	I-ScrEv_bring_vehicle	
+12-11	to	O	O	
+12-12	my	B-ScrPart_shopper	O	
+12-13	car	B-ScrPart_vehicle	O	
+12-14	.	O	O	
+
+#id=13
+#text=I got everything in the trunk , put the cart away and headed home to put my groceries away and have some chocolate chip cookies . 
+13-1	I	B-ScrPart_shopper	O	
+13-2	got	O	B-ScrEv_bring_vehicle	
+13-3	everything	B-ScrPart_groceries	O	
+13-4	in	O	O	
+13-5	the	O	O	
+13-6	trunk	B-ScrPart_vehicle	O	
+13-7	,	O	O	
+13-8	put	O	B-ScrEv_return_shop_cart	
+13-9	the	O	O	
+13-10	cart	B-ScrPart_shopping_cart/basket	O	
+13-11	away	O	O	
+13-12	and	O	O	
+13-13	headed	O	B-ScrEv_leave	
+13-14	home	B-NPart	O	
+13-15	to	O	O	
+13-16	put	O	B-RelNScrEv	
+13-17	my	B-ScrPart_shopper	O	
+13-18	groceries	B-ScrPart_groceries	O	
+13-19	away	O	O	
+13-20	and	O	O	
+13-21	have	O	B-UnrelEv	
+13-22	some	O	O	
+13-23	chocolate	B-ScrPart_groceries	O	
+13-24	chip	I-ScrPart_groceries	O	
+13-25	cookies	I-ScrPart_groceries|B-ScrPart_groceries	O	
+13-26	.	O	O	
+

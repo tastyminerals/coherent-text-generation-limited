@@ -1,0 +1,222 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Last year we had a fire .
+1-1	Last	O	O	_	_	
+1-2	year	O	O	_	_	
+1-3	we	O	O	_	_	
+1-4	had	B-UnrelEv	O	_	_	
+1-5	a	O	O	_	_	
+1-6	fire	O	O	_	_	
+1-7	.	O	O	_	_	
+
+#id=2
+#text=A large fire , that burned down homes and trees .
+2-1	A	O	O	_	_	
+2-2	large	O	O	_	_	
+2-3	fire	O	O	_	_	
+2-4	,	O	O	_	_	
+2-5	that	O	O	_	_	
+2-6	burned	B-UnrelEv	O	_	_	
+2-7	down	I-UnrelEv	O	_	_	
+2-8	homes	O	O	_	_	
+2-9	and	O	O	_	_	
+2-10	trees	O	B-ScrPart_tree	webanno.custom.Corefchains_	3-12	
+2-11	.	O	O	_	_	
+
+#id=3
+#text=I felt lucky that my home had survived , but the trees nearby had not .
+3-1	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	3-5	
+3-2	felt	B-UnrelEv	O	_	_	
+3-3	lucky	O	O	_	_	
+3-4	that	O	O	_	_	
+3-5	my	O	B-ScrPart_gardener	webanno.custom.Corefchains_	4-1	
+3-6	home	O	O	_	_	
+3-7	had	O	O	_	_	
+3-8	survived	B-UnrelEv	O	_	_	
+3-9	,	O	O	_	_	
+3-10	but	O	O	_	_	
+3-11	the	O	O	_	_	
+3-12	trees	O	B-ScrPart_tree	webanno.custom.Corefchains_	4-22	
+3-13	nearby	O	O	_	_	
+3-14	had	B-UnrelEv	O	_	_	
+3-15	not	O	O	_	_	
+3-16	.	O	O	_	_	
+
+#id=4
+#text=I had just returned from a trip to the nursery where I had picked out a couple of small fruit bearing saplings .
+4-1	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	4-12	
+4-2	had	O	O	_	_	
+4-3	just	O	O	_	_	
+4-4	returned	B-RelNScrEv	O	_	_	
+4-5	from	O	O	_	_	
+4-6	a	O	O	_	_	
+4-7	trip	O	B-NPart	_	_	
+4-8	to	O	O	_	_	
+4-9	the	O	O	_	_	
+4-10	nursery	O	B-ScrPart_shop	_	_	
+4-11	where	O	O	_	_	
+4-12	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	7-5	
+4-13	had	O	O	_	_	
+4-14	picked	B-ScrEv_choose_tree	O	_	_	
+4-15	out	I-ScrEv_choose_tree	O	_	_	
+4-16	a	O	O	_	_	
+4-17	couple	O	O	_	_	
+4-18	of	O	O	_	_	
+4-19	small	O	O	_	_	
+4-20	fruit	O	B-ScrPart_tree	_	_	
+4-21	bearing	O	I-ScrPart_tree	_	_	
+4-22	saplings	O	I-ScrPart_tree|B-ScrPart_tree	webanno.custom.Corefchains_|webanno.custom.Corefchains_|webanno.custom.Corefchains_	6-2|5-6|5-1	
+4-23	.	O	O	_	_	
+
+#id=5
+#text=One was cherry , the other was plum .
+5-1	One	O	B-ScrPart_tree	webanno.custom.Corefchains_	5-3	
+5-2	was	B-UnrelEv	O	_	_	
+5-3	cherry	O	B-ScrPart_tree	_	_	
+5-4	,	O	O	_	_	
+5-5	the	O	O	_	_	
+5-6	other	O	B-ScrPart_tree	webanno.custom.Corefchains_	5-8	
+5-7	was	B-UnrelEv	O	_	_	
+5-8	plum	O	B-ScrPart_tree	_	_	
+5-9	.	O	O	_	_	
+
+#id=6
+#text=Now they sit next to the car , along with a shovel .
+6-1	Now	O	O	_	_	
+6-2	they	O	B-ScrPart_tree	webanno.custom.Corefchains_	8-5	
+6-3	sit	B-RelNScrEv	O	_	_	
+6-4	next	O	O	_	_	
+6-5	to	O	O	_	_	
+6-6	the	O	O	_	_	
+6-7	car	O	B-NPart	_	_	
+6-8	,	O	O	_	_	
+6-9	along	O	O	_	_	
+6-10	with	O	O	_	_	
+6-11	a	O	O	_	_	
+6-12	shovel	O	B-ScrPart_gardening_tool	webanno.custom.Corefchains_	11-23	
+6-13	.	O	O	_	_	
+
+#id=7
+#text=After some consideration , I pulled on my gloves and stepped out into the now barren area next to my house to dig two holes , approximately 20 feet apart .
+7-1	After	O	O	_	_	
+7-2	some	O	O	_	_	
+7-3	consideration	O	O	_	_	
+7-4	,	O	O	_	_	
+7-5	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	7-8	
+7-6	pulled	B-ScrEv_get_tools	O	_	_	
+7-7	on	I-ScrEv_get_tools	O	_	_	
+7-8	my	O	B-ScrPart_gardener	webanno.custom.Corefchains_	7-20	
+7-9	gloves	O	B-ScrPart_gardening_tool	_	_	
+7-10	and	O	O	_	_	
+7-11	stepped	B-RelNScrEv	O	_	_	
+7-12	out	I-RelNScrEv	O	_	_	
+7-13	into	O	O	_	_	
+7-14	the	O	O	_	_	
+7-15	now	O	O	_	_	
+7-16	barren	O	O	_	_	
+7-17	area	O	B-ScrPart_location_garden	_	_	
+7-18	next	O	O	_	_	
+7-19	to	O	O	_	_	
+7-20	my	O	B-ScrPart_gardener	webanno.custom.Corefchains_	8-1	
+7-21	house	O	O	_	_	
+7-22	to	O	O	_	_	
+7-23	dig	B-ScrEv_dug_hole	O	_	_	
+7-24	two	O	O	_	_	
+7-25	holes	O	B-ScrPart_hole	webanno.custom.Corefchains_	10-7	
+7-26	,	O	O	_	_	
+7-27	approximately	O	O	_	_	
+7-28	20	O	O	_	_	
+7-29	feet	O	O	_	_	
+7-30	apart	O	O	_	_	
+7-31	.	O	O	_	_	
+
+#id=8
+#text=I wanted to give them room to grow , yet close enough to have company .
+8-1	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	9-4	
+8-2	wanted	B-UnrelEv	O	_	_	
+8-3	to	O	O	_	_	
+8-4	give	B-RelNScrEv	O	_	_	
+8-5	them	O	B-ScrPart_tree	webanno.custom.Corefchains_	10-4	
+8-6	room	O	B-NPart	_	_	
+8-7	to	O	O	_	_	
+8-8	grow	B-RelNScrEv	O	_	_	
+8-9	,	O	O	_	_	
+8-10	yet	O	O	_	_	
+8-11	close	O	O	_	_	
+8-12	enough	O	O	_	_	
+8-13	to	O	O	_	_	
+8-14	have	B-UnrelEv	O	_	_	
+8-15	company	O	O	_	_	
+8-16	.	O	O	_	_	
+
+#id=9
+#text=This thought amused me .
+9-1	This	O	O	_	_	
+9-2	thought	O	O	_	_	
+9-3	amused	B-UnrelEv	O	_	_	
+9-4	me	O	B-ScrPart_gardener	webanno.custom.Corefchains_	10-1	
+9-5	.	O	O	_	_	
+
+#id=10
+#text=I places each sapling into its hole , patting new earth around it in a mound .
+10-1	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	11-2	
+10-2	places	B-ScrEv_place_root	O	_	_	
+10-3	each	O	O	_	_	
+10-4	sapling	O	B-ScrPart_tree	webanno.custom.Corefchains_	10-6	
+10-5	into	O	O	_	_	
+10-6	its	O	B-ScrPart_tree	webanno.custom.Corefchains_	10-13	
+10-7	hole	O	B-ScrPart_hole	_	_	
+10-8	,	O	O	_	_	
+10-9	patting	B-ScrEv_refill_hole	O	_	_	
+10-10	new	O	O	_	_	
+10-11	earth	O	B-ScrPart_dirt	webanno.custom.Corefchains_	11-20	
+10-12	around	O	O	_	_	
+10-13	it	O	B-ScrPart_tree	webanno.custom.Corefchains_	11-11	
+10-14	in	O	O	_	_	
+10-15	a	O	O	_	_	
+10-16	mound	O	O	_	_	
+10-17	.	O	O	_	_	
+
+#id=11
+#text=The I turned on the water hose , and gave them a good drink , tapping down the new earth with the shovel . ''
+11-1	The	O	O	_	_	
+11-2	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	12-6	
+11-3	turned	B-ScrEv_water	O	_	_	
+11-4	on	I-ScrEv_water	O	_	_	
+11-5	the	O	O	_	_	
+11-6	water	O	B-ScrPart_gardening_tool	_	_	
+11-7	hose	O	I-ScrPart_gardening_tool|B-ScrPart_gardening_tool	_	_	
+11-8	,	O	O	_	_	
+11-9	and	O	O	_	_	
+11-10	gave	B-ScrEv_water	O	_	_	
+11-11	them	O	B-ScrPart_tree	_	_	
+11-12	a	O	O	_	_	
+11-13	good	O	O	_	_	
+11-14	drink	O	B-ScrPart_water	_	_	
+11-15	,	O	O	_	_	
+11-16	tapping	B-ScrEv_damp_dirt	O	_	_	
+11-17	down	I-ScrEv_damp_dirt	O	_	_	
+11-18	the	O	O	_	_	
+11-19	new	O	O	_	_	
+11-20	earth	O	B-ScrPart_dirt	_	_	
+11-21	with	O	O	_	_	
+11-22	the	O	O	_	_	
+11-23	shovel	O	B-ScrPart_gardening_tool	_	_	
+11-24	.	O	O	_	_	
+11-25	''	O	O	_	_	
+
+#id=12
+#text=`` Welcome home '' '' I thought , as I smiled . 
+12-1	``	O	O	_	_	
+12-2	Welcome	O	O	_	_	
+12-3	home	O	O	_	_	
+12-4	''	O	O	_	_	
+12-5	''	O	O	_	_	
+12-6	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	12-10	
+12-7	thought	B-UnrelEv	O	_	_	
+12-8	,	O	O	_	_	
+12-9	as	O	O	_	_	
+12-10	I	O	B-ScrPart_gardener	_	_	
+12-11	smiled	B-UnrelEv	O	_	_	
+12-12	.	O	O	_	_	
+

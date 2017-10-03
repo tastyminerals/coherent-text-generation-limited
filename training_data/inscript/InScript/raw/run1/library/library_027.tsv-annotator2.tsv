@@ -1,0 +1,373 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Sometimes I buy books but more often I just decide to borrow one from the public library because you can read them and take them back and it does n't cost you anything .
+1-1	Sometimes	O	O	_	_	
+1-2	I	B-ScrPart_customer	O	_	_	
+1-3	buy	O	B-UnrelEv	_	_	
+1-4	books	B-ScrPart_book	O	_	_	
+1-5	but	O	O	_	_	
+1-6	more	O	O	_	_	
+1-7	often	O	O	_	_	
+1-8	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-2	
+1-9	just	O	O	_	_	
+1-10	decide	O	B-UnrelEv	_	_	
+1-11	to	O	O	_	_	
+1-12	borrow	O	B-Evoking	_	_	
+1-13	one	B-ScrPart_book	I-Evoking	webanno.custom.Corefchains_	1-4	
+1-14	from	O	I-Evoking	_	_	
+1-15	the	O	I-Evoking	_	_	
+1-16	public	O	I-Evoking	_	_	
+1-17	library	B-ScrPart_library	I-Evoking	_	_	
+1-18	because	O	O	_	_	
+1-19	you	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-8	
+1-20	can	O	O	_	_	
+1-21	read	O	B-RelNScrEv	_	_	
+1-22	them	B-ScrPart_book	O	webanno.custom.Corefchains_	1-13	
+1-23	and	O	O	_	_	
+1-24	take	O	B-RelNScrEv	_	_	
+1-25	them	B-ScrPart_book	O	webanno.custom.Corefchains_	1-22	
+1-26	back	O	O	_	_	
+1-27	and	O	O	_	_	
+1-28	it	O	O	_	_	
+1-29	does	O	O	_	_	
+1-30	n't	O	O	_	_	
+1-31	cost	O	B-UnrelEv	_	_	
+1-32	you	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-19	
+1-33	anything	O	O	_	_	
+1-34	.	O	O	_	_	
+
+#id=2
+#text=Most libraries have a vast selection of books so you would never be unable to find something you wanted to read .
+2-1	Most	O	O	_	_	
+2-2	libraries	B-ScrPart_library	O	webanno.custom.Corefchains_	1-17	
+2-3	have	O	B-UnrelEv	_	_	
+2-4	a	O	O	_	_	
+2-5	vast	O	O	_	_	
+2-6	selection	O	O	_	_	
+2-7	of	O	O	_	_	
+2-8	books	B-ScrPart_book	O	webanno.custom.Corefchains_	1-25	
+2-9	so	O	O	_	_	
+2-10	you	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-32	
+2-11	would	O	O	_	_	
+2-12	never	O	O	_	_	
+2-13	be	O	B-UnrelEv	_	_	
+2-14	unable	O	O	_	_	
+2-15	to	O	O	_	_	
+2-16	find	O	B-RelNScrEv	_	_	
+2-17	something	B-ScrPart_book	O	webanno.custom.Corefchains_	2-8	
+2-18	you	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-10	
+2-19	wanted	O	O	_	_	
+2-20	to	O	O	_	_	
+2-21	read	O	B-RelNScrEv	_	_	
+2-22	.	O	O	_	_	
+
+#id=3
+#text=A lot of libraries have their catalog online so you can check to see if they have a particular book before you go to the library .
+3-1	A	O	O	_	_	
+3-2	lot	O	O	_	_	
+3-3	of	O	O	_	_	
+3-4	libraries	B-ScrPart_library	O	webanno.custom.Corefchains_	2-2	
+3-5	have	O	B-UnrelEv	_	_	
+3-6	their	B-ScrPart_library	O	webanno.custom.Corefchains_	3-4	
+3-7	catalog	B-ScrPart_catalog	O	_	_	
+3-8	online	O	O	_	_	
+3-9	so	O	O	_	_	
+3-10	you	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-18	
+3-11	can	O	O	_	_	
+3-12	check	O	B-ScrEv_check_catalog	_	_	
+3-13	to	O	O	_	_	
+3-14	see	O	O	_	_	
+3-15	if	O	O	_	_	
+3-16	they	B-ScrPart_library	O	webanno.custom.Corefchains_	3-6	
+3-17	have	O	B-UnrelEv	_	_	
+3-18	a	O	O	_	_	
+3-19	particular	O	O	_	_	
+3-20	book	B-ScrPart_book	O	webanno.custom.Corefchains_	2-17	
+3-21	before	O	O	_	_	
+3-22	you	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-10	
+3-23	go	O	B-ScrEv_get_library	_	_	
+3-24	to	O	O	_	_	
+3-25	the	O	O	_	_	
+3-26	library	B-ScrPart_library	O	webanno.custom.Corefchains_	3-16	
+3-27	.	O	O	_	_	
+
+#id=4
+#text=I recently had to join a new library so I went there and spoke to the lady behind the desk who asked me to fill in a form with my address and contact details , and provide proof of my identity .
+4-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-22	
+4-2	recently	O	O	_	_	
+4-3	had	O	O	_	_	
+4-4	to	O	O	_	_	
+4-5	join	O	B-RelNScrEv	_	_	
+4-6	a	O	O	_	_	
+4-7	new	O	O	_	_	
+4-8	library	B-ScrPart_library	O	webanno.custom.Corefchains_	3-26	
+4-9	so	O	O	_	_	
+4-10	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-1	
+4-11	went	O	B-ScrEv_get_library	_	_	
+4-12	there	B-ScrPart_library	O	webanno.custom.Corefchains_	4-8	
+4-13	and	O	O	_	_	
+4-14	spoke	O	B-ScrEv_ask_librarian	_	_	
+4-15	to	O	O	_	_	
+4-16	the	O	O	_	_	
+4-17	lady	B-ScrPart_staff	O	_	_	
+4-18	behind	O	O	_	_	
+4-19	the	O	O	_	_	
+4-20	desk	B-ScrPart_check-out_desk	O	_	_	
+4-21	who	O	O	_	_	
+4-22	asked	O	B-UnrelEv	_	_	
+4-23	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-10	
+4-24	to	O	O	_	_	
+4-25	fill	O	B-RelNScrEv	_	_	
+4-26	in	O	I-RelNScrEv	_	_	
+4-27	a	O	O	_	_	
+4-28	form	B-NPart	O	_	_	
+4-29	with	O	O	_	_	
+4-30	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-23	
+4-31	address	B-NPart	O	_	_	
+4-32	and	O	O	_	_	
+4-33	contact	B-NPart	O	_	_	
+4-34	details	I-NPart|B-NPart	O	_	_	
+4-35	,	O	O	_	_	
+4-36	and	O	O	_	_	
+4-37	provide	O	B-RelNScrEv	_	_	
+4-38	proof	B-NPart	O	_	_	
+4-39	of	O	O	_	_	
+4-40	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-30	
+4-41	identity	B-NPart	O	_	_	
+4-42	.	O	O	_	_	
+
+#id=5
+#text=When I had finished filling in the form , I took it back to her and she made me a little plastic library card with my account number and my name on it , along with a unique barcode .
+5-1	When	O	O	_	_	
+5-2	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-40	
+5-3	had	O	O	_	_	
+5-4	finished	O	B-UnrelEv	_	_	
+5-5	filling	O	B-RelNScrEv	_	_	
+5-6	in	O	I-RelNScrEv	_	_	
+5-7	the	O	O	_	_	
+5-8	form	B-NPart	O	webanno.custom.Corefchains_	4-28	
+5-9	,	O	O	_	_	
+5-10	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-2	
+5-11	took	O	B-UnrelEv	_	_	
+5-12	it	O	O	_	_	
+5-13	back	O	O	_	_	
+5-14	to	O	O	_	_	
+5-15	her	B-ScrPart_staff	O	webanno.custom.Corefchains_	4-17	
+5-16	and	O	O	_	_	
+5-17	she	B-ScrPart_staff	O	webanno.custom.Corefchains_	5-15	
+5-18	made	O	B-RelNScrEv	_	_	
+5-19	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-10	
+5-20	a	O	O	_	_	
+5-21	little	O	O	_	_	
+5-22	plastic	B-ScrPart_library_card	O	_	_	
+5-23	library	I-ScrPart_library_card	O	_	_	
+5-24	card	I-ScrPart_library_card|B-ScrPart_library_card	O	_	_	
+5-25	with	O	O	_	_	
+5-26	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-19	
+5-27	account	B-NPart	O	_	_	
+5-28	number	I-NPart	O	_	_	
+5-29	and	O	O	_	_	
+5-30	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-26	
+5-31	name	B-NPart	O	_	_	
+5-32	on	O	O	_	_	
+5-33	it	B-ScrPart_library_card	O	webanno.custom.Corefchains_	5-24	
+5-34	,	O	O	_	_	
+5-35	along	O	O	_	_	
+5-36	with	O	O	_	_	
+5-37	a	O	O	_	_	
+5-38	unique	O	O	_	_	
+5-39	barcode	B-NPart	O	_	_	
+5-40	.	O	O	_	_	
+
+#id=6
+#text=She told me I had to use this card to check out books whenever I went to the library .
+6-1	She	B-ScrPart_staff	O	webanno.custom.Corefchains_	5-17	
+6-2	told	O	B-UnrelEv	_	_	
+6-3	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-30	
+6-4	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-3	
+6-5	had	O	O	_	_	
+6-6	to	O	O	_	_	
+6-7	use	O	B-UnrelEv	_	_	
+6-8	this	O	O	_	_	
+6-9	card	B-ScrPart_library_card	O	webanno.custom.Corefchains_	5-33	
+6-10	to	O	O	_	_	
+6-11	check	O	B-ScrEv_register	_	_	
+6-12	out	O	I-ScrEv_register	_	_	
+6-13	books	B-ScrPart_book	O	webanno.custom.Corefchains_	3-20	
+6-14	whenever	O	O	_	_	
+6-15	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-4	
+6-16	went	O	B-ScrEv_get_library	_	_	
+6-17	to	O	O	_	_	
+6-18	the	O	O	_	_	
+6-19	library	B-ScrPart_library	O	webanno.custom.Corefchains_	4-12	
+6-20	.	O	O	_	_	
+
+#id=7
+#text=There were thousands of books on hundreds of shelves , all of them are filed in some sort of order .
+7-1	There	O	O	_	_	
+7-2	were	O	B-UnrelEv	_	_	
+7-3	thousands	O	O	_	_	
+7-4	of	O	O	_	_	
+7-5	books	B-ScrPart_book	O	webanno.custom.Corefchains_	6-13	
+7-6	on	O	O	_	_	
+7-7	hundreds	O	O	_	_	
+7-8	of	O	O	_	_	
+7-9	shelves	B-ScrPart_shelf	O	_	_	
+7-10	,	O	O	_	_	
+7-11	all	O	O	_	_	
+7-12	of	O	O	_	_	
+7-13	them	B-ScrPart_book	O	webanno.custom.Corefchains_	7-5	
+7-14	are	O	O	_	_	
+7-15	filed	O	B-UnrelEv	_	_	
+7-16	in	O	O	_	_	
+7-17	some	O	O	_	_	
+7-18	sort	O	O	_	_	
+7-19	of	O	O	_	_	
+7-20	order	O	O	_	_	
+7-21	.	O	O	_	_	
+
+#id=8
+#text=Fiction books were filed by author surname , and non-fiction books were filed by a system called the Dewey decimal system which numbers books according to their subject classification and are then filed in that number order .
+8-1	Fiction	O	O	_	_	
+8-2	books	B-ScrPart_book	O	webanno.custom.Corefchains_	7-13	
+8-3	were	O	O	_	_	
+8-4	filed	O	B-UnrelEv	_	_	
+8-5	by	O	O	_	_	
+8-6	author	O	O	_	_	
+8-7	surname	O	O	_	_	
+8-8	,	O	O	_	_	
+8-9	and	O	O	_	_	
+8-10	non-fiction	O	O	_	_	
+8-11	books	B-ScrPart_book	O	webanno.custom.Corefchains_	8-2	
+8-12	were	O	O	_	_	
+8-13	filed	O	B-UnrelEv	_	_	
+8-14	by	O	O	_	_	
+8-15	a	O	O	_	_	
+8-16	system	O	O	_	_	
+8-17	called	O	O	_	_	
+8-18	the	O	O	_	_	
+8-19	Dewey	O	O	_	_	
+8-20	decimal	O	O	_	_	
+8-21	system	O	O	_	_	
+8-22	which	O	O	_	_	
+8-23	numbers	O	B-UnrelEv	_	_	
+8-24	books	B-ScrPart_book	O	webanno.custom.Corefchains_	8-11	
+8-25	according	O	O	_	_	
+8-26	to	O	O	_	_	
+8-27	their	B-ScrPart_book	O	webanno.custom.Corefchains_	8-24	
+8-28	subject	O	O	_	_	
+8-29	classification	O	O	_	_	
+8-30	and	O	O	_	_	
+8-31	are	O	O	_	_	
+8-32	then	O	O	_	_	
+8-33	filed	O	B-UnrelEv	_	_	
+8-34	in	O	O	_	_	
+8-35	that	O	O	_	_	
+8-36	number	O	O	_	_	
+8-37	order	O	O	_	_	
+8-38	.	O	O	_	_	
+
+#id=9
+#text=The books were easy to find , there were computers around the library where you could check to see what books were available .
+9-1	The	O	O	_	_	
+9-2	books	B-ScrPart_book	O	webanno.custom.Corefchains_	8-27	
+9-3	were	O	B-UnrelEv	_	_	
+9-4	easy	O	O	_	_	
+9-5	to	O	O	_	_	
+9-6	find	O	B-RelNScrEv	_	_	
+9-7	,	O	O	_	_	
+9-8	there	O	O	_	_	
+9-9	were	O	B-UnrelEv	_	_	
+9-10	computers	B-ScrPart_institutional_devices	O	_	_	
+9-11	around	O	O	_	_	
+9-12	the	O	O	_	_	
+9-13	library	B-ScrPart_library	O	webanno.custom.Corefchains_	6-19	
+9-14	where	O	O	_	_	
+9-15	you	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-15	
+9-16	could	O	O	_	_	
+9-17	check	O	B-ScrEv_use_computer	_	_	
+9-18	to	O	O	_	_	
+9-19	see	O	B-ScrEv_look_for_book	_	_	
+9-20	what	O	O	_	_	
+9-21	books	B-ScrPart_book	O	webanno.custom.Corefchains_	9-2	
+9-22	were	O	B-UnrelEv	_	_	
+9-23	available	O	O	_	_	
+9-24	.	O	O	_	_	
+
+#id=10
+#text=When I had selected the books I wanted to borrow I went to one of the self service stations and scanned the barcode on the books and the barcode on my new library card , and the books were issued to me .
+10-1	When	O	O	_	_	
+10-2	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-15	
+10-3	had	O	O	_	_	
+10-4	selected	O	B-ScrEv_take_book	_	_	
+10-5	the	O	O	_	_	
+10-6	books	B-ScrPart_book	O	webanno.custom.Corefchains_	9-21	
+10-7	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	10-2	
+10-8	wanted	O	O	_	_	
+10-9	to	O	O	_	_	
+10-10	borrow	O	B-Evoking	_	_	
+10-11	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	10-7	
+10-12	went	O	B-ScrEv_go_check_out	_	_	
+10-13	to	O	O	_	_	
+10-14	one	B-ScrPart_institutional_devices	O	group_self_service_stations	10-19	
+10-15	of	O	O	_	_	
+10-16	the	O	O	_	_	
+10-17	self	B-ScrPart_institutional_devices	O	_	_	
+10-18	service	I-ScrPart_institutional_devices	O	_	_	
+10-19	stations	I-ScrPart_institutional_devices|B-ScrPart_institutional_devices	O	_	_	
+10-20	and	O	O	_	_	
+10-21	scanned	O	B-ScrEv_register	_	_	
+10-22	the	O	O	_	_	
+10-23	barcode	B-ScrPart_book_id	O	_	_	
+10-24	on	O	O	_	_	
+10-25	the	O	O	_	_	
+10-26	books	B-ScrPart_book	O	webanno.custom.Corefchains_	10-6	
+10-27	and	O	O	_	_	
+10-28	the	O	O	_	_	
+10-29	barcode	B-NPart	O	_	_	
+10-30	on	O	O	_	_	
+10-31	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	10-11	
+10-32	new	O	O	_	_	
+10-33	library	B-ScrPart_library_card	O	_	_	
+10-34	card	I-ScrPart_library_card|B-ScrPart_library_card	O	webanno.custom.Corefchains_	6-9	
+10-35	,	O	O	_	_	
+10-36	and	O	O	_	_	
+10-37	the	O	O	_	_	
+10-38	books	B-ScrPart_book	O	webanno.custom.Corefchains_	10-26	
+10-39	were	O	O	_	_	
+10-40	issued	O	B-ScrEv_register	_	_	
+10-41	to	O	O	_	_	
+10-42	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	10-31	
+10-43	.	O	O	_	_	
+
+#id=11
+#text=I also got a printed receipt to show me when the books were due to be returned .
+11-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	10-42	
+11-2	also	O	O	_	_	
+11-3	got	O	B-ScrEv_get_receipt	_	_	
+11-4	a	O	O	_	_	
+11-5	printed	O	B-UnrelEv	_	_	
+11-6	receipt	B-ScrPart_receipt	O	_	_	
+11-7	to	O	O	_	_	
+11-8	show	O	O	_	_	
+11-9	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	11-1	
+11-10	when	O	O	_	_	
+11-11	the	O	O	_	_	
+11-12	books	B-ScrPart_book	O	webanno.custom.Corefchains_	10-38	
+11-13	were	O	B-UnrelEv	_	_	
+11-14	due	O	O	_	_	
+11-15	to	O	O	_	_	
+11-16	be	O	O	_	_	
+11-17	returned	O	B-RelNScrEv	_	_	
+11-18	.	O	O	_	_	
+
+#id=12
+#text=It was very easy to do . 
+12-1	It	O	O	_	_	
+12-2	was	O	B-UnrelEv	_	_	
+12-3	very	O	O	_	_	
+12-4	easy	O	O	_	_	
+12-5	to	O	O	_	_	
+12-6	do	O	B-UnrelEv	_	_	
+12-7	.	O	O	_	_	
+

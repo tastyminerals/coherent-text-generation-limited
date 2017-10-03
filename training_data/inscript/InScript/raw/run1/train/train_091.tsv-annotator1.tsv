@@ -1,0 +1,198 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=This morning we needed to take the train into the city .
+1-1	This	O	O	_	_	
+1-2	morning	B-ScrPart_time_date	O	_	_	
+1-3	we	B-ScrPart_passenger	O	_	_	
+1-4	needed	O	B-UnrelEv	_	_	
+1-5	to	O	O	_	_	
+1-6	take	O	B-Evoking	_	_	
+1-7	the	O	I-Evoking	_	_	
+1-8	train	B-ScrPart_train	I-Evoking	_	_	
+1-9	into	O	O	_	_	
+1-10	the	O	O	_	_	
+1-11	city	B-ScrPart_destination	O	_	_	
+1-12	.	O	O	_	_	
+
+#id=2
+#text=We grabbed our laptop computers to use while we were going to be traveling .
+2-1	We	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-3	
+2-2	grabbed	O	B-RelNScrEv	_	_	
+2-3	our	O	O	_	_	
+2-4	laptop	O	O	_	_	
+2-5	computers	B-ScrPart_personal_belongings	O	_	_	
+2-6	to	O	O	_	_	
+2-7	use	O	B-UnrelEv	_	_	
+2-8	while	O	O	_	_	
+2-9	we	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-1	
+2-10	were	O	O	_	_	
+2-11	going	O	O	_	_	
+2-12	to	O	O	_	_	
+2-13	be	O	O	_	_	
+2-14	traveling	O	B-UnrelEv	_	_	
+2-15	.	O	O	_	_	
+
+#id=3
+#text=We had to make sure we also remembered our passes to get on the train .
+3-1	We	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-9	
+3-2	had	O	O	_	_	
+3-3	to	O	O	_	_	
+3-4	make	O	B-UnrelEv	_	_	
+3-5	sure	O	O	_	_	
+3-6	we	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-1	
+3-7	also	O	O	_	_	
+3-8	remembered	O	B-UnrelEv	_	_	
+3-9	our	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-6	
+3-10	passes	B-MissScrPart	O	_	_	
+3-11	to	O	O	_	_	
+3-12	get	O	B-MissScrEv|B-MissScrEv	_	_	
+3-13	on	O	I-MissScrEv	_	_	
+3-14	the	O	O	_	_	
+3-15	train	B-ScrPart_train	O	webanno.custom.Corefchains_	1-8	
+3-16	.	O	O	_	_	
+
+#id=4
+#text=As we arrived at the station , we saw the train coming in .
+4-1	As	O	O	_	_	
+4-2	we	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-9	
+4-3	arrived	O	B-ScrEv_get_train_station	_	_	
+4-4	at	O	O	_	_	
+4-5	the	O	O	_	_	
+4-6	station	B-ScrPart_train_station	O	_	_	
+4-7	,	O	O	_	_	
+4-8	we	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-2	
+4-9	saw	O	B-UnrelEv	_	_	
+4-10	the	O	O	_	_	
+4-11	train	B-ScrPart_train	O	webanno.custom.Corefchains_	3-15	
+4-12	coming	O	B-ScrEv_train_arrives|B-ScrEv_train_arrives	_	_	
+4-13	in	O	I-ScrEv_train_arrives	_	_	
+4-14	.	O	O	_	_	
+
+#id=5
+#text=Many people got off the train when it arrived and then we entered the train .
+5-1	Many	O	O	_	_	
+5-2	people	B-ScrPart_passenger	O	_	_	
+5-3	got	O	B-ScrEv_get_off|B-ScrEv_get_off	_	_	
+5-4	off	O	I-ScrEv_get_off	_	_	
+5-5	the	O	O	_	_	
+5-6	train	B-ScrPart_train	O	webanno.custom.Corefchains_	4-11	
+5-7	when	O	O	_	_	
+5-8	it	B-ScrPart_train	O	webanno.custom.Corefchains_	5-6	
+5-9	arrived	O	B-ScrEv_train_arrives	_	_	
+5-10	and	O	O	_	_	
+5-11	then	O	O	_	_	
+5-12	we	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-8	
+5-13	entered	O	B-MissScrEv	_	_	
+5-14	the	O	O	_	_	
+5-15	train	B-ScrPart_train	O	webanno.custom.Corefchains_	5-8	
+5-16	.	O	O	_	_	
+
+#id=6
+#text=We were able to find seats even though the train was pretty full .
+6-1	We	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-12	
+6-2	were	O	O	_	_	
+6-3	able	O	O	_	_	
+6-4	to	O	O	_	_	
+6-5	find	O	B-ScrEv_find_place	_	_	
+6-6	seats	B-ScrPart_seat	O	_	_	
+6-7	even	O	O	_	_	
+6-8	though	O	O	_	_	
+6-9	the	O	O	_	_	
+6-10	train	B-ScrPart_train	O	webanno.custom.Corefchains_	5-15	
+6-11	was	O	B-RelNScrEv	_	_	
+6-12	pretty	O	O	_	_	
+6-13	full	O	O	_	_	
+6-14	.	O	O	_	_	
+
+#id=7
+#text=As the train left the station we started working on our computers , and the 20 minute ride seemed to just fly by .
+7-1	As	O	O	_	_	
+7-2	the	O	O	_	_	
+7-3	train	B-ScrPart_train	O	webanno.custom.Corefchains_	6-10	
+7-4	left	O	B-ScrEv_train_departs	_	_	
+7-5	the	O	O	_	_	
+7-6	station	B-ScrPart_train_station	O	_	_	
+7-7	we	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-1	
+7-8	started	O	B-UnrelEv	_	_	
+7-9	working	O	B-ScrEv_spend_time_train	_	_	
+7-10	on	O	O	_	_	
+7-11	our	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-7	
+7-12	computers	B-ScrPart_personal_belongings	O	webanno.custom.Corefchains_	2-5	
+7-13	,	O	O	_	_	
+7-14	and	O	O	_	_	
+7-15	the	O	O	_	_	
+7-16	20	O	O	_	_	
+7-17	minute	B-ScrPart_time_date	O	_	_	
+7-18	ride	O	B-Evoking	_	_	
+7-19	seemed	O	B-UnrelEv	_	_	
+7-20	to	O	O	_	_	
+7-21	just	O	O	_	_	
+7-22	fly	O	B-UnrelEv	_	_	
+7-23	by	O	O	_	_	
+7-24	.	O	O	_	_	
+
+#id=8
+#text=The view of the city from the train was beautiful .
+8-1	The	O	O	_	_	
+8-2	view	O	O	_	_	
+8-3	of	O	O	_	_	
+8-4	the	O	O	_	_	
+8-5	city	B-ScrPart_destination	O	webanno.custom.Corefchains_	1-11	
+8-6	from	O	O	_	_	
+8-7	the	O	O	_	_	
+8-8	train	B-ScrPart_train	O	webanno.custom.Corefchains_	7-3	
+8-9	was	O	B-UnrelEv	_	_	
+8-10	beautiful	O	O	_	_	
+8-11	.	O	O	_	_	
+
+#id=9
+#text=When we arrived at the station in the city , the people on the train started to queue up at the doorways .
+9-1	When	O	O	_	_	
+9-2	we	B-ScrPart_train	O	webanno.custom.Corefchains_	8-8	
+9-3	arrived	O	B-ScrEv_train_arrives	_	_	
+9-4	at	O	O	_	_	
+9-5	the	O	O	_	_	
+9-6	station	B-ScrPart_train_station	O	_	_	
+9-7	in	O	O	_	_	
+9-8	the	O	O	_	_	
+9-9	city	B-ScrPart_destination	O	webanno.custom.Corefchains_	8-5	
+9-10	,	O	O	_	_	
+9-11	the	O	O	_	_	
+9-12	people	B-ScrPart_passenger	O	_	_	
+9-13	on	O	O	_	_	
+9-14	the	O	O	_	_	
+9-15	train	B-ScrPart_train	O	webanno.custom.Corefchains_	9-2	
+9-16	started	O	B-UnrelEv	_	_	
+9-17	to	O	O	_	_	
+9-18	queue	O	B-ScrEv_wait|B-ScrEv_wait	_	_	
+9-19	up	O	I-ScrEv_wait	_	_	
+9-20	at	O	O	_	_	
+9-21	the	O	O	_	_	
+9-22	doorways	B-ScrPart_door	O	_	_	
+9-23	.	O	O	_	_	
+
+#id=10
+#text=The train came to a smooth stop and all the people poured out onto the platform where it was lightly raining . 
+10-1	The	O	O	_	_	
+10-2	train	B-ScrPart_train	O	webanno.custom.Corefchains_	9-15	
+10-3	came	O	B-ScrEv_train_arrives	_	_	
+10-4	to	O	O	_	_	
+10-5	a	O	O	_	_	
+10-6	smooth	O	O	_	_	
+10-7	stop	O	B-ScrEv_train_arrives	_	_	
+10-8	and	O	O	_	_	
+10-9	all	O	O	_	_	
+10-10	the	O	O	_	_	
+10-11	people	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-12	
+10-12	poured	O	B-ScrEv_get_off|B-ScrEv_get_off	_	_	
+10-13	out	O	I-ScrEv_get_off	_	_	
+10-14	onto	O	O	_	_	
+10-15	the	O	O	_	_	
+10-16	platform	B-ScrPart_platform	O	_	_	
+10-17	where	B-ScrPart_platform	O	webanno.custom.Corefchains_	10-16	
+10-18	it	O	O	_	_	
+10-19	was	O	O	_	_	
+10-20	lightly	O	O	_	_	
+10-21	raining	O	B-UnrelEv	_	_	
+10-22	.	O	O	_	_	
+

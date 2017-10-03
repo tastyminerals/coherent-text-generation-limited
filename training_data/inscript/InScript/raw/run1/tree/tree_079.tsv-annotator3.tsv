@@ -1,0 +1,200 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=First we began by going to the orchard and picking the best tree we could find , this however did not satisfy the little ones so we had to go with the tree that they picked out .
+1-1	First	O	O	_	_	
+1-2	we	B-ScrPart_gardener	O	_	_	
+1-3	began	O	B-UnrelEv	_	_	
+1-4	by	O	O	_	_	
+1-5	going	O	B-MissScrEv	_	_	
+1-6	to	O	O	_	_	
+1-7	the	O	O	_	_	
+1-8	orchard	B-ScrPart_shop	O	_	_	
+1-9	and	O	O	_	_	
+1-10	picking	O	B-ScrEv_choose_tree	_	_	
+1-11	the	O	O	_	_	
+1-12	best	O	O	_	_	
+1-13	tree	B-ScrPart_tree	O	_	_	
+1-14	we	B-ScrPart_gardener	O	webanno.custom.Corefchains_	1-2	
+1-15	could	O	O	_	_	
+1-16	find	O	B-ScrEv_choose_tree	_	_	
+1-17	,	O	O	_	_	
+1-18	this	B-ScrPart_tree	O	webanno.custom.Corefchains_	1-13	
+1-19	however	O	O	_	_	
+1-20	did	O	O	_	_	
+1-21	not	O	O	_	_	
+1-22	satisfy	O	B-UnrelEv	_	_	
+1-23	the	O	O	_	_	
+1-24	little	O	O	_	_	
+1-25	ones	B-ScrPart_gardener	O	_	_	
+1-26	so	O	O	_	_	
+1-27	we	B-ScrPart_gardener	O	webanno.custom.Corefchains_	1-14	
+1-28	had	O	O	_	_	
+1-29	to	O	O	_	_	
+1-30	go	O	B-ScrEv_get_tree	_	_	
+1-31	with	O	O	_	_	
+1-32	the	O	O	_	_	
+1-33	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	1-18	
+1-34	that	O	O	_	_	
+1-35	they	B-ScrPart_gardener	O	webanno.custom.Corefchains_	1-25	
+1-36	picked	O	B-ScrEv_choose_tree	_	_	
+1-37	out	O	O	_	_	
+1-38	.	O	O	_	_	
+
+#id=2
+#text=We drove back home with the tree on top of the car to begin the planting .
+2-1	We	B-ScrPart_gardener	O	webanno.custom.Corefchains_	1-27	
+2-2	drove	O	B-MissScrEv	_	_	
+2-3	back	O	O	_	_	
+2-4	home	B-SuppVComp	O	_	_	
+2-5	with	O	O	_	_	
+2-6	the	O	O	_	_	
+2-7	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	1-33	
+2-8	on	O	O	_	_	
+2-9	top	O	O	_	_	
+2-10	of	O	O	_	_	
+2-11	the	O	O	_	_	
+2-12	car	B-NPart	O	_	_	
+2-13	to	O	O	_	_	
+2-14	begin	O	B-UnrelEv	_	_	
+2-15	the	O	O	_	_	
+2-16	planting	O	B-RelNScrEv	_	_	
+2-17	.	O	O	_	_	
+
+#id=3
+#text=Starting off I dug a medium sized hole where we could plant the tree and it could grow as much as it wanted .
+3-1	Starting	O	B-UnrelEv|B-UnrelEv	_	_	
+3-2	off	O	I-UnrelEv	_	_	
+3-3	I	O	O	_	_	
+3-4	dug	O	B-RelNScrEv	_	_	
+3-5	a	O	O	_	_	
+3-6	medium	O	O	_	_	
+3-7	sized	O	B-RelNScrEv	_	_	
+3-8	hole	B-ScrPart_hole	O	_	_	
+3-9	where	O	O	_	_	
+3-10	we	B-ScrPart_gardener	O	webanno.custom.Corefchains_	2-1	
+3-11	could	O	O	_	_	
+3-12	plant	O	B-RelNScrEv	_	_	
+3-13	the	O	O	_	_	
+3-14	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	2-7	
+3-15	and	O	O	_	_	
+3-16	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	3-14	
+3-17	could	O	O	_	_	
+3-18	grow	O	B-RelNScrEv	_	_	
+3-19	as	O	O	_	_	
+3-20	much	O	O	_	_	
+3-21	as	O	O	_	_	
+3-22	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	3-16	
+3-23	wanted	O	B-UnrelEv	_	_	
+3-24	.	O	O	_	_	
+
+#id=4
+#text=We fertilized the ground where the tree would be planted and began the transfer of the tree .
+4-1	We	B-ScrPart_gardener	O	webanno.custom.Corefchains_	3-10	
+4-2	fertilized	O	B-ScrEv_place_fertilizers	_	_	
+4-3	the	O	O	_	_	
+4-4	ground	B-MissScrPart	O	_	_	
+4-5	where	O	O	_	_	
+4-6	the	O	O	_	_	
+4-7	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	3-22	
+4-8	would	O	O	_	_	
+4-9	be	O	O	_	_	
+4-10	planted	O	B-RelNScrEv	_	_	
+4-11	and	O	O	_	_	
+4-12	began	O	B-UnrelEv	_	_	
+4-13	the	O	O	_	_	
+4-14	transfer	O	O	_	_	
+4-15	of	O	O	_	_	
+4-16	the	O	O	_	_	
+4-17	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	4-7	
+4-18	.	O	O	_	_	
+
+#id=5
+#text=This tree was then checked daily on its progress and to be watered .
+5-1	This	O	O	_	_	
+5-2	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	4-17	
+5-3	was	O	O	_	_	
+5-4	then	O	O	_	_	
+5-5	checked	O	B-MissScrEv	_	_	
+5-6	daily	O	O	_	_	
+5-7	on	O	O	_	_	
+5-8	its	B-ScrPart_tree	O	webanno.custom.Corefchains_	5-2	
+5-9	progress	B-NPart	O	_	_	
+5-10	and	O	O	_	_	
+5-11	to	O	O	_	_	
+5-12	be	O	O	_	_	
+5-13	watered	O	B-ScrEv_water	_	_	
+5-14	.	O	O	_	_	
+
+#id=6
+#text=The tree 's health was a priority of our family and we kept it in spectacular condition .
+6-1	The	O	O	_	_	
+6-2	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	5-8	
+6-3	's	O	O	_	_	
+6-4	health	B-NPart	O	_	_	
+6-5	was	O	B-UnrelEv	_	_	
+6-6	a	O	O	_	_	
+6-7	priority	O	O	_	_	
+6-8	of	O	O	_	_	
+6-9	our	B-ScrPart_gardener	O	webanno.custom.Corefchains_	4-1	
+6-10	family	B-NPart	O	_	_	
+6-11	and	O	O	_	_	
+6-12	we	O	O	_	_	
+6-13	kept	O	B-RelNScrEv	_	_	
+6-14	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	6-2	
+6-15	in	O	O	_	_	
+6-16	spectacular	O	O	_	_	
+6-17	condition	B-NPart	O	_	_	
+6-18	.	O	O	_	_	
+
+#id=7
+#text=This tree now stands tall over our house to protect it from the sun and allow us the shade we need when we would like to play outside .
+7-1	This	O	O	_	_	
+7-2	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	6-14	
+7-3	now	O	O	_	_	
+7-4	stands	O	B-RelNScrEv	_	_	
+7-5	tall	O	O	_	_	
+7-6	over	O	O	_	_	
+7-7	our	B-ScrPart_gardener	O	webanno.custom.Corefchains_	6-9	
+7-8	house	B-NPart	O	_	_	
+7-9	to	O	O	_	_	
+7-10	protect	O	B-RelNScrEv	_	_	
+7-11	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	7-2	
+7-12	from	O	O	_	_	
+7-13	the	O	O	_	_	
+7-14	sun	B-MissScrPart	O	_	_	
+7-15	and	O	O	_	_	
+7-16	allow	O	B-RelNScrEv	_	_	
+7-17	us	B-ScrPart_gardener	O	webanno.custom.Corefchains_	7-7	
+7-18	the	O	O	_	_	
+7-19	shade	B-MissScrPart	O	_	_	
+7-20	we	O	O	_	_	
+7-21	need	O	B-UnrelEv	_	_	
+7-22	when	O	O	_	_	
+7-23	we	B-ScrPart_gardener	O	webanno.custom.Corefchains_	7-17	
+7-24	would	O	O	_	_	
+7-25	like	O	B-UnrelEv	_	_	
+7-26	to	O	O	_	_	
+7-27	play	O	B-UnrelEv	_	_	
+7-28	outside	O	O	_	_	
+7-29	.	O	O	_	_	
+
+#id=8
+#text=This tree is the foundation of our family and we use it to show our togetherness . 
+8-1	This	O	O	_	_	
+8-2	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	7-11	
+8-3	is	O	B-UnrelEv	_	_	
+8-4	the	O	O	_	_	
+8-5	foundation	B-NPart	O	_	_	
+8-6	of	O	O	_	_	
+8-7	our	B-ScrPart_gardener	O	webanno.custom.Corefchains_	7-23	
+8-8	family	B-NPart	O	_	_	
+8-9	and	O	O	_	_	
+8-10	we	B-ScrPart_gardener	O	webanno.custom.Corefchains_	8-7	
+8-11	use	O	B-UnrelEv	_	_	
+8-12	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	8-2	
+8-13	to	O	O	_	_	
+8-14	show	O	B-UnrelEv	_	_	
+8-15	our	B-ScrPart_gardener	O	webanno.custom.Corefchains_	8-10	
+8-16	togetherness	O	O	_	_	
+8-17	.	O	O	_	_	
+

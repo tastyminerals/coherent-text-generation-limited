@@ -1,0 +1,276 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participants | Participant
+#id=1
+#text=Baking a cake begins with a good recipe that you want to use .
+1-1	Baking	B-Evoking	O	O	
+1-2	a	I-Evoking	O	O	
+1-3	cake	I-Evoking	B-ScrPart_cake	B-webanno.custom.Participants_	
+1-4	begins	B-UnrelEv	O	O	
+1-5	with	O	O	O	
+1-6	a	O	O	O	
+1-7	good	O	O	O	
+1-8	recipe	O	B-ScrPart_baking_instructions	B-webanno.custom.Participants_	
+1-9	that	O	O	O	
+1-10	you	O	B-ScrPart_cook	B-webanno.custom.Participants_	
+1-11	want	B-UnrelEv	O	O	
+1-12	to	O	O	O	
+1-13	use	B-UnrelEv	O	O	
+1-14	.	O	O	O	
+
+#id=2
+#text=Follow the recipe to get all the ingredients at the store .
+2-1	Follow	B-UnrelEv	O	O	
+2-2	the	O	O	O	
+2-3	recipe	O	B-ScrPart_baking_instructions	B-webanno.custom.Participants_	
+2-4	to	O	O	O	
+2-5	get	B-ScrEv_get_ingridients	O	O	
+2-6	all	O	O	O	
+2-7	the	O	O	O	
+2-8	ingredients	O	B-ScrPart_ingridients	B-webanno.custom.Participants_	
+2-9	at	O	O	O	
+2-10	the	O	O	O	
+2-11	store	O	B-ScrPart_store	B-webanno.custom.Participants_	
+2-12	.	O	O	O	
+
+#id=3
+#text=Assuming you have all the ingredients , you will also need to acquire all the tools necessary to bake the cake .
+3-1	Assuming	B-UnrelEv	O	O	
+3-2	you	O	B-ScrPart_cook	B-webanno.custom.Participants_	
+3-3	have	B-UnrelEv	O	O	
+3-4	all	O	O	O	
+3-5	the	O	O	O	
+3-6	ingredients	O	B-ScrPart_ingridients	B-webanno.custom.Participants_	
+3-7	,	O	O	O	
+3-8	you	O	B-ScrPart_cook	B-webanno.custom.Participants_	
+3-9	will	O	O	O	
+3-10	also	O	O	O	
+3-11	need	O	O	O	
+3-12	to	O	O	O	
+3-13	acquire	B-ScrEv_get_utensils	O	O	
+3-14	all	O	O	O	
+3-15	the	O	O	O	
+3-16	tools	O	B-ScrPart_utensil	B-webanno.custom.Participants_	
+3-17	necessary	O	O	O	
+3-18	to	O	O	O	
+3-19	bake	B-Evoking	O	O	
+3-20	the	I-Evoking	O	O	
+3-21	cake	I-Evoking	B-ScrPart_cake	B-webanno.custom.Participants_	
+3-22	.	O	O	O	
+
+#id=4
+#text=This usually includes measuring cups , mixing bowls , and the actual mixer .
+4-1	This	O	O	O	
+4-2	usually	O	O	O	
+4-3	includes	B-UnrelEv	O	O	
+4-4	measuring	O	B-ScrPart_utensil	B-webanno.custom.Participants_	
+4-5	cups	O	I-ScrPart_utensil|B-ScrPart_utensil	I-webanno.custom.Participants_|B-webanno.custom.Participants_	
+4-6	,	O	O	O	
+4-7	mixing	O	B-ScrPart_utensil	B-webanno.custom.Participants_	
+4-8	bowls	O	I-ScrPart_utensil|B-ScrPart_utensil	I-webanno.custom.Participants_|B-webanno.custom.Participants_	
+4-9	,	O	O	O	
+4-10	and	O	O	O	
+4-11	the	O	O	O	
+4-12	actual	O	O	O	
+4-13	mixer	O	B-ScrPart_utensil	B-webanno.custom.Participants_	
+4-14	.	O	O	O	
+
+#id=5
+#text=You will then follow the recipe to measure out the ingredients in the exact proportions that the recipe calls for .
+5-1	You	O	B-ScrPart_cook	B-webanno.custom.Participants_	
+5-2	will	O	O	O	
+5-3	then	O	O	O	
+5-4	follow	B-UnrelEv	O	O	
+5-5	the	O	O	O	
+5-6	recipe	O	B-ScrPart_baking_instructions	B-webanno.custom.Participants_	
+5-7	to	O	O	O	
+5-8	measure	B-ScrEv_other	O	O	
+5-9	out	I-ScrEv_other	O	O	
+5-10	the	O	O	O	
+5-11	ingredients	O	B-ScrPart_ingridients	B-webanno.custom.Participants_	
+5-12	in	O	O	O	
+5-13	the	O	O	O	
+5-14	exact	O	O	O	
+5-15	proportions	O	B-NPart	B-webanno.custom.Participants_	
+5-16	that	O	O	O	
+5-17	the	O	O	O	
+5-18	recipe	O	B-ScrPart_baking_instructions	B-webanno.custom.Participants_	
+5-19	calls	B-UnrelEv	O	O	
+5-20	for	I-UnrelEv	O	O	
+5-21	.	O	O	O	
+
+#id=6
+#text=This has to be done very accurately else the cake will not bake properly .
+6-1	This	O	O	O	
+6-2	has	O	O	O	
+6-3	to	O	O	O	
+6-4	be	O	O	O	
+6-5	done	B-UnrelEv	O	O	
+6-6	very	O	O	O	
+6-7	accurately	O	O	O	
+6-8	else	O	O	O	
+6-9	the	O	O	O	
+6-10	cake	O	B-ScrPart_cake	B-webanno.custom.Participants_	
+6-11	will	O	O	O	
+6-12	not	O	O	O	
+6-13	bake	B-ScrEv_other	O	O	
+6-14	properly	O	O	O	
+6-15	.	O	O	O	
+
+#id=7
+#text=Once all the ingredients in the mixing bowl , use the mixer to mix all the ingredients into a nice batter .
+7-1	Once	O	O	O	
+7-2	all	O	O	O	
+7-3	the	O	O	O	
+7-4	ingredients	O	B-ScrPart_ingridients	B-webanno.custom.Participants_	
+7-5	in	O	O	O	
+7-6	the	O	O	O	
+7-7	mixing	O	B-ScrPart_utensil	B-webanno.custom.Participants_	
+7-8	bowl	O	I-ScrPart_utensil|B-ScrPart_utensil	I-webanno.custom.Participants_|B-webanno.custom.Participants_	
+7-9	,	O	O	O	
+7-10	use	B-UnrelEv	O	O	
+7-11	the	O	O	O	
+7-12	mixer	O	B-ScrPart_utensil	B-webanno.custom.Participants_	
+7-13	to	O	O	O	
+7-14	mix	B-ScrEv_make_dough	O	O	
+7-15	all	O	O	O	
+7-16	the	O	O	O	
+7-17	ingredients	O	B-ScrPart_ingridients	B-webanno.custom.Participants_	
+7-18	into	O	O	O	
+7-19	a	O	O	O	
+7-20	nice	O	O	O	
+7-21	batter	O	B-ScrPart_dough	B-webanno.custom.Participants_	
+7-22	.	O	O	O	
+
+#id=8
+#text=Be sure to mix until all the lumps are gone .
+8-1	Be	B-UnrelEv	O	O	
+8-2	sure	O	O	O	
+8-3	to	O	O	O	
+8-4	mix	B-ScrEv_make_dough	O	O	
+8-5	until	O	O	O	
+8-6	all	O	O	O	
+8-7	the	O	O	O	
+8-8	lumps	O	B-ScrPart_other	B-webanno.custom.Participants_	
+8-9	are	O	O	O	
+8-10	gone	B-UnrelEv	O	O	
+8-11	.	O	O	O	
+
+#id=9
+#text=Next pre-heat the over to the temperature the recipe calls for .
+9-1	Next	O	O	O	
+9-2	pre-heat	B-ScrEv_preheat	O	O	
+9-3	the	O	O	O	
+9-4	over	O	B-ScrPart_oven	B-webanno.custom.Participants_	
+9-5	to	O	O	O	
+9-6	the	O	O	O	
+9-7	temperature	O	B-ScrPart_temperature	B-webanno.custom.Participants_	
+9-8	the	O	O	O	
+9-9	recipe	O	B-ScrPart_baking_instructions	B-webanno.custom.Participants_	
+9-10	calls	B-UnrelEv	O	O	
+9-11	for	I-UnrelEv	O	O	
+9-12	.	O	O	O	
+
+#id=10
+#text=Once the oven is pre-heated you can pour the cake batter into a cake pan and then put the cake pan into the over .
+10-1	Once	O	O	O	
+10-2	the	O	O	O	
+10-3	oven	O	B-ScrPart_oven	B-webanno.custom.Participants_	
+10-4	is	O	O	O	
+10-5	pre-heated	B-ScrEv_preheat	O	O	
+10-6	you	O	B-ScrPart_cook	B-webanno.custom.Participants_	
+10-7	can	O	O	O	
+10-8	pour	B-ScrEv_pour_dough	O	O	
+10-9	the	O	O	O	
+10-10	cake	O	B-ScrPart_dough	B-webanno.custom.Participants_	
+10-11	batter	O	I-ScrPart_dough|B-ScrPart_dough	I-webanno.custom.Participants_|B-webanno.custom.Participants_	
+10-12	into	O	O	O	
+10-13	a	O	O	O	
+10-14	cake	O	B-ScrPart_cake_tin	B-webanno.custom.Participants_	
+10-15	pan	O	I-ScrPart_cake_tin|B-ScrPart_cake_tin	I-webanno.custom.Participants_|B-webanno.custom.Participants_	
+10-16	and	O	O	O	
+10-17	then	O	O	O	
+10-18	put	B-ScrEv_put_cake_oven	O	O	
+10-19	the	O	O	O	
+10-20	cake	O	B-ScrPart_cake_tin	B-webanno.custom.Participants_	
+10-21	pan	O	I-ScrPart_cake_tin|B-ScrPart_cake_tin	I-webanno.custom.Participants_|B-webanno.custom.Participants_	
+10-22	into	O	O	O	
+10-23	the	O	O	O	
+10-24	over	O	B-ScrPart_oven	B-webanno.custom.Participants_	
+10-25	.	O	O	O	
+
+#id=11
+#text=Set the timer for however long the cake is supposed to bake for and be ready to take out the cake when the timer is done .
+11-1	Set	B-ScrEv_set_time	O	O	
+11-2	the	O	O	O	
+11-3	timer	O	B-ScrPart_timer	B-webanno.custom.Participants_	
+11-4	for	O	O	O	
+11-5	however	O	O	O	
+11-6	long	O	O	O	
+11-7	the	O	O	O	
+11-8	cake	O	B-ScrPart_cake	B-webanno.custom.Participants_	
+11-9	is	O	O	O	
+11-10	supposed	O	O	O	
+11-11	to	O	O	O	
+11-12	bake	B-ScrEv_wait	O	O	
+11-13	for	O	O	O	
+11-14	and	O	O	O	
+11-15	be	B-UnrelEv	O	O	
+11-16	ready	O	O	O	
+11-17	to	O	O	O	
+11-18	take	B-ScrEv_take_out_cake_tin	O	O	
+11-19	out	I-ScrEv_take_out_cake_tin	O	O	
+11-20	the	O	O	O	
+11-21	cake	O	B-ScrPart_cake	B-webanno.custom.Participants_	
+11-22	when	O	O	O	
+11-23	the	O	O	O	
+11-24	timer	O	B-ScrPart_timer	B-webanno.custom.Participants_	
+11-25	is	O	O	O	
+11-26	done	B-RelNScrEv	O	O	
+11-27	.	O	O	O	
+
+#id=12
+#text=Be careful when taking the cake out of the oven as the cake and the over will be extremely hot .
+12-1	Be	B-UnrelEv	O	O	
+12-2	careful	O	O	O	
+12-3	when	O	O	O	
+12-4	taking	B-ScrEv_take_out_oven	O	O	
+12-5	the	O	O	O	
+12-6	cake	O	B-ScrPart_cake	B-webanno.custom.Participants_	
+12-7	out	O	O	O	
+12-8	of	O	O	O	
+12-9	the	O	O	O	
+12-10	oven	O	B-ScrPart_oven	B-webanno.custom.Participants_	
+12-11	as	O	O	O	
+12-12	the	O	O	O	
+12-13	cake	O	B-ScrPart_cake	B-webanno.custom.Participants_	
+12-14	and	O	O	O	
+12-15	the	O	O	O	
+12-16	over	O	B-ScrPart_oven	B-webanno.custom.Participants_	
+12-17	will	O	O	O	
+12-18	be	B-UnrelEv	O	O	
+12-19	extremely	O	O	O	
+12-20	hot	O	O	O	
+12-21	.	O	O	O	
+
+#id=13
+#text=Once the cake cools , you can decorate the cake with icing and other toppings for an enjoyable treat ! 
+13-1	Once	O	O	O	
+13-2	the	O	O	O	
+13-3	cake	O	B-ScrPart_cake	B-webanno.custom.Participants_	
+13-4	cools	B-ScrEv_cool_down	O	O	
+13-5	,	O	O	O	
+13-6	you	O	B-ScrPart_cook	B-webanno.custom.Participants_	
+13-7	can	O	O	O	
+13-8	decorate	B-ScrEv_decorate	O	O	
+13-9	the	O	O	O	
+13-10	cake	O	B-ScrPart_cake	B-webanno.custom.Participants_	
+13-11	with	O	O	O	
+13-12	icing	O	B-ScrPart_ingridients	B-webanno.custom.Participants_	
+13-13	and	O	O	O	
+13-14	other	O	O	O	
+13-15	toppings	O	B-ScrPart_ingridients	B-webanno.custom.Participants_	
+13-16	for	O	O	O	
+13-17	an	O	O	O	
+13-18	enjoyable	O	O	O	
+13-19	treat	O	B-NPart	B-webanno.custom.Participants_	
+13-20	!	O	O	O	
+

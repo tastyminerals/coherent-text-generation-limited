@@ -1,0 +1,195 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I bought a tree from my local plant supply store .
+1-1	I	B-ScrPart_gardener	O	_	_	
+1-2	bought	O	B-ScrEv_get_tree	_	_	
+1-3	a	O	O	_	_	
+1-4	tree	B-ScrPart_tree	O	_	_	
+1-5	from	O	O	_	_	
+1-6	my	B-ScrPart_gardener	O	_	_	
+1-7	local	O	O	_	_	
+1-8	plant	B-ScrPart_shop	O	_	_	
+1-9	supply	I-ScrPart_shop	O	_	_	
+1-10	store	I-ScrPart_shop|B-ScrPart_shop	O	_	_	
+1-11	.	O	O	_	_	
+
+#id=2
+#text=It was a small sapling with only a few branches on it .
+2-1	It	B-ScrPart_tree	O	_	_	
+2-2	was	O	B-UnrelEv	_	_	
+2-3	a	O	O	_	_	
+2-4	small	O	O	_	_	
+2-5	sapling	B-ScrPart_tree	O	_	_	
+2-6	with	O	O	_	_	
+2-7	only	O	O	_	_	
+2-8	a	O	O	_	_	
+2-9	few	O	O	_	_	
+2-10	branches	B-NPart	O	_	_	
+2-11	on	O	O	_	_	
+2-12	it	B-ScrPart_tree	O	_	_	
+2-13	.	O	O	_	_	
+
+#id=3
+#text=I took a shovel out of my garage and found a good place for the tree next to my house .
+3-1	I	B-ScrPart_gardener	O	_	_	
+3-2	took	O	B-ScrEv_get_tools	_	_	
+3-3	a	O	O	_	_	
+3-4	shovel	B-ScrPart_gardening_tool	O	_	_	
+3-5	out	O	O	_	_	
+3-6	of	O	O	_	_	
+3-7	my	B-ScrPart_gardener	O	_	_	
+3-8	garage	B-NPart	O	_	_	
+3-9	and	O	O	_	_	
+3-10	found	O	B-ScrEv_find_place	_	_	
+3-11	a	O	O	_	_	
+3-12	good	O	O	_	_	
+3-13	place	B-ScrPart_location_garden	O	_	_	
+3-14	for	O	O	_	_	
+3-15	the	O	O	_	_	
+3-16	tree	B-ScrPart_tree	O	_	_	
+3-17	next	O	O	_	_	
+3-18	to	O	O	_	_	
+3-19	my	B-ScrPart_gardener	O	_	_	
+3-20	house	B-NPart	O	_	_	
+3-21	.	O	O	_	_	
+
+#id=4
+#text=I began digging a hole with the shovel for a few minutes until the hole was about one and a half feet deep .
+4-1	I	B-ScrPart_gardener	O	_	_	
+4-2	began	O	O	_	_	
+4-3	digging	O	B-ScrEv_dug_hole	_	_	
+4-4	a	O	O	_	_	
+4-5	hole	B-ScrPart_hole	O	_	_	
+4-6	with	O	O	_	_	
+4-7	the	O	O	_	_	
+4-8	shovel	B-ScrPart_gardening_tool	O	_	_	
+4-9	for	O	O	_	_	
+4-10	a	O	O	_	_	
+4-11	few	O	O	_	_	
+4-12	minutes	B-ScrPart_time	O	_	_	
+4-13	until	O	O	_	_	
+4-14	the	O	O	_	_	
+4-15	hole	B-ScrPart_hole	O	_	_	
+4-16	was	O	B-UnrelEv	_	_	
+4-17	about	O	O	_	_	
+4-18	one	O	O	_	_	
+4-19	and	O	O	_	_	
+4-20	a	O	O	_	_	
+4-21	half	O	O	_	_	
+4-22	feet	B-NPart	O	_	_	
+4-23	deep	O	O	_	_	
+4-24	.	O	O	_	_	
+
+#id=5
+#text=I set down the shovel , and removed the plastic wrap from the tree 's roots .
+5-1	I	B-ScrPart_gardener	O	_	_	
+5-2	set	O	B-RelNScrEv|B-RelNScrEv	_	_	
+5-3	down	O	I-RelNScrEv	_	_	
+5-4	the	O	O	_	_	
+5-5	shovel	B-ScrPart_gardening_tool	O	_	_	
+5-6	,	O	O	_	_	
+5-7	and	O	O	_	_	
+5-8	removed	O	B-ScrEv_unwrap_root	_	_	
+5-9	the	O	O	_	_	
+5-10	plastic	O	O	_	_	
+5-11	wrap	B-ScrPart_wrapping	O	_	_	
+5-12	from	O	O	_	_	
+5-13	the	O	O	_	_	
+5-14	tree	B-ScrPart_tree	O	_	_	
+5-15	's	O	O	_	_	
+5-16	roots	B-ScrPart_root	O	_	_	
+5-17	.	O	O	_	_	
+
+#id=6
+#text=I separated the roots and loosened them apart .
+6-1	I	B-ScrPart_gardener	O	_	_	
+6-2	separated	O	B-ScrEv_other	_	_	
+6-3	the	O	O	_	_	
+6-4	roots	B-ScrPart_root	O	_	_	
+6-5	and	O	O	_	_	
+6-6	loosened	O	B-ScrEv_other	_	_	
+6-7	them	B-ScrPart_root	O	_	_	
+6-8	apart	O	O	_	_	
+6-9	.	O	O	_	_	
+
+#id=7
+#text=I set the tree down into the hole , and used the shovel to fill in the space around the roots with dirt and fertilizer that would help the tree grow better .
+7-1	I	B-ScrPart_gardener	O	_	_	
+7-2	set	O	B-ScrEv_place_root	_	_	
+7-3	the	O	O	_	_	
+7-4	tree	B-ScrPart_tree	O	_	_	
+7-5	down	O	O	_	_	
+7-6	into	O	O	_	_	
+7-7	the	O	O	_	_	
+7-8	hole	B-ScrPart_hole	O	_	_	
+7-9	,	O	O	_	_	
+7-10	and	O	O	_	_	
+7-11	used	O	B-RelNScrEv	_	_	
+7-12	the	O	O	_	_	
+7-13	shovel	B-ScrPart_gardening_tool	O	_	_	
+7-14	to	O	O	_	_	
+7-15	fill	O	B-ScrEv_refill_hole|B-ScrEv_refill_hole	_	_	
+7-16	in	O	I-ScrEv_refill_hole	_	_	
+7-17	the	O	O	_	_	
+7-18	space	B-NPart	O	_	_	
+7-19	around	O	O	_	_	
+7-20	the	O	O	_	_	
+7-21	roots	B-ScrPart_root	O	_	_	
+7-22	with	O	O	_	_	
+7-23	dirt	B-ScrPart_dirt	O	_	_	
+7-24	and	O	O	_	_	
+7-25	fertilizer	B-ScrPart_fertilizer	O	_	_	
+7-26	that	O	O	_	_	
+7-27	would	O	O	_	_	
+7-28	help	O	B-UnrelEv	_	_	
+7-29	the	O	O	_	_	
+7-30	tree	B-ScrPart_tree	O	_	_	
+7-31	grow	O	B-RelNScrEv	_	_	
+7-32	better	O	O	_	_	
+7-33	.	O	O	_	_	
+
+#id=8
+#text=Then , I took a bag of mulch from out of the garage and spread some of it around the tree to help protect it from other invasive plants .
+8-1	Then	O	O	_	_	
+8-2	,	O	O	_	_	
+8-3	I	B-ScrPart_gardener	O	_	_	
+8-4	took	O	B-ScrEv_get_tools	_	_	
+8-5	a	O	O	_	_	
+8-6	bag	B-NPart	O	_	_	
+8-7	of	O	O	_	_	
+8-8	mulch	B-ScrPart_other	O	_	_	
+8-9	from	O	O	_	_	
+8-10	out	O	O	_	_	
+8-11	of	O	O	_	_	
+8-12	the	O	O	_	_	
+8-13	garage	B-NPart	O	_	_	
+8-14	and	O	O	_	_	
+8-15	spread	O	B-ScrEv_other	_	_	
+8-16	some	O	O	_	_	
+8-17	of	O	O	_	_	
+8-18	it	B-ScrPart_other	O	webanno.custom.Corefchains_	8-8	
+8-19	around	O	O	_	_	
+8-20	the	O	O	_	_	
+8-21	tree	B-ScrPart_tree	O	_	_	
+8-22	to	O	O	_	_	
+8-23	help	O	O	_	_	
+8-24	protect	O	B-RelNScrEv	_	_	
+8-25	it	B-ScrPart_tree	O	_	_	
+8-26	from	O	O	_	_	
+8-27	other	O	O	_	_	
+8-28	invasive	O	O	_	_	
+8-29	plants	B-NPart	O	_	_	
+8-30	.	O	O	_	_	
+
+#id=9
+#text=I watered the tree with a watering can . 
+9-1	I	B-ScrPart_gardener	O	_	_	
+9-2	watered	O	B-ScrEv_water	_	_	
+9-3	the	O	O	_	_	
+9-4	tree	B-ScrPart_tree	O	_	_	
+9-5	with	O	O	_	_	
+9-6	a	O	O	_	_	
+9-7	watering	B-NPart	O	_	_	
+9-8	can	I-NPart|B-NPart	O	_	_	
+9-9	.	O	O	_	_	
+

@@ -1,0 +1,354 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=In order for a bike to be rideable , its tires must be full of air .
+1-1	In	O	O	_	_	
+1-2	order	O	O	_	_	
+1-3	for	O	O	_	_	
+1-4	a	O	O	_	_	
+1-5	bike	B-ScrPart_bicycle	O	_	_	
+1-6	to	O	O	_	_	
+1-7	be	O	B-UnrelEv	_	_	
+1-8	rideable	O	O	_	_	
+1-9	,	O	O	_	_	
+1-10	its	B-ScrPart_bicycle	O	_	_	
+1-11	tires	B-ScrPart_tire	O	_	_	
+1-12	must	O	O	_	_	
+1-13	be	O	B-UnrelEv	_	_	
+1-14	full	O	O	_	_	
+1-15	of	O	O	_	_	
+1-16	air	B-ScrPart_air	O	_	_	
+1-17	.	O	O	_	_	
+
+#id=2
+#text=If you ride over a sharp thorn or rock , you might get unlucky , and pierce one of your tires .
+2-1	If	O	O	_	_	
+2-2	you	B-ScrPart_rider	O	_	_	
+2-3	ride	O	B-ScrEv_ride_bike	_	_	
+2-4	over	O	O	_	_	
+2-5	a	O	O	_	_	
+2-6	sharp	O	O	_	_	
+2-7	thorn	B-ScrPart_object_damage	O	_	_	
+2-8	or	O	O	_	_	
+2-9	rock	B-ScrPart_object_damage	O	_	_	
+2-10	,	O	O	_	_	
+2-11	you	B-ScrPart_rider	O	_	_	
+2-12	might	O	O	_	_	
+2-13	get	O	B-UnrelEv	_	_	
+2-14	unlucky	O	O	_	_	
+2-15	,	O	O	_	_	
+2-16	and	O	O	_	_	
+2-17	pierce	O	B-RelNScrEv	_	_	
+2-18	one	O	O	_	_	
+2-19	of	O	O	_	_	
+2-20	your	B-ScrPart_rider	O	_	_	
+2-21	tires	B-ScrPart_tire	O	_	_	
+2-22	.	O	O	_	_	
+
+#id=3
+#text=The air will rush out of the hole , and you will have a flat tire , often just called , a flat .
+3-1	The	O	O	_	_	
+3-2	air	B-ScrPart_air	O	_	_	
+3-3	will	O	O	_	_	
+3-4	rush	O	B-RelNScrEv	_	_	
+3-5	out	O	O	_	_	
+3-6	of	O	O	_	_	
+3-7	the	O	O	_	_	
+3-8	hole	B-ScrPart_damage	O	_	_	
+3-9	,	O	O	_	_	
+3-10	and	O	O	_	_	
+3-11	you	B-ScrPart_rider	O	_	_	
+3-12	will	O	O	_	_	
+3-13	have	O	B-Evoking	_	_	
+3-14	a	O	I-Evoking	_	_	
+3-15	flat	O	I-Evoking	_	_	
+3-16	tire	B-ScrPart_tire	I-Evoking	_	_	
+3-17	,	O	O	_	_	
+3-18	often	O	O	_	_	
+3-19	just	O	O	_	_	
+3-20	called	O	B-UnrelEv	_	_	
+3-21	,	O	O	_	_	
+3-22	a	O	O	_	_	
+3-23	flat	O	O	_	_	
+3-24	.	O	O	_	_	
+
+#id=4
+#text=If this happens , you mus n't continue to ride ; you need to stop somewhere , and repair the tire .
+4-1	If	O	O	_	_	
+4-2	this	O	O	_	_	
+4-3	happens	O	B-UnrelEv	_	_	
+4-4	,	O	O	_	_	
+4-5	you	B-ScrPart_rider	O	_	_	
+4-6	mus	O	O	_	_	
+4-7	n't	O	O	_	_	
+4-8	continue	O	B-UnrelEv	_	_	
+4-9	to	O	O	_	_	
+4-10	ride	O	B-ScrEv_ride_bike	_	_	
+4-11	;	O	O	_	_	
+4-12	you	B-ScrPart_rider	O	_	_	
+4-13	need	O	O	_	_	
+4-14	to	O	O	_	_	
+4-15	stop	O	B-ScrEv_get_off	_	_	
+4-16	somewhere	O	O	_	_	
+4-17	,	O	O	_	_	
+4-18	and	O	O	_	_	
+4-19	repair	O	B-Evoking	_	_	
+4-20	the	O	I-Evoking	_	_	
+4-21	tire	B-ScrPart_tire	I-Evoking	_	_	
+4-22	.	O	O	_	_	
+
+#id=5
+#text=First , you 'll need to remove the wheel that has the flat tire .
+5-1	First	O	O	_	_	
+5-2	,	O	O	_	_	
+5-3	you	B-ScrPart_rider	O	_	_	
+5-4	'll	O	O	_	_	
+5-5	need	O	O	_	_	
+5-6	to	O	O	_	_	
+5-7	remove	O	B-ScrEv_free_wheel	_	_	
+5-8	the	O	O	_	_	
+5-9	wheel	B-ScrPart_wheel	O	_	_	
+5-10	that	B-ScrPart_wheel	O	_	_	
+5-11	has	O	B-Evoking	_	_	
+5-12	the	O	I-Evoking	_	_	
+5-13	flat	O	I-Evoking	_	_	
+5-14	tire	B-ScrPart_tire	I-Evoking	_	_	
+5-15	.	O	O	_	_	
+
+#id=6
+#text=It is usually easier to remove the front wheel than the back , because of the gears in back .
+6-1	It	B-No_label	O	_	_	
+6-2	is	O	B-UnrelEv	_	_	
+6-3	usually	O	O	_	_	
+6-4	easier	O	O	_	_	
+6-5	to	O	O	_	_	
+6-6	remove	O	B-ScrEv_free_wheel	_	_	
+6-7	the	O	O	_	_	
+6-8	front	O	O	_	_	
+6-9	wheel	B-ScrPart_wheel	O	_	_	
+6-10	than	O	O	_	_	
+6-11	the	O	O	_	_	
+6-12	back	O	O	_	_	
+6-13	,	O	O	_	_	
+6-14	because	O	O	_	_	
+6-15	of	O	O	_	_	
+6-16	the	O	O	_	_	
+6-17	gears	B-ScrPart_bicycle_small_detail	O	_	_	
+6-18	in	O	O	_	_	
+6-19	back	O	O	_	_	
+6-20	.	O	O	_	_	
+
+#id=7
+#text=Once you have the damaged wheel off the bike , you need to remove the tough outer part of the tire by prying it , little by little , off of the rim of the wheel .
+7-1	Once	O	O	_	_	
+7-2	you	B-ScrPart_rider	O	_	_	
+7-3	have	O	B-ScrEv_free_wheel	_	_	
+7-4	the	O	O	_	_	
+7-5	damaged	O	B-RelNScrEv	_	_	
+7-6	wheel	B-ScrPart_wheel	O	_	_	
+7-7	off	O	O	_	_	
+7-8	the	O	O	_	_	
+7-9	bike	B-ScrPart_bicycle	O	_	_	
+7-10	,	O	O	_	_	
+7-11	you	B-ScrPart_rider	O	_	_	
+7-12	need	O	O	_	_	
+7-13	to	O	O	_	_	
+7-14	remove	O	B-ScrEv_remove_tire	_	_	
+7-15	the	O	O	_	_	
+7-16	tough	O	O	_	_	
+7-17	outer	O	O	_	_	
+7-18	part	B-Head_of_Partitive	O	_	_	
+7-19	of	O	O	_	_	
+7-20	the	O	O	_	_	
+7-21	tire	B-ScrPart_tire	O	_	_	
+7-22	by	O	O	_	_	
+7-23	prying	O	B-ScrEv_remove_tire	_	_	
+7-24	it	B-ScrPart_tire	O	_	_	
+7-25	,	O	O	_	_	
+7-26	little	O	O	_	_	
+7-27	by	O	O	_	_	
+7-28	little	O	O	_	_	
+7-29	,	O	O	_	_	
+7-30	off	O	O	_	_	
+7-31	of	O	O	_	_	
+7-32	the	O	O	_	_	
+7-33	rim	B-ScrPart_rim	O	_	_	
+7-34	of	O	O	_	_	
+7-35	the	O	O	_	_	
+7-36	wheel	B-ScrPart_wheel	O	_	_	
+7-37	.	O	O	_	_	
+
+#id=8
+#text=The hole in the tough tire is not actually the problem ; it 's the hole in the inner tube that must be repaired .
+8-1	The	O	O	_	_	
+8-2	hole	B-ScrPart_damage	O	webanno.custom.Corefchains_	3-8	
+8-3	in	O	O	_	_	
+8-4	the	O	O	_	_	
+8-5	tough	O	O	_	_	
+8-6	tire	B-ScrPart_tire	O	_	_	
+8-7	is	O	B-UnrelEv	_	_	
+8-8	not	O	O	_	_	
+8-9	actually	O	O	_	_	
+8-10	the	O	O	_	_	
+8-11	problem	B-NPart	O	_	_	
+8-12	;	O	O	_	_	
+8-13	it	B-No_label	O	_	_	
+8-14	's	O	B-UnrelEv	_	_	
+8-15	the	O	O	_	_	
+8-16	hole	B-ScrPart_damage	O	webanno.custom.Corefchains_	8-2	
+8-17	in	O	O	_	_	
+8-18	the	O	O	_	_	
+8-19	inner	O	O	_	_	
+8-20	tube	B-ScrPart_tire	O	_	_	
+8-21	that	B-ScrPart_damage	O	webanno.custom.Corefchains_	8-16	
+8-22	must	O	O	_	_	
+8-23	be	O	O	_	_	
+8-24	repaired	O	B-Evoking	_	_	
+8-25	.	O	O	_	_	
+
+#id=9
+#text=Once you 've pried the tire off the rim , it is easy to pull out the floppy tube .
+9-1	Once	O	O	_	_	
+9-2	you	B-ScrPart_rider	O	_	_	
+9-3	've	O	O	_	_	
+9-4	pried	O	B-ScrEv_remove_tire	_	_	
+9-5	the	O	O	_	_	
+9-6	tire	B-ScrPart_tire	O	_	_	
+9-7	off	O	O	_	_	
+9-8	the	O	O	_	_	
+9-9	rim	B-ScrPart_rim	O	_	_	
+9-10	,	O	O	_	_	
+9-11	it	B-No_label	O	_	_	
+9-12	is	O	B-UnrelEv	_	_	
+9-13	easy	O	O	_	_	
+9-14	to	O	O	_	_	
+9-15	pull	O	B-ScrEv_take_tire_off	_	_	
+9-16	out	O	I-ScrEv_take_tire_off	_	_	
+9-17	the	O	O	_	_	
+9-18	floppy	O	O	_	_	
+9-19	tube	B-ScrPart_tire	O	_	_	
+9-20	.	O	O	_	_	
+
+#id=10
+#text=Now you have to locate the hole .
+10-1	Now	O	O	_	_	
+10-2	you	B-ScrPart_rider	O	_	_	
+10-3	have	O	O	_	_	
+10-4	to	O	O	_	_	
+10-5	locate	O	B-ScrEv_examine_tire	_	_	
+10-6	the	O	O	_	_	
+10-7	hole	B-ScrPart_damage	O	webanno.custom.Corefchains_	8-21	
+10-8	.	O	O	_	_	
+
+#id=11
+#text=Sometimes the hole is very obvious , just by looking .
+11-1	Sometimes	O	O	_	_	
+11-2	the	O	O	_	_	
+11-3	hole	B-ScrPart_damage	O	webanno.custom.Corefchains_	10-7	
+11-4	is	O	B-UnrelEv	_	_	
+11-5	very	O	O	_	_	
+11-6	obvious	O	O	_	_	
+11-7	,	O	O	_	_	
+11-8	just	O	O	_	_	
+11-9	by	O	O	_	_	
+11-10	looking	O	B-ScrEv_examine_tire	_	_	
+11-11	.	O	O	_	_	
+
+#id=12
+#text=Other times , you can submerge the tube under water , and look for bubbles .
+12-1	Other	O	O	_	_	
+12-2	times	B-No_label	O	_	_	
+12-3	,	O	O	_	_	
+12-4	you	B-ScrPart_rider	O	_	_	
+12-5	can	O	O	_	_	
+12-6	submerge	O	B-RelNScrEv	_	_	
+12-7	the	O	O	_	_	
+12-8	tube	B-ScrPart_tire	O	_	_	
+12-9	under	O	O	_	_	
+12-10	water	B-NPart	O	_	_	
+12-11	,	O	O	_	_	
+12-12	and	O	O	_	_	
+12-13	look	O	B-ScrEv_examine_tire	_	_	
+12-14	for	O	I-ScrEv_examine_tire	_	_	
+12-15	bubbles	B-NPart	O	_	_	
+12-16	.	O	O	_	_	
+
+#id=13
+#text=Once found , the hole can be easily patched using a patch kit .
+13-1	Once	O	O	_	_	
+13-2	found	O	B-ScrEv_examine_tire	_	_	
+13-3	,	O	O	_	_	
+13-4	the	O	O	_	_	
+13-5	hole	B-ScrPart_damage	O	webanno.custom.Corefchains_	11-3	
+13-6	can	O	O	_	_	
+13-7	be	O	O	_	_	
+13-8	easily	O	O	_	_	
+13-9	patched	O	B-ScrEv_put_patch/seal	_	_	
+13-10	using	O	B-RelNScrEv	_	_	
+13-11	a	O	O	_	_	
+13-12	patch	B-ScrPart_tool	O	_	_	
+13-13	kit	I-ScrPart_tool|B-ScrPart_tool	O	_	_	
+13-14	.	O	O	_	_	
+
+#id=14
+#text=Test to make sure the hole is totally sealed before reassembling the wheel !
+14-1	Test	O	B-ScrEv_check_new_tire	_	_	
+14-2	to	O	O	_	_	
+14-3	make	O	B-UnrelEv	_	_	
+14-4	sure	O	I-UnrelEv	_	_	
+14-5	the	O	O	_	_	
+14-6	hole	B-ScrPart_damage	O	webanno.custom.Corefchains_	13-5	
+14-7	is	O	O	_	_	
+14-8	totally	O	O	_	_	
+14-9	sealed	O	B-ScrEv_put_patch/seal	_	_	
+14-10	before	O	O	_	_	
+14-11	reassembling	O	B-ScrEv_put_new_tire	_	_	
+14-12	the	O	O	_	_	
+14-13	wheel	B-ScrPart_wheel	O	_	_	
+14-14	!	O	O	_	_	
+
+#id=15
+#text=If the repaired tube holds air well , you can put the tube in the tire , and get them back onto the rim of the wheel .
+15-1	If	O	O	_	_	
+15-2	the	O	O	_	_	
+15-3	repaired	O	B-Evoking	_	_	
+15-4	tube	B-ScrPart_tire	O	_	_	
+15-5	holds	O	B-ScrEv_check_new_tire	_	_	
+15-6	air	B-ScrPart_air	O	_	_	
+15-7	well	O	O	_	_	
+15-8	,	O	O	_	_	
+15-9	you	B-ScrPart_rider	O	_	_	
+15-10	can	O	O	_	_	
+15-11	put	O	B-ScrEv_put_new_tire	_	_	
+15-12	the	O	O	_	_	
+15-13	tube	B-ScrPart_tire	O	_	_	
+15-14	in	O	O	_	_	
+15-15	the	O	O	_	_	
+15-16	tire	B-ScrPart_tire	O	_	_	
+15-17	,	O	O	_	_	
+15-18	and	O	O	_	_	
+15-19	get	O	B-ScrEv_put_new_tire	_	_	
+15-20	them	B-ScrPart_tire	O	_	_	
+15-21	back	O	O	_	_	
+15-22	onto	O	O	_	_	
+15-23	the	O	O	_	_	
+15-24	rim	B-ScrPart_rim	O	_	_	
+15-25	of	O	O	_	_	
+15-26	the	O	O	_	_	
+15-27	wheel	B-ScrPart_wheel	O	_	_	
+15-28	.	O	O	_	_	
+
+#id=16
+#text=Now , pedal fast , to make up for lost time ! 
+16-1	Now	O	O	_	_	
+16-2	,	O	O	_	_	
+16-3	pedal	O	B-ScrEv_ride_bike	_	_	
+16-4	fast	O	O	_	_	
+16-5	,	O	O	_	_	
+16-6	to	O	O	_	_	
+16-7	make	O	B-UnrelEv	_	_	
+16-8	up	O	I-UnrelEv	_	_	
+16-9	for	O	O	_	_	
+16-10	lost	O	O	_	_	
+16-11	time	B-NPart	O	_	_	
+16-12	!	O	O	_	_	
+

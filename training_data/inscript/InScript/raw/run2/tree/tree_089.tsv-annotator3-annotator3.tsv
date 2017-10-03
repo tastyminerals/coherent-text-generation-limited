@@ -1,0 +1,196 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=Yesterday I went to the nursery and bought a baby apple tree about three feet tall .
+1-1	Yesterday	B-ScrPart_time	O	
+1-2	I	B-ScrPart_gardener	O	
+1-3	went	O	B-ScrEv_other	
+1-4	to	O	O	
+1-5	the	O	O	
+1-6	nursery	B-ScrPart_shop	O	
+1-7	and	O	O	
+1-8	bought	O	B-ScrEv_get_tree	
+1-9	a	O	O	
+1-10	baby	B-NPart	O	
+1-11	apple	B-ScrPart_tree	O	
+1-12	tree	I-ScrPart_tree|B-ScrPart_tree	O	
+1-13	about	O	O	
+1-14	three	O	O	
+1-15	feet	B-ScrPart_other	O	
+1-16	tall	O	O	
+1-17	.	O	O	
+
+#id=2
+#text=I 've always loved apple trees .
+2-1	I	B-ScrPart_gardener	O	
+2-2	've	O	O	
+2-3	always	O	O	
+2-4	loved	O	B-UnrelEv	
+2-5	apple	B-ScrPart_tree	O	
+2-6	trees	I-ScrPart_tree|B-ScrPart_tree	O	
+2-7	.	O	O	
+
+#id=3
+#text=I carried it home in my pickup truck .
+3-1	I	B-ScrPart_gardener	O	
+3-2	carried	O	B-ScrEv_take_home	
+3-3	it	B-ScrPart_tree	O	
+3-4	home	B-No_label	O	
+3-5	in	O	O	
+3-6	my	B-ScrPart_gardener	O	
+3-7	pickup	B-NPart	O	
+3-8	truck	I-NPart|B-NPart	O	
+3-9	.	O	O	
+
+#id=4
+#text=I grabbed my shovel from the shed and started to dig a hole out in the corner of my backyard .
+4-1	I	B-ScrPart_gardener	O	
+4-2	grabbed	O	B-ScrEv_get_tools	
+4-3	my	B-ScrPart_gardener	O	
+4-4	shovel	B-ScrPart_gardening_tool	O	
+4-5	from	O	O	
+4-6	the	O	O	
+4-7	shed	B-ScrPart_other	O	
+4-8	and	O	O	
+4-9	started	O	B-UnrelEv	
+4-10	to	O	O	
+4-11	dig	O	B-ScrEv_dug_hole	
+4-12	a	O	O	
+4-13	hole	B-ScrPart_hole	O	
+4-14	out	O	O	
+4-15	in	O	O	
+4-16	the	O	O	
+4-17	corner	B-ScrPart_location_garden	O	
+4-18	of	O	O	
+4-19	my	B-ScrPart_gardener	O	
+4-20	backyard	B-ScrPart_location_garden	O	
+4-21	.	O	O	
+
+#id=5
+#text=As I was shoveling I started to hit some rocky soil , and I decided to try the other far back corner of my yard .
+5-1	As	O	O	
+5-2	I	B-ScrPart_gardener	O	
+5-3	was	O	O	
+5-4	shoveling	O	B-ScrEv_dug_hole	
+5-5	I	B-ScrPart_gardener	O	
+5-6	started	O	B-UnrelEv	
+5-7	to	O	O	
+5-8	hit	O	B-RelNScrEv	
+5-9	some	O	O	
+5-10	rocky	O	O	
+5-11	soil	B-ScrPart_dirt	O	
+5-12	,	O	O	
+5-13	and	O	O	
+5-14	I	B-ScrPart_gardener	O	
+5-15	decided	O	B-UnrelEv	
+5-16	to	O	O	
+5-17	try	O	B-UnrelEv	
+5-18	the	O	O	
+5-19	other	O	O	
+5-20	far	O	O	
+5-21	back	O	O	
+5-22	corner	B-ScrPart_location_garden	O	
+5-23	of	O	O	
+5-24	my	B-ScrPart_gardener	O	
+5-25	yard	B-ScrPart_location_garden	O	
+5-26	.	O	O	
+
+#id=6
+#text=The hole took about 45 minutes to dig , and I was exhausted from the work and the heat .
+6-1	The	O	O	
+6-2	hole	B-ScrPart_hole	O	
+6-3	took	O	B-RelNScrEv	
+6-4	about	O	O	
+6-5	45	O	O	
+6-6	minutes	B-ScrPart_time	O	
+6-7	to	O	O	
+6-8	dig	O	B-ScrEv_dug_hole	
+6-9	,	O	O	
+6-10	and	O	O	
+6-11	I	B-ScrPart_gardener	O	
+6-12	was	O	B-UnrelEv	
+6-13	exhausted	O	B-UnrelEv	
+6-14	from	O	O	
+6-15	the	O	O	
+6-16	work	B-NPart	O	
+6-17	and	O	O	
+6-18	the	O	O	
+6-19	heat	B-NPart	O	
+6-20	.	O	O	
+
+#id=7
+#text=I was able to fit the tree perfectly into the hole and then took a break to drink some lemonade .
+7-1	I	B-ScrPart_gardener	O	
+7-2	was	O	O	
+7-3	able	O	O	
+7-4	to	O	O	
+7-5	fit	O	B-ScrEv_place_root	
+7-6	the	O	O	
+7-7	tree	B-ScrPart_tree	O	
+7-8	perfectly	O	O	
+7-9	into	O	O	
+7-10	the	O	O	
+7-11	hole	B-ScrPart_hole	O	
+7-12	and	O	O	
+7-13	then	O	O	
+7-14	took	O	B-ScrEv_other	
+7-15	a	O	O	
+7-16	break	B-SuppVComp	O	
+7-17	to	O	O	
+7-18	drink	O	B-UnrelEv	
+7-19	some	O	O	
+7-20	lemonade	B-NPart	O	
+7-21	.	O	O	
+
+#id=8
+#text=After about 15 minutes I started to refill the dirt around the tree .
+8-1	After	O	O	
+8-2	about	O	O	
+8-3	15	O	O	
+8-4	minutes	B-ScrPart_time	O	
+8-5	I	B-ScrPart_gardener	O	
+8-6	started	O	B-UnrelEv	
+8-7	to	O	O	
+8-8	refill	O	B-ScrEv_refill_hole	
+8-9	the	O	O	
+8-10	dirt	B-ScrPart_dirt	O	
+8-11	around	O	O	
+8-12	the	O	O	
+8-13	tree	B-ScrPart_tree	O	
+8-14	.	O	O	
+
+#id=9
+#text=After packing the dirt down , I saturated the ground around the tree with water .
+9-1	After	O	O	
+9-2	packing	O	B-ScrEv_tamp_dirt	
+9-3	the	O	O	
+9-4	dirt	B-ScrPart_dirt	O	
+9-5	down	O	O	
+9-6	,	O	O	
+9-7	I	B-ScrPart_gardener	O	
+9-8	saturated	O	B-ScrEv_water	
+9-9	the	O	O	
+9-10	ground	B-ScrPart_other	O	
+9-11	around	O	O	
+9-12	the	O	O	
+9-13	tree	B-ScrPart_tree	O	
+9-14	with	O	O	
+9-15	water	B-ScrPart_water	O	
+9-16	.	O	O	
+
+#id=10
+#text=I hope that the tree is n't too shocked and it actually lives . 
+10-1	I	B-ScrPart_gardener	O	
+10-2	hope	O	B-UnrelEv	
+10-3	that	O	O	
+10-4	the	O	O	
+10-5	tree	B-ScrPart_tree	O	
+10-6	is	O	B-UnrelEv	
+10-7	n't	O	O	
+10-8	too	O	O	
+10-9	shocked	O	B-UnrelEv	
+10-10	and	O	O	
+10-11	it	B-ScrPart_tree	O	
+10-12	actually	O	O	
+10-13	lives	O	B-UnrelEv	
+10-14	.	O	O	
+

@@ -1,0 +1,217 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=Last weekend I thought it would be neat to make my back yard more lively .
+1-1	Last	O	O	
+1-2	weekend	B-ScrPart_time	O	
+1-3	I	B-ScrPart_gardener	O	
+1-4	thought	O	B-UnrelEv	
+1-5	it	B-No_label	O	
+1-6	would	O	O	
+1-7	be	O	B-UnrelEv	
+1-8	neat	O	O	
+1-9	to	O	O	
+1-10	make	O	B-UnrelEv	
+1-11	my	B-ScrPart_gardener	O	
+1-12	back	B-ScrPart_location_garden	O	
+1-13	yard	I-ScrPart_location_garden|B-ScrPart_location_garden	O	
+1-14	more	O	O	
+1-15	lively	O	O	
+1-16	.	O	O	
+
+#id=2
+#text=I went to the local landscaping store and picked out some trees I thought would look nice in my yard .
+2-1	I	B-ScrPart_gardener	O	
+2-2	went	O	B-ScrEv_get_tree	
+2-3	to	O	O	
+2-4	the	O	O	
+2-5	local	O	O	
+2-6	landscaping	B-ScrPart_shop	O	
+2-7	store	I-ScrPart_shop|B-ScrPart_shop	O	
+2-8	and	O	O	
+2-9	picked	O	B-ScrEv_choose_tree|B-ScrEv_choose_tree	
+2-10	out	O	I-ScrEv_choose_tree	
+2-11	some	O	O	
+2-12	trees	B-ScrPart_tree	O	
+2-13	I	B-ScrPart_gardener	O	
+2-14	thought	O	B-UnrelEv	
+2-15	would	O	O	
+2-16	look	O	B-UnrelEv	
+2-17	nice	O	O	
+2-18	in	O	O	
+2-19	my	B-ScrPart_gardener	O	
+2-20	yard	B-ScrPart_location_garden	O	
+2-21	.	O	O	
+
+#id=3
+#text=After returning home I called to my kids to come help me install the new plants .
+3-1	After	O	O	
+3-2	returning	O	B-UnrelEv	
+3-3	home	B-ScrPart_other	O	
+3-4	I	B-ScrPart_gardener	O	
+3-5	called	O	B-UnrelEv	
+3-6	to	O	O	
+3-7	my	B-ScrPart_gardener	O	
+3-8	kids	B-ScrPart_gardener	O	
+3-9	to	O	O	
+3-10	come	O	B-UnrelEv	
+3-11	help	O	B-RelNScrEv	
+3-12	me	B-ScrPart_gardener	O	
+3-13	install	O	B-Evoking	
+3-14	the	O	I-Evoking	
+3-15	new	O	I-Evoking	
+3-16	plants	B-ScrPart_tree	I-Evoking	
+3-17	.	O	O	
+
+#id=4
+#text=We all grabbed shovels , gloves , and buckets and went to work .
+4-1	We	B-ScrPart_gardener	O	
+4-2	all	O	O	
+4-3	grabbed	O	B-ScrEv_get_tools	
+4-4	shovels	B-ScrPart_gardening_tool	O	
+4-5	,	O	O	
+4-6	gloves	B-ScrPart_gardening_tool	O	
+4-7	,	O	O	
+4-8	and	O	O	
+4-9	buckets	B-ScrPart_gardening_tool	O	
+4-10	and	O	O	
+4-11	went	O	B-UnrelEv	
+4-12	to	O	O	
+4-13	work	O	O	
+4-14	.	O	O	
+
+#id=5
+#text=We dug holes around the yard where we thought it would be nice to have the trees grow .
+5-1	We	B-ScrPart_gardener	O	
+5-2	dug	O	B-ScrEv_dug_hole	
+5-3	holes	B-ScrPart_hole	O	
+5-4	around	O	O	
+5-5	the	O	O	
+5-6	yard	B-ScrPart_location_garden	O	
+5-7	where	O	O	
+5-8	we	B-ScrPart_gardener	O	
+5-9	thought	O	B-UnrelEv	
+5-10	it	B-No_label	O	
+5-11	would	O	O	
+5-12	be	O	B-UnrelEv	
+5-13	nice	O	O	
+5-14	to	O	O	
+5-15	have	O	O	
+5-16	the	O	O	
+5-17	trees	B-ScrPart_tree	O	
+5-18	grow	O	B-RelNScrEv	
+5-19	.	O	O	
+
+#id=6
+#text=We carefully each picked our favorite tree for each spot .
+6-1	We	B-ScrPart_gardener	O	
+6-2	carefully	O	O	
+6-3	each	O	O	
+6-4	picked	O	B-ScrEv_choose_tree	
+6-5	our	B-ScrPart_gardener	O	
+6-6	favorite	O	O	
+6-7	tree	B-ScrPart_tree	O	
+6-8	for	O	O	
+6-9	each	O	O	
+6-10	spot	B-ScrPart_location_garden	O	
+6-11	.	O	O	
+
+#id=7
+#text=Once we had settled on the location of each tree we set them in the holes and covered them back up with dirt .
+7-1	Once	O	O	
+7-2	we	B-ScrPart_gardener	O	
+7-3	had	O	O	
+7-4	settled	O	B-ScrEv_find_place	
+7-5	on	O	O	
+7-6	the	O	O	
+7-7	location	B-ScrPart_location_garden	O	
+7-8	of	O	O	
+7-9	each	O	O	
+7-10	tree	B-ScrPart_tree	O	
+7-11	we	B-ScrPart_gardener	O	
+7-12	set	O	B-ScrEv_place_root	
+7-13	them	B-ScrPart_tree	O	
+7-14	in	O	O	
+7-15	the	O	O	
+7-16	holes	B-ScrPart_hole	O	
+7-17	and	O	O	
+7-18	covered	O	B-ScrEv_refill_hole	
+7-19	them	B-ScrPart_tree	O	
+7-20	back	O	O	
+7-21	up	O	O	
+7-22	with	O	O	
+7-23	dirt	B-ScrPart_dirt	O	
+7-24	.	O	O	
+
+#id=8
+#text=After placing some mulch around each tree to hold moisture it was time to water the plants .
+8-1	After	O	O	
+8-2	placing	O	B-ScrEv_place_fertilizers	
+8-3	some	O	O	
+8-4	mulch	B-ScrPart_fertilizer	O	
+8-5	around	O	O	
+8-6	each	O	O	
+8-7	tree	B-ScrPart_tree	O	
+8-8	to	O	O	
+8-9	hold	O	B-RelNScrEv	
+8-10	moisture	B-ScrPart_other	O	
+8-11	it	B-No_label	O	
+8-12	was	O	O	
+8-13	time	B-No_label	O	
+8-14	to	O	O	
+8-15	water	O	B-ScrEv_water	
+8-16	the	O	O	
+8-17	plants	B-ScrPart_tree	O	
+8-18	.	O	O	
+
+#id=9
+#text=We were all pretty worn out by this time so we played rock , paper , scissors to determine who would have to get the hose and water the new trees .
+9-1	We	B-ScrPart_gardener	O	
+9-2	were	O	O	
+9-3	all	O	O	
+9-4	pretty	O	O	
+9-5	worn	O	B-UnrelEv|B-UnrelEv	
+9-6	out	O	I-UnrelEv	
+9-7	by	O	O	
+9-8	this	O	O	
+9-9	time	B-ScrPart_time	O	
+9-10	so	O	O	
+9-11	we	B-ScrPart_gardener	O	
+9-12	played	O	B-UnrelEv	
+9-13	rock	B-NPart	O	
+9-14	,	O	O	
+9-15	paper	B-NPart	O	
+9-16	,	O	O	
+9-17	scissors	B-NPart	O	
+9-18	to	O	O	
+9-19	determine	O	B-UnrelEv	
+9-20	who	B-ScrPart_gardener	O	
+9-21	would	O	O	
+9-22	have	O	O	
+9-23	to	O	O	
+9-24	get	O	B-ScrEv_get_tools	
+9-25	the	O	O	
+9-26	hose	B-ScrPart_gardening_tool	O	
+9-27	and	O	O	
+9-28	water	O	B-ScrEv_water	
+9-29	the	O	O	
+9-30	new	O	O	
+9-31	trees	B-ScrPart_tree	O	
+9-32	.	O	O	
+
+#id=10
+#text=I ended up losing the game and was assigned the task of watering . 
+10-1	I	B-ScrPart_gardener	O	
+10-2	ended	O	B-UnrelEv|B-UnrelEv	
+10-3	up	O	I-UnrelEv	
+10-4	losing	O	B-UnrelEv	
+10-5	the	O	O	
+10-6	game	B-NPart	O	
+10-7	and	O	O	
+10-8	was	O	O	
+10-9	assigned	O	B-UnrelEv	
+10-10	the	O	O	
+10-11	task	B-NPart	O	
+10-12	of	O	O	
+10-13	watering	O	B-ScrEv_water	
+10-14	.	O	O	
+

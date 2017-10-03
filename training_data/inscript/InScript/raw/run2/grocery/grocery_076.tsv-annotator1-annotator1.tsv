@@ -1,0 +1,242 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text='' `` Going grocery shopping '' '' Going to the grocery for me is kind of a burden .
+1-1	''	O	O	_	_	
+1-2	``	O	O	_	_	
+1-3	Going	O	O	_	_	
+1-4	grocery	O	O	_	_	
+1-5	shopping	O	O	_	_	
+1-6	''	O	O	_	_	
+1-7	''	O	O	_	_	
+1-8	Going	B-Evoking	O	_	_	
+1-9	to	I-Evoking	O	_	_	
+1-10	the	I-Evoking	O	_	_	
+1-11	grocery	I-Evoking	B-ScrPart_grocery_shop	_	_	
+1-12	for	O	O	_	_	
+1-13	me	O	B-ScrPart_shopper	_	_	
+1-14	is	O	O	_	_	
+1-15	kind	O	B-No_label	_	_	
+1-16	of	O	O	_	_	
+1-17	a	O	O	_	_	
+1-18	burden	O	B-No_label	_	_	
+1-19	.	O	O	_	_	
+
+#id=2
+#text=I like going ahead and getting everything I need for at least two weeks .
+2-1	I	O	B-ScrPart_shopper	_	_	
+2-2	like	O	O	_	_	
+2-3	going	B-UnrelEv|B-UnrelEv	O	_	_	
+2-4	ahead	I-UnrelEv	O	_	_	
+2-5	and	O	O	_	_	
+2-6	getting	B-RelNScrEv	O	_	_	
+2-7	everything	O	B-ScrPart_groceries	_	_	
+2-8	I	O	B-ScrPart_shopper	_	_	
+2-9	need	B-RelNScrEv	O	_	_	
+2-10	for	O	O	_	_	
+2-11	at	O	O	_	_	
+2-12	least	O	O	_	_	
+2-13	two	O	O	_	_	
+2-14	weeks	O	B-NPart	_	_	
+2-15	.	O	O	_	_	
+
+#id=3
+#text=The longer I can wait to have to go back , the better .
+3-1	The	O	O	_	_	
+3-2	longer	O	O	_	_	
+3-3	I	O	B-ScrPart_shopper	_	_	
+3-4	can	O	O	_	_	
+3-5	wait	B-UnrelEv	O	_	_	
+3-6	to	O	O	_	_	
+3-7	have	O	O	_	_	
+3-8	to	O	O	_	_	
+3-9	go	B-ScrEv_go_grocery|B-ScrEv_go_grocery	O	_	_	
+3-10	back	I-ScrEv_go_grocery	O	_	_	
+3-11	,	O	O	_	_	
+3-12	the	O	O	_	_	
+3-13	better	O	O	_	_	
+3-14	.	O	O	_	_	
+
+#id=4
+#text=I normally go to two different stores .
+4-1	I	O	B-ScrPart_shopper	_	_	
+4-2	normally	O	O	_	_	
+4-3	go	B-ScrEv_go_grocery	O	_	_	
+4-4	to	O	O	_	_	
+4-5	two	O	O	_	_	
+4-6	different	O	O	_	_	
+4-7	stores	O	B-ScrPart_grocery_shop	_	_	
+4-8	.	O	O	_	_	
+
+#id=5
+#text=One is a traditional grocery store and the other is a dollar store .
+5-1	One	O	B-ScrPart_grocery_shop	_	_	
+5-2	is	B-UnrelEv	O	_	_	
+5-3	a	O	O	_	_	
+5-4	traditional	O	O	_	_	
+5-5	grocery	O	B-ScrPart_grocery_shop	_	_	
+5-6	store	O	I-ScrPart_grocery_shop|B-ScrPart_grocery_shop	_	_	
+5-7	and	O	O	_	_	
+5-8	the	O	O	_	_	
+5-9	other	O	B-ScrPart_grocery_shop	_	_	
+5-10	is	B-UnrelEv	O	_	_	
+5-11	a	O	O	_	_	
+5-12	dollar	O	B-ScrPart_grocery_shop	_	_	
+5-13	store	O	I-ScrPart_grocery_shop|B-ScrPart_grocery_shop	_	_	
+5-14	.	O	O	_	_	
+
+#id=6
+#text=When I go to the traditional grocery store , I get frustrated because I find it hard to find certain things .
+6-1	When	O	O	_	_	
+6-2	I	O	B-ScrPart_shopper	_	_	
+6-3	go	B-ScrEv_go_grocery	O	_	_	
+6-4	to	O	O	_	_	
+6-5	the	O	O	_	_	
+6-6	traditional	O	O	_	_	
+6-7	grocery	O	B-ScrPart_grocery_shop	_	_	
+6-8	store	O	I-ScrPart_grocery_shop|B-ScrPart_grocery_shop	_	_	
+6-9	,	O	O	_	_	
+6-10	I	O	B-ScrPart_shopper	_	_	
+6-11	get	O	O	_	_	
+6-12	frustrated	B-UnrelEv	O	_	_	
+6-13	because	O	O	_	_	
+6-14	I	O	B-ScrPart_shopper	_	_	
+6-15	find	B-UnrelEv	O	_	_	
+6-16	it	O	B-No_label	_	_	
+6-17	hard	O	O	_	_	
+6-18	to	O	O	_	_	
+6-19	find	B-ScrEv_get_groceries	O	_	_	
+6-20	certain	O	O	_	_	
+6-21	things	O	B-ScrPart_groceries	_	_	
+6-22	.	O	O	_	_	
+
+#id=7
+#text=Baking soda is an example .
+7-1	Baking	O	B-ScrPart_groceries	_	_	
+7-2	soda	O	I-ScrPart_groceries|B-ScrPart_groceries	_	_	
+7-3	is	B-UnrelEv	O	_	_	
+7-4	an	O	O	_	_	
+7-5	example	O	B-NPart	_	_	
+7-6	.	O	O	_	_	
+
+#id=8
+#text=One day , I asked an employee who was working in the baking supplies isle where the baking soda was .
+8-1	One	O	O	_	_	
+8-2	day	O	B-NPart	_	_	
+8-3	,	O	O	_	_	
+8-4	I	O	B-ScrPart_shopper	_	_	
+8-5	asked	B-RelNScrEv	O	_	_	
+8-6	an	O	O	_	_	
+8-7	employee	O	B-ScrPart_grocery_staff	_	_	
+8-8	who	O	B-ScrPart_grocery_staff	_	_	
+8-9	was	O	O	_	_	
+8-10	working	B-UnrelEv	O	_	_	
+8-11	in	O	O	_	_	
+8-12	the	O	O	_	_	
+8-13	baking	O	B-ScrPart_section|B-ScrPart_groceries	_	_	
+8-14	supplies	O	I-ScrPart_section|I-ScrPart_groceries|B-ScrPart_groceries	_	_	
+8-15	isle	O	I-ScrPart_section|B-ScrPart_section	_	_	
+8-16	where	O	O	_	_	
+8-17	the	O	O	_	_	
+8-18	baking	O	B-ScrPart_groceries	_	_	
+8-19	soda	O	I-ScrPart_groceries|B-ScrPart_groceries	_	_	
+8-20	was	B-UnrelEv	O	_	_	
+8-21	.	O	O	_	_	
+
+#id=9
+#text=We could not find it .
+9-1	We	O	B-ScrPart_shopper	_	_	
+9-2	could	O	O	_	_	
+9-3	not	O	O	_	_	
+9-4	find	B-ScrEv_get_groceries	O	_	_	
+9-5	it	O	B-ScrPart_groceries	_	_	
+9-6	.	O	O	_	_	
+
+#id=10
+#text=Again , this was on the baking supplies isle .
+10-1	Again	O	O	_	_	
+10-2	,	O	O	_	_	
+10-3	this	O	O	_	_	
+10-4	was	B-UnrelEv	O	_	_	
+10-5	on	O	O	_	_	
+10-6	the	O	O	_	_	
+10-7	baking	O	B-ScrPart_section|B-ScrPart_groceries	_	_	
+10-8	supplies	O	I-ScrPart_section|I-ScrPart_groceries|B-ScrPart_groceries	_	_	
+10-9	isle	O	I-ScrPart_section|B-ScrPart_section	webanno.custom.Corefchains_	8-15	
+10-10	.	O	O	_	_	
+
+#id=11
+#text=As I walk through the store looking for things I need , I 'll see a display of chips or something at the end of an isle .
+11-1	As	O	O	_	_	
+11-2	I	O	B-ScrPart_shopper	_	_	
+11-3	walk	B-ScrEv_move_section|B-ScrEv_move_section	O	_	_	
+11-4	through	I-ScrEv_move_section	O	_	_	
+11-5	the	O	O	_	_	
+11-6	store	O	B-ScrPart_grocery_shop	_	_	
+11-7	looking	B-ScrEv_other|B-ScrEv_other	O	_	_	
+11-8	for	I-ScrEv_other	O	_	_	
+11-9	things	O	B-ScrPart_groceries	_	_	
+11-10	I	O	B-ScrPart_shopper	_	_	
+11-11	need	B-UnrelEv	O	_	_	
+11-12	,	O	O	_	_	
+11-13	I	O	B-ScrPart_shopper	_	_	
+11-14	'll	O	O	_	_	
+11-15	see	B-UnrelEv	O	_	_	
+11-16	a	O	O	_	_	
+11-17	display	O	B-Head_of_Partitive	_	_	
+11-18	of	O	O	_	_	
+11-19	chips	O	B-ScrPart_groceries	_	_	
+11-20	or	O	O	_	_	
+11-21	something	O	B-No_label	_	_	
+11-22	at	O	O	_	_	
+11-23	the	O	O	_	_	
+11-24	end	O	B-Head_of_Partitive	_	_	
+11-25	of	O	O	_	_	
+11-26	an	O	O	_	_	
+11-27	isle	O	B-ScrPart_section	_	_	
+11-28	.	O	O	_	_	
+
+#id=12
+#text=This makes me think that there are chips on that isle .
+12-1	This	O	O	_	_	
+12-2	makes	O	O	_	_	
+12-3	me	O	B-ScrPart_shopper	_	_	
+12-4	think	B-UnrelEv	O	_	_	
+12-5	that	O	O	_	_	
+12-6	there	O	O	_	_	
+12-7	are	B-UnrelEv	O	_	_	
+12-8	chips	O	B-ScrPart_groceries	webanno.custom.Corefchains_	11-19	
+12-9	on	O	O	_	_	
+12-10	that	O	O	_	_	
+12-11	isle	O	B-ScrPart_section	webanno.custom.Corefchains_	11-27	
+12-12	.	O	O	_	_	
+
+#id=13
+#text=There are no chips on that isle .
+13-1	There	O	O	_	_	
+13-2	are	B-UnrelEv	O	_	_	
+13-3	no	O	O	_	_	
+13-4	chips	O	B-ScrPart_groceries	webanno.custom.Corefchains_	12-8	
+13-5	on	O	O	_	_	
+13-6	that	O	O	_	_	
+13-7	isle	O	B-ScrPart_section	webanno.custom.Corefchains_	12-11	
+13-8	.	O	O	_	_	
+
+#id=14
+#text=It 's a good trip when I have everything I need for a few weeks . 
+14-1	It	O	B-No_label	_	_	
+14-2	's	O	O	_	_	
+14-3	a	O	O	_	_	
+14-4	good	O	O	_	_	
+14-5	trip	O	B-NPart	_	_	
+14-6	when	O	O	_	_	
+14-7	I	O	B-ScrPart_shopper	_	_	
+14-8	have	B-UnrelEv	O	_	_	
+14-9	everything	O	B-No_label	_	_	
+14-10	I	O	B-ScrPart_shopper	_	_	
+14-11	need	B-RelNScrEv	O	_	_	
+14-12	for	O	O	_	_	
+14-13	a	O	O	_	_	
+14-14	few	O	O	_	_	
+14-15	weeks	O	B-NPart	_	_	
+14-16	.	O	O	_	_	
+

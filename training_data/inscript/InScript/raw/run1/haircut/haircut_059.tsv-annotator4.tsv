@@ -1,0 +1,387 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Brandons hair was long .
+1-1	Brandons	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-4	
+1-2	hair	B-ScrPart_hair	O	webanno.custom.Corefchains_	2-1	
+1-3	was	O	B-UnrelEv	_	_	
+1-4	long	O	O	_	_	
+1-5	.	O	O	_	_	
+
+#id=2
+#text=It flopped in his eyes .
+2-1	It	B-ScrPart_hair	O	webanno.custom.Corefchains_	3-3	
+2-2	flopped	O	B-UnrelEv	_	_	
+2-3	in	O	O	_	_	
+2-4	his	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-1	
+2-5	eyes	O	O	_	_	
+2-6	.	O	O	_	_	
+
+#id=3
+#text=It blew it in the wind .
+3-1	It	O	O	_	_	
+3-2	blew	O	B-UnrelEv	_	_	
+3-3	it	B-ScrPart_hair	O	webanno.custom.Corefchains_	4-11	
+3-4	in	O	O	_	_	
+3-5	the	O	O	_	_	
+3-6	wind	O	O	_	_	
+3-7	.	O	O	_	_	
+
+#id=4
+#text=He was annoyed at school when he had to push it out of the way to see his paper .
+4-1	He	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-7	
+4-2	was	O	O	_	_	
+4-3	annoyed	O	B-UnrelEv	_	_	
+4-4	at	O	O	_	_	
+4-5	school	O	O	_	_	
+4-6	when	O	O	_	_	
+4-7	he	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-18	
+4-8	had	O	O	_	_	
+4-9	to	O	O	_	_	
+4-10	push	O	B-UnrelEv	_	_	
+4-11	it	B-ScrPart_hair	O	webanno.custom.Corefchains_	9-21	
+4-12	out	O	O	_	_	
+4-13	of	O	O	_	_	
+4-14	the	O	O	_	_	
+4-15	way	O	O	_	_	
+4-16	to	O	O	_	_	
+4-17	see	O	B-UnrelEv	_	_	
+4-18	his	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-2	
+4-19	paper	O	O	_	_	
+4-20	.	O	O	_	_	
+
+#id=5
+#text=So him and his mommy decided to go see the barber .
+5-1	So	O	O	_	_	
+5-2	him	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-4	
+5-3	and	O	O	_	_	
+5-4	his	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-1	
+5-5	mommy	B-NPart	O	_	_	
+5-6	decided	O	B-UnrelEv	_	_	
+5-7	to	O	O	_	_	
+5-8	go	O	B-UnrelEv	_	_	
+5-9	see	O	B-Evoking	_	_	
+5-10	the	O	I-Evoking	_	_	
+5-11	barber	B-ScrPart_hairdresser	I-Evoking	webanno.custom.Corefchains_	6-4	
+5-12	.	O	O	_	_	
+
+#id=6
+#text=Brandon loved the barber and his silly jokes and chit chat .
+6-1	Brandon	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-1	
+6-2	loved	O	B-RelNScrEv	_	_	
+6-3	the	O	O	_	_	
+6-4	barber	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	6-6	
+6-5	and	O	O	_	_	
+6-6	his	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	7-6	
+6-7	silly	O	O	_	_	
+6-8	jokes	B-ScrPart_entertainment	O	_	_	
+6-9	and	O	O	_	_	
+6-10	chit	B-ScrPart_entertainment	O	_	_	
+6-11	chat	I-ScrPart_entertainment	O	_	_	
+6-12	.	O	O	_	_	
+
+#id=7
+#text=He liked listening to the men talk .
+7-1	He	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-2	
+7-2	liked	O	O	_	_	
+7-3	listening	O	B-ScrEv_small_talk	_	_	
+7-4	to	O	O	_	_	
+7-5	the	O	O	_	_	
+7-6	men	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	8-6	
+7-7	talk	O	B-ScrEv_small_talk	_	_	
+7-8	.	O	O	_	_	
+
+#id=8
+#text=When Brandon got to the barber he lead him to the hair washing sink .
+8-1	When	O	O	_	_	
+8-2	Brandon	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-9	
+8-3	got	O	B-ScrEv_get_salon	_	_	
+8-4	to	O	O	_	_	
+8-5	the	O	O	_	_	
+8-6	barber	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	8-7	
+8-7	he	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	9-1	
+8-8	lead	O	B-RelNScrEv	_	_	
+8-9	him	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-3	
+8-10	to	O	O	_	_	
+8-11	the	O	O	_	_	
+8-12	hair	B-ScrPart_wash_basin	O	_	_	
+8-13	washing	I-ScrPart_wash_basin	O	_	_	
+8-14	sink	I-ScrPart_wash_basin|B-ScrPart_wash_basin	O	webanno.custom.Corefchains_	9-12	
+8-15	.	O	O	_	_	
+
+#id=9
+#text=He sat him in the chair that tilted back into the sink and laid back as the barber washed his hair .
+9-1	He	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	9-18	
+9-2	sat	O	B-ScrEv_sit_down	_	_	
+9-3	him	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-20	
+9-4	in	O	O	_	_	
+9-5	the	O	O	_	_	
+9-6	chair	B-ScrPart_chair	O	webanno.custom.Corefchains_	9-7	
+9-7	that	B-ScrPart_chair	O	_	_	
+9-8	tilted	O	B-RelNScrEv	_	_	
+9-9	back	O	O	_	_	
+9-10	into	O	O	_	_	
+9-11	the	O	O	_	_	
+9-12	sink	B-ScrPart_wash_basin	O	_	_	
+9-13	and	O	O	_	_	
+9-14	laid	O	B-RelNScrEv	_	_	
+9-15	back	O	I-RelNScrEv	_	_	
+9-16	as	O	O	_	_	
+9-17	the	O	O	_	_	
+9-18	barber	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_|coref_group_brandon_barber	12-6|11-2	
+9-19	washed	O	B-ScrEv_wash	_	_	
+9-20	his	B-ScrPart_customer	O	webanno.custom.Corefchains_|coref_group_brandon_barber	12-1|11-2	
+9-21	hair	B-ScrPart_hair	O	webanno.custom.Corefchains_	13-10	
+9-22	.	O	O	_	_	
+
+#id=10
+#text=The water was just right , Never too hot or cold .
+10-1	The	O	O	_	_	
+10-2	water	O	O	_	_	
+10-3	was	O	B-UnrelEv	_	_	
+10-4	just	O	O	_	_	
+10-5	right	O	O	_	_	
+10-6	,	O	O	_	_	
+10-7	Never	O	O	_	_	
+10-8	too	O	O	_	_	
+10-9	hot	O	O	_	_	
+10-10	or	O	O	_	_	
+10-11	cold	O	O	_	_	
+10-12	.	O	O	_	_	
+
+#id=11
+#text=Next they walked over to the hair cutting chair .
+11-1	Next	O	O	_	_	
+11-2	they	B-???	O	_	_	
+11-3	walked	O	B-RelNScrEv	_	_	
+11-4	over	O	I-RelNScrEv	_	_	
+11-5	to	O	O	_	_	
+11-6	the	O	O	_	_	
+11-7	hair	B-ScrPart_chair	O	_	_	
+11-8	cutting	I-ScrPart_chair	O	_	_	
+11-9	chair	I-ScrPart_chair|B-ScrPart_chair	O	webanno.custom.Corefchains_	12-9	
+11-10	.	O	O	_	_	
+
+#id=12
+#text=Brandon loved it when the barber pumped his chair way up high and he could see himself in the large mirror in front of him .
+12-1	Brandon	B-ScrPart_customer	O	webanno.custom.Corefchains_	12-8	
+12-2	loved	O	B-UnrelEv	_	_	
+12-3	it	O	O	_	_	
+12-4	when	O	O	_	_	
+12-5	the	O	O	_	_	
+12-6	barber	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	13-2	
+12-7	pumped	O	B-RelNScrEv	_	_	
+12-8	his	B-ScrPart_customer	O	webanno.custom.Corefchains_	12-14	
+12-9	chair	B-ScrPart_chair	O	webanno.custom.Corefchains_	18-3	
+12-10	way	O	O	_	_	
+12-11	up	O	O	_	_	
+12-12	high	O	O	_	_	
+12-13	and	O	O	_	_	
+12-14	he	B-ScrPart_customer	O	webanno.custom.Corefchains_	12-17	
+12-15	could	O	O	_	_	
+12-16	see	O	B-ScrEv_look_mirror	_	_	
+12-17	himself	B-ScrPart_customer	O	webanno.custom.Corefchains_	12-25	
+12-18	in	O	O	_	_	
+12-19	the	O	O	_	_	
+12-20	large	O	O	_	_	
+12-21	mirror	B-ScrPart_mirror	O	_	_	
+12-22	in	O	O	_	_	
+12-23	front	O	O	_	_	
+12-24	of	O	O	_	_	
+12-25	him	B-ScrPart_customer	O	webanno.custom.Corefchains_	13-4	
+12-26	.	O	O	_	_	
+
+#id=13
+#text=The barber asked Brandon how he would like his hair cut and mommy told him just how they like it .
+13-1	The	O	O	_	_	
+13-2	barber	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	13-15	
+13-3	asked	O	B-ScrEv_talk_haircut	_	_	
+13-4	Brandon	B-ScrPart_customer	O	webanno.custom.Corefchains_	13-6	
+13-5	how	O	O	_	_	
+13-6	he	B-ScrPart_customer	O	webanno.custom.Corefchains_	13-9	
+13-7	would	O	O	_	_	
+13-8	like	O	B-ScrEv_talk_haircut	_	_	
+13-9	his	B-ScrPart_customer	O	webanno.custom.Corefchains_|coref_group_brandon_mommy	14-8|13-18	
+13-10	hair	B-ScrPart_hair	O	webanno.custom.Corefchains_	13-20	
+13-11	cut	O	B-ScrEv_cut	_	_	
+13-12	and	O	O	_	_	
+13-13	mommy	B-NPart	O	coref_group_brandon_mommy	13-18	
+13-14	told	O	B-ScrEv_talk_haircut	_	_	
+13-15	him	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	14-2	
+13-16	just	O	O	_	_	
+13-17	how	O	O	_	_	
+13-18	they	B-ScrPart_customer	O	_	_	
+13-19	like	O	B-ScrEv_talk_haircut	_	_	
+13-20	it	B-ScrPart_hair	O	webanno.custom.Corefchains_	15-3	
+13-21	.	O	O	_	_	
+
+#id=14
+#text=Then he wrapped a big cape around Brandon to protect him from hair clippings .
+14-1	Then	O	O	_	_	
+14-2	he	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	18-2	
+14-3	wrapped	O	B-ScrEv_put_on_cape	_	_	
+14-4	a	O	O	_	_	
+14-5	big	O	O	_	_	
+14-6	cape	B-ScrPart_cape	O	webanno.custom.Corefchains_	23-4	
+14-7	around	O	O	_	_	
+14-8	Brandon	B-ScrPart_customer	O	webanno.custom.Corefchains_	14-11	
+14-9	to	O	O	_	_	
+14-10	protect	O	B-RelNScrEv	_	_	
+14-11	him	B-ScrPart_customer	O	webanno.custom.Corefchains_	15-2	
+14-12	from	O	O	_	_	
+14-13	hair	B-???	O	_	_	
+14-14	clippings	I-???|B-???	O	_	_	
+14-15	.	O	O	_	_	
+
+#id=15
+#text=Once his hair was towel dried and combed well .
+15-1	Once	O	O	_	_	
+15-2	his	B-ScrPart_customer	O	webanno.custom.Corefchains_	17-1	
+15-3	hair	B-ScrPart_hair	O	webanno.custom.Corefchains_	19-5	
+15-4	was	O	O	_	_	
+15-5	towel	O	B-ScrEv_dry	_	_	
+15-6	dried	O	I-ScrEv_dry	_	_	
+15-7	and	O	O	_	_	
+15-8	combed	O	B-ScrEv_comb	_	_	
+15-9	well	O	O	_	_	
+15-10	.	O	O	_	_	
+
+#id=16
+#text=Snip , snip , snip , went the scissors .
+16-1	Snip	O	B-ScrEv_cut	_	_	
+16-2	,	O	O	_	_	
+16-3	snip	O	B-ScrEv_cut	_	_	
+16-4	,	O	O	_	_	
+16-5	snip	O	B-ScrEv_cut	_	_	
+16-6	,	O	O	_	_	
+16-7	went	O	B-ScrEv_cut	_	_	
+16-8	the	O	O	_	_	
+16-9	scissors	B-ScrPart_scissors	O	webanno.custom.Corefchains_	22-12	
+16-10	.	O	O	_	_	
+
+#id=17
+#text=Brandon held very still .
+17-1	Brandon	B-ScrPart_customer	O	webanno.custom.Corefchains_	18-15	
+17-2	held	O	B-RelNScrEv	_	_	
+17-3	very	O	O	_	_	
+17-4	still	O	O	_	_	
+17-5	.	O	O	_	_	
+
+#id=18
+#text=The barbers chair is a place even for little boys to be still and Brandon knew that .
+18-1	The	O	O	_	_	
+18-2	barbers	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	20-3	
+18-3	chair	B-ScrPart_chair	O	webanno.custom.Corefchains_	20-9	
+18-4	is	O	B-UnrelEv	_	_	
+18-5	a	O	O	_	_	
+18-6	place	O	O	_	_	
+18-7	even	O	O	_	_	
+18-8	for	O	O	_	_	
+18-9	little	O	O	_	_	
+18-10	boys	O	O	_	_	
+18-11	to	O	O	_	_	
+18-12	be	O	B-UnrelEv	_	_	
+18-13	still	O	O	_	_	
+18-14	and	O	O	_	_	
+18-15	Brandon	B-ScrPart_customer	O	webanno.custom.Corefchains_	19-1	
+18-16	knew	O	B-UnrelEv	_	_	
+18-17	that	O	O	_	_	
+18-18	.	O	O	_	_	
+
+#id=19
+#text=He watched as his hair fell to the floor .
+19-1	He	B-ScrPart_customer	O	webanno.custom.Corefchains_	19-4	
+19-2	watched	O	B-RelNScrEv	_	_	
+19-3	as	O	O	_	_	
+19-4	his	B-ScrPart_customer	O	webanno.custom.Corefchains_	20-5	
+19-5	hair	B-ScrPart_hair	O	_	_	
+19-6	fell	O	B-RelNScrEv	_	_	
+19-7	to	O	O	_	_	
+19-8	the	O	O	_	_	
+19-9	floor	O	O	_	_	
+19-10	.	O	O	_	_	
+
+#id=20
+#text=Soon the barber spun him around in the chair and Brandon saw his new hair cut .
+20-1	Soon	O	O	_	_	
+20-2	the	O	O	_	_	
+20-3	barber	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	22-13	
+20-4	spun	O	B-RelNScrEv	_	_	
+20-5	him	B-ScrPart_customer	O	webanno.custom.Corefchains_	20-11	
+20-6	around	O	O	_	_	
+20-7	in	O	O	_	_	
+20-8	the	O	O	_	_	
+20-9	chair	B-ScrPart_chair	O	_	_	
+20-10	and	O	O	_	_	
+20-11	Brandon	B-ScrPart_customer	O	webanno.custom.Corefchains_	20-13	
+20-12	saw	O	B-ScrEv_look_mirror	_	_	
+20-13	his	B-ScrPart_customer	O	webanno.custom.Corefchains_	24-1	
+20-14	new	O	O	_	_	
+20-15	hair	B-MissScrPart	O	webanno.custom.Corefchains_	21-1	
+20-16	cut	I-MissScrPart	O	webanno.custom.Corefchains_	21-1	
+20-17	.	O	O	_	_	
+
+#id=21
+#text=It was smooth and neat .
+21-1	It	B-MissScrPart	O	webanno.custom.Corefchains_	25-6	
+21-2	was	O	B-UnrelEv	_	_	
+21-3	smooth	O	O	_	_	
+21-4	and	O	O	_	_	
+21-5	neat	O	O	_	_	
+21-6	.	O	O	_	_	
+
+#id=22
+#text=After another comb through and a few more snips of the scissors he was all done .
+22-1	After	O	O	_	_	
+22-2	another	O	O	_	_	
+22-3	comb	O	B-ScrEv_comb	_	_	
+22-4	through	O	I-ScrEv_comb	_	_	
+22-5	and	O	O	_	_	
+22-6	a	O	O	_	_	
+22-7	few	O	O	_	_	
+22-8	more	O	O	_	_	
+22-9	snips	O	B-ScrEv_cut	_	_	
+22-10	of	O	O	_	_	
+22-11	the	O	O	_	_	
+22-12	scissors	B-ScrPart_scissors	O	_	_	
+22-13	he	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	24-5	
+22-14	was	O	O	_	_	
+22-15	all	O	O	_	_	
+22-16	done	O	B-UnrelEv	_	_	
+22-17	.	O	O	_	_	
+
+#id=23
+#text=Off came the cape .
+23-1	Off	O	O	_	_	
+23-2	came	O	B-ScrEv_remove_cap	_	_	
+23-3	the	O	O	_	_	
+23-4	cape	B-ScrPart_cape	O	_	_	
+23-5	.	O	O	_	_	
+
+#id=24
+#text=Brandons mommy paid the barber and tipped him for a job well done .
+24-1	Brandons	B-ScrPart_customer	O	webanno.custom.Corefchains_	25-1	
+24-2	mommy	B-NPart	O	_	_	
+24-3	paid	O	B-ScrEv_pay	_	_	
+24-4	the	O	O	_	_	
+24-5	barber	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	24-8	
+24-6	and	O	O	_	_	
+24-7	tipped	O	B-ScrEv_leave_tip	_	_	
+24-8	him	B-ScrPart_hairdresser	O	_	_	
+24-9	for	O	O	_	_	
+24-10	a	O	O	_	_	
+24-11	job	O	O	_	_	
+24-12	well	O	O	_	_	
+24-13	done	O	B-UnrelEv	_	_	
+24-14	.	O	O	_	_	
+
+#id=25
+#text=Brandon was glad for his hair cut . 
+25-1	Brandon	B-ScrPart_customer	O	webanno.custom.Corefchains_	25-5	
+25-2	was	O	B-ScrEv_customer_opinion	_	_	
+25-3	glad	O	O	_	_	
+25-4	for	O	O	_	_	
+25-5	his	B-ScrPart_customer	O	_	_	
+25-6	hair	B-MissScrPart	O	_	_	
+25-7	cut	I-MissScrPart	O	_	_	
+25-8	.	O	O	_	_	
+

@@ -1,0 +1,274 @@
+ # webanno.custom.Participants | Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=For my 13th birthday I decided I 'd bake my own cake instead of having my Mom buy one for me .
+1-1	For	O	O	O	_	_	
+1-2	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	1-5	
+1-3	13th	O	O	O	_	_	
+1-4	birthday	O	O	O	_	_	
+1-5	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	1-7	
+1-6	decided	O	O	B-UnrelEv	_	_	
+1-7	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	1-10	
+1-8	'd	O	O	O	_	_	
+1-9	bake	O	O	B-Evoking	_	_	
+1-10	my	B-ScrPart_cook	B-webanno.custom.Participants_	I-Evoking	webanno.custom.Corefchains_	1-16	
+1-11	own	O	O	I-Evoking	_	_	
+1-12	cake	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	webanno.custom.Corefchains_	1-19	
+1-13	instead	O	O	O	_	_	
+1-14	of	O	O	O	_	_	
+1-15	having	O	O	B-UnrelEv	_	_	
+1-16	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	1-21	
+1-17	Mom	O	O	O	_	_	
+1-18	buy	O	O	B-UnrelEv	_	_	
+1-19	one	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	3-13	
+1-20	for	O	O	O	_	_	
+1-21	me	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	2-5	
+1-22	.	O	O	O	_	_	
+
+#id=2
+#text=To keep it simple my Mom bought a Betty Crocker cake mix .
+2-1	To	O	O	O	_	_	
+2-2	keep	O	O	B-UnrelEv	_	_	
+2-3	it	O	O	O	_	_	
+2-4	simple	O	O	O	_	_	
+2-5	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	coref1	3-2	
+2-6	Mom	B-NPart	B-webanno.custom.Participants_	O	_	_	
+2-7	bought	O	O	B-ScrEv_get_ingridients	_	_	
+2-8	a	O	O	O	_	_	
+2-9	Betty	O	O	O	_	_	
+2-10	Crocker	O	O	O	_	_	
+2-11	cake	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	_	_	
+2-12	mix	I-ScrPart_ingridients|B-ScrPart_ingridients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	8-4	
+2-13	.	O	O	O	_	_	
+
+#id=3
+#text=Once my friends arrived we gathered in the kitchen to make the cake .
+3-1	Once	O	O	O	_	_	
+3-2	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_|coref3_I_friends	5-6|3-5	
+3-3	friends	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_|coref2|coref1|coref3_I_friends	7-33|5-23|5-9|3-5	
+3-4	arrived	O	O	B-UnrelEv	_	_	
+3-5	we	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	4-4	
+3-6	gathered	O	O	B-UnrelEv	_	_	
+3-7	in	O	O	O	_	_	
+3-8	the	O	O	O	_	_	
+3-9	kitchen	B-ScrPart_kitchen/location	B-webanno.custom.Participants_	O	_	_	
+3-10	to	O	O	O	_	_	
+3-11	make	O	O	B-Evoking	_	_	
+3-12	the	O	O	I-Evoking	_	_	
+3-13	cake	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	webanno.custom.Corefchains_	7-5	
+3-14	.	O	O	O	_	_	
+
+#id=4
+#text=The first thing we did was set the stove to the temperature indicated on the box .
+4-1	The	O	O	O	_	_	
+4-2	first	O	O	O	_	_	
+4-3	thing	O	O	O	_	_	
+4-4	we	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	6-2	
+4-5	did	O	O	B-UnrelEv	_	_	
+4-6	was	O	O	O	_	_	
+4-7	set	O	O	B-ScrEv_preheat	_	_	
+4-8	the	O	O	O	_	_	
+4-9	stove	B-ScrPart_oven	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-3	
+4-10	to	O	O	O	_	_	
+4-11	the	O	O	O	_	_	
+4-12	temperature	B-ScrPart_temperature	B-webanno.custom.Participants_	O	_	_	
+4-13	indicated	O	O	B-RelNScrEv	_	_	
+4-14	on	O	O	O	_	_	
+4-15	the	O	O	O	_	_	
+4-16	box	B-ScrPart_baking_instructions	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	10-26	
+4-17	.	O	O	O	_	_	
+
+#id=5
+#text=While the stove warmed up I asked my friend Nikki to be in charge of getting things from the fridge while my friend Stephanie went to the cabinets to get whatever I called out that was needed there .
+5-1	While	O	O	O	_	_	
+5-2	the	O	O	O	_	_	
+5-3	stove	B-ScrPart_oven	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	10-8	
+5-4	warmed	O	O	B-ScrEv_preheat	_	_	
+5-5	up	O	O	I-ScrEv_preheat	_	_	
+5-6	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-8	
+5-7	asked	O	O	B-UnrelEv	_	_	
+5-8	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-22	
+5-9	friend	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-10	
+5-10	Nikki	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	9-17	
+5-11	to	O	O	O	_	_	
+5-12	be	O	O	B-UnrelEv	_	_	
+5-13	in	O	O	O	_	_	
+5-14	charge	O	O	O	_	_	
+5-15	of	O	O	O	_	_	
+5-16	getting	O	O	B-ScrEv_get_ingridients	_	_	
+5-17	things	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	6-12	
+5-18	from	O	O	O	_	_	
+5-19	the	O	O	O	_	_	
+5-20	fridge	B-ScrPart_cabinet	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	6-15	
+5-21	while	O	O	O	_	_	
+5-22	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-32	
+5-23	friend	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-24	
+5-24	Stephanie	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+5-25	went	O	O	B-UnrelEv	_	_	
+5-26	to	O	O	O	_	_	
+5-27	the	O	O	O	_	_	
+5-28	cabinets	B-ScrPart_cabinet	B-webanno.custom.Participants_	O	_	_	
+5-29	to	O	O	O	_	_	
+5-30	get	O	O	B-ScrEv_get_utensils	_	_	
+5-31	whatever	B-ScrPart_utensil	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-35	
+5-32	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	7-24	
+5-33	called	O	O	B-UnrelEv	_	_	
+5-34	out	O	O	I-UnrelEv	_	_	
+5-35	that	B-ScrPart_utensil	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_|webanno.custom.Corefchains_	6-8|6-5	
+5-36	was	O	O	O	_	_	
+5-37	needed	O	O	B-???	_	_	
+5-38	there	O	O	O	_	_	
+5-39	.	O	O	O	_	_	
+
+#id=6
+#text=Once we had the bowls , measuring cups , and liquid ingredients from the fridge we were ready to start mixing .
+6-1	Once	O	O	O	_	_	
+6-2	we	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	6-16	
+6-3	had	O	O	B-???	_	_	
+6-4	the	O	O	O	_	_	
+6-5	bowls	B-ScrPart_utensil	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	8-7	
+6-6	,	O	O	O	_	_	
+6-7	measuring	B-ScrPart_utensil	B-webanno.custom.Participants_	O	_	_	
+6-8	cups	I-ScrPart_utensil|B-ScrPart_utensil	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+6-9	,	O	O	O	_	_	
+6-10	and	O	O	O	_	_	
+6-11	liquid	O	O	O	_	_	
+6-12	ingredients	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	8-12	
+6-13	from	O	O	O	_	_	
+6-14	the	O	O	O	_	_	
+6-15	fridge	B-ScrPart_cabinet	B-webanno.custom.Participants_	O	_	_	
+6-16	we	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	7-14	
+6-17	were	O	O	B-UnrelEv	_	_	
+6-18	ready	O	O	O	_	_	
+6-19	to	O	O	O	_	_	
+6-20	start	O	O	B-UnrelEv	_	_	
+6-21	mixing	O	O	B-ScrEv_prepare_ingridients	_	_	
+6-22	.	O	O	O	_	_	
+
+#id=7
+#text=Three people making a cake is a bit difficult to do , but we had fun talking while we were doing it and I ended up doing most of it while my friends chatted with me .
+7-1	Three	O	O	O	_	_	
+7-2	people	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+7-3	making	O	O	B-Evoking	_	_	
+7-4	a	O	O	I-Evoking	_	_	
+7-5	cake	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	webanno.custom.Corefchains_	10-5	
+7-6	is	O	O	B-UnrelEv	_	_	
+7-7	a	O	O	O	_	_	
+7-8	bit	O	O	O	_	_	
+7-9	difficult	O	O	O	_	_	
+7-10	to	O	O	O	_	_	
+7-11	do	O	O	B-UnrelEv	_	_	
+7-12	,	O	O	O	_	_	
+7-13	but	O	O	O	_	_	
+7-14	we	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	7-19	
+7-15	had	O	O	B-UnrelEv	_	_	
+7-16	fun	O	O	O	_	_	
+7-17	talking	O	O	B-UnrelEv	_	_	
+7-18	while	O	O	O	_	_	
+7-19	we	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	9-1	
+7-20	were	O	O	O	_	_	
+7-21	doing	O	O	B-UnrelEv	_	_	
+7-22	it	O	O	O	_	_	
+7-23	and	O	O	O	_	_	
+7-24	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	7-32	
+7-25	ended	O	O	B-UnrelEv	_	_	
+7-26	up	O	O	I-UnrelEv	_	_	
+7-27	doing	O	O	B-UnrelEv	_	_	
+7-28	most	O	O	O	_	_	
+7-29	of	O	O	O	_	_	
+7-30	it	O	O	O	_	_	
+7-31	while	O	O	O	_	_	
+7-32	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	7-36	
+7-33	friends	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+7-34	chatted	O	O	B-UnrelEv	_	_	
+7-35	with	O	O	O	_	_	
+7-36	me	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	8-1	
+7-37	.	O	O	O	_	_	
+
+#id=8
+#text=I put the mix in the bowl and added the fresh ingredients .
+8-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	10-1	
+8-2	put	O	O	B-ScrEv_add_ingridients	_	_	
+8-3	the	O	O	O	_	_	
+8-4	mix	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	_	_	
+8-5	in	O	O	O	_	_	
+8-6	the	O	O	O	_	_	
+8-7	bowl	B-ScrPart_utensil	B-webanno.custom.Participants_	O	_	_	
+8-8	and	O	O	O	_	_	
+8-9	added	O	O	B-ScrEv_add_ingridients	_	_	
+8-10	the	O	O	O	_	_	
+8-11	fresh	O	O	O	_	_	
+8-12	ingredients	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	_	_	
+8-13	.	O	O	O	_	_	
+
+#id=9
+#text=We took turns mixing that up and then poured the mix into a cake pan that Nikki greased with some butter .
+9-1	We	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	11-4	
+9-2	took	O	O	B-UnrelEv	_	_	
+9-3	turns	O	O	O	_	_	
+9-4	mixing	O	O	B-ScrEv_make_dough	_	_	
+9-5	that	B-ScrPart_dough	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	9-11	
+9-6	up	O	O	O	_	_	
+9-7	and	O	O	O	_	_	
+9-8	then	O	O	O	_	_	
+9-9	poured	O	O	B-ScrEv_pour_dough	_	_	
+9-10	the	O	O	O	_	_	
+9-11	mix	B-ScrPart_dough	B-webanno.custom.Participants_	O	_	_	
+9-12	into	O	O	O	_	_	
+9-13	a	O	O	O	_	_	
+9-14	cake	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	_	_	
+9-15	pan	I-ScrPart_cake_tin|B-ScrPart_cake_tin	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+9-16	that	O	O	O	_	_	
+9-17	Nikki	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+9-18	greased	O	O	B-ScrEv_grease_cake_tin	_	_	
+9-19	with	O	O	O	_	_	
+9-20	some	O	O	O	_	_	
+9-21	butter	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	_	_	
+9-22	.	O	O	O	_	_	
+
+#id=10
+#text=I then put the cake into the stove while wearing oven mitts and set the stove 's timer to the suggested baking time on the box .
+10-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+10-2	then	O	O	O	_	_	
+10-3	put	O	O	B-ScrEv_put_cake_oven	_	_	
+10-4	the	O	O	O	_	_	
+10-5	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	11-2	
+10-6	into	O	O	O	_	_	
+10-7	the	O	O	O	_	_	
+10-8	stove	B-ScrPart_oven	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	10-16	
+10-9	while	O	O	O	_	_	
+10-10	wearing	O	O	B-RelNScrEv	_	_	
+10-11	oven	B-ScrPart_utensil	B-webanno.custom.Participants_	O	_	_	
+10-12	mitts	I-ScrPart_utensil	I-webanno.custom.Participants_	O	_	_	
+10-13	and	O	O	O	_	_	
+10-14	set	O	O	B-ScrEv_set_time	_	_	
+10-15	the	O	O	O	_	_	
+10-16	stove	B-ScrPart_oven	B-webanno.custom.Participants_	O	_	_	
+10-17	's	O	O	O	_	_	
+10-18	timer	B-ScrPart_timer	B-webanno.custom.Participants_	O	_	_	
+10-19	to	O	O	O	_	_	
+10-20	the	O	O	O	_	_	
+10-21	suggested	O	O	B-RelNScrEv	_	_	
+10-22	baking	B-ScrPart_time	B-webanno.custom.Participants_	O	_	_	
+10-23	time	I-ScrPart_time|B-ScrPart_time	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+10-24	on	O	O	O	_	_	
+10-25	the	O	O	O	_	_	
+10-26	box	B-ScrPart_recipe_source	B-webanno.custom.Participants_	O	_	_	
+10-27	.	O	O	O	_	_	
+
+#id=11
+#text=While it baked we could n't help spooning out some icing for ourselves . 
+11-1	While	O	O	O	_	_	
+11-2	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	_	_	
+11-3	baked	O	O	B-ScrEv_wait	_	_	
+11-4	we	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	11-13	
+11-5	could	O	O	O	_	_	
+11-6	n't	O	O	O	_	_	
+11-7	help	O	O	B-UnrelEv	_	_	
+11-8	spooning	O	O	B-UnrelEv	_	_	
+11-9	out	O	O	I-UnrelEv	_	_	
+11-10	some	O	O	O	_	_	
+11-11	icing	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	_	_	
+11-12	for	O	O	O	_	_	
+11-13	ourselves	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+11-14	.	O	O	O	_	_	
+

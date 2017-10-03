@@ -1,0 +1,200 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I wanted to visit my family that lived far away for Christmas .
+1-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+1-2	wanted	O	O	B-UnrelEv	_	_	
+1-3	to	O	O	O	_	_	
+1-4	visit	O	O	B-RelNScrEv	_	_	
+1-5	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+1-6	family	B-webanno.custom.Participants_	B-ScrPart_accomp_person	O	_	_	
+1-7	that	O	O	O	_	_	
+1-8	lived	O	O	B-UnrelEv	_	_	
+1-9	far	O	O	O	_	_	
+1-10	away	O	O	O	_	_	
+1-11	for	O	O	O	_	_	
+1-12	Christmas	B-webanno.custom.Participants_	B-NPart	O	_	_	
+1-13	.	O	O	O	_	_	
+
+#id=2
+#text=I knew that it was too far for me to drive , so I decided to fly .
+2-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+2-2	knew	O	O	B-UnrelEv	_	_	
+2-3	that	O	O	O	_	_	
+2-4	it	B-webanno.custom.Participants_	B-No_label	O	_	_	
+2-5	was	O	O	B-UnrelEv	_	_	
+2-6	too	O	O	O	_	_	
+2-7	far	O	O	O	_	_	
+2-8	for	O	O	O	_	_	
+2-9	me	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-1	
+2-10	to	O	O	O	_	_	
+2-11	drive	O	O	B-UnrelEv	_	_	
+2-12	,	O	O	O	_	_	
+2-13	so	O	O	O	_	_	
+2-14	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-9	
+2-15	decided	O	O	B-UnrelEv	_	_	
+2-16	to	O	O	O	_	_	
+2-17	fly	O	O	B-Evoking	_	_	
+2-18	.	O	O	O	_	_	
+
+#id=3
+#text=I went online and searched for tickets .
+3-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+3-2	went	O	O	B-UnrelEv	_	_	
+3-3	online	B-webanno.custom.Participants_	B-ScrPart_other	O	_	_	
+3-4	and	O	O	O	_	_	
+3-5	searched	O	O	B-RelNScrEv	_	_	
+3-6	for	O	O	O	_	_	
+3-7	tickets	B-webanno.custom.Participants_	B-ScrPart_ticket	O	_	_	
+3-8	.	O	O	O	_	_	
+
+#id=4
+#text=I found a ticket that was the cheapest with the fewest layovers , because I wanted to spend as little time as possible traveling on my trip to my family 's house .
+4-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+4-2	found	O	O	B-ScrEv_get_ticket	_	_	
+4-3	a	O	O	O	_	_	
+4-4	ticket	B-webanno.custom.Participants_	B-ScrPart_ticket	O	_	_	
+4-5	that	O	O	O	_	_	
+4-6	was	O	O	B-UnrelEv	_	_	
+4-7	the	O	O	O	_	_	
+4-8	cheapest	O	O	O	_	_	
+4-9	with	O	O	O	_	_	
+4-10	the	O	O	O	_	_	
+4-11	fewest	O	O	O	_	_	
+4-12	layovers	B-webanno.custom.Participants_	B-ScrPart_other	O	_	_	
+4-13	,	O	O	O	_	_	
+4-14	because	O	O	O	_	_	
+4-15	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+4-16	wanted	O	O	B-UnrelEv	_	_	
+4-17	to	O	O	O	_	_	
+4-18	spend	O	O	B-UnrelEv	_	_	
+4-19	as	O	O	O	_	_	
+4-20	little	O	O	O	_	_	
+4-21	time	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+4-22	as	O	O	O	_	_	
+4-23	possible	O	O	O	_	_	
+4-24	traveling	O	O	B-RelNScrEv	_	_	
+4-25	on	O	O	O	_	_	
+4-26	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+4-27	trip	B-webanno.custom.Participants_	B-ScrPart_other	O	_	_	
+4-28	to	O	O	O	_	_	
+4-29	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+4-30	family	B-webanno.custom.Participants_	B-ScrPart_accomp_person	O	_	_	
+4-31	's	O	O	O	_	_	
+4-32	house	B-webanno.custom.Participants_	B-ScrPart_target_location	O	_	_	
+4-33	.	O	O	O	_	_	
+
+#id=5
+#text=I brought my ticket to the airport on the day that I was to depart .
+5-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+5-2	brought	O	O	B-UnrelEv	_	_	
+5-3	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+5-4	ticket	B-webanno.custom.Participants_	B-ScrPart_ticket	O	_	_	
+5-5	to	O	O	O	_	_	
+5-6	the	O	O	O	_	_	
+5-7	airport	B-webanno.custom.Participants_	B-ScrPart_airport	O	_	_	
+5-8	on	O	O	O	_	_	
+5-9	the	O	O	O	_	_	
+5-10	day	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+5-11	that	O	O	O	_	_	
+5-12	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+5-13	was	O	O	O	_	_	
+5-14	to	O	O	O	_	_	
+5-15	depart	O	O	B-ScrEv_take_off	_	_	
+5-16	.	O	O	O	_	_	
+
+#id=6
+#text=I went to the gate of the airline that I was flying and handed in my ticket .
+6-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+6-2	went	O	O	B-ScrEv_find_terminal	_	_	
+6-3	to	O	O	O	_	_	
+6-4	the	O	O	O	_	_	
+6-5	gate	B-webanno.custom.Participants_	B-ScrPart_terminal/gate	O	_	_	
+6-6	of	O	O	O	_	_	
+6-7	the	O	O	O	_	_	
+6-8	airline	B-webanno.custom.Participants_	B-NPart	O	_	_	
+6-9	that	O	O	O	_	_	
+6-10	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+6-11	was	O	O	O	_	_	
+6-12	flying	O	O	B-ScrEv_other	_	_	
+6-13	and	O	O	O	_	_	
+6-14	handed	O	O	B-ScrEv_present_ID/ticket	_	_	
+6-15	in	O	O	I-ScrEv_present_ID/ticket	_	_	
+6-16	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+6-17	ticket	B-webanno.custom.Participants_	B-ScrPart_ticket	O	_	_	
+6-18	.	O	O	O	_	_	
+
+#id=7
+#text=I waited in the airport until the plane was ready to be boarded .
+7-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+7-2	waited	O	O	B-ScrEv_wait_boarding	_	_	
+7-3	in	O	O	O	_	_	
+7-4	the	O	O	O	_	_	
+7-5	airport	B-webanno.custom.Participants_	B-ScrPart_airport	O	_	_	
+7-6	until	O	O	O	_	_	
+7-7	the	O	O	O	_	_	
+7-8	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	_	_	
+7-9	was	O	O	B-UnrelEv	_	_	
+7-10	ready	O	O	O	_	_	
+7-11	to	O	O	O	_	_	
+7-12	be	O	O	O	_	_	
+7-13	boarded	O	O	B-ScrEv_board_plane	_	_	
+7-14	.	O	O	O	_	_	
+
+#id=8
+#text=I got in line and boarded the plane .
+8-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+8-2	got	O	O	B-UnrelEv	_	_	
+8-3	in	O	O	O	_	_	
+8-4	line	B-webanno.custom.Participants_	B-ScrPart_line	O	_	_	
+8-5	and	O	O	O	_	_	
+8-6	boarded	O	O	B-ScrEv_board_plane	_	_	
+8-7	the	O	O	O	_	_	
+8-8	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	_	_	
+8-9	.	O	O	O	_	_	
+
+#id=9
+#text=I found a seat and buckled my seat belt .
+9-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+9-2	found	O	O	B-RelNScrEv	_	_	
+9-3	a	O	O	O	_	_	
+9-4	seat	B-webanno.custom.Participants_	B-ScrPart_seat	O	_	_	
+9-5	and	O	O	O	_	_	
+9-6	buckled	O	O	B-ScrEv_buckle_seat_belt	_	_	
+9-7	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+9-8	seat	B-webanno.custom.Participants_	B-ScrPart_seat_belt	O	_	_	
+9-9	belt	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_seat_belt|B-ScrPart_seat_belt	O	_	_	
+9-10	.	O	O	O	_	_	
+
+#id=10
+#text=It took a couple hours of flying until we landed .
+10-1	It	B-webanno.custom.Participants_	B-No_label	O	_	_	
+10-2	took	O	O	B-UnrelEv	_	_	
+10-3	a	O	O	O	_	_	
+10-4	couple	B-webanno.custom.Participants_	B-Head_of_Partitive	O	_	_	
+10-5	hours	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+10-6	of	O	O	O	_	_	
+10-7	flying	O	O	B-ScrEv_other	_	_	
+10-8	until	O	O	O	_	_	
+10-9	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+10-10	landed	O	O	B-ScrEv_landing	_	_	
+10-11	.	O	O	O	_	_	
+
+#id=11
+#text=I got off of the plane and met up with my family in the airport . 
+11-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+11-2	got	O	O	B-ScrEv_exit_plane	_	_	
+11-3	off	O	O	I-ScrEv_exit_plane	_	_	
+11-4	of	O	O	O	_	_	
+11-5	the	O	O	O	_	_	
+11-6	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	_	_	
+11-7	and	O	O	O	_	_	
+11-8	met	O	O	B-ScrEv_meet_people	_	_	
+11-9	up	O	O	O	_	_	
+11-10	with	O	O	O	_	_	
+11-11	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+11-12	family	B-webanno.custom.Participants_	B-ScrPart_accomp_person	O	_	_	
+11-13	in	O	O	O	_	_	
+11-14	the	O	O	O	_	_	
+11-15	airport	B-webanno.custom.Participants_	B-ScrPart_airport	O	_	_	
+11-16	.	O	O	O	_	_	
+

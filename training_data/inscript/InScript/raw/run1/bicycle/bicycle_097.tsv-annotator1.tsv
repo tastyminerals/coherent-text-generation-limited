@@ -1,0 +1,228 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Yesterday , as I pulled my bicycle out of the garage , I realized it had a flat tire .
+1-1	Yesterday	O	O	_	_	
+1-2	,	O	O	_	_	
+1-3	as	O	O	_	_	
+1-4	I	B-ScrPart_rider	O	_	_	
+1-5	pulled	O	B-RelNScrEv	_	_	
+1-6	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-4	
+1-7	bicycle	B-ScrPart_bicycle	O	_	_	
+1-8	out	O	O	_	_	
+1-9	of	O	O	_	_	
+1-10	the	O	O	_	_	
+1-11	garage	B-???	O	_	_	
+1-12	,	O	O	_	_	
+1-13	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-6	
+1-14	realized	O	O	_	_	
+1-15	it	B-ScrPart_bicycle	O	webanno.custom.Corefchains_	1-7	
+1-16	had	O	B-Evoking	_	_	
+1-17	a	O	I-Evoking	_	_	
+1-18	flat	O	I-Evoking	_	_	
+1-19	tire	B-ScrPart_tire	I-Evoking	_	_	
+1-20	.	O	O	_	_	
+
+#id=2
+#text=So , I prepared to repair it .
+2-1	So	O	O	_	_	
+2-2	,	O	O	_	_	
+2-3	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-13	
+2-4	prepared	O	B-UnrelEv	_	_	
+2-5	to	O	O	_	_	
+2-6	repair	O	B-Evoking	_	_	
+2-7	it	B-ScrPart_tire	O	webanno.custom.Corefchains_	1-19	
+2-8	.	O	O	_	_	
+
+#id=3
+#text=First , I went to the tool box and got out the wrench and other necessary tools .
+3-1	First	O	O	_	_	
+3-2	,	O	O	_	_	
+3-3	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-3	
+3-4	went	O	B-UnrelEv	_	_	
+3-5	to	O	O	_	_	
+3-6	the	O	O	_	_	
+3-7	tool	B-ScrPart_tool	O	_	_	
+3-8	box	I-ScrPart_tool|B-ScrPart_tool	O	_	_	
+3-9	and	O	O	_	_	
+3-10	got	O	B-ScrEv_get_tools|B-ScrEv_get_tools	_	_	
+3-11	out	O	I-ScrEv_get_tools	_	_	
+3-12	the	O	O	_	_	
+3-13	wrench	B-ScrPart_tool	O	_	_	
+3-14	and	O	O	_	_	
+3-15	other	O	O	_	_	
+3-16	necessary	O	O	_	_	
+3-17	tools	B-ScrPart_tool	O	_	_	
+3-18	.	O	O	_	_	
+
+#id=4
+#text=Then , I realized I did n't have a new bike tire .
+4-1	Then	O	O	_	_	
+4-2	,	O	O	_	_	
+4-3	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	3-3	
+4-4	realized	O	B-UnrelEv	_	_	
+4-5	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	4-3	
+4-6	did	O	O	_	_	
+4-7	n't	O	O	_	_	
+4-8	have	O	B-RelNScrEv	_	_	
+4-9	a	O	O	_	_	
+4-10	new	O	O	_	_	
+4-11	bike	O	O	_	_	
+4-12	tire	B-ScrPart_spare_tube	O	_	_	
+4-13	.	O	O	_	_	
+
+#id=5
+#text=So , I opened the door to my car and got in .
+5-1	So	O	O	_	_	
+5-2	,	O	O	_	_	
+5-3	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	4-5	
+5-4	opened	O	B-UnrelEv	_	_	
+5-5	the	O	O	_	_	
+5-6	door	O	O	_	_	
+5-7	to	O	O	_	_	
+5-8	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	5-3	
+5-9	car	O	O	_	_	
+5-10	and	O	O	_	_	
+5-11	got	O	B-UnrelEv|B-UnrelEv	_	_	
+5-12	in	O	I-UnrelEv	_	_	
+5-13	.	O	O	_	_	
+
+#id=6
+#text=I drove to the nearest bicycle shop and bought two new bicycle tires -- one for now and one for later .
+6-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	5-8	
+6-2	drove	O	B-UnrelEv	_	_	
+6-3	to	O	O	_	_	
+6-4	the	O	O	_	_	
+6-5	nearest	O	O	_	_	
+6-6	bicycle	O	O	_	_	
+6-7	shop	B-ScrPart_shop	O	_	_	
+6-8	and	O	O	_	_	
+6-9	bought	O	B-ScrEv_get_tire	_	_	
+6-10	two	O	O	_	_	
+6-11	new	O	O	_	_	
+6-12	bicycle	O	O	_	_	
+6-13	tires	B-ScrPart_spare_tube	O	group_spare_tube1_spare_tube2|group_spare_tube1_spare_tube2	6-19|6-15	
+6-14	--	O	O	_	_	
+6-15	one	B-ScrPart_spare_tube	O	_	_	
+6-16	for	O	O	_	_	
+6-17	now	O	O	_	_	
+6-18	and	O	O	_	_	
+6-19	one	B-ScrPart_spare_tube	O	_	_	
+6-20	for	O	O	_	_	
+6-21	later	O	O	_	_	
+6-22	.	O	O	_	_	
+
+#id=7
+#text=I drove back home where the bicycle was waiting for me .
+7-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	6-1	
+7-2	drove	O	B-UnrelEv	_	_	
+7-3	back	O	O	_	_	
+7-4	home	B-ScrPart_location_repair	O	_	_	
+7-5	where	B-ScrPart_location_repair	O	webanno.custom.Corefchains_	7-4	
+7-6	the	O	O	_	_	
+7-7	bicycle	B-ScrPart_bicycle	O	webanno.custom.Corefchains_	1-15	
+7-8	was	O	O	_	_	
+7-9	waiting	O	B-UnrelEv	_	_	
+7-10	for	O	O	_	_	
+7-11	me	B-ScrPart_rider	O	webanno.custom.Corefchains_	7-1	
+7-12	.	O	O	_	_	
+
+#id=8
+#text=I took the old , flat tire off of the bicycle using my wrench to loosen the screws and other mechanical devices .
+8-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	7-11	
+8-2	took	O	B-ScrEv_take_tire_off	_	_	
+8-3	the	O	O	_	_	
+8-4	old	O	O	_	_	
+8-5	,	O	O	_	_	
+8-6	flat	O	O	_	_	
+8-7	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	2-7	
+8-8	off	O	O	_	_	
+8-9	of	O	O	_	_	
+8-10	the	O	O	_	_	
+8-11	bicycle	B-ScrPart_bicycle	O	webanno.custom.Corefchains_	7-7	
+8-12	using	O	B-ScrEv_get_tools	_	_	
+8-13	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	8-1	
+8-14	wrench	B-ScrPart_tool	O	webanno.custom.Corefchains_	3-13	
+8-15	to	O	O	_	_	
+8-16	loosen	O	B-ScrEv_loose_nut	_	_	
+8-17	the	O	O	_	_	
+8-18	screws	B-ScrPart_bicycle_small_detail	O	_	_	
+8-19	and	O	O	_	_	
+8-20	other	O	O	_	_	
+8-21	mechanical	O	O	_	_	
+8-22	devices	B-ScrPart_bicycle_small_detail	O	_	_	
+8-23	.	O	O	_	_	
+
+#id=9
+#text=I then stretched the new tire out over the wheel and affixed it .
+9-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	8-13	
+9-2	then	O	O	_	_	
+9-3	stretched	O	B-ScrEv_put_new_tire	_	_	
+9-4	the	O	O	_	_	
+9-5	new	O	O	_	_	
+9-6	tire	B-ScrPart_spare_tube	O	webanno.custom.Corefchains_	6-15	
+9-7	out	O	O	_	_	
+9-8	over	O	O	_	_	
+9-9	the	O	O	_	_	
+9-10	wheel	B-ScrPart_wheel	O	_	_	
+9-11	and	O	O	_	_	
+9-12	affixed	O	B-ScrEv_put_new_tire	_	_	
+9-13	it	B-ScrPart_spare_tube	O	webanno.custom.Corefchains_	9-6	
+9-14	.	O	O	_	_	
+
+#id=10
+#text=I twirled it around and tested it to make sure that it was properly fastened .
+10-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	9-1	
+10-2	twirled	O	O	_	_	
+10-3	it	B-ScrPart_spare_tube	O	webanno.custom.Corefchains_	9-13	
+10-4	around	O	O	_	_	
+10-5	and	O	O	_	_	
+10-6	tested	O	B-ScrEv_check_new_tire	_	_	
+10-7	it	B-ScrPart_spare_tube	O	webanno.custom.Corefchains_	10-3	
+10-8	to	O	O	_	_	
+10-9	make	O	B-UnrelEv	_	_	
+10-10	sure	O	O	_	_	
+10-11	that	O	O	_	_	
+10-12	it	B-ScrPart_spare_tube	O	webanno.custom.Corefchains_	10-7	
+10-13	was	O	O	_	_	
+10-14	properly	O	O	_	_	
+10-15	fastened	O	B-ScrEv_put_new_tire	_	_	
+10-16	.	O	O	_	_	
+
+#id=11
+#text=Next , I drove around the driveway to make sure that it would hold .
+11-1	Next	O	O	_	_	
+11-2	,	O	O	_	_	
+11-3	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	10-1	
+11-4	drove	O	B-ScrEv_check_new_tire	_	_	
+11-5	around	O	O	_	_	
+11-6	the	O	O	_	_	
+11-7	driveway	B-MissScrPart	O	_	_	
+11-8	to	O	O	_	_	
+11-9	make	O	B-UnrelEv	_	_	
+11-10	sure	O	O	_	_	
+11-11	that	O	O	_	_	
+11-12	it	B-ScrPart_spare_tube	O	webanno.custom.Corefchains_	10-12	
+11-13	would	O	O	_	_	
+11-14	hold	O	B-RelNScrEv	_	_	
+11-15	.	O	O	_	_	
+
+#id=12
+#text=Sure enough , it was secure and ready for me to go on my bike ride . 
+12-1	Sure	O	O	_	_	
+12-2	enough	O	O	_	_	
+12-3	,	O	O	_	_	
+12-4	it	O	O	_	_	
+12-5	was	O	B-UnrelEv	_	_	
+12-6	secure	O	O	_	_	
+12-7	and	O	O	_	_	
+12-8	ready	O	O	_	_	
+12-9	for	O	O	_	_	
+12-10	me	B-ScrPart_rider	O	webanno.custom.Corefchains_	11-3	
+12-11	to	O	O	_	_	
+12-12	go	O	B-Evoking	_	_	
+12-13	on	O	I-Evoking	_	_	
+12-14	my	B-ScrPart_rider	I-Evoking	webanno.custom.Corefchains_	12-10	
+12-15	bike	O	I-Evoking	_	_	
+12-16	ride	O	I-Evoking	_	_	
+12-17	.	O	O	_	_	
+

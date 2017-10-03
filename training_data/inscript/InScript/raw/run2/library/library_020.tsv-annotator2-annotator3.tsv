@@ -1,0 +1,192 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=I was bored one weekend and decided I would like to read a new book .
+1-1	I	B-ScrPart_customer	O	
+1-2	was	O	B-UnrelEv	
+1-3	bored	O	O	
+1-4	one	O	O	
+1-5	weekend	B-NPart	O	
+1-6	and	O	O	
+1-7	decided	O	B-UnrelEv	
+1-8	I	B-ScrPart_customer	O	
+1-9	would	O	O	
+1-10	like	O	B-UnrelEv	
+1-11	to	O	O	
+1-12	read	O	B-RelNScrEv	
+1-13	a	O	O	
+1-14	new	O	O	
+1-15	book	B-ScrPart_book	O	
+1-16	.	O	O	
+
+#id=2
+#text=I checked in my wallet to make sure I had my library card .
+2-1	I	B-ScrPart_customer	O	
+2-2	checked	O	B-UnrelEv	
+2-3	in	O	O	
+2-4	my	B-ScrPart_customer	O	
+2-5	wallet	B-NPart	O	
+2-6	to	O	O	
+2-7	make	O	B-UnrelEv	
+2-8	sure	O	I-UnrelEv	
+2-9	I	B-ScrPart_customer	O	
+2-10	had	O	B-UnrelEv	
+2-11	my	B-ScrPart_customer	O	
+2-12	library	B-ScrPart_library_card	O	
+2-13	card	I-ScrPart_library_card|B-ScrPart_library_card	O	
+2-14	.	O	O	
+
+#id=3
+#text=Seeing that I did in fact have the card , I got in my car and drove to the nearest branch of the public library , about four miles from my home .
+3-1	Seeing	O	B-UnrelEv	
+3-2	that	O	O	
+3-3	I	B-ScrPart_customer	O	
+3-4	did	O	O	
+3-5	in	O	O	
+3-6	fact	B-No_label	O	
+3-7	have	O	B-UnrelEv	
+3-8	the	O	O	
+3-9	card	B-ScrPart_library_card	O	
+3-10	,	O	O	
+3-11	I	B-ScrPart_customer	O	
+3-12	got	O	B-UnrelEv	
+3-13	in	O	O	
+3-14	my	B-ScrPart_customer	O	
+3-15	car	B-NPart	O	
+3-16	and	O	O	
+3-17	drove	O	B-ScrEv_get_library	
+3-18	to	O	O	
+3-19	the	O	O	
+3-20	nearest	O	O	
+3-21	branch	B-NPart	O	
+3-22	of	O	O	
+3-23	the	O	O	
+3-24	public	O	O	
+3-25	library	B-ScrPart_library	O	
+3-26	,	O	O	
+3-27	about	O	O	
+3-28	four	O	O	
+3-29	miles	B-NPart	O	
+3-30	from	O	O	
+3-31	my	B-ScrPart_customer	O	
+3-32	home	B-No_label	O	
+3-33	.	O	O	
+
+#id=4
+#text=When I went in , I first checked out the new arrivals , both fiction and non-fiction .
+4-1	When	O	O	
+4-2	I	B-ScrPart_customer	O	
+4-3	went	O	B-RelNScrEv	
+4-4	in	O	I-RelNScrEv	
+4-5	,	O	O	
+4-6	I	B-ScrPart_customer	O	
+4-7	first	O	O	
+4-8	checked	O	B-ScrEv_browse_releases	
+4-9	out	O	I-ScrEv_browse_releases	
+4-10	the	O	O	
+4-11	new	O	O	
+4-12	arrivals	B-ScrPart_book	O	
+4-13	,	O	O	
+4-14	both	O	O	
+4-15	fiction	B-NPart	O	
+4-16	and	O	O	
+4-17	non-fiction	B-NPart	O	
+4-18	.	O	O	
+
+#id=5
+#text=Then I looked at biographies , then at the books on the stacks for favorite authors .
+5-1	Then	O	O	
+5-2	I	B-ScrPart_customer	O	
+5-3	looked	O	B-ScrEv_look_for_book	
+5-4	at	O	O	
+5-5	biographies	B-ScrPart_book	O	
+5-6	,	O	O	
+5-7	then	O	O	
+5-8	at	O	O	
+5-9	the	O	O	
+5-10	books	B-ScrPart_book	O	
+5-11	on	O	O	
+5-12	the	O	O	
+5-13	stacks	B-NPart	O	
+5-14	for	O	O	
+5-15	favorite	O	O	
+5-16	authors	B-NPart	O	
+5-17	.	O	O	
+
+#id=6
+#text=I finally decided on a few selections , two from the new fiction section and one from the new non-fiction section , as well as a book on poetry .
+6-1	I	B-ScrPart_customer	O	
+6-2	finally	O	O	
+6-3	decided	O	B-RelNScrEv	
+6-4	on	O	O	
+6-5	a	O	O	
+6-6	few	O	O	
+6-7	selections	B-ScrPart_book	O	
+6-8	,	O	O	
+6-9	two	B-ScrPart_book	O	
+6-10	from	O	O	
+6-11	the	O	O	
+6-12	new	O	O	
+6-13	fiction	B-ScrPart_location_library	O	
+6-14	section	I-ScrPart_location_library|B-ScrPart_location_library	O	
+6-15	and	O	O	
+6-16	one	B-ScrPart_book	O	
+6-17	from	O	O	
+6-18	the	O	O	
+6-19	new	O	O	
+6-20	non-fiction	B-ScrPart_location_library	O	
+6-21	section	I-ScrPart_location_library|B-ScrPart_location_library	O	
+6-22	,	O	O	
+6-23	as	O	O	
+6-24	well	O	O	
+6-25	as	O	O	
+6-26	a	O	O	
+6-27	book	B-ScrPart_book	O	
+6-28	on	O	O	
+6-29	poetry	B-NPart	O	
+6-30	.	O	O	
+
+#id=7
+#text=I went to the check-out desk and presented the books along with my card to the librarian .
+7-1	I	B-ScrPart_customer	O	
+7-2	went	O	B-ScrEv_go_check_out	
+7-3	to	O	O	
+7-4	the	O	O	
+7-5	check-out	B-ScrPart_check-out_desk	O	
+7-6	desk	I-ScrPart_check-out_desk|B-ScrPart_check-out_desk	O	
+7-7	and	O	O	
+7-8	presented	O	B-RelNScrEv	
+7-9	the	O	O	
+7-10	books	B-ScrPart_book	O	
+7-11	along	O	O	
+7-12	with	O	O	
+7-13	my	B-ScrPart_customer	O	
+7-14	card	B-ScrPart_library_card	O	
+7-15	to	O	O	
+7-16	the	O	O	
+7-17	librarian	B-ScrPart_staff	O	
+7-18	.	O	O	
+
+#id=8
+#text=She checked the books out to me along with a receipt which told me when the books were due back . 
+8-1	She	B-ScrPart_staff	O	
+8-2	checked	O	B-ScrEv_register	
+8-3	the	O	O	
+8-4	books	B-ScrPart_book	O	
+8-5	out	O	O	
+8-6	to	O	O	
+8-7	me	B-ScrPart_customer	O	
+8-8	along	O	O	
+8-9	with	O	O	
+8-10	a	O	O	
+8-11	receipt	B-ScrPart_receipt	O	
+8-12	which	O	O	
+8-13	told	O	B-UnrelEv	
+8-14	me	B-ScrPart_customer	O	
+8-15	when	O	O	
+8-16	the	O	O	
+8-17	books	B-ScrPart_book	O	
+8-18	were	O	B-UnrelEv	
+8-19	due	O	O	
+8-20	back	O	O	
+8-21	.	O	O	
+

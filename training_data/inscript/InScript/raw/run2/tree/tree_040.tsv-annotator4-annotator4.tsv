@@ -1,0 +1,202 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant
+#id=1
+#text=Planting a tree is an important activity for most of us .
+1-1	Planting	B-Evoking	O	
+1-2	a	I-Evoking	O	
+1-3	tree	I-Evoking	B-ScrPart_tree	
+1-4	is	B-UnrelEv	O	
+1-5	an	O	O	
+1-6	important	O	O	
+1-7	activity	O	B-NPart	
+1-8	for	O	O	
+1-9	most	O	O	
+1-10	of	O	O	
+1-11	us	O	B-ScrPart_gardener	
+1-12	.	O	O	
+
+#id=2
+#text=We need trees to survive , and we need to replace the ones that are being cut down .
+2-1	We	O	B-ScrPart_gardener	
+2-2	need	B-UnrelEv	O	
+2-3	trees	O	B-ScrPart_tree	
+2-4	to	O	O	
+2-5	survive	B-UnrelEv	O	
+2-6	,	O	O	
+2-7	and	O	O	
+2-8	we	O	B-ScrPart_gardener	
+2-9	need	O	O	
+2-10	to	O	O	
+2-11	replace	B-RelNScrEv	O	
+2-12	the	O	O	
+2-13	ones	O	B-ScrPart_tree	
+2-14	that	O	B-ScrPart_tree	
+2-15	are	O	O	
+2-16	being	O	O	
+2-17	cut	B-UnrelEv	O	
+2-18	down	I-UnrelEv	O	
+2-19	.	O	O	
+
+#id=3
+#text=To do this , the right tools and location are necessary .
+3-1	To	O	O	
+3-2	do	B-UnrelEv	O	
+3-3	this	O	O	
+3-4	,	O	O	
+3-5	the	O	O	
+3-6	right	O	O	
+3-7	tools	O	B-ScrPart_gardening_tool	
+3-8	and	O	O	
+3-9	location	O	B-ScrPart_location_garden	
+3-10	are	B-UnrelEv	O	
+3-11	necessary	O	O	
+3-12	.	O	O	
+
+#id=4
+#text=I would begin by getting the striplings from a local nursery , as well as the right mulch and shovel .
+4-1	I	O	B-ScrPart_gardener	
+4-2	would	O	O	
+4-3	begin	B-UnrelEv	O	
+4-4	by	O	O	
+4-5	getting	B-ScrEv_get_tree	O	
+4-6	the	O	O	
+4-7	striplings	O	B-ScrPart_tree	
+4-8	from	O	O	
+4-9	a	O	O	
+4-10	local	O	O	
+4-11	nursery	O	B-ScrPart_shop	
+4-12	,	O	O	
+4-13	as	O	O	
+4-14	well	O	O	
+4-15	as	O	O	
+4-16	the	O	O	
+4-17	right	O	O	
+4-18	mulch	O	B-ScrPart_fertilizer	
+4-19	and	O	O	
+4-20	shovel	O	B-ScrPart_gardening_tool	
+4-21	.	O	O	
+
+#id=5
+#text=Next I would find the right spot , somewhere with plenty of shade and also sunlight , where the roots can grow and not destroy a sidewalk or driveway .
+5-1	Next	O	O	
+5-2	I	O	B-ScrPart_gardener	
+5-3	would	O	O	
+5-4	find	B-ScrEv_find_place	O	
+5-5	the	O	O	
+5-6	right	O	O	
+5-7	spot	O	B-ScrPart_location_garden	
+5-8	,	O	O	
+5-9	somewhere	O	B-ScrPart_location_garden	
+5-10	with	O	O	
+5-11	plenty	O	B-Head_of_Partitive	
+5-12	of	O	O	
+5-13	shade	O	B-NPart	
+5-14	and	O	O	
+5-15	also	O	O	
+5-16	sunlight	O	B-NPart	
+5-17	,	O	O	
+5-18	where	O	O	
+5-19	the	O	O	
+5-20	roots	O	B-ScrPart_root	
+5-21	can	O	O	
+5-22	grow	B-RelNScrEv	O	
+5-23	and	O	O	
+5-24	not	O	O	
+5-25	destroy	B-RelNScrEv	O	
+5-26	a	O	O	
+5-27	sidewalk	O	B-NPart	
+5-28	or	O	O	
+5-29	driveway	O	B-NPart	
+5-30	.	O	O	
+
+#id=6
+#text=With the right location in mind , I would dig down pretty deep , deep enough that it wo n't topple out or be dug out by passing dogs or anything .
+6-1	With	O	O	
+6-2	the	O	O	
+6-3	right	O	O	
+6-4	location	O	B-ScrPart_location_garden	
+6-5	in	O	O	
+6-6	mind	O	B-No_label	
+6-7	,	O	O	
+6-8	I	O	B-ScrPart_gardener	
+6-9	would	O	O	
+6-10	dig	B-ScrEv_dug_hole	O	
+6-11	down	I-ScrEv_dug_hole	O	
+6-12	pretty	O	O	
+6-13	deep	O	O	
+6-14	,	O	O	
+6-15	deep	O	O	
+6-16	enough	O	O	
+6-17	that	O	O	
+6-18	it	O	B-ScrPart_tree	
+6-19	wo	O	O	
+6-20	n't	O	O	
+6-21	topple	B-RelNScrEv	O	
+6-22	out	I-RelNScrEv	O	
+6-23	or	O	O	
+6-24	be	O	O	
+6-25	dug	B-RelNScrEv	O	
+6-26	out	I-RelNScrEv	O	
+6-27	by	O	O	
+6-28	passing	B-UnrelEv	O	
+6-29	dogs	O	B-NPart	
+6-30	or	O	O	
+6-31	anything	O	B-NPart	
+6-32	.	O	O	
+
+#id=7
+#text=Once the hole is dug , I can plant the stripling , fill the remainder of the hole with mulch and dirt and then attach some type of thin but sturdy pole or stick next to the baby tree so that it will have something supporting it until it grows strong and tall . 
+7-1	Once	O	O	
+7-2	the	O	O	
+7-3	hole	O	B-ScrPart_hole	
+7-4	is	O	O	
+7-5	dug	B-ScrEv_dug_hole	O	
+7-6	,	O	O	
+7-7	I	O	B-ScrPart_gardener	
+7-8	can	O	O	
+7-9	plant	B-ScrEv_place_root	O	
+7-10	the	O	O	
+7-11	stripling	O	B-ScrPart_tree	
+7-12	,	O	O	
+7-13	fill	B-ScrEv_refill_hole	O	
+7-14	the	O	O	
+7-15	remainder	O	B-Head_of_Partitive	
+7-16	of	O	O	
+7-17	the	O	O	
+7-18	hole	O	B-ScrPart_hole	
+7-19	with	O	O	
+7-20	mulch	O	B-ScrPart_fertilizer	
+7-21	and	O	O	
+7-22	dirt	O	B-ScrPart_dirt	
+7-23	and	O	O	
+7-24	then	O	O	
+7-25	attach	B-ScrEv_tie_stakes_up	O	
+7-26	some	O	O	
+7-27	type	O	B-Head_of_Partitive	
+7-28	of	O	O	
+7-29	thin	O	O	
+7-30	but	O	O	
+7-31	sturdy	O	O	
+7-32	pole	O	B-ScrPart_stake	
+7-33	or	O	O	
+7-34	stick	O	B-ScrPart_stake	
+7-35	next	O	O	
+7-36	to	O	O	
+7-37	the	O	O	
+7-38	baby	O	B-ScrPart_tree	
+7-39	tree	O	I-ScrPart_tree|B-ScrPart_tree	
+7-40	so	O	O	
+7-41	that	O	O	
+7-42	it	O	B-ScrPart_tree	
+7-43	will	O	O	
+7-44	have	O	O	
+7-45	something	O	B-ScrPart_stake	
+7-46	supporting	B-ScrEv_tie_stakes_up	O	
+7-47	it	O	B-ScrPart_tree	
+7-48	until	O	O	
+7-49	it	O	B-ScrPart_tree	
+7-50	grows	B-RelNScrEv	O	
+7-51	strong	O	O	
+7-52	and	O	O	
+7-53	tall	O	O	
+7-54	.	O	O	
+

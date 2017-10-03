@@ -1,0 +1,263 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Since it 's Spring now , I decided that my yard needed another tree in it .
+1-1	Since	O	O	_	_	
+1-2	it	O	O	_	_	
+1-3	's	O	O	_	_	
+1-4	Spring	O	O	_	_	
+1-5	now	O	O	_	_	
+1-6	,	O	O	_	_	
+1-7	I	B-ScrPart_gardener	O	_	_	
+1-8	decided	O	B-UnrelEv	_	_	
+1-9	that	O	O	_	_	
+1-10	my	B-ScrPart_gardener	O	_	_	
+1-11	yard	B-ScrPart_location_garden	O	_	_	
+1-12	needed	O	B-UnrelEv	_	_	
+1-13	another	O	O	_	_	
+1-14	tree	B-ScrPart_tree	O	_	_	
+1-15	in	O	O	_	_	
+1-16	it	B-ScrPart_location_garden	O	webanno.custom.Corefchains_	1-11	
+1-17	.	O	O	_	_	
+
+#id=2
+#text=I walked around the yard for a while deciding where I wanted to put it .
+2-1	I	B-ScrPart_gardener	O	_	_	
+2-2	walked	O	B-UnrelEv	_	_	
+2-3	around	O	O	_	_	
+2-4	the	O	O	_	_	
+2-5	yard	B-ScrPart_location_garden	O	webanno.custom.Corefchains_	1-16	
+2-6	for	O	O	_	_	
+2-7	a	O	O	_	_	
+2-8	while	B-ScrPart_time	O	_	_	
+2-9	deciding	O	B-ScrEv_find_place	_	_	
+2-10	where	O	O	_	_	
+2-11	I	B-ScrPart_gardener	O	_	_	
+2-12	wanted	O	B-UnrelEv	_	_	
+2-13	to	O	O	_	_	
+2-14	put	O	O	_	_	
+2-15	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	1-14	
+2-16	.	O	O	_	_	
+
+#id=3
+#text=Once I picked the spot out , I got online and looked up what kinds of trees grow best in my area .
+3-1	Once	O	O	_	_	
+3-2	I	B-ScrPart_gardener	O	_	_	
+3-3	picked	O	B-ScrEv_find_place	_	_	
+3-4	the	O	O	_	_	
+3-5	spot	B-ScrPart_location_garden	O	_	_	
+3-6	out	O	O	_	_	
+3-7	,	O	O	_	_	
+3-8	I	B-ScrPart_gardener	O	_	_	
+3-9	got	O	B-UnrelEv	_	_	
+3-10	online	O	O	_	_	
+3-11	and	O	O	_	_	
+3-12	looked	O	B-ScrEv_choose_tree|B-ScrEv_choose_tree	_	_	
+3-13	up	O	I-ScrEv_choose_tree	_	_	
+3-14	what	O	O	_	_	
+3-15	kinds	O	O	_	_	
+3-16	of	O	O	_	_	
+3-17	trees	B-ScrPart_tree	O	webanno.custom.Corefchains_	2-15	
+3-18	grow	O	B-RelNScrEv	_	_	
+3-19	best	O	O	_	_	
+3-20	in	O	O	_	_	
+3-21	my	B-NPart	O	_	_	
+3-22	area	O	O	_	_	
+3-23	.	O	O	_	_	
+
+#id=4
+#text=I decided on a nice pine tree and headed to the nursery .
+4-1	I	B-ScrPart_gardener	O	_	_	
+4-2	decided	O	B-ScrEv_choose_tree	_	_	
+4-3	on	O	O	_	_	
+4-4	a	O	O	_	_	
+4-5	nice	O	O	_	_	
+4-6	pine	B-ScrPart_tree	O	_	_	
+4-7	tree	I-ScrPart_tree|B-ScrPart_tree	O	webanno.custom.Corefchains_	3-17	
+4-8	and	O	O	_	_	
+4-9	headed	O	B-MissScrEv	_	_	
+4-10	to	O	O	_	_	
+4-11	the	O	O	_	_	
+4-12	nursery	B-ScrPart_shop	O	_	_	
+4-13	.	O	O	_	_	
+
+#id=5
+#text=I took a little time looking at their pine trees until I found the one I liked .
+5-1	I	B-ScrPart_gardener	O	_	_	
+5-2	took	O	B-UnrelEv	_	_	
+5-3	a	O	O	_	_	
+5-4	little	O	O	_	_	
+5-5	time	B-ScrPart_time	O	_	_	
+5-6	looking	O	B-ScrEv_choose_tree	_	_	
+5-7	at	O	O	_	_	
+5-8	their	O	O	_	_	
+5-9	pine	B-ScrPart_tree	O	_	_	
+5-10	trees	I-ScrPart_tree|B-ScrPart_tree	O	webanno.custom.Corefchains_	4-7	
+5-11	until	O	O	_	_	
+5-12	I	B-ScrPart_gardener	O	_	_	
+5-13	found	O	B-ScrEv_choose_tree	_	_	
+5-14	the	O	O	_	_	
+5-15	one	B-ScrPart_gardener	O	webanno.custom.Corefchains_	5-10	
+5-16	I	B-ScrPart_gardener	O	_	_	
+5-17	liked	O	B-UnrelEv	_	_	
+5-18	.	O	O	_	_	
+
+#id=6
+#text=I bought it and some topsoil to plant it in and got them loaded into my car .
+6-1	I	B-ScrPart_gardener	O	_	_	
+6-2	bought	O	B-ScrEv_get_tree	_	_	
+6-3	it	B-???|B-ScrPart_tree	O	webanno.custom.Corefchains_	5-15	
+6-4	and	I-???	O	_	_	
+6-5	some	I-???	O	_	_	
+6-6	topsoil	I-???|B-ScrPart_dirt	O	_	_	
+6-7	to	O	O	_	_	
+6-8	plant	O	B-RelNScrEv	_	_	
+6-9	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	6-3	
+6-10	in	O	O	_	_	
+6-11	and	O	O	_	_	
+6-12	got	O	B-UnrelEv	_	_	
+6-13	them	B-???	O	webanno.custom.Corefchains_	6-3	
+6-14	loaded	O	B-RelNScrEv	_	_	
+6-15	into	O	O	_	_	
+6-16	my	B-ScrPart_gardener	O	_	_	
+6-17	car	B-NPart	O	_	_	
+6-18	.	O	O	_	_	
+
+#id=7
+#text=Once I was home , I grabbed my shovel and went out to the place I wanted to put the tree .
+7-1	Once	O	O	_	_	
+7-2	I	B-ScrPart_gardener	O	_	_	
+7-3	was	O	B-UnrelEv	_	_	
+7-4	home	O	O	_	_	
+7-5	,	O	O	_	_	
+7-6	I	B-ScrPart_gardener	O	_	_	
+7-7	grabbed	O	B-ScrEv_get_tools	_	_	
+7-8	my	B-ScrPart_gardener	O	_	_	
+7-9	shovel	B-ScrPart_gardening_tool	O	_	_	
+7-10	and	O	O	_	_	
+7-11	went	O	B-UnrelEv|B-UnrelEv	_	_	
+7-12	out	O	I-UnrelEv	_	_	
+7-13	to	O	O	_	_	
+7-14	the	O	O	_	_	
+7-15	place	B-ScrPart_location_garden	O	webanno.custom.Corefchains_	3-5	
+7-16	I	B-ScrPart_gardener	O	_	_	
+7-17	wanted	O	O	_	_	
+7-18	to	O	O	_	_	
+7-19	put	O	B-RelNScrEv	_	_	
+7-20	the	O	O	_	_	
+7-21	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	6-9	
+7-22	.	O	O	_	_	
+
+#id=8
+#text=I started digging and kept at it until I had a hole deep and wide enough to fit the little tree in .
+8-1	I	B-ScrPart_gardener	O	_	_	
+8-2	started	O	B-UnrelEv	_	_	
+8-3	digging	O	B-ScrEv_dug_hole	_	_	
+8-4	and	O	O	_	_	
+8-5	kept	O	B-UnrelEv|B-UnrelEv	_	_	
+8-6	at	O	I-UnrelEv	_	_	
+8-7	it	O	O	_	_	
+8-8	until	O	O	_	_	
+8-9	I	B-ScrPart_gardener	O	_	_	
+8-10	had	O	B-UnrelEv	_	_	
+8-11	a	O	O	_	_	
+8-12	hole	B-ScrPart_hole	O	_	_	
+8-13	deep	O	O	_	_	
+8-14	and	O	O	_	_	
+8-15	wide	O	O	_	_	
+8-16	enough	O	O	_	_	
+8-17	to	O	O	_	_	
+8-18	fit	O	B-RelNScrEv	_	_	
+8-19	the	O	O	_	_	
+8-20	little	O	O	_	_	
+8-21	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	7-21	
+8-22	in	O	O	_	_	
+8-23	.	O	O	_	_	
+
+#id=9
+#text=I put it in the hole and filled around it with the nice topsoil I bought so I had good dirt to start growing in .
+9-1	I	B-ScrPart_gardener	O	_	_	
+9-2	put	O	B-ScrEv_place_root	_	_	
+9-3	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	8-21	
+9-4	in	O	O	_	_	
+9-5	the	O	O	_	_	
+9-6	hole	B-ScrPart_hole	O	webanno.custom.Corefchains_	8-12	
+9-7	and	O	O	_	_	
+9-8	filled	O	B-ScrEv_refill_hole	_	_	
+9-9	around	O	O	_	_	
+9-10	it	B-ScrPart_hole	O	webanno.custom.Corefchains_	9-6	
+9-11	with	O	O	_	_	
+9-12	the	O	O	_	_	
+9-13	nice	O	O	_	_	
+9-14	topsoil	B-ScrPart_dirt	O	webanno.custom.Corefchains_	6-6	
+9-15	I	B-ScrPart_gardener	O	_	_	
+9-16	bought	O	B-ScrEv_get_tools	_	_	
+9-17	so	O	O	_	_	
+9-18	I	B-ScrPart_gardener	O	_	_	
+9-19	had	O	B-UnrelEv	_	_	
+9-20	good	O	O	_	_	
+9-21	dirt	B-ScrPart_dirt	O	webanno.custom.Corefchains_	9-14	
+9-22	to	O	O	_	_	
+9-23	start	O	B-UnrelEv	_	_	
+9-24	growing	O	B-RelNScrEv	_	_	
+9-25	in	O	O	_	_	
+9-26	.	O	O	_	_	
+
+#id=10
+#text=I spread out the dirt I had taken out of the hole so I did n't have a pile of dirt , then watered the tree and put my tools away .
+10-1	I	B-ScrPart_gardener	O	_	_	
+10-2	spread	O	B-ScrEv_tamp_dirt|B-ScrEv_tamp_dirt	_	_	
+10-3	out	O	I-ScrEv_tamp_dirt	_	_	
+10-4	the	O	O	_	_	
+10-5	dirt	B-ScrPart_dirt	O	webanno.custom.Corefchains_	9-21	
+10-6	I	B-ScrPart_gardener	O	_	_	
+10-7	had	O	O	_	_	
+10-8	taken	O	B-RelNScrEv	_	_	
+10-9	out	O	O	_	_	
+10-10	of	O	O	_	_	
+10-11	the	O	O	_	_	
+10-12	hole	B-ScrPart_hole	O	webanno.custom.Corefchains_	9-10	
+10-13	so	O	O	_	_	
+10-14	I	B-ScrPart_gardener	O	_	_	
+10-15	did	O	O	_	_	
+10-16	n't	O	O	_	_	
+10-17	have	O	B-UnrelEv	_	_	
+10-18	a	O	O	_	_	
+10-19	pile	O	O	_	_	
+10-20	of	O	O	_	_	
+10-21	dirt	B-ScrPart_dirt	O	webanno.custom.Corefchains_	10-5	
+10-22	,	O	O	_	_	
+10-23	then	O	O	_	_	
+10-24	watered	O	B-ScrEv_water	_	_	
+10-25	the	O	O	_	_	
+10-26	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	9-3	
+10-27	and	O	O	_	_	
+10-28	put	O	B-MissScrEv	_	_	
+10-29	my	B-ScrPart_gardener	O	_	_	
+10-30	tools	B-ScrPart_gardening_tool	O	_	_	
+10-31	away	O	O	_	_	
+10-32	.	O	O	_	_	
+
+#id=11
+#text=I knwo it will take years , but that tree is going to look great once it ; s bigger . 
+11-1	I	B-ScrPart_gardener	O	_	_	
+11-2	knwo	O	B-UnrelEv	_	_	
+11-3	it	O	O	_	_	
+11-4	will	O	O	_	_	
+11-5	take	O	B-UnrelEv	_	_	
+11-6	years	B-ScrPart_time	O	_	_	
+11-7	,	O	O	_	_	
+11-8	but	O	O	_	_	
+11-9	that	O	O	_	_	
+11-10	tree	B-ScrPart_tree	O	_	_	
+11-11	is	O	O	_	_	
+11-12	going	O	O	_	_	
+11-13	to	O	O	_	_	
+11-14	look	O	B-UnrelEv	_	_	
+11-15	great	O	O	_	_	
+11-16	once	O	O	_	_	
+11-17	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	11-10	
+11-18	;	O	O	_	_	
+11-19	s	O	O	_	_	
+11-20	bigger	O	O	_	_	
+11-21	.	O	O	_	_	
+

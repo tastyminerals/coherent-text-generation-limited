@@ -1,0 +1,242 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=After a long day of work , I was very sore and tired .
+1-1	After	O	O	_	_	
+1-2	a	O	O	_	_	
+1-3	long	O	O	_	_	
+1-4	day	O	O	_	_	
+1-5	of	O	O	_	_	
+1-6	work	O	O	_	_	
+1-7	,	O	O	_	_	
+1-8	I	O	O	_	_	
+1-9	was	B-UnrelEv	O	_	_	
+1-10	very	O	O	_	_	
+1-11	sore	O	O	_	_	
+1-12	and	O	O	_	_	
+1-13	tired	O	O	_	_	
+1-14	.	O	O	_	_	
+
+#id=2
+#text=I had stood for five hours straight and was constantly helping customers on the ground floor .
+2-1	I	O	O	_	_	
+2-2	had	O	O	_	_	
+2-3	stood	B-UnrelEv	O	_	_	
+2-4	for	O	O	_	_	
+2-5	five	O	O	_	_	
+2-6	hours	O	O	_	_	
+2-7	straight	O	O	_	_	
+2-8	and	O	O	_	_	
+2-9	was	O	O	_	_	
+2-10	constantly	O	O	_	_	
+2-11	helping	B-UnrelEv	O	_	_	
+2-12	customers	O	O	_	_	
+2-13	on	O	O	_	_	
+2-14	the	O	O	_	_	
+2-15	ground	O	O	_	_	
+2-16	floor	O	O	_	_	
+2-17	.	O	O	_	_	
+
+#id=3
+#text=Retail is difficult and it was painful for my feet because I often had to wear high heels everyday .
+3-1	Retail	O	O	_	_	
+3-2	is	B-UnrelEv	O	_	_	
+3-3	difficult	O	O	_	_	
+3-4	and	O	O	_	_	
+3-5	it	O	O	_	_	
+3-6	was	B-UnrelEv	O	_	_	
+3-7	painful	O	O	_	_	
+3-8	for	O	O	_	_	
+3-9	my	O	O	_	_	
+3-10	feet	O	O	_	_	
+3-11	because	O	O	_	_	
+3-12	I	O	O	_	_	
+3-13	often	O	O	_	_	
+3-14	had	O	O	_	_	
+3-15	to	O	O	_	_	
+3-16	wear	B-UnrelEv	O	_	_	
+3-17	high	O	O	_	_	
+3-18	heels	O	O	_	_	
+3-19	everyday	O	O	_	_	
+3-20	.	O	O	_	_	
+
+#id=4
+#text=When I finally got home from work , I put my stuff down and began to change into more comfortable attire .
+4-1	When	O	O	_	_	
+4-2	I	O	B-ScrPart_bather	_	_	
+4-3	finally	O	O	_	_	
+4-4	got	B-UnrelEv	O	_	_	
+4-5	home	O	O	_	_	
+4-6	from	O	O	_	_	
+4-7	work	O	O	_	_	
+4-8	,	O	O	_	_	
+4-9	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	4-2	
+4-10	put	B-UnrelEv	O	_	_	
+4-11	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	4-9	
+4-12	stuff	O	O	_	_	
+4-13	down	O	O	_	_	
+4-14	and	O	O	_	_	
+4-15	began	B-UnrelEv	O	_	_	
+4-16	to	O	O	_	_	
+4-17	change	B-UnrelEv	O	_	_	
+4-18	into	O	O	_	_	
+4-19	more	O	O	_	_	
+4-20	comfortable	O	O	_	_	
+4-21	attire	O	O	_	_	
+4-22	.	O	O	_	_	
+
+#id=5
+#text=Once I did , I went to the bathroom and turned on the hot water to prepare my bath .
+5-1	Once	O	O	_	_	
+5-2	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	4-11	
+5-3	did	B-UnrelEv	O	_	_	
+5-4	,	O	O	_	_	
+5-5	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	5-2	
+5-6	went	B-ScrEv_enter_bathroom	O	_	_	
+5-7	to	O	O	_	_	
+5-8	the	O	O	_	_	
+5-9	bathroom	O	B-ScrPart_bathroom	_	_	
+5-10	and	O	O	_	_	
+5-11	turned	B-ScrEv_turn_water_on	O	_	_	
+5-12	on	I-ScrEv_turn_water_on	O	_	_	
+5-13	the	O	O	_	_	
+5-14	hot	O	O	_	_	
+5-15	water	O	B-ScrPart_water	_	_	
+5-16	to	O	O	_	_	
+5-17	prepare	B-ScrEv_prepare_bath	O	_	_	
+5-18	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	5-5	
+5-19	bath	O	B-???	_	_	
+5-20	.	O	O	_	_	
+
+#id=6
+#text=While that happened , I washed my face and took the makeup off my face .
+6-1	While	O	O	_	_	
+6-2	that	O	O	_	_	
+6-3	happened	B-UnrelEv	O	_	_	
+6-4	,	O	O	_	_	
+6-5	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	5-18	
+6-6	washed	B-ScrEv_wash	O	_	_	
+6-7	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	6-5	
+6-8	face	O	B-ScrPart_body_part	_	_	
+6-9	and	O	O	_	_	
+6-10	took	B-RelNScrEv	O	_	_	
+6-11	the	O	O	_	_	
+6-12	makeup	O	B-NPart	_	_	
+6-13	off	O	O	_	_	
+6-14	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	6-7	
+6-15	face	O	B-ScrPart_body_part	webanno.custom.Corefchains_	6-8	
+6-16	.	O	O	_	_	
+
+#id=7
+#text=Once I cleaned my face , I crawled into the shower and allowed the hot water to calm my body down and help me relax .
+7-1	Once	O	O	_	_	
+7-2	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	6-14	
+7-3	cleaned	B-ScrEv_wash	O	_	_	
+7-4	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	7-2	
+7-5	face	O	B-ScrPart_body_part	webanno.custom.Corefchains_	6-15	
+7-6	,	O	O	_	_	
+7-7	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	7-4	
+7-8	crawled	B-ScrEv_sink_water	O	_	_	
+7-9	into	O	O	_	_	
+7-10	the	O	O	_	_	
+7-11	shower	O	B-???	_	_	
+7-12	and	O	O	_	_	
+7-13	allowed	B-UnrelEv	O	_	_	
+7-14	the	O	O	_	_	
+7-15	hot	O	O	_	_	
+7-16	water	O	B-ScrPart_water	webanno.custom.Corefchains_	5-15	
+7-17	to	O	O	_	_	
+7-18	calm	B-ScrEv_relax	O	_	_	
+7-19	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	7-7	
+7-20	body	O	B-ScrPart_body_part	_	_	
+7-21	down	O	O	_	_	
+7-22	and	O	O	_	_	
+7-23	help	B-UnrelEv	O	_	_	
+7-24	me	O	B-ScrPart_bather	webanno.custom.Corefchains_	7-19	
+7-25	relax	B-ScrEv_relax	O	_	_	
+7-26	.	O	O	_	_	
+
+#id=8
+#text=I put shampoo on my hair and washed my hair and massaged my scalp .
+8-1	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	7-24	
+8-2	put	B-ScrEv_wash	O	_	_	
+8-3	shampoo	O	B-ScrPart_washing_tools	_	_	
+8-4	on	O	O	_	_	
+8-5	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	8-1	
+8-6	hair	O	B-ScrPart_hair	_	_	
+8-7	and	O	O	_	_	
+8-8	washed	B-ScrEv_wash	O	_	_	
+8-9	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	8-5	
+8-10	hair	O	B-ScrPart_hair	webanno.custom.Corefchains_	8-6	
+8-11	and	O	O	_	_	
+8-12	massaged	B-RelNScrEv	O	_	_	
+8-13	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	8-9	
+8-14	scalp	O	B-ScrPart_body_part	_	_	
+8-15	.	O	O	_	_	
+
+#id=9
+#text=I then placed conditioner on my hair and lathered it all over my hair .
+9-1	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	8-13	
+9-2	then	O	O	_	_	
+9-3	placed	B-ScrEv_wash	O	_	_	
+9-4	conditioner	O	B-ScrPart_washing_tools	_	_	
+9-5	on	O	O	_	_	
+9-6	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	9-1	
+9-7	hair	O	B-ScrPart_hair	webanno.custom.Corefchains_	8-10	
+9-8	and	O	O	_	_	
+9-9	lathered	B-ScrEv_wash	O	_	_	
+9-10	it	O	B-ScrPart_washing_tools	webanno.custom.Corefchains_	9-4	
+9-11	all	O	O	_	_	
+9-12	over	O	O	_	_	
+9-13	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	9-6	
+9-14	hair	O	B-ScrPart_hair	webanno.custom.Corefchains_	9-7	
+9-15	.	O	O	_	_	
+
+#id=10
+#text=I then washed it off and focused on washing my body .
+10-1	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	9-13	
+10-2	then	O	O	_	_	
+10-3	washed	B-RelNScrEv	O	_	_	
+10-4	it	O	B-ScrPart_washing_tools	webanno.custom.Corefchains_	9-10	
+10-5	off	O	O	_	_	
+10-6	and	O	O	_	_	
+10-7	focused	B-UnrelEv	O	_	_	
+10-8	on	O	O	_	_	
+10-9	washing	B-ScrEv_wash	O	_	_	
+10-10	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	10-1	
+10-11	body	O	B-ScrPart_body_part	webanno.custom.Corefchains_	7-20	
+10-12	.	O	O	_	_	
+
+#id=11
+#text=After washing my body , and rinsing off the soap suds , I simply let the hot water go all over my body and allowed it to help me relax . 
+11-1	After	O	O	_	_	
+11-2	washing	B-ScrEv_wash	O	_	_	
+11-3	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	10-10	
+11-4	body	O	B-ScrPart_body_part	webanno.custom.Corefchains_	10-11	
+11-5	,	O	O	_	_	
+11-6	and	O	O	_	_	
+11-7	rinsing	B-RelNScrEv	O	_	_	
+11-8	off	I-RelNScrEv	O	_	_	
+11-9	the	O	O	_	_	
+11-10	soap	O	B-NPart	_	_	
+11-11	suds	O	I-NPart|B-NPart	_	_	
+11-12	,	O	O	_	_	
+11-13	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	11-3	
+11-14	simply	O	O	_	_	
+11-15	let	B-UnrelEv	O	_	_	
+11-16	the	O	O	_	_	
+11-17	hot	O	O	_	_	
+11-18	water	O	B-ScrPart_water	webanno.custom.Corefchains_	7-16	
+11-19	go	B-UnrelEv	O	_	_	
+11-20	all	O	O	_	_	
+11-21	over	O	O	_	_	
+11-22	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	11-13	
+11-23	body	O	B-ScrPart_body_part	webanno.custom.Corefchains_	11-4	
+11-24	and	O	O	_	_	
+11-25	allowed	B-UnrelEv	O	_	_	
+11-26	it	O	B-ScrPart_water	webanno.custom.Corefchains_	11-18	
+11-27	to	O	O	_	_	
+11-28	help	B-UnrelEv	O	_	_	
+11-29	me	O	B-ScrPart_bather	webanno.custom.Corefchains_	11-22	
+11-30	relax	B-ScrEv_relax	O	_	_	
+11-31	.	O	O	_	_	
+

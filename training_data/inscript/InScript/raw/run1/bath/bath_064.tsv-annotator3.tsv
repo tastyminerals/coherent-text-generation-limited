@@ -1,0 +1,196 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=When I came inside from the cold , I decided to take a hot bath to warm myself up and get clean .
+1-1	When	O	O	_	_	
+1-2	I	B-ScrPart_bather	O	_	_	
+1-3	came	O	B-UnrelEv	_	_	
+1-4	inside	O	O	_	_	
+1-5	from	O	O	_	_	
+1-6	the	O	O	_	_	
+1-7	cold	O	O	_	_	
+1-8	,	O	O	_	_	
+1-9	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	1-2	
+1-10	decided	O	B-UnrelEv	_	_	
+1-11	to	O	O	_	_	
+1-12	take	O	B-Evoking	_	_	
+1-13	a	O	I-Evoking	_	_	
+1-14	hot	O	I-Evoking	_	_	
+1-15	bath	B-MissScrPart	I-Evoking	_	_	
+1-16	to	O	O	_	_	
+1-17	warm	O	B-RelNScrEv	_	_	
+1-18	myself	B-ScrPart_bather	O	webanno.custom.Corefchains_	1-9	
+1-19	up	O	O	_	_	
+1-20	and	O	O	_	_	
+1-21	get	O	B-RelNScrEv	_	_	
+1-22	clean	O	O	_	_	
+1-23	.	O	O	_	_	
+
+#id=2
+#text=I put the drain stopper in the tub , and then filled the tub with hot water while I took off my clothes .
+2-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	1-18	
+2-2	put	O	B-ScrEv_close_drain	_	_	
+2-3	the	O	O	_	_	
+2-4	drain	B-MissScrPart	O	_	_	
+2-5	stopper	I-MissScrPart|B-MissScrPart	O	_	_	
+2-6	in	O	O	_	_	
+2-7	the	O	O	_	_	
+2-8	tub	B-ScrPart_bathtub	O	_	_	
+2-9	,	O	O	_	_	
+2-10	and	O	O	_	_	
+2-11	then	O	O	_	_	
+2-12	filled	O	B-ScrEv_turn_water_on	_	_	
+2-13	the	O	O	_	_	
+2-14	tub	B-ScrPart_bathtub	O	webanno.custom.Corefchains_	2-8	
+2-15	with	O	O	_	_	
+2-16	hot	O	O	_	_	
+2-17	water	B-ScrPart_water	O	_	_	
+2-18	while	O	O	_	_	
+2-19	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	2-1	
+2-20	took	O	B-ScrEv_undress|B-ScrEv_undress	_	_	
+2-21	off	O	I-ScrEv_undress	_	_	
+2-22	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	2-19	
+2-23	clothes	B-ScrPart_clothes	O	_	_	
+2-24	.	O	O	_	_	
+
+#id=3
+#text=Once I was naked , I eased my way into the tub and let myself sink into the water , I washed my face with a gentle soap , and then rubbed a different soap over my body , making sure to get every part nice and clean .
+3-1	Once	O	O	_	_	
+3-2	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	2-22	
+3-3	was	O	B-UnrelEv	_	_	
+3-4	naked	O	O	_	_	
+3-5	,	O	O	_	_	
+3-6	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	3-2	
+3-7	eased	O	B-UnrelEv	_	_	
+3-8	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	3-6	
+3-9	way	O	O	_	_	
+3-10	into	O	O	_	_	
+3-11	the	O	O	_	_	
+3-12	tub	B-ScrPart_bathtub	O	webanno.custom.Corefchains_	2-14	
+3-13	and	O	O	_	_	
+3-14	let	O	B-UnrelEv	_	_	
+3-15	myself	B-ScrPart_bather	O	webanno.custom.Corefchains_	3-8	
+3-16	sink	O	B-ScrEv_sink_water	_	_	
+3-17	into	O	O	_	_	
+3-18	the	O	O	_	_	
+3-19	water	B-ScrPart_water	O	_	_	
+3-20	,	O	O	_	_	
+3-21	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	3-15	
+3-22	washed	O	B-ScrEv_wash	_	_	
+3-23	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	3-21	
+3-24	face	O	O	_	_	
+3-25	with	O	O	_	_	
+3-26	a	O	O	_	_	
+3-27	gentle	O	O	_	_	
+3-28	soap	B-ScrPart_washing_tools	O	_	_	
+3-29	,	O	O	_	_	
+3-30	and	O	O	_	_	
+3-31	then	O	O	_	_	
+3-32	rubbed	O	B-ScrEv_wash	_	_	
+3-33	a	O	O	_	_	
+3-34	different	O	O	_	_	
+3-35	soap	B-ScrPart_washing_tools	O	webanno.custom.Corefchains_	3-28	
+3-36	over	O	O	_	_	
+3-37	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	3-23	
+3-38	body	B-ScrPart_body_part	O	_	_	
+3-39	,	O	O	_	_	
+3-40	making	O	B-UnrelEv|B-UnrelEv	_	_	
+3-41	sure	O	I-UnrelEv	_	_	
+3-42	to	O	O	_	_	
+3-43	get	O	B-UnrelEv	_	_	
+3-44	every	O	O	_	_	
+3-45	part	B-ScrPart_body_part	O	_	_	
+3-46	nice	O	O	_	_	
+3-47	and	O	O	_	_	
+3-48	clean	O	O	_	_	
+3-49	.	O	O	_	_	
+
+#id=4
+#text=When I was done washing myself , I stayed in the tub for another ten or fifteen minutes , and just daydream about swimming in waters near a tropical island .
+4-1	When	O	O	_	_	
+4-2	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	3-37	
+4-3	was	O	O	_	_	
+4-4	done	O	B-UnrelEv	_	_	
+4-5	washing	O	B-ScrEv_wash	_	_	
+4-6	myself	B-ScrPart_bather	O	webanno.custom.Corefchains_	4-2	
+4-7	,	O	O	_	_	
+4-8	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	4-6	
+4-9	stayed	O	B-UnrelEv	_	_	
+4-10	in	O	O	_	_	
+4-11	the	O	O	_	_	
+4-12	tub	B-ScrPart_bathtub	O	webanno.custom.Corefchains_	3-12	
+4-13	for	O	O	_	_	
+4-14	another	O	O	_	_	
+4-15	ten	O	O	_	_	
+4-16	or	O	O	_	_	
+4-17	fifteen	O	O	_	_	
+4-18	minutes	O	O	_	_	
+4-19	,	O	O	_	_	
+4-20	and	O	O	_	_	
+4-21	just	O	O	_	_	
+4-22	daydream	O	B-UnrelEv	_	_	
+4-23	about	O	O	_	_	
+4-24	swimming	O	B-UnrelEv	_	_	
+4-25	in	O	O	_	_	
+4-26	waters	B-ScrPart_water	O	_	_	
+4-27	near	O	O	_	_	
+4-28	a	O	O	_	_	
+4-29	tropical	O	O	_	_	
+4-30	island	O	O	_	_	
+4-31	.	O	O	_	_	
+
+#id=5
+#text=I completely forgot that it was winter outside .
+5-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	4-8	
+5-2	completely	O	O	_	_	
+5-3	forgot	O	B-UnrelEv	_	_	
+5-4	that	O	O	_	_	
+5-5	it	O	O	_	_	
+5-6	was	O	B-UnrelEv	_	_	
+5-7	winter	O	O	_	_	
+5-8	outside	O	O	_	_	
+5-9	.	O	O	_	_	
+
+#id=6
+#text=Eventually , I got out of the tub and used a towel to dry my body and my hair .
+6-1	Eventually	O	O	_	_	
+6-2	,	O	O	_	_	
+6-3	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	5-1	
+6-4	got	O	B-ScrEv_get_out_bath|B-ScrEv_get_out_bath	_	_	
+6-5	out	O	I-ScrEv_get_out_bath	_	_	
+6-6	of	O	O	_	_	
+6-7	the	O	O	_	_	
+6-8	tub	B-ScrPart_bathtub	O	webanno.custom.Corefchains_	4-12	
+6-9	and	O	O	_	_	
+6-10	used	O	B-UnrelEv	_	_	
+6-11	a	O	O	_	_	
+6-12	towel	B-ScrPart_towel	O	_	_	
+6-13	to	O	O	_	_	
+6-14	dry	O	B-ScrEv_dry	_	_	
+6-15	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	6-3	
+6-16	body	B-ScrPart_body_part	O	webanno.custom.Corefchains_	3-38	
+6-17	and	O	O	_	_	
+6-18	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	6-15	
+6-19	hair	B-ScrPart_body_part	O	_	_	
+6-20	.	O	O	_	_	
+
+#id=7
+#text=I then put on some clean clothes and went to make myself a cup of hot cocoa . 
+7-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	6-18	
+7-2	then	O	O	_	_	
+7-3	put	O	B-ScrEv_get_dressed|B-ScrEv_get_dressed	_	_	
+7-4	on	O	I-ScrEv_get_dressed	_	_	
+7-5	some	O	O	_	_	
+7-6	clean	O	O	_	_	
+7-7	clothes	B-ScrPart_clothes	O	webanno.custom.Corefchains_	2-23	
+7-8	and	O	O	_	_	
+7-9	went	O	B-UnrelEv	_	_	
+7-10	to	O	O	_	_	
+7-11	make	O	B-UnrelEv	_	_	
+7-12	myself	B-ScrPart_bather	O	webanno.custom.Corefchains_	7-1	
+7-13	a	O	O	_	_	
+7-14	cup	O	O	_	_	
+7-15	of	O	O	_	_	
+7-16	hot	O	O	_	_	
+7-17	cocoa	O	O	_	_	
+7-18	.	O	O	_	_	
+

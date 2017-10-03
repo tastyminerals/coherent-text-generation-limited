@@ -1,0 +1,228 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=One day I noticed that I was running out of food and needed to go grocery shopping .
+1-1	One	O	O	
+1-2	day	B-NPart	O	
+1-3	I	B-ScrPart_shopper	O	
+1-4	noticed	O	B-UnrelEv	
+1-5	that	O	O	
+1-6	I	B-ScrPart_shopper	O	
+1-7	was	O	O	
+1-8	running	O	B-RelNScrEv	
+1-9	out	O	I-RelNScrEv	
+1-10	of	O	O	
+1-11	food	B-ScrPart_groceries	O	
+1-12	and	O	O	
+1-13	needed	O	O	
+1-14	to	O	O	
+1-15	go	O	B-Evoking	
+1-16	grocery	B-ScrPart_groceries	I-Evoking	
+1-17	shopping	O	I-Evoking|B-ScrEv_get_groceries	
+1-18	.	O	O	
+
+#id=2
+#text=I drove down to Sams Club and showed the man my card , got my shopping cart , and was on my way to get my things .
+2-1	I	B-ScrPart_shopper	O	
+2-2	drove	O	B-ScrEv_go_grocery	
+2-3	down	O	I-ScrEv_go_grocery	
+2-4	to	O	O	
+2-5	Sams	B-ScrPart_grocery_shop	O	
+2-6	Club	I-ScrPart_grocery_shop	O	
+2-7	and	O	O	
+2-8	showed	O	B-RelNScrEv	
+2-9	the	O	O	
+2-10	man	B-ScrPart_grocery_staff	O	
+2-11	my	B-ScrPart_shopper	O	
+2-12	card	B-NPart	O	
+2-13	,	O	O	
+2-14	got	O	B-ScrEv_take_shop_cart	
+2-15	my	B-ScrPart_shopper	O	
+2-16	shopping	B-ScrPart_shopping_cart/basket	O	
+2-17	cart	I-ScrPart_shopping_cart/basket|B-ScrPart_shopping_cart/basket	O	
+2-18	,	O	O	
+2-19	and	O	O	
+2-20	was	O	B-UnrelEv	
+2-21	on	O	O	
+2-22	my	B-ScrPart_shopper	O	
+2-23	way	B-NPart	O	
+2-24	to	O	O	
+2-25	get	O	B-ScrEv_get_groceries	
+2-26	my	B-ScrPart_shopper	O	
+2-27	things	B-ScrPart_groceries	O	
+2-28	.	O	O	
+
+#id=3
+#text=I went through the aisles picking up everything I needed .
+3-1	I	B-ScrPart_shopper	O	
+3-2	went	O	B-ScrEv_move_section	
+3-3	through	O	O	
+3-4	the	O	O	
+3-5	aisles	B-ScrPart_section	O	
+3-6	picking	O	B-ScrEv_get_groceries	
+3-7	up	O	I-ScrEv_get_groceries	
+3-8	everything	B-ScrPart_groceries	O	
+3-9	I	B-ScrPart_shopper	O	
+3-10	needed	O	B-RelNScrEv	
+3-11	.	O	O	
+
+#id=4
+#text=Steaks , milk , eggs , pizza , bread , all the usual things .
+4-1	Steaks	B-ScrPart_groceries	O	
+4-2	,	O	O	
+4-3	milk	B-ScrPart_groceries	O	
+4-4	,	O	O	
+4-5	eggs	B-ScrPart_groceries	O	
+4-6	,	O	O	
+4-7	pizza	B-ScrPart_groceries	O	
+4-8	,	O	O	
+4-9	bread	B-ScrPart_groceries	O	
+4-10	,	O	O	
+4-11	all	O	O	
+4-12	the	O	O	
+4-13	usual	O	O	
+4-14	things	B-ScrPart_groceries	O	
+4-15	.	O	O	
+
+#id=5
+#text=I also stopped along the way and tried some of the free samples they had in the store .
+5-1	I	B-ScrPart_shopper	O	
+5-2	also	O	O	
+5-3	stopped	O	B-UnrelEv	
+5-4	along	O	O	
+5-5	the	O	O	
+5-6	way	B-NPart	O	
+5-7	and	O	O	
+5-8	tried	O	B-RelNScrEv	
+5-9	some	O	O	
+5-10	of	O	O	
+5-11	the	O	O	
+5-12	free	O	O	
+5-13	samples	B-ScrPart_groceries	O	
+5-14	they	B-ScrPart_grocery_staff	O	
+5-15	had	O	B-UnrelEv	
+5-16	in	O	O	
+5-17	the	O	O	
+5-18	store	B-ScrPart_shopping_cart/basket	O	
+5-19	.	O	O	
+
+#id=6
+#text=The ice cream sandwich I tried was so good I ended up getting a box even though it was not on my list .
+6-1	The	O	O	
+6-2	ice	B-ScrPart_groceries	O	
+6-3	cream	I-ScrPart_groceries	O	
+6-4	sandwich	I-ScrPart_groceries|B-ScrPart_groceries	O	
+6-5	I	B-ScrPart_shopper	O	
+6-6	tried	O	B-RelNScrEv	
+6-7	was	O	B-UnrelEv	
+6-8	so	O	O	
+6-9	good	O	O	
+6-10	I	B-ScrPart_shopper	O	
+6-11	ended	O	B-UnrelEv	
+6-12	up	O	I-UnrelEv	
+6-13	getting	O	B-ScrEv_get_groceries	
+6-14	a	O	O	
+6-15	box	B-ScrPart_groceries	O	
+6-16	even	O	O	
+6-17	though	O	O	
+6-18	it	B-ScrPart_groceries	O	
+6-19	was	O	B-UnrelEv	
+6-20	not	O	O	
+6-21	on	O	O	
+6-22	my	B-ScrPart_shopper	O	
+6-23	list	B-ScrPart_grocery_list	O	
+6-24	.	O	O	
+
+#id=7
+#text=I guess their sales pitch worked .
+7-1	I	B-ScrPart_shopper	O	
+7-2	guess	O	B-UnrelEv	
+7-3	their	B-ScrPart_grocery_staff	O	
+7-4	sales	B-NPart	O	
+7-5	pitch	I-NPart|B-NPart	O	
+7-6	worked	O	B-UnrelEv	
+7-7	.	O	O	
+
+#id=8
+#text=After I had everything that I needed I took my cart to the register and waited in line to get checked out .
+8-1	After	O	O	
+8-2	I	B-ScrPart_shopper	O	
+8-3	had	O	B-RelNScrEv	
+8-4	everything	B-ScrPart_groceries	O	
+8-5	that	B-ScrPart_groceries	O	
+8-6	I	B-ScrPart_shopper	O	
+8-7	needed	O	B-RelNScrEv	
+8-8	I	B-ScrPart_shopper	O	
+8-9	took	O	B-ScrEv_go_checkout	
+8-10	my	B-ScrPart_shopper	O	
+8-11	cart	B-ScrPart_shopping_cart/basket	O	
+8-12	to	O	O	
+8-13	the	O	O	
+8-14	register	B-ScrPart_cash_desk	O	
+8-15	and	O	O	
+8-16	waited	O	B-ScrEv_wait	
+8-17	in	O	O	
+8-18	line	B-ScrPart_line	O	
+8-19	to	O	O	
+8-20	get	O	B-UnrelEv	
+8-21	checked	O	B-ScrEv_pay	
+8-22	out	O	I-ScrEv_pay	
+8-23	.	O	O	
+
+#id=9
+#text=I put all my items on the belt and got rung up by the cashier .
+9-1	I	B-ScrPart_shopper	O	
+9-2	put	O	B-ScrEv_put_conveyor	
+9-3	all	O	O	
+9-4	my	B-ScrPart_shopper	O	
+9-5	items	B-ScrPart_groceries	O	
+9-6	on	O	O	
+9-7	the	O	O	
+9-8	belt	B-ScrPart_conveyor_belt	O	
+9-9	and	O	O	
+9-10	got	O	B-UnrelEv	
+9-11	rung	O	B-ScrEv_cashier_scan/weight	
+9-12	up	O	I-ScrEv_cashier_scan/weight	
+9-13	by	O	O	
+9-14	the	O	O	
+9-15	cashier	B-ScrPart_grocery_staff	O	
+9-16	.	O	O	
+
+#id=10
+#text=I then paid the woman and left the store .
+10-1	I	B-ScrPart_shopper	O	
+10-2	then	O	O	
+10-3	paid	O	B-ScrEv_pay	
+10-4	the	O	O	
+10-5	woman	B-ScrPart_grocery_staff	O	
+10-6	and	O	O	
+10-7	left	O	B-ScrEv_leave	
+10-8	the	O	O	
+10-9	store	B-ScrPart_grocery_shop	O	
+10-10	.	O	O	
+
+#id=11
+#text=On the way out I decided to rent a Redbox movie for the night since the kiosk was right by the store . 
+11-1	On	O	O	
+11-2	the	O	O	
+11-3	way	B-NPart	O	
+11-4	out	O	O	
+11-5	I	B-ScrPart_shopper	O	
+11-6	decided	O	B-UnrelEv	
+11-7	to	O	O	
+11-8	rent	O	B-UnrelEv	
+11-9	a	O	O	
+11-10	Redbox	B-NPart	O	
+11-11	movie	I-NPart|B-NPart	O	
+11-12	for	O	O	
+11-13	the	O	O	
+11-14	night	B-NPart	O	
+11-15	since	O	O	
+11-16	the	O	O	
+11-17	kiosk	B-NPart	O	
+11-18	was	O	B-UnrelEv	
+11-19	right	O	O	
+11-20	by	O	O	
+11-21	the	O	O	
+11-22	store	B-ScrPart_grocery_shop	O	
+11-23	.	O	O	
+

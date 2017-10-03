@@ -1,0 +1,272 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text='' I love everything about libraries ; their quiet atmosphere , comfortable chairs , and rows and rows of books on every topic .
+1-1	''	O	O	_	_	
+1-2	I	B-ScrPart_customer	O	_	_	
+1-3	love	O	B-UnrelEv	_	_	
+1-4	everything	O	O	_	_	
+1-5	about	O	O	_	_	
+1-6	libraries	B-ScrPart_library	O	_	_	
+1-7	;	O	O	_	_	
+1-8	their	B-ScrPart_library	O	webanno.custom.Corefchains_	1-6	
+1-9	quiet	O	O	_	_	
+1-10	atmosphere	B-NPart	O	_	_	
+1-11	,	O	O	_	_	
+1-12	comfortable	O	O	_	_	
+1-13	chairs	B-ScrPart_reading_area_furniture	O	_	_	
+1-14	,	O	O	_	_	
+1-15	and	O	O	_	_	
+1-16	rows	B-ScrPart_shelf	O	_	_	
+1-17	and	O	O	_	_	
+1-18	rows	B-ScrPart_shelf	O	webanno.custom.Corefchains_	1-16	
+1-19	of	O	O	_	_	
+1-20	books	B-ScrPart_book	O	_	_	
+1-21	on	O	O	_	_	
+1-22	every	O	O	_	_	
+1-23	topic	O	O	_	_	
+1-24	.	O	O	_	_	
+
+#id=2
+#text=I do n't have enough money to go out and buy books whenever I want , so I often go to the library to borrow books for free .
+2-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-2	
+2-2	do	O	O	_	_	
+2-3	n't	O	O	_	_	
+2-4	have	O	B-UnrelEv	_	_	
+2-5	enough	O	O	_	_	
+2-6	money	O	O	_	_	
+2-7	to	O	O	_	_	
+2-8	go	O	B-UnrelEv	_	_	
+2-9	out	O	I-UnrelEv	_	_	
+2-10	and	O	O	_	_	
+2-11	buy	O	B-UnrelEv	_	_	
+2-12	books	B-ScrPart_book	O	webanno.custom.Corefchains_	1-20	
+2-13	whenever	O	O	_	_	
+2-14	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-1	
+2-15	want	O	O	_	_	
+2-16	,	O	O	_	_	
+2-17	so	O	O	_	_	
+2-18	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-14	
+2-19	often	O	O	_	_	
+2-20	go	O	B-ScrEv_get_library	_	_	
+2-21	to	O	O	_	_	
+2-22	the	O	O	_	_	
+2-23	library	B-ScrPart_library	O	webanno.custom.Corefchains_	1-8	
+2-24	to	O	O	_	_	
+2-25	borrow	O	B-Evoking	_	_	
+2-26	books	B-ScrPart_book	I-Evoking	webanno.custom.Corefchains_	2-12	
+2-27	for	O	O	_	_	
+2-28	free	O	O	_	_	
+2-29	.	O	O	_	_	
+
+#id=3
+#text=Recently , I decided to go to the library and just browse until I found something interesting .
+3-1	Recently	O	O	_	_	
+3-2	,	O	O	_	_	
+3-3	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-18	
+3-4	decided	O	B-UnrelEv	_	_	
+3-5	to	O	O	_	_	
+3-6	go	O	B-ScrEv_get_library	_	_	
+3-7	to	O	O	_	_	
+3-8	the	O	O	_	_	
+3-9	library	B-ScrPart_library	O	webanno.custom.Corefchains_	2-23	
+3-10	and	O	O	_	_	
+3-11	just	O	O	_	_	
+3-12	browse	O	B-RelNScrEv	_	_	
+3-13	until	O	O	_	_	
+3-14	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-3	
+3-15	found	O	B-RelNScrEv	_	_	
+3-16	something	B-ScrPart_book	O	webanno.custom.Corefchains_	2-26	
+3-17	interesting	O	O	_	_	
+3-18	.	O	O	_	_	
+
+#id=4
+#text=I drove to the library and parked close to the door , since I expected to leave with an armful of heavy books .
+4-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-14	
+4-2	drove	O	B-ScrEv_get_library	_	_	
+4-3	to	O	O	_	_	
+4-4	the	O	O	_	_	
+4-5	library	B-ScrPart_library	O	webanno.custom.Corefchains_	3-9	
+4-6	and	O	O	_	_	
+4-7	parked	O	B-UnrelEv	_	_	
+4-8	close	O	O	_	_	
+4-9	to	O	O	_	_	
+4-10	the	O	O	_	_	
+4-11	door	O	O	_	_	
+4-12	,	O	O	_	_	
+4-13	since	O	O	_	_	
+4-14	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-1	
+4-15	expected	O	B-UnrelEv	_	_	
+4-16	to	O	O	_	_	
+4-17	leave	O	B-ScrEv_leave	_	_	
+4-18	with	O	O	_	_	
+4-19	an	O	O	_	_	
+4-20	armful	B-NPart	O	_	_	
+4-21	of	O	O	_	_	
+4-22	heavy	O	O	_	_	
+4-23	books	B-ScrPart_book	O	webanno.custom.Corefchains_	3-16	
+4-24	.	O	O	_	_	
+
+#id=5
+#text=I walked inside and headed for the Fiction section .
+5-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-14	
+5-2	walked	O	B-RelNScrEv	_	_	
+5-3	inside	O	O	_	_	
+5-4	and	O	O	_	_	
+5-5	headed	O	B-ScrEv_get_shelf	_	_	
+5-6	for	O	O	_	_	
+5-7	the	O	O	_	_	
+5-8	Fiction	B-ScrPart_location_library	O	_	_	
+5-9	section	I-ScrPart_location_library|B-ScrPart_location_library	O	_	_	
+5-10	.	O	O	_	_	
+
+#id=6
+#text=I ended up in the row for authors with last names starting with K , because I wanted to find Stephen King books .
+6-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-1	
+6-2	ended	O	B-UnrelEv	_	_	
+6-3	up	O	I-UnrelEv	_	_	
+6-4	in	O	O	_	_	
+6-5	the	O	O	_	_	
+6-6	row	B-ScrPart_shelf	O	group_rows	1-18	
+6-7	for	O	O	_	_	
+6-8	authors	O	O	_	_	
+6-9	with	O	O	_	_	
+6-10	last	O	O	_	_	
+6-11	names	O	O	_	_	
+6-12	starting	O	B-UnrelEv	_	_	
+6-13	with	O	O	_	_	
+6-14	K	O	O	_	_	
+6-15	,	O	O	_	_	
+6-16	because	O	O	_	_	
+6-17	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-1	
+6-18	wanted	O	B-UnrelEv	_	_	
+6-19	to	O	O	_	_	
+6-20	find	O	B-ScrEv_take_book	_	_	
+6-21	Stephen	B-ScrPart_book	O	_	_	
+6-22	King	I-ScrPart_book	O	_	_	
+6-23	books	I-ScrPart_book|B-ScrPart_book	O	group_books	4-23	
+6-24	.	O	O	_	_	
+
+#id=7
+#text=They ended up having a dozen books by Stephen King , and I selected three that I had never read before .
+7-1	They	B-ScrPart_staff	O	_	_	
+7-2	ended	O	B-UnrelEv	_	_	
+7-3	up	O	I-UnrelEv	_	_	
+7-4	having	O	B-UnrelEv	_	_	
+7-5	a	O	O	_	_	
+7-6	dozen	O	O	_	_	
+7-7	books	B-ScrPart_book	O	webanno.custom.Corefchains_	6-23	
+7-8	by	O	O	_	_	
+7-9	Stephen	O	O	_	_	
+7-10	King	O	O	_	_	
+7-11	,	O	O	_	_	
+7-12	and	O	O	_	_	
+7-13	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-17	
+7-14	selected	O	B-ScrEv_take_book	_	_	
+7-15	three	B-ScrPart_book	O	webanno.custom.Corefchains_	7-7	
+7-16	that	O	O	_	_	
+7-17	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-13	
+7-18	had	O	O	_	_	
+7-19	never	O	O	_	_	
+7-20	read	O	B-RelNScrEv	_	_	
+7-21	before	O	O	_	_	
+7-22	.	O	O	_	_	
+
+#id=8
+#text=Then I went over to Nonfiction to find a book on gardening , since I wanted to learn how to grow tomato plants .
+8-1	Then	O	O	_	_	
+8-2	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-17	
+8-3	went	O	B-ScrEv_get_shelf	_	_	
+8-4	over	O	O	_	_	
+8-5	to	O	O	_	_	
+8-6	Nonfiction	B-ScrPart_location_library	O	_	_	
+8-7	to	O	O	_	_	
+8-8	find	O	B-RelNScrEv	_	_	
+8-9	a	O	O	_	_	
+8-10	book	B-ScrPart_customer	O	group_books	4-23	
+8-11	on	O	O	_	_	
+8-12	gardening	O	B-UnrelEv	_	_	
+8-13	,	O	O	_	_	
+8-14	since	O	O	_	_	
+8-15	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-2	
+8-16	wanted	O	O	_	_	
+8-17	to	O	O	_	_	
+8-18	learn	O	B-UnrelEv	_	_	
+8-19	how	O	O	_	_	
+8-20	to	O	O	_	_	
+8-21	grow	O	B-UnrelEv	_	_	
+8-22	tomato	O	O	_	_	
+8-23	plants	O	O	_	_	
+8-24	.	O	O	_	_	
+
+#id=9
+#text=I picked up a gigantic , fantastically long book on how to grow common vegetables and walked over to the reception desk .
+9-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-15	
+9-2	picked	O	B-ScrEv_take_book	_	_	
+9-3	up	O	I-ScrEv_take_book	_	_	
+9-4	a	O	O	_	_	
+9-5	gigantic	O	O	_	_	
+9-6	,	O	O	_	_	
+9-7	fantastically	O	O	_	_	
+9-8	long	O	O	_	_	
+9-9	book	B-ScrPart_book	O	webanno.custom.Corefchains_	8-10	
+9-10	on	O	O	_	_	
+9-11	how	O	O	_	_	
+9-12	to	O	O	_	_	
+9-13	grow	O	B-UnrelEv	_	_	
+9-14	common	O	O	_	_	
+9-15	vegetables	O	O	_	_	
+9-16	and	O	O	_	_	
+9-17	walked	O	B-ScrEv_go_check_out	_	_	
+9-18	over	O	O	_	_	
+9-19	to	O	O	_	_	
+9-20	the	O	O	_	_	
+9-21	reception	B-ScrPart_check-out_desk	O	_	_	
+9-22	desk	I-ScrPart_check-out_desk|B-ScrPart_check-out_desk	O	_	_	
+9-23	.	O	O	_	_	
+
+#id=10
+#text=I handed the librarian my card and she checked out my books .
+10-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-1	
+10-2	handed	O	B-ScrEv_show_card	_	_	
+10-3	the	O	O	_	_	
+10-4	librarian	B-ScrPart_staff	O	group_staff	7-1	
+10-5	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	10-1	
+10-6	card	B-ScrPart_library_card	O	_	_	
+10-7	and	O	O	_	_	
+10-8	she	B-ScrPart_staff	O	webanno.custom.Corefchains_	10-4	
+10-9	checked	O	B-ScrEv_register	_	_	
+10-10	out	O	I-ScrEv_register	_	_	
+10-11	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	10-5	
+10-12	books	B-ScrPart_book	O	webanno.custom.Corefchains_	4-23	
+10-13	.	O	O	_	_	
+
+#id=11
+#text=I gathered them up in my arms and walked back to my car , excited to be able to read them all once I got home . 
+11-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	10-11	
+11-2	gathered	O	B-RelNScrEv	_	_	
+11-3	them	B-ScrPart_book	O	webanno.custom.Corefchains_	10-12	
+11-4	up	O	O	_	_	
+11-5	in	O	O	_	_	
+11-6	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	11-1	
+11-7	arms	B-NPart	O	_	_	
+11-8	and	O	O	_	_	
+11-9	walked	O	B-ScrEv_leave	_	_	
+11-10	back	O	O	_	_	
+11-11	to	O	O	_	_	
+11-12	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	11-6	
+11-13	car	B-NPart	O	_	_	
+11-14	,	O	O	_	_	
+11-15	excited	O	O	_	_	
+11-16	to	O	O	_	_	
+11-17	be	O	O	_	_	
+11-18	able	O	O	_	_	
+11-19	to	O	O	_	_	
+11-20	read	O	B-RelNScrEv	_	_	
+11-21	them	B-ScrPart_book	O	webanno.custom.Corefchains_	11-3	
+11-22	all	O	O	_	_	
+11-23	once	O	O	_	_	
+11-24	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	11-12	
+11-25	got	O	B-ScrEv_leave	_	_	
+11-26	home	B-NPart	O	_	_	
+11-27	.	O	O	_	_	
+

@@ -1,0 +1,245 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Event | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=The trick to getting around an island as congested with traffic as Oahu , is to ride the public bus .
+1-1	The	O	O	O	_	_	
+1-2	trick	B-NPart	O	O	_	_	
+1-3	to	O	O	O	_	_	
+1-4	getting	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+1-5	around	O	I-webanno.custom.Events_	I-UnrelEv	_	_	
+1-6	an	O	O	O	_	_	
+1-7	island	B-NPart	O	O	_	_	
+1-8	as	O	O	O	_	_	
+1-9	congested	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+1-10	with	O	O	O	_	_	
+1-11	traffic	B-NPart	O	O	_	_	
+1-12	as	O	O	O	_	_	
+1-13	Oahu	B-NPart	O	O	_	_	
+1-14	,	O	O	O	_	_	
+1-15	is	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+1-16	to	O	O	O	_	_	
+1-17	ride	O	B-webanno.custom.Events_	B-Evoking	_	_	
+1-18	the	O	I-webanno.custom.Events_	I-Evoking	_	_	
+1-19	public	O	I-webanno.custom.Events_	I-Evoking	_	_	
+1-20	bus	B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	_	_	
+1-21	.	O	O	O	_	_	
+
+#id=2
+#text=There are too many cars , in too small of an area , and the result is hours of gridlock on the roads .
+2-1	There	O	O	O	_	_	
+2-2	are	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+2-3	too	O	O	O	_	_	
+2-4	many	O	O	O	_	_	
+2-5	cars	B-NPart	O	O	_	_	
+2-6	,	O	O	O	_	_	
+2-7	in	O	O	O	_	_	
+2-8	too	O	O	O	_	_	
+2-9	small	O	O	O	_	_	
+2-10	of	O	O	O	_	_	
+2-11	an	O	O	O	_	_	
+2-12	area	B-NPart	O	O	_	_	
+2-13	,	O	O	O	_	_	
+2-14	and	O	O	O	_	_	
+2-15	the	O	O	O	_	_	
+2-16	result	B-NPart	O	O	_	_	
+2-17	is	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+2-18	hours	B-NPart	O	O	_	_	
+2-19	of	O	O	O	_	_	
+2-20	gridlock	B-NPart	O	O	_	_	
+2-21	on	O	O	O	_	_	
+2-22	the	O	O	O	_	_	
+2-23	roads	B-NPart	O	O	_	_	
+2-24	.	O	O	O	_	_	
+
+#id=3
+#text=The bus can use special lanes , and helps reduce the overall traffic .
+3-1	The	O	O	O	_	_	
+3-2	bus	B-ScrPart_bus	O	O	_	_	
+3-3	can	O	O	O	_	_	
+3-4	use	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+3-5	special	O	O	O	_	_	
+3-6	lanes	B-ScrPart_route	O	O	_	_	
+3-7	,	O	O	O	_	_	
+3-8	and	O	O	O	_	_	
+3-9	helps	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+3-10	reduce	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+3-11	the	O	O	O	_	_	
+3-12	overall	O	O	O	_	_	
+3-13	traffic	B-NPart	O	O	_	_	
+3-14	.	O	O	O	_	_	
+
+#id=4
+#text=Learning to ride the public bus was a little stressful at first .
+4-1	Learning	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+4-2	to	O	O	O	_	_	
+4-3	ride	O	B-webanno.custom.Events_	B-Evoking	_	_	
+4-4	the	O	I-webanno.custom.Events_	I-Evoking	_	_	
+4-5	public	O	I-webanno.custom.Events_	I-Evoking	_	_	
+4-6	bus	B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	_	_	
+4-7	was	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+4-8	a	O	O	O	_	_	
+4-9	little	O	O	O	_	_	
+4-10	stressful	O	O	O	_	_	
+4-11	at	O	O	O	_	_	
+4-12	first	O	O	O	_	_	
+4-13	.	O	O	O	_	_	
+
+#id=5
+#text=I studied bus routes online on their website , there are quite a few and it seemed like it 'd be easy to get on the wrong bus .
+5-1	I	B-ScrPart_passenger	O	O	_	_	
+5-2	studied	O	B-webanno.custom.Events_	B-ScrEv_check_time-table	_	_	
+5-3	bus	B-ScrPart_route	O	O	_	_	
+5-4	routes	I-ScrPart_route|B-ScrPart_route	O	O	_	_	
+5-5	online	O	O	O	_	_	
+5-6	on	O	O	O	_	_	
+5-7	their	B-ScrPart_bus	O	O	_	_	
+5-8	website	B-ScrPart_time-table	O	O	_	_	
+5-9	,	O	O	O	_	_	
+5-10	there	O	O	O	_	_	
+5-11	are	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+5-12	quite	O	O	O	_	_	
+5-13	a	O	O	O	_	_	
+5-14	few	B-ScrPart_route	O	O	webanno.custom.Corefchains_	5-4	
+5-15	and	O	O	O	_	_	
+5-16	it	B-No_label	O	O	_	_	
+5-17	seemed	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+5-18	like	O	O	O	_	_	
+5-19	it	B-No_label	O	O	_	_	
+5-20	'd	O	O	O	_	_	
+5-21	be	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+5-22	easy	O	O	O	_	_	
+5-23	to	O	O	O	_	_	
+5-24	get	O	B-webanno.custom.Events_	B-ScrEv_board_bus	_	_	
+5-25	on	O	I-webanno.custom.Events_	I-ScrEv_board_bus	_	_	
+5-26	the	O	O	O	_	_	
+5-27	wrong	O	O	O	_	_	
+5-28	bus	B-ScrPart_bus	O	O	_	_	
+5-29	.	O	O	O	_	_	
+
+#id=6
+#text=I learned each bus has a number assigned to it and displayed on the front though .
+6-1	I	B-ScrPart_passenger	O	O	_	_	
+6-2	learned	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+6-3	each	O	O	O	_	_	
+6-4	bus	B-ScrPart_bus	O	O	_	_	
+6-5	has	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+6-6	a	O	O	O	_	_	
+6-7	number	B-ScrPart_other	O	O	_	_	
+6-8	assigned	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+6-9	to	O	I-webanno.custom.Events_	I-UnrelEv	_	_	
+6-10	it	B-ScrPart_bus	O	O	_	_	
+6-11	and	O	O	O	_	_	
+6-12	displayed	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+6-13	on	O	O	O	_	_	
+6-14	the	O	O	O	_	_	
+6-15	front	O	O	O	_	_	
+6-16	though	O	O	O	_	_	
+6-17	.	O	O	O	_	_	
+
+#id=7
+#text=With that in mind , and armed with maps , I learned to stand at my local bus stop and climb on board where I drop my change into the toll taker next to the driver .
+7-1	With	O	O	O	_	_	
+7-2	that	O	O	O	_	_	
+7-3	in	O	O	O	_	_	
+7-4	mind	B-NPart	O	O	_	_	
+7-5	,	O	O	O	_	_	
+7-6	and	O	O	O	_	_	
+7-7	armed	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+7-8	with	O	O	O	_	_	
+7-9	maps	B-NPart	O	O	_	_	
+7-10	,	O	O	O	_	_	
+7-11	I	B-ScrPart_passenger	O	O	_	_	
+7-12	learned	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+7-13	to	O	O	O	_	_	
+7-14	stand	O	B-webanno.custom.Events_	B-ScrEv_wait	_	_	
+7-15	at	O	O	O	_	_	
+7-16	my	B-ScrPart_passenger	O	O	_	_	
+7-17	local	O	O	O	_	_	
+7-18	bus	B-ScrPart_bus_stop	O	O	_	_	
+7-19	stop	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	O	_	_	
+7-20	and	O	O	O	_	_	
+7-21	climb	O	B-webanno.custom.Events_	B-ScrEv_board_bus	_	_	
+7-22	on	O	O	O	_	_	
+7-23	board	B-No_label	O	O	_	_	
+7-24	where	O	O	O	_	_	
+7-25	I	B-ScrPart_passenger	O	O	_	_	
+7-26	drop	O	B-webanno.custom.Events_	B-ScrEv_get_ticket	_	_	
+7-27	my	B-ScrPart_passenger	O	O	_	_	
+7-28	change	B-ScrPart_money	O	O	_	_	
+7-29	into	O	O	O	_	_	
+7-30	the	O	O	O	_	_	
+7-31	toll	B-ScrPart_payment_machine	O	O	_	_	
+7-32	taker	I-ScrPart_payment_machine|B-ScrPart_payment_machine	O	O	_	_	
+7-33	next	O	O	O	_	_	
+7-34	to	O	O	O	_	_	
+7-35	the	O	O	O	_	_	
+7-36	driver	B-ScrPart_bus_staff	O	O	_	_	
+7-37	.	O	O	O	_	_	
+
+#id=8
+#text=I always look for an empty seat , and then relax , watching the scenery roll by .
+8-1	I	B-ScrPart_passenger	O	O	_	_	
+8-2	always	O	O	O	_	_	
+8-3	look	O	B-webanno.custom.Events_	B-ScrEv_find_place	_	_	
+8-4	for	O	I-webanno.custom.Events_	I-ScrEv_find_place	_	_	
+8-5	an	O	O	O	_	_	
+8-6	empty	O	O	O	_	_	
+8-7	seat	B-ScrPart_seat_in_bus	O	O	_	_	
+8-8	,	O	O	O	_	_	
+8-9	and	O	O	O	_	_	
+8-10	then	O	O	O	_	_	
+8-11	relax	O	B-webanno.custom.Events_	B-ScrEv_spend_time_bus	_	_	
+8-12	,	O	O	O	_	_	
+8-13	watching	O	B-webanno.custom.Events_	B-ScrEv_spend_time_bus	_	_	
+8-14	the	O	O	O	_	_	
+8-15	scenery	B-ScrPart_in-bus_entertainment	O	O	_	_	
+8-16	roll	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+8-17	by	O	I-webanno.custom.Events_	I-RelNScrEv	_	_	
+8-18	.	O	O	O	_	_	
+
+#id=9
+#text=As my stop approaches , I stand and pull the bell , and the driver stops the bus .
+9-1	As	O	O	O	_	_	
+9-2	my	B-ScrPart_passenger	O	O	_	_	
+9-3	stop	B-ScrPart_destination	O	O	_	_	
+9-4	approaches	O	B-webanno.custom.Events_	B-ScrEv_bus_stops	_	_	
+9-5	,	O	O	O	_	_	
+9-6	I	B-ScrPart_passenger	O	O	_	_	
+9-7	stand	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+9-8	and	O	O	O	_	_	
+9-9	pull	O	B-webanno.custom.Events_	B-ScrEv_press_stop_button	_	_	
+9-10	the	O	O	O	_	_	
+9-11	bell	B-ScrPart_stop_button/door_opener	O	O	_	_	
+9-12	,	O	O	O	_	_	
+9-13	and	O	O	O	_	_	
+9-14	the	O	O	O	_	_	
+9-15	driver	B-ScrPart_seat_in_bus	O	O	_	_	
+9-16	stops	O	B-webanno.custom.Events_	B-ScrEv_bus_stops	_	_	
+9-17	the	O	O	O	_	_	
+9-18	bus	B-ScrPart_bus	O	O	_	_	
+9-19	.	O	O	O	_	_	
+
+#id=10
+#text=Now that I regularly ride the public bus , I find I do n't mind the long commute nearly as much ! 
+10-1	Now	O	O	O	_	_	
+10-2	that	O	O	O	_	_	
+10-3	I	B-ScrPart_passenger	O	O	_	_	
+10-4	regularly	O	O	O	_	_	
+10-5	ride	O	B-webanno.custom.Events_	B-Evoking	_	_	
+10-6	the	O	I-webanno.custom.Events_	I-Evoking	_	_	
+10-7	public	O	I-webanno.custom.Events_	I-Evoking	_	_	
+10-8	bus	B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	_	_	
+10-9	,	O	O	O	_	_	
+10-10	I	B-ScrPart_passenger	O	O	_	_	
+10-11	find	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+10-12	I	B-ScrPart_passenger	O	O	_	_	
+10-13	do	O	O	O	_	_	
+10-14	n't	O	O	O	_	_	
+10-15	mind	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+10-16	the	O	O	O	_	_	
+10-17	long	O	O	O	_	_	
+10-18	commute	B-NPart	O	O	_	_	
+10-19	nearly	O	O	O	_	_	
+10-20	as	O	O	O	_	_	
+10-21	much	O	O	O	_	_	
+10-22	!	O	O	O	_	_	
+

@@ -1,0 +1,208 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I buy tickets far ahead , to save money .
+1-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+1-2	buy	O	O	B-ScrEv_get_ticket	_	_	
+1-3	tickets	B-webanno.custom.Participants_	B-ScrPart_ticket	O	_	_	
+1-4	far	O	O	O	_	_	
+1-5	ahead	O	O	O	_	_	
+1-6	,	O	O	O	_	_	
+1-7	to	O	O	O	_	_	
+1-8	save	O	O	B-UnrelEv	_	_	
+1-9	money	O	O	O	_	_	
+1-10	.	O	O	O	_	_	
+
+#id=2
+#text=When the day approaches , I pack carefully , excluding oversized toiletries , liquids , explosives and anything else likely to be viewed as contraband .
+2-1	When	O	O	O	_	_	
+2-2	the	O	O	O	_	_	
+2-3	day	O	O	O	_	_	
+2-4	approaches	O	O	B-UnrelEv	_	_	
+2-5	,	O	O	O	_	_	
+2-6	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-1	
+2-7	pack	O	O	B-ScrEv_pack_luggage	_	_	
+2-8	carefully	O	O	O	_	_	
+2-9	,	O	O	O	_	_	
+2-10	excluding	O	O	B-UnrelEv	_	_	
+2-11	oversized	O	O	O	_	_	
+2-12	toiletries	O	O	O	_	_	
+2-13	,	O	O	O	_	_	
+2-14	liquids	O	O	O	_	_	
+2-15	,	O	O	O	_	_	
+2-16	explosives	O	O	O	_	_	
+2-17	and	O	O	O	_	_	
+2-18	anything	B-webanno.custom.Participants_	B-NPart	O	_	_	
+2-19	else	O	O	O	_	_	
+2-20	likely	O	O	O	_	_	
+2-21	to	O	O	O	_	_	
+2-22	be	O	O	O	_	_	
+2-23	viewed	O	O	B-RelNScrEv	_	_	
+2-24	as	O	O	O	_	_	
+2-25	contraband	B-webanno.custom.Participants_	B-MissScrPart	O	_	_	
+2-26	.	O	O	O	_	_	
+
+#id=3
+#text=I also remind myself not to joke about this stuff at the airport , and to be absolutely cooperative .
+3-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-6	
+3-2	also	O	O	O	_	_	
+3-3	remind	O	O	B-UnrelEv	_	_	
+3-4	myself	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-1	
+3-5	not	O	O	O	_	_	
+3-6	to	O	O	O	_	_	
+3-7	joke	O	O	B-UnrelEv	_	_	
+3-8	about	O	O	O	_	_	
+3-9	this	O	O	O	_	_	
+3-10	stuff	O	O	O	_	_	
+3-11	at	O	O	O	_	_	
+3-12	the	O	O	O	_	_	
+3-13	airport	B-webanno.custom.Participants_	B-ScrPart_airport	O	_	_	
+3-14	,	O	O	O	_	_	
+3-15	and	O	O	O	_	_	
+3-16	to	O	O	O	_	_	
+3-17	be	O	O	B-UnrelEv	_	_	
+3-18	absolutely	O	O	O	_	_	
+3-19	cooperative	O	O	O	_	_	
+3-20	.	O	O	O	_	_	
+
+#id=4
+#text=I wear slip-on shoes , arrive an hour early , get in line and do as I am told .
+4-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-4	
+4-2	wear	O	O	B-UnrelEv	_	_	
+4-3	slip-on	O	O	O	_	_	
+4-4	shoes	O	O	O	_	_	
+4-5	,	O	O	O	_	_	
+4-6	arrive	O	O	B-ScrEv_get_airport	_	_	
+4-7	an	O	O	O	_	_	
+4-8	hour	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+4-9	early	O	O	O	_	_	
+4-10	,	O	O	O	_	_	
+4-11	get	O	O	B-ScrEv_wait	_	_	
+4-12	in	O	O	O	_	_	
+4-13	line	B-webanno.custom.Participants_	B-ScrPart_line	O	_	_	
+4-14	and	O	O	O	_	_	
+4-15	do	O	O	B-UnrelEv	_	_	
+4-16	as	O	O	O	_	_	
+4-17	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-1	
+4-18	am	O	O	O	_	_	
+4-19	told	O	O	B-UnrelEv	_	_	
+4-20	.	O	O	O	_	_	
+
+#id=5
+#text=Usually this means a brief scan and luggage overlook .
+5-1	Usually	O	O	O	_	_	
+5-2	this	O	O	O	_	_	
+5-3	means	O	O	B-UnrelEv	_	_	
+5-4	a	O	O	O	_	_	
+5-5	brief	O	O	O	_	_	
+5-6	scan	B-webanno.custom.Participants_	B-MissScrPart	O	_	_	
+5-7	and	O	O	O	_	_	
+5-8	luggage	B-webanno.custom.Participants_	B-ScrPart_carry_on_luggage	O	_	_	
+5-9	overlook	O	O	B-ScrEv_check_luggage	_	_	
+5-10	.	O	O	O	_	_	
+
+#id=6
+#text=It 's much like crossing a border , and only slightly more intense .
+6-1	It	O	O	O	_	_	
+6-2	's	O	O	B-UnrelEv	_	_	
+6-3	much	O	O	O	_	_	
+6-4	like	O	O	O	_	_	
+6-5	crossing	O	O	B-UnrelEv	_	_	
+6-6	a	O	O	O	_	_	
+6-7	border	O	O	O	_	_	
+6-8	,	O	O	O	_	_	
+6-9	and	O	O	O	_	_	
+6-10	only	O	O	O	_	_	
+6-11	slightly	O	O	O	_	_	
+6-12	more	O	O	O	_	_	
+6-13	intense	O	O	O	_	_	
+6-14	.	O	O	O	_	_	
+
+#id=7
+#text=Then I wait on the other side of the checkpoint , with everyone else .
+7-1	Then	O	O	O	_	_	
+7-2	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-17	
+7-3	wait	O	O	B-ScrEv_wait_boarding	_	_	
+7-4	on	O	O	O	_	_	
+7-5	the	O	O	O	_	_	
+7-6	other	O	O	O	_	_	
+7-7	side	O	O	O	_	_	
+7-8	of	O	O	O	_	_	
+7-9	the	O	O	O	_	_	
+7-10	checkpoint	B-webanno.custom.Participants_	B-ScrPart_check_in_desk	O	_	_	
+7-11	,	O	O	O	_	_	
+7-12	with	O	O	O	_	_	
+7-13	everyone	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+7-14	else	O	O	O	_	_	
+7-15	.	O	O	O	_	_	
+
+#id=8
+#text=I am careful to bring snacks and slippers in my carry on luggage , and I read rather than paying for entertainment .
+8-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-2	
+8-2	am	O	O	O	_	_	
+8-3	careful	O	O	O	_	_	
+8-4	to	O	O	O	_	_	
+8-5	bring	O	O	B-RelNScrEv	_	_	
+8-6	snacks	B-webanno.custom.Participants_	B-MissScrPart	O	_	_	
+8-7	and	O	O	O	_	_	
+8-8	slippers	B-webanno.custom.Participants_	B-MissScrPart	O	_	_	
+8-9	in	O	O	O	_	_	
+8-10	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-1	
+8-11	carry	B-webanno.custom.Participants_	B-ScrPart_carry_on_luggage	O	_	_	
+8-12	on	I-webanno.custom.Participants_	I-ScrPart_carry_on_luggage	O	_	_	
+8-13	luggage	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_carry_on_luggage|B-ScrPart_carry_on_luggage	O	_	_	
+8-14	,	O	O	O	_	_	
+8-15	and	O	O	O	_	_	
+8-16	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-10	
+8-17	read	O	O	B-ScrEv_spend_time_flight	_	_	
+8-18	rather	O	O	O	_	_	
+8-19	than	O	O	O	_	_	
+8-20	paying	O	O	B-RelNScrEv	_	_	
+8-21	for	O	O	O	_	_	
+8-22	entertainment	B-webanno.custom.Participants_	B-ScrPart_in-flight_entertainment	O	_	_	
+8-23	.	O	O	O	_	_	
+
+#id=9
+#text=The flying etiquette of Coach class is to leave fellow passengers alone , and I do that .
+9-1	The	O	O	O	_	_	
+9-2	flying	O	O	B-RelNScrEv	_	_	
+9-3	etiquette	O	O	O	_	_	
+9-4	of	O	O	O	_	_	
+9-5	Coach	O	O	O	_	_	
+9-6	class	O	O	O	_	_	
+9-7	is	O	O	B-UnrelEv	_	_	
+9-8	to	O	O	O	_	_	
+9-9	leave	O	O	B-RelNScrEv	_	_	
+9-10	fellow	O	O	O	_	_	
+9-11	passengers	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-13	
+9-12	alone	O	O	O	_	_	
+9-13	,	O	O	O	_	_	
+9-14	and	O	O	O	_	_	
+9-15	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-16	
+9-16	do	O	O	B-UnrelEv	_	_	
+9-17	that	O	O	O	_	_	
+9-18	.	O	O	O	_	_	
+
+#id=10
+#text=I also avoid those tiny bathrooms if I can , because I feel confined enough just being on the plane . 
+10-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-15	
+10-2	also	O	O	O	_	_	
+10-3	avoid	O	O	B-RelNScrEv	_	_	
+10-4	those	O	O	O	_	_	
+10-5	tiny	O	O	O	_	_	
+10-6	bathrooms	B-webanno.custom.Participants_	B-MissScrPart	O	_	_	
+10-7	if	O	O	O	_	_	
+10-8	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-1	
+10-9	can	O	O	O	_	_	
+10-10	,	O	O	O	_	_	
+10-11	because	O	O	O	_	_	
+10-12	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-8	
+10-13	feel	O	O	B-UnrelEv	_	_	
+10-14	confined	O	O	B-RelNScrEv	_	_	
+10-15	enough	O	O	O	_	_	
+10-16	just	O	O	O	_	_	
+10-17	being	O	O	B-UnrelEv	_	_	
+10-18	on	O	O	O	_	_	
+10-19	the	O	O	O	_	_	
+10-20	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	_	_	
+10-21	.	O	O	O	_	_	
+

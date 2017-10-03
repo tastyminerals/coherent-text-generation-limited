@@ -1,0 +1,222 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=As I was riding home from school one day the worst possible thing that could happen did happen .
+1-1	As	O	O	
+1-2	I	B-ScrPart_rider	O	
+1-3	was	O	O	
+1-4	riding	O	B-ScrEv_ride_bike	
+1-5	home	B-NPart	O	
+1-6	from	O	O	
+1-7	school	B-NPart	O	
+1-8	one	O	O	
+1-9	day	B-NPart	O	
+1-10	the	O	O	
+1-11	worst	O	O	
+1-12	possible	O	O	
+1-13	thing	B-NPart	O	
+1-14	that	O	O	
+1-15	could	O	O	
+1-16	happen	O	B-UnrelEv	
+1-17	did	O	O	
+1-18	happen	O	B-UnrelEv	
+1-19	.	O	O	
+
+#id=2
+#text=My tire popped .
+2-1	My	B-ScrPart_rider	O	
+2-2	tire	B-ScrPart_tire	O	
+2-3	popped	O	B-ScrEv_other	
+2-4	.	O	O	
+
+#id=3
+#text=I knew I was in deep because I had no idea how to repair a flat bicycle tire .
+3-1	I	B-ScrPart_rider	O	
+3-2	knew	O	B-UnrelEv	
+3-3	I	B-ScrPart_rider	O	
+3-4	was	O	B-UnrelEv|B-UnrelEv	
+3-5	in	O	I-UnrelEv	
+3-6	deep	O	O	
+3-7	because	O	O	
+3-8	I	B-ScrPart_rider	O	
+3-9	had	O	B-UnrelEv	
+3-10	no	O	O	
+3-11	idea	B-No_label	O	
+3-12	how	O	O	
+3-13	to	O	O	
+3-14	repair	O	B-Evoking	
+3-15	a	O	I-Evoking	
+3-16	flat	O	I-Evoking	
+3-17	bicycle	B-ScrPart_tire	I-Evoking	
+3-18	tire	I-ScrPart_tire|B-ScrPart_tire	I-Evoking	
+3-19	.	O	O	
+
+#id=4
+#text=Luckily my grandfather did and with his advice we went to get a new tube for the rims of my bike 's tire .
+4-1	Luckily	O	O	
+4-2	my	B-ScrPart_rider	O	
+4-3	grandfather	B-NPart	O	
+4-4	did	O	B-UnrelEv	
+4-5	and	O	O	
+4-6	with	O	O	
+4-7	his	B-NPart	O	
+4-8	advice	B-NPart	O	
+4-9	we	B-ScrPart_rider	O	
+4-10	went	O	B-UnrelEv	
+4-11	to	O	O	
+4-12	get	O	B-ScrEv_get_tire	
+4-13	a	O	O	
+4-14	new	O	O	
+4-15	tube	B-ScrPart_spare_tube	O	
+4-16	for	O	O	
+4-17	the	O	O	
+4-18	rims	B-ScrPart_rim	O	
+4-19	of	O	O	
+4-20	my	B-ScrPart_rider	O	
+4-21	bike	B-ScrPart_bicycle	O	
+4-22	's	O	O	
+4-23	tire	B-ScrPart_tire	O	
+4-24	.	O	O	
+
+#id=5
+#text=We arrive at the store and I am swamped .
+5-1	We	B-ScrPart_rider	O	
+5-2	arrive	O	B-ScrEv_other	
+5-3	at	O	O	
+5-4	the	O	O	
+5-5	store	B-ScrPart_shop	O	
+5-6	and	O	O	
+5-7	I	B-ScrPart_rider	O	
+5-8	am	O	O	
+5-9	swamped	O	B-UnrelEv	
+5-10	.	O	O	
+
+#id=6
+#text=There are so many different kinds and sizes of tubes .
+6-1	There	O	O	
+6-2	are	O	B-UnrelEv	
+6-3	so	O	O	
+6-4	many	O	O	
+6-5	different	O	O	
+6-6	kinds	B-NPart	O	
+6-7	and	O	O	
+6-8	sizes	B-NPart	O	
+6-9	of	O	O	
+6-10	tubes	B-ScrPart_spare_tube	O	
+6-11	.	O	O	
+
+#id=7
+#text=Well luckily my grandfather had already looked before we had left and knew which kind we needed .
+7-1	Well	O	O	
+7-2	luckily	O	O	
+7-3	my	B-ScrPart_rider	O	
+7-4	grandfather	B-NPart	O	
+7-5	had	O	B-UnrelEv	
+7-6	already	O	O	
+7-7	looked	O	B-UnrelEv	
+7-8	before	O	O	
+7-9	we	B-ScrPart_rider	O	
+7-10	had	O	O	
+7-11	left	O	B-UnrelEv	
+7-12	and	O	O	
+7-13	knew	O	B-UnrelEv	
+7-14	which	O	O	
+7-15	kind	B-ScrPart_spare_tube	O	
+7-16	we	B-ScrPart_rider	O	
+7-17	needed	O	B-UnrelEv	
+7-18	.	O	O	
+
+#id=8
+#text=With that in mind we purchased the one we needed and returned home ready to go .
+8-1	With	O	O	
+8-2	that	O	O	
+8-3	in	O	O	
+8-4	mind	B-NPart	O	
+8-5	we	B-ScrPart_rider	O	
+8-6	purchased	O	B-ScrEv_get_tools	
+8-7	the	O	O	
+8-8	one	O	O	
+8-9	we	B-ScrPart_rider	O	
+8-10	needed	O	B-UnrelEv	
+8-11	and	O	O	
+8-12	returned	O	B-UnrelEv	
+8-13	home	B-NPart	O	
+8-14	ready	O	O	
+8-15	to	O	O	
+8-16	go	O	B-UnrelEv	
+8-17	.	O	O	
+
+#id=9
+#text=My grandfather showed me that to repair a tire you need to take off the old broken tube and the replace it with the new one .
+9-1	My	B-ScrPart_rider	O	
+9-2	grandfather	B-NPart	O	
+9-3	showed	O	B-UnrelEv	
+9-4	me	B-ScrPart_rider	O	
+9-5	that	O	O	
+9-6	to	O	O	
+9-7	repair	O	B-Evoking	
+9-8	a	O	O	
+9-9	tire	B-ScrPart_tire	O	
+9-10	you	B-ScrPart_rider	O	
+9-11	need	O	O	
+9-12	to	O	O	
+9-13	take	O	B-ScrEv_take_tire_off|B-ScrEv_take_tire_off	
+9-14	off	O	I-ScrEv_take_tire_off	
+9-15	the	O	O	
+9-16	old	O	O	
+9-17	broken	O	O	
+9-18	tube	B-ScrPart_tire	O	
+9-19	and	O	O	
+9-20	the	O	O	
+9-21	replace	O	B-ScrEv_put_new_tire	
+9-22	it	B-ScrPart_tire	O	
+9-23	with	O	O	
+9-24	the	O	O	
+9-25	new	O	O	
+9-26	one	B-ScrPart_spare_tube	O	
+9-27	.	O	O	
+
+#id=10
+#text=After that you take a pump and pump air into the tire until it is full .
+10-1	After	O	O	
+10-2	that	O	O	
+10-3	you	B-ScrPart_rider	O	
+10-4	take	O	B-ScrEv_get_tools	
+10-5	a	O	O	
+10-6	pump	B-ScrPart_tool	O	
+10-7	and	O	O	
+10-8	pump	O	B-ScrEv_refill_tire_air	
+10-9	air	B-ScrPart_air	O	
+10-10	into	O	O	
+10-11	the	O	O	
+10-12	tire	B-ScrPart_spare_tube	O	
+10-13	until	O	O	
+10-14	it	B-ScrPart_spare_tube	O	
+10-15	is	O	O	
+10-16	full	O	O	
+10-17	.	O	O	
+
+#id=11
+#text=I was n't prepared last time for my tire to pop but you can be sure that I will be the next 
+11-1	I	B-ScrPart_rider	O	
+11-2	was	O	B-UnrelEv	
+11-3	n't	O	O	
+11-4	prepared	O	O	
+11-5	last	O	O	
+11-6	time	B-NPart	O	
+11-7	for	O	O	
+11-8	my	B-ScrPart_rider	O	
+11-9	tire	B-ScrPart_spare_tube	O	
+11-10	to	O	O	
+11-11	pop	O	B-RelNScrEv	
+11-12	but	O	O	
+11-13	you	B-ScrPart_rider	O	
+11-14	can	O	O	
+11-15	be	O	B-UnrelEv	
+11-16	sure	O	O	
+11-17	that	O	O	
+11-18	I	B-ScrPart_rider	O	
+11-19	will	O	O	
+11-20	be	O	B-UnrelEv	
+11-21	the	O	O	
+11-22	next	O	O	
+

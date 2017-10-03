@@ -1,0 +1,244 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I am an avid reader so I am always on the lookout for the next best story of nonfiction !
+1-1	I	B-ScrPart_customer	O	_	_	
+1-2	am	O	B-UnrelEv	_	_	
+1-3	an	O	O	_	_	
+1-4	avid	O	O	_	_	
+1-5	reader	O	O	_	_	
+1-6	so	O	O	_	_	
+1-7	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-1	
+1-8	am	O	B-UnrelEv	_	_	
+1-9	always	O	O	_	_	
+1-10	on	O	O	_	_	
+1-11	the	O	O	_	_	
+1-12	lookout	O	O	_	_	
+1-13	for	O	O	_	_	
+1-14	the	O	O	_	_	
+1-15	next	O	O	_	_	
+1-16	best	O	O	_	_	
+1-17	story	B-ScrPart_book	O	_	_	
+1-18	of	O	O	_	_	
+1-19	nonfiction	O	O	_	_	
+1-20	!	O	O	_	_	
+
+#id=2
+#text=My buddy , Frank , told me about the new library that was opening up about a mile away from my house and I thought this was a great opportunity to be able to borrow some free books !
+2-1	My	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-7	
+2-2	buddy	O	O	_	_	
+2-3	,	O	O	_	_	
+2-4	Frank	O	O	_	_	
+2-5	,	O	O	_	_	
+2-6	told	O	B-UnrelEv	_	_	
+2-7	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-1	
+2-8	about	O	O	_	_	
+2-9	the	O	O	_	_	
+2-10	new	O	O	_	_	
+2-11	library	B-ScrPart_library	O	_	_	
+2-12	that	B-ScrPart_library	O	webanno.custom.Corefchains_	2-11	
+2-13	was	O	O	_	_	
+2-14	opening	O	B-UnrelEv	_	_	
+2-15	up	O	I-UnrelEv	_	_	
+2-16	about	O	O	_	_	
+2-17	a	O	O	_	_	
+2-18	mile	O	O	_	_	
+2-19	away	O	O	_	_	
+2-20	from	O	O	_	_	
+2-21	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-7	
+2-22	house	O	O	_	_	
+2-23	and	O	O	_	_	
+2-24	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-21	
+2-25	thought	O	B-UnrelEv	_	_	
+2-26	this	O	O	_	_	
+2-27	was	O	B-UnrelEv	_	_	
+2-28	a	O	O	_	_	
+2-29	great	O	O	_	_	
+2-30	opportunity	O	O	_	_	
+2-31	to	O	O	_	_	
+2-32	be	O	B-UnrelEv	_	_	
+2-33	able	O	O	_	_	
+2-34	to	O	O	_	_	
+2-35	borrow	O	B-Evoking	_	_	
+2-36	some	O	I-Evoking	_	_	
+2-37	free	O	I-Evoking	_	_	
+2-38	books	B-ScrPart_book	I-Evoking	webanno.custom.Corefchains_	1-17	
+2-39	!	O	O	_	_	
+
+#id=3
+#text=I drove down and was in awe at how big the place was .
+3-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-24	
+3-2	drove	O	B-ScrEv_get_library	_	_	
+3-3	down	O	I-ScrEv_get_library	_	_	
+3-4	and	O	O	_	_	
+3-5	was	O	B-UnrelEv	_	_	
+3-6	in	O	O	_	_	
+3-7	awe	O	O	_	_	
+3-8	at	O	O	_	_	
+3-9	how	O	O	_	_	
+3-10	big	O	O	_	_	
+3-11	the	O	O	_	_	
+3-12	place	B-ScrPart_library	O	webanno.custom.Corefchains_	2-12	
+3-13	was	O	B-UnrelEv	_	_	
+3-14	.	O	O	_	_	
+
+#id=4
+#text=As I stepped inside and began to browse I realized that not only did they have books but they had video games , DVDs , and music you could rent as well .
+4-1	As	O	O	_	_	
+4-2	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-1	
+4-3	stepped	O	B-ScrEv_get_library	_	_	
+4-4	inside	O	O	_	_	
+4-5	and	O	O	_	_	
+4-6	began	O	B-UnrelEv	_	_	
+4-7	to	O	O	_	_	
+4-8	browse	O	B-ScrEv_browse_releases	_	_	
+4-9	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-2	
+4-10	realized	O	B-UnrelEv	_	_	
+4-11	that	O	O	_	_	
+4-12	not	O	O	_	_	
+4-13	only	O	O	_	_	
+4-14	did	O	O	_	_	
+4-15	they	B-ScrPart_library	O	webanno.custom.Corefchains_	3-12	
+4-16	have	O	B-RelNScrEv	_	_	
+4-17	books	B-ScrPart_book	O	webanno.custom.Corefchains_	2-38	
+4-18	but	O	O	_	_	
+4-19	they	B-ScrPart_library	O	webanno.custom.Corefchains_	4-15	
+4-20	had	O	B-RelNScrEv	_	_	
+4-21	video	B-NPart	O	_	_	
+4-22	games	I-NPart|B-NPart	O	_	_	
+4-23	,	O	O	_	_	
+4-24	DVDs	B-NPart	O	_	_	
+4-25	,	O	O	_	_	
+4-26	and	O	O	_	_	
+4-27	music	B-NPart	O	_	_	
+4-28	you	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-9	
+4-29	could	O	O	_	_	
+4-30	rent	O	B-???	_	_	
+4-31	as	O	O	_	_	
+4-32	well	O	O	_	_	
+4-33	.	O	O	_	_	
+
+#id=5
+#text=After spending about half an hour in there just browsing I finally came upon a book I wanted to read : The Hitchhikers Guide to the Galaxy !
+5-1	After	O	O	_	_	
+5-2	spending	O	B-UnrelEv	_	_	
+5-3	about	O	O	_	_	
+5-4	half	O	O	_	_	
+5-5	an	O	O	_	_	
+5-6	hour	O	O	_	_	
+5-7	in	O	O	_	_	
+5-8	there	O	O	_	_	
+5-9	just	O	O	_	_	
+5-10	browsing	O	B-ScrEv_browse_releases	_	_	
+5-11	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-28	
+5-12	finally	O	O	_	_	
+5-13	came	O	B-ScrEv_look_for_book	_	_	
+5-14	upon	O	I-ScrEv_look_for_book	_	_	
+5-15	a	O	O	_	_	
+5-16	book	B-ScrPart_book	O	webanno.custom.Corefchains_	4-17	
+5-17	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-11	
+5-18	wanted	O	B-UnrelEv	_	_	
+5-19	to	O	O	_	_	
+5-20	read	O	B-RelNScrEv	_	_	
+5-21	:	O	O	_	_	
+5-22	The	B-ScrPart_book	O	webanno.custom.Corefchains_	5-16	
+5-23	Hitchhikers	I-ScrPart_book	O	webanno.custom.Corefchains_	5-16	
+5-24	Guide	I-ScrPart_book	O	webanno.custom.Corefchains_	5-16	
+5-25	to	I-ScrPart_book	O	webanno.custom.Corefchains_	5-16	
+5-26	the	I-ScrPart_book	O	webanno.custom.Corefchains_	5-16	
+5-27	Galaxy	I-ScrPart_book	O	webanno.custom.Corefchains_	5-16	
+5-28	!	O	O	_	_	
+
+#id=6
+#text=I grabbed the book and went up to the counter .
+6-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-17	
+6-2	grabbed	O	B-ScrEv_take_book	_	_	
+6-3	the	O	O	_	_	
+6-4	book	B-ScrPart_book	O	webanno.custom.Corefchains_	5-22	
+6-5	and	O	O	_	_	
+6-6	went	O	B-ScrEv_go_check_out	_	_	
+6-7	up	O	I-ScrEv_go_check_out	_	_	
+6-8	to	O	O	_	_	
+6-9	the	O	O	_	_	
+6-10	counter	B-ScrPart_check-out_desk	O	_	_	
+6-11	.	O	O	_	_	
+
+#id=7
+#text=The nice librarian said that I would first have to get a library card so I could rent out my book .
+7-1	The	O	O	_	_	
+7-2	nice	O	O	_	_	
+7-3	librarian	B-ScrPart_staff	O	_	_	
+7-4	said	O	B-UnrelEv	_	_	
+7-5	that	O	O	_	_	
+7-6	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-1	
+7-7	would	O	O	_	_	
+7-8	first	O	O	_	_	
+7-9	have	O	O	_	_	
+7-10	to	O	O	_	_	
+7-11	get	O	B-RelNScrEv	_	_	
+7-12	a	O	O	_	_	
+7-13	library	B-ScrPart_library_card	O	_	_	
+7-14	card	I-ScrPart_library_card|B-ScrPart_library_card	O	_	_	
+7-15	so	O	O	_	_	
+7-16	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-6	
+7-17	could	O	O	_	_	
+7-18	rent	O	B-ScrEv_register	_	_	
+7-19	out	O	I-ScrEv_register	_	_	
+7-20	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-16	
+7-21	book	B-ScrPart_book	O	webanno.custom.Corefchains_	6-4	
+7-22	.	O	O	_	_	
+
+#id=8
+#text=I filled out the paper work and she handed me a shinny new library card !
+8-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-20	
+8-2	filled	O	B-RelNScrEv	_	_	
+8-3	out	O	I-RelNScrEv	_	_	
+8-4	the	O	O	_	_	
+8-5	paper	B-NPart	O	_	_	
+8-6	work	I-NPart|B-NPart	O	_	_	
+8-7	and	O	O	_	_	
+8-8	she	B-ScrPart_staff	O	webanno.custom.Corefchains_	7-3	
+8-9	handed	O	B-RelNScrEv	_	_	
+8-10	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-1	
+8-11	a	O	O	_	_	
+8-12	shinny	O	O	_	_	
+8-13	new	O	O	_	_	
+8-14	library	B-ScrPart_library_card	O	_	_	
+8-15	card	I-ScrPart_library_card|B-ScrPart_library_card	O	webanno.custom.Corefchains_	7-14	
+8-16	!	O	O	_	_	
+
+#id=9
+#text=I rented my book and she told me that I was due by a week from today .
+9-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-10	
+9-2	rented	O	B-ScrEv_register	_	_	
+9-3	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-1	
+9-4	book	B-ScrPart_book	O	webanno.custom.Corefchains_	7-21	
+9-5	and	O	O	_	_	
+9-6	she	B-ScrPart_staff	O	webanno.custom.Corefchains_	8-8	
+9-7	told	O	B-RelNScrEv	_	_	
+9-8	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-3	
+9-9	that	O	O	_	_	
+9-10	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-8	
+9-11	was	O	B-ScrEv_return_book	_	_	
+9-12	due	O	I-ScrEv_return_book	_	_	
+9-13	by	O	O	_	_	
+9-14	a	O	O	_	_	
+9-15	week	B-ScrPart_return_date	O	_	_	
+9-16	from	O	O	_	_	
+9-17	today	O	O	_	_	
+9-18	.	O	O	_	_	
+
+#id=10
+#text=I went back home and got started on my reading adventure . 
+10-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-10	
+10-2	went	O	B-ScrEv_leave	_	_	
+10-3	back	O	O	_	_	
+10-4	home	O	O	_	_	
+10-5	and	O	O	_	_	
+10-6	got	O	B-UnrelEv	_	_	
+10-7	started	O	B-UnrelEv	_	_	
+10-8	on	O	O	_	_	
+10-9	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	10-1	
+10-10	reading	O	O	_	_	
+10-11	adventure	O	O	_	_	
+10-12	.	O	O	_	_	
+

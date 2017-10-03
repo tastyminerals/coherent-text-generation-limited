@@ -1,0 +1,201 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=I love to save money everywhere I can , a penny saved a penny earned kind of philosophy .
+1-1	I	B-ScrPart_shopper	O	
+1-2	love	O	B-UnrelEv	
+1-3	to	O	O	
+1-4	save	O	B-RelNScrEv	
+1-5	money	B-ScrPart_saving	O	
+1-6	everywhere	O	O	
+1-7	I	B-ScrPart_shopper	O	
+1-8	can	O	O	
+1-9	,	O	O	
+1-10	a	O	O	
+1-11	penny	B-ScrPart_saving	O	
+1-12	saved	O	B-RelNScrEv	
+1-13	a	O	O	
+1-14	penny	B-ScrPart_saving	O	
+1-15	earned	O	B-UnrelEv	
+1-16	kind	B-Head_of_Partitive	O	
+1-17	of	O	O	
+1-18	philosophy	B-NPart	O	
+1-19	.	O	O	
+
+#id=2
+#text=So when I analyzed our finances I saw we could save a considerable amount of money by doing more grocery shopping .
+2-1	So	O	O	
+2-2	when	O	O	
+2-3	I	B-ScrPart_shopper	O	
+2-4	analyzed	O	B-UnrelEv	
+2-5	our	B-ScrPart_shopper	O	
+2-6	finances	B-NPart	O	
+2-7	I	B-ScrPart_shopper	O	
+2-8	saw	O	B-UnrelEv	
+2-9	we	B-ScrPart_shopper	O	
+2-10	could	O	O	
+2-11	save	O	B-RelNScrEv	
+2-12	a	O	O	
+2-13	considerable	O	O	
+2-14	amount	B-Head_of_Partitive	O	
+2-15	of	O	O	
+2-16	money	B-ScrPart_saving	O	
+2-17	by	O	O	
+2-18	doing	O	B-Evoking	
+2-19	more	O	I-Evoking	
+2-20	grocery	B-ScrPart_other	I-Evoking	
+2-21	shopping	I-ScrPart_other	I-Evoking	
+2-22	.	O	O	
+
+#id=3
+#text=I set up our strategy to go every weekend and budget about 200 dollars for the two of us each week .
+3-1	I	B-ScrPart_shopper	O	
+3-2	set	O	B-UnrelEv|B-UnrelEv	
+3-3	up	O	I-UnrelEv	
+3-4	our	B-ScrPart_shopper	O	
+3-5	strategy	B-NPart	O	
+3-6	to	O	O	
+3-7	go	O	B-ScrEv_go_grocery	
+3-8	every	O	O	
+3-9	weekend	B-NPart	O	
+3-10	and	O	O	
+3-11	budget	O	B-UnrelEv	
+3-12	about	O	O	
+3-13	200	O	O	
+3-14	dollars	B-NPart	O	
+3-15	for	O	O	
+3-16	the	O	O	
+3-17	two	O	O	
+3-18	of	O	O	
+3-19	us	B-ScrPart_shopper	O	
+3-20	each	O	O	
+3-21	week	B-NPart	O	
+3-22	.	O	O	
+
+#id=4
+#text=We like to go to Publix .
+4-1	We	B-ScrPart_shopper	O	
+4-2	like	O	B-UnrelEv	
+4-3	to	O	O	
+4-4	go	O	B-ScrEv_go_grocery	
+4-5	to	O	O	
+4-6	Publix	B-ScrPart_grocery_shop	O	
+4-7	.	O	O	
+
+#id=5
+#text=We will start off buying produce , fruits and vegetables and such .
+5-1	We	B-ScrPart_shopper	O	
+5-2	will	O	O	
+5-3	start	O	B-UnrelEv|B-UnrelEv	
+5-4	off	O	I-UnrelEv	
+5-5	buying	O	B-ScrEv_get_groceries	
+5-6	produce	B-ScrPart_groceries	O	
+5-7	,	O	O	
+5-8	fruits	B-ScrPart_groceries	O	
+5-9	and	O	O	
+5-10	vegetables	B-ScrPart_groceries	O	
+5-11	and	O	O	
+5-12	such	O	O	
+5-13	.	O	O	
+
+#id=6
+#text=Then we move over and look for the best deals on meat .
+6-1	Then	O	O	
+6-2	we	B-ScrPart_shopper	O	
+6-3	move	O	B-ScrEv_move_section|B-ScrEv_move_section	
+6-4	over	O	I-ScrEv_move_section	
+6-5	and	O	O	
+6-6	look	O	B-RelNScrEv|B-RelNScrEv	
+6-7	for	O	I-RelNScrEv	
+6-8	the	O	O	
+6-9	best	O	O	
+6-10	deals	B-NPart	O	
+6-11	on	O	O	
+6-12	meat	B-ScrPart_groceries	O	
+6-13	.	O	O	
+
+#id=7
+#text=We usually get fish , beef , chicken and pork .
+7-1	We	B-ScrPart_shopper	O	
+7-2	usually	O	O	
+7-3	get	O	B-ScrEv_get_groceries	
+7-4	fish	B-ScrPart_groceries	O	
+7-5	,	O	O	
+7-6	beef	B-ScrPart_groceries	O	
+7-7	,	O	O	
+7-8	chicken	B-ScrPart_groceries	O	
+7-9	and	O	O	
+7-10	pork	B-ScrPart_groceries	O	
+7-11	.	O	O	
+
+#id=8
+#text=Next we 'll head over towards dairy and eggs .
+8-1	Next	O	O	
+8-2	we	B-ScrPart_shopper	O	
+8-3	'll	O	O	
+8-4	head	O	B-ScrEv_move_section	
+8-5	over	O	O	
+8-6	towards	O	O	
+8-7	dairy	B-ScrPart_groceries	O	
+8-8	and	O	O	
+8-9	eggs	B-ScrPart_groceries	O	
+8-10	.	O	O	
+
+#id=9
+#text=I like to get the 18 packs of eggs .
+9-1	I	B-ScrPart_shopper	O	
+9-2	like	O	B-UnrelEv	
+9-3	to	O	O	
+9-4	get	O	B-ScrEv_get_groceries	
+9-5	the	O	O	
+9-6	18	O	O	
+9-7	packs	B-Head_of_Partitive	O	
+9-8	of	O	O	
+9-9	eggs	B-ScrPart_groceries	O	
+9-10	.	O	O	
+
+#id=10
+#text=They are protein loaded and super cheap .
+10-1	They	B-ScrPart_groceries	O	
+10-2	are	O	B-UnrelEv	
+10-3	protein	B-NPart	O	
+10-4	loaded	O	B-UnrelEv	
+10-5	and	O	O	
+10-6	super	O	O	
+10-7	cheap	O	O	
+10-8	.	O	O	
+
+#id=11
+#text=I 'll pick up some cottage cheese and about 4 to 6 pounds of cheese .
+11-1	I	B-ScrPart_shopper	O	
+11-2	'll	O	O	
+11-3	pick	O	B-ScrEv_get_groceries|B-ScrEv_get_groceries	
+11-4	up	O	I-ScrEv_get_groceries	
+11-5	some	O	O	
+11-6	cottage	B-ScrPart_groceries	O	
+11-7	cheese	I-ScrPart_groceries|B-ScrPart_groceries	O	
+11-8	and	O	O	
+11-9	about	O	O	
+11-10	4	O	O	
+11-11	to	O	O	
+11-12	6	O	O	
+11-13	pounds	B-Head_of_Partitive	O	
+11-14	of	O	O	
+11-15	cheese	B-ScrPart_groceries	O	
+11-16	.	O	O	
+
+#id=12
+#text=We then get a couple of things out of the frozen section . 
+12-1	We	B-ScrPart_shopper	O	
+12-2	then	O	O	
+12-3	get	O	B-ScrEv_get_groceries	
+12-4	a	O	O	
+12-5	couple	B-Head_of_Partitive	O	
+12-6	of	O	O	
+12-7	things	B-ScrPart_groceries	O	
+12-8	out	O	O	
+12-9	of	O	O	
+12-10	the	O	O	
+12-11	frozen	B-ScrPart_section	O	
+12-12	section	I-ScrPart_section|B-ScrPart_section	O	
+12-13	.	O	O	
+

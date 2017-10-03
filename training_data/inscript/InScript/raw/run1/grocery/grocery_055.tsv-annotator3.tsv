@@ -1,0 +1,400 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=On last Sunday morning my wife woke me up and told me its 11 o'clock and time to to get up .
+1-1	On	O	O	_	_	
+1-2	last	O	O	_	_	
+1-3	Sunday	O	O	_	_	
+1-4	morning	O	O	_	_	
+1-5	my	B-ScrPart_shopper	O	_	_	
+1-6	wife	O	O	_	_	
+1-7	woke	O	B-UnrelEv	_	_	
+1-8	me	B-ScrPart_shopper	O	webanno.custom.Corefchains_	1-5	
+1-9	up	O	O	_	_	
+1-10	and	O	O	_	_	
+1-11	told	O	B-UnrelEv	_	_	
+1-12	me	B-ScrPart_shopper	O	webanno.custom.Corefchains_	1-8	
+1-13	its	O	O	_	_	
+1-14	11	O	O	_	_	
+1-15	o'clock	O	O	_	_	
+1-16	and	O	O	_	_	
+1-17	time	O	O	_	_	
+1-18	to	O	O	_	_	
+1-19	to	O	O	_	_	
+1-20	get	O	B-UnrelEv|B-UnrelEv	_	_	
+1-21	up	O	I-UnrelEv	_	_	
+1-22	.	O	O	_	_	
+
+#id=2
+#text=But I was very lazy on that day and I want to spend some more time on bed .
+2-1	But	O	O	_	_	
+2-2	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	1-12	
+2-3	was	O	B-UnrelEv	_	_	
+2-4	very	O	O	_	_	
+2-5	lazy	O	O	_	_	
+2-6	on	O	O	_	_	
+2-7	that	O	O	_	_	
+2-8	day	O	O	_	_	
+2-9	and	O	O	_	_	
+2-10	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	2-2	
+2-11	want	O	B-UnrelEv	_	_	
+2-12	to	O	O	_	_	
+2-13	spend	O	B-UnrelEv	_	_	
+2-14	some	O	O	_	_	
+2-15	more	O	O	_	_	
+2-16	time	O	O	_	_	
+2-17	on	O	O	_	_	
+2-18	bed	O	O	_	_	
+2-19	.	O	O	_	_	
+
+#id=3
+#text=I asked my wife to get me some coffee .
+3-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	2-10	
+3-2	asked	O	B-UnrelEv	_	_	
+3-3	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	3-1	
+3-4	wife	O	O	_	_	
+3-5	to	O	O	_	_	
+3-6	get	O	O	_	_	
+3-7	me	B-ScrPart_shopper	O	webanno.custom.Corefchains_	3-3	
+3-8	some	O	O	_	_	
+3-9	coffee	O	O	_	_	
+3-10	.	O	O	_	_	
+
+#id=4
+#text=She brought a very tasty hot coffee .
+4-1	She	O	O	_	_	
+4-2	brought	O	B-UnrelEv	_	_	
+4-3	a	O	O	_	_	
+4-4	very	O	O	_	_	
+4-5	tasty	O	O	_	_	
+4-6	hot	O	O	_	_	
+4-7	coffee	O	O	_	_	
+4-8	.	O	O	_	_	
+
+#id=5
+#text=Its aroma is spreading everywhere in my room .
+5-1	Its	O	O	_	_	
+5-2	aroma	O	O	_	_	
+5-3	is	O	O	_	_	
+5-4	spreading	O	B-UnrelEv	_	_	
+5-5	everywhere	O	O	_	_	
+5-6	in	O	O	_	_	
+5-7	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	3-7	
+5-8	room	O	O	_	_	
+5-9	.	O	O	_	_	
+
+#id=6
+#text=After having the coffee I got up and took a good shower .
+6-1	After	O	O	_	_	
+6-2	having	O	B-UnrelEv	_	_	
+6-3	the	O	O	_	_	
+6-4	coffee	O	O	_	_	
+6-5	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	5-7	
+6-6	got	O	B-UnrelEv|B-UnrelEv	_	_	
+6-7	up	O	I-UnrelEv	_	_	
+6-8	and	O	O	_	_	
+6-9	took	O	B-UnrelEv	_	_	
+6-10	a	O	O	_	_	
+6-11	good	O	O	_	_	
+6-12	shower	O	O	_	_	
+6-13	.	O	O	_	_	
+
+#id=7
+#text=That time my wife prepared breakfast for me .
+7-1	That	O	O	_	_	
+7-2	time	O	O	_	_	
+7-3	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	6-5	
+7-4	wife	O	O	_	_	
+7-5	prepared	O	B-UnrelEv	_	_	
+7-6	breakfast	O	O	_	_	
+7-7	for	O	O	_	_	
+7-8	me	B-ScrPart_shopper	O	webanno.custom.Corefchains_	7-3	
+7-9	.	O	O	_	_	
+
+#id=8
+#text=So I had my breakfast and spent some time for reading news online .
+8-1	So	O	O	_	_	
+8-2	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	7-8	
+8-3	had	O	B-UnrelEv	_	_	
+8-4	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	8-2	
+8-5	breakfast	O	O	_	_	
+8-6	and	O	O	_	_	
+8-7	spent	O	B-UnrelEv	_	_	
+8-8	some	O	O	_	_	
+8-9	time	O	O	_	_	
+8-10	for	O	O	_	_	
+8-11	reading	O	B-UnrelEv	_	_	
+8-12	news	O	O	_	_	
+8-13	online	O	O	_	_	
+8-14	.	O	O	_	_	
+
+#id=9
+#text=Then My wife came to me and asked what is my plan for our son 's birthday .
+9-1	Then	O	O	_	_	
+9-2	My	B-ScrPart_shopper	O	webanno.custom.Corefchains_	8-4	
+9-3	wife	O	O	_	_	
+9-4	came	O	B-UnrelEv	_	_	
+9-5	to	O	O	_	_	
+9-6	me	B-ScrPart_shopper	O	webanno.custom.Corefchains_	9-2	
+9-7	and	O	O	_	_	
+9-8	asked	O	B-UnrelEv	_	_	
+9-9	what	O	O	_	_	
+9-10	is	O	B-UnrelEv	_	_	
+9-11	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	9-6	
+9-12	plan	O	O	_	_	
+9-13	for	O	O	_	_	
+9-14	our	O	O	_	_	
+9-15	son	B-ScrPart_shopper	O	_	_	
+9-16	's	O	O	_	_	
+9-17	birthday	O	O	_	_	
+9-18	.	O	O	_	_	
+
+#id=10
+#text=I told her , '' `` oh !
+10-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	9-11	
+10-2	told	O	B-UnrelEv	_	_	
+10-3	her	O	O	_	_	
+10-4	,	O	O	_	_	
+10-5	''	O	O	_	_	
+10-6	``	O	O	_	_	
+10-7	oh	O	O	_	_	
+10-8	!	O	O	_	_	
+
+#id=11
+#text=I forgot .
+11-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	10-1	
+11-2	forgot	O	B-UnrelEv	_	_	
+11-3	.	O	O	_	_	
+
+#id=12
+#text=we have to plan something .
+12-1	we	O	O	_	_	
+12-2	have	O	O	_	_	
+12-3	to	O	O	_	_	
+12-4	plan	O	B-UnrelEv	_	_	
+12-5	something	O	O	_	_	
+12-6	.	O	O	_	_	
+
+#id=13
+#text=That is on next Saturday '' '' .
+13-1	That	O	O	_	_	
+13-2	is	O	B-UnrelEv	_	_	
+13-3	on	O	O	_	_	
+13-4	next	O	O	_	_	
+13-5	Saturday	O	O	_	_	
+13-6	''	O	O	_	_	
+13-7	''	O	O	_	_	
+13-8	.	O	O	_	_	
+
+#id=14
+#text=At last I reached a conclusion that this time I cook food by myself .
+14-1	At	O	O	_	_	
+14-2	last	O	O	_	_	
+14-3	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	11-1	
+14-4	reached	O	B-UnrelEv	_	_	
+14-5	a	O	O	_	_	
+14-6	conclusion	O	O	_	_	
+14-7	that	O	O	_	_	
+14-8	this	O	O	_	_	
+14-9	time	O	O	_	_	
+14-10	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	14-3	
+14-11	cook	O	B-UnrelEv	_	_	
+14-12	food	O	O	_	_	
+14-13	by	O	O	_	_	
+14-14	myself	B-ScrPart_shopper	O	webanno.custom.Corefchains_	14-10	
+14-15	.	O	O	_	_	
+
+#id=15
+#text=So we need to make a list for groceries for that .
+15-1	So	O	O	_	_	
+15-2	we	O	O	_	_	
+15-3	need	O	O	_	_	
+15-4	to	O	O	_	_	
+15-5	make	O	B-ScrEv_make_list	_	_	
+15-6	a	O	O	_	_	
+15-7	list	B-ScrPart_grocery_list	O	_	_	
+15-8	for	O	O	_	_	
+15-9	groceries	B-ScrPart_groceries	O	_	_	
+15-10	for	O	O	_	_	
+15-11	that	O	O	_	_	
+15-12	.	O	O	_	_	
+
+#id=16
+#text=My wife helped me to prepare a list .
+16-1	My	B-ScrPart_shopper	O	webanno.custom.Corefchains_	14-14	
+16-2	wife	O	O	_	_	
+16-3	helped	O	B-UnrelEv	_	_	
+16-4	me	B-ScrPart_shopper	O	webanno.custom.Corefchains_	16-1	
+16-5	to	O	O	_	_	
+16-6	prepare	O	B-ScrEv_make_list	_	_	
+16-7	a	O	O	_	_	
+16-8	list	B-ScrPart_grocery_list	O	webanno.custom.Corefchains_	15-7	
+16-9	.	O	O	_	_	
+
+#id=17
+#text=These days groceries are very pricey .
+17-1	These	O	O	_	_	
+17-2	days	B-NPart	O	_	_	
+17-3	groceries	B-ScrPart_groceries	O	webanno.custom.Corefchains_	15-9	
+17-4	are	O	B-RelNScrEv	_	_	
+17-5	very	O	O	_	_	
+17-6	pricey	O	O	_	_	
+17-7	.	O	O	_	_	
+
+#id=18
+#text=So I checked the deals online .
+18-1	So	O	O	_	_	
+18-2	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	16-4	
+18-3	checked	O	B-MissScrEv	_	_	
+18-4	the	O	O	_	_	
+18-5	deals	B-MissScrPart	O	_	_	
+18-6	online	O	O	_	_	
+18-7	.	O	O	_	_	
+
+#id=19
+#text=At last I found good deals in a grocery shop near my house .
+19-1	At	O	O	_	_	
+19-2	last	O	O	_	_	
+19-3	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	18-2	
+19-4	found	O	B-RelNScrEv	_	_	
+19-5	good	O	O	_	_	
+19-6	deals	B-MissScrPart	O	webanno.custom.Corefchains_	18-5	
+19-7	in	O	O	_	_	
+19-8	a	O	O	_	_	
+19-9	grocery	B-ScrPart_grocery_shop	O	_	_	
+19-10	shop	I-ScrPart_grocery_shop|B-ScrPart_grocery_shop	O	_	_	
+19-11	near	O	O	_	_	
+19-12	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	19-3	
+19-13	house	O	O	_	_	
+19-14	.	O	O	_	_	
+
+#id=20
+#text=So me and my son went to the shop .
+20-1	So	O	O	_	_	
+20-2	me	B-ScrPart_shopper	O	webanno.custom.Corefchains_	19-12	
+20-3	and	O	O	_	_	
+20-4	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	20-2	
+20-5	son	B-ScrPart_shopper	O	webanno.custom.Corefchains_|group_I_son	9-15|19-3	
+20-6	went	O	B-ScrEv_go_grocery	_	_	
+20-7	to	O	O	_	_	
+20-8	the	O	O	_	_	
+20-9	shop	B-ScrPart_grocery_shop	O	webanno.custom.Corefchains_	19-10	
+20-10	.	O	O	_	_	
+
+#id=21
+#text=My son likes grocery shopping very much .
+21-1	My	B-ScrPart_shopper	O	webanno.custom.Corefchains_	20-4	
+21-2	son	B-ScrPart_shopper	O	webanno.custom.Corefchains_	20-5	
+21-3	likes	O	B-UnrelEv	_	_	
+21-4	grocery	O	B-Evoking	_	_	
+21-5	shopping	O	I-Evoking	_	_	
+21-6	very	O	O	_	_	
+21-7	much	O	O	_	_	
+21-8	.	O	O	_	_	
+
+#id=22
+#text=When we reached the grocery shop , I asked my son to sit in the cart .
+22-1	When	O	O	_	_	
+22-2	we	B-ScrPart_shopper	O	group_I_son	20-5	
+22-3	reached	O	B-ScrEv_go_grocery	_	_	
+22-4	the	O	O	_	_	
+22-5	grocery	B-ScrPart_grocery_shop	O	_	_	
+22-6	shop	I-ScrPart_grocery_shop|B-ScrPart_grocery_shop	O	webanno.custom.Corefchains_	20-9	
+22-7	,	O	O	_	_	
+22-8	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	21-1	
+22-9	asked	O	O	_	_	
+22-10	my	O	O	_	_	
+22-11	son	B-ScrPart_shopper	O	webanno.custom.Corefchains_	21-2	
+22-12	to	O	O	_	_	
+22-13	sit	O	B-RelNScrEv	_	_	
+22-14	in	O	O	_	_	
+22-15	the	O	O	_	_	
+22-16	cart	B-ScrPart_shopping_cart/basket	O	_	_	
+22-17	.	O	O	_	_	
+
+#id=23
+#text=While we were moving inside the shop , I felt happy by seeing the deals of the day .
+23-1	While	O	O	_	_	
+23-2	we	B-ScrPart_shopper	O	webanno.custom.Corefchains_	22-2	
+23-3	were	O	O	_	_	
+23-4	moving	O	B-ScrEv_move_section	_	_	
+23-5	inside	O	O	_	_	
+23-6	the	O	O	_	_	
+23-7	shop	B-ScrPart_grocery_shop	O	webanno.custom.Corefchains_	22-6	
+23-8	,	O	O	_	_	
+23-9	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	22-8	
+23-10	felt	O	B-UnrelEv	_	_	
+23-11	happy	O	O	_	_	
+23-12	by	O	O	_	_	
+23-13	seeing	O	O	_	_	
+23-14	the	O	O	_	_	
+23-15	deals	B-MissScrPart	O	webanno.custom.Corefchains_	19-6	
+23-16	of	O	O	_	_	
+23-17	the	O	O	_	_	
+23-18	day	O	O	_	_	
+23-19	.	O	O	_	_	
+
+#id=24
+#text=Most of the groceries in my list are on sale .
+24-1	Most	O	O	_	_	
+24-2	of	O	O	_	_	
+24-3	the	O	O	_	_	
+24-4	groceries	B-ScrPart_groceries	O	webanno.custom.Corefchains_	17-3	
+24-5	in	O	O	_	_	
+24-6	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	23-9	
+24-7	list	B-ScrPart_grocery_list	O	webanno.custom.Corefchains_	16-8	
+24-8	are	O	B-RelNScrEv	_	_	
+24-9	on	O	O	_	_	
+24-10	sale	B-SuppVComp	O	_	_	
+24-11	.	O	O	_	_	
+
+#id=25
+#text=I bought almost everything in my list .
+25-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	24-6	
+25-2	bought	O	B-RelNScrEv	_	_	
+25-3	almost	O	O	_	_	
+25-4	everything	B-ScrPart_groceries	O	webanno.custom.Corefchains_	24-4	
+25-5	in	O	O	_	_	
+25-6	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	25-1	
+25-7	list	B-ScrPart_grocery_list	O	webanno.custom.Corefchains_	24-7	
+25-8	.	O	O	_	_	
+
+#id=26
+#text=I saved a lot on that day because of the deal .
+26-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	25-6	
+26-2	saved	O	B-RelNScrEv	_	_	
+26-3	a	O	O	_	_	
+26-4	lot	B-NPart	O	_	_	
+26-5	on	O	O	_	_	
+26-6	that	O	O	_	_	
+26-7	day	B-NPart	O	_	_	
+26-8	because	O	O	_	_	
+26-9	of	O	O	_	_	
+26-10	the	O	O	_	_	
+26-11	deal	B-MissScrPart	O	webanno.custom.Corefchains_	23-15	
+26-12	.	O	O	_	_	
+
+#id=27
+#text=After paying the bill , we went out of the shop and kept everything inside the car and left to home . 
+27-1	After	O	O	_	_	
+27-2	paying	O	B-ScrEv_pay	_	_	
+27-3	the	O	O	_	_	
+27-4	bill	B-MissScrPart	O	_	_	
+27-5	,	O	O	_	_	
+27-6	we	B-ScrPart_shopper	O	webanno.custom.Corefchains_	23-2	
+27-7	went	O	B-ScrEv_bring_vehicle|B-ScrEv_bring_vehicle	_	_	
+27-8	out	O	I-ScrEv_bring_vehicle	_	_	
+27-9	of	O	O	_	_	
+27-10	the	O	O	_	_	
+27-11	shop	B-ScrPart_grocery_shop	O	webanno.custom.Corefchains_	23-7	
+27-12	and	O	O	_	_	
+27-13	kept	O	B-UnrelEv	_	_	
+27-14	everything	B-ScrPart_groceries	O	webanno.custom.Corefchains_	25-4	
+27-15	inside	O	O	_	_	
+27-16	the	O	O	_	_	
+27-17	car	B-ScrPart_vehicle	O	_	_	
+27-18	and	O	O	_	_	
+27-19	left	O	B-ScrEv_leave	_	_	
+27-20	to	O	O	_	_	
+27-21	home	B-NPart	O	_	_	
+27-22	.	O	O	_	_	
+

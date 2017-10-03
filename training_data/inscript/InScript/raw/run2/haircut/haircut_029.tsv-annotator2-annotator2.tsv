@@ -1,0 +1,201 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=The last time I got a hair cut was a very long time ago .
+1-1	The	O	O	_	_	
+1-2	last	O	O	_	_	
+1-3	time	B-No_label	O	_	_	
+1-4	I	B-ScrPart_customer	O	_	_	
+1-5	got	O	B-Evoking	_	_	
+1-6	a	O	I-Evoking	_	_	
+1-7	hair	B-ScrPart_haircut	I-Evoking	_	_	
+1-8	cut	I-ScrPart_haircut	I-Evoking	_	_	
+1-9	was	O	B-UnrelEv	_	_	
+1-10	a	O	O	_	_	
+1-11	very	O	O	_	_	
+1-12	long	O	O	_	_	
+1-13	time	B-NPart	O	_	_	
+1-14	ago	O	O	_	_	
+1-15	.	O	O	_	_	
+
+#id=2
+#text=I needed to look presentable to see my distant family .
+2-1	I	B-ScrPart_customer	O	_	_	
+2-2	needed	O	O	_	_	
+2-3	to	O	O	_	_	
+2-4	look	O	B-UnrelEv	_	_	
+2-5	presentable	O	O	_	_	
+2-6	to	O	O	_	_	
+2-7	see	O	B-UnrelEv	_	_	
+2-8	my	B-ScrPart_customer	O	_	_	
+2-9	distant	O	O	_	_	
+2-10	family	B-NPart	O	_	_	
+2-11	.	O	O	_	_	
+
+#id=3
+#text=I called up and made a reservation with the salon for four twenty five in the afternoon the next day .
+3-1	I	B-ScrPart_customer	O	_	_	
+3-2	called	O	B-ScrEv_make_appointment	_	_	
+3-3	up	O	I-ScrEv_make_appointment	_	_	
+3-4	and	O	O	_	_	
+3-5	made	O	B-ScrEv_make_appointment	_	_	
+3-6	a	O	O	_	_	
+3-7	reservation	B-ScrPart_appointment	O	_	_	
+3-8	with	O	O	_	_	
+3-9	the	O	O	_	_	
+3-10	salon	B-ScrPart_salon	O	_	_	
+3-11	for	O	O	_	_	
+3-12	four	B-ScrPart_time/date	O	_	_	
+3-13	twenty	I-ScrPart_time/date	O	_	_	
+3-14	five	I-ScrPart_time/date	O	_	_	
+3-15	in	O	O	_	_	
+3-16	the	O	O	_	_	
+3-17	afternoon	B-ScrPart_time/date	O	_	_	
+3-18	the	O	O	_	_	
+3-19	next	O	O	_	_	
+3-20	day	B-ScrPart_time/date	O	_	_	
+3-21	.	O	O	_	_	
+
+#id=4
+#text=The next day I went in and they asked me about what sort of haircut I wanted .
+4-1	The	O	O	_	_	
+4-2	next	O	O	_	_	
+4-3	day	B-ScrPart_time/date	O	_	_	
+4-4	I	B-ScrPart_customer	O	_	_	
+4-5	went	O	B-ScrEv_enter	_	_	
+4-6	in	O	I-ScrEv_enter	_	_	
+4-7	and	O	O	_	_	
+4-8	they	B-ScrPart_hairdresser	O	_	_	
+4-9	asked	O	B-ScrEv_talk_haircut	_	_	
+4-10	me	B-ScrPart_customer	O	_	_	
+4-11	about	O	O	_	_	
+4-12	what	O	O	_	_	
+4-13	sort	B-NPart	O	_	_	
+4-14	of	O	O	_	_	
+4-15	haircut	B-ScrPart_haircut	O	webanno.custom.Corefchains_	1-7	
+4-16	I	B-ScrPart_customer	O	_	_	
+4-17	wanted	O	B-UnrelEv	_	_	
+4-18	.	O	O	_	_	
+
+#id=5
+#text=I did not really know exactly what I wanted so I let them just give me a simple , regular haircut .
+5-1	I	B-ScrPart_customer	O	_	_	
+5-2	did	O	O	_	_	
+5-3	not	O	O	_	_	
+5-4	really	O	O	_	_	
+5-5	know	O	B-UnrelEv	_	_	
+5-6	exactly	O	O	_	_	
+5-7	what	O	O	_	_	
+5-8	I	B-ScrPart_customer	O	_	_	
+5-9	wanted	O	B-UnrelEv	_	_	
+5-10	so	O	O	_	_	
+5-11	I	B-ScrPart_customer	O	_	_	
+5-12	let	O	O	_	_	
+5-13	them	B-ScrPart_hairdresser	O	_	_	
+5-14	just	O	O	_	_	
+5-15	give	O	B-ScrEv_cut	_	_	
+5-16	me	B-ScrPart_customer	O	_	_	
+5-17	a	O	O	_	_	
+5-18	simple	O	O	_	_	
+5-19	,	O	O	_	_	
+5-20	regular	O	O	_	_	
+5-21	haircut	B-ScrPart_haircut	O	webanno.custom.Corefchains_	4-15	
+5-22	.	O	O	_	_	
+
+#id=6
+#text=They started by washing my hair by dipping my head into a sink , massaging the soap in , and finally washing it out .
+6-1	They	B-ScrPart_hairdresser	O	_	_	
+6-2	started	O	B-UnrelEv	_	_	
+6-3	by	O	O	_	_	
+6-4	washing	O	B-ScrEv_wash	_	_	
+6-5	my	B-ScrPart_customer	O	_	_	
+6-6	hair	B-ScrPart_hair	O	_	_	
+6-7	by	O	O	_	_	
+6-8	dipping	O	B-RelNScrEv	_	_	
+6-9	my	B-ScrPart_customer	O	_	_	
+6-10	head	B-NPart	O	_	_	
+6-11	into	O	O	_	_	
+6-12	a	O	O	_	_	
+6-13	sink	B-ScrPart_wash_basin	O	_	_	
+6-14	,	O	O	_	_	
+6-15	massaging	O	B-RelNScrEv	_	_	
+6-16	the	O	O	_	_	
+6-17	soap	B-ScrPart_hair_styling/treatment	O	_	_	
+6-18	in	O	O	_	_	
+6-19	,	O	O	_	_	
+6-20	and	O	O	_	_	
+6-21	finally	O	O	_	_	
+6-22	washing	O	B-RelNScrEv	_	_	
+6-23	it	B-ScrPart_hair_styling/treatment	O	_	_	
+6-24	out	O	O	_	_	
+6-25	.	O	O	_	_	
+
+#id=7
+#text=Next they dried my hair a little bit , but left it damp so it would be easier for them to cut .
+7-1	Next	O	O	_	_	
+7-2	they	B-ScrPart_hairdresser	O	_	_	
+7-3	dried	O	B-ScrEv_dry	_	_	
+7-4	my	B-ScrPart_customer	O	_	_	
+7-5	hair	B-ScrPart_hair	O	_	_	
+7-6	a	O	O	_	_	
+7-7	little	O	O	_	_	
+7-8	bit	B-NPart	O	_	_	
+7-9	,	O	O	_	_	
+7-10	but	O	O	_	_	
+7-11	left	O	B-UnrelEv	_	_	
+7-12	it	B-ScrPart_hair	O	_	_	
+7-13	damp	O	O	_	_	
+7-14	so	O	O	_	_	
+7-15	it	B-ScrPart_hair	O	_	_	
+7-16	would	O	O	_	_	
+7-17	be	O	B-UnrelEv	_	_	
+7-18	easier	O	O	_	_	
+7-19	for	O	O	_	_	
+7-20	them	B-ScrPart_hairdresser	O	_	_	
+7-21	to	O	O	_	_	
+7-22	cut	O	B-ScrEv_cut	_	_	
+7-23	.	O	O	_	_	
+
+#id=8
+#text=Then they started cutting away using a combination of scissors and a razor .
+8-1	Then	O	O	_	_	
+8-2	they	B-ScrPart_hairdresser	O	_	_	
+8-3	started	O	O	_	_	
+8-4	cutting	O	B-ScrEv_cut	_	_	
+8-5	away	O	O	_	_	
+8-6	using	O	B-UnrelEv	_	_	
+8-7	a	O	O	_	_	
+8-8	combination	B-NPart	O	_	_	
+8-9	of	O	O	_	_	
+8-10	scissors	B-ScrPart_scissors	O	_	_	
+8-11	and	O	O	_	_	
+8-12	a	O	O	_	_	
+8-13	razor	B-ScrPart_hair_styling/treatment	O	_	_	
+8-14	.	O	O	_	_	
+
+#id=9
+#text=After about thirty minutes they asked me how I felt about my haircut , and since I approved , the cut was done . 
+9-1	After	O	O	_	_	
+9-2	about	O	O	_	_	
+9-3	thirty	O	O	_	_	
+9-4	minutes	B-ScrPart_time/date	O	_	_	
+9-5	they	B-ScrPart_hairdresser	O	_	_	
+9-6	asked	O	B-ScrEv_customer_opinion	_	_	
+9-7	me	B-ScrPart_customer	O	_	_	
+9-8	how	O	O	_	_	
+9-9	I	B-ScrPart_customer	O	_	_	
+9-10	felt	O	B-UnrelEv	_	_	
+9-11	about	O	O	_	_	
+9-12	my	B-ScrPart_customer	O	_	_	
+9-13	haircut	B-ScrPart_haircut	O	webanno.custom.Corefchains_	5-21	
+9-14	,	O	O	_	_	
+9-15	and	O	O	_	_	
+9-16	since	O	O	_	_	
+9-17	I	B-ScrPart_customer	O	_	_	
+9-18	approved	O	B-ScrEv_customer_opinion	_	_	
+9-19	,	O	O	_	_	
+9-20	the	O	O	_	_	
+9-21	cut	B-ScrPart_haircut	O	webanno.custom.Corefchains_	9-13	
+9-22	was	O	B-UnrelEv	_	_	
+9-23	done	O	O	_	_	
+9-24	.	O	O	_	_	
+

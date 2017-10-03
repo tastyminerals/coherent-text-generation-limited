@@ -1,0 +1,221 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant
+#id=1
+#text=To be honest , when ever I have a flat tire on anything , I usually leave it to my husband , but he did teach me how to fix a flat on a bike .
+1-1	To	O	O	
+1-2	be	B-UnrelEv	O	
+1-3	honest	O	O	
+1-4	,	O	O	
+1-5	when	O	O	
+1-6	ever	O	O	
+1-7	I	O	B-ScrPart_rider	
+1-8	have	B-UnrelEv	O	
+1-9	a	O	O	
+1-10	flat	O	O	
+1-11	tire	O	B-ScrPart_tire	
+1-12	on	O	O	
+1-13	anything	O	B-No_label	
+1-14	,	O	O	
+1-15	I	O	B-ScrPart_rider	
+1-16	usually	O	I-ScrPart_rider	
+1-17	leave	B-UnrelEv	O	
+1-18	it	O	B-No_label	
+1-19	to	O	O	
+1-20	my	O	B-ScrPart_rider	
+1-21	husband	O	B-NPart	
+1-22	,	O	O	
+1-23	but	O	O	
+1-24	he	O	B-NPart	
+1-25	did	O	O	
+1-26	teach	B-UnrelEv	O	
+1-27	me	O	B-ScrPart_rider	
+1-28	how	O	O	
+1-29	to	O	O	
+1-30	fix	B-Evoking	O	
+1-31	a	I-Evoking	O	
+1-32	flat	I-Evoking	O	
+1-33	on	O	O	
+1-34	a	O	O	
+1-35	bike	O	B-ScrPart_bicycle	
+1-36	.	O	O	
+
+#id=2
+#text=Sometimes , it needs a new inner tube .
+2-1	Sometimes	O	O	
+2-2	,	O	O	
+2-3	it	O	B-ScrPart_bicycle	
+2-4	needs	B-UnrelEv	O	
+2-5	a	O	O	
+2-6	new	O	O	
+2-7	inner	O	O	
+2-8	tube	O	B-ScrPart_spare_tube	
+2-9	.	O	O	
+
+#id=3
+#text=If that is the issue , you must remove the outer rubber , and take off the old broken inner tube .
+3-1	If	O	O	
+3-2	that	O	O	
+3-3	is	B-UnrelEv	O	
+3-4	the	O	O	
+3-5	issue	O	B-NPart	
+3-6	,	O	O	
+3-7	you	O	B-ScrPart_rider	
+3-8	must	O	O	
+3-9	remove	B-ScrEv_take_tire_off	O	
+3-10	the	O	O	
+3-11	outer	O	O	
+3-12	rubber	O	B-ScrPart_bicycle_small_detail	
+3-13	,	O	O	
+3-14	and	O	O	
+3-15	take	B-ScrEv_take_tire_off|B-ScrEv_take_tire_off	O	
+3-16	off	I-ScrEv_take_tire_off	O	
+3-17	the	O	O	
+3-18	old	O	O	
+3-19	broken	O	O	
+3-20	inner	O	O	
+3-21	tube	O	B-ScrPart_tire	
+3-22	.	O	O	
+
+#id=4
+#text=Then , put on the new one , out the rubber back on , and fill the tire with air .
+4-1	Then	O	O	
+4-2	,	O	O	
+4-3	put	B-ScrEv_put_new_tire	O	
+4-4	on	O	O	
+4-5	the	O	O	
+4-6	new	O	O	
+4-7	one	O	B-ScrPart_spare_tube	
+4-8	,	O	O	
+4-9	out	O	O	
+4-10	the	O	O	
+4-11	rubber	O	B-ScrPart_bicycle_small_detail	
+4-12	back	O	O	
+4-13	on	O	O	
+4-14	,	O	O	
+4-15	and	O	O	
+4-16	fill	B-ScrEv_refill_tire_air	O	
+4-17	the	O	O	
+4-18	tire	O	B-ScrPart_spare_tube	
+4-19	with	O	O	
+4-20	air	O	B-ScrPart_air	
+4-21	.	O	O	
+
+#id=5
+#text=Make sure that you check the pressure when filling the tire so as to not put too much air in .
+5-1	Make	O	O	
+5-2	sure	O	O	
+5-3	that	O	O	
+5-4	you	O	B-ScrPart_rider	
+5-5	check	B-ScrEv_check_new_tire	O	
+5-6	the	O	O	
+5-7	pressure	O	B-ScrPart_pressure	
+5-8	when	O	O	
+5-9	filling	B-ScrEv_refill_tire_air	O	
+5-10	the	O	O	
+5-11	tire	O	B-ScrPart_tire	
+5-12	so	O	O	
+5-13	as	O	O	
+5-14	to	O	O	
+5-15	not	O	O	
+5-16	put	B-RelNScrEv	O	
+5-17	too	O	O	
+5-18	much	O	O	
+5-19	air	O	B-ScrPart_air	
+5-20	in	O	O	
+5-21	.	O	O	
+
+#id=6
+#text=Sometimes you will also need to chance the outer tire as that may have a hole .
+6-1	Sometimes	O	O	
+6-2	you	O	B-ScrPart_rider	
+6-3	will	O	O	
+6-4	also	O	O	
+6-5	need	B-UnrelEv	O	
+6-6	to	O	O	
+6-7	chance	B-RelNScrEv	O	
+6-8	the	O	O	
+6-9	outer	O	O	
+6-10	tire	O	B-ScrPart_tire	
+6-11	as	O	O	
+6-12	that	O	O	
+6-13	may	O	O	
+6-14	have	B-UnrelEv	O	
+6-15	a	O	O	
+6-16	hole	O	B-ScrPart_damage	
+6-17	.	O	O	
+
+#id=7
+#text=It can be hard to determine which part of the tire is the issue when you have a flat .
+7-1	It	O	B-No_label	
+7-2	can	O	O	
+7-3	be	O	O	
+7-4	hard	O	O	
+7-5	to	O	O	
+7-6	determine	B-UnrelEv	O	
+7-7	which	O	O	
+7-8	part	O	B-Head_of_Partitive	
+7-9	of	O	O	
+7-10	the	O	O	
+7-11	tire	O	B-ScrPart_tire	
+7-12	is	B-UnrelEv	O	
+7-13	the	O	O	
+7-14	issue	O	B-NPart	
+7-15	when	O	O	
+7-16	you	O	B-ScrPart_rider	
+7-17	have	B-RelNScrEv	O	
+7-18	a	O	O	
+7-19	flat	O	B-SuppVComp	
+7-20	.	O	O	
+
+#id=8
+#text=First , you can check the tire pressure and fill it if low .
+8-1	First	O	O	
+8-2	,	O	O	
+8-3	you	O	B-ScrPart_rider	
+8-4	can	O	O	
+8-5	check	B-ScrEv_other	O	
+8-6	the	O	O	
+8-7	tire	O	B-ScrPart_pressure	
+8-8	pressure	O	I-ScrPart_pressure|B-ScrPart_pressure	
+8-9	and	O	O	
+8-10	fill	B-ScrEv_refill_tire_air	O	
+8-11	it	O	B-ScrPart_tire	
+8-12	if	O	O	
+8-13	low	O	O	
+8-14	.	O	O	
+
+#id=9
+#text=If it quickly loses pressure again , then it was n't just an issue with the tire pressure and you need to replace one of the tire pieces a s previously stated . 
+9-1	If	O	O	
+9-2	it	O	B-ScrPart_tire	
+9-3	quickly	O	O	
+9-4	loses	B-RelNScrEv	O	
+9-5	pressure	O	B-ScrPart_pressure	
+9-6	again	O	O	
+9-7	,	O	O	
+9-8	then	O	O	
+9-9	it	O	B-No_label	
+9-10	was	B-UnrelEv	O	
+9-11	n't	O	O	
+9-12	just	O	O	
+9-13	an	O	O	
+9-14	issue	O	B-NPart	
+9-15	with	O	O	
+9-16	the	O	O	
+9-17	tire	O	B-ScrPart_pressure	
+9-18	pressure	O	I-ScrPart_pressure|B-ScrPart_pressure	
+9-19	and	O	O	
+9-20	you	O	B-ScrPart_rider	
+9-21	need	O	O	
+9-22	to	O	O	
+9-23	replace	B-RelNScrEv	O	
+9-24	one	O	O	
+9-25	of	O	O	
+9-26	the	O	O	
+9-27	tire	O	B-ScrPart_tire	
+9-28	pieces	O	I-ScrPart_tire|B-ScrPart_tire	
+9-29	a	O	O	
+9-30	s	O	O	
+9-31	previously	O	O	
+9-32	stated	B-UnrelEv	O	
+9-33	.	O	O	
+

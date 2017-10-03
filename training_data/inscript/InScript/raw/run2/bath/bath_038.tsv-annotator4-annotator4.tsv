@@ -1,0 +1,272 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events
+#id=1
+#text=I love taking baths !
+1-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+1-2	love	O	O	B-UnrelEv	
+1-3	taking	O	O	B-Evoking	
+1-4	baths	B-SuppVComp	B-webanno.custom.Participants_	I-Evoking	
+1-5	!	O	O	O	
+
+#id=2
+#text=They are so relaxing after a long day .
+2-1	They	B-ScrPart_bath	B-webanno.custom.Participants_	O	
+2-2	are	O	O	B-UnrelEv	
+2-3	so	O	O	O	
+2-4	relaxing	O	O	B-ScrEv_relax	
+2-5	after	O	O	O	
+2-6	a	O	O	O	
+2-7	long	O	O	O	
+2-8	day	B-NPart	B-webanno.custom.Participants_	O	
+2-9	.	O	O	O	
+
+#id=3
+#text=When I get home from work , often , the first thing I do is start to fill the bathtub .
+3-1	When	O	O	O	
+3-2	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+3-3	get	O	O	B-UnrelEv	
+3-4	home	B-NPart	B-webanno.custom.Participants_	O	
+3-5	from	O	O	O	
+3-6	work	B-NPart	B-webanno.custom.Participants_	O	
+3-7	,	O	O	O	
+3-8	often	O	O	O	
+3-9	,	O	O	O	
+3-10	the	O	O	O	
+3-11	first	O	O	O	
+3-12	thing	B-No_label	B-webanno.custom.Participants_	O	
+3-13	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+3-14	do	O	O	B-UnrelEv	
+3-15	is	O	O	B-UnrelEv	
+3-16	start	O	O	B-UnrelEv	
+3-17	to	O	O	O	
+3-18	fill	O	O	B-ScrEv_fill_water/wait	
+3-19	the	O	O	O	
+3-20	bathtub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	
+3-21	.	O	O	O	
+
+#id=4
+#text=I set the water temperature to a nice warm setting .
+4-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+4-2	set	O	O	B-ScrEv_check_temp	
+4-3	the	O	O	O	
+4-4	water	B-ScrPart_temperature	B-webanno.custom.Participants_	O	
+4-5	temperature	I-ScrPart_temperature|B-ScrPart_temperature	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+4-6	to	O	O	O	
+4-7	a	O	O	O	
+4-8	nice	O	O	O	
+4-9	warm	O	O	O	
+4-10	setting	B-NPart	B-webanno.custom.Participants_	O	
+4-11	.	O	O	O	
+
+#id=5
+#text=While the tub is filling , I will gather two fluffy towels and a face cloth .
+5-1	While	O	O	O	
+5-2	the	O	O	O	
+5-3	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	
+5-4	is	O	O	O	
+5-5	filling	O	O	B-ScrEv_fill_water/wait	
+5-6	,	O	O	O	
+5-7	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+5-8	will	O	O	O	
+5-9	gather	O	O	B-ScrEv_prepare_bath	
+5-10	two	O	O	O	
+5-11	fluffy	O	O	O	
+5-12	towels	B-ScrPart_towel	B-webanno.custom.Participants_	O	
+5-13	and	O	O	O	
+5-14	a	O	O	O	
+5-15	face	B-ScrPart_washing_tools	B-webanno.custom.Participants_	O	
+5-16	cloth	I-ScrPart_washing_tools|B-ScrPart_washing_tools	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+5-17	.	O	O	O	
+
+#id=6
+#text=I also pour myself a glass of ice water to sip on while I 'm soaking .
+6-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+6-2	also	O	O	O	
+6-3	pour	O	O	B-ScrEv_prepare_bath	
+6-4	myself	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+6-5	a	O	O	O	
+6-6	glass	B-Head_of_Partitive	B-webanno.custom.Participants_	O	
+6-7	of	O	O	O	
+6-8	ice	B-ScrPart_in-bath_entertainment	B-webanno.custom.Participants_	O	
+6-9	water	I-ScrPart_in-bath_entertainment|B-ScrPart_in-bath_entertainment	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+6-10	to	O	O	O	
+6-11	sip	O	O	B-RelNScrEv	
+6-12	on	O	O	O	
+6-13	while	O	O	O	
+6-14	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+6-15	'm	O	O	O	
+6-16	soaking	O	O	B-ScrEv_relax	
+6-17	.	O	O	O	
+
+#id=7
+#text=I go and grab the latest magazine that I 've been waiting to read and put it next to the tub .
+7-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+7-2	go	O	O	B-UnrelEv	
+7-3	and	O	O	O	
+7-4	grab	O	O	B-ScrEv_prepare_bath	
+7-5	the	O	O	O	
+7-6	latest	O	O	O	
+7-7	magazine	B-ScrPart_in-bath_entertainment	B-webanno.custom.Participants_	O	
+7-8	that	B-ScrPart_in-bath_entertainment	B-webanno.custom.Participants_	O	
+7-9	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+7-10	've	O	O	O	
+7-11	been	O	O	O	
+7-12	waiting	O	O	B-UnrelEv	
+7-13	to	O	O	O	
+7-14	read	O	O	B-UnrelEv	
+7-15	and	O	O	O	
+7-16	put	O	O	B-ScrEv_prepare_bath	
+7-17	it	B-ScrPart_in-bath_entertainment	B-webanno.custom.Participants_	O	
+7-18	next	O	O	O	
+7-19	to	O	O	O	
+7-20	the	O	O	O	
+7-21	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	
+7-22	.	O	O	O	
+
+#id=8
+#text=Once the tub is filled , I climb in .
+8-1	Once	O	O	O	
+8-2	the	O	O	O	
+8-3	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	
+8-4	is	O	O	O	
+8-5	filled	O	O	B-ScrEv_fill_water/wait	
+8-6	,	O	O	O	
+8-7	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+8-8	climb	O	O	B-ScrEv_sink_water	
+8-9	in	O	O	I-ScrEv_sink_water	
+8-10	.	O	O	O	
+
+#id=9
+#text=I start by washing my face and then my hair .
+9-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+9-2	start	O	O	B-UnrelEv	
+9-3	by	O	O	O	
+9-4	washing	O	O	B-ScrEv_wash	
+9-5	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+9-6	face	B-ScrPart_body_part	B-webanno.custom.Participants_	O	
+9-7	and	O	O	O	
+9-8	then	O	O	O	
+9-9	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+9-10	hair	B-ScrPart_hair	B-webanno.custom.Participants_	O	
+9-11	.	O	O	O	
+
+#id=10
+#text=After my hair is washed , I put a deep conditioner in my hair .
+10-1	After	O	O	O	
+10-2	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+10-3	hair	B-ScrPart_hair	B-webanno.custom.Participants_	O	
+10-4	is	O	O	O	
+10-5	washed	O	O	B-ScrEv_wash	
+10-6	,	O	O	O	
+10-7	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+10-8	put	O	O	B-???	
+10-9	a	O	O	O	
+10-10	deep	O	O	O	
+10-11	conditioner	B-ScrPart_washing_tools	B-webanno.custom.Participants_	O	
+10-12	in	O	O	O	
+10-13	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+10-14	hair	B-ScrPart_hair	B-webanno.custom.Participants_	O	
+10-15	.	O	O	O	
+
+#id=11
+#text=Now , it 's time to relax .
+11-1	Now	O	O	O	
+11-2	,	O	O	O	
+11-3	it	B-No_label	B-webanno.custom.Participants_	O	
+11-4	's	O	O	B-UnrelEv	
+11-5	time	B-No_label	B-webanno.custom.Participants_	O	
+11-6	to	O	O	O	
+11-7	relax	O	O	B-ScrEv_relax	
+11-8	.	O	O	O	
+
+#id=12
+#text=I let the conditioner sit while I read my magazine and sip some water .
+12-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+12-2	let	O	O	B-UnrelEv	
+12-3	the	O	O	O	
+12-4	conditioner	B-ScrPart_washing_tools	B-webanno.custom.Participants_	O	
+12-5	sit	O	O	B-RelNScrEv	
+12-6	while	O	O	O	
+12-7	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+12-8	read	O	O	B-RelNScrEv	
+12-9	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+12-10	magazine	B-ScrPart_in-bath_entertainment	B-webanno.custom.Participants_	O	
+12-11	and	O	O	O	
+12-12	sip	O	O	B-RelNScrEv	
+12-13	some	O	O	O	
+12-14	water	B-ScrPart_in-bath_entertainment	B-webanno.custom.Participants_	O	
+12-15	.	O	O	O	
+
+#id=13
+#text=After 15 minutes , I rinse my hair out and then wash my body with soap .
+13-1	After	O	O	O	
+13-2	15	O	O	O	
+13-3	minutes	B-NPart	B-webanno.custom.Participants_	O	
+13-4	,	O	O	O	
+13-5	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+13-6	rinse	O	O	B-ScrEv_wash	
+13-7	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+13-8	hair	B-ScrPart_hair	B-webanno.custom.Participants_	O	
+13-9	out	O	O	O	
+13-10	and	O	O	O	
+13-11	then	O	O	O	
+13-12	wash	O	O	B-ScrEv_wash	
+13-13	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+13-14	body	B-ScrPart_body_part	B-webanno.custom.Participants_	O	
+13-15	with	O	O	O	
+13-16	soap	B-ScrPart_washing_tools	B-webanno.custom.Participants_	O	
+13-17	.	O	O	O	
+
+#id=14
+#text=I rinse off and then give myself a few more minutes of soaking before I empty the tub .
+14-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+14-2	rinse	O	O	B-ScrEv_wash	
+14-3	off	O	O	I-ScrEv_wash	
+14-4	and	O	O	O	
+14-5	then	O	O	O	
+14-6	give	O	O	B-UnrelEv	
+14-7	myself	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+14-8	a	O	O	O	
+14-9	few	O	O	O	
+14-10	more	O	O	O	
+14-11	minutes	B-No_label	B-webanno.custom.Participants_	O	
+14-12	of	O	O	O	
+14-13	soaking	O	O	B-ScrEv_relax	
+14-14	before	O	O	O	
+14-15	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+14-16	empty	O	O	B-ScrEv_open_drain	
+14-17	the	O	O	O	
+14-18	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	
+14-19	.	O	O	O	
+
+#id=15
+#text=After I dry off , I rinse the tub out to make sure that I leave the tub clean and shiny for the next time I use it . 
+15-1	After	O	O	O	
+15-2	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+15-3	dry	O	O	B-ScrEv_dry	
+15-4	off	O	O	I-ScrEv_dry	
+15-5	,	O	O	O	
+15-6	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+15-7	rinse	O	O	B-ScrEv_other	
+15-8	the	O	O	O	
+15-9	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	
+15-10	out	O	O	O	
+15-11	to	O	O	O	
+15-12	make	O	O	B-UnrelEv	
+15-13	sure	O	O	I-UnrelEv	
+15-14	that	O	O	O	
+15-15	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+15-16	leave	O	O	B-RelNScrEv	
+15-17	the	O	O	O	
+15-18	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	
+15-19	clean	O	O	O	
+15-20	and	O	O	O	
+15-21	shiny	O	O	O	
+15-22	for	O	O	O	
+15-23	the	O	O	O	
+15-24	next	O	O	O	
+15-25	time	B-No_label	B-webanno.custom.Participants_	O	
+15-26	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+15-27	use	O	O	B-Evoking	
+15-28	it	B-ScrPart_bathtub	B-webanno.custom.Participants_	I-Evoking	
+15-29	.	O	O	O	
+

@@ -1,0 +1,424 @@
+ # webanno.custom.Participants | Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=The simplest way to make cake is with a mix .
+1-1	The	O	O	O	
+1-2	simplest	O	O	O	
+1-3	way	B-No_label	B-webanno.custom.Participants_	O	
+1-4	to	O	O	O	
+1-5	make	O	O	B-Evoking	
+1-6	cake	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	
+1-7	is	O	O	B-UnrelEv	
+1-8	with	O	O	O	
+1-9	a	O	O	O	
+1-10	mix	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+1-11	.	O	O	O	
+
+#id=2
+#text=Just open the box and mix in some eggs , some water , and maybe some oil .
+2-1	Just	O	O	O	
+2-2	open	O	O	B-ScrEv_prepare_ingredients	
+2-3	the	O	O	O	
+2-4	box	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+2-5	and	O	O	O	
+2-6	mix	O	O	B-ScrEv_add_ingredients	
+2-7	in	O	O	I-ScrEv_add_ingredients	
+2-8	some	O	O	O	
+2-9	eggs	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+2-10	,	O	O	O	
+2-11	some	O	O	O	
+2-12	water	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+2-13	,	O	O	O	
+2-14	and	O	O	O	
+2-15	maybe	O	O	O	
+2-16	some	O	O	O	
+2-17	oil	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+2-18	.	O	O	O	
+
+#id=3
+#text=Grease two round pans by rubbing them with a stick of butter , pour in the batter , bake as directed and you are done .
+3-1	Grease	O	O	B-ScrEv_grease_cake_tin	
+3-2	two	O	O	O	
+3-3	round	O	O	O	
+3-4	pans	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	
+3-5	by	O	O	O	
+3-6	rubbing	O	O	B-ScrEv_grease_cake_tin	
+3-7	them	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	
+3-8	with	O	O	O	
+3-9	a	O	O	O	
+3-10	stick	B-Head_of_Partitive	B-webanno.custom.Participants_	O	
+3-11	of	O	O	O	
+3-12	butter	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+3-13	,	O	O	O	
+3-14	pour	O	O	B-ScrEv_pour_dough	
+3-15	in	O	O	I-ScrEv_pour_dough	
+3-16	the	O	O	O	
+3-17	batter	B-ScrPart_dough	B-webanno.custom.Participants_	O	
+3-18	,	O	O	O	
+3-19	bake	O	O	B-ScrEv_wait	
+3-20	as	O	O	O	
+3-21	directed	O	O	B-RelNScrEv	
+3-22	and	O	O	O	
+3-23	you	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+3-24	are	O	O	O	
+3-25	done	O	O	B-UnrelEv	
+3-26	.	O	O	O	
+
+#id=4
+#text=Making a coffee cake with Bisquick baking mix is only slightly harder , but the product is not really what some people call a cake .
+4-1	Making	O	O	B-Evoking	
+4-2	a	O	O	I-Evoking	
+4-3	coffee	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	
+4-4	cake	I-ScrPart_cake|B-ScrPart_cake	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-Evoking	
+4-5	with	O	O	O	
+4-6	Bisquick	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+4-7	baking	I-ScrPart_ingredients	I-webanno.custom.Participants_	O	
+4-8	mix	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+4-9	is	O	O	B-UnrelEv	
+4-10	only	O	O	O	
+4-11	slightly	O	O	O	
+4-12	harder	O	O	O	
+4-13	,	O	O	O	
+4-14	but	O	O	O	
+4-15	the	O	O	O	
+4-16	product	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+4-17	is	O	O	B-UnrelEv	
+4-18	not	O	O	O	
+4-19	really	O	O	O	
+4-20	what	O	O	O	
+4-21	some	O	O	O	
+4-22	people	B-NPart	B-webanno.custom.Participants_	O	
+4-23	call	O	O	B-UnrelEv	
+4-24	a	O	O	O	
+4-25	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+4-26	.	O	O	O	
+
+#id=5
+#text=There are also delicious cakes that are really store-bought baked goods layered with ice cream .
+5-1	There	O	O	O	
+5-2	are	O	O	B-UnrelEv	
+5-3	also	O	O	O	
+5-4	delicious	O	O	O	
+5-5	cakes	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+5-6	that	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+5-7	are	O	O	B-UnrelEv	
+5-8	really	O	O	O	
+5-9	store-bought	O	O	B-ScrEv_get_ingredients	
+5-10	baked	O	O	B-ScrEv_wait	
+5-11	goods	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+5-12	layered	O	O	B-ScrEv_decorate	
+5-13	with	O	O	O	
+5-14	ice	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+5-15	cream	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+5-16	.	O	O	O	
+
+#id=6
+#text=But for a birthday , an actual homemade cake is traditional .
+6-1	But	O	O	O	
+6-2	for	O	O	O	
+6-3	a	O	O	O	
+6-4	birthday	B-NPart	B-webanno.custom.Participants_	O	
+6-5	,	O	O	O	
+6-6	an	O	O	O	
+6-7	actual	O	O	O	
+6-8	homemade	O	O	B-RelNScrEv	
+6-9	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+6-10	is	O	O	B-UnrelEv	
+6-11	traditional	O	O	O	
+6-12	.	O	O	O	
+
+#id=7
+#text=I make such a cake in two separate bowls and then combine the mixtures .
+7-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+7-2	make	O	O	B-Evoking	
+7-3	such	O	O	I-Evoking	
+7-4	a	O	O	I-Evoking	
+7-5	cake	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	
+7-6	in	O	O	O	
+7-7	two	O	O	O	
+7-8	separate	O	O	O	
+7-9	bowls	B-ScrPart_utensil	B-webanno.custom.Participants_	O	
+7-10	and	O	O	O	
+7-11	then	O	O	O	
+7-12	combine	O	O	B-ScrEv_add_ingredients	
+7-13	the	O	O	O	
+7-14	mixtures	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+7-15	.	O	O	O	
+
+#id=8
+#text=I also use a stand mixer , though even that can feel like cheating .
+8-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+8-2	also	O	O	O	
+8-3	use	O	O	B-ScrEv_get_utensils	
+8-4	a	O	O	O	
+8-5	stand	B-ScrPart_utensil	B-webanno.custom.Participants_	O	
+8-6	mixer	I-ScrPart_utensil|B-ScrPart_utensil	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+8-7	,	O	O	O	
+8-8	though	O	O	O	
+8-9	even	O	O	O	
+8-10	that	O	O	O	
+8-11	can	O	O	O	
+8-12	feel	O	O	B-UnrelEv	
+8-13	like	O	O	O	
+8-14	cheating	O	O	B-UnrelEv	
+8-15	.	O	O	O	
+
+#id=9
+#text=First , I lay out all my ingredients , and preheat the oven .
+9-1	First	O	O	O	
+9-2	,	O	O	O	
+9-3	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+9-4	lay	O	O	B-ScrEv_get_ingredients	
+9-5	out	O	O	I-ScrEv_get_ingredients	
+9-6	all	O	O	O	
+9-7	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+9-8	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+9-9	,	O	O	O	
+9-10	and	O	O	O	
+9-11	preheat	O	O	B-ScrEv_preheat	
+9-12	the	O	O	O	
+9-13	oven	B-ScrPart_oven	B-webanno.custom.Participants_	O	
+9-14	.	O	O	O	
+
+#id=10
+#text=I prepare two round pans , by greasing with butter or pan spray , sprinkling with flour and shaking out the excess .
+10-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+10-2	prepare	O	O	B-ScrEv_grease_cake_tin	
+10-3	two	O	O	O	
+10-4	round	O	O	O	
+10-5	pans	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	
+10-6	,	O	O	O	
+10-7	by	O	O	O	
+10-8	greasing	O	O	B-ScrEv_grease_cake_tin	
+10-9	with	O	O	O	
+10-10	butter	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+10-11	or	O	O	O	
+10-12	pan	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+10-13	spray	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+10-14	,	O	O	O	
+10-15	sprinkling	O	O	B-ScrEv_grease_cake_tin	
+10-16	with	O	O	O	
+10-17	flour	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+10-18	and	O	O	O	
+10-19	shaking	O	O	B-ScrEv_grease_cake_tin	
+10-20	out	O	O	I-ScrEv_grease_cake_tin	
+10-21	the	O	O	O	
+10-22	excess	B-NPart	B-webanno.custom.Participants_	O	
+10-23	.	O	O	O	
+
+#id=11
+#text=Next , I cream the butter and sugar together , on a medium-high mixer setting .
+11-1	Next	O	O	O	
+11-2	,	O	O	O	
+11-3	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+11-4	cream	O	O	B-ScrEv_prepare_ingredients	
+11-5	the	O	O	O	
+11-6	butter	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+11-7	and	O	O	O	
+11-8	sugar	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+11-9	together	O	O	O	
+11-10	,	O	O	O	
+11-11	on	O	O	O	
+11-12	a	O	O	O	
+11-13	medium-high	O	O	O	
+11-14	mixer	B-NPart	B-webanno.custom.Participants_	O	
+11-15	setting	I-NPart|B-NPart	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+11-16	.	O	O	O	
+
+#id=12
+#text=Then I mix in eggs and then vanilla .
+12-1	Then	O	O	O	
+12-2	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+12-3	mix	O	O	B-ScrEv_add_ingredients	
+12-4	in	O	O	I-ScrEv_add_ingredients	
+12-5	eggs	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+12-6	and	O	O	O	
+12-7	then	O	O	O	
+12-8	vanilla	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+12-9	.	O	O	O	
+
+#id=13
+#text=In a separate bowl , I combine the flour , baking powder , and salt .
+13-1	In	O	O	O	
+13-2	a	O	O	O	
+13-3	separate	O	O	O	
+13-4	bowl	B-ScrPart_utensil	B-webanno.custom.Participants_	O	
+13-5	,	O	O	O	
+13-6	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+13-7	combine	O	O	B-ScrEv_add_ingredients	
+13-8	the	O	O	O	
+13-9	flour	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+13-10	,	O	O	O	
+13-11	baking	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+13-12	powder	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+13-13	,	O	O	O	
+13-14	and	O	O	O	
+13-15	salt	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+13-16	.	O	O	O	
+
+#id=14
+#text=Now , I add the dry ingredients to the butter mixture , a little at a time , alternating with the milk , while I mix at medium high .
+14-1	Now	O	O	O	
+14-2	,	O	O	O	
+14-3	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+14-4	add	O	O	B-ScrEv_add_ingredients	
+14-5	the	O	O	O	
+14-6	dry	O	O	O	
+14-7	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+14-8	to	O	O	O	
+14-9	the	O	O	O	
+14-10	butter	B-ScrPart_dough	B-webanno.custom.Participants_	O	
+14-11	mixture	I-ScrPart_dough|B-ScrPart_dough	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+14-12	,	O	O	O	
+14-13	a	O	O	O	
+14-14	little	O	O	O	
+14-15	at	O	O	O	
+14-16	a	O	O	O	
+14-17	time	B-No_label	B-webanno.custom.Participants_	O	
+14-18	,	O	O	O	
+14-19	alternating	O	O	B-ScrEv_add_ingredients	
+14-20	with	O	O	O	
+14-21	the	O	O	O	
+14-22	milk	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+14-23	,	O	O	O	
+14-24	while	O	O	O	
+14-25	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+14-26	mix	O	O	B-ScrEv_make_dough	
+14-27	at	O	O	O	
+14-28	medium	O	O	O	
+14-29	high	O	O	O	
+14-30	.	O	O	O	
+
+#id=15
+#text=It is important not to over mix , so I only combine until the lumps are gone and it looks glossy .
+15-1	It	B-No_label	B-webanno.custom.Participants_	O	
+15-2	is	O	O	B-UnrelEv	
+15-3	important	O	O	O	
+15-4	not	O	O	O	
+15-5	to	O	O	O	
+15-6	over	O	O	O	
+15-7	mix	O	O	B-ScrEv_make_dough	
+15-8	,	O	O	O	
+15-9	so	O	O	O	
+15-10	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+15-11	only	O	O	O	
+15-12	combine	O	O	B-ScrEv_make_dough	
+15-13	until	O	O	O	
+15-14	the	O	O	O	
+15-15	lumps	B-NPart	B-webanno.custom.Participants_	O	
+15-16	are	O	O	O	
+15-17	gone	O	O	B-UnrelEv	
+15-18	and	O	O	O	
+15-19	it	B-No_label	B-webanno.custom.Participants_	O	
+15-20	looks	O	O	B-UnrelEv	
+15-21	glossy	O	O	O	
+15-22	.	O	O	O	
+
+#id=16
+#text=I fill the pans evenly , and place in the oven so they do not touch and one is not directly above the other .
+16-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+16-2	fill	O	O	B-ScrEv_pour_dough	
+16-3	the	O	O	O	
+16-4	pans	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	
+16-5	evenly	O	O	O	
+16-6	,	O	O	O	
+16-7	and	O	O	O	
+16-8	place	O	O	B-ScrEv_put_cake_oven	
+16-9	in	O	O	O	
+16-10	the	O	O	O	
+16-11	oven	B-ScrPart_oven	B-webanno.custom.Participants_	O	
+16-12	so	O	O	O	
+16-13	they	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	
+16-14	do	O	O	O	
+16-15	not	O	O	O	
+16-16	touch	O	O	B-UnrelEv	
+16-17	and	O	O	O	
+16-18	one	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	
+16-19	is	O	O	B-UnrelEv	
+16-20	not	O	O	O	
+16-21	directly	O	O	O	
+16-22	above	O	O	O	
+16-23	the	O	O	O	
+16-24	other	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	
+16-25	.	O	O	O	
+
+#id=17
+#text=When the time is up , or they smell done , I press lightly in the center of the cake with one finger .
+17-1	When	O	O	O	
+17-2	the	O	O	O	
+17-3	time	B-ScrPart_time	B-webanno.custom.Participants_	O	
+17-4	is	O	O	B-ScrEv_wait	
+17-5	up	O	O	I-ScrEv_wait	
+17-6	,	O	O	O	
+17-7	or	O	O	O	
+17-8	they	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+17-9	smell	O	O	B-RelNScrEv	
+17-10	done	O	O	B-ScrEv_wait	
+17-11	,	O	O	O	
+17-12	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+17-13	press	O	O	B-ScrEv_check	
+17-14	lightly	O	O	O	
+17-15	in	O	O	O	
+17-16	the	O	O	O	
+17-17	center	B-NPart	B-webanno.custom.Participants_	O	
+17-18	of	O	O	O	
+17-19	the	O	O	O	
+17-20	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+17-21	with	O	O	O	
+17-22	one	O	O	O	
+17-23	finger	B-NPart	B-webanno.custom.Participants_	O	
+17-24	.	O	O	O	
+
+#id=18
+#text=If it springs back it is done .
+18-1	If	O	O	O	
+18-2	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+18-3	springs	O	O	B-ScrEv_check	
+18-4	back	O	O	I-ScrEv_check	
+18-5	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+18-6	is	O	O	O	
+18-7	done	O	O	B-ScrEv_wait	
+18-8	.	O	O	O	
+
+#id=19
+#text=I cool on a wire rack , run a knife around the edge , invert it on a plate to remove while still warm .
+19-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+19-2	cool	O	O	B-ScrEv_cool_down	
+19-3	on	O	O	O	
+19-4	a	O	O	O	
+19-5	wire	B-ScrPart_utensil	B-webanno.custom.Participants_	O	
+19-6	rack	I-ScrPart_utensil|B-ScrPart_utensil	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+19-7	,	O	O	O	
+19-8	run	O	O	B-ScrEv_take_out_cake_tin	
+19-9	a	O	O	O	
+19-10	knife	B-ScrPart_utensil	B-webanno.custom.Participants_	O	
+19-11	around	O	O	O	
+19-12	the	O	O	O	
+19-13	edge	B-NPart	B-webanno.custom.Participants_	O	
+19-14	,	O	O	O	
+19-15	invert	O	O	B-ScrEv_take_out_cake_tin	
+19-16	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+19-17	on	O	O	O	
+19-18	a	O	O	O	
+19-19	plate	B-ScrPart_utensil	B-webanno.custom.Participants_	O	
+19-20	to	O	O	O	
+19-21	remove	O	O	B-ScrEv_take_out_cake_tin	
+19-22	while	O	O	O	
+19-23	still	O	O	O	
+19-24	warm	O	O	O	
+19-25	.	O	O	O	
+
+#id=20
+#text=I frost liberally , and I do n't forget the candles . 
+20-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+20-2	frost	O	O	B-ScrEv_decorate	
+20-3	liberally	O	O	O	
+20-4	,	O	O	O	
+20-5	and	O	O	O	
+20-6	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+20-7	do	O	O	O	
+20-8	n't	O	O	O	
+20-9	forget	O	O	B-ScrEv_decorate	
+20-10	the	O	O	O	
+20-11	candles	B-ScrPart_decoration	B-webanno.custom.Participants_	O	
+20-12	.	O	O	O	
+

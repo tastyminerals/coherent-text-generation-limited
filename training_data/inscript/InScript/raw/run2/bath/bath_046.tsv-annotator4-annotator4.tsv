@@ -1,0 +1,209 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=When I have a long day at work , I like to take a bath before I go to bed .
+1-1	When	O	O	O	_	_	
+1-2	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+1-3	have	O	O	B-UnrelEv	_	_	
+1-4	a	O	O	O	_	_	
+1-5	long	O	O	O	_	_	
+1-6	day	B-NPart	B-webanno.custom.Participants_	O	_	_	
+1-7	at	O	O	O	_	_	
+1-8	work	B-NPart	B-webanno.custom.Participants_	O	_	_	
+1-9	,	O	O	O	_	_	
+1-10	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+1-11	like	O	O	B-UnrelEv	_	_	
+1-12	to	O	O	O	_	_	
+1-13	take	O	O	B-Evoking	_	_	
+1-14	a	O	O	I-Evoking	_	_	
+1-15	bath	B-SuppVComp	B-webanno.custom.Participants_	I-Evoking	_	_	
+1-16	before	O	O	O	_	_	
+1-17	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+1-18	go	O	O	B-UnrelEv	_	_	
+1-19	to	O	O	O	_	_	
+1-20	bed	B-NPart	B-webanno.custom.Participants_	O	_	_	
+1-21	.	O	O	O	_	_	
+
+#id=2
+#text=Baths are very relaxing .
+2-1	Baths	B-ScrPart_bath	B-webanno.custom.Participants_	O	_	_	
+2-2	are	O	O	B-UnrelEv	_	_	
+2-3	very	O	O	O	_	_	
+2-4	relaxing	O	O	B-ScrEv_relax	_	_	
+2-5	.	O	O	O	_	_	
+
+#id=3
+#text=They make me sleepy and feel nice .
+3-1	They	B-ScrPart_bath	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	2-1	
+3-2	make	O	O	B-UnrelEv	_	_	
+3-3	me	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+3-4	sleepy	O	O	O	_	_	
+3-5	and	O	O	O	_	_	
+3-6	feel	O	O	O	_	_	
+3-7	nice	O	O	O	_	_	
+3-8	.	O	O	O	_	_	
+
+#id=4
+#text=I start my bath by turning on the warm water faucet .
+4-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+4-2	start	O	O	B-UnrelEv	_	_	
+4-3	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+4-4	bath	B-ScrPart_bath	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	3-1	
+4-5	by	O	O	O	_	_	
+4-6	turning	O	O	B-ScrEv_turn_water_on	_	_	
+4-7	on	O	O	I-ScrEv_turn_water_on	_	_	
+4-8	the	O	O	O	_	_	
+4-9	warm	B-ScrPart_tap	B-webanno.custom.Participants_	O	_	_	
+4-10	water	I-ScrPart_tap	I-webanno.custom.Participants_	O	_	_	
+4-11	faucet	I-ScrPart_tap|B-ScrPart_tap	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+4-12	.	O	O	O	_	_	
+
+#id=5
+#text=Then I plug the drain so the water will stay in the tub .
+5-1	Then	O	O	O	_	_	
+5-2	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+5-3	plug	O	O	B-ScrEv_close_drain	_	_	
+5-4	the	O	O	O	_	_	
+5-5	drain	B-ScrPart_drain	B-webanno.custom.Participants_	O	_	_	
+5-6	so	O	O	O	_	_	
+5-7	the	O	O	O	_	_	
+5-8	water	B-ScrPart_water	B-webanno.custom.Participants_	O	_	_	
+5-9	will	O	O	O	_	_	
+5-10	stay	O	O	B-RelNScrEv	_	_	
+5-11	in	O	O	O	_	_	
+5-12	the	O	O	O	_	_	
+5-13	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	_	_	
+5-14	.	O	O	O	_	_	
+
+#id=6
+#text=Sometimes I pour some bubble bath into the tub .
+6-1	Sometimes	O	O	O	_	_	
+6-2	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+6-3	pour	O	O	B-ScrEv_put_bubble_bath_scent	_	_	
+6-4	some	O	O	O	_	_	
+6-5	bubble	B-ScrPart_bath_means	B-webanno.custom.Participants_	O	_	_	
+6-6	bath	I-ScrPart_bath_means|B-ScrPart_bath_means	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+6-7	into	O	O	O	_	_	
+6-8	the	O	O	O	_	_	
+6-9	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	_	_	
+6-10	.	O	O	O	_	_	
+
+#id=7
+#text=When I do this , I pour a little bit of bubble bath liquid under the running water .
+7-1	When	O	O	O	_	_	
+7-2	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+7-3	do	O	O	B-UnrelEv	_	_	
+7-4	this	O	O	O	_	_	
+7-5	,	O	O	O	_	_	
+7-6	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+7-7	pour	O	O	B-ScrEv_put_bubble_bath_scent	_	_	
+7-8	a	O	O	O	_	_	
+7-9	little	O	O	O	_	_	
+7-10	bit	B-Head_of_Partitive	B-webanno.custom.Participants_	O	_	_	
+7-11	of	O	O	O	_	_	
+7-12	bubble	B-ScrPart_bath_means	B-webanno.custom.Participants_	O	_	_	
+7-13	bath	I-ScrPart_bath_means	I-webanno.custom.Participants_	O	_	_	
+7-14	liquid	I-ScrPart_bath_means|B-ScrPart_bath_means	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+7-15	under	O	O	O	_	_	
+7-16	the	O	O	O	_	_	
+7-17	running	O	O	B-ScrEv_fill_water/wait	_	_	
+7-18	water	B-ScrPart_water	B-webanno.custom.Participants_	O	_	_	
+7-19	.	O	O	O	_	_	
+
+#id=8
+#text=Whenever the tub is about halfway full of water , I get in the tub and relax .
+8-1	Whenever	O	O	O	_	_	
+8-2	the	O	O	O	_	_	
+8-3	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	_	_	
+8-4	is	O	O	B-UnrelEv	_	_	
+8-5	about	O	O	O	_	_	
+8-6	halfway	O	O	O	_	_	
+8-7	full	O	O	O	_	_	
+8-8	of	O	O	O	_	_	
+8-9	water	B-ScrPart_water	B-webanno.custom.Participants_	O	_	_	
+8-10	,	O	O	O	_	_	
+8-11	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+8-12	get	O	O	B-ScrEv_sink_water	_	_	
+8-13	in	O	O	O	_	_	
+8-14	the	O	O	O	_	_	
+8-15	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	_	_	
+8-16	and	O	O	O	_	_	
+8-17	relax	O	O	B-ScrEv_relax	_	_	
+8-18	.	O	O	O	_	_	
+
+#id=9
+#text=Sometimes I read a book in the bathtub , and other times I simply sit there .
+9-1	Sometimes	O	O	O	_	_	
+9-2	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+9-3	read	O	O	B-RelNScrEv	_	_	
+9-4	a	O	O	O	_	_	
+9-5	book	B-ScrPart_in-bath_entertainment	B-webanno.custom.Participants_	O	_	_	
+9-6	in	O	O	O	_	_	
+9-7	the	O	O	O	_	_	
+9-8	bathtub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	_	_	
+9-9	,	O	O	O	_	_	
+9-10	and	O	O	O	_	_	
+9-11	other	O	O	O	_	_	
+9-12	times	B-No_label	B-webanno.custom.Participants_	O	_	_	
+9-13	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+9-14	simply	O	O	O	_	_	
+9-15	sit	O	O	B-RelNScrEv	_	_	
+9-16	there	O	O	O	_	_	
+9-17	.	O	O	O	_	_	
+
+#id=10
+#text=When I am not reading , I often think about my day and what I will do tomorrow .
+10-1	When	O	O	O	_	_	
+10-2	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+10-3	am	O	O	O	_	_	
+10-4	not	O	O	O	_	_	
+10-5	reading	O	O	B-RelNScrEv	_	_	
+10-6	,	O	O	O	_	_	
+10-7	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+10-8	often	O	O	O	_	_	
+10-9	think	O	O	B-RelNScrEv	_	_	
+10-10	about	O	O	O	_	_	
+10-11	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+10-12	day	B-NPart	B-webanno.custom.Participants_	O	_	_	
+10-13	and	O	O	O	_	_	
+10-14	what	B-NPart	B-webanno.custom.Participants_	O	_	_	
+10-15	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+10-16	will	O	O	O	_	_	
+10-17	do	O	O	B-UnrelEv	_	_	
+10-18	tomorrow	O	O	O	_	_	
+10-19	.	O	O	O	_	_	
+
+#id=11
+#text=After about 15 or 20 minutes , I decide to get out of the tub .
+11-1	After	O	O	O	_	_	
+11-2	about	O	O	O	_	_	
+11-3	15	O	O	O	_	_	
+11-4	or	O	O	O	_	_	
+11-5	20	O	O	O	_	_	
+11-6	minutes	B-NPart	B-webanno.custom.Participants_	O	_	_	
+11-7	,	O	O	O	_	_	
+11-8	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+11-9	decide	O	O	B-UnrelEv	_	_	
+11-10	to	O	O	O	_	_	
+11-11	get	O	O	B-ScrEv_get_out_bath	_	_	
+11-12	out	O	O	I-ScrEv_get_out_bath	_	_	
+11-13	of	O	O	O	_	_	
+11-14	the	O	O	O	_	_	
+11-15	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	_	_	
+11-16	.	O	O	O	_	_	
+
+#id=12
+#text=I drain the water and bubbles , and my bath is over . 
+12-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+12-2	drain	O	O	B-ScrEv_open_drain	_	_	
+12-3	the	O	O	O	_	_	
+12-4	water	B-ScrPart_water	B-webanno.custom.Participants_	O	_	_	
+12-5	and	O	O	O	_	_	
+12-6	bubbles	B-ScrPart_bath_means	B-webanno.custom.Participants_	O	_	_	
+12-7	,	O	O	O	_	_	
+12-8	and	O	O	O	_	_	
+12-9	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+12-10	bath	B-ScrPart_bath	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	4-4	
+12-11	is	O	O	B-UnrelEv	_	_	
+12-12	over	O	O	O	_	_	
+12-13	.	O	O	O	_	_	
+

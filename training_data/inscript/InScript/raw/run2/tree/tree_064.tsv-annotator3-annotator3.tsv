@@ -1,0 +1,228 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I decided my backyard needed another tree .
+1-1	I	B-ScrPart_gardener	O	_	_	
+1-2	decided	O	B-UnrelEv	_	_	
+1-3	my	B-ScrPart_gardener	O	_	_	
+1-4	backyard	B-ScrPart_location_garden	O	_	_	
+1-5	needed	O	B-Evoking	_	_	
+1-6	another	O	I-Evoking	_	_	
+1-7	tree	B-ScrPart_tree	I-Evoking	_	_	
+1-8	.	O	O	_	_	
+
+#id=2
+#text=So I went to the tree nursery and picked out a tree that I liked .
+2-1	So	O	O	_	_	
+2-2	I	B-ScrPart_gardener	O	_	_	
+2-3	went	O	B-ScrEv_get_tree	_	_	
+2-4	to	O	O	_	_	
+2-5	the	O	O	_	_	
+2-6	tree	B-ScrPart_shop	O	_	_	
+2-7	nursery	I-ScrPart_shop|B-ScrPart_shop	O	_	_	
+2-8	and	O	O	_	_	
+2-9	picked	O	B-ScrEv_choose_tree	_	_	
+2-10	out	O	O	_	_	
+2-11	a	O	O	_	_	
+2-12	tree	B-ScrPart_tree	O	_	_	
+2-13	that	O	O	_	_	
+2-14	I	B-ScrPart_gardener	O	_	_	
+2-15	liked	O	B-UnrelEv	_	_	
+2-16	.	O	O	_	_	
+
+#id=3
+#text=I rented a pickup truck to bring the tree home .
+3-1	I	B-ScrPart_gardener	O	_	_	
+3-2	rented	O	B-UnrelEv	_	_	
+3-3	a	O	O	_	_	
+3-4	pickup	B-ScrPart_other	O	_	_	
+3-5	truck	I-ScrPart_other|B-ScrPart_other	O	_	_	
+3-6	to	O	O	_	_	
+3-7	bring	O	B-RelNScrEv	_	_	
+3-8	the	O	O	_	_	
+3-9	tree	B-ScrPart_tree	O	_	_	
+3-10	home	B-NPart	O	_	_	
+3-11	.	O	O	_	_	
+
+#id=4
+#text=I loaded the tree into the truck and drove it to my house .
+4-1	I	B-ScrPart_gardener	O	_	_	
+4-2	loaded	O	B-RelNScrEv	_	_	
+4-3	the	O	O	_	_	
+4-4	tree	B-ScrPart_tree	O	_	_	
+4-5	into	O	O	_	_	
+4-6	the	O	O	_	_	
+4-7	truck	B-ScrPart_other	O	webanno.custom.Corefchains_	3-5	
+4-8	and	O	O	_	_	
+4-9	drove	O	B-UnrelEv	_	_	
+4-10	it	B-ScrPart_tree	O	_	_	
+4-11	to	O	O	_	_	
+4-12	my	B-ScrPart_gardener	O	_	_	
+4-13	house	B-NPart	O	_	_	
+4-14	.	O	O	_	_	
+
+#id=5
+#text=I grabbed a shovel from my garage , and I dug a hole in my backyard where I wanted the tree to go .
+5-1	I	B-ScrPart_gardener	O	_	_	
+5-2	grabbed	O	B-ScrEv_get_tools	_	_	
+5-3	a	O	O	_	_	
+5-4	shovel	B-ScrPart_gardening_tool	O	_	_	
+5-5	from	O	O	_	_	
+5-6	my	B-ScrPart_gardener	O	_	_	
+5-7	garage	B-NPart	O	_	_	
+5-8	,	O	O	_	_	
+5-9	and	O	O	_	_	
+5-10	I	B-ScrPart_gardener	O	_	_	
+5-11	dug	O	B-ScrEv_dug_hole	_	_	
+5-12	a	O	O	_	_	
+5-13	hole	B-ScrPart_hole	O	_	_	
+5-14	in	O	O	_	_	
+5-15	my	B-ScrPart_gardener	O	_	_	
+5-16	backyard	B-ScrPart_location_garden	O	_	_	
+5-17	where	O	O	_	_	
+5-18	I	B-ScrPart_gardener	O	_	_	
+5-19	wanted	O	B-UnrelEv	_	_	
+5-20	the	O	O	_	_	
+5-21	tree	B-ScrPart_tree	O	_	_	
+5-22	to	O	O	_	_	
+5-23	go	O	B-UnrelEv	_	_	
+5-24	.	O	O	_	_	
+
+#id=6
+#text=I poured some special tree fertilizer into the hole that I had bought from the tree nursery .
+6-1	I	B-ScrPart_gardener	O	_	_	
+6-2	poured	O	B-ScrEv_place_fertilizers	_	_	
+6-3	some	O	O	_	_	
+6-4	special	O	O	_	_	
+6-5	tree	B-ScrPart_fertilizer	O	_	_	
+6-6	fertilizer	I-ScrPart_fertilizer|B-ScrPart_fertilizer	O	_	_	
+6-7	into	O	O	_	_	
+6-8	the	O	O	_	_	
+6-9	hole	B-ScrPart_hole	O	_	_	
+6-10	that	O	O	_	_	
+6-11	I	B-ScrPart_gardener	O	_	_	
+6-12	had	O	O	_	_	
+6-13	bought	O	B-RelNScrEv	_	_	
+6-14	from	O	O	_	_	
+6-15	the	O	O	_	_	
+6-16	tree	B-ScrPart_shop	O	_	_	
+6-17	nursery	I-ScrPart_shop|B-ScrPart_shop	O	_	_	
+6-18	.	O	O	_	_	
+
+#id=7
+#text=I then asked a friend to help me , because the tree was very big and heavy .
+7-1	I	B-ScrPart_gardener	O	_	_	
+7-2	then	O	O	_	_	
+7-3	asked	O	B-RelNScrEv	_	_	
+7-4	a	O	O	_	_	
+7-5	friend	B-ScrPart_gardener	O	_	_	
+7-6	to	O	O	_	_	
+7-7	help	O	B-RelNScrEv	_	_	
+7-8	me	B-ScrPart_gardener	O	_	_	
+7-9	,	O	O	_	_	
+7-10	because	O	O	_	_	
+7-11	the	O	O	_	_	
+7-12	tree	B-ScrPart_tree	O	_	_	
+7-13	was	O	B-UnrelEv	_	_	
+7-14	very	O	O	_	_	
+7-15	big	O	O	_	_	
+7-16	and	O	O	_	_	
+7-17	heavy	O	O	_	_	
+7-18	.	O	O	_	_	
+
+#id=8
+#text=Together we placed the tree in the hole .
+8-1	Together	O	O	_	_	
+8-2	we	B-ScrPart_gardener	O	_	_	
+8-3	placed	O	B-ScrEv_place_root	_	_	
+8-4	the	O	O	_	_	
+8-5	tree	B-ScrPart_tree	O	_	_	
+8-6	in	O	O	_	_	
+8-7	the	O	O	_	_	
+8-8	hole	B-ScrPart_hole	O	_	_	
+8-9	.	O	O	_	_	
+
+#id=9
+#text=I then started to fill up the dirt around the tree .
+9-1	I	B-ScrPart_gardener	O	_	_	
+9-2	then	O	O	_	_	
+9-3	started	O	B-UnrelEv	_	_	
+9-4	to	O	O	_	_	
+9-5	fill	O	B-ScrEv_refill_hole|B-ScrEv_refill_hole	_	_	
+9-6	up	O	I-ScrEv_refill_hole	_	_	
+9-7	the	O	O	_	_	
+9-8	dirt	B-ScrPart_dirt	O	_	_	
+9-9	around	O	O	_	_	
+9-10	the	O	O	_	_	
+9-11	tree	B-ScrPart_tree	O	_	_	
+9-12	.	O	O	_	_	
+
+#id=10
+#text=Halfway through filling it , I took a garden hose and poured water down the hole .
+10-1	Halfway	B-No_label	O	_	_	
+10-2	through	O	O	_	_	
+10-3	filling	O	B-ScrEv_refill_hole	_	_	
+10-4	it	B-ScrPart_dirt	O	_	_	
+10-5	,	O	O	_	_	
+10-6	I	B-ScrPart_gardener	O	_	_	
+10-7	took	O	B-RelNScrEv	_	_	
+10-8	a	O	O	_	_	
+10-9	garden	B-ScrPart_gardening_tool	O	_	_	
+10-10	hose	I-ScrPart_gardening_tool|B-ScrPart_gardening_tool	O	_	_	
+10-11	and	O	O	_	_	
+10-12	poured	O	B-ScrEv_water	_	_	
+10-13	water	B-ScrPart_water	O	_	_	
+10-14	down	O	O	_	_	
+10-15	the	O	O	_	_	
+10-16	hole	B-ScrPart_hole	O	_	_	
+10-17	.	O	O	_	_	
+
+#id=11
+#text=When the water settled , I finished filling in the dirt .
+11-1	When	O	O	_	_	
+11-2	the	O	O	_	_	
+11-3	water	B-ScrPart_water	O	_	_	
+11-4	settled	O	B-RelNScrEv	_	_	
+11-5	,	O	O	_	_	
+11-6	I	B-ScrPart_gardener	O	_	_	
+11-7	finished	O	B-UnrelEv	_	_	
+11-8	filling	O	B-ScrEv_refill_hole|B-ScrEv_refill_hole	_	_	
+11-9	in	O	I-ScrEv_refill_hole	_	_	
+11-10	the	O	O	_	_	
+11-11	dirt	B-ScrPart_dirt	O	_	_	
+11-12	.	O	O	_	_	
+
+#id=12
+#text=Over the dirt I placed a nice bed of mulch around the tree .
+12-1	Over	O	O	_	_	
+12-2	the	O	O	_	_	
+12-3	dirt	B-ScrPart_dirt	O	_	_	
+12-4	I	B-ScrPart_gardener	O	_	_	
+12-5	placed	O	B-ScrEv_other	_	_	
+12-6	a	O	O	_	_	
+12-7	nice	O	O	_	_	
+12-8	bed	B-NPart	O	_	_	
+12-9	of	O	O	_	_	
+12-10	mulch	B-ScrPart_other	O	_	_	
+12-11	around	O	O	_	_	
+12-12	the	O	O	_	_	
+12-13	tree	B-ScrPart_tree	O	_	_	
+12-14	.	O	O	_	_	
+
+#id=13
+#text=I watered the tree once more , then stepped back to admire my work . 
+13-1	I	B-ScrPart_gardener	O	_	_	
+13-2	watered	O	B-ScrEv_water	_	_	
+13-3	the	O	O	_	_	
+13-4	tree	B-ScrPart_tree	O	_	_	
+13-5	once	O	O	_	_	
+13-6	more	O	O	_	_	
+13-7	,	O	O	_	_	
+13-8	then	O	O	_	_	
+13-9	stepped	O	B-UnrelEv|B-UnrelEv	_	_	
+13-10	back	O	I-UnrelEv	_	_	
+13-11	to	O	O	_	_	
+13-12	admire	O	B-RelNScrEv	_	_	
+13-13	my	B-ScrPart_gardener	O	_	_	
+13-14	work	B-NPart	O	_	_	
+13-15	.	O	O	_	_	
+

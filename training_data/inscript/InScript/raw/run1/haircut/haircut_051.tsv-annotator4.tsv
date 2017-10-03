@@ -1,0 +1,211 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=My son in law cuts my hair .
+1-1	My	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-6	
+1-2	son	B-ScrPart_hairdresser|B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	2-1	
+1-3	in	I-ScrPart_hairdresser	O	_	_	
+1-4	law	I-ScrPart_hairdresser	O	_	_	
+1-5	cuts	O	B-Evoking	_	_	
+1-6	my	B-ScrPart_customer	I-Evoking	webanno.custom.Corefchains_	2-3	
+1-7	hair	B-ScrPart_hair	I-Evoking	webanno.custom.Corefchains_	10-5	
+1-8	.	O	O	_	_	
+
+#id=2
+#text=He texts me to come and get a haircut .
+2-1	He	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	8-4	
+2-2	texts	O	B-ScrEv_make_appointment	_	_	
+2-3	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-1	
+2-4	to	O	O	_	_	
+2-5	come	O	B-ScrEv_get_salon	_	_	
+2-6	and	O	O	_	_	
+2-7	get	O	B-Evoking	_	_	
+2-8	a	O	I-Evoking	_	_	
+2-9	haircut	B-SuppVComp	I-Evoking	_	_	
+2-10	.	O	O	_	_	
+
+#id=3
+#text=I go to the upscale salon and get the royal treatment .
+3-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-4	
+3-2	go	O	B-ScrEv_get_salon	_	_	
+3-3	to	O	O	_	_	
+3-4	the	O	O	_	_	
+3-5	upscale	O	O	_	_	
+3-6	salon	B-ScrPart_salon	O	webanno.custom.Corefchains_	6-14	
+3-7	and	O	O	_	_	
+3-8	get	O	B-???	_	_	
+3-9	the	O	O	_	_	
+3-10	royal	O	O	_	_	
+3-11	treatment	B-???	O	_	_	
+3-12	.	O	O	_	_	
+
+#id=4
+#text=It starts with me remembering how to get there easily .
+4-1	It	O	O	_	_	
+4-2	starts	O	B-UnrelEv	_	_	
+4-3	with	O	O	_	_	
+4-4	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-1	
+4-5	remembering	O	B-UnrelEv	_	_	
+4-6	how	O	O	_	_	
+4-7	to	O	O	_	_	
+4-8	get	O	B-ScrEv_get_salon	_	_	
+4-9	there	O	O	_	_	
+4-10	easily	O	O	_	_	
+4-11	.	O	O	_	_	
+
+#id=5
+#text=It is downtown and they are all one way streets and canyons .
+5-1	It	O	O	_	_	
+5-2	is	O	B-UnrelEv	_	_	
+5-3	downtown	O	O	_	_	
+5-4	and	O	O	_	_	
+5-5	they	O	O	_	_	
+5-6	are	O	B-UnrelEv	_	_	
+5-7	all	O	O	_	_	
+5-8	one	O	O	_	_	
+5-9	way	O	O	_	_	
+5-10	streets	O	O	_	_	
+5-11	and	O	O	_	_	
+5-12	canyons	O	O	_	_	
+5-13	.	O	O	_	_	
+
+#id=6
+#text=I find my lucky parking spot and go around the corner into the salon and am greeted .
+6-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-3	
+6-2	find	O	B-ScrEv_get_salon	_	_	
+6-3	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-1	
+6-4	lucky	O	O	_	_	
+6-5	parking	B-NPart	O	_	_	
+6-6	spot	I-NPart|B-NPart	O	_	_	
+6-7	and	O	O	_	_	
+6-8	go	O	B-ScrEv_enter	_	_	
+6-9	around	O	O	_	_	
+6-10	the	O	O	_	_	
+6-11	corner	B-NPart	O	_	_	
+6-12	into	O	O	_	_	
+6-13	the	O	O	_	_	
+6-14	salon	B-ScrPart_salon	O	webanno.custom.Corefchains_	7-4	
+6-15	and	O	O	_	_	
+6-16	am	O	O	_	_	
+6-17	greeted	O	B-ScrEv_small_talk	_	_	
+6-18	.	O	O	_	_	
+
+#id=7
+#text=I noticed that they remodeled .
+7-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-1	
+7-2	noticed	O	B-UnrelEv	_	_	
+7-3	that	O	O	_	_	
+7-4	they	B-ScrPart_salon	O	_	_	
+7-5	remodeled	O	B-UnrelEv	_	_	
+7-6	.	O	O	_	_	
+
+#id=8
+#text=I see my son in - law and says '' `` go get a smock '' '' .
+8-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-3	
+8-2	see	O	B-UnrelEv	_	_	
+8-3	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-1	
+8-4	son	B-ScrPart_hairdresser|B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	11-1	
+8-5	in	I-ScrPart_hairdresser	O	_	_	
+8-6	-	I-ScrPart_hairdresser	O	_	_	
+8-7	law	I-ScrPart_hairdresser	O	_	_	
+8-8	and	O	O	_	_	
+8-9	says	O	B-ScrEv_small_talk	_	_	
+8-10	''	O	O	_	_	
+8-11	``	O	O	_	_	
+8-12	go	O	B-UnrelEv	_	_	
+8-13	get	O	B-ScrEv_put_on_cape	_	_	
+8-14	a	O	O	_	_	
+8-15	smock	B-ScrPart_cape	O	webanno.custom.Corefchains_	9-12	
+8-16	''	O	O	_	_	
+8-17	''	O	O	_	_	
+8-18	.	O	O	_	_	
+
+#id=9
+#text=I went into the little room , picked out a black smock and put on and sit down .
+9-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	10-1	
+9-2	went	O	B-RelNScrEv	_	_	
+9-3	into	O	O	_	_	
+9-4	the	O	O	_	_	
+9-5	little	O	O	_	_	
+9-6	room	B-ScrPart_location_salon	O	_	_	
+9-7	,	O	O	_	_	
+9-8	picked	O	B-ScrEv_put_on_cape	_	_	
+9-9	out	O	I-ScrEv_put_on_cape	_	_	
+9-10	a	O	O	_	_	
+9-11	black	O	O	_	_	
+9-12	smock	B-ScrPart_cape	O	_	_	
+9-13	and	O	O	_	_	
+9-14	put	O	B-ScrEv_put_on_cape	_	_	
+9-15	on	O	I-ScrEv_put_on_cape	_	_	
+9-16	and	O	O	_	_	
+9-17	sit	O	B-ScrEv_sit_down	_	_	
+9-18	down	O	I-ScrEv_sit_down	_	_	
+9-19	.	O	O	_	_	
+
+#id=10
+#text=I come with my hair wet .
+10-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	10-4	
+10-2	come	O	B-ScrEv_get_salon	_	_	
+10-3	with	O	O	_	_	
+10-4	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	11-6	
+10-5	hair	B-ScrPart_hair	O	webanno.custom.Corefchains_	11-4	
+10-6	wet	O	O	_	_	
+10-7	.	O	O	_	_	
+
+#id=11
+#text=He colors the hair , I sit under the dryer .
+11-1	He	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_|coref_group_I_hairdresser	12-13|12-1	
+11-2	colors	O	B-MissScrEv	_	_	
+11-3	the	O	O	_	_	
+11-4	hair	B-ScrPart_hair	O	webanno.custom.Corefchains_	12-4	
+11-5	,	O	O	_	_	
+11-6	I	B-ScrPart_customer	O	webanno.custom.Corefchains_|coref_group_I_hairdresser	12-6|12-1	
+11-7	sit	O	B-ScrEv_dry	_	_	
+11-8	under	O	O	_	_	
+11-9	the	O	O	_	_	
+11-10	dryer	B-ScrPart_hairdryer	O	_	_	
+11-11	.	O	O	_	_	
+
+#id=12
+#text=We wash the hair , I get back in the chair and he cuts it .
+12-1	We	B-???	O	_	_	
+12-2	wash	O	B-ScrEv_wash	_	_	
+12-3	the	O	O	_	_	
+12-4	hair	B-ScrPart_hair	O	webanno.custom.Corefchains_	12-15	
+12-5	,	O	O	_	_	
+12-6	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	14-1	
+12-7	get	O	B-ScrEv_sit_down	_	_	
+12-8	back	O	I-ScrEv_sit_down	_	_	
+12-9	in	O	O	_	_	
+12-10	the	O	O	_	_	
+12-11	chair	B-ScrPart_chair	O	_	_	
+12-12	and	O	O	_	_	
+12-13	he	B-ScrPart_hairdresser	O	_	_	
+12-14	cuts	O	B-ScrEv_cut	_	_	
+12-15	it	B-ScrPart_hair	O	_	_	
+12-16	.	O	O	_	_	
+
+#id=13
+#text=The whole thing takes a couple of hours .
+13-1	The	O	O	_	_	
+13-2	whole	O	O	_	_	
+13-3	thing	B-NPart	O	_	_	
+13-4	takes	O	B-RelNScrEv	_	_	
+13-5	a	O	O	_	_	
+13-6	couple	O	O	_	_	
+13-7	of	O	O	_	_	
+13-8	hours	B-ScrPart_time/date	O	_	_	
+13-9	.	O	O	_	_	
+
+#id=14
+#text=I always feel so beautiful on the way home . 
+14-1	I	B-ScrPart_customer	O	_	_	
+14-2	always	O	O	_	_	
+14-3	feel	O	B-ScrEv_customer_opinion	_	_	
+14-4	so	O	O	_	_	
+14-5	beautiful	O	O	_	_	
+14-6	on	O	O	_	_	
+14-7	the	O	O	_	_	
+14-8	way	O	O	_	_	
+14-9	home	O	O	_	_	
+14-10	.	O	O	_	_	
+

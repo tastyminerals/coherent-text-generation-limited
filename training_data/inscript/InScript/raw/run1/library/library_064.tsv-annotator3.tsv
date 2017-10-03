@@ -1,0 +1,229 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I was talking to my friend the other day and she told me about a book that she thought was very interesting .
+1-1	I	B-ScrPart_customer	O	_	_	
+1-2	was	O	O	_	_	
+1-3	talking	O	B-UnrelEv	_	_	
+1-4	to	O	O	_	_	
+1-5	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-1	
+1-6	friend	O	O	_	_	
+1-7	the	O	O	_	_	
+1-8	other	O	O	_	_	
+1-9	day	O	O	_	_	
+1-10	and	O	O	_	_	
+1-11	she	O	O	_	_	
+1-12	told	O	B-UnrelEv	_	_	
+1-13	me	O	O	_	_	
+1-14	about	O	O	_	_	
+1-15	a	O	O	_	_	
+1-16	book	B-ScrPart_book	O	_	_	
+1-17	that	O	O	_	_	
+1-18	she	O	O	_	_	
+1-19	thought	O	B-UnrelEv	_	_	
+1-20	was	O	B-UnrelEv	_	_	
+1-21	very	O	O	_	_	
+1-22	interesting	O	O	_	_	
+1-23	.	O	O	_	_	
+
+#id=2
+#text=I decided I could borrow the book from the library .
+2-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-5	
+2-2	decided	O	B-UnrelEv	_	_	
+2-3	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-1	
+2-4	could	O	O	_	_	
+2-5	borrow	O	B-Evoking	_	_	
+2-6	the	O	I-Evoking	_	_	
+2-7	book	B-ScrPart_book	I-Evoking	webanno.custom.Corefchains_	1-16	
+2-8	from	O	I-Evoking	_	_	
+2-9	the	O	I-Evoking	_	_	
+2-10	library	B-ScrPart_library	I-Evoking	_	_	
+2-11	.	O	O	_	_	
+
+#id=3
+#text=I went to my local library and had to sign up as a member because I previously was not a member .
+3-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-3	
+3-2	went	O	B-ScrEv_get_library	_	_	
+3-3	to	O	O	_	_	
+3-4	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-1	
+3-5	local	O	O	_	_	
+3-6	library	B-ScrPart_library	O	webanno.custom.Corefchains_	2-10	
+3-7	and	O	O	_	_	
+3-8	had	O	O	_	_	
+3-9	to	O	O	_	_	
+3-10	sign	O	B-RelNScrEv|B-RelNScrEv	_	_	
+3-11	up	O	I-RelNScrEv	_	_	
+3-12	as	O	O	_	_	
+3-13	a	O	O	_	_	
+3-14	member	B-ScrPart_customer	O	_	_	
+3-15	because	O	O	_	_	
+3-16	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-4	
+3-17	previously	O	O	_	_	
+3-18	was	O	B-UnrelEv	_	_	
+3-19	not	O	O	_	_	
+3-20	a	O	O	_	_	
+3-21	member	B-ScrPart_customer	O	_	_	
+3-22	.	O	O	_	_	
+
+#id=4
+#text=After signing up for a membership , I now had two options ; I could ask the librarian for help , or I could use the self service computers and find the location of my book on my own .
+4-1	After	O	O	_	_	
+4-2	signing	O	B-RelNScrEv|B-RelNScrEv	_	_	
+4-3	up	O	I-RelNScrEv	_	_	
+4-4	for	O	O	_	_	
+4-5	a	O	O	_	_	
+4-6	membership	B-MissScrPart	O	_	_	
+4-7	,	O	O	_	_	
+4-8	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-16	
+4-9	now	O	O	_	_	
+4-10	had	O	B-UnrelEv	_	_	
+4-11	two	O	O	_	_	
+4-12	options	O	O	_	_	
+4-13	;	O	O	_	_	
+4-14	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-8	
+4-15	could	O	O	_	_	
+4-16	ask	O	B-RelNScrEv	_	_	
+4-17	the	O	O	_	_	
+4-18	librarian	B-ScrPart_staff	O	_	_	
+4-19	for	O	O	_	_	
+4-20	help	O	O	_	_	
+4-21	,	O	O	_	_	
+4-22	or	O	O	_	_	
+4-23	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-14	
+4-24	could	O	O	_	_	
+4-25	use	O	B-RelNScrEv	_	_	
+4-26	the	O	O	_	_	
+4-27	self	O	O	_	_	
+4-28	service	O	O	_	_	
+4-29	computers	B-ScrPart_institutional_devices	O	_	_	
+4-30	and	O	O	_	_	
+4-31	find	O	B-RelNScrEv	_	_	
+4-32	the	O	O	_	_	
+4-33	location	B-ScrPart_location_library	O	_	_	
+4-34	of	O	O	_	_	
+4-35	my	O	O	_	_	
+4-36	book	B-ScrPart_book	O	webanno.custom.Corefchains_	2-7	
+4-37	on	O	O	_	_	
+4-38	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-23	
+4-39	own	O	O	_	_	
+4-40	.	O	O	_	_	
+
+#id=5
+#text=I chose to find the book on my own , because if I can avoid dealing with people I will always pick that option .
+5-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-38	
+5-2	chose	O	B-UnrelEv	_	_	
+5-3	to	O	O	_	_	
+5-4	find	O	B-UnrelEv	_	_	
+5-5	the	O	O	_	_	
+5-6	book	B-ScrPart_book	O	webanno.custom.Corefchains_	4-36	
+5-7	on	O	O	_	_	
+5-8	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-1	
+5-9	own	O	O	_	_	
+5-10	,	O	O	_	_	
+5-11	because	O	O	_	_	
+5-12	if	O	O	_	_	
+5-13	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-8	
+5-14	can	O	O	_	_	
+5-15	avoid	O	B-UnrelEv	_	_	
+5-16	dealing	O	B-UnrelEv	_	_	
+5-17	with	O	O	_	_	
+5-18	people	O	O	_	_	
+5-19	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-13	
+5-20	will	O	O	_	_	
+5-21	always	O	O	_	_	
+5-22	pick	O	B-UnrelEv	_	_	
+5-23	that	O	O	_	_	
+5-24	option	O	O	_	_	
+5-25	.	O	O	_	_	
+
+#id=6
+#text=So I go on the computer and type the name of the book in .
+6-1	So	O	O	_	_	
+6-2	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-19	
+6-3	go	O	B-ScrEv_use_computer	_	_	
+6-4	on	O	O	_	_	
+6-5	the	O	O	_	_	
+6-6	computer	B-ScrPart_institutional_devices	O	webanno.custom.Corefchains_	4-29	
+6-7	and	O	O	_	_	
+6-8	type	O	B-ScrEv_use_computer	_	_	
+6-9	the	O	O	_	_	
+6-10	name	O	O	_	_	
+6-11	of	O	O	_	_	
+6-12	the	O	O	_	_	
+6-13	book	B-ScrPart_book	O	webanno.custom.Corefchains_	5-6	
+6-14	in	O	O	_	_	
+6-15	.	O	O	_	_	
+
+#id=7
+#text=It tells me the location the book should be in .
+7-1	It	B-ScrPart_institutional_devices	O	webanno.custom.Corefchains_	6-6	
+7-2	tells	O	B-UnrelEv	_	_	
+7-3	me	O	O	_	_	
+7-4	the	O	O	_	_	
+7-5	location	B-ScrPart_location_library	O	webanno.custom.Corefchains_	4-33	
+7-6	the	O	O	_	_	
+7-7	book	B-ScrPart_book	O	webanno.custom.Corefchains_	6-13	
+7-8	should	O	O	_	_	
+7-9	be	O	B-UnrelEv	_	_	
+7-10	in	O	O	_	_	
+7-11	.	O	O	_	_	
+
+#id=8
+#text=Now I go to the location .
+8-1	Now	O	O	_	_	
+8-2	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-2	
+8-3	go	O	B-ScrEv_get_shelf	_	_	
+8-4	to	O	O	_	_	
+8-5	the	O	O	_	_	
+8-6	location	B-ScrPart_location_library	O	webanno.custom.Corefchains_	7-5	
+8-7	.	O	O	_	_	
+
+#id=9
+#text=I find the book right where it 's supposed to be .
+9-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-2	
+9-2	find	O	B-MissScrEv	_	_	
+9-3	the	O	O	_	_	
+9-4	book	B-ScrPart_book	O	webanno.custom.Corefchains_	7-7	
+9-5	right	O	O	_	_	
+9-6	where	O	O	_	_	
+9-7	it	B-ScrPart_book	O	webanno.custom.Corefchains_	9-4	
+9-8	's	O	B-UnrelEv|B-UnrelEv	_	_	
+9-9	supposed	O	I-UnrelEv	_	_	
+9-10	to	O	O	_	_	
+9-11	be	O	O	_	_	
+9-12	.	O	O	_	_	
+
+#id=10
+#text=Last , I check the book out at the front desk .
+10-1	Last	O	O	_	_	
+10-2	,	O	O	_	_	
+10-3	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-1	
+10-4	check	O	B-ScrEv_register	_	_	
+10-5	the	O	O	_	_	
+10-6	book	B-ScrPart_book	O	webanno.custom.Corefchains_	9-7	
+10-7	out	O	O	_	_	
+10-8	at	O	O	_	_	
+10-9	the	O	O	_	_	
+10-10	front	B-ScrPart_check-out_desk	O	_	_	
+10-11	desk	I-ScrPart_check-out_desk|B-ScrPart_check-out_desk	O	_	_	
+10-12	.	O	O	_	_	
+
+#id=11
+#text=I will have to return it in 1 week or I will be charged a fee . 
+11-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	10-3	
+11-2	will	O	O	_	_	
+11-3	have	O	O	_	_	
+11-4	to	O	O	_	_	
+11-5	return	O	B-RelNScrEv	_	_	
+11-6	it	B-ScrPart_book	O	webanno.custom.Corefchains_	10-6	
+11-7	in	O	O	_	_	
+11-8	1	O	O	_	_	
+11-9	week	B-ScrPart_return_date	O	_	_	
+11-10	or	O	O	_	_	
+11-11	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	11-1	
+11-12	will	O	O	_	_	
+11-13	be	O	O	_	_	
+11-14	charged	O	B-RelNScrEv	_	_	
+11-15	a	O	O	_	_	
+11-16	fee	B-NPart	O	_	_	
+11-17	.	O	O	_	_	
+

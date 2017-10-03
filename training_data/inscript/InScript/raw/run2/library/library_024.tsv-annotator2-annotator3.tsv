@@ -1,0 +1,207 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=I went to the library to borrow a book I needed for a research paper .
+1-1	I	B-ScrPart_customer	O	
+1-2	went	O	B-ScrEv_get_library	
+1-3	to	O	O	
+1-4	the	O	O	
+1-5	library	B-ScrPart_library	O	
+1-6	to	O	O	
+1-7	borrow	O	B-Evoking	
+1-8	a	O	I-Evoking	
+1-9	book	B-ScrPart_book	I-Evoking	
+1-10	I	B-ScrPart_customer	O	
+1-11	needed	O	B-UnrelEv	
+1-12	for	O	O	
+1-13	a	O	O	
+1-14	research	B-NPart	O	
+1-15	paper	I-NPart	O	
+1-16	.	O	O	
+
+#id=2
+#text=I went inside the library and went to the section that contained the type of books I needed to do my research on .
+2-1	I	B-ScrPart_customer	O	
+2-2	went	O	B-RelNScrEv	
+2-3	inside	O	O	
+2-4	the	O	O	
+2-5	library	B-ScrPart_library	O	
+2-6	and	O	O	
+2-7	went	O	B-ScrEv_get_shelf	
+2-8	to	O	O	
+2-9	the	O	O	
+2-10	section	B-ScrPart_location_library	O	
+2-11	that	O	O	
+2-12	contained	O	B-UnrelEv	
+2-13	the	O	O	
+2-14	type	B-NPart	O	
+2-15	of	O	O	
+2-16	books	B-ScrPart_book	O	
+2-17	I	B-ScrPart_customer	O	
+2-18	needed	O	B-UnrelEv	
+2-19	to	O	O	
+2-20	do	O	B-UnrelEv	
+2-21	my	B-ScrPart_customer	O	
+2-22	research	B-NPart	O	
+2-23	on	O	O	
+2-24	.	O	O	
+
+#id=3
+#text=After finding the right section , I looked through the selections of books they had .
+3-1	After	O	O	
+3-2	finding	O	B-RelNScrEv	
+3-3	the	O	O	
+3-4	right	O	O	
+3-5	section	B-ScrPart_location_library	O	
+3-6	,	O	O	
+3-7	I	B-ScrPart_customer	O	
+3-8	looked	O	B-ScrEv_look_for_book	
+3-9	through	O	O	
+3-10	the	O	O	
+3-11	selections	B-NPart	O	
+3-12	of	O	O	
+3-13	books	B-ScrPart_book	O	
+3-14	they	B-ScrPart_staff	O	
+3-15	had	O	B-UnrelEv	
+3-16	.	O	O	
+
+#id=4
+#text=I quicly looked through a few of the books to see what type of information they had .
+4-1	I	B-ScrPart_customer	O	
+4-2	quicly	O	O	
+4-3	looked	O	B-RelNScrEv	
+4-4	through	O	O	
+4-5	a	O	O	
+4-6	few	O	O	
+4-7	of	O	O	
+4-8	the	O	O	
+4-9	books	B-ScrPart_book	O	
+4-10	to	O	O	
+4-11	see	O	B-RelNScrEv	
+4-12	what	O	O	
+4-13	type	B-NPart	O	
+4-14	of	O	O	
+4-15	information	B-NPart	O	
+4-16	they	B-ScrPart_book	O	
+4-17	had	O	B-UnrelEv	
+4-18	.	O	O	
+
+#id=5
+#text=After finding the book I wanted to borrow I took it to the counter so I could check it out and borrow it for a few days .
+5-1	After	O	O	
+5-2	finding	O	B-ScrEv_take_book	
+5-3	the	O	O	
+5-4	book	B-ScrPart_book	O	
+5-5	I	B-ScrPart_customer	O	
+5-6	wanted	O	O	
+5-7	to	O	O	
+5-8	borrow	O	B-Evoking	
+5-9	I	B-ScrPart_customer	O	
+5-10	took	O	B-ScrEv_go_check_out	
+5-11	it	B-ScrPart_book	O	
+5-12	to	O	O	
+5-13	the	O	O	
+5-14	counter	B-ScrPart_check-out_desk	O	
+5-15	so	O	O	
+5-16	I	B-ScrPart_customer	O	
+5-17	could	O	O	
+5-18	check	O	B-ScrEv_register	
+5-19	it	B-ScrPart_book	O	
+5-20	out	O	O	
+5-21	and	O	O	
+5-22	borrow	O	B-Evoking	
+5-23	it	B-ScrPart_book	I-Evoking	
+5-24	for	O	O	
+5-25	a	O	O	
+5-26	few	O	O	
+5-27	days	B-NPart	O	
+5-28	.	O	O	
+
+#id=6
+#text=At the counter , the librarian asked for my library card .
+6-1	At	O	O	
+6-2	the	O	O	
+6-3	counter	B-ScrPart_check-out_desk	O	
+6-4	,	O	O	
+6-5	the	O	O	
+6-6	librarian	B-ScrPart_staff	O	
+6-7	asked	O	B-RelNScrEv	
+6-8	for	O	O	
+6-9	my	B-ScrPart_customer	O	
+6-10	library	B-ScrPart_library_card	O	
+6-11	card	I-ScrPart_library_card|B-ScrPart_library_card	O	
+6-12	.	O	O	
+
+#id=7
+#text=I took the library card out of my wallet and gave it to her .
+7-1	I	B-ScrPart_customer	O	
+7-2	took	O	B-RelNScrEv	
+7-3	the	O	O	
+7-4	library	B-ScrPart_library_card	O	
+7-5	card	I-ScrPart_library_card|B-ScrPart_library_card	O	
+7-6	out	O	O	
+7-7	of	O	O	
+7-8	my	B-ScrPart_customer	O	
+7-9	wallet	B-NPart	O	
+7-10	and	O	O	
+7-11	gave	O	B-ScrEv_show_card	
+7-12	it	B-ScrPart_library_card	O	
+7-13	to	O	O	
+7-14	her	B-ScrPart_staff	O	
+7-15	.	O	O	
+
+#id=8
+#text=She collected my information and gave me the book and my library card .
+8-1	She	B-ScrPart_staff	O	
+8-2	collected	O	B-RelNScrEv	
+8-3	my	B-ScrPart_customer	O	
+8-4	information	B-NPart	O	
+8-5	and	O	O	
+8-6	gave	O	B-RelNScrEv	
+8-7	me	B-ScrPart_customer	O	
+8-8	the	O	O	
+8-9	book	B-ScrPart_book	O	
+8-10	and	O	O	
+8-11	my	B-ScrPart_customer	O	
+8-12	library	B-ScrPart_library_card	O	
+8-13	card	I-ScrPart_library_card|B-ScrPart_library_card	O	
+8-14	.	O	O	
+
+#id=9
+#text=I then exited the library and took the book home .
+9-1	I	B-ScrPart_customer	O	
+9-2	then	O	O	
+9-3	exited	O	B-ScrEv_leave	
+9-4	the	O	O	
+9-5	library	B-ScrPart_library	O	
+9-6	and	O	O	
+9-7	took	O	B-RelNScrEv	
+9-8	the	O	O	
+9-9	book	B-ScrPart_book	O	
+9-10	home	B-NPart	O	
+9-11	.	O	O	
+
+#id=10
+#text=I am glad I had the library card because the book was really useful for helping me do my research paper . 
+10-1	I	B-ScrPart_customer	O	
+10-2	am	O	O	
+10-3	glad	O	O	
+10-4	I	B-ScrPart_customer	O	
+10-5	had	O	B-UnrelEv	
+10-6	the	O	O	
+10-7	library	B-ScrPart_library_card	O	
+10-8	card	I-ScrPart_library_card|B-ScrPart_library_card	O	
+10-9	because	O	O	
+10-10	the	O	O	
+10-11	book	B-ScrPart_book	O	
+10-12	was	O	B-UnrelEv	
+10-13	really	O	O	
+10-14	useful	O	O	
+10-15	for	O	O	
+10-16	helping	O	B-UnrelEv	
+10-17	me	B-ScrPart_customer	O	
+10-18	do	O	B-UnrelEv	
+10-19	my	B-ScrPart_customer	O	
+10-20	research	B-NPart	O	
+10-21	paper	I-NPart|B-NPart	O	
+10-22	.	O	O	
+

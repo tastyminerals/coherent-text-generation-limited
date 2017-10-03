@@ -1,0 +1,203 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Last week , I was riding my bicycle on a dirt path through the forest .
+1-1	Last	O	O	_	_	
+1-2	week	B-NPart	O	_	_	
+1-3	,	O	O	_	_	
+1-4	I	B-ScrPart_rider	O	_	_	
+1-5	was	O	O	_	_	
+1-6	riding	O	B-ScrEv_ride_bike	_	_	
+1-7	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-4	
+1-8	bicycle	B-ScrPart_bicycle	O	_	_	
+1-9	on	O	O	_	_	
+1-10	a	O	O	_	_	
+1-11	dirt	O	O	_	_	
+1-12	path	B-NPart	O	_	_	
+1-13	through	O	O	_	_	
+1-14	the	O	O	_	_	
+1-15	forest	B-NPart	O	_	_	
+1-16	.	O	O	_	_	
+
+#id=2
+#text=The path had many rocks and branches on it and at some point during my ride , I hit a rock and put a hole in the tire .
+2-1	The	O	O	_	_	
+2-2	path	O	O	_	_	
+2-3	had	O	B-UnrelEv	_	_	
+2-4	many	O	O	_	_	
+2-5	rocks	O	O	_	_	
+2-6	and	O	O	_	_	
+2-7	branches	O	O	_	_	
+2-8	on	O	O	_	_	
+2-9	it	O	O	_	_	
+2-10	and	O	O	_	_	
+2-11	at	O	O	_	_	
+2-12	some	O	O	_	_	
+2-13	point	O	O	_	_	
+2-14	during	O	O	_	_	
+2-15	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-7	
+2-16	ride	O	O	_	_	
+2-17	,	O	O	_	_	
+2-18	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-15	
+2-19	hit	O	B-RelNScrEv	_	_	
+2-20	a	O	O	_	_	
+2-21	rock	B-ScrPart_object_damage	O	_	_	
+2-22	and	O	O	_	_	
+2-23	put	O	B-RelNScrEv	_	_	
+2-24	a	O	O	_	_	
+2-25	hole	B-MissScrPart	O	_	_	
+2-26	in	O	O	_	_	
+2-27	the	O	O	_	_	
+2-28	tire	B-ScrPart_tire	O	_	_	
+2-29	.	O	O	_	_	
+
+#id=3
+#text=I was forced to walk my bike back to my house and inspect the tires .
+3-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-18	
+3-2	was	O	O	_	_	
+3-3	forced	O	B-UnrelEv	_	_	
+3-4	to	O	O	_	_	
+3-5	walk	O	B-RelNScrEv	_	_	
+3-6	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	3-1	
+3-7	bike	B-ScrPart_bicycle	O	webanno.custom.Corefchains_	1-8	
+3-8	back	O	O	_	_	
+3-9	to	O	O	_	_	
+3-10	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	3-6	
+3-11	house	B-NPart	O	_	_	
+3-12	and	O	O	_	_	
+3-13	inspect	O	B-ScrEv_examine_tire	_	_	
+3-14	the	O	O	_	_	
+3-15	tires	B-ScrPart_tire	O	webanno.custom.Corefchains_	2-28	
+3-16	.	O	O	_	_	
+
+#id=4
+#text=It seemed to be a minor hole where the rock had pierced the tire that would require some minor patching .
+4-1	It	O	O	_	_	
+4-2	seemed	O	B-UnrelEv	_	_	
+4-3	to	O	O	_	_	
+4-4	be	O	B-UnrelEv	_	_	
+4-5	a	O	O	_	_	
+4-6	minor	O	O	_	_	
+4-7	hole	B-MissScrPart	O	webanno.custom.Corefchains_	2-25	
+4-8	where	O	O	_	_	
+4-9	the	O	O	_	_	
+4-10	rock	B-ScrPart_object_damage	O	webanno.custom.Corefchains_	2-21	
+4-11	had	O	O	_	_	
+4-12	pierced	O	B-RelNScrEv	_	_	
+4-13	the	O	O	_	_	
+4-14	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	3-15	
+4-15	that	O	O	_	_	
+4-16	would	O	O	_	_	
+4-17	require	O	B-UnrelEv	_	_	
+4-18	some	O	O	_	_	
+4-19	minor	O	O	_	_	
+4-20	patching	O	B-RelNScrEv	_	_	
+4-21	.	O	O	_	_	
+
+#id=5
+#text=I loaded the bicycle into the back of the car and drove it to our local bike shop where they applied some sort of fill to the hole and patched it up .
+5-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	3-10	
+5-2	loaded	O	B-MissScrEv	_	_	
+5-3	the	O	O	_	_	
+5-4	bicycle	B-ScrPart_bicycle	O	webanno.custom.Corefchains_	3-7	
+5-5	into	O	O	_	_	
+5-6	the	O	O	_	_	
+5-7	back	B-NPart	O	_	_	
+5-8	of	O	O	_	_	
+5-9	the	O	O	_	_	
+5-10	car	B-NPart	O	_	_	
+5-11	and	O	O	_	_	
+5-12	drove	O	B-MissScrEv	_	_	
+5-13	it	B-ScrPart_bicycle	O	webanno.custom.Corefchains_	5-4	
+5-14	to	O	O	_	_	
+5-15	our	O	O	_	_	
+5-16	local	O	O	_	_	
+5-17	bike	B-MissScrPart	O	_	_	
+5-18	shop	I-MissScrPart|B-MissScrPart	O	_	_	
+5-19	where	O	O	_	_	
+5-20	they	B-MissScrPart	O	_	_	
+5-21	applied	O	B-ScrEv_put_patch/seal	_	_	
+5-22	some	O	O	_	_	
+5-23	sort	O	O	_	_	
+5-24	of	O	O	_	_	
+5-25	fill	B-ScrPart_patch	O	_	_	
+5-26	to	O	O	_	_	
+5-27	the	O	O	_	_	
+5-28	hole	B-MissScrPart	O	webanno.custom.Corefchains_	4-7	
+5-29	and	O	O	_	_	
+5-30	patched	O	B-ScrEv_put_patch/seal	_	_	
+5-31	it	B-MissScrPart	O	webanno.custom.Corefchains_	5-28	
+5-32	up	O	O	_	_	
+5-33	.	O	O	_	_	
+
+#id=6
+#text=Once completed , my tires retained their air pressure and were good as new .
+6-1	Once	O	O	_	_	
+6-2	completed	O	B-UnrelEv	_	_	
+6-3	,	O	O	_	_	
+6-4	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	5-1	
+6-5	tires	B-ScrPart_tire	O	webanno.custom.Corefchains_	4-14	
+6-6	retained	O	B-UnrelEv	_	_	
+6-7	their	B-ScrPart_tire	O	_	_	
+6-8	air	B-ScrPart_pressure	O	_	_	
+6-9	pressure	I-ScrPart_pressure|B-ScrPart_pressure	O	_	_	
+6-10	and	O	O	_	_	
+6-11	were	O	B-UnrelEv	_	_	
+6-12	good	O	O	_	_	
+6-13	as	O	O	_	_	
+6-14	new	O	O	_	_	
+6-15	.	O	O	_	_	
+
+#id=7
+#text=I paid the man at the shop and took my bike home .
+7-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	6-4	
+7-2	paid	O	B-RelNScrEv	_	_	
+7-3	the	O	O	_	_	
+7-4	man	B-MissScrPart	O	_	_	
+7-5	at	O	O	_	_	
+7-6	the	O	O	_	_	
+7-7	shop	B-MissScrPart	O	webanno.custom.Corefchains_	5-18	
+7-8	and	O	O	_	_	
+7-9	took	O	B-RelNScrEv	_	_	
+7-10	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	7-1	
+7-11	bike	B-ScrPart_bicycle	O	webanno.custom.Corefchains_	5-13	
+7-12	home	O	O	_	_	
+7-13	.	O	O	_	_	
+
+#id=8
+#text=The next day , I took it back out for a ride and all was well !
+8-1	The	O	O	_	_	
+8-2	next	O	O	_	_	
+8-3	day	O	O	_	_	
+8-4	,	O	O	_	_	
+8-5	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	7-10	
+8-6	took	O	B-UnrelEv	_	_	
+8-7	it	B-ScrPart_bicycle	O	webanno.custom.Corefchains_	7-11	
+8-8	back	O	O	_	_	
+8-9	out	O	O	_	_	
+8-10	for	O	O	_	_	
+8-11	a	O	O	_	_	
+8-12	ride	O	O	_	_	
+8-13	and	O	O	_	_	
+8-14	all	O	O	_	_	
+8-15	was	O	B-UnrelEv	_	_	
+8-16	well	O	O	_	_	
+8-17	!	O	O	_	_	
+
+#id=9
+#text=The bike shop was far better equipped to fix my flat than I was . 
+9-1	The	O	O	_	_	
+9-2	bike	B-MissScrPart	O	_	_	
+9-3	shop	I-MissScrPart|B-MissScrPart	O	webanno.custom.Corefchains_	7-7	
+9-4	was	O	B-UnrelEv	_	_	
+9-5	far	O	O	_	_	
+9-6	better	O	O	_	_	
+9-7	equipped	O	B-RelNScrEv	_	_	
+9-8	to	O	O	_	_	
+9-9	fix	O	B-Evoking	_	_	
+9-10	my	B-ScrPart_rider	I-Evoking	webanno.custom.Corefchains_	8-5	
+9-11	flat	B-MissScrPart	I-Evoking	_	_	
+9-12	than	O	O	_	_	
+9-13	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	9-10	
+9-14	was	O	B-UnrelEv	_	_	
+9-15	.	O	O	_	_	
+

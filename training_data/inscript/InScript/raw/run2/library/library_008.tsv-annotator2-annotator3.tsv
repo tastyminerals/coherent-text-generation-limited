@@ -1,0 +1,262 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=I paid a visit to the library a couple of days ago .
+1-1	I	B-ScrPart_customer	O	
+1-2	paid	O	B-ScrEv_get_library	
+1-3	a	O	O	
+1-4	visit	B-SuppVComp	O	
+1-5	to	O	O	
+1-6	the	O	O	
+1-7	library	B-ScrPart_library	O	
+1-8	a	O	O	
+1-9	couple	B-NPart	O	
+1-10	of	O	O	
+1-11	days	B-NPart	O	
+1-12	ago	O	O	
+1-13	.	O	O	
+
+#id=2
+#text=After getting off work at 5pm , I walked over to a library branch a couple of blocks from my home .
+2-1	After	O	O	
+2-2	getting	O	B-UnrelEv	
+2-3	off	O	O	
+2-4	work	B-NPart	O	
+2-5	at	O	O	
+2-6	5pm	O	O	
+2-7	,	O	O	
+2-8	I	B-ScrPart_customer	O	
+2-9	walked	O	B-ScrEv_get_library	
+2-10	over	O	O	
+2-11	to	O	O	
+2-12	a	O	O	
+2-13	library	B-ScrPart_library	O	
+2-14	branch	I-ScrPart_library|B-ScrPart_library	O	
+2-15	a	O	O	
+2-16	couple	B-NPart	O	
+2-17	of	O	O	
+2-18	blocks	B-NPart	O	
+2-19	from	O	O	
+2-20	my	B-ScrPart_customer	O	
+2-21	home	B-NPart	O	
+2-22	.	O	O	
+
+#id=3
+#text=I was looking to borrow a novel that I 'd been meaning to read for some time .
+3-1	I	B-ScrPart_customer	O	
+3-2	was	O	O	
+3-3	looking	O	B-UnrelEv	
+3-4	to	O	O	
+3-5	borrow	O	B-Evoking	
+3-6	a	O	I-Evoking	
+3-7	novel	B-ScrPart_book	I-Evoking	
+3-8	that	O	O	
+3-9	I	B-ScrPart_customer	O	
+3-10	'd	O	O	
+3-11	been	O	O	
+3-12	meaning	O	B-UnrelEv	
+3-13	to	O	O	
+3-14	read	O	B-RelNScrEv	
+3-15	for	O	O	
+3-16	some	O	O	
+3-17	time	B-NPart	O	
+3-18	.	O	O	
+
+#id=4
+#text=I got there at around 6pm .
+4-1	I	B-ScrPart_customer	O	
+4-2	got	O	B-ScrEv_get_library	
+4-3	there	B-ScrPart_library	O	
+4-4	at	O	O	
+4-5	around	O	O	
+4-6	6pm	B-NPart	O	
+4-7	.	O	O	
+
+#id=5
+#text=I first logged onto one of the library computers to confirm that the book was still there .
+5-1	I	B-ScrPart_customer	O	
+5-2	first	O	O	
+5-3	logged	O	B-ScrEv_use_computer	
+5-4	onto	O	O	
+5-5	one	B-ScrPart_institutional_devices	O	
+5-6	of	O	O	
+5-7	the	O	O	
+5-8	library	B-ScrPart_institutional_devices	O	
+5-9	computers	I-ScrPart_institutional_devices|B-ScrPart_institutional_devices	O	
+5-10	to	O	O	
+5-11	confirm	O	B-ScrEv_check_catalog	
+5-12	that	O	O	
+5-13	the	O	O	
+5-14	book	B-ScrPart_book	O	
+5-15	was	O	B-UnrelEv	
+5-16	still	O	O	
+5-17	there	B-ScrPart_library	O	
+5-18	.	O	O	
+
+#id=6
+#text=After confirming this , I went upstairs to the fiction section , located on the second floor of the library .
+6-1	After	O	O	
+6-2	confirming	O	B-ScrEv_check_catalog	
+6-3	this	O	O	
+6-4	,	O	O	
+6-5	I	B-ScrPart_customer	O	
+6-6	went	O	B-RelNScrEv	
+6-7	upstairs	B-ScrPart_location_library	O	
+6-8	to	O	O	
+6-9	the	O	O	
+6-10	fiction	B-ScrPart_location_library	O	
+6-11	section	I-ScrPart_location_library|B-ScrPart_location_library	O	
+6-12	,	O	O	
+6-13	located	O	B-UnrelEv	
+6-14	on	O	O	
+6-15	the	O	O	
+6-16	second	O	O	
+6-17	floor	B-ScrPart_location_library	O	
+6-18	of	O	O	
+6-19	the	O	O	
+6-20	library	B-ScrPart_library	O	
+6-21	.	O	O	
+
+#id=7
+#text=Once I was in the fiction section .
+7-1	Once	O	O	
+7-2	I	B-ScrPart_customer	O	
+7-3	was	O	B-UnrelEv	
+7-4	in	O	O	
+7-5	the	O	O	
+7-6	fiction	B-ScrPart_location_library	O	
+7-7	section	I-ScrPart_location_library|B-ScrPart_location_library	O	
+7-8	.	O	O	
+
+#id=8
+#text=I walked over to the bookshelves and searched for the novel , successfully finding it fairly quickly .
+8-1	I	B-ScrPart_customer	O	
+8-2	walked	O	B-ScrEv_get_shelf	
+8-3	over	O	O	
+8-4	to	O	O	
+8-5	the	O	O	
+8-6	bookshelves	B-ScrPart_shelf	O	
+8-7	and	O	O	
+8-8	searched	O	B-ScrEv_look_for_book	
+8-9	for	O	O	
+8-10	the	O	O	
+8-11	novel	B-ScrPart_book	O	
+8-12	,	O	O	
+8-13	successfully	O	O	
+8-14	finding	O	B-ScrEv_take_book	
+8-15	it	B-ScrPart_book	O	
+8-16	fairly	O	O	
+8-17	quickly	O	O	
+8-18	.	O	O	
+
+#id=9
+#text=I then walk downstairs to the library 's checkout desk .
+9-1	I	B-ScrPart_customer	O	
+9-2	then	O	O	
+9-3	walk	O	B-ScrEv_go_check_out	
+9-4	downstairs	B-ScrPart_location_library	O	
+9-5	to	O	O	
+9-6	the	O	O	
+9-7	library	B-ScrPart_library	O	
+9-8	's	O	O	
+9-9	checkout	B-ScrPart_check-out_desk	O	
+9-10	desk	I-ScrPart_check-out_desk|B-ScrPart_check-out_desk	O	
+9-11	.	O	O	
+
+#id=10
+#text=I placed the book onto the counter and also took my library card from my wallet .
+10-1	I	B-ScrPart_customer	O	
+10-2	placed	O	B-RelNScrEv	
+10-3	the	O	O	
+10-4	book	B-ScrPart_book	O	
+10-5	onto	O	O	
+10-6	the	O	O	
+10-7	counter	B-ScrPart_check-out_desk	O	
+10-8	and	O	O	
+10-9	also	O	O	
+10-10	took	O	B-UnrelEv	
+10-11	my	B-ScrPart_customer	O	
+10-12	library	B-ScrPart_library_card	O	
+10-13	card	I-ScrPart_library_card|B-ScrPart_library_card	O	
+10-14	from	O	O	
+10-15	my	B-ScrPart_customer	O	
+10-16	wallet	B-NPart	O	
+10-17	.	O	O	
+
+#id=11
+#text=I showed the librarian the card , where she then checked out the book after scanning my card .
+11-1	I	B-ScrPart_customer	O	
+11-2	showed	O	B-ScrEv_show_card	
+11-3	the	O	O	
+11-4	librarian	B-ScrPart_staff	O	
+11-5	the	O	O	
+11-6	card	B-ScrPart_library_card	O	
+11-7	,	O	O	
+11-8	where	O	O	
+11-9	she	B-ScrPart_staff	O	
+11-10	then	O	O	
+11-11	checked	O	B-ScrEv_register	
+11-12	out	O	I-ScrEv_register	
+11-13	the	O	O	
+11-14	book	B-ScrPart_book	O	
+11-15	after	O	O	
+11-16	scanning	O	B-RelNScrEv	
+11-17	my	B-ScrPart_customer	O	
+11-18	card	B-ScrPart_library_card	O	
+11-19	.	O	O	
+
+#id=12
+#text=Next , once it came out , she handed me a receipt where the return date was printed on .
+12-1	Next	O	O	
+12-2	,	O	O	
+12-3	once	O	O	
+12-4	it	B-ScrPart_receipt	O	
+12-5	came	O	B-RelNScrEv	
+12-6	out	O	I-RelNScrEv	
+12-7	,	O	O	
+12-8	she	B-ScrPart_staff	O	
+12-9	handed	O	B-RelNScrEv	
+12-10	me	B-ScrPart_customer	O	
+12-11	a	O	O	
+12-12	receipt	B-ScrPart_receipt	O	
+12-13	where	O	O	
+12-14	the	O	O	
+12-15	return	B-ScrPart_return_date	O	
+12-16	date	I-ScrPart_return_date|B-ScrPart_return_date	O	
+12-17	was	O	O	
+12-18	printed	O	B-UnrelEv	
+12-19	on	O	O	
+12-20	.	O	O	
+
+#id=13
+#text=Once I received this , I walked to my apartment with the novel in my hand .
+13-1	Once	O	O	
+13-2	I	B-ScrPart_customer	O	
+13-3	received	O	B-ScrEv_get_receipt	
+13-4	this	B-ScrPart_receipt	O	
+13-5	,	O	O	
+13-6	I	B-ScrPart_customer	O	
+13-7	walked	O	B-ScrEv_leave	
+13-8	to	O	O	
+13-9	my	B-ScrPart_customer	O	
+13-10	apartment	B-NPart	O	
+13-11	with	O	O	
+13-12	the	O	O	
+13-13	novel	B-ScrPart_book	O	
+13-14	in	O	O	
+13-15	my	B-ScrPart_customer	O	
+13-16	hand	B-NPart	O	
+13-17	.	O	O	
+
+#id=14
+#text=I was really looking forward to reading the novel . 
+14-1	I	B-ScrPart_customer	O	
+14-2	was	O	O	
+14-3	really	O	O	
+14-4	looking	O	B-UnrelEv	
+14-5	forward	O	O	
+14-6	to	O	O	
+14-7	reading	O	B-RelNScrEv	
+14-8	the	O	O	
+14-9	novel	B-ScrPart_book	O	
+14-10	.	O	O	
+

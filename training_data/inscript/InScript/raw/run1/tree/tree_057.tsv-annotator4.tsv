@@ -1,0 +1,200 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=One day I decided that my backyard was missing something .
+1-1	One	O	O	_	_	
+1-2	day	O	O	_	_	
+1-3	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	1-6	
+1-4	decided	O	B-UnrelEv	_	_	
+1-5	that	O	O	_	_	
+1-6	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	2-1	
+1-7	backyard	O	O	_	_	
+1-8	was	O	O	_	_	
+1-9	missing	O	B-UnrelEv	_	_	
+1-10	something	O	O	_	_	
+1-11	.	O	O	_	_	
+
+#id=2
+#text=I walked around in my backyard and decided that a tree would go perfectly in the corner .
+2-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	2-5	
+2-2	walked	O	B-UnrelEv	_	_	
+2-3	around	O	I-UnrelEv	_	_	
+2-4	in	O	O	_	_	
+2-5	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	3-1	
+2-6	backyard	O	O	_	_	
+2-7	and	O	O	_	_	
+2-8	decided	O	B-UnrelEv	_	_	
+2-9	that	O	O	_	_	
+2-10	a	O	O	_	_	
+2-11	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	3-16	
+2-12	would	O	O	_	_	
+2-13	go	O	B-UnrelEv	_	_	
+2-14	perfectly	O	O	_	_	
+2-15	in	O	O	_	_	
+2-16	the	O	O	_	_	
+2-17	corner	O	O	_	_	
+2-18	.	O	O	_	_	
+
+#id=3
+#text=I drove to my local plant store and walked around looking at all the various trees .
+3-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	3-4	
+3-2	drove	O	B-RelNScrEv	_	_	
+3-3	to	O	O	_	_	
+3-4	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	4-1	
+3-5	local	O	O	_	_	
+3-6	plant	B-ScrPart_shop	O	_	_	
+3-7	store	I-ScrPart_shop|B-ScrPart_shop	O	_	_	
+3-8	and	O	O	_	_	
+3-9	walked	O	B-UnrelEv	_	_	
+3-10	around	O	I-UnrelEv	_	_	
+3-11	looking	O	B-ScrEv_choose_tree	_	_	
+3-12	at	O	I-ScrEv_choose_tree	_	_	
+3-13	all	O	O	_	_	
+3-14	the	O	O	_	_	
+3-15	various	O	O	_	_	
+3-16	trees	B-ScrPart_tree	O	webanno.custom.Corefchains_	4-7	
+3-17	.	O	O	_	_	
+
+#id=4
+#text=I read the tags and found one that would do perfect in my climate and it looked very cool .
+4-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	4-13	
+4-2	read	O	B-ScrEv_choose_tree	_	_	
+4-3	the	O	O	_	_	
+4-4	tags	B-NPart	O	_	_	
+4-5	and	O	O	_	_	
+4-6	found	O	B-ScrEv_choose_tree	_	_	
+4-7	one	B-ScrPart_tree	O	webanno.custom.Corefchains_	4-8	
+4-8	that	B-ScrPart_tree	O	webanno.custom.Corefchains_	4-16	
+4-9	would	O	O	_	_	
+4-10	do	O	B-UnrelEv	_	_	
+4-11	perfect	O	O	_	_	
+4-12	in	O	O	_	_	
+4-13	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	5-1	
+4-14	climate	O	O	_	_	
+4-15	and	O	O	_	_	
+4-16	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	5-16	
+4-17	looked	O	B-UnrelEv	_	_	
+4-18	very	O	O	_	_	
+4-19	cool	O	O	_	_	
+4-20	.	O	O	_	_	
+
+#id=5
+#text=I walked up to the worker and told them I would like to purchase the tree .
+5-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	5-10	
+5-2	walked	O	B-RelNScrEv	_	_	
+5-3	up	O	I-RelNScrEv	_	_	
+5-4	to	O	O	_	_	
+5-5	the	O	O	_	_	
+5-6	worker	B-ScrPart_staff	O	webanno.custom.Corefchains_	5-9	
+5-7	and	O	O	_	_	
+5-8	told	O	B-RelNScrEv	_	_	
+5-9	them	B-ScrPart_staff	O	webanno.custom.Corefchains_	6-1	
+5-10	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	6-7	
+5-11	would	O	O	_	_	
+5-12	like	O	B-UnrelEv	_	_	
+5-13	to	O	O	_	_	
+5-14	purchase	O	B-ScrEv_get_tree	_	_	
+5-15	the	O	O	_	_	
+5-16	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	6-4	
+5-17	.	O	O	_	_	
+
+#id=6
+#text=They loaded the tree up and I paid for the tree and drove home .
+6-1	They	B-ScrPart_staff	O	_	_	
+6-2	loaded	O	B-ScrEv_get_tree	_	_	
+6-3	the	O	O	_	_	
+6-4	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	6-11	
+6-5	up	O	O	_	_	
+6-6	and	O	O	_	_	
+6-7	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	7-1	
+6-8	paid	O	B-ScrEv_get_tree	_	_	
+6-9	for	O	O	_	_	
+6-10	the	O	O	_	_	
+6-11	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	7-4	
+6-12	and	O	O	_	_	
+6-13	drove	O	B-RelNScrEv	_	_	
+6-14	home	B-NPart	O	_	_	
+6-15	.	O	O	_	_	
+
+#id=7
+#text=I brought the tree into the backyard and set it down .
+7-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	8-1	
+7-2	brought	O	B-RelNScrEv	_	_	
+7-3	the	O	O	_	_	
+7-4	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	7-10	
+7-5	into	O	O	_	_	
+7-6	the	O	O	_	_	
+7-7	backyard	O	O	_	_	
+7-8	and	O	O	_	_	
+7-9	set	O	B-RelNScrEv	_	_	
+7-10	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	8-14	
+7-11	down	O	O	_	_	
+7-12	.	O	O	_	_	
+
+#id=8
+#text=I took out my shovel and dug a large enough hole for the tree .
+8-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	8-4	
+8-2	took	O	B-ScrEv_get_tools	_	_	
+8-3	out	O	I-ScrEv_get_tools	_	_	
+8-4	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	9-1	
+8-5	shovel	B-ScrPart_gardening_tool	O	_	_	
+8-6	and	O	O	_	_	
+8-7	dug	O	B-ScrEv_dug_hole	_	_	
+8-8	a	O	O	_	_	
+8-9	large	O	O	_	_	
+8-10	enough	O	O	_	_	
+8-11	hole	B-ScrPart_hole	O	webanno.custom.Corefchains_	9-7	
+8-12	for	O	O	_	_	
+8-13	the	O	O	_	_	
+8-14	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	9-4	
+8-15	.	O	O	_	_	
+
+#id=9
+#text=I placed the tree in the hole and filled it in with dirt .
+9-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	10-2	
+9-2	placed	O	B-ScrEv_place_root	_	_	
+9-3	the	O	O	_	_	
+9-4	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	10-9	
+9-5	in	O	O	_	_	
+9-6	the	O	O	_	_	
+9-7	hole	B-ScrPart_hole	O	webanno.custom.Corefchains_	9-10	
+9-8	and	O	O	_	_	
+9-9	filled	O	B-ScrEv_refill_hole	_	_	
+9-10	it	B-ScrPart_hole	O	_	_	
+9-11	in	O	O	_	_	
+9-12	with	O	O	_	_	
+9-13	dirt	B-ScrPart_dirt	O	_	_	
+9-14	.	O	O	_	_	
+
+#id=10
+#text=Then I took my hose and watered the tree in place .
+10-1	Then	O	O	_	_	
+10-2	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	10-4	
+10-3	took	O	B-ScrEv_get_tools	_	_	
+10-4	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	11-1	
+10-5	hose	B-ScrPart_gardening_tool	O	_	_	
+10-6	and	O	O	_	_	
+10-7	watered	O	B-ScrEv_water	_	_	
+10-8	the	O	O	_	_	
+10-9	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	11-13	
+10-10	in	O	O	_	_	
+10-11	place	O	O	_	_	
+10-12	.	O	O	_	_	
+
+#id=11
+#text=I took a step back and marveled at how wonderful my new tree looked . 
+11-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	11-11	
+11-2	took	O	B-UnrelEv	_	_	
+11-3	a	O	O	_	_	
+11-4	step	O	O	_	_	
+11-5	back	O	O	_	_	
+11-6	and	O	O	_	_	
+11-7	marveled	O	B-UnrelEv	_	_	
+11-8	at	O	O	_	_	
+11-9	how	O	O	_	_	
+11-10	wonderful	O	O	_	_	
+11-11	my	B-ScrPart_gardener	O	_	_	
+11-12	new	O	O	_	_	
+11-13	tree	B-ScrPart_tree	O	_	_	
+11-14	looked	O	B-UnrelEv	_	_	
+11-15	.	O	O	_	_	
+

@@ -1,0 +1,206 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=My friend 's yard needed some more shade to help make it cooler during the summer .
+1-1	My	B-ScrPart_gardener	O	
+1-2	friend	B-ScrPart_gardener	O	
+1-3	's	O	O	
+1-4	yard	B-NPart	O	
+1-5	needed	O	B-UnrelEv	
+1-6	some	O	O	
+1-7	more	O	O	
+1-8	shade	B-NPart	O	
+1-9	to	O	O	
+1-10	help	O	B-UnrelEv	
+1-11	make	O	B-UnrelEv	
+1-12	it	B-NPart	O	
+1-13	cooler	O	O	
+1-14	during	O	O	
+1-15	the	O	O	
+1-16	summer	B-NPart	O	
+1-17	.	O	O	
+
+#id=2
+#text=We both decided to plant a tree to help with the problem .
+2-1	We	B-ScrPart_gardener	O	
+2-2	both	O	O	
+2-3	decided	O	B-UnrelEv	
+2-4	to	O	O	
+2-5	plant	O	B-Evoking	
+2-6	a	O	I-Evoking	
+2-7	tree	B-ScrPart_tree	I-Evoking	
+2-8	to	O	O	
+2-9	help	O	B-UnrelEv	
+2-10	with	O	O	
+2-11	the	O	O	
+2-12	problem	B-NPart	O	
+2-13	.	O	O	
+
+#id=3
+#text=We went to the store and bought a small tree that we could plant and grow .
+3-1	We	B-ScrPart_gardener	O	
+3-2	went	O	B-RelNScrEv	
+3-3	to	O	O	
+3-4	the	O	O	
+3-5	store	B-ScrPart_shop	O	
+3-6	and	O	O	
+3-7	bought	O	B-ScrEv_get_tree	
+3-8	a	O	O	
+3-9	small	O	O	
+3-10	tree	B-ScrPart_tree	O	
+3-11	that	O	O	
+3-12	we	B-ScrPart_gardener	O	
+3-13	could	O	O	
+3-14	plant	O	B-Evoking	
+3-15	and	O	O	
+3-16	grow	O	B-RelNScrEv	
+3-17	.	O	O	
+
+#id=4
+#text=We then took it home .
+4-1	We	B-ScrPart_gardener	O	
+4-2	then	O	O	
+4-3	took	O	B-ScrEv_take_home	
+4-4	it	B-ScrPart_tree	O	
+4-5	home	B-NPart	O	
+4-6	.	O	O	
+
+#id=5
+#text=The next step was to plant it .
+5-1	The	O	O	
+5-2	next	O	O	
+5-3	step	B-No_label	O	
+5-4	was	O	B-UnrelEv	
+5-5	to	O	O	
+5-6	plant	O	B-Evoking	
+5-7	it	B-ScrPart_tree	I-Evoking	
+5-8	.	O	O	
+
+#id=6
+#text=We had to dig up a hole in the backyard to plant it in .
+6-1	We	B-ScrPart_gardener	O	
+6-2	had	O	O	
+6-3	to	O	O	
+6-4	dig	O	B-ScrEv_dug_hole	
+6-5	up	O	I-ScrEv_dug_hole	
+6-6	a	O	O	
+6-7	hole	B-ScrPart_hole	O	
+6-8	in	O	O	
+6-9	the	O	O	
+6-10	backyard	B-NPart	O	
+6-11	to	O	O	
+6-12	plant	O	B-Evoking	
+6-13	it	B-ScrPart_tree	I-Evoking	
+6-14	in	O	O	
+6-15	.	O	O	
+
+#id=7
+#text=We used shovels and a wheelbarrow to pick up the dirt and take it away .
+7-1	We	B-ScrPart_gardener	O	
+7-2	used	O	B-UnrelEv	
+7-3	shovels	B-ScrPart_gardening_tool	O	
+7-4	and	O	O	
+7-5	a	O	O	
+7-6	wheelbarrow	B-ScrPart_gardening_tool	O	
+7-7	to	O	O	
+7-8	pick	O	B-RelNScrEv	
+7-9	up	O	I-RelNScrEv	
+7-10	the	O	O	
+7-11	dirt	B-ScrPart_dirt	O	
+7-12	and	O	O	
+7-13	take	O	B-RelNScrEv	
+7-14	it	B-ScrPart_dirt	O	
+7-15	away	O	O	
+7-16	.	O	O	
+
+#id=8
+#text=When the hole was good enough , we planted the tree in the hole .
+8-1	When	O	O	
+8-2	the	O	O	
+8-3	hole	B-ScrPart_hole	O	
+8-4	was	O	B-UnrelEv	
+8-5	good	O	O	
+8-6	enough	O	O	
+8-7	,	O	O	
+8-8	we	B-ScrPart_gardener	O	
+8-9	planted	O	B-ScrEv_place_root	
+8-10	the	O	O	
+8-11	tree	B-ScrPart_tree	O	
+8-12	in	O	O	
+8-13	the	O	O	
+8-14	hole	B-ScrPart_hole	O	
+8-15	.	O	O	
+
+#id=9
+#text=We then made sure to put back some of the dirt around the root and base of the tree to make sure it was secure .
+9-1	We	B-ScrPart_gardener	O	
+9-2	then	O	O	
+9-3	made	O	B-UnrelEv	
+9-4	sure	O	I-UnrelEv	
+9-5	to	O	O	
+9-6	put	O	B-ScrEv_refill_hole	
+9-7	back	O	O	
+9-8	some	O	O	
+9-9	of	O	O	
+9-10	the	O	O	
+9-11	dirt	B-ScrPart_dirt	O	
+9-12	around	O	O	
+9-13	the	O	O	
+9-14	root	B-ScrPart_root	O	
+9-15	and	O	O	
+9-16	base	B-NPart	O	
+9-17	of	O	O	
+9-18	the	O	O	
+9-19	tree	B-ScrPart_tree	O	
+9-20	to	O	O	
+9-21	make	O	B-UnrelEv	
+9-22	sure	O	I-UnrelEv	
+9-23	it	B-ScrPart_tree	O	
+9-24	was	O	B-UnrelEv	
+9-25	secure	O	O	
+9-26	.	O	O	
+
+#id=10
+#text=After we were sure the tree was secure , my friend and I watered the area surrounding it to make sure it would grow properly .
+10-1	After	O	O	
+10-2	we	B-ScrPart_gardener	O	
+10-3	were	O	B-UnrelEv	
+10-4	sure	O	O	
+10-5	the	O	O	
+10-6	tree	B-ScrPart_tree	O	
+10-7	was	O	B-UnrelEv	
+10-8	secure	O	O	
+10-9	,	O	O	
+10-10	my	B-ScrPart_gardener	O	
+10-11	friend	B-ScrPart_gardener	O	
+10-12	and	O	O	
+10-13	I	B-ScrPart_gardener	O	
+10-14	watered	O	B-ScrEv_water	
+10-15	the	O	O	
+10-16	area	B-ScrPart_location_garden	O	
+10-17	surrounding	O	B-UnrelEv	
+10-18	it	B-ScrPart_tree	O	
+10-19	to	O	O	
+10-20	make	O	B-UnrelEv	
+10-21	sure	O	I-UnrelEv	
+10-22	it	B-ScrPart_tree	O	
+10-23	would	O	O	
+10-24	grow	O	B-RelNScrEv	
+10-25	properly	O	O	
+10-26	.	O	O	
+
+#id=11
+#text=We hope that the tree will offer some shade by next summer . 
+11-1	We	B-ScrPart_gardener	O	
+11-2	hope	O	B-UnrelEv	
+11-3	that	O	O	
+11-4	the	O	O	
+11-5	tree	B-ScrPart_tree	O	
+11-6	will	O	O	
+11-7	offer	O	B-UnrelEv	
+11-8	some	O	O	
+11-9	shade	B-NPart	O	
+11-10	by	O	O	
+11-11	next	O	O	
+11-12	summer	B-NPart	O	
+11-13	.	O	O	
+

@@ -1,0 +1,466 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Last summer I decided it would be a fantastic idea to visit my friend on the other side of the country .
+1-1	Last	O	O	O	_	_	
+1-2	summer	O	O	O	_	_	
+1-3	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+1-4	decided	O	O	B-UnrelEv	_	_	
+1-5	it	O	O	O	_	_	
+1-6	would	O	O	O	_	_	
+1-7	be	O	O	B-UnrelEv	_	_	
+1-8	a	O	O	O	_	_	
+1-9	fantastic	O	O	O	_	_	
+1-10	idea	O	O	O	_	_	
+1-11	to	O	O	O	_	_	
+1-12	visit	O	O	B-RelNScrEv	_	_	
+1-13	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-3	
+1-14	friend	B-webanno.custom.Participants_	B-ScrPart_accomp_person	O	_	_	
+1-15	on	O	O	O	_	_	
+1-16	the	O	O	O	_	_	
+1-17	other	O	O	O	_	_	
+1-18	side	O	O	O	_	_	
+1-19	of	O	O	O	_	_	
+1-20	the	O	O	O	_	_	
+1-21	country	O	O	O	_	_	
+1-22	.	O	O	O	_	_	
+
+#id=2
+#text=Normally I might drive , as I do n't mind driving , but I was on a tight schedule with work and needed to keep the trip short .
+2-1	Normally	O	O	O	_	_	
+2-2	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-13	
+2-3	might	O	O	O	_	_	
+2-4	drive	O	O	B-UnrelEv	_	_	
+2-5	,	O	O	O	_	_	
+2-6	as	O	O	O	_	_	
+2-7	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-2	
+2-8	do	O	O	O	_	_	
+2-9	n't	O	O	O	_	_	
+2-10	mind	O	O	B-UnrelEv	_	_	
+2-11	driving	O	O	B-UnrelEv	_	_	
+2-12	,	O	O	O	_	_	
+2-13	but	O	O	O	_	_	
+2-14	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-7	
+2-15	was	O	O	B-UnrelEv	_	_	
+2-16	on	O	O	O	_	_	
+2-17	a	O	O	O	_	_	
+2-18	tight	O	O	O	_	_	
+2-19	schedule	O	O	O	_	_	
+2-20	with	O	O	O	_	_	
+2-21	work	O	O	O	_	_	
+2-22	and	O	O	O	_	_	
+2-23	needed	O	O	O	_	_	
+2-24	to	O	O	O	_	_	
+2-25	keep	O	O	B-UnrelEv	_	_	
+2-26	the	O	O	O	_	_	
+2-27	trip	O	O	O	_	_	
+2-28	short	O	O	O	_	_	
+2-29	.	O	O	O	_	_	
+
+#id=3
+#text=I decided I needed to fly .
+3-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-14	
+3-2	decided	O	O	B-UnrelEv	_	_	
+3-3	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-1	
+3-4	needed	O	O	O	_	_	
+3-5	to	O	O	O	_	_	
+3-6	fly	O	O	B-Evoking	_	_	
+3-7	.	O	O	O	_	_	
+
+#id=4
+#text=I visited an airline price comparing website , and ultimately chose to book a flight from Charlotte where I lived to San Francisco where my friend lived .
+4-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-3	
+4-2	visited	O	O	B-RelNScrEv	_	_	
+4-3	an	O	O	O	_	_	
+4-4	airline	B-webanno.custom.Participants_	B-NPart	O	_	_	
+4-5	price	I-webanno.custom.Participants_	I-NPart	O	_	_	
+4-6	comparing	I-webanno.custom.Participants_	I-NPart	O	_	_	
+4-7	website	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-NPart|B-NPart	O	_	_	
+4-8	,	O	O	O	_	_	
+4-9	and	O	O	O	_	_	
+4-10	ultimately	O	O	O	_	_	
+4-11	chose	O	O	B-UnrelEv	_	_	
+4-12	to	O	O	O	_	_	
+4-13	book	O	O	B-ScrEv_get_ticket	_	_	
+4-14	a	O	O	O	_	_	
+4-15	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	_	_	
+4-16	from	O	O	O	_	_	
+4-17	Charlotte	O	O	O	_	_	
+4-18	where	O	O	O	_	_	
+4-19	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-1	
+4-20	lived	O	O	B-UnrelEv	_	_	
+4-21	to	O	O	O	_	_	
+4-22	San	B-webanno.custom.Participants_	B-ScrPart_target_location	O	_	_	
+4-23	Francisco	I-webanno.custom.Participants_	I-ScrPart_target_location	O	_	_	
+4-24	where	O	O	O	_	_	
+4-25	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-19	
+4-26	friend	B-webanno.custom.Participants_	B-ScrPart_accomp_person	O	webanno.custom.Corefchains_	1-14	
+4-27	lived	O	O	B-UnrelEv	_	_	
+4-28	.	O	O	O	_	_	
+
+#id=5
+#text=The airline was a well known carrier , American , and the round trip fare was phenomenal at only $ 150 .
+5-1	The	O	O	O	_	_	
+5-2	airline	O	O	O	_	_	
+5-3	was	O	O	B-UnrelEv	_	_	
+5-4	a	O	O	O	_	_	
+5-5	well	O	O	O	_	_	
+5-6	known	O	O	O	_	_	
+5-7	carrier	O	O	O	_	_	
+5-8	,	O	O	O	_	_	
+5-9	American	O	O	O	_	_	
+5-10	,	O	O	O	_	_	
+5-11	and	O	O	O	_	_	
+5-12	the	O	O	O	_	_	
+5-13	round	O	O	O	_	_	
+5-14	trip	O	O	O	_	_	
+5-15	fare	O	O	O	_	_	
+5-16	was	O	O	B-UnrelEv	_	_	
+5-17	phenomenal	O	O	O	_	_	
+5-18	at	O	O	O	_	_	
+5-19	only	O	O	O	_	_	
+5-20	$	O	O	O	_	_	
+5-21	150	O	O	O	_	_	
+5-22	.	O	O	O	_	_	
+
+#id=6
+#text=What a deal !
+6-1	What	O	O	O	_	_	
+6-2	a	O	O	O	_	_	
+6-3	deal	O	O	O	_	_	
+6-4	!	O	O	O	_	_	
+
+#id=7
+#text=After I booked the flight , I was emailed a boarding pass to print out .
+7-1	After	O	O	O	_	_	
+7-2	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-25	
+7-3	booked	O	O	B-ScrEv_get_ticket	_	_	
+7-4	the	O	O	O	_	_	
+7-5	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	webanno.custom.Corefchains_	4-15	
+7-6	,	O	O	O	_	_	
+7-7	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-2	
+7-8	was	O	O	O	_	_	
+7-9	emailed	O	O	B-RelNScrEv	_	_	
+7-10	a	O	O	O	_	_	
+7-11	boarding	B-webanno.custom.Participants_	B-ScrPart_boarding_pass	O	_	_	
+7-12	pass	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_boarding_pass|B-ScrPart_boarding_pass	O	_	_	
+7-13	to	O	O	O	_	_	
+7-14	print	O	O	B-RelNScrEv	_	_	
+7-15	out	O	O	I-RelNScrEv	_	_	
+7-16	.	O	O	O	_	_	
+
+#id=8
+#text=The day of the flight I brought my luggage and boarding pass with me to the airport .
+8-1	The	O	O	O	_	_	
+8-2	day	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+8-3	of	O	O	O	_	_	
+8-4	the	O	O	O	_	_	
+8-5	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	webanno.custom.Corefchains_	7-5	
+8-6	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-7	
+8-7	brought	O	O	B-RelNScrEv	_	_	
+8-8	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-6	
+8-9	luggage	B-webanno.custom.Participants_	B-ScrPart_check_in_luggage	O	_	_	
+8-10	and	O	O	O	_	_	
+8-11	boarding	B-webanno.custom.Participants_	B-ScrPart_boarding_pass	O	_	_	
+8-12	pass	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_boarding_pass|B-ScrPart_boarding_pass	O	webanno.custom.Corefchains_	7-12	
+8-13	with	O	O	O	_	_	
+8-14	me	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-8	
+8-15	to	O	O	O	_	_	
+8-16	the	O	O	O	_	_	
+8-17	airport	B-webanno.custom.Participants_	B-ScrPart_airport	O	_	_	
+8-18	.	O	O	O	_	_	
+
+#id=9
+#text=Inside the airport , I visited the ticket counter to present my boarding pass and luggage .
+9-1	Inside	O	O	O	_	_	
+9-2	the	O	O	O	_	_	
+9-3	airport	B-webanno.custom.Participants_	B-ScrPart_airport	O	webanno.custom.Corefchains_	8-17	
+9-4	,	O	O	O	_	_	
+9-5	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-14	
+9-6	visited	O	O	B-ScrEv_go_check_in	_	_	
+9-7	the	O	O	O	_	_	
+9-8	ticket	B-webanno.custom.Participants_	B-ScrPart_check_in_desk	O	_	_	
+9-9	counter	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_check_in_desk|B-ScrPart_check_in_desk	O	_	_	
+9-10	to	O	O	O	_	_	
+9-11	present	O	O	B-ScrEv_present_ID/ticket	_	_	
+9-12	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-5	
+9-13	boarding	B-webanno.custom.Participants_	B-ScrPart_boarding_pass	O	_	_	
+9-14	pass	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_boarding_pass|B-ScrPart_boarding_pass	O	webanno.custom.Corefchains_	8-12	
+9-15	and	O	O	O	_	_	
+9-16	luggage	B-webanno.custom.Participants_	B-ScrPart_check_in_luggage	O	webanno.custom.Corefchains_	8-9	
+9-17	.	O	O	O	_	_	
+
+#id=10
+#text=My luggage was checked-in for a small fee , leaving me free to board the plane without having to carry the burden of all that weight .
+10-1	My	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-12	
+10-2	luggage	B-webanno.custom.Participants_	B-ScrPart_check_in_luggage	O	webanno.custom.Corefchains_	9-16	
+10-3	was	O	O	O	_	_	
+10-4	checked-in	O	O	B-ScrEv_check_luggage	_	_	
+10-5	for	O	O	O	_	_	
+10-6	a	O	O	O	_	_	
+10-7	small	O	O	O	_	_	
+10-8	fee	B-webanno.custom.Participants_	B-NPart	O	_	_	
+10-9	,	O	O	O	_	_	
+10-10	leaving	O	O	B-UnrelEv	_	_	
+10-11	me	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-1	
+10-12	free	O	O	O	_	_	
+10-13	to	O	O	O	_	_	
+10-14	board	O	O	B-ScrEv_board_plane	_	_	
+10-15	the	O	O	O	_	_	
+10-16	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	_	_	
+10-17	without	O	O	O	_	_	
+10-18	having	O	O	O	_	_	
+10-19	to	O	O	O	_	_	
+10-20	carry	O	O	B-UnrelEv	_	_	
+10-21	the	O	O	O	_	_	
+10-22	burden	O	O	O	_	_	
+10-23	of	O	O	O	_	_	
+10-24	all	O	O	O	_	_	
+10-25	that	O	O	O	_	_	
+10-26	weight	O	O	O	_	_	
+10-27	.	O	O	O	_	_	
+
+#id=11
+#text=I had to wait through a security line and get checked for illegal items before proceeding to the gate .
+11-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-11	
+11-2	had	O	O	O	_	_	
+11-3	to	O	O	O	_	_	
+11-4	wait	O	O	B-ScrEv_wait	_	_	
+11-5	through	O	O	O	_	_	
+11-6	a	O	O	O	_	_	
+11-7	security	B-webanno.custom.Participants_	B-ScrPart_line	O	_	_	
+11-8	line	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_line|B-ScrPart_line	O	_	_	
+11-9	and	O	O	O	_	_	
+11-10	get	O	O	O	_	_	
+11-11	checked	O	O	B-ScrEv_go_security_checks	_	_	
+11-12	for	O	O	O	_	_	
+11-13	illegal	O	O	O	_	_	
+11-14	items	B-webanno.custom.Participants_	B-ScrPart_personal_belongings	O	_	_	
+11-15	before	O	O	O	_	_	
+11-16	proceeding	O	O	B-RelNScrEv	_	_	
+11-17	to	O	O	O	_	_	
+11-18	the	O	O	O	_	_	
+11-19	gate	B-webanno.custom.Participants_	B-ScrPart_terminal/gate	O	_	_	
+11-20	.	O	O	O	_	_	
+
+#id=12
+#text=This process took about 20 minutes .
+12-1	This	O	O	O	_	_	
+12-2	process	O	O	O	_	_	
+12-3	took	O	O	B-UnrelEv	_	_	
+12-4	about	O	O	O	_	_	
+12-5	20	O	O	O	_	_	
+12-6	minutes	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+12-7	.	O	O	O	_	_	
+
+#id=13
+#text=Once at the gate I showed my boarding pass again and walked onto the plane .
+13-1	Once	O	O	O	_	_	
+13-2	at	O	O	O	_	_	
+13-3	the	O	O	O	_	_	
+13-4	gate	B-webanno.custom.Participants_	B-ScrPart_terminal/gate	O	webanno.custom.Corefchains_	11-19	
+13-5	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	11-1	
+13-6	showed	O	O	B-ScrEv_present_boarding_pass	_	_	
+13-7	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	13-5	
+13-8	boarding	B-webanno.custom.Participants_	B-ScrPart_boarding_pass	O	_	_	
+13-9	pass	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_boarding_pass|B-ScrPart_boarding_pass	O	webanno.custom.Corefchains_	9-14	
+13-10	again	O	O	O	_	_	
+13-11	and	O	O	O	_	_	
+13-12	walked	O	O	B-ScrEv_board_plane	_	_	
+13-13	onto	O	O	O	_	_	
+13-14	the	O	O	O	_	_	
+13-15	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	10-16	
+13-16	.	O	O	O	_	_	
+
+#id=14
+#text=I was directed towards my assigned seat in the economy class cabin .
+14-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	13-7	
+14-2	was	O	O	O	_	_	
+14-3	directed	O	O	B-RelNScrEv	_	_	
+14-4	towards	O	O	O	_	_	
+14-5	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	14-1	
+14-6	assigned	O	O	B-UnrelEv	_	_	
+14-7	seat	B-webanno.custom.Participants_	B-ScrPart_seat	O	_	_	
+14-8	in	O	O	O	_	_	
+14-9	the	O	O	O	_	_	
+14-10	economy	O	O	O	_	_	
+14-11	class	O	O	O	_	_	
+14-12	cabin	O	O	O	_	_	
+14-13	.	O	O	O	_	_	
+
+#id=15
+#text=After a few more minutes the plane pushed back and began taxiing to the runway .
+15-1	After	O	O	O	_	_	
+15-2	a	O	O	O	_	_	
+15-3	few	O	O	O	_	_	
+15-4	more	O	O	O	_	_	
+15-5	minutes	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+15-6	the	O	O	O	_	_	
+15-7	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	13-15	
+15-8	pushed	O	O	B-ScrEv_take_off_preparations	_	_	
+15-9	back	O	O	I-ScrEv_take_off_preparations	_	_	
+15-10	and	O	O	O	_	_	
+15-11	began	O	O	O	_	_	
+15-12	taxiing	O	O	B-ScrEv_take_off_preparations	_	_	
+15-13	to	O	O	O	_	_	
+15-14	the	O	O	O	_	_	
+15-15	runway	B-webanno.custom.Participants_	B-ScrPart_location_airplane	O	_	_	
+15-16	.	O	O	O	_	_	
+
+#id=16
+#text=During this time other passengers and myself were instructed to buckle our seat belts and watch a safety demonstration on what to do in the event of an in-flight emergency .
+16-1	During	O	O	O	_	_	
+16-2	this	O	O	O	_	_	
+16-3	time	O	O	O	_	_	
+16-4	other	O	O	O	_	_	
+16-5	passengers	B-webanno.custom.Participants_	B-ScrPart_passenger	O	group_I_passengers	16-12	
+16-6	and	O	O	O	_	_	
+16-7	myself	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_|group_I_passengers	14-5|16-12	
+16-8	were	O	O	O	_	_	
+16-9	instructed	O	O	B-ScrEv_listen_crew	_	_	
+16-10	to	O	O	O	_	_	
+16-11	buckle	O	O	B-ScrEv_buckle_seat_belt	_	_	
+16-12	our	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+16-13	seat	B-webanno.custom.Participants_	B-ScrPart_seat_belt	O	_	_	
+16-14	belts	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_seat_belt|B-ScrPart_seat_belt	O	_	_	
+16-15	and	O	O	O	_	_	
+16-16	watch	O	O	B-ScrEv_listen_crew	_	_	
+16-17	a	O	O	O	_	_	
+16-18	safety	B-webanno.custom.Participants_	B-???	O	_	_	
+16-19	demonstration	I-webanno.custom.Participants_	I-???	O	_	_	
+16-20	on	O	O	O	_	_	
+16-21	what	O	O	O	_	_	
+16-22	to	O	O	O	_	_	
+16-23	do	O	O	B-UnrelEv	_	_	
+16-24	in	O	O	O	_	_	
+16-25	the	O	O	O	_	_	
+16-26	event	O	O	O	_	_	
+16-27	of	O	O	O	_	_	
+16-28	an	O	O	O	_	_	
+16-29	in-flight	O	O	O	_	_	
+16-30	emergency	O	O	O	_	_	
+16-31	.	O	O	O	_	_	
+
+#id=17
+#text=We then took off , climbed to about 34,000 feet , and roamed the skies westward .
+17-1	We	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	16-12	
+17-2	then	O	O	O	_	_	
+17-3	took	O	O	B-ScrEv_take_off	_	_	
+17-4	off	O	O	I-ScrEv_take_off	_	_	
+17-5	,	O	O	O	_	_	
+17-6	climbed	O	O	B-MissScrEv	_	_	
+17-7	to	O	O	O	_	_	
+17-8	about	O	O	O	_	_	
+17-9	34,000	O	O	O	_	_	
+17-10	feet	B-webanno.custom.Participants_	B-ScrPart_location_airplane	O	_	_	
+17-11	,	O	O	O	_	_	
+17-12	and	O	O	O	_	_	
+17-13	roamed	O	O	B-MissScrEv	_	_	
+17-14	the	O	O	O	_	_	
+17-15	skies	B-webanno.custom.Participants_	B-ScrPart_location_airplane	O	_	_	
+17-16	westward	O	O	O	_	_	
+17-17	.	O	O	O	_	_	
+
+#id=18
+#text=I slept for the remainder of the flight .
+18-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	16-7	
+18-2	slept	O	O	B-ScrEv_spend_time_flight	_	_	
+18-3	for	O	O	O	_	_	
+18-4	the	O	O	O	_	_	
+18-5	remainder	B-webanno.custom.Participants_	B-NPart	O	_	_	
+18-6	of	O	O	O	_	_	
+18-7	the	O	O	O	_	_	
+18-8	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	webanno.custom.Corefchains_	8-5	
+18-9	.	O	O	O	_	_	
+
+#id=19
+#text=Upon waking up the plane was just touching down .
+19-1	Upon	O	O	O	_	_	
+19-2	waking	O	O	B-RelNScrEv	_	_	
+19-3	up	O	O	I-RelNScrEv	_	_	
+19-4	the	O	O	O	_	_	
+19-5	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	15-7	
+19-6	was	O	O	O	_	_	
+19-7	just	O	O	O	_	_	
+19-8	touching	O	O	B-ScrEv_landing	_	_	
+19-9	down	O	O	I-ScrEv_landing	_	_	
+19-10	.	O	O	O	_	_	
+
+#id=20
+#text=It was a very quick flight , only 5 hours .
+20-1	It	O	O	O	_	_	
+20-2	was	O	O	B-UnrelEv	_	_	
+20-3	a	O	O	O	_	_	
+20-4	very	O	O	O	_	_	
+20-5	quick	O	O	O	_	_	
+20-6	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	webanno.custom.Corefchains_	18-8	
+20-7	,	O	O	O	_	_	
+20-8	only	O	O	O	_	_	
+20-9	5	O	O	O	_	_	
+20-10	hours	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+20-11	.	O	O	O	_	_	
+
+#id=21
+#text=I stepped off the plane and walked to baggage pickup .
+21-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	18-1	
+21-2	stepped	O	O	B-ScrEv_exit_plane	_	_	
+21-3	off	O	O	O	_	_	
+21-4	the	O	O	O	_	_	
+21-5	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	19-5	
+21-6	and	O	O	O	_	_	
+21-7	walked	O	O	B-UnrelEv	_	_	
+21-8	to	O	O	O	_	_	
+21-9	baggage	B-webanno.custom.Participants_	B-MissScrPart	O	_	_	
+21-10	pickup	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-MissScrPart|B-MissScrPart	O	_	_	
+21-11	.	O	O	O	_	_	
+
+#id=22
+#text=When my bags came around the belt , I picked them up and walked outside , where my friend was waiting for me .
+22-1	When	O	O	O	_	_	
+22-2	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	21-1	
+22-3	bags	B-webanno.custom.Participants_	B-ScrPart_check_in_luggage	O	webanno.custom.Corefchains_	10-2	
+22-4	came	O	O	B-RelNScrEv	_	_	
+22-5	around	O	O	O	_	_	
+22-6	the	O	O	O	_	_	
+22-7	belt	B-webanno.custom.Participants_	B-NPart	O	_	_	
+22-8	,	O	O	O	_	_	
+22-9	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	22-2	
+22-10	picked	O	O	B-RelNScrEv	_	_	
+22-11	them	B-webanno.custom.Participants_	B-ScrPart_check_in_luggage	O	webanno.custom.Corefchains_	22-3	
+22-12	up	O	O	O	_	_	
+22-13	and	O	O	O	_	_	
+22-14	walked	O	O	B-ScrEv_leave_airport	_	_	
+22-15	outside	O	O	O	_	_	
+22-16	,	O	O	O	_	_	
+22-17	where	O	O	O	_	_	
+22-18	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	22-9	
+22-19	friend	B-webanno.custom.Participants_	B-ScrPart_accomp_person	O	webanno.custom.Corefchains_	4-26	
+22-20	was	O	O	O	_	_	
+22-21	waiting	O	O	B-RelNScrEv	_	_	
+22-22	for	O	O	O	_	_	
+22-23	me	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	22-18	
+22-24	.	O	O	O	_	_	
+
+#id=23
+#text=All in all it was a fun and painless journey .
+23-1	All	O	O	O	_	_	
+23-2	in	O	O	O	_	_	
+23-3	all	O	O	O	_	_	
+23-4	it	O	O	O	_	_	
+23-5	was	O	O	B-UnrelEv	_	_	
+23-6	a	O	O	O	_	_	
+23-7	fun	O	O	O	_	_	
+23-8	and	O	O	O	_	_	
+23-9	painless	O	O	O	_	_	
+23-10	journey	O	O	O	_	_	
+23-11	.	O	O	O	_	_	
+
+#id=24
+#text=I would definitely do it again . 
+24-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	22-23	
+24-2	would	O	O	O	_	_	
+24-3	definitely	O	O	O	_	_	
+24-4	do	O	O	B-UnrelEv	_	_	
+24-5	it	O	O	O	_	_	
+24-6	again	O	O	O	_	_	
+24-7	.	O	O	O	_	_	
+

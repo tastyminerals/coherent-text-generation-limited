@@ -1,0 +1,246 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Today , I decided I really needed to get a haircut , so I went by Lou ' s. Lou has been my barber since I first had hair , and my father went there before that .
+1-1	Today	O	O	_	_	
+1-2	,	O	O	_	_	
+1-3	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-5	
+1-4	decided	O	B-UnrelEv	_	_	
+1-5	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-14	
+1-6	really	O	O	_	_	
+1-7	needed	O	O	_	_	
+1-8	to	O	O	_	_	
+1-9	get	O	B-Evoking	_	_	
+1-10	a	O	I-Evoking	_	_	
+1-11	haircut	B-MissScrPart	I-Evoking	webanno.custom.Corefchains_	9-24	
+1-12	,	O	O	_	_	
+1-13	so	O	O	_	_	
+1-14	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-23	
+1-15	went	O	B-ScrEv_get_salon	_	_	
+1-16	by	O	I-ScrEv_get_salon	_	_	
+1-17	Lou	B-ScrPart_salon	O	webanno.custom.Corefchains_	2-5	
+1-18	'	I-ScrPart_salon	O	webanno.custom.Corefchains_	2-5	
+1-19	s.	I-ScrPart_salon	O	webanno.custom.Corefchains_	2-5	
+1-20	Lou	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	1-24	
+1-21	has	O	O	_	_	
+1-22	been	O	B-UnrelEv	_	_	
+1-23	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-26	
+1-24	barber	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	2-4	
+1-25	since	O	O	_	_	
+1-26	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-32	
+1-27	first	O	O	_	_	
+1-28	had	O	B-RelNScrEv	_	_	
+1-29	hair	B-ScrPart_hair	O	webanno.custom.Corefchains_	5-11	
+1-30	,	O	O	_	_	
+1-31	and	O	O	_	_	
+1-32	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-2	
+1-33	father	B-ScrPart_customer	O	_	_	
+1-34	went	O	B-Evoking	_	_	
+1-35	there	O	I-Evoking	_	_	
+1-36	before	O	O	_	_	
+1-37	that	O	O	_	_	
+1-38	.	O	O	_	_	
+
+#id=2
+#text=When you enter his place , he immediately says ' ?
+2-1	When	O	O	_	_	
+2-2	you	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-3	
+2-3	enter	O	B-ScrEv_enter	_	_	
+2-4	his	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	2-7	
+2-5	place	B-ScrPart_salon	O	_	_	
+2-6	,	O	O	_	_	
+2-7	he	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	4-1	
+2-8	immediately	O	O	_	_	
+2-9	says	O	B-ScrEv_small_talk	_	_	
+2-10	'	O	O	_	_	
+2-11	?	O	O	_	_	
+
+#id=3
+#text=welcome ' .
+3-1	welcome	B-NPart	O	_	_	
+3-2	'	O	O	_	_	
+3-3	.	O	O	_	_	
+
+#id=4
+#text=He sits you in his adjustable barber ' s chair , and gets just the right height while facing you toward his wall size mirror .
+4-1	He	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	4-5	
+4-2	sits	O	B-ScrEv_sit_down	_	_	
+4-3	you	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-20	
+4-4	in	O	O	_	_	
+4-5	his	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	4-7	
+4-6	adjustable	O	O	_	_	
+4-7	barber	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	4-22	
+4-8	'	O	O	_	_	
+4-9	s	O	O	_	_	
+4-10	chair	B-ScrPart_chair	O	_	_	
+4-11	,	O	O	_	_	
+4-12	and	O	O	_	_	
+4-13	gets	O	B-RelNScrEv	_	_	
+4-14	just	O	O	_	_	
+4-15	the	O	O	_	_	
+4-16	right	O	O	_	_	
+4-17	height	B-NPart	O	_	_	
+4-18	while	O	O	_	_	
+4-19	facing	O	B-RelNScrEv	_	_	
+4-20	you	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-10	
+4-21	toward	O	O	_	_	
+4-22	his	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	5-1	
+4-23	wall	O	O	_	_	
+4-24	size	O	O	_	_	
+4-25	mirror	B-ScrPart_mirror	O	webanno.custom.Corefchains_	7-7	
+4-26	.	O	O	_	_	
+
+#id=5
+#text=He pulls out his comb and pulls it through your hair as you both talk about the length the hair needs to be , and whether you need a shave also .
+5-1	He	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	5-4	
+5-2	pulls	O	B-RelNScrEv	_	_	
+5-3	out	O	O	_	_	
+5-4	his	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_|coref_you_barber	7-1|5-13	
+5-5	comb	B-ScrPart_comb	O	webanno.custom.Corefchains_	5-8	
+5-6	and	O	O	_	_	
+5-7	pulls	O	B-ScrEv_comb	_	_	
+5-8	it	B-ScrPart_comb	O	_	_	
+5-9	through	O	O	_	_	
+5-10	your	B-ScrPart_customer	O	webanno.custom.Corefchains_|coref_you_barber	5-27|5-13	
+5-11	hair	B-ScrPart_hair	O	webanno.custom.Corefchains_	5-20	
+5-12	as	O	O	_	_	
+5-13	you	B-???	O	_	_	
+5-14	both	O	O	_	_	
+5-15	talk	O	B-ScrEv_talk_haircut	_	_	
+5-16	about	O	O	_	_	
+5-17	the	O	O	_	_	
+5-18	length	B-NPart	O	_	_	
+5-19	the	O	O	_	_	
+5-20	hair	B-ScrPart_hair	O	_	_	
+5-21	needs	O	O	_	_	
+5-22	to	O	O	_	_	
+5-23	be	O	B-RelNScrEv	_	_	
+5-24	,	O	O	_	_	
+5-25	and	O	O	_	_	
+5-26	whether	O	O	_	_	
+5-27	you	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-3	
+5-28	need	O	B-RelNScrEv	_	_	
+5-29	a	O	O	_	_	
+5-30	shave	B-???	O	_	_	
+5-31	also	O	O	_	_	
+5-32	.	O	O	_	_	
+
+#id=6
+#text=Then the magic happens .
+6-1	Then	O	O	_	_	
+6-2	the	O	O	_	_	
+6-3	magic	O	O	_	_	
+6-4	happens	O	B-UnrelEv	_	_	
+6-5	.	O	O	_	_	
+
+#id=7
+#text=He turns you away from the mirror and starts clipping away , the whole time talking with you about the weather and sports .
+7-1	He	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	8-1	
+7-2	turns	O	B-RelNScrEv	_	_	
+7-3	you	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-18	
+7-4	away	O	O	_	_	
+7-5	from	O	O	_	_	
+7-6	the	O	O	_	_	
+7-7	mirror	B-ScrPart_mirror	O	webanno.custom.Corefchains_	9-19	
+7-8	and	O	O	_	_	
+7-9	starts	O	B-UnrelEv	_	_	
+7-10	clipping	O	B-ScrEv_cut	_	_	
+7-11	away	O	I-ScrEv_cut	_	_	
+7-12	,	O	O	_	_	
+7-13	the	O	O	_	_	
+7-14	whole	O	O	_	_	
+7-15	time	O	O	_	_	
+7-16	talking	O	B-ScrEv_small_talk	_	_	
+7-17	with	O	O	_	_	
+7-18	you	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-4	
+7-19	about	O	O	_	_	
+7-20	the	O	O	_	_	
+7-21	weather	O	O	_	_	
+7-22	and	O	O	_	_	
+7-23	sports	O	O	_	_	
+7-24	.	O	O	_	_	
+
+#id=8
+#text=He asks about your family , and whether the fish are biting down at the local lake .
+8-1	He	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	9-8	
+8-2	asks	O	B-ScrEv_small_talk	_	_	
+8-3	about	O	O	_	_	
+8-4	your	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-15	
+8-5	family	B-NPart	O	_	_	
+8-6	,	O	O	_	_	
+8-7	and	O	O	_	_	
+8-8	whether	O	O	_	_	
+8-9	the	O	O	_	_	
+8-10	fish	O	O	_	_	
+8-11	are	O	O	_	_	
+8-12	biting	O	B-UnrelEv	_	_	
+8-13	down	O	I-UnrelEv	_	_	
+8-14	at	O	O	_	_	
+8-15	the	O	O	_	_	
+8-16	local	O	O	_	_	
+8-17	lake	O	O	_	_	
+8-18	.	O	O	_	_	
+
+#id=9
+#text=In what seems just like seconds , Lou takes one last clip and spins you back to the mirror to show you his creation on your head .
+9-1	In	O	O	_	_	
+9-2	what	O	O	_	_	
+9-3	seems	O	B-UnrelEv	_	_	
+9-4	just	O	O	_	_	
+9-5	like	O	O	_	_	
+9-6	seconds	O	O	_	_	
+9-7	,	O	O	_	_	
+9-8	Lou	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	9-23	
+9-9	takes	O	B-ScrEv_cut	_	_	
+9-10	one	O	O	_	_	
+9-11	last	O	O	_	_	
+9-12	clip	B-SuppVComp	O	_	_	
+9-13	and	O	O	_	_	
+9-14	spins	O	B-RelNScrEv	_	_	
+9-15	you	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-22	
+9-16	back	O	O	_	_	
+9-17	to	O	O	_	_	
+9-18	the	O	O	_	_	
+9-19	mirror	B-ScrPart_mirror	O	_	_	
+9-20	to	O	O	_	_	
+9-21	show	O	B-ScrEv_look_mirror	_	_	
+9-22	you	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-26	
+9-23	his	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	10-8	
+9-24	creation	B-MissScrPart	O	webanno.custom.Corefchains_	10-19	
+9-25	on	O	O	_	_	
+9-26	your	B-ScrPart_customer	O	webanno.custom.Corefchains_	10-2	
+9-27	head	O	O	_	_	
+9-28	.	O	O	_	_	
+
+#id=10
+#text=When you are satisfied , you pay him plus a little extra for the sheer perfection of this haircut , and tell him you will see him next month . 
+10-1	When	O	O	_	_	
+10-2	you	B-ScrPart_customer	O	webanno.custom.Corefchains_	10-6	
+10-3	are	O	O	_	_	
+10-4	satisfied	O	B-ScrEv_customer_opinion	_	_	
+10-5	,	O	O	_	_	
+10-6	you	B-ScrPart_customer	O	webanno.custom.Corefchains_	10-24	
+10-7	pay	O	B-ScrEv_pay	_	_	
+10-8	him	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	10-23	
+10-9	plus	O	O	_	_	
+10-10	a	O	O	_	_	
+10-11	little	O	O	_	_	
+10-12	extra	B-ScrPart_tip	O	_	_	
+10-13	for	O	O	_	_	
+10-14	the	O	O	_	_	
+10-15	sheer	O	O	_	_	
+10-16	perfection	O	O	_	_	
+10-17	of	O	O	_	_	
+10-18	this	O	O	_	_	
+10-19	haircut	B-MissScrPart	O	_	_	
+10-20	,	O	O	_	_	
+10-21	and	O	O	_	_	
+10-22	tell	O	B-ScrEv_make_appointment	_	_	
+10-23	him	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	10-27	
+10-24	you	B-ScrPart_customer	O	_	_	
+10-25	will	O	O	_	_	
+10-26	see	O	B-RelNScrEv	_	_	
+10-27	him	B-ScrPart_hairdresser	O	_	_	
+10-28	next	O	O	_	_	
+10-29	month	O	O	_	_	
+10-30	.	O	O	_	_	
+

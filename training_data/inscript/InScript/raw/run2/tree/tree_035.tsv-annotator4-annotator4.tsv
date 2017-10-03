@@ -1,0 +1,202 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=Once you have located an area where you want to plant your tree , you will need a shovel to begin digging a nice sized hole in the ground .
+1-1	Once	O	O	
+1-2	you	B-ScrPart_gardener	O	
+1-3	have	O	O	
+1-4	located	O	B-ScrEv_find_place	
+1-5	an	O	O	
+1-6	area	B-ScrPart_location_garden	O	
+1-7	where	O	O	
+1-8	you	B-ScrPart_gardener	O	
+1-9	want	O	B-UnrelEv	
+1-10	to	O	O	
+1-11	plant	O	B-Evoking	
+1-12	your	B-ScrPart_gardener	I-Evoking	
+1-13	tree	B-ScrPart_tree	I-Evoking	
+1-14	,	O	O	
+1-15	you	B-ScrPart_gardener	O	
+1-16	will	O	O	
+1-17	need	O	B-ScrEv_get_tools	
+1-18	a	O	O	
+1-19	shovel	B-ScrPart_gardening_tool	O	
+1-20	to	O	O	
+1-21	begin	O	B-UnrelEv	
+1-22	digging	O	B-ScrEv_dug_hole	
+1-23	a	O	O	
+1-24	nice	O	O	
+1-25	sized	O	B-UnrelEv	
+1-26	hole	B-ScrPart_hole	O	
+1-27	in	O	O	
+1-28	the	O	O	
+1-29	ground	B-ScrPart_dirt	O	
+1-30	.	O	O	
+
+#id=2
+#text=This will require some effort depending on how big your tree already is as the bigger the tree , the bigger and deeper the hole will need to be .
+2-1	This	O	O	
+2-2	will	O	O	
+2-3	require	O	B-UnrelEv	
+2-4	some	O	O	
+2-5	effort	B-NPart	O	
+2-6	depending	O	B-UnrelEv	
+2-7	on	O	O	
+2-8	how	O	O	
+2-9	big	O	O	
+2-10	your	B-ScrPart_gardener	O	
+2-11	tree	B-ScrPart_tree	O	
+2-12	already	O	O	
+2-13	is	O	B-UnrelEv	
+2-14	as	O	O	
+2-15	the	O	O	
+2-16	bigger	O	O	
+2-17	the	O	O	
+2-18	tree	B-ScrPart_tree	O	
+2-19	,	O	O	
+2-20	the	O	O	
+2-21	bigger	O	O	
+2-22	and	O	O	
+2-23	deeper	O	O	
+2-24	the	O	O	
+2-25	hole	B-ScrPart_hole	O	
+2-26	will	O	O	
+2-27	need	O	O	
+2-28	to	O	O	
+2-29	be	O	B-UnrelEv	
+2-30	.	O	O	
+
+#id=3
+#text=After digging the hole , pull the tree out of the container that the tree is currently sitting in , and then place the tree into the hole .
+3-1	After	O	O	
+3-2	digging	O	B-ScrEv_dug_hole	
+3-3	the	O	O	
+3-4	hole	B-ScrPart_hole	O	
+3-5	,	O	O	
+3-6	pull	O	B-ScrEv_unwrap_root	
+3-7	the	O	O	
+3-8	tree	B-ScrPart_tree	O	
+3-9	out	O	O	
+3-10	of	O	O	
+3-11	the	O	O	
+3-12	container	B-ScrPart_wrapping	O	
+3-13	that	B-ScrPart_wrapping	O	
+3-14	the	O	O	
+3-15	tree	B-ScrPart_tree	O	
+3-16	is	O	O	
+3-17	currently	O	O	
+3-18	sitting	O	B-RelNScrEv	
+3-19	in	O	I-RelNScrEv	
+3-20	,	O	O	
+3-21	and	O	O	
+3-22	then	O	O	
+3-23	place	O	B-ScrEv_place_root	
+3-24	the	O	O	
+3-25	tree	B-ScrPart_tree	O	
+3-26	into	O	O	
+3-27	the	O	O	
+3-28	hole	B-ScrPart_hole	O	
+3-29	.	O	O	
+
+#id=4
+#text=If the dirt that was removed looks fertile , then you can push the dirt back into the hole to fill it back up .
+4-1	If	O	O	
+4-2	the	O	O	
+4-3	dirt	B-ScrPart_dirt	O	
+4-4	that	B-ScrPart_dirt	O	
+4-5	was	O	O	
+4-6	removed	O	B-ScrEv_dug_hole	
+4-7	looks	O	B-UnrelEv	
+4-8	fertile	O	O	
+4-9	,	O	O	
+4-10	then	O	O	
+4-11	you	B-ScrPart_gardener	O	
+4-12	can	O	O	
+4-13	push	O	B-ScrEv_refill_hole	
+4-14	the	O	O	
+4-15	dirt	B-ScrPart_dirt	O	
+4-16	back	O	O	
+4-17	into	O	O	
+4-18	the	O	O	
+4-19	hole	B-ScrPart_hole	O	
+4-20	to	O	O	
+4-21	fill	O	B-ScrEv_refill_hole	
+4-22	it	B-ScrPart_hole	O	
+4-23	back	O	O	
+4-24	up	O	O	
+4-25	.	O	O	
+
+#id=5
+#text=If the dirt looks dry , you may get a bag of potting soil and pour that into the remaining area of the hole .
+5-1	If	O	O	
+5-2	the	O	O	
+5-3	dirt	B-ScrPart_dirt	O	
+5-4	looks	O	B-UnrelEv	
+5-5	dry	O	O	
+5-6	,	O	O	
+5-7	you	B-ScrPart_gardener	O	
+5-8	may	O	O	
+5-9	get	O	B-ScrEv_get_tools	
+5-10	a	O	O	
+5-11	bag	B-Head_of_Partitive	O	
+5-12	of	O	O	
+5-13	potting	B-ScrPart_dirt	O	
+5-14	soil	I-ScrPart_dirt|B-ScrPart_dirt	O	
+5-15	and	O	O	
+5-16	pour	O	B-ScrEv_refill_hole	
+5-17	that	B-ScrPart_dirt	O	
+5-18	into	O	O	
+5-19	the	O	O	
+5-20	remaining	O	B-UnrelEv	
+5-21	area	B-NPart	O	
+5-22	of	O	O	
+5-23	the	O	O	
+5-24	hole	B-ScrPart_hole	O	
+5-25	.	O	O	
+
+#id=6
+#text=Good soil will ensure that your plant -LRB- especially if the plant is young -RRB- to have all the proper nutrition and environment to begin growing .
+6-1	Good	O	O	
+6-2	soil	B-ScrPart_dirt	O	
+6-3	will	O	O	
+6-4	ensure	O	B-UnrelEv	
+6-5	that	O	O	
+6-6	your	B-ScrPart_gardener	O	
+6-7	plant	B-ScrPart_tree	O	
+6-8	-LRB-	O	O	
+6-9	especially	O	O	
+6-10	if	O	O	
+6-11	the	O	O	
+6-12	plant	B-ScrPart_tree	O	
+6-13	is	O	B-UnrelEv	
+6-14	young	O	O	
+6-15	-RRB-	O	O	
+6-16	to	O	O	
+6-17	have	O	B-ScrEv_place_fertilizers	
+6-18	all	O	O	
+6-19	the	O	O	
+6-20	proper	O	O	
+6-21	nutrition	B-NPart	O	
+6-22	and	O	O	
+6-23	environment	B-ScrPart_location_garden	O	
+6-24	to	O	O	
+6-25	begin	O	B-UnrelEv	
+6-26	growing	O	B-RelNScrEv	
+6-27	.	O	O	
+
+#id=7
+#text=Lastly , water the area where the plant is and you 're done . 
+7-1	Lastly	O	O	
+7-2	,	O	O	
+7-3	water	O	B-ScrEv_water	
+7-4	the	O	O	
+7-5	area	B-ScrPart_location_garden	O	
+7-6	where	O	O	
+7-7	the	O	O	
+7-8	plant	B-ScrPart_tree	O	
+7-9	is	O	B-UnrelEv	
+7-10	and	O	O	
+7-11	you	B-ScrPart_gardener	O	
+7-12	're	O	O	
+7-13	done	O	B-UnrelEv	
+7-14	.	O	O	
+

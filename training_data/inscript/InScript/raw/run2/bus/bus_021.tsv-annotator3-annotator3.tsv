@@ -1,0 +1,193 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Event | Events
+#id=1
+#text=My car had broken down so I needed to take the public bus to work on Wednesday morning .
+1-1	My	B-ScrPart_passenger	O	O	
+1-2	car	B-NPart	O	O	
+1-3	had	O	O	O	
+1-4	broken	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-UnrelEv|B-UnrelEv	
+1-5	down	O	I-webanno.custom.Events_	I-UnrelEv	
+1-6	so	O	O	O	
+1-7	I	B-ScrPart_passenger	O	O	
+1-8	needed	O	O	O	
+1-9	to	O	O	O	
+1-10	take	O	B-webanno.custom.Events_	B-Evoking	
+1-11	the	O	I-webanno.custom.Events_	I-Evoking	
+1-12	public	O	I-webanno.custom.Events_	I-Evoking	
+1-13	bus	B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	
+1-14	to	O	O	O	
+1-15	work	B-ScrPart_destination	O	O	
+1-16	on	O	O	O	
+1-17	Wednesday	B-ScrPart_time/date	O	O	
+1-18	morning	I-ScrPart_time/date|B-ScrPart_time/date	O	O	
+1-19	.	O	O	O	
+
+#id=2
+#text=First I looked on-line to see which bus I should take to get to McLean , and what bus stop was the closest to my home .
+2-1	First	O	O	O	
+2-2	I	B-ScrPart_passenger	O	O	
+2-3	looked	O	B-webanno.custom.Events_	B-ScrEv_other	
+2-4	on-line	B-SuppVComp	O	O	
+2-5	to	O	O	O	
+2-6	see	O	B-webanno.custom.Events_	B-UnrelEv	
+2-7	which	O	O	O	
+2-8	bus	B-ScrPart_bus	O	O	
+2-9	I	B-ScrPart_passenger	O	O	
+2-10	should	O	O	O	
+2-11	take	O	B-webanno.custom.Events_	B-RelNScrEv	
+2-12	to	O	O	O	
+2-13	get	O	B-webanno.custom.Events_	B-RelNScrEv	
+2-14	to	O	O	O	
+2-15	McLean	B-ScrPart_destination	O	O	
+2-16	,	O	O	O	
+2-17	and	O	O	O	
+2-18	what	O	O	O	
+2-19	bus	B-ScrPart_bus_stop	O	O	
+2-20	stop	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	O	
+2-21	was	O	B-webanno.custom.Events_	B-RelNScrEv	
+2-22	the	O	O	O	
+2-23	closest	O	O	O	
+2-24	to	O	O	O	
+2-25	my	B-ScrPart_passenger	O	O	
+2-26	home	B-NPart	O	O	
+2-27	.	O	O	O	
+
+#id=3
+#text=The instructions were to go to Seven Corners shopping center , catch the 3A to Tyson Corner , and then transfer to the 18A to get within a block of my office .
+3-1	The	O	O	O	
+3-2	instructions	B-NPart	O	O	
+3-3	were	O	B-webanno.custom.Events_	B-UnrelEv	
+3-4	to	O	O	O	
+3-5	go	O	B-webanno.custom.Events_	B-RelNScrEv	
+3-6	to	O	O	O	
+3-7	Seven	B-NPart	O	O	
+3-8	Corners	I-NPart	O	O	
+3-9	shopping	I-NPart	O	O	
+3-10	center	I-NPart|B-NPart	O	O	
+3-11	,	O	O	O	
+3-12	catch	O	B-webanno.custom.Events_	B-ScrEv_board_bus	
+3-13	the	O	O	O	
+3-14	3A	B-ScrPart_bus	O	O	
+3-15	to	O	O	O	
+3-16	Tyson	B-ScrPart_bus_stop	O	O	
+3-17	Corner	I-ScrPart_bus_stop	O	O	
+3-18	,	O	O	O	
+3-19	and	O	O	O	
+3-20	then	O	O	O	
+3-21	transfer	O	B-webanno.custom.Events_	B-ScrEv_change_bus	
+3-22	to	O	O	O	
+3-23	the	O	O	O	
+3-24	18A	B-ScrPart_bus	O	O	
+3-25	to	O	O	O	
+3-26	get	O	B-webanno.custom.Events_	B-RelNScrEv	
+3-27	within	O	O	O	
+3-28	a	O	O	O	
+3-29	block	B-NPart	O	O	
+3-30	of	O	O	O	
+3-31	my	B-ScrPart_passenger	O	O	
+3-32	office	B-ScrPart_destination	O	O	
+3-33	.	O	O	O	
+
+#id=4
+#text=In the morning I walked up to the shopping center and waited until the bus came .
+4-1	In	O	O	O	
+4-2	the	O	O	O	
+4-3	morning	B-ScrPart_time/date	O	O	
+4-4	I	B-ScrPart_passenger	O	O	
+4-5	walked	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-ScrEv_get_bus_stop|B-ScrEv_get_bus_stop	
+4-6	up	O	I-webanno.custom.Events_	I-ScrEv_get_bus_stop	
+4-7	to	O	O	O	
+4-8	the	O	O	O	
+4-9	shopping	B-NPart	O	O	
+4-10	center	I-NPart|B-NPart	O	O	
+4-11	and	O	O	O	
+4-12	waited	O	B-webanno.custom.Events_	B-ScrEv_wait	
+4-13	until	O	O	O	
+4-14	the	O	O	O	
+4-15	bus	B-ScrPart_bus	O	O	
+4-16	came	O	B-webanno.custom.Events_	B-ScrEv_bus_comes	
+4-17	.	O	O	O	
+
+#id=5
+#text=I got on , paying the driver with change and dollar bills .
+5-1	I	B-ScrPart_passenger	O	O	
+5-2	got	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-ScrEv_board_bus|B-ScrEv_board_bus	
+5-3	on	O	I-webanno.custom.Events_	I-ScrEv_board_bus	
+5-4	,	O	O	O	
+5-5	paying	O	B-webanno.custom.Events_	B-ScrEv_get_ticket	
+5-6	the	O	O	O	
+5-7	driver	B-ScrPart_bus_staff	O	O	
+5-8	with	O	O	O	
+5-9	change	B-ScrPart_money	O	O	
+5-10	and	O	O	O	
+5-11	dollar	B-ScrPart_money	O	O	
+5-12	bills	I-ScrPart_money|B-ScrPart_money	O	O	
+5-13	.	O	O	O	
+
+#id=6
+#text=I confirmed with the driver that this was the correct bus to go to Tyson Corner and transfer .
+6-1	I	B-ScrPart_passenger	O	O	
+6-2	confirmed	O	B-webanno.custom.Events_	B-RelNScrEv	
+6-3	with	O	O	O	
+6-4	the	O	O	O	
+6-5	driver	B-ScrPart_bus_staff	O	O	
+6-6	that	O	O	O	
+6-7	this	O	O	O	
+6-8	was	O	B-webanno.custom.Events_	B-UnrelEv	
+6-9	the	O	O	O	
+6-10	correct	O	O	O	
+6-11	bus	B-ScrPart_bus	O	O	
+6-12	to	O	O	O	
+6-13	go	O	B-webanno.custom.Events_	B-RelNScrEv	
+6-14	to	O	O	O	
+6-15	Tyson	B-NPart	O	O	
+6-16	Corner	I-NPart	O	O	
+6-17	and	O	O	O	
+6-18	transfer	O	B-webanno.custom.Events_	B-RelNScrEv	
+6-19	.	O	O	O	
+
+#id=7
+#text=I chose a seat near the front so I could make sure I did not miss my next stop .
+7-1	I	B-ScrPart_passenger	O	O	
+7-2	chose	O	B-webanno.custom.Events_	B-ScrEv_find_place	
+7-3	a	O	O	O	
+7-4	seat	B-ScrPart_seat_in_bus	O	O	
+7-5	near	O	O	O	
+7-6	the	O	O	O	
+7-7	front	B-ScrPart_other	O	O	
+7-8	so	O	O	O	
+7-9	I	B-ScrPart_passenger	O	O	
+7-10	could	O	O	O	
+7-11	make	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-UnrelEv|B-UnrelEv	
+7-12	sure	O	I-webanno.custom.Events_	I-UnrelEv	
+7-13	I	B-ScrPart_passenger	O	O	
+7-14	did	O	O	O	
+7-15	not	O	O	O	
+7-16	miss	O	B-webanno.custom.Events_	B-RelNScrEv	
+7-17	my	B-ScrPart_passenger	O	O	
+7-18	next	O	O	O	
+7-19	stop	B-ScrPart_bus_stop	O	O	
+7-20	.	O	O	O	
+
+#id=8
+#text=I transferred at Tyson Corner to the 18A , which took me within a block of my work place . 
+8-1	I	B-ScrPart_passenger	O	O	
+8-2	transferred	O	B-webanno.custom.Events_	B-ScrEv_change_bus	
+8-3	at	O	O	O	
+8-4	Tyson	B-ScrPart_bus_stop	O	O	
+8-5	Corner	I-ScrPart_bus_stop	O	O	
+8-6	to	O	O	O	
+8-7	the	O	O	O	
+8-8	18A	B-ScrPart_bus	O	O	
+8-9	,	O	O	O	
+8-10	which	O	O	O	
+8-11	took	O	B-webanno.custom.Events_	B-RelNScrEv	
+8-12	me	B-ScrPart_passenger	O	O	
+8-13	within	O	O	O	
+8-14	a	O	O	O	
+8-15	block	B-NPart	O	O	
+8-16	of	O	O	O	
+8-17	my	B-ScrPart_passenger	O	O	
+8-18	work	B-ScrPart_destination	O	O	
+8-19	place	I-ScrPart_destination|B-ScrPart_destination	O	O	
+8-20	.	O	O	O	
+

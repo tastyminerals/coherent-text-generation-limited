@@ -1,0 +1,191 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=While casually browsing through my friends pictures online I discovered a new revelation .
+1-1	While	O	O	_	_	
+1-2	casually	O	O	_	_	
+1-3	browsing	B-UnrelEv	O	_	_	
+1-4	through	O	O	_	_	
+1-5	my	O	B-ScrPart_bather	_	_	
+1-6	friends	O	O	_	_	
+1-7	pictures	O	O	_	_	
+1-8	online	O	O	_	_	
+1-9	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	1-5	
+1-10	discovered	B-UnrelEv	O	_	_	
+1-11	a	O	O	_	_	
+1-12	new	O	O	_	_	
+1-13	revelation	O	O	_	_	
+1-14	.	O	O	_	_	
+
+#id=2
+#text=They are called Lush bath bombs and the are colorful scented fizz balls .
+2-1	They	O	B-ScrPart_bath_means	_	_	
+2-2	are	O	O	_	_	
+2-3	called	B-UnrelEv	O	_	_	
+2-4	Lush	O	O	_	_	
+2-5	bath	B-Evoking	B-ScrPart_bath_means	_	_	
+2-6	bombs	I-Evoking	I-ScrPart_bath_means|B-ScrPart_bath_means	webanno.custom.Corefchains_	2-1	
+2-7	and	O	O	_	_	
+2-8	the	O	O	_	_	
+2-9	are	B-UnrelEv	O	_	_	
+2-10	colorful	O	O	_	_	
+2-11	scented	O	O	_	_	
+2-12	fizz	O	O	_	_	
+2-13	balls	O	B-ScrPart_bath_means	webanno.custom.Corefchains_	2-6	
+2-14	.	O	O	_	_	
+
+#id=3
+#text=I quickly ordered a few online from their website and when they came I was overcome with excitement .
+3-1	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	1-9	
+3-2	quickly	O	O	_	_	
+3-3	ordered	B-RelNScrEv	O	_	_	
+3-4	a	O	O	_	_	
+3-5	few	O	B-ScrPart_bath_means	webanno.custom.Corefchains_	2-13	
+3-6	online	O	O	_	_	
+3-7	from	O	O	_	_	
+3-8	their	O	O	_	_	
+3-9	website	O	O	_	_	
+3-10	and	O	O	_	_	
+3-11	when	O	O	_	_	
+3-12	they	O	B-ScrPart_bath_means	webanno.custom.Corefchains_	3-5	
+3-13	came	B-UnrelEv	O	_	_	
+3-14	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	3-1	
+3-15	was	O	O	_	_	
+3-16	overcome	B-UnrelEv	O	_	_	
+3-17	with	O	O	_	_	
+3-18	excitement	O	O	_	_	
+3-19	.	O	O	_	_	
+
+#id=4
+#text=I brought a Pink Potion one with a flower inside and a Blue Dream glitter one .
+4-1	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	3-14	
+4-2	brought	B-ScrEv_prepare_bath	O	_	_	
+4-3	a	O	O	_	_	
+4-4	Pink	O	B-ScrPart_bath_means	_	_	
+4-5	Potion	O	I-ScrPart_bath_means	_	_	
+4-6	one	O	I-ScrPart_bath_means|B-ScrPart_bath_means	group_bath_bomb1_bath_bomb2	3-12	
+4-7	with	O	O	_	_	
+4-8	a	O	O	_	_	
+4-9	flower	O	O	_	_	
+4-10	inside	O	O	_	_	
+4-11	and	O	O	_	_	
+4-12	a	O	O	_	_	
+4-13	Blue	O	B-ScrPart_bath_means	_	_	
+4-14	Dream	O	I-ScrPart_bath_means	_	_	
+4-15	glitter	O	I-ScrPart_bath_means	_	_	
+4-16	one	O	I-ScrPart_bath_means|B-ScrPart_bath_means	group_bath_bomb1_bath_bomb2	3-12	
+4-17	.	O	O	_	_	
+
+#id=5
+#text=I put the Hello Kitty tub stopper in my bath tub and ran my bathwater until the tub was halfway full .
+5-1	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	4-1	
+5-2	put	B-ScrEv_close_drain	O	_	_	
+5-3	the	O	O	_	_	
+5-4	Hello	O	O	_	_	
+5-5	Kitty	O	O	_	_	
+5-6	tub	O	B-MissScrPart	_	_	
+5-7	stopper	O	I-MissScrPart|B-MissScrPart	_	_	
+5-8	in	O	O	_	_	
+5-9	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	5-1	
+5-10	bath	O	B-ScrPart_bathtub	_	_	
+5-11	tub	O	I-ScrPart_bathtub|B-ScrPart_bathtub	_	_	
+5-12	and	O	O	_	_	
+5-13	ran	B-ScrEv_fill_water/wait	O	_	_	
+5-14	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	5-9	
+5-15	bathwater	O	B-ScrPart_water	_	_	
+5-16	until	O	O	_	_	
+5-17	the	O	O	_	_	
+5-18	tub	O	B-ScrPart_bathtub	webanno.custom.Corefchains_	5-11	
+5-19	was	B-ScrEv_fill_water/wait	O	_	_	
+5-20	halfway	O	O	_	_	
+5-21	full	O	O	_	_	
+5-22	.	O	O	_	_	
+
+#id=6
+#text=Then I dropped the bath bomb in the water and was anointed by the wonderful smell of lavender .
+6-1	Then	O	O	_	_	
+6-2	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	5-14	
+6-3	dropped	B-ScrEv_prepare_bath	O	_	_	
+6-4	the	O	O	_	_	
+6-5	bath	O	B-ScrPart_bath_means	_	_	
+6-6	bomb	O	I-ScrPart_bath_means|B-ScrPart_bath_means	webanno.custom.Corefchains_	3-12	
+6-7	in	O	O	_	_	
+6-8	the	O	O	_	_	
+6-9	water	O	B-ScrPart_water	webanno.custom.Corefchains_	5-15	
+6-10	and	O	O	_	_	
+6-11	was	O	O	_	_	
+6-12	anointed	B-UnrelEv	O	_	_	
+6-13	by	O	O	_	_	
+6-14	the	O	O	_	_	
+6-15	wonderful	O	O	_	_	
+6-16	smell	O	O	_	_	
+6-17	of	O	O	_	_	
+6-18	lavender	O	O	_	_	
+6-19	.	O	O	_	_	
+
+#id=7
+#text=The water in the tub fizzled with pretty blue glitter .
+7-1	The	O	O	_	_	
+7-2	water	O	B-ScrPart_water	webanno.custom.Corefchains_	6-9	
+7-3	in	O	O	_	_	
+7-4	the	O	O	_	_	
+7-5	tub	O	B-ScrPart_bathtub	webanno.custom.Corefchains_	5-18	
+7-6	fizzled	B-RelNScrEv	O	_	_	
+7-7	with	O	O	_	_	
+7-8	pretty	O	O	_	_	
+7-9	blue	O	O	_	_	
+7-10	glitter	O	B-???	_	_	
+7-11	.	O	O	_	_	
+
+#id=8
+#text=I got in an soaked for more than an hour and got out feeling like a million bucks .
+8-1	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	6-2	
+8-2	got	B-ScrEv_sink_water|B-ScrEv_sink_water	O	_	_	
+8-3	in	I-ScrEv_sink_water	O	_	_	
+8-4	an	O	O	_	_	
+8-5	soaked	B-ScrEv_relax	O	_	_	
+8-6	for	O	O	_	_	
+8-7	more	O	O	_	_	
+8-8	than	O	O	_	_	
+8-9	an	O	O	_	_	
+8-10	hour	O	O	_	_	
+8-11	and	O	O	_	_	
+8-12	got	B-ScrEv_get_out_bath|B-ScrEv_get_out_bath	O	_	_	
+8-13	out	I-ScrEv_get_out_bath	O	_	_	
+8-14	feeling	B-RelNScrEv	O	_	_	
+8-15	like	O	O	_	_	
+8-16	a	O	O	_	_	
+8-17	million	O	O	_	_	
+8-18	bucks	O	O	_	_	
+8-19	.	O	O	_	_	
+
+#id=9
+#text=I seemed to be a thousand times cleaner than I was before I got it .
+9-1	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	8-1	
+9-2	seemed	B-UnrelEv	O	_	_	
+9-3	to	O	O	_	_	
+9-4	be	O	O	_	_	
+9-5	a	O	O	_	_	
+9-6	thousand	O	O	_	_	
+9-7	times	O	O	_	_	
+9-8	cleaner	O	O	_	_	
+9-9	than	O	O	_	_	
+9-10	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	9-1	
+9-11	was	B-UnrelEv	O	_	_	
+9-12	before	O	O	_	_	
+9-13	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	9-10	
+9-14	got	B-UnrelEv	O	_	_	
+9-15	it	O	O	_	_	
+9-16	.	O	O	_	_	
+
+#id=10
+#text=I even smelled great the whole entire day . 
+10-1	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	9-13	
+10-2	even	O	O	_	_	
+10-3	smelled	B-RelNScrEv	O	_	_	
+10-4	great	O	O	_	_	
+10-5	the	O	O	_	_	
+10-6	whole	O	O	_	_	
+10-7	entire	O	O	_	_	
+10-8	day	O	O	_	_	
+10-9	.	O	O	_	_	
+

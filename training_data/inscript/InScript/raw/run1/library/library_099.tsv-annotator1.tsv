@@ -1,0 +1,222 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I really wanted to read the latest Stephen King book , but I did n't want to have to buy it , so I decided I could borrow the book from the library .
+1-1	I	B-ScrPart_customer	O	_	_	
+1-2	really	O	O	_	_	
+1-3	wanted	O	B-UnrelEv	_	_	
+1-4	to	O	O	_	_	
+1-5	read	O	B-RelNScrEv	_	_	
+1-6	the	O	O	_	_	
+1-7	latest	O	O	_	_	
+1-8	Stephen	O	O	_	_	
+1-9	King	O	O	_	_	
+1-10	book	B-ScrPart_book	O	_	_	
+1-11	,	O	O	_	_	
+1-12	but	O	O	_	_	
+1-13	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-1	
+1-14	did	O	O	_	_	
+1-15	n't	O	O	_	_	
+1-16	want	O	B-UnrelEv	_	_	
+1-17	to	O	O	_	_	
+1-18	have	O	O	_	_	
+1-19	to	O	O	_	_	
+1-20	buy	O	B-UnrelEv	_	_	
+1-21	it	B-ScrPart_book	O	webanno.custom.Corefchains_	1-10	
+1-22	,	O	O	_	_	
+1-23	so	O	O	_	_	
+1-24	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-13	
+1-25	decided	O	B-UnrelEv	_	_	
+1-26	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-24	
+1-27	could	O	O	_	_	
+1-28	borrow	O	B-Evoking|B-ScrEv_take_book	_	_	
+1-29	the	O	I-Evoking	_	_	
+1-30	book	B-ScrPart_book	I-Evoking	webanno.custom.Corefchains_	1-21	
+1-31	from	O	I-Evoking	_	_	
+1-32	the	O	I-Evoking	_	_	
+1-33	library	B-ScrPart_library	I-Evoking	_	_	
+1-34	.	O	O	_	_	
+
+#id=2
+#text=I went online first , to check to see if my local library had a copy .
+2-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-26	
+2-2	went	O	B-RelNScrEv	_	_	
+2-3	online	O	O	_	_	
+2-4	first	O	O	_	_	
+2-5	,	O	O	_	_	
+2-6	to	O	O	_	_	
+2-7	check	O	B-MissScrEv	_	_	
+2-8	to	O	O	_	_	
+2-9	see	O	B-UnrelEv	_	_	
+2-10	if	O	O	_	_	
+2-11	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-1	
+2-12	local	O	O	_	_	
+2-13	library	B-ScrPart_library	O	_	_	
+2-14	had	O	B-RelNScrEv	_	_	
+2-15	a	O	O	_	_	
+2-16	copy	B-ScrPart_book	O	webanno.custom.Corefchains_	1-30	
+2-17	.	O	O	_	_	
+
+#id=3
+#text=All their 's were checked out , but another nearby library had several copies in stock .
+3-1	All	B-ScrPart_book	O	webanno.custom.Corefchains_	2-16	
+3-2	their	B-ScrPart_library	O	webanno.custom.Corefchains_	2-13	
+3-3	's	O	O	_	_	
+3-4	were	O	O	_	_	
+3-5	checked	O	B-MissScrEv|B-MissScrEv	_	_	
+3-6	out	O	I-MissScrEv	_	_	
+3-7	,	O	O	_	_	
+3-8	but	O	O	_	_	
+3-9	another	O	O	_	_	
+3-10	nearby	O	O	_	_	
+3-11	library	B-ScrPart_library	O	_	_	
+3-12	had	O	B-RelNScrEv	_	_	
+3-13	several	O	O	_	_	
+3-14	copies	B-ScrPart_book	O	webanno.custom.Corefchains_	2-16	
+3-15	in	O	O	_	_	
+3-16	stock	O	O	_	_	
+3-17	.	O	O	_	_	
+
+#id=4
+#text=They also had a great new feature where I could reserve the book online , so I did that .
+4-1	They	B-ScrPart_library	O	webanno.custom.Corefchains_	3-11	
+4-2	also	O	O	_	_	
+4-3	had	O	B-UnrelEv	_	_	
+4-4	a	O	O	_	_	
+4-5	great	O	O	_	_	
+4-6	new	O	O	_	_	
+4-7	feature	O	O	_	_	
+4-8	where	O	O	_	_	
+4-9	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-11	
+4-10	could	O	O	_	_	
+4-11	reserve	O	B-ScrEv_order_book	_	_	
+4-12	the	O	O	_	_	
+4-13	book	B-ScrPart_book	O	webanno.custom.Corefchains_	3-14	
+4-14	online	O	O	_	_	
+4-15	,	O	O	_	_	
+4-16	so	O	O	_	_	
+4-17	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-9	
+4-18	did	O	B-UnrelEv	_	_	
+4-19	that	O	O	_	_	
+4-20	.	O	O	_	_	
+
+#id=5
+#text=I drove to the library , and went straight to the front desk .
+5-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-17	
+5-2	drove	O	B-ScrEv_get_library	_	_	
+5-3	to	O	O	_	_	
+5-4	the	O	O	_	_	
+5-5	library	B-ScrPart_library	O	webanno.custom.Corefchains_	4-1	
+5-6	,	O	O	_	_	
+5-7	and	O	O	_	_	
+5-8	went	O	B-ScrEv_go_check_out	_	_	
+5-9	straight	O	O	_	_	
+5-10	to	O	O	_	_	
+5-11	the	O	O	_	_	
+5-12	front	B-ScrPart_check-out_desk	O	_	_	
+5-13	desk	I-ScrPart_check-out_desk|B-ScrPart_check-out_desk	O	_	_	
+5-14	.	O	O	_	_	
+
+#id=6
+#text=I told the librarian that I had reserved a copy of Stephen King 's new book online , and she asked for my library card and told me she 'd be right back .
+6-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-1	
+6-2	told	O	B-ScrEv_ask_librarian	_	_	
+6-3	the	O	O	_	_	
+6-4	librarian	B-ScrPart_staff	O	_	_	
+6-5	that	O	O	_	_	
+6-6	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-1	
+6-7	had	O	O	_	_	
+6-8	reserved	O	B-ScrEv_order_book	_	_	
+6-9	a	O	O	_	_	
+6-10	copy	B-ScrPart_book	O	webanno.custom.Corefchains_	4-13	
+6-11	of	O	O	_	_	
+6-12	Stephen	O	O	_	_	
+6-13	King	O	O	_	_	
+6-14	's	O	O	_	_	
+6-15	new	O	O	_	_	
+6-16	book	O	O	_	_	
+6-17	online	O	O	_	_	
+6-18	,	O	O	_	_	
+6-19	and	O	O	_	_	
+6-20	she	B-ScrPart_staff	O	webanno.custom.Corefchains_	6-4	
+6-21	asked	O	B-ScrEv_show_card	_	_	
+6-22	for	O	O	_	_	
+6-23	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-6	
+6-24	library	B-ScrPart_library_card	O	_	_	
+6-25	card	I-ScrPart_library_card|B-ScrPart_library_card	O	_	_	
+6-26	and	O	O	_	_	
+6-27	told	O	B-UnrelEv	_	_	
+6-28	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-23	
+6-29	she	B-ScrPart_staff	O	webanno.custom.Corefchains_	6-20	
+6-30	'd	O	O	_	_	
+6-31	be	O	B-UnrelEv	_	_	
+6-32	right	O	O	_	_	
+6-33	back	O	O	_	_	
+6-34	.	O	O	_	_	
+
+#id=7
+#text=She brought the book to the counter , and used her computer to confirm that I had indeed reserved a copy of the book online .
+7-1	She	B-ScrPart_staff	O	webanno.custom.Corefchains_	6-29	
+7-2	brought	O	B-ScrEv_take_book	_	_	
+7-3	the	O	O	_	_	
+7-4	book	B-ScrPart_book	O	webanno.custom.Corefchains_	6-10	
+7-5	to	O	O	_	_	
+7-6	the	O	O	_	_	
+7-7	counter	B-ScrPart_check-out_desk	O	webanno.custom.Corefchains_	5-13	
+7-8	,	O	O	_	_	
+7-9	and	O	O	_	_	
+7-10	used	O	B-ScrEv_register	_	_	
+7-11	her	B-ScrPart_staff	O	webanno.custom.Corefchains_	7-1	
+7-12	computer	B-ScrPart_institutional_devices	O	_	_	
+7-13	to	O	O	_	_	
+7-14	confirm	O	B-RelNScrEv	_	_	
+7-15	that	O	O	_	_	
+7-16	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-28	
+7-17	had	O	O	_	_	
+7-18	indeed	O	O	_	_	
+7-19	reserved	O	B-ScrEv_order_book	_	_	
+7-20	a	O	O	_	_	
+7-21	copy	B-ScrPart_book	O	webanno.custom.Corefchains_	7-4	
+7-22	of	O	O	_	_	
+7-23	the	O	O	_	_	
+7-24	book	O	O	_	_	
+7-25	online	O	O	_	_	
+7-26	.	O	O	_	_	
+
+#id=8
+#text=She gave me the book and told me I had two weeks before it was due back .
+8-1	She	B-ScrPart_staff	O	webanno.custom.Corefchains_	7-11	
+8-2	gave	O	B-ScrEv_take_book	_	_	
+8-3	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-16	
+8-4	the	O	O	_	_	
+8-5	book	B-ScrPart_book	O	webanno.custom.Corefchains_	7-21	
+8-6	and	O	O	_	_	
+8-7	told	O	B-UnrelEv	_	_	
+8-8	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-3	
+8-9	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-8	
+8-10	had	O	B-???	_	_	
+8-11	two	B-ScrPart_return_date	O	_	_	
+8-12	weeks	I-ScrPart_return_date|B-ScrPart_return_date	O	_	_	
+8-13	before	O	O	_	_	
+8-14	it	B-ScrPart_book	O	webanno.custom.Corefchains_	8-5	
+8-15	was	O	O	_	_	
+8-16	due	O	B-ScrEv_return_book	_	_	
+8-17	back	O	O	_	_	
+8-18	.	O	O	_	_	
+
+#id=9
+#text=I thanked her for it and went home to read my new book . 
+9-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-9	
+9-2	thanked	O	B-UnrelEv	_	_	
+9-3	her	B-ScrPart_staff	O	webanno.custom.Corefchains_	8-1	
+9-4	for	O	O	_	_	
+9-5	it	O	O	_	_	
+9-6	and	O	O	_	_	
+9-7	went	O	B-ScrEv_leave	_	_	
+9-8	home	O	O	_	_	
+9-9	to	O	O	_	_	
+9-10	read	O	B-RelNScrEv	_	_	
+9-11	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-1	
+9-12	new	O	O	_	_	
+9-13	book	B-ScrPart_book	O	webanno.custom.Corefchains_	8-14	
+9-14	.	O	O	_	_	
+

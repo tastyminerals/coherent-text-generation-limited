@@ -1,0 +1,217 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=Last night we decided to head into New York City .
+1-1	Last	O	O	
+1-2	night	B-NPart	O	
+1-3	we	B-ScrPart_passenger	O	
+1-4	decided	O	B-UnrelEv	
+1-5	to	O	O	
+1-6	head	O	B-UnrelEv	
+1-7	into	O	O	
+1-8	New	B-ScrPart_destination	O	
+1-9	York	I-ScrPart_destination	O	
+1-10	City	I-ScrPart_destination	O	
+1-11	.	O	O	
+
+#id=2
+#text=Driving in was not a good option , who wants to deal with that kind of traffic ?
+2-1	Driving	O	B-UnrelEv|B-UnrelEv	
+2-2	in	O	I-UnrelEv	
+2-3	was	O	O	
+2-4	not	O	O	
+2-5	a	O	O	
+2-6	good	O	O	
+2-7	option	B-NPart	O	
+2-8	,	O	O	
+2-9	who	O	O	
+2-10	wants	O	B-UnrelEv	
+2-11	to	O	O	
+2-12	deal	O	B-UnrelEv|B-UnrelEv	
+2-13	with	O	I-UnrelEv	
+2-14	that	O	O	
+2-15	kind	B-NPart	O	
+2-16	of	O	O	
+2-17	traffic	B-NPart	O	
+2-18	?	O	O	
+
+#id=3
+#text=So we decide a better idea was to take the train in .
+3-1	So	O	O	
+3-2	we	B-ScrPart_passenger	O	
+3-3	decide	O	B-UnrelEv	
+3-4	a	O	O	
+3-5	better	O	O	
+3-6	idea	B-NPart	O	
+3-7	was	O	B-UnrelEv	
+3-8	to	O	O	
+3-9	take	O	B-Evoking	
+3-10	the	O	I-Evoking	
+3-11	train	B-ScrPart_train	I-Evoking	
+3-12	in	O	I-Evoking	
+3-13	.	O	O	
+
+#id=4
+#text=We parked our car at the train station in Newark and prepaid for weekend parking .
+4-1	We	B-ScrPart_passenger	O	
+4-2	parked	O	B-UnrelEv	
+4-3	our	B-ScrPart_passenger	O	
+4-4	car	B-NPart	O	
+4-5	at	O	O	
+4-6	the	O	O	
+4-7	train	B-ScrPart_train_station	O	
+4-8	station	I-ScrPart_train_station|B-ScrPart_train_station	O	
+4-9	in	O	O	
+4-10	Newark	B-NPart	O	
+4-11	and	O	O	
+4-12	prepaid	O	B-RelNScrEv	
+4-13	for	O	O	
+4-14	weekend	B-NPart	O	
+4-15	parking	O	B-UnrelEv	
+4-16	.	O	O	
+
+#id=5
+#text=I grabbed a small bag and we went to the ticket window to purchase our tickets .
+5-1	I	B-ScrPart_passenger	O	
+5-2	grabbed	O	B-UnrelEv	
+5-3	a	O	O	
+5-4	small	O	O	
+5-5	bag	B-NPart	O	
+5-6	and	O	O	
+5-7	we	B-ScrPart_passenger	O	
+5-8	went	O	B-ScrEv_other	
+5-9	to	O	O	
+5-10	the	O	O	
+5-11	ticket	B-ScrPart_ticket_office/website	O	
+5-12	window	I-ScrPart_ticket_office/website|B-ScrPart_ticket_office/website	O	
+5-13	to	O	O	
+5-14	purchase	O	B-ScrEv_get_tickets	
+5-15	our	B-ScrPart_passenger	O	
+5-16	tickets	B-ScrPart_card/ticket	O	
+5-17	.	O	O	
+
+#id=6
+#text=After that we just had to wait for our train to arrive and begin boarding .
+6-1	After	O	O	
+6-2	that	O	O	
+6-3	we	B-ScrPart_passenger	O	
+6-4	just	O	O	
+6-5	had	O	O	
+6-6	to	O	O	
+6-7	wait	O	B-ScrEv_wait	
+6-8	for	O	O	
+6-9	our	B-ScrPart_passenger	O	
+6-10	train	B-ScrPart_train	O	
+6-11	to	O	O	
+6-12	arrive	O	B-ScrEv_train_arrives	
+6-13	and	O	O	
+6-14	begin	O	B-UnrelEv	
+6-15	boarding	O	B-RelNScrEv	
+6-16	.	O	O	
+
+#id=7
+#text=Once it was at the station we were so excited , we ran out to the platform and boarded one of the cars .
+7-1	Once	O	O	
+7-2	it	B-ScrPart_train	O	
+7-3	was	O	B-UnrelEv	
+7-4	at	O	O	
+7-5	the	O	O	
+7-6	station	B-ScrPart_train_station	O	
+7-7	we	B-NPart	O	
+7-8	were	O	B-UnrelEv	
+7-9	so	O	O	
+7-10	excited	O	O	
+7-11	,	O	O	
+7-12	we	B-ScrPart_passenger	O	
+7-13	ran	O	B-ScrEv_get_platform|B-ScrEv_get_platform	
+7-14	out	O	I-ScrEv_get_platform	
+7-15	to	O	O	
+7-16	the	O	O	
+7-17	platform	B-ScrPart_platform	O	
+7-18	and	O	O	
+7-19	boarded	O	B-ScrEv_get_on	
+7-20	one	O	O	
+7-21	of	O	O	
+7-22	the	O	O	
+7-23	cars	B-ScrPart_coach	O	
+7-24	.	O	O	
+
+#id=8
+#text=We found seats quickly , unlike an airplane you just sit where you want .
+8-1	We	B-ScrPart_passenger	O	
+8-2	found	O	B-ScrEv_find_place	
+8-3	seats	B-ScrPart_seat	O	
+8-4	quickly	O	O	
+8-5	,	O	O	
+8-6	unlike	O	O	
+8-7	an	O	O	
+8-8	airplane	B-NPart	O	
+8-9	you	B-ScrPart_passenger	O	
+8-10	just	O	O	
+8-11	sit	O	B-UnrelEv	
+8-12	where	O	O	
+8-13	you	B-ScrPart_passenger	O	
+8-14	want	O	B-UnrelEv	
+8-15	.	O	O	
+
+#id=9
+#text=And then off we went !
+9-1	And	O	O	
+9-2	then	O	O	
+9-3	off	O	O	
+9-4	we	B-ScrPart_passenger	O	
+9-5	went	O	B-ScrEv_train_departs	
+9-6	!	O	O	
+
+#id=10
+#text=The train seemed to stop a lot , there were so many more stations than I realized were out there .
+10-1	The	O	O	
+10-2	train	B-ScrPart_train	O	
+10-3	seemed	O	B-UnrelEv	
+10-4	to	O	O	
+10-5	stop	O	B-ScrEv_other	
+10-6	a	O	O	
+10-7	lot	B-No_label	O	
+10-8	,	O	O	
+10-9	there	O	O	
+10-10	were	O	B-UnrelEv	
+10-11	so	O	O	
+10-12	many	O	O	
+10-13	more	O	O	
+10-14	stations	B-ScrPart_train_station	O	
+10-15	than	O	O	
+10-16	I	B-ScrPart_passenger	O	
+10-17	realized	O	B-UnrelEv	
+10-18	were	O	B-UnrelEv	
+10-19	out	O	O	
+10-20	there	O	O	
+10-21	.	O	O	
+
+#id=11
+#text=Eventually though , we heard those magic words .
+11-1	Eventually	O	O	
+11-2	though	O	O	
+11-3	,	O	O	
+11-4	we	B-ScrPart_passenger	O	
+11-5	heard	O	B-UnrelEv	
+11-6	those	O	O	
+11-7	magic	O	O	
+11-8	words	B-NPart	O	
+11-9	.	O	O	
+
+#id=12
+#text=Penn Station !
+12-1	Penn	B-ScrPart_train_station	O	
+12-2	Station	I-ScrPart_train_station|B-ScrPart_train_station	O	
+12-3	!	O	O	
+
+#id=13
+#text=We had arrived in New York City ! 
+13-1	We	B-ScrPart_passenger	O	
+13-2	had	O	O	
+13-3	arrived	O	B-ScrEv_arrive_destination	
+13-4	in	O	O	
+13-5	New	B-ScrPart_destination	O	
+13-6	York	I-ScrPart_destination	O	
+13-7	City	I-ScrPart_destination	O	
+13-8	!	O	O	
+

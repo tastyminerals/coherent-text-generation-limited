@@ -1,0 +1,209 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant
+#id=1
+#text=Traveling by train can be very convenient and\/or relaxing .
+1-1	Traveling	B-Evoking	O	
+1-2	by	I-Evoking	O	
+1-3	train	I-Evoking	B-ScrPart_train	
+1-4	can	O	O	
+1-5	be	B-UnrelEv	O	
+1-6	very	O	O	
+1-7	convenient	O	O	
+1-8	and\/or	O	O	
+1-9	relaxing	B-UnrelEv	O	
+1-10	.	O	O	
+
+#id=2
+#text=Some trains , like commuter trains , can get you into a city without having to rely on cars or walking .
+2-1	Some	O	O	
+2-2	trains	O	B-ScrPart_train	
+2-3	,	O	O	
+2-4	like	O	O	
+2-5	commuter	O	B-ScrPart_train	
+2-6	trains	O	I-ScrPart_train|B-ScrPart_train	
+2-7	,	O	O	
+2-8	can	O	O	
+2-9	get	B-RelNScrEv	O	
+2-10	you	O	B-ScrPart_passenger	
+2-11	into	O	O	
+2-12	a	O	O	
+2-13	city	O	B-ScrPart_destination	
+2-14	without	O	O	
+2-15	having	O	O	
+2-16	to	O	O	
+2-17	rely	B-UnrelEv	O	
+2-18	on	O	O	
+2-19	cars	O	B-NPart	
+2-20	or	O	O	
+2-21	walking	B-UnrelEv	O	
+2-22	.	O	O	
+
+#id=3
+#text=This is very quick , affordable , and convenient !
+3-1	This	O	O	
+3-2	is	B-UnrelEv	O	
+3-3	very	O	O	
+3-4	quick	O	O	
+3-5	,	O	O	
+3-6	affordable	O	O	
+3-7	,	O	O	
+3-8	and	O	O	
+3-9	convenient	O	O	
+3-10	!	O	O	
+
+#id=4
+#text=You simply hop on the train at your stop and hop off when you need to .
+4-1	You	O	B-ScrPart_passenger	
+4-2	simply	O	O	
+4-3	hop	B-ScrEv_get_on	O	
+4-4	on	O	O	
+4-5	the	O	O	
+4-6	train	O	B-ScrPart_train	
+4-7	at	O	O	
+4-8	your	O	B-ScrPart_passenger	
+4-9	stop	O	B-ScrPart_train_station	
+4-10	and	O	O	
+4-11	hop	B-ScrEv_get_off	O	
+4-12	off	I-ScrEv_get_off	O	
+4-13	when	O	O	
+4-14	you	O	B-ScrPart_passenger	
+4-15	need	B-UnrelEv	O	
+4-16	to	O	O	
+4-17	.	O	O	
+
+#id=5
+#text=Most commuter trains offer passes that are a great discount for people who ride it often .
+5-1	Most	O	O	
+5-2	commuter	O	B-ScrPart_train	
+5-3	trains	O	I-ScrPart_train|B-ScrPart_train	
+5-4	offer	B-UnrelEv	O	
+5-5	passes	O	B-ScrPart_card/ticket	
+5-6	that	O	O	
+5-7	are	B-UnrelEv	O	
+5-8	a	O	O	
+5-9	great	O	O	
+5-10	discount	O	B-NPart	
+5-11	for	O	O	
+5-12	people	O	B-ScrPart_passenger	
+5-13	who	O	O	
+5-14	ride	B-Evoking	O	
+5-15	it	I-Evoking	B-ScrPart_train	
+5-16	often	O	O	
+5-17	.	O	O	
+
+#id=6
+#text=Other trains travel long distances .
+6-1	Other	O	O	
+6-2	trains	O	B-ScrPart_train	
+6-3	travel	B-RelNScrEv	O	
+6-4	long	O	O	
+6-5	distances	O	B-NPart	
+6-6	.	O	O	
+
+#id=7
+#text=Perhaps you do n't like to fly or do n't want to drive your car a long distance .
+7-1	Perhaps	O	O	
+7-2	you	O	B-ScrPart_passenger	
+7-3	do	O	O	
+7-4	n't	O	O	
+7-5	like	B-UnrelEv	O	
+7-6	to	O	O	
+7-7	fly	B-UnrelEv	O	
+7-8	or	O	O	
+7-9	do	O	O	
+7-10	n't	O	O	
+7-11	want	O	O	
+7-12	to	O	O	
+7-13	drive	B-UnrelEv	O	
+7-14	your	O	B-ScrPart_passenger	
+7-15	car	O	B-NPart	
+7-16	a	O	O	
+7-17	long	O	O	
+7-18	distance	O	B-NPart	
+7-19	.	O	O	
+
+#id=8
+#text=If you ride a train , you can see the beautiful scenery as you travel but you are free to walk around , read , chat , or even grab a bite to eat !
+8-1	If	O	O	
+8-2	you	O	B-ScrPart_passenger	
+8-3	ride	B-Evoking	O	
+8-4	a	I-Evoking	O	
+8-5	train	I-Evoking	B-ScrPart_train	
+8-6	,	O	O	
+8-7	you	O	B-ScrPart_passenger	
+8-8	can	O	O	
+8-9	see	B-ScrEv_spend_time_train	O	
+8-10	the	O	O	
+8-11	beautiful	O	O	
+8-12	scenery	O	B-ScrPart_in-train_entertainment	
+8-13	as	O	O	
+8-14	you	O	B-ScrPart_passenger	
+8-15	travel	B-RelNScrEv	O	
+8-16	but	O	O	
+8-17	you	O	B-ScrPart_passenger	
+8-18	are	B-UnrelEv	O	
+8-19	free	O	O	
+8-20	to	O	O	
+8-21	walk	B-ScrEv_spend_time_train	O	
+8-22	around	I-ScrEv_spend_time_train	O	
+8-23	,	O	O	
+8-24	read	B-ScrEv_spend_time_train	O	
+8-25	,	O	O	
+8-26	chat	B-ScrEv_spend_time_train	O	
+8-27	,	O	O	
+8-28	or	O	O	
+8-29	even	O	O	
+8-30	grab	B-ScrEv_spend_time_train	O	
+8-31	a	O	O	
+8-32	bite	O	B-ScrPart_in-train_entertainment	
+8-33	to	O	O	
+8-34	eat	B-ScrEv_spend_time_train	O	
+8-35	!	O	O	
+
+#id=9
+#text=Some trains also have sleeper cars so travelers can be well-rested when they arrive at their destination .
+9-1	Some	O	O	
+9-2	trains	O	B-ScrPart_train	
+9-3	also	O	O	
+9-4	have	B-UnrelEv	O	
+9-5	sleeper	O	B-ScrPart_coach	
+9-6	cars	O	I-ScrPart_coach|B-ScrPart_coach	
+9-7	so	O	O	
+9-8	travelers	O	B-ScrPart_passenger	
+9-9	can	O	O	
+9-10	be	B-UnrelEv	O	
+9-11	well-rested	O	O	
+9-12	when	O	O	
+9-13	they	O	B-ScrPart_passenger	
+9-14	arrive	B-ScrEv_arrive_destination	O	
+9-15	at	O	O	
+9-16	their	O	B-ScrPart_passenger	
+9-17	destination	O	B-ScrPart_destination	
+9-18	.	O	O	
+
+#id=10
+#text=There are many conveniences to going on a train that make it a great option for getting from point A to point B ! 
+10-1	There	O	O	
+10-2	are	B-UnrelEv	O	
+10-3	many	O	O	
+10-4	conveniences	O	B-NPart	
+10-5	to	O	O	
+10-6	going	B-Evoking	O	
+10-7	on	I-Evoking	O	
+10-8	a	I-Evoking	O	
+10-9	train	I-Evoking	B-ScrPart_train	
+10-10	that	O	O	
+10-11	make	B-UnrelEv	O	
+10-12	it	O	B-No_label	
+10-13	a	O	O	
+10-14	great	O	O	
+10-15	option	O	B-NPart	
+10-16	for	O	O	
+10-17	getting	B-RelNScrEv	O	
+10-18	from	O	O	
+10-19	point	O	B-NPart	
+10-20	A	O	I-NPart	
+10-21	to	O	O	
+10-22	point	O	B-ScrPart_destination	
+10-23	B	O	I-ScrPart_destination	
+10-24	!	O	O	
+

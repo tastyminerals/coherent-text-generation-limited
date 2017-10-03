@@ -1,0 +1,228 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=I walked into the train station , stood in line , and purchased a round trip ticket to Chicago .
+1-1	I	B-ScrPart_passenger	O	
+1-2	walked	O	B-Evoking|B-ScrEv_get_train_station	
+1-3	into	O	I-Evoking	
+1-4	the	O	I-Evoking	
+1-5	train	B-ScrPart_train_station	I-Evoking	
+1-6	station	I-ScrPart_train_station|B-ScrPart_train_station	I-Evoking	
+1-7	,	O	O	
+1-8	stood	O	B-ScrEv_other	
+1-9	in	O	O	
+1-10	line	B-ScrPart_line	O	
+1-11	,	O	O	
+1-12	and	O	O	
+1-13	purchased	O	B-ScrEv_get_tickets	
+1-14	a	O	O	
+1-15	round	O	O	
+1-16	trip	B-ScrPart_trip	O	
+1-17	ticket	B-ScrPart_card/ticket	O	
+1-18	to	O	O	
+1-19	Chicago	B-ScrPart_destination	O	
+1-20	.	O	O	
+
+#id=2
+#text=I placed my ticket in my pocket and then walked outside to wait for the train .
+2-1	I	B-ScrPart_passenger	O	
+2-2	placed	O	B-UnrelEv	
+2-3	my	B-ScrPart_passenger	O	
+2-4	ticket	B-ScrPart_card/ticket	O	
+2-5	in	O	O	
+2-6	my	B-ScrPart_passenger	O	
+2-7	pocket	B-NPart	O	
+2-8	and	O	O	
+2-9	then	O	O	
+2-10	walked	O	B-ScrEv_get_platform	
+2-11	outside	O	O	
+2-12	to	O	O	
+2-13	wait	O	B-ScrEv_wait	
+2-14	for	O	O	
+2-15	the	O	O	
+2-16	train	B-ScrPart_train	O	
+2-17	.	O	O	
+
+#id=3
+#text=I stood next to many other people that were also waiting for the train .
+3-1	I	B-ScrPart_passenger	O	
+3-2	stood	O	B-UnrelEv	
+3-3	next	O	O	
+3-4	to	O	O	
+3-5	many	O	O	
+3-6	other	O	O	
+3-7	people	B-ScrPart_passenger	O	
+3-8	that	O	O	
+3-9	were	O	O	
+3-10	also	O	O	
+3-11	waiting	O	B-ScrEv_wait	
+3-12	for	O	O	
+3-13	the	O	O	
+3-14	train	B-ScrPart_train	O	
+3-15	.	O	O	
+
+#id=4
+#text=We heard the train coming when it was still a long distance away .
+4-1	We	B-ScrPart_passenger	O	
+4-2	heard	O	B-UnrelEv	
+4-3	the	O	O	
+4-4	train	B-ScrPart_train	O	
+4-5	coming	O	B-ScrEv_train_arrives	
+4-6	when	O	O	
+4-7	it	B-ScrPart_train	O	
+4-8	was	O	B-UnrelEv	
+4-9	still	O	O	
+4-10	a	O	O	
+4-11	long	O	O	
+4-12	distance	B-NPart	O	
+4-13	away	O	O	
+4-14	.	O	O	
+
+#id=5
+#text=It finally pulled up to the tracks .
+5-1	It	B-ScrPart_train	O	
+5-2	finally	O	O	
+5-3	pulled	O	B-ScrEv_train_arrives	
+5-4	up	O	O	
+5-5	to	O	O	
+5-6	the	O	O	
+5-7	tracks	B-No_label	O	
+5-8	.	O	O	
+
+#id=6
+#text=Everyone lined up to get inside the doors .
+6-1	Everyone	B-ScrPart_passenger	O	
+6-2	lined	O	B-RelNScrEv|B-RelNScrEv	
+6-3	up	O	I-RelNScrEv	
+6-4	to	O	O	
+6-5	get	O	B-RelNScrEv|B-RelNScrEv	
+6-6	inside	O	I-RelNScrEv	
+6-7	the	O	O	
+6-8	doors	B-ScrPart_door	O	
+6-9	.	O	O	
+
+#id=7
+#text=The doors open and we all filed in .
+7-1	The	O	O	
+7-2	doors	B-ScrPart_door	O	
+7-3	open	O	B-ScrEv_door_opens	
+7-4	and	O	O	
+7-5	we	B-ScrPart_passenger	O	
+7-6	all	O	O	
+7-7	filed	O	B-ScrEv_get_on	
+7-8	in	O	O	
+7-9	.	O	O	
+
+#id=8
+#text=I found a seat by myself at the back of the train .
+8-1	I	B-ScrPart_passenger	O	
+8-2	found	O	B-ScrEv_find_place	
+8-3	a	O	O	
+8-4	seat	B-ScrPart_seat	O	
+8-5	by	O	O	
+8-6	myself	B-ScrPart_passenger	O	
+8-7	at	O	O	
+8-8	the	O	O	
+8-9	back	B-NPart	O	
+8-10	of	O	O	
+8-11	the	O	O	
+8-12	train	B-ScrPart_train	O	
+8-13	.	O	O	
+
+#id=9
+#text=I sat down and looked out the window at the passing towns .
+9-1	I	B-ScrPart_passenger	O	
+9-2	sat	O	B-UnrelEv|B-UnrelEv	
+9-3	down	O	I-UnrelEv	
+9-4	and	O	O	
+9-5	looked	O	B-ScrEv_spend_time_train|B-ScrEv_spend_time_train	
+9-6	out	O	I-ScrEv_spend_time_train	
+9-7	the	O	O	
+9-8	window	B-ScrPart_in-train_entertainment	O	
+9-9	at	O	O	
+9-10	the	O	O	
+9-11	passing	O	B-UnrelEv	
+9-12	towns	B-NPart	O	
+9-13	.	O	O	
+
+#id=10
+#text=After awhile , the announcer said the next and final stop would be Chicago .
+10-1	After	O	O	
+10-2	awhile	O	O	
+10-3	,	O	O	
+10-4	the	O	O	
+10-5	announcer	B-ScrPart_train_staff	O	
+10-6	said	O	B-RelNScrEv	
+10-7	the	O	O	
+10-8	next	O	O	
+10-9	and	O	O	
+10-10	final	O	O	
+10-11	stop	B-ScrPart_destination	O	
+10-12	would	O	O	
+10-13	be	O	B-UnrelEv	
+10-14	Chicago	B-ScrPart_destination	O	
+10-15	.	O	O	
+
+#id=11
+#text=I stood up and walked over to the doors .
+11-1	I	B-ScrPart_passenger	O	
+11-2	stood	O	B-ScrEv_move_exit|B-ScrEv_move_exit	
+11-3	up	O	I-ScrEv_move_exit	
+11-4	and	O	O	
+11-5	walked	O	B-ScrEv_move_exit|B-ScrEv_move_exit	
+11-6	over	O	I-ScrEv_move_exit	
+11-7	to	O	O	
+11-8	the	O	O	
+11-9	doors	B-ScrPart_door	O	
+11-10	.	O	O	
+
+#id=12
+#text=The train pulled into the station , making a loud screeching noise .
+12-1	The	O	O	
+12-2	train	B-ScrPart_train	O	
+12-3	pulled	O	B-ScrEv_arrive_destination	
+12-4	into	O	O	
+12-5	the	O	O	
+12-6	station	B-ScrPart_destination	O	
+12-7	,	O	O	
+12-8	making	O	B-UnrelEv	
+12-9	a	O	O	
+12-10	loud	O	O	
+12-11	screeching	O	O	
+12-12	noise	B-NPart	O	
+12-13	.	O	O	
+
+#id=13
+#text=It slowly came to a stop inside the station .
+13-1	It	B-ScrPart_train	O	
+13-2	slowly	O	O	
+13-3	came	O	B-RelNScrEv	
+13-4	to	O	O	
+13-5	a	O	O	
+13-6	stop	B-SuppVComp	O	
+13-7	inside	O	O	
+13-8	the	O	O	
+13-9	station	B-ScrPart_destination	O	
+13-10	.	O	O	
+
+#id=14
+#text=The doors opened and all the passengers climbed off the train , and into Union Station in Chicago . 
+14-1	The	O	O	
+14-2	doors	B-ScrPart_door	O	
+14-3	opened	O	B-ScrEv_door_opens	
+14-4	and	O	O	
+14-5	all	O	O	
+14-6	the	O	O	
+14-7	passengers	B-ScrPart_passenger	O	
+14-8	climbed	O	B-ScrEv_get_off	
+14-9	off	O	O	
+14-10	the	O	O	
+14-11	train	B-ScrPart_train	O	
+14-12	,	O	O	
+14-13	and	O	O	
+14-14	into	O	O	
+14-15	Union	B-NPart	O	
+14-16	Station	I-NPart	O	
+14-17	in	O	O	
+14-18	Chicago	B-ScrPart_destination	O	
+14-19	.	O	O	
+

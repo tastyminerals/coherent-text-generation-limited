@@ -1,0 +1,241 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Before you plant a tree , you must contact the utility company .
+1-1	Before	O	O	_	_	
+1-2	you	B-ScrPart_gardener	O	_	_	
+1-3	plant	O	B-Evoking	_	_	
+1-4	a	O	I-Evoking	_	_	
+1-5	tree	B-ScrPart_tree	I-Evoking	_	_	
+1-6	,	O	O	_	_	
+1-7	you	B-ScrPart_gardener	O	_	_	
+1-8	must	O	O	_	_	
+1-9	contact	O	B-UnrelEv	_	_	
+1-10	the	O	O	_	_	
+1-11	utility	B-NPart	O	_	_	
+1-12	company	I-NPart|B-NPart	O	_	_	
+1-13	.	O	O	_	_	
+
+#id=2
+#text=They will come to your property and mark out utility lines .
+2-1	They	B-NPart	O	_	_	
+2-2	will	O	O	_	_	
+2-3	come	O	B-UnrelEv	_	_	
+2-4	to	O	O	_	_	
+2-5	your	B-ScrPart_gardener	O	_	_	
+2-6	property	B-NPart	O	_	_	
+2-7	and	O	O	_	_	
+2-8	mark	O	B-UnrelEv	_	_	
+2-9	out	O	I-UnrelEv	_	_	
+2-10	utility	B-NPart	O	_	_	
+2-11	lines	I-NPart|B-NPart	O	_	_	
+2-12	.	O	O	_	_	
+
+#id=3
+#text=Without doing this , you may dig down and hit a line , which can be lethal !
+3-1	Without	O	O	_	_	
+3-2	doing	O	B-UnrelEv	_	_	
+3-3	this	O	O	_	_	
+3-4	,	O	O	_	_	
+3-5	you	B-ScrPart_gardener	O	_	_	
+3-6	may	O	O	_	_	
+3-7	dig	O	B-ScrEv_dug_hole	_	_	
+3-8	down	O	I-ScrEv_dug_hole	_	_	
+3-9	and	O	O	_	_	
+3-10	hit	O	B-UnrelEv	_	_	
+3-11	a	O	O	_	_	
+3-12	line	B-NPart	O	_	_	
+3-13	,	O	O	_	_	
+3-14	which	O	O	_	_	
+3-15	can	O	O	_	_	
+3-16	be	O	B-UnrelEv	_	_	
+3-17	lethal	O	O	_	_	
+3-18	!	O	O	_	_	
+
+#id=4
+#text=Once you know where to dig , select what type of tree you want .
+4-1	Once	O	O	_	_	
+4-2	you	B-ScrPart_gardener	O	_	_	
+4-3	know	O	B-UnrelEv	_	_	
+4-4	where	O	O	_	_	
+4-5	to	O	O	_	_	
+4-6	dig	O	B-ScrEv_dug_hole	_	_	
+4-7	,	O	O	_	_	
+4-8	select	O	B-ScrEv_choose_tree	_	_	
+4-9	what	O	O	_	_	
+4-10	type	B-NPart	O	_	_	
+4-11	of	O	O	_	_	
+4-12	tree	B-ScrPart_tree	O	_	_	
+4-13	you	B-ScrPart_gardener	O	webanno.custom.Corefchains_	4-2	
+4-14	want	O	B-UnrelEv	_	_	
+4-15	.	O	O	_	_	
+
+#id=5
+#text=Take things into consideration such as how much sun it gets , what zone you are in , and how quickly you want it to grow .
+5-1	Take	O	B-UnrelEv	_	_	
+5-2	things	B-No_label	O	_	_	
+5-3	into	O	O	_	_	
+5-4	consideration	B-NPart	O	_	_	
+5-5	such	O	O	_	_	
+5-6	as	O	O	_	_	
+5-7	how	O	O	_	_	
+5-8	much	O	O	_	_	
+5-9	sun	B-NPart	O	_	_	
+5-10	it	B-ScrPart_tree	O	_	_	
+5-11	gets	O	B-UnrelEv	_	_	
+5-12	,	O	O	_	_	
+5-13	what	O	O	_	_	
+5-14	zone	B-NPart	O	_	_	
+5-15	you	B-ScrPart_gardener	O	webanno.custom.Corefchains_	4-13	
+5-16	are	O	B-UnrelEv	_	_	
+5-17	in	O	O	_	_	
+5-18	,	O	O	_	_	
+5-19	and	O	O	_	_	
+5-20	how	O	O	_	_	
+5-21	quickly	O	O	_	_	
+5-22	you	B-ScrPart_gardener	O	webanno.custom.Corefchains_	5-15	
+5-23	want	O	B-UnrelEv	_	_	
+5-24	it	B-ScrPart_tree	O	_	_	
+5-25	to	O	O	_	_	
+5-26	grow	O	B-RelNScrEv	_	_	
+5-27	.	O	O	_	_	
+
+#id=6
+#text=Dig a hole large enough for the tree and roots .
+6-1	Dig	O	B-ScrEv_dug_hole	_	_	
+6-2	a	O	O	_	_	
+6-3	hole	B-ScrPart_hole	O	_	_	
+6-4	large	O	O	_	_	
+6-5	enough	O	O	_	_	
+6-6	for	O	O	_	_	
+6-7	the	O	O	_	_	
+6-8	tree	B-ScrPart_tree	O	_	_	
+6-9	and	O	O	_	_	
+6-10	roots	B-ScrPart_root	O	_	_	
+6-11	.	O	O	_	_	
+
+#id=7
+#text=Place the tree in the hole and then fill the hole back up with dirt .
+7-1	Place	O	B-ScrEv_place_root	_	_	
+7-2	the	O	O	_	_	
+7-3	tree	B-ScrPart_tree	O	_	_	
+7-4	in	O	O	_	_	
+7-5	the	O	O	_	_	
+7-6	hole	B-ScrPart_hole	O	_	_	
+7-7	and	O	O	_	_	
+7-8	then	O	O	_	_	
+7-9	fill	O	B-ScrEv_refill_hole	_	_	
+7-10	the	O	O	_	_	
+7-11	hole	B-ScrPart_hole	O	_	_	
+7-12	back	O	O	_	_	
+7-13	up	O	O	_	_	
+7-14	with	O	O	_	_	
+7-15	dirt	B-ScrPart_dirt	O	_	_	
+7-16	.	O	O	_	_	
+
+#id=8
+#text=Many small trees will need support until they are bigger .
+8-1	Many	O	O	_	_	
+8-2	small	O	O	_	_	
+8-3	trees	B-ScrPart_tree	O	_	_	
+8-4	will	O	O	_	_	
+8-5	need	O	B-UnrelEv	_	_	
+8-6	support	B-???	O	_	_	
+8-7	until	O	O	_	_	
+8-8	they	B-ScrPart_tree	O	_	_	
+8-9	are	O	B-UnrelEv	_	_	
+8-10	bigger	O	O	_	_	
+8-11	.	O	O	_	_	
+
+#id=9
+#text=This will ensure they grow tall and straight .
+9-1	This	O	O	_	_	
+9-2	will	O	O	_	_	
+9-3	ensure	O	B-UnrelEv	_	_	
+9-4	they	B-ScrPart_tree	O	_	_	
+9-5	grow	O	B-RelNScrEv	_	_	
+9-6	tall	O	O	_	_	
+9-7	and	O	O	_	_	
+9-8	straight	O	O	_	_	
+9-9	.	O	O	_	_	
+
+#id=10
+#text=It is crucial to keep the tree watered !
+10-1	It	B-No_label	O	_	_	
+10-2	is	O	B-UnrelEv	_	_	
+10-3	crucial	O	O	_	_	
+10-4	to	O	O	_	_	
+10-5	keep	O	B-UnrelEv	_	_	
+10-6	the	O	O	_	_	
+10-7	tree	B-ScrPart_tree	O	_	_	
+10-8	watered	O	B-ScrEv_water	_	_	
+10-9	!	O	O	_	_	
+
+#id=11
+#text=It will need a lot of water at first .
+11-1	It	B-ScrPart_tree	O	_	_	
+11-2	will	O	O	_	_	
+11-3	need	O	B-UnrelEv	_	_	
+11-4	a	O	O	_	_	
+11-5	lot	B-Head_of_Partitive	O	_	_	
+11-6	of	O	O	_	_	
+11-7	water	B-ScrPart_water	O	_	_	
+11-8	at	O	O	_	_	
+11-9	first	O	O	_	_	
+11-10	.	O	O	_	_	
+
+#id=12
+#text=Mulch is helpful to keep the soil moist .
+12-1	Mulch	B-ScrPart_fertilizer	O	_	_	
+12-2	is	O	B-UnrelEv	_	_	
+12-3	helpful	O	O	_	_	
+12-4	to	O	O	_	_	
+12-5	keep	O	B-UnrelEv	_	_	
+12-6	the	O	O	_	_	
+12-7	soil	B-ScrPart_dirt	O	_	_	
+12-8	moist	O	O	_	_	
+12-9	.	O	O	_	_	
+
+#id=13
+#text=It 's also important to wait until the threat of a frost has passed or is not in the near future .
+13-1	It	B-No_label	O	_	_	
+13-2	's	O	B-UnrelEv	_	_	
+13-3	also	O	O	_	_	
+13-4	important	O	O	_	_	
+13-5	to	O	O	_	_	
+13-6	wait	O	B-UnrelEv	_	_	
+13-7	until	O	O	_	_	
+13-8	the	O	O	_	_	
+13-9	threat	B-NPart	O	_	_	
+13-10	of	O	O	_	_	
+13-11	a	O	O	_	_	
+13-12	frost	B-NPart	O	_	_	
+13-13	has	O	O	_	_	
+13-14	passed	O	B-UnrelEv	_	_	
+13-15	or	O	O	_	_	
+13-16	is	O	B-UnrelEv	_	_	
+13-17	not	O	O	_	_	
+13-18	in	O	O	_	_	
+13-19	the	O	O	_	_	
+13-20	near	O	O	_	_	
+13-21	future	B-NPart	O	_	_	
+13-22	.	O	O	_	_	
+
+#id=14
+#text=Giving care to your new tree will ensure that it will grow big and strong ! 
+14-1	Giving	O	B-UnrelEv	_	_	
+14-2	care	B-SuppVComp	O	_	_	
+14-3	to	O	O	_	_	
+14-4	your	B-ScrPart_gardener	O	webanno.custom.Corefchains_	5-22	
+14-5	new	O	O	_	_	
+14-6	tree	B-ScrPart_tree	O	_	_	
+14-7	will	O	O	_	_	
+14-8	ensure	O	B-UnrelEv	_	_	
+14-9	that	O	O	_	_	
+14-10	it	B-ScrPart_tree	O	_	_	
+14-11	will	O	O	_	_	
+14-12	grow	O	B-RelNScrEv	_	_	
+14-13	big	O	O	_	_	
+14-14	and	O	O	_	_	
+14-15	strong	O	O	_	_	
+14-16	!	O	O	_	_	
+

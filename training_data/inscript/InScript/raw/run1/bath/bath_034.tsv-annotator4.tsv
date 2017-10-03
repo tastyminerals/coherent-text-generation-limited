@@ -1,0 +1,193 @@
+# webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants					
+#id=1					
+#text=After a long day of work I decided to take a bath .					
+1-1	After	O	O	_	_
+1-2	a	O	O	_	_
+1-3	long	O	O	_	_
+1-4	day	O	O	_	_
+1-5	of	O	O	_	_
+1-6	work	O	O	_	_
+1-7	I	B-ScrPart_bather	O	_	_
+1-8	decided	O	B-UnrelEv	_	_
+1-9	to	O	O	_	_
+1-10	take	O	B-Evoking	_	_
+1-11	a	O	I-Evoking	_	_
+1-12	bath	B-SuppVComp	I-Evoking	_	_
+1-13	.	O	O	_	_
+					
+#id=2					
+#text=First I put on some good relaxing acoustic music to listen to while I took the bath .					
+2-1	First	O	O	_	_
+2-2	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	1-7
+2-3	put	O	B-ScrEv_prepare_bath	_	_
+2-4	on	O	I-ScrEv_prepare_bath	_	_
+2-5	some	O	O	_	_
+2-6	good	O	O	_	_
+2-7	relaxing	O	B-ScrEv_relax	_	_
+2-8	acoustic	O	O	_	_
+2-9	music	B-ScrPart_in-bath_entertainment	O	_	_
+2-10	to	O	O	_	_
+2-11	listen	O	B-RelNScrEv	_	_
+2-12	to	O	O	_	_
+2-13	while	O	O	_	_
+2-14	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	2-2
+2-15	took	O	B-Evoking	_	_
+2-16	the	O	I-Evoking	_	_
+2-17	bath	B-SuppVComp	I-Evoking	_	_
+2-18	.	O	O	_	_
+					
+#id=3					
+#text=Then I got the water nice and hot and then stopped the drain .					
+3-1	Then	O	O	_	_
+3-2	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	2-14
+3-3	got	O	B-ScrEv_check_temp	_	_
+3-4	the	O	O	_	_
+3-5	water	B-ScrPart_water	O	_	_
+3-6	nice	O	O	_	_
+3-7	and	O	O	_	_
+3-8	hot	O	O	_	_
+3-9	and	O	O	_	_
+3-10	then	O	O	_	_
+3-11	stopped	O	B-ScrEv_close_drain	_	_
+3-12	the	O	O	_	_
+3-13	drain	B-ScrPart_drain	O	_	_
+3-14	.	O	O	_	_
+					
+#id=4					
+#text=After the tub was full I added lavender bubbles .					
+4-1	After	O	O	_	_
+4-2	the	O	O	_	_
+4-3	tub	B-ScrPart_bathtub	O	_	_
+4-4	was	O	B-???	_	_
+4-5	full	O	O	_	_
+4-6	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	3-2
+4-7	added	O	B-ScrEv_put_bubble_bath_scent	_	_
+4-8	lavender	B-ScrPart_bath_means	O	_	_
+4-9	bubbles	I-ScrPart_bath_means|B-ScrPart_bath_means	O	_	_
+4-10	.	O	O	_	_
+					
+#id=5					
+#text=I got a tray to place across the bath with my wine and a magazine and some chocolate .					
+5-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	4-6
+5-2	got	O	B-ScrEv_prepare_bath	_	_
+5-3	a	O	O	_	_
+5-4	tray	B-NPart	O	_	_
+5-5	to	O	O	_	_
+5-6	place	O	B-ScrEv_prepare_bath	_	_
+5-7	across	O	O	_	_
+5-8	the	O	O	_	_
+5-9	bath	B-ScrPart_bathtub	O	webanno.custom.Corefchains_	4-3
+5-10	with	O	O	_	_
+5-11	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	5-1
+5-12	wine	B-ScrPart_in-bath_entertainment	O	_	_
+5-13	and	O	O	_	_
+5-14	a	O	O	_	_
+5-15	magazine	B-ScrPart_in-bath_entertainment	O	_	_
+5-16	and	O	O	_	_
+5-17	some	O	O	_	_
+5-18	chocolate	B-ScrPart_in-bath_entertainment	O	_	_
+5-19	.	O	O	_	_
+					
+#id=6					
+#text=I sank into the water and sighed with relief .					
+6-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	5-11
+6-2	sank	O	B-ScrEv_sink_water	_	_
+6-3	into	O	O	_	_
+6-4	the	O	O	_	_
+6-5	water	B-ScrPart_water	O	webanno.custom.Corefchains_	3-5
+6-6	and	O	O	_	_
+6-7	sighed	O	B-ScrEv_relax	_	_
+6-8	with	O	O	_	_
+6-9	relief	O	O	_	_
+6-10	.	O	O	_	_
+					
+#id=7					
+#text=I drank three glasses of wine and haphazardly paged through the magazine .					
+7-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	6-1
+7-2	drank	O	B-RelNScrEv	_	_
+7-3	three	O	O	_	_
+7-4	glasses	O	O	_	_
+7-5	of	O	O	_	_
+7-6	wine	B-ScrPart_in-bath_entertainment	O	webanno.custom.Corefchains_	5-12
+7-7	and	O	O	_	_
+7-8	haphazardly	O	O	_	_
+7-9	paged	O	B-RelNScrEv	_	_
+7-10	through	O	O	_	_
+7-11	the	O	O	_	_
+7-12	magazine	B-ScrPart_in-bath_entertainment	O	webanno.custom.Corefchains_	5-15
+7-13	.	O	O	_	_
+					
+#id=8					
+#text=When I was done with my bath I pulled the plug and drained the water .					
+8-1	When	O	O	_	_
+8-2	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	7-1
+8-3	was	O	O	_	_
+8-4	done	O	B-UnrelEv	_	_
+8-5	with	O	O	_	_
+8-6	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	8-2
+8-7	bath	O	O	_	_
+8-8	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	8-6
+8-9	pulled	O	B-ScrEv_open_drain	_	_
+8-10	the	O	O	_	_
+8-11	plug	B-ScrPart_drain	O	webanno.custom.Corefchains_	3-13
+8-12	and	O	O	_	_
+8-13	drained	O	B-RelNScrEv	_	_
+8-14	the	O	O	_	_
+8-15	water	B-ScrPart_water	O	webanno.custom.Corefchains_	6-5
+8-16	.	O	O	_	_
+					
+#id=9					
+#text=Then I turned on the shower to rinse myself off .					
+9-1	Then	O	O	_	_
+9-2	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	8-8
+9-3	turned	O	B-RelNScrEv	_	_
+9-4	on	O	I-RelNScrEv	_	_
+9-5	the	O	O	_	_
+9-6	shower	B-NPart	O	_	_
+9-7	to	O	O	_	_
+9-8	rinse	O	B-RelNScrEv	_	_
+9-9	myself	B-ScrPart_bather	O	webanno.custom.Corefchains_	9-2
+9-10	off	O	O	_	_
+9-11	.	O	O	_	_
+					
+#id=10					
+#text=Once all the soap was off I stepped out .					
+10-1	Once	O	O	_	_
+10-2	all	O	O	_	_
+10-3	the	O	O	_	_
+10-4	soap	B-ScrPart_washing_tools	O	_	_
+10-5	was	O	B-UnrelEv	_	_
+10-6	off	O	O	_	_
+10-7	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	9-9
+10-8	stepped	O	B-ScrEv_get_out_bath	_	_
+10-9	out	O	I-ScrEv_get_out_bath	_	_
+10-10	.	O	O	_	_
+					
+#id=11					
+#text=I dried off and then put on my robe .					
+11-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	10-7
+11-2	dried	O	B-ScrEv_dry	_	_
+11-3	off	O	I-ScrEv_dry	_	_
+11-4	and	O	O	_	_
+11-5	then	O	O	_	_
+11-6	put	O	B-ScrEv_get_dressed	_	_
+11-7	on	O	I-ScrEv_get_dressed	_	_
+11-8	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	11-1
+11-9	robe	B-ScrPart_clothes	O	_	_
+11-10	.	O	O	_	_
+					
+#id=12					
+#text=I was now done taking a bath and was ready for bed .					
+12-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	11-8
+12-2	was	O	O	_	_
+12-3	now	O	O	_	_
+12-4	done	O	B-UnrelEv	_	_
+12-5	taking	O	B-Evoking	_	_
+12-6	a	O	I-Evoking	_	_
+12-7	bath	B-SuppVComp	I-Evoking	_	_
+12-8	and	O	O	_	_
+12-9	was	O	B-UnrelEv	_	_
+12-10	ready	O	O	_	_
+12-11	for	O	O	_	_
+12-12	bed	O	O	_	_
+12-13	.	O	O	_	_

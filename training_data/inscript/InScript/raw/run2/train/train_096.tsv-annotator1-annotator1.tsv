@@ -1,0 +1,199 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Taking a train somewhere can be an old-fashioned way of travel , but it can also be a lot of fun !
+1-1	Taking	B-Evoking	O	_	_	
+1-2	a	I-Evoking	O	_	_	
+1-3	train	I-Evoking	B-ScrPart_train	_	_	
+1-4	somewhere	O	O	_	_	
+1-5	can	O	O	_	_	
+1-6	be	B-UnrelEv	O	_	_	
+1-7	an	O	O	_	_	
+1-8	old-fashioned	O	O	_	_	
+1-9	way	O	B-Head_of_Partitive	_	_	
+1-10	of	O	O	_	_	
+1-11	travel	O	B-NPart	_	_	
+1-12	,	O	O	_	_	
+1-13	but	O	O	_	_	
+1-14	it	O	B-ScrPart_train	_	_	
+1-15	can	O	O	_	_	
+1-16	also	O	O	_	_	
+1-17	be	B-UnrelEv	O	_	_	
+1-18	a	O	O	_	_	
+1-19	lot	O	B-Head_of_Partitive	_	_	
+1-20	of	O	O	_	_	
+1-21	fun	O	B-NPart	_	_	
+1-22	!	O	O	_	_	
+
+#id=2
+#text=Train tracks do n't go everywhere anymore and they certainly are n't used as often .
+2-1	Train	O	B-ScrPart_other	_	_	
+2-2	tracks	O	I-ScrPart_other|B-ScrPart_other	_	_	
+2-3	do	O	O	_	_	
+2-4	n't	O	O	_	_	
+2-5	go	B-UnrelEv	O	_	_	
+2-6	everywhere	O	O	_	_	
+2-7	anymore	O	O	_	_	
+2-8	and	O	O	_	_	
+2-9	they	O	B-ScrPart_other	webanno.custom.Corefchains_	2-2	
+2-10	certainly	O	O	_	_	
+2-11	are	O	O	_	_	
+2-12	n't	O	O	_	_	
+2-13	used	B-UnrelEv	O	_	_	
+2-14	as	O	O	_	_	
+2-15	often	O	O	_	_	
+2-16	.	O	O	_	_	
+
+#id=3
+#text=This can make travel a little bit more difficult .
+3-1	This	O	O	_	_	
+3-2	can	O	O	_	_	
+3-3	make	B-UnrelEv	O	_	_	
+3-4	travel	O	O	_	_	
+3-5	a	O	O	_	_	
+3-6	little	O	O	_	_	
+3-7	bit	O	B-No_label	_	_	
+3-8	more	O	O	_	_	
+3-9	difficult	O	O	_	_	
+3-10	.	O	O	_	_	
+
+#id=4
+#text=I decided to take a train to visit my friend one day .
+4-1	I	O	B-ScrPart_passenger	_	_	
+4-2	decided	B-UnrelEv	O	_	_	
+4-3	to	O	O	_	_	
+4-4	take	B-Evoking	O	_	_	
+4-5	a	I-Evoking	O	_	_	
+4-6	train	I-Evoking	B-ScrPart_train	_	_	
+4-7	to	O	O	_	_	
+4-8	visit	B-UnrelEv	O	_	_	
+4-9	my	O	B-ScrPart_passenger	_	_	
+4-10	friend	O	B-NPart	_	_	
+4-11	one	O	O	_	_	
+4-12	day	O	B-ScrPart_time_date	_	_	
+4-13	.	O	O	_	_	
+
+#id=5
+#text=I found a great deal on train tickets and decided to travel the country the old-fashioned way .
+5-1	I	O	B-ScrPart_passenger	_	_	
+5-2	found	B-ScrEv_get_tickets	O	_	_	
+5-3	a	O	O	_	_	
+5-4	great	O	O	_	_	
+5-5	deal	O	B-No_label	_	_	
+5-6	on	O	O	_	_	
+5-7	train	O	B-ScrPart_train	_	_	
+5-8	tickets	O	B-ScrPart_card/ticket	_	_	
+5-9	and	O	O	_	_	
+5-10	decided	B-UnrelEv	O	_	_	
+5-11	to	O	O	_	_	
+5-12	travel	B-RelNScrEv	O	_	_	
+5-13	the	O	O	_	_	
+5-14	country	O	B-NPart	_	_	
+5-15	the	O	O	_	_	
+5-16	old-fashioned	O	O	_	_	
+5-17	way	O	B-No_label	_	_	
+5-18	.	O	O	_	_	
+
+#id=6
+#text=I ordered my tickets on a computer and arranged my whole trip .
+6-1	I	O	B-ScrPart_passenger	_	_	
+6-2	ordered	B-ScrEv_get_tickets	O	_	_	
+6-3	my	O	B-ScrPart_passenger	_	_	
+6-4	tickets	O	B-ScrPart_card/ticket	_	_	
+6-5	on	O	O	_	_	
+6-6	a	O	O	_	_	
+6-7	computer	O	B-ScrPart_ticket_office/website	_	_	
+6-8	and	O	O	_	_	
+6-9	arranged	B-UnrelEv	O	_	_	
+6-10	my	O	B-ScrPart_passenger	_	_	
+6-11	whole	O	O	_	_	
+6-12	trip	B-Evoking	B-ScrPart_trip	_	_	
+6-13	.	O	O	_	_	
+
+#id=7
+#text=I packed up my belongings , just like you would if you were flying a plane - both have a specific departure time !
+7-1	I	O	B-ScrPart_passenger	_	_	
+7-2	packed	B-ScrEv_other|B-ScrEv_other	O	_	_	
+7-3	up	I-ScrEv_other	O	_	_	
+7-4	my	O	B-ScrPart_passenger	_	_	
+7-5	belongings	O	B-ScrPart_personal_belongings	_	_	
+7-6	,	O	O	_	_	
+7-7	just	O	O	_	_	
+7-8	like	O	O	_	_	
+7-9	you	O	B-NPart	_	_	
+7-10	would	O	O	_	_	
+7-11	if	O	O	_	_	
+7-12	you	O	B-NPart	webanno.custom.Corefchains_	7-9	
+7-13	were	O	O	_	_	
+7-14	flying	B-UnrelEv	O	_	_	
+7-15	a	O	O	_	_	
+7-16	plane	O	B-NPart	_	_	
+7-17	-	O	O	_	_	
+7-18	both	O	O	_	_	
+7-19	have	B-RelNScrEv	O	_	_	
+7-20	a	O	O	_	_	
+7-21	specific	O	O	_	_	
+7-22	departure	O	B-ScrPart_time_date	_	_	
+7-23	time	O	I-ScrPart_time_date|B-ScrPart_time_date	_	_	
+7-24	!	O	O	_	_	
+
+#id=8
+#text=Instead of going to an airport , I showed up at the train station with my luggage and train tickets .
+8-1	Instead	O	O	_	_	
+8-2	of	O	O	_	_	
+8-3	going	B-UnrelEv	O	_	_	
+8-4	to	O	O	_	_	
+8-5	an	O	O	_	_	
+8-6	airport	O	B-NPart	_	_	
+8-7	,	O	O	_	_	
+8-8	I	O	B-ScrPart_passenger	_	_	
+8-9	showed	B-ScrEv_get_train_station|B-ScrEv_get_train_station	O	_	_	
+8-10	up	I-ScrEv_get_train_station	O	_	_	
+8-11	at	O	O	_	_	
+8-12	the	O	O	_	_	
+8-13	train	O	B-ScrPart_train_station	_	_	
+8-14	station	O	I-ScrPart_train_station|B-ScrPart_train_station	_	_	
+8-15	with	O	O	_	_	
+8-16	my	O	B-ScrPart_passenger	_	_	
+8-17	luggage	O	B-ScrPart_luggage	_	_	
+8-18	and	O	O	_	_	
+8-19	train	O	B-ScrPart_card/ticket	_	_	
+8-20	tickets	O	I-ScrPart_card/ticket|B-ScrPart_card/ticket	_	_	
+8-21	.	O	O	_	_	
+
+#id=9
+#text=I stowed away my luggage and handed my ticket over .
+9-1	I	O	B-ScrPart_passenger	_	_	
+9-2	stowed	B-ScrEv_other|B-ScrEv_other	O	_	_	
+9-3	away	I-ScrEv_other	O	_	_	
+9-4	my	O	B-ScrPart_passenger	_	_	
+9-5	luggage	O	B-ScrPart_luggage	_	_	
+9-6	and	O	O	_	_	
+9-7	handed	B-ScrEv_conductor_checks	O	_	_	
+9-8	my	O	B-ScrPart_passenger	_	_	
+9-9	ticket	O	B-ScrPart_card/ticket	_	_	
+9-10	over	O	O	_	_	
+9-11	.	O	O	_	_	
+
+#id=10
+#text=I found a great car with a bed and a shared bathroom and had a very enjoyable train trip ! 
+10-1	I	O	B-ScrPart_passenger	_	_	
+10-2	found	B-ScrEv_find_place	O	_	_	
+10-3	a	O	O	_	_	
+10-4	great	O	O	_	_	
+10-5	car	O	B-ScrPart_coach	_	_	
+10-6	with	O	O	_	_	
+10-7	a	O	O	_	_	
+10-8	bed	O	B-ScrPart_other	_	_	
+10-9	and	O	O	_	_	
+10-10	a	O	O	_	_	
+10-11	shared	B-UnrelEv	O	_	_	
+10-12	bathroom	O	B-ScrPart_location_train	_	_	
+10-13	and	O	O	_	_	
+10-14	had	B-UnrelEv	O	_	_	
+10-15	a	O	O	_	_	
+10-16	very	O	O	_	_	
+10-17	enjoyable	O	O	_	_	
+10-18	train	B-Evoking	B-ScrPart_trip	_	_	
+10-19	trip	I-Evoking	I-ScrPart_trip|B-ScrPart_trip	_	_	
+10-20	!	O	O	_	_	
+

@@ -1,0 +1,217 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Carla decided to get her hair cut today .
+1-1	Carla	B-ScrPart_customer	O	_	_	
+1-2	decided	O	B-UnrelEv	_	_	
+1-3	to	O	O	_	_	
+1-4	get	O	B-Evoking	_	_	
+1-5	her	B-ScrPart_customer	I-Evoking	webanno.custom.Corefchains_	1-1	
+1-6	hair	B-ScrPart_hair	I-Evoking	_	_	
+1-7	cut	O	I-Evoking	_	_	
+1-8	today	O	O	_	_	
+1-9	.	O	O	_	_	
+
+#id=2
+#text=So , she stopped by a nearby hair salon .
+2-1	So	O	O	_	_	
+2-2	,	O	O	_	_	
+2-3	she	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-5	
+2-4	stopped	O	B-ScrEv_get_salon	_	_	
+2-5	by	O	O	_	_	
+2-6	a	O	O	_	_	
+2-7	nearby	O	O	_	_	
+2-8	hair	B-ScrPart_salon	O	_	_	
+2-9	salon	I-ScrPart_salon|B-ScrPart_salon	O	_	_	
+2-10	.	O	O	_	_	
+
+#id=3
+#text=After saying hello to the hairdresser and waiting for a few minutes , she sat on one of the chairs that were now free .
+3-1	After	O	O	_	_	
+3-2	saying	O	B-RelNScrEv	_	_	
+3-3	hello	O	I-RelNScrEv	_	_	
+3-4	to	O	O	_	_	
+3-5	the	O	O	_	_	
+3-6	hairdresser	B-ScrPart_hairdresser	O	_	_	
+3-7	and	O	O	_	_	
+3-8	waiting	O	B-ScrEv_wait	_	_	
+3-9	for	O	O	_	_	
+3-10	a	O	O	_	_	
+3-11	few	O	O	_	_	
+3-12	minutes	B-ScrPart_time/date	O	_	_	
+3-13	,	O	O	_	_	
+3-14	she	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-3	
+3-15	sat	O	B-ScrEv_sit_down	_	_	
+3-16	on	O	O	_	_	
+3-17	one	O	O	_	_	
+3-18	of	O	O	_	_	
+3-19	the	O	O	_	_	
+3-20	chairs	B-ScrPart_chair	O	_	_	
+3-21	that	O	O	_	_	
+3-22	were	O	B-UnrelEv	_	_	
+3-23	now	O	O	_	_	
+3-24	free	O	O	_	_	
+3-25	.	O	O	_	_	
+
+#id=4
+#text=The hairdresser next washed Carla 's hair with water and shampoo .
+4-1	The	O	O	_	_	
+4-2	hairdresser	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	3-6	
+4-3	next	O	O	_	_	
+4-4	washed	O	B-ScrEv_wash	_	_	
+4-5	Carla	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-14	
+4-6	's	O	O	_	_	
+4-7	hair	B-ScrPart_hair	O	webanno.custom.Corefchains_	1-6	
+4-8	with	O	O	_	_	
+4-9	water	B-NPart	O	_	_	
+4-10	and	O	O	_	_	
+4-11	shampoo	B-ScrPart_hair_styling/treatment	O	_	_	
+4-12	.	O	O	_	_	
+
+#id=5
+#text=Once the hair was dry , she inspected Carla 's face shape and asked what kind of hair style she wanted .
+5-1	Once	O	O	_	_	
+5-2	the	O	O	_	_	
+5-3	hair	B-ScrPart_hair	O	webanno.custom.Corefchains_	4-7	
+5-4	was	O	B-UnrelEv	_	_	
+5-5	dry	O	O	_	_	
+5-6	,	O	O	_	_	
+5-7	she	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_|group_Carla_hairdresser	4-2|6-1	
+5-8	inspected	O	B-RelNScrEv	_	_	
+5-9	Carla	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-5	
+5-10	's	O	O	_	_	
+5-11	face	B-NPart	O	_	_	
+5-12	shape	I-NPart|B-NPart	O	_	_	
+5-13	and	O	O	_	_	
+5-14	asked	O	B-ScrEv_talk_haircut	_	_	
+5-15	what	O	O	_	_	
+5-16	kind	B-NPart	O	_	_	
+5-17	of	O	O	_	_	
+5-18	hair	B-MissScrPart	O	_	_	
+5-19	style	I-MissScrPart|B-MissScrPart	O	_	_	
+5-20	she	B-ScrPart_customer	O	webanno.custom.Corefchains_|group_Carla_hairdresser	5-9|6-1	
+5-21	wanted	O	B-UnrelEv	_	_	
+5-22	.	O	O	_	_	
+
+#id=6
+#text=They discussed this for about a minute before a decision was made .
+6-1	They	B-???	O	_	_	
+6-2	discussed	O	B-ScrEv_talk_haircut	_	_	
+6-3	this	O	O	_	_	
+6-4	for	O	O	_	_	
+6-5	about	O	O	_	_	
+6-6	a	O	O	_	_	
+6-7	minute	B-ScrPart_time/date	O	_	_	
+6-8	before	O	O	_	_	
+6-9	a	O	O	_	_	
+6-10	decision	O	O	_	_	
+6-11	was	O	O	_	_	
+6-12	made	O	B-UnrelEv	_	_	
+6-13	.	O	O	_	_	
+
+#id=7
+#text=The hairdresser then prepared the hair , separating it into different sections before she began cutting it .
+7-1	The	O	O	_	_	
+7-2	hairdresser	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	5-7	
+7-3	then	O	O	_	_	
+7-4	prepared	O	B-RelNScrEv	_	_	
+7-5	the	O	O	_	_	
+7-6	hair	B-ScrPart_hair	O	webanno.custom.Corefchains_	5-3	
+7-7	,	O	O	_	_	
+7-8	separating	O	B-RelNScrEv	_	_	
+7-9	it	B-ScrPart_hair	O	webanno.custom.Corefchains_	7-6	
+7-10	into	O	O	_	_	
+7-11	different	O	O	_	_	
+7-12	sections	B-NPart	O	_	_	
+7-13	before	O	O	_	_	
+7-14	she	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	7-2	
+7-15	began	O	B-UnrelEv	_	_	
+7-16	cutting	O	B-ScrEv_cut	_	_	
+7-17	it	B-ScrPart_hair	O	webanno.custom.Corefchains_	7-9	
+7-18	.	O	O	_	_	
+
+#id=8
+#text=She worked calmly and carefully , making sure that she would successfully achieve the style Carla wanted .
+8-1	She	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	7-14	
+8-2	worked	O	B-UnrelEv	_	_	
+8-3	calmly	O	O	_	_	
+8-4	and	O	O	_	_	
+8-5	carefully	O	O	_	_	
+8-6	,	O	O	_	_	
+8-7	making	O	B-UnrelEv	_	_	
+8-8	sure	O	I-UnrelEv	_	_	
+8-9	that	O	O	_	_	
+8-10	she	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	8-1	
+8-11	would	O	O	_	_	
+8-12	successfully	O	O	_	_	
+8-13	achieve	O	B-UnrelEv	_	_	
+8-14	the	O	O	_	_	
+8-15	style	B-MissScrPart	O	webanno.custom.Corefchains_	5-19	
+8-16	Carla	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-20	
+8-17	wanted	O	B-UnrelEv	_	_	
+8-18	.	O	O	_	_	
+
+#id=9
+#text=After about 30 minutes , the hairdresser had almost finished .
+9-1	After	O	O	_	_	
+9-2	about	O	O	_	_	
+9-3	30	O	O	_	_	
+9-4	minutes	B-ScrPart_time/date	O	_	_	
+9-5	,	O	O	_	_	
+9-6	the	O	O	_	_	
+9-7	hairdresser	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	8-10	
+9-8	had	O	O	_	_	
+9-9	almost	O	O	_	_	
+9-10	finished	O	B-UnrelEv	_	_	
+9-11	.	O	O	_	_	
+
+#id=10
+#text=So , she made last-minute touches by drying the hair using a blow dryer , and some final trimming .
+10-1	So	O	O	_	_	
+10-2	,	O	O	_	_	
+10-3	she	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	9-7	
+10-4	made	O	B-UnrelEv	_	_	
+10-5	last-minute	O	O	_	_	
+10-6	touches	O	O	_	_	
+10-7	by	O	O	_	_	
+10-8	drying	O	B-ScrEv_dry	_	_	
+10-9	the	O	O	_	_	
+10-10	hair	B-ScrPart_hair	O	webanno.custom.Corefchains_	7-17	
+10-11	using	O	B-UnrelEv	_	_	
+10-12	a	O	O	_	_	
+10-13	blow	B-ScrPart_hairdryer	O	_	_	
+10-14	dryer	I-ScrPart_hairdryer|B-ScrPart_hairdryer	O	_	_	
+10-15	,	O	O	_	_	
+10-16	and	O	O	_	_	
+10-17	some	O	O	_	_	
+10-18	final	O	O	_	_	
+10-19	trimming	O	B-ScrEv_cut	_	_	
+10-20	.	O	O	_	_	
+
+#id=11
+#text=Once this was finished , Carla checked herself in the mirror and was very happy once she saw how nice her new hairstyle looked . 
+11-1	Once	O	O	_	_	
+11-2	this	O	O	_	_	
+11-3	was	O	B-UnrelEv	_	_	
+11-4	finished	O	O	_	_	
+11-5	,	O	O	_	_	
+11-6	Carla	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-16	
+11-7	checked	O	B-ScrEv_look_mirror	_	_	
+11-8	herself	B-ScrPart_customer	O	webanno.custom.Corefchains_	11-6	
+11-9	in	O	O	_	_	
+11-10	the	O	O	_	_	
+11-11	mirror	B-ScrPart_mirror	O	_	_	
+11-12	and	O	O	_	_	
+11-13	was	O	B-UnrelEv	_	_	
+11-14	very	O	O	_	_	
+11-15	happy	O	O	_	_	
+11-16	once	O	O	_	_	
+11-17	she	B-ScrPart_customer	O	webanno.custom.Corefchains_	11-8	
+11-18	saw	O	B-ScrEv_look_mirror	_	_	
+11-19	how	O	O	_	_	
+11-20	nice	O	O	_	_	
+11-21	her	B-ScrPart_customer	O	webanno.custom.Corefchains_	11-17	
+11-22	new	O	O	_	_	
+11-23	hairstyle	B-MissScrPart	O	webanno.custom.Corefchains_	8-15	
+11-24	looked	O	B-UnrelEv	_	_	
+11-25	.	O	O	_	_	
+

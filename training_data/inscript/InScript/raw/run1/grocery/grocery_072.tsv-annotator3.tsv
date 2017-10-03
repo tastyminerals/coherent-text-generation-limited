@@ -1,0 +1,256 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Every Saturday I do a chore I actually really enjoy - grocery shopping !
+1-1	Every	O	O	_	_	
+1-2	Saturday	O	O	_	_	
+1-3	I	B-ScrPart_shopper	O	_	_	
+1-4	do	O	B-UnrelEv	_	_	
+1-5	a	O	O	_	_	
+1-6	chore	O	O	_	_	
+1-7	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	1-3	
+1-8	actually	O	O	_	_	
+1-9	really	O	O	_	_	
+1-10	enjoy	O	B-UnrelEv	_	_	
+1-11	-	O	O	_	_	
+1-12	grocery	O	B-Evoking	_	_	
+1-13	shopping	O	I-Evoking	_	_	
+1-14	!	O	O	_	_	
+
+#id=2
+#text=This past Saturday was no exception , so I began to plan my outing .
+2-1	This	O	O	_	_	
+2-2	past	O	O	_	_	
+2-3	Saturday	O	O	_	_	
+2-4	was	O	B-UnrelEv	_	_	
+2-5	no	O	O	_	_	
+2-6	exception	O	O	_	_	
+2-7	,	O	O	_	_	
+2-8	so	O	O	_	_	
+2-9	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	1-7	
+2-10	began	O	B-UnrelEv	_	_	
+2-11	to	O	O	_	_	
+2-12	plan	O	B-UnrelEv	_	_	
+2-13	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	2-9	
+2-14	outing	O	B-UnrelEv	_	_	
+2-15	.	O	O	_	_	
+
+#id=3
+#text=I always begin by surveying my refrigerator and cabinets .
+3-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	2-13	
+3-2	always	O	O	_	_	
+3-3	begin	O	B-UnrelEv	_	_	
+3-4	by	O	O	_	_	
+3-5	surveying	O	B-RelNScrEv	_	_	
+3-6	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	3-1	
+3-7	refrigerator	B-NPart	O	_	_	
+3-8	and	O	O	_	_	
+3-9	cabinets	B-NPart	O	_	_	
+3-10	.	O	O	_	_	
+
+#id=4
+#text=What food do I already have and what do I need ?
+4-1	What	O	O	_	_	
+4-2	food	B-ScrPart_groceries	O	_	_	
+4-3	do	O	O	_	_	
+4-4	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	3-6	
+4-5	already	O	O	_	_	
+4-6	have	O	B-UnrelEv	_	_	
+4-7	and	O	O	_	_	
+4-8	what	O	O	_	_	
+4-9	do	O	O	_	_	
+4-10	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	4-4	
+4-11	need	O	B-RelNScrEv	_	_	
+4-12	?	O	O	_	_	
+
+#id=5
+#text=There are certain basic things I get almost every week .
+5-1	There	O	O	_	_	
+5-2	are	O	B-UnrelEv	_	_	
+5-3	certain	O	O	_	_	
+5-4	basic	O	O	_	_	
+5-5	things	B-ScrPart_groceries	O	webanno.custom.Corefchains_	4-2	
+5-6	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	4-10	
+5-7	get	O	B-ScrEv_get_groceries	_	_	
+5-8	almost	O	O	_	_	
+5-9	every	O	O	_	_	
+5-10	week	B-NPart	O	_	_	
+5-11	.	O	O	_	_	
+
+#id=6
+#text=At this point I begin to make a written list to bring with .
+6-1	At	O	O	_	_	
+6-2	this	O	O	_	_	
+6-3	point	O	O	_	_	
+6-4	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	5-6	
+6-5	begin	O	B-UnrelEv	_	_	
+6-6	to	O	O	_	_	
+6-7	make	O	B-ScrEv_make_list	_	_	
+6-8	a	O	O	_	_	
+6-9	written	O	B-UnrelEv	_	_	
+6-10	list	B-ScrPart_grocery_list	O	_	_	
+6-11	to	O	O	_	_	
+6-12	bring	O	B-RelNScrEv	_	_	
+6-13	with	O	O	_	_	
+6-14	.	O	O	_	_	
+
+#id=7
+#text=This week I also had a birthday party to shop for so extras like cake mix and a can of frosting went on my list .
+7-1	This	O	O	_	_	
+7-2	week	O	O	_	_	
+7-3	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	6-4	
+7-4	also	O	O	_	_	
+7-5	had	O	B-UnrelEv	_	_	
+7-6	a	O	O	_	_	
+7-7	birthday	B-NPart	O	_	_	
+7-8	party	I-NPart|B-NPart	O	_	_	
+7-9	to	O	O	_	_	
+7-10	shop	O	B-RelNScrEv	_	_	
+7-11	for	O	O	_	_	
+7-12	so	O	O	_	_	
+7-13	extras	B-ScrPart_groceries	O	_	_	
+7-14	like	O	O	_	_	
+7-15	cake	B-ScrPart_groceries	O	_	_	
+7-16	mix	I-ScrPart_groceries|B-ScrPart_groceries	O	_	_	
+7-17	and	O	O	_	_	
+7-18	a	O	O	_	_	
+7-19	can	O	O	_	_	
+7-20	of	O	O	_	_	
+7-21	frosting	B-ScrPart_groceries	O	_	_	
+7-22	went	O	B-RelNScrEv	_	_	
+7-23	on	O	O	_	_	
+7-24	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	7-3	
+7-25	list	B-ScrPart_grocery_list	O	webanno.custom.Corefchains_	6-10	
+7-26	.	O	O	_	_	
+
+#id=8
+#text=Once the list was done I headed to the store .
+8-1	Once	O	O	_	_	
+8-2	the	O	O	_	_	
+8-3	list	B-ScrPart_grocery_list	O	webanno.custom.Corefchains_	7-25	
+8-4	was	O	O	_	_	
+8-5	done	O	B-ScrEv_make_list	_	_	
+8-6	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	7-24	
+8-7	headed	O	B-ScrEv_go_grocery	_	_	
+8-8	to	O	O	_	_	
+8-9	the	O	O	_	_	
+8-10	store	B-ScrPart_grocery_shop	O	_	_	
+8-11	.	O	O	_	_	
+
+#id=9
+#text=It 's a short drive , and once there I grabbed a cart and begin to head down the aisles .
+9-1	It	O	O	_	_	
+9-2	's	O	B-UnrelEv	_	_	
+9-3	a	O	O	_	_	
+9-4	short	O	O	_	_	
+9-5	drive	O	O	_	_	
+9-6	,	O	O	_	_	
+9-7	and	O	O	_	_	
+9-8	once	O	O	_	_	
+9-9	there	B-ScrPart_grocery_shop	O	webanno.custom.Corefchains_	8-10	
+9-10	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	8-6	
+9-11	grabbed	O	B-ScrEv_take_shop_cart	_	_	
+9-12	a	O	O	_	_	
+9-13	cart	B-ScrPart_shopping_cart/basket	O	_	_	
+9-14	and	O	O	_	_	
+9-15	begin	O	B-UnrelEv	_	_	
+9-16	to	O	O	_	_	
+9-17	head	O	B-ScrEv_move_section	_	_	
+9-18	down	O	O	_	_	
+9-19	the	O	O	_	_	
+9-20	aisles	B-ScrPart_section	O	_	_	
+9-21	.	O	O	_	_	
+
+#id=10
+#text=Produce then canned goods then meats .
+10-1	Produce	B-ScrPart_groceries	O	_	_	
+10-2	then	O	O	_	_	
+10-3	canned	O	B-UnrelEv	_	_	
+10-4	goods	B-ScrPart_groceries	O	_	_	
+10-5	then	O	O	_	_	
+10-6	meats	B-ScrPart_groceries	O	_	_	
+10-7	.	O	O	_	_	
+
+#id=11
+#text=After that on to dairy and dried goods , and even cleaning products .
+11-1	After	O	O	_	_	
+11-2	that	O	O	_	_	
+11-3	on	O	O	_	_	
+11-4	to	O	O	_	_	
+11-5	dairy	B-ScrPart_groceries	O	_	_	
+11-6	and	O	O	_	_	
+11-7	dried	O	B-UnrelEv	_	_	
+11-8	goods	B-ScrPart_groceries	O	_	_	
+11-9	,	O	O	_	_	
+11-10	and	O	O	_	_	
+11-11	even	O	O	_	_	
+11-12	cleaning	B-ScrPart_groceries	O	_	_	
+11-13	products	I-ScrPart_groceries|B-ScrPart_groceries	O	_	_	
+11-14	.	O	O	_	_	
+
+#id=12
+#text=Finally it was off to the frozen aisles , I needed to get ice cream for the party !
+12-1	Finally	O	O	_	_	
+12-2	it	O	O	_	_	
+12-3	was	O	B-UnrelEv	_	_	
+12-4	off	O	O	_	_	
+12-5	to	O	O	_	_	
+12-6	the	O	O	_	_	
+12-7	frozen	O	B-UnrelEv	_	_	
+12-8	aisles	B-ScrPart_section	O	_	_	
+12-9	,	O	O	_	_	
+12-10	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	9-10	
+12-11	needed	O	B-UnrelEv	_	_	
+12-12	to	O	O	_	_	
+12-13	get	O	B-ScrEv_get_groceries	_	_	
+12-14	ice	B-ScrPart_groceries	O	_	_	
+12-15	cream	I-ScrPart_groceries	B-UnrelEv	_	_	
+12-16	for	O	O	_	_	
+12-17	the	O	O	_	_	
+12-18	party	O	O	_	_	
+12-19	!	O	O	_	_	
+
+#id=13
+#text=With a full cart I went to the cash register , loaded all the food on the convener belt , and then paid for the groceries as a boy bagged everything .
+13-1	With	O	O	_	_	
+13-2	a	O	O	_	_	
+13-3	full	O	O	_	_	
+13-4	cart	B-ScrPart_shopping_cart/basket	O	webanno.custom.Corefchains_	9-13	
+13-5	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	12-10	
+13-6	went	O	B-ScrEv_move_section	_	_	
+13-7	to	O	O	_	_	
+13-8	the	O	O	_	_	
+13-9	cash	B-ScrPart_section	O	_	_	
+13-10	register	I-ScrPart_section|B-ScrPart_section	O	_	_	
+13-11	,	O	O	_	_	
+13-12	loaded	O	B-ScrEv_put_conveyor	_	_	
+13-13	all	O	O	_	_	
+13-14	the	O	O	_	_	
+13-15	food	B-ScrPart_groceries	O	_	_	
+13-16	on	O	O	_	_	
+13-17	the	O	O	_	_	
+13-18	convener	B-ScrPart_conveyor_belt	O	_	_	
+13-19	belt	I-ScrPart_conveyor_belt|B-ScrPart_conveyor_belt	O	_	_	
+13-20	,	O	O	_	_	
+13-21	and	O	O	_	_	
+13-22	then	O	O	_	_	
+13-23	paid	O	B-ScrEv_pay	_	_	
+13-24	for	O	O	_	_	
+13-25	the	O	O	_	_	
+13-26	groceries	B-ScrPart_groceries	O	webanno.custom.Corefchains_	13-15	
+13-27	as	O	O	_	_	
+13-28	a	O	O	_	_	
+13-29	boy	B-ScrPart_grocery_staff	O	_	_	
+13-30	bagged	O	B-ScrEv_pack_groceries	_	_	
+13-31	everything	B-ScrPart_groceries	O	webanno.custom.Corefchains_	13-26	
+13-32	.	O	O	_	_	
+
+#id=14
+#text=Another Saturday 's chore was done ! 
+14-1	Another	O	O	_	_	
+14-2	Saturday	O	O	_	_	
+14-3	's	O	O	_	_	
+14-4	chore	O	O	_	_	
+14-5	was	O	O	_	_	
+14-6	done	O	B-UnrelEv	_	_	
+14-7	!	O	O	_	_	
+

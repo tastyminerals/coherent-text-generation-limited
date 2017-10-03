@@ -1,0 +1,247 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Grocery shopping can be a stressful event , but if you come prepared then you can usually leave without a headache .
+1-1	Grocery	B-Evoking	O	_	_	
+1-2	shopping	I-Evoking	O	_	_	
+1-3	can	O	O	_	_	
+1-4	be	B-UnrelEv	O	_	_	
+1-5	a	O	O	_	_	
+1-6	stressful	O	O	_	_	
+1-7	event	O	O	_	_	
+1-8	,	O	O	_	_	
+1-9	but	O	O	_	_	
+1-10	if	O	O	_	_	
+1-11	you	O	B-ScrPart_shopper	_	_	
+1-12	come	B-ScrEv_go_grocery	O	_	_	
+1-13	prepared	B-UnrelEv	O	_	_	
+1-14	then	O	O	_	_	
+1-15	you	O	B-ScrPart_shopper	webanno.custom.Corefchains_	1-11	
+1-16	can	O	O	_	_	
+1-17	usually	O	O	_	_	
+1-18	leave	B-ScrEv_leave	O	_	_	
+1-19	without	O	O	_	_	
+1-20	a	O	O	_	_	
+1-21	headache	O	B-NPart	_	_	
+1-22	.	O	O	_	_	
+
+#id=2
+#text=Before we head over to the store we need to make a list of all the items that we need .
+2-1	Before	O	O	_	_	
+2-2	we	O	B-ScrPart_shopper	_	_	
+2-3	head	B-ScrEv_go_grocery	O	_	_	
+2-4	over	I-ScrEv_go_grocery	O	_	_	
+2-5	to	O	O	_	_	
+2-6	the	O	O	_	_	
+2-7	store	O	B-ScrPart_grocery_shop	_	_	
+2-8	we	O	B-ScrPart_shopper	webanno.custom.Corefchains_	2-2	
+2-9	need	B-RelNScrEv	O	_	_	
+2-10	to	O	O	_	_	
+2-11	make	B-ScrEv_make_list	O	_	_	
+2-12	a	O	O	_	_	
+2-13	list	O	B-ScrPart_grocery_list	_	_	
+2-14	of	O	O	_	_	
+2-15	all	O	O	_	_	
+2-16	the	O	O	_	_	
+2-17	items	O	B-ScrPart_groceries	_	_	
+2-18	that	O	O	_	_	
+2-19	we	O	B-ScrPart_shopper	webanno.custom.Corefchains_	2-8	
+2-20	need	B-RelNScrEv	O	_	_	
+2-21	.	O	O	_	_	
+
+#id=3
+#text=Once you arrive at the store if you have a short list make sure to grab a basket .
+3-1	Once	O	O	_	_	
+3-2	you	O	B-ScrPart_shopper	webanno.custom.Corefchains_	1-15	
+3-3	arrive	B-ScrEv_enter	O	_	_	
+3-4	at	O	O	_	_	
+3-5	the	O	O	_	_	
+3-6	store	O	B-ScrPart_grocery_shop	webanno.custom.Corefchains_	2-7	
+3-7	if	O	O	_	_	
+3-8	you	O	B-ScrPart_shopper	webanno.custom.Corefchains_	3-2	
+3-9	have	B-UnrelEv	O	_	_	
+3-10	a	O	O	_	_	
+3-11	short	O	O	_	_	
+3-12	list	O	B-ScrPart_grocery_list	webanno.custom.Corefchains_	2-13	
+3-13	make	B-UnrelEv	O	_	_	
+3-14	sure	O	O	_	_	
+3-15	to	O	O	_	_	
+3-16	grab	B-ScrEv_take_shop_cart	O	_	_	
+3-17	a	O	O	_	_	
+3-18	basket	O	B-ScrPart_shopping_cart/basket	_	_	
+3-19	.	O	O	_	_	
+
+#id=4
+#text=If you are purchasing a wider variety of items then grab a shopping cart .
+4-1	If	O	O	_	_	
+4-2	you	O	B-ScrPart_shopper	webanno.custom.Corefchains_	3-8	
+4-3	are	O	O	_	_	
+4-4	purchasing	B-ScrEv_get_groceries	O	_	_	
+4-5	a	O	O	_	_	
+4-6	wider	O	O	_	_	
+4-7	variety	O	O	_	_	
+4-8	of	O	O	_	_	
+4-9	items	O	B-ScrPart_groceries	webanno.custom.Corefchains_	2-17	
+4-10	then	O	O	_	_	
+4-11	grab	B-ScrEv_take_shop_cart	O	_	_	
+4-12	a	O	O	_	_	
+4-13	shopping	O	B-ScrPart_shopping_cart/basket	_	_	
+4-14	cart	O	I-ScrPart_shopping_cart/basket|B-ScrPart_shopping_cart/basket	_	_	
+4-15	.	O	O	_	_	
+
+#id=5
+#text=I would recommend starting on the outside perimeter of the store , hitting up your dairy , meats , and vegetables .
+5-1	I	O	B-ScrPart_shopper	_	_	
+5-2	would	O	O	_	_	
+5-3	recommend	B-UnrelEv	O	_	_	
+5-4	starting	B-???	O	_	_	
+5-5	on	O	O	_	_	
+5-6	the	O	O	_	_	
+5-7	outside	O	O	_	_	
+5-8	perimeter	O	O	_	_	
+5-9	of	O	O	_	_	
+5-10	the	O	O	_	_	
+5-11	store	O	B-ScrPart_grocery_shop	webanno.custom.Corefchains_	3-6	
+5-12	,	O	O	_	_	
+5-13	hitting	B-ScrEv_get_groceries|B-ScrEv_get_groceries	O	_	_	
+5-14	up	I-ScrEv_get_groceries	O	_	_	
+5-15	your	O	B-ScrPart_shopper	webanno.custom.Corefchains_	4-2	
+5-16	dairy	O	B-ScrPart_groceries	_	_	
+5-17	,	O	O	_	_	
+5-18	meats	O	B-ScrPart_groceries	_	_	
+5-19	,	O	O	_	_	
+5-20	and	O	O	_	_	
+5-21	vegetables	O	B-ScrPart_groceries	_	_	
+5-22	.	O	O	_	_	
+
+#id=6
+#text=While you are working your way clockwise or counter-clockwise you can frequent the aisles in the middle to pickup the remainder of items .
+6-1	While	O	O	_	_	
+6-2	you	O	B-ScrPart_shopper	webanno.custom.Corefchains_	5-15	
+6-3	are	O	O	_	_	
+6-4	working	B-ScrEv_move_section	O	_	_	
+6-5	your	O	B-ScrPart_shopper	webanno.custom.Corefchains_	6-2	
+6-6	way	O	O	_	_	
+6-7	clockwise	O	O	_	_	
+6-8	or	O	O	_	_	
+6-9	counter-clockwise	O	O	_	_	
+6-10	you	O	B-ScrPart_shopper	webanno.custom.Corefchains_	6-5	
+6-11	can	O	O	_	_	
+6-12	frequent	B-ScrEv_move_section	O	_	_	
+6-13	the	O	O	_	_	
+6-14	aisles	O	B-ScrPart_section	_	_	
+6-15	in	O	O	_	_	
+6-16	the	O	O	_	_	
+6-17	middle	O	O	_	_	
+6-18	to	O	O	_	_	
+6-19	pickup	B-ScrEv_get_groceries	O	_	_	
+6-20	the	O	O	_	_	
+6-21	remainder	O	O	_	_	
+6-22	of	O	O	_	_	
+6-23	items	O	B-ScrPart_groceries	webanno.custom.Corefchains_	4-9	
+6-24	.	O	O	_	_	
+
+#id=7
+#text=Spending a lot of time in the aisles can become frustrating since people are more likely to be in your way .
+7-1	Spending	B-RelNScrEv	O	_	_	
+7-2	a	O	O	_	_	
+7-3	lot	O	O	_	_	
+7-4	of	O	O	_	_	
+7-5	time	O	B-???	_	_	
+7-6	in	O	O	_	_	
+7-7	the	O	O	_	_	
+7-8	aisles	O	B-ScrPart_section	_	_	
+7-9	can	O	O	_	_	
+7-10	become	B-UnrelEv	O	_	_	
+7-11	frustrating	B-UnrelEv	O	_	_	
+7-12	since	O	O	_	_	
+7-13	people	O	B-ScrPart_shopper	_	_	
+7-14	are	O	O	_	_	
+7-15	more	O	O	_	_	
+7-16	likely	O	O	_	_	
+7-17	to	O	O	_	_	
+7-18	be	B-UnrelEv	O	_	_	
+7-19	in	O	O	_	_	
+7-20	your	O	B-ScrPart_shopper	webanno.custom.Corefchains_	6-10	
+7-21	way	O	O	_	_	
+7-22	.	O	O	_	_	
+
+#id=8
+#text=After you select all the items to purchase , find the shortest checkout line .
+8-1	After	O	O	_	_	
+8-2	you	O	B-ScrPart_shopper	webanno.custom.Corefchains_	7-20	
+8-3	select	B-ScrEv_get_groceries	O	_	_	
+8-4	all	O	O	_	_	
+8-5	the	O	O	_	_	
+8-6	items	O	B-ScrPart_groceries	webanno.custom.Corefchains_	6-23	
+8-7	to	O	O	_	_	
+8-8	purchase	B-ScrEv_get_groceries	O	_	_	
+8-9	,	O	O	_	_	
+8-10	find	B-ScrEv_move_section	O	_	_	
+8-11	the	O	O	_	_	
+8-12	shortest	O	O	_	_	
+8-13	checkout	O	B-ScrPart_line	_	_	
+8-14	line	O	I-ScrPart_line|B-ScrPart_line	_	_	
+8-15	.	O	O	_	_	
+
+#id=9
+#text=Once you are close enough start piling your groceries on the belt , and take out your form of payment .
+9-1	Once	O	O	_	_	
+9-2	you	O	B-ScrPart_shopper	webanno.custom.Corefchains_	8-2	
+9-3	are	B-UnrelEv	O	_	_	
+9-4	close	O	O	_	_	
+9-5	enough	O	O	_	_	
+9-6	start	B-UnrelEv	O	_	_	
+9-7	piling	B-ScrEv_put_conveyor	O	_	_	
+9-8	your	O	B-ScrPart_shopper	webanno.custom.Corefchains_	9-2	
+9-9	groceries	O	B-ScrPart_groceries	webanno.custom.Corefchains_	8-6	
+9-10	on	O	O	_	_	
+9-11	the	O	O	_	_	
+9-12	belt	O	B-ScrPart_conveyor_belt	_	_	
+9-13	,	O	O	_	_	
+9-14	and	O	O	_	_	
+9-15	take	B-ScrEv_pay|B-ScrEv_pay	O	_	_	
+9-16	out	I-ScrEv_pay	O	_	_	
+9-17	your	O	B-ScrPart_shopper	webanno.custom.Corefchains_	9-8	
+9-18	form	O	O	_	_	
+9-19	of	O	O	_	_	
+9-20	payment	O	B-ScrPart_payment_means	_	_	
+9-21	.	O	O	_	_	
+
+#id=10
+#text=Once paid , the store will generally bag your groceries for you .
+10-1	Once	O	O	_	_	
+10-2	paid	B-ScrEv_pay	O	_	_	
+10-3	,	O	O	_	_	
+10-4	the	O	O	_	_	
+10-5	store	O	B-ScrPart_grocery_staff	_	_	
+10-6	will	O	O	_	_	
+10-7	generally	O	O	_	_	
+10-8	bag	B-ScrEv_pack_groceries	O	_	_	
+10-9	your	O	B-ScrPart_shopper	webanno.custom.Corefchains_	9-17	
+10-10	groceries	O	B-ScrPart_groceries	webanno.custom.Corefchains_	9-9	
+10-11	for	O	O	_	_	
+10-12	you	O	B-ScrPart_shopper	webanno.custom.Corefchains_	10-9	
+10-13	.	O	O	_	_	
+
+#id=11
+#text=Now you just need to load your car , drive home , and unload all of your bounty ! 
+11-1	Now	O	O	_	_	
+11-2	you	O	B-ScrPart_shopper	webanno.custom.Corefchains_	10-12	
+11-3	just	O	O	_	_	
+11-4	need	B-UnrelEv	O	_	_	
+11-5	to	O	O	_	_	
+11-6	load	B-ScrEv_bring_vehicle	O	_	_	
+11-7	your	O	B-ScrPart_shopper	webanno.custom.Corefchains_	11-2	
+11-8	car	O	B-ScrPart_vehicle	_	_	
+11-9	,	O	O	_	_	
+11-10	drive	B-ScrEv_leave	O	_	_	
+11-11	home	O	B-NPart	_	_	
+11-12	,	O	O	_	_	
+11-13	and	O	O	_	_	
+11-14	unload	B-RelNScrEv	O	_	_	
+11-15	all	O	O	_	_	
+11-16	of	O	O	_	_	
+11-17	your	O	B-ScrPart_shopper	webanno.custom.Corefchains_	11-7	
+11-18	bounty	O	B-ScrPart_groceries	webanno.custom.Corefchains_	10-10	
+11-19	!	O	O	_	_	
+

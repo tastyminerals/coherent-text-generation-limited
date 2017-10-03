@@ -1,0 +1,230 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=When you need to go outside the city limits of London , it is best to take a train .
+1-1	When	O	O	_	_	
+1-2	you	B-ScrPart_passenger	O	_	_	
+1-3	need	O	O	_	_	
+1-4	to	O	O	_	_	
+1-5	go	O	B-UnrelEv	_	_	
+1-6	outside	O	O	_	_	
+1-7	the	O	O	_	_	
+1-8	city	O	O	_	_	
+1-9	limits	O	O	_	_	
+1-10	of	O	O	_	_	
+1-11	London	O	O	_	_	
+1-12	,	O	O	_	_	
+1-13	it	O	O	_	_	
+1-14	is	O	B-UnrelEv	_	_	
+1-15	best	O	O	_	_	
+1-16	to	O	O	_	_	
+1-17	take	O	B-Evoking	_	_	
+1-18	a	O	I-Evoking	_	_	
+1-19	train	B-ScrPart_train	I-Evoking	_	_	
+1-20	.	O	O	_	_	
+
+#id=2
+#text=Cars are a poor choice as they hit traffic often , as well as cost money to drive , for me it is far cheaper to take the train .
+2-1	Cars	O	O	_	_	
+2-2	are	O	B-UnrelEv	_	_	
+2-3	a	O	O	_	_	
+2-4	poor	O	O	_	_	
+2-5	choice	O	O	_	_	
+2-6	as	O	O	_	_	
+2-7	they	O	O	_	_	
+2-8	hit	O	B-UnrelEv	_	_	
+2-9	traffic	O	O	_	_	
+2-10	often	O	O	_	_	
+2-11	,	O	O	_	_	
+2-12	as	O	O	_	_	
+2-13	well	O	O	_	_	
+2-14	as	O	O	_	_	
+2-15	cost	O	O	_	_	
+2-16	money	O	O	_	_	
+2-17	to	O	O	_	_	
+2-18	drive	O	B-UnrelEv	_	_	
+2-19	,	O	O	_	_	
+2-20	for	O	O	_	_	
+2-21	me	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-2	
+2-22	it	O	O	_	_	
+2-23	is	O	B-UnrelEv	_	_	
+2-24	far	O	O	_	_	
+2-25	cheaper	O	O	_	_	
+2-26	to	O	O	_	_	
+2-27	take	O	B-Evoking	_	_	
+2-28	the	O	I-Evoking	_	_	
+2-29	train	B-ScrPart_train	I-Evoking	webanno.custom.Corefchains_	1-19	
+2-30	.	O	O	_	_	
+
+#id=3
+#text=This , of course , was when I lived in London which I do not do now .
+3-1	This	O	O	_	_	
+3-2	,	O	O	_	_	
+3-3	of	O	O	_	_	
+3-4	course	O	O	_	_	
+3-5	,	O	O	_	_	
+3-6	was	O	O	_	_	
+3-7	when	O	O	_	_	
+3-8	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-21	
+3-9	lived	O	B-UnrelEv	_	_	
+3-10	in	O	O	_	_	
+3-11	London	O	O	_	_	
+3-12	which	O	O	_	_	
+3-13	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-8	
+3-14	do	O	B-UnrelEv	_	_	
+3-15	not	O	O	_	_	
+3-16	do	O	B-UnrelEv	_	_	
+3-17	now	O	O	_	_	
+3-18	.	O	O	_	_	
+
+#id=4
+#text=Anyway , when I wanted to visit the beach town of Brighton I took the train .
+4-1	Anyway	O	O	_	_	
+4-2	,	O	O	_	_	
+4-3	when	O	O	_	_	
+4-4	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-13	
+4-5	wanted	O	B-UnrelEv	_	_	
+4-6	to	O	O	_	_	
+4-7	visit	O	B-UnrelEv	_	_	
+4-8	the	O	O	_	_	
+4-9	beach	B-ScrPart_destination	O	_	_	
+4-10	town	I-ScrPart_destination|B-ScrPart_destination	O	_	_	
+4-11	of	O	O	_	_	
+4-12	Brighton	O	O	_	_	
+4-13	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-4	
+4-14	took	O	B-Evoking	_	_	
+4-15	the	O	I-Evoking	_	_	
+4-16	train	B-ScrPart_train	I-Evoking	webanno.custom.Corefchains_	2-29	
+4-17	.	O	O	_	_	
+
+#id=5
+#text=I made sure to research the time schedule as to find the correct train and time .
+5-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-13	
+5-2	made	O	B-UnrelEv	_	_	
+5-3	sure	O	I-UnrelEv	_	_	
+5-4	to	O	O	_	_	
+5-5	research	O	B-ScrEv_check_time-table	_	_	
+5-6	the	O	O	_	_	
+5-7	time	B-ScrPart_time-table	O	_	_	
+5-8	schedule	I-ScrPart_time-table|B-ScrPart_time-table	O	_	_	
+5-9	as	O	O	_	_	
+5-10	to	O	O	_	_	
+5-11	find	O	B-ScrEv_check_time-table	_	_	
+5-12	the	O	O	_	_	
+5-13	correct	O	O	_	_	
+5-14	train	B-ScrPart_train	O	webanno.custom.Corefchains_	4-16	
+5-15	and	O	O	_	_	
+5-16	time	B-ScrPart_time_date	O	_	_	
+5-17	.	O	O	_	_	
+
+#id=6
+#text=I found there was one going when I wanted and it was leaving from Victoria station .
+6-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-1	
+6-2	found	O	B-ScrEv_check_time-table	_	_	
+6-3	there	O	O	_	_	
+6-4	was	O	B-UnrelEv	_	_	
+6-5	one	B-ScrPart_train	O	webanno.custom.Corefchains_	5-14	
+6-6	going	O	B-UnrelEv	_	_	
+6-7	when	O	O	_	_	
+6-8	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-1	
+6-9	wanted	O	B-UnrelEv	_	_	
+6-10	and	O	O	_	_	
+6-11	it	B-ScrPart_train	O	webanno.custom.Corefchains_	6-5	
+6-12	was	O	O	_	_	
+6-13	leaving	O	B-ScrEv_train_departs	_	_	
+6-14	from	O	O	_	_	
+6-15	Victoria	B-ScrPart_train_station	O	_	_	
+6-16	station	I-ScrPart_train_station|B-ScrPart_train_station	O	_	_	
+6-17	.	O	O	_	_	
+
+#id=7
+#text=I made sure to get there early so as to purchase a ticket and get a good seat , I do n't like traveling backwards .
+7-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-8	
+7-2	made	O	B-UnrelEv	_	_	
+7-3	sure	O	I-UnrelEv	_	_	
+7-4	to	O	O	_	_	
+7-5	get	O	B-ScrEv_get_train_station	_	_	
+7-6	there	O	O	_	_	
+7-7	early	O	O	_	_	
+7-8	so	O	O	_	_	
+7-9	as	O	O	_	_	
+7-10	to	O	O	_	_	
+7-11	purchase	O	B-ScrEv_get_tickets	_	_	
+7-12	a	O	O	_	_	
+7-13	ticket	B-ScrPart_card/ticket	O	_	_	
+7-14	and	O	O	_	_	
+7-15	get	O	B-ScrEv_find_place	_	_	
+7-16	a	O	O	_	_	
+7-17	good	O	O	_	_	
+7-18	seat	B-ScrPart_seat	O	_	_	
+7-19	,	O	O	_	_	
+7-20	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-1	
+7-21	do	O	O	_	_	
+7-22	n't	O	O	_	_	
+7-23	like	O	B-UnrelEv	_	_	
+7-24	traveling	O	B-Evoking	_	_	
+7-25	backwards	O	O	_	_	
+7-26	.	O	O	_	_	
+
+#id=8
+#text=Having bought my ticket at the counter I walked to the waiting train .
+8-1	Having	O	O	_	_	
+8-2	bought	O	B-ScrEv_get_tickets	_	_	
+8-3	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-20	
+8-4	ticket	B-ScrPart_card/ticket	O	webanno.custom.Corefchains_	7-13	
+8-5	at	O	O	_	_	
+8-6	the	O	O	_	_	
+8-7	counter	B-ScrPart_ticket_office/website	O	_	_	
+8-8	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-3	
+8-9	walked	O	B-ScrEv_get_platform	_	_	
+8-10	to	O	O	_	_	
+8-11	the	O	O	_	_	
+8-12	waiting	O	B-RelNScrEv	_	_	
+8-13	train	B-ScrPart_train	O	webanno.custom.Corefchains_	6-11	
+8-14	.	O	O	_	_	
+
+#id=9
+#text=It was very nice and new and I had little trouble finding a good seat .
+9-1	It	B-ScrPart_train	O	webanno.custom.Corefchains_	8-13	
+9-2	was	O	B-UnrelEv	_	_	
+9-3	very	O	O	_	_	
+9-4	nice	O	O	_	_	
+9-5	and	O	O	_	_	
+9-6	new	O	O	_	_	
+9-7	and	O	O	_	_	
+9-8	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-8	
+9-9	had	O	B-UnrelEv	_	_	
+9-10	little	O	O	_	_	
+9-11	trouble	O	O	_	_	
+9-12	finding	O	B-ScrEv_find_place	_	_	
+9-13	a	O	O	_	_	
+9-14	good	O	O	_	_	
+9-15	seat	B-ScrPart_seat	O	webanno.custom.Corefchains_	7-18	
+9-16	.	O	O	_	_	
+
+#id=10
+#text=I settled in and closed my eyes , ready to rest on the exceedingly comfortable train that was taking me on an adventure . 
+10-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-8	
+10-2	settled	O	B-ScrEv_find_place	_	_	
+10-3	in	O	I-ScrEv_find_place	_	_	
+10-4	and	O	O	_	_	
+10-5	closed	O	B-RelNScrEv	_	_	
+10-6	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-1	
+10-7	eyes	B-NPart	O	_	_	
+10-8	,	O	O	_	_	
+10-9	ready	O	O	_	_	
+10-10	to	O	O	_	_	
+10-11	rest	O	B-ScrEv_spend_time_train	_	_	
+10-12	on	O	O	_	_	
+10-13	the	O	O	_	_	
+10-14	exceedingly	O	O	_	_	
+10-15	comfortable	O	O	_	_	
+10-16	train	B-ScrPart_train	O	webanno.custom.Corefchains_	9-1	
+10-17	that	B-ScrPart_train	O	webanno.custom.Corefchains_	10-16	
+10-18	was	O	O	_	_	
+10-19	taking	O	B-UnrelEv	_	_	
+10-20	me	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-6	
+10-21	on	O	O	_	_	
+10-22	an	O	O	_	_	
+10-23	adventure	O	O	_	_	
+10-24	.	O	O	_	_	
+

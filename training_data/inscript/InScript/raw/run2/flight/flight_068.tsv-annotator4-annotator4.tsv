@@ -1,0 +1,229 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I was headed to visit my cousin in Italy for a few weeks .
+1-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+1-2	was	O	O	O	_	_	
+1-3	headed	O	O	B-UnrelEv	_	_	
+1-4	to	O	O	O	_	_	
+1-5	visit	O	O	B-UnrelEv	_	_	
+1-6	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+1-7	cousin	B-webanno.custom.Participants_	B-NPart	O	_	_	
+1-8	in	O	O	O	_	_	
+1-9	Italy	B-webanno.custom.Participants_	B-ScrPart_target_location	O	_	_	
+1-10	for	O	O	O	_	_	
+1-11	a	O	O	O	_	_	
+1-12	few	O	O	O	_	_	
+1-13	weeks	B-webanno.custom.Participants_	B-NPart	O	_	_	
+1-14	.	O	O	O	_	_	
+
+#id=2
+#text=The week before , my dad went online and purchased me one of those convenient e-tickets .
+2-1	The	O	O	O	_	_	
+2-2	week	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+2-3	before	O	O	O	_	_	
+2-4	,	O	O	O	_	_	
+2-5	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+2-6	dad	B-webanno.custom.Participants_	B-ScrPart_accomp_person	O	_	_	
+2-7	went	O	O	B-UnrelEv	_	_	
+2-8	online	O	O	O	_	_	
+2-9	and	O	O	O	_	_	
+2-10	purchased	O	O	B-ScrEv_get_ticket	_	_	
+2-11	me	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+2-12	one	O	O	O	_	_	
+2-13	of	O	O	O	_	_	
+2-14	those	O	O	O	_	_	
+2-15	convenient	O	O	O	_	_	
+2-16	e-tickets	B-webanno.custom.Participants_	B-ScrPart_ticket	O	_	_	
+2-17	.	O	O	O	_	_	
+
+#id=3
+#text=He printed it out and made sure I remembered to bring it on the day of my flight .
+3-1	He	B-webanno.custom.Participants_	B-ScrPart_accomp_person	O	_	_	
+3-2	printed	O	O	B-ScrEv_get_ticket	_	_	
+3-3	it	B-webanno.custom.Participants_	B-ScrPart_ticket	O	_	_	
+3-4	out	O	O	O	_	_	
+3-5	and	O	O	O	_	_	
+3-6	made	O	O	B-UnrelEv	_	_	
+3-7	sure	O	O	I-UnrelEv	_	_	
+3-8	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+3-9	remembered	O	O	B-UnrelEv	_	_	
+3-10	to	O	O	O	_	_	
+3-11	bring	O	O	B-RelNScrEv	_	_	
+3-12	it	B-webanno.custom.Participants_	B-ScrPart_ticket	O	_	_	
+3-13	on	O	O	O	_	_	
+3-14	the	O	O	O	_	_	
+3-15	day	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+3-16	of	O	O	O	_	_	
+3-17	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-8	
+3-18	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	_	_	
+3-19	.	O	O	O	_	_	
+
+#id=4
+#text=We arrived early to the airport so that i could go through all of the security checks .
+4-1	We	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+4-2	arrived	O	O	B-ScrEv_get_airport	_	_	
+4-3	early	O	O	O	_	_	
+4-4	to	O	O	O	_	_	
+4-5	the	O	O	O	_	_	
+4-6	airport	B-webanno.custom.Participants_	B-ScrPart_airport	O	_	_	
+4-7	so	O	O	O	_	_	
+4-8	that	O	O	O	_	_	
+4-9	i	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-17	
+4-10	could	O	O	O	_	_	
+4-11	go	O	O	B-ScrEv_go_security_checks	_	_	
+4-12	through	O	O	I-ScrEv_go_security_checks	_	_	
+4-13	all	O	O	O	_	_	
+4-14	of	O	O	O	_	_	
+4-15	the	O	O	O	_	_	
+4-16	security	B-webanno.custom.Participants_	B-ScrPart_security_check	O	_	_	
+4-17	checks	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_security_check|B-ScrPart_security_check	O	_	_	
+4-18	.	O	O	O	_	_	
+
+#id=5
+#text=I had to take off my shoes and put my belongings in a tray as I went through the scanner .
+5-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+5-2	had	O	O	O	_	_	
+5-3	to	O	O	O	_	_	
+5-4	take	O	O	B-RelNScrEv	_	_	
+5-5	off	O	O	I-RelNScrEv	_	_	
+5-6	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+5-7	shoes	B-webanno.custom.Participants_	B-NPart	O	_	_	
+5-8	and	O	O	O	_	_	
+5-9	put	O	O	B-RelNScrEv	_	_	
+5-10	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+5-11	belongings	B-webanno.custom.Participants_	B-ScrPart_personal_belongings	O	_	_	
+5-12	in	O	O	O	_	_	
+5-13	a	O	O	O	_	_	
+5-14	tray	B-webanno.custom.Participants_	B-NPart	O	_	_	
+5-15	as	O	O	O	_	_	
+5-16	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+5-17	went	O	O	B-ScrEv_go_security_checks	_	_	
+5-18	through	O	O	I-ScrEv_go_security_checks	_	_	
+5-19	the	O	O	O	_	_	
+5-20	scanner	B-webanno.custom.Participants_	B-ScrPart_security_check	O	_	_	
+5-21	.	O	O	O	_	_	
+
+#id=6
+#text=After that , I saw the board with all of the flights and saw that my flight was leaving soon .
+6-1	After	O	O	O	_	_	
+6-2	that	O	O	O	_	_	
+6-3	,	O	O	O	_	_	
+6-4	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+6-5	saw	O	O	B-RelNScrEv	_	_	
+6-6	the	O	O	O	_	_	
+6-7	board	B-webanno.custom.Participants_	B-ScrPart_institutional_devices	O	_	_	
+6-8	with	O	O	O	_	_	
+6-9	all	O	O	O	_	_	
+6-10	of	O	O	O	_	_	
+6-11	the	O	O	O	_	_	
+6-12	flights	B-webanno.custom.Participants_	B-ScrPart_flight	O	_	_	
+6-13	and	O	O	O	_	_	
+6-14	saw	O	O	B-UnrelEv	_	_	
+6-15	that	O	O	O	_	_	
+6-16	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+6-17	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	_	_	
+6-18	was	O	O	O	_	_	
+6-19	leaving	O	O	B-ScrEv_take_off	_	_	
+6-20	soon	O	O	O	_	_	
+6-21	.	O	O	O	_	_	
+
+#id=7
+#text=I waited a few minutes by the gate with my parents until it was time to board .
+7-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+7-2	waited	O	O	B-ScrEv_wait_boarding	_	_	
+7-3	a	O	O	O	_	_	
+7-4	few	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+7-5	minutes	I-webanno.custom.Participants_	I-ScrPart_time/date	O	_	_	
+7-6	by	O	O	O	_	_	
+7-7	the	O	O	O	_	_	
+7-8	gate	B-webanno.custom.Participants_	B-ScrPart_terminal/gate	O	_	_	
+7-9	with	O	O	O	_	_	
+7-10	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+7-11	parents	B-webanno.custom.Participants_	B-ScrPart_accomp_person	O	_	_	
+7-12	until	O	O	O	_	_	
+7-13	it	B-webanno.custom.Participants_	B-No_label	O	_	_	
+7-14	was	O	O	B-UnrelEv	_	_	
+7-15	time	B-webanno.custom.Participants_	B-No_label	O	_	_	
+7-16	to	O	O	O	_	_	
+7-17	board	O	O	B-ScrEv_board_plane	_	_	
+7-18	.	O	O	O	_	_	
+
+#id=8
+#text=Many passengers climbed aboard and found their seats .
+8-1	Many	O	O	O	_	_	
+8-2	passengers	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+8-3	climbed	O	O	B-ScrEv_board_plane	_	_	
+8-4	aboard	O	O	I-ScrEv_board_plane	_	_	
+8-5	and	O	O	O	_	_	
+8-6	found	O	O	B-ScrEv_take_seat	_	_	
+8-7	their	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+8-8	seats	B-webanno.custom.Participants_	B-ScrPart_seat	O	_	_	
+8-9	.	O	O	O	_	_	
+
+#id=9
+#text=The captain greeted us over the loudspeaker and then the plane took off .
+9-1	The	O	O	O	_	_	
+9-2	captain	B-webanno.custom.Participants_	B-ScrPart_staff	O	_	_	
+9-3	greeted	O	O	B-ScrEv_listen_crew	_	_	
+9-4	us	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+9-5	over	O	O	O	_	_	
+9-6	the	O	O	O	_	_	
+9-7	loudspeaker	B-webanno.custom.Participants_	B-ScrPart_institutional_devices	O	_	_	
+9-8	and	O	O	O	_	_	
+9-9	then	O	O	O	_	_	
+9-10	the	O	O	O	_	_	
+9-11	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	_	_	
+9-12	took	O	O	B-ScrEv_take_off	_	_	
+9-13	off	O	O	I-ScrEv_take_off	_	_	
+9-14	.	O	O	O	_	_	
+
+#id=10
+#text=I was tired so I took a nap .
+10-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+10-2	was	O	O	B-UnrelEv	_	_	
+10-3	tired	O	O	O	_	_	
+10-4	so	O	O	O	_	_	
+10-5	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+10-6	took	O	O	B-ScrEv_spend_time_flight	_	_	
+10-7	a	O	O	O	_	_	
+10-8	nap	B-webanno.custom.Participants_	B-ScrPart_in-flight_entertainment	O	_	_	
+10-9	.	O	O	O	_	_	
+
+#id=11
+#text=When I woke up I could see the clouds around me as we were pretty high up in the air .
+11-1	When	O	O	O	_	_	
+11-2	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+11-3	woke	O	O	B-ScrEv_spend_time_flight	_	_	
+11-4	up	O	O	I-ScrEv_spend_time_flight	_	_	
+11-5	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+11-6	could	O	O	O	_	_	
+11-7	see	O	O	B-ScrEv_spend_time_flight	_	_	
+11-8	the	O	O	O	_	_	
+11-9	clouds	B-webanno.custom.Participants_	B-ScrPart_in-flight_entertainment	O	_	_	
+11-10	around	O	O	O	_	_	
+11-11	me	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+11-12	as	O	O	O	_	_	
+11-13	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+11-14	were	O	O	B-RelNScrEv	_	_	
+11-15	pretty	O	O	O	_	_	
+11-16	high	O	O	O	_	_	
+11-17	up	O	O	O	_	_	
+11-18	in	O	O	O	_	_	
+11-19	the	O	O	O	_	_	
+11-20	air	B-webanno.custom.Participants_	B-ScrPart_location_airplane	O	_	_	
+11-21	.	O	O	O	_	_	
+
+#id=12
+#text=After a few more hours we arrived and everyone clapped . 
+12-1	After	O	O	O	_	_	
+12-2	a	O	O	O	_	_	
+12-3	few	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+12-4	more	I-webanno.custom.Participants_	I-ScrPart_time/date	O	_	_	
+12-5	hours	I-webanno.custom.Participants_	I-ScrPart_time/date	O	_	_	
+12-6	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+12-7	arrived	O	O	B-ScrEv_landing	_	_	
+12-8	and	O	O	O	_	_	
+12-9	everyone	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+12-10	clapped	O	O	B-ScrEv_spend_time_flight	_	_	
+12-11	.	O	O	O	_	_	
+

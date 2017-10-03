@@ -1,0 +1,193 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=When I went grocery shopping I started by looking in my refrigerator and figuring out what I needed to get .
+1-1	When	O	O	_	_	
+1-2	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	1-6	
+1-3	went	O	B-Evoking	_	_	
+1-4	grocery	O	I-Evoking	_	_	
+1-5	shopping	O	I-Evoking	_	_	
+1-6	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	1-11	
+1-7	started	O	B-UnrelEv	_	_	
+1-8	by	O	O	_	_	
+1-9	looking	O	B-RelNScrEv	_	_	
+1-10	in	O	O	_	_	
+1-11	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	1-17	
+1-12	refrigerator	B-NPart	O	_	_	
+1-13	and	O	O	_	_	
+1-14	figuring	O	B-RelNScrEv	_	_	
+1-15	out	O	I-RelNScrEv	_	_	
+1-16	what	B-ScrPart_groceries	O	webanno.custom.Corefchains_	3-15	
+1-17	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	2-1	
+1-18	needed	O	O	_	_	
+1-19	to	O	O	_	_	
+1-20	get	O	B-ScrEv_get_groceries	_	_	
+1-21	.	O	O	_	_	
+
+#id=2
+#text=I made a shopping list based on this .
+2-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	3-2	
+2-2	made	O	B-ScrEv_make_list	_	_	
+2-3	a	O	O	_	_	
+2-4	shopping	B-ScrPart_grocery_list	O	_	_	
+2-5	list	I-ScrPart_grocery_list|B-ScrPart_grocery_list	O	_	_	
+2-6	based	O	B-UnrelEv	_	_	
+2-7	on	O	O	_	_	
+2-8	this	O	O	_	_	
+2-9	.	O	O	_	_	
+
+#id=3
+#text=Then I decided which store was the best to go to to buy these items .
+3-1	Then	O	O	_	_	
+3-2	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	4-1	
+3-3	decided	O	B-RelNScrEv	_	_	
+3-4	which	O	O	_	_	
+3-5	store	B-ScrPart_grocery_shop	O	webanno.custom.Corefchains_	4-4	
+3-6	was	O	B-UnrelEv	_	_	
+3-7	the	O	O	_	_	
+3-8	best	O	O	_	_	
+3-9	to	O	O	_	_	
+3-10	go	O	B-ScrEv_go_grocery	_	_	
+3-11	to	O	I-ScrEv_go_grocery	_	_	
+3-12	to	O	O	_	_	
+3-13	buy	O	B-ScrEv_get_groceries	_	_	
+3-14	these	O	O	_	_	
+3-15	items	B-ScrPart_groceries	O	webanno.custom.Corefchains_	6-13	
+3-16	.	O	O	_	_	
+
+#id=4
+#text=I decided that Publix was the best and closest store for me .
+4-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	4-12	
+4-2	decided	O	B-RelNScrEv	_	_	
+4-3	that	O	O	_	_	
+4-4	Publix	B-ScrPart_grocery_shop	O	webanno.custom.Corefchains_	4-10	
+4-5	was	O	B-UnrelEv	_	_	
+4-6	the	O	O	_	_	
+4-7	best	O	O	_	_	
+4-8	and	O	O	_	_	
+4-9	closest	O	O	_	_	
+4-10	store	B-ScrPart_grocery_shop	O	webanno.custom.Corefchains_	5-5	
+4-11	for	O	O	_	_	
+4-12	me	B-ScrPart_shopper	O	webanno.custom.Corefchains_	5-1	
+4-13	.	O	O	_	_	
+
+#id=5
+#text=I walked to the store with my empty backpack , and when I got in the first thing I did was check the clearance section and sales .
+5-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	5-7	
+5-2	walked	O	B-ScrEv_go_grocery	_	_	
+5-3	to	O	O	_	_	
+5-4	the	O	O	_	_	
+5-5	store	B-ScrPart_grocery_shop	O	webanno.custom.Corefchains_	9-15	
+5-6	with	O	O	_	_	
+5-7	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	5-13	
+5-8	empty	O	O	_	_	
+5-9	backpack	B-ScrPart_shopping_bags	O	webanno.custom.Corefchains_	9-9	
+5-10	,	O	O	_	_	
+5-11	and	O	O	_	_	
+5-12	when	O	O	_	_	
+5-13	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	5-19	
+5-14	got	O	B-ScrEv_enter	_	_	
+5-15	in	O	I-ScrEv_enter	_	_	
+5-16	the	O	O	_	_	
+5-17	first	O	O	_	_	
+5-18	thing	O	O	_	_	
+5-19	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	6-3	
+5-20	did	O	B-UnrelEv	_	_	
+5-21	was	O	B-UnrelEv	_	_	
+5-22	check	O	B-ScrEv_move_section	_	_	
+5-23	the	O	O	_	_	
+5-24	clearance	B-ScrPart_section	O	_	_	
+5-25	section	I-ScrPart_section|B-ScrPart_section	O	_	_	
+5-26	and	O	O	_	_	
+5-27	sales	B-ScrPart_section	O	_	_	
+5-28	.	O	O	_	_	
+
+#id=6
+#text=After that I walked the aisle , making sure to pick up everything that I needed .
+6-1	After	O	O	_	_	
+6-2	that	O	O	_	_	
+6-3	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	6-15	
+6-4	walked	O	B-ScrEv_move_section	_	_	
+6-5	the	O	O	_	_	
+6-6	aisle	B-ScrPart_section	O	_	_	
+6-7	,	O	O	_	_	
+6-8	making	O	B-UnrelEv	_	_	
+6-9	sure	O	I-UnrelEv	_	_	
+6-10	to	O	O	_	_	
+6-11	pick	O	B-ScrEv_get_groceries	_	_	
+6-12	up	O	I-ScrEv_get_groceries	_	_	
+6-13	everything	B-ScrPart_groceries	O	webanno.custom.Corefchains_	6-14	
+6-14	that	B-ScrPart_groceries	O	webanno.custom.Corefchains_	8-6	
+6-15	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	7-1	
+6-16	needed	O	B-RelNScrEv	_	_	
+6-17	.	O	O	_	_	
+
+#id=7
+#text=I avoided using a shopping cart to be sure that I would not buy more than I could carry .
+7-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	7-11	
+7-2	avoided	O	B-UnrelEv	_	_	
+7-3	using	O	B-ScrEv_take_shop_cart	_	_	
+7-4	a	O	O	_	_	
+7-5	shopping	B-ScrPart_shopping_cart/basket	O	_	_	
+7-6	cart	I-ScrPart_shopping_cart/basket|B-ScrPart_shopping_cart/basket	O	_	_	
+7-7	to	O	O	_	_	
+7-8	be	O	B-UnrelEv	_	_	
+7-9	sure	O	I-UnrelEv	_	_	
+7-10	that	O	O	_	_	
+7-11	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	7-17	
+7-12	would	O	O	_	_	
+7-13	not	O	O	_	_	
+7-14	buy	O	B-ScrEv_get_groceries	_	_	
+7-15	more	B-???	O	_	_	
+7-16	than	O	O	_	_	
+7-17	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	8-7	
+7-18	could	O	O	_	_	
+7-19	carry	O	B-RelNScrEv	_	_	
+7-20	.	O	O	_	_	
+
+#id=8
+#text=After picking up all the items I went to the checkout where I paid for my purchases in cash .
+8-1	After	O	O	_	_	
+8-2	picking	O	B-ScrEv_get_groceries	_	_	
+8-3	up	O	I-ScrEv_get_groceries	_	_	
+8-4	all	O	O	_	_	
+8-5	the	O	O	_	_	
+8-6	items	B-ScrPart_groceries	O	webanno.custom.Corefchains_	8-17	
+8-7	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	8-13	
+8-8	went	O	B-ScrEv_move_section	_	_	
+8-9	to	O	O	_	_	
+8-10	the	O	O	_	_	
+8-11	checkout	B-ScrPart_cash_desk	O	_	_	
+8-12	where	O	O	_	_	
+8-13	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	8-16	
+8-14	paid	O	B-ScrEv_pay	_	_	
+8-15	for	O	O	_	_	
+8-16	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	9-3	
+8-17	purchases	B-ScrPart_groceries	O	webanno.custom.Corefchains_	9-6	
+8-18	in	O	O	_	_	
+8-19	cash	B-ScrPart_payment_means	O	_	_	
+8-20	.	O	O	_	_	
+
+#id=9
+#text=After that I put the items in my backpack and walked out of the store and back to my house . 
+9-1	After	O	O	_	_	
+9-2	that	O	O	_	_	
+9-3	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	9-8	
+9-4	put	O	B-ScrEv_pack_groceries	_	_	
+9-5	the	O	O	_	_	
+9-6	items	B-ScrPart_groceries	O	_	_	
+9-7	in	O	O	_	_	
+9-8	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	9-19	
+9-9	backpack	B-ScrPart_shopping_bags	O	_	_	
+9-10	and	O	O	_	_	
+9-11	walked	O	B-ScrEv_leave	_	_	
+9-12	out	O	I-ScrEv_leave	_	_	
+9-13	of	O	O	_	_	
+9-14	the	O	O	_	_	
+9-15	store	B-ScrPart_grocery_shop	O	_	_	
+9-16	and	O	O	_	_	
+9-17	back	O	O	_	_	
+9-18	to	O	O	_	_	
+9-19	my	B-ScrPart_shopper	O	_	_	
+9-20	house	B-NPart	O	_	_	
+9-21	.	O	O	_	_	
+

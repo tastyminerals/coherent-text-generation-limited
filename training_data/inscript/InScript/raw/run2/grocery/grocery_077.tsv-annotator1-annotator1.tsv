@@ -1,0 +1,322 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Today is grocery day , I go every Thursday .
+1-1	Today	B-NPart	O	_	_	
+1-2	is	O	B-Evoking|B-UnrelEv	_	_	
+1-3	grocery	B-???	I-Evoking	_	_	
+1-4	day	I-???|B-???	I-Evoking	_	_	
+1-5	,	O	O	_	_	
+1-6	I	B-ScrPart_shopper	O	_	_	
+1-7	go	O	B-ScrEv_go_grocery	_	_	
+1-8	every	O	O	_	_	
+1-9	Thursday	B-NPart	O	_	_	
+1-10	.	O	O	_	_	
+
+#id=2
+#text=I check the paper on Wednesday and try to to match all the coupons I can to each sale .
+2-1	I	B-ScrPart_shopper	O	_	_	
+2-2	check	O	B-RelNScrEv	_	_	
+2-3	the	O	O	_	_	
+2-4	paper	B-NPart	O	_	_	
+2-5	on	O	O	_	_	
+2-6	Wednesday	B-NPart	O	_	_	
+2-7	and	O	O	_	_	
+2-8	try	O	B-UnrelEv	_	_	
+2-9	to	O	O	_	_	
+2-10	to	O	O	_	_	
+2-11	match	O	B-RelNScrEv	_	_	
+2-12	all	O	O	_	_	
+2-13	the	O	O	_	_	
+2-14	coupons	B-ScrPart_deal_coupon	O	_	_	
+2-15	I	B-ScrPart_shopper	O	_	_	
+2-16	can	O	O	_	_	
+2-17	to	O	O	_	_	
+2-18	each	O	O	_	_	
+2-19	sale	B-ScrPart_other	O	_	_	
+2-20	.	O	O	_	_	
+
+#id=3
+#text=I grab my coupon book and head it to the store .
+3-1	I	B-ScrPart_shopper	O	_	_	
+3-2	grab	O	B-RelNScrEv	_	_	
+3-3	my	B-ScrPart_shopper	O	_	_	
+3-4	coupon	B-ScrPart_deal_coupon	O	_	_	
+3-5	book	I-ScrPart_deal_coupon|B-ScrPart_deal_coupon	O	_	_	
+3-6	and	O	O	_	_	
+3-7	head	O	B-RelNScrEv	_	_	
+3-8	it	B-ScrPart_deal_coupon	O	webanno.custom.Corefchains_	3-5	
+3-9	to	O	O	_	_	
+3-10	the	O	O	_	_	
+3-11	store	B-ScrPart_grocery_shop	O	_	_	
+3-12	.	O	O	_	_	
+
+#id=4
+#text=AS I walk in there are item s stack that are unadvertised deals and I check the out to see if I need anything .
+4-1	AS	O	O	_	_	
+4-2	I	B-ScrPart_shopper	O	_	_	
+4-3	walk	O	B-ScrEv_enter|B-ScrEv_enter	_	_	
+4-4	in	O	I-ScrEv_enter	_	_	
+4-5	there	O	O	_	_	
+4-6	are	O	B-UnrelEv	_	_	
+4-7	item	B-ScrPart_groceries	O	_	_	
+4-8	s	O	O	_	_	
+4-9	stack	O	O	_	_	
+4-10	that	O	O	_	_	
+4-11	are	O	B-UnrelEv	_	_	
+4-12	unadvertised	O	B-RelNScrEv	_	_	
+4-13	deals	B-ScrPart_other	O	_	_	
+4-14	and	O	O	_	_	
+4-15	I	B-ScrPart_shopper	O	_	_	
+4-16	check	O	B-RelNScrEv	_	_	
+4-17	the	B-ScrPart_other	O	webanno.custom.Corefchains_	4-13	
+4-18	out	O	O	_	_	
+4-19	to	O	O	_	_	
+4-20	see	O	B-UnrelEv	_	_	
+4-21	if	O	O	_	_	
+4-22	I	B-ScrPart_shopper	O	_	_	
+4-23	need	O	B-RelNScrEv	_	_	
+4-24	anything	B-ScrPart_groceries	O	_	_	
+4-25	.	O	O	_	_	
+
+#id=5
+#text=I walk into the store and the way it is laid out I can easily find the items that I need pretty quickly , grocery shopping is not my favorite past time , I go to the deli counter and get lunch meat for help yourself nights and school lunches .
+5-1	I	B-ScrPart_shopper	O	_	_	
+5-2	walk	O	B-ScrEv_enter|B-ScrEv_enter	_	_	
+5-3	into	O	I-ScrEv_enter	_	_	
+5-4	the	O	O	_	_	
+5-5	store	B-ScrPart_grocery_shop	O	_	_	
+5-6	and	O	O	_	_	
+5-7	the	O	O	_	_	
+5-8	way	B-No_label	O	_	_	
+5-9	it	B-ScrPart_grocery_shop	O	_	_	
+5-10	is	O	O	_	_	
+5-11	laid	O	B-UnrelEv|B-UnrelEv	_	_	
+5-12	out	O	I-UnrelEv	_	_	
+5-13	I	B-ScrPart_shopper	O	_	_	
+5-14	can	O	O	_	_	
+5-15	easily	O	O	_	_	
+5-16	find	O	B-ScrEv_get_groceries	_	_	
+5-17	the	O	O	_	_	
+5-18	items	B-ScrPart_groceries	O	_	_	
+5-19	that	O	O	_	_	
+5-20	I	B-ScrPart_shopper	O	_	_	
+5-21	need	O	B-RelNScrEv	_	_	
+5-22	pretty	O	O	_	_	
+5-23	quickly	O	O	_	_	
+5-24	,	O	O	_	_	
+5-25	grocery	O	B-Evoking	_	_	
+5-26	shopping	O	I-Evoking	_	_	
+5-27	is	O	B-UnrelEv	_	_	
+5-28	not	O	O	_	_	
+5-29	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	5-20	
+5-30	favorite	O	O	_	_	
+5-31	past	B-NPart	O	_	_	
+5-32	time	I-NPart|B-NPart	O	_	_	
+5-33	,	O	O	_	_	
+5-34	I	B-ScrPart_shopper	O	_	_	
+5-35	go	O	B-ScrEv_move_section	_	_	
+5-36	to	O	O	_	_	
+5-37	the	O	O	_	_	
+5-38	deli	B-ScrPart_section	O	_	_	
+5-39	counter	I-ScrPart_section|B-ScrPart_section	O	_	_	
+5-40	and	O	O	_	_	
+5-41	get	O	B-ScrEv_get_groceries	_	_	
+5-42	lunch	B-ScrPart_groceries	O	_	_	
+5-43	meat	I-ScrPart_groceries|B-ScrPart_groceries	O	_	_	
+5-44	for	O	O	_	_	
+5-45	help	O	B-UnrelEv	_	_	
+5-46	yourself	B-No_label	O	_	_	
+5-47	nights	B-NPart	O	_	_	
+5-48	and	O	O	_	_	
+5-49	school	B-NPart	O	_	_	
+5-50	lunches	I-NPart|B-NPart	O	_	_	
+5-51	.	O	O	_	_	
+
+#id=6
+#text=I then head to the meat department to get some chicken and a roast for Sunday .
+6-1	I	B-ScrPart_shopper	O	_	_	
+6-2	then	O	O	_	_	
+6-3	head	O	B-ScrEv_move_section	_	_	
+6-4	to	O	O	_	_	
+6-5	the	O	O	_	_	
+6-6	meat	B-ScrPart_section	O	_	_	
+6-7	department	I-ScrPart_section|B-ScrPart_section	O	_	_	
+6-8	to	O	O	_	_	
+6-9	get	O	B-ScrEv_get_groceries	_	_	
+6-10	some	O	O	_	_	
+6-11	chicken	B-ScrPart_groceries	O	_	_	
+6-12	and	O	O	_	_	
+6-13	a	O	O	_	_	
+6-14	roast	B-ScrPart_groceries	O	_	_	
+6-15	for	O	O	_	_	
+6-16	Sunday	B-NPart	O	_	_	
+6-17	.	O	O	_	_	
+
+#id=7
+#text=Now time for the isles and my coupon matches , I head down each isle relativity quickly since I already know pretty much what I am going to buy and how much of it I need .
+7-1	Now	O	O	_	_	
+7-2	time	B-No_label	O	_	_	
+7-3	for	O	O	_	_	
+7-4	the	O	O	_	_	
+7-5	isles	B-ScrPart_section	O	_	_	
+7-6	and	O	O	_	_	
+7-7	my	B-ScrPart_shopper	O	_	_	
+7-8	coupon	B-ScrPart_deal_coupon	O	_	_	
+7-9	matches	I-ScrPart_deal_coupon|B-ScrPart_deal_coupon	O	_	_	
+7-10	,	O	O	_	_	
+7-11	I	B-ScrPart_shopper	O	_	_	
+7-12	head	O	B-ScrEv_move_section|B-ScrEv_move_section	_	_	
+7-13	down	O	I-ScrEv_move_section	_	_	
+7-14	each	O	O	_	_	
+7-15	isle	B-ScrPart_section	O	_	_	
+7-16	relativity	O	O	_	_	
+7-17	quickly	O	O	_	_	
+7-18	since	O	O	_	_	
+7-19	I	B-ScrPart_shopper	O	_	_	
+7-20	already	O	O	_	_	
+7-21	know	O	B-UnrelEv	_	_	
+7-22	pretty	O	O	_	_	
+7-23	much	O	O	_	_	
+7-24	what	O	O	_	_	
+7-25	I	B-ScrPart_shopper	O	_	_	
+7-26	am	O	O	_	_	
+7-27	going	O	O	_	_	
+7-28	to	O	O	_	_	
+7-29	buy	O	B-ScrEv_get_groceries	_	_	
+7-30	and	O	O	_	_	
+7-31	how	O	O	_	_	
+7-32	much	O	O	_	_	
+7-33	of	O	O	_	_	
+7-34	it	B-ScrPart_groceries	O	_	_	
+7-35	I	B-ScrPart_shopper	O	_	_	
+7-36	need	O	B-RelNScrEv	_	_	
+7-37	.	O	O	_	_	
+
+#id=8
+#text=I finish each isle and have all of my necessities .
+8-1	I	B-ScrPart_shopper	O	_	_	
+8-2	finish	O	B-UnrelEv	_	_	
+8-3	each	O	O	_	_	
+8-4	isle	B-ScrPart_section	O	_	_	
+8-5	and	O	O	_	_	
+8-6	have	O	B-ScrEv_get_groceries	_	_	
+8-7	all	O	O	_	_	
+8-8	of	O	O	_	_	
+8-9	my	B-ScrPart_shopper	O	_	_	
+8-10	necessities	B-ScrPart_groceries	O	_	_	
+8-11	.	O	O	_	_	
+
+#id=9
+#text=I go over to the bakery to see what they have on sale today and see a large carrot roll with cream cheese filling .
+9-1	I	B-ScrPart_shopper	O	_	_	
+9-2	go	O	B-ScrEv_move_section|B-ScrEv_move_section	_	_	
+9-3	over	O	I-ScrEv_move_section	_	_	
+9-4	to	O	O	_	_	
+9-5	the	O	O	_	_	
+9-6	bakery	B-ScrPart_section	O	_	_	
+9-7	to	O	O	_	_	
+9-8	see	O	B-UnrelEv	_	_	
+9-9	what	B-ScrPart_groceries	O	_	_	
+9-10	they	B-ScrPart_section	O	_	_	
+9-11	have	O	B-RelNScrEv	_	_	
+9-12	on	O	O	_	_	
+9-13	sale	B-SuppVComp	O	_	_	
+9-14	today	B-NPart	O	_	_	
+9-15	and	O	O	_	_	
+9-16	see	O	B-UnrelEv	_	_	
+9-17	a	O	O	_	_	
+9-18	large	O	O	_	_	
+9-19	carrot	B-ScrPart_groceries|B-ScrPart_groceries	O	_	_	
+9-20	roll	I-ScrPart_groceries|I-ScrPart_groceries|B-ScrPart_groceries	O	_	_	
+9-21	with	I-ScrPart_groceries	O	_	_	
+9-22	cream	I-ScrPart_groceries	O	_	_	
+9-23	cheese	I-ScrPart_groceries	O	_	_	
+9-24	filling	I-ScrPart_groceries	O	_	_	
+9-25	.	O	O	_	_	
+
+#id=10
+#text=So I place that in my cart and head for the checkout isle .
+10-1	So	O	O	_	_	
+10-2	I	B-ScrPart_shopper	O	_	_	
+10-3	place	O	B-ScrEv_get_groceries	_	_	
+10-4	that	B-ScrPart_groceries	O	_	_	
+10-5	in	O	O	_	_	
+10-6	my	B-ScrPart_shopper	O	_	_	
+10-7	cart	B-ScrPart_shopping_cart/basket	O	_	_	
+10-8	and	O	O	_	_	
+10-9	head	O	B-ScrEv_move_section	_	_	
+10-10	for	O	O	_	_	
+10-11	the	O	O	_	_	
+10-12	checkout	B-ScrPart_section	O	_	_	
+10-13	isle	I-ScrPart_section|B-ScrPart_section	O	_	_	
+10-14	.	O	O	_	_	
+
+#id=11
+#text=I place all my purchases on the belt near the cashier and watch as each one is scanned , She totals my purchase and I pay for them .
+11-1	I	B-ScrPart_shopper	O	_	_	
+11-2	place	O	B-ScrEv_put_conveyor	_	_	
+11-3	all	O	O	_	_	
+11-4	my	B-ScrPart_shopper	O	_	_	
+11-5	purchases	B-ScrPart_groceries	O	_	_	
+11-6	on	O	O	_	_	
+11-7	the	O	O	_	_	
+11-8	belt	B-ScrPart_conveyor_belt	O	_	_	
+11-9	near	O	O	_	_	
+11-10	the	O	O	_	_	
+11-11	cashier	B-ScrPart_grocery_staff	O	_	_	
+11-12	and	O	O	_	_	
+11-13	watch	O	B-UnrelEv	_	_	
+11-14	as	O	O	_	_	
+11-15	each	O	O	_	_	
+11-16	one	B-ScrPart_groceries	O	_	_	
+11-17	is	O	O	_	_	
+11-18	scanned	O	B-ScrEv_cashier_scan/weight	_	_	
+11-19	,	O	O	_	_	
+11-20	She	B-ScrPart_grocery_staff	O	_	_	
+11-21	totals	O	B-ScrEv_cashier_scan/weight	_	_	
+11-22	my	B-ScrPart_shopper	O	_	_	
+11-23	purchase	B-ScrPart_groceries	O	_	_	
+11-24	and	O	O	_	_	
+11-25	I	B-ScrPart_shopper	O	_	_	
+11-26	pay	O	B-ScrEv_pay	_	_	
+11-27	for	O	O	_	_	
+11-28	them	B-ScrPart_groceries	O	_	_	
+11-29	.	O	O	_	_	
+
+#id=12
+#text=As I leave the store I look at my watch and realize it took me much less time as usual .
+12-1	As	O	O	_	_	
+12-2	I	B-ScrPart_shopper	O	_	_	
+12-3	leave	O	B-ScrEv_leave	_	_	
+12-4	the	O	O	_	_	
+12-5	store	B-ScrPart_grocery_shop	O	_	_	
+12-6	I	B-ScrPart_shopper	O	_	_	
+12-7	look	O	B-UnrelEv	_	_	
+12-8	at	O	O	_	_	
+12-9	my	B-ScrPart_shopper	O	_	_	
+12-10	watch	B-NPart	O	_	_	
+12-11	and	O	O	_	_	
+12-12	realize	O	B-UnrelEv	_	_	
+12-13	it	B-No_label	O	_	_	
+12-14	took	O	B-UnrelEv	_	_	
+12-15	me	B-ScrPart_shopper	O	_	_	
+12-16	much	O	O	_	_	
+12-17	less	O	O	_	_	
+12-18	time	B-SuppVComp	O	_	_	
+12-19	as	O	O	_	_	
+12-20	usual	O	O	_	_	
+12-21	.	O	O	_	_	
+
+#id=13
+#text=Now I can enjoy the rest of my day ! 
+13-1	Now	O	O	_	_	
+13-2	I	B-ScrPart_shopper	O	_	_	
+13-3	can	O	O	_	_	
+13-4	enjoy	O	B-UnrelEv	_	_	
+13-5	the	O	O	_	_	
+13-6	rest	B-Head_of_Partitive	O	_	_	
+13-7	of	O	O	_	_	
+13-8	my	B-ScrPart_shopper	O	_	_	
+13-9	day	B-NPart	O	_	_	
+13-10	!	O	O	_	_	
+

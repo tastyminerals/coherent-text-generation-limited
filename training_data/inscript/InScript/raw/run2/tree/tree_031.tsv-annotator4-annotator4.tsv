@@ -1,0 +1,443 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant
+#id=1
+#text=There are many ways to plant a tree .
+1-1	There	O	O	
+1-2	are	B-UnrelEv	O	
+1-3	many	O	O	
+1-4	ways	O	B-No_label	
+1-5	to	O	O	
+1-6	plant	B-Evoking	O	
+1-7	a	I-Evoking	O	
+1-8	tree	I-Evoking	B-ScrPart_tree	
+1-9	.	O	O	
+
+#id=2
+#text=One of the least expensive is planting a bare root tree .
+2-1	One	O	O	
+2-2	of	O	O	
+2-3	the	O	O	
+2-4	least	O	O	
+2-5	expensive	O	O	
+2-6	is	B-UnrelEv	O	
+2-7	planting	B-Evoking	O	
+2-8	a	I-Evoking	O	
+2-9	bare	I-Evoking	B-ScrPart_tree	
+2-10	root	I-Evoking	I-ScrPart_tree	
+2-11	tree	I-Evoking	I-ScrPart_tree|B-ScrPart_tree	
+2-12	.	O	O	
+
+#id=3
+#text=I had to chose the right tree for my area and my particular situation .
+3-1	I	O	B-ScrPart_gardener	
+3-2	had	O	O	
+3-3	to	O	O	
+3-4	chose	B-ScrEv_choose_tree	O	
+3-5	the	O	O	
+3-6	right	O	O	
+3-7	tree	O	B-ScrPart_tree	
+3-8	for	O	O	
+3-9	my	O	B-ScrPart_gardener	
+3-10	area	O	B-ScrPart_location_garden	
+3-11	and	O	O	
+3-12	my	O	B-ScrPart_gardener	
+3-13	particular	O	O	
+3-14	situation	O	B-ScrPart_location_garden	
+3-15	.	O	O	
+
+#id=4
+#text=My local nursery carries only plants suited to our area , but since I bought from a catalog I checked for suitability in a Sunset Garden Book .
+4-1	My	O	B-ScrPart_gardener	
+4-2	local	O	O	
+4-3	nursery	O	B-ScrPart_shop	
+4-4	carries	B-RelNScrEv	O	
+4-5	only	O	O	
+4-6	plants	O	B-ScrPart_tree	
+4-7	suited	B-UnrelEv	O	
+4-8	to	O	O	
+4-9	our	O	B-ScrPart_gardener	
+4-10	area	O	B-ScrPart_location_garden	
+4-11	,	O	O	
+4-12	but	O	O	
+4-13	since	O	O	
+4-14	I	O	B-ScrPart_gardener	
+4-15	bought	B-ScrEv_get_tree	O	
+4-16	from	O	O	
+4-17	a	O	O	
+4-18	catalog	O	B-NPart	
+4-19	I	O	B-ScrPart_gardener	
+4-20	checked	B-RelNScrEv	O	
+4-21	for	O	O	
+4-22	suitability	O	B-NPart	
+4-23	in	O	O	
+4-24	a	O	O	
+4-25	Sunset	O	B-NPart	
+4-26	Garden	O	I-NPart	
+4-27	Book	O	I-NPart|B-NPart	
+4-28	.	O	O	
+
+#id=5
+#text=I also had to site the tree properly .
+5-1	I	O	B-ScrPart_gardener	
+5-2	also	O	O	
+5-3	had	O	O	
+5-4	to	O	O	
+5-5	site	B-ScrEv_find_place	O	
+5-6	the	O	O	
+5-7	tree	O	B-ScrPart_tree	
+5-8	properly	O	O	
+5-9	.	O	O	
+
+#id=6
+#text=It could n't be under power lines , and needed room to spread .
+6-1	It	O	B-ScrPart_tree	
+6-2	could	O	O	
+6-3	n't	O	O	
+6-4	be	B-ScrEv_find_place	O	
+6-5	under	O	O	
+6-6	power	O	B-NPart	
+6-7	lines	O	I-NPart|B-NPart	
+6-8	,	O	O	
+6-9	and	O	O	
+6-10	needed	B-ScrEv_find_place	O	
+6-11	room	O	B-NPart	
+6-12	to	O	O	
+6-13	spread	B-RelNScrEv	O	
+6-14	.	O	O	
+
+#id=7
+#text=I finally planted a magnolia .
+7-1	I	O	B-ScrPart_gardener	
+7-2	finally	O	O	
+7-3	planted	B-Evoking	O	
+7-4	a	I-Evoking	O	
+7-5	magnolia	I-Evoking	B-ScrPart_tree	
+7-6	.	O	O	
+
+#id=8
+#text=It began as a bare root tree , and it now flowers every early spring , even in our drought .
+8-1	It	O	B-ScrPart_tree	
+8-2	began	B-UnrelEv	O	
+8-3	as	O	O	
+8-4	a	O	O	
+8-5	bare	O	B-ScrPart_tree	
+8-6	root	O	I-ScrPart_tree	
+8-7	tree	O	I-ScrPart_tree|B-ScrPart_tree	
+8-8	,	O	O	
+8-9	and	O	O	
+8-10	it	O	B-ScrPart_tree	
+8-11	now	O	O	
+8-12	flowers	B-RelNScrEv	O	
+8-13	every	O	O	
+8-14	early	O	O	
+8-15	spring	O	B-ScrPart_time	
+8-16	,	O	O	
+8-17	even	O	O	
+8-18	in	O	O	
+8-19	our	O	B-ScrPart_gardener	
+8-20	drought	O	B-NPart	
+8-21	.	O	O	
+
+#id=9
+#text=First , I dug a planting hole .
+9-1	First	O	O	
+9-2	,	O	O	
+9-3	I	O	B-ScrPart_gardener	
+9-4	dug	B-ScrEv_dug_hole	O	
+9-5	a	O	O	
+9-6	planting	B-ScrEv_place_root	O	
+9-7	hole	O	B-ScrPart_hole	
+9-8	.	O	O	
+
+#id=10
+#text=The hole was wider at the bottom than at the top , and had a cone of firm soil in its center to support the tree .
+10-1	The	O	O	
+10-2	hole	O	B-ScrPart_hole	
+10-3	was	B-UnrelEv	O	
+10-4	wider	O	O	
+10-5	at	O	O	
+10-6	the	O	O	
+10-7	bottom	O	B-NPart	
+10-8	than	O	O	
+10-9	at	O	O	
+10-10	the	O	O	
+10-11	top	O	B-NPart	
+10-12	,	O	O	
+10-13	and	O	O	
+10-14	had	B-UnrelEv	O	
+10-15	a	O	O	
+10-16	cone	O	B-Head_of_Partitive	
+10-17	of	O	O	
+10-18	firm	O	O	
+10-19	soil	O	B-ScrPart_dirt	
+10-20	in	O	O	
+10-21	its	O	B-ScrPart_hole	
+10-22	center	O	B-NPart	
+10-23	to	O	O	
+10-24	support	B-RelNScrEv	O	
+10-25	the	O	O	
+10-26	tree	O	B-ScrPart_tree	
+10-27	.	O	O	
+
+#id=11
+#text=The hole was about five times as wide across as the tree .
+11-1	The	O	O	
+11-2	hole	O	B-ScrPart_hole	
+11-3	was	B-UnrelEv	O	
+11-4	about	O	O	
+11-5	five	O	O	
+11-6	times	O	B-No_label	
+11-7	as	O	O	
+11-8	wide	O	O	
+11-9	across	O	O	
+11-10	as	O	O	
+11-11	the	O	O	
+11-12	tree	O	B-ScrPart_tree	
+11-13	.	O	O	
+
+#id=12
+#text=I started the hole with a shovel , but finished by hacking at the soil underground with a spade to undercut the hole and so the roots could get purchase when they started to spread .
+12-1	I	O	B-ScrPart_gardener	
+12-2	started	B-ScrEv_dug_hole	O	
+12-3	the	O	O	
+12-4	hole	O	B-ScrPart_hole	
+12-5	with	O	O	
+12-6	a	O	O	
+12-7	shovel	O	B-ScrPart_gardening_tool	
+12-8	,	O	O	
+12-9	but	O	O	
+12-10	finished	B-ScrEv_dug_hole	O	
+12-11	by	O	O	
+12-12	hacking	B-ScrEv_dug_hole	O	
+12-13	at	O	O	
+12-14	the	O	O	
+12-15	soil	O	B-ScrPart_dirt	
+12-16	underground	O	I-ScrPart_dirt|B-ScrPart_dirt	
+12-17	with	O	O	
+12-18	a	O	O	
+12-19	spade	O	B-ScrPart_gardening_tool	
+12-20	to	O	O	
+12-21	undercut	B-ScrEv_dug_hole	O	
+12-22	the	O	O	
+12-23	hole	O	B-ScrPart_hole	
+12-24	and	O	O	
+12-25	so	O	O	
+12-26	the	O	O	
+12-27	roots	O	B-ScrPart_root	
+12-28	could	O	O	
+12-29	get	B-RelNScrEv	O	
+12-30	purchase	O	B-NPart	
+12-31	when	O	O	
+12-32	they	O	B-ScrPart_root	
+12-33	started	B-UnrelEv	O	
+12-34	to	O	O	
+12-35	spread	B-RelNScrEv	O	
+12-36	.	O	O	
+
+#id=13
+#text=I set the bare root tree on the cone I left in the center of the hole and spread out its roots over the cone .
+13-1	I	O	B-ScrPart_gardener	
+13-2	set	B-ScrEv_place_root	O	
+13-3	the	O	O	
+13-4	bare	O	B-ScrPart_tree	
+13-5	root	O	I-ScrPart_tree	
+13-6	tree	O	I-ScrPart_tree|B-ScrPart_tree	
+13-7	on	O	O	
+13-8	the	O	O	
+13-9	cone	O	B-ScrPart_dirt	
+13-10	I	O	B-ScrPart_gardener	
+13-11	left	B-UnrelEv	O	
+13-12	in	O	O	
+13-13	the	O	O	
+13-14	center	O	B-NPart	
+13-15	of	O	O	
+13-16	the	O	O	
+13-17	hole	O	B-ScrPart_hole	
+13-18	and	O	O	
+13-19	spread	B-ScrEv_place_root	O	
+13-20	out	O	O	
+13-21	its	O	B-ScrPart_tree	
+13-22	roots	O	B-ScrPart_root	
+13-23	over	O	O	
+13-24	the	O	O	
+13-25	cone	O	B-ScrPart_dirt	
+13-26	.	O	O	
+
+#id=14
+#text=I arranged the roots so the tree would be level , no roots would be exposed , and the upper bark would n't be buried .
+14-1	I	O	B-ScrPart_gardener	
+14-2	arranged	B-ScrEv_place_root	O	
+14-3	the	O	O	
+14-4	roots	O	B-ScrPart_root	
+14-5	so	O	O	
+14-6	the	O	O	
+14-7	tree	O	B-ScrPart_tree	
+14-8	would	O	O	
+14-9	be	B-UnrelEv	O	
+14-10	level	O	B-NPart	
+14-11	,	O	O	
+14-12	no	O	O	
+14-13	roots	O	B-ScrPart_root	
+14-14	would	O	O	
+14-15	be	O	O	
+14-16	exposed	B-RelNScrEv	O	
+14-17	,	O	O	
+14-18	and	O	O	
+14-19	the	O	O	
+14-20	upper	O	O	
+14-21	bark	O	B-NPart	
+14-22	would	O	O	
+14-23	n't	O	O	
+14-24	be	O	O	
+14-25	buried	B-RelNScrEv	O	
+14-26	.	O	O	
+
+#id=15
+#text=Then I nearly filled the hole with soil , firming it lightly by patting it as I went .
+15-1	Then	O	O	
+15-2	I	O	B-ScrPart_gardener	
+15-3	nearly	O	O	
+15-4	filled	B-ScrEv_refill_hole	O	
+15-5	the	O	O	
+15-6	hole	O	B-ScrPart_hole	
+15-7	with	O	O	
+15-8	soil	O	B-ScrPart_dirt	
+15-9	,	O	O	
+15-10	firming	B-ScrEv_damp_dirt	O	
+15-11	it	O	B-ScrPart_dirt	
+15-12	lightly	O	O	
+15-13	by	O	O	
+15-14	patting	B-ScrEv_damp_dirt	O	
+15-15	it	O	B-ScrPart_dirt	
+15-16	as	O	O	
+15-17	I	O	B-ScrPart_gardener	
+15-18	went	B-UnrelEv	O	
+15-19	.	O	O	
+
+#id=16
+#text=When the hole was almost full , I watered slowly , holding the tree straight as the water soaked in .
+16-1	When	O	O	
+16-2	the	O	O	
+16-3	hole	O	B-ScrPart_hole	
+16-4	was	B-UnrelEv	O	
+16-5	almost	O	O	
+16-6	full	O	O	
+16-7	,	O	O	
+16-8	I	O	B-ScrPart_gardener	
+16-9	watered	B-ScrEv_water	O	
+16-10	slowly	O	O	
+16-11	,	O	O	
+16-12	holding	B-RelNScrEv	O	
+16-13	the	O	O	
+16-14	tree	O	B-ScrPart_tree	
+16-15	straight	O	O	
+16-16	as	O	O	
+16-17	the	O	O	
+16-18	water	O	B-ScrPart_water	
+16-19	soaked	B-ScrEv_water	O	
+16-20	in	I-ScrEv_water	O	
+16-21	.	O	O	
+
+#id=17
+#text=Then I filled up the hole completely .
+17-1	Then	O	O	
+17-2	I	O	B-ScrPart_gardener	
+17-3	filled	B-ScrEv_refill_hole	O	
+17-4	up	I-ScrEv_refill_hole	O	
+17-5	the	O	O	
+17-6	hole	O	B-ScrPart_hole	
+17-7	completely	O	O	
+17-8	.	O	O	
+
+#id=18
+#text=finally , I made a ring of soil around the tree , to hold in water when the rainy season ended and I would have to irrigate .
+18-1	finally	O	O	
+18-2	,	O	O	
+18-3	I	O	B-ScrPart_gardener	
+18-4	made	B-ScrEv_damp_dirt	O	
+18-5	a	O	O	
+18-6	ring	O	B-NPart	
+18-7	of	O	O	
+18-8	soil	O	B-ScrPart_dirt	
+18-9	around	O	O	
+18-10	the	O	O	
+18-11	tree	O	B-ScrPart_tree	
+18-12	,	O	O	
+18-13	to	O	O	
+18-14	hold	B-RelNScrEv	O	
+18-15	in	I-RelNScrEv	O	
+18-16	water	O	B-ScrPart_water	
+18-17	when	O	O	
+18-18	the	O	O	
+18-19	rainy	O	O	
+18-20	season	O	B-NPart	
+18-21	ended	B-UnrelEv	O	
+18-22	and	O	O	
+18-23	I	O	B-ScrPart_gardener	
+18-24	would	O	O	
+18-25	have	O	O	
+18-26	to	O	O	
+18-27	irrigate	B-ScrEv_water	O	
+18-28	.	O	O	
+
+#id=19
+#text=I used no fertilizer or amendments when I planted , because our sandy soil is fairly fertile , and I did n't want to make a dividing line that would encourage the tree to grow only in its tiny pothole of enriched soil .
+19-1	I	O	B-ScrPart_gardener	
+19-2	used	B-RelNScrEv	O	
+19-3	no	O	O	
+19-4	fertilizer	O	B-ScrPart_fertilizer	
+19-5	or	O	O	
+19-6	amendments	O	B-ScrPart_fertilizer	
+19-7	when	O	O	
+19-8	I	O	B-ScrPart_gardener	
+19-9	planted	B-Evoking	O	
+19-10	,	O	O	
+19-11	because	O	O	
+19-12	our	O	B-ScrPart_gardener	
+19-13	sandy	O	O	
+19-14	soil	O	B-ScrPart_dirt	
+19-15	is	B-UnrelEv	O	
+19-16	fairly	O	O	
+19-17	fertile	O	O	
+19-18	,	O	O	
+19-19	and	O	O	
+19-20	I	O	B-ScrPart_gardener	
+19-21	did	O	O	
+19-22	n't	O	O	
+19-23	want	B-UnrelEv	O	
+19-24	to	O	O	
+19-25	make	B-RelNScrEv	O	
+19-26	a	O	O	
+19-27	dividing	B-UnrelEv	O	
+19-28	line	O	B-NPart	
+19-29	that	O	O	
+19-30	would	O	O	
+19-31	encourage	B-UnrelEv	O	
+19-32	the	O	O	
+19-33	tree	O	B-ScrPart_tree	
+19-34	to	O	O	
+19-35	grow	B-RelNScrEv	O	
+19-36	only	O	O	
+19-37	in	O	O	
+19-38	its	O	B-ScrPart_tree	
+19-39	tiny	O	O	
+19-40	pothole	O	B-ScrPart_hole	
+19-41	of	O	O	
+19-42	enriched	B-RelNScrEv	O	
+19-43	soil	O	B-ScrPart_dirt	
+19-44	.	O	O	
+
+#id=20
+#text=I wanted it to spread its roots , and it has . 
+20-1	I	O	B-ScrPart_gardener	
+20-2	wanted	B-UnrelEv	O	
+20-3	it	O	B-ScrPart_tree	
+20-4	to	O	O	
+20-5	spread	B-RelNScrEv	O	
+20-6	its	O	B-ScrPart_tree	
+20-7	roots	O	B-ScrPart_root	
+20-8	,	O	O	
+20-9	and	O	O	
+20-10	it	O	B-ScrPart_tree	
+20-11	has	B-UnrelEv	O	
+20-12	.	O	O	
+

@@ -1,0 +1,254 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events
+#id=1
+#text=Last week , I decided to take a nice relaxing bubble bath after a hard day of work .
+1-1	Last	O	O	O	
+1-2	week	B-NPart	B-webanno.custom.Participants_	O	
+1-3	,	O	O	O	
+1-4	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+1-5	decided	O	O	B-UnrelEv	
+1-6	to	O	O	O	
+1-7	take	O	O	B-Evoking	
+1-8	a	O	O	I-Evoking	
+1-9	nice	O	O	I-Evoking	
+1-10	relaxing	O	O	I-Evoking|B-ScrEv_relax	
+1-11	bubble	O	O	I-Evoking	
+1-12	bath	B-SuppVComp	B-webanno.custom.Participants_	I-Evoking	
+1-13	after	O	O	O	
+1-14	a	O	O	O	
+1-15	hard	O	O	O	
+1-16	day	B-NPart	B-webanno.custom.Participants_	O	
+1-17	of	O	O	O	
+1-18	work	B-NPart	B-webanno.custom.Participants_	O	
+1-19	.	O	O	O	
+
+#id=2
+#text=After getting done with my chores , I went up stairs into the bedroom to grab some clothes .
+2-1	After	O	O	O	
+2-2	getting	O	O	B-UnrelEv	
+2-3	done	O	O	B-UnrelEv	
+2-4	with	O	O	O	
+2-5	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+2-6	chores	B-NPart	B-webanno.custom.Participants_	O	
+2-7	,	O	O	O	
+2-8	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+2-9	went	O	O	B-RelNScrEv	
+2-10	up	O	O	O	
+2-11	stairs	B-NPart	B-webanno.custom.Participants_	O	
+2-12	into	O	O	O	
+2-13	the	O	O	O	
+2-14	bedroom	B-NPart	B-webanno.custom.Participants_	O	
+2-15	to	O	O	O	
+2-16	grab	O	O	B-ScrEv_take_clean_clothes	
+2-17	some	O	O	O	
+2-18	clothes	B-ScrPart_clothes	B-webanno.custom.Participants_	O	
+2-19	.	O	O	O	
+
+#id=3
+#text=After finding on what I wanted to wear , I went into the bathroom and shut the door .
+3-1	After	O	O	O	
+3-2	finding	O	O	B-ScrEv_take_clean_clothes	
+3-3	on	O	O	I-ScrEv_take_clean_clothes	
+3-4	what	O	O	O	
+3-5	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+3-6	wanted	O	O	B-UnrelEv	
+3-7	to	O	O	O	
+3-8	wear	O	O	B-???	
+3-9	,	O	O	O	
+3-10	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+3-11	went	O	O	B-ScrEv_enter_bathroom	
+3-12	into	O	O	O	
+3-13	the	O	O	O	
+3-14	bathroom	B-ScrPart_bathroom	B-webanno.custom.Participants_	O	
+3-15	and	O	O	O	
+3-16	shut	O	O	B-RelNScrEv	
+3-17	the	O	O	O	
+3-18	door	B-NPart	B-webanno.custom.Participants_	O	
+3-19	.	O	O	O	
+
+#id=4
+#text=I went to the bath tub , and turned on the faucet .
+4-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+4-2	went	O	O	B-RelNScrEv	
+4-3	to	O	O	O	
+4-4	the	O	O	O	
+4-5	bath	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	
+4-6	tub	I-ScrPart_bathtub|B-ScrPart_bathtub	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+4-7	,	O	O	O	
+4-8	and	O	O	O	
+4-9	turned	O	O	B-ScrEv_turn_water_on	
+4-10	on	O	O	I-ScrEv_turn_water_on	
+4-11	the	O	O	O	
+4-12	faucet	B-ScrPart_tap	B-webanno.custom.Participants_	O	
+4-13	.	O	O	O	
+
+#id=5
+#text=I messed around with the knobs on the faucet to get some hot water that was perfect temperature .
+5-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+5-2	messed	O	O	B-ScrEv_turn_water_on	
+5-3	around	O	O	I-ScrEv_turn_water_on	
+5-4	with	O	O	O	
+5-5	the	O	O	O	
+5-6	knobs	B-NPart	B-webanno.custom.Participants_	O	
+5-7	on	O	O	O	
+5-8	the	O	O	O	
+5-9	faucet	B-ScrPart_tap	B-webanno.custom.Participants_	O	
+5-10	to	O	O	O	
+5-11	get	O	O	B-ScrEv_turn_water_on	
+5-12	some	O	O	O	
+5-13	hot	O	O	O	
+5-14	water	B-ScrPart_water	B-webanno.custom.Participants_	O	
+5-15	that	B-ScrPart_water	B-webanno.custom.Participants_	O	
+5-16	was	O	O	B-UnrelEv	
+5-17	perfect	O	O	O	
+5-18	temperature	B-ScrPart_temperature	B-webanno.custom.Participants_	O	
+5-19	.	O	O	O	
+
+#id=6
+#text=After I found the perfect temperature I then plug the drain and then put a small amount of bubble bath into the tub .
+6-1	After	O	O	O	
+6-2	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+6-3	found	O	O	B-ScrEv_check_temp	
+6-4	the	O	O	O	
+6-5	perfect	O	O	O	
+6-6	temperature	B-ScrPart_temperature	B-webanno.custom.Participants_	O	
+6-7	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+6-8	then	O	O	O	
+6-9	plug	O	O	B-ScrEv_close_drain	
+6-10	the	O	O	O	
+6-11	drain	B-ScrPart_drain	B-webanno.custom.Participants_	O	
+6-12	and	O	O	O	
+6-13	then	O	O	O	
+6-14	put	O	O	B-ScrEv_put_bubble_bath_scent	
+6-15	a	O	O	O	
+6-16	small	O	O	O	
+6-17	amount	B-Head_of_Partitive	B-webanno.custom.Participants_	O	
+6-18	of	O	O	O	
+6-19	bubble	B-ScrPart_bath_means	B-webanno.custom.Participants_	O	
+6-20	bath	I-ScrPart_bath_means|B-ScrPart_bath_means	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+6-21	into	O	O	O	
+6-22	the	O	O	O	
+6-23	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	
+6-24	.	O	O	O	
+
+#id=7
+#text=While I am waiting for the water to raise , I take off my clothes and put them into the laundry basket .
+7-1	While	O	O	O	
+7-2	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+7-3	am	O	O	O	
+7-4	waiting	O	O	B-ScrEv_fill_water/wait	
+7-5	for	O	O	O	
+7-6	the	O	O	O	
+7-7	water	B-ScrPart_water	B-webanno.custom.Participants_	O	
+7-8	to	O	O	O	
+7-9	raise	O	O	B-ScrEv_fill_water/wait	
+7-10	,	O	O	O	
+7-11	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+7-12	take	O	O	B-ScrEv_undress	
+7-13	off	O	O	I-ScrEv_undress	
+7-14	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+7-15	clothes	B-ScrPart_clothes	B-webanno.custom.Participants_	O	
+7-16	and	O	O	O	
+7-17	put	O	O	B-RelNScrEv	
+7-18	them	B-ScrPart_clothes	B-webanno.custom.Participants_	O	
+7-19	into	O	O	O	
+7-20	the	O	O	O	
+7-21	laundry	B-ScrPart_hamper	B-webanno.custom.Participants_	O	
+7-22	basket	I-ScrPart_hamper|B-ScrPart_hamper	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+7-23	.	O	O	O	
+
+#id=8
+#text=After the water is at an acceptable level , I turn off the faucet completely .
+8-1	After	O	O	O	
+8-2	the	O	O	O	
+8-3	water	B-ScrPart_water	B-webanno.custom.Participants_	O	
+8-4	is	O	O	B-UnrelEv	
+8-5	at	O	O	O	
+8-6	an	O	O	O	
+8-7	acceptable	O	O	O	
+8-8	level	B-NPart	B-webanno.custom.Participants_	O	
+8-9	,	O	O	O	
+8-10	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+8-11	turn	O	O	B-ScrEv_turn_water_off	
+8-12	off	O	O	I-ScrEv_turn_water_off	
+8-13	the	O	O	O	
+8-14	faucet	B-ScrPart_tap	B-webanno.custom.Participants_	O	
+8-15	completely	O	O	O	
+8-16	.	O	O	O	
+
+#id=9
+#text=I then turn some music on , and sit down in the tub and relax for a while .
+9-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+9-2	then	O	O	O	
+9-3	turn	O	O	B-ScrEv_prepare_bath	
+9-4	some	O	O	O	
+9-5	music	B-ScrPart_in-bath_entertainment	B-webanno.custom.Participants_	O	
+9-6	on	O	O	O	
+9-7	,	O	O	O	
+9-8	and	O	O	O	
+9-9	sit	O	O	B-ScrEv_sink_water	
+9-10	down	O	O	I-ScrEv_sink_water	
+9-11	in	O	O	O	
+9-12	the	O	O	O	
+9-13	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	
+9-14	and	O	O	O	
+9-15	relax	O	O	B-ScrEv_relax	
+9-16	for	O	O	O	
+9-17	a	O	O	O	
+9-18	while	B-No_label	B-webanno.custom.Participants_	O	
+9-19	.	O	O	O	
+
+#id=10
+#text=I get a washcloth and clean myself up everywhere .
+10-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+10-2	get	O	O	B-ScrEv_prepare_bath	
+10-3	a	O	O	O	
+10-4	washcloth	B-ScrPart_washing_tools	B-webanno.custom.Participants_	O	
+10-5	and	O	O	O	
+10-6	clean	O	O	B-ScrEv_wash	
+10-7	myself	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+10-8	up	O	O	O	
+10-9	everywhere	O	O	O	
+10-10	.	O	O	O	
+
+#id=11
+#text=After I am done I then get up and dry myself off with a towel and drain the water .
+11-1	After	O	O	O	
+11-2	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+11-3	am	O	O	O	
+11-4	done	O	O	B-UnrelEv	
+11-5	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+11-6	then	O	O	O	
+11-7	get	O	O	B-ScrEv_get_out_bath	
+11-8	up	O	O	I-ScrEv_get_out_bath	
+11-9	and	O	O	O	
+11-10	dry	O	O	B-ScrEv_dry	
+11-11	myself	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+11-12	off	O	O	O	
+11-13	with	O	O	O	
+11-14	a	O	O	O	
+11-15	towel	B-ScrPart_towel	B-webanno.custom.Participants_	O	
+11-16	and	O	O	O	
+11-17	drain	O	O	B-ScrEv_open_drain	
+11-18	the	O	O	O	
+11-19	water	B-ScrPart_water	B-webanno.custom.Participants_	O	
+11-20	.	O	O	O	
+
+#id=12
+#text=After I am dried I put my new clothes on and clean up the bathroom . 
+12-1	After	O	O	O	
+12-2	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+12-3	am	O	O	O	
+12-4	dried	O	O	B-ScrEv_dry	
+12-5	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+12-6	put	O	O	B-ScrEv_get_dressed	
+12-7	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+12-8	new	O	O	O	
+12-9	clothes	B-ScrPart_clothes	B-webanno.custom.Participants_	O	
+12-10	on	O	O	O	
+12-11	and	O	O	O	
+12-12	clean	O	O	B-ScrEv_other	
+12-13	up	O	O	I-ScrEv_other	
+12-14	the	O	O	O	
+12-15	bathroom	B-ScrPart_bathroom	B-webanno.custom.Participants_	O	
+12-16	.	O	O	O	
+

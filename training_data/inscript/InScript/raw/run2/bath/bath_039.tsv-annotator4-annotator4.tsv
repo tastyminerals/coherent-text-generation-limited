@@ -1,0 +1,253 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I prefer a shower over a bath , but when I need to take a bath it 's to relax from a stressful evening .
+1-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+1-2	prefer	O	O	B-UnrelEv	_	_	
+1-3	a	O	O	O	_	_	
+1-4	shower	B-ScrPart_shower	B-webanno.custom.Participants_	O	_	_	
+1-5	over	O	O	O	_	_	
+1-6	a	O	O	O	_	_	
+1-7	bath	B-ScrPart_bath	B-webanno.custom.Participants_	O	_	_	
+1-8	,	O	O	O	_	_	
+1-9	but	O	O	O	_	_	
+1-10	when	O	O	O	_	_	
+1-11	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+1-12	need	O	O	O	_	_	
+1-13	to	O	O	O	_	_	
+1-14	take	O	O	B-Evoking	_	_	
+1-15	a	O	O	I-Evoking	_	_	
+1-16	bath	B-SuppVComp	B-webanno.custom.Participants_	I-Evoking	_	_	
+1-17	it	B-No_label	B-webanno.custom.Participants_	O	_	_	
+1-18	's	O	O	B-UnrelEv	_	_	
+1-19	to	O	O	O	_	_	
+1-20	relax	O	O	B-ScrEv_relax	_	_	
+1-21	from	O	O	O	_	_	
+1-22	a	O	O	O	_	_	
+1-23	stressful	O	O	O	_	_	
+1-24	evening	B-NPart	B-webanno.custom.Participants_	O	_	_	
+1-25	.	O	O	O	_	_	
+
+#id=2
+#text=Taking a bath requires filling the whole tub up with warm water .
+2-1	Taking	O	O	B-Evoking	_	_	
+2-2	a	O	O	I-Evoking	_	_	
+2-3	bath	B-SuppVComp	B-webanno.custom.Participants_	I-Evoking	_	_	
+2-4	requires	O	O	B-UnrelEv	_	_	
+2-5	filling	O	O	B-ScrEv_fill_water/wait	_	_	
+2-6	the	O	O	O	_	_	
+2-7	whole	O	O	O	_	_	
+2-8	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	_	_	
+2-9	up	O	O	O	_	_	
+2-10	with	O	O	O	_	_	
+2-11	warm	O	O	O	_	_	
+2-12	water	B-ScrPart_water	B-webanno.custom.Participants_	O	_	_	
+2-13	.	O	O	O	_	_	
+
+#id=3
+#text=This may take some time and I will have to be sure to have a stopper to prevent the water from draining away from the tub .
+3-1	This	O	O	O	_	_	
+3-2	may	O	O	O	_	_	
+3-3	take	O	O	B-UnrelEv	_	_	
+3-4	some	O	O	O	_	_	
+3-5	time	B-No_label	B-webanno.custom.Participants_	O	_	_	
+3-6	and	O	O	O	_	_	
+3-7	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+3-8	will	O	O	O	_	_	
+3-9	have	O	O	O	_	_	
+3-10	to	O	O	O	_	_	
+3-11	be	O	O	B-UnrelEv	_	_	
+3-12	sure	O	O	I-UnrelEv	_	_	
+3-13	to	O	O	O	_	_	
+3-14	have	O	O	B-ScrEv_close_drain	_	_	
+3-15	a	O	O	O	_	_	
+3-16	stopper	B-ScrPart_plug	B-webanno.custom.Participants_	O	_	_	
+3-17	to	O	O	O	_	_	
+3-18	prevent	O	O	B-ScrEv_close_drain	_	_	
+3-19	the	O	O	O	_	_	
+3-20	water	B-ScrPart_water	B-webanno.custom.Participants_	O	_	_	
+3-21	from	O	O	O	_	_	
+3-22	draining	O	O	B-RelNScrEv	_	_	
+3-23	away	O	O	I-RelNScrEv	_	_	
+3-24	from	O	O	O	_	_	
+3-25	the	O	O	O	_	_	
+3-26	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	_	_	
+3-27	.	O	O	O	_	_	
+
+#id=4
+#text=While the water is filling up , I will add the bubble bath solution to make the water soapy and fragrant .
+4-1	While	O	O	O	_	_	
+4-2	the	O	O	O	_	_	
+4-3	water	B-ScrPart_water	B-webanno.custom.Participants_	O	_	_	
+4-4	is	O	O	O	_	_	
+4-5	filling	O	O	B-ScrEv_fill_water/wait	_	_	
+4-6	up	O	O	I-ScrEv_fill_water/wait	_	_	
+4-7	,	O	O	O	_	_	
+4-8	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+4-9	will	O	O	O	_	_	
+4-10	add	O	O	B-ScrEv_put_bubble_bath_scent	_	_	
+4-11	the	O	O	O	_	_	
+4-12	bubble	B-ScrPart_bath_means	B-webanno.custom.Participants_	O	_	_	
+4-13	bath	I-ScrPart_bath_means	I-webanno.custom.Participants_	O	_	_	
+4-14	solution	I-ScrPart_bath_means|B-ScrPart_bath_means	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+4-15	to	O	O	O	_	_	
+4-16	make	O	O	B-UnrelEv	_	_	
+4-17	the	O	O	O	_	_	
+4-18	water	B-ScrPart_water	B-webanno.custom.Participants_	O	_	_	
+4-19	soapy	O	O	O	_	_	
+4-20	and	O	O	O	_	_	
+4-21	fragrant	O	O	O	_	_	
+4-22	.	O	O	O	_	_	
+
+#id=5
+#text=The aroma in the bath is what de-stresses me .
+5-1	The	O	O	O	_	_	
+5-2	aroma	B-ScrPart_bath_means	B-webanno.custom.Participants_	O	_	_	
+5-3	in	O	O	O	_	_	
+5-4	the	O	O	O	_	_	
+5-5	bath	B-ScrPart_bath	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	1-7	
+5-6	is	O	O	B-UnrelEv	_	_	
+5-7	what	B-ScrPart_bath_means	B-webanno.custom.Participants_	O	_	_	
+5-8	de-stresses	O	O	B-ScrEv_relax	_	_	
+5-9	me	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+5-10	.	O	O	O	_	_	
+
+#id=6
+#text=Usually it 'll be a nice lavender smell or something not too strong but is very pleasant to smell .
+6-1	Usually	O	O	O	_	_	
+6-2	it	B-ScrPart_bath_means	B-webanno.custom.Participants_	O	_	_	
+6-3	'll	O	O	O	_	_	
+6-4	be	O	O	B-UnrelEv	_	_	
+6-5	a	O	O	O	_	_	
+6-6	nice	O	O	O	_	_	
+6-7	lavender	B-ScrPart_bath_means	B-webanno.custom.Participants_	O	_	_	
+6-8	smell	I-ScrPart_bath_means|B-ScrPart_bath_means	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+6-9	or	O	O	O	_	_	
+6-10	something	B-???	B-webanno.custom.Participants_	O	_	_	
+6-11	not	O	O	O	_	_	
+6-12	too	O	O	O	_	_	
+6-13	strong	O	O	O	_	_	
+6-14	but	O	O	O	_	_	
+6-15	is	O	O	B-UnrelEv	_	_	
+6-16	very	O	O	O	_	_	
+6-17	pleasant	O	O	O	_	_	
+6-18	to	O	O	O	_	_	
+6-19	smell	O	O	B-RelNScrEv	_	_	
+6-20	.	O	O	O	_	_	
+
+#id=7
+#text=Once the tub is filled , I will slowly enter myself into the water .
+7-1	Once	O	O	O	_	_	
+7-2	the	O	O	O	_	_	
+7-3	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	_	_	
+7-4	is	O	O	O	_	_	
+7-5	filled	O	O	B-ScrEv_fill_water/wait	_	_	
+7-6	,	O	O	O	_	_	
+7-7	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+7-8	will	O	O	O	_	_	
+7-9	slowly	O	O	O	_	_	
+7-10	enter	O	O	B-ScrEv_sink_water	_	_	
+7-11	myself	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+7-12	into	O	O	O	_	_	
+7-13	the	O	O	O	_	_	
+7-14	water	B-ScrPart_water	B-webanno.custom.Participants_	O	_	_	
+7-15	.	O	O	O	_	_	
+
+#id=8
+#text=This can be tough at first because the water is usually too hot in the beginning so I will ease myself in .
+8-1	This	O	O	O	_	_	
+8-2	can	O	O	O	_	_	
+8-3	be	O	O	B-UnrelEv	_	_	
+8-4	tough	O	O	O	_	_	
+8-5	at	O	O	O	_	_	
+8-6	first	O	O	O	_	_	
+8-7	because	O	O	O	_	_	
+8-8	the	O	O	O	_	_	
+8-9	water	B-ScrPart_water	B-webanno.custom.Participants_	O	_	_	
+8-10	is	O	O	B-UnrelEv	_	_	
+8-11	usually	O	O	O	_	_	
+8-12	too	O	O	O	_	_	
+8-13	hot	O	O	O	_	_	
+8-14	in	O	O	O	_	_	
+8-15	the	O	O	O	_	_	
+8-16	beginning	B-NPart	B-webanno.custom.Participants_	O	_	_	
+8-17	so	O	O	O	_	_	
+8-18	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+8-19	will	O	O	O	_	_	
+8-20	ease	O	O	B-RelNScrEv	_	_	
+8-21	myself	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+8-22	in	O	O	O	_	_	
+8-23	.	O	O	O	_	_	
+
+#id=9
+#text=But once in , the bath will really work to help get the blood circulating to get a nice feeling of relaxation .
+9-1	But	O	O	O	_	_	
+9-2	once	O	O	O	_	_	
+9-3	in	O	O	O	_	_	
+9-4	,	O	O	O	_	_	
+9-5	the	O	O	O	_	_	
+9-6	bath	B-ScrPart_bath	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-5	
+9-7	will	O	O	O	_	_	
+9-8	really	O	O	O	_	_	
+9-9	work	O	O	B-UnrelEv	_	_	
+9-10	to	O	O	O	_	_	
+9-11	help	O	O	B-UnrelEv	_	_	
+9-12	get	O	O	B-UnrelEv	_	_	
+9-13	the	O	O	O	_	_	
+9-14	blood	B-NPart	B-webanno.custom.Participants_	O	_	_	
+9-15	circulating	O	O	B-RelNScrEv	_	_	
+9-16	to	O	O	O	_	_	
+9-17	get	O	O	B-ScrEv_relax	_	_	
+9-18	a	O	O	O	_	_	
+9-19	nice	O	O	O	_	_	
+9-20	feeling	B-NPart	B-webanno.custom.Participants_	O	_	_	
+9-21	of	O	O	O	_	_	
+9-22	relaxation	B-SuppVComp	B-webanno.custom.Participants_	O	_	_	
+9-23	.	O	O	O	_	_	
+
+#id=10
+#text=I will typically stay in until the water is no longer warm or the bubbles have gone away .
+10-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+10-2	will	O	O	O	_	_	
+10-3	typically	O	O	O	_	_	
+10-4	stay	O	O	B-ScrEv_relax	_	_	
+10-5	in	O	O	I-ScrEv_relax	_	_	
+10-6	until	O	O	O	_	_	
+10-7	the	O	O	O	_	_	
+10-8	water	B-ScrPart_water	B-webanno.custom.Participants_	O	_	_	
+10-9	is	O	O	B-UnrelEv	_	_	
+10-10	no	O	O	O	_	_	
+10-11	longer	O	O	O	_	_	
+10-12	warm	O	O	O	_	_	
+10-13	or	O	O	O	_	_	
+10-14	the	O	O	O	_	_	
+10-15	bubbles	B-ScrPart_bath_means	B-webanno.custom.Participants_	O	_	_	
+10-16	have	O	O	O	_	_	
+10-17	gone	O	O	B-RelNScrEv	_	_	
+10-18	away	O	O	I-RelNScrEv	_	_	
+10-19	.	O	O	O	_	_	
+
+#id=11
+#text=So when the water is just lukewarm , I will drain the tub and then rinse off using the normal shower . 
+11-1	So	O	O	O	_	_	
+11-2	when	O	O	O	_	_	
+11-3	the	O	O	O	_	_	
+11-4	water	B-ScrPart_water	B-webanno.custom.Participants_	O	_	_	
+11-5	is	O	O	B-UnrelEv	_	_	
+11-6	just	O	O	O	_	_	
+11-7	lukewarm	O	O	O	_	_	
+11-8	,	O	O	O	_	_	
+11-9	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+11-10	will	O	O	O	_	_	
+11-11	drain	O	O	B-ScrEv_open_drain	_	_	
+11-12	the	O	O	O	_	_	
+11-13	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	_	_	
+11-14	and	O	O	O	_	_	
+11-15	then	O	O	O	_	_	
+11-16	rinse	O	O	B-RelNScrEv	_	_	
+11-17	off	O	O	I-RelNScrEv	_	_	
+11-18	using	O	O	B-UnrelEv	_	_	
+11-19	the	O	O	O	_	_	
+11-20	normal	O	O	O	_	_	
+11-21	shower	B-ScrPart_shower	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	1-4	
+11-22	.	O	O	O	_	_	
+

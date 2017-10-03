@@ -1,0 +1,204 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Yesterday , I woke up and realized how gorgeous of a day it was so I decided to eat my breakfast and then go outside for a nice bike ride with some friends at the park .
+1-1	Yesterday	O	O	_	_	
+1-2	,	O	O	_	_	
+1-3	I	B-ScrPart_rider	O	_	_	
+1-4	woke	O	B-UnrelEv|B-UnrelEv	_	_	
+1-5	up	O	I-UnrelEv	_	_	
+1-6	and	O	O	_	_	
+1-7	realized	O	B-UnrelEv	_	_	
+1-8	how	O	O	_	_	
+1-9	gorgeous	O	O	_	_	
+1-10	of	O	O	_	_	
+1-11	a	O	O	_	_	
+1-12	day	O	O	_	_	
+1-13	it	O	O	_	_	
+1-14	was	O	O	_	_	
+1-15	so	O	O	_	_	
+1-16	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-3	
+1-17	decided	O	B-UnrelEv	_	_	
+1-18	to	O	O	_	_	
+1-19	eat	O	B-UnrelEv	_	_	
+1-20	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-16	
+1-21	breakfast	O	O	_	_	
+1-22	and	O	O	_	_	
+1-23	then	O	O	_	_	
+1-24	go	O	B-UnrelEv	_	_	
+1-25	outside	O	O	_	_	
+1-26	for	O	O	_	_	
+1-27	a	O	O	_	_	
+1-28	nice	O	O	_	_	
+1-29	bike	B-MissScrPart	O	_	_	
+1-30	ride	I-MissScrPart|B-MissScrPart	O	_	_	
+1-31	with	O	O	_	_	
+1-32	some	O	O	_	_	
+1-33	friends	O	O	_	_	
+1-34	at	O	O	_	_	
+1-35	the	O	O	_	_	
+1-36	park	O	O	_	_	
+1-37	.	O	O	_	_	
+
+#id=2
+#text=When I went into the garage to grab my bicycle I noticed that the tire had gone flat and I would need to repair it if I wanted to go for a ride with my friends .
+2-1	When	O	O	_	_	
+2-2	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-20	
+2-3	went	O	B-UnrelEv	_	_	
+2-4	into	O	O	_	_	
+2-5	the	O	O	_	_	
+2-6	garage	O	O	_	_	
+2-7	to	O	O	_	_	
+2-8	grab	O	B-UnrelEv	_	_	
+2-9	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-2	
+2-10	bicycle	B-ScrPart_bicycle	O	_	_	
+2-11	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-9	
+2-12	noticed	O	B-ScrEv_notice_problem	_	_	
+2-13	that	O	O	_	_	
+2-14	the	O	O	_	_	
+2-15	tire	B-ScrPart_tire	O	_	_	
+2-16	had	O	O	_	_	
+2-17	gone	O	B-UnrelEv	_	_	
+2-18	flat	O	O	_	_	
+2-19	and	O	O	_	_	
+2-20	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-11	
+2-21	would	O	O	_	_	
+2-22	need	O	O	_	_	
+2-23	to	O	O	_	_	
+2-24	repair	O	B-Evoking	_	_	
+2-25	it	O	I-Evoking	_	_	
+2-26	if	O	O	_	_	
+2-27	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-20	
+2-28	wanted	O	O	_	_	
+2-29	to	O	O	_	_	
+2-30	go	O	B-ScrEv_ride_bike	_	_	
+2-31	for	O	O	_	_	
+2-32	a	O	O	_	_	
+2-33	ride	B-MissScrPart	O	webanno.custom.Corefchains_	1-30	
+2-34	with	O	O	_	_	
+2-35	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-27	
+2-36	friends	O	O	_	_	
+2-37	.	O	O	_	_	
+
+#id=3
+#text=I called my friend Joey up and asked if he could give me a half hour to replace the tire .
+3-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-35	
+3-2	called	O	B-UnrelEv	_	_	
+3-3	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	3-1	
+3-4	friend	O	O	_	_	
+3-5	Joey	O	O	_	_	
+3-6	up	O	O	_	_	
+3-7	and	O	O	_	_	
+3-8	asked	O	B-UnrelEv	_	_	
+3-9	if	O	O	_	_	
+3-10	he	O	O	_	_	
+3-11	could	O	O	_	_	
+3-12	give	O	B-UnrelEv	_	_	
+3-13	me	B-ScrPart_rider	O	webanno.custom.Corefchains_	3-3	
+3-14	a	O	O	_	_	
+3-15	half	O	O	_	_	
+3-16	hour	O	O	_	_	
+3-17	to	O	O	_	_	
+3-18	replace	O	B-Evoking	_	_	
+3-19	the	O	I-Evoking	_	_	
+3-20	tire	B-ScrPart_tire	I-Evoking	webanno.custom.Corefchains_	2-15	
+3-21	.	O	O	_	_	
+
+#id=4
+#text=Joey said that was fine so I went and got some tools and a spare tire to replace the flat one with .
+4-1	Joey	O	O	_	_	
+4-2	said	O	B-UnrelEv	_	_	
+4-3	that	O	O	_	_	
+4-4	was	O	B-UnrelEv	_	_	
+4-5	fine	O	O	_	_	
+4-6	so	O	O	_	_	
+4-7	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	3-13	
+4-8	went	O	B-UnrelEv	_	_	
+4-9	and	O	O	_	_	
+4-10	got	O	B-ScrEv_get_tools	_	_	
+4-11	some	O	O	_	_	
+4-12	tools	B-ScrPart_tool	O	_	_	
+4-13	and	O	O	_	_	
+4-14	a	O	O	_	_	
+4-15	spare	B-ScrPart_spare_tube	O	_	_	
+4-16	tire	I-ScrPart_spare_tube|B-ScrPart_spare_tube	O	_	_	
+4-17	to	O	O	_	_	
+4-18	replace	O	B-RelNScrEv	_	_	
+4-19	the	O	O	_	_	
+4-20	flat	O	O	_	_	
+4-21	one	B-ScrPart_tire	O	webanno.custom.Corefchains_	3-20	
+4-22	with	O	O	_	_	
+4-23	.	O	O	_	_	
+
+#id=5
+#text=I took the old tire off and tightly put the new one on .
+5-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	4-7	
+5-2	took	O	B-ScrEv_take_tire_off	_	_	
+5-3	the	O	O	_	_	
+5-4	old	O	O	_	_	
+5-5	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	4-21	
+5-6	off	O	O	_	_	
+5-7	and	O	O	_	_	
+5-8	tightly	O	O	_	_	
+5-9	put	O	B-ScrEv_put_new_tire	_	_	
+5-10	the	O	O	_	_	
+5-11	new	O	O	_	_	
+5-12	one	B-ScrPart_spare_tube	O	webanno.custom.Corefchains_	4-16	
+5-13	on	O	O	_	_	
+5-14	.	O	O	_	_	
+
+#id=6
+#text=To make sure that everything was in place I took it for a test ride around the block before calling my friend Joey back and letting him know that I was now ready for a ride .
+6-1	To	O	O	_	_	
+6-2	make	O	B-UnrelEv|B-UnrelEv	_	_	
+6-3	sure	O	I-UnrelEv	_	_	
+6-4	that	O	O	_	_	
+6-5	everything	O	O	_	_	
+6-6	was	O	B-UnrelEv	_	_	
+6-7	in	O	O	_	_	
+6-8	place	O	O	_	_	
+6-9	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	5-1	
+6-10	took	O	B-ScrEv_ride_bike	_	_	
+6-11	it	B-ScrPart_bicycle	O	webanno.custom.Corefchains_	2-10	
+6-12	for	O	O	_	_	
+6-13	a	O	O	_	_	
+6-14	test	O	O	_	_	
+6-15	ride	B-MissScrPart	O	webanno.custom.Corefchains_	2-33	
+6-16	around	O	O	_	_	
+6-17	the	O	O	_	_	
+6-18	block	O	O	_	_	
+6-19	before	O	O	_	_	
+6-20	calling	O	B-UnrelEv	_	_	
+6-21	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	6-9	
+6-22	friend	O	O	_	_	
+6-23	Joey	O	O	_	_	
+6-24	back	O	O	_	_	
+6-25	and	O	O	_	_	
+6-26	letting	O	B-UnrelEv	_	_	
+6-27	him	O	O	_	_	
+6-28	know	O	B-UnrelEv	_	_	
+6-29	that	O	O	_	_	
+6-30	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	6-21	
+6-31	was	O	B-UnrelEv	_	_	
+6-32	now	O	O	_	_	
+6-33	ready	O	O	_	_	
+6-34	for	O	O	_	_	
+6-35	a	O	O	_	_	
+6-36	ride	B-MissScrPart	O	webanno.custom.Corefchains_	6-15	
+6-37	.	O	O	_	_	
+
+#id=7
+#text=After that I went on the bike ride and everything went perfectly . 
+7-1	After	O	O	_	_	
+7-2	that	O	O	_	_	
+7-3	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	6-30	
+7-4	went	O	B-ScrEv_ride_bike	_	_	
+7-5	on	O	O	_	_	
+7-6	the	O	O	_	_	
+7-7	bike	B-MissScrPart	O	_	_	
+7-8	ride	I-MissScrPart|B-MissScrPart	O	webanno.custom.Corefchains_	6-36	
+7-9	and	O	O	_	_	
+7-10	everything	O	O	_	_	
+7-11	went	O	B-UnrelEv	_	_	
+7-12	perfectly	O	O	_	_	
+7-13	.	O	O	_	_	
+

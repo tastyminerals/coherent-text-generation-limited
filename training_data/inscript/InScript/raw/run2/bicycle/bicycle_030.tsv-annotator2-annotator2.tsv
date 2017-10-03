@@ -1,0 +1,523 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant
+#id=1
+#text=Carrying a spare inner tube saves lots of time and trouble , since I have to carry a patch kit anyway .
+1-1	Carrying	B-UnrelEv	O	
+1-2	a	O	O	
+1-3	spare	O	O	
+1-4	inner	O	O	
+1-5	tube	O	B-ScrPart_spare_tube	
+1-6	saves	B-UnrelEv	O	
+1-7	lots	O	B-Head_of_Partitive	
+1-8	of	O	O	
+1-9	time	O	B-NPart	
+1-10	and	O	O	
+1-11	trouble	O	B-NPart	
+1-12	,	O	O	
+1-13	since	O	O	
+1-14	I	O	B-ScrPart_rider	
+1-15	have	O	O	
+1-16	to	O	O	
+1-17	carry	B-UnrelEv	O	
+1-18	a	O	O	
+1-19	patch	O	B-ScrPart_tool	
+1-20	kit	O	I-ScrPart_tool|B-ScrPart_tool	
+1-21	anyway	O	O	
+1-22	.	O	O	
+
+#id=2
+#text=However , if I do n't have one , I can still fix a flat .
+2-1	However	O	O	
+2-2	,	O	O	
+2-3	if	O	O	
+2-4	I	O	B-ScrPart_rider	
+2-5	do	O	O	
+2-6	n't	O	O	
+2-7	have	B-UnrelEv	O	
+2-8	one	O	B-ScrPart_spare_tube	
+2-9	,	O	O	
+2-10	I	O	B-ScrPart_rider	
+2-11	can	O	O	
+2-12	still	O	O	
+2-13	fix	B-Evoking	O	
+2-14	a	I-Evoking	O	
+2-15	flat	I-Evoking	B-ScrPart_tire	
+2-16	.	O	O	
+
+#id=3
+#text=First I turn the bike over , and remove the brake by opening the quick release lever .
+3-1	First	O	O	
+3-2	I	O	B-ScrPart_rider	
+3-3	turn	B-RelNScrEv	O	
+3-4	the	O	O	
+3-5	bike	O	B-ScrPart_bicycle	
+3-6	over	O	O	
+3-7	,	O	O	
+3-8	and	O	O	
+3-9	remove	B-RelNScrEv	O	
+3-10	the	O	O	
+3-11	brake	O	B-ScrPart_bicycle_small_detail	
+3-12	by	O	O	
+3-13	opening	B-RelNScrEv	O	
+3-14	the	O	O	
+3-15	quick	O	B-ScrPart_bicycle_small_detail	
+3-16	release	O	I-ScrPart_bicycle_small_detail	
+3-17	lever	O	I-ScrPart_bicycle_small_detail|B-ScrPart_bicycle_small_detail	
+3-18	.	O	O	
+
+#id=4
+#text=Then I remove the tire with its quick release lever .
+4-1	Then	O	O	
+4-2	I	O	B-ScrPart_rider	
+4-3	remove	B-ScrEv_take_tire_off	O	
+4-4	the	O	O	
+4-5	tire	O	B-ScrPart_tire	
+4-6	with	O	O	
+4-7	its	O	B-ScrPart_tire	
+4-8	quick	O	B-ScrPart_bicycle_small_detail	
+4-9	release	O	I-ScrPart_bicycle_small_detail	
+4-10	lever	O	I-ScrPart_bicycle_small_detail|B-ScrPart_bicycle_small_detail	
+4-11	.	O	O	
+
+#id=5
+#text=Now I inspect the outside of the tire , to try to find the source of the problem .
+5-1	Now	O	O	
+5-2	I	O	B-ScrPart_rider	
+5-3	inspect	B-ScrEv_examine_tire	O	
+5-4	the	O	O	
+5-5	outside	O	B-NPart	
+5-6	of	O	O	
+5-7	the	O	O	
+5-8	tire	O	B-ScrPart_tire	
+5-9	,	O	O	
+5-10	to	O	O	
+5-11	try	B-UnrelEv	O	
+5-12	to	O	O	
+5-13	find	B-ScrEv_examine_tire	O	
+5-14	the	O	O	
+5-15	source	O	B-ScrPart_object_damage	
+5-16	of	O	O	
+5-17	the	O	O	
+5-18	problem	O	B-NPart	
+5-19	.	O	O	
+
+#id=6
+#text=I look for imbedded glass , thorns , cuts or tears .
+6-1	I	O	B-ScrPart_rider	
+6-2	look	B-ScrEv_examine_tire	O	
+6-3	for	O	O	
+6-4	imbedded	O	O	
+6-5	glass	O	B-ScrPart_object_damage	
+6-6	,	O	O	
+6-7	thorns	O	B-ScrPart_object_damage	
+6-8	,	O	O	
+6-9	cuts	O	B-ScrPart_object_damage	
+6-10	or	O	O	
+6-11	tears	O	B-ScrPart_object_damage	
+6-12	.	O	O	
+
+#id=7
+#text=If I find a foreign object , I remove it .
+7-1	If	O	O	
+7-2	I	O	B-ScrPart_rider	
+7-3	find	B-RelNScrEv	O	
+7-4	a	O	O	
+7-5	foreign	O	O	
+7-6	object	O	B-ScrPart_object_damage	
+7-7	,	O	O	
+7-8	I	O	B-ScrPart_rider	
+7-9	remove	B-RelNScrEv	O	
+7-10	it	O	B-ScrPart_object_damage	
+7-11	.	O	O	
+
+#id=8
+#text=Then I take the tire off .
+8-1	Then	O	O	
+8-2	I	O	B-ScrPart_rider	
+8-3	take	B-ScrEv_take_tire_off	O	
+8-4	the	O	O	
+8-5	tire	O	B-ScrPart_tire	
+8-6	off	O	O	
+8-7	.	O	O	
+
+#id=9
+#text=I deflate it , and push the side of the tire towards the middle , trying to expose the tube .
+9-1	I	O	B-ScrPart_rider	
+9-2	deflate	B-RelNScrEv	O	
+9-3	it	O	B-ScrPart_tire	
+9-4	,	O	O	
+9-5	and	O	O	
+9-6	push	B-RelNScrEv	O	
+9-7	the	O	O	
+9-8	side	O	B-NPart	
+9-9	of	O	O	
+9-10	the	O	O	
+9-11	tire	O	B-ScrPart_tire	
+9-12	towards	O	O	
+9-13	the	O	O	
+9-14	middle	O	B-NPart	
+9-15	,	O	O	
+9-16	trying	B-UnrelEv	O	
+9-17	to	O	O	
+9-18	expose	B-ScrEv_take_tire_off	O	
+9-19	the	O	O	
+9-20	tube	O	B-ScrPart_tire	
+9-21	.	O	O	
+
+#id=10
+#text=If that fails , I use tire irons , if I have them .
+10-1	If	O	O	
+10-2	that	O	O	
+10-3	fails	B-UnrelEv	O	
+10-4	,	O	O	
+10-5	I	O	B-ScrPart_rider	
+10-6	use	B-UnrelEv	O	
+10-7	tire	O	B-ScrPart_tool	
+10-8	irons	O	I-ScrPart_tool|B-ScrPart_tool	
+10-9	,	O	O	
+10-10	if	O	O	
+10-11	I	O	B-ScrPart_rider	
+10-12	have	B-UnrelEv	O	
+10-13	them	O	B-ScrPart_tool	
+10-14	.	O	O	
+
+#id=11
+#text=I shove one in on the opposite side of the wheel form the valve , and lever the edge of the tire out of the rim .
+11-1	I	O	B-ScrPart_rider	
+11-2	shove	B-RelNScrEv	O	
+11-3	one	O	B-ScrPart_tool	
+11-4	in	O	O	
+11-5	on	O	O	
+11-6	the	O	O	
+11-7	opposite	O	O	
+11-8	side	O	B-NPart	
+11-9	of	O	O	
+11-10	the	O	O	
+11-11	wheel	O	B-ScrPart_wheel	
+11-12	form	O	O	
+11-13	the	O	O	
+11-14	valve	O	B-ScrPart_bicycle_small_detail	
+11-15	,	O	O	
+11-16	and	O	O	
+11-17	lever	B-RelNScrEv	O	
+11-18	the	O	O	
+11-19	edge	O	B-NPart	
+11-20	of	O	O	
+11-21	the	O	O	
+11-22	tire	O	B-ScrPart_tire	
+11-23	out	O	O	
+11-24	of	O	O	
+11-25	the	O	O	
+11-26	rim	O	B-ScrPart_rim	
+11-27	.	O	O	
+
+#id=12
+#text=Then I put in the next tire iron about three spokes away and try to lift the section of tire in between up and away from the rim .
+12-1	Then	O	O	
+12-2	I	O	B-ScrPart_rider	
+12-3	put	B-RelNScrEv	O	
+12-4	in	I-RelNScrEv	O	
+12-5	the	O	O	
+12-6	next	O	O	
+12-7	tire	O	B-ScrPart_tool	
+12-8	iron	O	I-ScrPart_tool|B-ScrPart_tool	
+12-9	about	O	O	
+12-10	three	O	O	
+12-11	spokes	O	B-ScrPart_bicycle_small_detail	
+12-12	away	O	O	
+12-13	and	O	O	
+12-14	try	B-UnrelEv	O	
+12-15	to	O	O	
+12-16	lift	B-RelNScrEv	O	
+12-17	the	O	O	
+12-18	section	O	B-NPart	
+12-19	of	O	O	
+12-20	tire	O	B-ScrPart_tire	
+12-21	in	O	O	
+12-22	between	O	O	
+12-23	up	O	O	
+12-24	and	O	O	
+12-25	away	O	O	
+12-26	from	O	O	
+12-27	the	O	O	
+12-28	rim	O	B-ScrPart_rim	
+12-29	.	O	O	
+
+#id=13
+#text=This makes it possible to take the whole tire out and remove it .
+13-1	This	O	O	
+13-2	makes	B-UnrelEv	O	
+13-3	it	O	B-No_label	
+13-4	possible	O	O	
+13-5	to	O	O	
+13-6	take	B-ScrEv_take_tire_off	O	
+13-7	the	O	O	
+13-8	whole	O	O	
+13-9	tire	O	B-ScrPart_tire	
+13-10	out	O	O	
+13-11	and	O	O	
+13-12	remove	B-ScrEv_remove_tire	O	
+13-13	it	O	B-ScrPart_tire	
+13-14	.	O	O	
+
+#id=14
+#text=I look for the leak inside the tire , and then on the tube .
+14-1	I	O	B-ScrPart_rider	
+14-2	look	B-ScrEv_examine_tire	O	
+14-3	for	O	O	
+14-4	the	O	O	
+14-5	leak	O	B-ScrPart_object_damage	
+14-6	inside	O	O	
+14-7	the	O	O	
+14-8	tire	O	B-ScrPart_tire	
+14-9	,	O	O	
+14-10	and	O	O	
+14-11	then	O	O	
+14-12	on	O	O	
+14-13	the	O	O	
+14-14	tube	O	B-ScrPart_tire	
+14-15	.	O	O	
+
+#id=15
+#text=I deflate the tube by pushing the valve center until I hear air hiss .
+15-1	I	O	B-ScrPart_rider	
+15-2	deflate	B-RelNScrEv	O	
+15-3	the	O	O	
+15-4	tube	O	B-ScrPart_tire	
+15-5	by	O	O	
+15-6	pushing	B-RelNScrEv	O	
+15-7	the	O	O	
+15-8	valve	O	B-ScrPart_bicycle_small_detail	
+15-9	center	O	I-ScrPart_bicycle_small_detail|B-ScrPart_bicycle_small_detail	
+15-10	until	O	O	
+15-11	I	O	B-ScrPart_rider	
+15-12	hear	B-UnrelEv	O	
+15-13	air	O	B-ScrPart_air	
+15-14	hiss	B-UnrelEv	O	
+15-15	.	O	O	
+
+#id=16
+#text=If I can not find the leak , I put the tube in a bucket of water and look for bubbles .
+16-1	If	O	O	
+16-2	I	O	B-ScrPart_rider	
+16-3	can	O	O	
+16-4	not	O	O	
+16-5	find	B-RelNScrEv	O	
+16-6	the	O	O	
+16-7	leak	O	B-ScrPart_object_damage	
+16-8	,	O	O	
+16-9	I	O	B-ScrPart_rider	
+16-10	put	B-RelNScrEv	O	
+16-11	the	O	O	
+16-12	tube	O	B-ScrPart_tire	
+16-13	in	O	O	
+16-14	a	O	O	
+16-15	bucket	O	B-NPart	
+16-16	of	O	O	
+16-17	water	O	B-NPart	
+16-18	and	O	O	
+16-19	look	B-ScrEv_examine_tire	O	
+16-20	for	O	O	
+16-21	bubbles	O	B-ScrPart_air	
+16-22	.	O	O	
+
+#id=17
+#text=If I can not do that , I listen , and then I look around the valve .
+17-1	If	O	O	
+17-2	I	O	B-ScrPart_rider	
+17-3	can	O	O	
+17-4	not	O	O	
+17-5	do	B-UnrelEv	O	
+17-6	that	O	O	
+17-7	,	O	O	
+17-8	I	O	B-ScrPart_rider	
+17-9	listen	B-RelNScrEv	O	
+17-10	,	O	O	
+17-11	and	O	O	
+17-12	then	O	O	
+17-13	I	O	B-ScrPart_rider	
+17-14	look	B-ScrEv_examine_tire	O	
+17-15	around	O	O	
+17-16	the	O	O	
+17-17	valve	O	B-ScrPart_bicycle_small_detail	
+17-18	.	O	O	
+
+#id=18
+#text=I also inspect the inside of the tire .
+18-1	I	O	B-ScrPart_rider	
+18-2	also	O	O	
+18-3	inspect	B-ScrEv_examine_tire	O	
+18-4	the	O	O	
+18-5	inside	O	B-NPart	
+18-6	of	O	O	
+18-7	the	O	O	
+18-8	tire	O	B-ScrPart_tire	
+18-9	.	O	O	
+
+#id=19
+#text=Now , I need a patch kit .
+19-1	Now	O	O	
+19-2	,	O	O	
+19-3	I	O	B-ScrPart_rider	
+19-4	need	B-UnrelEv	O	
+19-5	a	O	O	
+19-6	patch	O	B-ScrPart_tool	
+19-7	kit	O	I-ScrPart_tool|B-ScrPart_tool	
+19-8	.	O	O	
+
+#id=20
+#text=I clean the outside of the tire near the leak as much as I can .
+20-1	I	O	B-ScrPart_rider	
+20-2	clean	B-RelNScrEv	O	
+20-3	the	O	O	
+20-4	outside	O	B-NPart	
+20-5	of	O	O	
+20-6	the	O	O	
+20-7	tire	O	B-ScrPart_tire	
+20-8	near	O	O	
+20-9	the	O	O	
+20-10	leak	O	B-ScrPart_object_damage	
+20-11	as	O	O	
+20-12	much	O	O	
+20-13	as	O	O	
+20-14	I	O	B-ScrPart_rider	
+20-15	can	B-UnrelEv	O	
+20-16	.	O	O	
+
+#id=21
+#text=Then I roughen the area with the scratchy thing provided .
+21-1	Then	O	O	
+21-2	I	O	B-ScrPart_rider	
+21-3	roughen	B-RelNScrEv	O	
+21-4	the	O	O	
+21-5	area	O	B-NPart	
+21-6	with	O	O	
+21-7	the	O	O	
+21-8	scratchy	O	O	
+21-9	thing	O	B-ScrPart_tool	
+21-10	provided	B-UnrelEv	O	
+21-11	.	O	O	
+
+#id=22
+#text=I spread the foul-smelling glue , let it dry until it is tacky , and press on the patch , starting at its center , and being careful not to glue the tire to itself .
+22-1	I	O	B-ScrPart_rider	
+22-2	spread	B-RelNScrEv	O	
+22-3	the	O	O	
+22-4	foul-smelling	B-UnrelEv	O	
+22-5	glue	O	B-ScrPart_tool	
+22-6	,	O	O	
+22-7	let	B-UnrelEv	O	
+22-8	it	O	B-ScrPart_tool	
+22-9	dry	B-RelNScrEv	O	
+22-10	until	O	O	
+22-11	it	O	B-ScrPart_tool	
+22-12	is	B-UnrelEv	O	
+22-13	tacky	O	O	
+22-14	,	O	O	
+22-15	and	O	O	
+22-16	press	B-ScrEv_put_patch/seal	O	
+22-17	on	I-ScrEv_put_patch/seal	O	
+22-18	the	O	O	
+22-19	patch	O	B-ScrPart_patch	
+22-20	,	O	O	
+22-21	starting	B-UnrelEv	O	
+22-22	at	O	O	
+22-23	its	O	B-ScrPart_patch	
+22-24	center	O	B-NPart	
+22-25	,	O	O	
+22-26	and	O	O	
+22-27	being	B-UnrelEv	O	
+22-28	careful	O	O	
+22-29	not	O	O	
+22-30	to	O	O	
+22-31	glue	B-UnrelEv	O	
+22-32	the	O	O	
+22-33	tire	O	B-ScrPart_tire	
+22-34	to	O	O	
+22-35	itself	O	B-ScrPart_tire	
+22-36	.	O	O	
+
+#id=23
+#text=Now I partially re-inflate the tube , and replace it in the tire , making sure the spoke cushion stays in place .
+23-1	Now	O	O	
+23-2	I	O	B-ScrPart_rider	
+23-3	partially	O	O	
+23-4	re-inflate	B-ScrEv_refill_tire_air	O	
+23-5	the	O	O	
+23-6	tube	O	B-ScrPart_tire	
+23-7	,	O	O	
+23-8	and	O	O	
+23-9	replace	B-ScrEv_put_new_tire	O	
+23-10	it	O	B-ScrPart_tire	
+23-11	in	O	O	
+23-12	the	O	O	
+23-13	tire	O	B-ScrPart_tire	
+23-14	,	O	O	
+23-15	making	B-UnrelEv	O	
+23-16	sure	I-UnrelEv	O	
+23-17	the	O	O	
+23-18	spoke	O	B-ScrPart_bicycle_small_detail	
+23-19	cushion	O	I-ScrPart_bicycle_small_detail|B-ScrPart_bicycle_small_detail	
+23-20	stays	B-UnrelEv	O	
+23-21	in	O	O	
+23-22	place	O	B-No_label	
+23-23	.	O	O	
+
+#id=24
+#text=I put the tire on the wheel , and check to see that the valve is pointed straight to the center .
+24-1	I	O	B-ScrPart_rider	
+24-2	put	B-ScrEv_put_new_tire	O	
+24-3	the	O	O	
+24-4	tire	O	B-ScrPart_tire	
+24-5	on	O	O	
+24-6	the	O	O	
+24-7	wheel	O	B-ScrPart_wheel	
+24-8	,	O	O	
+24-9	and	O	O	
+24-10	check	B-ScrEv_check_new_tire	O	
+24-11	to	O	O	
+24-12	see	B-UnrelEv	O	
+24-13	that	O	O	
+24-14	the	O	O	
+24-15	valve	O	B-ScrPart_bicycle_small_detail	
+24-16	is	O	O	
+24-17	pointed	B-UnrelEv	O	
+24-18	straight	O	O	
+24-19	to	O	O	
+24-20	the	O	O	
+24-21	center	O	B-NPart	
+24-22	.	O	O	
+
+#id=25
+#text=I re-inflate the tube , and then replace the wheel and reattach it and reattach the brake .
+25-1	I	O	B-ScrPart_rider	
+25-2	re-inflate	B-ScrEv_refill_tire_air	O	
+25-3	the	O	O	
+25-4	tube	O	B-ScrPart_tire	
+25-5	,	O	O	
+25-6	and	O	O	
+25-7	then	O	O	
+25-8	replace	B-ScrEv_other	O	
+25-9	the	O	O	
+25-10	wheel	O	B-ScrPart_wheel	
+25-11	and	O	O	
+25-12	reattach	B-RelNScrEv	O	
+25-13	it	O	B-ScrPart_wheel	
+25-14	and	O	O	
+25-15	reattach	B-RelNScrEv	O	
+25-16	the	O	O	
+25-17	brake	O	B-ScrPart_bicycle_small_detail	
+25-18	.	O	O	
+
+#id=26
+#text=And I turn the bike over again and ride . 
+26-1	And	O	O	
+26-2	I	O	B-ScrPart_rider	
+26-3	turn	B-RelNScrEv	O	
+26-4	the	O	O	
+26-5	bike	O	B-ScrPart_bicycle	
+26-6	over	O	O	
+26-7	again	O	O	
+26-8	and	O	O	
+26-9	ride	B-ScrEv_ride_bike	O	
+26-10	.	O	O	
+

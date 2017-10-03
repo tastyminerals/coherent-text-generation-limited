@@ -1,0 +1,207 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=In the morning , I woke up to prepare for the day .
+1-1	In	O	O	_	_	
+1-2	the	O	O	_	_	
+1-3	morning	O	O	_	_	
+1-4	,	O	O	_	_	
+1-5	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	2-6	
+1-6	woke	O	B-UnrelEv	_	_	
+1-7	up	O	I-UnrelEv	_	_	
+1-8	to	O	O	_	_	
+1-9	prepare	O	B-UnrelEv	_	_	
+1-10	for	O	O	_	_	
+1-11	the	O	O	_	_	
+1-12	day	O	O	_	_	
+1-13	.	O	O	_	_	
+
+#id=2
+#text=After getting coffee ready , I took on breakfast .
+2-1	After	O	O	_	_	
+2-2	getting	O	B-UnrelEv	_	_	
+2-3	coffee	O	O	_	_	
+2-4	ready	O	O	_	_	
+2-5	,	O	O	_	_	
+2-6	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	3-1	
+2-7	took	O	B-UnrelEv	_	_	
+2-8	on	O	O	_	_	
+2-9	breakfast	O	O	_	_	
+2-10	.	O	O	_	_	
+
+#id=3
+#text=My partner awoke , and she began to get ready in the bathroom .
+3-1	My	B-ScrPart_gardener	O	coref_group_I_partner	5-1	
+3-2	partner	B-ScrPart_gardener	O	webanno.custom.Corefchains_	3-6	
+3-3	awoke	O	B-UnrelEv	_	_	
+3-4	,	O	O	_	_	
+3-5	and	O	O	_	_	
+3-6	she	B-ScrPart_gardener	O	webanno.custom.Corefchains_	4-1	
+3-7	began	O	B-UnrelEv	_	_	
+3-8	to	O	O	_	_	
+3-9	get	O	B-UnrelEv	_	_	
+3-10	ready	O	I-UnrelEv	_	_	
+3-11	in	O	O	_	_	
+3-12	the	O	O	_	_	
+3-13	bathroom	O	O	_	_	
+3-14	.	O	O	_	_	
+
+#id=4
+#text=She was out by the time food was ready .
+4-1	She	B-ScrPart_gardener	O	coref_group_I_partner	5-1	
+4-2	was	O	B-UnrelEv	_	_	
+4-3	out	O	I-UnrelEv	_	_	
+4-4	by	O	O	_	_	
+4-5	the	O	O	_	_	
+4-6	time	O	O	_	_	
+4-7	food	O	O	_	_	
+4-8	was	O	B-UnrelEv	_	_	
+4-9	ready	O	O	_	_	
+4-10	.	O	O	_	_	
+
+#id=5
+#text=We spoke about our plans for the day , and what we intended our goals to be .
+5-1	We	B-ScrPart_gardener	O	webanno.custom.Corefchains_	5-4	
+5-2	spoke	O	B-UnrelEv	_	_	
+5-3	about	O	O	_	_	
+5-4	our	B-ScrPart_gardener	O	webanno.custom.Corefchains_	5-12	
+5-5	plans	O	O	_	_	
+5-6	for	O	O	_	_	
+5-7	the	O	O	_	_	
+5-8	day	O	O	_	_	
+5-9	,	O	O	_	_	
+5-10	and	O	O	_	_	
+5-11	what	O	O	_	_	
+5-12	we	B-ScrPart_gardener	O	webanno.custom.Corefchains_	5-14	
+5-13	intended	O	B-UnrelEv	_	_	
+5-14	our	B-ScrPart_gardener	O	webanno.custom.Corefchains_	6-9	
+5-15	goals	O	O	_	_	
+5-16	to	O	O	_	_	
+5-17	be	O	B-UnrelEv	_	_	
+5-18	.	O	O	_	_	
+
+#id=6
+#text=After getting dressed up to head outside , we headed over to the gardening store to choose a tree for our yard .
+6-1	After	O	O	_	_	
+6-2	getting	O	B-UnrelEv	_	_	
+6-3	dressed	O	B-UnrelEv	_	_	
+6-4	up	O	I-UnrelEv	_	_	
+6-5	to	O	O	_	_	
+6-6	head	O	B-UnrelEv	_	_	
+6-7	outside	O	I-UnrelEv	_	_	
+6-8	,	O	O	_	_	
+6-9	we	B-ScrPart_gardener	O	webanno.custom.Corefchains_	6-21	
+6-10	headed	O	B-RelNScrEv	_	_	
+6-11	over	O	I-RelNScrEv	_	_	
+6-12	to	O	O	_	_	
+6-13	the	O	O	_	_	
+6-14	gardening	B-ScrPart_shop	O	_	_	
+6-15	store	I-ScrPart_shop|B-ScrPart_shop	O	webanno.custom.Corefchains_	8-20	
+6-16	to	O	O	_	_	
+6-17	choose	O	B-ScrEv_choose_tree	_	_	
+6-18	a	O	O	_	_	
+6-19	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	7-11	
+6-20	for	O	O	_	_	
+6-21	our	B-ScrPart_gardener	O	webanno.custom.Corefchains_	7-3	
+6-22	yard	B-ScrPart_location_garden	O	_	_	
+6-23	.	O	O	_	_	
+
+#id=7
+#text=Both of us were hoping for a nice Japanese Maple tree .
+7-1	Both	O	O	_	_	
+7-2	of	O	O	_	_	
+7-3	us	B-ScrPart_gardener	O	webanno.custom.Corefchains_	8-7	
+7-4	were	O	O	_	_	
+7-5	hoping	O	B-ScrEv_choose_tree	_	_	
+7-6	for	O	I-ScrEv_choose_tree	_	_	
+7-7	a	O	O	_	_	
+7-8	nice	O	O	_	_	
+7-9	Japanese	B-ScrPart_tree	O	_	_	
+7-10	Maple	I-ScrPart_tree	O	_	_	
+7-11	tree	I-ScrPart_tree|B-ScrPart_tree	O	webanno.custom.Corefchains_	8-10	
+7-12	.	O	O	_	_	
+
+#id=8
+#text=The checkout lady was nice , we found exactly what we were looking for after we got into the store .
+8-1	The	O	O	_	_	
+8-2	checkout	B-ScrPart_staff	O	_	_	
+8-3	lady	I-ScrPart_staff|B-ScrPart_staff	O	_	_	
+8-4	was	O	B-UnrelEv	_	_	
+8-5	nice	O	O	_	_	
+8-6	,	O	O	_	_	
+8-7	we	B-ScrPart_gardener	O	webanno.custom.Corefchains_	8-11	
+8-8	found	O	B-ScrEv_get_tree	_	_	
+8-9	exactly	O	O	_	_	
+8-10	what	B-ScrPart_tree	O	webanno.custom.Corefchains_	11-10	
+8-11	we	B-ScrPart_gardener	O	webanno.custom.Corefchains_	8-16	
+8-12	were	O	O	_	_	
+8-13	looking	O	B-RelNScrEv	_	_	
+8-14	for	O	I-RelNScrEv	_	_	
+8-15	after	O	O	_	_	
+8-16	we	B-ScrPart_gardener	O	webanno.custom.Corefchains_	9-4	
+8-17	got	O	B-RelNScrEv	_	_	
+8-18	into	O	I-RelNScrEv	_	_	
+8-19	the	O	O	_	_	
+8-20	store	B-ScrPart_shop	O	_	_	
+8-21	.	O	O	_	_	
+
+#id=9
+#text=Driving home , we could barely contain our excitement .
+9-1	Driving	O	B-RelNScrEv	_	_	
+9-2	home	B-NPart	O	_	_	
+9-3	,	O	O	_	_	
+9-4	we	B-ScrPart_gardener	O	webanno.custom.Corefchains_	9-8	
+9-5	could	O	O	_	_	
+9-6	barely	O	O	_	_	
+9-7	contain	O	B-UnrelEv	_	_	
+9-8	our	B-ScrPart_gardener	O	webanno.custom.Corefchains_	10-17	
+9-9	excitement	O	O	_	_	
+9-10	.	O	O	_	_	
+
+#id=10
+#text=After stepping back in the house for a quick snack and another cup of coffee , we set out to the shed to get the right tools .
+10-1	After	O	O	_	_	
+10-2	stepping	O	B-UnrelEv	_	_	
+10-3	back	O	I-UnrelEv	_	_	
+10-4	in	O	O	_	_	
+10-5	the	O	O	_	_	
+10-6	house	O	O	_	_	
+10-7	for	O	O	_	_	
+10-8	a	O	O	_	_	
+10-9	quick	O	O	_	_	
+10-10	snack	O	O	_	_	
+10-11	and	O	O	_	_	
+10-12	another	O	O	_	_	
+10-13	cup	O	O	_	_	
+10-14	of	O	O	_	_	
+10-15	coffee	O	O	_	_	
+10-16	,	O	O	_	_	
+10-17	we	B-ScrPart_gardener	O	_	_	
+10-18	set	O	B-RelNScrEv	_	_	
+10-19	out	O	I-RelNScrEv	_	_	
+10-20	to	O	O	_	_	
+10-21	the	O	O	_	_	
+10-22	shed	B-NPart	O	_	_	
+10-23	to	O	O	_	_	
+10-24	get	O	B-ScrEv_get_tools	_	_	
+10-25	the	O	O	_	_	
+10-26	right	O	O	_	_	
+10-27	tools	B-ScrPart_gardening_tool	O	_	_	
+10-28	.	O	O	_	_	
+
+#id=11
+#text=The hole was easy to dig , and the tree was transplanted successfully . 
+11-1	The	O	O	_	_	
+11-2	hole	B-ScrPart_hole	O	_	_	
+11-3	was	O	B-UnrelEv	_	_	
+11-4	easy	O	O	_	_	
+11-5	to	O	O	_	_	
+11-6	dig	O	B-ScrEv_dug_hole	_	_	
+11-7	,	O	O	_	_	
+11-8	and	O	O	_	_	
+11-9	the	O	O	_	_	
+11-10	tree	B-ScrPart_tree	O	_	_	
+11-11	was	O	O	_	_	
+11-12	transplanted	O	B-Evoking	_	_	
+11-13	successfully	O	O	_	_	
+11-14	.	O	O	_	_	
+

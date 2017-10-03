@@ -1,0 +1,260 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=I looked into my fridge and realized that I was out of food .
+1-1	I	B-ScrPart_shopper	O	
+1-2	looked	O	B-RelNScrEv	
+1-3	into	O	O	
+1-4	my	B-ScrPart_shopper	O	
+1-5	fridge	B-NPart	O	
+1-6	and	O	O	
+1-7	realized	O	B-UnrelEv	
+1-8	that	O	O	
+1-9	I	B-ScrPart_shopper	O	
+1-10	was	O	B-RelNScrEv	
+1-11	out	O	O	
+1-12	of	O	O	
+1-13	food	B-ScrPart_groceries	O	
+1-14	.	O	O	
+
+#id=2
+#text=I was so hungry .
+2-1	I	B-ScrPart_shopper	O	
+2-2	was	O	B-UnrelEv	
+2-3	so	O	O	
+2-4	hungry	O	O	
+2-5	.	O	O	
+
+#id=3
+#text=I decided that despite the fact that it was raining outside , I was going to go to the super market to buy food .
+3-1	I	B-ScrPart_shopper	O	
+3-2	decided	O	B-UnrelEv	
+3-3	that	O	O	
+3-4	despite	O	O	
+3-5	the	O	O	
+3-6	fact	B-NPart	O	
+3-7	that	O	O	
+3-8	it	B-No_label	O	
+3-9	was	O	O	
+3-10	raining	O	B-UnrelEv	
+3-11	outside	O	O	
+3-12	,	O	O	
+3-13	I	B-ScrPart_shopper	O	
+3-14	was	O	O	
+3-15	going	O	O	
+3-16	to	O	O	
+3-17	go	O	B-Evoking	
+3-18	to	O	I-Evoking	
+3-19	the	O	I-Evoking	
+3-20	super	B-ScrPart_grocery_shop	I-Evoking	
+3-21	market	I-ScrPart_grocery_shop|B-ScrPart_grocery_shop	I-Evoking	
+3-22	to	O	O	
+3-23	buy	O	B-Evoking	
+3-24	food	B-ScrPart_groceries	I-Evoking	
+3-25	.	O	O	
+
+#id=4
+#text=I drove my car to the nearest supermarket , which was about ten minutes away .
+4-1	I	B-ScrPart_shopper	O	
+4-2	drove	O	B-ScrEv_go_grocery	
+4-3	my	B-ScrPart_shopper	O	
+4-4	car	B-ScrPart_vehicle	O	
+4-5	to	O	O	
+4-6	the	O	O	
+4-7	nearest	O	O	
+4-8	supermarket	B-ScrPart_grocery_shop	O	
+4-9	,	O	O	
+4-10	which	B-ScrPart_grocery_shop	O	
+4-11	was	O	B-UnrelEv	
+4-12	about	O	O	
+4-13	ten	O	O	
+4-14	minutes	B-NPart	O	
+4-15	away	O	O	
+4-16	.	O	O	
+
+#id=5
+#text=Once inside I took a shopping cart because I knew I was going to stockpile food .
+5-1	Once	O	O	
+5-2	inside	O	O	
+5-3	I	B-ScrPart_shopper	O	
+5-4	took	O	B-ScrEv_take_shop_cart	
+5-5	a	O	O	
+5-6	shopping	B-ScrPart_shopping_cart/basket	O	
+5-7	cart	I-ScrPart_shopping_cart/basket|B-ScrPart_shopping_cart/basket	O	
+5-8	because	O	O	
+5-9	I	B-ScrPart_shopper	O	
+5-10	knew	O	B-UnrelEv	
+5-11	I	B-ScrPart_shopper	O	
+5-12	was	O	O	
+5-13	going	O	O	
+5-14	to	O	O	
+5-15	stockpile	O	B-???	
+5-16	food	B-ScrPart_groceries	O	
+5-17	.	O	O	
+
+#id=6
+#text=I first went to get breakfast food .
+6-1	I	B-ScrPart_shopper	O	
+6-2	first	O	O	
+6-3	went	O	B-ScrEv_move_section	
+6-4	to	O	O	
+6-5	get	O	B-ScrEv_get_groceries	
+6-6	breakfast	B-ScrPart_groceries	O	
+6-7	food	I-ScrPart_groceries|B-ScrPart_groceries	O	
+6-8	.	O	O	
+
+#id=7
+#text=This included eggs , bacon , milk , cereal , cereal bars and fruit such as bananas and apples .
+7-1	This	B-ScrPart_groceries	O	
+7-2	included	O	B-ScrEv_get_groceries	
+7-3	eggs	B-ScrPart_groceries	O	
+7-4	,	O	O	
+7-5	bacon	B-ScrPart_groceries	O	
+7-6	,	O	O	
+7-7	milk	B-ScrPart_groceries	O	
+7-8	,	O	O	
+7-9	cereal	B-ScrPart_groceries	O	
+7-10	,	O	O	
+7-11	cereal	B-ScrPart_groceries	O	
+7-12	bars	I-ScrPart_groceries|B-ScrPart_groceries	O	
+7-13	and	O	O	
+7-14	fruit	B-ScrPart_groceries	O	
+7-15	such	O	O	
+7-16	as	O	O	
+7-17	bananas	B-ScrPart_groceries	O	
+7-18	and	O	O	
+7-19	apples	B-ScrPart_groceries	O	
+7-20	.	O	O	
+
+#id=8
+#text=Next I went to food I would usually eat for lunch .
+8-1	Next	O	O	
+8-2	I	B-ScrPart_shopper	O	
+8-3	went	O	B-ScrEv_move_section	
+8-4	to	O	O	
+8-5	food	B-ScrPart_groceries	O	
+8-6	I	B-ScrPart_shopper	O	
+8-7	would	O	O	
+8-8	usually	O	O	
+8-9	eat	O	B-UnrelEv	
+8-10	for	O	O	
+8-11	lunch	B-NPart	O	
+8-12	.	O	O	
+
+#id=9
+#text=This included pasta , tomato sauce , mac and cheese , ramen , salad ingredients and perhaps some snacks .
+9-1	This	B-ScrPart_groceries	O	
+9-2	included	O	B-ScrEv_get_groceries	
+9-3	pasta	B-ScrPart_groceries	O	
+9-4	,	O	O	
+9-5	tomato	B-ScrPart_groceries	O	
+9-6	sauce	I-ScrPart_groceries|B-ScrPart_groceries	O	
+9-7	,	O	O	
+9-8	mac	B-ScrPart_groceries	O	
+9-9	and	I-ScrPart_groceries	O	
+9-10	cheese	I-ScrPart_groceries	O	
+9-11	,	O	O	
+9-12	ramen	B-ScrPart_groceries	O	
+9-13	,	O	O	
+9-14	salad	B-ScrPart_groceries	O	
+9-15	ingredients	I-ScrPart_groceries|B-ScrPart_groceries	O	
+9-16	and	O	O	
+9-17	perhaps	O	O	
+9-18	some	O	O	
+9-19	snacks	B-ScrPart_groceries	O	
+9-20	.	O	O	
+
+#id=10
+#text=I also got a pound of Boar 's head turkey and bread .
+10-1	I	B-ScrPart_shopper	O	
+10-2	also	O	O	
+10-3	got	O	B-ScrEv_get_groceries	
+10-4	a	O	O	
+10-5	pound	B-Head_of_Partitive	O	
+10-6	of	O	O	
+10-7	Boar	B-ScrPart_groceries	O	
+10-8	's	I-ScrPart_groceries	O	
+10-9	head	I-ScrPart_groceries	O	
+10-10	turkey	I-ScrPart_groceries|B-ScrPart_groceries	O	
+10-11	and	O	O	
+10-12	bread	B-ScrPart_groceries	O	
+10-13	.	O	O	
+
+#id=11
+#text=I then went to pick up a few slabs of steak , pork and chicken because I like to eat big dinners .
+11-1	I	B-ScrPart_shopper	O	
+11-2	then	O	O	
+11-3	went	O	B-ScrEv_move_section	
+11-4	to	O	O	
+11-5	pick	O	B-ScrEv_get_groceries	
+11-6	up	O	I-ScrEv_get_groceries	
+11-7	a	O	O	
+11-8	few	O	O	
+11-9	slabs	B-Head_of_Partitive	O	
+11-10	of	O	O	
+11-11	steak	B-ScrPart_groceries	O	
+11-12	,	O	O	
+11-13	pork	B-ScrPart_groceries	O	
+11-14	and	O	O	
+11-15	chicken	B-ScrPart_groceries	O	
+11-16	because	O	O	
+11-17	I	B-ScrPart_shopper	O	
+11-18	like	O	B-UnrelEv	
+11-19	to	O	O	
+11-20	eat	O	B-UnrelEv	
+11-21	big	O	O	
+11-22	dinners	B-NPart	O	
+11-23	.	O	O	
+
+#id=12
+#text=Next , I went to the ice cream aisle and picked up my favorite rocky road ice cream for when I crave sweets .
+12-1	Next	O	O	
+12-2	,	O	O	
+12-3	I	B-ScrPart_shopper	O	
+12-4	went	O	B-ScrEv_move_section	
+12-5	to	O	O	
+12-6	the	O	O	
+12-7	ice	B-ScrPart_section	O	
+12-8	cream	I-ScrPart_section	O	
+12-9	aisle	I-ScrPart_section|B-ScrPart_section	O	
+12-10	and	O	O	
+12-11	picked	O	B-ScrEv_get_groceries	
+12-12	up	O	I-ScrEv_get_groceries	
+12-13	my	B-ScrPart_shopper	O	
+12-14	favorite	O	O	
+12-15	rocky	B-ScrPart_groceries	O	
+12-16	road	I-ScrPart_groceries	O	
+12-17	ice	I-ScrPart_groceries	O	
+12-18	cream	I-ScrPart_groceries|B-ScrPart_groceries	O	
+12-19	for	O	O	
+12-20	when	O	O	
+12-21	I	B-ScrPart_shopper	O	
+12-22	crave	O	B-UnrelEv	
+12-23	sweets	B-NPart	O	
+12-24	.	O	O	
+
+#id=13
+#text=Overall it was a good experience , everything cost me about 120 but I got 10 percent off with my discount card . 
+13-1	Overall	O	O	
+13-2	it	B-No_label	O	
+13-3	was	O	B-UnrelEv	
+13-4	a	O	O	
+13-5	good	O	O	
+13-6	experience	B-NPart	O	
+13-7	,	O	O	
+13-8	everything	B-ScrPart_groceries	O	
+13-9	cost	O	B-ScrEv_pay	
+13-10	me	B-ScrPart_shopper	O	
+13-11	about	O	O	
+13-12	120	B-ScrPart_price	O	
+13-13	but	O	O	
+13-14	I	B-ScrPart_shopper	O	
+13-15	got	O	B-RelNScrEv	
+13-16	10	B-ScrPart_saving	O	
+13-17	percent	I-ScrPart_saving	O	
+13-18	off	O	O	
+13-19	with	O	B-UnrelEv	
+13-20	my	B-ScrPart_shopper	O	
+13-21	discount	B-ScrPart_deal_coupon	O	
+13-22	card	I-ScrPart_deal_coupon|B-ScrPart_deal_coupon	O	
+13-23	.	O	O	
+

@@ -1,0 +1,212 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Springtime is upon us and there 's no better time to get outdoors and work on landscaping .
+1-1	Springtime	B-ScrPart_time	O	_	_	
+1-2	is	O	B-UnrelEv	_	_	
+1-3	upon	O	O	_	_	
+1-4	us	O	O	_	_	
+1-5	and	O	O	_	_	
+1-6	there	O	O	_	_	
+1-7	's	O	B-UnrelEv	_	_	
+1-8	no	O	O	_	_	
+1-9	better	O	O	_	_	
+1-10	time	O	O	_	_	
+1-11	to	O	O	_	_	
+1-12	get	O	B-UnrelEv	_	_	
+1-13	outdoors	O	O	_	_	
+1-14	and	O	O	_	_	
+1-15	work	O	B-UnrelEv	_	_	
+1-16	on	O	O	_	_	
+1-17	landscaping	O	B-RelNScrEv	_	_	
+1-18	.	O	O	_	_	
+
+#id=2
+#text=An easy way to improve your yard is to plant a tree .
+2-1	An	O	O	_	_	
+2-2	easy	O	O	_	_	
+2-3	way	O	O	_	_	
+2-4	to	O	O	_	_	
+2-5	improve	O	B-UnrelEv	_	_	
+2-6	your	B-ScrPart_gardener	O	_	_	
+2-7	yard	B-ScrPart_location_garden	O	_	_	
+2-8	is	O	O	_	_	
+2-9	to	O	O	_	_	
+2-10	plant	O	B-Evoking	_	_	
+2-11	a	O	I-Evoking	_	_	
+2-12	tree	B-ScrPart_tree	I-Evoking	_	_	
+2-13	.	O	O	_	_	
+
+#id=3
+#text=Head on over to your local home and garden store and pick out an appropriate tree .
+3-1	Head	O	B-UnrelEv	_	_	
+3-2	on	O	O	_	_	
+3-3	over	O	O	_	_	
+3-4	to	O	O	_	_	
+3-5	your	B-ScrPart_gardener	O	webanno.custom.Corefchains_	2-6	
+3-6	local	O	O	_	_	
+3-7	home	O	O	_	_	
+3-8	and	O	O	_	_	
+3-9	garden	O	O	_	_	
+3-10	store	B-ScrPart_shop	O	_	_	
+3-11	and	O	O	_	_	
+3-12	pick	O	B-ScrEv_choose_tree|B-ScrEv_choose_tree	_	_	
+3-13	out	O	I-ScrEv_choose_tree	_	_	
+3-14	an	O	O	_	_	
+3-15	appropriate	O	O	_	_	
+3-16	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	2-12	
+3-17	.	O	O	_	_	
+
+#id=4
+#text=If you do n't have one already , pickup a shovel as well .
+4-1	If	O	O	_	_	
+4-2	you	B-ScrPart_gardener	O	webanno.custom.Corefchains_	3-5	
+4-3	do	O	O	_	_	
+4-4	n't	O	O	_	_	
+4-5	have	O	O	_	_	
+4-6	one	B-ScrPart_gardening_tool	O	_	_	
+4-7	already	O	O	_	_	
+4-8	,	O	O	_	_	
+4-9	pickup	O	B-ScrEv_get_tools	_	_	
+4-10	a	O	O	_	_	
+4-11	shovel	B-ScrPart_gardening_tool	O	webanno.custom.Corefchains_	4-6	
+4-12	as	O	O	_	_	
+4-13	well	O	O	_	_	
+4-14	.	O	O	_	_	
+
+#id=5
+#text=Head out to your yard and carefully scope out a great spot to plant the tree .
+5-1	Head	O	B-MissScrEv|B-MissScrEv	_	_	
+5-2	out	O	I-MissScrEv	_	_	
+5-3	to	O	O	_	_	
+5-4	your	B-ScrPart_gardener	O	webanno.custom.Corefchains_	4-2	
+5-5	yard	B-ScrPart_location_garden	O	_	_	
+5-6	and	O	O	_	_	
+5-7	carefully	O	O	_	_	
+5-8	scope	O	B-ScrEv_find_place|B-ScrEv_find_place	_	_	
+5-9	out	O	I-ScrEv_find_place	_	_	
+5-10	a	O	O	_	_	
+5-11	great	O	O	_	_	
+5-12	spot	B-ScrPart_location_garden	O	_	_	
+5-13	to	O	O	_	_	
+5-14	plant	O	B-Evoking	_	_	
+5-15	the	O	I-Evoking	_	_	
+5-16	tree	B-ScrPart_tree	I-Evoking	webanno.custom.Corefchains_	3-16	
+5-17	.	O	O	_	_	
+
+#id=6
+#text=If you have any questions about digging , make sure to contact your local government authority to make sure there are no pipes underground !
+6-1	If	O	O	_	_	
+6-2	you	B-ScrPart_gardener	O	webanno.custom.Corefchains_	5-4	
+6-3	have	O	B-UnrelEv	_	_	
+6-4	any	O	O	_	_	
+6-5	questions	O	O	_	_	
+6-6	about	O	O	_	_	
+6-7	digging	O	B-ScrEv_dug_hole	_	_	
+6-8	,	O	O	_	_	
+6-9	make	O	B-UnrelEv|B-UnrelEv	_	_	
+6-10	sure	B-ScrPart_gardener	I-UnrelEv	_	_	
+6-11	to	O	B-UnrelEv	_	_	
+6-12	contact	O	O	_	_	
+6-13	your	B-ScrPart_gardener	O	webanno.custom.Corefchains_	6-2	
+6-14	local	O	O	_	_	
+6-15	government	O	O	_	_	
+6-16	authority	O	O	_	_	
+6-17	to	O	O	_	_	
+6-18	make	O	B-UnrelEv|B-UnrelEv	_	_	
+6-19	sure	O	I-UnrelEv	_	_	
+6-20	there	O	O	_	_	
+6-21	are	O	B-UnrelEv	_	_	
+6-22	no	O	O	_	_	
+6-23	pipes	O	O	_	_	
+6-24	underground	O	O	_	_	
+6-25	!	O	O	_	_	
+
+#id=7
+#text=Once you have a safe spot , dig a whole large enough to fit the tree that your purchased and make sure to save the dirt .
+7-1	Once	O	O	_	_	
+7-2	you	B-ScrPart_gardener	O	webanno.custom.Corefchains_	6-13	
+7-3	have	O	B-ScrEv_find_place	_	_	
+7-4	a	O	O	_	_	
+7-5	safe	O	O	_	_	
+7-6	spot	B-ScrPart_location_garden	O	webanno.custom.Corefchains_	5-12	
+7-7	,	O	O	_	_	
+7-8	dig	O	B-ScrEv_dug_hole	_	_	
+7-9	a	O	O	_	_	
+7-10	whole	B-ScrPart_hole	O	_	_	
+7-11	large	O	O	_	_	
+7-12	enough	O	O	_	_	
+7-13	to	O	O	_	_	
+7-14	fit	O	B-RelNScrEv	_	_	
+7-15	the	O	O	_	_	
+7-16	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	5-16	
+7-17	that	O	O	_	_	
+7-18	your	B-ScrPart_gardener	O	webanno.custom.Corefchains_	7-2	
+7-19	purchased	O	B-ScrEv_get_tree	_	_	
+7-20	and	O	O	_	_	
+7-21	make	O	B-UnrelEv|B-UnrelEv	_	_	
+7-22	sure	O	I-UnrelEv	_	_	
+7-23	to	O	O	_	_	
+7-24	save	O	B-RelNScrEv	_	_	
+7-25	the	O	O	_	_	
+7-26	dirt	B-ScrPart_dirt	O	_	_	
+7-27	.	O	O	_	_	
+
+#id=8
+#text=After you plant the tree in the ground , make sure to fill in this hole and pack it tight .
+8-1	After	O	O	_	_	
+8-2	you	B-ScrPart_gardener	O	webanno.custom.Corefchains_	7-18	
+8-3	plant	O	B-Evoking	_	_	
+8-4	the	O	O	_	_	
+8-5	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	7-16	
+8-6	in	O	O	_	_	
+8-7	the	O	O	_	_	
+8-8	ground	B-MissScrPart	O	_	_	
+8-9	,	O	O	_	_	
+8-10	make	O	B-UnrelEv|B-UnrelEv	_	_	
+8-11	sure	O	I-UnrelEv	_	_	
+8-12	to	O	O	_	_	
+8-13	fill	O	B-ScrEv_refill_hole	_	_	
+8-14	in	O	O	_	_	
+8-15	this	O	O	_	_	
+8-16	hole	B-ScrPart_hole	O	webanno.custom.Corefchains_	7-10	
+8-17	and	O	O	_	_	
+8-18	pack	O	B-ScrEv_tamp_dirt	_	_	
+8-19	it	B-ScrPart_hole	O	webanno.custom.Corefchains_	8-16	
+8-20	tight	O	O	_	_	
+8-21	.	O	O	_	_	
+
+#id=9
+#text=If it 's been dry in your area make sure to water the tree in order to help it grow .
+9-1	If	O	O	_	_	
+9-2	it	O	O	_	_	
+9-3	's	O	O	_	_	
+9-4	been	O	B-UnrelEv	_	_	
+9-5	dry	O	O	_	_	
+9-6	in	O	O	_	_	
+9-7	your	B-ScrPart_gardener	O	webanno.custom.Corefchains_	8-2	
+9-8	area	O	O	_	_	
+9-9	make	O	B-UnrelEv|B-UnrelEv	_	_	
+9-10	sure	O	I-UnrelEv	_	_	
+9-11	to	O	O	_	_	
+9-12	water	O	B-ScrEv_water	_	_	
+9-13	the	O	O	_	_	
+9-14	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	8-5	
+9-15	in	O	O	_	_	
+9-16	order	O	O	_	_	
+9-17	to	O	O	_	_	
+9-18	help	O	B-UnrelEv	_	_	
+9-19	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	9-14	
+9-20	grow	O	B-RelNScrEv	_	_	
+9-21	.	O	O	_	_	
+
+#id=10
+#text=Enjoy the reduction in your carbon footprint ! 
+10-1	Enjoy	O	B-UnrelEv	_	_	
+10-2	the	O	O	_	_	
+10-3	reduction	O	O	_	_	
+10-4	in	O	O	_	_	
+10-5	your	B-ScrPart_gardener	O	webanno.custom.Corefchains_	9-7	
+10-6	carbon	O	O	_	_	
+10-7	footprint	O	O	_	_	
+10-8	!	O	O	_	_	
+

@@ -1,0 +1,206 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Sometimes after a long , hard , stressful day at the office , the best thing to do when you get home is to take a nice , hot , relaxing bubble bath !
+1-1	Sometimes	O	O	_	_	
+1-2	after	O	O	_	_	
+1-3	a	O	O	_	_	
+1-4	long	O	O	_	_	
+1-5	,	O	O	_	_	
+1-6	hard	O	O	_	_	
+1-7	,	O	O	_	_	
+1-8	stressful	O	O	_	_	
+1-9	day	O	O	_	_	
+1-10	at	O	O	_	_	
+1-11	the	O	O	_	_	
+1-12	office	O	O	_	_	
+1-13	,	O	O	_	_	
+1-14	the	O	O	_	_	
+1-15	best	O	O	_	_	
+1-16	thing	O	O	_	_	
+1-17	to	O	O	_	_	
+1-18	do	B-UnrelEv	O	_	_	
+1-19	when	O	O	_	_	
+1-20	you	O	B-ScrPart_bather	_	_	
+1-21	get	B-UnrelEv	O	_	_	
+1-22	home	O	O	_	_	
+1-23	is	B-UnrelEv	O	_	_	
+1-24	to	O	O	_	_	
+1-25	take	B-Evoking	O	_	_	
+1-26	a	I-Evoking	O	_	_	
+1-27	nice	I-Evoking	O	_	_	
+1-28	,	I-Evoking	O	_	_	
+1-29	hot	I-Evoking	O	_	_	
+1-30	,	I-Evoking	O	_	_	
+1-31	relaxing	I-Evoking|B-ScrEv_relax	O	_	_	
+1-32	bubble	I-Evoking	O	_	_	
+1-33	bath	I-Evoking	B-SuppVComp	_	_	
+1-34	!	O	O	_	_	
+
+#id=2
+#text=That is exactly what I did after coming home on Monday afternoon .
+2-1	That	O	O	_	_	
+2-2	is	B-UnrelEv	O	_	_	
+2-3	exactly	O	O	_	_	
+2-4	what	O	O	_	_	
+2-5	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	1-20	
+2-6	did	B-UnrelEv	O	_	_	
+2-7	after	O	O	_	_	
+2-8	coming	B-UnrelEv	O	_	_	
+2-9	home	O	O	_	_	
+2-10	on	O	O	_	_	
+2-11	Monday	O	O	_	_	
+2-12	afternoon	O	O	_	_	
+2-13	.	O	O	_	_	
+
+#id=3
+#text=I decided I would make it as relaxing as possible and pretend that I was at a spa .
+3-1	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	2-5	
+3-2	decided	B-UnrelEv	O	_	_	
+3-3	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	3-1	
+3-4	would	O	O	_	_	
+3-5	make	B-UnrelEv	O	_	_	
+3-6	it	O	O	_	_	
+3-7	as	O	O	_	_	
+3-8	relaxing	B-ScrEv_relax	O	_	_	
+3-9	as	O	O	_	_	
+3-10	possible	O	O	_	_	
+3-11	and	O	O	_	_	
+3-12	pretend	B-UnrelEv	O	_	_	
+3-13	that	O	O	_	_	
+3-14	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	3-3	
+3-15	was	B-???	O	_	_	
+3-16	at	O	O	_	_	
+3-17	a	O	O	_	_	
+3-18	spa	O	O	_	_	
+3-19	.	O	O	_	_	
+
+#id=4
+#text=I went up to the bathroom and started to draw the warm water into the tub .
+4-1	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	3-14	
+4-2	went	B-ScrEv_enter_bathroom	O	_	_	
+4-3	up	I-ScrEv_enter_bathroom	O	_	_	
+4-4	to	O	O	_	_	
+4-5	the	O	O	_	_	
+4-6	bathroom	O	B-ScrPart_bathroom	_	_	
+4-7	and	O	O	_	_	
+4-8	started	B-UnrelEv	O	_	_	
+4-9	to	O	O	_	_	
+4-10	draw	B-ScrEv_turn_water_on	O	_	_	
+4-11	the	O	O	_	_	
+4-12	warm	O	O	_	_	
+4-13	water	O	B-ScrPart_water	_	_	
+4-14	into	O	O	_	_	
+4-15	the	O	O	_	_	
+4-16	tub	O	B-ScrPart_bathtub	_	_	
+4-17	.	O	O	_	_	
+
+#id=5
+#text=While that was filling up I then went down to the kitchen and grabbed a bottle of wine and a glass and took it upstairs to sip as I soaked .
+5-1	While	O	O	_	_	
+5-2	that	O	B-ScrPart_bathtub	webanno.custom.Corefchains_	4-16	
+5-3	was	O	O	_	_	
+5-4	filling	B-ScrEv_fill_water/wait	O	_	_	
+5-5	up	I-ScrEv_fill_water/wait	O	_	_	
+5-6	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	4-1	
+5-7	then	O	O	_	_	
+5-8	went	B-RelNScrEv	O	_	_	
+5-9	down	I-RelNScrEv	O	_	_	
+5-10	to	O	O	_	_	
+5-11	the	O	O	_	_	
+5-12	kitchen	O	B-NPart	_	_	
+5-13	and	O	O	_	_	
+5-14	grabbed	B-ScrEv_prepare_bath	O	_	_	
+5-15	a	O	O	_	_	
+5-16	bottle	O	O	_	_	
+5-17	of	O	O	_	_	
+5-18	wine	O	B-ScrPart_in-bath_entertainment	_	_	
+5-19	and	O	O	_	_	
+5-20	a	O	O	_	_	
+5-21	glass	O	B-ScrPart_in-bath_entertainment	_	_	
+5-22	and	O	O	_	_	
+5-23	took	B-ScrEv_prepare_bath	O	_	_	
+5-24	it	O	B-ScrPart_in-bath_entertainment	coref_group_wine_glass|coref_group_wine_glass	5-18|5-21	
+5-25	upstairs	O	O	_	_	
+5-26	to	O	O	_	_	
+5-27	sip	B-RelNScrEv	O	_	_	
+5-28	as	O	O	_	_	
+5-29	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	5-6	
+5-30	soaked	B-ScrEv_relax	O	_	_	
+5-31	.	O	O	_	_	
+
+#id=6
+#text=To complete my ultimate relaxation bath night I grabbed my blue tooth speaker and set it up to play some relaxing music while I was in the tub .
+6-1	To	O	O	_	_	
+6-2	complete	B-UnrelEv	O	_	_	
+6-3	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	5-29	
+6-4	ultimate	O	O	_	_	
+6-5	relaxation	O	O	_	_	
+6-6	bath	O	O	_	_	
+6-7	night	O	O	_	_	
+6-8	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	6-3	
+6-9	grabbed	B-ScrEv_prepare_bath	O	_	_	
+6-10	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	6-8	
+6-11	blue	O	B-ScrPart_in-bath_entertainment	_	_	
+6-12	tooth	O	I-ScrPart_in-bath_entertainment	_	_	
+6-13	speaker	O	I-ScrPart_in-bath_entertainment|B-ScrPart_in-bath_entertainment	_	_	
+6-14	and	O	O	_	_	
+6-15	set	B-ScrEv_prepare_bath	O	_	_	
+6-16	it	O	B-ScrPart_in-bath_entertainment	webanno.custom.Corefchains_	6-13	
+6-17	up	O	O	_	_	
+6-18	to	O	O	_	_	
+6-19	play	B-RelNScrEv	O	_	_	
+6-20	some	O	O	_	_	
+6-21	relaxing	B-ScrEv_relax	O	_	_	
+6-22	music	O	B-ScrPart_in-bath_entertainment	_	_	
+6-23	while	O	O	_	_	
+6-24	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	6-10	
+6-25	was	B-UnrelEv	O	_	_	
+6-26	in	O	O	_	_	
+6-27	the	O	O	_	_	
+6-28	tub	O	B-ScrPart_bathtub	webanno.custom.Corefchains_	5-2	
+6-29	.	O	O	_	_	
+
+#id=7
+#text=I then added some bubble bath and got in .
+7-1	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	6-24	
+7-2	then	O	O	_	_	
+7-3	added	B-ScrEv_put_bubble_bath_scent	O	_	_	
+7-4	some	O	O	_	_	
+7-5	bubble	O	B-ScrPart_bath_means	_	_	
+7-6	bath	O	I-ScrPart_bath_means|B-ScrPart_bath_means	_	_	
+7-7	and	O	O	_	_	
+7-8	got	B-ScrEv_sink_water	O	_	_	
+7-9	in	I-ScrEv_sink_water	O	_	_	
+7-10	.	O	O	_	_	
+
+#id=8
+#text=First I washed my hair and then my body and then it was time to relax and soak until my skin started to look like a raisin . 
+8-1	First	O	O	_	_	
+8-2	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	7-1	
+8-3	washed	B-ScrEv_wash	O	_	_	
+8-4	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	8-2	
+8-5	hair	O	B-ScrPart_hair	_	_	
+8-6	and	O	O	_	_	
+8-7	then	O	O	_	_	
+8-8	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	8-4	
+8-9	body	O	B-ScrPart_body_part	_	_	
+8-10	and	O	O	_	_	
+8-11	then	O	O	_	_	
+8-12	it	O	O	_	_	
+8-13	was	B-UnrelEv	O	_	_	
+8-14	time	O	O	_	_	
+8-15	to	O	O	_	_	
+8-16	relax	B-ScrEv_relax	O	_	_	
+8-17	and	O	O	_	_	
+8-18	soak	B-ScrEv_relax	O	_	_	
+8-19	until	O	O	_	_	
+8-20	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	8-8	
+8-21	skin	O	B-ScrPart_body_part	_	_	
+8-22	started	B-UnrelEv	O	_	_	
+8-23	to	O	O	_	_	
+8-24	look	B-???	O	_	_	
+8-25	like	O	O	_	_	
+8-26	a	O	O	_	_	
+8-27	raisin	O	O	_	_	
+8-28	.	O	O	_	_	
+

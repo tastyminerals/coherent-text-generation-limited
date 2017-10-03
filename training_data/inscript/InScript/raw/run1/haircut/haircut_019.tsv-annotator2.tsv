@@ -1,0 +1,192 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=It had been a while since I had gotten a hair cut and decided it was time .
+1-1	It	O	O	_	_	
+1-2	had	O	O	_	_	
+1-3	been	B-UnrelEv	O	_	_	
+1-4	a	O	O	_	_	
+1-5	while	O	O	_	_	
+1-6	since	O	O	_	_	
+1-7	I	O	B-ScrPart_customer	_	_	
+1-8	had	O	O	_	_	
+1-9	gotten	B-Evoking	O	_	_	
+1-10	a	I-Evoking	O	_	_	
+1-11	hair	I-Evoking	O	_	_	
+1-12	cut	I-Evoking	O	_	_	
+1-13	and	O	O	_	_	
+1-14	decided	B-UnrelEv	O	_	_	
+1-15	it	O	O	_	_	
+1-16	was	B-UnrelEv	O	_	_	
+1-17	time	O	O	_	_	
+1-18	.	O	O	_	_	
+
+#id=2
+#text=I found the number of the salon in the phone book and called to make an appointment .
+2-1	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	1-7	
+2-2	found	B-RelNScrEv	O	_	_	
+2-3	the	O	O	_	_	
+2-4	number	O	B-NPart	_	_	
+2-5	of	O	O	_	_	
+2-6	the	O	O	_	_	
+2-7	salon	O	B-ScrPart_salon	_	_	
+2-8	in	O	O	_	_	
+2-9	the	O	O	_	_	
+2-10	phone	O	B-NPart	_	_	
+2-11	book	O	I-NPart|B-NPart	_	_	
+2-12	and	O	O	_	_	
+2-13	called	B-ScrEv_make_appointment	O	_	_	
+2-14	to	O	O	_	_	
+2-15	make	B-ScrEv_make_appointment	O	_	_	
+2-16	an	O	O	_	_	
+2-17	appointment	O	B-ScrPart_appointment	_	_	
+2-18	.	O	O	_	_	
+
+#id=3
+#text=Then I drove to the salon .
+3-1	Then	O	O	_	_	
+3-2	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	2-1	
+3-3	drove	B-ScrEv_get_salon	O	_	_	
+3-4	to	O	O	_	_	
+3-5	the	O	O	_	_	
+3-6	salon	O	B-ScrPart_salon	webanno.custom.Corefchains_	2-7	
+3-7	.	O	O	_	_	
+
+#id=4
+#text=My favorite stylist was there and she greeted me and had me sit down in a chair that was in her booth .
+4-1	My	O	B-ScrPart_customer	webanno.custom.Corefchains_	3-2	
+4-2	favorite	O	O	_	_	
+4-3	stylist	O	B-ScrPart_hairdresser	_	_	
+4-4	was	B-UnrelEv	O	_	_	
+4-5	there	O	B-ScrPart_salon	webanno.custom.Corefchains_	3-6	
+4-6	and	O	O	_	_	
+4-7	she	O	B-ScrPart_hairdresser	webanno.custom.Corefchains_	4-3	
+4-8	greeted	B-RelNScrEv	O	_	_	
+4-9	me	O	B-ScrPart_customer	webanno.custom.Corefchains_	4-1	
+4-10	and	O	O	_	_	
+4-11	had	O	O	_	_	
+4-12	me	O	B-ScrPart_customer	webanno.custom.Corefchains_	4-9	
+4-13	sit	B-ScrEv_sit_down	O	_	_	
+4-14	down	I-ScrEv_sit_down	O	_	_	
+4-15	in	O	O	_	_	
+4-16	a	O	O	_	_	
+4-17	chair	O	B-ScrPart_chair	_	_	
+4-18	that	O	O	_	_	
+4-19	was	B-UnrelEv	O	_	_	
+4-20	in	O	O	_	_	
+4-21	her	O	B-ScrPart_hairdresser	webanno.custom.Corefchains_	4-7	
+4-22	booth	O	B-ScrPart_location_salon	_	_	
+4-23	.	O	O	_	_	
+
+#id=5
+#text=She wrapped a plastic protector over me and bent the chair back .
+5-1	She	O	B-ScrPart_hairdresser	webanno.custom.Corefchains_	4-21	
+5-2	wrapped	B-ScrEv_put_on_cape	O	_	_	
+5-3	a	O	O	_	_	
+5-4	plastic	O	B-ScrPart_cape	_	_	
+5-5	protector	O	I-ScrPart_cape|B-ScrPart_cape	_	_	
+5-6	over	O	O	_	_	
+5-7	me	O	B-ScrPart_customer	webanno.custom.Corefchains_	4-12	
+5-8	and	O	O	_	_	
+5-9	bent	B-RelNScrEv	O	_	_	
+5-10	the	O	O	_	_	
+5-11	chair	O	B-ScrPart_chair	webanno.custom.Corefchains_	4-17	
+5-12	back	O	O	_	_	
+5-13	.	O	O	_	_	
+
+#id=6
+#text=Then she shampooed my hair .
+6-1	Then	O	O	_	_	
+6-2	she	O	B-ScrPart_hairdresser	webanno.custom.Corefchains_	5-1	
+6-3	shampooed	B-ScrEv_wash	O	_	_	
+6-4	my	O	B-ScrPart_customer	webanno.custom.Corefchains_	5-7	
+6-5	hair	O	B-ScrPart_hair	_	_	
+6-6	.	O	O	_	_	
+
+#id=7
+#text=Then she combed my hair to get it ready to be cut .
+7-1	Then	O	O	_	_	
+7-2	she	O	B-ScrPart_hairdresser	webanno.custom.Corefchains_	6-2	
+7-3	combed	B-ScrEv_comb	O	_	_	
+7-4	my	O	B-ScrPart_customer	webanno.custom.Corefchains_	6-4	
+7-5	hair	O	B-ScrPart_hair	webanno.custom.Corefchains_	6-5	
+7-6	to	O	O	_	_	
+7-7	get	B-UnrelEv	O	_	_	
+7-8	it	O	B-ScrPart_hair	webanno.custom.Corefchains_	7-5	
+7-9	ready	O	O	_	_	
+7-10	to	O	O	_	_	
+7-11	be	O	O	_	_	
+7-12	cut	B-ScrEv_cut	O	_	_	
+7-13	.	O	O	_	_	
+
+#id=8
+#text=Then she started cutting my hair with a special pair of scissors .
+8-1	Then	O	O	_	_	
+8-2	she	O	B-ScrPart_hairdresser	webanno.custom.Corefchains_	7-2	
+8-3	started	B-UnrelEv	O	_	_	
+8-4	cutting	B-ScrEv_cut	O	_	_	
+8-5	my	O	B-ScrPart_customer	webanno.custom.Corefchains_	7-4	
+8-6	hair	O	B-ScrPart_hair	webanno.custom.Corefchains_	7-8	
+8-7	with	O	O	_	_	
+8-8	a	O	O	_	_	
+8-9	special	O	O	_	_	
+8-10	pair	O	B-NPart	_	_	
+8-11	of	O	O	_	_	
+8-12	scissors	O	B-ScrPart_scissors	_	_	
+8-13	.	O	O	_	_	
+
+#id=9
+#text=She took her time about cutting my hair .
+9-1	She	O	B-ScrPart_hairdresser	webanno.custom.Corefchains_	8-2	
+9-2	took	B-UnrelEv	O	_	_	
+9-3	her	O	B-ScrPart_hairdresser	webanno.custom.Corefchains_	9-1	
+9-4	time	O	B-SuppVComp	_	_	
+9-5	about	O	O	_	_	
+9-6	cutting	B-ScrEv_cut	O	_	_	
+9-7	my	O	B-ScrPart_customer	webanno.custom.Corefchains_	8-5	
+9-8	hair	O	B-ScrPart_hair	webanno.custom.Corefchains_	8-6	
+9-9	.	O	O	_	_	
+
+#id=10
+#text=When she was all done she grabbed a hair dryer and dried it .
+10-1	When	O	O	_	_	
+10-2	she	O	B-ScrPart_hairdresser	webanno.custom.Corefchains_	9-3	
+10-3	was	B-UnrelEv	O	_	_	
+10-4	all	O	O	_	_	
+10-5	done	O	O	_	_	
+10-6	she	O	B-ScrPart_hairdresser	webanno.custom.Corefchains_	10-2	
+10-7	grabbed	B-RelNScrEv	O	_	_	
+10-8	a	O	O	_	_	
+10-9	hair	O	B-ScrPart_hairdryer	_	_	
+10-10	dryer	O	I-ScrPart_hairdryer|B-ScrPart_hairdryer	_	_	
+10-11	and	O	O	_	_	
+10-12	dried	B-ScrEv_dry	O	_	_	
+10-13	it	O	B-ScrPart_hair	webanno.custom.Corefchains_	9-8	
+10-14	.	O	O	_	_	
+
+#id=11
+#text=I thanked her and went to the counter to pay .
+11-1	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	9-7	
+11-2	thanked	B-RelNScrEv	O	_	_	
+11-3	her	O	B-ScrPart_hairdresser	webanno.custom.Corefchains_	10-6	
+11-4	and	O	O	_	_	
+11-5	went	B-UnrelEv	O	_	_	
+11-6	to	O	O	_	_	
+11-7	the	O	O	_	_	
+11-8	counter	O	B-ScrPart_check_in_desk	_	_	
+11-9	to	O	O	_	_	
+11-10	pay	B-ScrEv_pay	O	_	_	
+11-11	.	O	O	_	_	
+
+#id=12
+#text=I paid , left the shop and drove home . 
+12-1	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	11-1	
+12-2	paid	B-ScrEv_pay	O	_	_	
+12-3	,	O	O	_	_	
+12-4	left	B-ScrEv_leave	O	_	_	
+12-5	the	O	O	_	_	
+12-6	shop	O	B-ScrPart_salon	webanno.custom.Corefchains_	4-5	
+12-7	and	O	O	_	_	
+12-8	drove	B-ScrEv_leave	O	_	_	
+12-9	home	O	B-NPart	_	_	
+12-10	.	O	O	_	_	
+

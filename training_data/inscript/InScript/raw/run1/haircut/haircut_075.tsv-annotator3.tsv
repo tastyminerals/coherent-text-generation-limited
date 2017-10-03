@@ -1,0 +1,192 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Although I keep my head mostly shaved very , very short I decided to get a haircut .
+1-1	Although	O	O	_	_	
+1-2	I	B-ScrPart_customer	O	_	_	
+1-3	keep	O	B-UnrelEv	_	_	
+1-4	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-2	
+1-5	head	B-MissScrPart	O	_	_	
+1-6	mostly	O	O	_	_	
+1-7	shaved	O	B-UnrelEv	_	_	
+1-8	very	O	O	_	_	
+1-9	,	O	O	_	_	
+1-10	very	O	O	_	_	
+1-11	short	O	O	_	_	
+1-12	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-4	
+1-13	decided	O	B-UnrelEv	_	_	
+1-14	to	O	O	_	_	
+1-15	get	O	B-Evoking	_	_	
+1-16	a	O	I-Evoking	_	_	
+1-17	haircut	B-MissScrPart	I-Evoking	_	_	
+1-18	.	O	O	_	_	
+
+#id=2
+#text=Summer is fast approaching and the shorter the better to keep my old head nice and cool .
+2-1	Summer	O	O	_	_	
+2-2	is	O	B-UnrelEv	_	_	
+2-3	fast	O	O	_	_	
+2-4	approaching	O	O	_	_	
+2-5	and	O	O	_	_	
+2-6	the	O	O	_	_	
+2-7	shorter	O	O	_	_	
+2-8	the	O	O	_	_	
+2-9	better	O	O	_	_	
+2-10	to	O	O	_	_	
+2-11	keep	O	B-UnrelEv	_	_	
+2-12	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-12	
+2-13	old	O	O	_	_	
+2-14	head	B-MissScrPart	O	webanno.custom.Corefchains_	1-5	
+2-15	nice	O	O	_	_	
+2-16	and	O	O	_	_	
+2-17	cool	O	O	_	_	
+2-18	.	O	O	_	_	
+
+#id=3
+#text=I gathered the clippers , towel , a razor for the neck shave and awaited my wife to get home from her job .
+3-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-12	
+3-2	gathered	O	B-RelNScrEv	_	_	
+3-3	the	O	O	_	_	
+3-4	clippers	B-MissScrPart|B-MissScrPart	O	_	_	
+3-5	,	I-MissScrPart	O	_	_	
+3-6	towel	I-MissScrPart|B-ScrPart_towel	O	_	_	
+3-7	,	I-MissScrPart	O	_	_	
+3-8	a	I-MissScrPart	O	_	_	
+3-9	razor	I-MissScrPart|B-MissScrPart	O	_	_	
+3-10	for	O	O	_	_	
+3-11	the	O	O	_	_	
+3-12	neck	O	O	_	_	
+3-13	shave	B-MissScrPart	O	_	_	
+3-14	and	O	O	_	_	
+3-15	awaited	O	B-UnrelEv	_	_	
+3-16	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-1	
+3-17	wife	B-ScrPart_hairdresser	O	_	_	
+3-18	to	O	O	_	_	
+3-19	get	O	B-UnrelEv	_	_	
+3-20	home	O	O	_	_	
+3-21	from	O	O	_	_	
+3-22	her	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	3-17	
+3-23	job	O	O	_	_	
+3-24	.	O	O	_	_	
+
+#id=4
+#text=I always get her to cut my hair as she is really good at it albeit a tad slow getting it done .
+4-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-16	
+4-2	always	O	O	_	_	
+4-3	get	O	B-UnrelEv	_	_	
+4-4	her	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	3-22	
+4-5	to	O	O	_	_	
+4-6	cut	O	B-ScrEv_cut	_	_	
+4-7	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-1	
+4-8	hair	B-ScrPart_hair	O	_	_	
+4-9	as	O	O	_	_	
+4-10	she	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	4-4	
+4-11	is	O	B-UnrelEv	_	_	
+4-12	really	O	O	_	_	
+4-13	good	O	O	_	_	
+4-14	at	O	O	_	_	
+4-15	it	O	O	_	_	
+4-16	albeit	O	O	_	_	
+4-17	a	O	O	_	_	
+4-18	tad	O	O	_	_	
+4-19	slow	O	O	_	_	
+4-20	getting	O	B-UnrelEv	_	_	
+4-21	it	O	O	_	_	
+4-22	done	O	B-UnrelEv	_	_	
+4-23	.	O	O	_	_	
+
+#id=5
+#text=When she arrived she smiled when she saw the tools for a haircut gathered and got right to work .
+5-1	When	O	O	_	_	
+5-2	she	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	4-10	
+5-3	arrived	O	B-UnrelEv	_	_	
+5-4	she	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	5-2	
+5-5	smiled	O	B-UnrelEv	_	_	
+5-6	when	O	O	_	_	
+5-7	she	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	5-4	
+5-8	saw	O	B-UnrelEv	_	_	
+5-9	the	O	O	_	_	
+5-10	tools	B-MissScrPart	O	webanno.custom.Corefchains_	3-4	
+5-11	for	O	O	_	_	
+5-12	a	O	O	_	_	
+5-13	haircut	B-MissScrPart	O	_	_	
+5-14	gathered	O	B-UnrelEv	_	_	
+5-15	and	O	O	_	_	
+5-16	got	O	B-RelNScrEv	_	_	
+5-17	right	O	O	_	_	
+5-18	to	O	O	_	_	
+5-19	work	B-SuppVComp	O	_	_	
+5-20	.	O	O	_	_	
+
+#id=6
+#text=She placed the towel over my shoulders and proceeded to get to work with the clippers .
+6-1	She	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	5-7	
+6-2	placed	O	B-ScrEv_put_on_cape	_	_	
+6-3	the	O	O	_	_	
+6-4	towel	B-ScrPart_towel	O	webanno.custom.Corefchains_	3-6	
+6-5	over	O	O	_	_	
+6-6	my	O	O	_	_	
+6-7	shoulders	B-NPart	O	_	_	
+6-8	and	O	O	_	_	
+6-9	proceeded	O	B-UnrelEv	_	_	
+6-10	to	O	O	_	_	
+6-11	get	O	B-RelNScrEv	_	_	
+6-12	to	O	O	_	_	
+6-13	work	B-SuppVComp	O	_	_	
+6-14	with	O	O	_	_	
+6-15	the	O	O	_	_	
+6-16	clippers	B-MissScrPart	O	_	_	
+6-17	.	O	O	_	_	
+
+#id=7
+#text=Fine pieces of hair fell in the floor as she ran the clippers over my head .
+7-1	Fine	O	O	_	_	
+7-2	pieces	O	O	_	_	
+7-3	of	O	O	_	_	
+7-4	hair	B-ScrPart_hair	O	_	_	
+7-5	fell	O	B-RelNScrEv	_	_	
+7-6	in	O	O	_	_	
+7-7	the	O	O	_	_	
+7-8	floor	B-NPart	O	_	_	
+7-9	as	O	O	_	_	
+7-10	she	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	6-1	
+7-11	ran	O	B-ScrEv_cut	_	_	
+7-12	the	O	O	_	_	
+7-13	clippers	O	O	_	_	
+7-14	over	O	O	_	_	
+7-15	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-7	
+7-16	head	O	O	_	_	
+7-17	.	O	O	_	_	
+
+#id=8
+#text=Then my neck was lathered up and the razor used to shave that area .
+8-1	Then	O	O	_	_	
+8-2	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-15	
+8-3	neck	B-MissScrPart	O	_	_	
+8-4	was	O	O	_	_	
+8-5	lathered	O	B-MissScrEv	_	_	
+8-6	up	O	O	_	_	
+8-7	and	O	O	_	_	
+8-8	the	O	O	_	_	
+8-9	razor	B-MissScrPart	O	webanno.custom.Corefchains_	3-9	
+8-10	used	O	B-RelNScrEv	_	_	
+8-11	to	O	O	_	_	
+8-12	shave	O	B-ScrEv_cut	_	_	
+8-13	that	O	O	_	_	
+8-14	area	B-NPart	O	_	_	
+8-15	.	O	O	_	_	
+
+#id=9
+#text=A quick shower later and I felt like a new man . 
+9-1	A	O	O	_	_	
+9-2	quick	O	O	_	_	
+9-3	shower	O	O	_	_	
+9-4	later	O	O	_	_	
+9-5	and	O	O	_	_	
+9-6	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-2	
+9-7	felt	O	B-UnrelEv	_	_	
+9-8	like	O	O	_	_	
+9-9	a	O	O	_	_	
+9-10	new	O	O	_	_	
+9-11	man	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-6	
+9-12	.	O	O	_	_	
+

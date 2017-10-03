@@ -1,0 +1,208 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Event | Events
+#id=1
+#text=I wanted to spend the evening at the theater on Friday .
+1-1	I	B-ScrPart_passenger	O	O	
+1-2	wanted	O	B-webanno.custom.Events_	B-UnrelEv	
+1-3	to	O	O	O	
+1-4	spend	O	B-webanno.custom.Events_	B-UnrelEv	
+1-5	the	O	O	O	
+1-6	evening	B-NPart	O	O	
+1-7	at	O	O	O	
+1-8	the	O	O	O	
+1-9	theater	B-NPart	O	O	
+1-10	on	O	O	O	
+1-11	Friday	B-NPart	O	O	
+1-12	.	O	O	O	
+
+#id=2
+#text=There was a good play on in town and I decided to take the bus .
+2-1	There	O	O	O	
+2-2	was	O	B-webanno.custom.Events_	B-UnrelEv	
+2-3	a	O	O	O	
+2-4	good	O	O	O	
+2-5	play	B-NPart	O	O	
+2-6	on	O	O	O	
+2-7	in	O	O	O	
+2-8	town	B-NPart	O	O	
+2-9	and	O	O	O	
+2-10	I	B-ScrPart_passenger	O	O	
+2-11	decided	O	B-webanno.custom.Events_	B-UnrelEv	
+2-12	to	O	O	O	
+2-13	take	O	B-webanno.custom.Events_	B-Evoking	
+2-14	the	O	I-webanno.custom.Events_	I-Evoking	
+2-15	bus	B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	
+2-16	.	O	O	O	
+
+#id=3
+#text=at 6:30 PM , I walked to the bus stop near my house .
+3-1	at	O	O	O	
+3-2	6:30	B-ScrPart_time/date	O	O	
+3-3	PM	I-ScrPart_time/date	O	O	
+3-4	,	O	O	O	
+3-5	I	B-ScrPart_passenger	O	O	
+3-6	walked	O	B-webanno.custom.Events_	B-ScrEv_get_bus_stop	
+3-7	to	O	O	O	
+3-8	the	O	O	O	
+3-9	bus	B-ScrPart_bus_stop	O	O	
+3-10	stop	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	O	
+3-11	near	O	O	O	
+3-12	my	B-ScrPart_passenger	O	O	
+3-13	house	B-NPart	O	O	
+3-14	.	O	O	O	
+
+#id=4
+#text=It was a ten-minute walk in nice weather .
+4-1	It	B-No_label	O	O	
+4-2	was	O	B-webanno.custom.Events_	B-UnrelEv	
+4-3	a	O	O	O	
+4-4	ten-minute	O	O	O	
+4-5	walk	B-NPart	O	O	
+4-6	in	O	O	O	
+4-7	nice	O	O	O	
+4-8	weather	B-NPart	O	O	
+4-9	.	O	O	O	
+
+#id=5
+#text=At the bus stop , I waited only two minutes before the bus arrived .
+5-1	At	O	O	O	
+5-2	the	O	O	O	
+5-3	bus	B-ScrPart_bus_stop	O	O	
+5-4	stop	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	O	
+5-5	,	O	O	O	
+5-6	I	B-ScrPart_passenger	O	O	
+5-7	waited	O	B-webanno.custom.Events_	B-ScrEv_wait	
+5-8	only	O	O	O	
+5-9	two	B-ScrPart_time/date	O	O	
+5-10	minutes	I-ScrPart_time/date	O	O	
+5-11	before	O	O	O	
+5-12	the	O	O	O	
+5-13	bus	B-ScrPart_bus	O	O	
+5-14	arrived	O	B-webanno.custom.Events_	B-ScrEv_bus_comes	
+5-15	.	O	O	O	
+
+#id=6
+#text=I stepped onto the public bus and paid for a one-way ticket .
+6-1	I	B-ScrPart_passenger	O	O	
+6-2	stepped	O	B-webanno.custom.Events_	B-ScrEv_board_bus	
+6-3	onto	O	I-webanno.custom.Events_	I-ScrEv_board_bus	
+6-4	the	O	O	O	
+6-5	public	B-ScrPart_bus	O	O	
+6-6	bus	I-ScrPart_bus|B-ScrPart_bus	O	O	
+6-7	and	O	O	O	
+6-8	paid	O	B-webanno.custom.Events_	B-ScrEv_get_ticket	
+6-9	for	O	O	O	
+6-10	a	O	O	O	
+6-11	one-way	B-ScrPart_card/ticket	O	O	
+6-12	ticket	I-ScrPart_card/ticket|B-ScrPart_card/ticket	O	O	
+6-13	.	O	O	O	
+
+#id=7
+#text=The trip into town took fifteen minutes because the bus had other stops to make in the area before returning to the station .
+7-1	The	O	O	O	
+7-2	trip	B-ScrPart_ride	O	O	
+7-3	into	O	O	O	
+7-4	town	B-NPart	O	O	
+7-5	took	O	B-webanno.custom.Events_	B-RelNScrEv	
+7-6	fifteen	B-ScrPart_time/date	O	O	
+7-7	minutes	I-ScrPart_time/date	O	O	
+7-8	because	O	O	O	
+7-9	the	O	O	O	
+7-10	bus	B-ScrPart_bus	O	O	
+7-11	had	O	O	O	
+7-12	other	O	O	O	
+7-13	stops	B-ScrPart_bus_stop	O	O	
+7-14	to	O	O	O	
+7-15	make	O	B-webanno.custom.Events_	B-ScrEv_bus_stops	
+7-16	in	O	O	O	
+7-17	the	O	O	O	
+7-18	area	B-NPart	O	O	
+7-19	before	O	O	O	
+7-20	returning	O	B-webanno.custom.Events_	B-ScrEv_bus_stops	
+7-21	to	O	O	O	
+7-22	the	O	O	O	
+7-23	station	B-ScrPart_bus_stop	O	O	
+7-24	.	O	O	O	
+
+#id=8
+#text=I saw someone I knew on the bus and we spent most of the travel time talking .
+8-1	I	B-ScrPart_passenger	O	O	
+8-2	saw	O	B-webanno.custom.Events_	B-ScrEv_spend_time_bus	
+8-3	someone	B-ScrPart_passenger	O	O	
+8-4	I	B-ScrPart_passenger	O	O	
+8-5	knew	O	B-webanno.custom.Events_	B-UnrelEv	
+8-6	on	O	O	O	
+8-7	the	O	O	O	
+8-8	bus	B-ScrPart_bus	O	O	
+8-9	and	O	O	O	
+8-10	we	B-ScrPart_passenger	O	O	
+8-11	spent	O	B-webanno.custom.Events_	B-ScrEv_spend_time_bus	
+8-12	most	O	O	O	
+8-13	of	O	O	O	
+8-14	the	O	O	O	
+8-15	travel	B-ScrPart_time/date	O	O	
+8-16	time	I-ScrPart_time/date|B-ScrPart_time/date	O	O	
+8-17	talking	O	B-webanno.custom.Events_	B-ScrEv_spend_time_bus	
+8-18	.	O	O	O	
+
+#id=9
+#text=Then we reached the bus station .
+9-1	Then	O	O	O	
+9-2	we	B-???	O	O	
+9-3	reached	O	B-webanno.custom.Events_	B-ScrEv_bus_stops	
+9-4	the	O	O	O	
+9-5	bus	B-ScrPart_bus_stop	O	O	
+9-6	station	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	O	
+9-7	.	O	O	O	
+
+#id=10
+#text=The driver slowed down , and maneuvered the bus into its numbered space .
+10-1	The	O	O	O	
+10-2	driver	B-ScrPart_bus_staff	O	O	
+10-3	slowed	O	B-webanno.custom.Events_	B-ScrEv_bus_stops	
+10-4	down	O	I-webanno.custom.Events_	I-ScrEv_bus_stops	
+10-5	,	O	O	O	
+10-6	and	O	O	O	
+10-7	maneuvered	O	B-webanno.custom.Events_	B-RelNScrEv	
+10-8	the	O	O	O	
+10-9	bus	B-ScrPart_bus	O	O	
+10-10	into	O	O	O	
+10-11	its	B-ScrPart_bus	O	O	
+10-12	numbered	O	B-webanno.custom.Events_	B-UnrelEv	
+10-13	space	B-NPart	O	O	
+10-14	.	O	O	O	
+
+#id=11
+#text=The doors opened and the passengers began to exit , moving together smoothly at a leisurely pace .
+11-1	The	O	O	O	
+11-2	doors	B-ScrPart_door	O	O	
+11-3	opened	O	B-webanno.custom.Events_	B-ScrEv_door_opens	
+11-4	and	O	O	O	
+11-5	the	O	O	O	
+11-6	passengers	B-ScrPart_passenger	O	O	
+11-7	began	O	B-webanno.custom.Events_	B-UnrelEv	
+11-8	to	O	O	O	
+11-9	exit	O	B-webanno.custom.Events_	B-ScrEv_get_off	
+11-10	,	O	O	O	
+11-11	moving	O	B-webanno.custom.Events_	B-RelNScrEv	
+11-12	together	O	O	O	
+11-13	smoothly	O	O	O	
+11-14	at	O	O	O	
+11-15	a	O	O	O	
+11-16	leisurely	O	O	O	
+11-17	pace	B-NPart	O	O	
+11-18	.	O	O	O	
+
+#id=12
+#text=I got off the bus and went to the theater . 
+12-1	I	B-ScrPart_passenger	O	O	
+12-2	got	O	B-webanno.custom.Events_	B-ScrEv_get_off	
+12-3	off	O	I-webanno.custom.Events_	I-ScrEv_get_off	
+12-4	the	O	O	O	
+12-5	bus	B-ScrPart_bus	O	O	
+12-6	and	O	O	O	
+12-7	went	O	B-webanno.custom.Events_	B-UnrelEv	
+12-8	to	O	O	O	
+12-9	the	O	O	O	
+12-10	theater	B-NPart	O	O	
+12-11	.	O	O	O	
+

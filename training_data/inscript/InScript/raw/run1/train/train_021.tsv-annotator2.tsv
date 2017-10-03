@@ -1,0 +1,199 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I bought a ticket for a train ride to the city .
+1-1	I	B-ScrPart_passenger	O	_	_	
+1-2	bought	O	B-ScrEv_get_tickets	_	_	
+1-3	a	O	O	_	_	
+1-4	ticket	B-ScrPart_card/ticket	O	_	_	
+1-5	for	O	O	_	_	
+1-6	a	O	O	_	_	
+1-7	train	B-NPart	O	_	_	
+1-8	ride	I-NPart|B-NPart	O	_	_	
+1-9	to	O	O	_	_	
+1-10	the	O	O	_	_	
+1-11	city	B-ScrPart_destination	O	_	_	
+1-12	.	O	O	_	_	
+
+#id=2
+#text=I made sure I was at the station at least 15 minutes early so that I would not miss the train .
+2-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-1	
+2-2	made	O	B-UnrelEv	_	_	
+2-3	sure	O	I-UnrelEv	_	_	
+2-4	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-1	
+2-5	was	O	B-UnrelEv	_	_	
+2-6	at	O	O	_	_	
+2-7	the	O	O	_	_	
+2-8	station	B-ScrPart_train_station	O	_	_	
+2-9	at	O	O	_	_	
+2-10	least	O	O	_	_	
+2-11	15	O	O	_	_	
+2-12	minutes	B-ScrPart_time_date	O	_	_	
+2-13	early	O	O	_	_	
+2-14	so	O	O	_	_	
+2-15	that	O	O	_	_	
+2-16	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-4	
+2-17	would	O	O	_	_	
+2-18	not	O	O	_	_	
+2-19	miss	O	B-UnrelEv	_	_	
+2-20	the	O	O	_	_	
+2-21	train	B-ScrPart_train	O	_	_	
+2-22	.	O	O	_	_	
+
+#id=3
+#text=After waiting for a few minutes , my train was ready to be boarded .
+3-1	After	O	O	_	_	
+3-2	waiting	O	B-ScrEv_wait	_	_	
+3-3	for	O	O	_	_	
+3-4	a	O	O	_	_	
+3-5	few	O	O	_	_	
+3-6	minutes	B-ScrPart_time_date	O	_	_	
+3-7	,	O	O	_	_	
+3-8	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-16	
+3-9	train	B-ScrPart_train	O	webanno.custom.Corefchains_	2-21	
+3-10	was	O	B-UnrelEv	_	_	
+3-11	ready	O	O	_	_	
+3-12	to	O	O	_	_	
+3-13	be	O	O	_	_	
+3-14	boarded	O	B-MissScrEv	_	_	
+3-15	.	O	O	_	_	
+
+#id=4
+#text=I lined up with the other passengers and gave my ticket to the lady at the counter .
+4-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_|group_I_passengers	3-8|5-1	
+4-2	lined	O	B-RelNScrEv	_	_	
+4-3	up	O	I-RelNScrEv	_	_	
+4-4	with	O	O	_	_	
+4-5	the	O	O	_	_	
+4-6	other	O	O	_	_	
+4-7	passengers	B-ScrPart_passenger	O	group_I_passengers	5-1	
+4-8	and	O	O	_	_	
+4-9	gave	O	B-RelNScrEv	_	_	
+4-10	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-1	
+4-11	ticket	B-ScrPart_card/ticket	O	webanno.custom.Corefchains_	1-4	
+4-12	to	O	O	_	_	
+4-13	the	O	O	_	_	
+4-14	lady	B-NPart	O	_	_	
+4-15	at	O	O	_	_	
+4-16	the	O	O	_	_	
+4-17	counter	B-ScrPart_ticket_office/website	O	_	_	
+4-18	.	O	O	_	_	
+
+#id=5
+#text=We all boarded the train in an orderly fashion and waited until it was time to depart .
+5-1	We	B-ScrPart_passenger	O	_	_	
+5-2	all	O	O	_	_	
+5-3	boarded	O	B-MissScrEv	_	_	
+5-4	the	O	O	_	_	
+5-5	train	B-ScrPart_train	O	webanno.custom.Corefchains_	3-9	
+5-6	in	O	O	_	_	
+5-7	an	O	O	_	_	
+5-8	orderly	O	O	_	_	
+5-9	fashion	B-NPart	O	_	_	
+5-10	and	O	O	_	_	
+5-11	waited	O	B-RelNScrEv	_	_	
+5-12	until	O	O	_	_	
+5-13	it	O	O	_	_	
+5-14	was	O	B-UnrelEv	_	_	
+5-15	time	O	O	_	_	
+5-16	to	O	O	_	_	
+5-17	depart	O	B-ScrEv_train_departs	_	_	
+5-18	.	O	O	_	_	
+
+#id=6
+#text=It was n't too long until it was time for the train to go .
+6-1	It	O	O	_	_	
+6-2	was	O	B-UnrelEv	_	_	
+6-3	n't	O	O	_	_	
+6-4	too	O	O	_	_	
+6-5	long	O	O	_	_	
+6-6	until	O	O	_	_	
+6-7	it	O	O	_	_	
+6-8	was	O	B-UnrelEv	_	_	
+6-9	time	O	O	_	_	
+6-10	for	O	O	_	_	
+6-11	the	O	O	_	_	
+6-12	train	B-ScrPart_train	O	webanno.custom.Corefchains_	5-5	
+6-13	to	O	O	_	_	
+6-14	go	O	B-ScrEv_train_departs	_	_	
+6-15	.	O	O	_	_	
+
+#id=7
+#text=I quietly sat by the window seat and looked at the great scenery outside as the train went by .
+7-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-10	
+7-2	quietly	O	O	_	_	
+7-3	sat	O	B-ScrEv_spend_time_train	_	_	
+7-4	by	O	O	_	_	
+7-5	the	O	O	_	_	
+7-6	window	B-ScrPart_seat	O	_	_	
+7-7	seat	I-ScrPart_seat|B-ScrPart_seat	O	_	_	
+7-8	and	O	O	_	_	
+7-9	looked	O	B-ScrEv_spend_time_train	_	_	
+7-10	at	O	O	_	_	
+7-11	the	O	O	_	_	
+7-12	great	O	O	_	_	
+7-13	scenery	B-ScrPart_in-train_entertainment	O	_	_	
+7-14	outside	O	O	_	_	
+7-15	as	O	O	_	_	
+7-16	the	O	O	_	_	
+7-17	train	B-ScrPart_train	O	webanno.custom.Corefchains_	6-12	
+7-18	went	O	B-RelNScrEv	_	_	
+7-19	by	O	I-RelNScrEv	_	_	
+7-20	.	O	O	_	_	
+
+#id=8
+#text=I would have never seen some of the scenery had I not taken the train .
+8-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-1	
+8-2	would	O	O	_	_	
+8-3	have	O	O	_	_	
+8-4	never	O	O	_	_	
+8-5	seen	O	B-ScrEv_spend_time_train	_	_	
+8-6	some	O	O	_	_	
+8-7	of	O	O	_	_	
+8-8	the	O	O	_	_	
+8-9	scenery	B-ScrPart_in-train_entertainment	O	_	_	
+8-10	had	O	O	_	_	
+8-11	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-1	
+8-12	not	O	O	_	_	
+8-13	taken	O	B-Evoking	_	_	
+8-14	the	O	I-Evoking	_	_	
+8-15	train	B-ScrPart_train	I-Evoking	webanno.custom.Corefchains_	7-17	
+8-16	.	O	O	_	_	
+
+#id=9
+#text=Before I knew it , the train had arrived at our destination in the city .
+9-1	Before	O	O	_	_	
+9-2	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-11	
+9-3	knew	O	B-UnrelEv	_	_	
+9-4	it	O	O	_	_	
+9-5	,	O	O	_	_	
+9-6	the	O	O	_	_	
+9-7	train	B-ScrPart_train	O	webanno.custom.Corefchains_	8-15	
+9-8	had	O	O	_	_	
+9-9	arrived	O	B-ScrEv_arrive_destination	_	_	
+9-10	at	O	O	_	_	
+9-11	our	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-1	
+9-12	destination	B-ScrPart_destination	O	webanno.custom.Corefchains_	1-11	
+9-13	in	O	O	_	_	
+9-14	the	O	O	_	_	
+9-15	city	B-ScrPart_destination	O	webanno.custom.Corefchains_	9-12	
+9-16	.	O	O	_	_	
+
+#id=10
+#text=I am glad I decided to take the train this time because I enjoyed it . 
+10-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-2	
+10-2	am	O	B-UnrelEv	_	_	
+10-3	glad	O	O	_	_	
+10-4	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-1	
+10-5	decided	O	B-UnrelEv	_	_	
+10-6	to	O	O	_	_	
+10-7	take	O	B-Evoking	_	_	
+10-8	the	O	I-Evoking	_	_	
+10-9	train	B-ScrPart_train	I-Evoking	webanno.custom.Corefchains_	9-7	
+10-10	this	O	O	_	_	
+10-11	time	O	O	_	_	
+10-12	because	O	O	_	_	
+10-13	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-4	
+10-14	enjoyed	O	B-UnrelEv	_	_	
+10-15	it	O	O	_	_	
+10-16	.	O	O	_	_	
+

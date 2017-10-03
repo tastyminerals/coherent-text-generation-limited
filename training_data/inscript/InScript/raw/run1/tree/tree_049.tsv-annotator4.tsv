@@ -1,0 +1,221 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=A few years ago , I did some volunteer work in my local community .
+1-1	A	O	O	_	_	
+1-2	few	O	O	_	_	
+1-3	years	O	O	_	_	
+1-4	ago	O	O	_	_	
+1-5	,	O	O	_	_	
+1-6	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	1-12	
+1-7	did	O	B-UnrelEv	_	_	
+1-8	some	O	O	_	_	
+1-9	volunteer	O	O	_	_	
+1-10	work	O	O	_	_	
+1-11	in	O	O	_	_	
+1-12	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	2-1	
+1-13	local	O	O	_	_	
+1-14	community	O	O	_	_	
+1-15	.	O	O	_	_	
+
+#id=2
+#text=I like giving back to my community .
+2-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	2-6	
+2-2	like	O	B-UnrelEv	_	_	
+2-3	giving	O	B-UnrelEv	_	_	
+2-4	back	O	I-UnrelEv	_	_	
+2-5	to	O	O	_	_	
+2-6	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	3-5	
+2-7	community	O	O	_	_	
+2-8	.	O	O	_	_	
+
+#id=3
+#text=One of the things we did was plant trees in the city .
+3-1	One	O	O	_	_	
+3-2	of	O	O	_	_	
+3-3	the	O	O	_	_	
+3-4	things	O	O	_	_	
+3-5	we	B-ScrPart_gardener	O	webanno.custom.Corefchains_	4-3	
+3-6	did	O	B-UnrelEv	_	_	
+3-7	was	O	B-UnrelEv	_	_	
+3-8	plant	O	B-Evoking	_	_	
+3-9	trees	B-ScrPart_tree	I-Evoking	webanno.custom.Corefchains_	4-8	
+3-10	in	O	O	_	_	
+3-11	the	O	O	_	_	
+3-12	city	O	O	_	_	
+3-13	.	O	O	_	_	
+
+#id=4
+#text=This was my first experience with planting trees .
+4-1	This	O	O	_	_	
+4-2	was	O	B-UnrelEv	_	_	
+4-3	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	5-2	
+4-4	first	O	O	_	_	
+4-5	experience	O	O	_	_	
+4-6	with	O	O	_	_	
+4-7	planting	O	B-Evoking	_	_	
+4-8	trees	B-ScrPart_tree	I-Evoking	webanno.custom.Corefchains_	6-10	
+4-9	.	O	O	_	_	
+
+#id=5
+#text=First I had to prepare the ground .
+5-1	First	O	O	_	_	
+5-2	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	7-1	
+5-3	had	O	O	_	_	
+5-4	to	O	O	_	_	
+5-5	prepare	O	B-ScrEv_dug_hole	_	_	
+5-6	the	O	O	_	_	
+5-7	ground	B-ScrPart_dirt	O	webanno.custom.Corefchains_	6-2	
+5-8	.	O	O	_	_	
+
+#id=6
+#text=The soil was already in great shape for the tree so that part was taken care of .
+6-1	The	O	O	_	_	
+6-2	soil	B-ScrPart_dirt	O	webanno.custom.Corefchains_	10-19	
+6-3	was	O	B-UnrelEv	_	_	
+6-4	already	O	O	_	_	
+6-5	in	O	O	_	_	
+6-6	great	O	O	_	_	
+6-7	shape	O	O	_	_	
+6-8	for	O	O	_	_	
+6-9	the	O	O	_	_	
+6-10	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	8-8	
+6-11	so	O	O	_	_	
+6-12	that	O	O	_	_	
+6-13	part	O	O	_	_	
+6-14	was	O	O	_	_	
+6-15	taken	O	B-UnrelEv	_	_	
+6-16	care	O	O	_	_	
+6-17	of	O	O	_	_	
+6-18	.	O	O	_	_	
+
+#id=7
+#text=I grabbed a shovel and then started digging .
+7-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	9-7	
+7-2	grabbed	O	B-ScrEv_get_tools	_	_	
+7-3	a	O	O	_	_	
+7-4	shovel	B-ScrPart_gardening_tool	O	_	_	
+7-5	and	O	O	_	_	
+7-6	then	O	O	_	_	
+7-7	started	O	B-UnrelEv	_	_	
+7-8	digging	O	B-ScrEv_dug_hole	_	_	
+7-9	.	O	O	_	_	
+
+#id=8
+#text=Then it was time to plan the tree .
+8-1	Then	O	O	_	_	
+8-2	it	O	O	_	_	
+8-3	was	O	B-UnrelEv	_	_	
+8-4	time	O	O	_	_	
+8-5	to	O	O	_	_	
+8-6	plan	O	B-ScrEv_place_root	_	_	
+8-7	the	O	O	_	_	
+8-8	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	9-2	
+8-9	.	O	O	_	_	
+
+#id=9
+#text=The tree was small , so I was able to remove it from the pot by putting it upside down .
+9-1	The	O	O	_	_	
+9-2	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	9-12	
+9-3	was	O	B-UnrelEv	_	_	
+9-4	small	O	O	_	_	
+9-5	,	O	O	_	_	
+9-6	so	O	O	_	_	
+9-7	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	10-1	
+9-8	was	O	B-UnrelEv	_	_	
+9-9	able	O	O	_	_	
+9-10	to	O	O	_	_	
+9-11	remove	O	B-ScrEv_unwrap_root	_	_	
+9-12	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	9-18	
+9-13	from	O	O	_	_	
+9-14	the	O	O	_	_	
+9-15	pot	B-ScrPart_wrapping	O	_	_	
+9-16	by	O	O	_	_	
+9-17	putting	O	B-ScrEv_unwrap_root	_	_	
+9-18	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	10-6	
+9-19	upside	O	O	_	_	
+9-20	down	O	O	_	_	
+9-21	.	O	O	_	_	
+
+#id=10
+#text=I then gently placed the tree in the hole and then filled the hole back up with the dirt .
+10-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	11-4	
+10-2	then	O	O	_	_	
+10-3	gently	O	O	_	_	
+10-4	placed	O	B-ScrEv_place_root	_	_	
+10-5	the	O	O	_	_	
+10-6	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	11-14	
+10-7	in	O	O	_	_	
+10-8	the	O	O	_	_	
+10-9	hole	B-ScrPart_hole	O	webanno.custom.Corefchains_	10-14	
+10-10	and	O	O	_	_	
+10-11	then	O	O	_	_	
+10-12	filled	O	B-ScrEv_refill_hole	_	_	
+10-13	the	O	O	_	_	
+10-14	hole	B-ScrPart_hole	O	_	_	
+10-15	back	O	O	_	_	
+10-16	up	O	O	_	_	
+10-17	with	O	O	_	_	
+10-18	the	O	O	_	_	
+10-19	dirt	B-ScrPart_dirt	O	webanno.custom.Corefchains_	12-13	
+10-20	.	O	O	_	_	
+
+#id=11
+#text=The next thing I did was add mulch around the area of the tree .
+11-1	The	O	O	_	_	
+11-2	next	O	O	_	_	
+11-3	thing	O	O	_	_	
+11-4	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	12-7	
+11-5	did	O	B-UnrelEv	_	_	
+11-6	was	O	O	_	_	
+11-7	add	O	B-ScrEv_place_fertilizers	_	_	
+11-8	mulch	B-ScrPart_fertilizer	O	webanno.custom.Corefchains_	12-3	
+11-9	around	O	O	_	_	
+11-10	the	O	O	_	_	
+11-11	area	B-ScrPart_location_garden	O	_	_	
+11-12	of	O	O	_	_	
+11-13	the	O	O	_	_	
+11-14	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	12-19	
+11-15	.	O	O	_	_	
+
+#id=12
+#text=Once the mulch was added , I put a stake in the ground and tied it to the tree .
+12-1	Once	O	O	_	_	
+12-2	the	O	O	_	_	
+12-3	mulch	B-ScrPart_fertilizer	O	_	_	
+12-4	was	O	O	_	_	
+12-5	added	O	B-ScrEv_place_fertilizers	_	_	
+12-6	,	O	O	_	_	
+12-7	I	B-ScrPart_gardener	O	_	_	
+12-8	put	O	B-ScrEv_tie_stakes_up	_	_	
+12-9	a	O	O	_	_	
+12-10	stake	B-ScrPart_stake	O	webanno.custom.Corefchains_	12-16	
+12-11	in	O	O	_	_	
+12-12	the	O	O	_	_	
+12-13	ground	B-ScrPart_dirt	O	_	_	
+12-14	and	O	O	_	_	
+12-15	tied	O	B-ScrEv_tie_stakes_up	_	_	
+12-16	it	B-ScrPart_stake	O	webanno.custom.Corefchains_	13-1	
+12-17	to	O	O	_	_	
+12-18	the	O	O	_	_	
+12-19	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	13-6	
+12-20	.	O	O	_	_	
+
+#id=13
+#text=This was to hold the tree in place as it grows for the first year . 
+13-1	This	B-ScrPart_stake	O	_	_	
+13-2	was	O	B-UnrelEv	_	_	
+13-3	to	O	O	_	_	
+13-4	hold	O	B-RelNScrEv	_	_	
+13-5	the	O	O	_	_	
+13-6	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	13-10	
+13-7	in	O	O	_	_	
+13-8	place	B-NPart	O	_	_	
+13-9	as	O	O	_	_	
+13-10	it	B-ScrPart_tree	O	_	_	
+13-11	grows	O	B-RelNScrEv	_	_	
+13-12	for	O	O	_	_	
+13-13	the	O	O	_	_	
+13-14	first	O	O	_	_	
+13-15	year	B-ScrPart_time	O	_	_	
+13-16	.	O	O	_	_	
+

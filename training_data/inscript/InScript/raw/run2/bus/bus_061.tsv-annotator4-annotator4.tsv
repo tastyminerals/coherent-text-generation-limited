@@ -1,0 +1,189 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Event | Events
+#id=1
+#text=Where I live , I always need to take a public bus to the train station to get to my destinations .
+1-1	Where	O	O	O	
+1-2	I	B-ScrPart_passenger	O	O	
+1-3	live	O	B-webanno.custom.Events_	B-UnrelEv	
+1-4	,	O	O	O	
+1-5	I	B-ScrPart_passenger	O	O	
+1-6	always	O	O	O	
+1-7	need	O	O	O	
+1-8	to	O	O	O	
+1-9	take	O	B-webanno.custom.Events_	B-Evoking	
+1-10	a	O	I-webanno.custom.Events_	I-Evoking	
+1-11	public	O	I-webanno.custom.Events_	I-Evoking	
+1-12	bus	B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	
+1-13	to	O	O	O	
+1-14	the	O	O	O	
+1-15	train	B-ScrPart_destination	O	O	
+1-16	station	I-ScrPart_destination|B-ScrPart_destination	O	O	
+1-17	to	O	O	O	
+1-18	get	O	B-webanno.custom.Events_	B-ScrEv_ride	
+1-19	to	O	I-webanno.custom.Events_	I-ScrEv_ride	
+1-20	my	B-ScrPart_passenger	O	O	
+1-21	destinations	B-ScrPart_destination	O	O	
+1-22	.	O	O	O	
+
+#id=2
+#text=The bus is not usually on schedule so sometimes this can be frustrating especially on a cold winter day as you are waiting for a bus .
+2-1	The	O	O	O	
+2-2	bus	B-ScrPart_bus	O	O	
+2-3	is	O	B-webanno.custom.Events_	B-UnrelEv	
+2-4	not	O	O	O	
+2-5	usually	O	O	O	
+2-6	on	O	O	O	
+2-7	schedule	B-No_label	O	O	
+2-8	so	O	O	O	
+2-9	sometimes	O	O	O	
+2-10	this	O	O	O	
+2-11	can	O	O	O	
+2-12	be	O	B-webanno.custom.Events_	B-UnrelEv	
+2-13	frustrating	O	B-webanno.custom.Events_	B-UnrelEv	
+2-14	especially	O	O	O	
+2-15	on	O	O	O	
+2-16	a	O	O	O	
+2-17	cold	O	O	O	
+2-18	winter	B-NPart	O	O	
+2-19	day	I-NPart|B-NPart	O	O	
+2-20	as	O	O	O	
+2-21	you	B-ScrPart_passenger	O	O	
+2-22	are	O	O	O	
+2-23	waiting	O	B-webanno.custom.Events_	B-ScrEv_wait	
+2-24	for	O	I-webanno.custom.Events_	I-ScrEv_wait	
+2-25	a	O	O	O	
+2-26	bus	B-ScrPart_bus	O	O	
+2-27	.	O	O	O	
+
+#id=3
+#text=Since the discovery of a bustimes app on my iphone , i am able to know exactlly when my bus arrives using their GPS technology .
+3-1	Since	O	O	O	
+3-2	the	O	O	O	
+3-3	discovery	B-NPart	O	O	
+3-4	of	O	O	O	
+3-5	a	O	O	O	
+3-6	bustimes	B-ScrPart_time-table	O	O	
+3-7	app	I-ScrPart_time-table|B-ScrPart_time-table	O	O	
+3-8	on	O	O	O	
+3-9	my	B-ScrPart_passenger	O	O	
+3-10	iphone	B-NPart	O	O	
+3-11	,	O	O	O	
+3-12	i	B-ScrPart_passenger	O	O	
+3-13	am	O	O	O	
+3-14	able	O	O	O	
+3-15	to	O	O	O	
+3-16	know	O	B-webanno.custom.Events_	B-UnrelEv	
+3-17	exactlly	O	O	O	
+3-18	when	O	O	O	
+3-19	my	B-ScrPart_passenger	O	O	
+3-20	bus	B-ScrPart_bus	O	O	
+3-21	arrives	O	B-webanno.custom.Events_	B-ScrEv_bus_comes	
+3-22	using	O	B-webanno.custom.Events_	B-ScrEv_check_time-table	
+3-23	their	B-NPart	O	O	
+3-24	GPS	B-ScrPart_time-table	O	O	
+3-25	technology	I-ScrPart_time-table|B-ScrPart_time-table	O	O	
+3-26	.	O	O	O	
+
+#id=4
+#text=It is accurate most of the times .
+4-1	It	B-ScrPart_time-table	O	O	
+4-2	is	O	B-webanno.custom.Events_	B-UnrelEv	
+4-3	accurate	O	O	O	
+4-4	most	O	O	O	
+4-5	of	O	O	O	
+4-6	the	O	O	O	
+4-7	times	B-No_label	O	O	
+4-8	.	O	O	O	
+
+#id=5
+#text=I get ready to leave my house , look at my bustimes app to see when the bus is arriving , and then leave my house to catch the bus without wasting my time waiting for the bus .
+5-1	I	B-ScrPart_passenger	O	O	
+5-2	get	O	B-webanno.custom.Events_	B-UnrelEv	
+5-3	ready	O	I-webanno.custom.Events_	I-UnrelEv	
+5-4	to	O	O	O	
+5-5	leave	O	B-webanno.custom.Events_	B-ScrEv_get_bus_stop	
+5-6	my	B-ScrPart_passenger	O	O	
+5-7	house	B-NPart	O	O	
+5-8	,	O	O	O	
+5-9	look	O	B-webanno.custom.Events_	B-ScrEv_check_time-table	
+5-10	at	O	I-webanno.custom.Events_	I-ScrEv_check_time-table	
+5-11	my	B-ScrPart_passenger	O	O	
+5-12	bustimes	B-ScrPart_time-table	O	O	
+5-13	app	I-ScrPart_time-table|B-ScrPart_time-table	O	O	
+5-14	to	O	O	O	
+5-15	see	O	B-webanno.custom.Events_	B-UnrelEv	
+5-16	when	O	O	O	
+5-17	the	O	O	O	
+5-18	bus	B-ScrPart_bus	O	O	
+5-19	is	O	O	O	
+5-20	arriving	O	B-webanno.custom.Events_	B-ScrEv_bus_comes	
+5-21	,	O	O	O	
+5-22	and	O	O	O	
+5-23	then	O	O	O	
+5-24	leave	O	B-webanno.custom.Events_	B-ScrEv_get_bus_stop	
+5-25	my	B-ScrPart_passenger	O	O	
+5-26	house	B-NPart	O	O	
+5-27	to	O	O	O	
+5-28	catch	O	B-webanno.custom.Events_	B-ScrEv_board_bus	
+5-29	the	O	O	O	
+5-30	bus	B-ScrPart_bus	O	O	
+5-31	without	O	O	O	
+5-32	wasting	O	B-webanno.custom.Events_	B-UnrelEv	
+5-33	my	B-ScrPart_passenger	O	O	
+5-34	time	B-No_label	O	O	
+5-35	waiting	O	B-webanno.custom.Events_	B-ScrEv_wait	
+5-36	for	O	I-webanno.custom.Events_	I-ScrEv_wait	
+5-37	the	O	O	O	
+5-38	bus	B-ScrPart_bus	O	O	
+5-39	.	O	O	O	
+
+#id=6
+#text=I pay the fare getting on the bus , greet the driver with a smile , and find a seat to sit down .
+6-1	I	B-ScrPart_passenger	O	O	
+6-2	pay	O	B-webanno.custom.Events_	B-ScrEv_get_ticket	
+6-3	the	O	O	O	
+6-4	fare	B-ScrPart_money	O	O	
+6-5	getting	O	B-webanno.custom.Events_	B-ScrEv_board_bus	
+6-6	on	O	I-webanno.custom.Events_	I-ScrEv_board_bus	
+6-7	the	O	O	O	
+6-8	bus	B-ScrPart_bus	O	O	
+6-9	,	O	O	O	
+6-10	greet	O	B-webanno.custom.Events_	B-RelNScrEv	
+6-11	the	O	O	O	
+6-12	driver	B-ScrPart_bus_staff	O	O	
+6-13	with	O	O	O	
+6-14	a	O	O	O	
+6-15	smile	B-NPart	O	O	
+6-16	,	O	O	O	
+6-17	and	O	O	O	
+6-18	find	O	B-webanno.custom.Events_	B-ScrEv_find_place	
+6-19	a	O	O	O	
+6-20	seat	B-ScrPart_seat_in_bus	O	O	
+6-21	to	O	O	O	
+6-22	sit	O	B-webanno.custom.Events_	B-ScrEv_take_seat	
+6-23	down	O	I-webanno.custom.Events_	I-ScrEv_take_seat	
+6-24	.	O	O	O	
+
+#id=7
+#text=It is a short ride to my train station where i can get on the train to my final destination . 
+7-1	It	B-No_label	O	O	
+7-2	is	O	B-webanno.custom.Events_	B-UnrelEv	
+7-3	a	O	O	O	
+7-4	short	O	O	O	
+7-5	ride	B-ScrPart_ride	O	O	
+7-6	to	O	O	O	
+7-7	my	B-ScrPart_passenger	O	O	
+7-8	train	B-ScrPart_destination	O	O	
+7-9	station	I-ScrPart_destination|B-ScrPart_destination	O	O	
+7-10	where	O	O	O	
+7-11	i	B-ScrPart_passenger	O	O	
+7-12	can	O	O	O	
+7-13	get	O	B-webanno.custom.Events_	B-UnrelEv	
+7-14	on	O	I-webanno.custom.Events_	I-UnrelEv	
+7-15	the	O	O	O	
+7-16	train	B-NPart	O	O	
+7-17	to	O	O	O	
+7-18	my	B-ScrPart_passenger	O	O	
+7-19	final	O	O	O	
+7-20	destination	B-ScrPart_destination	O	O	
+7-21	.	O	O	O	
+

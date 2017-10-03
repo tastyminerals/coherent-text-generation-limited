@@ -1,0 +1,209 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=In the evening I take baths .
+1-1	In	O	O	_	_	
+1-2	the	O	O	_	_	
+1-3	evening	O	O	_	_	
+1-4	I	B-ScrPart_bather	O	_	_	
+1-5	take	O	B-Evoking	_	_	
+1-6	baths	O	I-Evoking	_	_	
+1-7	.	O	O	_	_	
+
+#id=2
+#text=Today is no different .
+2-1	Today	O	O	_	_	
+2-2	is	O	B-UnrelEv	_	_	
+2-3	no	O	O	_	_	
+2-4	different	O	O	_	_	
+2-5	.	O	O	_	_	
+
+#id=3
+#text=After a long day , it 's such a relaxing thing to do .
+3-1	After	O	O	_	_	
+3-2	a	O	O	_	_	
+3-3	long	O	O	_	_	
+3-4	day	O	O	_	_	
+3-5	,	O	O	_	_	
+3-6	it	O	O	_	_	
+3-7	's	O	O	_	_	
+3-8	such	O	O	_	_	
+3-9	a	O	O	_	_	
+3-10	relaxing	O	B-ScrEv_relax	_	_	
+3-11	thing	O	O	_	_	
+3-12	to	O	O	_	_	
+3-13	do	O	B-UnrelEv	_	_	
+3-14	.	O	O	_	_	
+
+#id=4
+#text=I turned the hot and cold handles to the exact right place out of habit and filled tub with hot water .
+4-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	1-4	
+4-2	turned	O	B-ScrEv_turn_water_on	_	_	
+4-3	the	O	O	_	_	
+4-4	hot	O	O	_	_	
+4-5	and	O	O	_	_	
+4-6	cold	O	O	_	_	
+4-7	handles	B-ScrPart_tap	O	_	_	
+4-8	to	O	O	_	_	
+4-9	the	O	O	_	_	
+4-10	exact	O	O	_	_	
+4-11	right	O	O	_	_	
+4-12	place	O	O	_	_	
+4-13	out	O	O	_	_	
+4-14	of	O	O	_	_	
+4-15	habit	O	O	_	_	
+4-16	and	O	O	_	_	
+4-17	filled	O	B-ScrEv_fill_water/wait	_	_	
+4-18	tub	B-ScrPart_bathtub	O	_	_	
+4-19	with	O	O	_	_	
+4-20	hot	O	O	_	_	
+4-21	water	B-ScrPart_water	O	_	_	
+4-22	.	O	O	_	_	
+
+#id=5
+#text=I slid down into the tub and was instantly comfortable .
+5-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	4-1	
+5-2	slid	O	B-ScrEv_sink_water	_	_	
+5-3	down	O	O	_	_	
+5-4	into	O	O	_	_	
+5-5	the	O	O	_	_	
+5-6	tub	B-ScrPart_bathtub	O	webanno.custom.Corefchains_	4-18	
+5-7	and	O	O	_	_	
+5-8	was	O	B-UnrelEv	_	_	
+5-9	instantly	O	O	_	_	
+5-10	comfortable	O	O	_	_	
+5-11	.	O	O	_	_	
+
+#id=6
+#text=My aching muscles were finally getting to relax .
+6-1	My	B-ScrPart_bather	O	webanno.custom.Corefchains_	5-1	
+6-2	aching	O	B-UnrelEv	_	_	
+6-3	muscles	B-ScrPart_body_part	O	_	_	
+6-4	were	O	O	_	_	
+6-5	finally	O	O	_	_	
+6-6	getting	O	O	_	_	
+6-7	to	O	O	_	_	
+6-8	relax	O	B-ScrEv_relax	_	_	
+6-9	.	O	O	_	_	
+
+#id=7
+#text=As I let the water warm me up , I washed myself with a soapy washcloth careful to get all the dirt and grime off .
+7-1	As	O	O	_	_	
+7-2	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	6-1	
+7-3	let	O	O	_	_	
+7-4	the	O	O	_	_	
+7-5	water	B-ScrPart_water	O	webanno.custom.Corefchains_	4-21	
+7-6	warm	O	B-RelNScrEv	_	_	
+7-7	me	B-ScrPart_bather	O	webanno.custom.Corefchains_	7-2	
+7-8	up	O	O	_	_	
+7-9	,	O	O	_	_	
+7-10	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	7-7	
+7-11	washed	O	B-ScrEv_wash	_	_	
+7-12	myself	B-ScrPart_bather	O	webanno.custom.Corefchains_	7-10	
+7-13	with	O	O	_	_	
+7-14	a	O	O	_	_	
+7-15	soapy	O	O	_	_	
+7-16	washcloth	B-ScrPart_washing_tools	O	_	_	
+7-17	careful	O	O	_	_	
+7-18	to	O	O	_	_	
+7-19	get	O	B-ScrEv_wash	_	_	
+7-20	all	O	O	_	_	
+7-21	the	O	O	_	_	
+7-22	dirt	B-MissScrPart	O	_	_	
+7-23	and	O	O	_	_	
+7-24	grime	B-MissScrPart	O	_	_	
+7-25	off	O	O	_	_	
+7-26	.	O	O	_	_	
+
+#id=8
+#text=After cleaning up a bit , I grabbed my book and began to read .
+8-1	After	O	O	_	_	
+8-2	cleaning	O	B-ScrEv_wash|B-ScrEv_wash	_	_	
+8-3	up	O	I-ScrEv_wash	_	_	
+8-4	a	O	O	_	_	
+8-5	bit	O	O	_	_	
+8-6	,	O	O	_	_	
+8-7	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	7-12	
+8-8	grabbed	O	B-RelNScrEv	_	_	
+8-9	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	8-7	
+8-10	book	B-ScrPart_in-bath_entertainment	O	_	_	
+8-11	and	O	O	_	_	
+8-12	began	O	O	_	_	
+8-13	to	O	O	_	_	
+8-14	read	O	B-RelNScrEv	_	_	
+8-15	.	O	O	_	_	
+
+#id=9
+#text=After about 20 minutes I let the water drain .
+9-1	After	O	O	_	_	
+9-2	about	O	O	_	_	
+9-3	20	O	O	_	_	
+9-4	minutes	O	O	_	_	
+9-5	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	8-9	
+9-6	let	O	O	_	_	
+9-7	the	O	O	_	_	
+9-8	water	B-ScrPart_water	O	webanno.custom.Corefchains_	7-5	
+9-9	drain	O	B-ScrEv_open_drain	_	_	
+9-10	.	O	O	_	_	
+
+#id=10
+#text=I got out and dried off with my huge , soft towel .
+10-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	9-5	
+10-2	got	O	B-ScrEv_get_out_bath|B-ScrEv_get_out_bath	_	_	
+10-3	out	O	I-ScrEv_get_out_bath	_	_	
+10-4	and	O	O	_	_	
+10-5	dried	O	B-ScrEv_dry|B-ScrEv_dry	_	_	
+10-6	off	O	I-ScrEv_dry	_	_	
+10-7	with	O	O	_	_	
+10-8	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	10-1	
+10-9	huge	O	O	_	_	
+10-10	,	O	O	_	_	
+10-11	soft	O	O	_	_	
+10-12	towel	B-ScrPart_towel	O	_	_	
+10-13	.	O	O	_	_	
+
+#id=11
+#text=I put on my robe and threw the towel over the edge off the bathtub .
+11-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	10-8	
+11-2	put	O	B-ScrEv_get_dressed|B-ScrEv_get_dressed	_	_	
+11-3	on	O	I-ScrEv_get_dressed	_	_	
+11-4	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	11-1	
+11-5	robe	B-ScrPart_clothes	O	_	_	
+11-6	and	O	O	_	_	
+11-7	threw	O	B-RelNScrEv	_	_	
+11-8	the	O	O	_	_	
+11-9	towel	B-ScrPart_towel	O	webanno.custom.Corefchains_	10-12	
+11-10	over	O	O	_	_	
+11-11	the	O	O	_	_	
+11-12	edge	O	O	_	_	
+11-13	off	O	O	_	_	
+11-14	the	O	O	_	_	
+11-15	bathtub	B-ScrPart_bathtub	O	webanno.custom.Corefchains_	5-6	
+11-16	.	O	O	_	_	
+
+#id=12
+#text=I felt completely refreshed and ready to continue reading in my bedroom , and my muscles were n't quite as sore as before . 
+12-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	11-4	
+12-2	felt	O	B-RelNScrEv	_	_	
+12-3	completely	O	O	_	_	
+12-4	refreshed	O	B-RelNScrEv	_	_	
+12-5	and	O	O	_	_	
+12-6	ready	O	O	_	_	
+12-7	to	O	O	_	_	
+12-8	continue	O	B-UnrelEv	_	_	
+12-9	reading	O	B-UnrelEv	_	_	
+12-10	in	O	O	_	_	
+12-11	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	12-1	
+12-12	bedroom	O	O	_	_	
+12-13	,	O	O	_	_	
+12-14	and	O	O	_	_	
+12-15	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	12-11	
+12-16	muscles	B-ScrPart_body_part	O	webanno.custom.Corefchains_	6-3	
+12-17	were	O	B-UnrelEv	_	_	
+12-18	n't	O	O	_	_	
+12-19	quite	O	O	_	_	
+12-20	as	O	O	_	_	
+12-21	sore	O	O	_	_	
+12-22	as	O	O	_	_	
+12-23	before	O	O	_	_	
+12-24	.	O	O	_	_	
+

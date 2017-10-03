@@ -1,0 +1,230 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Last Fourth of July we had a nice family dinner outside .
+1-1	Last	O	O	_	_	
+1-2	Fourth	O	O	_	_	
+1-3	of	O	O	_	_	
+1-4	July	B-ScrPart_time	O	_	_	
+1-5	we	B-ScrPart_gardener	O	_	_	
+1-6	had	O	B-UnrelEv	_	_	
+1-7	a	O	O	_	_	
+1-8	nice	O	O	_	_	
+1-9	family	O	O	_	_	
+1-10	dinner	O	O	_	_	
+1-11	outside	O	O	_	_	
+1-12	.	O	O	_	_	
+
+#id=2
+#text=Unfortunately the sun was so hot and we had nothing to provide us shade .
+2-1	Unfortunately	O	O	_	_	
+2-2	the	O	O	_	_	
+2-3	sun	O	O	_	_	
+2-4	was	O	B-UnrelEv	_	_	
+2-5	so	O	O	_	_	
+2-6	hot	O	O	_	_	
+2-7	and	O	O	_	_	
+2-8	we	O	O	_	_	
+2-9	had	O	O	_	_	
+2-10	nothing	O	O	_	_	
+2-11	to	O	O	_	_	
+2-12	provide	O	B-UnrelEv	_	_	
+2-13	us	B-ScrPart_gardener	O	webanno.custom.Corefchains_	1-5	
+2-14	shade	O	O	_	_	
+2-15	.	O	O	_	_	
+
+#id=3
+#text=This year I wanted to do something different so I decided to plant a tree right where the table was outside .
+3-1	This	O	O	_	_	
+3-2	year	B-ScrPart_time	O	_	_	
+3-3	I	B-ScrPart_gardener	O	_	_	
+3-4	wanted	O	B-UnrelEv	_	_	
+3-5	to	O	O	_	_	
+3-6	do	O	O	_	_	
+3-7	something	O	O	_	_	
+3-8	different	O	O	_	_	
+3-9	so	O	O	_	_	
+3-10	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	3-3	
+3-11	decided	O	B-UnrelEv	_	_	
+3-12	to	O	O	_	_	
+3-13	plant	O	B-Evoking	_	_	
+3-14	a	O	I-Evoking	_	_	
+3-15	tree	B-ScrPart_tree	I-Evoking	_	_	
+3-16	right	O	O	_	_	
+3-17	where	O	O	_	_	
+3-18	the	O	O	_	_	
+3-19	table	O	O	_	_	
+3-20	was	O	B-UnrelEv	_	_	
+3-21	outside	O	O	_	_	
+3-22	.	O	O	_	_	
+
+#id=4
+#text=Maybe this year we would have some shade to keep us cool .
+4-1	Maybe	O	O	_	_	
+4-2	this	O	O	_	_	
+4-3	year	B-ScrPart_time	O	webanno.custom.Corefchains_	3-2	
+4-4	we	B-ScrPart_gardener	O	webanno.custom.Corefchains_	2-13	
+4-5	would	O	O	_	_	
+4-6	have	O	B-UnrelEv	_	_	
+4-7	some	O	O	_	_	
+4-8	shade	O	O	_	_	
+4-9	to	O	O	_	_	
+4-10	keep	O	B-UnrelEv	_	_	
+4-11	us	B-ScrPart_gardener	O	webanno.custom.Corefchains_	4-4	
+4-12	cool	O	O	_	_	
+4-13	.	O	O	_	_	
+
+#id=5
+#text=I went to the local farmer , farmer Jack and asked him if he could help me out .
+5-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	3-10	
+5-2	went	O	B-MissScrEv	_	_	
+5-3	to	O	O	_	_	
+5-4	the	O	O	_	_	
+5-5	local	O	O	_	_	
+5-6	farmer	B-MissScrPart	O	_	_	
+5-7	,	O	O	_	_	
+5-8	farmer	B-MissScrPart	O	webanno.custom.Corefchains_	5-6	
+5-9	Jack	B-MissScrPart	O	webanno.custom.Corefchains_	5-8	
+5-10	and	O	O	_	_	
+5-11	asked	O	B-RelNScrEv	_	_	
+5-12	him	B-MissScrPart	O	webanno.custom.Corefchains_	5-9	
+5-13	if	O	O	_	_	
+5-14	he	B-MissScrPart	O	webanno.custom.Corefchains_	5-12	
+5-15	could	O	O	_	_	
+5-16	help	O	B-RelNScrEv	_	_	
+5-17	me	B-ScrPart_gardener	O	webanno.custom.Corefchains_	5-1	
+5-18	out	O	O	_	_	
+5-19	.	O	O	_	_	
+
+#id=6
+#text=He told me that I would want to grow a nice oak tree right by that table .
+6-1	He	B-MissScrPart	O	webanno.custom.Corefchains_	5-14	
+6-2	told	O	B-UnrelEv	_	_	
+6-3	me	B-ScrPart_gardener	O	webanno.custom.Corefchains_	5-17	
+6-4	that	O	O	_	_	
+6-5	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	6-3	
+6-6	would	O	O	_	_	
+6-7	want	O	B-UnrelEv	_	_	
+6-8	to	O	O	_	_	
+6-9	grow	O	B-RelNScrEv	_	_	
+6-10	a	O	O	_	_	
+6-11	nice	O	O	_	_	
+6-12	oak	B-ScrPart_tree	O	_	_	
+6-13	tree	I-ScrPart_tree|B-ScrPart_tree	O	webanno.custom.Corefchains_	3-15	
+6-14	right	O	O	_	_	
+6-15	by	O	O	_	_	
+6-16	that	O	O	_	_	
+6-17	table	B-NPart	O	_	_	
+6-18	.	O	O	_	_	
+
+#id=7
+#text=He was able to give me some seeds to use so I could make my plan happen .
+7-1	He	B-MissScrPart	O	webanno.custom.Corefchains_	6-1	
+7-2	was	O	O	_	_	
+7-3	able	O	O	_	_	
+7-4	to	O	O	_	_	
+7-5	give	O	O	_	_	
+7-6	me	B-ScrPart_gardener	O	webanno.custom.Corefchains_	6-5	
+7-7	some	O	O	_	_	
+7-8	seeds	B-MissScrPart	O	_	_	
+7-9	to	O	O	_	_	
+7-10	use	O	B-RelNScrEv	_	_	
+7-11	so	O	O	_	_	
+7-12	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	7-6	
+7-13	could	O	O	_	_	
+7-14	make	O	B-UnrelEv	_	_	
+7-15	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	7-12	
+7-16	plan	O	O	_	_	
+7-17	happen	O	B-UnrelEv	_	_	
+7-18	.	O	O	_	_	
+
+#id=8
+#text=I used a small gardening tool to dig up some dirt .
+8-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	7-15	
+8-2	used	O	B-RelNScrEv	_	_	
+8-3	a	O	O	_	_	
+8-4	small	O	O	_	_	
+8-5	gardening	B-ScrPart_gardening_tool	O	_	_	
+8-6	tool	I-ScrPart_gardening_tool|B-ScrPart_gardening_tool	O	_	_	
+8-7	to	O	O	_	_	
+8-8	dig	O	B-ScrEv_dug_hole	_	_	
+8-9	up	O	O	_	_	
+8-10	some	O	O	_	_	
+8-11	dirt	B-ScrPart_dirt	O	_	_	
+8-12	.	O	O	_	_	
+
+#id=9
+#text=I placed the seeds inside the dirt and then covered it up again .
+9-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	8-1	
+9-2	placed	O	B-MissScrEv	_	_	
+9-3	the	O	O	_	_	
+9-4	seeds	B-MissScrPart	O	webanno.custom.Corefchains_	7-8	
+9-5	inside	O	O	_	_	
+9-6	the	O	O	_	_	
+9-7	dirt	B-ScrPart_dirt	O	webanno.custom.Corefchains_	8-11	
+9-8	and	O	O	_	_	
+9-9	then	O	O	_	_	
+9-10	covered	O	B-UnrelEv	_	_	
+9-11	it	B-ScrPart_dirt	O	webanno.custom.Corefchains_	9-7	
+9-12	up	O	O	_	_	
+9-13	again	O	O	_	_	
+9-14	.	O	O	_	_	
+
+#id=10
+#text=I took a watering can and filled it up with water from the hose .
+10-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	9-1	
+10-2	took	O	B-ScrEv_get_tools	_	_	
+10-3	a	O	O	_	_	
+10-4	watering	B-ScrPart_gardening_tool	O	_	_	
+10-5	can	I-ScrPart_gardening_tool|B-ScrPart_gardening_tool	O	_	_	
+10-6	and	O	O	_	_	
+10-7	filled	O	B-RelNScrEv	_	_	
+10-8	it	O	O	webanno.custom.Corefchains_	9-11	
+10-9	up	O	O	_	_	
+10-10	with	O	O	_	_	
+10-11	water	B-ScrPart_water	O	_	_	
+10-12	from	O	O	_	_	
+10-13	the	O	O	_	_	
+10-14	hose	B-ScrPart_gardening_tool	O	_	_	
+10-15	.	O	O	_	_	
+
+#id=11
+#text=I watered the dirt where the seeds were and did this every day without fail .
+11-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	10-1	
+11-2	watered	O	B-ScrEv_water	_	_	
+11-3	the	O	O	_	_	
+11-4	dirt	B-ScrPart_dirt	O	webanno.custom.Corefchains_	9-11	
+11-5	where	O	O	_	_	
+11-6	the	O	O	_	_	
+11-7	seeds	B-MissScrPart	O	webanno.custom.Corefchains_	9-4	
+11-8	were	O	B-UnrelEv	_	_	
+11-9	and	O	O	_	_	
+11-10	did	O	B-ScrEv_water	_	_	
+11-11	this	O	O	_	_	
+11-12	every	O	O	_	_	
+11-13	day	B-ScrPart_time	O	_	_	
+11-14	without	O	O	_	_	
+11-15	fail	B-NPart	O	_	_	
+11-16	.	O	O	_	_	
+
+#id=12
+#text=I 've started to see a tree sprouting and am excited for Fourth of July to get here . 
+12-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	11-1	
+12-2	've	O	O	_	_	
+12-3	started	O	B-UnrelEv	_	_	
+12-4	to	O	O	_	_	
+12-5	see	O	O	_	_	
+12-6	a	O	O	_	_	
+12-7	tree	B-ScrPart_tree	O	_	_	
+12-8	sprouting	O	B-RelNScrEv	_	_	
+12-9	and	O	O	_	_	
+12-10	am	O	O	_	_	
+12-11	excited	O	B-UnrelEv	_	_	
+12-12	for	O	O	_	_	
+12-13	Fourth	O	O	_	_	
+12-14	of	O	O	_	_	
+12-15	July	B-ScrPart_time	O	_	_	
+12-16	to	O	O	_	_	
+12-17	get	O	B-UnrelEv	_	_	
+12-18	here	O	O	_	_	
+12-19	.	O	O	_	_	
+

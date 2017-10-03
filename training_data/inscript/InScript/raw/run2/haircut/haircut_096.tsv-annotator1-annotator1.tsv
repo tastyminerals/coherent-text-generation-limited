@@ -1,0 +1,225 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=It has been six months since I got my hair cut .
+1-1	It	B-No_label	O	
+1-2	has	O	O	
+1-3	been	O	O	
+1-4	six	O	O	
+1-5	months	B-NPart	O	
+1-6	since	O	O	
+1-7	I	B-ScrPart_customer	O	
+1-8	got	O	B-Evoking	
+1-9	my	B-ScrPart_customer	I-Evoking	
+1-10	hair	B-SuppVComp	I-Evoking	
+1-11	cut	I-SuppVComp	I-Evoking	
+1-12	.	O	O	
+
+#id=2
+#text=I usually get it cut really short and let it grow out to be shaggy .
+2-1	I	B-ScrPart_customer	O	
+2-2	usually	O	O	
+2-3	get	O	O	
+2-4	it	B-ScrPart_hair	O	
+2-5	cut	O	B-ScrEv_cut	
+2-6	really	O	O	
+2-7	short	O	O	
+2-8	and	O	O	
+2-9	let	O	O	
+2-10	it	B-ScrPart_hair	O	
+2-11	grow	O	B-RelNScrEv|B-RelNScrEv	
+2-12	out	O	I-RelNScrEv	
+2-13	to	O	O	
+2-14	be	O	B-UnrelEv	
+2-15	shaggy	O	O	
+2-16	.	O	O	
+
+#id=3
+#text=I usually just go to whichever local salon is closest , and I do n't have a regular person who usually cuts my hair .
+3-1	I	B-ScrPart_customer	O	
+3-2	usually	O	O	
+3-3	just	O	O	
+3-4	go	O	B-ScrEv_get_salon	
+3-5	to	O	O	
+3-6	whichever	O	O	
+3-7	local	B-ScrPart_salon	O	
+3-8	salon	I-ScrPart_salon|B-ScrPart_salon	O	
+3-9	is	O	B-UnrelEv	
+3-10	closest	O	O	
+3-11	,	O	O	
+3-12	and	O	O	
+3-13	I	B-ScrPart_customer	O	
+3-14	do	O	O	
+3-15	n't	O	O	
+3-16	have	O	B-UnrelEv	
+3-17	a	O	O	
+3-18	regular	O	O	
+3-19	person	B-ScrPart_hairdresser	O	
+3-20	who	O	O	
+3-21	usually	O	O	
+3-22	cuts	O	B-ScrEv_cut	
+3-23	my	B-ScrPart_customer	O	
+3-24	hair	B-ScrPart_hair	O	
+3-25	.	O	O	
+
+#id=4
+#text=I only like to spend about $ 15 each time I go .
+4-1	I	B-ScrPart_customer	O	
+4-2	only	O	O	
+4-3	like	O	O	
+4-4	to	O	O	
+4-5	spend	O	B-ScrEv_pay	
+4-6	about	O	O	
+4-7	$	O	O	
+4-8	15	B-ScrPart_bill	O	
+4-9	each	O	O	
+4-10	time	B-No_label	O	
+4-11	I	B-ScrPart_customer	O	
+4-12	go	O	B-ScrEv_get_salon	
+4-13	.	O	O	
+
+#id=5
+#text=Today , I decided get a faded haircut .
+5-1	Today	B-NPart	O	
+5-2	,	O	O	
+5-3	I	B-ScrPart_customer	O	
+5-4	decided	O	B-UnrelEv	
+5-5	get	O	O	
+5-6	a	O	O	
+5-7	faded	O	B-RelNScrEv	
+5-8	haircut	B-ScrPart_haircut	O	
+5-9	.	O	O	
+
+#id=6
+#text=The nearest place only charges $ 10 , so I was pleased with that .
+6-1	The	O	O	
+6-2	nearest	O	O	
+6-3	place	B-ScrPart_salon	O	
+6-4	only	O	O	
+6-5	charges	O	B-ScrEv_pay	
+6-6	$	O	O	
+6-7	10	B-ScrPart_bill	O	
+6-8	,	O	O	
+6-9	so	O	O	
+6-10	I	B-ScrPart_customer	O	
+6-11	was	O	O	
+6-12	pleased	O	B-ScrEv_customer_opinion	
+6-13	with	O	O	
+6-14	that	O	O	
+6-15	.	O	O	
+
+#id=7
+#text=The lady who helped me was named Sarah , and she talked a lot about the weather and how much she wanted to be outside .
+7-1	The	O	O	
+7-2	lady	B-ScrPart_hairdresser	O	
+7-3	who	O	O	
+7-4	helped	O	B-RelNScrEv	
+7-5	me	B-ScrPart_customer	O	
+7-6	was	O	O	
+7-7	named	O	B-UnrelEv	
+7-8	Sarah	B-ScrPart_hairdresser	O	
+7-9	,	O	O	
+7-10	and	O	O	
+7-11	she	B-ScrPart_hairdresser	O	
+7-12	talked	O	B-ScrEv_small_talk	
+7-13	a	O	O	
+7-14	lot	B-No_label	O	
+7-15	about	O	O	
+7-16	the	O	O	
+7-17	weather	B-NPart	O	
+7-18	and	O	O	
+7-19	how	O	O	
+7-20	much	O	O	
+7-21	she	B-ScrPart_hairdresser	O	
+7-22	wanted	O	B-UnrelEv	
+7-23	to	O	O	
+7-24	be	O	B-UnrelEv	
+7-25	outside	O	O	
+7-26	.	O	O	
+
+#id=8
+#text=She also asked me a lot about my job , and it turns out her husband also works where I work .
+8-1	She	B-ScrPart_hairdresser	O	
+8-2	also	O	O	
+8-3	asked	O	B-ScrEv_small_talk	
+8-4	me	B-ScrPart_customer	O	
+8-5	a	O	O	
+8-6	lot	B-No_label	O	
+8-7	about	O	O	
+8-8	my	B-ScrPart_customer	O	
+8-9	job	B-NPart	O	
+8-10	,	O	O	
+8-11	and	O	O	
+8-12	it	B-No_label	O	
+8-13	turns	O	B-UnrelEv|B-UnrelEv	
+8-14	out	O	I-UnrelEv	
+8-15	her	B-ScrPart_hairdresser	O	
+8-16	husband	B-NPart	O	
+8-17	also	O	O	
+8-18	works	O	B-UnrelEv	
+8-19	where	O	O	
+8-20	I	B-ScrPart_customer	O	
+8-21	work	O	B-UnrelEv	
+8-22	.	O	O	
+
+#id=9
+#text=The haircut took about 15 minutes and she did a pretty good job .
+9-1	The	O	O	
+9-2	haircut	B-ScrPart_haircut	O	
+9-3	took	O	B-RelNScrEv	
+9-4	about	O	O	
+9-5	15	O	O	
+9-6	minutes	B-ScrPart_time/date	O	
+9-7	and	O	O	
+9-8	she	B-ScrPart_hairdresser	O	
+9-9	did	O	B-RelNScrEv	
+9-10	a	O	O	
+9-11	pretty	O	O	
+9-12	good	O	O	
+9-13	job	B-SuppVComp	O	
+9-14	.	O	O	
+
+#id=10
+#text=It 's just the right length and she cut the back of my hair the way I like most .
+10-1	It	B-No_label	O	
+10-2	's	O	O	
+10-3	just	O	O	
+10-4	the	O	O	
+10-5	right	O	O	
+10-6	length	B-ScrPart_other	O	
+10-7	and	O	O	
+10-8	she	B-ScrPart_hairdresser	O	
+10-9	cut	O	B-ScrEv_cut	
+10-10	the	O	O	
+10-11	back	B-Head_of_Partitive	O	
+10-12	of	O	O	
+10-13	my	B-ScrPart_customer	O	
+10-14	hair	B-ScrPart_hair	O	
+10-15	the	O	O	
+10-16	way	B-No_label	O	
+10-17	I	B-ScrPart_customer	O	
+10-18	like	O	B-UnrelEv	
+10-19	most	O	O	
+10-20	.	O	O	
+
+#id=11
+#text=I paid her $ 10 and tipped her $ 5 .
+11-1	I	B-ScrPart_customer	O	
+11-2	paid	O	B-ScrEv_pay	
+11-3	her	B-ScrPart_hairdresser	O	
+11-4	$	O	O	
+11-5	10	B-ScrPart_bill	O	
+11-6	and	O	O	
+11-7	tipped	O	B-ScrEv_leave_tip	
+11-8	her	B-ScrPart_hairdresser	O	
+11-9	$	O	O	
+11-10	5	B-ScrPart_tip	O	
+11-11	.	O	O	
+
+#id=12
+#text=I left completely satisfied . 
+12-1	I	B-ScrPart_customer	O	
+12-2	left	O	B-ScrEv_leave	
+12-3	completely	O	O	
+12-4	satisfied	O	B-ScrEv_customer_opinion	
+12-5	.	O	O	
+

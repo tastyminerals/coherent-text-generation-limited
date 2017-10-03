@@ -1,0 +1,213 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=The other week I had to take a trip on a train to visit some family that lives down south .
+1-1	The	O	O	_	_	
+1-2	other	O	O	_	_	
+1-3	week	O	O	_	_	
+1-4	I	B-ScrPart_passenger	O	_	_	
+1-5	had	O	O	_	_	
+1-6	to	O	O	_	_	
+1-7	take	O	B-Evoking	_	_	
+1-8	a	O	I-Evoking	_	_	
+1-9	trip	B-SuppVComp	I-Evoking	_	_	
+1-10	on	O	I-Evoking	_	_	
+1-11	a	O	I-Evoking	_	_	
+1-12	train	B-ScrPart_train	I-Evoking	_	_	
+1-13	to	O	O	_	_	
+1-14	visit	O	B-UnrelEv	_	_	
+1-15	some	O	O	_	_	
+1-16	family	O	O	_	_	
+1-17	that	O	O	_	_	
+1-18	lives	O	B-UnrelEv	_	_	
+1-19	down	O	O	_	_	
+1-20	south	O	O	_	_	
+1-21	.	O	O	_	_	
+
+#id=2
+#text=Once I bought my train ticket I waited with a big group of people for the train to come .
+2-1	Once	O	O	_	_	
+2-2	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-4	
+2-3	bought	O	B-ScrEv_get_tickets	_	_	
+2-4	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-2	
+2-5	train	B-ScrPart_card/ticket	O	_	_	
+2-6	ticket	I-ScrPart_card/ticket|B-ScrPart_card/ticket	O	_	_	
+2-7	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-4	
+2-8	waited	O	B-ScrEv_wait	_	_	
+2-9	with	O	O	_	_	
+2-10	a	O	O	_	_	
+2-11	big	O	O	_	_	
+2-12	group	O	O	_	_	
+2-13	of	O	O	_	_	
+2-14	people	B-ScrPart_passenger	O	_	_	
+2-15	for	O	O	_	_	
+2-16	the	O	O	_	_	
+2-17	train	B-ScrPart_train	O	_	_	
+2-18	to	O	O	_	_	
+2-19	come	O	B-ScrEv_train_arrives	_	_	
+2-20	.	O	O	_	_	
+
+#id=3
+#text=Once the train came down the track we all got onto the train and took our seats .
+3-1	Once	O	O	_	_	
+3-2	the	O	O	_	_	
+3-3	train	B-ScrPart_train	O	webanno.custom.Corefchains_	2-17	
+3-4	came	O	B-ScrEv_train_arrives	_	_	
+3-5	down	O	O	_	_	
+3-6	the	O	O	_	_	
+3-7	track	B-NPart	O	_	_	
+3-8	we	B-ScrPart_passenger	O	coref_group_I_passenger|coref_group_I_passenger	2-7|2-14	
+3-9	all	O	O	_	_	
+3-10	got	O	B-MissScrEv	_	_	
+3-11	onto	O	O	_	_	
+3-12	the	O	O	_	_	
+3-13	train	B-ScrPart_train	O	webanno.custom.Corefchains_	3-3	
+3-14	and	O	O	_	_	
+3-15	took	O	B-ScrEv_find_place	_	_	
+3-16	our	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-8	
+3-17	seats	B-ScrPart_seat	O	_	_	
+3-18	.	O	O	_	_	
+
+#id=4
+#text=A ticket-man came and asked to see our tickets and make sure that we all were supposed to be on the train , and also that we 're all in the right seats .
+4-1	A	O	O	_	_	
+4-2	ticket-man	B-ScrPart_train_staff	O	_	_	
+4-3	came	O	B-RelNScrEv	_	_	
+4-4	and	O	O	_	_	
+4-5	asked	O	B-ScrEv_conductor_checks	_	_	
+4-6	to	O	O	_	_	
+4-7	see	O	B-ScrEv_conductor_checks	_	_	
+4-8	our	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-16	
+4-9	tickets	B-ScrPart_card/ticket	O	webanno.custom.Corefchains_	2-6	
+4-10	and	O	O	_	_	
+4-11	make	O	B-ScrEv_conductor_checks	_	_	
+4-12	sure	O	I-ScrEv_conductor_checks	_	_	
+4-13	that	O	O	_	_	
+4-14	we	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-8	
+4-15	all	O	O	_	_	
+4-16	were	O	O	_	_	
+4-17	supposed	O	B-RelNScrEv	_	_	
+4-18	to	O	O	_	_	
+4-19	be	O	B-RelNScrEv	_	_	
+4-20	on	O	O	_	_	
+4-21	the	O	O	_	_	
+4-22	train	B-ScrPart_train	O	webanno.custom.Corefchains_	3-13	
+4-23	,	O	O	_	_	
+4-24	and	O	O	_	_	
+4-25	also	O	O	_	_	
+4-26	that	O	O	_	_	
+4-27	we	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-14	
+4-28	're	O	B-RelNScrEv	_	_	
+4-29	all	O	O	_	_	
+4-30	in	O	O	_	_	
+4-31	the	O	O	_	_	
+4-32	right	O	O	_	_	
+4-33	seats	B-ScrPart_seat	O	webanno.custom.Corefchains_	3-17	
+4-34	.	O	O	_	_	
+
+#id=5
+#text=Once that is all taken care of I walk to the food train-car and get some food .
+5-1	Once	O	O	_	_	
+5-2	that	O	O	_	_	
+5-3	is	O	O	_	_	
+5-4	all	O	O	_	_	
+5-5	taken	O	B-UnrelEv	_	_	
+5-6	care	O	O	_	_	
+5-7	of	O	O	_	_	
+5-8	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-7	
+5-9	walk	O	B-ScrEv_spend_time_train	_	_	
+5-10	to	O	O	_	_	
+5-11	the	O	O	_	_	
+5-12	food	B-ScrPart_coach	O	_	_	
+5-13	train-car	I-ScrPart_coach|B-ScrPart_coach	O	_	_	
+5-14	and	O	O	_	_	
+5-15	get	O	B-ScrEv_spend_time_train	_	_	
+5-16	some	O	O	_	_	
+5-17	food	B-ScrPart_in-train_entertainment	O	_	_	
+5-18	.	O	O	_	_	
+
+#id=6
+#text=I sit down at the train-car table and eat my food .
+6-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-8	
+6-2	sit	O	B-ScrEv_spend_time_train	_	_	
+6-3	down	O	I-ScrEv_spend_time_train	_	_	
+6-4	at	O	O	_	_	
+6-5	the	O	O	_	_	
+6-6	train-car	B-NPart	O	_	_	
+6-7	table	I-NPart|B-NPart	O	_	_	
+6-8	and	O	O	_	_	
+6-9	eat	O	B-ScrEv_spend_time_train	_	_	
+6-10	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-1	
+6-11	food	B-ScrPart_in-train_entertainment	O	webanno.custom.Corefchains_	5-17	
+6-12	.	O	O	_	_	
+
+#id=7
+#text=The food is good , but was prepared quickly .
+7-1	The	O	O	_	_	
+7-2	food	B-ScrPart_in-train_entertainment	O	webanno.custom.Corefchains_	6-11	
+7-3	is	O	B-UnrelEv	_	_	
+7-4	good	O	O	_	_	
+7-5	,	O	O	_	_	
+7-6	but	O	O	_	_	
+7-7	was	O	O	_	_	
+7-8	prepared	O	B-UnrelEv	_	_	
+7-9	quickly	O	O	_	_	
+7-10	.	O	O	_	_	
+
+#id=8
+#text=After I eat my food I throw away the trash from my meal and walk back to my seat where I fall asleep for a little while and then when I wake up I am at my destination and exit the train where I meet up with my family who are waiting for me . 
+8-1	After	O	O	_	_	
+8-2	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-10	
+8-3	eat	O	B-ScrEv_spend_time_train	_	_	
+8-4	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-2	
+8-5	food	B-ScrPart_in-train_entertainment	O	webanno.custom.Corefchains_	7-2	
+8-6	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-4	
+8-7	throw	O	B-RelNScrEv	_	_	
+8-8	away	O	I-RelNScrEv	_	_	
+8-9	the	O	O	_	_	
+8-10	trash	B-NPart	O	_	_	
+8-11	from	O	O	_	_	
+8-12	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-6	
+8-13	meal	B-ScrPart_in-train_entertainment	O	webanno.custom.Corefchains_	8-5	
+8-14	and	O	O	_	_	
+8-15	walk	O	B-ScrEv_spend_time_train	_	_	
+8-16	back	O	I-ScrEv_spend_time_train	_	_	
+8-17	to	O	O	_	_	
+8-18	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-12	
+8-19	seat	B-ScrPart_seat	O	webanno.custom.Corefchains_	4-33	
+8-20	where	O	O	_	_	
+8-21	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-18	
+8-22	fall	O	B-ScrEv_spend_time_train	_	_	
+8-23	asleep	O	O	_	_	
+8-24	for	O	O	_	_	
+8-25	a	O	O	_	_	
+8-26	little	O	O	_	_	
+8-27	while	O	O	_	_	
+8-28	and	O	O	_	_	
+8-29	then	O	O	_	_	
+8-30	when	O	O	_	_	
+8-31	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-21	
+8-32	wake	O	B-RelNScrEv	_	_	
+8-33	up	O	I-RelNScrEv	_	_	
+8-34	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-31	
+8-35	am	O	B-ScrEv_arrive_destination	_	_	
+8-36	at	O	O	_	_	
+8-37	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-34	
+8-38	destination	B-ScrPart_destination	O	_	_	
+8-39	and	O	O	_	_	
+8-40	exit	O	B-ScrEv_get_off	_	_	
+8-41	the	O	O	_	_	
+8-42	train	B-ScrPart_train	O	webanno.custom.Corefchains_	4-22	
+8-43	where	O	O	_	_	
+8-44	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-37	
+8-45	meet	O	B-RelNScrEv	_	_	
+8-46	up	O	I-RelNScrEv	_	_	
+8-47	with	O	O	_	_	
+8-48	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-44	
+8-49	family	B-NPart	O	_	_	
+8-50	who	B-NPart	O	_	_	
+8-51	are	O	O	_	_	
+8-52	waiting	O	B-RelNScrEv	_	_	
+8-53	for	O	O	_	_	
+8-54	me	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-48	
+8-55	.	O	O	_	_	
+

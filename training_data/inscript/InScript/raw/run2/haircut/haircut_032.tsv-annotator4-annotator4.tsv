@@ -1,0 +1,267 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Every other month , I get a haircut from my favorite barbershop in the heart of the city .
+1-1	Every	O	O	_	_	
+1-2	other	O	O	_	_	
+1-3	month	B-NPart	O	_	_	
+1-4	,	O	O	_	_	
+1-5	I	B-ScrPart_customer	O	_	_	
+1-6	get	O	B-Evoking	_	_	
+1-7	a	O	I-Evoking	_	_	
+1-8	haircut	B-ScrPart_haircut	I-Evoking	_	_	
+1-9	from	O	O	_	_	
+1-10	my	B-ScrPart_customer	O	_	_	
+1-11	favorite	O	O	_	_	
+1-12	barbershop	B-ScrPart_salon	O	_	_	
+1-13	in	O	O	_	_	
+1-14	the	O	O	_	_	
+1-15	heart	B-Head_of_Partitive	O	_	_	
+1-16	of	O	O	_	_	
+1-17	the	O	O	_	_	
+1-18	city	B-NPart	O	_	_	
+1-19	.	O	O	_	_	
+
+#id=2
+#text=I love the barbershop because the haircuts are cheap and the barbers are always making jokes about ANYTHING .
+2-1	I	B-ScrPart_customer	O	_	_	
+2-2	love	O	B-UnrelEv	_	_	
+2-3	the	O	O	_	_	
+2-4	barbershop	B-ScrPart_salon	O	_	_	
+2-5	because	O	O	_	_	
+2-6	the	O	O	_	_	
+2-7	haircuts	B-ScrPart_haircut	O	webanno.custom.Corefchains_	1-8	
+2-8	are	O	B-UnrelEv	_	_	
+2-9	cheap	O	O	_	_	
+2-10	and	O	O	_	_	
+2-11	the	O	O	_	_	
+2-12	barbers	B-ScrPart_hairdresser	O	_	_	
+2-13	are	O	O	_	_	
+2-14	always	O	O	_	_	
+2-15	making	O	B-ScrEv_small_talk	_	_	
+2-16	jokes	B-ScrPart_entertainment	O	_	_	
+2-17	about	O	O	_	_	
+2-18	ANYTHING	B-NPart	O	_	_	
+2-19	.	O	O	_	_	
+
+#id=3
+#text=Last week , I went to the barbershop to get my hair cut with my friend , John .
+3-1	Last	O	O	_	_	
+3-2	week	B-NPart	O	_	_	
+3-3	,	O	O	_	_	
+3-4	I	B-ScrPart_customer	O	_	_	
+3-5	went	O	B-ScrEv_get_salon	_	_	
+3-6	to	O	O	_	_	
+3-7	the	O	O	_	_	
+3-8	barbershop	B-ScrPart_salon	O	_	_	
+3-9	to	O	O	_	_	
+3-10	get	O	B-Evoking	_	_	
+3-11	my	B-ScrPart_customer	I-Evoking	_	_	
+3-12	hair	B-ScrPart_hair	I-Evoking	_	_	
+3-13	cut	O	I-Evoking	_	_	
+3-14	with	O	O	_	_	
+3-15	my	B-ScrPart_customer	O	_	_	
+3-16	friend	B-ScrPart_customer	O	_	_	
+3-17	,	O	O	_	_	
+3-18	John	B-ScrPart_customer	O	_	_	
+3-19	.	O	O	_	_	
+
+#id=4
+#text=John and I took my car and arrived there around noon so that my favorite barber would be there .
+4-1	John	B-ScrPart_customer|B-ScrPart_customer	O	_	_	
+4-2	and	I-ScrPart_customer	O	_	_	
+4-3	I	I-ScrPart_customer|B-ScrPart_customer	O	_	_	
+4-4	took	O	B-ScrEv_get_salon	_	_	
+4-5	my	B-ScrPart_customer	O	_	_	
+4-6	car	B-NPart	O	_	_	
+4-7	and	O	O	_	_	
+4-8	arrived	O	B-ScrEv_get_salon	_	_	
+4-9	there	O	O	_	_	
+4-10	around	O	O	_	_	
+4-11	noon	B-ScrPart_time/date	O	_	_	
+4-12	so	O	O	_	_	
+4-13	that	O	O	_	_	
+4-14	my	B-ScrPart_customer	O	_	_	
+4-15	favorite	O	O	_	_	
+4-16	barber	B-ScrPart_hairdresser	O	_	_	
+4-17	would	O	O	_	_	
+4-18	be	O	B-RelNScrEv	_	_	
+4-19	there	O	O	_	_	
+4-20	.	O	O	_	_	
+
+#id=5
+#text=Luckily , my barber and another good barber were there and ready for us .
+5-1	Luckily	O	O	_	_	
+5-2	,	O	O	_	_	
+5-3	my	B-ScrPart_customer	O	_	_	
+5-4	barber	B-ScrPart_hairdresser|B-ScrPart_hairdresser	O	_	_	
+5-5	and	I-ScrPart_hairdresser	O	_	_	
+5-6	another	I-ScrPart_hairdresser	O	_	_	
+5-7	good	I-ScrPart_hairdresser	O	_	_	
+5-8	barber	I-ScrPart_hairdresser|B-ScrPart_hairdresser	O	_	_	
+5-9	were	O	B-RelNScrEv	_	_	
+5-10	there	O	O	_	_	
+5-11	and	O	O	_	_	
+5-12	ready	O	O	_	_	
+5-13	for	O	O	_	_	
+5-14	us	B-ScrPart_customer	O	_	_	
+5-15	.	O	O	_	_	
+
+#id=6
+#text=We took our seats and they draped the long black cloth over our bodies so the hair would n't get all over us .
+6-1	We	B-ScrPart_customer	O	_	_	
+6-2	took	O	B-ScrEv_sit_down	_	_	
+6-3	our	B-ScrPart_customer	O	_	_	
+6-4	seats	B-ScrPart_chair	O	_	_	
+6-5	and	O	O	_	_	
+6-6	they	B-ScrPart_hairdresser	O	_	_	
+6-7	draped	O	B-ScrEv_put_on_cape	_	_	
+6-8	the	O	O	_	_	
+6-9	long	O	O	_	_	
+6-10	black	O	O	_	_	
+6-11	cloth	B-ScrPart_cape	O	_	_	
+6-12	over	O	O	_	_	
+6-13	our	B-ScrPart_customer	O	_	_	
+6-14	bodies	B-NPart	O	_	_	
+6-15	so	O	O	_	_	
+6-16	the	O	O	_	_	
+6-17	hair	B-ScrPart_hair	O	_	_	
+6-18	would	O	O	_	_	
+6-19	n't	O	O	_	_	
+6-20	get	O	B-RelNScrEv	_	_	
+6-21	all	O	O	_	_	
+6-22	over	O	O	_	_	
+6-23	us	B-ScrPart_customer	O	_	_	
+6-24	.	O	O	_	_	
+
+#id=7
+#text=Then , they combed our hair so that it made it easier to cut it .
+7-1	Then	O	O	_	_	
+7-2	,	O	O	_	_	
+7-3	they	B-ScrPart_hairdresser	O	_	_	
+7-4	combed	O	B-ScrEv_comb	_	_	
+7-5	our	B-ScrPart_customer	O	_	_	
+7-6	hair	B-ScrPart_hair	O	_	_	
+7-7	so	O	O	_	_	
+7-8	that	O	O	_	_	
+7-9	it	B-No_label	O	_	_	
+7-10	made	O	B-UnrelEv	_	_	
+7-11	it	B-No_label	O	_	_	
+7-12	easier	O	O	_	_	
+7-13	to	O	O	_	_	
+7-14	cut	O	B-ScrEv_cut	_	_	
+7-15	it	B-ScrPart_hair	O	_	_	
+7-16	.	O	O	_	_	
+
+#id=8
+#text=Next , they turned on their clippers and began cutting our hair .
+8-1	Next	O	O	_	_	
+8-2	,	O	O	_	_	
+8-3	they	B-ScrPart_hairdresser	O	_	_	
+8-4	turned	O	B-ScrEv_cut	_	_	
+8-5	on	O	I-ScrEv_cut	_	_	
+8-6	their	B-ScrPart_hairdresser	O	_	_	
+8-7	clippers	B-ScrPart_scissors	O	_	_	
+8-8	and	O	O	_	_	
+8-9	began	O	B-UnrelEv	_	_	
+8-10	cutting	O	B-ScrEv_cut	_	_	
+8-11	our	B-ScrPart_customer	O	_	_	
+8-12	hair	B-ScrPart_hair	O	_	_	
+8-13	.	O	O	_	_	
+
+#id=9
+#text=As they cut , they talked about all the big topics and new of the day .
+9-1	As	O	O	_	_	
+9-2	they	B-ScrPart_hairdresser	O	_	_	
+9-3	cut	O	B-ScrEv_cut	_	_	
+9-4	,	O	O	_	_	
+9-5	they	B-ScrPart_hairdresser	O	_	_	
+9-6	talked	O	B-ScrEv_small_talk	_	_	
+9-7	about	O	O	_	_	
+9-8	all	O	O	_	_	
+9-9	the	O	O	_	_	
+9-10	big	O	O	_	_	
+9-11	topics	B-ScrPart_entertainment	O	_	_	
+9-12	and	O	O	_	_	
+9-13	new	B-ScrPart_entertainment	O	_	_	
+9-14	of	O	O	_	_	
+9-15	the	O	O	_	_	
+9-16	day	B-NPart	O	_	_	
+9-17	.	O	O	_	_	
+
+#id=10
+#text=There were plenty of laughs just like I expected !
+10-1	There	O	O	_	_	
+10-2	were	O	B-ScrEv_small_talk	_	_	
+10-3	plenty	B-Head_of_Partitive	O	_	_	
+10-4	of	O	O	_	_	
+10-5	laughs	B-ScrPart_entertainment	O	_	_	
+10-6	just	O	O	_	_	
+10-7	like	O	O	_	_	
+10-8	I	B-ScrPart_customer	O	_	_	
+10-9	expected	O	B-UnrelEv	_	_	
+10-10	!	O	O	_	_	
+
+#id=11
+#text=After they were done , they sprayed our hair with sheen , brushed us off , took off the cloth , and showed us the finished product in the mirrors .
+11-1	After	O	O	_	_	
+11-2	they	B-ScrPart_hairdresser	O	_	_	
+11-3	were	O	O	_	_	
+11-4	done	O	B-RelNScrEv	_	_	
+11-5	,	O	O	_	_	
+11-6	they	B-ScrPart_hairdresser	O	_	_	
+11-7	sprayed	O	B-ScrEv_make_hair_style	_	_	
+11-8	our	B-ScrPart_customer	O	_	_	
+11-9	hair	B-ScrPart_hair	O	_	_	
+11-10	with	O	O	_	_	
+11-11	sheen	B-ScrPart_hair_styling/treatment	O	_	_	
+11-12	,	O	O	_	_	
+11-13	brushed	O	B-ScrEv_brush_hair	_	_	
+11-14	us	B-ScrPart_customer	O	_	_	
+11-15	off	O	O	_	_	
+11-16	,	O	O	_	_	
+11-17	took	O	B-ScrEv_remove_cap	_	_	
+11-18	off	O	I-ScrEv_remove_cap	_	_	
+11-19	the	O	O	_	_	
+11-20	cloth	B-ScrPart_cape	O	_	_	
+11-21	,	O	O	_	_	
+11-22	and	O	O	_	_	
+11-23	showed	O	B-ScrEv_look_mirror	_	_	
+11-24	us	B-ScrPart_customer	O	_	_	
+11-25	the	O	O	_	_	
+11-26	finished	O	B-RelNScrEv	_	_	
+11-27	product	B-ScrPart_haircut	O	webanno.custom.Corefchains_	2-7	
+11-28	in	O	O	_	_	
+11-29	the	O	O	_	_	
+11-30	mirrors	B-ScrPart_mirror	O	_	_	
+11-31	.	O	O	_	_	
+
+#id=12
+#text=We looked great !
+12-1	We	B-ScrPart_customer	O	_	_	
+12-2	looked	O	B-ScrEv_customer_opinion	_	_	
+12-3	great	O	O	_	_	
+12-4	!	O	O	_	_	
+
+#id=13
+#text=We paid them for the haircuts , with a nice little tip added on , and left the shop . 
+13-1	We	B-ScrPart_customer	O	_	_	
+13-2	paid	O	B-ScrEv_pay	_	_	
+13-3	them	B-ScrPart_hairdresser	O	_	_	
+13-4	for	O	O	_	_	
+13-5	the	O	O	_	_	
+13-6	haircuts	B-ScrPart_haircut	O	webanno.custom.Corefchains_	11-27	
+13-7	,	O	O	_	_	
+13-8	with	O	O	_	_	
+13-9	a	O	O	_	_	
+13-10	nice	O	O	_	_	
+13-11	little	O	O	_	_	
+13-12	tip	B-ScrPart_tip	O	_	_	
+13-13	added	O	B-ScrEv_leave_tip	_	_	
+13-14	on	O	O	_	_	
+13-15	,	O	O	_	_	
+13-16	and	O	O	_	_	
+13-17	left	O	B-ScrEv_leave	_	_	
+13-18	the	O	O	_	_	
+13-19	shop	B-ScrPart_salon	O	_	_	
+13-20	.	O	O	_	_	
+

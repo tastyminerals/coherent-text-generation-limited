@@ -1,0 +1,433 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events
+#id=1
+#text=I waited in the airport until it was time for the passengers to board the plane .
+1-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+1-2	waited	O	O	B-ScrEv_wait	
+1-3	in	O	O	O	
+1-4	the	O	O	O	
+1-5	airport	B-webanno.custom.Participants_	B-ScrPart_airport	O	
+1-6	until	O	O	O	
+1-7	it	B-webanno.custom.Participants_	B-No_label	O	
+1-8	was	O	O	O	
+1-9	time	B-webanno.custom.Participants_	B-No_label	O	
+1-10	for	O	O	O	
+1-11	the	O	O	O	
+1-12	passengers	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+1-13	to	O	O	O	
+1-14	board	O	O	B-Evoking|B-ScrEv_board_plane	
+1-15	the	O	O	I-Evoking	
+1-16	plane	B-webanno.custom.Participants_	B-ScrPart_plane	I-Evoking	
+1-17	.	O	O	O	
+
+#id=2
+#text=I went up with the other passengers and stood in line .
+2-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+2-2	went	O	O	B-ScrEv_board_plane|B-ScrEv_board_plane	
+2-3	up	O	O	I-ScrEv_board_plane	
+2-4	with	O	O	O	
+2-5	the	O	O	O	
+2-6	other	O	O	O	
+2-7	passengers	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+2-8	and	O	O	O	
+2-9	stood	O	O	B-ScrEv_wait_boarding	
+2-10	in	O	O	O	
+2-11	line	B-webanno.custom.Participants_	B-SuppVComp	O	
+2-12	.	O	O	O	
+
+#id=3
+#text=We all had to show our boarding passes at the gate .
+3-1	We	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+3-2	all	O	O	O	
+3-3	had	O	O	O	
+3-4	to	O	O	O	
+3-5	show	O	O	B-ScrEv_present_boarding_pass	
+3-6	our	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+3-7	boarding	B-webanno.custom.Participants_	B-ScrPart_boarding_pass	O	
+3-8	passes	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_boarding_pass|B-ScrPart_boarding_pass	O	
+3-9	at	O	O	O	
+3-10	the	O	O	O	
+3-11	gate	B-webanno.custom.Participants_	B-ScrPart_terminal/gate	O	
+3-12	.	O	O	O	
+
+#id=4
+#text=Once we 'd done that , we were allowed to board a plane .
+4-1	Once	O	O	O	
+4-2	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+4-3	'd	O	O	O	
+4-4	done	O	O	B-ScrEv_present_boarding_pass	
+4-5	that	O	O	O	
+4-6	,	O	O	O	
+4-7	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+4-8	were	O	O	O	
+4-9	allowed	O	O	B-RelNScrEv	
+4-10	to	O	O	O	
+4-11	board	O	O	B-ScrEv_board_plane	
+4-12	a	O	O	O	
+4-13	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	
+4-14	.	O	O	O	
+
+#id=5
+#text=We all walked down a short hallway that connected the airport to the plane itself .
+5-1	We	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+5-2	all	O	O	O	
+5-3	walked	O	O	B-ScrEv_get_plane|B-ScrEv_get_plane	
+5-4	down	O	O	I-ScrEv_get_plane	
+5-5	a	O	O	O	
+5-6	short	O	O	O	
+5-7	hallway	B-webanno.custom.Participants_	B-ScrPart_other	O	
+5-8	that	O	O	O	
+5-9	connected	O	O	B-RelNScrEv	
+5-10	the	O	O	O	
+5-11	airport	B-webanno.custom.Participants_	B-ScrPart_airport	O	
+5-12	to	O	O	O	
+5-13	the	O	O	O	
+5-14	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	
+5-15	itself	B-webanno.custom.Participants_	B-No_label	O	
+5-16	.	O	O	O	
+
+#id=6
+#text=As we walked in the door of the plane , a stewardess and a pilot both said hello to us .
+6-1	As	O	O	O	
+6-2	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+6-3	walked	O	O	B-ScrEv_board_plane|B-ScrEv_board_plane	
+6-4	in	O	O	I-ScrEv_board_plane	
+6-5	the	O	O	O	
+6-6	door	B-webanno.custom.Participants_	B-ScrPart_other	O	
+6-7	of	O	O	O	
+6-8	the	O	O	O	
+6-9	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	
+6-10	,	O	O	O	
+6-11	a	O	O	O	
+6-12	stewardess	B-webanno.custom.Participants_	B-ScrPart_staff	O	
+6-13	and	O	O	O	
+6-14	a	O	O	O	
+6-15	pilot	B-webanno.custom.Participants_	B-ScrPart_staff	O	
+6-16	both	O	O	O	
+6-17	said	O	O	B-RelNScrEv	
+6-18	hello	B-webanno.custom.Participants_	B-SuppVComp	O	
+6-19	to	O	O	O	
+6-20	us	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+6-21	.	O	O	O	
+
+#id=7
+#text=I walked down the narrow aisle of the plane until I found my seat number , which was near the plane 's right wing .
+7-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+7-2	walked	O	O	B-ScrEv_other|B-ScrEv_other	
+7-3	down	O	O	I-ScrEv_other	
+7-4	the	O	O	O	
+7-5	narrow	O	O	O	
+7-6	aisle	B-webanno.custom.Participants_	B-ScrPart_other	O	
+7-7	of	O	O	O	
+7-8	the	O	O	O	
+7-9	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	
+7-10	until	O	O	O	
+7-11	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+7-12	found	O	O	B-RelNScrEv	
+7-13	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+7-14	seat	B-webanno.custom.Participants_	B-ScrPart_other	O	
+7-15	number	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_other|B-ScrPart_other	O	
+7-16	,	O	O	O	
+7-17	which	O	O	O	
+7-18	was	O	O	B-UnrelEv	
+7-19	near	O	O	O	
+7-20	the	O	O	O	
+7-21	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	
+7-22	's	O	O	O	
+7-23	right	O	O	O	
+7-24	wing	B-webanno.custom.Participants_	B-ScrPart_location_airplane_indoor	O	
+7-25	.	O	O	O	
+
+#id=8
+#text=I put the bag I was carrying in an overhead compartment near my seat and sat down next to the window .
+8-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+8-2	put	O	O	B-ScrEv_stow_away_luggage	
+8-3	the	O	O	O	
+8-4	bag	B-webanno.custom.Participants_	B-ScrPart_carry_on_luggage	O	
+8-5	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+8-6	was	O	O	O	
+8-7	carrying	O	O	B-UnrelEv	
+8-8	in	O	O	O	
+8-9	an	O	O	O	
+8-10	overhead	B-webanno.custom.Participants_	B-ScrPart_storage	O	
+8-11	compartment	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_storage|B-ScrPart_storage	O	
+8-12	near	O	O	O	
+8-13	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+8-14	seat	B-webanno.custom.Participants_	B-ScrPart_seat	O	
+8-15	and	O	O	O	
+8-16	sat	O	O	B-ScrEv_take_seat|B-ScrEv_take_seat	
+8-17	down	O	O	I-ScrEv_take_seat	
+8-18	next	O	O	O	
+8-19	to	O	O	O	
+8-20	the	O	O	O	
+8-21	window	B-webanno.custom.Participants_	B-ScrPart_other	O	
+8-22	.	O	O	O	
+
+#id=9
+#text=Soon the plane was taxiing to take off , which means that it was essentially driving to the runway .
+9-1	Soon	O	O	O	
+9-2	the	O	O	O	
+9-3	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	
+9-4	was	O	O	O	
+9-5	taxiing	O	O	B-ScrEv_take_off_preparations	
+9-6	to	O	O	O	
+9-7	take	O	O	B-ScrEv_take_off|B-ScrEv_take_off	
+9-8	off	O	O	I-ScrEv_take_off	
+9-9	,	O	O	O	
+9-10	which	O	O	O	
+9-11	means	O	O	B-UnrelEv	
+9-12	that	O	O	O	
+9-13	it	B-webanno.custom.Participants_	B-ScrPart_plane	O	
+9-14	was	O	O	B-UnrelEv	
+9-15	essentially	O	O	O	
+9-16	driving	O	O	B-ScrEv_take_off_preparations	
+9-17	to	O	O	O	
+9-18	the	O	O	O	
+9-19	runway	B-webanno.custom.Participants_	B-ScrPart_location_airplane	O	
+9-20	.	O	O	O	
+
+#id=10
+#text=Once there , the plane got the go ahead to take off .
+10-1	Once	O	O	O	
+10-2	there	O	O	O	
+10-3	,	O	O	O	
+10-4	the	O	O	O	
+10-5	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	
+10-6	got	O	O	B-ScrEv_take_off_preparations	
+10-7	the	O	O	O	
+10-8	go	B-webanno.custom.Participants_	B-No_label	O	
+10-9	ahead	I-webanno.custom.Participants_	I-No_label	O	
+10-10	to	O	O	O	
+10-11	take	O	O	B-ScrEv_take_off|B-ScrEv_take_off	
+10-12	off	O	O	I-ScrEv_take_off	
+10-13	.	O	O	O	
+
+#id=11
+#text=It started going really , really fast , and then suddenly it was off the ground and quickly gaining elevation .
+11-1	It	B-webanno.custom.Participants_	B-ScrPart_seat	O	
+11-2	started	O	O	B-UnrelEv	
+11-3	going	O	O	B-ScrEv_take_off_preparations	
+11-4	really	O	O	O	
+11-5	,	O	O	O	
+11-6	really	O	O	O	
+11-7	fast	O	O	O	
+11-8	,	O	O	O	
+11-9	and	O	O	O	
+11-10	then	O	O	O	
+11-11	suddenly	O	O	O	
+11-12	it	B-webanno.custom.Participants_	B-ScrPart_seat	O	
+11-13	was	O	O	B-ScrEv_take_off	
+11-14	off	O	O	O	
+11-15	the	O	O	O	
+11-16	ground	B-webanno.custom.Participants_	B-ScrPart_location_airplane	O	
+11-17	and	O	O	O	
+11-18	quickly	O	O	O	
+11-19	gaining	O	O	B-RelNScrEv	
+11-20	elevation	B-webanno.custom.Participants_	B-SuppVComp	O	
+11-21	.	O	O	O	
+
+#id=12
+#text=I looked out the window and saw the airport and the neighborhood nearby , the streets and cars and fields all get smaller and smaller , until they did n't look real anymore .
+12-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+12-2	looked	O	O	B-ScrEv_spend_time_flight	
+12-3	out	O	O	O	
+12-4	the	O	O	O	
+12-5	window	B-webanno.custom.Participants_	B-ScrPart_other	O	
+12-6	and	O	O	O	
+12-7	saw	O	O	B-UnrelEv	
+12-8	the	O	O	O	
+12-9	airport	B-webanno.custom.Participants_	B-ScrPart_airport	O	
+12-10	and	O	O	O	
+12-11	the	O	O	O	
+12-12	neighborhood	B-webanno.custom.Participants_	B-NPart	O	
+12-13	nearby	O	O	O	
+12-14	,	O	O	O	
+12-15	the	O	O	O	
+12-16	streets	B-webanno.custom.Participants_	B-NPart	O	
+12-17	and	O	O	O	
+12-18	cars	B-webanno.custom.Participants_	B-NPart	O	
+12-19	and	O	O	O	
+12-20	fields	B-webanno.custom.Participants_	B-NPart	O	
+12-21	all	O	O	O	
+12-22	get	O	O	B-UnrelEv	
+12-23	smaller	O	O	O	
+12-24	and	O	O	O	
+12-25	smaller	O	O	O	
+12-26	,	O	O	O	
+12-27	until	O	O	O	
+12-28	they	B-webanno.custom.Participants_	B-NPart	O	
+12-29	did	O	O	O	
+12-30	n't	O	O	O	
+12-31	look	O	O	B-UnrelEv	
+12-32	real	O	O	O	
+12-33	anymore	O	O	O	
+12-34	.	O	O	O	
+
+#id=13
+#text=My flight lasted a few hours .
+13-1	My	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+13-2	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	
+13-3	lasted	O	O	B-RelNScrEv	
+13-4	a	O	O	O	
+13-5	few	O	O	O	
+13-6	hours	B-webanno.custom.Participants_	B-ScrPart_time/date	O	
+13-7	.	O	O	O	
+
+#id=14
+#text=During that time the stewardesses passed around sodas , and people who wanted to eat ordered things like bags of peanuts .
+14-1	During	O	O	O	
+14-2	that	O	O	O	
+14-3	time	B-webanno.custom.Participants_	B-ScrPart_time/date	O	
+14-4	the	O	O	O	
+14-5	stewardesses	B-webanno.custom.Participants_	B-ScrPart_staff	O	
+14-6	passed	O	O	B-ScrEv_other	
+14-7	around	O	O	O	
+14-8	sodas	B-webanno.custom.Participants_	B-ScrPart_other	O	
+14-9	,	O	O	O	
+14-10	and	O	O	O	
+14-11	people	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+14-12	who	O	O	O	
+14-13	wanted	O	O	B-UnrelEv	
+14-14	to	O	O	O	
+14-15	eat	O	O	B-ScrEv_spend_time_flight	
+14-16	ordered	O	O	B-RelNScrEv	
+14-17	things	B-webanno.custom.Participants_	B-ScrPart_other	O	
+14-18	like	O	O	O	
+14-19	bags	B-webanno.custom.Participants_	B-Head_of_Partitive	O	
+14-20	of	O	O	O	
+14-21	peanuts	B-webanno.custom.Participants_	B-ScrPart_other	O	
+14-22	.	O	O	O	
+
+#id=15
+#text=I ate a granola bar I 'd taken with me and watched part of a movie that they were showing .
+15-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+15-2	ate	O	O	B-ScrEv_spend_time_flight	
+15-3	a	O	O	O	
+15-4	granola	B-webanno.custom.Participants_	B-ScrPart_other	O	
+15-5	bar	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_other|B-ScrPart_other	O	
+15-6	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+15-7	'd	O	O	O	
+15-8	taken	O	O	B-UnrelEv	
+15-9	with	O	O	O	
+15-10	me	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+15-11	and	O	O	O	
+15-12	watched	O	O	B-ScrEv_spend_time_flight	
+15-13	part	B-webanno.custom.Participants_	B-Head_of_Partitive	O	
+15-14	of	O	O	O	
+15-15	a	O	O	O	
+15-16	movie	B-webanno.custom.Participants_	B-ScrPart_in-flight_entertainment	O	
+15-17	that	O	O	O	
+15-18	they	B-webanno.custom.Participants_	B-ScrPart_staff	O	
+15-19	were	O	O	O	
+15-20	showing	O	O	B-RelNScrEv	
+15-21	.	O	O	O	
+
+#id=16
+#text=Finally it was time to land .
+16-1	Finally	O	O	O	
+16-2	it	B-webanno.custom.Participants_	B-No_label	O	
+16-3	was	O	O	B-UnrelEv	
+16-4	time	B-webanno.custom.Participants_	B-No_label	O	
+16-5	to	O	O	O	
+16-6	land	O	O	B-ScrEv_landing	
+16-7	.	O	O	O	
+
+#id=17
+#text=The plane started to descend , more and more .
+17-1	The	O	O	O	
+17-2	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	
+17-3	started	O	O	B-UnrelEv	
+17-4	to	O	O	O	
+17-5	descend	O	O	B-ScrEv_landing	
+17-6	,	O	O	O	
+17-7	more	O	O	O	
+17-8	and	O	O	O	
+17-9	more	O	O	O	
+17-10	.	O	O	O	
+
+#id=18
+#text=Finally its wheels touched the runway .
+18-1	Finally	O	O	O	
+18-2	its	B-webanno.custom.Participants_	B-ScrPart_plane	O	
+18-3	wheels	B-webanno.custom.Participants_	B-ScrPart_other	O	
+18-4	touched	O	O	B-RelNScrEv	
+18-5	the	O	O	O	
+18-6	runway	B-webanno.custom.Participants_	B-ScrPart_location_airplane	O	
+18-7	.	O	O	O	
+
+#id=19
+#text=It taxied for a while and then finally came to a stop .
+19-1	It	B-webanno.custom.Participants_	B-ScrPart_plane	O	
+19-2	taxied	O	O	B-ScrEv_landing	
+19-3	for	O	O	O	
+19-4	a	O	O	O	
+19-5	while	B-webanno.custom.Participants_	B-NPart	O	
+19-6	and	O	O	O	
+19-7	then	O	O	O	
+19-8	finally	O	O	O	
+19-9	came	O	O	B-ScrEv_landing	
+19-10	to	O	O	O	
+19-11	a	O	O	O	
+19-12	stop	B-webanno.custom.Participants_	B-SuppVComp	O	
+19-13	.	O	O	O	
+
+#id=20
+#text=People got up and got their bags from the overhead compartments .
+20-1	People	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+20-2	got	O	O	B-ScrEv_other|B-ScrEv_other	
+20-3	up	O	O	I-ScrEv_other	
+20-4	and	O	O	O	
+20-5	got	O	O	B-ScrEv_other	
+20-6	their	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+20-7	bags	B-webanno.custom.Participants_	B-ScrPart_carry_on_luggage	O	
+20-8	from	O	O	O	
+20-9	the	O	O	O	
+20-10	overhead	B-webanno.custom.Participants_	B-ScrPart_storage	O	
+20-11	compartments	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_storage|B-ScrPart_storage	O	
+20-12	.	O	O	O	
+
+#id=21
+#text=The aisle was very crowded at this point .
+21-1	The	O	O	O	
+21-2	aisle	B-webanno.custom.Participants_	B-ScrPart_other	O	
+21-3	was	O	O	B-UnrelEv	
+21-4	very	O	O	O	
+21-5	crowded	O	O	B-RelNScrEv	
+21-6	at	O	O	O	
+21-7	this	O	O	O	
+21-8	point	B-webanno.custom.Participants_	B-No_label	O	
+21-9	.	O	O	O	
+
+#id=22
+#text=When the doors were opened we all got out of the plane and made our way to the airport and , from there , to wherever we all were going . 
+22-1	When	O	O	O	
+22-2	the	O	O	O	
+22-3	doors	B-webanno.custom.Participants_	B-ScrPart_other	O	
+22-4	were	O	O	O	
+22-5	opened	O	O	B-ScrEv_other	
+22-6	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+22-7	all	O	O	O	
+22-8	got	O	O	B-ScrEv_exit_plane|B-ScrEv_exit_plane	
+22-9	out	O	O	I-ScrEv_exit_plane	
+22-10	of	O	O	O	
+22-11	the	O	O	O	
+22-12	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	
+22-13	and	O	O	O	
+22-14	made	O	O	B-ScrEv_get_destination_airport	
+22-15	our	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+22-16	way	B-webanno.custom.Participants_	B-No_label	O	
+22-17	to	O	O	O	
+22-18	the	O	O	O	
+22-19	airport	B-webanno.custom.Participants_	B-ScrPart_target_location	O	
+22-20	and	O	O	O	
+22-21	,	O	O	O	
+22-22	from	O	O	O	
+22-23	there	O	O	O	
+22-24	,	O	O	O	
+22-25	to	O	O	O	
+22-26	wherever	O	O	O	
+22-27	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+22-28	all	O	O	O	
+22-29	were	O	O	O	
+22-30	going	O	O	B-UnrelEv	
+22-31	.	O	O	O	
+

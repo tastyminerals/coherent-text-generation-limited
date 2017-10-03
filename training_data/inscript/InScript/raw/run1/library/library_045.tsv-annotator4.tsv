@@ -1,0 +1,227 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Using a school or public library is a great thing to do .
+1-1	Using	B-Evoking	O	_	_	
+1-2	a	I-Evoking	O	_	_	
+1-3	school	I-Evoking	O	_	_	
+1-4	or	I-Evoking	O	_	_	
+1-5	public	I-Evoking	O	_	_	
+1-6	library	I-Evoking	B-ScrPart_library	_	_	
+1-7	is	B-UnrelEv	O	_	_	
+1-8	a	O	O	_	_	
+1-9	great	O	O	_	_	
+1-10	thing	O	O	_	_	
+1-11	to	O	O	_	_	
+1-12	do	B-UnrelEv	O	_	_	
+1-13	.	O	O	_	_	
+
+#id=2
+#text=While I 'm at the library , I like to peruse the shelves and see if there is anything that catches my attention .
+2-1	While	O	O	_	_	
+2-2	I	O	B-ScrPart_customer	_	_	
+2-3	'm	B-UnrelEv	O	_	_	
+2-4	at	O	O	_	_	
+2-5	the	O	O	_	_	
+2-6	library	O	B-ScrPart_library	webanno.custom.Corefchains_	1-6	
+2-7	,	O	O	_	_	
+2-8	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	2-2	
+2-9	like	B-UnrelEv	O	_	_	
+2-10	to	O	O	_	_	
+2-11	peruse	B-RelNScrEv	O	_	_	
+2-12	the	O	O	_	_	
+2-13	shelves	O	B-ScrPart_shelf	_	_	
+2-14	and	O	O	_	_	
+2-15	see	B-ScrEv_look_for_book	O	_	_	
+2-16	if	O	O	_	_	
+2-17	there	O	O	_	_	
+2-18	is	B-UnrelEv	O	_	_	
+2-19	anything	O	B-ScrPart_book	_	_	
+2-20	that	O	B-ScrPart_book	webanno.custom.Corefchains_	2-19	
+2-21	catches	B-RelNScrEv	O	_	_	
+2-22	my	O	B-ScrPart_customer	webanno.custom.Corefchains_	2-8	
+2-23	attention	O	B-NPart	_	_	
+2-24	.	O	O	_	_	
+
+#id=3
+#text=If I do n't see anything I like , I can use the online catalog to find something that I either need or want .
+3-1	If	O	O	_	_	
+3-2	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	2-22	
+3-3	do	O	O	_	_	
+3-4	n't	O	O	_	_	
+3-5	see	B-UnrelEv	O	_	_	
+3-6	anything	O	B-ScrPart_book	webanno.custom.Corefchains_	2-20	
+3-7	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	3-2	
+3-8	like	B-RelNScrEv	O	_	_	
+3-9	,	O	O	_	_	
+3-10	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	3-7	
+3-11	can	O	O	_	_	
+3-12	use	B-ScrEv_check_catalog	O	_	_	
+3-13	the	O	O	_	_	
+3-14	online	O	O	_	_	
+3-15	catalog	O	B-ScrPart_catalog	_	_	
+3-16	to	O	O	_	_	
+3-17	find	B-ScrEv_look_for_book	O	_	_	
+3-18	something	O	B-ScrPart_book	webanno.custom.Corefchains_	3-6	
+3-19	that	O	B-ScrPart_book	webanno.custom.Corefchains_	3-18	
+3-20	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	3-10	
+3-21	either	O	O	_	_	
+3-22	need	B-RelNScrEv	O	_	_	
+3-23	or	O	O	_	_	
+3-24	want	B-RelNScrEv	O	_	_	
+3-25	.	O	O	_	_	
+
+#id=4
+#text=It 's simple to find books on the shelves if I write down the call number and follow the signs directing to that area .
+4-1	It	O	O	_	_	
+4-2	's	B-UnrelEv	O	_	_	
+4-3	simple	O	O	_	_	
+4-4	to	O	O	_	_	
+4-5	find	B-ScrEv_look_for_book	O	_	_	
+4-6	books	O	B-ScrPart_book	webanno.custom.Corefchains_	3-19	
+4-7	on	O	O	_	_	
+4-8	the	O	O	_	_	
+4-9	shelves	O	B-ScrPart_shelf	webanno.custom.Corefchains_	2-13	
+4-10	if	O	O	_	_	
+4-11	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	3-20	
+4-12	write	B-ScrEv_note_shelf	O	_	_	
+4-13	down	I-ScrEv_note_shelf	O	_	_	
+4-14	the	O	O	_	_	
+4-15	call	O	B-ScrPart_section_id	_	_	
+4-16	number	O	I-ScrPart_section_id	_	_	
+4-17	and	O	O	_	_	
+4-18	follow	B-ScrEv_get_shelf	O	_	_	
+4-19	the	O	O	_	_	
+4-20	signs	O	B-ScrPart_section_id	_	_	
+4-21	directing	B-RelNScrEv	O	_	_	
+4-22	to	O	O	_	_	
+4-23	that	O	O	_	_	
+4-24	area	O	B-ScrPart_location_library	_	_	
+4-25	.	O	O	_	_	
+
+#id=5
+#text=Once my book is in hand , I prepare by getting out my library card and heading toward the circulation desk .
+5-1	Once	O	O	_	_	
+5-2	my	O	B-ScrPart_customer	webanno.custom.Corefchains_	4-11	
+5-3	book	O	B-ScrPart_book	webanno.custom.Corefchains_	4-6	
+5-4	is	B-ScrEv_take_book	O	_	_	
+5-5	in	O	O	_	_	
+5-6	hand	O	O	_	_	
+5-7	,	O	O	_	_	
+5-8	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	5-2	
+5-9	prepare	B-UnrelEv	O	_	_	
+5-10	by	O	O	_	_	
+5-11	getting	B-RelNScrEv	O	_	_	
+5-12	out	I-RelNScrEv	O	_	_	
+5-13	my	O	B-ScrPart_customer	webanno.custom.Corefchains_	5-8	
+5-14	library	O	B-ScrPart_library_card	_	_	
+5-15	card	O	I-ScrPart_library_card|B-ScrPart_library_card	_	_	
+5-16	and	O	O	_	_	
+5-17	heading	B-ScrEv_go_check_out	O	_	_	
+5-18	toward	O	O	_	_	
+5-19	the	O	O	_	_	
+5-20	circulation	O	B-ScrPart_check-out_desk	_	_	
+5-21	desk	O	I-ScrPart_check-out_desk|B-ScrPart_check-out_desk	_	_	
+5-22	.	O	O	_	_	
+
+#id=6
+#text=Some libraries now have self-service checkout areas , while others still require you working with a clerk or librarian to check out .
+6-1	Some	O	O	_	_	
+6-2	libraries	O	B-ScrPart_library	webanno.custom.Corefchains_	2-6	
+6-3	now	O	O	_	_	
+6-4	have	B-RelNScrEv	O	_	_	
+6-5	self-service	O	B-ScrPart_institutional_devices	_	_	
+6-6	checkout	O	I-ScrPart_institutional_devices	_	_	
+6-7	areas	O	I-ScrPart_institutional_devices|B-ScrPart_institutional_devices	_	_	
+6-8	,	O	O	_	_	
+6-9	while	O	O	_	_	
+6-10	others	O	B-ScrPart_library	webanno.custom.Corefchains_	6-2	
+6-11	still	O	O	_	_	
+6-12	require	B-UnrelEv	O	_	_	
+6-13	you	O	B-ScrPart_customer	webanno.custom.Corefchains_	5-13	
+6-14	working	B-RelNScrEv	O	_	_	
+6-15	with	O	O	_	_	
+6-16	a	O	O	_	_	
+6-17	clerk	O	B-ScrPart_staff	_	_	
+6-18	or	O	O	_	_	
+6-19	librarian	O	B-ScrPart_staff	_	_	
+6-20	to	O	O	_	_	
+6-21	check	B-ScrEv_register	O	_	_	
+6-22	out	I-ScrEv_register	O	_	_	
+6-23	.	O	O	_	_	
+
+#id=7
+#text=At the self service kiosk , I scan my library card and then scan the barcode on my book .
+7-1	At	O	O	_	_	
+7-2	the	O	O	_	_	
+7-3	self	O	B-ScrPart_institutional_devices	_	_	
+7-4	service	O	I-ScrPart_institutional_devices	_	_	
+7-5	kiosk	O	I-ScrPart_institutional_devices|B-ScrPart_institutional_devices	webanno.custom.Corefchains_	6-7	
+7-6	,	O	O	_	_	
+7-7	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	6-13	
+7-8	scan	B-ScrEv_show_card	O	_	_	
+7-9	my	O	B-ScrPart_customer	webanno.custom.Corefchains_	7-7	
+7-10	library	O	B-ScrPart_library_card	_	_	
+7-11	card	O	I-ScrPart_library_card|B-ScrPart_library_card	webanno.custom.Corefchains_	5-15	
+7-12	and	O	O	_	_	
+7-13	then	O	O	_	_	
+7-14	scan	B-ScrEv_register	O	_	_	
+7-15	the	O	O	_	_	
+7-16	barcode	O	B-ScrPart_book_id	_	_	
+7-17	on	O	O	_	_	
+7-18	my	O	B-ScrPart_customer	webanno.custom.Corefchains_	7-9	
+7-19	book	O	B-ScrPart_book	webanno.custom.Corefchains_	5-3	
+7-20	.	O	O	_	_	
+
+#id=8
+#text=It 's quite simple and helps the line move more quickly than waiting at the circulation desk .
+8-1	It	O	O	_	_	
+8-2	's	B-UnrelEv	O	_	_	
+8-3	quite	O	O	_	_	
+8-4	simple	O	O	_	_	
+8-5	and	O	O	_	_	
+8-6	helps	B-UnrelEv	O	_	_	
+8-7	the	O	O	_	_	
+8-8	line	O	B-ScrPart_line	_	_	
+8-9	move	B-RelNScrEv	O	_	_	
+8-10	more	O	O	_	_	
+8-11	quickly	O	O	_	_	
+8-12	than	O	O	_	_	
+8-13	waiting	B-ScrEv_wait	O	_	_	
+8-14	at	O	O	_	_	
+8-15	the	O	O	_	_	
+8-16	circulation	O	B-ScrPart_check-out_desk	_	_	
+8-17	desk	O	I-ScrPart_check-out_desk|B-ScrPart_check-out_desk	webanno.custom.Corefchains_	5-21	
+8-18	.	O	O	_	_	
+
+#id=9
+#text=Once it is checkout out , I will get a reciept telling me when the book is due and I am free to go home with my book . 
+9-1	Once	O	O	_	_	
+9-2	it	O	O	_	_	
+9-3	is	B-UnrelEv	O	_	_	
+9-4	checkout	O	O	_	_	
+9-5	out	O	O	_	_	
+9-6	,	O	O	_	_	
+9-7	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	7-18	
+9-8	will	O	O	_	_	
+9-9	get	B-ScrEv_get_receipt	O	_	_	
+9-10	a	O	O	_	_	
+9-11	reciept	O	B-ScrPart_receipt	_	_	
+9-12	telling	B-RelNScrEv	O	_	_	
+9-13	me	O	B-ScrPart_customer	webanno.custom.Corefchains_	9-7	
+9-14	when	O	O	_	_	
+9-15	the	O	O	_	_	
+9-16	book	O	B-ScrPart_book	webanno.custom.Corefchains_	7-19	
+9-17	is	B-ScrEv_return_book	O	_	_	
+9-18	due	I-ScrEv_return_book	O	_	_	
+9-19	and	O	O	_	_	
+9-20	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	9-13	
+9-21	am	B-UnrelEv	O	_	_	
+9-22	free	O	O	_	_	
+9-23	to	O	O	_	_	
+9-24	go	B-ScrEv_leave	O	_	_	
+9-25	home	O	B-NPart	_	_	
+9-26	with	O	O	_	_	
+9-27	my	O	B-ScrPart_customer	webanno.custom.Corefchains_	9-20	
+9-28	book	O	B-ScrPart_book	webanno.custom.Corefchains_	9-16	
+9-29	.	O	O	_	_	
+

@@ -1,0 +1,208 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Event | Events
+#id=1
+#text=I was very excited to go visit my friend in the city .
+1-1	I	B-ScrPart_passenger	O	O	
+1-2	was	O	B-webanno.custom.Events_	B-UnrelEv	
+1-3	very	O	O	O	
+1-4	excited	O	O	O	
+1-5	to	O	O	O	
+1-6	go	O	O	O	
+1-7	visit	O	B-webanno.custom.Events_	B-RelNScrEv	
+1-8	my	B-ScrPart_passenger	O	O	
+1-9	friend	B-NPart	O	O	
+1-10	in	O	O	O	
+1-11	the	O	O	O	
+1-12	city	B-ScrPart_destination	O	O	
+1-13	.	O	O	O	
+
+#id=2
+#text=I needed to take a bus there so I went online the night before to plan my route .
+2-1	I	B-ScrPart_passenger	O	O	
+2-2	needed	O	O	O	
+2-3	to	O	O	O	
+2-4	take	O	B-webanno.custom.Events_	B-Evoking	
+2-5	a	O	I-webanno.custom.Events_	I-Evoking	
+2-6	bus	B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	
+2-7	there	O	O	O	
+2-8	so	O	O	O	
+2-9	I	B-ScrPart_passenger	O	O	
+2-10	went	O	B-webanno.custom.Events_	B-RelNScrEv	
+2-11	online	O	I-webanno.custom.Events_	I-RelNScrEv	
+2-12	the	O	O	O	
+2-13	night	B-NPart	O	O	
+2-14	before	O	O	O	
+2-15	to	O	O	O	
+2-16	plan	O	B-webanno.custom.Events_	B-ScrEv_check_time-table	
+2-17	my	B-ScrPart_passenger	O	O	
+2-18	route	B-ScrPart_route	O	O	
+2-19	.	O	O	O	
+
+#id=3
+#text=My parents dropped me off at the bus stop and i went to the ticket machine to get a Metrocard .
+3-1	My	B-ScrPart_passenger	O	O	
+3-2	parents	B-NPart	O	O	
+3-3	dropped	O	B-webanno.custom.Events_	B-ScrEv_get_bus_stop	
+3-4	me	B-ScrPart_passenger	O	O	
+3-5	off	O	O	O	
+3-6	at	O	O	O	
+3-7	the	O	O	O	
+3-8	bus	B-ScrPart_bus_stop	O	O	
+3-9	stop	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	O	
+3-10	and	O	O	O	
+3-11	i	B-ScrPart_passenger	O	O	
+3-12	went	O	B-webanno.custom.Events_	B-ScrEv_get_ticket	
+3-13	to	O	O	O	
+3-14	the	O	O	O	
+3-15	ticket	B-ScrPart_payment_machine	O	O	
+3-16	machine	I-ScrPart_payment_machine|B-ScrPart_payment_machine	O	O	
+3-17	to	O	O	O	
+3-18	get	O	B-webanno.custom.Events_	B-ScrEv_get_ticket	
+3-19	a	O	O	O	
+3-20	Metrocard	B-ScrPart_card/ticket	O	O	
+3-21	.	O	O	O	
+
+#id=4
+#text=I sat down on a bench and waited for the bus to arrive .
+4-1	I	B-ScrPart_passenger	O	O	
+4-2	sat	O	B-webanno.custom.Events_	B-RelNScrEv	
+4-3	down	O	I-webanno.custom.Events_	I-RelNScrEv	
+4-4	on	O	O	O	
+4-5	a	O	O	O	
+4-6	bench	B-NPart	O	O	
+4-7	and	O	O	O	
+4-8	waited	O	B-webanno.custom.Events_	B-ScrEv_wait	
+4-9	for	O	O	O	
+4-10	the	O	O	O	
+4-11	bus	B-ScrPart_bus	O	O	
+4-12	to	O	O	O	
+4-13	arrive	O	B-webanno.custom.Events_	B-ScrEv_bus_comes	
+4-14	.	O	O	O	
+
+#id=5
+#text=After a few minutes the big bus arrived and opened its doors .
+5-1	After	O	O	O	
+5-2	a	O	O	O	
+5-3	few	O	O	O	
+5-4	minutes	B-ScrPart_time/date	O	O	
+5-5	the	O	O	O	
+5-6	big	O	O	O	
+5-7	bus	B-ScrPart_bus	O	O	
+5-8	arrived	O	B-webanno.custom.Events_	B-ScrEv_bus_comes	
+5-9	and	O	O	O	
+5-10	opened	O	B-webanno.custom.Events_	B-ScrEv_door_opens	
+5-11	its	B-ScrPart_bus	O	O	
+5-12	doors	B-ScrPart_door	O	O	
+5-13	.	O	O	O	
+
+#id=6
+#text=As I walked up the stairs I said hello to the bus driver .
+6-1	As	O	O	O	
+6-2	I	B-ScrPart_passenger	O	O	
+6-3	walked	O	B-webanno.custom.Events_	B-ScrEv_board_bus	
+6-4	up	O	O	O	
+6-5	the	O	O	O	
+6-6	stairs	B-NPart	O	O	
+6-7	I	B-ScrPart_passenger	O	O	
+6-8	said	O	B-webanno.custom.Events_	B-RelNScrEv	
+6-9	hello	O	O	O	
+6-10	to	O	O	O	
+6-11	the	O	O	O	
+6-12	bus	B-ScrPart_bus_staff	O	O	
+6-13	driver	I-ScrPart_bus_staff|B-ScrPart_bus_staff	O	O	
+6-14	.	O	O	O	
+
+#id=7
+#text=I took out my Metrocard and swiped it in the slot .
+7-1	I	B-ScrPart_passenger	O	O	
+7-2	took	O	B-webanno.custom.Events_	B-RelNScrEv	
+7-3	out	O	I-webanno.custom.Events_	I-RelNScrEv	
+7-4	my	B-ScrPart_passenger	O	O	
+7-5	Metrocard	B-ScrPart_card/ticket	O	O	
+7-6	and	O	O	O	
+7-7	swiped	O	B-webanno.custom.Events_	B-RelNScrEv	
+7-8	it	B-ScrPart_card/ticket	O	O	
+7-9	in	O	O	O	
+7-10	the	O	O	O	
+7-11	slot	B-NPart	O	O	
+7-12	.	O	O	O	
+
+#id=8
+#text=I asked the driver how long until my stop and he said it was the fifth stop and would take about forty minutes .
+8-1	I	B-ScrPart_passenger	O	O	
+8-2	asked	O	B-webanno.custom.Events_	B-RelNScrEv	
+8-3	the	O	O	O	
+8-4	driver	B-ScrPart_bus_staff	O	O	
+8-5	how	O	O	O	
+8-6	long	O	O	O	
+8-7	until	O	O	O	
+8-8	my	B-ScrPart_passenger	O	O	
+8-9	stop	B-ScrPart_bus_stop	O	O	
+8-10	and	O	O	O	
+8-11	he	B-ScrPart_bus_staff	O	O	
+8-12	said	O	B-webanno.custom.Events_	B-RelNScrEv	
+8-13	it	B-No_label	O	O	
+8-14	was	O	B-webanno.custom.Events_	B-UnrelEv	
+8-15	the	O	O	O	
+8-16	fifth	O	O	O	
+8-17	stop	B-ScrPart_bus_stop	O	O	
+8-18	and	O	O	O	
+8-19	would	O	O	O	
+8-20	take	O	B-webanno.custom.Events_	B-ScrEv_ride	
+8-21	about	O	O	O	
+8-22	forty	O	O	O	
+8-23	minutes	B-ScrPart_time/date	O	O	
+8-24	.	O	O	O	
+
+#id=9
+#text=After forty minutes it was time for me to get off the bus .
+9-1	After	O	O	O	
+9-2	forty	O	O	O	
+9-3	minutes	B-ScrPart_time/date	O	O	
+9-4	it	B-No_label	O	O	
+9-5	was	O	B-webanno.custom.Events_	B-UnrelEv	
+9-6	time	B-No_label	O	O	
+9-7	for	O	O	O	
+9-8	me	B-ScrPart_passenger	O	O	
+9-9	to	O	O	O	
+9-10	get	O	B-webanno.custom.Events_	B-ScrEv_get_off	
+9-11	off	O	I-webanno.custom.Events_	I-ScrEv_get_off	
+9-12	the	O	O	O	
+9-13	bus	B-ScrPart_bus	O	O	
+9-14	.	O	O	O	
+
+#id=10
+#text=the bus driver told me to have a good day and I got off the bus .
+10-1	the	O	O	O	
+10-2	bus	B-ScrPart_bus_staff	O	O	
+10-3	driver	I-ScrPart_bus_staff|B-ScrPart_bus_staff	O	O	
+10-4	told	O	B-webanno.custom.Events_	B-RelNScrEv	
+10-5	me	B-ScrPart_passenger	O	O	
+10-6	to	O	O	O	
+10-7	have	O	B-webanno.custom.Events_	B-UnrelEv	
+10-8	a	O	O	O	
+10-9	good	O	O	O	
+10-10	day	B-NPart	O	O	
+10-11	and	O	O	O	
+10-12	I	B-ScrPart_passenger	O	O	
+10-13	got	O	B-webanno.custom.Events_	B-ScrEv_get_off	
+10-14	off	O	I-webanno.custom.Events_	I-ScrEv_get_off	
+10-15	the	O	O	O	
+10-16	bus	B-ScrPart_bus	O	O	
+10-17	.	O	O	O	
+
+#id=11
+#text=I could see my friend Mickey waving to me across the street . 
+11-1	I	B-ScrPart_passenger	O	O	
+11-2	could	O	O	O	
+11-3	see	O	B-webanno.custom.Events_	B-UnrelEv	
+11-4	my	B-ScrPart_passenger	O	O	
+11-5	friend	B-NPart	O	O	
+11-6	Mickey	I-NPart	O	O	
+11-7	waving	O	B-webanno.custom.Events_	B-UnrelEv	
+11-8	to	O	O	O	
+11-9	me	B-ScrPart_passenger	O	O	
+11-10	across	O	O	O	
+11-11	the	O	O	O	
+11-12	street	B-NPart	O	O	
+11-13	.	O	O	O	
+

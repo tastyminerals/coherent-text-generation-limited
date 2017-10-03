@@ -1,0 +1,223 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Recently , my kids reminded me that Arbor Day was approaching .
+1-1	Recently	O	O	_	_	
+1-2	,	O	O	_	_	
+1-3	my	B-ScrPart_gardener	O	group_I_kids	2-25	
+1-4	kids	B-ScrPart_gardener	O	group_I_kids	2-25	
+1-5	reminded	O	B-UnrelEv	_	_	
+1-6	me	B-ScrPart_gardener	O	webanno.custom.Corefchains_	1-3	
+1-7	that	O	O	_	_	
+1-8	Arbor	O	O	_	_	
+1-9	Day	O	O	_	_	
+1-10	was	O	O	_	_	
+1-11	approaching	O	B-UnrelEv	_	_	
+1-12	.	O	O	_	_	
+
+#id=2
+#text=I always wanted to do something in honor of my mom , and why not plant a tree that I could watch grow in our backyard .
+2-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	1-6	
+2-2	always	O	O	_	_	
+2-3	wanted	O	O	_	_	
+2-4	to	O	O	_	_	
+2-5	do	O	B-UnrelEv	_	_	
+2-6	something	O	O	_	_	
+2-7	in	O	O	_	_	
+2-8	honor	O	O	_	_	
+2-9	of	O	O	_	_	
+2-10	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	2-1	
+2-11	mom	O	O	_	_	
+2-12	,	O	O	_	_	
+2-13	and	O	O	_	_	
+2-14	why	O	O	_	_	
+2-15	not	O	O	_	_	
+2-16	plant	O	B-Evoking	_	_	
+2-17	a	O	I-Evoking	_	_	
+2-18	tree	B-ScrPart_tree	I-Evoking	_	_	
+2-19	that	O	O	_	_	
+2-20	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	2-10	
+2-21	could	O	O	_	_	
+2-22	watch	O	B-UnrelEv	_	_	
+2-23	grow	O	B-RelNScrEv	_	_	
+2-24	in	O	O	_	_	
+2-25	our	B-ScrPart_gardener	O	_	_	
+2-26	backyard	B-NPart	O	_	_	
+2-27	.	O	O	_	_	
+
+#id=3
+#text=The tree would help with the Arbor Day festivities , as well as be a memory tree that is in dedication of my mom .
+3-1	The	O	O	_	_	
+3-2	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	2-18	
+3-3	would	O	O	_	_	
+3-4	help	O	B-UnrelEv	_	_	
+3-5	with	O	O	_	_	
+3-6	the	O	O	_	_	
+3-7	Arbor	O	O	_	_	
+3-8	Day	O	O	_	_	
+3-9	festivities	O	O	_	_	
+3-10	,	O	O	_	_	
+3-11	as	O	O	_	_	
+3-12	well	O	O	_	_	
+3-13	as	O	O	_	_	
+3-14	be	O	B-UnrelEv	_	_	
+3-15	a	O	O	_	_	
+3-16	memory	B-ScrPart_tree	O	_	_	
+3-17	tree	I-ScrPart_tree|B-ScrPart_tree	O	webanno.custom.Corefchains_	3-2	
+3-18	that	O	O	_	_	
+3-19	is	O	B-UnrelEv	_	_	
+3-20	in	O	O	_	_	
+3-21	dedication	O	O	_	_	
+3-22	of	O	O	_	_	
+3-23	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	2-20	
+3-24	mom	O	O	_	_	
+3-25	.	O	O	_	_	
+
+#id=4
+#text=We went to our local home improvement store in search of the perfect tree for our task .
+4-1	We	B-ScrPart_gardener	O	webanno.custom.Corefchains_	2-25	
+4-2	went	O	B-RelNScrEv	_	_	
+4-3	to	O	O	_	_	
+4-4	our	O	O	_	_	
+4-5	local	O	O	_	_	
+4-6	home	B-ScrPart_shop	O	_	_	
+4-7	improvement	I-ScrPart_shop	O	_	_	
+4-8	store	I-ScrPart_shop|B-ScrPart_shop	O	_	_	
+4-9	in	O	O	_	_	
+4-10	search	O	O	_	_	
+4-11	of	O	O	_	_	
+4-12	the	O	O	_	_	
+4-13	perfect	O	O	_	_	
+4-14	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	3-17	
+4-15	for	O	O	_	_	
+4-16	our	O	O	_	_	
+4-17	task	O	O	_	_	
+4-18	.	O	O	_	_	
+
+#id=5
+#text=The kids decided that we should have some sort of fruit tree , and what better tree than an orange tree , because after all we do live in Florida .
+5-1	The	O	O	_	_	
+5-2	kids	B-ScrPart_gardener	O	webanno.custom.Corefchains_	1-4	
+5-3	decided	O	B-ScrEv_choose_tree	_	_	
+5-4	that	O	O	_	_	
+5-5	we	B-ScrPart_gardener	O	webanno.custom.Corefchains_	4-1	
+5-6	should	O	O	_	_	
+5-7	have	O	B-UnrelEv	_	_	
+5-8	some	O	O	_	_	
+5-9	sort	O	O	_	_	
+5-10	of	O	O	_	_	
+5-11	fruit	B-ScrPart_tree	O	_	_	
+5-12	tree	I-ScrPart_tree|B-ScrPart_tree	O	webanno.custom.Corefchains_	4-14	
+5-13	,	O	O	_	_	
+5-14	and	O	O	_	_	
+5-15	what	O	O	_	_	
+5-16	better	O	O	_	_	
+5-17	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	5-12	
+5-18	than	O	O	_	_	
+5-19	an	O	O	_	_	
+5-20	orange	B-ScrPart_tree	O	_	_	
+5-21	tree	I-ScrPart_tree|B-ScrPart_tree	O	webanno.custom.Corefchains_	5-17	
+5-22	,	O	O	_	_	
+5-23	because	O	O	_	_	
+5-24	after	O	O	_	_	
+5-25	all	O	O	_	_	
+5-26	we	B-ScrPart_gardener	O	webanno.custom.Corefchains_	5-5	
+5-27	do	O	O	_	_	
+5-28	live	O	B-UnrelEv	_	_	
+5-29	in	O	O	_	_	
+5-30	Florida	O	O	_	_	
+5-31	.	O	O	_	_	
+
+#id=6
+#text=Once we got the tree , a worker assisted us in loading the tree onto my truck , and home bound we were .
+6-1	Once	O	O	_	_	
+6-2	we	B-ScrPart_gardener	O	webanno.custom.Corefchains_	5-26	
+6-3	got	O	B-ScrEv_get_tree	_	_	
+6-4	the	O	O	_	_	
+6-5	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	5-21	
+6-6	,	O	O	_	_	
+6-7	a	O	O	_	_	
+6-8	worker	B-ScrPart_staff	O	_	_	
+6-9	assisted	O	B-UnrelEv	_	_	
+6-10	us	B-ScrPart_gardener	O	webanno.custom.Corefchains_	6-2	
+6-11	in	O	O	_	_	
+6-12	loading	O	B-RelNScrEv	_	_	
+6-13	the	O	O	_	_	
+6-14	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	6-5	
+6-15	onto	O	O	_	_	
+6-16	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	3-23	
+6-17	truck	B-NPart	O	_	_	
+6-18	,	O	O	_	_	
+6-19	and	O	O	_	_	
+6-20	home	O	O	_	_	
+6-21	bound	O	O	_	_	
+6-22	we	B-ScrPart_gardener	O	webanno.custom.Corefchains_	6-10	
+6-23	were	O	B-UnrelEv	_	_	
+6-24	.	O	O	_	_	
+
+#id=7
+#text=Once we got home , we decided on a spot for the tree , and began to dig a hole to place the tree into .
+7-1	Once	O	O	_	_	
+7-2	we	B-ScrPart_gardener	O	webanno.custom.Corefchains_	6-22	
+7-3	got	O	B-RelNScrEv	_	_	
+7-4	home	B-NPart	O	_	_	
+7-5	,	O	O	_	_	
+7-6	we	B-ScrPart_gardener	O	webanno.custom.Corefchains_	7-2	
+7-7	decided	O	B-ScrEv_find_place	_	_	
+7-8	on	O	O	_	_	
+7-9	a	O	O	_	_	
+7-10	spot	B-ScrPart_location_garden	O	_	_	
+7-11	for	O	O	_	_	
+7-12	the	O	O	_	_	
+7-13	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	6-14	
+7-14	,	O	O	_	_	
+7-15	and	O	O	_	_	
+7-16	began	O	O	_	_	
+7-17	to	O	O	_	_	
+7-18	dig	O	B-ScrEv_dug_hole	_	_	
+7-19	a	O	O	_	_	
+7-20	hole	B-ScrPart_hole	O	_	_	
+7-21	to	O	O	_	_	
+7-22	place	O	B-ScrEv_place_root	_	_	
+7-23	the	O	O	_	_	
+7-24	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	7-13	
+7-25	into	O	O	_	_	
+7-26	.	O	O	_	_	
+
+#id=8
+#text=We placed the tree in the hole , and then covered back up the hole .
+8-1	We	B-ScrPart_gardener	O	webanno.custom.Corefchains_	7-6	
+8-2	placed	O	B-ScrEv_place_root	_	_	
+8-3	the	O	O	_	_	
+8-4	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	7-24	
+8-5	in	O	O	_	_	
+8-6	the	O	O	_	_	
+8-7	hole	B-ScrPart_hole	O	webanno.custom.Corefchains_	7-20	
+8-8	,	O	O	_	_	
+8-9	and	O	O	_	_	
+8-10	then	O	O	_	_	
+8-11	covered	O	B-ScrEv_refill_hole	_	_	
+8-12	back	O	O	_	_	
+8-13	up	O	O	_	_	
+8-14	the	O	O	_	_	
+8-15	hole	B-ScrPart_hole	O	webanno.custom.Corefchains_	8-7	
+8-16	.	O	O	_	_	
+
+#id=9
+#text=We then watered the tree , and the process of watching the tree grow began . 
+9-1	We	B-ScrPart_gardener	O	webanno.custom.Corefchains_	8-1	
+9-2	then	O	O	_	_	
+9-3	watered	O	B-ScrEv_water	_	_	
+9-4	the	O	O	_	_	
+9-5	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	8-4	
+9-6	,	O	O	_	_	
+9-7	and	O	O	_	_	
+9-8	the	O	O	_	_	
+9-9	process	O	O	_	_	
+9-10	of	O	O	_	_	
+9-11	watching	O	B-UnrelEv	_	_	
+9-12	the	O	O	_	_	
+9-13	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	9-5	
+9-14	grow	O	B-RelNScrEv	_	_	
+9-15	began	O	B-UnrelEv	_	_	
+9-16	.	O	O	_	_	
+

@@ -1,0 +1,289 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Borrowing a book from the library is a big responsibility .
+1-1	Borrowing	B-Evoking	O	_	_	
+1-2	a	I-Evoking	O	_	_	
+1-3	book	I-Evoking	B-ScrPart_book	_	_	
+1-4	from	I-Evoking	O	_	_	
+1-5	the	I-Evoking	O	_	_	
+1-6	library	I-Evoking	B-ScrPart_library	_	_	
+1-7	is	B-UnrelEv	O	_	_	
+1-8	a	O	O	_	_	
+1-9	big	O	O	_	_	
+1-10	responsibility	O	O	_	_	
+1-11	.	O	O	_	_	
+
+#id=2
+#text=I got my first library card when I was in middle school .
+2-1	I	O	B-ScrPart_customer	_	_	
+2-2	got	B-UnrelEv	O	_	_	
+2-3	my	O	B-ScrPart_customer	webanno.custom.Corefchains_	2-1	
+2-4	first	O	O	_	_	
+2-5	library	O	B-ScrPart_library_card	_	_	
+2-6	card	O	I-ScrPart_library_card|B-ScrPart_library_card	_	_	
+2-7	when	O	O	_	_	
+2-8	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	2-3	
+2-9	was	B-UnrelEv	O	_	_	
+2-10	in	O	O	_	_	
+2-11	middle	O	O	_	_	
+2-12	school	O	O	_	_	
+2-13	.	O	O	_	_	
+
+#id=3
+#text=I could go right down the street from my house and explore everything the library had to offer .
+3-1	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	2-8	
+3-2	could	O	O	_	_	
+3-3	go	B-ScrEv_get_library	O	_	_	
+3-4	right	O	O	_	_	
+3-5	down	O	O	_	_	
+3-6	the	O	O	_	_	
+3-7	street	O	B-NPart	_	_	
+3-8	from	O	O	_	_	
+3-9	my	O	B-ScrPart_customer	webanno.custom.Corefchains_	3-1	
+3-10	house	O	B-NPart	_	_	
+3-11	and	O	O	_	_	
+3-12	explore	B-RelNScrEv	O	_	_	
+3-13	everything	O	B-???	_	_	
+3-14	the	O	O	_	_	
+3-15	library	O	B-ScrPart_library	webanno.custom.Corefchains_	1-6	
+3-16	had	O	O	_	_	
+3-17	to	O	O	_	_	
+3-18	offer	B-UnrelEv	O	_	_	
+3-19	.	O	O	_	_	
+
+#id=4
+#text=My library has books , magazines , computers , movies , anything I need .
+4-1	My	O	B-ScrPart_customer	webanno.custom.Corefchains_	3-9	
+4-2	library	O	B-ScrPart_library	webanno.custom.Corefchains_	3-15	
+4-3	has	B-UnrelEv	O	_	_	
+4-4	books	O	B-ScrPart_book	webanno.custom.Corefchains_	1-3	
+4-5	,	O	O	_	_	
+4-6	magazines	O	O	_	_	
+4-7	,	O	O	_	_	
+4-8	computers	O	O	_	_	
+4-9	,	O	O	_	_	
+4-10	movies	O	O	_	_	
+4-11	,	O	O	_	_	
+4-12	anything	O	O	_	_	
+4-13	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	4-1	
+4-14	need	B-UnrelEv	O	_	_	
+4-15	.	O	O	_	_	
+
+#id=5
+#text=I was searching for a book around Halloween that had some fun ghost stories .
+5-1	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	4-13	
+5-2	was	O	O	_	_	
+5-3	searching	B-ScrEv_look_for_book	O	_	_	
+5-4	for	O	O	_	_	
+5-5	a	O	O	_	_	
+5-6	book	O	B-ScrPart_book	group_books	4-4	
+5-7	around	O	O	_	_	
+5-8	Halloween	O	B-NPart	_	_	
+5-9	that	O	O	_	_	
+5-10	had	B-UnrelEv	O	_	_	
+5-11	some	O	O	_	_	
+5-12	fun	O	O	_	_	
+5-13	ghost	O	O	_	_	
+5-14	stories	O	O	_	_	
+5-15	.	O	O	_	_	
+
+#id=6
+#text=My library had the exact book I wanted !
+6-1	My	O	B-ScrPart_customer	webanno.custom.Corefchains_	5-1	
+6-2	library	O	B-ScrPart_library	webanno.custom.Corefchains_	4-2	
+6-3	had	B-UnrelEv	O	_	_	
+6-4	the	O	O	_	_	
+6-5	exact	O	O	_	_	
+6-6	book	O	B-ScrPart_book	webanno.custom.Corefchains_	5-6	
+6-7	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	6-1	
+6-8	wanted	O	O	_	_	
+6-9	!	O	O	_	_	
+
+#id=7
+#text=The library also had some others .
+7-1	The	O	O	_	_	
+7-2	library	O	B-ScrPart_library	webanno.custom.Corefchains_	6-2	
+7-3	also	O	O	_	_	
+7-4	had	B-UnrelEv	O	_	_	
+7-5	some	O	O	_	_	
+7-6	others	O	B-ScrPart_book	webanno.custom.Corefchains_	4-4	
+7-7	.	O	O	_	_	
+
+#id=8
+#text=I sat around a table with my pile of books and looked through them .
+8-1	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	6-7	
+8-2	sat	B-RelNScrEv	O	_	_	
+8-3	around	O	O	_	_	
+8-4	a	O	O	_	_	
+8-5	table	O	B-ScrPart_reading_area_furniture	_	_	
+8-6	with	O	O	_	_	
+8-7	my	O	B-ScrPart_customer	webanno.custom.Corefchains_	8-1	
+8-8	pile	O	B-NPart	_	_	
+8-9	of	O	O	_	_	
+8-10	books	O	B-ScrPart_book	webanno.custom.Corefchains_	7-6	
+8-11	and	O	O	_	_	
+8-12	looked	B-RelNScrEv	O	_	_	
+8-13	through	O	O	_	_	
+8-14	them	O	B-ScrPart_book	webanno.custom.Corefchains_	8-10	
+8-15	.	O	O	_	_	
+
+#id=9
+#text=Finally , I could n't resist and I went to the counter with the book I had come there for .
+9-1	Finally	O	O	_	_	
+9-2	,	O	O	_	_	
+9-3	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	8-7	
+9-4	could	O	O	_	_	
+9-5	n't	O	O	_	_	
+9-6	resist	B-UnrelEv	O	_	_	
+9-7	and	O	O	_	_	
+9-8	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	9-3	
+9-9	went	B-ScrEv_go_check_out	O	_	_	
+9-10	to	O	O	_	_	
+9-11	the	O	O	_	_	
+9-12	counter	O	B-ScrPart_check-out_desk	_	_	
+9-13	with	O	O	_	_	
+9-14	the	O	O	_	_	
+9-15	book	O	B-ScrPart_book	webanno.custom.Corefchains_	6-6	
+9-16	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	9-8	
+9-17	had	O	O	_	_	
+9-18	come	B-ScrEv_get_library	O	_	_	
+9-19	there	O	B-ScrPart_library	webanno.custom.Corefchains_	7-2	
+9-20	for	O	O	_	_	
+9-21	.	O	O	_	_	
+
+#id=10
+#text=The librarian was really nice as she took my card and typed into her computer .
+10-1	The	O	O	_	_	
+10-2	librarian	O	B-ScrPart_staff	_	_	
+10-3	was	B-UnrelEv	O	_	_	
+10-4	really	O	O	_	_	
+10-5	nice	O	O	_	_	
+10-6	as	O	O	_	_	
+10-7	she	O	B-ScrPart_staff	webanno.custom.Corefchains_	10-2	
+10-8	took	B-ScrEv_show_card	O	_	_	
+10-9	my	O	B-ScrPart_customer	webanno.custom.Corefchains_	9-16	
+10-10	card	O	B-ScrPart_library_card	webanno.custom.Corefchains_	2-6	
+10-11	and	O	O	_	_	
+10-12	typed	B-RelNScrEv	O	_	_	
+10-13	into	O	O	_	_	
+10-14	her	O	B-ScrPart_staff	webanno.custom.Corefchains_	10-7	
+10-15	computer	O	B-ScrPart_institutional_devices	_	_	
+10-16	.	O	O	_	_	
+
+#id=11
+#text=I checked the book out for two weeks .
+11-1	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	10-9	
+11-2	checked	B-ScrEv_register	O	_	_	
+11-3	the	O	O	_	_	
+11-4	book	O	B-ScrPart_book	webanno.custom.Corefchains_	9-15	
+11-5	out	O	O	_	_	
+11-6	for	O	O	_	_	
+11-7	two	O	O	_	_	
+11-8	weeks	O	B-NPart	_	_	
+11-9	.	O	O	_	_	
+
+#id=12
+#text=This would give me plenty of time to enjoy it and best of all , the librarian let me know I could check it out for even longer if I needed to .
+12-1	This	O	O	_	_	
+12-2	would	O	O	_	_	
+12-3	give	B-UnrelEv	O	_	_	
+12-4	me	O	B-ScrPart_customer	webanno.custom.Corefchains_	11-1	
+12-5	plenty	O	O	_	_	
+12-6	of	O	O	_	_	
+12-7	time	O	O	_	_	
+12-8	to	O	O	_	_	
+12-9	enjoy	B-UnrelEv	O	_	_	
+12-10	it	O	B-ScrPart_book	webanno.custom.Corefchains_	11-4	
+12-11	and	O	O	_	_	
+12-12	best	O	O	_	_	
+12-13	of	O	O	_	_	
+12-14	all	O	O	_	_	
+12-15	,	O	O	_	_	
+12-16	the	O	O	_	_	
+12-17	librarian	O	B-ScrPart_staff	webanno.custom.Corefchains_	10-14	
+12-18	let	B-UnrelEv	O	_	_	
+12-19	me	O	B-ScrPart_customer	webanno.custom.Corefchains_	12-4	
+12-20	know	B-UnrelEv	O	_	_	
+12-21	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	12-19	
+12-22	could	O	O	_	_	
+12-23	check	B-ScrEv_register	O	_	_	
+12-24	it	O	B-ScrPart_book	webanno.custom.Corefchains_	12-10	
+12-25	out	O	O	_	_	
+12-26	for	O	O	_	_	
+12-27	even	O	O	_	_	
+12-28	longer	O	O	_	_	
+12-29	if	O	O	_	_	
+12-30	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	12-21	
+12-31	needed	B-UnrelEv	O	_	_	
+12-32	to	O	O	_	_	
+12-33	.	O	O	_	_	
+
+#id=13
+#text=I would just have to bring the book back on the due date and have it scanned out again .
+13-1	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	12-30	
+13-2	would	O	O	_	_	
+13-3	just	O	O	_	_	
+13-4	have	O	O	_	_	
+13-5	to	O	O	_	_	
+13-6	bring	B-RelNScrEv	O	_	_	
+13-7	the	O	O	_	_	
+13-8	book	O	B-ScrPart_book	webanno.custom.Corefchains_	12-24	
+13-9	back	O	O	_	_	
+13-10	on	O	O	_	_	
+13-11	the	O	O	_	_	
+13-12	due	O	B-ScrPart_return_date	_	_	
+13-13	date	O	I-ScrPart_return_date|B-ScrPart_return_date	_	_	
+13-14	and	O	O	_	_	
+13-15	have	O	O	_	_	
+13-16	it	O	B-ScrPart_book	webanno.custom.Corefchains_	13-8	
+13-17	scanned	B-ScrEv_register	O	_	_	
+13-18	out	I-ScrEv_register	O	_	_	
+13-19	again	O	O	_	_	
+13-20	.	O	O	_	_	
+
+#id=14
+#text=I took great care of my book and returned it on time .
+14-1	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	13-1	
+14-2	took	B-UnrelEv	O	_	_	
+14-3	great	O	O	_	_	
+14-4	care	O	B-SuppVComp	_	_	
+14-5	of	O	O	_	_	
+14-6	my	O	B-ScrPart_customer	webanno.custom.Corefchains_	14-1	
+14-7	book	O	B-ScrPart_book	webanno.custom.Corefchains_	13-16	
+14-8	and	O	O	_	_	
+14-9	returned	B-RelNScrEv	O	_	_	
+14-10	it	O	B-ScrPart_book	webanno.custom.Corefchains_	14-7	
+14-11	on	O	O	_	_	
+14-12	time	O	O	_	_	
+14-13	.	O	O	_	_	
+
+#id=15
+#text=Libraries provide a great service to me and my community and I 'm thankful I can go there and always find what I want to read . 
+15-1	Libraries	O	B-ScrPart_library	webanno.custom.Corefchains_	9-19	
+15-2	provide	B-UnrelEv	O	_	_	
+15-3	a	O	O	_	_	
+15-4	great	O	O	_	_	
+15-5	service	O	O	_	_	
+15-6	to	O	O	_	_	
+15-7	me	O	B-ScrPart_customer	webanno.custom.Corefchains_	14-6	
+15-8	and	O	O	_	_	
+15-9	my	O	B-ScrPart_customer	webanno.custom.Corefchains_	15-7	
+15-10	community	O	O	_	_	
+15-11	and	O	O	_	_	
+15-12	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	15-9	
+15-13	'm	B-UnrelEv	O	_	_	
+15-14	thankful	O	O	_	_	
+15-15	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	15-12	
+15-16	can	O	O	_	_	
+15-17	go	B-ScrEv_get_library	O	_	_	
+15-18	there	O	B-ScrPart_library	webanno.custom.Corefchains_	15-1	
+15-19	and	O	O	_	_	
+15-20	always	O	O	_	_	
+15-21	find	B-ScrEv_take_book	O	_	_	
+15-22	what	O	O	_	_	
+15-23	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	15-15	
+15-24	want	O	O	_	_	
+15-25	to	O	O	_	_	
+15-26	read	B-RelNScrEv	O	_	_	
+15-27	.	O	O	_	_	
+

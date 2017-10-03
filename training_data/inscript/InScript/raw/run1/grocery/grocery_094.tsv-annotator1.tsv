@@ -1,0 +1,224 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Before going shopping I make a shopping list and look through my fridge and cupboards to make sure I buy everything I need .
+1-1	Before	O	O	_	_	
+1-2	going	B-Evoking|B-ScrEv_go_grocery	O	_	_	
+1-3	shopping	I-Evoking	O	_	_	
+1-4	I	O	B-ScrPart_shopper	_	_	
+1-5	make	B-ScrEv_make_list	O	_	_	
+1-6	a	O	O	_	_	
+1-7	shopping	O	B-ScrPart_grocery_list	_	_	
+1-8	list	O	I-ScrPart_grocery_list|B-ScrPart_grocery_list	_	_	
+1-9	and	O	O	_	_	
+1-10	look	B-UnrelEv|B-UnrelEv	O	_	_	
+1-11	through	I-UnrelEv	O	_	_	
+1-12	my	O	B-ScrPart_shopper	webanno.custom.Corefchains_	1-4	
+1-13	fridge	O	O	_	_	
+1-14	and	O	O	_	_	
+1-15	cupboards	O	O	_	_	
+1-16	to	O	O	_	_	
+1-17	make	B-UnrelEv	O	_	_	
+1-18	sure	O	O	_	_	
+1-19	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	1-12	
+1-20	buy	B-ScrEv_get_groceries	O	_	_	
+1-21	everything	O	B-ScrPart_groceries	_	_	
+1-22	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	1-19	
+1-23	need	B-RelNScrEv	O	_	_	
+1-24	.	O	O	_	_	
+
+#id=2
+#text=I then get into my car and drive to the store .
+2-1	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	1-22	
+2-2	then	O	O	_	_	
+2-3	get	B-ScrEv_go_grocery	O	_	_	
+2-4	into	O	O	_	_	
+2-5	my	O	B-ScrPart_shopper	webanno.custom.Corefchains_	2-1	
+2-6	car	O	B-ScrPart_vehicle	_	_	
+2-7	and	O	O	_	_	
+2-8	drive	B-ScrEv_go_grocery	O	_	_	
+2-9	to	O	O	_	_	
+2-10	the	O	O	_	_	
+2-11	store	O	B-ScrPart_grocery_shop	_	_	
+2-12	.	O	O	_	_	
+
+#id=3
+#text=Upon entering the store I grab a shopping cart and walk to the fresh fruits and vegetables .
+3-1	Upon	O	O	_	_	
+3-2	entering	B-ScrEv_enter	O	_	_	
+3-3	the	O	O	_	_	
+3-4	store	O	B-ScrPart_grocery_shop	webanno.custom.Corefchains_	2-11	
+3-5	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	2-5	
+3-6	grab	B-ScrEv_take_shop_cart	O	_	_	
+3-7	a	O	O	_	_	
+3-8	shopping	O	B-ScrPart_shopping_cart/basket	_	_	
+3-9	cart	O	I-ScrPart_shopping_cart/basket|B-ScrPart_shopping_cart/basket	_	_	
+3-10	and	O	O	_	_	
+3-11	walk	B-ScrEv_move_section	O	_	_	
+3-12	to	O	O	_	_	
+3-13	the	O	O	_	_	
+3-14	fresh	O	O	_	_	
+3-15	fruits	O	B-ScrPart_groceries	_	_	
+3-16	and	O	O	_	_	
+3-17	vegetables	O	B-ScrPart_groceries	_	_	
+3-18	.	O	O	_	_	
+
+#id=4
+#text=After getting all of my fresh items I go to the butcher stand and get some chicken and beef .
+4-1	After	O	O	_	_	
+4-2	getting	B-ScrEv_get_groceries	O	_	_	
+4-3	all	O	O	_	_	
+4-4	of	O	O	_	_	
+4-5	my	O	B-ScrPart_shopper	webanno.custom.Corefchains_	3-5	
+4-6	fresh	O	B-ScrPart_groceries	_	_	
+4-7	items	O	I-ScrPart_groceries|B-ScrPart_groceries	_	_	
+4-8	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	4-5	
+4-9	go	B-ScrEv_move_section	O	_	_	
+4-10	to	O	O	_	_	
+4-11	the	O	O	_	_	
+4-12	butcher	O	B-ScrPart_section	_	_	
+4-13	stand	O	I-ScrPart_section|B-ScrPart_section	_	_	
+4-14	and	O	O	_	_	
+4-15	get	B-ScrEv_get_groceries	O	_	_	
+4-16	some	O	O	_	_	
+4-17	chicken	O	B-ScrPart_groceries	_	_	
+4-18	and	O	O	_	_	
+4-19	beef	O	B-ScrPart_groceries	_	_	
+4-20	.	O	O	_	_	
+
+#id=5
+#text=I sometimes make a stop to et lunch meat and bread so I can make sandwiches for lunch .
+5-1	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	4-8	
+5-2	sometimes	O	O	_	_	
+5-3	make	B-ScrEv_move_section	O	_	_	
+5-4	a	O	O	_	_	
+5-5	stop	O	B-SuppVComp	_	_	
+5-6	to	O	O	_	_	
+5-7	et	O	O	_	_	
+5-8	lunch	O	O	_	_	
+5-9	meat	O	B-ScrPart_groceries	_	_	
+5-10	and	O	O	_	_	
+5-11	bread	O	B-ScrPart_groceries	_	_	
+5-12	so	O	O	_	_	
+5-13	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	5-1	
+5-14	can	O	O	_	_	
+5-15	make	B-UnrelEv	O	_	_	
+5-16	sandwiches	O	O	_	_	
+5-17	for	O	O	_	_	
+5-18	lunch	O	O	_	_	
+5-19	.	O	O	_	_	
+
+#id=6
+#text=Next I go to the dairy section where I buy cheese , milk and eggs .
+6-1	Next	O	O	_	_	
+6-2	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	5-13	
+6-3	go	B-ScrEv_move_section	O	_	_	
+6-4	to	O	O	_	_	
+6-5	the	O	O	_	_	
+6-6	dairy	O	B-ScrPart_section	_	_	
+6-7	section	O	I-ScrPart_section|B-ScrPart_section	_	_	
+6-8	where	O	O	_	_	
+6-9	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	6-2	
+6-10	buy	B-ScrEv_get_groceries	O	_	_	
+6-11	cheese	O	B-ScrPart_groceries	_	_	
+6-12	,	O	O	_	_	
+6-13	milk	O	B-ScrPart_groceries	_	_	
+6-14	and	O	O	_	_	
+6-15	eggs	O	B-ScrPart_groceries	_	_	
+6-16	.	O	O	_	_	
+
+#id=7
+#text=After that I go buy some snacks and canned items .
+7-1	After	O	O	_	_	
+7-2	that	O	O	_	_	
+7-3	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	6-9	
+7-4	go	B-ScrEv_move_section	O	_	_	
+7-5	buy	B-ScrEv_get_groceries	O	_	_	
+7-6	some	O	O	_	_	
+7-7	snacks	O	B-ScrPart_groceries	_	_	
+7-8	and	O	O	_	_	
+7-9	canned	O	B-ScrPart_groceries	_	_	
+7-10	items	O	I-ScrPart_groceries|B-ScrPart_groceries	_	_	
+7-11	.	O	O	_	_	
+
+#id=8
+#text=To end my trip I go to the frozen foods section because I want to make sure my frozen items stay cold until I am home .
+8-1	To	O	O	_	_	
+8-2	end	B-UnrelEv	O	_	_	
+8-3	my	O	B-ScrPart_shopper	webanno.custom.Corefchains_	7-3	
+8-4	trip	O	O	_	_	
+8-5	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	8-3	
+8-6	go	B-ScrEv_move_section	O	_	_	
+8-7	to	O	O	_	_	
+8-8	the	O	O	_	_	
+8-9	frozen	O	B-ScrPart_section	_	_	
+8-10	foods	O	I-ScrPart_section	_	_	
+8-11	section	O	I-ScrPart_section|B-ScrPart_section	_	_	
+8-12	because	O	O	_	_	
+8-13	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	8-5	
+8-14	want	B-UnrelEv	O	_	_	
+8-15	to	O	O	_	_	
+8-16	make	B-UnrelEv	O	_	_	
+8-17	sure	O	O	_	_	
+8-18	my	O	B-ScrPart_shopper	webanno.custom.Corefchains_	8-13	
+8-19	frozen	O	B-ScrPart_groceries	_	_	
+8-20	items	O	I-ScrPart_groceries|B-ScrPart_groceries	_	_	
+8-21	stay	B-RelNScrEv	O	_	_	
+8-22	cold	O	O	_	_	
+8-23	until	O	O	_	_	
+8-24	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	8-18	
+8-25	am	B-UnrelEv	O	_	_	
+8-26	home	O	B-NPart	_	_	
+8-27	.	O	O	_	_	
+
+#id=9
+#text=I get in line and wait to be cashed out .
+9-1	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	8-24	
+9-2	get	B-ScrEv_move_section	O	_	_	
+9-3	in	O	O	_	_	
+9-4	line	O	B-ScrPart_line	_	_	
+9-5	and	O	O	_	_	
+9-6	wait	B-ScrEv_wait	O	_	_	
+9-7	to	O	O	_	_	
+9-8	be	O	O	_	_	
+9-9	cashed	B-ScrEv_cashier_scan/weight|B-ScrEv_cashier_scan/weight	O	_	_	
+9-10	out	I-ScrEv_cashier_scan/weight	O	_	_	
+9-11	.	O	O	_	_	
+
+#id=10
+#text=I almost always pay with my credit card so I do n't have to worry about money .
+10-1	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	9-1	
+10-2	almost	O	O	_	_	
+10-3	always	O	O	_	_	
+10-4	pay	B-ScrEv_pay	O	_	_	
+10-5	with	O	O	_	_	
+10-6	my	O	B-ScrPart_shopper	webanno.custom.Corefchains_	10-1	
+10-7	credit	O	B-ScrPart_payment_means	_	_	
+10-8	card	O	I-ScrPart_payment_means|B-ScrPart_payment_means	_	_	
+10-9	so	O	O	_	_	
+10-10	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	10-6	
+10-11	do	O	O	_	_	
+10-12	n't	O	O	_	_	
+10-13	have	O	O	_	_	
+10-14	to	O	O	_	_	
+10-15	worry	B-UnrelEv	O	_	_	
+10-16	about	O	O	_	_	
+10-17	money	O	O	_	_	
+10-18	.	O	O	_	_	
+
+#id=11
+#text=I then leave the store , head home and unload all my groceries . 
+11-1	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	10-10	
+11-2	then	O	O	_	_	
+11-3	leave	B-ScrEv_leave	O	_	_	
+11-4	the	O	O	_	_	
+11-5	store	O	B-ScrPart_grocery_shop	webanno.custom.Corefchains_	3-4	
+11-6	,	O	O	_	_	
+11-7	head	B-UnrelEv	O	_	_	
+11-8	home	O	B-NPart	_	_	
+11-9	and	O	O	_	_	
+11-10	unload	B-RelNScrEv	O	_	_	
+11-11	all	O	O	_	_	
+11-12	my	O	B-ScrPart_shopper	webanno.custom.Corefchains_	11-1	
+11-13	groceries	O	B-ScrPart_groceries	webanno.custom.Corefchains_	1-21	
+11-14	.	O	O	_	_	
+

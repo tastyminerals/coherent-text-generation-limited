@@ -1,0 +1,229 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=A few years ago I rode the train from Arizona to Washington state .
+1-1	A	O	O	
+1-2	few	O	O	
+1-3	years	B-ScrPart_time_date	O	
+1-4	ago	O	O	
+1-5	I	B-ScrPart_passenger	O	
+1-6	rode	O	B-Evoking	
+1-7	the	O	I-Evoking	
+1-8	train	B-ScrPart_train	I-Evoking	
+1-9	from	O	O	
+1-10	Arizona	B-NPart	O	
+1-11	to	O	O	
+1-12	Washington	B-ScrPart_destination	O	
+1-13	state	I-ScrPart_destination	O	
+1-14	.	O	O	
+
+#id=2
+#text=It took a long time .
+2-1	It	B-No_label	O	
+2-2	took	O	B-UnrelEv	
+2-3	a	O	O	
+2-4	long	O	O	
+2-5	time	B-ScrPart_time_date	O	
+2-6	.	O	O	
+
+#id=3
+#text=I purchased my ticket online .
+3-1	I	B-ScrPart_passenger	O	
+3-2	purchased	O	B-ScrEv_get_tickets	
+3-3	my	B-ScrPart_passenger	O	
+3-4	ticket	B-ScrPart_card/ticket	O	
+3-5	online	B-No_label	O	
+3-6	.	O	O	
+
+#id=4
+#text=When it came time to board the train I got a ride from a friend , who dropped me off right next to the tracks .
+4-1	When	O	O	
+4-2	it	B-No_label	O	
+4-3	came	O	B-UnrelEv	
+4-4	time	B-No_label	O	
+4-5	to	O	O	
+4-6	board	O	B-RelNScrEv	
+4-7	the	O	O	
+4-8	train	B-ScrPart_train	O	
+4-9	I	B-ScrPart_passenger	O	
+4-10	got	O	B-UnrelEv	
+4-11	a	O	O	
+4-12	ride	B-No_label	O	
+4-13	from	O	O	
+4-14	a	O	O	
+4-15	friend	B-NPart	O	
+4-16	,	O	O	
+4-17	who	O	O	
+4-18	dropped	O	B-ScrEv_get_train_station	
+4-19	me	B-ScrPart_passenger	O	
+4-20	off	O	O	
+4-21	right	O	O	
+4-22	next	O	O	
+4-23	to	O	O	
+4-24	the	O	O	
+4-25	tracks	B-ScrPart_other	O	
+4-26	.	O	O	
+
+#id=5
+#text=I showed my ticket to the train attendant , and he let me aboard the train .
+5-1	I	B-ScrPart_passenger	O	
+5-2	showed	O	B-RelNScrEv	
+5-3	my	B-ScrPart_passenger	O	
+5-4	ticket	B-ScrPart_card/ticket	O	
+5-5	to	O	O	
+5-6	the	O	O	
+5-7	train	B-ScrPart_train_staff	O	
+5-8	attendant	I-ScrPart_train_staff|B-ScrPart_train_staff	O	
+5-9	,	O	O	
+5-10	and	O	O	
+5-11	he	B-ScrPart_train_staff	O	
+5-12	let	O	B-UnrelEv	
+5-13	me	B-ScrPart_passenger	O	
+5-14	aboard	O	O	
+5-15	the	O	O	
+5-16	train	B-ScrPart_train	O	
+5-17	.	O	O	
+
+#id=6
+#text=There was another person on the train who showed me what seat to sit in .
+6-1	There	O	O	
+6-2	was	O	B-UnrelEv	
+6-3	another	O	O	
+6-4	person	B-ScrPart_train_staff	O	
+6-5	on	O	O	
+6-6	the	O	O	
+6-7	train	B-ScrPart_train	O	
+6-8	who	O	O	
+6-9	showed	O	B-RelNScrEv	
+6-10	me	B-ScrPart_passenger	O	
+6-11	what	O	O	
+6-12	seat	B-ScrPart_seat	O	
+6-13	to	O	O	
+6-14	sit	O	B-UnrelEv	
+6-15	in	O	O	
+6-16	.	O	O	
+
+#id=7
+#text=After everyone had boarded , the train got moving .
+7-1	After	O	O	
+7-2	everyone	B-ScrPart_passenger	O	
+7-3	had	O	O	
+7-4	boarded	O	B-RelNScrEv	
+7-5	,	O	O	
+7-6	the	O	O	
+7-7	train	B-ScrPart_train	O	
+7-8	got	O	O	
+7-9	moving	O	B-ScrEv_train_departs	
+7-10	.	O	O	
+
+#id=8
+#text=The trip from Arizona to Washington takes a week , with a lot of stops in between .
+8-1	The	O	O	
+8-2	trip	B-ScrPart_trip	O	
+8-3	from	O	O	
+8-4	Arizona	B-NPart	O	
+8-5	to	O	O	
+8-6	Washington	B-ScrPart_destination	O	
+8-7	takes	O	B-UnrelEv	
+8-8	a	O	O	
+8-9	week	B-NPart	O	
+8-10	,	O	O	
+8-11	with	O	O	
+8-12	a	O	O	
+8-13	lot	B-No_label	O	
+8-14	of	O	O	
+8-15	stops	B-ScrPart_other	O	
+8-16	in	O	O	
+8-17	between	O	O	
+8-18	.	O	O	
+
+#id=9
+#text=The serve food right on the train , but it also stops in a lot of towns where you can get off and eat or buy souvenirs .
+9-1	The	O	O	
+9-2	serve	O	B-RelNScrEv	
+9-3	food	B-ScrPart_other	O	
+9-4	right	O	O	
+9-5	on	O	O	
+9-6	the	O	O	
+9-7	train	B-ScrPart_train	O	
+9-8	,	O	O	
+9-9	but	O	O	
+9-10	it	B-ScrPart_train	O	
+9-11	also	O	O	
+9-12	stops	O	B-ScrEv_other	
+9-13	in	O	O	
+9-14	a	O	O	
+9-15	lot	B-No_label	O	
+9-16	of	O	O	
+9-17	towns	B-NPart	O	
+9-18	where	O	O	
+9-19	you	B-ScrPart_passenger	O	
+9-20	can	O	O	
+9-21	get	O	B-ScrEv_get_off|B-ScrEv_get_off	
+9-22	off	O	I-ScrEv_get_off	
+9-23	and	O	O	
+9-24	eat	O	B-UnrelEv	
+9-25	or	O	O	
+9-26	buy	O	B-UnrelEv	
+9-27	souvenirs	B-NPart	O	
+9-28	.	O	O	
+
+#id=10
+#text=Not much happens while you are on the train , but there is a lot to look out and see from the windows .
+10-1	Not	O	O	
+10-2	much	O	O	
+10-3	happens	O	B-UnrelEv	
+10-4	while	O	O	
+10-5	you	B-ScrPart_passenger	O	
+10-6	are	O	B-UnrelEv	
+10-7	on	O	O	
+10-8	the	O	O	
+10-9	train	B-ScrPart_train	O	
+10-10	,	O	O	
+10-11	but	O	O	
+10-12	there	O	O	
+10-13	is	O	O	
+10-14	a	O	O	
+10-15	lot	B-No_label	O	
+10-16	to	O	O	
+10-17	look	O	B-ScrEv_spend_time_train|B-ScrEv_spend_time_train	
+10-18	out	O	I-ScrEv_spend_time_train	
+10-19	and	O	O	
+10-20	see	O	B-UnrelEv	
+10-21	from	O	O	
+10-22	the	O	O	
+10-23	windows	B-ScrPart_in-train_entertainment	O	
+10-24	.	O	O	
+
+#id=11
+#text=When we finally reached Washington the train conductor made an announcement over the intercom , and I got off at my stop , then went home to my family . 
+11-1	When	O	O	
+11-2	we	B-ScrPart_passenger	O	
+11-3	finally	O	O	
+11-4	reached	O	B-ScrEv_arrive_destination	
+11-5	Washington	B-ScrPart_destination	O	
+11-6	the	O	O	
+11-7	train	B-NPart	O	
+11-8	conductor	B-ScrPart_train_staff	O	
+11-9	made	O	B-ScrEv_other	
+11-10	an	O	O	
+11-11	announcement	B-ScrPart_other	O	
+11-12	over	O	O	
+11-13	the	O	O	
+11-14	intercom	B-ScrPart_other	O	
+11-15	,	O	O	
+11-16	and	O	O	
+11-17	I	B-ScrPart_passenger	O	
+11-18	got	O	B-ScrEv_get_off|B-ScrEv_get_off	
+11-19	off	O	I-ScrEv_get_off	
+11-20	at	O	O	
+11-21	my	B-ScrPart_passenger	O	
+11-22	stop	B-ScrPart_destination	O	
+11-23	,	O	O	
+11-24	then	O	O	
+11-25	went	O	B-UnrelEv	
+11-26	home	B-No_label	O	
+11-27	to	O	O	
+11-28	my	B-ScrPart_passenger	O	
+11-29	family	B-NPart	O	
+11-30	.	O	O	
+

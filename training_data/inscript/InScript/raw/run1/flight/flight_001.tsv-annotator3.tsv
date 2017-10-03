@@ -1,0 +1,257 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text='' Before you board the plane you should consider picking up a bottle of water and a snack in case they do n't have anything you 'd like to drink or eat on the flight .
+1-1	''	O	O	O	_	_	
+1-2	Before	O	O	O	_	_	
+1-3	you	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+1-4	board	O	O	B-Evoking	_	_	
+1-5	the	O	O	I-Evoking	_	_	
+1-6	plane	B-webanno.custom.Participants_	B-ScrPart_plane	I-Evoking	_	_	
+1-7	you	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-3	
+1-8	should	O	O	O	_	_	
+1-9	consider	O	O	B-UnrelEv	_	_	
+1-10	picking	O	O	B-RelNScrEv|B-RelNScrEv	_	_	
+1-11	up	O	O	I-RelNScrEv	_	_	
+1-12	a	O	O	O	_	_	
+1-13	bottle	O	O	O	_	_	
+1-14	of	O	O	O	_	_	
+1-15	water	B-webanno.custom.Participants_	B-MissScrPart	O	_	_	
+1-16	and	O	O	O	_	_	
+1-17	a	O	O	O	_	_	
+1-18	snack	B-webanno.custom.Participants_	B-MissScrPart	O	_	_	
+1-19	in	O	O	O	_	_	
+1-20	case	B-webanno.custom.Participants_	B-NPart	O	_	_	
+1-21	they	B-webanno.custom.Participants_	B-ScrPart_staff	O	_	_	
+1-22	do	O	O	O	_	_	
+1-23	n't	O	O	O	_	_	
+1-24	have	O	O	B-UnrelEv	_	_	
+1-25	anything	B-webanno.custom.Participants_	B-MissScrPart	O	_	_	
+1-26	you	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-7	
+1-27	'd	O	O	O	_	_	
+1-28	like	O	O	B-UnrelEv	_	_	
+1-29	to	O	O	O	_	_	
+1-30	drink	O	O	B-ScrEv_spend_time_flight	_	_	
+1-31	or	O	O	O	_	_	
+1-32	eat	O	O	B-ScrEv_spend_time_flight	_	_	
+1-33	on	O	O	O	_	_	
+1-34	the	O	O	O	_	_	
+1-35	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	_	_	
+1-36	.	O	O	O	_	_	
+
+#id=2
+#text=You should also stop at the restroom so , hopefully , you wo n't have to go to the bathroom during the flight .
+2-1	You	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-26	
+2-2	should	O	O	O	_	_	
+2-3	also	O	O	O	_	_	
+2-4	stop	O	O	B-RelNScrEv	_	_	
+2-5	at	O	O	O	_	_	
+2-6	the	O	O	O	_	_	
+2-7	restroom	B-webanno.custom.Participants_	B-MissScrPart	O	_	_	
+2-8	so	O	O	O	_	_	
+2-9	,	O	O	O	_	_	
+2-10	hopefully	O	O	O	_	_	
+2-11	,	O	O	O	_	_	
+2-12	you	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-1	
+2-13	wo	O	O	O	_	_	
+2-14	n't	O	O	O	_	_	
+2-15	have	O	O	O	_	_	
+2-16	to	O	O	O	_	_	
+2-17	go	O	O	B-RelNScrEv	_	_	
+2-18	to	O	O	O	_	_	
+2-19	the	O	O	O	_	_	
+2-20	bathroom	B-webanno.custom.Participants_	B-MissScrPart	O	webanno.custom.Corefchains_	2-7	
+2-21	during	O	O	O	_	_	
+2-22	the	O	O	O	_	_	
+2-23	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	_	_	
+2-24	.	O	O	O	_	_	
+
+#id=3
+#text=If you have an assigned seat for your flight do n't rush to get on because it 'll just mean sitting there for a longer period of time .
+3-1	If	O	O	O	_	_	
+3-2	you	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-12	
+3-3	have	O	O	B-UnrelEv	_	_	
+3-4	an	O	O	O	_	_	
+3-5	assigned	O	O	B-RelNScrEv	_	_	
+3-6	seat	B-webanno.custom.Participants_	B-ScrPart_seat	O	_	_	
+3-7	for	O	O	O	_	_	
+3-8	your	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-2	
+3-9	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	webanno.custom.Corefchains_	2-23	
+3-10	do	O	O	O	_	_	
+3-11	n't	O	O	O	_	_	
+3-12	rush	O	O	B-UnrelEv	_	_	
+3-13	to	O	O	O	_	_	
+3-14	get	O	O	B-ScrEv_board_plane|B-ScrEv_board_plane	_	_	
+3-15	on	O	O	I-ScrEv_board_plane	_	_	
+3-16	because	O	O	O	_	_	
+3-17	it	O	O	O	_	_	
+3-18	'll	O	O	O	_	_	
+3-19	just	O	O	O	_	_	
+3-20	mean	O	O	B-ScrEv_wait_boarding	_	_	
+3-21	sitting	O	O	B-ScrEv_wait_boarding	_	_	
+3-22	there	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	1-6	
+3-23	for	O	O	O	_	_	
+3-24	a	O	O	O	_	_	
+3-25	longer	O	O	O	_	_	
+3-26	period	B-webanno.custom.Participants_	B-NPart	O	_	_	
+3-27	of	O	O	O	_	_	
+3-28	time	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+3-29	.	O	O	O	_	_	
+
+#id=4
+#text=Once you are ready to board just be patient with everyone else who is flying and with the flight attendants .
+4-1	Once	O	O	O	_	_	
+4-2	you	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-8	
+4-3	are	O	O	B-UnrelEv	_	_	
+4-4	ready	O	O	O	_	_	
+4-5	to	O	O	O	_	_	
+4-6	board	O	O	B-ScrEv_board_plane	_	_	
+4-7	just	O	O	O	_	_	
+4-8	be	O	O	B-UnrelEv	_	_	
+4-9	patient	O	O	O	_	_	
+4-10	with	O	O	O	_	_	
+4-11	everyone	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+4-12	else	O	O	O	_	_	
+4-13	who	O	O	O	_	_	
+4-14	is	O	O	O	_	_	
+4-15	flying	O	O	B-RelNScrEv	_	_	
+4-16	and	O	O	O	_	_	
+4-17	with	O	O	O	_	_	
+4-18	the	O	O	O	_	_	
+4-19	flight	B-webanno.custom.Participants_	B-ScrPart_staff	O	_	_	
+4-20	attendants	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_staff|B-ScrPart_staff	O	_	_	
+4-21	.	O	O	O	_	_	
+
+#id=5
+#text=Once you have found your seat store any large items overhead and keep whatever you might want during the flight in the seat-back .
+5-1	Once	O	O	O	_	_	
+5-2	you	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-2	
+5-3	have	O	O	O	_	_	
+5-4	found	O	O	B-ScrEv_take_seat	_	_	
+5-5	your	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-2	
+5-6	seat	B-webanno.custom.Participants_	B-ScrPart_seat	O	_	_	
+5-7	store	O	O	B-ScrEv_stow_away_luggage	_	_	
+5-8	any	O	O	O	_	_	
+5-9	large	O	O	O	_	_	
+5-10	items	B-webanno.custom.Participants_	B-ScrPart_carry_on_luggage	O	_	_	
+5-11	overhead	O	O	O	_	_	
+5-12	and	O	O	O	_	_	
+5-13	keep	O	O	B-RelNScrEv	_	_	
+5-14	whatever	B-webanno.custom.Participants_	B-ScrPart_carry_on_luggage	O	_	_	
+5-15	you	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-5	
+5-16	might	O	O	O	_	_	
+5-17	want	O	O	B-UnrelEv	_	_	
+5-18	during	O	O	O	_	_	
+5-19	the	O	O	O	_	_	
+5-20	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	webanno.custom.Corefchains_	3-9	
+5-21	in	O	O	O	_	_	
+5-22	the	O	O	O	_	_	
+5-23	seat-back	B-webanno.custom.Participants_	B-MissScrPart	O	_	_	
+5-24	.	O	O	O	_	_	
+
+#id=6
+#text=I suggest putting your electronic devices there , headphones , books etc. .
+6-1	I	O	O	O	_	_	
+6-2	suggest	O	O	B-UnrelEv	_	_	
+6-3	putting	O	O	B-RelNScrEv	_	_	
+6-4	your	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-15	
+6-5	electronic	B-webanno.custom.Participants_	B-ScrPart_personal_belongings	O	_	_	
+6-6	devices	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_personal_belongings|B-ScrPart_personal_belongings	O	_	_	
+6-7	there	O	O	O	_	_	
+6-8	,	O	O	O	_	_	
+6-9	headphones	B-webanno.custom.Participants_	B-ScrPart_personal_belongings	O	_	_	
+6-10	,	O	O	O	_	_	
+6-11	books	B-webanno.custom.Participants_	B-ScrPart_personal_belongings	O	_	_	
+6-12	etc.	O	O	O	_	_	
+6-13	.	O	O	O	_	_	
+
+#id=7
+#text=I also like to make sure to have gum , my snack and my water readily available .
+7-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+7-2	also	O	O	O	_	_	
+7-3	like	O	O	B-UnrelEv	_	_	
+7-4	to	O	O	O	_	_	
+7-5	make	O	O	B-UnrelEv|B-UnrelEv	_	_	
+7-6	sure	O	O	I-UnrelEv	_	_	
+7-7	to	O	O	O	_	_	
+7-8	have	O	O	B-RelNScrEv	_	_	
+7-9	gum	B-webanno.custom.Participants_	B-MissScrPart	O	_	_	
+7-10	,	O	O	O	_	_	
+7-11	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-1	
+7-12	snack	B-webanno.custom.Participants_	B-MissScrPart	O	webanno.custom.Corefchains_	1-18	
+7-13	and	O	O	O	_	_	
+7-14	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-11	
+7-15	water	B-webanno.custom.Participants_	B-MissScrPart	O	webanno.custom.Corefchains_	1-15	
+7-16	readily	O	O	O	_	_	
+7-17	available	O	O	O	_	_	
+7-18	.	O	O	O	_	_	
+
+#id=8
+#text=If you have a smaller item you can put that underneath the seat in front of you .
+8-1	If	O	O	O	_	_	
+8-2	you	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-4	
+8-3	have	O	O	B-UnrelEv	_	_	
+8-4	a	O	O	O	_	_	
+8-5	smaller	O	O	O	_	_	
+8-6	item	B-webanno.custom.Participants_	B-ScrPart_personal_belongings	O	_	_	
+8-7	you	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-2	
+8-8	can	O	O	O	_	_	
+8-9	put	O	O	B-RelNScrEv	_	_	
+8-10	that	O	O	O	_	_	
+8-11	underneath	O	O	O	_	_	
+8-12	the	O	O	O	_	_	
+8-13	seat	B-webanno.custom.Participants_	B-ScrPart_seat	O	_	_	
+8-14	in	O	O	O	_	_	
+8-15	front	B-webanno.custom.Participants_	B-NPart	O	_	_	
+8-16	of	O	O	O	_	_	
+8-17	you	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-7	
+8-18	.	O	O	O	_	_	
+
+#id=9
+#text=It is a good idea to chew gum at least at the start of the flight so you avoid having your ears pop .
+9-1	It	O	O	O	_	_	
+9-2	is	O	O	B-UnrelEv	_	_	
+9-3	a	O	O	O	_	_	
+9-4	good	O	O	O	_	_	
+9-5	idea	B-webanno.custom.Participants_	B-NPart	O	_	_	
+9-6	to	O	O	O	_	_	
+9-7	chew	O	O	B-MissScrEv	_	_	
+9-8	gum	B-webanno.custom.Participants_	B-MissScrPart	O	webanno.custom.Corefchains_	7-9	
+9-9	at	O	O	O	_	_	
+9-10	least	O	O	O	_	_	
+9-11	at	O	O	O	_	_	
+9-12	the	O	O	O	_	_	
+9-13	start	B-webanno.custom.Participants_	B-NPart	O	_	_	
+9-14	of	O	O	O	_	_	
+9-15	the	O	O	O	_	_	
+9-16	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	webanno.custom.Corefchains_	5-20	
+9-17	so	O	O	O	_	_	
+9-18	you	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-17	
+9-19	avoid	O	O	B-UnrelEv	_	_	
+9-20	having	O	O	O	_	_	
+9-21	your	O	O	O	_	_	
+9-22	ears	B-webanno.custom.Participants_	B-NPart	O	_	_	
+9-23	pop	O	O	B-RelNScrEv	_	_	
+9-24	.	O	O	O	_	_	
+
+#id=10
+#text=Try to stay hydrated during your flight , and keep your seat-belt on whenever you are sitting down . 
+10-1	Try	O	O	O	_	_	
+10-2	to	O	O	O	_	_	
+10-3	stay	O	O	B-UnrelEv	_	_	
+10-4	hydrated	O	O	B-UnrelEv	_	_	
+10-5	during	O	O	O	_	_	
+10-6	your	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-18	
+10-7	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	webanno.custom.Corefchains_	9-16	
+10-8	,	O	O	O	_	_	
+10-9	and	O	O	O	_	_	
+10-10	keep	O	O	B-RelNScrEv	_	_	
+10-11	your	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-6	
+10-12	seat-belt	B-webanno.custom.Participants_	B-ScrPart_seat_belt	O	_	_	
+10-13	on	O	O	O	_	_	
+10-14	whenever	O	O	O	_	_	
+10-15	you	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-11	
+10-16	are	O	O	O	_	_	
+10-17	sitting	O	O	B-UnrelEv|B-UnrelEv	_	_	
+10-18	down	O	O	I-UnrelEv	_	_	
+10-19	.	O	O	O	_	_	
+

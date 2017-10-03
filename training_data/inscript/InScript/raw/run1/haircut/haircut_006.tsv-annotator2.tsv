@@ -1,0 +1,234 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Yesterday , I went to get a haircut .
+1-1	Yesterday	O	O	_	_	
+1-2	,	O	O	_	_	
+1-3	I	B-ScrPart_customer	O	_	_	
+1-4	went	O	B-UnrelEv	_	_	
+1-5	to	O	O	_	_	
+1-6	get	O	B-RelNScrEv	_	_	
+1-7	a	O	I-RelNScrEv	_	_	
+1-8	haircut	B-MissScrPart	I-RelNScrEv	_	_	
+1-9	.	O	O	_	_	
+
+#id=2
+#text=When I walked into the salon , a lady named Sara came over and told me to follow her to the shampoo station .
+2-1	When	O	O	_	_	
+2-2	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-3	
+2-3	walked	O	B-ScrEv_enter	_	_	
+2-4	into	O	O	_	_	
+2-5	the	O	O	_	_	
+2-6	salon	B-ScrPart_salon	O	_	_	
+2-7	,	O	O	_	_	
+2-8	a	O	O	_	_	
+2-9	lady	B-ScrPart_hairdresser	O	_	_	
+2-10	named	O	B-UnrelEv	_	_	
+2-11	Sara	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	2-9	
+2-12	came	O	B-UnrelEv	_	_	
+2-13	over	O	I-UnrelEv	_	_	
+2-14	and	O	O	_	_	
+2-15	told	O	B-RelNScrEv	_	_	
+2-16	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-2	
+2-17	to	O	O	_	_	
+2-18	follow	O	B-UnrelEv	_	_	
+2-19	her	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	2-11	
+2-20	to	O	O	_	_	
+2-21	the	O	O	_	_	
+2-22	shampoo	B-ScrPart_location_salon	O	_	_	
+2-23	station	I-ScrPart_location_salon|B-ScrPart_location_salon	O	_	_	
+2-24	.	O	O	_	_	
+
+#id=3
+#text=I sat in a chair and another lady named Marsha washed my hair and put a towel around my head .
+3-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-16	
+3-2	sat	O	B-ScrEv_sit_down	_	_	
+3-3	in	O	O	_	_	
+3-4	a	O	O	_	_	
+3-5	chair	B-ScrPart_chair	O	_	_	
+3-6	and	O	O	_	_	
+3-7	another	O	O	_	_	
+3-8	lady	B-ScrPart_hairdresser	O	_	_	
+3-9	named	O	B-UnrelEv	_	_	
+3-10	Marsha	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	3-8	
+3-11	washed	O	B-ScrEv_wash	_	_	
+3-12	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-1	
+3-13	hair	B-ScrPart_hair	O	_	_	
+3-14	and	O	O	_	_	
+3-15	put	O	B-ScrEv_put_towel	_	_	
+3-16	a	O	O	_	_	
+3-17	towel	B-ScrPart_towel	O	_	_	
+3-18	around	O	O	_	_	
+3-19	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-12	
+3-20	head	B-NPart	O	_	_	
+3-21	.	O	O	_	_	
+
+#id=4
+#text=She then took me over to Sara who asked me to sit in her chair and put a cape around my neck .
+4-1	She	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	3-10	
+4-2	then	O	O	_	_	
+4-3	took	O	B-UnrelEv	_	_	
+4-4	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-19	
+4-5	over	O	O	_	_	
+4-6	to	O	O	_	_	
+4-7	Sara	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	2-19	
+4-8	who	O	O	_	_	
+4-9	asked	O	B-UnrelEv	_	_	
+4-10	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-4	
+4-11	to	O	O	_	_	
+4-12	sit	O	B-ScrEv_sit_down	_	_	
+4-13	in	O	O	_	_	
+4-14	her	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	4-7	
+4-15	chair	B-ScrPart_chair	O	_	_	
+4-16	and	O	O	_	_	
+4-17	put	O	B-ScrEv_put_on_cape	_	_	
+4-18	a	O	O	_	_	
+4-19	cape	B-ScrPart_cape	O	_	_	
+4-20	around	O	O	_	_	
+4-21	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-10	
+4-22	neck	B-NPart	O	_	_	
+4-23	.	O	O	_	_	
+
+#id=5
+#text=Next Sara asked me how short I wanted my hair .
+5-1	Next	O	O	_	_	
+5-2	Sara	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	4-14	
+5-3	asked	O	B-ScrEv_talk_haircut	_	_	
+5-4	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-21	
+5-5	how	O	O	_	_	
+5-6	short	O	O	_	_	
+5-7	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-4	
+5-8	wanted	O	B-UnrelEv	_	_	
+5-9	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-7	
+5-10	hair	B-ScrPart_hair	O	webanno.custom.Corefchains_	3-13	
+5-11	.	O	O	_	_	
+
+#id=6
+#text=I told her I still wanted it to be a little past my shoulders , therefore , she should only cut off about 1 inch .
+6-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-9	
+6-2	told	O	B-ScrEv_talk_haircut	_	_	
+6-3	her	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	5-2	
+6-4	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-1	
+6-5	still	O	O	_	_	
+6-6	wanted	O	B-UnrelEv	_	_	
+6-7	it	B-ScrPart_hair	O	webanno.custom.Corefchains_	5-10	
+6-8	to	O	O	_	_	
+6-9	be	O	B-UnrelEv	_	_	
+6-10	a	O	O	_	_	
+6-11	little	O	O	_	_	
+6-12	past	O	O	_	_	
+6-13	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-4	
+6-14	shoulders	O	O	_	_	
+6-15	,	O	O	_	_	
+6-16	therefore	O	O	_	_	
+6-17	,	O	O	_	_	
+6-18	she	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	6-3	
+6-19	should	O	O	_	_	
+6-20	only	O	O	_	_	
+6-21	cut	O	B-ScrEv_cut	_	_	
+6-22	off	O	O	_	_	
+6-23	about	O	O	_	_	
+6-24	1	O	O	_	_	
+6-25	inch	B-NPart	O	_	_	
+6-26	.	O	O	_	_	
+
+#id=7
+#text=She told me that was fine and began cutting my hair .
+7-1	She	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	6-18	
+7-2	told	O	B-ScrEv_talk_haircut	_	_	
+7-3	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-13	
+7-4	that	O	O	_	_	
+7-5	was	O	B-UnrelEv	_	_	
+7-6	fine	O	O	_	_	
+7-7	and	O	O	_	_	
+7-8	began	O	O	_	_	
+7-9	cutting	O	B-ScrEv_cut	_	_	
+7-10	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-3	
+7-11	hair	B-ScrPart_hair	O	webanno.custom.Corefchains_	6-7	
+7-12	.	O	O	_	_	
+
+#id=8
+#text=It took her about twenty minutes to cut an inch off of all of my hair .
+8-1	It	O	O	_	_	
+8-2	took	O	B-UnrelEv	_	_	
+8-3	her	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	7-1	
+8-4	about	O	O	_	_	
+8-5	twenty	O	O	_	_	
+8-6	minutes	B-ScrPart_time/date	O	_	_	
+8-7	to	O	O	_	_	
+8-8	cut	O	B-ScrEv_cut	_	_	
+8-9	an	O	O	_	_	
+8-10	inch	B-NPart	O	_	_	
+8-11	off	O	O	_	_	
+8-12	of	O	O	_	_	
+8-13	all	O	O	_	_	
+8-14	of	O	O	_	_	
+8-15	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-10	
+8-16	hair	B-ScrPart_hair	O	webanno.custom.Corefchains_	7-11	
+8-17	.	O	O	_	_	
+
+#id=9
+#text=After she cut it , she took the blow dryer out and dried my hair .
+9-1	After	O	O	_	_	
+9-2	she	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	8-3	
+9-3	cut	O	B-ScrEv_cut	_	_	
+9-4	it	B-ScrPart_hair	O	webanno.custom.Corefchains_	8-16	
+9-5	,	O	O	_	_	
+9-6	she	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	9-2	
+9-7	took	O	B-RelNScrEv	_	_	
+9-8	the	O	O	_	_	
+9-9	blow	B-ScrPart_hairdryer	O	_	_	
+9-10	dryer	I-ScrPart_hairdryer|B-ScrPart_hairdryer	O	_	_	
+9-11	out	O	O	_	_	
+9-12	and	O	O	_	_	
+9-13	dried	O	B-ScrEv_dry	_	_	
+9-14	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-15	
+9-15	hair	B-ScrPart_hair	O	webanno.custom.Corefchains_	9-4	
+9-16	.	O	O	_	_	
+
+#id=10
+#text=Then she curled it with a curling iron .
+10-1	Then	O	O	_	_	
+10-2	she	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	9-6	
+10-3	curled	O	B-ScrEv_make_hair_style	_	_	
+10-4	it	B-ScrPart_hair	O	webanno.custom.Corefchains_	9-15	
+10-5	with	O	O	_	_	
+10-6	a	O	O	_	_	
+10-7	curling	B-ScrPart_hair_styling/treatment	O	_	_	
+10-8	iron	I-ScrPart_hair_styling/treatment|B-ScrPart_hair_styling/treatment	O	_	_	
+10-9	.	O	O	_	_	
+
+#id=11
+#text=It looked really great !
+11-1	It	B-ScrPart_hair	O	webanno.custom.Corefchains_	10-4	
+11-2	looked	O	B-UnrelEv	_	_	
+11-3	really	O	O	_	_	
+11-4	great	O	O	_	_	
+11-5	!	O	O	_	_	
+
+#id=12
+#text=So I paid her for cutting my hair and told her how much I appreciated the great job that she did for me ! 
+12-1	So	O	O	_	_	
+12-2	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-14	
+12-3	paid	O	B-ScrEv_pay	_	_	
+12-4	her	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	10-2	
+12-5	for	O	O	_	_	
+12-6	cutting	O	B-ScrEv_cut	_	_	
+12-7	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	12-2	
+12-8	hair	B-ScrPart_hair	O	webanno.custom.Corefchains_	11-1	
+12-9	and	O	O	_	_	
+12-10	told	O	B-RelNScrEv	_	_	
+12-11	her	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	12-4	
+12-12	how	O	O	_	_	
+12-13	much	O	O	_	_	
+12-14	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	12-7	
+12-15	appreciated	O	B-UnrelEv	_	_	
+12-16	the	O	O	_	_	
+12-17	great	O	O	_	_	
+12-18	job	O	O	_	_	
+12-19	that	O	O	_	_	
+12-20	she	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	12-11	
+12-21	did	O	B-UnrelEv	_	_	
+12-22	for	O	O	_	_	
+12-23	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	12-14	
+12-24	!	O	O	_	_	
+

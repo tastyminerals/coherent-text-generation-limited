@@ -1,0 +1,191 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=It was a sunny afternoon so my friend and I went decided to go for a ride on our bicycles in the woods .
+1-1	It	O	O	_	_	
+1-2	was	B-UnrelEv	O	_	_	
+1-3	a	O	O	_	_	
+1-4	sunny	O	O	_	_	
+1-5	afternoon	O	O	_	_	
+1-6	so	O	O	_	_	
+1-7	my	O	B-ScrPart_rider	_	_	
+1-8	friend	O	B-ScrPart_rider	_	_	
+1-9	and	O	O	_	_	
+1-10	I	O	B-ScrPart_rider	webanno.custom.Corefchains_|group_I_friend	1-7|1-8	
+1-11	went	O	O	_	_	
+1-12	decided	B-UnrelEv	O	_	_	
+1-13	to	O	O	_	_	
+1-14	go	B-ScrEv_ride_bike	O	_	_	
+1-15	for	O	O	_	_	
+1-16	a	O	O	_	_	
+1-17	ride	O	B-SuppVComp	_	_	
+1-18	on	O	O	_	_	
+1-19	our	O	B-ScrPart_rider	group_I_friend	1-10	
+1-20	bicycles	O	B-ScrPart_bicycle	_	_	
+1-21	in	O	O	_	_	
+1-22	the	O	O	_	_	
+1-23	woods	O	B-NPart	_	_	
+1-24	.	O	O	_	_	
+
+#id=2
+#text=I did n't check the air pressure beforehand and thought it would be okay .
+2-1	I	O	B-ScrPart_rider	webanno.custom.Corefchains_	1-10	
+2-2	did	O	O	_	_	
+2-3	n't	O	O	_	_	
+2-4	check	B-RelNScrEv	O	_	_	
+2-5	the	O	O	_	_	
+2-6	air	O	B-ScrPart_pressure	_	_	
+2-7	pressure	O	I-ScrPart_pressure|B-ScrPart_pressure	_	_	
+2-8	beforehand	O	O	_	_	
+2-9	and	O	O	_	_	
+2-10	thought	B-UnrelEv	O	_	_	
+2-11	it	O	O	_	_	
+2-12	would	O	O	_	_	
+2-13	be	B-UnrelEv	O	_	_	
+2-14	okay	O	O	_	_	
+2-15	.	O	O	_	_	
+
+#id=3
+#text=As we were riding through the trails in the woods the terrain was more rough than I had expected and the the tire went flat .
+3-1	As	O	O	_	_	
+3-2	we	O	B-ScrPart_rider	webanno.custom.Corefchains_	1-19	
+3-3	were	O	O	_	_	
+3-4	riding	B-ScrEv_ride_bike	O	_	_	
+3-5	through	O	O	_	_	
+3-6	the	O	O	_	_	
+3-7	trails	O	B-NPart	_	_	
+3-8	in	O	O	_	_	
+3-9	the	O	O	_	_	
+3-10	woods	O	B-NPart	_	_	
+3-11	the	O	O	_	_	
+3-12	terrain	O	O	_	_	
+3-13	was	B-UnrelEv	O	_	_	
+3-14	more	O	O	_	_	
+3-15	rough	O	O	_	_	
+3-16	than	O	O	_	_	
+3-17	I	O	B-ScrPart_rider	webanno.custom.Corefchains_	2-1	
+3-18	had	O	O	_	_	
+3-19	expected	B-UnrelEv	O	_	_	
+3-20	and	O	O	_	_	
+3-21	the	O	O	_	_	
+3-22	the	O	O	_	_	
+3-23	tire	O	B-ScrPart_tire	_	_	
+3-24	went	B-MissScrEv	O	_	_	
+3-25	flat	O	O	_	_	
+3-26	.	O	O	_	_	
+
+#id=4
+#text=I got off my bicycle and knelt down to check the condition of the tire to see if there were any punctures .
+4-1	I	O	B-ScrPart_rider	webanno.custom.Corefchains_	3-17	
+4-2	got	B-ScrEv_get_off|B-ScrEv_get_off	O	_	_	
+4-3	off	I-ScrEv_get_off	O	_	_	
+4-4	my	O	B-ScrPart_rider	webanno.custom.Corefchains_	4-1	
+4-5	bicycle	O	B-ScrPart_bicycle	_	_	
+4-6	and	O	O	_	_	
+4-7	knelt	B-UnrelEv|B-UnrelEv	O	_	_	
+4-8	down	I-UnrelEv	O	_	_	
+4-9	to	O	O	_	_	
+4-10	check	B-ScrEv_notice_problem	O	_	_	
+4-11	the	O	O	_	_	
+4-12	condition	O	B-NPart	_	_	
+4-13	of	O	O	_	_	
+4-14	the	O	O	_	_	
+4-15	tire	O	B-ScrPart_tire	webanno.custom.Corefchains_	3-23	
+4-16	to	O	O	_	_	
+4-17	see	B-ScrEv_notice_problem	O	_	_	
+4-18	if	O	O	_	_	
+4-19	there	O	O	_	_	
+4-20	were	B-UnrelEv	O	_	_	
+4-21	any	O	O	_	_	
+4-22	punctures	O	B-NPart	_	_	
+4-23	.	O	O	_	_	
+
+#id=5
+#text=There were n't any and it was just out of air .
+5-1	There	O	O	_	_	
+5-2	were	B-UnrelEv	O	_	_	
+5-3	n't	O	O	_	_	
+5-4	any	O	O	_	_	
+5-5	and	O	O	_	_	
+5-6	it	O	B-ScrPart_tire	webanno.custom.Corefchains_	4-15	
+5-7	was	B-UnrelEv	O	_	_	
+5-8	just	O	O	_	_	
+5-9	out	O	O	_	_	
+5-10	of	O	O	_	_	
+5-11	air	O	B-ScrPart_air	_	_	
+5-12	.	O	O	_	_	
+
+#id=6
+#text=It was a good thing my friend packed an air pump .
+6-1	It	O	O	_	_	
+6-2	was	B-UnrelEv	O	_	_	
+6-3	a	O	O	_	_	
+6-4	good	O	O	_	_	
+6-5	thing	O	O	_	_	
+6-6	my	O	B-ScrPart_rider	webanno.custom.Corefchains_	4-4	
+6-7	friend	O	B-ScrPart_rider	webanno.custom.Corefchains_	1-8	
+6-8	packed	B-ScrEv_get_tools	O	_	_	
+6-9	an	O	O	_	_	
+6-10	air	O	B-ScrPart_tool	_	_	
+6-11	pump	O	I-ScrPart_tool|B-ScrPart_tool	_	_	
+6-12	.	O	O	_	_	
+
+#id=7
+#text=I stuck the needle from the air pump into the tire and started to pump air .
+7-1	I	O	B-ScrPart_rider	webanno.custom.Corefchains_	6-6	
+7-2	stuck	B-ScrEv_refill_tire_air	O	_	_	
+7-3	the	O	O	_	_	
+7-4	needle	O	B-MissScrPart	_	_	
+7-5	from	O	O	_	_	
+7-6	the	O	O	_	_	
+7-7	air	O	B-ScrPart_tool	_	_	
+7-8	pump	O	I-ScrPart_tool|B-ScrPart_tool	webanno.custom.Corefchains_	6-11	
+7-9	into	O	O	_	_	
+7-10	the	O	O	_	_	
+7-11	tire	O	B-ScrPart_tire	webanno.custom.Corefchains_	5-6	
+7-12	and	O	O	_	_	
+7-13	started	B-UnrelEv	O	_	_	
+7-14	to	O	O	_	_	
+7-15	pump	B-ScrEv_refill_tire_air	O	_	_	
+7-16	air	O	B-ScrPart_air	webanno.custom.Corefchains_	5-11	
+7-17	.	O	O	_	_	
+
+#id=8
+#text=The bicycle tire started to inflate and it was good as new .
+8-1	The	O	O	_	_	
+8-2	bicycle	O	B-ScrPart_tire	_	_	
+8-3	tire	O	I-ScrPart_tire|B-ScrPart_tire	webanno.custom.Corefchains_	7-11	
+8-4	started	B-UnrelEv	O	_	_	
+8-5	to	O	O	_	_	
+8-6	inflate	B-RelNScrEv	O	_	_	
+8-7	and	O	O	_	_	
+8-8	it	O	B-ScrPart_tire	webanno.custom.Corefchains_	8-3	
+8-9	was	B-UnrelEv	O	_	_	
+8-10	good	O	O	_	_	
+8-11	as	O	O	_	_	
+8-12	new	O	O	_	_	
+8-13	.	O	O	_	_	
+
+#id=9
+#text=I packed the air pump and handed it back to my friend and continued our bicycle adventure in the woods . 
+9-1	I	O	B-ScrPart_rider	webanno.custom.Corefchains_	7-1	
+9-2	packed	B-UnrelEv	O	_	_	
+9-3	the	O	O	_	_	
+9-4	air	O	B-ScrPart_tool	_	_	
+9-5	pump	O	I-ScrPart_tool|B-ScrPart_tool	webanno.custom.Corefchains_	7-8	
+9-6	and	O	O	_	_	
+9-7	handed	B-UnrelEv	O	_	_	
+9-8	it	O	B-ScrPart_tool	webanno.custom.Corefchains_	9-5	
+9-9	back	O	O	_	_	
+9-10	to	O	O	_	_	
+9-11	my	O	B-ScrPart_rider	webanno.custom.Corefchains_	9-1	
+9-12	friend	O	B-ScrPart_rider	_	_	
+9-13	and	O	O	_	_	
+9-14	continued	B-ScrEv_ride_bike	O	_	_	
+9-15	our	O	B-ScrPart_rider	webanno.custom.Corefchains_	3-2	
+9-16	bicycle	O	B-NPart	_	_	
+9-17	adventure	O	I-NPart|B-NPart	_	_	
+9-18	in	O	O	_	_	
+9-19	the	O	O	_	_	
+9-20	woods	O	B-NPart	_	_	
+9-21	.	O	O	_	_	
+

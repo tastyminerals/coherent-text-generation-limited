@@ -1,0 +1,227 @@
+ # webanno.custom.Events | Event | Events # webanno.custom.Participants | Participant
+#id=1
+#text=There are times when I need to get somewhere without using my car or without using the tube .
+1-1	There	O	O	O	
+1-2	are	B-webanno.custom.Events_	B-UnrelEv	O	
+1-3	times	O	O	B-No_label	
+1-4	when	O	O	O	
+1-5	I	O	O	B-ScrPart_passenger	
+1-6	need	O	O	O	
+1-7	to	O	O	O	
+1-8	get	B-webanno.custom.Events_	B-UnrelEv	O	
+1-9	somewhere	O	O	O	
+1-10	without	O	O	O	
+1-11	using	B-webanno.custom.Events_	B-UnrelEv	O	
+1-12	my	O	O	B-ScrPart_passenger	
+1-13	car	O	O	B-NPart	
+1-14	or	O	O	O	
+1-15	without	O	O	O	
+1-16	using	B-webanno.custom.Events_	B-UnrelEv	O	
+1-17	the	O	O	O	
+1-18	tube	O	O	B-NPart	
+1-19	.	O	O	O	
+
+#id=2
+#text=For these times I use Transport for London 's public bus system .
+2-1	For	O	O	O	
+2-2	these	O	O	O	
+2-3	times	O	O	B-No_label	
+2-4	I	O	O	B-ScrPart_passenger	
+2-5	use	B-webanno.custom.Events_	B-Evoking	O	
+2-6	Transport	I-webanno.custom.Events_	I-Evoking	B-NPart	
+2-7	for	I-webanno.custom.Events_	I-Evoking	I-NPart	
+2-8	London	I-webanno.custom.Events_	I-Evoking	I-NPart	
+2-9	's	I-webanno.custom.Events_	I-Evoking	O	
+2-10	public	I-webanno.custom.Events_	I-Evoking	B-ScrPart_other	
+2-11	bus	I-webanno.custom.Events_	I-Evoking	I-ScrPart_other	
+2-12	system	I-webanno.custom.Events_	I-Evoking	I-ScrPart_other|B-ScrPart_other	
+2-13	.	O	O	O	
+
+#id=3
+#text=One such time just happened yesterday .
+3-1	One	O	O	O	
+3-2	such	O	O	O	
+3-3	time	O	O	B-No_label	
+3-4	just	O	O	O	
+3-5	happened	B-webanno.custom.Events_	B-UnrelEv	O	
+3-6	yesterday	O	O	O	
+3-7	.	O	O	O	
+
+#id=4
+#text=I wanted to go from my flat to the bumping club in Shoreditch .
+4-1	I	O	O	B-ScrPart_passenger	
+4-2	wanted	B-webanno.custom.Events_	B-UnrelEv	O	
+4-3	to	O	O	O	
+4-4	go	B-webanno.custom.Events_	B-UnrelEv	O	
+4-5	from	O	O	O	
+4-6	my	O	O	B-ScrPart_passenger	
+4-7	flat	O	O	B-NPart	
+4-8	to	O	O	O	
+4-9	the	O	O	O	
+4-10	bumping	O	O	O	
+4-11	club	O	O	B-NPart	
+4-12	in	O	O	O	
+4-13	Shoreditch	O	O	B-ScrPart_destination	
+4-14	.	O	O	O	
+
+#id=5
+#text=Unfortunately it was past midnight and the tubes were closed .
+5-1	Unfortunately	O	O	O	
+5-2	it	O	O	B-No_label	
+5-3	was	B-webanno.custom.Events_	B-UnrelEv	O	
+5-4	past	O	O	O	
+5-5	midnight	O	O	B-NPart	
+5-6	and	O	O	O	
+5-7	the	O	O	O	
+5-8	tubes	O	O	B-NPart	
+5-9	were	O	O	O	
+5-10	closed	B-webanno.custom.Events_	B-UnrelEv	O	
+5-11	.	O	O	O	
+
+#id=6
+#text=I decided upon taking a bus instead of taking a minicab or a taxi .
+6-1	I	O	O	B-ScrPart_passenger	
+6-2	decided	B-webanno.custom.Events_	B-UnrelEv	O	
+6-3	upon	O	O	O	
+6-4	taking	B-webanno.custom.Events_	B-Evoking	O	
+6-5	a	I-webanno.custom.Events_	I-Evoking	O	
+6-6	bus	I-webanno.custom.Events_	I-Evoking	B-ScrPart_bus	
+6-7	instead	O	O	O	
+6-8	of	O	O	O	
+6-9	taking	B-webanno.custom.Events_	B-UnrelEv	O	
+6-10	a	O	O	O	
+6-11	minicab	O	O	B-NPart	
+6-12	or	O	O	O	
+6-13	a	O	O	O	
+6-14	taxi	O	O	B-NPart	
+6-15	.	O	O	O	
+
+#id=7
+#text=I found the bus stop and waited patiently for the correct bus .
+7-1	I	O	O	B-ScrPart_passenger	
+7-2	found	B-webanno.custom.Events_	B-ScrEv_get_bus_stop	O	
+7-3	the	O	O	O	
+7-4	bus	O	O	B-ScrPart_bus_stop	
+7-5	stop	O	O	I-ScrPart_bus_stop|B-ScrPart_bus_stop	
+7-6	and	O	O	O	
+7-7	waited	B-webanno.custom.Events_	B-ScrEv_wait	O	
+7-8	patiently	O	O	O	
+7-9	for	O	O	O	
+7-10	the	O	O	O	
+7-11	correct	O	O	O	
+7-12	bus	O	O	B-ScrPart_bus	
+7-13	.	O	O	O	
+
+#id=8
+#text=Stepping on I tapped in and greeted the driver .
+8-1	Stepping	B-webanno.custom.Events_	B-ScrEv_board_bus	O	
+8-2	on	I-webanno.custom.Events_	I-ScrEv_board_bus	O	
+8-3	I	O	O	B-ScrPart_passenger	
+8-4	tapped	B-webanno.custom.Events_	B-ScrEv_get_ticket	O	
+8-5	in	I-webanno.custom.Events_	I-ScrEv_get_ticket	O	
+8-6	and	O	O	O	
+8-7	greeted	B-webanno.custom.Events_	B-RelNScrEv	O	
+8-8	the	O	O	O	
+8-9	driver	O	O	B-ScrPart_bus_staff	
+8-10	.	O	O	O	
+
+#id=9
+#text=He seemed very nice , as did the people on the bus .
+9-1	He	O	O	B-ScrPart_bus_staff	
+9-2	seemed	B-webanno.custom.Events_	B-UnrelEv	O	
+9-3	very	O	O	O	
+9-4	nice	O	O	O	
+9-5	,	O	O	O	
+9-6	as	O	O	O	
+9-7	did	B-webanno.custom.Events_	B-UnrelEv	O	
+9-8	the	O	O	O	
+9-9	people	O	O	B-ScrPart_passenger	
+9-10	on	O	O	O	
+9-11	the	O	O	O	
+9-12	bus	O	O	B-ScrPart_bus	
+9-13	.	O	O	O	
+
+#id=10
+#text=It was filled with many other revelers who were in similar states of intoxication .
+10-1	It	O	O	B-ScrPart_bus	
+10-2	was	O	O	O	
+10-3	filled	B-webanno.custom.Events_	B-RelNScrEv	O	
+10-4	with	O	O	O	
+10-5	many	O	O	O	
+10-6	other	O	O	O	
+10-7	revelers	O	O	B-ScrPart_passenger	
+10-8	who	O	O	B-ScrPart_passenger	
+10-9	were	B-webanno.custom.Events_	B-UnrelEv	O	
+10-10	in	O	O	O	
+10-11	similar	O	O	O	
+10-12	states	O	O	B-Head_of_Partitive	
+10-13	of	O	O	O	
+10-14	intoxication	O	O	B-NPart	
+10-15	.	O	O	O	
+
+#id=11
+#text=We rode towards our destination , a popular club , in unison .
+11-1	We	O	O	B-ScrPart_passenger	
+11-2	rode	B-webanno.custom.Events_	B-ScrEv_ride	O	
+11-3	towards	O	O	O	
+11-4	our	O	O	B-ScrPart_passenger	
+11-5	destination	O	O	B-ScrPart_destination	
+11-6	,	O	O	O	
+11-7	a	O	O	O	
+11-8	popular	O	O	O	
+11-9	club	O	O	B-NPart	
+11-10	,	O	O	O	
+11-11	in	O	O	O	
+11-12	unison	O	O	B-NPart	
+11-13	.	O	O	O	
+
+#id=12
+#text=I met a pretty girl who I talked with at length .
+12-1	I	O	O	B-ScrPart_passenger	
+12-2	met	B-webanno.custom.Events_	B-ScrEv_spend_time_bus	O	
+12-3	a	O	O	O	
+12-4	pretty	O	O	O	
+12-5	girl	O	O	B-ScrPart_passenger	
+12-6	who	O	O	B-ScrPart_passenger	
+12-7	I	O	O	B-ScrPart_passenger	
+12-8	talked	B-webanno.custom.Events_	B-ScrEv_spend_time_bus	O	
+12-9	with	O	O	O	
+12-10	at	O	O	O	
+12-11	length	O	O	B-NPart	
+12-12	.	O	O	O	
+
+#id=13
+#text=We decided we were going to dance together at the club !
+13-1	We	O	O	B-ScrPart_passenger	
+13-2	decided	B-webanno.custom.Events_	B-UnrelEv	O	
+13-3	we	O	O	B-ScrPart_passenger	
+13-4	were	O	O	O	
+13-5	going	O	O	O	
+13-6	to	O	O	O	
+13-7	dance	B-webanno.custom.Events_	B-UnrelEv	O	
+13-8	together	O	O	O	
+13-9	at	O	O	O	
+13-10	the	O	O	O	
+13-11	club	O	O	B-NPart	
+13-12	!	O	O	O	
+
+#id=14
+#text=All in all it was an exciting and enjoyable ride on a London double decker bus ! 
+14-1	All	O	O	O	
+14-2	in	O	O	O	
+14-3	all	O	O	O	
+14-4	it	O	O	B-No_label	
+14-5	was	B-webanno.custom.Events_	B-UnrelEv	O	
+14-6	an	O	O	O	
+14-7	exciting	O	O	O	
+14-8	and	O	O	O	
+14-9	enjoyable	O	O	O	
+14-10	ride	O	O	B-ScrPart_ride	
+14-11	on	O	O	O	
+14-12	a	O	O	O	
+14-13	London	O	O	B-NPart	
+14-14	double	O	O	B-ScrPart_bus	
+14-15	decker	O	O	I-ScrPart_bus	
+14-16	bus	O	O	I-ScrPart_bus|B-ScrPart_bus	
+14-17	!	O	O	O	
+

@@ -1,0 +1,210 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=It all began when I woke up in the morning and noticed the messiest hair I had ever seen in my entire life .
+1-1	It	O	O	_	_	
+1-2	all	O	O	_	_	
+1-3	began	B-UnrelEv	O	_	_	
+1-4	when	O	O	_	_	
+1-5	I	O	B-ScrPart_customer	_	_	
+1-6	woke	B-UnrelEv	O	_	_	
+1-7	up	O	O	_	_	
+1-8	in	O	O	_	_	
+1-9	the	O	O	_	_	
+1-10	morning	O	O	_	_	
+1-11	and	O	O	_	_	
+1-12	noticed	B-UnrelEv	O	_	_	
+1-13	the	O	O	_	_	
+1-14	messiest	O	O	_	_	
+1-15	hair	O	B-ScrPart_hair	_	_	
+1-16	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	1-5	
+1-17	had	O	O	_	_	
+1-18	ever	O	O	_	_	
+1-19	seen	B-UnrelEv	O	_	_	
+1-20	in	O	O	_	_	
+1-21	my	O	B-ScrPart_customer	webanno.custom.Corefchains_	1-16	
+1-22	entire	O	O	_	_	
+1-23	life	O	O	_	_	
+1-24	.	O	O	_	_	
+
+#id=2
+#text=I looked like a porcupine with its burrs all sticking straight out in every direction .
+2-1	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	1-21	
+2-2	looked	B-UnrelEv	O	_	_	
+2-3	like	O	O	_	_	
+2-4	a	O	O	_	_	
+2-5	porcupine	O	O	_	_	
+2-6	with	O	O	_	_	
+2-7	its	O	O	_	_	
+2-8	burrs	O	O	_	_	
+2-9	all	O	O	_	_	
+2-10	sticking	B-UnrelEv	O	_	_	
+2-11	straight	O	O	_	_	
+2-12	out	O	O	_	_	
+2-13	in	O	O	_	_	
+2-14	every	O	O	_	_	
+2-15	direction	O	O	_	_	
+2-16	.	O	O	_	_	
+
+#id=3
+#text=There was no way I was going to be seen in public like this .
+3-1	There	O	O	_	_	
+3-2	was	B-UnrelEv	O	_	_	
+3-3	no	O	O	_	_	
+3-4	way	O	O	_	_	
+3-5	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	2-1	
+3-6	was	O	O	_	_	
+3-7	going	O	O	_	_	
+3-8	to	O	O	_	_	
+3-9	be	O	O	_	_	
+3-10	seen	B-UnrelEv	O	_	_	
+3-11	in	O	O	_	_	
+3-12	public	O	O	_	_	
+3-13	like	O	O	_	_	
+3-14	this	O	O	_	_	
+3-15	.	O	O	_	_	
+
+#id=4
+#text=I hurried to get ready and wet my head completely to make it seem like it was a normal hairdo .
+4-1	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	3-5	
+4-2	hurried	B-UnrelEv	O	_	_	
+4-3	to	O	O	_	_	
+4-4	get	B-UnrelEv	O	_	_	
+4-5	ready	O	O	_	_	
+4-6	and	O	O	_	_	
+4-7	wet	B-UnrelEv	O	_	_	
+4-8	my	O	B-ScrPart_customer	webanno.custom.Corefchains_	4-1	
+4-9	head	O	B-MissScrPart	_	_	
+4-10	completely	O	O	_	_	
+4-11	to	O	O	_	_	
+4-12	make	O	O	_	_	
+4-13	it	O	O	_	_	
+4-14	seem	B-UnrelEv	O	_	_	
+4-15	like	O	O	_	_	
+4-16	it	O	O	_	_	
+4-17	was	B-UnrelEv	O	_	_	
+4-18	a	O	O	_	_	
+4-19	normal	O	O	_	_	
+4-20	hairdo	O	O	_	_	
+4-21	.	O	O	_	_	
+
+#id=5
+#text=I quickly went to the barber shop to get a complete buzz so that I will never have to see that ugly porcupine hair ever again .
+5-1	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	4-8	
+5-2	quickly	O	O	_	_	
+5-3	went	B-ScrEv_get_salon	O	_	_	
+5-4	to	O	O	_	_	
+5-5	the	O	O	_	_	
+5-6	barber	O	B-ScrPart_salon	_	_	
+5-7	shop	O	I-ScrPart_salon|B-ScrPart_salon	_	_	
+5-8	to	O	O	_	_	
+5-9	get	B-Evoking	O	_	_	
+5-10	a	I-Evoking	O	_	_	
+5-11	complete	I-Evoking	B-MissScrPart	_	_	
+5-12	buzz	I-Evoking	I-MissScrPart|B-MissScrPart	_	_	
+5-13	so	O	O	_	_	
+5-14	that	O	O	_	_	
+5-15	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	5-1	
+5-16	will	O	O	_	_	
+5-17	never	O	O	_	_	
+5-18	have	O	O	_	_	
+5-19	to	O	O	_	_	
+5-20	see	B-UnrelEv	O	_	_	
+5-21	that	O	O	_	_	
+5-22	ugly	O	O	_	_	
+5-23	porcupine	O	O	_	_	
+5-24	hair	O	B-ScrPart_hair	webanno.custom.Corefchains_	1-15	
+5-25	ever	O	O	_	_	
+5-26	again	O	O	_	_	
+5-27	.	O	O	_	_	
+
+#id=6
+#text=The barber quickly buzzes my hair and then blends it together so that it looks normal .
+6-1	The	O	O	_	_	
+6-2	barber	O	B-ScrPart_hairdresser	group_I_barber	5-15	
+6-3	quickly	O	O	_	_	
+6-4	buzzes	B-ScrEv_make_hair_style	O	_	_	
+6-5	my	O	B-ScrPart_customer	webanno.custom.Corefchains_	5-15	
+6-6	hair	O	B-ScrPart_hair	webanno.custom.Corefchains_	5-24	
+6-7	and	O	O	_	_	
+6-8	then	O	O	_	_	
+6-9	blends	B-ScrEv_make_hair_style	O	_	_	
+6-10	it	O	B-ScrPart_hair	webanno.custom.Corefchains_	6-6	
+6-11	together	O	O	_	_	
+6-12	so	O	O	_	_	
+6-13	that	O	O	_	_	
+6-14	it	O	B-ScrPart_hair	webanno.custom.Corefchains_	6-10	
+6-15	looks	B-RelNScrEv	O	_	_	
+6-16	normal	O	O	_	_	
+6-17	.	O	O	_	_	
+
+#id=7
+#text=We talk during the appointment about my life and how my school is .
+7-1	We	O	B-???	group_I_barber	6-2	
+7-2	talk	B-ScrEv_small_talk	O	_	_	
+7-3	during	O	O	_	_	
+7-4	the	O	O	_	_	
+7-5	appointment	O	B-ScrPart_appointment	_	_	
+7-6	about	O	O	_	_	
+7-7	my	O	B-ScrPart_customer	webanno.custom.Corefchains_	6-5	
+7-8	life	O	O	_	_	
+7-9	and	O	O	_	_	
+7-10	how	O	O	_	_	
+7-11	my	O	B-ScrPart_customer	webanno.custom.Corefchains_	7-7	
+7-12	school	O	O	_	_	
+7-13	is	O	O	_	_	
+7-14	.	O	O	_	_	
+
+#id=8
+#text=She is a very nice lady and we get along quite well .
+8-1	She	O	B-ScrPart_hairdresser	webanno.custom.Corefchains_	6-2	
+8-2	is	B-UnrelEv	O	_	_	
+8-3	a	O	O	_	_	
+8-4	very	O	O	_	_	
+8-5	nice	O	O	_	_	
+8-6	lady	O	B-ScrPart_hairdresser	webanno.custom.Corefchains_	8-1	
+8-7	and	O	O	_	_	
+8-8	we	O	B-???	_	_	
+8-9	get	B-UnrelEv|B-UnrelEv	O	_	_	
+8-10	along	I-UnrelEv	O	_	_	
+8-11	quite	O	O	_	_	
+8-12	well	O	O	_	_	
+8-13	.	O	O	_	_	
+
+#id=9
+#text=The haircut only costs $ 15 but I pay with a $ 20 and let her keep the change .
+9-1	The	O	O	_	_	
+9-2	haircut	O	B-MissScrPart	_	_	
+9-3	only	O	O	_	_	
+9-4	costs	B-RelNScrEv	O	_	_	
+9-5	$	O	B-ScrPart_payment_means	_	_	
+9-6	15	O	I-ScrPart_payment_means	_	_	
+9-7	but	O	O	_	_	
+9-8	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	7-11	
+9-9	pay	B-ScrEv_pay	O	_	_	
+9-10	with	O	O	_	_	
+9-11	a	O	O	_	_	
+9-12	$	O	B-ScrPart_payment_means	_	_	
+9-13	20	O	I-ScrPart_payment_means	_	_	
+9-14	and	O	O	_	_	
+9-15	let	B-ScrEv_leave_tip	O	_	_	
+9-16	her	O	B-ScrPart_hairdresser	webanno.custom.Corefchains_	8-6	
+9-17	keep	B-UnrelEv	O	_	_	
+9-18	the	O	O	_	_	
+9-19	change	O	B-ScrPart_tip	_	_	
+9-20	.	O	O	_	_	
+
+#id=10
+#text=I believe everyone who does a good job deserves a tip ! 
+10-1	I	O	B-ScrPart_customer	webanno.custom.Corefchains_	9-8	
+10-2	believe	B-UnrelEv	O	_	_	
+10-3	everyone	O	B-NPart	_	_	
+10-4	who	O	O	_	_	
+10-5	does	B-RelNScrEv	O	_	_	
+10-6	a	O	O	_	_	
+10-7	good	O	O	_	_	
+10-8	job	O	B-SuppVComp	_	_	
+10-9	deserves	B-UnrelEv	O	_	_	
+10-10	a	O	O	_	_	
+10-11	tip	O	B-ScrPart_tip	webanno.custom.Corefchains_	9-19	
+10-12	!	O	O	_	_	
+

@@ -1,0 +1,215 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=One of my favorite weekly activities is going grocery shopping .
+1-1	One	O	O	
+1-2	of	O	O	
+1-3	my	B-ScrPart_shopper	O	
+1-4	favorite	O	O	
+1-5	weekly	O	O	
+1-6	activities	B-NPart	O	
+1-7	is	O	B-UnrelEv	
+1-8	going	O	O	
+1-9	grocery	O	B-Evoking	
+1-10	shopping	O	I-Evoking	
+1-11	.	O	O	
+
+#id=2
+#text=Yesterday afternoon I took a casual stroll to my local Whole Foods and could not resist their tempting and rather delicious items .
+2-1	Yesterday	B-NPart	O	
+2-2	afternoon	I-NPart	O	
+2-3	I	B-ScrPart_shopper	O	
+2-4	took	O	B-ScrEv_go_grocery	
+2-5	a	O	O	
+2-6	casual	O	O	
+2-7	stroll	O	O	
+2-8	to	O	O	
+2-9	my	B-ScrPart_shopper	O	
+2-10	local	O	O	
+2-11	Whole	B-ScrPart_grocery_shop	O	
+2-12	Foods	I-ScrPart_grocery_shop	O	
+2-13	and	O	O	
+2-14	could	O	O	
+2-15	not	O	O	
+2-16	resist	O	B-UnrelEv	
+2-17	their	B-ScrPart_grocery_shop	O	
+2-18	tempting	O	B-UnrelEv	
+2-19	and	O	O	
+2-20	rather	O	O	
+2-21	delicious	O	O	
+2-22	items	B-ScrPart_groceries	O	
+2-23	.	O	O	
+
+#id=3
+#text=My favorite place is the bakery .
+3-1	My	B-ScrPart_shopper	O	
+3-2	favorite	O	O	
+3-3	place	B-NPart	O	
+3-4	is	O	B-UnrelEv	
+3-5	the	O	O	
+3-6	bakery	B-ScrPart_section	O	
+3-7	.	O	O	
+
+#id=4
+#text=From the warm , freshly baked chocolate chip cookies , to the elaborate berries and cream cakes , there is not a product that does not disappoint .
+4-1	From	O	O	
+4-2	the	O	O	
+4-3	warm	O	O	
+4-4	,	O	O	
+4-5	freshly	O	O	
+4-6	baked	O	B-RelNScrEv	
+4-7	chocolate	B-ScrPart_groceries	O	
+4-8	chip	I-ScrPart_groceries	O	
+4-9	cookies	I-ScrPart_groceries|B-ScrPart_groceries	O	
+4-10	,	O	O	
+4-11	to	O	O	
+4-12	the	O	O	
+4-13	elaborate	O	O	
+4-14	berries	B-ScrPart_groceries	O	
+4-15	and	O	O	
+4-16	cream	B-ScrPart_groceries	O	
+4-17	cakes	I-ScrPart_groceries|B-ScrPart_groceries	O	
+4-18	,	O	O	
+4-19	there	O	O	
+4-20	is	O	B-UnrelEv	
+4-21	not	O	O	
+4-22	a	O	O	
+4-23	product	B-ScrPart_groceries	O	
+4-24	that	O	O	
+4-25	does	O	O	
+4-26	not	O	O	
+4-27	disappoint	O	B-UnrelEv	
+4-28	.	O	O	
+
+#id=5
+#text=Another section I perused was the prepared food section .
+5-1	Another	O	O	
+5-2	section	B-ScrPart_section	O	
+5-3	I	B-ScrPart_shopper	O	
+5-4	perused	O	B-ScrEv_move_section	
+5-5	was	O	O	
+5-6	the	O	O	
+5-7	prepared	O	B-UnrelEv	
+5-8	food	B-NPart	O	
+5-9	section	B-ScrPart_section	O	
+5-10	.	O	O	
+
+#id=6
+#text=From pizza , tacos , a salad bar , and fried chicken , there was plenty to choose from .
+6-1	From	O	O	
+6-2	pizza	B-ScrPart_groceries	O	
+6-3	,	O	O	
+6-4	tacos	B-ScrPart_groceries	O	
+6-5	,	O	O	
+6-6	a	O	O	
+6-7	salad	B-ScrPart_section	O	
+6-8	bar	I-ScrPart_section|B-ScrPart_section	O	
+6-9	,	O	O	
+6-10	and	O	O	
+6-11	fried	O	O	
+6-12	chicken	B-ScrPart_groceries	O	
+6-13	,	O	O	
+6-14	there	O	O	
+6-15	was	O	B-UnrelEv	
+6-16	plenty	B-No_label	O	
+6-17	to	O	O	
+6-18	choose	O	O	
+6-19	from	O	O	
+6-20	.	O	O	
+
+#id=7
+#text=My eyes wandered to the burrito bar , as I glanced at the grilled chicken , steak and fajita vegetables .
+7-1	My	B-ScrPart_shopper	O	
+7-2	eyes	B-NPart	O	
+7-3	wandered	O	B-UnrelEv	
+7-4	to	O	O	
+7-5	the	O	O	
+7-6	burrito	B-ScrPart_section	O	
+7-7	bar	I-ScrPart_section|B-ScrPart_section	O	
+7-8	,	O	O	
+7-9	as	O	O	
+7-10	I	B-ScrPart_shopper	O	
+7-11	glanced	O	B-UnrelEv	
+7-12	at	O	O	
+7-13	the	O	O	
+7-14	grilled	O	O	
+7-15	chicken	B-ScrPart_groceries	O	
+7-16	,	O	O	
+7-17	steak	B-ScrPart_groceries	O	
+7-18	and	O	O	
+7-19	fajita	B-ScrPart_groceries	O	
+7-20	vegetables	I-ScrPart_groceries|B-ScrPart_groceries	O	
+7-21	.	O	O	
+
+#id=8
+#text=I ordered a grilled steak burrito stuffed with cheese , hot sauce , salsa , and guacamole .
+8-1	I	B-ScrPart_shopper	O	
+8-2	ordered	O	B-ScrEv_other	
+8-3	a	O	O	
+8-4	grilled	O	O	
+8-5	steak	B-NPart	O	
+8-6	burrito	B-ScrPart_groceries	O	
+8-7	stuffed	O	B-RelNScrEv	
+8-8	with	O	O	
+8-9	cheese	B-ScrPart_groceries	O	
+8-10	,	O	O	
+8-11	hot	O	O	
+8-12	sauce	B-ScrPart_groceries	O	
+8-13	,	O	O	
+8-14	salsa	B-ScrPart_groceries	O	
+8-15	,	O	O	
+8-16	and	O	O	
+8-17	guacamole	B-ScrPart_groceries	O	
+8-18	.	O	O	
+
+#id=9
+#text=After I paid the kind chef who created it , I took one large mammoth bite and dug in .
+9-1	After	O	O	
+9-2	I	B-ScrPart_shopper	O	
+9-3	paid	O	B-ScrEv_pay	
+9-4	the	O	O	
+9-5	kind	O	O	
+9-6	chef	B-NPart	O	
+9-7	who	O	O	
+9-8	created	O	B-RelNScrEv	
+9-9	it	B-ScrPart_groceries	O	
+9-10	,	O	O	
+9-11	I	B-ScrPart_shopper	O	
+9-12	took	O	B-RelNScrEv	
+9-13	one	O	O	
+9-14	large	O	O	
+9-15	mammoth	O	O	
+9-16	bite	B-NPart	O	
+9-17	and	O	O	
+9-18	dug	O	B-UnrelEv|B-UnrelEv	
+9-19	in	O	I-UnrelEv	
+9-20	.	O	O	
+
+#id=10
+#text=It was one of the most delicious burritos I had ever tasted .
+10-1	It	B-ScrPart_groceries	O	
+10-2	was	O	B-UnrelEv	
+10-3	one	O	O	
+10-4	of	O	O	
+10-5	the	O	O	
+10-6	most	O	O	
+10-7	delicious	O	O	
+10-8	burritos	B-ScrPart_groceries	O	
+10-9	I	B-ScrPart_shopper	O	
+10-10	had	O	O	
+10-11	ever	O	O	
+10-12	tasted	O	B-RelNScrEv	
+10-13	.	O	O	
+
+#id=11
+#text=I made sure to definitely come back next time ! 
+11-1	I	B-ScrPart_shopper	O	
+11-2	made	O	B-UnrelEv|B-UnrelEv	
+11-3	sure	O	I-UnrelEv	
+11-4	to	O	O	
+11-5	definitely	O	O	
+11-6	come	O	B-RelNScrEv|B-RelNScrEv	
+11-7	back	O	I-RelNScrEv	
+11-8	next	O	O	
+11-9	time	B-No_label	O	
+11-10	!	O	O	
+

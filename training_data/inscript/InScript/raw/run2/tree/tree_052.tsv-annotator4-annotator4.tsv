@@ -1,0 +1,196 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=My husband always wanted a lemon tree because he loves lemons .
+1-1	My	B-ScrPart_gardener	O	
+1-2	husband	B-ScrPart_gardener	O	
+1-3	always	O	O	
+1-4	wanted	O	B-ScrEv_choose_tree	
+1-5	a	O	O	
+1-6	lemon	B-ScrPart_tree	O	
+1-7	tree	I-ScrPart_tree|B-ScrPart_tree	O	
+1-8	because	O	O	
+1-9	he	B-ScrPart_gardener	O	
+1-10	loves	O	B-UnrelEv	
+1-11	lemons	B-NPart	O	
+1-12	.	O	O	
+
+#id=2
+#text=For his birthday we surprised him with one .
+2-1	For	O	O	
+2-2	his	B-ScrPart_gardener	O	
+2-3	birthday	B-NPart	O	
+2-4	we	B-ScrPart_gardener	O	
+2-5	surprised	O	B-???	
+2-6	him	B-ScrPart_gardener	O	
+2-7	with	O	O	
+2-8	one	B-ScrPart_tree	O	
+2-9	.	O	O	
+
+#id=3
+#text=We went to the nursery and bought the tree .
+3-1	We	B-ScrPart_gardener	O	
+3-2	went	O	B-RelNScrEv	
+3-3	to	O	O	
+3-4	the	O	O	
+3-5	nursery	B-ScrPart_shop	O	
+3-6	and	O	O	
+3-7	bought	O	B-ScrEv_get_tree	
+3-8	the	O	O	
+3-9	tree	B-ScrPart_tree	O	
+3-10	.	O	O	
+
+#id=4
+#text=We got it into the back of the truck and drove home .
+4-1	We	B-ScrPart_gardener	O	
+4-2	got	O	B-RelNScrEv	
+4-3	it	B-ScrPart_tree	O	
+4-4	into	O	O	
+4-5	the	O	O	
+4-6	back	B-NPart	O	
+4-7	of	O	O	
+4-8	the	O	O	
+4-9	truck	B-NPart	O	
+4-10	and	O	O	
+4-11	drove	O	B-ScrEv_take_home	
+4-12	home	B-NPart	O	
+4-13	.	O	O	
+
+#id=5
+#text=We got the tree into the back yard and he was very surprised .
+5-1	We	B-ScrPart_gardener	O	
+5-2	got	O	B-RelNScrEv	
+5-3	the	O	O	
+5-4	tree	B-ScrPart_tree	O	
+5-5	into	O	O	
+5-6	the	O	O	
+5-7	back	B-ScrPart_location_garden	O	
+5-8	yard	I-ScrPart_location_garden|B-ScrPart_location_garden	O	
+5-9	and	O	O	
+5-10	he	B-ScrPart_gardener	O	
+5-11	was	O	O	
+5-12	very	O	O	
+5-13	surprised	O	B-UnrelEv	
+5-14	.	O	O	
+
+#id=6
+#text=We all pitched in and dug up a big circle of grass in the back yard .
+6-1	We	B-ScrPart_gardener	O	
+6-2	all	O	O	
+6-3	pitched	O	B-UnrelEv	
+6-4	in	O	I-UnrelEv	
+6-5	and	O	O	
+6-6	dug	O	B-ScrEv_dug_hole	
+6-7	up	O	I-ScrEv_dug_hole	
+6-8	a	O	O	
+6-9	big	O	O	
+6-10	circle	B-ScrPart_hole	O	
+6-11	of	O	O	
+6-12	grass	B-NPart	O	
+6-13	in	O	O	
+6-14	the	O	O	
+6-15	back	B-ScrPart_location_garden	O	
+6-16	yard	I-ScrPart_location_garden|B-ScrPart_location_garden	O	
+6-17	.	O	O	
+
+#id=7
+#text=We dug a big hole and put the tree in it .
+7-1	We	B-ScrPart_gardener	O	
+7-2	dug	O	B-ScrEv_dug_hole	
+7-3	a	O	O	
+7-4	big	O	O	
+7-5	hole	B-ScrPart_hole	O	
+7-6	and	O	O	
+7-7	put	O	B-ScrEv_place_root	
+7-8	the	O	O	
+7-9	tree	B-ScrPart_tree	O	
+7-10	in	O	O	
+7-11	it	B-ScrPart_hole	O	
+7-12	.	O	O	
+
+#id=8
+#text=Using shovels we filled it in with some good purchased dirt that the nursery recommended .
+8-1	Using	O	B-ScrEv_get_tools	
+8-2	shovels	B-ScrPart_gardening_tool	O	
+8-3	we	B-ScrPart_gardener	O	
+8-4	filled	O	B-ScrEv_refill_hole	
+8-5	it	B-ScrPart_hole	O	
+8-6	in	O	O	
+8-7	with	O	O	
+8-8	some	O	O	
+8-9	good	O	O	
+8-10	purchased	O	B-ScrEv_get_tools	
+8-11	dirt	B-ScrPart_dirt	O	
+8-12	that	B-ScrPart_dirt	O	
+8-13	the	O	O	
+8-14	nursery	B-ScrPart_shop	O	
+8-15	recommended	O	B-UnrelEv	
+8-16	.	O	O	
+
+#id=9
+#text=We got a bunch of bricks that were laying around against the fence and lined the bricks all around it .
+9-1	We	B-ScrPart_gardener	O	
+9-2	got	O	B-ScrEv_get_tools	
+9-3	a	O	O	
+9-4	bunch	B-Head_of_Partitive	O	
+9-5	of	O	O	
+9-6	bricks	B-ScrPart_stake	O	
+9-7	that	B-ScrPart_stake	O	
+9-8	were	O	O	
+9-9	laying	O	B-UnrelEv	
+9-10	around	O	O	
+9-11	against	O	O	
+9-12	the	O	O	
+9-13	fence	B-NPart	O	
+9-14	and	O	O	
+9-15	lined	O	B-ScrEv_tie_stakes_up	
+9-16	the	O	O	
+9-17	bricks	B-ScrPart_stake	O	
+9-18	all	O	O	
+9-19	around	O	O	
+9-20	it	B-ScrPart_tree	O	
+9-21	.	O	O	
+
+#id=10
+#text=It 's been a year now and he has quite a few big green lemons .
+10-1	It	B-No_label	O	
+10-2	's	O	O	
+10-3	been	O	B-UnrelEv	
+10-4	a	O	O	
+10-5	year	B-ScrPart_time	O	
+10-6	now	O	O	
+10-7	and	O	O	
+10-8	he	B-ScrPart_tree	O	
+10-9	has	O	B-UnrelEv	
+10-10	quite	O	O	
+10-11	a	O	O	
+10-12	few	O	O	
+10-13	big	O	O	
+10-14	green	O	O	
+10-15	lemons	B-NPart	O	
+10-16	.	O	O	
+
+#id=11
+#text=He ate one the other day even though it was n't ripe .
+11-1	He	B-ScrPart_gardener	O	
+11-2	ate	O	B-UnrelEv	
+11-3	one	O	O	
+11-4	the	O	O	
+11-5	other	O	O	
+11-6	day	B-No_label	O	
+11-7	even	O	O	
+11-8	though	O	O	
+11-9	it	B-NPart	O	
+11-10	was	O	B-UnrelEv	
+11-11	n't	O	O	
+11-12	ripe	O	O	
+11-13	.	O	O	
+
+#id=12
+#text=He said it was good . 
+12-1	He	B-ScrPart_gardener	O	
+12-2	said	O	B-UnrelEv	
+12-3	it	B-NPart	O	
+12-4	was	O	B-UnrelEv	
+12-5	good	O	O	
+12-6	.	O	O	
+

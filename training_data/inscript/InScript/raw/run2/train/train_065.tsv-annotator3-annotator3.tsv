@@ -1,0 +1,327 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=Yesterday I traveled from London in the United Kingdom to my home in Manchester .
+1-1	Yesterday	B-NPart	O	
+1-2	I	B-ScrPart_passenger	O	
+1-3	traveled	O	B-UnrelEv	
+1-4	from	O	O	
+1-5	London	B-NPart	O	
+1-6	in	O	O	
+1-7	the	O	O	
+1-8	United	B-NPart	O	
+1-9	Kingdom	I-NPart	O	
+1-10	to	O	O	
+1-11	my	B-ScrPart_passenger	O	
+1-12	home	B-NPart	O	
+1-13	in	O	O	
+1-14	Manchester	B-ScrPart_destination	O	
+1-15	.	O	O	
+
+#id=2
+#text=I visited a website for train times and tickets the day before .
+2-1	I	B-ScrPart_passenger	O	
+2-2	visited	O	B-RelNScrEv	
+2-3	a	O	O	
+2-4	website	B-ScrPart_ticket_office/website	O	
+2-5	for	O	O	
+2-6	train	O	O	
+2-7	times	B-ScrPart_time_date	O	
+2-8	and	O	O	
+2-9	tickets	B-ScrPart_card/ticket	O	
+2-10	the	O	O	
+2-11	day	B-ScrPart_time_date	O	
+2-12	before	O	O	
+2-13	.	O	O	
+
+#id=3
+#text=I knew when I needed to arrive in Manchester so I searched using my desired arrival time .
+3-1	I	B-ScrPart_passenger	O	
+3-2	knew	O	B-UnrelEv	
+3-3	when	O	O	
+3-4	I	B-ScrPart_passenger	O	
+3-5	needed	O	O	
+3-6	to	O	O	
+3-7	arrive	O	B-UnrelEv	
+3-8	in	O	O	
+3-9	Manchester	B-ScrPart_destination	O	
+3-10	so	O	O	
+3-11	I	B-ScrPart_passenger	O	
+3-12	searched	O	B-RelNScrEv	
+3-13	using	O	O	
+3-14	my	B-ScrPart_passenger	O	
+3-15	desired	O	O	
+3-16	arrival	B-ScrPart_time_date	O	
+3-17	time	I-ScrPart_time_date|B-ScrPart_time_date	O	
+3-18	.	O	O	
+
+#id=4
+#text=I selected a ticket that worked for me and had the lowest price .
+4-1	I	B-ScrPart_passenger	O	
+4-2	selected	O	B-ScrEv_get_tickets	
+4-3	a	O	O	
+4-4	ticket	B-ScrPart_card/ticket	O	
+4-5	that	O	O	
+4-6	worked	O	B-UnrelEv	
+4-7	for	O	O	
+4-8	me	B-ScrPart_passenger	O	
+4-9	and	O	O	
+4-10	had	O	B-UnrelEv	
+4-11	the	O	O	
+4-12	lowest	O	O	
+4-13	price	B-ScrPart_other	O	
+4-14	.	O	O	
+
+#id=5
+#text=I used my debit card to pay and selected the option to collect the ticket at the train station .
+5-1	I	B-ScrPart_passenger	O	
+5-2	used	O	B-UnrelEv	
+5-3	my	B-ScrPart_passenger	O	
+5-4	debit	B-NPart	O	
+5-5	card	I-NPart|B-NPart	O	
+5-6	to	O	O	
+5-7	pay	O	B-RelNScrEv	
+5-8	and	O	O	
+5-9	selected	O	B-UnrelEv	
+5-10	the	O	O	
+5-11	option	B-NPart	O	
+5-12	to	O	O	
+5-13	collect	O	B-UnrelEv	
+5-14	the	O	O	
+5-15	ticket	B-ScrPart_card/ticket	O	
+5-16	at	O	O	
+5-17	the	O	O	
+5-18	train	B-ScrPart_train_station	O	
+5-19	station	I-ScrPart_train_station|B-ScrPart_train_station	O	
+5-20	.	O	O	
+
+#id=6
+#text=I arrived at the train station in plenty of time because I know there can be long queues at the machines where tickets are collected .
+6-1	I	B-ScrPart_passenger	O	
+6-2	arrived	O	B-ScrEv_get_train_station	
+6-3	at	O	O	
+6-4	the	O	O	
+6-5	train	B-ScrPart_train_station	O	
+6-6	station	I-ScrPart_train_station|B-ScrPart_train_station	O	
+6-7	in	O	O	
+6-8	plenty	B-NPart	O	
+6-9	of	O	O	
+6-10	time	B-ScrPart_time_date	O	
+6-11	because	O	O	
+6-12	I	B-ScrPart_passenger	O	
+6-13	know	O	B-UnrelEv	
+6-14	there	O	O	
+6-15	can	O	O	
+6-16	be	O	B-UnrelEv	
+6-17	long	O	O	
+6-18	queues	B-ScrPart_line	O	
+6-19	at	O	O	
+6-20	the	O	O	
+6-21	machines	B-ScrPart_other	O	
+6-22	where	O	O	
+6-23	tickets	B-ScrPart_card/ticket	O	
+6-24	are	O	O	
+6-25	collected	O	B-UnrelEv	
+6-26	.	O	O	
+
+#id=7
+#text=When it was my turn at the ticket machine , I followed the instructions and input my ticket reference number , which I had stored on my smartphone .
+7-1	When	O	O	
+7-2	it	B-No_label	O	
+7-3	was	O	B-UnrelEv	
+7-4	my	B-ScrPart_passenger	O	
+7-5	turn	B-No_label	O	
+7-6	at	O	O	
+7-7	the	O	O	
+7-8	ticket	B-ScrPart_other	O	
+7-9	machine	I-ScrPart_other|B-ScrPart_other	O	
+7-10	,	O	O	
+7-11	I	B-ScrPart_passenger	O	
+7-12	followed	O	B-UnrelEv	
+7-13	the	O	O	
+7-14	instructions	B-NPart	O	
+7-15	and	O	O	
+7-16	input	O	B-RelNScrEv	
+7-17	my	B-ScrPart_passenger	O	
+7-18	ticket	O	O	
+7-19	reference	B-ScrPart_other	O	
+7-20	number	I-ScrPart_other|B-ScrPart_other	O	
+7-21	,	O	O	
+7-22	which	O	O	
+7-23	I	B-ScrPart_passenger	O	
+7-24	had	O	O	
+7-25	stored	O	B-UnrelEv	
+7-26	on	O	O	
+7-27	my	B-ScrPart_passenger	O	
+7-28	smartphone	B-NPart	O	
+7-29	.	O	O	
+
+#id=8
+#text=The machine printed out my tickets and I picked them up , checking them to make sure they were correct .
+8-1	The	O	O	
+8-2	machine	B-ScrPart_other	O	
+8-3	printed	O	B-UnrelEv|B-UnrelEv	
+8-4	out	O	I-UnrelEv	
+8-5	my	B-ScrPart_passenger	O	
+8-6	tickets	B-ScrPart_card/ticket	O	
+8-7	and	O	O	
+8-8	I	B-ScrPart_passenger	O	
+8-9	picked	O	B-ScrEv_get_tickets	
+8-10	them	B-ScrPart_card/ticket	O	
+8-11	up	O	O	
+8-12	,	O	O	
+8-13	checking	O	B-RelNScrEv	
+8-14	them	B-ScrPart_card/ticket	O	
+8-15	to	O	O	
+8-16	make	O	B-UnrelEv|B-UnrelEv	
+8-17	sure	O	I-UnrelEv	
+8-18	they	B-ScrPart_card/ticket	O	
+8-19	were	O	O	
+8-20	correct	O	O	
+8-21	.	O	O	
+
+#id=9
+#text=Next I needed to determine which platform my train would be departing from .
+9-1	Next	O	O	
+9-2	I	B-ScrPart_passenger	O	
+9-3	needed	O	O	
+9-4	to	O	O	
+9-5	determine	O	B-UnrelEv	
+9-6	which	O	O	
+9-7	platform	B-ScrPart_platform	O	
+9-8	my	B-ScrPart_passenger	O	
+9-9	train	B-ScrPart_train	O	
+9-10	would	O	O	
+9-11	be	O	O	
+9-12	departing	O	B-RelNScrEv	
+9-13	from	O	O	
+9-14	.	O	O	
+
+#id=10
+#text=I walked over to the large electronic display boards .
+10-1	I	B-ScrPart_passenger	O	
+10-2	walked	O	B-UnrelEv|B-UnrelEv	
+10-3	over	O	I-UnrelEv	
+10-4	to	O	O	
+10-5	the	O	O	
+10-6	large	O	O	
+10-7	electronic	O	O	
+10-8	display	B-ScrPart_time-table	O	
+10-9	boards	I-ScrPart_time-table|B-ScrPart_time-table	O	
+10-10	.	O	O	
+
+#id=11
+#text=Lots of destinations were listed and I had to wait a little while before Manchester showed up .
+11-1	Lots	B-No_label	O	
+11-2	of	O	O	
+11-3	destinations	B-ScrPart_destination	O	
+11-4	were	O	O	
+11-5	listed	O	B-UnrelEv	
+11-6	and	O	O	
+11-7	I	B-ScrPart_passenger	O	
+11-8	had	O	O	
+11-9	to	O	O	
+11-10	wait	O	B-ScrEv_wait	
+11-11	a	O	O	
+11-12	little	O	O	
+11-13	while	O	O	
+11-14	before	O	O	
+11-15	Manchester	B-ScrPart_destination	O	
+11-16	showed	O	B-UnrelEv|B-UnrelEv	
+11-17	up	O	I-UnrelEv	
+11-18	.	O	O	
+
+#id=12
+#text=There was more than one train to Manchester , so I confirmed which one was mine by the train company and the departure time .
+12-1	There	O	O	
+12-2	was	O	B-UnrelEv	
+12-3	more	O	O	
+12-4	than	O	O	
+12-5	one	O	O	
+12-6	train	B-ScrPart_train	O	
+12-7	to	O	O	
+12-8	Manchester	B-ScrPart_destination	O	
+12-9	,	O	O	
+12-10	so	O	O	
+12-11	I	B-ScrPart_passenger	O	
+12-12	confirmed	O	B-UnrelEv	
+12-13	which	O	O	
+12-14	one	B-ScrPart_train	O	
+12-15	was	O	B-UnrelEv	
+12-16	mine	B-ScrPart_passenger	O	
+12-17	by	O	O	
+12-18	the	O	O	
+12-19	train	B-ScrPart_other	O	
+12-20	company	I-ScrPart_other|B-ScrPart_other	O	
+12-21	and	O	O	
+12-22	the	O	O	
+12-23	departure	B-ScrPart_time_date	O	
+12-24	time	I-ScrPart_time_date|B-ScrPart_time_date	O	
+12-25	.	O	O	
+
+#id=13
+#text=It said it would leave from Platform 6 so I followed the signs to the platform .
+13-1	It	B-NPart	O	
+13-2	said	O	B-UnrelEv	
+13-3	it	B-ScrPart_train	O	
+13-4	would	O	O	
+13-5	leave	O	B-RelNScrEv	
+13-6	from	O	O	
+13-7	Platform	B-ScrPart_platform	O	
+13-8	6	O	O	
+13-9	so	O	O	
+13-10	I	B-ScrPart_passenger	O	
+13-11	followed	O	B-ScrEv_get_platform	
+13-12	the	O	O	
+13-13	signs	B-ScrPart_other	O	
+13-14	to	O	O	
+13-15	the	O	O	
+13-16	platform	B-ScrPart_platform	O	
+13-17	.	O	O	
+
+#id=14
+#text=Once at the platform I sat and waited until my train arrived .
+14-1	Once	O	O	
+14-2	at	O	O	
+14-3	the	O	O	
+14-4	platform	B-ScrPart_platform	O	
+14-5	I	B-ScrPart_passenger	O	
+14-6	sat	O	B-UnrelEv	
+14-7	and	O	O	
+14-8	waited	O	B-ScrEv_wait	
+14-9	until	O	O	
+14-10	my	B-ScrPart_passenger	O	
+14-11	train	B-ScrPart_train	O	
+14-12	arrived	O	B-ScrEv_train_arrives	
+14-13	.	O	O	
+
+#id=15
+#text=After all of the arriving people got off , I boarded the car indicated on my ticket and took my reserved seat , ready for the journey . 
+15-1	After	O	O	
+15-2	all	O	O	
+15-3	of	O	O	
+15-4	the	O	O	
+15-5	arriving	O	B-ScrEv_train_arrives	
+15-6	people	B-ScrPart_passenger	O	
+15-7	got	O	B-ScrEv_get_off|B-ScrEv_get_off	
+15-8	off	O	I-ScrEv_get_off	
+15-9	,	O	O	
+15-10	I	B-ScrPart_passenger	O	
+15-11	boarded	O	B-ScrEv_get_on	
+15-12	the	O	O	
+15-13	car	B-ScrPart_coach	O	
+15-14	indicated	O	B-UnrelEv	
+15-15	on	O	O	
+15-16	my	B-ScrPart_passenger	O	
+15-17	ticket	B-ScrPart_card/ticket	O	
+15-18	and	O	O	
+15-19	took	O	B-ScrEv_find_place	
+15-20	my	B-ScrPart_passenger	O	
+15-21	reserved	O	O	
+15-22	seat	B-ScrPart_seat	O	
+15-23	,	O	O	
+15-24	ready	O	O	
+15-25	for	O	O	
+15-26	the	O	O	
+15-27	journey	B-ScrPart_trip	O	
+15-28	.	O	O	
+

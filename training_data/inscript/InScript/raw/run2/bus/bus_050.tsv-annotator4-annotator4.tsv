@@ -1,0 +1,202 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Event | Events
+#id=1
+#text=A few years ago we took a Mexican vacation .
+1-1	A	O	O	O	
+1-2	few	O	O	O	
+1-3	years	B-NPart	O	O	
+1-4	ago	O	O	O	
+1-5	we	B-ScrPart_passenger	O	O	
+1-6	took	O	B-webanno.custom.Events_	B-UnrelEv	
+1-7	a	O	O	O	
+1-8	Mexican	O	O	O	
+1-9	vacation	B-NPart	O	O	
+1-10	.	O	O	O	
+
+#id=2
+#text=We heard the best way to travel is on the bus .
+2-1	We	B-ScrPart_passenger	O	O	
+2-2	heard	O	B-webanno.custom.Events_	B-UnrelEv	
+2-3	the	O	O	O	
+2-4	best	O	O	O	
+2-5	way	B-No_label	O	O	
+2-6	to	O	O	O	
+2-7	travel	O	B-webanno.custom.Events_	B-UnrelEv	
+2-8	is	O	B-webanno.custom.Events_	B-UnrelEv	
+2-9	on	O	O	O	
+2-10	the	O	O	O	
+2-11	bus	B-ScrPart_bus	O	O	
+2-12	.	O	O	O	
+
+#id=3
+#text=It was very hot and tropical .
+3-1	It	B-No_label	O	O	
+3-2	was	O	B-webanno.custom.Events_	B-UnrelEv	
+3-3	very	O	O	O	
+3-4	hot	O	O	O	
+3-5	and	O	O	O	
+3-6	tropical	O	O	O	
+3-7	.	O	O	O	
+
+#id=4
+#text=We stood outside in the heat on the long sidewalk waiting for it .
+4-1	We	B-ScrPart_passenger	O	O	
+4-2	stood	O	B-webanno.custom.Events_	B-ScrEv_wait	
+4-3	outside	O	O	O	
+4-4	in	O	O	O	
+4-5	the	O	O	O	
+4-6	heat	B-NPart	O	O	
+4-7	on	O	O	O	
+4-8	the	O	O	O	
+4-9	long	O	O	O	
+4-10	sidewalk	B-NPart	O	O	
+4-11	waiting	O	B-webanno.custom.Events_	B-ScrEv_wait	
+4-12	for	O	I-webanno.custom.Events_	I-ScrEv_wait	
+4-13	it	B-ScrPart_bus	O	O	
+4-14	.	O	O	O	
+
+#id=5
+#text=As we were standing there a giant gecko came out of the bushes .
+5-1	As	O	O	O	
+5-2	we	B-ScrPart_passenger	O	O	
+5-3	were	O	O	O	
+5-4	standing	O	B-webanno.custom.Events_	B-ScrEv_wait	
+5-5	there	O	O	O	
+5-6	a	O	O	O	
+5-7	giant	O	O	O	
+5-8	gecko	B-NPart	O	O	
+5-9	came	O	B-webanno.custom.Events_	B-UnrelEv	
+5-10	out	O	I-webanno.custom.Events_	I-UnrelEv	
+5-11	of	O	O	O	
+5-12	the	O	O	O	
+5-13	bushes	B-NPart	O	O	
+5-14	.	O	O	O	
+
+#id=6
+#text=They say not to get near them .
+6-1	They	B-NPart	O	O	
+6-2	say	O	B-webanno.custom.Events_	B-UnrelEv	
+6-3	not	O	O	O	
+6-4	to	O	O	O	
+6-5	get	O	B-webanno.custom.Events_	B-UnrelEv	
+6-6	near	O	I-webanno.custom.Events_	I-UnrelEv	
+6-7	them	B-NPart	O	O	
+6-8	.	O	O	O	
+
+#id=7
+#text=We hopped on the bus .
+7-1	We	B-ScrPart_passenger	O	O	
+7-2	hopped	O	B-webanno.custom.Events_	B-ScrEv_board_bus	
+7-3	on	O	I-webanno.custom.Events_	I-ScrEv_board_bus	
+7-4	the	O	O	O	
+7-5	bus	B-ScrPart_bus	O	O	
+7-6	.	O	O	O	
+
+#id=8
+#text=The bus was very inexpensive .
+8-1	The	O	O	O	
+8-2	bus	B-ScrPart_bus	O	O	
+8-3	was	O	B-webanno.custom.Events_	B-UnrelEv	
+8-4	very	O	O	O	
+8-5	inexpensive	O	O	O	
+8-6	.	O	O	O	
+
+#id=9
+#text=It was a mixture of locals and tourists .
+9-1	It	B-No_label	O	O	
+9-2	was	O	B-webanno.custom.Events_	B-UnrelEv	
+9-3	a	O	O	O	
+9-4	mixture	B-Head_of_Partitive	O	O	
+9-5	of	O	O	O	
+9-6	locals	B-ScrPart_passenger	O	O	
+9-7	and	O	O	O	
+9-8	tourists	B-ScrPart_passenger	O	O	
+9-9	.	O	O	O	
+
+#id=10
+#text=We decided to ride the bus to the old side of town .
+10-1	We	B-ScrPart_passenger	O	O	
+10-2	decided	O	B-webanno.custom.Events_	B-UnrelEv	
+10-3	to	O	O	O	
+10-4	ride	O	B-webanno.custom.Events_	B-Evoking	
+10-5	the	O	I-webanno.custom.Events_	I-Evoking	
+10-6	bus	B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	
+10-7	to	O	O	O	
+10-8	the	O	O	O	
+10-9	old	O	O	O	
+10-10	side	B-ScrPart_destination	O	O	
+10-11	of	O	O	O	
+10-12	town	B-NPart	O	O	
+10-13	.	O	O	O	
+
+#id=11
+#text=We got off near a strange McDonalds .
+11-1	We	B-ScrPart_passenger	O	O	
+11-2	got	O	B-webanno.custom.Events_	B-ScrEv_get_off	
+11-3	off	O	I-webanno.custom.Events_	I-ScrEv_get_off	
+11-4	near	O	O	O	
+11-5	a	O	O	O	
+11-6	strange	O	O	O	
+11-7	McDonalds	B-NPart	O	O	
+11-8	.	O	O	O	
+
+#id=12
+#text=Very soon after that we got back on the bus and went back into the main part of town where we felt safe .
+12-1	Very	O	O	O	
+12-2	soon	O	O	O	
+12-3	after	O	O	O	
+12-4	that	O	O	O	
+12-5	we	B-ScrPart_passenger	O	O	
+12-6	got	O	B-webanno.custom.Events_	B-ScrEv_board_bus	
+12-7	back	O	I-webanno.custom.Events_	I-ScrEv_board_bus	
+12-8	on	O	I-webanno.custom.Events_	I-ScrEv_board_bus	
+12-9	the	O	O	O	
+12-10	bus	B-ScrPart_bus	O	O	
+12-11	and	O	O	O	
+12-12	went	O	B-webanno.custom.Events_	B-ScrEv_ride	
+12-13	back	O	I-webanno.custom.Events_	I-ScrEv_ride	
+12-14	into	O	O	O	
+12-15	the	O	O	O	
+12-16	main	O	O	O	
+12-17	part	B-ScrPart_destination	O	O	
+12-18	of	O	O	O	
+12-19	town	B-NPart	O	O	
+12-20	where	O	O	O	
+12-21	we	B-ScrPart_passenger	O	O	
+12-22	felt	O	B-webanno.custom.Events_	B-UnrelEv	
+12-23	safe	O	O	O	
+12-24	.	O	O	O	
+
+#id=13
+#text=After that we just got on and off within a few mile radius of the hotel .
+13-1	After	O	O	O	
+13-2	that	O	O	O	
+13-3	we	B-ScrPart_passenger	O	O	
+13-4	just	O	O	O	
+13-5	got	O	B-webanno.custom.Events_	B-ScrEv_ride	
+13-6	on	O	I-webanno.custom.Events_	I-ScrEv_ride	
+13-7	and	O	O	O	
+13-8	off	O	O	O	
+13-9	within	O	O	O	
+13-10	a	O	O	O	
+13-11	few	O	O	O	
+13-12	mile	B-NPart	O	O	
+13-13	radius	I-NPart|B-NPart	O	O	
+13-14	of	O	O	O	
+13-15	the	O	O	O	
+13-16	hotel	B-NPart	O	O	
+13-17	.	O	O	O	
+
+#id=14
+#text=We did end up renting a car the next day . 
+14-1	We	B-ScrPart_passenger	O	O	
+14-2	did	O	O	O	
+14-3	end	O	B-webanno.custom.Events_	B-UnrelEv	
+14-4	up	O	I-webanno.custom.Events_	I-UnrelEv	
+14-5	renting	O	B-webanno.custom.Events_	B-UnrelEv	
+14-6	a	O	O	O	
+14-7	car	B-NPart	O	O	
+14-8	the	O	O	O	
+14-9	next	O	O	O	
+14-10	day	B-NPart	O	O	
+14-11	.	O	O	O	
+

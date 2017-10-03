@@ -1,0 +1,223 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Last night I realized I did not have anything for dinner .
+1-1	Last	O	O	_	_	
+1-2	night	B-NPart	O	_	_	
+1-3	I	B-ScrPart_shopper	O	_	_	
+1-4	realized	O	B-UnrelEv	_	_	
+1-5	I	B-ScrPart_shopper	O	_	_	
+1-6	did	O	O	_	_	
+1-7	not	O	O	_	_	
+1-8	have	O	B-UnrelEv	_	_	
+1-9	anything	B-No_label	O	_	_	
+1-10	for	O	O	_	_	
+1-11	dinner	B-NPart	O	_	_	
+1-12	.	O	O	_	_	
+
+#id=2
+#text=To solve this conundrum I first thought about ordering out food .
+2-1	To	O	O	_	_	
+2-2	solve	O	B-UnrelEv	_	_	
+2-3	this	O	O	_	_	
+2-4	conundrum	B-NPart	O	_	_	
+2-5	I	B-ScrPart_shopper	O	_	_	
+2-6	first	O	O	_	_	
+2-7	thought	O	B-UnrelEv	_	_	
+2-8	about	O	O	_	_	
+2-9	ordering	O	B-UnrelEv	_	_	
+2-10	out	O	O	_	_	
+2-11	food	B-NPart	O	_	_	
+2-12	.	O	O	_	_	
+
+#id=3
+#text=This , I realized , was too expensive as I am a broke college graduate just trying to get by .
+3-1	This	O	O	_	_	
+3-2	,	O	O	_	_	
+3-3	I	B-ScrPart_shopper	O	_	_	
+3-4	realized	O	B-UnrelEv	_	_	
+3-5	,	O	O	_	_	
+3-6	was	O	B-UnrelEv	_	_	
+3-7	too	O	O	_	_	
+3-8	expensive	O	O	_	_	
+3-9	as	O	O	_	_	
+3-10	I	B-ScrPart_shopper	O	_	_	
+3-11	am	O	O	_	_	
+3-12	a	O	O	_	_	
+3-13	broke	B-ScrPart_shopper	O	_	_	
+3-14	college	I-ScrPart_shopper	O	_	_	
+3-15	graduate	I-ScrPart_shopper|B-ScrPart_shopper	O	_	_	
+3-16	just	O	O	_	_	
+3-17	trying	O	O	_	_	
+3-18	to	O	O	_	_	
+3-19	get	O	B-UnrelEv	_	_	
+3-20	by	O	O	_	_	
+3-21	.	O	O	_	_	
+
+#id=4
+#text=I settled on an alternative , going to the grocery store to purchase food .
+4-1	I	B-ScrPart_shopper	O	_	_	
+4-2	settled	O	B-UnrelEv	_	_	
+4-3	on	O	O	_	_	
+4-4	an	O	O	_	_	
+4-5	alternative	B-NPart	O	_	_	
+4-6	,	O	O	_	_	
+4-7	going	O	B-Evoking|B-ScrEv_go_grocery	_	_	
+4-8	to	O	I-Evoking	_	_	
+4-9	the	O	I-Evoking	_	_	
+4-10	grocery	B-ScrPart_grocery_shop	I-Evoking	_	_	
+4-11	store	I-ScrPart_grocery_shop|B-ScrPart_grocery_shop	I-Evoking	_	_	
+4-12	to	O	O	_	_	
+4-13	purchase	O	B-ScrEv_get_groceries	_	_	
+4-14	food	B-ScrPart_groceries	O	_	_	
+4-15	.	O	O	_	_	
+
+#id=5
+#text=I walked down the street from my apartment to the Whole Foods in the brisk spring air .
+5-1	I	B-ScrPart_shopper	O	_	_	
+5-2	walked	O	B-ScrEv_go_grocery|B-ScrEv_go_grocery	_	_	
+5-3	down	O	I-ScrEv_go_grocery	_	_	
+5-4	the	O	O	_	_	
+5-5	street	B-NPart	O	_	_	
+5-6	from	O	O	_	_	
+5-7	my	B-ScrPart_shopper	O	_	_	
+5-8	apartment	B-NPart	O	_	_	
+5-9	to	O	O	_	_	
+5-10	the	O	O	_	_	
+5-11	Whole	B-ScrPart_grocery_shop	O	_	_	
+5-12	Foods	I-ScrPart_grocery_shop|B-ScrPart_grocery_shop	O	_	_	
+5-13	in	O	O	_	_	
+5-14	the	O	O	_	_	
+5-15	brisk	O	O	_	_	
+5-16	spring	B-NPart	O	_	_	
+5-17	air	I-NPart|B-NPart	O	_	_	
+5-18	.	O	O	_	_	
+
+#id=6
+#text=I was on a mission , purchase delicious food .
+6-1	I	B-ScrPart_shopper	O	_	_	
+6-2	was	O	B-UnrelEv	_	_	
+6-3	on	O	O	_	_	
+6-4	a	O	O	_	_	
+6-5	mission	B-NPart	O	_	_	
+6-6	,	O	O	_	_	
+6-7	purchase	O	B-ScrEv_get_groceries	_	_	
+6-8	delicious	O	O	_	_	
+6-9	food	B-ScrPart_groceries	O	_	_	
+6-10	.	O	O	_	_	
+
+#id=7
+#text=When I reached the Whole Foods , the distinct smell of smug filled my nostrils .
+7-1	When	O	O	_	_	
+7-2	I	B-ScrPart_shopper	O	_	_	
+7-3	reached	O	B-ScrEv_go_grocery	_	_	
+7-4	the	O	O	_	_	
+7-5	Whole	B-ScrPart_grocery_shop	O	_	_	
+7-6	Foods	I-ScrPart_grocery_shop|B-ScrPart_grocery_shop	O	_	_	
+7-7	,	O	O	_	_	
+7-8	the	O	O	_	_	
+7-9	distinct	O	O	_	_	
+7-10	smell	B-NPart	O	_	_	
+7-11	of	O	O	_	_	
+7-12	smug	O	O	_	_	
+7-13	filled	O	B-UnrelEv	_	_	
+7-14	my	B-ScrPart_shopper	O	_	_	
+7-15	nostrils	B-NPart	O	_	_	
+7-16	.	O	O	_	_	
+
+#id=8
+#text=Organic , natural , non deoderized humans paced to and fro within the confines of the kale infused shelving units .
+8-1	Organic	O	O	_	_	
+8-2	,	O	O	_	_	
+8-3	natural	O	O	_	_	
+8-4	,	O	O	_	_	
+8-5	non	O	O	_	_	
+8-6	deoderized	O	B-UnrelEv	_	_	
+8-7	humans	B-ScrPart_shopper	O	_	_	
+8-8	paced	O	B-ScrEv_move_section	_	_	
+8-9	to	O	O	_	_	
+8-10	and	O	O	_	_	
+8-11	fro	O	O	_	_	
+8-12	within	O	O	_	_	
+8-13	the	O	O	_	_	
+8-14	confines	B-NPart	O	_	_	
+8-15	of	O	O	_	_	
+8-16	the	O	O	_	_	
+8-17	kale	B-ScrPart_groceries	O	_	_	
+8-18	infused	O	B-UnrelEv	_	_	
+8-19	shelving	B-ScrPart_section	O	_	_	
+8-20	units	I-ScrPart_section|B-ScrPart_section	O	_	_	
+8-21	.	O	O	_	_	
+
+#id=9
+#text=I quickly scuttled to the small frozen foods section to purchase some ` healthy ' junk food .
+9-1	I	B-ScrPart_shopper	O	_	_	
+9-2	quickly	O	O	_	_	
+9-3	scuttled	O	B-ScrEv_move_section	_	_	
+9-4	to	O	O	_	_	
+9-5	the	O	O	_	_	
+9-6	small	O	O	_	_	
+9-7	frozen	B-ScrPart_section	O	_	_	
+9-8	foods	I-ScrPart_section	O	_	_	
+9-9	section	I-ScrPart_section|B-ScrPart_section	O	_	_	
+9-10	to	O	O	_	_	
+9-11	purchase	O	B-ScrEv_get_groceries	_	_	
+9-12	some	O	O	_	_	
+9-13	`	O	O	_	_	
+9-14	healthy	O	O	_	_	
+9-15	'	O	O	_	_	
+9-16	junk	B-ScrPart_groceries	O	_	_	
+9-17	food	I-ScrPart_groceries|B-ScrPart_groceries	O	_	_	
+9-18	.	O	O	_	_	
+
+#id=10
+#text=I selected chicken tenders and a small frozen pizza .
+10-1	I	B-ScrPart_shopper	O	_	_	
+10-2	selected	O	B-ScrEv_get_groceries	_	_	
+10-3	chicken	B-ScrPart_groceries	O	_	_	
+10-4	tenders	I-ScrPart_groceries|B-ScrPart_groceries	O	_	_	
+10-5	and	O	O	_	_	
+10-6	a	O	O	_	_	
+10-7	small	O	O	_	_	
+10-8	frozen	B-ScrPart_groceries	O	_	_	
+10-9	pizza	I-ScrPart_groceries|B-ScrPart_groceries	O	_	_	
+10-10	.	O	O	_	_	
+
+#id=11
+#text=Skirting the weed smoking hippies throughout the store I returned to the front .
+11-1	Skirting	O	B-UnrelEv	_	_	
+11-2	the	O	O	_	_	
+11-3	weed	O	O	_	_	
+11-4	smoking	O	B-UnrelEv	_	_	
+11-5	hippies	B-ScrPart_shopper	O	_	_	
+11-6	throughout	O	O	_	_	
+11-7	the	O	O	_	_	
+11-8	store	B-ScrPart_grocery_shop	O	_	_	
+11-9	I	B-ScrPart_shopper	O	_	_	
+11-10	returned	O	B-ScrEv_move_section	_	_	
+11-11	to	O	O	_	_	
+11-12	the	O	O	_	_	
+11-13	front	B-ScrPart_section	O	_	_	
+11-14	.	O	O	_	_	
+
+#id=12
+#text=I quickly made my purchase and sprinted back towards home to concoct my wonderfully delicious tendies and pizza . 
+12-1	I	B-ScrPart_shopper	O	_	_	
+12-2	quickly	O	O	_	_	
+12-3	made	O	B-ScrEv_get_groceries	_	_	
+12-4	my	B-ScrPart_shopper	O	_	_	
+12-5	purchase	B-SuppVComp	O	_	_	
+12-6	and	O	O	_	_	
+12-7	sprinted	O	B-ScrEv_leave|B-ScrEv_leave	_	_	
+12-8	back	O	I-ScrEv_leave	_	_	
+12-9	towards	O	O	_	_	
+12-10	home	B-NPart	O	webanno.custom.Corefchains_	5-8	
+12-11	to	O	O	_	_	
+12-12	concoct	O	B-UnrelEv	_	_	
+12-13	my	B-ScrPart_shopper	O	_	_	
+12-14	wonderfully	O	O	_	_	
+12-15	delicious	O	O	_	_	
+12-16	tendies	B-ScrPart_groceries	O	_	_	
+12-17	and	O	O	_	_	
+12-18	pizza	B-ScrPart_groceries	O	_	_	
+12-19	.	O	O	_	_	
+

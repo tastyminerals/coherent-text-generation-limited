@@ -1,0 +1,213 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=The other week I had to take a trip on a train to visit some family that lives down south .
+1-1	The	O	O	
+1-2	other	O	O	
+1-3	week	B-NPart	O	
+1-4	I	B-ScrPart_passenger	O	
+1-5	had	O	O	
+1-6	to	O	O	
+1-7	take	O	B-Evoking	
+1-8	a	O	I-Evoking	
+1-9	trip	B-ScrPart_trip	I-Evoking	
+1-10	on	O	I-Evoking	
+1-11	a	O	I-Evoking	
+1-12	train	B-ScrPart_train	I-Evoking	
+1-13	to	O	O	
+1-14	visit	O	B-UnrelEv	
+1-15	some	O	O	
+1-16	family	B-NPart	O	
+1-17	that	O	O	
+1-18	lives	O	B-UnrelEv	
+1-19	down	O	O	
+1-20	south	O	O	
+1-21	.	O	O	
+
+#id=2
+#text=Once I bought my train ticket I waited with a big group of people for the train to come .
+2-1	Once	O	O	
+2-2	I	B-ScrPart_passenger	O	
+2-3	bought	O	B-ScrEv_get_tickets	
+2-4	my	B-ScrPart_passenger	O	
+2-5	train	B-ScrPart_card/ticket	O	
+2-6	ticket	I-ScrPart_card/ticket|B-ScrPart_card/ticket	O	
+2-7	I	B-ScrPart_passenger	O	
+2-8	waited	O	B-ScrEv_wait	
+2-9	with	O	O	
+2-10	a	O	O	
+2-11	big	O	O	
+2-12	group	B-Head_of_Partitive	O	
+2-13	of	O	O	
+2-14	people	B-ScrPart_passenger	O	
+2-15	for	O	O	
+2-16	the	O	O	
+2-17	train	B-ScrPart_train	O	
+2-18	to	O	O	
+2-19	come	O	B-ScrEv_train_arrives	
+2-20	.	O	O	
+
+#id=3
+#text=Once the train came down the track we all got onto the train and took our seats .
+3-1	Once	O	O	
+3-2	the	O	O	
+3-3	train	B-ScrPart_train	O	
+3-4	came	O	B-ScrEv_train_arrives	
+3-5	down	O	O	
+3-6	the	O	O	
+3-7	track	B-NPart	O	
+3-8	we	B-ScrPart_passenger	O	
+3-9	all	O	O	
+3-10	got	O	B-ScrEv_get_on	
+3-11	onto	O	O	
+3-12	the	O	O	
+3-13	train	B-ScrPart_train	O	
+3-14	and	O	O	
+3-15	took	O	B-ScrEv_find_place	
+3-16	our	B-ScrPart_passenger	O	
+3-17	seats	B-ScrPart_seat	O	
+3-18	.	O	O	
+
+#id=4
+#text=A ticket-man came and asked to see our tickets and make sure that we all were supposed to be on the train , and also that we 're all in the right seats .
+4-1	A	O	O	
+4-2	ticket-man	B-ScrPart_train_staff	O	
+4-3	came	O	B-RelNScrEv	
+4-4	and	O	O	
+4-5	asked	O	B-ScrEv_conductor_checks	
+4-6	to	O	O	
+4-7	see	O	B-ScrEv_conductor_checks	
+4-8	our	B-ScrPart_passenger	O	
+4-9	tickets	B-ScrPart_card/ticket	O	
+4-10	and	O	O	
+4-11	make	O	B-ScrEv_conductor_checks	
+4-12	sure	O	I-ScrEv_conductor_checks	
+4-13	that	O	O	
+4-14	we	B-ScrPart_passenger	O	
+4-15	all	O	O	
+4-16	were	O	O	
+4-17	supposed	O	B-RelNScrEv	
+4-18	to	O	O	
+4-19	be	O	B-RelNScrEv	
+4-20	on	O	O	
+4-21	the	O	O	
+4-22	train	B-ScrPart_train	O	
+4-23	,	O	O	
+4-24	and	O	O	
+4-25	also	O	O	
+4-26	that	O	O	
+4-27	we	B-ScrPart_passenger	O	
+4-28	're	O	B-RelNScrEv	
+4-29	all	O	O	
+4-30	in	O	O	
+4-31	the	O	O	
+4-32	right	O	O	
+4-33	seats	B-ScrPart_seat	O	
+4-34	.	O	O	
+
+#id=5
+#text=Once that is all taken care of I walk to the food train-car and get some food .
+5-1	Once	O	O	
+5-2	that	O	O	
+5-3	is	O	O	
+5-4	all	O	O	
+5-5	taken	O	B-UnrelEv	
+5-6	care	B-No_label	O	
+5-7	of	O	O	
+5-8	I	B-ScrPart_passenger	O	
+5-9	walk	O	B-ScrEv_spend_time_train	
+5-10	to	O	O	
+5-11	the	O	O	
+5-12	food	B-ScrPart_coach	O	
+5-13	train-car	I-ScrPart_coach|B-ScrPart_coach	O	
+5-14	and	O	O	
+5-15	get	O	B-ScrEv_spend_time_train	
+5-16	some	O	O	
+5-17	food	B-ScrPart_in-train_entertainment	O	
+5-18	.	O	O	
+
+#id=6
+#text=I sit down at the train-car table and eat my food .
+6-1	I	B-ScrPart_passenger	O	
+6-2	sit	O	B-ScrEv_spend_time_train	
+6-3	down	O	I-ScrEv_spend_time_train	
+6-4	at	O	O	
+6-5	the	O	O	
+6-6	train-car	B-NPart	O	
+6-7	table	I-NPart|B-NPart	O	
+6-8	and	O	O	
+6-9	eat	O	B-ScrEv_spend_time_train	
+6-10	my	B-ScrPart_passenger	O	
+6-11	food	B-ScrPart_in-train_entertainment	O	
+6-12	.	O	O	
+
+#id=7
+#text=The food is good , but was prepared quickly .
+7-1	The	O	O	
+7-2	food	B-ScrPart_in-train_entertainment	O	
+7-3	is	O	B-UnrelEv	
+7-4	good	O	O	
+7-5	,	O	O	
+7-6	but	O	O	
+7-7	was	O	O	
+7-8	prepared	O	B-UnrelEv	
+7-9	quickly	O	O	
+7-10	.	O	O	
+
+#id=8
+#text=After I eat my food I throw away the trash from my meal and walk back to my seat where I fall asleep for a little while and then when I wake up I am at my destination and exit the train where I meet up with my family who are waiting for me . 
+8-1	After	O	O	
+8-2	I	B-ScrPart_passenger	O	
+8-3	eat	O	B-ScrEv_spend_time_train	
+8-4	my	B-ScrPart_passenger	O	
+8-5	food	B-ScrPart_in-train_entertainment	O	
+8-6	I	B-ScrPart_passenger	O	
+8-7	throw	O	B-RelNScrEv	
+8-8	away	O	I-RelNScrEv	
+8-9	the	O	O	
+8-10	trash	B-NPart	O	
+8-11	from	O	O	
+8-12	my	B-ScrPart_passenger	O	
+8-13	meal	B-ScrPart_in-train_entertainment	O	
+8-14	and	O	O	
+8-15	walk	O	B-ScrEv_spend_time_train	
+8-16	back	O	I-ScrEv_spend_time_train	
+8-17	to	O	O	
+8-18	my	B-ScrPart_passenger	O	
+8-19	seat	B-ScrPart_seat	O	
+8-20	where	O	O	
+8-21	I	B-ScrPart_passenger	O	
+8-22	fall	O	B-ScrEv_spend_time_train	
+8-23	asleep	O	O	
+8-24	for	O	O	
+8-25	a	O	O	
+8-26	little	O	O	
+8-27	while	B-No_label	O	
+8-28	and	O	O	
+8-29	then	O	O	
+8-30	when	O	O	
+8-31	I	B-ScrPart_passenger	O	
+8-32	wake	O	B-RelNScrEv	
+8-33	up	O	I-RelNScrEv	
+8-34	I	B-ScrPart_passenger	O	
+8-35	am	O	B-ScrEv_arrive_destination	
+8-36	at	O	O	
+8-37	my	B-ScrPart_passenger	O	
+8-38	destination	B-ScrPart_destination	O	
+8-39	and	O	O	
+8-40	exit	O	B-ScrEv_get_off	
+8-41	the	O	O	
+8-42	train	B-ScrPart_train	O	
+8-43	where	O	O	
+8-44	I	B-ScrPart_passenger	O	
+8-45	meet	O	B-RelNScrEv	
+8-46	up	O	I-RelNScrEv	
+8-47	with	O	O	
+8-48	my	B-ScrPart_passenger	O	
+8-49	family	B-NPart	O	
+8-50	who	B-NPart	O	
+8-51	are	O	O	
+8-52	waiting	O	B-RelNScrEv	
+8-53	for	O	O	
+8-54	me	B-ScrPart_passenger	O	
+8-55	.	O	O	
+

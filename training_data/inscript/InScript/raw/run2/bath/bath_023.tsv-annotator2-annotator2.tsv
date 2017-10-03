@@ -1,0 +1,194 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events
+#id=1
+#text=At the end of a long hard day I like to take a nice bath to relax and refresh .
+1-1	At	O	O	O	
+1-2	the	O	O	O	
+1-3	end	B-Head_of_Partitive	B-webanno.custom.Participants_	O	
+1-4	of	O	O	O	
+1-5	a	O	O	O	
+1-6	long	O	O	O	
+1-7	hard	O	O	O	
+1-8	day	B-NPart	B-webanno.custom.Participants_	O	
+1-9	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+1-10	like	O	O	B-UnrelEv	
+1-11	to	O	O	O	
+1-12	take	O	O	B-Evoking	
+1-13	a	O	O	I-Evoking	
+1-14	nice	O	O	I-Evoking	
+1-15	bath	B-ScrPart_bath	B-webanno.custom.Participants_	I-Evoking	
+1-16	to	O	O	O	
+1-17	relax	O	O	B-ScrEv_relax	
+1-18	and	O	O	O	
+1-19	refresh	O	O	B-UnrelEv	
+1-20	.	O	O	O	
+
+#id=2
+#text=On Monday evening , I came home from work and then got ready for my bath .
+2-1	On	O	O	O	
+2-2	Monday	B-NPart	B-webanno.custom.Participants_	O	
+2-3	evening	B-NPart	B-webanno.custom.Participants_	O	
+2-4	,	O	O	O	
+2-5	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+2-6	came	O	O	B-UnrelEv	
+2-7	home	B-NPart	B-webanno.custom.Participants_	O	
+2-8	from	O	O	O	
+2-9	work	B-NPart	B-webanno.custom.Participants_	O	
+2-10	and	O	O	O	
+2-11	then	O	O	O	
+2-12	got	O	O	B-UnrelEv	
+2-13	ready	O	O	O	
+2-14	for	O	O	O	
+2-15	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+2-16	bath	B-ScrPart_bath	B-webanno.custom.Participants_	O	
+2-17	.	O	O	O	
+
+#id=3
+#text=I started running the water in the tub while I gathered a few items .
+3-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+3-2	started	O	O	B-UnrelEv	
+3-3	running	O	O	B-ScrEv_fill_water/wait	
+3-4	the	O	O	O	
+3-5	water	B-ScrPart_water	B-webanno.custom.Participants_	O	
+3-6	in	O	O	O	
+3-7	the	O	O	O	
+3-8	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	
+3-9	while	O	O	O	
+3-10	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+3-11	gathered	O	O	B-ScrEv_prepare_bath	
+3-12	a	O	O	O	
+3-13	few	O	O	O	
+3-14	items	B-???	B-webanno.custom.Participants_	O	
+3-15	.	O	O	O	
+
+#id=4
+#text=First I placed candles around the edge of the tub and lit them for ambience .
+4-1	First	O	O	O	
+4-2	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+4-3	placed	O	O	B-ScrEv_prepare_bath	
+4-4	candles	B-ScrPart_in-bath_entertainment	B-webanno.custom.Participants_	O	
+4-5	around	O	O	O	
+4-6	the	O	O	O	
+4-7	edge	B-Head_of_Partitive	B-webanno.custom.Participants_	O	
+4-8	of	O	O	O	
+4-9	the	O	O	O	
+4-10	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	
+4-11	and	O	O	O	
+4-12	lit	O	O	B-ScrEv_prepare_bath	
+4-13	them	B-ScrPart_in-bath_entertainment	B-webanno.custom.Participants_	O	
+4-14	for	O	O	O	
+4-15	ambience	B-NPart	B-webanno.custom.Participants_	O	
+4-16	.	O	O	O	
+
+#id=5
+#text=Then I put in some bath salts to make the water scented and smooth .
+5-1	Then	O	O	O	
+5-2	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+5-3	put	O	O	B-ScrEv_put_bubble_bath_scent	
+5-4	in	O	O	O	
+5-5	some	O	O	O	
+5-6	bath	B-ScrPart_bath_means	B-webanno.custom.Participants_	O	
+5-7	salts	I-ScrPart_bath_means|B-ScrPart_bath_means	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+5-8	to	O	O	O	
+5-9	make	O	O	B-UnrelEv	
+5-10	the	O	O	O	
+5-11	water	B-ScrPart_water	B-webanno.custom.Participants_	O	
+5-12	scented	O	O	O	
+5-13	and	O	O	O	
+5-14	smooth	O	O	O	
+5-15	.	O	O	O	
+
+#id=6
+#text=I put some towels near the edge of the tub so they would be ready when I got out .
+6-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+6-2	put	O	O	B-ScrEv_prepare_bath	
+6-3	some	O	O	O	
+6-4	towels	B-ScrPart_towel	B-webanno.custom.Participants_	O	
+6-5	near	O	O	O	
+6-6	the	O	O	O	
+6-7	edge	B-Head_of_Partitive	B-webanno.custom.Participants_	O	
+6-8	of	O	O	O	
+6-9	the	O	O	O	
+6-10	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	
+6-11	so	O	O	O	
+6-12	they	B-ScrPart_towel	B-webanno.custom.Participants_	O	
+6-13	would	O	O	O	
+6-14	be	O	O	B-UnrelEv	
+6-15	ready	O	O	O	
+6-16	when	O	O	O	
+6-17	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+6-18	got	O	O	B-ScrEv_get_out_bath	
+6-19	out	O	O	I-ScrEv_get_out_bath	
+6-20	.	O	O	O	
+
+#id=7
+#text=Then I slid into the water and enjoyed the relaxing warmth for twenty or thirty minutes .
+7-1	Then	O	O	O	
+7-2	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+7-3	slid	O	O	B-ScrEv_sink_water	
+7-4	into	O	O	O	
+7-5	the	O	O	O	
+7-6	water	B-ScrPart_water	B-webanno.custom.Participants_	O	
+7-7	and	O	O	O	
+7-8	enjoyed	O	O	B-ScrEv_relax	
+7-9	the	O	O	O	
+7-10	relaxing	O	O	B-ScrEv_relax	
+7-11	warmth	B-ScrPart_temperature	B-webanno.custom.Participants_	O	
+7-12	for	O	O	O	
+7-13	twenty	O	O	O	
+7-14	or	O	O	O	
+7-15	thirty	O	O	O	
+7-16	minutes	B-NPart	B-webanno.custom.Participants_	O	
+7-17	.	O	O	O	
+
+#id=8
+#text=When it was time to get out , I started letting the water out of the tub and ran a little more warm water to rinse off with .
+8-1	When	O	O	O	
+8-2	it	B-No_label	B-webanno.custom.Participants_	O	
+8-3	was	O	O	B-UnrelEv	
+8-4	time	B-No_label	B-webanno.custom.Participants_	O	
+8-5	to	O	O	O	
+8-6	get	O	O	B-ScrEv_get_out_bath	
+8-7	out	O	O	I-ScrEv_get_out_bath	
+8-8	,	O	O	O	
+8-9	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+8-10	started	O	O	B-UnrelEv	
+8-11	letting	O	O	B-RelNScrEv	
+8-12	the	O	O	O	
+8-13	water	B-ScrPart_water	B-webanno.custom.Participants_	O	
+8-14	out	O	O	O	
+8-15	of	O	O	O	
+8-16	the	O	O	O	
+8-17	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	
+8-18	and	O	O	O	
+8-19	ran	O	O	B-RelNScrEv	
+8-20	a	O	O	O	
+8-21	little	O	O	O	
+8-22	more	O	O	O	
+8-23	warm	O	O	O	
+8-24	water	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+8-25	to	O	O	O	
+8-26	rinse	O	O	B-RelNScrEv	
+8-27	off	O	O	O	
+8-28	with	O	O	O	
+8-29	.	O	O	O	
+
+#id=9
+#text=Once I was finished , I exited the tub and bundled up in the warm towels . 
+9-1	Once	O	O	O	
+9-2	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+9-3	was	O	O	B-UnrelEv	
+9-4	finished	O	O	O	
+9-5	,	O	O	O	
+9-6	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+9-7	exited	O	O	B-ScrEv_get_out_bath	
+9-8	the	O	O	O	
+9-9	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	
+9-10	and	O	O	O	
+9-11	bundled	O	O	B-RelNScrEv	
+9-12	up	O	O	I-RelNScrEv	
+9-13	in	O	O	O	
+9-14	the	O	O	O	
+9-15	warm	O	O	O	
+9-16	towels	B-ScrPart_towel	B-webanno.custom.Participants_	O	
+9-17	.	O	O	O	
+

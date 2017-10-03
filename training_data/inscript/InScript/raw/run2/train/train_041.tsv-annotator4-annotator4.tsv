@@ -1,0 +1,213 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=I had a business meeting in San Fran and I lived in San Jose .
+1-1	I	B-ScrPart_passenger	O	
+1-2	had	O	B-UnrelEv	
+1-3	a	O	O	
+1-4	business	B-NPart	O	
+1-5	meeting	I-NPart|B-NPart	O	
+1-6	in	O	O	
+1-7	San	B-ScrPart_destination	O	
+1-8	Fran	I-ScrPart_destination	O	
+1-9	and	O	O	
+1-10	I	B-ScrPart_passenger	O	
+1-11	lived	O	B-UnrelEv	
+1-12	in	O	O	
+1-13	San	B-NPart	O	
+1-14	Jose	I-NPart	O	
+1-15	.	O	O	
+
+#id=2
+#text=Being that they were not that far of a distance I decided to take the train to it instead of flying .
+2-1	Being	O	O	
+2-2	that	O	O	
+2-3	they	B-NPart	O	
+2-4	were	O	B-UnrelEv	
+2-5	not	O	O	
+2-6	that	O	O	
+2-7	far	O	O	
+2-8	of	O	O	
+2-9	a	O	O	
+2-10	distance	B-NPart	O	
+2-11	I	B-ScrPart_passenger	O	
+2-12	decided	O	B-UnrelEv	
+2-13	to	O	O	
+2-14	take	O	B-Evoking	
+2-15	the	O	I-Evoking	
+2-16	train	B-ScrPart_train	I-Evoking	
+2-17	to	O	O	
+2-18	it	B-ScrPart_destination	O	
+2-19	instead	O	O	
+2-20	of	O	O	
+2-21	flying	O	B-UnrelEv	
+2-22	.	O	O	
+
+#id=3
+#text=I went online and bought my train ticket and printed it out the night before and packed my things .
+3-1	I	B-ScrPart_passenger	O	
+3-2	went	O	B-RelNScrEv	
+3-3	online	O	O	
+3-4	and	O	O	
+3-5	bought	O	B-ScrEv_get_tickets	
+3-6	my	B-ScrPart_passenger	O	
+3-7	train	B-ScrPart_card/ticket	O	
+3-8	ticket	I-ScrPart_card/ticket|B-ScrPart_card/ticket	O	
+3-9	and	O	O	
+3-10	printed	O	B-ScrEv_get_tickets	
+3-11	it	B-ScrPart_card/ticket	O	
+3-12	out	O	O	
+3-13	the	O	O	
+3-14	night	B-ScrPart_time_date	O	
+3-15	before	O	O	
+3-16	and	O	O	
+3-17	packed	O	B-RelNScrEv	
+3-18	my	B-ScrPart_passenger	O	
+3-19	things	B-ScrPart_luggage	O	
+3-20	.	O	O	
+
+#id=4
+#text=I then got to the train station and parked .
+4-1	I	B-ScrPart_passenger	O	
+4-2	then	O	O	
+4-3	got	O	B-ScrEv_get_train_station	
+4-4	to	O	O	
+4-5	the	O	O	
+4-6	train	B-ScrPart_train_station	O	
+4-7	station	I-ScrPart_train_station|B-ScrPart_train_station	O	
+4-8	and	O	O	
+4-9	parked	O	B-RelNScrEv	
+4-10	.	O	O	
+
+#id=5
+#text=I went up to my train , train number four , and gave my ticket to the conductor and boarded the train .
+5-1	I	B-ScrPart_passenger	O	
+5-2	went	O	B-ScrEv_get_platform	
+5-3	up	O	I-ScrEv_get_platform	
+5-4	to	O	O	
+5-5	my	B-ScrPart_passenger	O	
+5-6	train	B-ScrPart_train	O	
+5-7	,	O	O	
+5-8	train	B-ScrPart_train	O	
+5-9	number	B-NPart	O	
+5-10	four	O	O	
+5-11	,	O	O	
+5-12	and	O	O	
+5-13	gave	O	B-ScrEv_conductor_checks	
+5-14	my	B-ScrPart_passenger	O	
+5-15	ticket	B-ScrPart_card/ticket	O	
+5-16	to	O	O	
+5-17	the	O	O	
+5-18	conductor	B-ScrPart_train_staff	O	
+5-19	and	O	O	
+5-20	boarded	O	B-ScrEv_get_on	
+5-21	the	O	O	
+5-22	train	B-ScrPart_train	O	
+5-23	.	O	O	
+
+#id=6
+#text=I was able to put my suitcase in the overhead bin and sat down in my seat which to my surprise was quite roomy .
+6-1	I	B-ScrPart_passenger	O	
+6-2	was	O	B-UnrelEv	
+6-3	able	O	O	
+6-4	to	O	O	
+6-5	put	O	B-RelNScrEv	
+6-6	my	B-ScrPart_passenger	O	
+6-7	suitcase	B-ScrPart_luggage	O	
+6-8	in	O	O	
+6-9	the	O	O	
+6-10	overhead	B-NPart	O	
+6-11	bin	I-NPart|B-NPart	O	
+6-12	and	O	O	
+6-13	sat	O	B-ScrEv_find_place	
+6-14	down	O	I-ScrEv_find_place	
+6-15	in	O	O	
+6-16	my	B-ScrPart_passenger	O	
+6-17	seat	B-ScrPart_seat	O	
+6-18	which	B-ScrPart_seat	O	
+6-19	to	O	O	
+6-20	my	B-ScrPart_passenger	O	
+6-21	surprise	B-NPart	O	
+6-22	was	O	B-UnrelEv	
+6-23	quite	O	O	
+6-24	roomy	O	O	
+6-25	.	O	O	
+
+#id=7
+#text=Very different from the cramped seats on an airplane .
+7-1	Very	O	O	
+7-2	different	O	O	
+7-3	from	O	O	
+7-4	the	O	O	
+7-5	cramped	O	B-UnrelEv	
+7-6	seats	B-ScrPart_seat	O	
+7-7	on	O	O	
+7-8	an	O	O	
+7-9	airplane	B-NPart	O	
+7-10	.	O	O	
+
+#id=8
+#text=They even had plugs in the seats and Wi-Fi .
+8-1	They	B-NPart	O	
+8-2	even	O	O	
+8-3	had	O	B-UnrelEv	
+8-4	plugs	B-NPart	O	
+8-5	in	O	O	
+8-6	the	O	O	
+8-7	seats	B-ScrPart_seat	O	
+8-8	and	O	O	
+8-9	Wi-Fi	B-NPart	O	
+8-10	.	O	O	
+
+#id=9
+#text=I decided to pull out my laptop and check emails and get some work done during my hour and a half train ride .
+9-1	I	B-ScrPart_passenger	O	
+9-2	decided	O	B-UnrelEv	
+9-3	to	O	O	
+9-4	pull	O	B-RelNScrEv	
+9-5	out	O	I-RelNScrEv	
+9-6	my	B-ScrPart_passenger	O	
+9-7	laptop	B-ScrPart_in-train_entertainment	O	
+9-8	and	O	O	
+9-9	check	O	B-ScrEv_spend_time_train	
+9-10	emails	B-ScrPart_in-train_entertainment	O	
+9-11	and	O	O	
+9-12	get	O	B-UnrelEv	
+9-13	some	O	O	
+9-14	work	B-ScrPart_in-train_entertainment	O	
+9-15	done	O	B-ScrEv_spend_time_train	
+9-16	during	O	O	
+9-17	my	B-ScrPart_passenger	O	
+9-18	hour	B-ScrPart_trip	O	
+9-19	and	I-ScrPart_trip	O	
+9-20	a	I-ScrPart_trip	O	
+9-21	half	I-ScrPart_trip	O	
+9-22	train	I-ScrPart_trip	O	
+9-23	ride	I-ScrPart_trip|B-ScrPart_trip	O	
+9-24	.	O	O	
+
+#id=10
+#text=We arrived at our destination and I got off the train , grabbed my things and caught a taxi to my hotel . 
+10-1	We	B-ScrPart_passenger	O	
+10-2	arrived	O	B-ScrEv_arrive_destination	
+10-3	at	O	O	
+10-4	our	B-ScrPart_passenger	O	
+10-5	destination	B-ScrPart_destination	O	
+10-6	and	O	O	
+10-7	I	B-ScrPart_passenger	O	
+10-8	got	O	B-ScrEv_get_off	
+10-9	off	O	I-ScrEv_get_off	
+10-10	the	O	O	
+10-11	train	B-ScrPart_train	O	
+10-12	,	O	O	
+10-13	grabbed	O	B-RelNScrEv	
+10-14	my	B-ScrPart_passenger	O	
+10-15	things	B-ScrPart_luggage	O	
+10-16	and	O	O	
+10-17	caught	O	B-RelNScrEv	
+10-18	a	O	O	
+10-19	taxi	B-NPart	O	
+10-20	to	O	O	
+10-21	my	B-ScrPart_passenger	O	
+10-22	hotel	B-NPart	O	
+10-23	.	O	O	
+

@@ -1,0 +1,260 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=My wife and I flew on an airplane a couple of months ago .
+1-1	My	B-webanno.custom.Participants_|B-webanno.custom.Participants_	B-ScrPart_passenger|B-ScrPart_passenger	O	webanno.custom.Corefchains_|webanno.custom.Corefchains_	2-1|1-4	
+1-2	wife	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_passenger|B-ScrPart_passenger	O	webanno.custom.Corefchains_|webanno.custom.Corefchains_	2-1|11-22	
+1-3	and	I-webanno.custom.Participants_	I-ScrPart_passenger	O	webanno.custom.Corefchains_	2-1	
+1-4	I	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_passenger|B-ScrPart_passenger	O	webanno.custom.Corefchains_|webanno.custom.Corefchains_	2-1|2-11	
+1-5	flew	O	O	B-Evoking	_	_	
+1-6	on	O	O	I-Evoking	_	_	
+1-7	an	O	O	I-Evoking	_	_	
+1-8	airplane	B-webanno.custom.Participants_	B-ScrPart_plane	I-Evoking	webanno.custom.Corefchains_	10-6	
+1-9	a	O	O	O	_	_	
+1-10	couple	O	O	O	_	_	
+1-11	of	O	O	O	_	_	
+1-12	months	O	O	O	_	_	
+1-13	ago	O	O	O	_	_	
+1-14	.	O	O	O	_	_	
+
+#id=2
+#text=We were going to Las Vegas because a friend of mine was getting married .
+2-1	We	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-10	
+2-2	were	O	O	O	_	_	
+2-3	going	O	O	B-???	_	_	
+2-4	to	O	O	O	_	_	
+2-5	Las	B-webanno.custom.Participants_	B-ScrPart_target_location	O	webanno.custom.Corefchains_	7-11	
+2-6	Vegas	I-webanno.custom.Participants_	I-ScrPart_target_location	O	webanno.custom.Corefchains_	7-11	
+2-7	because	O	O	O	_	_	
+2-8	a	O	O	O	_	_	
+2-9	friend	B-webanno.custom.Participants_	B-ScrPart_accomp_person	O	webanno.custom.Corefchains_	3-1	
+2-10	of	O	O	O	_	_	
+2-11	mine	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-26	
+2-12	was	O	O	O	_	_	
+2-13	getting	O	O	B-UnrelEv	_	_	
+2-14	married	O	O	B-UnrelEv	_	_	
+2-15	.	O	O	O	_	_	
+
+#id=3
+#text=He lives there and said that he would pick us up from the airport .
+3-1	He	B-webanno.custom.Participants_	B-ScrPart_accomp_person	O	webanno.custom.Corefchains_	3-7	
+3-2	lives	O	O	B-UnrelEv	_	_	
+3-3	there	O	O	O	_	_	
+3-4	and	O	O	O	_	_	
+3-5	said	O	O	B-UnrelEv	_	_	
+3-6	that	O	O	O	_	_	
+3-7	he	B-webanno.custom.Participants_	B-ScrPart_accomp_person	O	webanno.custom.Corefchains_	12-2	
+3-8	would	O	O	O	_	_	
+3-9	pick	O	O	B-ScrEv_go_target_location	_	_	
+3-10	us	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-15	
+3-11	up	O	O	O	_	_	
+3-12	from	O	O	O	_	_	
+3-13	the	O	O	O	_	_	
+3-14	airport	B-webanno.custom.Participants_	B-ScrPart_airport	O	webanno.custom.Corefchains_	12-11	
+3-15	.	O	O	O	_	_	
+
+#id=4
+#text=But , the weather here was cold and there was freezing rain , so our flight was delayed for two hours .
+4-1	But	O	O	O	_	_	
+4-2	,	O	O	O	_	_	
+4-3	the	O	O	O	_	_	
+4-4	weather	O	O	O	_	_	
+4-5	here	O	O	O	_	_	
+4-6	was	O	O	B-UnrelEv	_	_	
+4-7	cold	O	O	O	_	_	
+4-8	and	O	O	O	_	_	
+4-9	there	O	O	O	_	_	
+4-10	was	O	O	B-UnrelEv	_	_	
+4-11	freezing	O	O	O	_	_	
+4-12	rain	O	O	O	_	_	
+4-13	,	O	O	O	_	_	
+4-14	so	O	O	O	_	_	
+4-15	our	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_|coref_group_we_passenger	8-15|6-1	
+4-16	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	webanno.custom.Corefchains_	6-4	
+4-17	was	O	O	O	_	_	
+4-18	delayed	O	O	B-RelNScrEv	_	_	
+4-19	for	O	O	O	_	_	
+4-20	two	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+4-21	hours	I-webanno.custom.Participants_	I-ScrPart_time/date	O	_	_	
+4-22	.	O	O	O	_	_	
+
+#id=5
+#text=It was kind of scary taking off because the weather was still cold and rainy , but after two hours of sitting there waiting , I was ready to go .
+5-1	It	O	O	O	_	_	
+5-2	was	O	O	B-UnrelEv	_	_	
+5-3	kind	O	O	O	_	_	
+5-4	of	O	O	O	_	_	
+5-5	scary	O	O	O	_	_	
+5-6	taking	O	O	B-ScrEv_take_off	_	_	
+5-7	off	O	O	I-ScrEv_take_off	_	_	
+5-8	because	O	O	O	_	_	
+5-9	the	O	O	O	_	_	
+5-10	weather	O	O	O	_	_	
+5-11	was	O	O	B-UnrelEv	_	_	
+5-12	still	O	O	O	_	_	
+5-13	cold	O	O	O	_	_	
+5-14	and	O	O	O	_	_	
+5-15	rainy	O	O	O	_	_	
+5-16	,	O	O	O	_	_	
+5-17	but	O	O	O	_	_	
+5-18	after	O	O	O	_	_	
+5-19	two	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+5-20	hours	I-webanno.custom.Participants_	I-ScrPart_time/date	O	_	_	
+5-21	of	O	O	O	_	_	
+5-22	sitting	O	O	B-RelNScrEv	_	_	
+5-23	there	O	O	O	_	_	
+5-24	waiting	O	O	B-ScrEv_wait	_	_	
+5-25	,	O	O	O	_	_	
+5-26	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-1	
+5-27	was	O	O	B-UnrelEv	_	_	
+5-28	ready	O	O	O	_	_	
+5-29	to	O	O	O	_	_	
+5-30	go	O	O	B-ScrEv_take_off	_	_	
+5-31	.	O	O	O	_	_	
+
+#id=6
+#text=People on the flight were pretty happy to finally leave and a lot of people were having drinks .
+6-1	People	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-15	
+6-2	on	O	O	O	_	_	
+6-3	the	O	O	O	_	_	
+6-4	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	webanno.custom.Corefchains_	8-2	
+6-5	were	O	O	B-UnrelEv	_	_	
+6-6	pretty	O	O	O	_	_	
+6-7	happy	O	O	O	_	_	
+6-8	to	O	O	O	_	_	
+6-9	finally	O	O	O	_	_	
+6-10	leave	O	O	B-ScrEv_take_off	_	_	
+6-11	and	O	O	O	_	_	
+6-12	a	O	O	O	_	_	
+6-13	lot	O	O	O	_	_	
+6-14	of	O	O	O	_	_	
+6-15	people	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-1	
+6-16	were	O	O	O	_	_	
+6-17	having	O	O	B-ScrEv_spend_time_flight	_	_	
+6-18	drinks	B-webanno.custom.Participants_	B-ScrPart_in-flight_entertainment	O	_	_	
+6-19	.	O	O	O	_	_	
+
+#id=7
+#text=Everyone was getting ready for their own little party in Las Vegas .
+7-1	Everyone	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-6	
+7-2	was	O	O	O	_	_	
+7-3	getting	O	O	B-ScrEv_spend_time_flight	_	_	
+7-4	ready	O	O	O	_	_	
+7-5	for	O	O	O	_	_	
+7-6	their	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	11-10	
+7-7	own	O	O	O	_	_	
+7-8	little	O	O	O	_	_	
+7-9	party	B-webanno.custom.Participants_	B-NPart	O	_	_	
+7-10	in	O	O	O	_	_	
+7-11	Las	B-webanno.custom.Participants_	B-ScrPart_target_location	O	webanno.custom.Corefchains_	12-19	
+7-12	Vegas	I-webanno.custom.Participants_	I-ScrPart_target_location	O	webanno.custom.Corefchains_	12-19	
+7-13	.	O	O	O	_	_	
+
+#id=8
+#text=The flight itself took a little over four hours due to the fact that we had a non-stop flight .
+8-1	The	O	O	O	_	_	
+8-2	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	webanno.custom.Corefchains_	8-19	
+8-3	itself	O	O	O	_	_	
+8-4	took	O	O	B-RelNScrEv	_	_	
+8-5	a	O	O	O	_	_	
+8-6	little	O	O	O	_	_	
+8-7	over	O	O	O	_	_	
+8-8	four	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+8-9	hours	I-webanno.custom.Participants_	I-ScrPart_time/date	O	_	_	
+8-10	due	O	O	O	_	_	
+8-11	to	O	O	O	_	_	
+8-12	the	O	O	O	_	_	
+8-13	fact	O	O	O	_	_	
+8-14	that	O	O	O	_	_	
+8-15	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	12-7	
+8-16	had	O	O	B-Evoking	_	_	
+8-17	a	O	O	I-Evoking	_	_	
+8-18	non-stop	O	O	I-Evoking	_	_	
+8-19	flight	B-webanno.custom.Participants_	B-ScrPart_flight	I-Evoking	webanno.custom.Corefchains_	11-2	
+8-20	.	O	O	O	_	_	
+
+#id=9
+#text=I was glad I paid the extra money for not making any stops .
+9-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-4	
+9-2	was	O	O	B-UnrelEv	_	_	
+9-3	glad	O	O	O	_	_	
+9-4	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-12	
+9-5	paid	O	O	B-RelNScrEv	_	_	
+9-6	the	O	O	O	_	_	
+9-7	extra	O	O	O	_	_	
+9-8	money	B-webanno.custom.Participants_	B-NPart	O	_	_	
+9-9	for	O	O	O	_	_	
+9-10	not	O	O	O	_	_	
+9-11	making	O	O	B-RelNScrEv	_	_	
+9-12	any	O	O	O	_	_	
+9-13	stops	B-webanno.custom.Participants_	B-SuppVComp	O	_	_	
+9-14	.	O	O	O	_	_	
+
+#id=10
+#text=Six hours sitting on an airplane is more than enough for me .
+10-1	Six	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+10-2	hours	I-webanno.custom.Participants_	I-ScrPart_time/date	O	_	_	
+10-3	sitting	O	O	B-ScrEv_spend_time_flight	_	_	
+10-4	on	O	O	O	_	_	
+10-5	an	O	O	O	_	_	
+10-6	airplane	B-webanno.custom.Participants_	B-ScrPart_plane	O	_	_	
+10-7	is	O	O	B-UnrelEv	_	_	
+10-8	more	O	O	O	_	_	
+10-9	than	O	O	O	_	_	
+10-10	enough	O	O	O	_	_	
+10-11	for	O	O	O	_	_	
+10-12	me	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	11-21	
+10-13	.	O	O	O	_	_	
+
+#id=11
+#text=The flight was pretty uneventful except for the lively passengers , so that was a good thing , especially since my wife hates to fly .
+11-1	The	O	O	O	_	_	
+11-2	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	_	_	
+11-3	was	O	O	B-UnrelEv	_	_	
+11-4	pretty	O	O	O	_	_	
+11-5	uneventful	O	O	O	_	_	
+11-6	except	O	O	O	_	_	
+11-7	for	O	O	O	_	_	
+11-8	the	O	O	O	_	_	
+11-9	lively	O	O	O	_	_	
+11-10	passengers	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+11-11	,	O	O	O	_	_	
+11-12	so	O	O	O	_	_	
+11-13	that	O	O	O	_	_	
+11-14	was	O	O	B-UnrelEv	_	_	
+11-15	a	O	O	O	_	_	
+11-16	good	O	O	O	_	_	
+11-17	thing	O	O	O	_	_	
+11-18	,	O	O	O	_	_	
+11-19	especially	O	O	O	_	_	
+11-20	since	O	O	O	_	_	
+11-21	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	12-1	
+11-22	wife	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+11-23	hates	O	O	B-UnrelEv	_	_	
+11-24	to	O	O	O	_	_	
+11-25	fly	O	O	B-Evoking	_	_	
+11-26	.	O	O	O	_	_	
+
+#id=12
+#text=My friend ended up still picking us up from the airport and we had a great time in Las Vegas . 
+12-1	My	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+12-2	friend	B-webanno.custom.Participants_	B-ScrPart_accomp_person	O	_	_	
+12-3	ended	O	O	B-UnrelEv	_	_	
+12-4	up	O	O	I-UnrelEv	_	_	
+12-5	still	O	O	O	_	_	
+12-6	picking	O	O	B-ScrEv_go_target_location	_	_	
+12-7	us	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	12-13	
+12-8	up	O	O	O	_	_	
+12-9	from	O	O	O	_	_	
+12-10	the	O	O	O	_	_	
+12-11	airport	B-webanno.custom.Participants_	B-ScrPart_airport	O	_	_	
+12-12	and	O	O	O	_	_	
+12-13	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+12-14	had	O	O	B-UnrelEv	_	_	
+12-15	a	O	O	O	_	_	
+12-16	great	O	O	O	_	_	
+12-17	time	O	O	O	_	_	
+12-18	in	O	O	O	_	_	
+12-19	Las	B-webanno.custom.Participants_	B-ScrPart_target_location	O	_	_	
+12-20	Vegas	I-webanno.custom.Participants_	I-ScrPart_target_location	O	_	_	
+12-21	.	O	O	O	_	_	
+

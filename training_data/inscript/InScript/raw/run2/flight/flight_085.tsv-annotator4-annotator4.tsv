@@ -1,0 +1,246 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant | Participants
+#id=1
+#text=Flying in an airplane is always exciting .
+1-1	Flying	B-Evoking	O	O	
+1-2	in	I-Evoking	O	O	
+1-3	an	I-Evoking	O	O	
+1-4	airplane	I-Evoking	B-webanno.custom.Participants_	B-ScrPart_plane	
+1-5	is	B-UnrelEv	O	O	
+1-6	always	O	O	O	
+1-7	exciting	B-UnrelEv	O	O	
+1-8	.	O	O	O	
+
+#id=2
+#text=The day before , I always make sure that my bags are packed .
+2-1	The	O	O	O	
+2-2	day	O	B-webanno.custom.Participants_|B-webanno.custom.Participants_	B-ScrPart_time/date|B-ScrPart_time/date	
+2-3	before	O	I-webanno.custom.Participants_	I-ScrPart_time/date	
+2-4	,	O	O	O	
+2-5	I	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+2-6	always	O	O	O	
+2-7	make	B-UnrelEv	O	O	
+2-8	sure	I-UnrelEv	O	O	
+2-9	that	O	O	O	
+2-10	my	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+2-11	bags	O	B-webanno.custom.Participants_	B-ScrPart_check_in_luggage	
+2-12	are	O	O	O	
+2-13	packed	B-ScrEv_pack_luggage	O	O	
+2-14	.	O	O	O	
+
+#id=3
+#text=If you are bringing a carry on , pack that as well but make sure you follow guidelines for liquids .
+3-1	If	O	O	O	
+3-2	you	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+3-3	are	O	O	O	
+3-4	bringing	B-RelNScrEv	O	O	
+3-5	a	O	O	O	
+3-6	carry	O	B-webanno.custom.Participants_	B-ScrPart_carry_on_luggage	
+3-7	on	O	I-webanno.custom.Participants_	I-ScrPart_carry_on_luggage	
+3-8	,	O	O	O	
+3-9	pack	B-ScrEv_pack_luggage	O	O	
+3-10	that	O	B-webanno.custom.Participants_	B-ScrPart_carry_on_luggage	
+3-11	as	O	O	O	
+3-12	well	O	O	O	
+3-13	but	O	O	O	
+3-14	make	B-UnrelEv	O	O	
+3-15	sure	I-UnrelEv	O	O	
+3-16	you	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+3-17	follow	B-UnrelEv	O	O	
+3-18	guidelines	O	B-webanno.custom.Participants_	B-NPart	
+3-19	for	O	O	O	
+3-20	liquids	O	B-webanno.custom.Participants_	B-NPart	
+3-21	.	O	O	O	
+
+#id=4
+#text=Also make sure your bags do not weigh too much to avoid extra charges .
+4-1	Also	O	O	O	
+4-2	make	B-UnrelEv	O	O	
+4-3	sure	I-UnrelEv	O	O	
+4-4	your	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+4-5	bags	O	B-webanno.custom.Participants_	B-ScrPart_check_in_luggage	
+4-6	do	O	O	O	
+4-7	not	O	O	O	
+4-8	weigh	B-RelNScrEv	O	O	
+4-9	too	O	O	O	
+4-10	much	O	O	O	
+4-11	to	O	O	O	
+4-12	avoid	B-UnrelEv	O	O	
+4-13	extra	O	O	O	
+4-14	charges	O	B-webanno.custom.Participants_	B-NPart	
+4-15	.	O	O	O	
+
+#id=5
+#text=The morning of your flight , make sure you get there one or two hours early , depending on the size of the airport .
+5-1	The	O	O	O	
+5-2	morning	O	B-webanno.custom.Participants_	B-ScrPart_time/date	
+5-3	of	O	O	O	
+5-4	your	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+5-5	flight	O	B-webanno.custom.Participants_	B-ScrPart_flight	
+5-6	,	O	O	O	
+5-7	make	B-UnrelEv	O	O	
+5-8	sure	I-UnrelEv	O	O	
+5-9	you	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+5-10	get	B-ScrEv_get_airport	O	O	
+5-11	there	I-ScrEv_get_airport	O	O	
+5-12	one	O	B-webanno.custom.Participants_	B-ScrPart_time/date	
+5-13	or	O	I-webanno.custom.Participants_	I-ScrPart_time/date	
+5-14	two	O	I-webanno.custom.Participants_	I-ScrPart_time/date	
+5-15	hours	O	I-webanno.custom.Participants_	I-ScrPart_time/date	
+5-16	early	O	O	O	
+5-17	,	O	O	O	
+5-18	depending	B-UnrelEv	O	O	
+5-19	on	O	O	O	
+5-20	the	O	O	O	
+5-21	size	O	B-webanno.custom.Participants_	B-NPart	
+5-22	of	O	O	O	
+5-23	the	O	O	O	
+5-24	airport	O	B-webanno.custom.Participants_	B-ScrPart_airport	
+5-25	.	O	O	O	
+
+#id=6
+#text=Check your bags in necessary and recieve your boarding ticket .
+6-1	Check	B-ScrEv_check_luggage	O	O	
+6-2	your	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+6-3	bags	O	B-webanno.custom.Participants_	B-ScrPart_check_in_luggage	
+6-4	in	O	O	O	
+6-5	necessary	O	O	O	
+6-6	and	O	O	O	
+6-7	recieve	B-ScrEv_get_ticket	O	O	
+6-8	your	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+6-9	boarding	O	B-webanno.custom.Participants_	B-ScrPart_boarding_pass	
+6-10	ticket	O	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_boarding_pass|B-ScrPart_boarding_pass	
+6-11	.	O	O	O	
+
+#id=7
+#text=After that , you can head over to security .
+7-1	After	O	O	O	
+7-2	that	O	O	O	
+7-3	,	O	O	O	
+7-4	you	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+7-5	can	O	O	O	
+7-6	head	B-ScrEv_go_security_checks	O	O	
+7-7	over	I-ScrEv_go_security_checks	O	O	
+7-8	to	O	O	O	
+7-9	security	O	B-webanno.custom.Participants_	B-ScrPart_security_check	
+7-10	.	O	O	O	
+
+#id=8
+#text=At Security , take off your shoes and any metal and put them in a bin along with your phone and carry on .
+8-1	At	O	O	O	
+8-2	Security	O	B-webanno.custom.Participants_	B-ScrPart_security_check	
+8-3	,	O	O	O	
+8-4	take	B-RelNScrEv	O	O	
+8-5	off	I-RelNScrEv	O	O	
+8-6	your	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+8-7	shoes	O	B-webanno.custom.Participants_	B-ScrPart_personal_belongings	
+8-8	and	O	O	O	
+8-9	any	O	O	O	
+8-10	metal	O	B-webanno.custom.Participants_	B-ScrPart_personal_belongings	
+8-11	and	O	O	O	
+8-12	put	B-RelNScrEv	O	O	
+8-13	them	O	B-webanno.custom.Participants_	B-ScrPart_personal_belongings	
+8-14	in	O	O	O	
+8-15	a	O	O	O	
+8-16	bin	O	B-webanno.custom.Participants_	B-NPart	
+8-17	along	O	O	O	
+8-18	with	O	O	O	
+8-19	your	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+8-20	phone	O	B-webanno.custom.Participants_	B-ScrPart_personal_belongings	
+8-21	and	O	O	O	
+8-22	carry	O	B-webanno.custom.Participants_	B-ScrPart_carry_on_luggage	
+8-23	on	O	I-webanno.custom.Participants_	I-ScrPart_carry_on_luggage	
+8-24	.	O	O	O	
+
+#id=9
+#text=When the guard tells you to do so , walk through the scanner .
+9-1	When	O	O	O	
+9-2	the	O	O	O	
+9-3	guard	O	B-webanno.custom.Participants_	B-ScrPart_staff	
+9-4	tells	B-ScrEv_listen_crew	O	O	
+9-5	you	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+9-6	to	O	O	O	
+9-7	do	B-UnrelEv	O	O	
+9-8	so	O	O	O	
+9-9	,	O	O	O	
+9-10	walk	B-ScrEv_go_security_checks	O	O	
+9-11	through	I-ScrEv_go_security_checks	O	O	
+9-12	the	O	O	O	
+9-13	scanner	O	B-webanno.custom.Participants_	B-ScrPart_security_check	
+9-14	.	O	O	O	
+
+#id=10
+#text=Once cleared , you can grab your things back .
+10-1	Once	O	O	O	
+10-2	cleared	B-ScrEv_go_security_checks	O	O	
+10-3	,	O	O	O	
+10-4	you	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+10-5	can	O	O	O	
+10-6	grab	B-RelNScrEv	O	O	
+10-7	your	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+10-8	things	O	B-webanno.custom.Participants_	B-ScrPart_personal_belongings	
+10-9	back	O	O	O	
+10-10	.	O	O	O	
+
+#id=11
+#text=Now wait until your flight is called to board .
+11-1	Now	O	O	O	
+11-2	wait	B-ScrEv_wait_boarding	O	O	
+11-3	until	O	O	O	
+11-4	your	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+11-5	flight	O	B-webanno.custom.Participants_	B-ScrPart_flight	
+11-6	is	O	O	O	
+11-7	called	B-ScrEv_listen_call	O	O	
+11-8	to	O	O	O	
+11-9	board	B-ScrEv_board_plane	O	O	
+11-10	.	O	O	O	
+
+#id=12
+#text=When it is time , hand oyur boarding pass the the flight attendant and take you seat .
+12-1	When	O	O	O	
+12-2	it	O	B-webanno.custom.Participants_	B-No_label	
+12-3	is	B-UnrelEv	O	O	
+12-4	time	O	B-webanno.custom.Participants_	B-No_label	
+12-5	,	O	O	O	
+12-6	hand	B-ScrEv_present_boarding_pass	O	O	
+12-7	oyur	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+12-8	boarding	O	B-webanno.custom.Participants_	B-ScrPart_boarding_pass	
+12-9	pass	O	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_boarding_pass|B-ScrPart_boarding_pass	
+12-10	the	O	O	O	
+12-11	the	O	O	O	
+12-12	flight	O	B-webanno.custom.Participants_	B-ScrPart_staff	
+12-13	attendant	O	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_staff|B-ScrPart_staff	
+12-14	and	O	O	O	
+12-15	take	B-ScrEv_take_seat	O	O	
+12-16	you	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+12-17	seat	O	B-webanno.custom.Participants_	B-ScrPart_seat	
+12-18	.	O	O	O	
+
+#id=13
+#text=Stow your carry on and buckle your seatbelt .
+13-1	Stow	B-ScrEv_stow_away_luggage	O	O	
+13-2	your	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+13-3	carry	O	B-webanno.custom.Participants_	B-ScrPart_carry_on_luggage	
+13-4	on	O	I-webanno.custom.Participants_	I-ScrPart_carry_on_luggage	
+13-5	and	O	O	O	
+13-6	buckle	B-ScrEv_buckle_seat_belt	O	O	
+13-7	your	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+13-8	seatbelt	O	B-webanno.custom.Participants_	B-ScrPart_seat_belt	
+13-9	.	O	O	O	
+
+#id=14
+#text=Watch the flight attendant give the safty demonstration , and enjoy your flight ! 
+14-1	Watch	B-ScrEv_listen_crew	O	O	
+14-2	the	O	O	O	
+14-3	flight	O	B-webanno.custom.Participants_	B-ScrPart_staff	
+14-4	attendant	O	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_staff|B-ScrPart_staff	
+14-5	give	B-ScrEv_listen_crew	O	O	
+14-6	the	O	O	O	
+14-7	safty	O	B-webanno.custom.Participants_	B-ScrPart_safety_instructions	
+14-8	demonstration	O	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_safety_instructions|B-ScrPart_safety_instructions	
+14-9	,	O	O	O	
+14-10	and	O	O	O	
+14-11	enjoy	B-ScrEv_spend_time_flight	O	O	
+14-12	your	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+14-13	flight	O	B-webanno.custom.Participants_	B-ScrPart_flight	
+14-14	!	O	O	O	
+

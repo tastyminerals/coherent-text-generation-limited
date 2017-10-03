@@ -1,0 +1,204 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I was riding my bike home from school one day when I went through a thorny patch of ground while going through the park .
+1-1	I	B-ScrPart_rider	O	_	_	
+1-2	was	O	O	_	_	
+1-3	riding	O	B-ScrEv_ride_bike	_	_	
+1-4	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-1	
+1-5	bike	B-ScrPart_bicycle	O	_	_	
+1-6	home	O	O	_	_	
+1-7	from	O	O	_	_	
+1-8	school	O	O	_	_	
+1-9	one	O	O	_	_	
+1-10	day	O	O	_	_	
+1-11	when	O	O	_	_	
+1-12	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-4	
+1-13	went	O	B-UnrelEv|B-UnrelEv	_	_	
+1-14	through	O	I-UnrelEv	_	_	
+1-15	a	O	O	_	_	
+1-16	thorny	O	O	_	_	
+1-17	patch	O	O	_	_	
+1-18	of	O	O	_	_	
+1-19	ground	O	O	_	_	
+1-20	while	O	O	_	_	
+1-21	going	O	B-UnrelEv	_	_	
+1-22	through	O	O	_	_	
+1-23	the	O	O	_	_	
+1-24	park	O	O	_	_	
+1-25	.	O	O	_	_	
+
+#id=2
+#text=The tire then went flat after a few more minutes of riding and I was stuck a couple of miles from home .
+2-1	The	O	O	_	_	
+2-2	tire	B-ScrPart_tire	O	_	_	
+2-3	then	O	O	_	_	
+2-4	went	O	B-RelNScrEv	_	_	
+2-5	flat	O	O	_	_	
+2-6	after	O	O	_	_	
+2-7	a	O	O	_	_	
+2-8	few	O	O	_	_	
+2-9	more	O	O	_	_	
+2-10	minutes	B-NPart	O	_	_	
+2-11	of	O	O	_	_	
+2-12	riding	O	B-ScrEv_ride_bike	_	_	
+2-13	and	O	O	_	_	
+2-14	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-12	
+2-15	was	O	O	_	_	
+2-16	stuck	O	B-UnrelEv	_	_	
+2-17	a	O	O	_	_	
+2-18	couple	O	O	_	_	
+2-19	of	O	O	_	_	
+2-20	miles	O	O	_	_	
+2-21	from	O	O	_	_	
+2-22	home	O	O	_	_	
+2-23	.	O	O	_	_	
+
+#id=3
+#text=I called my dad and told him what happened and where I was .
+3-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-14	
+3-2	called	O	B-UnrelEv	_	_	
+3-3	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	3-1	
+3-4	dad	B-???	O	_	_	
+3-5	and	O	O	_	_	
+3-6	told	O	B-UnrelEv	_	_	
+3-7	him	B-???	O	webanno.custom.Corefchains_	3-4	
+3-8	what	O	O	_	_	
+3-9	happened	O	B-UnrelEv	_	_	
+3-10	and	O	O	_	_	
+3-11	where	O	O	_	_	
+3-12	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	3-3	
+3-13	was	O	B-UnrelEv	_	_	
+3-14	.	O	O	_	_	
+
+#id=4
+#text=After a few minutes , he showed up with new inner tubes and a few tools to help me fix my bike tires .
+4-1	After	O	O	_	_	
+4-2	a	O	O	_	_	
+4-3	few	O	O	_	_	
+4-4	minutes	O	O	_	_	
+4-5	,	O	O	_	_	
+4-6	he	B-???	O	webanno.custom.Corefchains_	3-7	
+4-7	showed	O	B-UnrelEv	_	_	
+4-8	up	O	O	_	_	
+4-9	with	O	O	_	_	
+4-10	new	O	O	_	_	
+4-11	inner	O	O	_	_	
+4-12	tubes	B-ScrPart_spare_tube	O	_	_	
+4-13	and	O	O	_	_	
+4-14	a	O	O	_	_	
+4-15	few	O	O	_	_	
+4-16	tools	B-ScrPart_tool	O	_	_	
+4-17	to	O	O	_	_	
+4-18	help	O	B-UnrelEv	_	_	
+4-19	me	B-ScrPart_rider	O	webanno.custom.Corefchains_	3-12	
+4-20	fix	O	B-Evoking	_	_	
+4-21	my	B-ScrPart_rider	I-Evoking	group_I_dad|webanno.custom.Corefchains_	4-6|4-19	
+4-22	bike	B-ScrPart_tire	I-Evoking	_	_	
+4-23	tires	I-ScrPart_tire|B-ScrPart_tire	I-Evoking	_	_	
+4-24	.	O	O	_	_	
+
+#id=5
+#text=We started by removing the outer rubber of the tires and getting the damaged inner tubes out .
+5-1	We	B-ScrPart_rider	O	group_I_dad	4-21	
+5-2	started	O	B-UnrelEv	_	_	
+5-3	by	O	O	_	_	
+5-4	removing	O	B-ScrEv_take_tire_off	_	_	
+5-5	the	O	O	_	_	
+5-6	outer	O	O	_	_	
+5-7	rubber	B-MissScrPart	O	_	_	
+5-8	of	O	O	_	_	
+5-9	the	O	O	_	_	
+5-10	tires	B-ScrPart_tire	O	webanno.custom.Corefchains_	4-23	
+5-11	and	O	O	_	_	
+5-12	getting	O	B-ScrEv_take_tire_off	_	_	
+5-13	the	O	O	_	_	
+5-14	damaged	O	O	_	_	
+5-15	inner	O	O	_	_	
+5-16	tubes	B-ScrPart_tire	O	webanno.custom.Corefchains_	5-10	
+5-17	out	O	O	_	_	
+5-18	.	O	O	_	_	
+
+#id=6
+#text=Then we replaced them with new ones .
+6-1	Then	O	O	_	_	
+6-2	we	B-ScrPart_rider	O	webanno.custom.Corefchains_	5-1	
+6-3	replaced	O	B-ScrEv_remove_tire	_	_	
+6-4	them	B-ScrPart_tire	O	webanno.custom.Corefchains_	5-16	
+6-5	with	O	O	_	_	
+6-6	new	O	O	_	_	
+6-7	ones	B-ScrPart_spare_tube	O	webanno.custom.Corefchains_	4-12	
+6-8	.	O	O	_	_	
+
+#id=7
+#text=After reinstalling the tubes and putting them back onto the bicycle , we had to inflate the tires which took a few minutes with a foot pump .
+7-1	After	O	O	_	_	
+7-2	reinstalling	O	B-ScrEv_put_new_tire	_	_	
+7-3	the	O	O	_	_	
+7-4	tubes	B-ScrPart_spare_tube	O	webanno.custom.Corefchains_	6-7	
+7-5	and	O	O	_	_	
+7-6	putting	O	B-ScrEv_put_new_tire	_	_	
+7-7	them	B-ScrPart_spare_tube	O	webanno.custom.Corefchains_	7-4	
+7-8	back	O	O	_	_	
+7-9	onto	O	O	_	_	
+7-10	the	O	O	_	_	
+7-11	bicycle	B-ScrPart_bicycle	O	_	_	
+7-12	,	O	O	_	_	
+7-13	we	B-ScrPart_rider	O	webanno.custom.Corefchains_	6-2	
+7-14	had	O	O	_	_	
+7-15	to	O	O	_	_	
+7-16	inflate	O	B-ScrEv_refill_tire_air	_	_	
+7-17	the	O	O	_	_	
+7-18	tires	B-ScrPart_spare_tube	O	webanno.custom.Corefchains_	7-7	
+7-19	which	O	O	_	_	
+7-20	took	O	B-RelNScrEv	_	_	
+7-21	a	O	O	_	_	
+7-22	few	O	O	_	_	
+7-23	minutes	B-SuppVComp	O	_	_	
+7-24	with	O	O	_	_	
+7-25	a	O	O	_	_	
+7-26	foot	B-ScrPart_tool	O	_	_	
+7-27	pump	I-ScrPart_tool|B-ScrPart_tool	O	_	_	
+7-28	.	O	O	_	_	
+
+#id=8
+#text=Afterwards , he drove home and I followed on my repaired bike .
+8-1	Afterwards	O	O	_	_	
+8-2	,	O	O	_	_	
+8-3	he	B-???	O	webanno.custom.Corefchains_	4-6	
+8-4	drove	O	B-UnrelEv	_	_	
+8-5	home	O	O	_	_	
+8-6	and	O	O	_	_	
+8-7	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	4-21	
+8-8	followed	O	B-UnrelEv	_	_	
+8-9	on	O	O	_	_	
+8-10	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	8-7	
+8-11	repaired	O	B-RelNScrEv	_	_	
+8-12	bike	B-ScrPart_bicycle	O	webanno.custom.Corefchains_	7-11	
+8-13	.	O	O	_	_	
+
+#id=9
+#text=I promised to avoid patches of thorns after that since it cost me 2 weeks of allowance to buy the inner tubes . 
+9-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	8-10	
+9-2	promised	O	B-UnrelEv	_	_	
+9-3	to	O	O	_	_	
+9-4	avoid	O	B-UnrelEv	_	_	
+9-5	patches	O	O	_	_	
+9-6	of	O	O	_	_	
+9-7	thorns	O	O	_	_	
+9-8	after	O	O	_	_	
+9-9	that	O	O	_	_	
+9-10	since	O	O	_	_	
+9-11	it	O	O	_	_	
+9-12	cost	O	B-UnrelEv	_	_	
+9-13	me	B-ScrPart_rider	O	webanno.custom.Corefchains_	9-1	
+9-14	2	O	O	_	_	
+9-15	weeks	O	O	_	_	
+9-16	of	O	O	_	_	
+9-17	allowance	O	O	_	_	
+9-18	to	O	O	_	_	
+9-19	buy	O	B-ScrEv_get_tire	_	_	
+9-20	the	O	O	_	_	
+9-21	inner	O	O	_	_	
+9-22	tubes	B-ScrPart_spare_tube	O	webanno.custom.Corefchains_	7-18	
+9-23	.	O	O	_	_	
+

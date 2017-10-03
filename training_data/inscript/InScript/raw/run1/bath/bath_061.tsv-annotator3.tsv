@@ -1,0 +1,196 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I was had a very stressful day at work and decided the best way to relax tonight was with a nice , warm bath .
+1-1	I	B-ScrPart_bather	O	_	_	
+1-2	was	O	O	_	_	
+1-3	had	O	B-UnrelEv	_	_	
+1-4	a	O	O	_	_	
+1-5	very	O	O	_	_	
+1-6	stressful	O	O	_	_	
+1-7	day	O	O	_	_	
+1-8	at	O	O	_	_	
+1-9	work	O	O	_	_	
+1-10	and	O	O	_	_	
+1-11	decided	O	B-UnrelEv	_	_	
+1-12	the	O	O	_	_	
+1-13	best	O	O	_	_	
+1-14	way	O	O	_	_	
+1-15	to	O	O	_	_	
+1-16	relax	O	B-UnrelEv	_	_	
+1-17	tonight	O	O	_	_	
+1-18	was	O	B-Evoking	_	_	
+1-19	with	O	I-Evoking	_	_	
+1-20	a	O	I-Evoking	_	_	
+1-21	nice	O	I-Evoking	_	_	
+1-22	,	O	I-Evoking	_	_	
+1-23	warm	O	I-Evoking	_	_	
+1-24	bath	B-MissScrPart	I-Evoking	_	_	
+1-25	.	O	O	_	_	
+
+#id=2
+#text=I set down a few candles , not too many , and started the water .
+2-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	1-1	
+2-2	set	O	B-ScrEv_prepare_bath|B-ScrEv_prepare_bath	_	_	
+2-3	down	O	I-ScrEv_prepare_bath	_	_	
+2-4	a	O	O	_	_	
+2-5	few	O	O	_	_	
+2-6	candles	B-ScrPart_in-bath_entertainment	O	_	_	
+2-7	,	O	O	_	_	
+2-8	not	O	O	_	_	
+2-9	too	O	O	_	_	
+2-10	many	O	O	_	_	
+2-11	,	O	O	_	_	
+2-12	and	O	O	_	_	
+2-13	started	O	B-ScrEv_turn_water_on	_	_	
+2-14	the	O	O	_	_	
+2-15	water	B-ScrPart_water	O	_	_	
+2-16	.	O	O	_	_	
+
+#id=3
+#text=After I let the water warm up a bit , I stopped the drain , and the tub slowly filled with warm water .
+3-1	After	O	O	_	_	
+3-2	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	2-1	
+3-3	let	O	B-UnrelEv	_	_	
+3-4	the	O	O	_	_	
+3-5	water	B-ScrPart_water	O	webanno.custom.Corefchains_	2-15	
+3-6	warm	O	B-RelNScrEv|B-RelNScrEv	_	_	
+3-7	up	O	I-RelNScrEv	_	_	
+3-8	a	O	O	_	_	
+3-9	bit	O	O	_	_	
+3-10	,	O	O	_	_	
+3-11	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	3-2	
+3-12	stopped	O	B-ScrEv_turn_water_off	_	_	
+3-13	the	O	O	_	_	
+3-14	drain	B-ScrPart_drain	O	_	_	
+3-15	,	O	O	_	_	
+3-16	and	O	O	_	_	
+3-17	the	O	O	_	_	
+3-18	tub	B-ScrPart_bathtub	O	_	_	
+3-19	slowly	O	O	_	_	
+3-20	filled	O	B-RelNScrEv	_	_	
+3-21	with	O	O	_	_	
+3-22	warm	O	O	_	_	
+3-23	water	B-ScrPart_water	O	webanno.custom.Corefchains_	3-5	
+3-24	.	O	O	_	_	
+
+#id=4
+#text=I put in some mineral salts to help make the experience more pleasing .
+4-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	3-11	
+4-2	put	O	B-ScrEv_put_bubble_bath_scent|B-ScrEv_put_bubble_bath_scent	_	_	
+4-3	in	O	I-ScrEv_put_bubble_bath_scent	_	_	
+4-4	some	O	O	_	_	
+4-5	mineral	B-ScrPart_bath_means	O	_	_	
+4-6	salts	I-ScrPart_bath_means|B-ScrPart_bath_means	O	_	_	
+4-7	to	O	O	_	_	
+4-8	help	O	B-UnrelEv	_	_	
+4-9	make	O	B-UnrelEv	_	_	
+4-10	the	O	O	_	_	
+4-11	experience	O	O	_	_	
+4-12	more	O	O	_	_	
+4-13	pleasing	O	B-UnrelEv	_	_	
+4-14	.	O	O	_	_	
+
+#id=5
+#text=Once the tub was full , I took off all my clothes and got inside .
+5-1	Once	O	O	_	_	
+5-2	the	O	O	_	_	
+5-3	tub	B-ScrPart_bathtub	O	webanno.custom.Corefchains_	3-18	
+5-4	was	O	B-UnrelEv	_	_	
+5-5	full	O	O	_	_	
+5-6	,	O	O	_	_	
+5-7	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	4-1	
+5-8	took	O	B-ScrEv_undress|B-ScrEv_undress	_	_	
+5-9	off	O	I-ScrEv_undress	_	_	
+5-10	all	O	O	_	_	
+5-11	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	5-7	
+5-12	clothes	B-ScrPart_clothes	O	_	_	
+5-13	and	O	O	_	_	
+5-14	got	O	B-ScrEv_sink_water	_	_	
+5-15	inside	O	O	_	_	
+5-16	.	O	O	_	_	
+
+#id=6
+#text=For the most part , all I did was rest there and relax .
+6-1	For	O	O	_	_	
+6-2	the	O	O	_	_	
+6-3	most	O	O	_	_	
+6-4	part	O	O	_	_	
+6-5	,	O	O	_	_	
+6-6	all	O	O	_	_	
+6-7	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	5-11	
+6-8	did	O	B-UnrelEv	_	_	
+6-9	was	O	O	_	_	
+6-10	rest	O	B-ScrEv_relax	_	_	
+6-11	there	B-ScrPart_bathtub	O	webanno.custom.Corefchains_	5-3	
+6-12	and	O	O	_	_	
+6-13	relax	O	B-ScrEv_relax	_	_	
+6-14	.	O	O	_	_	
+
+#id=7
+#text=It was a great way to slow things down on a fast-paced day .
+7-1	It	O	O	_	_	
+7-2	was	O	B-UnrelEv	_	_	
+7-3	a	O	O	_	_	
+7-4	great	O	O	_	_	
+7-5	way	O	O	_	_	
+7-6	to	O	O	_	_	
+7-7	slow	O	B-UnrelEv	_	_	
+7-8	things	O	O	_	_	
+7-9	down	O	O	_	_	
+7-10	on	O	O	_	_	
+7-11	a	O	O	_	_	
+7-12	fast-paced	O	B-UnrelEv	_	_	
+7-13	day	O	O	_	_	
+7-14	.	O	O	_	_	
+
+#id=8
+#text=For several minutes , I just enjoyed the warm water but I made sure to wash up with soap and shampoo before the water got too cold .
+8-1	For	O	O	_	_	
+8-2	several	O	O	_	_	
+8-3	minutes	O	O	_	_	
+8-4	,	O	O	_	_	
+8-5	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	6-7	
+8-6	just	O	O	_	_	
+8-7	enjoyed	O	B-ScrEv_relax	_	_	
+8-8	the	O	O	_	_	
+8-9	warm	O	O	_	_	
+8-10	water	B-ScrPart_water	O	webanno.custom.Corefchains_	3-23	
+8-11	but	O	O	_	_	
+8-12	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	8-5	
+8-13	made	O	B-UnrelEv|B-UnrelEv	_	_	
+8-14	sure	O	I-UnrelEv	_	_	
+8-15	to	O	O	_	_	
+8-16	wash	O	B-ScrEv_wash|B-ScrEv_wash	_	_	
+8-17	up	O	I-ScrEv_wash	_	_	
+8-18	with	O	O	_	_	
+8-19	soap	B-ScrPart_washing_tools	O	_	_	
+8-20	and	O	O	_	_	
+8-21	shampoo	B-ScrPart_washing_tools	O	_	_	
+8-22	before	O	O	_	_	
+8-23	the	O	O	_	_	
+8-24	water	B-ScrPart_water	O	webanno.custom.Corefchains_	8-10	
+8-25	got	O	B-RelNScrEv	_	_	
+8-26	too	O	O	_	_	
+8-27	cold	O	O	_	_	
+8-28	.	O	O	_	_	
+
+#id=9
+#text=Once , I was done I unplugged the tub drain and got to dry myself off . 
+9-1	Once	O	O	_	_	
+9-2	,	O	O	_	_	
+9-3	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	8-12	
+9-4	was	O	O	_	_	
+9-5	done	O	B-UnrelEv	_	_	
+9-6	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	9-3	
+9-7	unplugged	O	B-ScrEv_open_drain	_	_	
+9-8	the	O	O	_	_	
+9-9	tub	B-ScrPart_drain	O	_	_	
+9-10	drain	I-ScrPart_drain|B-ScrPart_drain	O	_	_	
+9-11	and	O	O	_	_	
+9-12	got	O	B-UnrelEv	_	_	
+9-13	to	O	O	_	_	
+9-14	dry	O	B-ScrEv_dry	_	_	
+9-15	myself	B-ScrPart_bather	O	webanno.custom.Corefchains_	9-6	
+9-16	off	O	O	_	_	
+9-17	.	O	O	_	_	
+

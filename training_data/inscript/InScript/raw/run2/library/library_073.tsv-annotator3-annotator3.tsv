@@ -1,0 +1,202 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=I went to the library to find books about making a set of wooden shelves .
+1-1	I	B-ScrPart_customer	O	
+1-2	went	O	B-Evoking|B-ScrEv_get_library	
+1-3	to	O	I-Evoking	
+1-4	the	O	I-Evoking	
+1-5	library	B-ScrPart_library	I-Evoking	
+1-6	to	O	I-Evoking	
+1-7	find	O	I-Evoking	
+1-8	books	B-ScrPart_book	I-Evoking	
+1-9	about	O	O	
+1-10	making	O	B-UnrelEv	
+1-11	a	O	O	
+1-12	set	B-Head_of_Partitive	O	
+1-13	of	O	O	
+1-14	wooden	O	O	
+1-15	shelves	B-NPart	O	
+1-16	.	O	O	
+
+#id=2
+#text=I asked the librarian for help and she pointed me towards the right section .
+2-1	I	B-ScrPart_customer	O	
+2-2	asked	O	B-ScrEv_ask_librarian	
+2-3	the	O	O	
+2-4	librarian	B-ScrPart_staff	O	
+2-5	for	O	O	
+2-6	help	B-No_label	O	
+2-7	and	O	O	
+2-8	she	B-ScrPart_staff	O	
+2-9	pointed	O	B-RelNScrEv	
+2-10	me	B-ScrPart_customer	O	
+2-11	towards	O	O	
+2-12	the	O	O	
+2-13	right	O	O	
+2-14	section	B-ScrPart_location_library	O	
+2-15	.	O	O	
+
+#id=3
+#text=I looked at all the books on woodworking until I found a few that I felt had the information I needed to build the shelves .
+3-1	I	B-ScrPart_customer	O	
+3-2	looked	O	B-ScrEv_look_for_book	
+3-3	at	O	O	
+3-4	all	O	O	
+3-5	the	O	O	
+3-6	books	B-ScrPart_book	O	
+3-7	on	O	O	
+3-8	woodworking	O	O	
+3-9	until	O	O	
+3-10	I	B-ScrPart_customer	O	
+3-11	found	O	B-ScrEv_other	
+3-12	a	O	O	
+3-13	few	B-ScrPart_book	O	
+3-14	that	O	O	
+3-15	I	B-ScrPart_customer	O	
+3-16	felt	O	B-UnrelEv	
+3-17	had	O	B-UnrelEv	
+3-18	the	O	O	
+3-19	information	B-NPart	O	
+3-20	I	B-ScrPart_customer	O	
+3-21	needed	O	B-UnrelEv	
+3-22	to	O	O	
+3-23	build	O	B-UnrelEv	
+3-24	the	O	O	
+3-25	shelves	B-NPart	O	
+3-26	.	O	O	
+
+#id=4
+#text=I took the books that I needed to the librarian and she told me that they now have a self-checkout .
+4-1	I	B-ScrPart_customer	O	
+4-2	took	O	B-ScrEv_take_book	
+4-3	the	O	O	
+4-4	books	B-ScrPart_book	O	
+4-5	that	O	O	
+4-6	I	B-ScrPart_customer	O	
+4-7	needed	O	B-UnrelEv	
+4-8	to	O	O	
+4-9	the	O	O	
+4-10	librarian	B-ScrPart_staff	O	
+4-11	and	O	O	
+4-12	she	B-ScrPart_staff	O	
+4-13	told	O	B-UnrelEv	
+4-14	me	B-ScrPart_customer	O	
+4-15	that	O	O	
+4-16	they	B-ScrPart_staff	O	
+4-17	now	O	O	
+4-18	have	O	B-UnrelEv	
+4-19	a	O	O	
+4-20	self-checkout	B-ScrPart_other	O	
+4-21	.	O	O	
+
+#id=5
+#text=She showed me how the system worked and assigned me a pin code .
+5-1	She	B-ScrPart_staff	O	
+5-2	showed	O	B-ScrEv_other	
+5-3	me	B-ScrPart_customer	O	
+5-4	how	O	O	
+5-5	the	O	O	
+5-6	system	B-ScrPart_other	O	
+5-7	worked	O	B-UnrelEv	
+5-8	and	O	O	
+5-9	assigned	O	B-RelNScrEv	
+5-10	me	B-ScrPart_customer	O	
+5-11	a	O	O	
+5-12	pin	B-ScrPart_other	O	
+5-13	code	I-ScrPart_other|B-ScrPart_other	O	
+5-14	.	O	O	
+
+#id=6
+#text=They gave me a new library card that will let me use the self check out .
+6-1	They	B-ScrPart_staff	O	
+6-2	gave	O	B-ScrEv_obtain_card	
+6-3	me	B-ScrPart_customer	O	
+6-4	a	O	O	
+6-5	new	O	O	
+6-6	library	B-ScrPart_library_card	O	
+6-7	card	I-ScrPart_library_card|B-ScrPart_library_card	O	
+6-8	that	O	O	
+6-9	will	O	O	
+6-10	let	O	B-UnrelEv	
+6-11	me	B-ScrPart_customer	O	
+6-12	use	O	B-UnrelEv	
+6-13	the	O	O	
+6-14	self	B-ScrPart_other	O	
+6-15	check	I-ScrPart_other	O	
+6-16	out	I-ScrPart_other	O	
+6-17	.	O	O	
+
+#id=7
+#text=So I scanned my library card and put in my pass code .
+7-1	So	O	O	
+7-2	I	B-ScrPart_customer	O	
+7-3	scanned	O	B-ScrEv_other	
+7-4	my	B-ScrPart_customer	O	
+7-5	library	B-ScrPart_library_card	O	
+7-6	card	I-ScrPart_library_card|B-ScrPart_library_card	O	
+7-7	and	O	O	
+7-8	put	O	B-ScrEv_other|B-ScrEv_other	
+7-9	in	O	I-ScrEv_other	
+7-10	my	B-ScrPart_customer	O	
+7-11	pass	B-NPart	O	
+7-12	code	I-NPart|B-NPart	O	
+7-13	.	O	O	
+
+#id=8
+#text=I scanned each of the books i had chosen and then clicked on the button to print my receipt .
+8-1	I	B-ScrPart_customer	O	
+8-2	scanned	O	B-ScrEv_register	
+8-3	each	O	O	
+8-4	of	O	O	
+8-5	the	O	O	
+8-6	books	B-ScrPart_book	O	
+8-7	i	B-ScrPart_customer	O	
+8-8	had	O	O	
+8-9	chosen	O	B-RelNScrEv	
+8-10	and	O	O	
+8-11	then	O	O	
+8-12	clicked	O	B-UnrelEv	
+8-13	on	O	O	
+8-14	the	O	O	
+8-15	button	B-NPart	O	
+8-16	to	O	O	
+8-17	print	O	B-ScrEv_other	
+8-18	my	B-ScrPart_customer	O	
+8-19	receipt	B-ScrPart_receipt	O	
+8-20	.	O	O	
+
+#id=9
+#text=This new system will make going to the library much faster .
+9-1	This	O	O	
+9-2	new	O	O	
+9-3	system	B-ScrPart_other	O	
+9-4	will	O	O	
+9-5	make	O	B-UnrelEv	
+9-6	going	O	B-Evoking	
+9-7	to	O	I-Evoking	
+9-8	the	O	I-Evoking	
+9-9	library	B-ScrPart_library	I-Evoking	
+9-10	much	O	O	
+9-11	faster	O	O	
+9-12	.	O	O	
+
+#id=10
+#text=I gathered my books and left the library and went home to start my book shelves . 
+10-1	I	B-ScrPart_customer	O	
+10-2	gathered	O	B-ScrEv_other	
+10-3	my	B-ScrPart_customer	O	
+10-4	books	B-ScrPart_book	O	
+10-5	and	O	O	
+10-6	left	O	B-ScrEv_leave	
+10-7	the	O	O	
+10-8	library	B-ScrPart_library	O	
+10-9	and	O	O	
+10-10	went	O	B-UnrelEv|B-UnrelEv	
+10-11	home	B-No_label	I-UnrelEv	
+10-12	to	O	O	
+10-13	start	O	B-UnrelEv	
+10-14	my	B-ScrPart_customer	O	
+10-15	book	B-ScrPart_shelf	O	
+10-16	shelves	I-ScrPart_shelf	O	
+10-17	.	O	O	
+

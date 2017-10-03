@@ -1,0 +1,183 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=I wanted to read a new novel , but rather than buying it , I decided to borrow it from the library .
+1-1	I	B-ScrPart_customer	O	
+1-2	wanted	O	O	
+1-3	to	O	O	
+1-4	read	O	B-RelNScrEv	
+1-5	a	O	O	
+1-6	new	O	O	
+1-7	novel	B-ScrPart_book	O	
+1-8	,	O	O	
+1-9	but	O	O	
+1-10	rather	O	O	
+1-11	than	O	O	
+1-12	buying	O	B-UnrelEv	
+1-13	it	B-ScrPart_book	O	
+1-14	,	O	O	
+1-15	I	B-ScrPart_customer	O	
+1-16	decided	O	B-UnrelEv	
+1-17	to	O	O	
+1-18	borrow	O	B-Evoking	
+1-19	it	B-ScrPart_book	I-Evoking	
+1-20	from	O	I-Evoking	
+1-21	the	O	I-Evoking	
+1-22	library	B-ScrPart_library	I-Evoking	
+1-23	.	O	O	
+
+#id=2
+#text=When I arrived at the library , I was greeted by the friendly librarian who asked if I needed any help .
+2-1	When	O	O	
+2-2	I	B-ScrPart_customer	O	
+2-3	arrived	O	B-ScrEv_get_library	
+2-4	at	O	O	
+2-5	the	O	O	
+2-6	library	B-ScrPart_library	O	
+2-7	,	O	O	
+2-8	I	B-ScrPart_customer	O	
+2-9	was	O	O	
+2-10	greeted	O	B-UnrelEv	
+2-11	by	O	O	
+2-12	the	O	O	
+2-13	friendly	O	O	
+2-14	librarian	B-ScrPart_staff	O	
+2-15	who	O	O	
+2-16	asked	O	B-RelNScrEv	
+2-17	if	O	O	
+2-18	I	B-ScrPart_customer	O	
+2-19	needed	O	B-UnrelEv	
+2-20	any	O	O	
+2-21	help	B-NPart	O	
+2-22	.	O	O	
+
+#id=3
+#text=I told her which book I was looking for and she quickly helped me find it .
+3-1	I	B-ScrPart_customer	O	
+3-2	told	O	B-ScrEv_ask_librarian	
+3-3	her	B-ScrPart_staff	O	
+3-4	which	O	O	
+3-5	book	B-ScrPart_book	O	
+3-6	I	B-ScrPart_customer	O	
+3-7	was	O	O	
+3-8	looking	O	B-ScrEv_look_for_book	
+3-9	for	O	O	
+3-10	and	O	O	
+3-11	she	B-ScrPart_staff	O	
+3-12	quickly	O	O	
+3-13	helped	O	B-RelNScrEv	
+3-14	me	B-ScrPart_customer	O	
+3-15	find	O	B-RelNScrEv	
+3-16	it	B-ScrPart_book	O	
+3-17	.	O	O	
+
+#id=4
+#text=After she helped me find the book , I walked to the checkout counter with the book .
+4-1	After	O	O	
+4-2	she	B-ScrPart_staff	O	
+4-3	helped	O	B-RelNScrEv	
+4-4	me	B-ScrPart_customer	O	
+4-5	find	O	B-RelNScrEv	
+4-6	the	O	O	
+4-7	book	B-ScrPart_book	O	
+4-8	,	O	O	
+4-9	I	B-ScrPart_customer	O	
+4-10	walked	O	B-ScrEv_go_check_out	
+4-11	to	O	O	
+4-12	the	O	O	
+4-13	checkout	B-ScrPart_check-out_desk	O	
+4-14	counter	I-ScrPart_check-out_desk|B-ScrPart_check-out_desk	O	
+4-15	with	O	O	
+4-16	the	O	O	
+4-17	book	B-ScrPart_book	O	
+4-18	.	O	O	
+
+#id=5
+#text=I handed the librarian my library card , which she scanned with a scanner .
+5-1	I	B-ScrPart_customer	O	
+5-2	handed	O	B-ScrEv_show_card	
+5-3	the	O	O	
+5-4	librarian	B-ScrPart_staff	O	
+5-5	my	B-ScrPart_customer	O	
+5-6	library	B-ScrPart_library_card	O	
+5-7	card	I-ScrPart_library_card|B-ScrPart_library_card	O	
+5-8	,	O	O	
+5-9	which	O	O	
+5-10	she	B-ScrPart_staff	O	
+5-11	scanned	O	B-ScrEv_register	
+5-12	with	O	O	
+5-13	a	O	O	
+5-14	scanner	B-ScrPart_institutional_devices	O	
+5-15	.	O	O	
+
+#id=6
+#text=She opened the book to find the bar code in the back cover and proceeded to scan it .
+6-1	She	B-ScrPart_staff	O	
+6-2	opened	O	B-RelNScrEv	
+6-3	the	O	O	
+6-4	book	B-ScrPart_book	O	
+6-5	to	O	O	
+6-6	find	O	B-UnrelEv	
+6-7	the	O	O	
+6-8	bar	B-ScrPart_book_id	O	
+6-9	code	I-ScrPart_book_id|B-ScrPart_book_id	O	
+6-10	in	O	O	
+6-11	the	O	O	
+6-12	back	B-NPart	O	
+6-13	cover	I-NPart|B-NPart	O	
+6-14	and	O	O	
+6-15	proceeded	O	B-UnrelEv	
+6-16	to	O	O	
+6-17	scan	O	B-ScrEv_register	
+6-18	it	B-ScrPart_book_id	O	
+6-19	.	O	O	
+
+#id=7
+#text=The computer printed a receipt which told me that I had two weeks to return the book .
+7-1	The	O	O	
+7-2	computer	B-ScrPart_institutional_devices	O	
+7-3	printed	O	B-RelNScrEv	
+7-4	a	O	O	
+7-5	receipt	B-ScrPart_receipt	O	
+7-6	which	O	O	
+7-7	told	O	B-UnrelEv	
+7-8	me	B-ScrPart_customer	O	
+7-9	that	O	O	
+7-10	I	B-ScrPart_customer	O	
+7-11	had	O	B-UnrelEv	
+7-12	two	O	O	
+7-13	weeks	B-NPart	O	
+7-14	to	O	O	
+7-15	return	O	B-RelNScrEv	
+7-16	the	O	O	
+7-17	book	B-ScrPart_book	O	
+7-18	.	O	O	
+
+#id=8
+#text=I placed the receipt inside the front cover of the book and thanked the librarian for helping me find the book I was looking for . 
+8-1	I	B-ScrPart_customer	O	
+8-2	placed	O	B-RelNScrEv	
+8-3	the	O	O	
+8-4	receipt	B-ScrPart_receipt	O	
+8-5	inside	O	O	
+8-6	the	O	O	
+8-7	front	B-NPart	O	
+8-8	cover	I-NPart|B-NPart	O	
+8-9	of	O	O	
+8-10	the	O	O	
+8-11	book	B-ScrPart_book	O	
+8-12	and	O	O	
+8-13	thanked	O	B-RelNScrEv	
+8-14	the	O	O	
+8-15	librarian	B-ScrPart_staff	O	
+8-16	for	O	O	
+8-17	helping	O	B-RelNScrEv	
+8-18	me	B-ScrPart_customer	O	
+8-19	find	O	B-RelNScrEv	
+8-20	the	O	O	
+8-21	book	B-ScrPart_book	O	
+8-22	I	B-ScrPart_customer	O	
+8-23	was	O	O	
+8-24	looking	O	B-ScrEv_look_for_book	
+8-25	for	O	O	
+8-26	.	O	O	
+

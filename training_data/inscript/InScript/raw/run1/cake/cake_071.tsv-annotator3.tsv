@@ -1,0 +1,302 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Baking a Birthday Cake For an Awesome Nephew It was the day before my nephew 's third birthday .
+1-1	Baking	B-Evoking	O	O	_	_	
+1-2	a	I-Evoking	O	O	_	_	
+1-3	Birthday	I-Evoking	B-ScrPart_cake	B-webanno.custom.Participants_	_	_	
+1-4	Cake	I-Evoking	I-ScrPart_cake|B-ScrPart_cake	I-webanno.custom.Participants_|B-webanno.custom.Participants_	_	_	
+1-5	For	O	O	O	_	_	
+1-6	an	O	O	O	_	_	
+1-7	Awesome	O	O	O	_	_	
+1-8	Nephew	O	B-ScrPart_beneficiary	B-webanno.custom.Participants_	_	_	
+1-9	It	O	O	O	_	_	
+1-10	was	B-UnrelEv	O	O	_	_	
+1-11	the	O	O	O	_	_	
+1-12	day	O	O	O	_	_	
+1-13	before	O	O	O	_	_	
+1-14	my	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+1-15	nephew	O	B-ScrPart_beneficiary	B-webanno.custom.Participants_	webanno.custom.Corefchains_	1-8	
+1-16	's	O	O	O	_	_	
+1-17	third	O	O	O	_	_	
+1-18	birthday	O	O	O	_	_	
+1-19	.	O	O	O	_	_	
+
+#id=2
+#text=I wanted to bake him a very special birthday cake .
+2-1	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	1-14	
+2-2	wanted	B-UnrelEv|B-UnrelEv	O	O	_	_	
+2-3	to	I-UnrelEv	O	O	_	_	
+2-4	bake	B-Evoking	O	O	_	_	
+2-5	him	I-Evoking	B-ScrPart_beneficiary	B-webanno.custom.Participants_	webanno.custom.Corefchains_	1-15	
+2-6	a	I-Evoking	O	O	_	_	
+2-7	very	I-Evoking	O	O	_	_	
+2-8	special	I-Evoking	O	O	_	_	
+2-9	birthday	I-Evoking	B-ScrPart_cake	B-webanno.custom.Participants_	_	_	
+2-10	cake	I-Evoking	I-ScrPart_cake|B-ScrPart_cake	I-webanno.custom.Participants_|B-webanno.custom.Participants_	webanno.custom.Corefchains_	1-4	
+2-11	.	O	O	O	_	_	
+
+#id=3
+#text=He loves tractors and anything related to farms , so I wanted to include that when I decorated the cake .
+3-1	He	O	B-ScrPart_beneficiary	B-webanno.custom.Participants_	webanno.custom.Corefchains_	2-5	
+3-2	loves	B-UnrelEv	O	O	_	_	
+3-3	tractors	O	O	O	_	_	
+3-4	and	O	O	O	_	_	
+3-5	anything	O	O	O	_	_	
+3-6	related	B-UnrelEv	O	O	_	_	
+3-7	to	O	O	O	_	_	
+3-8	farms	O	O	O	_	_	
+3-9	,	O	O	O	_	_	
+3-10	so	O	O	O	_	_	
+3-11	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	2-1	
+3-12	wanted	B-UnrelEv|B-UnrelEv	O	O	_	_	
+3-13	to	I-UnrelEv	O	O	_	_	
+3-14	include	B-UnrelEv	O	O	_	_	
+3-15	that	O	O	O	_	_	
+3-16	when	O	O	O	_	_	
+3-17	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	3-11	
+3-18	decorated	B-ScrEv_decorate	O	O	_	_	
+3-19	the	O	O	O	_	_	
+3-20	cake	O	B-ScrPart_cake	B-webanno.custom.Participants_	webanno.custom.Corefchains_	2-10	
+3-21	.	O	O	O	_	_	
+
+#id=4
+#text=I decided to make a cake with three layers since he was going to be three years old .
+4-1	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	3-17	
+4-2	decided	B-UnrelEv	O	O	_	_	
+4-3	to	O	O	O	_	_	
+4-4	make	B-Evoking	O	O	_	_	
+4-5	a	I-Evoking	O	O	_	_	
+4-6	cake	I-Evoking	B-ScrPart_cake	B-webanno.custom.Participants_	webanno.custom.Corefchains_	3-20	
+4-7	with	O	O	O	_	_	
+4-8	three	O	O	O	_	_	
+4-9	layers	O	B-MissScrPart	B-webanno.custom.Participants_	_	_	
+4-10	since	O	O	O	_	_	
+4-11	he	O	B-ScrPart_beneficiary	B-webanno.custom.Participants_	webanno.custom.Corefchains_	3-1	
+4-12	was	O	O	O	_	_	
+4-13	going	O	O	O	_	_	
+4-14	to	O	O	O	_	_	
+4-15	be	B-UnrelEv	O	O	_	_	
+4-16	three	O	O	O	_	_	
+4-17	years	O	O	O	_	_	
+4-18	old	O	O	O	_	_	
+4-19	.	O	O	O	_	_	
+
+#id=5
+#text=I started by finding recipes for both chocolate and yellow cake since I knew that those were his favorites .
+5-1	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	4-1	
+5-2	started	B-UnrelEv	O	O	_	_	
+5-3	by	O	O	O	_	_	
+5-4	finding	B-ScrEv_choose_recipe	O	O	_	_	
+5-5	recipes	O	B-ScrPart_baking_instructions	B-webanno.custom.Participants_	_	_	
+5-6	for	O	O	O	_	_	
+5-7	both	O	O	O	_	_	
+5-8	chocolate	O	O	O	_	_	
+5-9	and	O	O	O	_	_	
+5-10	yellow	O	O	O	_	_	
+5-11	cake	O	B-ScrPart_cake	B-webanno.custom.Participants_	webanno.custom.Corefchains_	4-6	
+5-12	since	O	O	O	_	_	
+5-13	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	5-1	
+5-14	knew	B-UnrelEv	O	O	_	_	
+5-15	that	O	O	O	_	_	
+5-16	those	O	B-ScrPart_cake	B-webanno.custom.Participants_	webanno.custom.Corefchains_	5-11	
+5-17	were	B-UnrelEv	O	O	_	_	
+5-18	his	O	B-ScrPart_beneficiary	B-webanno.custom.Participants_	webanno.custom.Corefchains_	4-11	
+5-19	favorites	O	O	O	_	_	
+5-20	.	O	O	O	_	_	
+
+#id=6
+#text=I made the batter for the chocolate cake in one bowl and then the batter for the yellow cake in another bowl .
+6-1	I	O	B-ScrPart_cake	B-webanno.custom.Participants_	webanno.custom.Corefchains_	5-13	
+6-2	made	B-ScrEv_make_dough	O	O	_	_	
+6-3	the	O	O	O	_	_	
+6-4	batter	O	B-ScrPart_dough	B-webanno.custom.Participants_	_	_	
+6-5	for	O	O	O	_	_	
+6-6	the	O	O	O	_	_	
+6-7	chocolate	O	B-ScrPart_cake	B-webanno.custom.Participants_	_	_	
+6-8	cake	O	I-ScrPart_cake|B-ScrPart_cake	I-webanno.custom.Participants_|B-webanno.custom.Participants_	webanno.custom.Corefchains_	5-16	
+6-9	in	O	O	O	_	_	
+6-10	one	O	O	O	_	_	
+6-11	bowl	O	B-ScrPart_utensil	B-webanno.custom.Participants_	_	_	
+6-12	and	O	O	O	_	_	
+6-13	then	O	O	O	_	_	
+6-14	the	O	O	O	_	_	
+6-15	batter	O	B-ScrPart_dough	B-webanno.custom.Participants_	webanno.custom.Corefchains_	6-4	
+6-16	for	O	O	O	_	_	
+6-17	the	O	O	O	_	_	
+6-18	yellow	O	B-ScrPart_cake	B-webanno.custom.Participants_	_	_	
+6-19	cake	O	I-ScrPart_cake|B-ScrPart_cake	I-webanno.custom.Participants_|B-webanno.custom.Participants_	webanno.custom.Corefchains_	6-8	
+6-20	in	O	O	O	_	_	
+6-21	another	O	O	O	_	_	
+6-22	bowl	O	B-ScrPart_utensil	B-webanno.custom.Participants_	webanno.custom.Corefchains_	6-11	
+6-23	.	O	O	O	_	_	
+
+#id=7
+#text=I poured some chocolate cake batter in the largest and the smallest round baking pans since the top and bottom layers would be chocolate .
+7-1	I	O	B-ScrPart_cake	B-webanno.custom.Participants_	webanno.custom.Corefchains_	6-1	
+7-2	poured	B-ScrEv_pour_dough	O	O	_	_	
+7-3	some	O	O	O	_	_	
+7-4	chocolate	O	B-ScrPart_dough	B-webanno.custom.Participants_	_	_	
+7-5	cake	O	I-ScrPart_dough	I-webanno.custom.Participants_	_	_	
+7-6	batter	O	I-ScrPart_dough|B-ScrPart_dough	I-webanno.custom.Participants_|B-webanno.custom.Participants_	_	_	
+7-7	in	O	O	O	_	_	
+7-8	the	O	O	O	_	_	
+7-9	largest	O	O	O	_	_	
+7-10	and	O	O	O	_	_	
+7-11	the	O	O	O	_	_	
+7-12	smallest	O	O	O	_	_	
+7-13	round	O	O	O	_	_	
+7-14	baking	O	B-ScrPart_cake_tin	B-webanno.custom.Participants_	_	_	
+7-15	pans	O	I-ScrPart_cake_tin|B-ScrPart_cake_tin	I-webanno.custom.Participants_|B-webanno.custom.Participants_	_	_	
+7-16	since	O	O	O	_	_	
+7-17	the	O	O	O	_	_	
+7-18	top	O	O	O	_	_	
+7-19	and	O	O	O	_	_	
+7-20	bottom	O	O	O	_	_	
+7-21	layers	O	B-MissScrPart	B-webanno.custom.Participants_	webanno.custom.Corefchains_	4-9	
+7-22	would	O	O	O	_	_	
+7-23	be	B-UnrelEv	O	O	_	_	
+7-24	chocolate	O	B-ScrPart_dough	B-webanno.custom.Participants_	webanno.custom.Corefchains_	7-6	
+7-25	.	O	O	O	_	_	
+
+#id=8
+#text=I poured yellow cake batter in the medium-sized round baking pan since it would be the middle layer .
+8-1	I	O	B-ScrPart_cake	B-webanno.custom.Participants_	webanno.custom.Corefchains_	7-1	
+8-2	poured	B-ScrEv_pour_dough	O	O	_	_	
+8-3	yellow	O	B-ScrPart_dough	B-webanno.custom.Participants_	_	_	
+8-4	cake	O	I-ScrPart_dough	I-webanno.custom.Participants_	_	_	
+8-5	batter	O	I-ScrPart_dough|B-ScrPart_dough	I-webanno.custom.Participants_|B-webanno.custom.Participants_	_	_	
+8-6	in	O	O	O	_	_	
+8-7	the	O	O	O	_	_	
+8-8	medium-sized	O	O	O	_	_	
+8-9	round	O	O	O	_	_	
+8-10	baking	O	B-ScrPart_cake_tin	B-webanno.custom.Participants_	_	_	
+8-11	pan	O	I-ScrPart_cake_tin|B-ScrPart_cake_tin	I-webanno.custom.Participants_|B-webanno.custom.Participants_	webanno.custom.Corefchains_	7-15	
+8-12	since	O	O	O	_	_	
+8-13	it	O	B-ScrPart_dough	B-webanno.custom.Participants_	webanno.custom.Corefchains_	8-5	
+8-14	would	O	O	O	_	_	
+8-15	be	B-UnrelEv	O	O	_	_	
+8-16	the	O	O	O	_	_	
+8-17	middle	O	O	O	_	_	
+8-18	layer	O	B-MissScrPart	B-webanno.custom.Participants_	webanno.custom.Corefchains_	7-21	
+8-19	.	O	O	O	_	_	
+
+#id=9
+#text=I baked all three cakes and then cooled them .
+9-1	I	O	B-ScrPart_cake	B-webanno.custom.Participants_	webanno.custom.Corefchains_	8-1	
+9-2	baked	B-RelNScrEv	O	O	_	_	
+9-3	all	O	O	O	_	_	
+9-4	three	O	O	O	_	_	
+9-5	cakes	O	B-ScrPart_cake	B-webanno.custom.Participants_	webanno.custom.Corefchains_	6-19	
+9-6	and	O	O	O	_	_	
+9-7	then	O	O	O	_	_	
+9-8	cooled	B-ScrEv_cool_down	O	O	_	_	
+9-9	them	O	B-ScrPart_cake	B-webanno.custom.Participants_	webanno.custom.Corefchains_	9-5	
+9-10	.	O	O	O	_	_	
+
+#id=10
+#text=After they cooled , I stacked the cakes according to size and I frosted the bottom and top layers with yellow frosting and the middle layer with green frosting .
+10-1	After	O	O	O	_	_	
+10-2	they	O	B-ScrPart_cake	B-webanno.custom.Participants_	webanno.custom.Corefchains_	9-9	
+10-3	cooled	B-ScrEv_cool_down	O	O	_	_	
+10-4	,	O	O	O	_	_	
+10-5	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	9-1	
+10-6	stacked	B-MissScrEvent	O	O	_	_	
+10-7	the	O	O	O	_	_	
+10-8	cakes	O	B-ScrPart_cake	B-webanno.custom.Participants_	webanno.custom.Corefchains_	10-2	
+10-9	according	O	O	O	_	_	
+10-10	to	O	O	O	_	_	
+10-11	size	O	B-NPart	B-webanno.custom.Participants_	_	_	
+10-12	and	O	O	O	_	_	
+10-13	I	O	B-ScrPart_cake	B-webanno.custom.Participants_	webanno.custom.Corefchains_	10-5	
+10-14	frosted	B-ScrEv_decorate	O	O	_	_	
+10-15	the	O	O	O	_	_	
+10-16	bottom	O	B-NPart	B-webanno.custom.Participants_	_	_	
+10-17	and	O	O	O	_	_	
+10-18	top	O	B-NPart	B-webanno.custom.Participants_	_	_	
+10-19	layers	O	B-MissScrPart	B-webanno.custom.Participants_	webanno.custom.Corefchains_	8-18	
+10-20	with	O	O	O	_	_	
+10-21	yellow	O	O	O	_	_	
+10-22	frosting	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	_	_	
+10-23	and	O	O	O	_	_	
+10-24	the	O	O	O	_	_	
+10-25	middle	O	O	O	_	_	
+10-26	layer	O	B-MissScrPart	B-webanno.custom.Participants_	webanno.custom.Corefchains_	10-19	
+10-27	with	O	O	O	_	_	
+10-28	green	O	O	O	_	_	
+10-29	frosting	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	webanno.custom.Corefchains_	10-22	
+10-30	.	O	O	O	_	_	
+
+#id=11
+#text=I decorated the top of the cake with farm animals , a small toy tractor and the words , '' `` Happy Birthday Samuel . '' ''
+11-1	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	10-13	
+11-2	decorated	B-ScrEv_decorate	O	O	_	_	
+11-3	the	O	O	O	_	_	
+11-4	top	O	B-NPart	B-webanno.custom.Participants_	_	_	
+11-5	of	O	O	O	_	_	
+11-6	the	O	O	O	_	_	
+11-7	cake	O	B-ScrPart_cake	B-webanno.custom.Participants_	webanno.custom.Corefchains_	10-8	
+11-8	with	O	O	O	_	_	
+11-9	farm	O	O	O	_	_	
+11-10	animals	O	O	O	_	_	
+11-11	,	O	O	O	_	_	
+11-12	a	O	O	O	_	_	
+11-13	small	O	O	O	_	_	
+11-14	toy	O	O	O	_	_	
+11-15	tractor	O	B-NPart	B-webanno.custom.Participants_	_	_	
+11-16	and	O	O	O	_	_	
+11-17	the	O	O	O	_	_	
+11-18	words	O	B-NPart	B-webanno.custom.Participants_	_	_	
+11-19	,	O	O	O	_	_	
+11-20	''	O	O	O	_	_	
+11-21	``	O	O	O	_	_	
+11-22	Happy	O	O	O	_	_	
+11-23	Birthday	O	B-NPart	B-webanno.custom.Participants_	_	_	
+11-24	Samuel	O	B-ScrPart_beneficiary	B-webanno.custom.Participants_	webanno.custom.Corefchains_	5-18	
+11-25	.	O	O	O	_	_	
+11-26	''	O	O	O	_	_	
+11-27	''	O	O	O	_	_	
+
+#id=12
+#text=I topped off the cake with a number 3 candle .
+12-1	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	11-1	
+12-2	topped	B-ScrEv_decorate|B-ScrEv_decorate	O	O	_	_	
+12-3	off	I-ScrEv_decorate	O	O	_	_	
+12-4	the	O	O	O	_	_	
+12-5	cake	O	B-ScrPart_cake	B-webanno.custom.Participants_	webanno.custom.Corefchains_	11-7	
+12-6	with	O	O	O	_	_	
+12-7	a	O	O	O	_	_	
+12-8	number	O	O	O	_	_	
+12-9	3	O	O	O	_	_	
+12-10	candle	O	B-MissScrPart	B-webanno.custom.Participants_	_	_	
+12-11	.	O	O	O	_	_	
+
+#id=13
+#text=My nephew was very happy when he saw the cake .
+13-1	My	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	12-1	
+13-2	nephew	O	B-ScrPart_beneficiary	B-webanno.custom.Participants_	webanno.custom.Corefchains_	11-24	
+13-3	was	B-UnrelEv	O	O	_	_	
+13-4	very	O	O	O	_	_	
+13-5	happy	O	O	O	_	_	
+13-6	when	O	O	O	_	_	
+13-7	he	O	B-ScrPart_beneficiary	B-webanno.custom.Participants_	webanno.custom.Corefchains_	13-2	
+13-8	saw	B-UnrelEv	O	O	_	_	
+13-9	the	O	O	O	_	_	
+13-10	cake	O	B-ScrPart_cake	B-webanno.custom.Participants_	webanno.custom.Corefchains_	12-5	
+13-11	.	O	O	O	_	_	
+
+#id=14
+#text=He was very surprised that I had baked a cake for him . 
+14-1	He	O	B-ScrPart_beneficiary	B-webanno.custom.Participants_	webanno.custom.Corefchains_	13-7	
+14-2	was	B-UnrelEv	O	O	_	_	
+14-3	very	O	O	O	_	_	
+14-4	surprised	O	O	O	_	_	
+14-5	that	O	O	O	_	_	
+14-6	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	13-1	
+14-7	had	O	O	O	_	_	
+14-8	baked	B-RelNScrEv	O	O	_	_	
+14-9	a	O	O	O	_	_	
+14-10	cake	O	B-ScrPart_cake	B-webanno.custom.Participants_	webanno.custom.Corefchains_	13-10	
+14-11	for	O	O	O	_	_	
+14-12	him	O	B-ScrPart_beneficiary	B-webanno.custom.Participants_	webanno.custom.Corefchains_	14-1	
+14-13	.	O	O	O	_	_	
+

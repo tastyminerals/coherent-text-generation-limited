@@ -1,0 +1,316 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=It is time for me to get my haircut .
+1-1	It	B-NPart	O	
+1-2	is	O	B-UnrelEv	
+1-3	time	B-ScrPart_time/date	O	
+1-4	for	O	O	
+1-5	me	B-ScrPart_customer	O	
+1-6	to	O	O	
+1-7	get	O	B-Evoking	
+1-8	my	B-ScrPart_customer	I-Evoking	
+1-9	haircut	B-ScrPart_haircut	I-Evoking	
+1-10	.	O	O	
+
+#id=2
+#text=I call my hairdresser and make an appointment .
+2-1	I	B-ScrPart_customer	O	
+2-2	call	O	B-UnrelEv	
+2-3	my	B-ScrPart_customer	O	
+2-4	hairdresser	B-ScrPart_hairdresser	O	
+2-5	and	O	O	
+2-6	make	O	B-ScrEv_make_appointment	
+2-7	an	O	O	
+2-8	appointment	B-ScrPart_appointment	O	
+2-9	.	O	O	
+
+#id=3
+#text=She says she can see me today at 3:00 pm .
+3-1	She	B-ScrPart_hairdresser	O	
+3-2	says	O	B-ScrEv_make_appointment	
+3-3	she	B-ScrPart_hairdresser	O	
+3-4	can	O	O	
+3-5	see	O	B-UnrelEv	
+3-6	me	B-ScrPart_customer	O	
+3-7	today	B-ScrPart_time/date	O	
+3-8	at	O	O	
+3-9	3:00	B-ScrPart_time/date	O	
+3-10	pm	I-ScrPart_time/date	O	
+3-11	.	O	O	
+
+#id=4
+#text=I leave the house at 2:30 in order to get there in time .
+4-1	I	B-ScrPart_customer	O	
+4-2	leave	O	B-UnrelEv	
+4-3	the	O	O	
+4-4	house	B-NPart	O	
+4-5	at	O	O	
+4-6	2:30	B-ScrPart_time/date	O	
+4-7	in	O	O	
+4-8	order	B-NPart	O	
+4-9	to	O	O	
+4-10	get	O	B-ScrEv_get_salon	
+4-11	there	B-ScrPart_salon	O	
+4-12	in	O	O	
+4-13	time	B-ScrPart_time/date	O	
+4-14	.	O	O	
+
+#id=5
+#text=When I arrive I check in and sit down in the waiting area .
+5-1	When	O	O	
+5-2	I	B-ScrPart_customer	O	
+5-3	arrive	O	B-ScrEv_get_salon	
+5-4	I	B-ScrPart_customer	O	
+5-5	check	O	B-ScrEv_check_in|B-ScrEv_check_in	
+5-6	in	O	I-ScrEv_check_in	
+5-7	and	O	O	
+5-8	sit	O	B-ScrEv_other|B-ScrEv_other	
+5-9	down	O	I-ScrEv_other	
+5-10	in	O	O	
+5-11	the	O	O	
+5-12	waiting	B-ScrPart_location_salon	O	
+5-13	area	I-ScrPart_location_salon|B-ScrPart_location_salon	O	
+5-14	.	O	O	
+
+#id=6
+#text=My hairdresser calls me back .
+6-1	My	B-ScrPart_customer	O	
+6-2	hairdresser	B-ScrPart_hairdresser	O	
+6-3	calls	O	B-ScrEv_get_called	
+6-4	me	B-ScrPart_customer	O	
+6-5	back	O	O	
+6-6	.	O	O	
+
+#id=7
+#text=She first takes me to the shampoo bowl to wash my hair .
+7-1	She	B-ScrPart_hairdresser	O	
+7-2	first	O	O	
+7-3	takes	O	B-ScrEv_move_in_salon	
+7-4	me	B-ScrPart_customer	O	
+7-5	to	O	O	
+7-6	the	O	O	
+7-7	shampoo	B-ScrPart_wash_basin	O	
+7-8	bowl	I-ScrPart_wash_basin|B-ScrPart_wash_basin	O	
+7-9	to	O	O	
+7-10	wash	O	B-ScrEv_wash	
+7-11	my	B-ScrPart_customer	O	
+7-12	hair	B-ScrPart_hair	O	
+7-13	.	O	O	
+
+#id=8
+#text=I sit down and she puts a plastic cape around my neck to protect my clothes .
+8-1	I	B-ScrPart_customer	O	
+8-2	sit	O	B-ScrEv_sit_down|B-ScrEv_sit_down	
+8-3	down	O	I-ScrEv_sit_down	
+8-4	and	O	O	
+8-5	she	B-ScrPart_hairdresser	O	
+8-6	puts	O	B-ScrEv_put_on_cape	
+8-7	a	O	O	
+8-8	plastic	B-ScrPart_cape	O	
+8-9	cape	I-ScrPart_cape|B-ScrPart_cape	O	
+8-10	around	O	O	
+8-11	my	B-ScrPart_customer	O	
+8-12	neck	B-NPart	O	
+8-13	to	O	O	
+8-14	protect	O	B-RelNScrEv	
+8-15	my	B-ScrPart_customer	O	
+8-16	clothes	B-NPart	O	
+8-17	.	O	O	
+
+#id=9
+#text=She leans the seat back and places my head over the shampoo bowl .
+9-1	She	B-ScrPart_hairdresser	O	
+9-2	leans	O	B-ScrEv_prepare_wash	
+9-3	the	O	O	
+9-4	seat	B-ScrPart_chair	O	
+9-5	back	O	O	
+9-6	and	O	O	
+9-7	places	O	B-ScrEv_prepare_wash	
+9-8	my	B-ScrPart_customer	O	
+9-9	head	B-NPart	O	
+9-10	over	O	O	
+9-11	the	O	O	
+9-12	shampoo	B-ScrPart_wash_basin	O	
+9-13	bowl	I-ScrPart_wash_basin|B-ScrPart_wash_basin	O	
+9-14	.	O	O	
+
+#id=10
+#text=She wets my hair and then lathers it with soap .
+10-1	She	B-ScrPart_hairdresser	O	
+10-2	wets	O	B-ScrEv_wash	
+10-3	my	B-ScrPart_customer	O	
+10-4	hair	B-ScrPart_hair	O	
+10-5	and	O	O	
+10-6	then	O	O	
+10-7	lathers	O	B-ScrEv_wash	
+10-8	it	B-ScrPart_hair	O	
+10-9	with	O	O	
+10-10	soap	B-ScrPart_hair_styling/treatment	O	
+10-11	.	O	O	
+
+#id=11
+#text=Then she rinses the soap out and puts in conditioner .
+11-1	Then	O	O	
+11-2	she	B-ScrPart_hairdresser	O	
+11-3	rinses	O	B-ScrEv_wash	
+11-4	the	O	O	
+11-5	soap	B-ScrPart_hair_styling/treatment	O	
+11-6	out	O	O	
+11-7	and	O	O	
+11-8	puts	O	B-ScrEv_wash|B-ScrEv_wash	
+11-9	in	O	I-ScrEv_wash	
+11-10	conditioner	B-ScrPart_hair_styling/treatment	O	
+11-11	.	O	O	
+
+#id=12
+#text=She rinses the conditioner out and then wraps a towel around my head .
+12-1	She	B-ScrPart_hairdresser	O	
+12-2	rinses	O	B-ScrEv_wash	
+12-3	the	O	O	
+12-4	conditioner	B-ScrPart_hair_styling/treatment	O	
+12-5	out	O	O	
+12-6	and	O	O	
+12-7	then	O	O	
+12-8	wraps	O	B-ScrEv_other	
+12-9	a	O	O	
+12-10	towel	B-ScrPart_towel	O	
+12-11	around	O	O	
+12-12	my	B-ScrPart_customer	O	
+12-13	head	B-NPart	O	
+12-14	.	O	O	
+
+#id=13
+#text=She leans my seat back up and dries my hair with the towel .
+13-1	She	B-ScrPart_hairdresser	O	
+13-2	leans	O	B-RelNScrEv	
+13-3	my	B-ScrPart_customer	O	
+13-4	seat	B-ScrPart_chair	O	
+13-5	back	O	O	
+13-6	up	O	O	
+13-7	and	O	O	
+13-8	dries	O	B-ScrEv_dry	
+13-9	my	B-ScrPart_customer	O	
+13-10	hair	B-ScrPart_hair	O	
+13-11	with	O	O	
+13-12	the	O	O	
+13-13	towel	B-ScrPart_towel	O	
+13-14	.	O	O	
+
+#id=14
+#text=She then leads me to her barber chair to sit .
+14-1	She	B-ScrPart_hairdresser	O	
+14-2	then	O	O	
+14-3	leads	O	B-ScrEv_move_in_salon	
+14-4	me	B-ScrPart_customer	O	
+14-5	to	O	O	
+14-6	her	B-ScrPart_hairdresser	O	
+14-7	barber	B-ScrPart_chair	O	
+14-8	chair	I-ScrPart_chair|B-ScrPart_chair	O	
+14-9	to	O	O	
+14-10	sit	O	B-ScrEv_sit_down	
+14-11	.	O	O	
+
+#id=15
+#text=She combs my hair and begins cutting .
+15-1	She	B-ScrPart_hairdresser	O	
+15-2	combs	O	B-ScrEv_comb	
+15-3	my	B-ScrPart_customer	O	
+15-4	hair	B-ScrPart_hair	O	
+15-5	and	O	O	
+15-6	begins	O	B-UnrelEv	
+15-7	cutting	O	B-ScrEv_cut	
+15-8	.	O	O	
+
+#id=16
+#text=She cuts the top , sides and back .
+16-1	She	B-ScrPart_hairdresser	O	
+16-2	cuts	O	B-ScrEv_cut	
+16-3	the	O	O	
+16-4	top	B-NPart	O	
+16-5	,	O	O	
+16-6	sides	B-NPart	O	
+16-7	and	O	O	
+16-8	back	B-NPart	O	
+16-9	.	O	O	
+
+#id=17
+#text=I keep my head very still while she does this .
+17-1	I	B-ScrPart_customer	O	
+17-2	keep	O	B-RelNScrEv	
+17-3	my	B-ScrPart_customer	O	
+17-4	head	B-NPart	O	
+17-5	very	O	O	
+17-6	still	O	O	
+17-7	while	O	O	
+17-8	she	B-ScrPart_hairdresser	O	
+17-9	does	O	B-ScrEv_cut	
+17-10	this	B-NPart	O	
+17-11	.	O	O	
+
+#id=18
+#text=After she is through cutting my hair she dries it with a blow-dryer .
+18-1	After	O	O	
+18-2	she	B-ScrPart_hairdresser	O	
+18-3	is	O	B-UnrelEv|B-UnrelEv	
+18-4	through	O	I-UnrelEv	
+18-5	cutting	O	B-ScrEv_cut	
+18-6	my	B-ScrPart_customer	O	
+18-7	hair	B-ScrPart_hair	O	
+18-8	she	B-ScrPart_hairdresser	O	
+18-9	dries	O	B-ScrEv_dry	
+18-10	it	B-ScrPart_hair	O	
+18-11	with	O	O	
+18-12	a	O	O	
+18-13	blow-dryer	B-ScrPart_hairdryer	O	
+18-14	.	I-ScrPart_hairdryer	O	
+
+#id=19
+#text=The she removes the plastic cape from around my neck and uses a soft brush to brush any look hair from my neck and face .
+19-1	The	O	O	
+19-2	she	B-ScrPart_hairdresser	O	
+19-3	removes	O	B-ScrEv_remove_cap	
+19-4	the	O	O	
+19-5	plastic	O	O	
+19-6	cape	B-ScrPart_cape	O	
+19-7	from	O	O	
+19-8	around	O	O	
+19-9	my	B-ScrPart_customer	O	
+19-10	neck	B-NPart	O	
+19-11	and	O	O	
+19-12	uses	O	B-UnrelEv	
+19-13	a	O	O	
+19-14	soft	O	O	
+19-15	brush	B-ScrPart_comb	O	
+19-16	to	O	O	
+19-17	brush	O	B-ScrEv_brush_hair	
+19-18	any	O	O	
+19-19	look	B-NPart	O	
+19-20	hair	B-ScrPart_hair	O	
+19-21	from	O	O	
+19-22	my	B-ScrPart_customer	O	
+19-23	neck	B-NPart	O	
+19-24	and	O	O	
+19-25	face	B-NPart	O	
+19-26	.	O	O	
+
+#id=20
+#text=Next we go to the cash register and I pay her for my haircut plus a tip . 
+20-1	Next	O	O	
+20-2	we	B-ScrPart_hairdresser_customer	O	
+20-3	go	O	B-ScrEv_move_in_salon	
+20-4	to	O	O	
+20-5	the	O	O	
+20-6	cash	B-ScrPart_location_salon	O	
+20-7	register	I-ScrPart_location_salon|B-ScrPart_location_salon	O	
+20-8	and	O	O	
+20-9	I	B-ScrPart_customer	O	
+20-10	pay	O	B-ScrEv_pay	
+20-11	her	B-ScrPart_hairdresser	O	
+20-12	for	O	O	
+20-13	my	B-ScrPart_customer	O	
+20-14	haircut	B-ScrPart_haircut	O	
+20-15	plus	O	O	
+20-16	a	O	O	
+20-17	tip	B-ScrPart_tip	O	
+20-18	.	O	O	
+

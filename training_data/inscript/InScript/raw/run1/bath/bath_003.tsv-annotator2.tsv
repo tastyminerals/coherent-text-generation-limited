@@ -1,0 +1,343 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=How you take a bath varies a bit with what type of bathing facilities you have .
+1-1	How	O	O	_	_	
+1-2	you	B-ScrPart_bather	O	_	_	
+1-3	take	O	B-Evoking	_	_	
+1-4	a	O	I-Evoking	_	_	
+1-5	bath	O	I-Evoking	_	_	
+1-6	varies	O	B-UnrelEv	_	_	
+1-7	a	O	O	_	_	
+1-8	bit	O	O	_	_	
+1-9	with	O	O	_	_	
+1-10	what	O	O	_	_	
+1-11	type	O	O	_	_	
+1-12	of	O	O	_	_	
+1-13	bathing	B-ScrPart_bathtub	O	_	_	
+1-14	facilities	I-ScrPart_bathtub|B-ScrPart_bathtub	O	_	_	
+1-15	you	B-ScrPart_bather	O	webanno.custom.Corefchains_	1-2	
+1-16	have	O	B-UnrelEv	_	_	
+1-17	.	O	O	_	_	
+
+#id=2
+#text=I 'm going to describe the typical definition of a bath .
+2-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	1-15	
+2-2	'm	O	O	_	_	
+2-3	going	O	O	_	_	
+2-4	to	O	O	_	_	
+2-5	describe	O	B-UnrelEv	_	_	
+2-6	the	O	O	_	_	
+2-7	typical	O	O	_	_	
+2-8	definition	O	O	_	_	
+2-9	of	O	O	_	_	
+2-10	a	O	O	_	_	
+2-11	bath	O	O	_	_	
+2-12	.	O	O	_	_	
+
+#id=3
+#text=Go to your tub and take the shower curtain out of the tub if it is inside it .
+3-1	Go	O	B-ScrEv_enter_bathroom	_	_	
+3-2	to	O	O	_	_	
+3-3	your	B-ScrPart_bather	O	webanno.custom.Corefchains_	2-1	
+3-4	tub	B-ScrPart_bathtub	O	group_bathing_facilities	1-14	
+3-5	and	O	O	_	_	
+3-6	take	O	B-UnrelEv	_	_	
+3-7	the	O	O	_	_	
+3-8	shower	O	O	_	_	
+3-9	curtain	O	O	_	_	
+3-10	out	O	O	_	_	
+3-11	of	O	O	_	_	
+3-12	the	O	O	_	_	
+3-13	tub	B-ScrPart_bathtub	O	webanno.custom.Corefchains_	3-4	
+3-14	if	O	O	_	_	
+3-15	it	O	O	_	_	
+3-16	is	O	B-UnrelEv	_	_	
+3-17	inside	O	O	_	_	
+3-18	it	O	O	_	_	
+3-19	.	O	O	_	_	
+
+#id=4
+#text=You do n't want it to get wet !
+4-1	You	B-ScrPart_bather	O	webanno.custom.Corefchains_	3-3	
+4-2	do	O	O	_	_	
+4-3	n't	O	O	_	_	
+4-4	want	O	O	_	_	
+4-5	it	O	O	_	_	
+4-6	to	O	O	_	_	
+4-7	get	O	B-UnrelEv	_	_	
+4-8	wet	O	O	_	_	
+4-9	!	O	O	_	_	
+
+#id=5
+#text=Before you close the drain you should turn on the water and let it run for a little bit so you can get it to the right temperature before you start filling the tub .
+5-1	Before	O	O	_	_	
+5-2	you	B-ScrPart_bather	O	webanno.custom.Corefchains_	4-1	
+5-3	close	O	B-ScrEv_close_drain	_	_	
+5-4	the	O	O	_	_	
+5-5	drain	B-ScrPart_drain	O	_	_	
+5-6	you	B-ScrPart_bather	O	webanno.custom.Corefchains_	5-2	
+5-7	should	O	O	_	_	
+5-8	turn	O	B-ScrEv_turn_water_on	_	_	
+5-9	on	O	I-ScrEv_turn_water_on	_	_	
+5-10	the	O	O	_	_	
+5-11	water	B-ScrPart_water	O	_	_	
+5-12	and	O	O	_	_	
+5-13	let	O	B-UnrelEv	_	_	
+5-14	it	B-ScrPart_water	O	webanno.custom.Corefchains_	5-11	
+5-15	run	O	B-RelNScrEv	_	_	
+5-16	for	O	O	_	_	
+5-17	a	O	O	_	_	
+5-18	little	O	O	_	_	
+5-19	bit	O	O	_	_	
+5-20	so	O	O	_	_	
+5-21	you	B-ScrPart_bather	O	webanno.custom.Corefchains_	5-6	
+5-22	can	O	O	_	_	
+5-23	get	O	B-RelNScrEv	_	_	
+5-24	it	B-ScrPart_water	O	webanno.custom.Corefchains_	5-14	
+5-25	to	O	O	_	_	
+5-26	the	O	O	_	_	
+5-27	right	O	O	_	_	
+5-28	temperature	B-ScrPart_temperature	O	_	_	
+5-29	before	O	O	_	_	
+5-30	you	B-ScrPart_bather	O	webanno.custom.Corefchains_	5-21	
+5-31	start	O	O	_	_	
+5-32	filling	O	B-ScrEv_fill_water/wait	_	_	
+5-33	the	O	O	_	_	
+5-34	tub	B-ScrPart_bathtub	O	webanno.custom.Corefchains_	3-13	
+5-35	.	O	O	_	_	
+
+#id=6
+#text=If you have somewhere to store the water you can place a bucket under the warming water and use it for another purpose .
+6-1	If	O	O	_	_	
+6-2	you	B-ScrPart_bather	O	webanno.custom.Corefchains_	5-30	
+6-3	have	O	B-UnrelEv	_	_	
+6-4	somewhere	O	O	_	_	
+6-5	to	O	O	_	_	
+6-6	store	O	B-UnrelEv	_	_	
+6-7	the	O	O	_	_	
+6-8	water	B-ScrPart_water	O	webanno.custom.Corefchains_	5-24	
+6-9	you	B-ScrPart_bather	O	webanno.custom.Corefchains_	6-2	
+6-10	can	O	O	_	_	
+6-11	place	O	B-UnrelEv	_	_	
+6-12	a	O	O	_	_	
+6-13	bucket	O	O	_	_	
+6-14	under	O	O	_	_	
+6-15	the	O	O	_	_	
+6-16	warming	O	B-UnrelEv	_	_	
+6-17	water	B-ScrPart_water	O	webanno.custom.Corefchains_	6-8	
+6-18	and	O	O	_	_	
+6-19	use	O	B-UnrelEv	_	_	
+6-20	it	B-ScrPart_water	O	webanno.custom.Corefchains_	6-17	
+6-21	for	O	O	_	_	
+6-22	another	O	O	_	_	
+6-23	purpose	O	O	_	_	
+6-24	.	O	O	_	_	
+
+#id=7
+#text=Conservation !
+7-1	Conservation	O	O	_	_	
+7-2	!	O	O	_	_	
+
+#id=8
+#text=Once the water coming from the tap is at the temperature you like you can place the stopper in the drain and start filling the tub .
+8-1	Once	O	O	_	_	
+8-2	the	O	O	_	_	
+8-3	water	B-ScrPart_water	O	webanno.custom.Corefchains_	6-20	
+8-4	coming	O	B-UnrelEv	_	_	
+8-5	from	O	O	_	_	
+8-6	the	O	O	_	_	
+8-7	tap	B-ScrPart_tap	O	_	_	
+8-8	is	O	B-UnrelEv	_	_	
+8-9	at	O	O	_	_	
+8-10	the	O	O	_	_	
+8-11	temperature	B-ScrPart_temperature	O	webanno.custom.Corefchains_	5-28	
+8-12	you	B-ScrPart_bather	O	webanno.custom.Corefchains_	6-9	
+8-13	like	O	B-UnrelEv	_	_	
+8-14	you	B-ScrPart_bather	O	webanno.custom.Corefchains_	8-12	
+8-15	can	O	O	_	_	
+8-16	place	O	B-ScrEv_close_drain	_	_	
+8-17	the	O	O	_	_	
+8-18	stopper	B-MissScrPart	O	_	_	
+8-19	in	O	O	_	_	
+8-20	the	O	O	_	_	
+8-21	drain	B-ScrPart_drain	O	webanno.custom.Corefchains_	5-5	
+8-22	and	O	O	_	_	
+8-23	start	O	B-UnrelEv	_	_	
+8-24	filling	O	B-ScrEv_fill_water/wait	_	_	
+8-25	the	O	O	_	_	
+8-26	tub	B-ScrPart_bathtub	O	webanno.custom.Corefchains_	5-34	
+8-27	.	O	O	_	_	
+
+#id=9
+#text=Make sure you do n't fill the tub all the way to the top because the water will displace once you get into the tub .
+9-1	Make	O	B-UnrelEv	_	_	
+9-2	sure	O	I-UnrelEv	_	_	
+9-3	you	B-ScrPart_bather	O	webanno.custom.Corefchains_	8-14	
+9-4	do	O	O	_	_	
+9-5	n't	O	O	_	_	
+9-6	fill	O	B-ScrEv_fill_water/wait	_	_	
+9-7	the	O	O	_	_	
+9-8	tub	B-ScrPart_bathtub	O	webanno.custom.Corefchains_	8-26	
+9-9	all	O	O	_	_	
+9-10	the	O	O	_	_	
+9-11	way	B-NPart	O	_	_	
+9-12	to	O	O	_	_	
+9-13	the	O	O	_	_	
+9-14	top	B-NPart	O	_	_	
+9-15	because	O	O	_	_	
+9-16	the	O	O	_	_	
+9-17	water	B-ScrPart_water	O	webanno.custom.Corefchains_	8-3	
+9-18	will	O	O	_	_	
+9-19	displace	O	B-UnrelEv	_	_	
+9-20	once	O	O	_	_	
+9-21	you	B-ScrPart_bather	O	webanno.custom.Corefchains_	9-3	
+9-22	get	O	B-ScrEv_sink_water	_	_	
+9-23	into	O	O	_	_	
+9-24	the	O	O	_	_	
+9-25	tub	B-ScrPart_bathtub	O	webanno.custom.Corefchains_	9-8	
+9-26	.	O	O	_	_	
+
+#id=10
+#text=You can also get in as the tub is filling so you can make a better judgment about when to turn off the water .
+10-1	You	B-ScrPart_bather	O	webanno.custom.Corefchains_	9-21	
+10-2	can	O	O	_	_	
+10-3	also	O	O	_	_	
+10-4	get	O	B-ScrEv_sink_water	_	_	
+10-5	in	O	I-ScrEv_sink_water	_	_	
+10-6	as	O	O	_	_	
+10-7	the	O	O	_	_	
+10-8	tub	B-ScrPart_bathtub	O	webanno.custom.Corefchains_	9-25	
+10-9	is	O	O	_	_	
+10-10	filling	O	B-ScrEv_fill_water/wait	_	_	
+10-11	so	O	O	_	_	
+10-12	you	B-ScrPart_bather	O	webanno.custom.Corefchains_	10-1	
+10-13	can	O	O	_	_	
+10-14	make	O	B-UnrelEv	_	_	
+10-15	a	O	O	_	_	
+10-16	better	O	O	_	_	
+10-17	judgment	B-SuppVComp	O	_	_	
+10-18	about	O	O	_	_	
+10-19	when	O	O	_	_	
+10-20	to	O	O	_	_	
+10-21	turn	O	B-ScrEv_turn_water_off	_	_	
+10-22	off	O	I-ScrEv_turn_water_off	_	_	
+10-23	the	O	O	_	_	
+10-24	water	B-ScrPart_water	O	webanno.custom.Corefchains_	9-17	
+10-25	.	O	O	_	_	
+
+#id=11
+#text=While you are in the tub you should take a wash cloth and soap or bodywash to give yourself a good scrub down .
+11-1	While	O	O	_	_	
+11-2	you	B-ScrPart_bather	O	webanno.custom.Corefchains_	10-12	
+11-3	are	O	B-UnrelEv	_	_	
+11-4	in	O	O	_	_	
+11-5	the	O	O	_	_	
+11-6	tub	B-ScrPart_bathtub	O	webanno.custom.Corefchains_	10-8	
+11-7	you	B-ScrPart_bather	O	webanno.custom.Corefchains_	11-2	
+11-8	should	O	O	_	_	
+11-9	take	O	B-RelNScrEv	_	_	
+11-10	a	O	O	_	_	
+11-11	wash	B-ScrPart_washing_tools	O	_	_	
+11-12	cloth	I-ScrPart_washing_tools|B-ScrPart_washing_tools	O	_	_	
+11-13	and	O	O	_	_	
+11-14	soap	B-ScrPart_washing_tools	O	_	_	
+11-15	or	O	O	_	_	
+11-16	bodywash	B-ScrPart_washing_tools	O	_	_	
+11-17	to	O	O	_	_	
+11-18	give	O	B-ScrEv_wash	_	_	
+11-19	yourself	B-ScrPart_bather	O	webanno.custom.Corefchains_	11-7	
+11-20	a	O	O	_	_	
+11-21	good	O	O	_	_	
+11-22	scrub	B-SuppVComp	O	_	_	
+11-23	down	I-SuppVComp	O	_	_	
+11-24	.	O	O	_	_	
+
+#id=12
+#text=If you need to wash your hair it is often better to do it after your bath .
+12-1	If	O	O	_	_	
+12-2	you	B-ScrPart_bather	O	webanno.custom.Corefchains_	11-19	
+12-3	need	O	O	_	_	
+12-4	to	O	O	_	_	
+12-5	wash	O	B-ScrEv_wash	_	_	
+12-6	your	B-ScrPart_bather	O	webanno.custom.Corefchains_	12-2	
+12-7	hair	B-ScrPart_hair	O	_	_	
+12-8	it	O	O	_	_	
+12-9	is	O	B-UnrelEv	_	_	
+12-10	often	O	O	_	_	
+12-11	better	O	O	_	_	
+12-12	to	O	O	_	_	
+12-13	do	O	B-UnrelEv	_	_	
+12-14	it	O	O	_	_	
+12-15	after	O	O	_	_	
+12-16	your	B-ScrPart_bather	O	webanno.custom.Corefchains_	12-6	
+12-17	bath	O	O	_	_	
+12-18	.	O	O	_	_	
+
+#id=13
+#text=You can put the shampoo in your hair and as the tub empties place your head under the faucet to rinse out the soap .
+13-1	You	B-ScrPart_bather	O	webanno.custom.Corefchains_	12-16	
+13-2	can	O	O	_	_	
+13-3	put	O	B-ScrEv_wash	_	_	
+13-4	the	O	O	_	_	
+13-5	shampoo	B-ScrPart_washing_tools	O	_	_	
+13-6	in	O	O	_	_	
+13-7	your	B-ScrPart_bather	O	webanno.custom.Corefchains_	13-1	
+13-8	hair	B-ScrPart_hair	O	webanno.custom.Corefchains_	12-7	
+13-9	and	O	O	_	_	
+13-10	as	O	O	_	_	
+13-11	the	O	O	_	_	
+13-12	tub	B-ScrPart_bathtub	O	webanno.custom.Corefchains_	11-6	
+13-13	empties	O	B-RelNScrEv	_	_	
+13-14	place	O	B-UnrelEv	_	_	
+13-15	your	B-ScrPart_bather	O	webanno.custom.Corefchains_	13-7	
+13-16	head	B-ScrPart_body_part	O	_	_	
+13-17	under	O	O	_	_	
+13-18	the	O	O	_	_	
+13-19	faucet	B-ScrPart_tap	O	webanno.custom.Corefchains_	8-7	
+13-20	to	O	O	_	_	
+13-21	rinse	O	B-RelNScrEv	_	_	
+13-22	out	O	I-RelNScrEv	_	_	
+13-23	the	O	O	_	_	
+13-24	soap	B-ScrPart_washing_tools	O	webanno.custom.Corefchains_	11-14	
+13-25	.	O	O	_	_	
+
+#id=14
+#text=Enjoy your bath !
+14-1	Enjoy	O	B-UnrelEv	_	_	
+14-2	your	B-ScrPart_bather	O	webanno.custom.Corefchains_	13-15	
+14-3	bath	O	O	_	_	
+14-4	!	O	O	_	_	
+
+#id=15
+#text=, This one was a little tough .
+15-1	,	O	O	_	_	
+15-2	This	O	O	_	_	
+15-3	one	O	O	_	_	
+15-4	was	O	B-UnrelEv	_	_	
+15-5	a	O	O	_	_	
+15-6	little	O	O	_	_	
+15-7	tough	O	O	_	_	
+15-8	.	O	O	_	_	
+
+#id=16
+#text=I was n't sure how much detail to go into about taking the bath versus setting up the bath 
+16-1	I	O	O	_	_	
+16-2	was	O	B-UnrelEv	_	_	
+16-3	n't	O	O	_	_	
+16-4	sure	O	O	_	_	
+16-5	how	O	O	_	_	
+16-6	much	O	O	_	_	
+16-7	detail	O	O	_	_	
+16-8	to	O	O	_	_	
+16-9	go	O	B-UnrelEv	_	_	
+16-10	into	O	O	_	_	
+16-11	about	O	O	_	_	
+16-12	taking	O	B-Evoking	_	_	
+16-13	the	O	I-Evoking	_	_	
+16-14	bath	O	I-Evoking	_	_	
+16-15	versus	O	O	_	_	
+16-16	setting	O	B-ScrEv_prepare_bath	_	_	
+16-17	up	O	I-ScrEv_prepare_bath	_	_	
+16-18	the	O	O	_	_	
+16-19	bath	O	O	_	_	
+

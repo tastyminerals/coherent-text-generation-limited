@@ -1,0 +1,215 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=my sister Jane and I love to go bicycling .
+1-1	my	B-ScrPart_rider	O	_	_	
+1-2	sister	B-ScrPart_rider	O	_	_	
+1-3	Jane	I-ScrPart_rider|B-ScrPart_rider	O	_	_	
+1-4	and	O	O	_	_	
+1-5	I	B-ScrPart_rider	O	_	_	
+1-6	love	O	B-UnrelEv	_	_	
+1-7	to	O	O	_	_	
+1-8	go	O	B-UnrelEv	_	_	
+1-9	bicycling	O	B-ScrEv_ride_bike	_	_	
+1-10	.	O	O	_	_	
+
+#id=2
+#text=One warm day in June , we wanted to go out and ride but my bike had a flat tire .
+2-1	One	O	O	_	_	
+2-2	warm	O	O	_	_	
+2-3	day	B-NPart	O	_	_	
+2-4	in	O	O	_	_	
+2-5	June	B-NPart	O	_	_	
+2-6	,	O	O	_	_	
+2-7	we	B-ScrPart_rider	O	_	_	
+2-8	wanted	O	B-UnrelEv	_	_	
+2-9	to	O	O	_	_	
+2-10	go	O	B-UnrelEv	_	_	
+2-11	out	O	O	_	_	
+2-12	and	O	O	_	_	
+2-13	ride	O	B-ScrEv_ride_bike	_	_	
+2-14	but	O	O	_	_	
+2-15	my	B-ScrPart_rider	O	_	_	
+2-16	bike	B-ScrPart_bicycle	O	_	_	
+2-17	had	O	B-ScrEv_notice_problem	_	_	
+2-18	a	O	O	_	_	
+2-19	flat	O	O	_	_	
+2-20	tire	B-ScrPart_tire	O	_	_	
+2-21	.	O	O	_	_	
+
+#id=3
+#text=I carefully took the tire off of the rim and then inflated it with a hand pump so I could find the leak .
+3-1	I	B-ScrPart_rider	O	_	_	
+3-2	carefully	O	O	_	_	
+3-3	took	O	B-ScrEv_take_tire_off	_	_	
+3-4	the	O	O	_	_	
+3-5	tire	B-ScrPart_tire	O	_	_	
+3-6	off	O	O	_	_	
+3-7	of	O	O	_	_	
+3-8	the	O	O	_	_	
+3-9	rim	B-ScrPart_rim	O	_	_	
+3-10	and	O	O	_	_	
+3-11	then	O	O	_	_	
+3-12	inflated	O	B-ScrEv_examine_tire	_	_	
+3-13	it	B-ScrPart_tire	O	_	_	
+3-14	with	O	O	_	_	
+3-15	a	O	O	_	_	
+3-16	hand	B-ScrPart_tool	O	_	_	
+3-17	pump	I-ScrPart_tool|B-ScrPart_tool	O	_	_	
+3-18	so	O	O	_	_	
+3-19	I	B-ScrPart_rider	O	_	_	
+3-20	could	O	O	_	_	
+3-21	find	O	B-ScrEv_examine_tire	_	_	
+3-22	the	O	O	_	_	
+3-23	leak	B-ScrPart_damage	O	_	_	
+3-24	.	O	O	_	_	
+
+#id=4
+#text=A blast of cool air on my fingers led me to the problem : a single round hole , probably caused by a nail or other sharp object .
+4-1	A	O	O	_	_	
+4-2	blast	B-Head_of_Partitive	O	_	_	
+4-3	of	O	O	_	_	
+4-4	cool	O	O	_	_	
+4-5	air	B-ScrPart_air	O	_	_	
+4-6	on	O	O	_	_	
+4-7	my	B-ScrPart_rider	O	_	_	
+4-8	fingers	B-NPart	O	_	_	
+4-9	led	O	B-ScrEv_examine_tire	_	_	
+4-10	me	B-ScrPart_rider	O	_	_	
+4-11	to	O	O	_	_	
+4-12	the	O	O	_	_	
+4-13	problem	B-NPart	O	_	_	
+4-14	:	O	O	_	_	
+4-15	a	O	O	_	_	
+4-16	single	O	O	_	_	
+4-17	round	O	O	_	_	
+4-18	hole	B-ScrPart_damage	O	webanno.custom.Corefchains_	3-23	
+4-19	,	O	O	_	_	
+4-20	probably	O	O	_	_	
+4-21	caused	O	B-UnrelEv	_	_	
+4-22	by	O	O	_	_	
+4-23	a	O	O	_	_	
+4-24	nail	B-ScrPart_object_damage	O	_	_	
+4-25	or	O	O	_	_	
+4-26	other	O	O	_	_	
+4-27	sharp	O	O	_	_	
+4-28	object	B-ScrPart_object_damage	O	_	_	
+4-29	.	O	O	_	_	
+
+#id=5
+#text=I got out my patch kit , and Jane held up the tire for me as I first applied glue and then placed a patch carefully over the damaged area .
+5-1	I	B-ScrPart_rider	O	_	_	
+5-2	got	O	B-ScrEv_get_tools	_	_	
+5-3	out	O	I-ScrEv_get_tools	_	_	
+5-4	my	B-ScrPart_rider	O	_	_	
+5-5	patch	B-ScrPart_tool	O	_	_	
+5-6	kit	I-ScrPart_tool|B-ScrPart_tool	O	_	_	
+5-7	,	O	O	_	_	
+5-8	and	O	O	_	_	
+5-9	Jane	B-ScrPart_rider	O	_	_	
+5-10	held	O	B-RelNScrEv	_	_	
+5-11	up	O	I-RelNScrEv	_	_	
+5-12	the	O	O	_	_	
+5-13	tire	B-ScrPart_tire	O	_	_	
+5-14	for	O	O	_	_	
+5-15	me	B-ScrPart_rider	O	_	_	
+5-16	as	O	O	_	_	
+5-17	I	B-ScrPart_rider	O	_	_	
+5-18	first	O	O	_	_	
+5-19	applied	O	B-ScrEv_put_patch/seal	_	_	
+5-20	glue	B-ScrPart_tool	O	_	_	
+5-21	and	O	O	_	_	
+5-22	then	O	O	_	_	
+5-23	placed	O	B-ScrEv_put_patch/seal	_	_	
+5-24	a	O	O	_	_	
+5-25	patch	B-ScrPart_patch	O	_	_	
+5-26	carefully	O	O	_	_	
+5-27	over	O	O	_	_	
+5-28	the	O	O	_	_	
+5-29	damaged	O	B-RelNScrEv	_	_	
+5-30	area	B-ScrPart_damage	O	webanno.custom.Corefchains_	4-18	
+5-31	.	O	O	_	_	
+
+#id=6
+#text=I had to let it dry , so we took turns riding Jane 's bike for a while .
+6-1	I	B-ScrPart_rider	O	_	_	
+6-2	had	O	O	_	_	
+6-3	to	O	O	_	_	
+6-4	let	O	B-UnrelEv	_	_	
+6-5	it	B-ScrPart_patch	O	_	_	
+6-6	dry	O	B-RelNScrEv	_	_	
+6-7	,	O	O	_	_	
+6-8	so	O	O	_	_	
+6-9	we	B-ScrPart_rider	O	_	_	
+6-10	took	O	B-UnrelEv	_	_	
+6-11	turns	B-NPart	O	_	_	
+6-12	riding	O	B-RelNScrEv	_	_	
+6-13	Jane	B-ScrPart_rider	O	_	_	
+6-14	's	O	O	_	_	
+6-15	bike	B-ScrPart_bicycle	O	_	_	
+6-16	for	O	O	_	_	
+6-17	a	O	O	_	_	
+6-18	while	B-NPart	O	_	_	
+6-19	.	O	O	_	_	
+
+#id=7
+#text=Then I inflated the tire and checked the patch .
+7-1	Then	O	O	_	_	
+7-2	I	B-ScrPart_rider	O	_	_	
+7-3	inflated	O	B-ScrEv_refill_tire_air	_	_	
+7-4	the	O	O	_	_	
+7-5	tire	B-ScrPart_tire	O	_	_	
+7-6	and	O	O	_	_	
+7-7	checked	O	B-ScrEv_check_new_tire	_	_	
+7-8	the	O	O	_	_	
+7-9	patch	B-ScrPart_patch	O	_	_	
+7-10	.	O	O	_	_	
+
+#id=8
+#text=It was good !
+8-1	It	B-No_label	O	_	_	
+8-2	was	O	B-UnrelEv	_	_	
+8-3	good	O	O	_	_	
+8-4	!	O	O	_	_	
+
+#id=9
+#text=The leak was repaired .
+9-1	The	O	O	_	_	
+9-2	leak	B-ScrPart_damage	O	webanno.custom.Corefchains_	5-30	
+9-3	was	O	O	_	_	
+9-4	repaired	O	B-Evoking	_	_	
+9-5	.	O	O	_	_	
+
+#id=10
+#text=I put the tire back on my bike and we went off on a nice long ride .
+10-1	I	B-ScrPart_rider	O	_	_	
+10-2	put	O	B-ScrEv_put_new_tire	_	_	
+10-3	the	O	O	_	_	
+10-4	tire	B-ScrPart_tire	O	_	_	
+10-5	back	O	O	_	_	
+10-6	on	O	O	_	_	
+10-7	my	B-ScrPart_rider	O	_	_	
+10-8	bike	B-ScrPart_bicycle	O	_	_	
+10-9	and	O	O	_	_	
+10-10	we	B-ScrPart_rider	O	_	_	
+10-11	went	O	B-ScrEv_ride_bike	_	_	
+10-12	off	O	I-ScrEv_ride_bike	_	_	
+10-13	on	O	O	_	_	
+10-14	a	O	O	_	_	
+10-15	nice	O	O	_	_	
+10-16	long	O	O	_	_	
+10-17	ride	B-ScrPart_ride	O	_	_	
+10-18	.	O	O	_	_	
+
+#id=11
+#text=I was happy to have my bike fixed again . 
+11-1	I	B-ScrPart_rider	O	_	_	
+11-2	was	O	B-UnrelEv	_	_	
+11-3	happy	O	O	_	_	
+11-4	to	O	O	_	_	
+11-5	have	O	O	_	_	
+11-6	my	B-ScrPart_rider	O	_	_	
+11-7	bike	B-ScrPart_bicycle	O	_	_	
+11-8	fixed	O	B-Evoking	_	_	
+11-9	again	O	O	_	_	
+11-10	.	O	O	_	_	
+

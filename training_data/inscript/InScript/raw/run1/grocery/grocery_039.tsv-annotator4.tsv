@@ -1,0 +1,233 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Weekly grocery shopping begins at the local supermarket down the street .
+1-1	Weekly	O	O	_	_	
+1-2	grocery	B-Evoking	B-ScrPart_groceries	_	_	
+1-3	shopping	I-Evoking	O	_	_	
+1-4	begins	B-UnrelEv	O	_	_	
+1-5	at	O	O	_	_	
+1-6	the	O	O	_	_	
+1-7	local	O	O	_	_	
+1-8	supermarket	O	B-ScrPart_grocery_shop	webanno.custom.Corefchains_	2-1	
+1-9	down	O	O	_	_	
+1-10	the	O	O	_	_	
+1-11	street	O	O	_	_	
+1-12	.	O	O	_	_	
+
+#id=2
+#text=It 's the closest by with a great selection .
+2-1	It	O	B-ScrPart_grocery_shop	webanno.custom.Corefchains_	3-1	
+2-2	's	B-UnrelEv	O	_	_	
+2-3	the	O	O	_	_	
+2-4	closest	O	O	_	_	
+2-5	by	O	O	_	_	
+2-6	with	O	O	_	_	
+2-7	a	O	O	_	_	
+2-8	great	O	O	_	_	
+2-9	selection	O	O	_	_	
+2-10	.	O	O	_	_	
+
+#id=3
+#text=It may not be the cheapest but nothing compares in how close it is .
+3-1	It	O	B-ScrPart_grocery_shop	webanno.custom.Corefchains_	3-13	
+3-2	may	O	O	_	_	
+3-3	not	O	O	_	_	
+3-4	be	B-UnrelEv	O	_	_	
+3-5	the	O	O	_	_	
+3-6	cheapest	O	O	_	_	
+3-7	but	O	O	_	_	
+3-8	nothing	O	O	_	_	
+3-9	compares	B-UnrelEv	O	_	_	
+3-10	in	O	O	_	_	
+3-11	how	O	O	_	_	
+3-12	close	O	O	_	_	
+3-13	it	O	B-ScrPart_grocery_shop	webanno.custom.Corefchains_	4-6	
+3-14	is	B-UnrelEv	O	_	_	
+3-15	.	O	O	_	_	
+
+#id=4
+#text=Once I am at the store , I usually head straight to the fruits and vegetable sections first .
+4-1	Once	O	O	_	_	
+4-2	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	4-8	
+4-3	am	B-ScrEv_enter	O	_	_	
+4-4	at	O	O	_	_	
+4-5	the	O	O	_	_	
+4-6	store	O	B-ScrPart_grocery_shop	webanno.custom.Corefchains_	12-26	
+4-7	,	O	O	_	_	
+4-8	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	5-1	
+4-9	usually	O	O	_	_	
+4-10	head	B-ScrEv_move_section	O	_	_	
+4-11	straight	O	O	_	_	
+4-12	to	O	O	_	_	
+4-13	the	O	O	_	_	
+4-14	fruits	O	B-ScrPart_section	_	_	
+4-15	and	O	I-ScrPart_section	_	_	
+4-16	vegetable	O	I-ScrPart_section	_	_	
+4-17	sections	O	I-ScrPart_section|B-ScrPart_section	_	_	
+4-18	first	O	O	_	_	
+4-19	.	O	O	_	_	
+
+#id=5
+#text=I will grab all the fruits and veggies that I think I will need for the week .
+5-1	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	5-10	
+5-2	will	O	O	_	_	
+5-3	grab	B-ScrEv_get_groceries	O	_	_	
+5-4	all	O	O	_	_	
+5-5	the	O	O	_	_	
+5-6	fruits	O	B-ScrPart_groceries	coref_fruit_veggies	5-9	
+5-7	and	O	O	_	_	
+5-8	veggies	O	B-ScrPart_groceries	coref_fruit_veggies	5-9	
+5-9	that	O	B-ScrPart_groceries	webanno.custom.Corefchains_	7-2	
+5-10	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	5-12	
+5-11	think	B-UnrelEv	O	_	_	
+5-12	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	6-1	
+5-13	will	O	O	_	_	
+5-14	need	B-RelNScrEv	O	_	_	
+5-15	for	O	O	_	_	
+5-16	the	O	O	_	_	
+5-17	week	O	O	_	_	
+5-18	.	O	O	_	_	
+
+#id=6
+#text=I do n't really go with a shopping list or anything in mind .
+6-1	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	7-12	
+6-2	do	O	O	_	_	
+6-3	n't	O	O	_	_	
+6-4	really	O	O	_	_	
+6-5	go	B-RelNScrEv	O	_	_	
+6-6	with	O	O	_	_	
+6-7	a	O	O	_	_	
+6-8	shopping	O	B-ScrPart_grocery_list	_	_	
+6-9	list	O	I-ScrPart_grocery_list|B-ScrPart_grocery_list	_	_	
+6-10	or	O	O	_	_	
+6-11	anything	O	O	_	_	
+6-12	in	O	O	_	_	
+6-13	mind	O	O	_	_	
+6-14	.	O	O	_	_	
+
+#id=7
+#text=Usually whatever looks the freshest or is on sale is what I tend to buy .
+7-1	Usually	O	O	_	_	
+7-2	whatever	O	B-ScrPart_groceries	webanno.custom.Corefchains_	7-11	
+7-3	looks	B-RelNScrEv	O	_	_	
+7-4	the	O	O	_	_	
+7-5	freshest	O	O	_	_	
+7-6	or	O	O	_	_	
+7-7	is	B-RelNScrEv	O	_	_	
+7-8	on	O	O	_	_	
+7-9	sale	O	B-NPart	_	_	
+7-10	is	B-UnrelEv	O	_	_	
+7-11	what	O	B-ScrPart_groceries	webanno.custom.Corefchains_	8-4	
+7-12	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	8-6	
+7-13	tend	B-UnrelEv	O	_	_	
+7-14	to	O	O	_	_	
+7-15	buy	B-ScrEv_get_groceries	O	_	_	
+7-16	.	O	O	_	_	
+
+#id=8
+#text=After selecting these items , I will move to the proteins .
+8-1	After	O	O	_	_	
+8-2	selecting	B-ScrEv_get_groceries	O	_	_	
+8-3	these	O	O	_	_	
+8-4	items	O	B-ScrPart_groceries	webanno.custom.Corefchains_	10-5	
+8-5	,	O	O	_	_	
+8-6	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	10-6	
+8-7	will	O	O	_	_	
+8-8	move	B-ScrEv_move_section	O	_	_	
+8-9	to	O	O	_	_	
+8-10	the	O	O	_	_	
+8-11	proteins	O	B-ScrPart_groceries	webanno.custom.Corefchains_|coref_chicken_beef|coref_chicken_beef	10-15|9-8|9-4	
+8-12	.	O	O	_	_	
+
+#id=9
+#text=Sometimes it is chicken and sometimes it beef .
+9-1	Sometimes	O	O	_	_	
+9-2	it	O	O	_	_	
+9-3	is	B-UnrelEv	O	_	_	
+9-4	chicken	O	B-ScrPart_groceries	_	_	
+9-5	and	O	O	_	_	
+9-6	sometimes	O	O	_	_	
+9-7	it	B-UnrelEv	O	_	_	
+9-8	beef	O	B-ScrPart_groceries	_	_	
+9-9	.	O	O	_	_	
+
+#id=10
+#text=It depends on the vegetables I 've just selected to determine which type of protein I will be purchasing .
+10-1	It	O	O	_	_	
+10-2	depends	B-UnrelEv	O	_	_	
+10-3	on	O	O	_	_	
+10-4	the	O	O	_	_	
+10-5	vegetables	O	B-ScrPart_groceries	_	_	
+10-6	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	10-16	
+10-7	've	O	O	_	_	
+10-8	just	O	O	_	_	
+10-9	selected	B-ScrEv_get_groceries	O	_	_	
+10-10	to	O	O	_	_	
+10-11	determine	B-UnrelEv	O	_	_	
+10-12	which	O	O	_	_	
+10-13	type	O	O	_	_	
+10-14	of	O	O	_	_	
+10-15	protein	O	B-ScrPart_groceries	webanno.custom.Corefchains_	11-4	
+10-16	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	11-7	
+10-17	will	O	O	_	_	
+10-18	be	O	O	_	_	
+10-19	purchasing	B-ScrEv_get_groceries	O	_	_	
+10-20	.	O	O	_	_	
+
+#id=11
+#text=Lastly , once those are done I will pick up the packaged goods such as milk , bread , eggs , and cereal .
+11-1	Lastly	O	O	_	_	
+11-2	,	O	O	_	_	
+11-3	once	O	O	_	_	
+11-4	those	O	B-ScrPart_groceries	_	_	
+11-5	are	O	O	_	_	
+11-6	done	B-ScrEv_get_groceries	O	_	_	
+11-7	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	12-1	
+11-8	will	O	O	_	_	
+11-9	pick	B-ScrEv_get_groceries	O	_	_	
+11-10	up	I-ScrEv_get_groceries	O	_	_	
+11-11	the	O	O	_	_	
+11-12	packaged	B-UnrelEv	O	_	_	
+11-13	goods	O	B-ScrPart_groceries	_	_	
+11-14	such	O	O	_	_	
+11-15	as	O	O	_	_	
+11-16	milk	O	B-ScrPart_groceries	_	_	
+11-17	,	O	O	_	_	
+11-18	bread	O	B-ScrPart_groceries	_	_	
+11-19	,	O	O	_	_	
+11-20	eggs	O	B-ScrPart_groceries	_	_	
+11-21	,	O	O	_	_	
+11-22	and	O	O	_	_	
+11-23	cereal	O	B-ScrPart_groceries	_	_	
+11-24	.	O	O	_	_	
+
+#id=12
+#text=I do n't each much junk food or processed foods so this is basically all I will get for a typical trip to the grocery store . 
+12-1	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	12-16	
+12-2	do	O	O	_	_	
+12-3	n't	O	O	_	_	
+12-4	each	B-UnrelEv	O	_	_	
+12-5	much	O	O	_	_	
+12-6	junk	O	B-ScrPart_groceries	_	_	
+12-7	food	O	I-ScrPart_groceries|B-ScrPart_groceries	_	_	
+12-8	or	O	O	_	_	
+12-9	processed	B-UnrelEv	O	_	_	
+12-10	foods	O	B-ScrPart_groceries	_	_	
+12-11	so	O	O	_	_	
+12-12	this	O	O	_	_	
+12-13	is	B-UnrelEv	O	_	_	
+12-14	basically	O	O	_	_	
+12-15	all	O	B-ScrPart_groceries	_	_	
+12-16	I	O	B-ScrPart_shopper	_	_	
+12-17	will	O	O	_	_	
+12-18	get	B-ScrEv_get_groceries	O	_	_	
+12-19	for	O	O	_	_	
+12-20	a	O	O	_	_	
+12-21	typical	O	O	_	_	
+12-22	trip	O	O	_	_	
+12-23	to	O	O	_	_	
+12-24	the	O	O	_	_	
+12-25	grocery	O	B-ScrPart_grocery_shop	_	_	
+12-26	store	O	I-ScrPart_grocery_shop|B-ScrPart_grocery_shop	_	_	
+12-27	.	O	O	_	_	
+

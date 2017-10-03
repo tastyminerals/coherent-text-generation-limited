@@ -1,0 +1,181 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=Yesterday on my way home from work I heard a loud popping noise and nearly lost control of my bicycle .
+1-1	Yesterday	B-NPart	O	
+1-2	on	O	O	
+1-3	my	B-ScrPart_rider	O	
+1-4	way	B-NPart	O	
+1-5	home	B-NPart	O	
+1-6	from	O	O	
+1-7	work	B-NPart	O	
+1-8	I	B-ScrPart_rider	O	
+1-9	heard	O	B-ScrEv_notice_problem	
+1-10	a	O	O	
+1-11	loud	O	O	
+1-12	popping	O	O	
+1-13	noise	B-NPart	O	
+1-14	and	O	O	
+1-15	nearly	O	O	
+1-16	lost	O	B-UnrelEv	
+1-17	control	B-No_label	O	
+1-18	of	O	O	
+1-19	my	B-ScrPart_rider	O	
+1-20	bicycle	B-ScrPart_bicycle	O	
+1-21	.	O	O	
+
+#id=2
+#text=After coming to a stop I noticed that my tire was flat .
+2-1	After	O	O	
+2-2	coming	O	B-UnrelEv	
+2-3	to	O	O	
+2-4	a	O	O	
+2-5	stop	B-No_label	O	
+2-6	I	B-ScrPart_rider	O	
+2-7	noticed	O	B-ScrEv_notice_problem	
+2-8	that	O	O	
+2-9	my	B-ScrPart_rider	O	
+2-10	tire	B-ScrPart_tire	O	
+2-11	was	O	O	
+2-12	flat	O	O	
+2-13	.	O	O	
+
+#id=3
+#text=I ended up having to walk my bike the rest of the way home as I did not have any tools to repair the tire on the spot .
+3-1	I	B-ScrPart_rider	O	
+3-2	ended	O	B-UnrelEv|B-UnrelEv	
+3-3	up	O	I-UnrelEv	
+3-4	having	O	O	
+3-5	to	O	O	
+3-6	walk	O	B-ScrEv_other	
+3-7	my	B-ScrPart_rider	O	
+3-8	bike	B-ScrPart_bicycle	O	
+3-9	the	O	O	
+3-10	rest	B-NPart	O	
+3-11	of	O	O	
+3-12	the	O	O	
+3-13	way	B-NPart	O	
+3-14	home	B-NPart	O	
+3-15	as	O	O	
+3-16	I	B-ScrPart_rider	O	
+3-17	did	O	O	
+3-18	not	O	O	
+3-19	have	O	B-UnrelEv	
+3-20	any	O	O	
+3-21	tools	B-ScrPart_tool	O	
+3-22	to	O	O	
+3-23	repair	O	B-Evoking	
+3-24	the	O	I-Evoking	
+3-25	tire	B-ScrPart_tire	I-Evoking	
+3-26	on	O	O	
+3-27	the	O	O	
+3-28	spot	B-NPart	O	
+3-29	.	O	O	
+
+#id=4
+#text=Once I returned home I found a can of spray foam that I thought might do the trick if I sprayed it into the tire .
+4-1	Once	O	O	
+4-2	I	B-ScrPart_rider	O	
+4-3	returned	O	B-ScrEv_other	
+4-4	home	B-NPart	O	
+4-5	I	B-ScrPart_rider	O	
+4-6	found	O	B-ScrEv_get_tools	
+4-7	a	O	O	
+4-8	can	B-Head_of_Partitive	O	
+4-9	of	O	O	
+4-10	spray	B-ScrPart_tool	O	
+4-11	foam	I-ScrPart_tool|B-ScrPart_tool	O	
+4-12	that	O	O	
+4-13	I	B-ScrPart_rider	O	
+4-14	thought	O	B-UnrelEv	
+4-15	might	O	O	
+4-16	do	O	B-UnrelEv	
+4-17	the	O	O	
+4-18	trick	B-No_label	O	
+4-19	if	O	O	
+4-20	I	B-ScrPart_rider	O	
+4-21	sprayed	O	B-RelNScrEv	
+4-22	it	B-ScrPart_tool	O	
+4-23	into	O	O	
+4-24	the	O	O	
+4-25	tire	B-ScrPart_tire	O	
+4-26	.	O	O	
+
+#id=5
+#text=I sprayed the foam in and it filled the inside walls of the tire .
+5-1	I	B-ScrPart_rider	O	
+5-2	sprayed	O	B-ScrEv_other	
+5-3	the	O	O	
+5-4	foam	B-ScrPart_tool	O	
+5-5	in	O	O	
+5-6	and	O	O	
+5-7	it	B-ScrPart_tool	O	
+5-8	filled	O	B-RelNScrEv	
+5-9	the	O	O	
+5-10	inside	O	O	
+5-11	walls	B-ScrPart_bicycle_small_detail	O	
+5-12	of	O	O	
+5-13	the	O	O	
+5-14	tire	B-ScrPart_tire	O	
+5-15	.	O	O	
+
+#id=6
+#text=I was happy with my ingenuity , although I knew this was only a temporary fix and I should probably replace the tire .
+6-1	I	B-ScrPart_rider	O	
+6-2	was	O	B-UnrelEv	
+6-3	happy	O	O	
+6-4	with	O	O	
+6-5	my	B-ScrPart_rider	O	
+6-6	ingenuity	B-NPart	O	
+6-7	,	O	O	
+6-8	although	O	O	
+6-9	I	B-ScrPart_rider	O	
+6-10	knew	O	B-UnrelEv	
+6-11	this	O	O	
+6-12	was	O	B-UnrelEv	
+6-13	only	O	O	
+6-14	a	O	O	
+6-15	temporary	O	O	
+6-16	fix	B-ScrPart_other	O	
+6-17	and	O	O	
+6-18	I	B-ScrPart_rider	O	
+6-19	should	O	O	
+6-20	probably	O	O	
+6-21	replace	O	B-RelNScrEv	
+6-22	the	O	O	
+6-23	tire	B-ScrPart_tire	O	
+6-24	.	O	O	
+
+#id=7
+#text=After the tire was filled I hopped on and rode to my local bike shop where I purchased a replacement tire to put on my bike at a later date . 
+7-1	After	O	O	
+7-2	the	O	O	
+7-3	tire	B-ScrPart_tire	O	
+7-4	was	O	O	
+7-5	filled	O	B-ScrEv_put_patch/seal	
+7-6	I	B-ScrPart_rider	O	
+7-7	hopped	O	B-UnrelEv|B-UnrelEv	
+7-8	on	O	I-UnrelEv	
+7-9	and	O	O	
+7-10	rode	O	B-ScrEv_ride_bike	
+7-11	to	O	O	
+7-12	my	B-ScrPart_rider	O	
+7-13	local	O	O	
+7-14	bike	B-ScrPart_shop	O	
+7-15	shop	I-ScrPart_shop|B-ScrPart_shop	O	
+7-16	where	O	O	
+7-17	I	B-ScrPart_rider	O	
+7-18	purchased	O	B-ScrEv_get_tire	
+7-19	a	O	O	
+7-20	replacement	B-ScrPart_spare_tube	O	
+7-21	tire	I-ScrPart_spare_tube|B-ScrPart_spare_tube	O	
+7-22	to	O	O	
+7-23	put	O	B-ScrEv_put_new_tire	
+7-24	on	O	O	
+7-25	my	B-ScrPart_rider	O	
+7-26	bike	B-ScrPart_bicycle	O	
+7-27	at	O	O	
+7-28	a	O	O	
+7-29	later	O	O	
+7-30	date	B-NPart	O	
+7-31	.	O	O	
+

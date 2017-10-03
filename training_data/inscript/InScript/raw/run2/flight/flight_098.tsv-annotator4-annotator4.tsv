@@ -1,0 +1,310 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events
+#id=1
+#text=I wanted to take a trip to see my friends .
+1-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+1-2	wanted	O	O	B-UnrelEv	
+1-3	to	O	O	O	
+1-4	take	O	O	B-Evoking	
+1-5	a	O	O	I-Evoking	
+1-6	trip	B-webanno.custom.Participants_	B-ScrPart_flight	I-Evoking	
+1-7	to	O	O	O	
+1-8	see	O	O	B-UnrelEv	
+1-9	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+1-10	friends	B-webanno.custom.Participants_	B-NPart	O	
+1-11	.	O	O	O	
+
+#id=2
+#text=Since they lived far away I decided to fly in an airplane to go see them .
+2-1	Since	O	O	O	
+2-2	they	B-webanno.custom.Participants_	B-NPart	O	
+2-3	lived	O	O	B-UnrelEv	
+2-4	far	O	O	O	
+2-5	away	O	O	O	
+2-6	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+2-7	decided	O	O	B-UnrelEv	
+2-8	to	O	O	O	
+2-9	fly	O	O	B-Evoking	
+2-10	in	O	O	I-Evoking	
+2-11	an	O	O	I-Evoking	
+2-12	airplane	B-webanno.custom.Participants_	B-ScrPart_plane	I-Evoking	
+2-13	to	O	O	O	
+2-14	go	O	O	B-UnrelEv	
+2-15	see	O	O	B-UnrelEv	
+2-16	them	B-webanno.custom.Participants_	B-NPart	O	
+2-17	.	O	O	O	
+
+#id=3
+#text=I went to an online website for the airline to book my flight .
+3-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+3-2	went	O	O	B-UnrelEv	
+3-3	to	O	O	O	
+3-4	an	O	O	O	
+3-5	online	O	O	O	
+3-6	website	B-webanno.custom.Participants_	B-ScrPart_other	O	
+3-7	for	O	O	O	
+3-8	the	O	O	O	
+3-9	airline	B-webanno.custom.Participants_	B-ScrPart_other	O	
+3-10	to	O	O	O	
+3-11	book	O	O	B-ScrEv_get_ticket	
+3-12	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+3-13	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	
+3-14	.	O	O	O	
+
+#id=4
+#text=I chose a window seat so I could enjoy the scenery on the flight .
+4-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+4-2	chose	O	O	O	
+4-3	a	O	O	O	
+4-4	window	B-webanno.custom.Participants_	B-ScrPart_seat	O	
+4-5	seat	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_seat|B-ScrPart_seat	O	
+4-6	so	O	O	O	
+4-7	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+4-8	could	O	O	O	
+4-9	enjoy	O	O	B-ScrEv_spend_time_flight	
+4-10	the	O	O	O	
+4-11	scenery	B-webanno.custom.Participants_	B-ScrPart_in-flight_entertainment	O	
+4-12	on	O	O	O	
+4-13	the	O	O	O	
+4-14	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	
+4-15	.	O	O	O	
+
+#id=5
+#text=After booking my flight I packed my suitcase with what I would need for my flight that left tomorrow .
+5-1	After	O	O	O	
+5-2	booking	O	O	B-ScrEv_get_ticket	
+5-3	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+5-4	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	
+5-5	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+5-6	packed	O	O	B-ScrEv_pack_luggage	
+5-7	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+5-8	suitcase	B-webanno.custom.Participants_	B-ScrPart_check_in_luggage	O	
+5-9	with	O	O	O	
+5-10	what	O	O	O	
+5-11	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+5-12	would	O	O	O	
+5-13	need	O	O	B-UnrelEv	
+5-14	for	O	O	O	
+5-15	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+5-16	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	
+5-17	that	O	O	O	
+5-18	left	O	O	B-ScrEv_take_off	
+5-19	tomorrow	O	O	O	
+5-20	.	O	O	O	
+
+#id=6
+#text=The very next day I woke up and got dressed .
+6-1	The	O	O	O	
+6-2	very	O	O	O	
+6-3	next	B-webanno.custom.Participants_	B-ScrPart_time/date	O	
+6-4	day	I-webanno.custom.Participants_	I-ScrPart_time/date	O	
+6-5	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+6-6	woke	O	O	B-UnrelEv	
+6-7	up	O	O	I-UnrelEv	
+6-8	and	O	O	O	
+6-9	got	O	O	B-UnrelEv	
+6-10	dressed	O	O	B-UnrelEv	
+6-11	.	O	O	O	
+
+#id=7
+#text=I wore loose fitting clothes that would be comfortable on the flights .
+7-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+7-2	wore	O	O	B-UnrelEv	
+7-3	loose	O	O	O	
+7-4	fitting	O	O	O	
+7-5	clothes	B-webanno.custom.Participants_	B-NPart	O	
+7-6	that	O	O	O	
+7-7	would	O	O	O	
+7-8	be	O	O	B-UnrelEv	
+7-9	comfortable	O	O	O	
+7-10	on	O	O	O	
+7-11	the	O	O	O	
+7-12	flights	B-webanno.custom.Participants_	B-ScrPart_flight	O	
+7-13	.	O	O	O	
+
+#id=8
+#text=I wore shoes that I could take off easily to get through security and a belt with no metal in it , again so I could get through security easier .
+8-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+8-2	wore	O	O	B-UnrelEv	
+8-3	shoes	B-webanno.custom.Participants_	B-NPart	O	
+8-4	that	O	O	O	
+8-5	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+8-6	could	O	O	O	
+8-7	take	O	O	B-UnrelEv	
+8-8	off	O	O	I-UnrelEv	
+8-9	easily	O	O	O	
+8-10	to	O	O	O	
+8-11	get	O	O	B-ScrEv_go_security_checks	
+8-12	through	O	O	I-ScrEv_go_security_checks	
+8-13	security	B-webanno.custom.Participants_	B-ScrPart_security_check	O	
+8-14	and	O	O	O	
+8-15	a	O	O	O	
+8-16	belt	B-webanno.custom.Participants_	B-NPart	O	
+8-17	with	O	O	O	
+8-18	no	O	O	O	
+8-19	metal	B-webanno.custom.Participants_	B-NPart	O	
+8-20	in	O	O	O	
+8-21	it	B-webanno.custom.Participants_	B-NPart	O	
+8-22	,	O	O	O	
+8-23	again	O	O	O	
+8-24	so	O	O	O	
+8-25	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+8-26	could	O	O	O	
+8-27	get	O	O	B-ScrEv_go_security_checks	
+8-28	through	O	O	I-ScrEv_go_security_checks	
+8-29	security	B-webanno.custom.Participants_	B-ScrPart_security_check	O	
+8-30	easier	O	O	O	
+8-31	.	O	O	O	
+
+#id=9
+#text=I went to the airport with my suitcase and went to the ticket counter .
+9-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+9-2	went	O	O	B-ScrEv_get_airport	
+9-3	to	O	O	I-ScrEv_get_airport	
+9-4	the	O	O	O	
+9-5	airport	B-webanno.custom.Participants_	B-ScrPart_airport	O	
+9-6	with	O	O	O	
+9-7	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+9-8	suitcase	B-webanno.custom.Participants_	B-ScrPart_check_in_luggage	O	
+9-9	and	O	O	O	
+9-10	went	O	O	B-ScrEv_go_check_in	
+9-11	to	O	O	O	
+9-12	the	O	O	O	
+9-13	ticket	B-webanno.custom.Participants_	B-ScrPart_check_in_desk	O	
+9-14	counter	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_check_in_desk|B-ScrPart_check_in_desk	O	
+9-15	.	O	O	O	
+
+#id=10
+#text=I gave them my ID card and they printed my ticket for me .
+10-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+10-2	gave	O	O	B-ScrEv_present_ID/ticket	
+10-3	them	B-webanno.custom.Participants_	B-ScrPart_staff	O	
+10-4	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+10-5	ID	B-webanno.custom.Participants_	B-ScrPart_passport/ID	O	
+10-6	card	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_passport/ID|B-ScrPart_passport/ID	O	
+10-7	and	O	O	O	
+10-8	they	B-webanno.custom.Participants_	B-ScrPart_staff	O	
+10-9	printed	O	O	B-ScrEv_get_ticket	
+10-10	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+10-11	ticket	B-webanno.custom.Participants_	B-ScrPart_ticket	O	
+10-12	for	O	O	O	
+10-13	me	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+10-14	.	O	O	O	
+
+#id=11
+#text=I gave them my suitcase and they tagged it for me and gave me a baggage claim ticket .
+11-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+11-2	gave	O	O	B-ScrEv_check_luggage	
+11-3	them	B-webanno.custom.Participants_	B-ScrPart_staff	O	
+11-4	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+11-5	suitcase	B-webanno.custom.Participants_	B-ScrPart_check_in_luggage	O	
+11-6	and	O	O	O	
+11-7	they	B-webanno.custom.Participants_	B-ScrPart_staff	O	
+11-8	tagged	O	O	B-ScrEv_check_luggage	
+11-9	it	B-webanno.custom.Participants_	B-ScrPart_check_in_luggage	O	
+11-10	for	O	O	O	
+11-11	me	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+11-12	and	O	O	O	
+11-13	gave	O	O	B-ScrEv_check_luggage	
+11-14	me	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+11-15	a	O	O	O	
+11-16	baggage	B-webanno.custom.Participants_	B-ScrPart_ticket	O	
+11-17	claim	I-webanno.custom.Participants_	I-ScrPart_ticket	O	
+11-18	ticket	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_ticket|B-ScrPart_ticket	O	
+11-19	.	O	O	O	
+
+#id=12
+#text=I then went through security .
+12-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+12-2	then	O	O	O	
+12-3	went	O	O	B-ScrEv_go_security_checks	
+12-4	through	O	O	I-ScrEv_go_security_checks	
+12-5	security	B-webanno.custom.Participants_	B-ScrPart_security_check	O	
+12-6	.	O	O	O	
+
+#id=13
+#text=After making it through secutity I went to my gate and waited until I was told it was time to board the plane .
+13-1	After	O	O	O	
+13-2	making	O	O	B-ScrEv_go_security_checks	
+13-3	it	B-webanno.custom.Participants_	B-No_label	O	
+13-4	through	O	O	O	
+13-5	secutity	B-webanno.custom.Participants_	B-ScrPart_security_check	O	
+13-6	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+13-7	went	O	O	B-ScrEv_find_terminal	
+13-8	to	O	O	O	
+13-9	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+13-10	gate	B-webanno.custom.Participants_	B-ScrPart_terminal/gate	O	
+13-11	and	O	O	O	
+13-12	waited	O	O	B-ScrEv_wait_boarding	
+13-13	until	O	O	O	
+13-14	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+13-15	was	O	O	O	
+13-16	told	O	O	B-ScrEv_listen_call	
+13-17	it	B-webanno.custom.Participants_	B-No_label	O	
+13-18	was	O	O	B-UnrelEv	
+13-19	time	B-webanno.custom.Participants_	B-No_label	O	
+13-20	to	O	O	O	
+13-21	board	O	O	B-ScrEv_board_plane	
+13-22	the	O	O	O	
+13-23	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	
+13-24	.	O	O	O	
+
+#id=14
+#text=I got on the plane in my window seat .
+14-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+14-2	got	O	O	B-ScrEv_board_plane	
+14-3	on	O	O	I-ScrEv_board_plane	
+14-4	the	O	O	O	
+14-5	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	
+14-6	in	O	O	O	
+14-7	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+14-8	window	B-webanno.custom.Participants_	B-ScrPart_seat	O	
+14-9	seat	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_seat|B-ScrPart_seat	O	
+14-10	.	O	O	O	
+
+#id=15
+#text=I listed to the stewardess as she showed me how to buckle my seatbelt and the planes safety features .
+15-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+15-2	listed	O	O	B-ScrEv_listen_crew	
+15-3	to	O	O	I-ScrEv_listen_crew	
+15-4	the	O	O	O	
+15-5	stewardess	B-webanno.custom.Participants_	B-ScrPart_staff	O	
+15-6	as	O	O	O	
+15-7	she	B-webanno.custom.Participants_	B-ScrPart_staff	O	
+15-8	showed	O	O	B-ScrEv_listen_crew	
+15-9	me	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+15-10	how	O	O	O	
+15-11	to	O	O	O	
+15-12	buckle	O	O	B-ScrEv_buckle_seat_belt	
+15-13	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+15-14	seatbelt	B-webanno.custom.Participants_	B-ScrPart_seat_belt	O	
+15-15	and	O	O	O	
+15-16	the	O	O	O	
+15-17	planes	B-webanno.custom.Participants_	B-ScrPart_plane	O	
+15-18	safety	B-webanno.custom.Participants_	B-ScrPart_safety_instructions	O	
+15-19	features	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_safety_instructions|B-ScrPart_safety_instructions	O	
+15-20	.	O	O	O	
+
+#id=16
+#text=Before I kew it we took off , and I was flying in a plane and enjoying the scenery below . 
+16-1	Before	O	O	O	
+16-2	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+16-3	kew	O	O	B-UnrelEv	
+16-4	it	B-webanno.custom.Participants_	B-No_label	O	
+16-5	we	B-webanno.custom.Participants_	B-ScrPart_plane	O	
+16-6	took	O	O	B-ScrEv_take_off	
+16-7	off	O	O	I-ScrEv_take_off	
+16-8	,	O	O	O	
+16-9	and	O	O	O	
+16-10	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+16-11	was	O	O	O	
+16-12	flying	O	O	B-Evoking	
+16-13	in	O	O	I-Evoking	
+16-14	a	O	O	I-Evoking	
+16-15	plane	B-webanno.custom.Participants_	B-ScrPart_plane	I-Evoking	
+16-16	and	O	O	O	
+16-17	enjoying	O	O	B-ScrEv_spend_time_flight	
+16-18	the	O	O	O	
+16-19	scenery	B-webanno.custom.Participants_	B-ScrPart_in-flight_entertainment	O	
+16-20	below	O	O	O	
+16-21	.	O	O	O	
+

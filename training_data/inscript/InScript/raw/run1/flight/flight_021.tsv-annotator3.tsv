@@ -1,0 +1,221 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=My cousin wanted me to visit him in Florida over the summer and I needed to make a plan and book a flight to get there .
+1-1	My	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+1-2	cousin	O	O	O	_	_	
+1-3	wanted	O	O	B-UnrelEv	_	_	
+1-4	me	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-1	
+1-5	to	O	O	O	_	_	
+1-6	visit	O	O	B-UnrelEv	_	_	
+1-7	him	O	O	O	_	_	
+1-8	in	O	O	O	_	_	
+1-9	Florida	B-webanno.custom.Participants_	B-ScrPart_target_location	O	_	_	
+1-10	over	O	O	O	_	_	
+1-11	the	O	O	O	_	_	
+1-12	summer	O	O	O	_	_	
+1-13	and	O	O	O	_	_	
+1-14	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-4	
+1-15	needed	O	O	O	_	_	
+1-16	to	O	O	O	_	_	
+1-17	make	O	O	B-UnrelEv	_	_	
+1-18	a	O	O	O	_	_	
+1-19	plan	O	O	O	_	_	
+1-20	and	O	O	O	_	_	
+1-21	book	O	O	B-Evoking	_	_	
+1-22	a	O	O	I-Evoking	_	_	
+1-23	flight	B-webanno.custom.Participants_	B-ScrPart_flight	I-Evoking	_	_	
+1-24	to	O	O	O	_	_	
+1-25	get	O	O	B-RelNScrEv	_	_	
+1-26	there	B-webanno.custom.Participants_	B-ScrPart_target_location	O	webanno.custom.Corefchains_	1-9	
+1-27	.	O	O	O	_	_	
+
+#id=2
+#text=After searching on the internet for a great price , I found one and booked it .
+2-1	After	O	O	O	_	_	
+2-2	searching	O	O	B-RelNScrEv	_	_	
+2-3	on	O	O	O	_	_	
+2-4	the	O	O	O	_	_	
+2-5	internet	B-webanno.custom.Participants_	B-NPart	O	_	_	
+2-6	for	O	O	O	_	_	
+2-7	a	O	O	O	_	_	
+2-8	great	O	O	O	_	_	
+2-9	price	B-webanno.custom.Participants_	B-MissScrPart	O	_	_	
+2-10	,	O	O	O	_	_	
+2-11	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-14	
+2-12	found	O	O	B-UnrelEv	_	_	
+2-13	one	B-webanno.custom.Participants_	B-ScrPart_flight	O	_	_	
+2-14	and	O	O	O	_	_	
+2-15	booked	O	O	B-ScrEv_get_ticket	_	_	
+2-16	it	B-webanno.custom.Participants_	B-ScrPart_flight	O	webanno.custom.Corefchains_	2-13	
+2-17	.	O	O	O	_	_	
+
+#id=3
+#text=The day of the flight I was a bit nervous as it had been a long time since I had flown on an airplane .
+3-1	The	O	O	O	_	_	
+3-2	day	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+3-3	of	O	O	O	_	_	
+3-4	the	O	O	O	_	_	
+3-5	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	webanno.custom.Corefchains_	2-16	
+3-6	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-11	
+3-7	was	O	O	B-UnrelEv	_	_	
+3-8	a	O	O	O	_	_	
+3-9	bit	B-webanno.custom.Participants_	B-NPart	O	_	_	
+3-10	nervous	O	O	O	_	_	
+3-11	as	O	O	O	_	_	
+3-12	it	O	O	O	_	_	
+3-13	had	O	O	O	_	_	
+3-14	been	O	O	B-UnrelEv	_	_	
+3-15	a	O	O	O	_	_	
+3-16	long	O	O	O	_	_	
+3-17	time	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+3-18	since	O	O	O	_	_	
+3-19	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-6	
+3-20	had	O	O	O	_	_	
+3-21	flown	O	O	B-Evoking	_	_	
+3-22	on	O	O	I-Evoking	_	_	
+3-23	an	O	O	I-Evoking	_	_	
+3-24	airplane	B-webanno.custom.Participants_	B-ScrPart_plane	I-Evoking	_	_	
+3-25	.	O	O	O	_	_	
+
+#id=4
+#text=I boarded along with the other passengers and realized that I had a great window seat in a good location so I was n't crowded in .
+4-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-19	
+4-2	boarded	O	O	B-ScrEv_board_plane	_	_	
+4-3	along	O	O	O	_	_	
+4-4	with	O	O	O	_	_	
+4-5	the	O	O	O	_	_	
+4-6	other	O	O	O	_	_	
+4-7	passengers	B-webanno.custom.Participants_	B-ScrPart_passenger	O	group_I_passengers	4-1	
+4-8	and	O	O	O	_	_	
+4-9	realized	O	O	B-UnrelEv	_	_	
+4-10	that	O	O	O	_	_	
+4-11	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-1	
+4-12	had	O	O	B-ScrEv_take_seat	_	_	
+4-13	a	O	O	O	_	_	
+4-14	great	O	O	O	_	_	
+4-15	window	B-webanno.custom.Participants_	B-ScrPart_seat	O	_	_	
+4-16	seat	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_seat|B-ScrPart_seat	O	_	_	
+4-17	in	O	O	O	_	_	
+4-18	a	O	O	O	_	_	
+4-19	good	O	O	O	_	_	
+4-20	location	B-webanno.custom.Participants_	B-NPart	O	_	_	
+4-21	so	O	O	O	_	_	
+4-22	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-11	
+4-23	was	O	O	O	_	_	
+4-24	n't	O	O	O	_	_	
+4-25	crowded	O	O	B-RelNScrEv	_	_	
+4-26	in	O	O	O	_	_	
+4-27	.	O	O	O	_	_	
+
+#id=5
+#text=After a very smooth take off , the flight attendants brought me something to drink and a snack .
+5-1	After	O	O	O	_	_	
+5-2	a	O	O	O	_	_	
+5-3	very	O	O	O	_	_	
+5-4	smooth	O	O	O	_	_	
+5-5	take	O	O	B-ScrEv_take_off|B-ScrEv_take_off	_	_	
+5-6	off	O	O	I-ScrEv_take_off	_	_	
+5-7	,	O	O	O	_	_	
+5-8	the	O	O	O	_	_	
+5-9	flight	B-webanno.custom.Participants_	B-ScrPart_staff	O	_	_	
+5-10	attendants	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_staff|B-ScrPart_staff	O	_	_	
+5-11	brought	O	O	B-MissScrEv	_	_	
+5-12	me	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-22	
+5-13	something	B-webanno.custom.Participants_	B-NPart	O	_	_	
+5-14	to	O	O	O	_	_	
+5-15	drink	O	O	B-ScrEv_spend_time_flight	_	_	
+5-16	and	O	O	O	_	_	
+5-17	a	O	O	O	_	_	
+5-18	snack	B-webanno.custom.Participants_	B-MissScrPart	O	_	_	
+5-19	.	O	O	O	_	_	
+
+#id=6
+#text=It was a very smooth flight and about 6 hours later , I ended up at my destination .
+6-1	It	O	O	O	_	_	
+6-2	was	O	O	B-UnrelEv	_	_	
+6-3	a	O	O	O	_	_	
+6-4	very	O	O	O	_	_	
+6-5	smooth	O	O	O	_	_	
+6-6	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	_	_	
+6-7	and	O	O	O	_	_	
+6-8	about	O	O	O	_	_	
+6-9	6	O	O	O	_	_	
+6-10	hours	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+6-11	later	O	O	O	_	_	
+6-12	,	O	O	O	_	_	
+6-13	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-12	
+6-14	ended	O	O	B-RelNScrEv|B-RelNScrEv	_	_	
+6-15	up	O	O	I-RelNScrEv	_	_	
+6-16	at	O	O	O	_	_	
+6-17	my	O	O	O	_	_	
+6-18	destination	B-webanno.custom.Participants_	B-ScrPart_target_location	O	webanno.custom.Corefchains_	1-26	
+6-19	.	O	O	O	_	_	
+
+#id=7
+#text=It all went very nicely and I was happy to be back on the ground .
+7-1	It	O	O	O	_	_	
+7-2	all	O	O	O	_	_	
+7-3	went	O	O	B-RelNScrEv	_	_	
+7-4	very	O	O	O	_	_	
+7-5	nicely	O	O	O	_	_	
+7-6	and	O	O	O	_	_	
+7-7	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-13	
+7-8	was	O	O	B-UnrelEv	_	_	
+7-9	happy	O	O	O	_	_	
+7-10	to	O	O	O	_	_	
+7-11	be	O	O	B-RelNScrEv	_	_	
+7-12	back	O	O	O	_	_	
+7-13	on	O	O	O	_	_	
+7-14	the	O	O	O	_	_	
+7-15	ground	B-webanno.custom.Participants_	B-ScrPart_location_airplane	O	_	_	
+7-16	.	O	O	O	_	_	
+
+#id=8
+#text=After we parked at our terminal , we all orderly departed the airplane .
+8-1	After	O	O	O	_	_	
+8-2	we	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	3-24	
+8-3	parked	O	O	B-MissScrEv	_	_	
+8-4	at	O	O	O	_	_	
+8-5	our	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	8-2	
+8-6	terminal	O	O	O	_	_	
+8-7	,	O	O	O	_	_	
+8-8	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	group_I_passengers	4-7	
+8-9	all	O	O	O	_	_	
+8-10	orderly	O	O	O	_	_	
+8-11	departed	O	O	B-ScrEv_exit_plane	_	_	
+8-12	the	O	O	O	_	_	
+8-13	airplane	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	8-5	
+8-14	.	O	O	O	_	_	
+
+#id=9
+#text=After walking down the tunnel leading into the airport , I saw my family members waiting for me .
+9-1	After	O	O	O	_	_	
+9-2	walking	O	O	B-ScrEv_get_destination_airport|B-ScrEv_get_destination_airport	_	_	
+9-3	down	O	O	I-ScrEv_get_destination_airport	_	_	
+9-4	the	O	O	O	_	_	
+9-5	tunnel	O	O	O	_	_	
+9-6	leading	O	O	B-UnrelEv	_	_	
+9-7	into	O	O	O	_	_	
+9-8	the	O	O	O	_	_	
+9-9	airport	B-webanno.custom.Participants_	B-ScrPart_airport	O	_	_	
+9-10	,	O	O	O	_	_	
+9-11	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-7	
+9-12	saw	O	O	B-ScrEv_meet_people	_	_	
+9-13	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-11	
+9-14	family	B-webanno.custom.Participants_	B-ScrPart_accomp_person	O	_	_	
+9-15	members	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_accomp_person|B-ScrPart_accomp_person	O	_	_	
+9-16	waiting	O	O	B-RelNScrEv	_	_	
+9-17	for	O	O	O	_	_	
+9-18	me	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-13	
+9-19	.	O	O	O	_	_	
+
+#id=10
+#text=It was a very pleasurable experience . 
+10-1	It	O	O	O	_	_	
+10-2	was	O	O	B-UnrelEv	_	_	
+10-3	a	O	O	O	_	_	
+10-4	very	O	O	O	_	_	
+10-5	pleasurable	O	O	O	_	_	
+10-6	experience	O	O	O	_	_	
+10-7	.	O	O	O	_	_	
+

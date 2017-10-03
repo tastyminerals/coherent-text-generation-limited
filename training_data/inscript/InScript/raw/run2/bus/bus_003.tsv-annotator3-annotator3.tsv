@@ -1,0 +1,264 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Event | Events
+#id=1
+#text=Last Saturday , I decided to visit a friend in the hospital .
+1-1	Last	O	O	O	
+1-2	Saturday	B-NPart	O	O	
+1-3	,	O	O	O	
+1-4	I	B-ScrPart_passenger	O	O	
+1-5	decided	O	B-webanno.custom.Events_	B-UnrelEv	
+1-6	to	O	O	O	
+1-7	visit	O	B-webanno.custom.Events_	B-UnrelEv	
+1-8	a	O	O	O	
+1-9	friend	B-NPart	O	O	
+1-10	in	O	O	O	
+1-11	the	O	O	O	
+1-12	hospital	B-ScrPart_destination	O	O	
+1-13	.	O	O	O	
+
+#id=2
+#text=I own a car , but it 's been acting up lately , so I needed to take the bus .
+2-1	I	B-ScrPart_passenger	O	O	
+2-2	own	O	B-webanno.custom.Events_	B-UnrelEv	
+2-3	a	O	O	O	
+2-4	car	B-NPart	O	O	
+2-5	,	O	O	O	
+2-6	but	O	O	O	
+2-7	it	B-No_label	O	O	
+2-8	's	O	O	O	
+2-9	been	O	O	O	
+2-10	acting	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-UnrelEv|B-UnrelEv	
+2-11	up	O	I-webanno.custom.Events_	I-UnrelEv	
+2-12	lately	O	O	O	
+2-13	,	O	O	O	
+2-14	so	O	O	O	
+2-15	I	B-ScrPart_passenger	O	O	
+2-16	needed	O	O	O	
+2-17	to	O	O	O	
+2-18	take	O	B-webanno.custom.Events_	B-Evoking	
+2-19	the	O	I-webanno.custom.Events_	I-Evoking	
+2-20	bus	B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	
+2-21	.	O	O	O	
+
+#id=3
+#text=I set out from my apartment with a spring in my step , because it was an amazing day .
+3-1	I	B-ScrPart_passenger	O	O	
+3-2	set	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-UnrelEv|B-UnrelEv	
+3-3	out	O	I-webanno.custom.Events_	I-UnrelEv	
+3-4	from	O	O	O	
+3-5	my	B-ScrPart_passenger	O	O	
+3-6	apartment	B-NPart	O	O	
+3-7	with	O	O	O	
+3-8	a	O	O	O	
+3-9	spring	B-NPart	O	O	
+3-10	in	O	O	O	
+3-11	my	B-ScrPart_passenger	O	O	
+3-12	step	B-NPart	O	O	
+3-13	,	O	O	O	
+3-14	because	O	O	O	
+3-15	it	B-No_label	O	O	
+3-16	was	O	B-webanno.custom.Events_	B-UnrelEv	
+3-17	an	O	O	O	
+3-18	amazing	O	O	O	
+3-19	day	B-NPart	O	O	
+3-20	.	O	O	O	
+
+#id=4
+#text=I walked through my apartment complex 's parking lot to reach the bus stop , where I waited for the bus around 5 minutes .
+4-1	I	B-ScrPart_passenger	O	O	
+4-2	walked	O	B-webanno.custom.Events_	B-UnrelEv	
+4-3	through	O	O	O	
+4-4	my	B-ScrPart_passenger	O	O	
+4-5	apartment	B-NPart	O	O	
+4-6	complex	I-NPart|B-NPart	O	O	
+4-7	's	O	O	O	
+4-8	parking	B-NPart	O	O	
+4-9	lot	I-NPart|B-NPart	O	O	
+4-10	to	O	O	O	
+4-11	reach	O	B-webanno.custom.Events_	B-ScrEv_get_bus_stop	
+4-12	the	O	O	O	
+4-13	bus	B-ScrPart_bus_stop	O	O	
+4-14	stop	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	O	
+4-15	,	O	O	O	
+4-16	where	O	O	O	
+4-17	I	B-ScrPart_passenger	O	O	
+4-18	waited	O	B-webanno.custom.Events_	B-ScrEv_wait	
+4-19	for	O	O	O	
+4-20	the	O	O	O	
+4-21	bus	B-ScrPart_bus	O	O	
+4-22	around	O	O	O	
+4-23	5	O	O	O	
+4-24	minutes	B-ScrPart_time/date	O	O	
+4-25	.	O	O	O	
+
+#id=5
+#text=When it came to a stop in front of me , I boarded and put a $ 1 bill and 2 quarters in the fare machine .
+5-1	When	O	O	O	
+5-2	it	B-ScrPart_bus	O	O	
+5-3	came	O	B-webanno.custom.Events_	B-ScrEv_bus_comes	
+5-4	to	O	O	O	
+5-5	a	O	O	O	
+5-6	stop	B-NPart	O	O	
+5-7	in	O	O	O	
+5-8	front	B-NPart	O	O	
+5-9	of	O	O	O	
+5-10	me	B-ScrPart_passenger	O	O	
+5-11	,	O	O	O	
+5-12	I	B-ScrPart_passenger	O	O	
+5-13	boarded	O	B-webanno.custom.Events_	B-ScrEv_board_bus	
+5-14	and	O	O	O	
+5-15	put	O	B-webanno.custom.Events_	B-ScrEv_get_ticket	
+5-16	a	O	O	O	
+5-17	$	O	O	O	
+5-18	1	O	O	O	
+5-19	bill	B-ScrPart_money	O	O	
+5-20	and	O	O	O	
+5-21	2	O	O	O	
+5-22	quarters	B-ScrPart_money	O	O	
+5-23	in	O	O	O	
+5-24	the	O	O	O	
+5-25	fare	B-ScrPart_payment_machine	O	O	
+5-26	machine	I-ScrPart_payment_machine|B-ScrPart_payment_machine	O	O	
+5-27	.	O	O	O	
+
+#id=6
+#text=I selected a seat near the entrance , because it has more space and fewer people .
+6-1	I	B-ScrPart_passenger	O	O	
+6-2	selected	O	B-webanno.custom.Events_	B-ScrEv_find_place	
+6-3	a	O	O	O	
+6-4	seat	B-ScrPart_seat_in_bus	O	O	
+6-5	near	O	O	O	
+6-6	the	O	O	O	
+6-7	entrance	B-ScrPart_other	O	O	
+6-8	,	O	O	O	
+6-9	because	O	O	O	
+6-10	it	B-ScrPart_other	O	O	
+6-11	has	O	B-webanno.custom.Events_	B-RelNScrEv	
+6-12	more	O	O	O	
+6-13	space	B-ScrPart_other	O	O	
+6-14	and	O	O	O	
+6-15	fewer	O	O	O	
+6-16	people	B-ScrPart_passenger	O	O	
+6-17	.	O	O	O	
+
+#id=7
+#text=Riding the bus often gives me motion sickness , so I closed my eyes and tried to ignore the swaying motion as it rolled down the street .
+7-1	Riding	O	B-webanno.custom.Events_	B-RelNScrEv	
+7-2	the	O	O	O	
+7-3	bus	B-ScrPart_bus	O	O	
+7-4	often	O	O	O	
+7-5	gives	O	B-webanno.custom.Events_	B-RelNScrEv	
+7-6	me	B-ScrPart_passenger	O	O	
+7-7	motion	B-ScrPart_other	O	O	
+7-8	sickness	I-ScrPart_other|B-ScrPart_other	O	O	
+7-9	,	O	O	O	
+7-10	so	O	O	O	
+7-11	I	B-ScrPart_passenger	O	O	
+7-12	closed	O	B-webanno.custom.Events_	B-UnrelEv	
+7-13	my	B-ScrPart_passenger	O	O	
+7-14	eyes	B-ScrPart_other	O	O	
+7-15	and	O	O	O	
+7-16	tried	O	B-webanno.custom.Events_	B-UnrelEv	
+7-17	to	O	O	O	
+7-18	ignore	O	B-webanno.custom.Events_	B-UnrelEv	
+7-19	the	O	O	O	
+7-20	swaying	O	B-webanno.custom.Events_	B-UnrelEv	
+7-21	motion	B-ScrPart_other	O	O	
+7-22	as	O	O	O	
+7-23	it	B-ScrPart_bus	O	O	
+7-24	rolled	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-RelNScrEv|B-RelNScrEv	
+7-25	down	O	I-webanno.custom.Events_	I-RelNScrEv	
+7-26	the	O	O	O	
+7-27	street	B-ScrPart_route	O	O	
+7-28	.	O	O	O	
+
+#id=8
+#text=Behind me , two college students were eagerly discussing a class project .
+8-1	Behind	O	O	O	
+8-2	me	B-ScrPart_passenger	O	O	
+8-3	,	O	O	O	
+8-4	two	O	O	O	
+8-5	college	B-NPart	O	O	
+8-6	students	I-NPart|B-NPart	O	O	
+8-7	were	O	O	O	
+8-8	eagerly	O	O	O	
+8-9	discussing	O	B-webanno.custom.Events_	B-UnrelEv	
+8-10	a	O	O	O	
+8-11	class	B-NPart	O	O	
+8-12	project	I-NPart|B-NPart	O	O	
+8-13	.	O	O	O	
+
+#id=9
+#text=In the very back , a small child was loudly pretending to be a dinosaur .
+9-1	In	O	O	O	
+9-2	the	O	O	O	
+9-3	very	O	O	O	
+9-4	back	O	O	O	
+9-5	,	O	O	O	
+9-6	a	O	O	O	
+9-7	small	O	O	O	
+9-8	child	B-NPart	O	O	
+9-9	was	O	O	O	
+9-10	loudly	O	O	O	
+9-11	pretending	O	B-webanno.custom.Events_	B-UnrelEv	
+9-12	to	O	O	O	
+9-13	be	O	O	O	
+9-14	a	O	O	O	
+9-15	dinosaur	B-NPart	O	O	
+9-16	.	O	O	O	
+
+#id=10
+#text=I was glad when I finally reached my destination .
+10-1	I	B-ScrPart_passenger	O	O	
+10-2	was	O	B-webanno.custom.Events_	B-UnrelEv	
+10-3	glad	O	O	O	
+10-4	when	O	O	O	
+10-5	I	B-ScrPart_passenger	O	O	
+10-6	finally	O	O	O	
+10-7	reached	O	B-webanno.custom.Events_	B-ScrEv_other	
+10-8	my	B-ScrPart_passenger	O	O	
+10-9	destination	B-ScrPart_destination	O	O	
+10-10	.	O	O	O	
+
+#id=11
+#text=I pulled the cord signaling that I would need the bus to stop next to the hospital , and got up to exit out the bus 's side door .
+11-1	I	B-ScrPart_passenger	O	O	
+11-2	pulled	O	B-webanno.custom.Events_	B-ScrEv_press_stop_button	
+11-3	the	O	O	O	
+11-4	cord	B-ScrPart_stop_button/door_opener	O	O	
+11-5	signaling	O	B-webanno.custom.Events_	B-RelNScrEv	
+11-6	that	O	O	O	
+11-7	I	B-ScrPart_passenger	O	O	
+11-8	would	O	O	O	
+11-9	need	O	O	O	
+11-10	the	O	O	O	
+11-11	bus	B-ScrPart_bus	O	O	
+11-12	to	O	O	O	
+11-13	stop	O	B-webanno.custom.Events_	B-RelNScrEv	
+11-14	next	O	O	O	
+11-15	to	O	O	O	
+11-16	the	O	O	O	
+11-17	hospital	B-ScrPart_destination	O	O	
+11-18	,	O	O	O	
+11-19	and	O	O	O	
+11-20	got	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-ScrEv_other|B-ScrEv_other	
+11-21	up	O	I-webanno.custom.Events_	I-ScrEv_other
+11-22	to	O	O	O	
+11-23	exit	O	B-webanno.custom.Events_	B-ScrEv_get_off	
+11-24	out	O	O	O	
+11-25	the	O	O	O	
+11-26	bus	B-ScrPart_bus	O	O	
+11-27	's	O	O	O	
+11-28	side	B-ScrPart_door	O	O	
+11-29	door	I-ScrPart_door|B-ScrPart_door	O	O	
+11-30	.	O	O	O	
+
+#id=12
+#text=Fresh air never smelled so good ! 
+12-1	Fresh	O	O	O	
+12-2	air	B-NPart	O	O	
+12-3	never	O	O	O	
+12-4	smelled	O	B-webanno.custom.Events_	B-UnrelEv	
+12-5	so	O	O	O	
+12-6	good	O	O	O	
+12-7	!	O	O	O	
+

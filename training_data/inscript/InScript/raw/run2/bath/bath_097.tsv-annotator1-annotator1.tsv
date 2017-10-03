@@ -1,0 +1,213 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant | Participants # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=There 's nothing I love more after a long day at work then to come home to a warm bath .
+1-1	There	O	O	O	_	_	
+1-2	's	B-UnrelEv	O	O	_	_	
+1-3	nothing	O	B-No_label	B-webanno.custom.Participants_	_	_	
+1-4	I	O	B-ScrPart_bather	B-webanno.custom.Participants_	_	_	
+1-5	love	B-UnrelEv	O	O	_	_	
+1-6	more	O	O	O	_	_	
+1-7	after	O	O	O	_	_	
+1-8	a	O	O	O	_	_	
+1-9	long	O	O	O	_	_	
+1-10	day	O	B-NPart	B-webanno.custom.Participants_	_	_	
+1-11	at	O	O	O	_	_	
+1-12	work	O	B-NPart	B-webanno.custom.Participants_	_	_	
+1-13	then	O	O	O	_	_	
+1-14	to	O	O	O	_	_	
+1-15	come	B-Evoking|B-UnrelEv	O	O	_	_	
+1-16	home	I-Evoking	B-NPart	B-webanno.custom.Participants_	_	_	
+1-17	to	I-Evoking	O	O	_	_	
+1-18	a	I-Evoking	O	O	_	_	
+1-19	warm	I-Evoking	O	O	_	_	
+1-20	bath	I-Evoking	B-ScrPart_bath	B-webanno.custom.Participants_	_	_	
+1-21	.	O	O	O	_	_	
+
+#id=2
+#text=Most people think that taking a bath is a simple process .
+2-1	Most	O	O	O	_	_	
+2-2	people	O	B-NPart	B-webanno.custom.Participants_	_	_	
+2-3	think	B-UnrelEv	O	O	_	_	
+2-4	that	O	O	O	_	_	
+2-5	taking	B-Evoking	O	O	_	_	
+2-6	a	I-Evoking	O	O	_	_	
+2-7	bath	I-Evoking	B-ScrPart_bath	B-webanno.custom.Participants_	webanno.custom.Corefchains_	1-20	
+2-8	is	O	O	O	_	_	
+2-9	a	O	O	O	_	_	
+2-10	simple	O	O	O	_	_	
+2-11	process	O	B-NPart	B-webanno.custom.Participants_	_	_	
+2-12	.	O	O	O	_	_	
+
+#id=3
+#text=Oh how they are wrong .
+3-1	Oh	O	O	O	_	_	
+3-2	how	O	O	O	_	_	
+3-3	they	O	B-NPart	B-webanno.custom.Participants_	webanno.custom.Corefchains_	2-2	
+3-4	are	B-UnrelEv	O	O	_	_	
+3-5	wrong	O	O	O	_	_	
+3-6	.	O	O	O	_	_	
+
+#id=4
+#text=Taking a bath is actually a long process involving many steps .
+4-1	Taking	B-Evoking	O	O	_	_	
+4-2	a	I-Evoking	O	O	_	_	
+4-3	bath	I-Evoking	B-ScrPart_bath	B-webanno.custom.Participants_	webanno.custom.Corefchains_	2-7	
+4-4	is	B-UnrelEv	O	O	_	_	
+4-5	actually	O	O	O	_	_	
+4-6	a	O	O	O	_	_	
+4-7	long	O	O	O	_	_	
+4-8	process	O	B-NPart	B-webanno.custom.Participants_	_	_	
+4-9	involving	O	O	O	_	_	
+4-10	many	O	O	O	_	_	
+4-11	steps	O	B-NPart	B-webanno.custom.Participants_	_	_	
+4-12	.	O	O	O	_	_	
+
+#id=5
+#text=First I must start drawing the water which is a challenge in itself as I want to make sure it warm , but not too warm .
+5-1	First	O	B-No_label	B-webanno.custom.Participants_	_	_	
+5-2	I	O	B-ScrPart_bather	B-webanno.custom.Participants_	_	_	
+5-3	must	O	O	O	_	_	
+5-4	start	O	O	O	_	_	
+5-5	drawing	B-ScrEv_turn_water_on	O	O	_	_	
+5-6	the	O	O	O	_	_	
+5-7	water	O	B-ScrPart_water	B-webanno.custom.Participants_	_	_	
+5-8	which	O	O	O	_	_	
+5-9	is	B-UnrelEv	O	O	_	_	
+5-10	a	O	O	O	_	_	
+5-11	challenge	O	B-NPart	B-webanno.custom.Participants_	_	_	
+5-12	in	O	O	O	_	_	
+5-13	itself	O	B-No_label	B-webanno.custom.Participants_	_	_	
+5-14	as	O	O	O	_	_	
+5-15	I	O	B-ScrPart_bather	B-webanno.custom.Participants_	_	_	
+5-16	want	B-UnrelEv	O	O	_	_	
+5-17	to	O	O	O	_	_	
+5-18	make	B-ScrEv_check_temp|B-ScrEv_check_temp	O	O	_	_	
+5-19	sure	I-ScrEv_check_temp	O	O	_	_	
+5-20	it	O	B-ScrPart_water	B-webanno.custom.Participants_	_	_	
+5-21	warm	O	O	O	_	_	
+5-22	,	O	O	O	_	_	
+5-23	but	O	O	O	_	_	
+5-24	not	O	O	O	_	_	
+5-25	too	O	O	O	_	_	
+5-26	warm	O	O	O	_	_	
+5-27	.	O	O	O	_	_	
+
+#id=6
+#text=Next as the water is still running I add a little bit of bubble soap for the added benefits .
+6-1	Next	O	O	O	_	_	
+6-2	as	O	O	O	_	_	
+6-3	the	O	O	O	_	_	
+6-4	water	O	B-ScrPart_water	B-webanno.custom.Participants_	_	_	
+6-5	is	O	O	O	_	_	
+6-6	still	O	O	O	_	_	
+6-7	running	B-ScrEv_fill_water/wait	O	O	_	_	
+6-8	I	O	B-ScrPart_bather	B-webanno.custom.Participants_	_	_	
+6-9	add	B-ScrEv_put_bubble_bath_scent	O	O	_	_	
+6-10	a	O	O	O	_	_	
+6-11	little	O	O	O	_	_	
+6-12	bit	O	B-No_label	B-webanno.custom.Participants_	_	_	
+6-13	of	O	O	O	_	_	
+6-14	bubble	O	B-ScrPart_bath_means	B-webanno.custom.Participants_	_	_	
+6-15	soap	O	I-ScrPart_bath_means|B-ScrPart_bath_means	I-webanno.custom.Participants_|B-webanno.custom.Participants_	_	_	
+6-16	for	O	O	O	_	_	
+6-17	the	O	O	O	_	_	
+6-18	added	B-UnrelEv	O	O	_	_	
+6-19	benefits	O	B-NPart	B-webanno.custom.Participants_	_	_	
+6-20	.	O	O	O	_	_	
+
+#id=7
+#text=But I do n't just want bubbles I want a relaxing aromatherapy .
+7-1	But	O	O	O	_	_	
+7-2	I	O	B-ScrPart_bather	B-webanno.custom.Participants_	_	_	
+7-3	do	O	O	O	_	_	
+7-4	n't	O	O	O	_	_	
+7-5	just	O	O	O	_	_	
+7-6	want	B-UnrelEv	O	O	_	_	
+7-7	bubbles	O	B-ScrPart_bath_means	B-webanno.custom.Participants_	_	_	
+7-8	I	O	B-ScrPart_bather	B-webanno.custom.Participants_	_	_	
+7-9	want	B-UnrelEv	O	O	_	_	
+7-10	a	O	O	O	_	_	
+7-11	relaxing	B-ScrEv_relax	O	O	_	_	
+7-12	aromatherapy	O	B-???	B-webanno.custom.Participants_	_	_	
+7-13	.	O	O	O	_	_	
+
+#id=8
+#text=With this in mind I add a little bit of essential oils and minerals .
+8-1	With	O	O	O	_	_	
+8-2	this	O	O	O	_	_	
+8-3	in	O	O	O	_	_	
+8-4	mind	O	B-No_label	B-webanno.custom.Participants_	_	_	
+8-5	I	O	B-ScrPart_bather	B-webanno.custom.Participants_	_	_	
+8-6	add	B-ScrEv_put_bubble_bath_scent	O	O	_	_	
+8-7	a	O	O	O	_	_	
+8-8	little	O	O	O	_	_	
+8-9	bit	O	B-No_label	B-webanno.custom.Participants_	_	_	
+8-10	of	O	O	O	_	_	
+8-11	essential	O	O	O	_	_	
+8-12	oils	O	B-ScrPart_bath_means	B-webanno.custom.Participants_	_	_	
+8-13	and	O	O	O	_	_	
+8-14	minerals	O	B-ScrPart_bath_means	B-webanno.custom.Participants_	_	_	
+8-15	.	O	O	O	_	_	
+
+#id=9
+#text=Finally I am ready to get into the water .
+9-1	Finally	O	O	O	_	_	
+9-2	I	O	B-ScrPart_bather	B-webanno.custom.Participants_	_	_	
+9-3	am	B-UnrelEv	O	O	_	_	
+9-4	ready	O	O	O	_	_	
+9-5	to	O	O	O	_	_	
+9-6	get	B-ScrEv_sink_water	O	O	_	_	
+9-7	into	O	O	O	_	_	
+9-8	the	O	O	O	_	_	
+9-9	water	O	B-ScrPart_water	B-webanno.custom.Participants_	_	_	
+9-10	.	O	O	O	_	_	
+
+#id=10
+#text=But this is nowhere near the end of the process .
+10-1	But	O	O	O	_	_	
+10-2	this	O	O	O	_	_	
+10-3	is	B-UnrelEv	O	O	_	_	
+10-4	nowhere	O	O	O	_	_	
+10-5	near	O	O	O	_	_	
+10-6	the	O	O	O	_	_	
+10-7	end	O	B-Head_of_Partitive	B-webanno.custom.Participants_	_	_	
+10-8	of	O	O	O	_	_	
+10-9	the	O	O	O	_	_	
+10-10	process	O	B-NPart	B-webanno.custom.Participants_	webanno.custom.Corefchains_	4-3	
+10-11	.	O	O	O	_	_	
+
+#id=11
+#text=Now I relax in the water while reading my novel and letting the oils soak into my skin .
+11-1	Now	O	O	O	_	_	
+11-2	I	O	B-ScrPart_bather	B-webanno.custom.Participants_	_	_	
+11-3	relax	B-ScrEv_relax	O	O	_	_	
+11-4	in	O	O	O	_	_	
+11-5	the	O	O	O	_	_	
+11-6	water	O	B-ScrPart_water	B-webanno.custom.Participants_	_	_	
+11-7	while	O	O	O	_	_	
+11-8	reading	B-RelNScrEv	O	O	_	_	
+11-9	my	O	B-ScrPart_bather	B-webanno.custom.Participants_	_	_	
+11-10	novel	O	B-ScrPart_in-bath_entertainment	B-webanno.custom.Participants_	_	_	
+11-11	and	O	O	O	_	_	
+11-12	letting	O	O	O	_	_	
+11-13	the	O	O	O	_	_	
+11-14	oils	O	B-ScrPart_bath_means	B-webanno.custom.Participants_	_	_	
+11-15	soak	B-RelNScrEv	O	O	_	_	
+11-16	into	O	O	O	_	_	
+11-17	my	O	B-ScrPart_bather	B-webanno.custom.Participants_	_	_	
+11-18	skin	O	B-ScrPart_body_part	B-webanno.custom.Participants_	_	_	
+11-19	.	O	O	O	_	_	
+
+#id=12
+#text=Ah this is how we are meant to relax . 
+12-1	Ah	O	B-No_label	B-webanno.custom.Participants_	_	_	
+12-2	this	O	O	O	_	_	
+12-3	is	O	O	O	_	_	
+12-4	how	O	O	O	_	_	
+12-5	we	O	B-NPart	B-webanno.custom.Participants_	_	_	
+12-6	are	O	O	O	_	_	
+12-7	meant	B-UnrelEv	O	O	_	_	
+12-8	to	O	O	O	_	_	
+12-9	relax	B-ScrEv_relax	O	O	_	_	
+12-10	.	O	O	O	_	_	
+

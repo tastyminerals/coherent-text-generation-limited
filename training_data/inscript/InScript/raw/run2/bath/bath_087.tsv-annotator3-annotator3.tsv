@@ -1,0 +1,226 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=The first time I took a bath , I enjoyed it so much that I did not want to stop .
+1-1	The	O	O	O	_	_	
+1-2	first	O	O	O	_	_	
+1-3	time	B-NPart	B-webanno.custom.Participants_	O	_	_	
+1-4	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+1-5	took	O	O	B-Evoking	_	_	
+1-6	a	O	O	I-Evoking	_	_	
+1-7	bath	B-ScrPart_bath	B-webanno.custom.Participants_	I-Evoking	_	_	
+1-8	,	O	O	O	_	_	
+1-9	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+1-10	enjoyed	O	O	B-UnrelEv	_	_	
+1-11	it	B-ScrPart_bath	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	1-7	
+1-12	so	O	O	O	_	_	
+1-13	much	O	O	O	_	_	
+1-14	that	O	O	O	_	_	
+1-15	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+1-16	did	O	O	O	_	_	
+1-17	not	O	O	O	_	_	
+1-18	want	O	O	B-UnrelEv	_	_	
+1-19	to	O	O	O	_	_	
+1-20	stop	O	O	B-UnrelEv	_	_	
+1-21	.	O	O	O	_	_	
+
+#id=2
+#text=It felt like I was sitting in a pool of warm water .
+2-1	It	B-No_label	B-webanno.custom.Participants_	O	_	_	
+2-2	felt	O	O	B-UnrelEv	_	_	
+2-3	like	O	O	O	_	_	
+2-4	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+2-5	was	O	O	O	_	_	
+2-6	sitting	O	O	B-UnrelEv	_	_	
+2-7	in	O	O	O	_	_	
+2-8	a	O	O	O	_	_	
+2-9	pool	B-Head_of_Partitive	B-webanno.custom.Participants_	O	_	_	
+2-10	of	O	O	O	_	_	
+2-11	warm	O	O	O	_	_	
+2-12	water	B-ScrPart_water	B-webanno.custom.Participants_	O	_	_	
+2-13	.	O	O	O	_	_	
+
+#id=3
+#text=I was a young kid so it was a bubble bath and I had some toys to play with .
+3-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+3-2	was	O	O	B-UnrelEv	_	_	
+3-3	a	O	O	O	_	_	
+3-4	young	O	O	O	_	_	
+3-5	kid	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+3-6	so	O	O	O	_	_	
+3-7	it	B-ScrPart_bath	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	1-11	
+3-8	was	O	O	B-UnrelEv	_	_	
+3-9	a	O	O	O	_	_	
+3-10	bubble	B-ScrPart_bath	B-webanno.custom.Participants_	O	_	_	
+3-11	bath	I-ScrPart_bath|B-ScrPart_bath	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	3-7	
+3-12	and	O	O	O	_	_	
+3-13	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+3-14	had	O	O	B-UnrelEv	_	_	
+3-15	some	O	O	O	_	_	
+3-16	toys	B-ScrPart_in-bath_entertainment	B-webanno.custom.Participants_	O	_	_	
+3-17	to	O	O	O	_	_	
+3-18	play	O	O	B-UnrelEv	_	_	
+3-19	with	O	O	O	_	_	
+3-20	.	O	O	O	_	_	
+
+#id=4
+#text=Either my mother or my father would wash my hair for me then they would help me wash the remainder of my body .
+4-1	Either	O	O	O	_	_	
+4-2	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+4-3	mother	B-NPart	B-webanno.custom.Participants_	O	_	_	
+4-4	or	O	O	O	_	_	
+4-5	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+4-6	father	B-NPart	B-webanno.custom.Participants_	O	_	_	
+4-7	would	O	O	O	_	_	
+4-8	wash	O	O	B-ScrEv_wash	_	_	
+4-9	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+4-10	hair	B-ScrPart_hair	B-webanno.custom.Participants_	O	_	_	
+4-11	for	O	O	O	_	_	
+4-12	me	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+4-13	then	O	O	O	_	_	
+4-14	they	B-NPart	B-webanno.custom.Participants_	O	_	_	
+4-15	would	O	O	O	_	_	
+4-16	help	O	O	B-UnrelEv	_	_	
+4-17	me	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+4-18	wash	O	O	B-ScrEv_wash	_	_	
+4-19	the	O	O	O	_	_	
+4-20	remainder	B-NPart	B-webanno.custom.Participants_	O	_	_	
+4-21	of	O	O	O	_	_	
+4-22	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+4-23	body	B-ScrPart_hair	B-webanno.custom.Participants_	O	_	_	
+4-24	.	O	O	O	_	_	
+
+#id=5
+#text=But they just told me not to splash the water and to keep the water in the tub .
+5-1	But	O	O	O	_	_	
+5-2	they	B-NPart	B-webanno.custom.Participants_	O	_	_	
+5-3	just	O	O	O	_	_	
+5-4	told	O	O	B-UnrelEv	_	_	
+5-5	me	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+5-6	not	O	O	O	_	_	
+5-7	to	O	O	O	_	_	
+5-8	splash	O	O	B-RelNScrEv	_	_	
+5-9	the	O	O	O	_	_	
+5-10	water	B-ScrPart_water	B-webanno.custom.Participants_	O	_	_	
+5-11	and	O	O	O	_	_	
+5-12	to	O	O	O	_	_	
+5-13	keep	O	O	B-UnrelEv	_	_	
+5-14	the	O	O	O	_	_	
+5-15	water	B-ScrPart_water	B-webanno.custom.Participants_	O	_	_	
+5-16	in	O	O	O	_	_	
+5-17	the	O	O	O	_	_	
+5-18	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	_	_	
+5-19	.	O	O	O	_	_	
+
+#id=6
+#text=I would play with my toys and get all clean in the bath tub .
+6-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+6-2	would	O	O	O	_	_	
+6-3	play	O	O	B-UnrelEv	_	_	
+6-4	with	O	O	O	_	_	
+6-5	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+6-6	toys	B-ScrPart_in-bath_entertainment	B-webanno.custom.Participants_	O	_	_	
+6-7	and	O	O	O	_	_	
+6-8	get	O	O	B-UnrelEv	_	_	
+6-9	all	O	O	O	_	_	
+6-10	clean	O	O	O	_	_	
+6-11	in	O	O	O	_	_	
+6-12	the	O	O	O	_	_	
+6-13	bath	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	_	_	
+6-14	tub	I-ScrPart_bathtub|B-ScrPart_bathtub	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+6-15	.	O	O	O	_	_	
+
+#id=7
+#text=After a few years I learned how to wash my own hair and I would prefer to take a bath over a shower since it was more fun to sit and relax in the warm water and enjoy a fun evening .
+7-1	After	O	O	O	_	_	
+7-2	a	O	O	O	_	_	
+7-3	few	O	O	O	_	_	
+7-4	years	B-NPart	B-webanno.custom.Participants_	O	_	_	
+7-5	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+7-6	learned	O	O	B-UnrelEv	_	_	
+7-7	how	O	O	O	_	_	
+7-8	to	O	O	O	_	_	
+7-9	wash	O	O	B-ScrEv_wash	_	_	
+7-10	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+7-11	own	O	O	O	_	_	
+7-12	hair	B-ScrPart_hair	B-webanno.custom.Participants_	O	_	_	
+7-13	and	O	O	O	_	_	
+7-14	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+7-15	would	O	O	O	_	_	
+7-16	prefer	O	O	B-UnrelEv	_	_	
+7-17	to	O	O	O	_	_	
+7-18	take	O	O	B-Evoking	_	_	
+7-19	a	O	O	I-Evoking	_	_	
+7-20	bath	B-ScrPart_bath	B-webanno.custom.Participants_	I-Evoking	webanno.custom.Corefchains_	3-11	
+7-21	over	O	O	O	_	_	
+7-22	a	O	O	O	_	_	
+7-23	shower	B-ScrPart_shower	B-webanno.custom.Participants_	O	_	_	
+7-24	since	O	O	O	_	_	
+7-25	it	B-No_label	B-webanno.custom.Participants_	O	_	_	
+7-26	was	O	O	B-UnrelEv	_	_	
+7-27	more	O	O	O	_	_	
+7-28	fun	B-NPart	B-webanno.custom.Participants_	O	_	_	
+7-29	to	O	O	O	_	_	
+7-30	sit	O	O	B-UnrelEv	_	_	
+7-31	and	O	O	O	_	_	
+7-32	relax	O	O	B-ScrEv_relax	_	_	
+7-33	in	O	O	O	_	_	
+7-34	the	O	O	O	_	_	
+7-35	warm	O	O	O	_	_	
+7-36	water	B-ScrPart_water	B-webanno.custom.Participants_	O	_	_	
+7-37	and	O	O	O	_	_	
+7-38	enjoy	O	O	B-UnrelEv	_	_	
+7-39	a	O	O	O	_	_	
+7-40	fun	O	O	O	_	_	
+7-41	evening	B-NPart	B-webanno.custom.Participants_	O	_	_	
+7-42	.	O	O	O	_	_	
+
+#id=8
+#text=From the best of my memory , I remember that I always loved taking a bath .
+8-1	From	O	O	O	_	_	
+8-2	the	O	O	O	_	_	
+8-3	best	O	O	O	_	_	
+8-4	of	O	O	O	_	_	
+8-5	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+8-6	memory	B-NPart	B-webanno.custom.Participants_	O	_	_	
+8-7	,	O	O	O	_	_	
+8-8	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+8-9	remember	O	O	B-UnrelEv	_	_	
+8-10	that	O	O	O	_	_	
+8-11	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+8-12	always	O	O	O	_	_	
+8-13	loved	O	O	B-UnrelEv	_	_	
+8-14	taking	O	O	B-Evoking	_	_	
+8-15	a	O	O	I-Evoking	_	_	
+8-16	bath	B-ScrPart_bath	B-webanno.custom.Participants_	I-Evoking	webanno.custom.Corefchains_	7-20	
+8-17	.	O	O	O	_	_	
+
+#id=9
+#text=Then when I am done in the bath tub , I would get out and wrap up in a huge dry cotton towel and dry off ! 
+9-1	Then	O	O	O	_	_	
+9-2	when	O	O	O	_	_	
+9-3	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+9-4	am	O	O	O	_	_	
+9-5	done	O	O	B-UnrelEv	_	_	
+9-6	in	O	O	O	_	_	
+9-7	the	O	O	O	_	_	
+9-8	bath	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	_	_	
+9-9	tub	I-ScrPart_bathtub|B-ScrPart_bathtub	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+9-10	,	O	O	O	_	_	
+9-11	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+9-12	would	O	O	O	_	_	
+9-13	get	O	O	B-ScrEv_get_out_bath|B-ScrEv_get_out_bath	_	_	
+9-14	out	O	O	I-ScrEv_get_out_bath	_	_	
+9-15	and	O	O	O	_	_	
+9-16	wrap	O	O	B-ScrEv_get_towel|B-ScrEv_get_towel	_	_	
+9-17	up	O	O	I-ScrEv_get_towel	_	_	
+9-18	in	O	O	O	_	_	
+9-19	a	O	O	O	_	_	
+9-20	huge	O	O	O	_	_	
+9-21	dry	O	O	O	_	_	
+9-22	cotton	B-NPart	B-webanno.custom.Participants_	O	_	_	
+9-23	towel	B-ScrPart_towel	B-webanno.custom.Participants_	O	_	_	
+9-24	and	O	O	O	_	_	
+9-25	dry	O	O	B-ScrEv_dry|B-ScrEv_dry	_	_	
+9-26	off	O	O	I-ScrEv_dry	_	_	
+9-27	!	O	O	O	_	_	
+

@@ -1,0 +1,448 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=I go grocery shopping every week to get food and any other items that my husband and I need for the week .
+1-1	I	B-ScrPart_shopper	O	
+1-2	go	O	B-Evoking|B-ScrEv_go_grocery	
+1-3	grocery	B-ScrPart_groceries	I-Evoking	
+1-4	shopping	O	I-Evoking|B-ScrEv_get_groceries	
+1-5	every	O	O	
+1-6	week	B-NPart	O	
+1-7	to	O	O	
+1-8	get	O	B-ScrEv_get_groceries	
+1-9	food	B-ScrPart_groceries	O	
+1-10	and	O	O	
+1-11	any	O	O	
+1-12	other	O	O	
+1-13	items	B-ScrPart_groceries	O	
+1-14	that	O	O	
+1-15	my	B-ScrPart_shopper	O	
+1-16	husband	B-NPart	O	
+1-17	and	O	O	
+1-18	I	B-ScrPart_shopper	O	
+1-19	need	O	B-RelNScrEv	
+1-20	for	O	O	
+1-21	the	O	O	
+1-22	week	B-NPart	O	
+1-23	.	O	O	
+
+#id=2
+#text=I wait to go shopping usually until Thursday or Friday so that I can use the weekly ads to make my list .
+2-1	I	B-ScrPart_shopper	O	
+2-2	wait	O	B-UnrelEv	
+2-3	to	O	O	
+2-4	go	O	B-ScrEv_go_grocery	
+2-5	shopping	O	B-ScrEv_get_groceries	
+2-6	usually	O	O	
+2-7	until	O	O	
+2-8	Thursday	B-NPart	O	
+2-9	or	O	O	
+2-10	Friday	B-NPart	O	
+2-11	so	O	O	
+2-12	that	O	O	
+2-13	I	B-ScrPart_shopper	O	
+2-14	can	O	O	
+2-15	use	O	B-RelNScrEv	
+2-16	the	O	O	
+2-17	weekly	O	O	
+2-18	ads	B-ScrPart_other	O	
+2-19	to	O	O	
+2-20	make	O	B-ScrEv_make_list	
+2-21	my	B-ScrPart_shopper	O	
+2-22	list	B-ScrPart_grocery_list	O	
+2-23	.	O	O	
+
+#id=3
+#text=I shop for items on sale , so I like to be very prepared .
+3-1	I	B-ScrPart_shopper	O	
+3-2	shop	O	B-ScrEv_get_groceries	
+3-3	for	O	O	
+3-4	items	B-ScrPart_groceries	O	
+3-5	on	O	O	
+3-6	sale	B-ScrPart_other	O	
+3-7	,	O	O	
+3-8	so	O	O	
+3-9	I	B-ScrPart_shopper	O	
+3-10	like	O	B-UnrelEv	
+3-11	to	O	O	
+3-12	be	O	O	
+3-13	very	O	O	
+3-14	prepared	O	B-UnrelEv	
+3-15	.	O	O	
+
+#id=4
+#text=I also use the store 's apps on my phone to track what deals they are offering for me this week .
+4-1	I	B-ScrPart_shopper	O	
+4-2	also	O	O	
+4-3	use	O	B-RelNScrEv	
+4-4	the	O	O	
+4-5	store	B-ScrPart_grocery_shop	O	
+4-6	's	O	O	
+4-7	apps	B-???	O	
+4-8	on	O	O	
+4-9	my	B-ScrPart_shopper	O	
+4-10	phone	B-NPart	O	
+4-11	to	O	O	
+4-12	track	O	B-RelNScrEv	
+4-13	what	O	O	
+4-14	deals	B-ScrPart_other	O	
+4-15	they	B-ScrPart_grocery_shop	O	
+4-16	are	O	O	
+4-17	offering	O	B-RelNScrEv	
+4-18	for	O	O	
+4-19	me	B-ScrPart_shopper	O	
+4-20	this	O	O	
+4-21	week	B-NPart	O	
+4-22	.	O	O	
+
+#id=5
+#text=I plan out my list based on the ads and the apps , and write each store 's name above the items I want to buy there .
+5-1	I	B-ScrPart_shopper	O	
+5-2	plan	O	B-ScrEv_make_list|B-ScrEv_make_list	
+5-3	out	O	I-ScrEv_make_list	
+5-4	my	B-ScrPart_shopper	O	
+5-5	list	B-ScrPart_grocery_list	O	
+5-6	based	O	B-UnrelEv	
+5-7	on	O	O	
+5-8	the	O	O	
+5-9	ads	B-ScrPart_other	O	
+5-10	and	O	O	
+5-11	the	O	O	
+5-12	apps	B-???	O	
+5-13	,	O	O	
+5-14	and	O	O	
+5-15	write	O	B-ScrEv_make_list	
+5-16	each	O	O	
+5-17	store	B-ScrPart_grocery_shop	O	
+5-18	's	O	O	
+5-19	name	B-???	O	
+5-20	above	O	O	
+5-21	the	O	O	
+5-22	items	B-ScrPart_groceries	O	
+5-23	I	B-ScrPart_shopper	O	
+5-24	want	O	O	
+5-25	to	O	O	
+5-26	buy	O	B-ScrEv_get_groceries	
+5-27	there	B-ScrPart_grocery_shop	O	
+5-28	.	O	O	
+
+#id=6
+#text=On the day I decide to go , I drive to the first store which is whichever one I am getting less more cold things at .
+6-1	On	O	O	
+6-2	the	O	O	
+6-3	day	B-NPart	O	
+6-4	I	B-ScrPart_shopper	O	
+6-5	decide	O	B-UnrelEv	
+6-6	to	O	O	
+6-7	go	O	B-ScrEv_go_grocery	
+6-8	,	O	O	
+6-9	I	B-ScrPart_shopper	O	
+6-10	drive	O	B-ScrEv_go_grocery	
+6-11	to	O	O	
+6-12	the	O	O	
+6-13	first	O	O	
+6-14	store	B-ScrPart_grocery_shop	O	
+6-15	which	O	O	
+6-16	is	O	B-UnrelEv	
+6-17	whichever	O	O	
+6-18	one	B-ScrPart_grocery_shop	O	
+6-19	I	B-ScrPart_shopper	O	
+6-20	am	O	O	
+6-21	getting	O	B-ScrEv_get_groceries	
+6-22	less	O	O	
+6-23	more	O	O	
+6-24	cold	O	O	
+6-25	things	B-ScrPart_groceries	O	
+6-26	at	O	O	
+6-27	.	O	O	
+
+#id=7
+#text=This way , they will stay colder together than if I buy one cold thing and it 's sitting by itself in the heat of the car while I shop at the next store .
+7-1	This	O	O	
+7-2	way	B-No_label	O	
+7-3	,	O	O	
+7-4	they	B-ScrPart_groceries	O	
+7-5	will	O	O	
+7-6	stay	O	B-RelNScrEv	
+7-7	colder	O	O	
+7-8	together	O	O	
+7-9	than	O	O	
+7-10	if	O	O	
+7-11	I	B-ScrPart_shopper	O	
+7-12	buy	O	B-ScrEv_get_groceries	
+7-13	one	O	O	
+7-14	cold	O	O	
+7-15	thing	B-ScrPart_groceries	O	
+7-16	and	O	O	
+7-17	it	B-ScrPart_groceries	O	
+7-18	's	O	O	
+7-19	sitting	O	B-RelNScrEv	
+7-20	by	O	O	
+7-21	itself	B-ScrPart_groceries	O	
+7-22	in	O	O	
+7-23	the	O	O	
+7-24	heat	B-NPart	O	
+7-25	of	O	O	
+7-26	the	O	O	
+7-27	car	B-ScrPart_vehicle	O	
+7-28	while	O	O	
+7-29	I	B-ScrPart_shopper	O	
+7-30	shop	O	B-ScrEv_get_groceries	
+7-31	at	O	O	
+7-32	the	O	O	
+7-33	next	O	O	
+7-34	store	B-ScrPart_grocery_shop	O	
+7-35	.	O	O	
+
+#id=8
+#text=I park my car as close as I can to the entrance and grab a cart .
+8-1	I	B-ScrPart_shopper	O	
+8-2	park	O	B-RelNScrEv	
+8-3	my	B-ScrPart_shopper	O	
+8-4	car	B-ScrPart_vehicle	O	
+8-5	as	O	O	
+8-6	close	O	O	
+8-7	as	O	O	
+8-8	I	B-ScrPart_shopper	O	
+8-9	can	O	O	
+8-10	to	O	O	
+8-11	the	O	O	
+8-12	entrance	B-ScrPart_section	O	
+8-13	and	O	O	
+8-14	grab	O	B-ScrEv_take_shop_cart	
+8-15	a	O	O	
+8-16	cart	B-ScrPart_shopping_cart/basket	O	
+8-17	.	O	O	
+
+#id=9
+#text=I begin by opening my list and deciding which part of the store I am going to start in , and then work my way to the other end as I get the items that I need .
+9-1	I	B-ScrPart_shopper	O	
+9-2	begin	O	B-UnrelEv	
+9-3	by	O	O	
+9-4	opening	O	B-ScrEv_check_list	
+9-5	my	B-ScrPart_shopper	O	
+9-6	list	B-ScrPart_grocery_list	O	
+9-7	and	O	O	
+9-8	deciding	O	B-UnrelEv	
+9-9	which	O	O	
+9-10	part	B-ScrPart_section	O	
+9-11	of	O	O	
+9-12	the	O	O	
+9-13	store	B-ScrPart_grocery_shop	O	
+9-14	I	B-ScrPart_shopper	O	
+9-15	am	O	O	
+9-16	going	O	O	
+9-17	to	O	O	
+9-18	start	O	B-UnrelEv	
+9-19	in	O	O	
+9-20	,	O	O	
+9-21	and	O	O	
+9-22	then	O	O	
+9-23	work	O	B-ScrEv_move_section	
+9-24	my	B-ScrPart_shopper	O	
+9-25	way	B-No_label	O	
+9-26	to	O	O	
+9-27	the	O	O	
+9-28	other	O	O	
+9-29	end	B-ScrPart_section	O	
+9-30	as	O	O	
+9-31	I	B-ScrPart_shopper	O	
+9-32	get	O	B-ScrEv_get_groceries	
+9-33	the	O	O	
+9-34	items	B-ScrPart_groceries	O	
+9-35	that	O	O	
+9-36	I	B-ScrPart_shopper	O	
+9-37	need	O	B-RelNScrEv	
+9-38	.	O	O	
+
+#id=10
+#text=I try to go quickly so it does n't take much time .
+10-1	I	B-ScrPart_shopper	O	
+10-2	try	O	B-UnrelEv	
+10-3	to	O	O	
+10-4	go	O	B-ScrEv_move_section	
+10-5	quickly	O	O	
+10-6	so	O	O	
+10-7	it	B-No_label	O	
+10-8	does	O	O	
+10-9	n't	O	O	
+10-10	take	O	B-UnrelEv	
+10-11	much	O	O	
+10-12	time	B-SuppVComp	O	
+10-13	.	O	O	
+
+#id=11
+#text=When I 'm ready , I go to the front of the store and get into a line with a number that is lit up .
+11-1	When	O	O	
+11-2	I	B-ScrPart_shopper	O	
+11-3	'm	O	O	
+11-4	ready	O	O	
+11-5	,	O	O	
+11-6	I	B-ScrPart_shopper	O	
+11-7	go	O	B-ScrEv_move_section	
+11-8	to	O	O	
+11-9	the	O	O	
+11-10	front	B-Head_of_Partitive	O	
+11-11	of	O	O	
+11-12	the	O	O	
+11-13	store	B-ScrPart_grocery_shop	O	
+11-14	and	O	O	
+11-15	get	O	B-ScrEv_move_section	
+11-16	into	O	O	
+11-17	a	O	O	
+11-18	line	B-ScrPart_line	O	
+11-19	with	O	O	
+11-20	a	O	O	
+11-21	number	B-ScrPart_other	O	
+11-22	that	O	O	
+11-23	is	O	O	
+11-24	lit	O	O	
+11-25	up	O	O	
+11-26	.	O	O	
+
+#id=12
+#text=If I have less than 10 or 15 items , I will sometimes go to the express lane .
+12-1	If	O	O	
+12-2	I	B-ScrPart_shopper	O	
+12-3	have	O	B-ScrEv_get_groceries	
+12-4	less	O	O	
+12-5	than	O	O	
+12-6	10	O	O	
+12-7	or	O	O	
+12-8	15	O	O	
+12-9	items	B-ScrPart_groceries	O	
+12-10	,	O	O	
+12-11	I	B-ScrPart_shopper	O	
+12-12	will	O	O	
+12-13	sometimes	O	O	
+12-14	go	O	B-ScrEv_move_section	
+12-15	to	O	O	
+12-16	the	O	O	
+12-17	express	O	O	
+12-18	lane	B-ScrPart_line	O	
+12-19	.	O	O	
+
+#id=13
+#text=I wait for it to be my turn and unload the groceries onto the conveyor belt .
+13-1	I	B-ScrPart_shopper	O	
+13-2	wait	O	B-ScrEv_wait	
+13-3	for	O	O	
+13-4	it	B-No_label	O	
+13-5	to	O	O	
+13-6	be	O	B-UnrelEv	
+13-7	my	B-ScrPart_shopper	O	
+13-8	turn	B-No_label	O	
+13-9	and	O	O	
+13-10	unload	O	B-ScrEv_put_conveyor	
+13-11	the	O	O	
+13-12	groceries	B-ScrPart_groceries	O	
+13-13	onto	O	O	
+13-14	the	O	O	
+13-15	conveyor	B-ScrPart_conveyor_belt	O	
+13-16	belt	I-ScrPart_conveyor_belt|B-ScrPart_conveyor_belt	O	
+13-17	.	O	O	
+
+#id=14
+#text=After the cashier rings up my items , I will pay with either cash or my credit card .
+14-1	After	O	O	
+14-2	the	O	O	
+14-3	cashier	B-ScrPart_grocery_staff	O	
+14-4	rings	O	B-ScrEv_cashier_scan/weight|B-ScrEv_cashier_scan/weight	
+14-5	up	O	I-ScrEv_cashier_scan/weight	
+14-6	my	B-ScrPart_shopper	O	
+14-7	items	B-ScrPart_groceries	O	
+14-8	,	O	O	
+14-9	I	B-ScrPart_shopper	O	
+14-10	will	O	O	
+14-11	pay	O	B-ScrEv_pay	
+14-12	with	O	O	
+14-13	either	O	O	
+14-14	cash	B-ScrPart_payment_means	O	
+14-15	or	O	O	
+14-16	my	B-ScrPart_shopper	O	
+14-17	credit	B-ScrPart_payment_means	O	
+14-18	card	I-ScrPart_payment_means|B-ScrPart_payment_means	O	
+14-19	.	O	O	
+
+#id=15
+#text=The items get bagged up and placed into my cart for me .
+15-1	The	O	O	
+15-2	items	B-ScrPart_groceries	O	
+15-3	get	O	O	
+15-4	bagged	O	B-ScrEv_pack_groceries|B-ScrEv_pack_groceries	
+15-5	up	O	I-ScrEv_pack_groceries	
+15-6	and	O	O	
+15-7	placed	O	B-ScrEv_bring_vehicle	
+15-8	into	O	O	
+15-9	my	B-ScrPart_shopper	O	
+15-10	cart	B-ScrPart_shopping_cart/basket	O	
+15-11	for	O	O	
+15-12	me	B-ScrPart_shopper	O	
+15-13	.	O	O	
+
+#id=16
+#text=I thank the cashier and take the cart to where my car is parked and put the groceries inside it .
+16-1	I	B-ScrPart_shopper	O	
+16-2	thank	O	B-RelNScrEv	
+16-3	the	O	O	
+16-4	cashier	B-ScrPart_grocery_staff	O	
+16-5	and	O	O	
+16-6	take	O	B-ScrEv_bring_vehicle	
+16-7	the	O	O	
+16-8	cart	B-ScrPart_shopping_cart/basket	O	
+16-9	to	O	O	
+16-10	where	B-NPart	O	
+16-11	my	B-ScrPart_shopper	O	
+16-12	car	B-ScrPart_vehicle	O	
+16-13	is	O	O	
+16-14	parked	O	B-RelNScrEv	
+16-15	and	O	O	
+16-16	put	O	B-ScrEv_bring_vehicle	
+16-17	the	O	O	
+16-18	groceries	B-ScrPart_groceries	O	
+16-19	inside	O	O	
+16-20	it	B-ScrPart_vehicle	O	
+16-21	.	O	O	
+
+#id=17
+#text=I then go to the next store and get any items I need there .
+17-1	I	B-ScrPart_shopper	O	
+17-2	then	O	O	
+17-3	go	O	B-ScrEv_go_grocery	
+17-4	to	O	O	
+17-5	the	O	O	
+17-6	next	O	O	
+17-7	store	B-ScrPart_grocery_shop	O	
+17-8	and	O	O	
+17-9	get	O	B-ScrEv_get_groceries	
+17-10	any	O	O	
+17-11	items	B-ScrPart_groceries	O	
+17-12	I	B-ScrPart_shopper	O	
+17-13	need	O	B-RelNScrEv	
+17-14	there	B-ScrPart_grocery_shop	O	
+17-15	.	O	O	
+
+#id=18
+#text=I drive home and bring all the groceries inside my house , and then put them all away wherever they go . 
+18-1	I	B-ScrPart_shopper	O	
+18-2	drive	O	B-ScrEv_leave	
+18-3	home	B-NPart	O	
+18-4	and	O	O	
+18-5	bring	O	B-RelNScrEv	
+18-6	all	O	O	
+18-7	the	O	O	
+18-8	groceries	B-ScrPart_groceries	O	
+18-9	inside	O	O	
+18-10	my	B-ScrPart_shopper	O	
+18-11	house	B-NPart	O	
+18-12	,	O	O	
+18-13	and	O	O	
+18-14	then	O	O	
+18-15	put	O	B-UnrelEv	
+18-16	them	B-ScrPart_groceries	O	
+18-17	all	O	O	
+18-18	away	O	O	
+18-19	wherever	O	O	
+18-20	they	B-ScrPart_groceries	O	
+18-21	go	O	B-UnrelEv	
+18-22	.	O	O	
+

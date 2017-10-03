@@ -1,0 +1,203 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=On the weekend I planted an apple an apple tree .
+1-1	On	O	O	
+1-2	the	O	O	
+1-3	weekend	B-NPart	O	
+1-4	I	B-ScrPart_gardener	O	
+1-5	planted	O	B-Evoking	
+1-6	an	O	I-Evoking	
+1-7	apple	B-???	I-Evoking	
+1-8	an	O	I-Evoking	
+1-9	apple	B-ScrPart_tree	I-Evoking	
+1-10	tree	I-ScrPart_tree|B-ScrPart_tree	I-Evoking	
+1-11	.	O	O	
+
+#id=2
+#text=first , I put on gardening gloves to protect my hands .
+2-1	first	O	O	
+2-2	,	O	O	
+2-3	I	B-ScrPart_gardener	O	
+2-4	put	O	B-ScrEv_get_tools	
+2-5	on	O	I-ScrEv_get_tools	
+2-6	gardening	B-ScrPart_gardening_tool	O	
+2-7	gloves	I-ScrPart_gardening_tool|B-ScrPart_gardening_tool	O	
+2-8	to	O	O	
+2-9	protect	O	B-UnrelEv	
+2-10	my	B-ScrPart_gardener	O	
+2-11	hands	B-NPart	O	
+2-12	.	O	O	
+
+#id=3
+#text=Next , I used a small shovel to dig a hole in a patch of dirt in my backyard .
+3-1	Next	O	O	
+3-2	,	O	O	
+3-3	I	B-ScrPart_gardener	O	
+3-4	used	O	B-UnrelEv	
+3-5	a	O	O	
+3-6	small	O	O	
+3-7	shovel	B-ScrPart_gardening_tool	O	
+3-8	to	O	O	
+3-9	dig	O	B-ScrEv_dug_hole	
+3-10	a	O	O	
+3-11	hole	B-ScrPart_hole	O	
+3-12	in	O	O	
+3-13	a	O	O	
+3-14	patch	B-NPart	O	
+3-15	of	O	O	
+3-16	dirt	B-ScrPart_dirt	O	
+3-17	in	O	O	
+3-18	my	B-ScrPart_gardener	O	
+3-19	backyard	B-NPart	O	
+3-20	.	O	O	
+
+#id=4
+#text=I then took an apple seed and placed it inside the hole .
+4-1	I	B-ScrPart_gardener	O	
+4-2	then	O	O	
+4-3	took	O	B-RelNScrEv	
+4-4	an	O	O	
+4-5	apple	B-ScrPart_tree	O	
+4-6	seed	I-ScrPart_tree|B-ScrPart_tree	O	
+4-7	and	O	O	
+4-8	placed	O	B-ScrEv_place_root	
+4-9	it	B-ScrPart_tree	O	
+4-10	inside	O	O	
+4-11	the	O	O	
+4-12	hole	B-ScrPart_hole	O	
+4-13	.	O	O	
+
+#id=5
+#text=Next , I took the soil that I had dug out earlier and placed it on top of the seed , creating a thin layer of soil on top of the seed .
+5-1	Next	O	O	
+5-2	,	O	O	
+5-3	I	B-ScrPart_gardener	O	
+5-4	took	O	B-RelNScrEv	
+5-5	the	O	O	
+5-6	soil	B-ScrPart_dirt	O	
+5-7	that	O	O	
+5-8	I	B-ScrPart_gardener	O	
+5-9	had	O	O	
+5-10	dug	O	B-ScrEv_dug_hole	
+5-11	out	O	I-ScrEv_dug_hole	
+5-12	earlier	O	O	
+5-13	and	O	O	
+5-14	placed	O	B-ScrEv_refill_hole	
+5-15	it	B-ScrPart_dirt	O	
+5-16	on	O	O	
+5-17	top	B-NPart	O	
+5-18	of	O	O	
+5-19	the	O	O	
+5-20	seed	B-ScrPart_tree	O	
+5-21	,	O	O	
+5-22	creating	O	B-UnrelEv	
+5-23	a	O	O	
+5-24	thin	O	O	
+5-25	layer	B-Head_of_Partitive	O	
+5-26	of	O	O	
+5-27	soil	B-ScrPart_dirt	O	
+5-28	on	O	O	
+5-29	top	B-NPart	O	
+5-30	of	O	O	
+5-31	the	O	O	
+5-32	seed	B-ScrPart_tree	O	
+5-33	.	O	O	
+
+#id=6
+#text=I then took my watering can over to the water hose and used the hose to fill the can up with water .
+6-1	I	B-ScrPart_gardener	O	
+6-2	then	O	O	
+6-3	took	O	B-ScrEv_get_tools	
+6-4	my	B-ScrPart_gardener	O	
+6-5	watering	B-ScrPart_gardening_tool	O	
+6-6	can	I-ScrPart_gardening_tool|B-ScrPart_gardening_tool	O	
+6-7	over	O	O	
+6-8	to	O	O	
+6-9	the	O	O	
+6-10	water	B-ScrPart_gardening_tool	O	
+6-11	hose	I-ScrPart_gardening_tool|B-ScrPart_gardening_tool	O	
+6-12	and	O	O	
+6-13	used	O	B-UnrelEv	
+6-14	the	O	O	
+6-15	hose	B-ScrPart_gardening_tool	O	
+6-16	to	O	O	
+6-17	fill	O	B-RelNScrEv	
+6-18	the	O	O	
+6-19	can	B-ScrPart_gardening_tool	O	
+6-20	up	O	O	
+6-21	with	O	O	
+6-22	water	B-ScrPart_water	O	
+6-23	.	O	O	
+
+#id=7
+#text=When the can was full , I brought it back over to the patch of dirt where the apple seed was planted , and I gently poured the water from the watering can onto the patch of dirt , watering my newly-planted apple seed .
+7-1	When	O	O	
+7-2	the	O	O	
+7-3	can	B-ScrPart_gardening_tool	O	
+7-4	was	O	B-UnrelEv	
+7-5	full	O	O	
+7-6	,	O	O	
+7-7	I	B-ScrPart_gardener	O	
+7-8	brought	O	B-ScrEv_get_tools	
+7-9	it	B-ScrPart_gardening_tool	O	
+7-10	back	O	O	
+7-11	over	O	O	
+7-12	to	O	O	
+7-13	the	O	O	
+7-14	patch	B-NPart	O	
+7-15	of	O	O	
+7-16	dirt	B-ScrPart_dirt	O	
+7-17	where	O	O	
+7-18	the	O	O	
+7-19	apple	B-ScrPart_tree	O	
+7-20	seed	I-ScrPart_tree|B-ScrPart_tree	O	
+7-21	was	O	O	
+7-22	planted	O	B-Evoking	
+7-23	,	O	O	
+7-24	and	O	O	
+7-25	I	B-ScrPart_gardener	O	
+7-26	gently	O	O	
+7-27	poured	O	B-ScrEv_water	
+7-28	the	O	O	
+7-29	water	B-ScrPart_water	O	
+7-30	from	O	O	
+7-31	the	O	O	
+7-32	watering	B-ScrPart_gardening_tool	O	
+7-33	can	I-ScrPart_gardening_tool|B-ScrPart_gardening_tool	O	
+7-34	onto	O	O	
+7-35	the	O	O	
+7-36	patch	B-NPart	O	
+7-37	of	O	O	
+7-38	dirt	B-ScrPart_dirt	O	
+7-39	,	O	O	
+7-40	watering	O	B-ScrEv_water	
+7-41	my	B-ScrPart_gardener	O	
+7-42	newly-planted	O	B-???	
+7-43	apple	B-ScrPart_tree	O	
+7-44	seed	I-ScrPart_tree|B-ScrPart_tree	O	
+7-45	.	O	O	
+
+#id=8
+#text=I thought happily about how exciting it will be when my tiny apple seed grows into a huge apple tree . 
+8-1	I	B-ScrPart_gardener	O	
+8-2	thought	O	B-UnrelEv	
+8-3	happily	O	O	
+8-4	about	O	O	
+8-5	how	O	O	
+8-6	exciting	O	O	
+8-7	it	B-No_label	O	
+8-8	will	O	O	
+8-9	be	O	B-UnrelEv	
+8-10	when	O	O	
+8-11	my	B-ScrPart_gardener	O	
+8-12	tiny	O	O	
+8-13	apple	B-ScrPart_tree	O	
+8-14	seed	I-ScrPart_tree|B-ScrPart_tree	O	
+8-15	grows	O	B-RelNScrEv	
+8-16	into	O	O	
+8-17	a	O	O	
+8-18	huge	O	O	
+8-19	apple	B-ScrPart_tree	O	
+8-20	tree	I-ScrPart_tree|B-ScrPart_tree	O	
+8-21	.	O	O	
+

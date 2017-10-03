@@ -1,0 +1,428 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=The other day , I had to catch a train from Los Angles to New York at the last minute .
+1-1	The	O	O	_	_	
+1-2	other	O	O	_	_	
+1-3	day	O	O	_	_	
+1-4	,	O	O	_	_	
+1-5	I	B-ScrPart_passenger	O	_	_	
+1-6	had	O	O	_	_	
+1-7	to	O	O	_	_	
+1-8	catch	O	B-Evoking	_	_	
+1-9	a	O	I-Evoking	_	_	
+1-10	train	O	I-Evoking	_	_	
+1-11	from	O	O	_	_	
+1-12	Los	O	O	_	_	
+1-13	Angles	O	O	_	_	
+1-14	to	O	O	_	_	
+1-15	New	B-ScrPart_destination	O	_	_	
+1-16	York	I-ScrPart_destination	O	_	_	
+1-17	at	O	O	_	_	
+1-18	the	O	O	_	_	
+1-19	last	O	O	_	_	
+1-20	minute	O	O	_	_	
+1-21	.	O	O	_	_	
+
+#id=2
+#text=My boss wanted me to meet some foreign client in a brand new art gallery they recently bought in Manhattan .
+2-1	My	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-5	
+2-2	boss	O	O	_	_	
+2-3	wanted	O	B-UnrelEv	_	_	
+2-4	me	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-1	
+2-5	to	O	O	_	_	
+2-6	meet	O	B-UnrelEv	_	_	
+2-7	some	O	O	_	_	
+2-8	foreign	O	O	_	_	
+2-9	client	O	O	_	_	
+2-10	in	O	O	_	_	
+2-11	a	O	O	_	_	
+2-12	brand	O	O	_	_	
+2-13	new	O	O	_	_	
+2-14	art	O	O	_	_	
+2-15	gallery	O	O	_	_	
+2-16	they	O	O	_	_	
+2-17	recently	O	O	_	_	
+2-18	bought	O	B-UnrelEv	_	_	
+2-19	in	O	O	_	_	
+2-20	Manhattan	O	O	_	_	
+2-21	.	O	O	_	_	
+
+#id=3
+#text=The boss called me at about 5:30 in the morning and told me that he already bought tickets to get from here to New York , but explained to me that he could n't make it as he had another meeting to that same morning .
+3-1	The	O	O	_	_	
+3-2	boss	O	O	_	_	
+3-3	called	O	B-UnrelEv	_	_	
+3-4	me	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-4	
+3-5	at	O	O	_	_	
+3-6	about	O	O	_	_	
+3-7	5:30	O	O	_	_	
+3-8	in	O	O	_	_	
+3-9	the	O	O	_	_	
+3-10	morning	O	O	_	_	
+3-11	and	O	O	_	_	
+3-12	told	O	B-UnrelEv	_	_	
+3-13	me	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-4	
+3-14	that	O	O	_	_	
+3-15	he	O	O	_	_	
+3-16	already	O	O	_	_	
+3-17	bought	O	B-ScrEv_get_tickets	_	_	
+3-18	tickets	B-ScrPart_card/ticket	O	_	_	
+3-19	to	O	O	_	_	
+3-20	get	O	B-RelNScrEv	_	_	
+3-21	from	O	O	_	_	
+3-22	here	O	O	_	_	
+3-23	to	O	O	_	_	
+3-24	New	B-ScrPart_destination	O	webanno.custom.Corefchains_	1-15	
+3-25	York	I-ScrPart_destination	O	webanno.custom.Corefchains_	1-15	
+3-26	,	O	O	_	_	
+3-27	but	O	O	_	_	
+3-28	explained	O	B-UnrelEv	_	_	
+3-29	to	O	O	_	_	
+3-30	me	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-13	
+3-31	that	O	O	_	_	
+3-32	he	O	O	_	_	
+3-33	could	O	O	_	_	
+3-34	n't	O	O	_	_	
+3-35	make	O	B-UnrelEv	_	_	
+3-36	it	O	O	_	_	
+3-37	as	O	O	_	_	
+3-38	he	O	O	_	_	
+3-39	had	O	B-UnrelEv	_	_	
+3-40	another	O	O	_	_	
+3-41	meeting	O	O	_	_	
+3-42	to	O	O	_	_	
+3-43	that	O	O	_	_	
+3-44	same	O	O	_	_	
+3-45	morning	O	O	_	_	
+3-46	.	O	O	_	_	
+
+#id=4
+#text=The tickets were for a train that departed at 7:15 am , so like a good worker bee , I got up , skipped showering , got dressed , and ran out the door with a dirty wrinkled suit I had n't had time to wash .
+4-1	The	O	O	_	_	
+4-2	tickets	B-ScrPart_card/ticket	O	webanno.custom.Corefchains_	3-18	
+4-3	were	O	B-UnrelEv	_	_	
+4-4	for	O	O	_	_	
+4-5	a	O	O	_	_	
+4-6	train	B-ScrPart_train	O	_	_	
+4-7	that	O	O	_	_	
+4-8	departed	O	B-ScrEv_train_departs	_	_	
+4-9	at	O	O	_	_	
+4-10	7:15	B-ScrPart_time_date	O	_	_	
+4-11	am	O	O	_	_	
+4-12	,	O	O	_	_	
+4-13	so	O	O	_	_	
+4-14	like	O	O	_	_	
+4-15	a	O	O	_	_	
+4-16	good	O	O	_	_	
+4-17	worker	O	O	_	_	
+4-18	bee	O	O	_	_	
+4-19	,	O	O	_	_	
+4-20	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-30	
+4-21	got	O	B-UnrelEv|B-UnrelEv	_	_	
+4-22	up	O	I-UnrelEv	_	_	
+4-23	,	O	O	_	_	
+4-24	skipped	O	B-UnrelEv	_	_	
+4-25	showering	O	B-UnrelEv	_	_	
+4-26	,	O	O	_	_	
+4-27	got	O	O	_	_	
+4-28	dressed	O	B-UnrelEv	_	_	
+4-29	,	O	O	_	_	
+4-30	and	O	O	_	_	
+4-31	ran	O	B-UnrelEv|B-UnrelEv	_	_	
+4-32	out	O	I-UnrelEv	_	_	
+4-33	the	O	O	_	_	
+4-34	door	O	O	_	_	
+4-35	with	O	O	_	_	
+4-36	a	O	O	_	_	
+4-37	dirty	O	O	_	_	
+4-38	wrinkled	O	B-UnrelEv	_	_	
+4-39	suit	O	O	_	_	
+4-40	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-20	
+4-41	had	O	O	_	_	
+4-42	n't	O	O	_	_	
+4-43	had	O	B-UnrelEv	_	_	
+4-44	time	O	O	_	_	
+4-45	to	O	O	_	_	
+4-46	wash	O	B-UnrelEv	_	_	
+4-47	.	O	O	_	_	
+
+#id=5
+#text=The airport was 40 minutes away so I had very little time to spare .
+5-1	The	O	O	_	_	
+5-2	airport	B-ScrPart_train_station	O	_	_	
+5-3	was	O	B-UnrelEv	_	_	
+5-4	40	O	O	_	_	
+5-5	minutes	O	O	_	_	
+5-6	away	O	O	_	_	
+5-7	so	O	O	_	_	
+5-8	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-40	
+5-9	had	O	B-UnrelEv	_	_	
+5-10	very	O	O	_	_	
+5-11	little	O	O	_	_	
+5-12	time	O	O	_	_	
+5-13	to	O	O	_	_	
+5-14	spare	O	B-UnrelEv	_	_	
+5-15	.	O	O	_	_	
+
+#id=6
+#text=I managed to store my car and walk into the train station half asleep right at 7:10 am when I overheard my train was delayed over the intercom .
+6-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-8	
+6-2	managed	O	B-UnrelEv	_	_	
+6-3	to	O	O	_	_	
+6-4	store	O	B-RelNScrEv	_	_	
+6-5	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-1	
+6-6	car	O	O	_	_	
+6-7	and	O	O	_	_	
+6-8	walk	O	B-ScrEv_get_platform	_	_	
+6-9	into	O	O	_	_	
+6-10	the	O	O	_	_	
+6-11	train	B-ScrPart_train_station	O	_	_	
+6-12	station	I-ScrPart_train_station|B-ScrPart_train_station	O	webanno.custom.Corefchains_	5-2	
+6-13	half	O	O	_	_	
+6-14	asleep	O	O	_	_	
+6-15	right	O	O	_	_	
+6-16	at	O	O	_	_	
+6-17	7:10	B-ScrPart_time_date	O	_	_	
+6-18	am	O	O	_	_	
+6-19	when	O	O	_	_	
+6-20	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-5	
+6-21	overheard	O	B-RelNScrEv	_	_	
+6-22	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-20	
+6-23	train	B-ScrPart_train	O	webanno.custom.Corefchains_	4-6	
+6-24	was	O	O	_	_	
+6-25	delayed	O	B-RelNScrEv	_	_	
+6-26	over	O	O	_	_	
+6-27	the	O	O	_	_	
+6-28	intercom	B-MissScrPart	O	_	_	
+6-29	.	O	O	_	_	
+
+#id=7
+#text=When my train was called an hour later , I drowsily made my way on board where I got a window seat next to a larger fellow .
+7-1	When	O	O	_	_	
+7-2	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-22	
+7-3	train	B-ScrPart_train	O	webanno.custom.Corefchains_	6-23	
+7-4	was	O	O	_	_	
+7-5	called	O	B-RelNScrEv	_	_	
+7-6	an	O	O	_	_	
+7-7	hour	B-ScrPart_time_date	O	_	_	
+7-8	later	O	O	_	_	
+7-9	,	O	O	_	_	
+7-10	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-2	
+7-11	drowsily	O	O	_	_	
+7-12	made	O	B-ScrEv_find_place	_	_	
+7-13	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-10	
+7-14	way	O	O	_	_	
+7-15	on	O	O	_	_	
+7-16	board	O	O	_	_	
+7-17	where	O	O	_	_	
+7-18	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-13	
+7-19	got	O	B-ScrEv_find_place	_	_	
+7-20	a	O	O	_	_	
+7-21	window	O	O	_	_	
+7-22	seat	B-ScrPart_seat	O	_	_	
+7-23	next	O	O	_	_	
+7-24	to	O	O	_	_	
+7-25	a	O	O	_	_	
+7-26	larger	O	O	_	_	
+7-27	fellow	B-ScrPart_passenger	O	_	_	
+7-28	.	O	O	_	_	
+
+#id=8
+#text=I remember I was half asleep when I mumbled a hello to him .
+8-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-18	
+8-2	remember	O	B-UnrelEv	_	_	
+8-3	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-1	
+8-4	was	O	B-UnrelEv	_	_	
+8-5	half	O	O	_	_	
+8-6	asleep	O	O	_	_	
+8-7	when	O	O	_	_	
+8-8	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-3	
+8-9	mumbled	O	B-UnrelEv	_	_	
+8-10	a	O	O	_	_	
+8-11	hello	O	O	_	_	
+8-12	to	O	O	_	_	
+8-13	him	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-27	
+8-14	.	O	O	_	_	
+
+#id=9
+#text=He happily greeted me back as I sat down .
+9-1	He	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-13	
+9-2	happily	O	O	_	_	
+9-3	greeted	O	B-UnrelEv	_	_	
+9-4	me	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-8	
+9-5	back	O	O	_	_	
+9-6	as	O	O	_	_	
+9-7	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-4	
+9-8	sat	O	B-ScrEv_find_place|B-ScrEv_find_place	_	_	
+9-9	down	O	I-ScrEv_find_place	_	_	
+9-10	.	O	O	_	_	
+
+#id=10
+#text=Right before the train took off and the trains stewardesses were telling us how to use our seat belts , I barely remember ending up falling asleep on the large man next to me .
+10-1	Right	O	O	_	_	
+10-2	before	O	O	_	_	
+10-3	the	O	O	_	_	
+10-4	train	B-ScrPart_train	O	webanno.custom.Corefchains_	7-3	
+10-5	took	O	B-ScrEv_train_departs|B-ScrEv_train_departs	_	_	
+10-6	off	O	I-ScrEv_train_departs	_	_	
+10-7	and	O	O	_	_	
+10-8	the	O	O	_	_	
+10-9	trains	O	O	_	_	
+10-10	stewardesses	B-ScrPart_train_staff	O	_	_	
+10-11	were	O	O	_	_	
+10-12	telling	O	B-RelNScrEv	_	_	
+10-13	us	B-ScrPart_passenger	O	_	_	
+10-14	how	O	O	_	_	
+10-15	to	O	O	_	_	
+10-16	use	O	B-RelNScrEv	_	_	
+10-17	our	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-13	
+10-18	seat	B-MissScrPart	O	_	_	
+10-19	belts	I-MissScrPart|B-MissScrPart	O	_	_	
+10-20	,	O	O	_	_	
+10-21	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-7	
+10-22	barely	O	O	_	_	
+10-23	remember	O	B-UnrelEv	_	_	
+10-24	ending	O	B-UnrelEv|B-UnrelEv	_	_	
+10-25	up	O	I-UnrelEv	_	_	
+10-26	falling	O	B-ScrEv_spend_time_train|B-ScrEv_spend_time_train	_	_	
+10-27	asleep	O	I-ScrEv_spend_time_train	_	_	
+10-28	on	O	O	_	_	
+10-29	the	O	O	_	_	
+10-30	large	O	O	_	_	
+10-31	man	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-1	
+10-32	next	O	O	_	_	
+10-33	to	O	O	_	_	
+10-34	me	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-21	
+10-35	.	O	O	_	_	
+
+#id=11
+#text=Four hours later , I got a nudge from the large man next to me telling me kindly to wake up and that our ride was over .
+11-1	Four	O	O	_	_	
+11-2	hours	B-ScrPart_time_date	O	_	_	
+11-3	later	O	O	_	_	
+11-4	,	O	O	_	_	
+11-5	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-34	
+11-6	got	O	B-UnrelEv	_	_	
+11-7	a	O	O	_	_	
+11-8	nudge	O	O	_	_	
+11-9	from	O	O	_	_	
+11-10	the	O	O	_	_	
+11-11	large	O	O	_	_	
+11-12	man	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-31	
+11-13	next	O	O	_	_	
+11-14	to	O	O	_	_	
+11-15	me	B-ScrPart_passenger	O	webanno.custom.Corefchains_	11-5	
+11-16	telling	O	B-UnrelEv	_	_	
+11-17	me	B-ScrPart_passenger	O	webanno.custom.Corefchains_	11-15	
+11-18	kindly	O	O	_	_	
+11-19	to	O	O	_	_	
+11-20	wake	O	B-UnrelEv|B-UnrelEv	_	_	
+11-21	up	O	I-UnrelEv	_	_	
+11-22	and	O	O	_	_	
+11-23	that	O	O	_	_	
+11-24	our	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-17	
+11-25	ride	O	B-Evoking	_	_	
+11-26	was	O	B-UnrelEv	_	_	
+11-27	over	O	O	_	_	
+11-28	.	O	O	_	_	
+
+#id=12
+#text=I distinctly remember waking up with a mouthful of drool soaked on the large man ' s arm I feel asleep on and instantly apologized .
+12-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	11-17	
+12-2	distinctly	O	O	_	_	
+12-3	remember	O	B-UnrelEv	_	_	
+12-4	waking	O	B-UnrelEv|B-UnrelEv	_	_	
+12-5	up	O	I-UnrelEv	_	_	
+12-6	with	O	O	_	_	
+12-7	a	O	O	_	_	
+12-8	mouthful	O	O	_	_	
+12-9	of	O	O	_	_	
+12-10	drool	O	O	_	_	
+12-11	soaked	O	O	_	_	
+12-12	on	O	O	_	_	
+12-13	the	O	O	_	_	
+12-14	large	O	O	_	_	
+12-15	man	B-ScrPart_passenger	O	webanno.custom.Corefchains_	11-12	
+12-16	'	O	O	_	_	
+12-17	s	O	O	_	_	
+12-18	arm	O	O	_	_	
+12-19	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	12-1	
+12-20	feel	O	B-ScrEv_spend_time_train|B-ScrEv_spend_time_train	_	_	
+12-21	asleep	O	I-ScrEv_spend_time_train	_	_	
+12-22	on	O	O	_	_	
+12-23	and	O	O	_	_	
+12-24	instantly	O	O	_	_	
+12-25	apologized	O	B-UnrelEv	_	_	
+12-26	.	O	O	_	_	
+
+#id=13
+#text=He laughed and said to me Don ' t worry about it !
+13-1	He	B-ScrPart_passenger	O	webanno.custom.Corefchains_	12-15	
+13-2	laughed	O	B-UnrelEv	_	_	
+13-3	and	O	O	_	_	
+13-4	said	O	B-UnrelEv	_	_	
+13-5	to	O	O	_	_	
+13-6	me	B-ScrPart_passenger	O	webanno.custom.Corefchains_	12-19	
+13-7	Don	O	O	_	_	
+13-8	'	O	O	_	_	
+13-9	t	O	O	_	_	
+13-10	worry	O	B-UnrelEv	_	_	
+13-11	about	O	O	_	_	
+13-12	it	O	O	_	_	
+13-13	!	O	O	_	_	
+
+#id=14
+#text=You looked so tired !
+14-1	You	B-ScrPart_passenger	O	webanno.custom.Corefchains_	13-6	
+14-2	looked	O	B-UnrelEv	_	_	
+14-3	so	O	O	_	_	
+14-4	tired	O	B-UnrelEv	_	_	
+14-5	!	O	O	_	_	
+
+#id=15
+#text=Would you believe this is n't the first time this has happened to me ?
+15-1	Would	O	O	_	_	
+15-2	you	O	O	_	_	
+15-3	believe	O	B-UnrelEv	_	_	
+15-4	this	O	O	_	_	
+15-5	is	O	O	_	_	
+15-6	n't	O	O	_	_	
+15-7	the	O	O	_	_	
+15-8	first	O	O	_	_	
+15-9	time	O	O	_	_	
+15-10	this	O	O	_	_	
+15-11	has	O	O	_	_	
+15-12	happened	O	B-UnrelEv	_	_	
+15-13	to	O	O	_	_	
+15-14	me	B-ScrPart_passenger	O	webanno.custom.Corefchains_	14-1	
+15-15	?	O	O	_	_	
+
+#id=16
+#text=We both kind of laughed and went on our ways .
+16-1	We	B-ScrPart_passenger	O	group_I_man|group_I_man	13-1|15-14	
+16-2	both	O	O	_	_	
+16-3	kind	O	O	_	_	
+16-4	of	O	O	_	_	
+16-5	laughed	O	B-UnrelEv	_	_	
+16-6	and	O	O	_	_	
+16-7	went	O	B-UnrelEv	_	_	
+16-8	on	O	O	_	_	
+16-9	our	O	O	_	_	
+16-10	ways	O	O	_	_	
+16-11	.	O	O	_	_	
+
+#id=17
+#text=It ended up being a great ride and sleep , overall . 
+17-1	It	O	O	_	_	
+17-2	ended	O	B-UnrelEv|B-UnrelEv	_	_	
+17-3	up	O	I-UnrelEv	_	_	
+17-4	being	O	B-UnrelEv	_	_	
+17-5	a	O	O	_	_	
+17-6	great	O	O	_	_	
+17-7	ride	O	B-Evoking	_	_	
+17-8	and	O	O	_	_	
+17-9	sleep	O	B-ScrEv_spend_time_train	_	_	
+17-10	,	O	O	_	_	
+17-11	overall	O	O	_	_	
+17-12	.	O	O	_	_	
+

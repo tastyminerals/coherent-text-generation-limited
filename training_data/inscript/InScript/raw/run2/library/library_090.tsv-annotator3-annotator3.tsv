@@ -1,0 +1,281 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=Last week I went to the library to get a book .
+1-1	Last	O	O	
+1-2	week	B-NPart	O	
+1-3	I	B-ScrPart_customer	O	
+1-4	went	O	B-Evoking	
+1-5	to	O	I-Evoking	
+1-6	the	O	I-Evoking	
+1-7	library	B-ScrPart_library	I-Evoking	
+1-8	to	O	I-Evoking	
+1-9	get	O	I-Evoking	
+1-10	a	O	I-Evoking	
+1-11	book	B-ScrPart_book	I-Evoking	
+1-12	.	O	O	
+
+#id=2
+#text=One of my friends had recommended that I read a book called The Chocolate Wars .
+2-1	One	O	O	
+2-2	of	O	O	
+2-3	my	B-ScrPart_customer	O	
+2-4	friends	B-NPart	O	
+2-5	had	O	O	
+2-6	recommended	O	B-UnrelEv	
+2-7	that	O	O	
+2-8	I	B-ScrPart_customer	O	
+2-9	read	O	B-RelNScrEv	
+2-10	a	O	O	
+2-11	book	B-ScrPart_book	O	
+2-12	called	O	B-UnrelEv	
+2-13	The	B-ScrPart_book	O	
+2-14	Chocolate	I-ScrPart_book	O	
+2-15	Wars	I-ScrPart_book	O	
+2-16	.	O	O	
+
+#id=3
+#text=I went to the library Saturday afternoon .
+3-1	I	B-ScrPart_customer	O	
+3-2	went	O	B-ScrEv_get_library	
+3-3	to	O	O	
+3-4	the	O	O	
+3-5	library	B-ScrPart_library	O	
+3-6	Saturday	B-NPart	O	
+3-7	afternoon	B-NPart	O	
+3-8	.	O	O	
+
+#id=4
+#text=I walked into the main area on the first floor and went to a computer terminal , where I looked up the book by its title .
+4-1	I	B-ScrPart_customer	O	
+4-2	walked	O	B-UnrelEv|B-UnrelEv	
+4-3	into	O	I-UnrelEv	
+4-4	the	O	O	
+4-5	main	B-ScrPart_location_library	O	
+4-6	area	I-ScrPart_location_library|B-ScrPart_location_library	O	
+4-7	on	O	O	
+4-8	the	O	O	
+4-9	first	O	O	
+4-10	floor	B-ScrPart_location_library	O	
+4-11	and	O	O	
+4-12	went	O	B-UnrelEv	
+4-13	to	O	O	
+4-14	a	O	O	
+4-15	computer	B-ScrPart_institutional_devices	O	
+4-16	terminal	I-ScrPart_institutional_devices|B-ScrPart_institutional_devices	O	
+4-17	,	O	O	
+4-18	where	O	O	
+4-19	I	B-ScrPart_customer	O	
+4-20	looked	O	B-ScrEv_use_computer|B-ScrEv_use_computer	
+4-21	up	O	I-ScrEv_use_computer	
+4-22	the	O	O	
+4-23	book	B-ScrPart_book	O	
+4-24	by	O	O	
+4-25	its	B-ScrPart_book	O	
+4-26	title	B-ScrPart_other	O	
+4-27	.	O	O	
+
+#id=5
+#text=The library catalog gave me a call number that identified where the book was stored .
+5-1	The	O	O	
+5-2	library	B-ScrPart_catalog	O	
+5-3	catalog	I-ScrPart_catalog|B-ScrPart_catalog	O	
+5-4	gave	O	B-UnrelEv	
+5-5	me	B-ScrPart_customer	O	
+5-6	a	O	O	
+5-7	call	B-ScrPart_section_id	O	
+5-8	number	I-ScrPart_section_id|B-ScrPart_section_id	O	
+5-9	that	O	O	
+5-10	identified	O	B-UnrelEv	
+5-11	where	O	O	
+5-12	the	O	O	
+5-13	book	B-ScrPart_book	O	
+5-14	was	O	O	
+5-15	stored	O	B-RelNScrEv	
+5-16	.	O	O	
+
+#id=6
+#text=I wrote the call number down on a little slip of paper , then I took the slip of paper and went to the shelves where the books are .
+6-1	I	B-ScrPart_customer	O	
+6-2	wrote	O	B-ScrEv_note_shelf	
+6-3	the	O	O	
+6-4	call	B-ScrPart_section_id	O	
+6-5	number	I-ScrPart_section_id|B-ScrPart_section_id	O	
+6-6	down	O	O	
+6-7	on	O	O	
+6-8	a	O	O	
+6-9	little	O	O	
+6-10	slip	B-Head_of_Partitive	O	
+6-11	of	O	O	
+6-12	paper	B-NPart	O	
+6-13	,	O	O	
+6-14	then	O	O	
+6-15	I	B-ScrPart_customer	O	
+6-16	took	O	B-UnrelEv	
+6-17	the	O	O	
+6-18	slip	B-Head_of_Partitive	O	
+6-19	of	O	O	
+6-20	paper	B-NPart	O	
+6-21	and	O	O	
+6-22	went	O	B-ScrEv_other	
+6-23	to	O	O	
+6-24	the	O	O	
+6-25	shelves	B-ScrPart_shelf	O	
+6-26	where	O	O	
+6-27	the	O	O	
+6-28	books	B-ScrPart_book	O	
+6-29	are	O	B-UnrelEv	
+6-30	.	O	O	
+
+#id=7
+#text=At the end of each row of book shelves , there are signs that told me which books were in that row .
+7-1	At	O	O	
+7-2	the	O	O	
+7-3	end	B-NPart	O	
+7-4	of	O	O	
+7-5	each	O	O	
+7-6	row	B-Head_of_Partitive	O	
+7-7	of	O	O	
+7-8	book	B-ScrPart_shelf	O	
+7-9	shelves	I-ScrPart_shelf|B-ScrPart_shelf	O	
+7-10	,	O	O	
+7-11	there	O	O	
+7-12	are	O	B-UnrelEv	
+7-13	signs	B-NPart	O	
+7-14	that	O	O	
+7-15	told	O	B-UnrelEv	
+7-16	me	B-ScrPart_customer	O	
+7-17	which	O	O	
+7-18	books	B-ScrPart_book	O	
+7-19	were	O	B-UnrelEv	
+7-20	in	O	O	
+7-21	that	O	O	
+7-22	row	B-ScrPart_shelf	O	
+7-23	.	O	O	
+
+#id=8
+#text=I found the row where the number I was looking for was , then I looked at the numbers on the books on those shelves until I found the number that matched The Chocolate Wars .
+8-1	I	B-ScrPart_customer	O	
+8-2	found	O	B-ScrEv_other	
+8-3	the	O	O	
+8-4	row	B-ScrPart_shelf	O	
+8-5	where	O	O	
+8-6	the	O	O	
+8-7	number	B-ScrPart_section_id	O	
+8-8	I	B-ScrPart_customer	O	
+8-9	was	O	O	
+8-10	looking	O	B-UnrelEv|B-UnrelEv	
+8-11	for	O	I-UnrelEv	
+8-12	was	O	B-UnrelEv	
+8-13	,	O	O	
+8-14	then	O	O	
+8-15	I	B-ScrPart_customer	O	
+8-16	looked	O	B-UnrelEv|B-UnrelEv	
+8-17	at	O	I-UnrelEv	
+8-18	the	O	O	
+8-19	numbers	B-ScrPart_book_id	O	
+8-20	on	O	O	
+8-21	the	O	O	
+8-22	books	B-ScrPart_book	O	
+8-23	on	O	O	
+8-24	those	O	O	
+8-25	shelves	B-ScrPart_shelf	O	
+8-26	until	O	O	
+8-27	I	B-ScrPart_customer	O	
+8-28	found	O	B-ScrEv_other	
+8-29	the	O	O	
+8-30	number	B-ScrPart_book_id	O	
+8-31	that	O	O	
+8-32	matched	O	B-UnrelEv	
+8-33	The	B-ScrPart_book	O	
+8-34	Chocolate	I-ScrPart_book	O	
+8-35	Wars	I-ScrPart_book	O	
+8-36	.	O	O	
+
+#id=9
+#text=I pulled the book off the shelf and liked the cover , so I decided I would go ahead and read it as my friend suggested .
+9-1	I	B-ScrPart_customer	O	
+9-2	pulled	O	B-ScrEv_take_book	
+9-3	the	O	O	
+9-4	book	B-ScrPart_book	O	
+9-5	off	O	O	
+9-6	the	O	O	
+9-7	shelf	B-ScrPart_shelf	O	
+9-8	and	O	O	
+9-9	liked	O	B-UnrelEv	
+9-10	the	O	O	
+9-11	cover	B-ScrPart_other	O	
+9-12	,	O	O	
+9-13	so	O	O	
+9-14	I	B-ScrPart_customer	O	
+9-15	decided	O	B-UnrelEv	
+9-16	I	B-ScrPart_customer	O	
+9-17	would	O	O	
+9-18	go	O	B-UnrelEv|B-UnrelEv	
+9-19	ahead	O	I-UnrelEv	
+9-20	and	O	O	
+9-21	read	O	B-RelNScrEv	
+9-22	it	B-ScrPart_book	O	
+9-23	as	O	O	
+9-24	my	B-ScrPart_customer	O	
+9-25	friend	B-NPart	O	
+9-26	suggested	O	B-UnrelEv	
+9-27	.	O	O	
+
+#id=10
+#text=I took the book to the circulation desk and gave it to the librarian with my library card .
+10-1	I	B-ScrPart_customer	O	
+10-2	took	O	B-ScrEv_go_check_out	
+10-3	the	O	O	
+10-4	book	B-ScrPart_book	O	
+10-5	to	O	O	
+10-6	the	O	O	
+10-7	circulation	B-ScrPart_check-out_desk	O	
+10-8	desk	I-ScrPart_check-out_desk|B-ScrPart_check-out_desk	O	
+10-9	and	O	O	
+10-10	gave	O	B-ScrEv_other	
+10-11	it	B-ScrPart_book	O	
+10-12	to	O	O	
+10-13	the	O	O	
+10-14	librarian	B-ScrPart_staff	O	
+10-15	with	O	O	
+10-16	my	B-ScrPart_customer	O	
+10-17	library	B-ScrPart_library_card	O	
+10-18	card	I-ScrPart_library_card|B-ScrPart_library_card	O	
+10-19	.	O	O	
+
+#id=11
+#text=The librarian swiped my library card through an electronic reader and told me the book would be due in two weeks .
+11-1	The	O	O	
+11-2	librarian	B-ScrPart_staff	O	
+11-3	swiped	O	B-ScrEv_other	
+11-4	my	B-ScrPart_customer	O	
+11-5	library	B-ScrPart_library_card	O	
+11-6	card	I-ScrPart_library_card|B-ScrPart_library_card	O	
+11-7	through	O	O	
+11-8	an	O	O	
+11-9	electronic	O	O	
+11-10	reader	B-ScrPart_institutional_devices	O	
+11-11	and	O	O	
+11-12	told	O	B-RelNScrEv	
+11-13	me	B-ScrPart_customer	O	
+11-14	the	O	O	
+11-15	book	B-ScrPart_book	O	
+11-16	would	O	O	
+11-17	be	O	B-UnrelEv	
+11-18	due	O	O	
+11-19	in	O	O	
+11-20	two	O	O	
+11-21	weeks	B-ScrPart_return_date	O	
+11-22	.	O	O	
+
+#id=12
+#text=I thanked her and left the library . 
+12-1	I	B-ScrPart_customer	O	
+12-2	thanked	O	B-RelNScrEv	
+12-3	her	B-ScrPart_staff	O	
+12-4	and	O	O	
+12-5	left	O	B-ScrEv_leave	
+12-6	the	O	O	
+12-7	library	B-ScrPart_library	O	
+12-8	.	O	O	
+

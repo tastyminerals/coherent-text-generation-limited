@@ -1,0 +1,239 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I begin by making a grocery list of the items I will need to buy at the grocery store .
+1-1	I	B-ScrPart_shopper	O	_	_	
+1-2	begin	O	B-UnrelEv	_	_	
+1-3	by	O	O	_	_	
+1-4	making	O	B-ScrEv_make_list	_	_	
+1-5	a	O	O	_	_	
+1-6	grocery	B-ScrPart_grocery_list	O	_	_	
+1-7	list	I-ScrPart_grocery_list|B-ScrPart_grocery_list	O	_	_	
+1-8	of	O	O	_	_	
+1-9	the	O	O	_	_	
+1-10	items	B-ScrPart_groceries	O	_	_	
+1-11	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	1-1	
+1-12	will	O	O	_	_	
+1-13	need	O	O	_	_	
+1-14	to	O	O	_	_	
+1-15	buy	O	B-Evoking	_	_	
+1-16	at	O	I-Evoking	_	_	
+1-17	the	O	I-Evoking	_	_	
+1-18	grocery	O	I-Evoking	_	_	
+1-19	store	O	I-Evoking	_	_	
+1-20	.	O	O	_	_	
+
+#id=2
+#text=Some items are staples and pantry items such as milk and eggs and some are things I want like snacks .
+2-1	Some	O	O	_	_	
+2-2	items	B-ScrPart_groceries	O	webanno.custom.Corefchains_	1-10	
+2-3	are	O	B-UnrelEv	_	_	
+2-4	staples	O	O	_	_	
+2-5	and	O	O	_	_	
+2-6	pantry	O	O	_	_	
+2-7	items	B-ScrPart_groceries	O	webanno.custom.Corefchains_	2-2	
+2-8	such	O	O	_	_	
+2-9	as	O	O	_	_	
+2-10	milk	B-ScrPart_groceries	O	_	_	
+2-11	and	O	O	_	_	
+2-12	eggs	B-ScrPart_groceries	O	_	_	
+2-13	and	O	O	_	_	
+2-14	some	B-ScrPart_groceries	O	webanno.custom.Corefchains_	2-7	
+2-15	are	O	B-UnrelEv	_	_	
+2-16	things	B-ScrPart_groceries	O	webanno.custom.Corefchains_	2-14	
+2-17	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	1-11	
+2-18	want	O	B-RelNScrEv	_	_	
+2-19	like	O	O	_	_	
+2-20	snacks	B-ScrPart_groceries	O	_	_	
+2-21	.	O	O	_	_	
+
+#id=3
+#text=I visit my favorite grocery store Trader Joes which is walkable from my house in my neighborhood .
+3-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	2-17	
+3-2	visit	O	B-ScrEv_go_grocery	_	_	
+3-3	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	3-1	
+3-4	favorite	O	O	_	_	
+3-5	grocery	B-ScrPart_grocery_shop	O	_	_	
+3-6	store	I-ScrPart_grocery_shop|B-ScrPart_grocery_shop	O	_	_	
+3-7	Trader	B-ScrPart_grocery_shop	O	webanno.custom.Corefchains_	3-6	
+3-8	Joes	I-ScrPart_grocery_shop	O	webanno.custom.Corefchains_	3-6	
+3-9	which	O	O	_	_	
+3-10	is	O	B-UnrelEv	_	_	
+3-11	walkable	O	B-UnrelEv	_	_	
+3-12	from	O	O	_	_	
+3-13	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	3-3	
+3-14	house	O	O	_	_	
+3-15	in	O	O	_	_	
+3-16	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	3-13	
+3-17	neighborhood	O	O	_	_	
+3-18	.	O	O	_	_	
+
+#id=4
+#text=I bring with me my own grocery bags so I can be green and reuse bags for the environment .
+4-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	3-16	
+4-2	bring	O	B-ScrEv_take_bags	_	_	
+4-3	with	O	O	_	_	
+4-4	me	B-ScrPart_shopper	O	webanno.custom.Corefchains_	4-1	
+4-5	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	4-4	
+4-6	own	O	O	_	_	
+4-7	grocery	B-ScrPart_shopping_bags	O	_	_	
+4-8	bags	I-ScrPart_shopping_bags|B-ScrPart_shopping_bags	O	_	_	
+4-9	so	O	O	_	_	
+4-10	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	4-5	
+4-11	can	O	O	_	_	
+4-12	be	O	B-UnrelEv	_	_	
+4-13	green	O	O	_	_	
+4-14	and	O	O	_	_	
+4-15	reuse	O	B-RelNScrEv	_	_	
+4-16	bags	B-ScrPart_shopping_bags	O	webanno.custom.Corefchains_	4-8	
+4-17	for	O	O	_	_	
+4-18	the	O	O	_	_	
+4-19	environment	O	O	_	_	
+4-20	.	O	O	_	_	
+
+#id=5
+#text=I arrive at the store and get a shopping cart to put my groceries in .
+5-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	4-10	
+5-2	arrive	O	B-ScrEv_enter	_	_	
+5-3	at	O	O	_	_	
+5-4	the	O	O	_	_	
+5-5	store	B-ScrPart_grocery_shop	O	webanno.custom.Corefchains_	3-7	
+5-6	and	O	O	_	_	
+5-7	get	O	B-ScrEv_take_shop_cart	_	_	
+5-8	a	O	O	_	_	
+5-9	shopping	O	O	_	_	
+5-10	cart	O	O	_	_	
+5-11	to	O	O	_	_	
+5-12	put	O	B-RelNScrEv	_	_	
+5-13	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	5-1	
+5-14	groceries	B-ScrPart_groceries	O	webanno.custom.Corefchains_	2-16	
+5-15	in	O	O	_	_	
+5-16	.	O	O	_	_	
+
+#id=6
+#text=I start at the aisle with the vegetables and then dairy and then work my way through all the aisles of the grocery store .
+6-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	5-13	
+6-2	start	O	B-ScrEv_move_section	_	_	
+6-3	at	O	O	_	_	
+6-4	the	O	O	_	_	
+6-5	aisle	B-ScrPart_section	O	_	_	
+6-6	with	O	O	_	_	
+6-7	the	O	O	_	_	
+6-8	vegetables	B-ScrPart_groceries	O	_	_	
+6-9	and	O	O	_	_	
+6-10	then	O	O	_	_	
+6-11	dairy	B-ScrPart_groceries	O	_	_	
+6-12	and	O	O	_	_	
+6-13	then	O	O	_	_	
+6-14	work	O	B-ScrEv_move_section	_	_	
+6-15	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	6-1	
+6-16	way	B-SuppVComp	O	_	_	
+6-17	through	O	O	_	_	
+6-18	all	O	O	_	_	
+6-19	the	O	O	_	_	
+6-20	aisles	B-ScrPart_section	O	_	_	
+6-21	of	O	O	_	_	
+6-22	the	O	O	_	_	
+6-23	grocery	B-ScrPart_grocery_shop	O	_	_	
+6-24	store	I-ScrPart_grocery_shop|B-ScrPart_grocery_shop	O	webanno.custom.Corefchains_	5-5	
+6-25	.	O	O	_	_	
+
+#id=7
+#text=I buy and check off on the items on my grocery list plus more items not on the list of course .
+7-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	6-15	
+7-2	buy	O	B-RelNScrEv	_	_	
+7-3	and	O	O	_	_	
+7-4	check	O	B-MissScrEv|B-MissScrEv	_	_	
+7-5	off	O	I-MissScrEv	_	_	
+7-6	on	O	O	_	_	
+7-7	the	O	O	_	_	
+7-8	items	B-ScrPart_groceries	O	webanno.custom.Corefchains_	5-14	
+7-9	on	O	O	_	_	
+7-10	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	7-1	
+7-11	grocery	B-ScrPart_grocery_list	O	_	_	
+7-12	list	I-ScrPart_grocery_list|B-ScrPart_grocery_list	O	webanno.custom.Corefchains_	1-7	
+7-13	plus	O	O	_	_	
+7-14	more	O	O	_	_	
+7-15	items	B-ScrPart_groceries	O	webanno.custom.Corefchains_	7-8	
+7-16	not	O	O	_	_	
+7-17	on	O	O	_	_	
+7-18	the	O	O	_	_	
+7-19	list	B-ScrPart_grocery_list	O	webanno.custom.Corefchains_	7-12	
+7-20	of	O	O	_	_	
+7-21	course	O	O	_	_	
+7-22	.	O	O	_	_	
+
+#id=8
+#text=The store always has new seasonal items so I always manage to buy some of those items .
+8-1	The	O	O	_	_	
+8-2	store	B-ScrPart_grocery_shop	O	webanno.custom.Corefchains_	6-24	
+8-3	always	O	O	_	_	
+8-4	has	O	B-RelNScrEv	_	_	
+8-5	new	O	O	_	_	
+8-6	seasonal	O	O	_	_	
+8-7	items	B-ScrPart_groceries	O	webanno.custom.Corefchains_	7-15	
+8-8	so	O	O	_	_	
+8-9	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	7-10	
+8-10	always	O	O	_	_	
+8-11	manage	O	B-UnrelEv	_	_	
+8-12	to	O	O	_	_	
+8-13	buy	O	B-RelNScrEv	_	_	
+8-14	some	O	O	_	_	
+8-15	of	O	O	_	_	
+8-16	those	O	O	_	_	
+8-17	items	B-ScrPart_groceries	O	webanno.custom.Corefchains_	8-7	
+8-18	.	O	O	_	_	
+
+#id=9
+#text=I get on line and pay for my groceries at the cash register .
+9-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	8-9	
+9-2	get	O	B-ScrEv_wait	_	_	
+9-3	on	O	O	_	_	
+9-4	line	B-ScrPart_line	O	_	_	
+9-5	and	O	O	_	_	
+9-6	pay	O	B-ScrEv_pay	_	_	
+9-7	for	O	O	_	_	
+9-8	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	9-1	
+9-9	groceries	B-ScrPart_groceries	O	webanno.custom.Corefchains_	8-17	
+9-10	at	O	O	_	_	
+9-11	the	O	O	_	_	
+9-12	cash	B-ScrPart_cash_desk	O	_	_	
+9-13	register	I-ScrPart_cash_desk|B-ScrPart_cash_desk	O	_	_	
+9-14	.	O	O	_	_	
+
+#id=10
+#text=The cashiers at this store are always so nice with good customer service .
+10-1	The	O	O	_	_	
+10-2	cashiers	B-ScrPart_grocery_staff	O	_	_	
+10-3	at	O	O	_	_	
+10-4	this	O	O	_	_	
+10-5	store	B-ScrPart_grocery_shop	O	webanno.custom.Corefchains_	8-2	
+10-6	are	O	B-UnrelEv	_	_	
+10-7	always	O	O	_	_	
+10-8	so	O	O	_	_	
+10-9	nice	O	O	_	_	
+10-10	with	O	O	_	_	
+10-11	good	O	O	_	_	
+10-12	customer	O	O	_	_	
+10-13	service	O	O	_	_	
+10-14	.	O	O	_	_	
+
+#id=11
+#text=I pay for everything , leave the store , and bring my groceries home to enjoy . 
+11-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	9-8	
+11-2	pay	O	B-ScrEv_pay	_	_	
+11-3	for	O	O	_	_	
+11-4	everything	B-ScrPart_groceries	O	webanno.custom.Corefchains_	9-9	
+11-5	,	O	O	_	_	
+11-6	leave	O	B-MissScrEv	_	_	
+11-7	the	O	O	_	_	
+11-8	store	B-ScrPart_grocery_shop	O	webanno.custom.Corefchains_	10-5	
+11-9	,	O	O	_	_	
+11-10	and	O	O	_	_	
+11-11	bring	O	B-RelNScrEv	_	_	
+11-12	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	11-1	
+11-13	groceries	B-ScrPart_groceries	O	webanno.custom.Corefchains_	11-4	
+11-14	home	O	O	_	_	
+11-15	to	O	O	_	_	
+11-16	enjoy	O	B-UnrelEv	_	_	
+11-17	.	O	O	_	_	
+

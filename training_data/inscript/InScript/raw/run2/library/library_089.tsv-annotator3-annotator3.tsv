@@ -1,0 +1,215 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=A Library is a great way to re-live the past .
+1-1	A	O	O	
+1-2	Library	B-ScrPart_library	O	
+1-3	is	O	B-UnrelEv	
+1-4	a	O	O	
+1-5	great	O	O	
+1-6	way	B-No_label	O	
+1-7	to	O	O	
+1-8	re-live	O	B-UnrelEv	
+1-9	the	O	O	
+1-10	past	B-NPart	O	
+1-11	.	O	O	
+
+#id=2
+#text=It 's a magical place where you can rent a book , and return it at a leisurely pace .
+2-1	It	B-ScrPart_library	O	
+2-2	's	O	B-UnrelEv	
+2-3	a	O	O	
+2-4	magical	O	O	
+2-5	place	B-NPart	O	
+2-6	where	O	O	
+2-7	you	B-ScrPart_customer	O	
+2-8	can	O	O	
+2-9	rent	O	B-Evoking	
+2-10	a	O	I-Evoking	
+2-11	book	B-ScrPart_book	I-Evoking	
+2-12	,	O	O	
+2-13	and	O	O	
+2-14	return	O	B-RelNScrEv	
+2-15	it	B-ScrPart_book	O	
+2-16	at	O	O	
+2-17	a	O	O	
+2-18	leisurely	O	O	
+2-19	pace	B-NPart	O	
+2-20	.	O	O	
+
+#id=3
+#text=Now-a-days there are many digital options so the Library has become all but extinct .
+3-1	Now-a-days	B-No_label	O	
+3-2	there	O	O	
+3-3	are	O	B-UnrelEv	
+3-4	many	O	O	
+3-5	digital	O	O	
+3-6	options	B-NPart	O	
+3-7	so	O	O	
+3-8	the	O	O	
+3-9	Library	B-ScrPart_library	O	
+3-10	has	O	O	
+3-11	become	O	B-UnrelEv	
+3-12	all	O	O	
+3-13	but	O	O	
+3-14	extinct	O	O	
+3-15	.	O	O	
+
+#id=4
+#text=On the plus side they may have some very rare finds that you can review .
+4-1	On	O	O	
+4-2	the	O	O	
+4-3	plus	O	O	
+4-4	side	B-No_label	O	
+4-5	they	B-ScrPart_library	O	
+4-6	may	O	O	
+4-7	have	O	B-UnrelEv	
+4-8	some	O	O	
+4-9	very	O	O	
+4-10	rare	O	O	
+4-11	finds	B-ScrPart_book	O	
+4-12	that	O	O	
+4-13	you	B-ScrPart_customer	O	
+4-14	can	O	O	
+4-15	review	O	B-RelNScrEv	
+4-16	.	O	O	
+
+#id=5
+#text=In order to borrow a book from the library , head to your local one and start browsing their selection .
+5-1	In	O	O	
+5-2	order	B-No_label	O	
+5-3	to	O	O	
+5-4	borrow	O	B-Evoking	
+5-5	a	O	I-Evoking	
+5-6	book	B-ScrPart_book	I-Evoking	
+5-7	from	O	I-Evoking	
+5-8	the	O	I-Evoking	
+5-9	library	B-ScrPart_library	I-Evoking	
+5-10	,	O	O	
+5-11	head	O	B-ScrEv_get_library	
+5-12	to	O	O	
+5-13	your	B-ScrPart_customer	O	
+5-14	local	O	O	
+5-15	one	B-ScrPart_library	O	
+5-16	and	O	O	
+5-17	start	O	B-UnrelEv	
+5-18	browsing	O	B-RelNScrEv	
+5-19	their	B-ScrPart_library	O	
+5-20	selection	B-ScrPart_other	O	
+5-21	.	O	O	
+
+#id=6
+#text=You can read the back of these books for a summary on the topics covered in the book .
+6-1	You	B-ScrPart_customer	O	
+6-2	can	O	O	
+6-3	read	O	B-RelNScrEv	
+6-4	the	O	O	
+6-5	back	B-Head_of_Partitive	O	
+6-6	of	O	O	
+6-7	these	O	O	
+6-8	books	B-ScrPart_book	O	
+6-9	for	O	O	
+6-10	a	O	O	
+6-11	summary	B-NPart	O	
+6-12	on	O	O	
+6-13	the	O	O	
+6-14	topics	B-NPart	O	
+6-15	covered	O	B-UnrelEv	
+6-16	in	O	O	
+6-17	the	O	O	
+6-18	book	B-ScrPart_book	O	
+6-19	.	O	O	
+
+#id=7
+#text=Once you have selected a book or two , locate your closest librarian desk and bring the books over .
+7-1	Once	O	O	
+7-2	you	B-ScrPart_customer	O	
+7-3	have	O	O	
+7-4	selected	O	B-ScrEv_other	
+7-5	a	O	O	
+7-6	book	B-ScrPart_book	O	
+7-7	or	O	O	
+7-8	two	O	O	
+7-9	,	O	O	
+7-10	locate	O	B-ScrEv_go_check_out	
+7-11	your	B-ScrPart_customer	O	
+7-12	closest	O	O	
+7-13	librarian	B-ScrPart_check-out_desk	O	
+7-14	desk	I-ScrPart_check-out_desk|B-ScrPart_check-out_desk	O	
+7-15	and	O	O	
+7-16	bring	O	B-ScrEv_go_check_out	
+7-17	the	O	O	
+7-18	books	B-ScrPart_book	O	
+7-19	over	O	O	
+7-20	.	O	O	
+
+#id=8
+#text=They will allow you to register and sign out these books , due back at another time .
+8-1	They	B-ScrPart_staff	O	
+8-2	will	O	O	
+8-3	allow	O	B-UnrelEv	
+8-4	you	B-ScrPart_customer	O	
+8-5	to	O	O	
+8-6	register	O	B-ScrEv_register	
+8-7	and	O	O	
+8-8	sign	O	B-ScrEv_register|B-ScrEv_register	
+8-9	out	O	I-ScrEv_register	
+8-10	these	O	O	
+8-11	books	B-ScrPart_book	O	
+8-12	,	O	O	
+8-13	due	O	O	
+8-14	back	O	O	
+8-15	at	O	O	
+8-16	another	O	O	
+8-17	time	B-ScrPart_return_date	O	
+8-18	.	O	O	
+
+#id=9
+#text=Take them home and make sure to enjoy them by a fireplace , or with a small lit candle .
+9-1	Take	O	B-RelNScrEv	
+9-2	them	B-ScrPart_book	O	
+9-3	home	B-No_label	O	
+9-4	and	O	O	
+9-5	make	O	B-UnrelEv|B-UnrelEv	
+9-6	sure	O	I-UnrelEv	
+9-7	to	O	O	
+9-8	enjoy	O	B-UnrelEv	
+9-9	them	B-ScrPart_book	O	
+9-10	by	O	O	
+9-11	a	O	O	
+9-12	fireplace	B-NPart	O	
+9-13	,	O	O	
+9-14	or	O	O	
+9-15	with	O	O	
+9-16	a	O	O	
+9-17	small	O	O	
+9-18	lit	O	B-UnrelEv	
+9-19	candle	B-NPart	O	
+9-20	.	O	O	
+
+#id=10
+#text=Once you have completed these books , or grown tired of them , you can head back to the Library to return them . 
+10-1	Once	O	O	
+10-2	you	B-ScrPart_customer	O	
+10-3	have	O	O	
+10-4	completed	O	B-UnrelEv	
+10-5	these	O	O	
+10-6	books	B-ScrPart_book	O	
+10-7	,	O	O	
+10-8	or	O	O	
+10-9	grown	O	B-UnrelEv	
+10-10	tired	O	O	
+10-11	of	O	O	
+10-12	them	B-ScrPart_book	O	
+10-13	,	O	O	
+10-14	you	B-ScrPart_customer	O	
+10-15	can	O	O	
+10-16	head	O	B-ScrEv_get_library|B-ScrEv_get_library	
+10-17	back	O	I-ScrEv_get_library	
+10-18	to	O	O	
+10-19	the	O	O	
+10-20	Library	B-ScrPart_library	O	
+10-21	to	O	O	
+10-22	return	O	B-ScrEv_return_book	
+10-23	them	B-ScrPart_book	O	
+10-24	.	O	O	
+

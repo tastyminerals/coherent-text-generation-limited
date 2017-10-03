@@ -1,0 +1,266 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=After getting a flat tire on my bicycle , I took my bike into the garage and placed it on my bike repair stand .
+1-1	After	O	O	_	_	
+1-2	getting	B-RelNScrEv	O	_	_	
+1-3	a	O	O	_	_	
+1-4	flat	O	O	_	_	
+1-5	tire	O	B-ScrPart_tire	_	_	
+1-6	on	O	O	_	_	
+1-7	my	O	B-ScrPart_rider	_	_	
+1-8	bicycle	O	B-ScrPart_bicycle	_	_	
+1-9	,	O	O	_	_	
+1-10	I	O	B-ScrPart_rider	_	_	
+1-11	took	B-ScrEv_other	O	_	_	
+1-12	my	O	B-ScrPart_rider	_	_	
+1-13	bike	O	B-ScrPart_bicycle	_	_	
+1-14	into	O	O	_	_	
+1-15	the	O	O	_	_	
+1-16	garage	O	B-ScrPart_location_repair	_	_	
+1-17	and	O	O	_	_	
+1-18	placed	B-ScrEv_other	O	_	_	
+1-19	it	O	B-ScrPart_bicycle	_	_	
+1-20	on	O	O	_	_	
+1-21	my	O	B-ScrPart_rider	_	_	
+1-22	bike	B-Evoking	O	_	_	
+1-23	repair	I-Evoking	O	_	_	
+1-24	stand	O	B-ScrPart_other	_	_	
+1-25	.	O	O	_	_	
+
+#id=2
+#text=I got all the necessary tools and items ready for repair : my air compressor -LRB- smaller air compressor which serves as my air pump -RRB- , my Alan Key -LRB- Hex Key -RRB- , my spare tire , and tube repair just in case my tire could be saved by patching the inner tube .
+2-1	I	O	B-ScrPart_rider	_	_	
+2-2	got	B-ScrEv_get_tools	O	_	_	
+2-3	all	O	O	_	_	
+2-4	the	O	O	_	_	
+2-5	necessary	O	O	_	_	
+2-6	tools	O	B-ScrPart_tool	_	_	
+2-7	and	O	O	_	_	
+2-8	items	O	B-ScrPart_tool	_	_	
+2-9	ready	O	O	_	_	
+2-10	for	O	O	_	_	
+2-11	repair	B-Evoking	O	_	_	
+2-12	:	O	O	_	_	
+2-13	my	O	B-ScrPart_rider	_	_	
+2-14	air	O	B-ScrPart_tool	_	_	
+2-15	compressor	O	I-ScrPart_tool|B-ScrPart_tool	_	_	
+2-16	-LRB-	O	O	_	_	
+2-17	smaller	O	O	_	_	
+2-18	air	O	B-ScrPart_tool	_	_	
+2-19	compressor	O	I-ScrPart_tool|B-ScrPart_tool	_	_	
+2-20	which	O	O	_	_	
+2-21	serves	B-RelNScrEv	O	_	_	
+2-22	as	O	O	_	_	
+2-23	my	O	B-ScrPart_rider	_	_	
+2-24	air	O	B-ScrPart_tool	_	_	
+2-25	pump	O	I-ScrPart_tool|B-ScrPart_tool	_	_	
+2-26	-RRB-	O	O	_	_	
+2-27	,	O	O	_	_	
+2-28	my	O	B-ScrPart_rider	_	_	
+2-29	Alan	O	O	_	_	
+2-30	Key	O	B-ScrPart_tool	_	_	
+2-31	-LRB-	O	O	_	_	
+2-32	Hex	O	B-ScrPart_tool	_	_	
+2-33	Key	O	I-ScrPart_tool|B-ScrPart_tool	_	_	
+2-34	-RRB-	O	O	_	_	
+2-35	,	O	O	_	_	
+2-36	my	O	B-ScrPart_rider	_	_	
+2-37	spare	O	B-ScrPart_spare_tube	_	_	
+2-38	tire	O	I-ScrPart_spare_tube|B-ScrPart_spare_tube	_	_	
+2-39	,	O	O	_	_	
+2-40	and	O	O	_	_	
+2-41	tube	O	B-ScrPart_tool	_	_	
+2-42	repair	O	I-ScrPart_tool|B-ScrPart_tool	_	_	
+2-43	just	O	O	_	_	
+2-44	in	O	O	_	_	
+2-45	case	O	B-NPart	_	_	
+2-46	my	O	B-ScrPart_rider	_	_	
+2-47	tire	O	B-ScrPart_tire	_	_	
+2-48	could	O	O	_	_	
+2-49	be	O	O	_	_	
+2-50	saved	B-UnrelEv	O	_	_	
+2-51	by	O	O	_	_	
+2-52	patching	B-RelNScrEv	O	_	_	
+2-53	the	O	O	_	_	
+2-54	inner	O	O	_	_	
+2-55	tube	O	B-ScrPart_tire	_	_	
+2-56	.	O	O	_	_	
+
+#id=3
+#text=After placing my bike on the stand , I was able to remove the back tire off of the rim and I noticed how the inner tube of the tire could not be saved .
+3-1	After	O	O	_	_	
+3-2	placing	B-ScrEv_other	O	_	_	
+3-3	my	O	B-ScrPart_rider	_	_	
+3-4	bike	O	B-ScrPart_bicycle	_	_	
+3-5	on	O	O	_	_	
+3-6	the	O	O	_	_	
+3-7	stand	O	B-ScrPart_other	webanno.custom.Corefchains_	1-24	
+3-8	,	O	O	_	_	
+3-9	I	O	B-ScrPart_rider	_	_	
+3-10	was	O	O	_	_	
+3-11	able	O	O	_	_	
+3-12	to	O	O	_	_	
+3-13	remove	B-ScrEv_take_tire_off	O	_	_	
+3-14	the	O	O	_	_	
+3-15	back	O	B-ScrPart_tire	_	_	
+3-16	tire	O	I-ScrPart_tire|B-ScrPart_tire	_	_	
+3-17	off	O	O	_	_	
+3-18	of	O	O	_	_	
+3-19	the	O	O	_	_	
+3-20	rim	O	B-ScrPart_rim	_	_	
+3-21	and	O	O	_	_	
+3-22	I	O	B-ScrPart_rider	_	_	
+3-23	noticed	B-ScrEv_notice_problem	O	_	_	
+3-24	how	O	O	_	_	
+3-25	the	O	O	_	_	
+3-26	inner	O	O	_	_	
+3-27	tube	O	B-ScrPart_tire	_	_	
+3-28	of	O	O	_	_	
+3-29	the	O	O	_	_	
+3-30	tire	O	B-ScrPart_tire	_	_	
+3-31	could	O	O	_	_	
+3-32	not	O	O	_	_	
+3-33	be	O	O	_	_	
+3-34	saved	B-UnrelEv	O	_	_	
+3-35	.	O	O	_	_	
+
+#id=4
+#text=As a result , I tossed the damaged tire to the side and picked up the spare tire to place it on empty rim .
+4-1	As	O	O	_	_	
+4-2	a	O	O	_	_	
+4-3	result	O	B-NPart	_	_	
+4-4	,	O	O	_	_	
+4-5	I	O	B-ScrPart_rider	_	_	
+4-6	tossed	B-ScrEv_remove_tire	O	_	_	
+4-7	the	O	O	_	_	
+4-8	damaged	O	O	_	_	
+4-9	tire	O	B-ScrPart_tire	_	_	
+4-10	to	O	O	_	_	
+4-11	the	O	O	_	_	
+4-12	side	O	B-NPart	_	_	
+4-13	and	O	O	_	_	
+4-14	picked	B-ScrEv_get_tire|B-ScrEv_get_tire	O	_	_	
+4-15	up	I-ScrEv_get_tire	O	_	_	
+4-16	the	O	O	_	_	
+4-17	spare	O	B-ScrPart_spare_tube	_	_	
+4-18	tire	O	I-ScrPart_spare_tube|B-ScrPart_spare_tube	_	_	
+4-19	to	O	O	_	_	
+4-20	place	B-ScrEv_put_new_tire	O	_	_	
+4-21	it	O	B-ScrPart_spare_tube	_	_	
+4-22	on	O	O	_	_	
+4-23	empty	O	O	_	_	
+4-24	rim	O	B-ScrPart_rim	_	_	
+4-25	.	O	O	_	_	
+
+#id=5
+#text=After a few moments of fitting the tire to the rim and placing it correctly on , I was able to test to see if the tire would spin and roll correctly .
+5-1	After	O	O	_	_	
+5-2	a	O	O	_	_	
+5-3	few	O	O	_	_	
+5-4	moments	O	B-NPart	_	_	
+5-5	of	O	O	_	_	
+5-6	fitting	B-ScrEv_put_new_tire	O	_	_	
+5-7	the	O	O	_	_	
+5-8	tire	O	B-ScrPart_spare_tube	_	_	
+5-9	to	O	O	_	_	
+5-10	the	O	O	_	_	
+5-11	rim	O	B-ScrPart_rim	_	_	
+5-12	and	O	O	_	_	
+5-13	placing	B-ScrEv_put_new_tire	O	_	_	
+5-14	it	O	B-ScrPart_spare_tube	_	_	
+5-15	correctly	O	O	_	_	
+5-16	on	O	O	_	_	
+5-17	,	O	O	_	_	
+5-18	I	O	B-ScrPart_rider	_	_	
+5-19	was	O	O	_	_	
+5-20	able	O	O	_	_	
+5-21	to	O	O	_	_	
+5-22	test	B-ScrEv_check_new_tire	O	_	_	
+5-23	to	O	O	_	_	
+5-24	see	B-UnrelEv	O	_	_	
+5-25	if	O	O	_	_	
+5-26	the	O	O	_	_	
+5-27	tire	O	B-ScrPart_spare_tube	_	_	
+5-28	would	O	O	_	_	
+5-29	spin	B-RelNScrEv	O	_	_	
+5-30	and	O	O	_	_	
+5-31	roll	B-RelNScrEv	O	_	_	
+5-32	correctly	O	O	_	_	
+5-33	.	O	O	_	_	
+
+#id=6
+#text=I rode the tire around for a few minutes to get a feel for the tire .
+6-1	I	O	B-ScrPart_rider	_	_	
+6-2	rode	B-RelNScrEv	O	_	_	
+6-3	the	O	O	_	_	
+6-4	tire	O	B-ScrPart_spare_tube	_	_	
+6-5	around	O	O	_	_	
+6-6	for	O	O	_	_	
+6-7	a	O	O	_	_	
+6-8	few	O	O	_	_	
+6-9	minutes	O	B-NPart	_	_	
+6-10	to	O	O	_	_	
+6-11	get	B-UnrelEv	O	_	_	
+6-12	a	O	O	_	_	
+6-13	feel	O	B-NPart	_	_	
+6-14	for	O	O	_	_	
+6-15	the	O	O	_	_	
+6-16	tire	O	B-ScrPart_spare_tube	_	_	
+6-17	.	O	O	_	_	
+
+#id=7
+#text=The air was low , so I had to pump it up an additional few pounds of air in order to get it correct .
+7-1	The	O	O	_	_	
+7-2	air	O	B-ScrPart_air	_	_	
+7-3	was	B-UnrelEv	O	_	_	
+7-4	low	O	O	_	_	
+7-5	,	O	O	_	_	
+7-6	so	O	O	_	_	
+7-7	I	O	B-ScrPart_rider	_	_	
+7-8	had	O	O	_	_	
+7-9	to	O	O	_	_	
+7-10	pump	B-ScrEv_refill_tire_air	O	_	_	
+7-11	it	O	B-ScrPart_spare_tube	_	_	
+7-12	up	O	O	_	_	
+7-13	an	O	O	_	_	
+7-14	additional	O	O	_	_	
+7-15	few	O	O	_	_	
+7-16	pounds	O	B-NPart	_	_	
+7-17	of	O	O	_	_	
+7-18	air	O	B-ScrPart_air	_	_	
+7-19	in	O	O	_	_	
+7-20	order	O	B-No_label	_	_	
+7-21	to	O	O	_	_	
+7-22	get	B-UnrelEv	O	_	_	
+7-23	it	O	B-No_label	_	_	
+7-24	correct	O	O	_	_	
+7-25	.	O	O	_	_	
+
+#id=8
+#text=The entire process only took me about ten-to-fifteen minutes to complete , and I had my new tire on my bike in no time . 
+8-1	The	O	O	_	_	
+8-2	entire	O	O	_	_	
+8-3	process	O	B-NPart	_	_	
+8-4	only	O	O	_	_	
+8-5	took	B-RelNScrEv	O	_	_	
+8-6	me	O	B-ScrPart_rider	_	_	
+8-7	about	O	O	_	_	
+8-8	ten-to-fifteen	O	O	_	_	
+8-9	minutes	O	B-NPart	_	_	
+8-10	to	O	O	_	_	
+8-11	complete	B-UnrelEv	O	_	_	
+8-12	,	O	O	_	_	
+8-13	and	O	O	_	_	
+8-14	I	O	B-ScrPart_rider	_	_	
+8-15	had	B-UnrelEv	O	_	_	
+8-16	my	O	B-ScrPart_rider	_	_	
+8-17	new	O	O	_	_	
+8-18	tire	O	B-ScrPart_spare_tube	_	_	
+8-19	on	O	O	_	_	
+8-20	my	O	B-ScrPart_rider	_	_	
+8-21	bike	O	B-ScrPart_bicycle	_	_	
+8-22	in	O	O	_	_	
+8-23	no	O	O	_	_	
+8-24	time	O	B-No_label	_	_	
+8-25	.	O	O	_	_	
+

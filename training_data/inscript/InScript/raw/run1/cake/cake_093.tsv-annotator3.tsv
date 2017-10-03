@@ -1,0 +1,257 @@
+ # webanno.custom.Participants | Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=This weekend , I decided I wanted to try baking my first cake .
+1-1	This	O	O	O	_	_	
+1-2	weekend	O	O	O	_	_	
+1-3	,	O	O	O	_	_	
+1-4	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+1-5	decided	O	O	B-UnrelEv	_	_	
+1-6	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	1-4	
+1-7	wanted	O	O	B-UnrelEv	_	_	
+1-8	to	O	O	O	_	_	
+1-9	try	O	O	B-UnrelEv	_	_	
+1-10	baking	O	O	B-Evoking	_	_	
+1-11	my	B-ScrPart_cook	B-webanno.custom.Participants_	I-Evoking	webanno.custom.Corefchains_	1-6	
+1-12	first	O	O	I-Evoking	_	_	
+1-13	cake	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	_	_	
+1-14	.	O	O	O	_	_	
+
+#id=2
+#text=I found a recipe online for an easy to make cake , printed out a list of the ingredients , and went to the grocery store to get them .
+2-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	1-11	
+2-2	found	O	O	B-ScrEv_choose_recipe	_	_	
+2-3	a	O	O	O	_	_	
+2-4	recipe	B-ScrPart_baking_instructions	B-webanno.custom.Participants_	O	_	_	
+2-5	online	B-ScrPart_recipe_source	B-webanno.custom.Participants_	O	_	_	
+2-6	for	O	O	O	_	_	
+2-7	an	O	O	O	_	_	
+2-8	easy	O	O	O	_	_	
+2-9	to	O	O	O	_	_	
+2-10	make	O	O	B-RelNScrEv	_	_	
+2-11	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	1-13	
+2-12	,	O	O	O	_	_	
+2-13	printed	O	O	B-RelNScrEv|B-RelNScrEv	_	_	
+2-14	out	O	O	I-RelNScrEv	_	_	
+2-15	a	O	O	O	_	_	
+2-16	list	B-MissScrPart	B-webanno.custom.Participants_	O	_	_	
+2-17	of	O	O	O	_	_	
+2-18	the	O	O	O	_	_	
+2-19	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+2-20	,	O	O	O	_	_	
+2-21	and	O	O	O	_	_	
+2-22	went	O	O	B-MissScrEvent	_	_	
+2-23	to	O	O	O	_	_	
+2-24	the	O	O	O	_	_	
+2-25	grocery	B-ScrPart_store	B-webanno.custom.Participants_	O	_	_	
+2-26	store	I-ScrPart_store|B-ScrPart_store	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+2-27	to	O	O	O	_	_	
+2-28	get	O	O	B-ScrEv_get_ingredients	_	_	
+2-29	them	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	2-19	
+2-30	.	O	O	O	_	_	
+
+#id=3
+#text=I knew about some of the common things , like eggs , flour , and sugar , but the list helped me get a lot of things I did n't own and would n't know to get .
+3-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	2-1	
+3-2	knew	O	O	B-UnrelEv	_	_	
+3-3	about	O	O	O	_	_	
+3-4	some	O	O	O	_	_	
+3-5	of	O	O	O	_	_	
+3-6	the	O	O	O	_	_	
+3-7	common	O	O	O	_	_	
+3-8	things	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+3-9	,	O	O	O	_	_	
+3-10	like	O	O	O	_	_	
+3-11	eggs	B-ScrPart_ingredients|B-ScrPart_ingredients	B-webanno.custom.Participants_|B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	3-8	
+3-12	,	I-ScrPart_ingredients	I-webanno.custom.Participants_	O	webanno.custom.Corefchains_	3-8	
+3-13	flour	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	3-8	
+3-14	,	I-ScrPart_ingredients	I-webanno.custom.Participants_	O	webanno.custom.Corefchains_	3-8	
+3-15	and	I-ScrPart_ingredients	I-webanno.custom.Participants_	O	webanno.custom.Corefchains_	3-8	
+3-16	sugar	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	3-8	
+3-17	,	O	O	O	_	_	
+3-18	but	O	O	O	_	_	
+3-19	the	O	O	O	_	_	
+3-20	list	B-MissScrPart	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	2-16	
+3-21	helped	O	O	B-UnrelEv	_	_	
+3-22	me	O	O	O	_	_	
+3-23	get	O	O	B-ScrEv_get_ingredients	_	_	
+3-24	a	O	O	O	_	_	
+3-25	lot	O	O	O	_	_	
+3-26	of	O	O	O	_	_	
+3-27	things	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+3-28	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	3-1	
+3-29	did	O	O	O	_	_	
+3-30	n't	O	O	O	_	_	
+3-31	own	O	O	B-UnrelEv	_	_	
+3-32	and	O	O	O	_	_	
+3-33	would	O	O	O	_	_	
+3-34	n't	O	O	O	_	_	
+3-35	know	O	O	B-UnrelEv	_	_	
+3-36	to	O	O	O	_	_	
+3-37	get	O	O	B-UnrelEv	_	_	
+3-38	.	O	O	O	_	_	
+
+#id=4
+#text=When I got home , I followed the recipe as closely as I could , adding each of the ingredients at the exact amount of the recipe asked for .
+4-1	When	O	O	O	_	_	
+4-2	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	3-28	
+4-3	got	O	O	B-RelNScrEv	_	_	
+4-4	home	B-ScrPart_kitchen/location	B-webanno.custom.Participants_	O	_	_	
+4-5	,	O	O	O	_	_	
+4-6	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	4-2	
+4-7	followed	O	O	B-RelNScrEv	_	_	
+4-8	the	O	O	O	_	_	
+4-9	recipe	B-ScrPart_baking_instructions	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	2-4	
+4-10	as	O	O	O	_	_	
+4-11	closely	O	O	O	_	_	
+4-12	as	O	O	O	_	_	
+4-13	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	4-6	
+4-14	could	O	O	O	_	_	
+4-15	,	O	O	O	_	_	
+4-16	adding	O	O	B-ScrEv_add_ingredients	_	_	
+4-17	each	O	O	O	_	_	
+4-18	of	O	O	O	_	_	
+4-19	the	O	O	O	_	_	
+4-20	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	2-29	
+4-21	at	O	O	O	_	_	
+4-22	the	O	O	O	_	_	
+4-23	exact	O	O	O	_	_	
+4-24	amount	B-NPart	B-webanno.custom.Participants_	O	_	_	
+4-25	of	O	O	O	_	_	
+4-26	the	O	O	O	_	_	
+4-27	recipe	B-ScrPart_baking_instructions	B-webanno.custom.Participants_	O	_	_	
+4-28	asked	O	O	B-UnrelEv|B-UnrelEv	_	_	
+4-29	for	O	O	I-UnrelEv	_	_	
+4-30	.	O	O	O	_	_	
+
+#id=5
+#text=I mixed them all up as described , and put them into a pan that I had borrowed from my mother .
+5-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	4-13	
+5-2	mixed	O	O	B-ScrEv_make_dough	_	_	
+5-3	them	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	4-20	
+5-4	all	O	O	O	_	_	
+5-5	up	O	O	O	_	_	
+5-6	as	O	O	O	_	_	
+5-7	described	O	O	B-UnrelEv	_	_	
+5-8	,	O	O	O	_	_	
+5-9	and	O	O	O	_	_	
+5-10	put	O	O	B-ScrEv_pour_dough	_	_	
+5-11	them	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-3	
+5-12	into	O	O	O	_	_	
+5-13	a	O	O	O	_	_	
+5-14	pan	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	_	_	
+5-15	that	O	O	O	_	_	
+5-16	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-1	
+5-17	had	O	O	O	_	_	
+5-18	borrowed	O	O	B-UnrelEv	_	_	
+5-19	from	O	O	O	_	_	
+5-20	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-16	
+5-21	mother	B-NPart	B-webanno.custom.Participants_	O	_	_	
+5-22	.	O	O	O	_	_	
+
+#id=6
+#text=I put the pan in the oven and let the cake cook .
+6-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-20	
+6-2	put	O	O	B-ScrEv_put_cake_oven	_	_	
+6-3	the	O	O	O	_	_	
+6-4	pan	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-14	
+6-5	in	O	O	O	_	_	
+6-6	the	O	O	O	_	_	
+6-7	oven	B-ScrPart_oven	B-webanno.custom.Participants_	O	_	_	
+6-8	and	O	O	O	_	_	
+6-9	let	O	O	B-UnrelEv	_	_	
+6-10	the	O	O	O	_	_	
+6-11	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	2-11	
+6-12	cook	O	O	B-RelNScrEv	_	_	
+6-13	.	O	O	O	_	_	
+
+#id=7
+#text=I checked on it occasionally to see if it was looking ok , and because I was really excited to see how it was turning out .
+7-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	6-1	
+7-2	checked	O	O	B-ScrEv_check|B-ScrEv_check	_	_	
+7-3	on	O	O	I-ScrEv_check	_	_	
+7-4	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	6-11	
+7-5	occasionally	O	O	O	_	_	
+7-6	to	O	O	O	_	_	
+7-7	see	O	O	B-UnrelEv	_	_	
+7-8	if	O	O	O	_	_	
+7-9	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	7-4	
+7-10	was	O	O	O	_	_	
+7-11	looking	O	O	B-UnrelEv	_	_	
+7-12	ok	O	O	O	_	_	
+7-13	,	O	O	O	_	_	
+7-14	and	O	O	O	_	_	
+7-15	because	O	O	O	_	_	
+7-16	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	7-1	
+7-17	was	O	O	B-UnrelEv	_	_	
+7-18	really	O	O	O	_	_	
+7-19	excited	O	O	B-UnrelEv	_	_	
+7-20	to	O	O	O	_	_	
+7-21	see	O	O	B-UnrelEv	_	_	
+7-22	how	O	O	O	_	_	
+7-23	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	7-9	
+7-24	was	O	O	O	_	_	
+7-25	turning	O	O	B-UnrelEv|B-UnrelEv	_	_	
+7-26	out	O	O	I-UnrelEv	_	_	
+7-27	.	O	O	O	_	_	
+
+#id=8
+#text=When it was done in the oven I removed it , and applied an extra thick coat of frosting .
+8-1	When	O	O	O	_	_	
+8-2	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	7-23	
+8-3	was	O	O	O	_	_	
+8-4	done	O	O	B-UnrelEv	_	_	
+8-5	in	O	O	O	_	_	
+8-6	the	O	O	O	_	_	
+8-7	oven	B-ScrPart_oven	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	6-7	
+8-8	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	7-16	
+8-9	removed	O	O	B-ScrEv_take_out_oven	_	_	
+8-10	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	8-2	
+8-11	,	O	O	O	_	_	
+8-12	and	O	O	O	_	_	
+8-13	applied	O	O	B-ScrEv_decorate	_	_	
+8-14	an	O	O	O	_	_	
+8-15	extra	O	O	O	_	_	
+8-16	thick	O	O	O	_	_	
+8-17	coat	B-NPart	B-webanno.custom.Participants_	O	_	_	
+8-18	of	O	O	O	_	_	
+8-19	frosting	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+8-20	.	O	O	O	_	_	
+
+#id=9
+#text=I was supposed to wait for the cake to cook , but I was too excited to try it out and ate it much sooner than recommended .
+9-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	8-8	
+9-2	was	O	O	B-UnrelEv	_	_	
+9-3	supposed	O	O	B-UnrelEv|B-UnrelEv	_	_	
+9-4	to	O	O	I-UnrelEv	_	_	
+9-5	wait	O	O	B-ScrEv_wait	_	_	
+9-6	for	O	O	O	_	_	
+9-7	the	O	O	O	_	_	
+9-8	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	8-10	
+9-9	to	O	O	O	_	_	
+9-10	cook	O	O	B-RelNScrEv	_	_	
+9-11	,	O	O	O	_	_	
+9-12	but	O	O	O	_	_	
+9-13	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	9-1	
+9-14	was	O	O	B-UnrelEv	_	_	
+9-15	too	O	O	O	_	_	
+9-16	excited	O	O	O	_	_	
+9-17	to	O	O	O	_	_	
+9-18	try	O	O	B-UnrelEv	_	_	
+9-19	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	9-8	
+9-20	out	O	O	O	_	_	
+9-21	and	O	O	O	_	_	
+9-22	ate	O	O	B-ScrEv_eat	_	_	
+9-23	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	9-19	
+9-24	much	O	O	O	_	_	
+9-25	sooner	O	O	O	_	_	
+9-26	than	O	O	O	_	_	
+9-27	recommended	O	O	B-UnrelEv	_	_	
+9-28	.	O	O	O	_	_	
+
+#id=10
+#text=It was delicious ! 
+10-1	It	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	9-23	
+10-2	was	O	O	B-UnrelEv	_	_	
+10-3	delicious	O	O	O	_	_	
+10-4	!	O	O	O	_	_	
+

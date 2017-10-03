@@ -1,0 +1,247 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=My parents had purchased a new lemon tree that they wanted to plant , so I went to their house to help them plant it .
+1-1	My	B-ScrPart_gardener	O	
+1-2	parents	B-ScrPart_gardener	O	
+1-3	had	O	O	
+1-4	purchased	O	B-ScrEv_get_tree	
+1-5	a	O	O	
+1-6	new	O	O	
+1-7	lemon	B-ScrPart_tree	O	
+1-8	tree	I-ScrPart_tree|B-ScrPart_tree	O	
+1-9	that	O	O	
+1-10	they	B-ScrPart_gardener	O	
+1-11	wanted	O	B-UnrelEv	
+1-12	to	O	O	
+1-13	plant	O	B-RelNScrEv	
+1-14	,	O	O	
+1-15	so	O	O	
+1-16	I	B-ScrPart_gardener	O	
+1-17	went	O	B-UnrelEv	
+1-18	to	O	O	
+1-19	their	B-ScrPart_gardener	O	
+1-20	house	B-NPart	O	
+1-21	to	O	O	
+1-22	help	O	B-UnrelEv	
+1-23	them	B-ScrPart_gardener	O	
+1-24	plant	O	B-RelNScrEv	
+1-25	it	B-ScrPart_tree	O	
+1-26	.	O	O	
+
+#id=2
+#text=My dad already had a place picked out to put the tree , so we went to work .
+2-1	My	B-ScrPart_gardener	O	
+2-2	dad	B-ScrPart_gardener	O	
+2-3	already	O	O	
+2-4	had	O	O	
+2-5	a	O	O	
+2-6	place	B-ScrPart_location_garden	O	
+2-7	picked	O	B-ScrEv_find_place|B-ScrEv_find_place	
+2-8	out	O	I-ScrEv_find_place	
+2-9	to	O	O	
+2-10	put	O	B-RelNScrEv	
+2-11	the	O	O	
+2-12	tree	B-ScrPart_tree	O	
+2-13	,	O	O	
+2-14	so	O	O	
+2-15	we	B-ScrPart_gardener	O	
+2-16	went	O	B-RelNScrEv	
+2-17	to	O	O	
+2-18	work	B-SuppVComp	O	
+2-19	.	O	O	
+
+#id=3
+#text=We had to dig a fairly large hole and it took several hours .
+3-1	We	B-ScrPart_gardener	O	
+3-2	had	O	O	
+3-3	to	O	O	
+3-4	dig	O	B-ScrEv_dug_hole	
+3-5	a	O	O	
+3-6	fairly	B-ScrPart_hole	O	
+3-7	large	O	O	
+3-8	hole	B-ScrPart_hole	O	
+3-9	and	O	O	
+3-10	it	B-No_label	O	
+3-11	took	O	B-RelNScrEv	
+3-12	several	O	O	
+3-13	hours	B-ScrPart_time	O	
+3-14	.	O	O	
+
+#id=4
+#text=We had to take a break half way through because it was rather tiring .
+4-1	We	B-ScrPart_gardener	O	
+4-2	had	O	O	
+4-3	to	O	O	
+4-4	take	O	B-ScrEv_other	
+4-5	a	O	O	
+4-6	break	B-SuppVComp	O	
+4-7	half	O	O	
+4-8	way	B-No_label	O	
+4-9	through	O	O	
+4-10	because	O	O	
+4-11	it	B-No_label	O	
+4-12	was	O	B-UnrelEv	
+4-13	rather	O	O	
+4-14	tiring	O	O	
+4-15	.	O	O	
+
+#id=5
+#text=After the water break , we finished digging and we tested the depth by setting the bundled roots into the hole to make sure that it was deep enough .
+5-1	After	O	O	
+5-2	the	O	O	
+5-3	water	B-ScrPart_other	O	
+5-4	break	I-ScrPart_other|B-ScrPart_other	O	
+5-5	,	O	O	
+5-6	we	B-ScrPart_gardener	O	
+5-7	finished	O	B-UnrelEv	
+5-8	digging	O	B-ScrEv_dug_hole	
+5-9	and	O	O	
+5-10	we	B-ScrPart_gardener	O	
+5-11	tested	O	B-ScrEv_other	
+5-12	the	O	O	
+5-13	depth	B-ScrPart_other	O	
+5-14	by	O	O	
+5-15	setting	O	B-ScrEv_place_root	
+5-16	the	O	O	
+5-17	bundled	O	B-RelNScrEv	
+5-18	roots	B-ScrPart_other	O	
+5-19	into	O	O	
+5-20	the	O	O	
+5-21	hole	B-ScrPart_hole	O	
+5-22	to	O	O	
+5-23	make	O	B-UnrelEv|B-UnrelEv	
+5-24	sure	O	I-UnrelEv	
+5-25	that	O	O	
+5-26	it	B-ScrPart_hole	O	
+5-27	was	O	B-UnrelEv	
+5-28	deep	O	O	
+5-29	enough	O	O	
+5-30	.	O	O	
+
+#id=6
+#text=Since it was , I added some of the nutrient rich soil additives into the bottom of the hole and my dad watered the soil additives with the garden hose .
+6-1	Since	O	O	
+6-2	it	B-No_label	O	
+6-3	was	O	O	
+6-4	,	O	O	
+6-5	I	B-ScrPart_gardener	O	
+6-6	added	O	B-ScrEv_place_fertilizers	
+6-7	some	O	O	
+6-8	of	O	O	
+6-9	the	O	O	
+6-10	nutrient	B-NPart	O	
+6-11	rich	O	O	
+6-12	soil	B-ScrPart_fertilizer	O	
+6-13	additives	I-ScrPart_fertilizer|B-ScrPart_fertilizer	O	
+6-14	into	O	O	
+6-15	the	O	O	
+6-16	bottom	B-NPart	O	
+6-17	of	O	O	
+6-18	the	O	O	
+6-19	hole	B-ScrPart_hole	O	
+6-20	and	O	O	
+6-21	my	B-ScrPart_gardener	O	
+6-22	dad	B-ScrPart_gardener	O	
+6-23	watered	O	B-ScrEv_water	
+6-24	the	O	O	
+6-25	soil	B-ScrPart_fertilizer	O	
+6-26	additives	I-ScrPart_fertilizer|B-ScrPart_fertilizer	O	
+6-27	with	O	O	
+6-28	the	O	O	
+6-29	garden	B-ScrPart_gardening_tool	O	
+6-30	hose	I-ScrPart_gardening_tool|B-ScrPart_gardening_tool	O	
+6-31	.	O	O	
+
+#id=7
+#text=We then cut the burlap off that had covered the roots and carefully set the tree into the hole .
+7-1	We	B-ScrPart_gardener	O	
+7-2	then	O	O	
+7-3	cut	O	B-ScrEv_unwrap_root	
+7-4	the	O	O	
+7-5	burlap	B-ScrPart_wrapping	O	
+7-6	off	O	O	
+7-7	that	O	O	
+7-8	had	O	O	
+7-9	covered	O	B-RelNScrEv	
+7-10	the	O	O	
+7-11	roots	B-ScrPart_other	O	
+7-12	and	O	O	
+7-13	carefully	O	O	
+7-14	set	O	B-ScrEv_place_root	
+7-15	the	O	O	
+7-16	tree	B-ScrPart_tree	O	
+7-17	into	O	O	
+7-18	the	O	O	
+7-19	hole	B-ScrPart_hole	O	
+7-20	.	O	O	
+
+#id=8
+#text=We took another break and then set in to refilling the hole with dirt .
+8-1	We	B-ScrPart_gardener	O	
+8-2	took	O	B-ScrEv_other	
+8-3	another	O	O	
+8-4	break	B-SuppVComp	O	
+8-5	and	O	O	
+8-6	then	O	O	
+8-7	set	O	B-UnrelEv|B-UnrelEv	
+8-8	in	O	I-UnrelEv	
+8-9	to	O	O	
+8-10	refilling	O	B-ScrEv_refill_hole	
+8-11	the	O	O	
+8-12	hole	B-ScrPart_hole	O	
+8-13	with	O	O	
+8-14	dirt	B-ScrPart_dirt	O	
+8-15	.	O	O	
+
+#id=9
+#text=It took a long time to do , but it was well worth it .
+9-1	It	B-No_label	O	
+9-2	took	O	B-RelNScrEv	
+9-3	a	O	O	
+9-4	long	O	O	
+9-5	time	B-No_label	O	
+9-6	to	O	O	
+9-7	do	O	B-UnrelEv	
+9-8	,	O	O	
+9-9	but	O	O	
+9-10	it	B-No_label	O	
+9-11	was	O	B-UnrelEv	
+9-12	well	O	O	
+9-13	worth	O	O	
+9-14	it	B-No_label	O	
+9-15	.	O	O	
+
+#id=10
+#text=I left the hose turned on at the base of the tree so that it could get properly soaked and we went back into the house to properly cool off . 
+10-1	I	B-ScrPart_gardener	O	
+10-2	left	O	B-UnrelEv	
+10-3	the	O	O	
+10-4	hose	B-ScrPart_gardening_tool	O	
+10-5	turned	O	B-RelNScrEv	
+10-6	on	O	O	
+10-7	at	O	O	
+10-8	the	O	O	
+10-9	base	B-Head_of_Partitive	O	
+10-10	of	O	O	
+10-11	the	O	O	
+10-12	tree	B-ScrPart_tree	O	
+10-13	so	O	O	
+10-14	that	O	O	
+10-15	it	B-ScrPart_tree	O	
+10-16	could	O	O	
+10-17	get	O	B-UnrelEv	
+10-18	properly	O	O	
+10-19	soaked	O	B-RelNScrEv	
+10-20	and	O	O	
+10-21	we	B-ScrPart_gardener	O	
+10-22	went	O	B-UnrelEv	
+10-23	back	O	O	
+10-24	into	O	O	
+10-25	the	O	O	
+10-26	house	B-NPart	O	
+10-27	to	O	O	
+10-28	properly	O	O	
+10-29	cool	O	B-UnrelEv|B-UnrelEv	
+10-30	off	O	I-UnrelEv	
+10-31	.	O	O	
+

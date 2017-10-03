@@ -1,0 +1,220 @@
+# webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants					
+#id=1					
+#text=After a very tough workout with some friend 's at the gym , I was very sore and wanted to take a bath to help my soreness and get clean .					
+1-1	After	O	O	_	_
+1-2	a	O	O	_	_
+1-3	very	O	O	_	_
+1-4	tough	O	O	_	_
+1-5	workout	O	O	_	_
+1-6	with	O	O	_	_
+1-7	some	O	O	_	_
+1-8	friend	O	O	_	_
+1-9	's	O	O	_	_
+1-10	at	O	O	_	_
+1-11	the	O	O	_	_
+1-12	gym	O	O	_	_
+1-13	,	O	O	_	_
+1-14	I	B-ScrPart_bather	O	_	_
+1-15	was	O	B-UnrelEv	_	_
+1-16	very	O	O	_	_
+1-17	sore	O	O	_	_
+1-18	and	O	O	_	_
+1-19	wanted	O	O	_	_
+1-20	to	O	O	_	_
+1-21	take	O	B-Evoking	_	_
+1-22	a	O	I-Evoking	_	_
+1-23	bath	O	I-Evoking	_	_
+1-24	to	O	O	_	_
+1-25	help	O	B-UnrelEv	_	_
+1-26	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	1-14
+1-27	soreness	O	O	_	_
+1-28	and	O	O	_	_
+1-29	get	O	B-UnrelEv	_	_
+1-30	clean	O	O	_	_
+1-31	.	O	O	_	_
+					
+#id=2					
+#text=I remembered that mom bought me something to put inside of the bath that helped soothe sore muscles .					
+2-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	1-26
+2-2	remembered	O	B-UnrelEv	_	_
+2-3	that	O	O	_	_
+2-4	mom	O	O	_	_
+2-5	bought	O	B-UnrelEv	_	_
+2-6	me	B-ScrPart_bather	O	webanno.custom.Corefchains_	2-1
+2-7	something	B-ScrPart_bath_means	O	_	_
+2-8	to	O	O	_	_
+2-9	put	O	B-ScrEv_put_bubble_bath_scent	_	_
+2-10	inside	O	O	_	_
+2-11	of	O	O	_	_
+2-12	the	O	O	_	_
+2-13	bath	B-ScrPart_water	O	_	_
+2-14	that	O	O	_	_
+2-15	helped	O	B-UnrelEv	_	_
+2-16	soothe	O	B-UnrelEv	_	_
+2-17	sore	O	O	_	_
+2-18	muscles	O	O	_	_
+2-19	.	O	O	_	_
+					
+#id=3					
+#text=I grabbed it from the cabinet and turned the water on to very hot .					
+3-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	2-6
+3-2	grabbed	O	B-RelNScrEv	_	_
+3-3	it	B-ScrPart_bath_means	O	webanno.custom.Corefchains_	2-7
+3-4	from	O	O	_	_
+3-5	the	O	O	_	_
+3-6	cabinet	B-NPart	O	_	_
+3-7	and	O	O	_	_
+3-8	turned	O	B-ScrEv_turn_water_on	_	_
+3-9	the	O	O	_	_
+3-10	water	B-ScrPart_water	O	webanno.custom.Corefchains_	2-13
+3-11	on	O	O	_	_
+3-12	to	O	O	_	_
+3-13	very	O	O	_	_
+3-14	hot	O	O	_	_
+3-15	.	O	O	_	_
+					
+#id=4					
+#text=After about 3 minutes , the tub was full and I poured some of the mixture in it and it became very bubbly and smelled great .					
+4-1	After	O	O	_	_
+4-2	about	O	O	_	_
+4-3	3	O	O	_	_
+4-4	minutes	O	O	_	_
+4-5	,	O	O	_	_
+4-6	the	O	O	_	_
+4-7	tub	B-ScrPart_bathtub	O	_	_
+4-8	was	O	B-UnrelEv	_	_
+4-9	full	O	O	_	_
+4-10	and	O	O	_	_
+4-11	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	3-1
+4-12	poured	O	B-ScrEv_put_bubble_bath_scent	_	_
+4-13	some	B-ScrPart_bath_means	O	webanno.custom.Corefchains_	3-3
+4-14	of	O	O	_	_
+4-15	the	O	O	_	_
+4-16	mixture	B-ScrPart_bath_means	O	webanno.custom.Corefchains_	4-13
+4-17	in	O	O	_	_
+4-18	it	B-ScrPart_bathtub	O	webanno.custom.Corefchains_	4-7
+4-19	and	O	O	_	_
+4-20	it	B-ScrPart_bathtub	O	webanno.custom.Corefchains_	4-18
+4-21	became	O	B-UnrelEv	_	_
+4-22	very	O	O	_	_
+4-23	bubbly	O	O	_	_
+4-24	and	O	O	_	_
+4-25	smelled	O	B-UnrelEv	_	_
+4-26	great	O	O	_	_
+4-27	.	O	O	_	_
+					
+#id=5					
+#text=I slowly placed myself into the bathtub and lit a few candles to help me relax , as I had a very long day .					
+5-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	4-11
+5-2	slowly	O	O	_	_
+5-3	placed	O	B-ScrEv_sink_water	_	_
+5-4	myself	B-ScrPart_bather	O	webanno.custom.Corefchains_	5-1
+5-5	into	O	O	_	_
+5-6	the	O	O	_	_
+5-7	bathtub	B-ScrPart_bathtub	O	webanno.custom.Corefchains_	4-20
+5-8	and	O	O	_	_
+5-9	lit	O	B-ScrEv_prepare_bath	_	_
+5-10	a	O	O	_	_
+5-11	few	O	O	_	_
+5-12	candles	B-ScrPart_in-bath_entertainment	O	_	_
+5-13	to	O	O	_	_
+5-14	help	O	B-UnrelEv	_	_
+5-15	me	B-ScrPart_bather	O	webanno.custom.Corefchains_	5-4
+5-16	relax	O	B-ScrEv_relax	_	_
+5-17	,	O	O	_	_
+5-18	as	O	O	_	_
+5-19	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	5-15
+5-20	had	O	B-UnrelEv	_	_
+5-21	a	O	O	_	_
+5-22	very	O	O	_	_
+5-23	long	O	O	_	_
+5-24	day	O	O	_	_
+5-25	.	O	O	_	_
+					
+#id=6					
+#text=After about 30 minutes of soaking in the very warm water , I got out of the tub , dried myself and then drained it .					
+6-1	After	O	O	_	_
+6-2	about	O	O	_	_
+6-3	30	O	O	_	_
+6-4	minutes	O	O	_	_
+6-5	of	O	O	_	_
+6-6	soaking	O	B-RelNScrEv	_	_
+6-7	in	O	O	_	_
+6-8	the	O	O	_	_
+6-9	very	O	O	_	_
+6-10	warm	O	O	_	_
+6-11	water	B-ScrPart_water	O	webanno.custom.Corefchains_	3-10
+6-12	,	O	O	_	_
+6-13	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	5-19
+6-14	got	O	B-ScrEv_get_out_bath	_	_
+6-15	out	O	O	_	_
+6-16	of	O	O	_	_
+6-17	the	O	O	_	_
+6-18	tub	B-ScrPart_bathtub	O	webanno.custom.Corefchains_	5-7
+6-19	,	O	O	_	_
+6-20	dried	O	B-ScrEv_dry	_	_
+6-21	myself	B-ScrPart_bather	O	webanno.custom.Corefchains_	6-13
+6-22	and	O	O	_	_
+6-23	then	O	O	_	_
+6-24	drained	O	B-RelNScrEv	_	_
+6-25	it	B-ScrPart_bathtub	O	webanno.custom.Corefchains_	6-18
+6-26	.	O	O	_	_
+					
+#id=7					
+#text=After it fully drained , I ran some more water in order to fully rinse all of the soap mixture down the drain , leaving a very clean tub .					
+7-1	After	O	O	_	_
+7-2	it	B-ScrPart_bathtub	O	webanno.custom.Corefchains_	6-25
+7-3	fully	O	O	_	_
+7-4	drained	O	B-RelNScrEv	_	_
+7-5	,	O	O	_	_
+7-6	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	6-21
+7-7	ran	O	B-RelNScrEv	_	_
+7-8	some	O	O	_	_
+7-9	more	O	O	_	_
+7-10	water	B-ScrPart_water	O	webanno.custom.Corefchains_	6-11
+7-11	in	O	O	_	_
+7-12	order	O	O	_	_
+7-13	to	O	O	_	_
+7-14	fully	O	O	_	_
+7-15	rinse	O	B-RelNScrEv	_	_
+7-16	all	O	O	_	_
+7-17	of	O	O	_	_
+7-18	the	O	O	_	_
+7-19	soap	B-ScrPart_bath_means	O	_	_
+7-20	mixture	I-ScrPart_bath_means|B-ScrPart_bath_means	O	webanno.custom.Corefchains_	4-16
+7-21	down	O	O	_	_
+7-22	the	O	O	_	_
+7-23	drain	B-ScrPart_drain	O	_	_
+7-24	,	O	O	_	_
+7-25	leaving	O	B-UnrelEv	_	_
+7-26	a	O	O	_	_
+7-27	very	O	O	_	_
+7-28	clean	O	O	_	_
+7-29	tub	B-ScrPart_bathtub	O	webanno.custom.Corefchains_	7-2
+7-30	.	O	O	_	_
+					
+#id=8					
+#text=After this , I changed into comfortable clothes and enjoyed my evening .					
+8-1	After	O	O	_	_
+8-2	this	O	O	_	_
+8-3	,	O	O	_	_
+8-4	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	7-6
+8-5	changed	O	B-ScrEv_get_dressed	_	_
+8-6	into	O	O	_	_
+8-7	comfortable	O	O	_	_
+8-8	clothes	B-ScrPart_clothes	O	_	_
+8-9	and	O	O	_	_
+8-10	enjoyed	O	B-UnrelEv	_	_
+8-11	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	8-4
+8-12	evening	O	O	_	_
+8-13	.	O	O	_	_
+					
+#id=9					
+#text=It was a very relaxing bath .					
+9-1	It	O	O	_	_
+9-2	was	O	B-UnrelEv	_	_
+9-3	a	O	O	_	_
+9-4	very	O	O	_	_
+9-5	relaxing	O	O	_	_
+9-6	bath	O	O	_	_
+9-7	.	O	O	_	_

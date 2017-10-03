@@ -1,0 +1,228 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I was very excited to go on a train trip .
+1-1	I	B-ScrPart_passenger	O	_	_	
+1-2	was	O	O	_	_	
+1-3	very	O	O	_	_	
+1-4	excited	O	B-UnrelEv	_	_	
+1-5	to	O	O	_	_	
+1-6	go	O	B-Evoking	_	_	
+1-7	on	O	I-Evoking	_	_	
+1-8	a	O	I-Evoking	_	_	
+1-9	train	B-ScrPart_trip	I-Evoking	_	_	
+1-10	trip	I-ScrPart_trip|B-ScrPart_trip	I-Evoking	_	_	
+1-11	.	O	O	_	_	
+
+#id=2
+#text=I went over to the ticket counter and gave the teller the money I had saved for my ticket .
+2-1	I	B-ScrPart_passenger	O	_	_	
+2-2	went	O	B-RelNScrEv	_	_	
+2-3	over	O	I-RelNScrEv	_	_	
+2-4	to	O	O	_	_	
+2-5	the	O	O	_	_	
+2-6	ticket	B-ScrPart_ticket_office	O	_	_	
+2-7	counter	I-ScrPart_ticket_office|B-ScrPart_ticket_office	O	_	_	
+2-8	and	O	O	_	_	
+2-9	gave	O	B-ScrEv_get_tickets	_	_	
+2-10	the	O	O	_	_	
+2-11	teller	B-ScrPart_train_staff	O	_	_	
+2-12	the	O	O	_	_	
+2-13	money	B-ScrPart_payment_means	O	_	_	
+2-14	I	B-ScrPart_passenger	O	_	_	
+2-15	had	O	O	_	_	
+2-16	saved	O	B-RelNScrEv	_	_	
+2-17	for	O	O	_	_	
+2-18	my	B-ScrPart_passenger	O	_	_	
+2-19	ticket	B-ScrPart_card/ticket	O	_	_	
+2-20	.	O	O	_	_	
+
+#id=3
+#text=I could hardly wait until the train finally arrived .
+3-1	I	B-ScrPart_passenger	O	_	_	
+3-2	could	O	O	_	_	
+3-3	hardly	O	O	_	_	
+3-4	wait	O	B-ScrEv_wait	_	_	
+3-5	until	O	O	_	_	
+3-6	the	O	O	_	_	
+3-7	train	B-ScrPart_train	O	_	_	
+3-8	finally	O	O	_	_	
+3-9	arrived	O	B-ScrEv_train_arrives	_	_	
+3-10	.	O	O	_	_	
+
+#id=4
+#text=I climbed aboard , put my suitcases next to all the other people 's suitcases , and found a seat .
+4-1	I	B-ScrPart_passenger	O	_	_	
+4-2	climbed	O	B-ScrEv_get_on	_	_	
+4-3	aboard	O	O	_	_	
+4-4	,	O	O	_	_	
+4-5	put	O	B-RelNScrEv	_	_	
+4-6	my	B-ScrPart_passenger	O	_	_	
+4-7	suitcases	B-ScrPart_luggage	O	_	_	
+4-8	next	O	O	_	_	
+4-9	to	O	O	_	_	
+4-10	all	O	O	_	_	
+4-11	the	O	O	_	_	
+4-12	other	O	O	_	_	
+4-13	people	B-ScrPart_passenger	O	_	_	
+4-14	's	O	O	_	_	
+4-15	suitcases	B-ScrPart_luggage	O	_	_	
+4-16	,	O	O	_	_	
+4-17	and	O	O	_	_	
+4-18	found	O	B-ScrEv_find_place	_	_	
+4-19	a	O	O	_	_	
+4-20	seat	B-ScrPart_seat	O	_	_	
+4-21	.	O	O	_	_	
+
+#id=5
+#text=Once the train started going , the conductor came by to punch everyone 's tickets .
+5-1	Once	O	O	_	_	
+5-2	the	O	O	_	_	
+5-3	train	B-ScrPart_train	O	_	_	
+5-4	started	O	B-ScrEv_train_departs	_	_	
+5-5	going	O	O	_	_	
+5-6	,	O	O	_	_	
+5-7	the	O	O	_	_	
+5-8	conductor	B-ScrPart_train_staff	O	_	_	
+5-9	came	O	B-RelNScrEv	_	_	
+5-10	by	O	I-RelNScrEv	_	_	
+5-11	to	O	O	_	_	
+5-12	punch	O	B-ScrEv_conductor_checks	_	_	
+5-13	everyone	B-ScrPart_passenger	O	_	_	
+5-14	's	O	O	_	_	
+5-15	tickets	B-ScrPart_card/ticket	O	_	_	
+5-16	.	O	O	_	_	
+
+#id=6
+#text=I gladly handed him mine to be punched .
+6-1	I	B-ScrPart_passenger	O	_	_	
+6-2	gladly	O	O	_	_	
+6-3	handed	O	B-RelNScrEv	_	_	
+6-4	him	B-ScrPart_train_staff	O	_	_	
+6-5	mine	B-ScrPart_card/ticket	O	_	_	
+6-6	to	O	O	_	_	
+6-7	be	O	O	_	_	
+6-8	punched	O	B-ScrEv_conductor_checks	_	_	
+6-9	.	O	O	_	_	
+
+#id=7
+#text=After that , I decided I would get some lunch .
+7-1	After	O	O	_	_	
+7-2	that	O	O	_	_	
+7-3	,	O	O	_	_	
+7-4	I	B-ScrPart_passenger	O	_	_	
+7-5	decided	O	B-UnrelEv	_	_	
+7-6	I	B-ScrPart_passenger	O	_	_	
+7-7	would	O	O	_	_	
+7-8	get	O	B-ScrEv_spend_time_train	_	_	
+7-9	some	O	O	_	_	
+7-10	lunch	B-ScrPart_in-train_entertainment	O	_	_	
+7-11	.	O	O	_	_	
+
+#id=8
+#text=I walked to the back of the train to the lunch car and ordered some food .
+8-1	I	B-ScrPart_passenger	O	_	_	
+8-2	walked	O	B-ScrEv_spend_time_train	_	_	
+8-3	to	O	O	_	_	
+8-4	the	O	O	_	_	
+8-5	back	B-NPart	O	_	_	
+8-6	of	O	O	_	_	
+8-7	the	O	O	_	_	
+8-8	train	B-ScrPart_train	O	_	_	
+8-9	to	O	O	_	_	
+8-10	the	O	O	_	_	
+8-11	lunch	B-ScrPart_coach	O	_	_	
+8-12	car	I-ScrPart_coach|B-ScrPart_coach	O	_	_	
+8-13	and	O	O	_	_	
+8-14	ordered	O	B-ScrEv_spend_time_train	_	_	
+8-15	some	O	O	_	_	
+8-16	food	B-ScrPart_in-train_entertainment	O	_	_	
+8-17	.	O	O	_	_	
+
+#id=9
+#text=It was fun to eat while watching the world pass by through the window as the train rolled down the tracks .
+9-1	It	B-No_label	O	_	_	
+9-2	was	O	B-UnrelEv	_	_	
+9-3	fun	B-NPart	O	_	_	
+9-4	to	O	O	_	_	
+9-5	eat	O	B-ScrEv_spend_time_train	_	_	
+9-6	while	O	O	_	_	
+9-7	watching	O	B-ScrEv_spend_time_train	_	_	
+9-8	the	O	O	_	_	
+9-9	world	B-NPart	O	_	_	
+9-10	pass	O	B-RelNScrEv	_	_	
+9-11	by	O	I-RelNScrEv	_	_	
+9-12	through	O	O	_	_	
+9-13	the	O	O	_	_	
+9-14	window	B-ScrPart_in-train_entertainment	O	_	_	
+9-15	as	O	O	_	_	
+9-16	the	O	O	_	_	
+9-17	train	B-ScrPart_train	O	_	_	
+9-18	rolled	O	B-RelNScrEv	_	_	
+9-19	down	O	I-RelNScrEv	_	_	
+9-20	the	O	O	_	_	
+9-21	tracks	B-NPart	O	_	_	
+9-22	.	O	O	_	_	
+
+#id=10
+#text=Before I knew it , we had arrived at the destination .
+10-1	Before	O	O	_	_	
+10-2	I	B-ScrPart_passenger	O	_	_	
+10-3	knew	O	B-UnrelEv	_	_	
+10-4	it	B-No_label	O	_	_	
+10-5	,	O	O	_	_	
+10-6	we	B-ScrPart_passenger	O	_	_	
+10-7	had	O	O	_	_	
+10-8	arrived	O	B-ScrEv_arrive_destination	_	_	
+10-9	at	O	O	_	_	
+10-10	the	O	O	_	_	
+10-11	destination	B-ScrPart_destination	O	_	_	
+10-12	.	O	O	_	_	
+
+#id=11
+#text=I gathered up my things , grabbed my suitcase , and climbed down out of the train as the conductor gave me a hand .
+11-1	I	B-ScrPart_passenger	O	_	_	
+11-2	gathered	O	B-RelNScrEv	_	_	
+11-3	up	O	I-RelNScrEv	_	_	
+11-4	my	B-ScrPart_passenger	O	_	_	
+11-5	things	B-ScrPart_personal_belongings	O	_	_	
+11-6	,	O	O	_	_	
+11-7	grabbed	O	B-RelNScrEv	_	_	
+11-8	my	B-ScrPart_passenger	O	_	_	
+11-9	suitcase	B-ScrPart_luggage	O	_	_	
+11-10	,	O	O	_	_	
+11-11	and	O	O	_	_	
+11-12	climbed	O	B-ScrEv_get_off	_	_	
+11-13	down	O	I-ScrEv_get_off	_	_	
+11-14	out	O	O	_	_	
+11-15	of	O	O	_	_	
+11-16	the	O	O	_	_	
+11-17	train	B-ScrPart_train	O	_	_	
+11-18	as	O	O	_	_	
+11-19	the	O	O	_	_	
+11-20	conductor	B-ScrPart_train_staff	O	_	_	
+11-21	gave	O	B-RelNScrEv	_	_	
+11-22	me	B-ScrPart_passenger	O	_	_	
+11-23	a	O	O	_	_	
+11-24	hand	B-SuppVComp	O	_	_	
+11-25	.	O	O	_	_	
+
+#id=12
+#text=It had been a very fun trip , and I ca n't wait to ride again . 
+12-1	It	B-No_label	O	_	_	
+12-2	had	O	O	_	_	
+12-3	been	O	B-UnrelEv	_	_	
+12-4	a	O	O	_	_	
+12-5	very	O	O	_	_	
+12-6	fun	O	O	_	_	
+12-7	trip	B-ScrPart_trip	O	webanno.custom.Corefchains_	1-10	
+12-8	,	O	O	_	_	
+12-9	and	O	O	_	_	
+12-10	I	B-ScrPart_passenger	O	_	_	
+12-11	ca	O	O	_	_	
+12-12	n't	O	O	_	_	
+12-13	wait	O	B-UnrelEv	_	_	
+12-14	to	O	O	_	_	
+12-15	ride	O	B-Evoking	_	_	
+12-16	again	O	O	_	_	
+12-17	.	O	O	_	_	
+

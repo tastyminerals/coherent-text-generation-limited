@@ -1,0 +1,355 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=When I go grocery shopping I almost always take a list .
+1-1	When	O	O	_	_	
+1-2	I	B-ScrPart_shopper	O	_	_	
+1-3	go	O	B-Evoking	_	_	
+1-4	grocery	B-ScrPart_groceries	I-Evoking	_	_	
+1-5	shopping	O	I-Evoking|B-ScrEv_get_groceries	_	_	
+1-6	I	B-ScrPart_shopper	O	_	_	
+1-7	almost	O	O	_	_	
+1-8	always	O	O	_	_	
+1-9	take	O	B-ScrEv_make_list	_	_	
+1-10	a	O	O	_	_	
+1-11	list	B-ScrPart_grocery_list	O	_	_	
+1-12	.	O	O	_	_	
+
+#id=2
+#text=So for me , the first step to shopping is list making .
+2-1	So	O	O	_	_	
+2-2	for	O	O	_	_	
+2-3	me	B-ScrPart_shopper	O	_	_	
+2-4	,	O	O	_	_	
+2-5	the	O	O	_	_	
+2-6	first	O	O	_	_	
+2-7	step	B-NPart	O	_	_	
+2-8	to	O	O	_	_	
+2-9	shopping	O	B-ScrEv_get_groceries	_	_	
+2-10	is	O	B-UnrelEv	_	_	
+2-11	list	B-ScrPart_grocery_list	O	_	_	
+2-12	making	O	B-ScrEv_make_list	_	_	
+2-13	.	O	O	_	_	
+
+#id=3
+#text=I list what I plan to cook this week , and also cleaning products and similar things .
+3-1	I	B-ScrPart_shopper	O	_	_	
+3-2	list	O	B-ScrEv_make_list	_	_	
+3-3	what	B-???	O	_	_	
+3-4	I	B-ScrPart_shopper	O	_	_	
+3-5	plan	O	B-UnrelEv	_	_	
+3-6	to	O	O	_	_	
+3-7	cook	O	B-UnrelEv	_	_	
+3-8	this	O	O	_	_	
+3-9	week	B-NPart	O	_	_	
+3-10	,	O	O	_	_	
+3-11	and	O	O	_	_	
+3-12	also	O	O	_	_	
+3-13	cleaning	B-ScrPart_groceries	O	_	_	
+3-14	products	I-ScrPart_groceries|B-ScrPart_groceries	O	_	_	
+3-15	and	O	O	_	_	
+3-16	similar	O	O	_	_	
+3-17	things	B-ScrPart_groceries	O	webanno.custom.Corefchains_	1-4	
+3-18	.	O	O	_	_	
+
+#id=4
+#text=My favorite place to shop is a huge membership store , for its good prices .
+4-1	My	B-ScrPart_shopper	O	_	_	
+4-2	favorite	O	O	_	_	
+4-3	place	B-ScrPart_grocery_shop	O	_	_	
+4-4	to	O	O	_	_	
+4-5	shop	O	B-Evoking	_	_	
+4-6	is	O	B-UnrelEv	_	_	
+4-7	a	O	O	_	_	
+4-8	huge	O	O	_	_	
+4-9	membership	B-ScrPart_grocery_shop	O	_	_	
+4-10	store	I-ScrPart_grocery_shop|B-ScrPart_grocery_shop	O	_	_	
+4-11	,	O	O	_	_	
+4-12	for	O	O	_	_	
+4-13	its	B-ScrPart_grocery_shop	O	_	_	
+4-14	good	O	O	_	_	
+4-15	prices	B-ScrPart_price	O	_	_	
+4-16	.	O	O	_	_	
+
+#id=5
+#text=I pick up a shopping cart just outside the store .
+5-1	I	B-ScrPart_shopper	O	_	_	
+5-2	pick	O	B-ScrEv_take_shop_cart	_	_	
+5-3	up	O	I-ScrEv_take_shop_cart	_	_	
+5-4	a	O	O	_	_	
+5-5	shopping	B-ScrPart_shopping_cart/basket	O	_	_	
+5-6	cart	I-ScrPart_shopping_cart/basket|B-ScrPart_shopping_cart/basket	O	_	_	
+5-7	just	O	O	_	_	
+5-8	outside	O	O	_	_	
+5-9	the	O	O	_	_	
+5-10	store	B-ScrPart_grocery_shop	O	_	_	
+5-11	.	O	O	_	_	
+
+#id=6
+#text=Then I enter , sometimes showing my membership card to the person at the door and sometimes getting in without showing it .
+6-1	Then	O	O	_	_	
+6-2	I	B-ScrPart_shopper	O	_	_	
+6-3	enter	O	B-ScrEv_enter	_	_	
+6-4	,	O	O	_	_	
+6-5	sometimes	O	O	_	_	
+6-6	showing	O	B-RelNScrEv	_	_	
+6-7	my	B-ScrPart_shopper	O	_	_	
+6-8	membership	B-NPart	O	_	_	
+6-9	card	I-NPart|B-NPart	O	_	_	
+6-10	to	O	O	_	_	
+6-11	the	O	O	_	_	
+6-12	person	B-ScrPart_grocery_staff	O	_	_	
+6-13	at	O	O	_	_	
+6-14	the	O	O	_	_	
+6-15	door	B-NPart	O	_	_	
+6-16	and	O	O	_	_	
+6-17	sometimes	O	O	_	_	
+6-18	getting	O	B-ScrEv_enter	_	_	
+6-19	in	O	I-ScrEv_enter	_	_	
+6-20	without	O	O	_	_	
+6-21	showing	O	B-RelNScrEv	_	_	
+6-22	it	B-NPart	O	_	_	
+6-23	.	O	O	_	_	
+
+#id=7
+#text=I cruise past the impulse items just inside the door , and through the electronics and organic foods sections that come next .
+7-1	I	B-ScrPart_shopper	O	_	_	
+7-2	cruise	O	B-ScrEv_move_section	_	_	
+7-3	past	O	I-ScrEv_move_section	_	_	
+7-4	the	O	O	_	_	
+7-5	impulse	B-ScrPart_groceries	O	_	_	
+7-6	items	I-ScrPart_groceries|B-ScrPart_groceries	O	_	_	
+7-7	just	O	O	_	_	
+7-8	inside	O	O	_	_	
+7-9	the	O	O	_	_	
+7-10	door	B-NPart	O	_	_	
+7-11	,	O	O	_	_	
+7-12	and	O	O	_	_	
+7-13	through	O	O	_	_	
+7-14	the	O	O	_	_	
+7-15	electronics	B-ScrPart_section	O	_	_	
+7-16	and	O	O	_	_	
+7-17	organic	B-ScrPart_section	O	_	_	
+7-18	foods	I-ScrPart_section	O	_	_	
+7-19	sections	I-ScrPart_section|B-ScrPart_section	O	_	_	
+7-20	that	B-ScrPart_section	O	_	_	
+7-21	come	O	B-ScrEv_move_section	_	_	
+7-22	next	O	O	_	_	
+7-23	.	O	O	_	_	
+
+#id=8
+#text=Next come many aisles with items like light bulbs and pillows .
+8-1	Next	O	O	_	_	
+8-2	come	O	B-ScrEv_move_section	_	_	
+8-3	many	O	O	_	_	
+8-4	aisles	B-ScrPart_section	O	_	_	
+8-5	with	O	O	_	_	
+8-6	items	B-ScrPart_groceries	O	_	_	
+8-7	like	O	O	_	_	
+8-8	light	B-ScrPart_groceries	O	_	_	
+8-9	bulbs	I-ScrPart_groceries|B-ScrPart_groceries	O	_	_	
+8-10	and	O	O	_	_	
+8-11	pillows	B-ScrPart_groceries	O	_	_	
+8-12	.	O	O	_	_	
+
+#id=9
+#text=Finally I get to the food .
+9-1	Finally	O	O	_	_	
+9-2	I	B-ScrPart_shopper	O	_	_	
+9-3	get	O	B-ScrEv_move_section	_	_	
+9-4	to	O	I-ScrEv_move_section	_	_	
+9-5	the	O	O	_	_	
+9-6	food	B-ScrPart_groceries	O	_	_	
+9-7	.	O	O	_	_	
+
+#id=10
+#text=There are usually people here offering samples of new food items .
+10-1	There	O	O	_	_	
+10-2	are	O	B-UnrelEv	_	_	
+10-3	usually	O	O	_	_	
+10-4	people	B-ScrPart_grocery_staff	O	_	_	
+10-5	here	O	O	_	_	
+10-6	offering	O	B-RelNScrEv	_	_	
+10-7	samples	B-NPart	O	_	_	
+10-8	of	O	O	_	_	
+10-9	new	O	O	_	_	
+10-10	food	B-ScrPart_groceries	O	_	_	
+10-11	items	I-ScrPart_groceries|B-ScrPart_groceries	O	_	_	
+10-12	.	O	O	_	_	
+
+#id=11
+#text=I often take some .
+11-1	I	B-ScrPart_shopper	O	_	_	
+11-2	often	O	O	_	_	
+11-3	take	O	B-RelNScrEv	_	_	
+11-4	some	B-NPart	O	_	_	
+11-5	.	O	O	_	_	
+
+#id=12
+#text=I buy large packages of chicken or fish that can be frozen .
+12-1	I	B-ScrPart_shopper	O	_	_	
+12-2	buy	O	B-ScrEv_get_groceries	_	_	
+12-3	large	O	O	_	_	
+12-4	packages	B-Head_of_Partitive	O	_	_	
+12-5	of	O	O	_	_	
+12-6	chicken	B-ScrPart_groceries	O	_	_	
+12-7	or	O	O	_	_	
+12-8	fish	B-ScrPart_groceries	O	_	_	
+12-9	that	O	O	_	_	
+12-10	can	O	O	_	_	
+12-11	be	O	O	_	_	
+12-12	frozen	O	B-UnrelEv	_	_	
+12-13	.	O	O	_	_	
+
+#id=13
+#text=Sometimes I buy fresh bread .
+13-1	Sometimes	O	O	_	_	
+13-2	I	B-ScrPart_shopper	O	_	_	
+13-3	buy	O	B-ScrEv_get_groceries	_	_	
+13-4	fresh	O	O	_	_	
+13-5	bread	B-ScrPart_groceries	O	_	_	
+13-6	.	O	O	_	_	
+
+#id=14
+#text=I continue to the fresh fruit and vegetable section , where I try to restrain myself to what I can use .
+14-1	I	B-ScrPart_shopper	O	_	_	
+14-2	continue	O	B-ScrEv_move_section	_	_	
+14-3	to	O	O	_	_	
+14-4	the	O	O	_	_	
+14-5	fresh	B-ScrPart_section	O	_	_	
+14-6	fruit	I-ScrPart_section	O	_	_	
+14-7	and	I-ScrPart_section	O	_	_	
+14-8	vegetable	I-ScrPart_section	O	_	_	
+14-9	section	I-ScrPart_section|B-ScrPart_section	O	_	_	
+14-10	,	O	O	_	_	
+14-11	where	O	O	_	_	
+14-12	I	B-ScrPart_shopper	O	_	_	
+14-13	try	O	B-UnrelEv	_	_	
+14-14	to	O	O	_	_	
+14-15	restrain	O	B-RelNScrEv	_	_	
+14-16	myself	B-ScrPart_shopper	O	_	_	
+14-17	to	O	O	_	_	
+14-18	what	B-ScrPart_groceries	O	_	_	
+14-19	I	B-ScrPart_shopper	O	_	_	
+14-20	can	O	O	_	_	
+14-21	use	O	B-RelNScrEv	_	_	
+14-22	.	O	O	_	_	
+
+#id=15
+#text=Next come the chiller and frozen foods , but I go past hem to pet food and paper goods .
+15-1	Next	O	O	_	_	
+15-2	come	O	B-ScrEv_move_section	_	_	
+15-3	the	O	O	_	_	
+15-4	chiller	B-ScrPart_section	O	_	_	
+15-5	and	O	O	_	_	
+15-6	frozen	O	O	_	_	
+15-7	foods	B-ScrPart_groceries	O	_	_	
+15-8	,	O	O	_	_	
+15-9	but	O	O	_	_	
+15-10	I	B-ScrPart_shopper	O	_	_	
+15-11	go	O	B-ScrEv_move_section	_	_	
+15-12	past	O	I-ScrEv_move_section	_	_	
+15-13	hem	B-ScrPart_section	O	_	_	
+15-14	to	O	O	_	_	
+15-15	pet	B-ScrPart_groceries	O	_	_	
+15-16	food	I-ScrPart_groceries|B-ScrPart_groceries	O	_	_	
+15-17	and	O	O	_	_	
+15-18	paper	B-ScrPart_groceries	O	_	_	
+15-19	goods	I-ScrPart_groceries|B-ScrPart_groceries	O	_	_	
+15-20	.	O	O	_	_	
+
+#id=16
+#text=I get frozen food on the way back , and then a few canned food and dry goods .
+16-1	I	B-ScrPart_shopper	O	_	_	
+16-2	get	O	B-ScrEv_get_groceries	_	_	
+16-3	frozen	O	O	_	_	
+16-4	food	B-ScrPart_groceries	O	_	_	
+16-5	on	O	O	_	_	
+16-6	the	O	O	_	_	
+16-7	way	B-NPart	O	_	_	
+16-8	back	O	O	_	_	
+16-9	,	O	O	_	_	
+16-10	and	O	O	_	_	
+16-11	then	O	O	_	_	
+16-12	a	O	O	_	_	
+16-13	few	O	O	_	_	
+16-14	canned	O	B-UnrelEv	_	_	
+16-15	food	B-ScrPart_groceries	O	_	_	
+16-16	and	O	O	_	_	
+16-17	dry	O	O	_	_	
+16-18	goods	B-ScrPart_groceries	O	_	_	
+16-19	.	O	O	_	_	
+
+#id=17
+#text=The last areas are pharmacy , which I mostly avoid , and the book section , where I 'm apt to linger .
+17-1	The	O	O	_	_	
+17-2	last	O	O	_	_	
+17-3	areas	B-ScrPart_section	O	_	_	
+17-4	are	O	B-UnrelEv	_	_	
+17-5	pharmacy	B-ScrPart_section	O	_	_	
+17-6	,	O	O	_	_	
+17-7	which	B-ScrPart_section	O	_	_	
+17-8	I	B-ScrPart_shopper	O	_	_	
+17-9	mostly	O	O	_	_	
+17-10	avoid	O	B-UnrelEv	_	_	
+17-11	,	O	O	_	_	
+17-12	and	O	O	_	_	
+17-13	the	O	O	_	_	
+17-14	book	B-ScrPart_section	O	_	_	
+17-15	section	I-ScrPart_section|B-ScrPart_section	O	_	_	
+17-16	,	O	O	_	_	
+17-17	where	O	O	_	_	
+17-18	I	B-ScrPart_shopper	O	_	_	
+17-19	'm	O	B-UnrelEv	_	_	
+17-20	apt	O	I-UnrelEv	_	_	
+17-21	to	O	O	_	_	
+17-22	linger	O	B-RelNScrEv	_	_	
+17-23	.	O	O	_	_	
+
+#id=18
+#text=Then I wait in line for a while , pay , and leave the store .
+18-1	Then	O	O	_	_	
+18-2	I	B-ScrPart_shopper	O	_	_	
+18-3	wait	O	B-ScrEv_wait	_	_	
+18-4	in	O	O	_	_	
+18-5	line	B-ScrPart_line	O	_	_	
+18-6	for	O	O	_	_	
+18-7	a	O	O	_	_	
+18-8	while	B-No_label	O	_	_	
+18-9	,	O	O	_	_	
+18-10	pay	O	B-ScrEv_pay	_	_	
+18-11	,	O	O	_	_	
+18-12	and	O	O	_	_	
+18-13	leave	O	B-ScrEv_leave	_	_	
+18-14	the	O	O	_	_	
+18-15	store	B-ScrPart_grocery_shop	O	_	_	
+18-16	.	O	O	_	_	
+
+#id=19
+#text=As I leave , someone checks my cart , to make sure what 's on my receipt matches the huge load I am carting home . 
+19-1	As	O	O	_	_	
+19-2	I	B-ScrPart_shopper	O	_	_	
+19-3	leave	O	B-ScrEv_leave	_	_	
+19-4	,	O	O	_	_	
+19-5	someone	B-ScrPart_grocery_staff	O	_	_	
+19-6	checks	O	B-RelNScrEv	_	_	
+19-7	my	B-ScrPart_shopper	O	_	_	
+19-8	cart	B-ScrPart_shopping_cart/basket	O	_	_	
+19-9	,	O	O	_	_	
+19-10	to	O	O	_	_	
+19-11	make	O	B-UnrelEv	_	_	
+19-12	sure	O	I-UnrelEv	_	_	
+19-13	what	O	O	_	_	
+19-14	's	O	B-UnrelEv	_	_	
+19-15	on	O	O	_	_	
+19-16	my	B-ScrPart_shopper	O	_	_	
+19-17	receipt	B-ScrPart_receipt	O	_	_	
+19-18	matches	O	B-RelNScrEv	_	_	
+19-19	the	O	O	_	_	
+19-20	huge	O	O	_	_	
+19-21	load	B-ScrPart_groceries	O	_	_	
+19-22	I	B-ScrPart_shopper	O	_	_	
+19-23	am	O	O	_	_	
+19-24	carting	O	B-RelNScrEv	_	_	
+19-25	home	B-NPart	O	_	_	
+19-26	.	O	O	_	_	
+

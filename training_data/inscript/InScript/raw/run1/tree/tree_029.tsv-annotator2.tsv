@@ -1,0 +1,200 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Planting a tree was one of the most difficult but memorable experiences of my life .
+1-1	Planting	B-Evoking	O	_	_	
+1-2	a	I-Evoking	O	_	_	
+1-3	tree	I-Evoking	B-ScrPart_tree	_	_	
+1-4	was	B-UnrelEv	O	_	_	
+1-5	one	O	O	_	_	
+1-6	of	O	O	_	_	
+1-7	the	O	O	_	_	
+1-8	most	O	O	_	_	
+1-9	difficult	O	O	_	_	
+1-10	but	O	O	_	_	
+1-11	memorable	O	O	_	_	
+1-12	experiences	O	O	_	_	
+1-13	of	O	O	_	_	
+1-14	my	O	B-ScrPart_gardener	_	_	
+1-15	life	O	O	_	_	
+1-16	.	O	O	_	_	
+
+#id=2
+#text=When I decided I wanted to plant a tree I knew absolutely nothing about it , so my first step was to do some research .
+2-1	When	O	O	_	_	
+2-2	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	1-14	
+2-3	decided	B-UnrelEv	O	_	_	
+2-4	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	2-2	
+2-5	wanted	O	O	_	_	
+2-6	to	O	O	_	_	
+2-7	plant	B-Evoking	O	_	_	
+2-8	a	I-Evoking	O	_	_	
+2-9	tree	I-Evoking	B-ScrPart_tree	webanno.custom.Corefchains_	1-3	
+2-10	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	2-4	
+2-11	knew	B-UnrelEv	O	_	_	
+2-12	absolutely	O	O	_	_	
+2-13	nothing	O	O	_	_	
+2-14	about	O	O	_	_	
+2-15	it	O	O	_	_	
+2-16	,	O	O	_	_	
+2-17	so	O	O	_	_	
+2-18	my	O	B-ScrPart_gardener	webanno.custom.Corefchains_	2-10	
+2-19	first	O	O	_	_	
+2-20	step	O	O	_	_	
+2-21	was	B-UnrelEv	O	_	_	
+2-22	to	O	O	_	_	
+2-23	do	B-RelNScrEv	O	_	_	
+2-24	some	O	O	_	_	
+2-25	research	O	B-SuppVComp	_	_	
+2-26	.	O	O	_	_	
+
+#id=3
+#text=As it turns out , while it is possible to plant a tree from a seed , trees are most commonly planted in the for of saplings : small baby trees that come in pots .
+3-1	As	O	O	_	_	
+3-2	it	O	O	_	_	
+3-3	turns	B-UnrelEv	O	_	_	
+3-4	out	I-UnrelEv	O	_	_	
+3-5	,	O	O	_	_	
+3-6	while	O	O	_	_	
+3-7	it	O	O	_	_	
+3-8	is	B-UnrelEv	O	_	_	
+3-9	possible	O	O	_	_	
+3-10	to	O	O	_	_	
+3-11	plant	B-Evoking	O	_	_	
+3-12	a	I-Evoking	O	_	_	
+3-13	tree	I-Evoking	B-ScrPart_tree	webanno.custom.Corefchains_	2-9	
+3-14	from	O	O	_	_	
+3-15	a	O	O	_	_	
+3-16	seed	O	O	_	_	
+3-17	,	O	O	_	_	
+3-18	trees	O	B-ScrPart_tree	webanno.custom.Corefchains_	3-13	
+3-19	are	O	O	_	_	
+3-20	most	O	O	_	_	
+3-21	commonly	O	O	_	_	
+3-22	planted	B-Evoking	O	_	_	
+3-23	in	O	O	_	_	
+3-24	the	O	O	_	_	
+3-25	for	O	O	_	_	
+3-26	of	O	O	_	_	
+3-27	saplings	O	B-ScrPart_tree	webanno.custom.Corefchains_	3-18	
+3-28	:	O	O	_	_	
+3-29	small	O	O	_	_	
+3-30	baby	O	B-ScrPart_tree	_	_	
+3-31	trees	O	I-ScrPart_tree|B-ScrPart_tree	webanno.custom.Corefchains_	3-27	
+3-32	that	O	O	_	_	
+3-33	come	B-UnrelEv	O	_	_	
+3-34	in	O	O	_	_	
+3-35	pots	O	O	_	_	
+3-36	.	O	O	_	_	
+
+#id=4
+#text=So I went to the Home Depot and picked a tree .
+4-1	So	O	O	_	_	
+4-2	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	2-18	
+4-3	went	B-RelNScrEv	O	_	_	
+4-4	to	O	O	_	_	
+4-5	the	O	O	_	_	
+4-6	Home	O	B-ScrPart_shop	_	_	
+4-7	Depot	O	I-ScrPart_shop|B-ScrPart_shop	_	_	
+4-8	and	O	O	_	_	
+4-9	picked	B-ScrEv_choose_tree	O	_	_	
+4-10	a	O	O	_	_	
+4-11	tree	O	B-ScrPart_tree	webanno.custom.Corefchains_	3-31	
+4-12	.	O	O	_	_	
+
+#id=5
+#text=I decided on an avocado tree because I love the buttery goodness of its fruit .
+5-1	I	O	B-ScrPart_tree	webanno.custom.Corefchains_	4-2	
+5-2	decided	B-ScrEv_choose_tree	O	_	_	
+5-3	on	O	O	_	_	
+5-4	an	O	O	_	_	
+5-5	avocado	O	B-ScrPart_tree	_	_	
+5-6	tree	O	I-ScrPart_tree|B-ScrPart_tree	webanno.custom.Corefchains_	4-11	
+5-7	because	O	O	_	_	
+5-8	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	5-1	
+5-9	love	B-UnrelEv	O	_	_	
+5-10	the	O	O	_	_	
+5-11	buttery	O	O	_	_	
+5-12	goodness	O	O	_	_	
+5-13	of	O	O	_	_	
+5-14	its	O	B-ScrPart_tree	webanno.custom.Corefchains_	5-6	
+5-15	fruit	O	O	_	_	
+5-16	.	O	O	_	_	
+
+#id=6
+#text=I carefully packed the tree into my car and took it home , where I brought it into my backyard and dug a hole for it .
+6-1	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	5-8	
+6-2	carefully	O	O	_	_	
+6-3	packed	B-RelNScrEv	O	_	_	
+6-4	the	O	O	_	_	
+6-5	tree	O	B-ScrPart_tree	webanno.custom.Corefchains_	5-14	
+6-6	into	O	O	_	_	
+6-7	my	O	B-ScrPart_gardener	webanno.custom.Corefchains_	6-1	
+6-8	car	O	B-NPart	_	_	
+6-9	and	O	O	_	_	
+6-10	took	B-ScrEv_get_tree	O	_	_	
+6-11	it	O	B-ScrPart_tree	webanno.custom.Corefchains_	6-5	
+6-12	home	O	B-NPart	_	_	
+6-13	,	O	O	_	_	
+6-14	where	O	O	_	_	
+6-15	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	6-7	
+6-16	brought	B-RelNScrEv	O	_	_	
+6-17	it	O	B-ScrPart_tree	webanno.custom.Corefchains_	6-11	
+6-18	into	O	O	_	_	
+6-19	my	O	B-ScrPart_gardener	webanno.custom.Corefchains_	6-15	
+6-20	backyard	O	B-NPart	_	_	
+6-21	and	O	O	_	_	
+6-22	dug	B-ScrEv_dug_hole	O	_	_	
+6-23	a	O	O	_	_	
+6-24	hole	O	B-ScrPart_hole	_	_	
+6-25	for	O	O	_	_	
+6-26	it	O	B-ScrPart_tree	webanno.custom.Corefchains_	6-17	
+6-27	.	O	O	_	_	
+
+#id=7
+#text=After I dug the hole , I took the sapling out of the pot and placed it into the hole .
+7-1	After	O	O	_	_	
+7-2	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	6-19	
+7-3	dug	B-ScrEv_dug_hole	O	_	_	
+7-4	the	O	O	_	_	
+7-5	hole	O	B-ScrPart_hole	webanno.custom.Corefchains_	6-24	
+7-6	,	O	O	_	_	
+7-7	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	7-2	
+7-8	took	B-RelNScrEv	O	_	_	
+7-9	the	O	O	_	_	
+7-10	sapling	O	B-ScrPart_tree	webanno.custom.Corefchains_	6-26	
+7-11	out	O	O	_	_	
+7-12	of	O	O	_	_	
+7-13	the	O	O	_	_	
+7-14	pot	O	B-NPart	_	_	
+7-15	and	O	O	_	_	
+7-16	placed	B-ScrEv_place_root	O	_	_	
+7-17	it	O	B-ScrPart_tree	webanno.custom.Corefchains_	7-10	
+7-18	into	O	O	_	_	
+7-19	the	O	O	_	_	
+7-20	hole	O	B-ScrPart_hole	webanno.custom.Corefchains_	7-5	
+7-21	.	O	O	_	_	
+
+#id=8
+#text=Finally I filled up the excess space with leftover dirt and gave the tree a water in its new home . 
+8-1	Finally	O	O	_	_	
+8-2	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	7-7	
+8-3	filled	B-ScrEv_refill_hole	O	_	_	
+8-4	up	O	O	_	_	
+8-5	the	O	O	_	_	
+8-6	excess	O	O	_	_	
+8-7	space	O	B-ScrPart_hole	webanno.custom.Corefchains_	7-20	
+8-8	with	O	O	_	_	
+8-9	leftover	O	O	_	_	
+8-10	dirt	O	B-ScrPart_dirt	_	_	
+8-11	and	O	O	_	_	
+8-12	gave	B-ScrEv_water	O	_	_	
+8-13	the	O	O	_	_	
+8-14	tree	O	B-ScrPart_tree	webanno.custom.Corefchains_	7-17	
+8-15	a	O	O	_	_	
+8-16	water	O	B-ScrPart_water	_	_	
+8-17	in	O	O	_	_	
+8-18	its	O	B-ScrPart_tree	webanno.custom.Corefchains_	8-14	
+8-19	new	O	O	_	_	
+8-20	home	O	B-NPart	_	_	
+8-21	.	O	O	_	_	
+

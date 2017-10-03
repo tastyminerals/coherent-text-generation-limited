@@ -1,0 +1,206 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Last year I had extra vacation days which if not used would not have carried over to this year .
+1-1	Last	O	O	O	_	_	
+1-2	year	O	O	O	_	_	
+1-3	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+1-4	had	O	O	B-UnrelEv	_	_	
+1-5	extra	O	O	O	_	_	
+1-6	vacation	O	O	O	_	_	
+1-7	days	O	O	O	_	_	
+1-8	which	O	O	O	_	_	
+1-9	if	O	O	O	_	_	
+1-10	not	O	O	O	_	_	
+1-11	used	O	O	B-UnrelEv	_	_	
+1-12	would	O	O	O	_	_	
+1-13	not	O	O	O	_	_	
+1-14	have	O	O	O	_	_	
+1-15	carried	O	O	B-UnrelEv	_	_	
+1-16	over	O	O	I-UnrelEv	_	_	
+1-17	to	O	O	O	_	_	
+1-18	this	O	O	O	_	_	
+1-19	year	O	O	O	_	_	
+1-20	.	O	O	O	_	_	
+
+#id=2
+#text=So in early Novermber , I started planning for a vacation and decided to go to New York .
+2-1	So	O	O	O	_	_	
+2-2	in	O	O	O	_	_	
+2-3	early	O	O	O	_	_	
+2-4	Novermber	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+2-5	,	O	O	O	_	_	
+2-6	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-3	
+2-7	started	O	O	B-UnrelEv	_	_	
+2-8	planning	O	O	B-UnrelEv	_	_	
+2-9	for	O	O	O	_	_	
+2-10	a	O	O	O	_	_	
+2-11	vacation	O	O	O	_	_	
+2-12	and	O	O	O	_	_	
+2-13	decided	O	O	B-UnrelEv	_	_	
+2-14	to	O	O	O	_	_	
+2-15	go	O	O	B-UnrelEv	_	_	
+2-16	to	O	O	O	_	_	
+2-17	New	B-webanno.custom.Participants_	B-ScrPart_target_location	O	_	_	
+2-18	York	I-webanno.custom.Participants_	I-ScrPart_target_location	O	_	_	
+2-19	.	O	O	O	_	_	
+
+#id=3
+#text=I purchased airline tickets for my family from a airline 's website .
+3-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-6	
+3-2	purchased	O	O	B-ScrEv_get_ticket	_	_	
+3-3	airline	B-webanno.custom.Participants_	B-ScrPart_ticket	O	_	_	
+3-4	tickets	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_ticket|B-ScrPart_ticket	O	_	_	
+3-5	for	O	O	O	_	_	
+3-6	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_|group_I_family	3-1|5-5	
+3-7	family	B-webanno.custom.Participants_	B-ScrPart_passenger	O	group_I_family	5-5	
+3-8	from	O	O	O	_	_	
+3-9	a	O	O	O	_	_	
+3-10	airline	B-webanno.custom.Participants_	B-NPart	O	_	_	
+3-11	's	O	O	O	_	_	
+3-12	website	B-webanno.custom.Participants_	B-NPart	O	_	_	
+3-13	.	O	O	O	_	_	
+
+#id=4
+#text=It was for 2 weeks starting from December 7th to 22nd .
+4-1	It	O	O	O	_	_	
+4-2	was	O	O	B-UnrelEv	_	_	
+4-3	for	O	O	O	_	_	
+4-4	2	O	O	O	_	_	
+4-5	weeks	O	O	O	_	_	
+4-6	starting	O	O	B-UnrelEv	_	_	
+4-7	from	O	O	O	_	_	
+4-8	December	O	O	O	_	_	
+4-9	7th	O	O	O	_	_	
+4-10	to	O	O	O	_	_	
+4-11	22nd	O	O	O	_	_	
+4-12	.	O	O	O	_	_	
+
+#id=5
+#text=On 7th evening , we reached at the airport almost 3 hours before the flight 's departure .
+5-1	On	O	O	O	_	_	
+5-2	7th	O	O	O	_	_	
+5-3	evening	O	O	O	_	_	
+5-4	,	O	O	O	_	_	
+5-5	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+5-6	reached	O	O	B-ScrEv_get_airport	_	_	
+5-7	at	O	O	O	_	_	
+5-8	the	O	O	O	_	_	
+5-9	airport	B-webanno.custom.Participants_	B-ScrPart_airport	O	_	_	
+5-10	almost	O	O	O	_	_	
+5-11	3	O	O	O	_	_	
+5-12	hours	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+5-13	before	O	O	O	_	_	
+5-14	the	O	O	O	_	_	
+5-15	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	_	_	
+5-16	's	O	O	O	_	_	
+5-17	departure	B-webanno.custom.Participants_	B-MissScrPart	O	_	_	
+5-18	.	O	O	O	_	_	
+
+#id=6
+#text=At the check in counter , I presented my driving license and ticket .
+6-1	At	O	O	O	_	_	
+6-2	the	O	O	O	_	_	
+6-3	check	B-webanno.custom.Participants_	B-ScrPart_check_in_desk	O	_	_	
+6-4	in	I-webanno.custom.Participants_	I-ScrPart_check_in_desk	O	_	_	
+6-5	counter	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_check_in_desk|B-ScrPart_check_in_desk	O	_	_	
+6-6	,	O	O	O	_	_	
+6-7	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-1	
+6-8	presented	O	O	B-ScrEv_present_ID/ticket	_	_	
+6-9	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-7	
+6-10	driving	B-webanno.custom.Participants_	B-ScrPart_passport/ID	O	_	_	
+6-11	license	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_passport/ID|B-ScrPart_passport/ID	O	_	_	
+6-12	and	O	O	O	_	_	
+6-13	ticket	B-webanno.custom.Participants_	B-ScrPart_ticket	O	_	_	
+6-14	.	O	O	O	_	_	
+
+#id=7
+#text=The person at the counter verified my name and ticket and after security check , we got into the plane .
+7-1	The	O	O	O	_	_	
+7-2	person	B-webanno.custom.Participants_	B-ScrPart_staff	O	_	_	
+7-3	at	O	O	O	_	_	
+7-4	the	O	O	O	_	_	
+7-5	counter	B-webanno.custom.Participants_	B-ScrPart_check_in_desk	O	webanno.custom.Corefchains_	6-5	
+7-6	verified	O	O	B-ScrEv_check_in	_	_	
+7-7	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-9	
+7-8	name	B-webanno.custom.Participants_	B-NPart	O	_	_	
+7-9	and	O	O	O	_	_	
+7-10	ticket	B-webanno.custom.Participants_	B-ScrPart_ticket	O	webanno.custom.Corefchains_	6-13	
+7-11	and	O	O	O	_	_	
+7-12	after	O	O	O	_	_	
+7-13	security	B-webanno.custom.Participants_	B-ScrPart_security_check	O	_	_	
+7-14	check	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_security_check|B-ScrPart_security_check	O	_	_	
+7-15	,	O	O	O	_	_	
+7-16	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-5	
+7-17	got	O	O	B-ScrEv_board_plane	_	_	
+7-18	into	O	O	I-ScrEv_board_plane	_	_	
+7-19	the	O	O	O	_	_	
+7-20	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	_	_	
+7-21	.	O	O	O	_	_	
+
+#id=8
+#text=I was at the window seat , so I could see the outside pretty well .
+8-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-7	
+8-2	was	O	O	B-UnrelEv	_	_	
+8-3	at	O	O	O	_	_	
+8-4	the	O	O	O	_	_	
+8-5	window	B-webanno.custom.Participants_	B-ScrPart_seat	O	_	_	
+8-6	seat	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_seat|B-ScrPart_seat	O	_	_	
+8-7	,	O	O	O	_	_	
+8-8	so	O	O	O	_	_	
+8-9	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-1	
+8-10	could	O	O	O	_	_	
+8-11	see	O	O	B-UnrelEv	_	_	
+8-12	the	O	O	O	_	_	
+8-13	outside	O	O	O	_	_	
+8-14	pretty	O	O	O	_	_	
+8-15	well	O	O	O	_	_	
+8-16	.	O	O	O	_	_	
+
+#id=9
+#text=Before take off , flight attendants asked us to put on seat belts .
+9-1	Before	O	O	O	_	_	
+9-2	take	O	O	B-ScrEv_take_off	_	_	
+9-3	off	O	O	I-ScrEv_take_off	_	_	
+9-4	,	O	O	O	_	_	
+9-5	flight	B-webanno.custom.Participants_	B-ScrPart_staff	O	_	_	
+9-6	attendants	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_staff|B-ScrPart_staff	O	_	_	
+9-7	asked	O	O	B-ScrEv_listen_crew	_	_	
+9-8	us	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-16	
+9-9	to	O	O	O	_	_	
+9-10	put	O	O	B-ScrEv_buckle_seat_belt	_	_	
+9-11	on	O	O	I-ScrEv_buckle_seat_belt	_	_	
+9-12	seat	B-webanno.custom.Participants_	B-ScrPart_seat_belt	O	_	_	
+9-13	belts	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_seat_belt|B-ScrPart_seat_belt	O	_	_	
+9-14	.	O	O	O	_	_	
+
+#id=10
+#text=It took almost 2 hours for us to reach New York .
+10-1	It	O	O	O	_	_	
+10-2	took	O	O	B-UnrelEv	_	_	
+10-3	almost	O	O	O	_	_	
+10-4	2	O	O	O	_	_	
+10-5	hours	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+10-6	for	O	O	O	_	_	
+10-7	us	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-8	
+10-8	to	O	O	O	_	_	
+10-9	reach	O	O	B-MissScrEv	_	_	
+10-10	New	B-webanno.custom.Participants_	B-ScrPart_target_location	O	webanno.custom.Corefchains_	2-17	
+10-11	York	I-webanno.custom.Participants_	I-ScrPart_target_location	O	webanno.custom.Corefchains_	2-17	
+10-12	.	O	O	O	_	_	
+
+#id=11
+#text=Overall it was a nice flight and we reached there on time . 
+11-1	Overall	O	O	O	_	_	
+11-2	it	O	O	O	_	_	
+11-3	was	O	O	B-UnrelEv	_	_	
+11-4	a	O	O	O	_	_	
+11-5	nice	O	O	O	_	_	
+11-6	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	webanno.custom.Corefchains_	5-15	
+11-7	and	O	O	O	_	_	
+11-8	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-7	
+11-9	reached	O	O	B-MissScrEv	_	_	
+11-10	there	B-webanno.custom.Participants_	B-ScrPart_target_location	O	webanno.custom.Corefchains_	10-10	
+11-11	on	O	O	O	_	_	
+11-12	time	O	O	O	_	_	
+11-13	.	O	O	O	_	_	
+

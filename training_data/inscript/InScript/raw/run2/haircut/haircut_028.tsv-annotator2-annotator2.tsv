@@ -1,0 +1,249 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Today I went to go get a haircut .
+1-1	Today	B-NPart	O	_	_	
+1-2	I	B-ScrPart_customer	O	_	_	
+1-3	went	O	B-UnrelEv	_	_	
+1-4	to	O	O	_	_	
+1-5	go	O	B-UnrelEv	_	_	
+1-6	get	O	B-Evoking	_	_	
+1-7	a	O	I-Evoking	_	_	
+1-8	haircut	B-ScrPart_haircut	I-Evoking	_	_	
+1-9	.	O	O	_	_	
+
+#id=2
+#text=I 've been waiting to get a haircut for a while but finally I decided it was time to get it .
+2-1	I	B-ScrPart_customer	O	_	_	
+2-2	've	O	O	_	_	
+2-3	been	O	O	_	_	
+2-4	waiting	O	B-UnrelEv	_	_	
+2-5	to	O	O	_	_	
+2-6	get	O	B-Evoking	_	_	
+2-7	a	O	I-Evoking	_	_	
+2-8	haircut	B-ScrPart_haircut	I-Evoking	webanno.custom.Corefchains_	1-8	
+2-9	for	O	O	_	_	
+2-10	a	O	O	_	_	
+2-11	while	B-No_label	O	_	_	
+2-12	but	O	O	_	_	
+2-13	finally	O	O	_	_	
+2-14	I	B-ScrPart_customer	O	_	_	
+2-15	decided	O	B-UnrelEv	_	_	
+2-16	it	B-No_label	O	_	_	
+2-17	was	O	B-UnrelEv	_	_	
+2-18	time	B-No_label	O	_	_	
+2-19	to	O	O	_	_	
+2-20	get	O	B-Evoking	_	_	
+2-21	it	B-ScrPart_haircut	I-Evoking	webanno.custom.Corefchains_	2-8	
+2-22	.	O	O	_	_	
+
+#id=3
+#text=So I went over to the barbershop near my house .
+3-1	So	O	O	_	_	
+3-2	I	B-ScrPart_customer	O	_	_	
+3-3	went	O	B-ScrEv_get_salon	_	_	
+3-4	over	O	O	_	_	
+3-5	to	O	O	_	_	
+3-6	the	O	O	_	_	
+3-7	barbershop	B-ScrPart_salon	O	_	_	
+3-8	near	O	O	_	_	
+3-9	my	B-ScrPart_customer	O	_	_	
+3-10	house	B-NPart	O	_	_	
+3-11	.	O	O	_	_	
+
+#id=4
+#text=Once inside the barbershop I told the barber that I needed a haircut and took my seat util they called my name .
+4-1	Once	O	O	_	_	
+4-2	inside	O	O	_	_	
+4-3	the	O	O	_	_	
+4-4	barbershop	B-ScrPart_salon	O	_	_	
+4-5	I	B-ScrPart_customer	O	_	_	
+4-6	told	O	B-ScrEv_check_in	_	_	
+4-7	the	O	O	_	_	
+4-8	barber	B-ScrPart_hairdresser	O	_	_	
+4-9	that	O	O	_	_	
+4-10	I	B-ScrPart_customer	O	_	_	
+4-11	needed	O	B-UnrelEv	_	_	
+4-12	a	O	O	_	_	
+4-13	haircut	B-ScrPart_haircut	O	webanno.custom.Corefchains_	2-21	
+4-14	and	O	O	_	_	
+4-15	took	O	B-ScrEv_wait	_	_	
+4-16	my	B-ScrPart_customer	O	_	_	
+4-17	seat	B-SuppVComp	O	_	_	
+4-18	util	O	O	_	_	
+4-19	they	B-ScrPart_staff	O	_	_	
+4-20	called	O	B-RelNScrEv	_	_	
+4-21	my	B-ScrPart_customer	O	_	_	
+4-22	name	B-NPart	O	_	_	
+4-23	.	O	O	_	_	
+
+#id=5
+#text=Once they called my name I went and sat at the chair and the barber put a towel over me so that the hair that he cuts does n't get over my clothes .
+5-1	Once	O	O	_	_	
+5-2	they	B-ScrPart_staff	O	_	_	
+5-3	called	O	B-RelNScrEv	_	_	
+5-4	my	B-ScrPart_customer	O	_	_	
+5-5	name	B-NPart	O	_	_	
+5-6	I	B-ScrPart_customer	O	_	_	
+5-7	went	O	B-UnrelEv	_	_	
+5-8	and	O	O	_	_	
+5-9	sat	O	B-ScrEv_sit_down	_	_	
+5-10	at	O	O	_	_	
+5-11	the	O	O	_	_	
+5-12	chair	B-ScrPart_chair	O	_	_	
+5-13	and	O	O	_	_	
+5-14	the	O	O	_	_	
+5-15	barber	B-ScrPart_hairdresser	O	_	_	
+5-16	put	O	B-ScrEv_put_coat	_	_	
+5-17	a	O	O	_	_	
+5-18	towel	B-ScrPart_cape	O	_	_	
+5-19	over	O	O	_	_	
+5-20	me	B-ScrPart_customer	O	_	_	
+5-21	so	O	O	_	_	
+5-22	that	O	O	_	_	
+5-23	the	O	O	_	_	
+5-24	hair	B-ScrPart_hair	O	_	_	
+5-25	that	O	O	_	_	
+5-26	he	B-ScrPart_hairdresser	O	_	_	
+5-27	cuts	O	B-ScrEv_cut	_	_	
+5-28	does	O	O	_	_	
+5-29	n't	O	O	_	_	
+5-30	get	O	B-UnrelEv	_	_	
+5-31	over	O	O	_	_	
+5-32	my	B-ScrPart_customer	O	_	_	
+5-33	clothes	B-ScrPart_other	O	_	_	
+5-34	.	O	O	_	_	
+
+#id=6
+#text=I tell him what kind of haircut I want and then he begins to cut my hair .
+6-1	I	B-ScrPart_customer	O	_	_	
+6-2	tell	O	B-ScrEv_talk_haircut	_	_	
+6-3	him	B-ScrPart_hairdresser	O	_	_	
+6-4	what	O	O	_	_	
+6-5	kind	B-NPart	O	_	_	
+6-6	of	O	O	_	_	
+6-7	haircut	B-ScrPart_haircut	O	webanno.custom.Corefchains_	4-13	
+6-8	I	B-ScrPart_customer	O	_	_	
+6-9	want	O	B-UnrelEv	_	_	
+6-10	and	O	O	_	_	
+6-11	then	O	O	_	_	
+6-12	he	B-ScrPart_hairdresser	O	_	_	
+6-13	begins	O	B-UnrelEv	_	_	
+6-14	to	O	O	_	_	
+6-15	cut	O	B-ScrEv_cut	_	_	
+6-16	my	B-ScrPart_customer	O	_	_	
+6-17	hair	B-ScrPart_hair	O	_	_	
+6-18	.	O	O	_	_	
+
+#id=7
+#text=He periodically asks me if he is doing a good job throughout the haircut to make sure that I am happy with the hair that he is cutting .
+7-1	He	B-ScrPart_hairdresser	O	_	_	
+7-2	periodically	O	O	_	_	
+7-3	asks	O	B-ScrEv_customer_opinion	_	_	
+7-4	me	B-ScrPart_customer	O	_	_	
+7-5	if	O	O	_	_	
+7-6	he	B-ScrPart_hairdresser	O	_	_	
+7-7	is	O	O	_	_	
+7-8	doing	O	B-UnrelEv	_	_	
+7-9	a	O	O	_	_	
+7-10	good	O	O	_	_	
+7-11	job	B-SuppVComp	O	_	_	
+7-12	throughout	O	O	_	_	
+7-13	the	O	O	_	_	
+7-14	haircut	B-ScrPart_haircut	O	webanno.custom.Corefchains_	6-7	
+7-15	to	O	O	_	_	
+7-16	make	O	O	_	_	
+7-17	sure	O	O	_	_	
+7-18	that	O	O	_	_	
+7-19	I	B-ScrPart_customer	O	_	_	
+7-20	am	O	B-UnrelEv	_	_	
+7-21	happy	O	O	_	_	
+7-22	with	O	O	_	_	
+7-23	the	O	O	_	_	
+7-24	hair	B-ScrPart_hair	O	_	_	
+7-25	that	O	O	_	_	
+7-26	he	B-ScrPart_hairdresser	O	_	_	
+7-27	is	O	O	_	_	
+7-28	cutting	O	B-ScrEv_cut	_	_	
+7-29	.	O	O	_	_	
+
+#id=8
+#text=I reassure him that he is doing a good job and after he is done he takes off the towel and I get a final look at my haircut .
+8-1	I	B-ScrPart_customer	O	_	_	
+8-2	reassure	O	B-ScrEv_customer_opinion	_	_	
+8-3	him	B-ScrPart_hairdresser	O	_	_	
+8-4	that	O	O	_	_	
+8-5	he	B-ScrPart_hairdresser	O	_	_	
+8-6	is	O	O	_	_	
+8-7	doing	O	B-UnrelEv	_	_	
+8-8	a	O	O	_	_	
+8-9	good	O	O	_	_	
+8-10	job	B-SuppVComp	O	_	_	
+8-11	and	O	O	_	_	
+8-12	after	O	O	_	_	
+8-13	he	B-ScrPart_hairdresser	O	_	_	
+8-14	is	O	B-UnrelEv	_	_	
+8-15	done	O	O	_	_	
+8-16	he	B-ScrPart_hairdresser	O	_	_	
+8-17	takes	O	B-ScrEv_remove_cap	_	_	
+8-18	off	O	I-ScrEv_remove_cap	_	_	
+8-19	the	O	O	_	_	
+8-20	towel	B-ScrPart_cape	O	_	_	
+8-21	and	O	O	_	_	
+8-22	I	B-ScrPart_customer	O	_	_	
+8-23	get	O	B-ScrEv_look_mirror	_	_	
+8-24	a	O	O	_	_	
+8-25	final	O	O	_	_	
+8-26	look	B-SuppVComp	O	_	_	
+8-27	at	O	O	_	_	
+8-28	my	B-ScrPart_customer	O	_	_	
+8-29	haircut	B-ScrPart_haircut	O	webanno.custom.Corefchains_	7-14	
+8-30	.	O	O	_	_	
+
+#id=9
+#text=I nod my head , pay him for the haircut and also a tip and leave the barbershop after that .
+9-1	I	B-ScrPart_customer	O	_	_	
+9-2	nod	O	B-ScrEv_customer_opinion	_	_	
+9-3	my	B-ScrPart_customer	O	_	_	
+9-4	head	B-SuppVComp	O	_	_	
+9-5	,	O	O	_	_	
+9-6	pay	O	B-ScrEv_pay	_	_	
+9-7	him	B-ScrPart_hairdresser	O	_	_	
+9-8	for	O	O	_	_	
+9-9	the	O	O	_	_	
+9-10	haircut	B-ScrPart_haircut	O	webanno.custom.Corefchains_	8-29	
+9-11	and	O	O	_	_	
+9-12	also	O	O	_	_	
+9-13	a	O	O	_	_	
+9-14	tip	B-ScrPart_tip	O	_	_	
+9-15	and	O	O	_	_	
+9-16	leave	O	B-ScrEv_leave	_	_	
+9-17	the	O	O	_	_	
+9-18	barbershop	B-ScrPart_salon	O	_	_	
+9-19	after	O	O	_	_	
+9-20	that	O	O	_	_	
+9-21	.	O	O	_	_	
+
+#id=10
+#text=I have to take a shower afterwards for some hair that happened to get down the back of my shirt . 
+10-1	I	B-ScrPart_customer	O	_	_	
+10-2	have	O	O	_	_	
+10-3	to	O	O	_	_	
+10-4	take	O	B-UnrelEv	_	_	
+10-5	a	O	O	_	_	
+10-6	shower	B-SuppVComp	O	_	_	
+10-7	afterwards	O	O	_	_	
+10-8	for	O	O	_	_	
+10-9	some	O	O	_	_	
+10-10	hair	B-ScrPart_hair	O	_	_	
+10-11	that	O	O	_	_	
+10-12	happened	O	O	_	_	
+10-13	to	O	O	_	_	
+10-14	get	O	B-UnrelEv	_	_	
+10-15	down	O	I-UnrelEv	_	_	
+10-16	the	O	O	_	_	
+10-17	back	B-NPart	O	_	_	
+10-18	of	O	O	_	_	
+10-19	my	B-ScrPart_customer	O	_	_	
+10-20	shirt	B-ScrPart_other	O	_	_	
+10-21	.	O	O	_	_	
+

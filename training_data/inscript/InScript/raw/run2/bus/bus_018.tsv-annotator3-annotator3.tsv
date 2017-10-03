@@ -1,0 +1,331 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Event | Events
+#id=1
+#text=I live in a large city , and while I do have a car , sometimes there is a lack of parking where I need to go .
+1-1	I	B-ScrPart_passenger	O	O	
+1-2	live	O	B-webanno.custom.Events_	B-UnrelEv	
+1-3	in	O	O	O	
+1-4	a	O	O	O	
+1-5	large	O	O	O	
+1-6	city	B-NPart	O	O	
+1-7	,	O	O	O	
+1-8	and	O	O	O	
+1-9	while	O	O	O	
+1-10	I	B-ScrPart_passenger	O	O	
+1-11	do	O	O	O	
+1-12	have	O	B-webanno.custom.Events_	B-UnrelEv	
+1-13	a	O	O	O	
+1-14	car	B-NPart	O	O	
+1-15	,	O	O	O	
+1-16	sometimes	O	O	O	
+1-17	there	O	O	O	
+1-18	is	O	B-webanno.custom.Events_	B-UnrelEv	
+1-19	a	O	O	O	
+1-20	lack	B-No_label	O	O	
+1-21	of	O	O	O	
+1-22	parking	O	B-webanno.custom.Events_	B-UnrelEv	
+1-23	where	O	O	O	
+1-24	I	B-ScrPart_passenger	O	O	
+1-25	need	O	O	O	
+1-26	to	O	O	O	
+1-27	go	O	B-webanno.custom.Events_	B-UnrelEv	
+1-28	.	O	O	O	
+
+#id=2
+#text=When this happens or if I think it will be hard to park , I will take the city bus .
+2-1	When	O	O	O	
+2-2	this	O	O	O	
+2-3	happens	O	B-webanno.custom.Events_	B-UnrelEv	
+2-4	or	O	O	O	
+2-5	if	O	O	O	
+2-6	I	B-ScrPart_passenger	O	O	
+2-7	think	O	B-webanno.custom.Events_	B-UnrelEv	
+2-8	it	B-No_label	O	O	
+2-9	will	O	O	O	
+2-10	be	O	B-webanno.custom.Events_	B-UnrelEv	
+2-11	hard	O	O	O	
+2-12	to	O	O	O	
+2-13	park	O	B-webanno.custom.Events_	B-UnrelEv	
+2-14	,	O	O	O	
+2-15	I	B-ScrPart_passenger	O	O	
+2-16	will	O	O	O	
+2-17	take	O	B-webanno.custom.Events_	B-Evoking	
+2-18	the	O	I-webanno.custom.Events_	I-Evoking	
+2-19	city	B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	
+2-20	bus	I-ScrPart_bus|B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	
+2-21	.	O	O	O	
+
+#id=3
+#text=They have a very good bus service in our city , and you can get wherever you need to be fairly easily and quickly .
+3-1	They	B-No_label	O	O	
+3-2	have	O	B-webanno.custom.Events_	B-RelNScrEv	
+3-3	a	O	O	O	
+3-4	very	O	O	O	
+3-5	good	O	O	O	
+3-6	bus	B-ScrPart_other	O	O	
+3-7	service	I-ScrPart_other|B-ScrPart_other	O	O	
+3-8	in	O	O	O	
+3-9	our	B-NPart	O	O	
+3-10	city	B-NPart	O	O	
+3-11	,	O	O	O	
+3-12	and	O	O	O	
+3-13	you	B-ScrPart_passenger	O	O	
+3-14	can	O	O	O	
+3-15	get	O	B-webanno.custom.Events_	B-RelNScrEv	
+3-16	wherever	O	O	O	
+3-17	you	B-ScrPart_passenger	O	O	
+3-18	need	O	O	O	
+3-19	to	O	O	O	
+3-20	be	O	B-webanno.custom.Events_	B-UnrelEv	
+3-21	fairly	O	O	O	
+3-22	easily	O	O	O	
+3-23	and	O	O	O	
+3-24	quickly	O	O	O	
+3-25	.	O	O	O	
+
+#id=4
+#text=I know riding the bus can be confusing at first , but they make some very easy bus schedules to help people .
+4-1	I	B-ScrPart_passenger	O	O	
+4-2	know	O	B-webanno.custom.Events_	B-UnrelEv	
+4-3	riding	O	B-webanno.custom.Events_	B-Evoking	
+4-4	the	O	I-webanno.custom.Events_	I-Evoking	
+4-5	bus	B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	
+4-6	can	O	O	O	
+4-7	be	O	B-webanno.custom.Events_	B-UnrelEv	
+4-8	confusing	O	O	O	
+4-9	at	O	O	O	
+4-10	first	O	O	O	
+4-11	,	O	O	O	
+4-12	but	O	O	O	
+4-13	they	B-ScrPart_bus_staff	O	O	
+4-14	make	O	B-webanno.custom.Events_	B-RelNScrEv	
+4-15	some	O	O	O	
+4-16	very	O	O	O	
+4-17	easy	O	O	O	
+4-18	bus	B-ScrPart_time-table	O	O	
+4-19	schedules	I-ScrPart_time-table|B-ScrPart_time-table	O	O	
+4-20	to	O	O	O	
+4-21	help	O	B-webanno.custom.Events_	B-UnrelEv	
+4-22	people	B-ScrPart_passenger	O	O	
+4-23	.	O	O	O	
+
+#id=5
+#text=I knew where I needed to go , so I took out my bus schedule and found out when the bus I needed to ride would be at the stop near my house .
+5-1	I	B-ScrPart_passenger	O	O	
+5-2	knew	O	B-webanno.custom.Events_	B-UnrelEv	
+5-3	where	O	O	O	
+5-4	I	B-ScrPart_passenger	O	O	
+5-5	needed	O	O	O	
+5-6	to	O	O	O	
+5-7	go	O	B-webanno.custom.Events_	B-UnrelEv	
+5-8	,	O	O	O	
+5-9	so	O	O	O	
+5-10	I	B-ScrPart_passenger	O	O	
+5-11	took	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-ScrEv_other|B-ScrEv_other	
+5-12	out	O	I-webanno.custom.Events_	I-ScrEv_other	
+5-13	my	B-ScrPart_passenger	O	O	
+5-14	bus	B-ScrPart_time-table	O	O	
+5-15	schedule	I-ScrPart_time-table|B-ScrPart_time-table	O	O	
+5-16	and	O	O	O	
+5-17	found	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-ScrEv_other|B-ScrEv_other	
+5-18	out	O	I-webanno.custom.Events_	I-ScrEv_other	
+5-19	when	O	O	O	
+5-20	the	O	O	O	
+5-21	bus	B-ScrPart_bus	O	O	
+5-22	I	B-ScrPart_passenger	O	O	
+5-23	needed	O	O	O	
+5-24	to	O	O	O	
+5-25	ride	O	B-webanno.custom.Events_	B-ScrEv_ride	
+5-26	would	O	O	O	
+5-27	be	O	B-webanno.custom.Events_	B-RelNScrEv	
+5-28	at	O	O	O	
+5-29	the	O	O	O	
+5-30	stop	B-ScrPart_bus_stop	O	O	
+5-31	near	O	O	O	
+5-32	my	B-ScrPart_passenger	O	O	
+5-33	house	B-NPart	O	O	
+5-34	.	O	O	O	
+
+#id=6
+#text=I went there a few minutes early , and right on time , I saw the bus I needed to ride .
+6-1	I	B-ScrPart_passenger	O	O	
+6-2	went	O	B-webanno.custom.Events_	B-ScrEv_get_bus_stop	
+6-3	there	B-ScrPart_bus_stop	O	O	
+6-4	a	O	O	O	
+6-5	few	O	O	O	
+6-6	minutes	B-ScrPart_time/date	O	O	
+6-7	early	O	O	O	
+6-8	,	O	O	O	
+6-9	and	O	O	O	
+6-10	right	O	O	O	
+6-11	on	O	O	O	
+6-12	time	B-ScrPart_time/date	O	O	
+6-13	,	O	O	O	
+6-14	I	B-ScrPart_passenger	O	O	
+6-15	saw	O	B-webanno.custom.Events_	B-ScrEv_bus_comes	
+6-16	the	O	O	O	
+6-17	bus	B-ScrPart_bus	O	O	
+6-18	I	B-ScrPart_passenger	O	O	
+6-19	needed	O	O	O	
+6-20	to	O	O	O	
+6-21	ride	O	B-webanno.custom.Events_	B-RelNScrEv	
+6-22	.	O	O	O	
+
+#id=7
+#text=I could tell it was my bus by the big number flashing near the top of the bus .
+7-1	I	B-ScrPart_passenger	O	O	
+7-2	could	O	O	O	
+7-3	tell	O	B-webanno.custom.Events_	B-UnrelEv	
+7-4	it	B-No_label	O	O	
+7-5	was	O	B-webanno.custom.Events_	B-UnrelEv	
+7-6	my	B-ScrPart_passenger	O	O	
+7-7	bus	B-ScrPart_bus	O	O	
+7-8	by	O	O	O	
+7-9	the	O	O	O	
+7-10	big	O	O	O	
+7-11	number	B-ScrPart_other	O	O	
+7-12	flashing	O	B-webanno.custom.Events_	B-RelNScrEv	
+7-13	near	O	O	O	
+7-14	the	O	O	O	
+7-15	top	B-NPart	O	O	
+7-16	of	O	O	O	
+7-17	the	O	O	O	
+7-18	bus	B-ScrPart_bus	O	O	
+7-19	.	O	O	O	
+
+#id=8
+#text=When the bus stopped , I got on and put my money into the coin taker which is near the driver .
+8-1	When	O	O	O	
+8-2	the	O	O	O	
+8-3	bus	B-ScrPart_bus	O	O	
+8-4	stopped	O	B-webanno.custom.Events_	B-ScrEv_bus_comes	
+8-5	,	O	O	O	
+8-6	I	B-ScrPart_passenger	O	O	
+8-7	got	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-ScrEv_board_bus|B-ScrEv_board_bus	
+8-8	on	O	I-webanno.custom.Events_	I-ScrEv_board_bus	
+8-9	and	O	O	O	
+8-10	put	O	B-webanno.custom.Events_	B-ScrEv_get_ticket	
+8-11	my	B-ScrPart_passenger	O	O	
+8-12	money	B-ScrPart_money	O	O	
+8-13	into	O	O	O	
+8-14	the	O	O	O	
+8-15	coin	B-ScrPart_payment_machine	O	O	
+8-16	taker	I-ScrPart_payment_machine|B-ScrPart_payment_machine	O	O	
+8-17	which	O	O	O	
+8-18	is	O	B-webanno.custom.Events_	B-UnrelEv	
+8-19	near	O	O	O	
+8-20	the	O	O	O	
+8-21	driver	B-ScrPart_bus_staff	O	O	
+8-22	.	O	O	O	
+
+#id=9
+#text=I then moved to the back of the bus and chose a seat .
+9-1	I	B-ScrPart_passenger	O	O	
+9-2	then	O	O	O	
+9-3	moved	O	B-webanno.custom.Events_	B-ScrEv_other	
+9-4	to	O	O	O	
+9-5	the	O	O	O	
+9-6	back	B-Head_of_Partitive	O	O	
+9-7	of	O	O	O	
+9-8	the	O	O	O	
+9-9	bus	B-ScrPart_bus	O	O	
+9-10	and	O	O	O	
+9-11	chose	O	B-webanno.custom.Events_	B-ScrEv_find_place	
+9-12	a	O	O	O	
+9-13	seat	B-ScrPart_seat_in_bus	O	O	
+9-14	.	O	O	O	
+
+#id=10
+#text=A nice woman was sitting across from me and she smiled and said hello .
+10-1	A	O	O	O	
+10-2	nice	O	O	O	
+10-3	woman	B-ScrPart_passenger	O	O	
+10-4	was	O	O	O	
+10-5	sitting	O	B-webanno.custom.Events_	B-UnrelEv	
+10-6	across	O	O	O	
+10-7	from	O	O	O	
+10-8	me	B-ScrPart_passenger	O	O	
+10-9	and	O	O	O	
+10-10	she	B-ScrPart_passenger	O	O	
+10-11	smiled	O	B-webanno.custom.Events_	B-ScrEv_spend_time_bus	
+10-12	and	O	O	O	
+10-13	said	O	B-webanno.custom.Events_	B-ScrEv_spend_time_bus	
+10-14	hello	O	O	O	
+10-15	.	O	O	O	
+
+#id=11
+#text=I smiled and said hello in return .
+11-1	I	B-ScrPart_passenger	O	O	
+11-2	smiled	O	B-webanno.custom.Events_	B-ScrEv_spend_time_bus	
+11-3	and	O	O	O	
+11-4	said	O	B-webanno.custom.Events_	B-ScrEv_spend_time_bus	
+11-5	hello	O	O	O	
+11-6	in	O	O	O	
+11-7	return	B-NPart	O	O	
+11-8	.	O	O	O	
+
+#id=12
+#text=People are usually very friendly on the bus .
+12-1	People	B-NPart	O	O	
+12-2	are	O	B-webanno.custom.Events_	B-UnrelEv	
+12-3	usually	O	O	O	
+12-4	very	O	O	O	
+12-5	friendly	O	O	O	
+12-6	on	O	O	O	
+12-7	the	O	O	O	
+12-8	bus	B-ScrPart_bus	O	O	
+12-9	.	O	O	O	
+
+#id=13
+#text=I rode the bus for several more stops , and then saw my stop coming up .
+13-1	I	B-ScrPart_passenger	O	O	
+13-2	rode	O	B-webanno.custom.Events_	B-ScrEv_ride	
+13-3	the	O	O	O	
+13-4	bus	B-ScrPart_bus	O	O	
+13-5	for	O	O	O	
+13-6	several	O	O	O	
+13-7	more	O	O	O	
+13-8	stops	B-ScrPart_bus_stop	O	O	
+13-9	,	O	O	O	
+13-10	and	O	O	O	
+13-11	then	O	O	O	
+13-12	saw	O	B-webanno.custom.Events_	B-UnrelEv	
+13-13	my	B-ScrPart_passenger	O	O	
+13-14	stop	B-ScrPart_bus_stop	O	O	
+13-15	coming	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-ScrEv_other|B-ScrEv_other	
+13-16	up	O	I-webanno.custom.Events_	I-ScrEv_other	
+13-17	.	O	O	O	
+
+#id=14
+#text=When the bus stopped , I got off the bus and went to my destination .
+14-1	When	O	O	O	
+14-2	the	O	O	O	
+14-3	bus	B-ScrPart_bus	O	O	
+14-4	stopped	O	B-webanno.custom.Events_	B-ScrEv_bus_stops	
+14-5	,	O	O	O	
+14-6	I	B-ScrPart_passenger	O	O	
+14-7	got	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-ScrEv_get_off|B-ScrEv_get_off	
+14-8	off	O	I-webanno.custom.Events_	I-ScrEv_get_off	
+14-9	the	O	O	O	
+14-10	bus	B-ScrPart_bus	O	O	
+14-11	and	O	O	O	
+14-12	went	O	B-webanno.custom.Events_	B-UnrelEv	
+14-13	to	O	O	O	
+14-14	my	B-ScrPart_passenger	O	O	
+14-15	destination	B-ScrPart_destination	O	O	
+14-16	.	O	O	O	
+
+#id=15
+#text=It is very easy and convenient to ride the public bus . 
+15-1	It	B-No_label	O	O	
+15-2	is	O	B-webanno.custom.Events_	B-UnrelEv	
+15-3	very	O	O	O	
+15-4	easy	O	O	O	
+15-5	and	O	O	O	
+15-6	convenient	O	O	O	
+15-7	to	O	O	O	
+15-8	ride	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-Evoking|B-ScrEv_ride	
+15-9	the	O	I-webanno.custom.Events_	I-Evoking	
+15-10	public	O	I-webanno.custom.Events_	I-Evoking	
+15-11	bus	B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	
+15-12	.	O	O	O	
+

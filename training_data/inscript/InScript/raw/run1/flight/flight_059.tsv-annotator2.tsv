@@ -1,0 +1,225 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant | Participants # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Flying in an airplane is necessary to travel to far away destinations that are not easily accessible by other modes of transportation .
+1-1	Flying	B-Evoking	O	O	_	_	
+1-2	in	I-Evoking	O	O	_	_	
+1-3	an	I-Evoking	O	O	_	_	
+1-4	airplane	I-Evoking	B-webanno.custom.Participants_	B-ScrPart_plane	_	_	
+1-5	is	O	O	O	_	_	
+1-6	necessary	O	O	O	_	_	
+1-7	to	O	O	O	_	_	
+1-8	travel	B-RelNScrEv	O	O	_	_	
+1-9	to	O	O	O	_	_	
+1-10	far	O	O	O	_	_	
+1-11	away	O	O	O	_	_	
+1-12	destinations	O	B-webanno.custom.Participants_	B-ScrPart_target_location	_	_	
+1-13	that	O	O	O	_	_	
+1-14	are	B-UnrelEv	O	O	_	_	
+1-15	not	O	O	O	_	_	
+1-16	easily	O	O	O	_	_	
+1-17	accessible	O	O	O	_	_	
+1-18	by	O	O	O	_	_	
+1-19	other	O	O	O	_	_	
+1-20	modes	O	O	O	_	_	
+1-21	of	O	O	O	_	_	
+1-22	transportation	O	O	O	_	_	
+1-23	.	O	O	O	_	_	
+
+#id=2
+#text=Last summer , I had a girls trip to the Carribean .
+2-1	Last	O	O	O	_	_	
+2-2	summer	O	O	O	_	_	
+2-3	,	O	O	O	_	_	
+2-4	I	O	B-webanno.custom.Participants_	B-ScrPart_passenger	_	_	
+2-5	had	B-UnrelEv	O	O	_	_	
+2-6	a	O	O	O	_	_	
+2-7	girls	O	O	O	_	_	
+2-8	trip	O	O	O	_	_	
+2-9	to	O	O	O	_	_	
+2-10	the	O	O	O	_	_	
+2-11	Carribean	O	B-webanno.custom.Participants_	B-ScrPart_target_location	_	_	
+2-12	.	O	O	O	_	_	
+
+#id=3
+#text=We had to plan our trip including booking airplane tickets and booking hotels .
+3-1	We	O	B-webanno.custom.Participants_	B-ScrPart_passenger	webanno.custom.Corefchains_	2-4	
+3-2	had	O	O	O	_	_	
+3-3	to	O	O	O	_	_	
+3-4	plan	B-RelNScrEv	O	O	_	_	
+3-5	our	O	B-webanno.custom.Participants_	B-ScrPart_passenger	webanno.custom.Corefchains_	3-1	
+3-6	trip	O	O	O	_	_	
+3-7	including	O	O	O	_	_	
+3-8	booking	B-ScrEv_get_ticket	O	O	_	_	
+3-9	airplane	O	B-webanno.custom.Participants_	B-ScrPart_ticket	_	_	
+3-10	tickets	O	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_ticket|B-ScrPart_ticket	_	_	
+3-11	and	O	O	O	_	_	
+3-12	booking	B-RelNScrEv	O	O	_	_	
+3-13	hotels	O	B-webanno.custom.Participants_	B-NPart	_	_	
+3-14	.	O	O	O	_	_	
+
+#id=4
+#text=We booked our airplane tickets online a few months before to get the best fare .
+4-1	We	O	B-webanno.custom.Participants_	B-ScrPart_passenger	webanno.custom.Corefchains_	3-5	
+4-2	booked	B-ScrEv_get_ticket	O	O	_	_	
+4-3	our	O	B-webanno.custom.Participants_	B-ScrPart_passenger	webanno.custom.Corefchains_	4-1	
+4-4	airplane	O	B-webanno.custom.Participants_	B-ScrPart_ticket	_	_	
+4-5	tickets	O	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_ticket|B-ScrPart_ticket	webanno.custom.Corefchains_	3-10	
+4-6	online	O	O	O	_	_	
+4-7	a	O	O	O	_	_	
+4-8	few	O	O	O	_	_	
+4-9	months	O	B-webanno.custom.Participants_	B-ScrPart_time/date	_	_	
+4-10	before	O	O	O	_	_	
+4-11	to	O	O	O	_	_	
+4-12	get	B-UnrelEv	O	O	_	_	
+4-13	the	O	O	O	_	_	
+4-14	best	O	O	O	_	_	
+4-15	fare	O	O	O	_	_	
+4-16	.	O	O	O	_	_	
+
+#id=5
+#text=We arrive at the airport a few hours beforehand for an international flight .
+5-1	We	O	B-webanno.custom.Participants_	B-ScrPart_passenger	webanno.custom.Corefchains_	4-3	
+5-2	arrive	B-ScrEv_get_airport	O	O	_	_	
+5-3	at	O	O	O	_	_	
+5-4	the	O	O	O	_	_	
+5-5	airport	O	B-webanno.custom.Participants_	B-ScrPart_airport	_	_	
+5-6	a	O	O	O	_	_	
+5-7	few	O	O	O	_	_	
+5-8	hours	O	B-webanno.custom.Participants_	B-ScrPart_time/date	_	_	
+5-9	beforehand	O	O	O	_	_	
+5-10	for	O	O	O	_	_	
+5-11	an	O	O	O	_	_	
+5-12	international	O	O	O	_	_	
+5-13	flight	O	B-webanno.custom.Participants_	B-ScrPart_flight	_	_	
+5-14	.	O	O	O	_	_	
+
+#id=6
+#text=We all pack lightly with one piece of luggage .
+6-1	We	O	B-webanno.custom.Participants_	B-ScrPart_passenger	webanno.custom.Corefchains_	5-1	
+6-2	all	O	O	O	_	_	
+6-3	pack	B-ScrEv_pack_luggage	O	O	_	_	
+6-4	lightly	O	O	O	_	_	
+6-5	with	O	O	O	_	_	
+6-6	one	O	O	O	_	_	
+6-7	piece	O	B-webanno.custom.Participants_	B-NPart	_	_	
+6-8	of	O	O	O	_	_	
+6-9	luggage	O	B-webanno.custom.Participants_	B-ScrPart_carry_on_luggage	_	_	
+6-10	.	O	O	O	_	_	
+
+#id=7
+#text=After waiting at the airport for a while , we boarded our plane .
+7-1	After	O	O	O	_	_	
+7-2	waiting	B-ScrEv_wait_boarding	O	O	_	_	
+7-3	at	O	O	O	_	_	
+7-4	the	O	O	O	_	_	
+7-5	airport	O	B-webanno.custom.Participants_	B-ScrPart_airport	webanno.custom.Corefchains_	5-5	
+7-6	for	O	O	O	_	_	
+7-7	a	O	O	O	_	_	
+7-8	while	O	O	O	_	_	
+7-9	,	O	O	O	_	_	
+7-10	we	O	B-webanno.custom.Participants_	B-ScrPart_passenger	webanno.custom.Corefchains_	6-1	
+7-11	boarded	B-ScrEv_board_plane	O	O	_	_	
+7-12	our	O	B-webanno.custom.Participants_	B-ScrPart_passenger	webanno.custom.Corefchains_	7-10	
+7-13	plane	O	B-webanno.custom.Participants_	B-ScrPart_plane	webanno.custom.Corefchains_	1-4	
+7-14	.	O	O	O	_	_	
+
+#id=8
+#text=The flight attendants and crew are friendly .
+8-1	The	O	O	O	_	_	
+8-2	flight	O	B-webanno.custom.Participants_	B-ScrPart_staff	_	_	
+8-3	attendants	O	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_staff|B-ScrPart_staff	_	_	
+8-4	and	O	O	O	_	_	
+8-5	crew	O	B-webanno.custom.Participants_	B-ScrPart_staff	_	_	
+8-6	are	B-UnrelEv	O	O	_	_	
+8-7	friendly	O	O	O	_	_	
+8-8	.	O	O	O	_	_	
+
+#id=9
+#text=We find out seats and try to as comfortable in the cramped seating of a packed flight full of passengers .
+9-1	We	O	B-webanno.custom.Participants_	B-ScrPart_passenger	webanno.custom.Corefchains_	7-12	
+9-2	find	B-RelNScrEv	O	O	_	_	
+9-3	out	O	B-webanno.custom.Participants_	B-ScrPart_passenger	webanno.custom.Corefchains_	9-1	
+9-4	seats	O	B-webanno.custom.Participants_	B-ScrPart_seat	_	_	
+9-5	and	O	O	O	_	_	
+9-6	try	O	O	O	_	_	
+9-7	to	O	O	O	_	_	
+9-8	as	O	O	O	_	_	
+9-9	comfortable	O	O	O	_	_	
+9-10	in	O	O	O	_	_	
+9-11	the	O	O	O	_	_	
+9-12	cramped	O	O	O	_	_	
+9-13	seating	O	O	O	_	_	
+9-14	of	O	O	O	_	_	
+9-15	a	O	O	O	_	_	
+9-16	packed	O	O	O	_	_	
+9-17	flight	O	B-webanno.custom.Participants_	B-ScrPart_flight	webanno.custom.Corefchains_	5-13	
+9-18	full	O	O	O	_	_	
+9-19	of	O	O	O	_	_	
+9-20	passengers	O	B-webanno.custom.Participants_	B-ScrPart_passenger	_	_	
+9-21	.	O	O	O	_	_	
+
+#id=10
+#text=We try to relax , buckle up for a four hour flight .
+10-1	We	O	B-webanno.custom.Participants_	B-ScrPart_passenger	webanno.custom.Corefchains_	9-3	
+10-2	try	O	O	O	_	_	
+10-3	to	O	O	O	_	_	
+10-4	relax	B-UnrelEv	O	O	_	_	
+10-5	,	O	O	O	_	_	
+10-6	buckle	B-ScrEv_buckle_seat_belt	O	O	_	_	
+10-7	up	I-ScrEv_buckle_seat_belt	O	O	_	_	
+10-8	for	O	O	O	_	_	
+10-9	a	O	O	O	_	_	
+10-10	four	O	O	O	_	_	
+10-11	hour	O	O	O	_	_	
+10-12	flight	O	B-webanno.custom.Participants_	B-ScrPart_flight	webanno.custom.Corefchains_	9-17	
+10-13	.	O	O	O	_	_	
+
+#id=11
+#text=During the four hour flight , we can sleep on watch tv or listen to music .
+11-1	During	O	O	O	_	_	
+11-2	the	O	O	O	_	_	
+11-3	four	O	O	O	_	_	
+11-4	hour	O	O	O	_	_	
+11-5	flight	O	B-webanno.custom.Participants_	B-ScrPart_flight	webanno.custom.Corefchains_	10-12	
+11-6	,	O	O	O	_	_	
+11-7	we	O	B-webanno.custom.Participants_	B-ScrPart_passenger	webanno.custom.Corefchains_	10-1	
+11-8	can	O	O	O	_	_	
+11-9	sleep	B-ScrEv_spend_time_flight	O	O	_	_	
+11-10	on	O	O	O	_	_	
+11-11	watch	B-ScrEv_spend_time_flight	O	O	_	_	
+11-12	tv	O	B-webanno.custom.Participants_	B-ScrPart_in-flight_entertainment	_	_	
+11-13	or	O	O	O	_	_	
+11-14	listen	B-ScrEv_spend_time_flight	O	O	_	_	
+11-15	to	O	O	O	_	_	
+11-16	music	O	B-webanno.custom.Participants_	B-ScrPart_in-flight_entertainment	_	_	
+11-17	.	O	O	O	_	_	
+
+#id=12
+#text=And the crew will come around with drinks and snacks .
+12-1	And	O	O	O	_	_	
+12-2	the	O	O	O	_	_	
+12-3	crew	O	B-webanno.custom.Participants_	B-ScrPart_staff	webanno.custom.Corefchains_	8-5	
+12-4	will	O	O	O	_	_	
+12-5	come	B-UnrelEv	O	O	_	_	
+12-6	around	I-UnrelEv	O	O	_	_	
+12-7	with	O	O	O	_	_	
+12-8	drinks	O	B-webanno.custom.Participants_	B-ScrPart_in-flight_entertainment	_	_	
+12-9	and	O	O	O	_	_	
+12-10	snacks	O	B-webanno.custom.Participants_	B-ScrPart_in-flight_entertainment	_	_	
+12-11	.	O	O	O	_	_	
+
+#id=13
+#text=After a necessary flight , we arrive at our destination safely . 
+13-1	After	O	O	O	_	_	
+13-2	a	O	O	O	_	_	
+13-3	necessary	O	O	O	_	_	
+13-4	flight	O	B-webanno.custom.Participants_	B-ScrPart_flight	webanno.custom.Corefchains_	11-5	
+13-5	,	O	O	O	_	_	
+13-6	we	O	B-webanno.custom.Participants_	B-ScrPart_passenger	webanno.custom.Corefchains_	11-7	
+13-7	arrive	B-???	O	O	_	_	
+13-8	at	O	O	O	_	_	
+13-9	our	O	B-webanno.custom.Participants_	B-ScrPart_passenger	webanno.custom.Corefchains_	13-6	
+13-10	destination	O	B-webanno.custom.Participants_	B-ScrPart_target_location	webanno.custom.Corefchains_	2-11	
+13-11	safely	O	O	O	_	_	
+13-12	.	O	O	O	_	_	
+

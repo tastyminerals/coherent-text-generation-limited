@@ -1,0 +1,220 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I used to go to the library all the time .
+1-1	I	B-ScrPart_customer	O	_	_	
+1-2	used	O	B-UnrelEv	_	_	
+1-3	to	O	O	_	_	
+1-4	go	O	B-Evoking	_	_	
+1-5	to	O	I-Evoking	_	_	
+1-6	the	O	I-Evoking	_	_	
+1-7	library	B-ScrPart_library	I-Evoking	_	_	
+1-8	all	O	O	_	_	
+1-9	the	O	O	_	_	
+1-10	time	O	O	_	_	
+1-11	.	O	O	_	_	
+
+#id=2
+#text=I am a complete bookworm , and since I do n't have the time to read completely through a 200 page novel anymore , I do n't borrow books very often anymore .
+2-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-1	
+2-2	am	O	B-UnrelEv	_	_	
+2-3	a	O	O	_	_	
+2-4	complete	O	O	_	_	
+2-5	bookworm	O	O	_	_	
+2-6	,	O	O	_	_	
+2-7	and	O	O	_	_	
+2-8	since	O	O	_	_	
+2-9	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-1	
+2-10	do	O	O	_	_	
+2-11	n't	O	O	_	_	
+2-12	have	O	B-UnrelEv	_	_	
+2-13	the	O	O	_	_	
+2-14	time	O	O	_	_	
+2-15	to	O	O	_	_	
+2-16	read	O	B-RelNScrEv	_	_	
+2-17	completely	O	O	_	_	
+2-18	through	O	O	_	_	
+2-19	a	O	O	_	_	
+2-20	200	O	O	_	_	
+2-21	page	O	O	_	_	
+2-22	novel	B-ScrPart_book	O	_	_	
+2-23	anymore	O	O	_	_	
+2-24	,	O	O	_	_	
+2-25	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-9	
+2-26	do	O	O	_	_	
+2-27	n't	O	O	_	_	
+2-28	borrow	O	B-Evoking	_	_	
+2-29	books	B-ScrPart_book	I-Evoking	webanno.custom.Corefchains_	2-22	
+2-30	very	O	O	_	_	
+2-31	often	O	O	_	_	
+2-32	anymore	O	O	_	_	
+2-33	.	O	O	_	_	
+
+#id=3
+#text=I loved to go look through all the fiction books .
+3-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-25	
+3-2	loved	O	B-UnrelEv	_	_	
+3-3	to	O	O	_	_	
+3-4	go	O	B-UnrelEv	_	_	
+3-5	look	O	B-RelNScrEv	_	_	
+3-6	through	O	O	_	_	
+3-7	all	O	O	_	_	
+3-8	the	O	O	_	_	
+3-9	fiction	O	O	_	_	
+3-10	books	B-ScrPart_book	O	webanno.custom.Corefchains_	2-29	
+3-11	.	O	O	_	_	
+
+#id=4
+#text=The science fiction and fantasy novels always caught my eye .
+4-1	The	O	O	_	_	
+4-2	science	O	O	_	_	
+4-3	fiction	O	O	_	_	
+4-4	and	O	O	_	_	
+4-5	fantasy	O	O	_	_	
+4-6	novels	B-ScrPart_book	O	webanno.custom.Corefchains_	3-10	
+4-7	always	O	O	_	_	
+4-8	caught	O	B-RelNScrEv	_	_	
+4-9	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-1	
+4-10	eye	B-NPart	O	_	_	
+4-11	.	O	O	_	_	
+
+#id=5
+#text=I am just in love with the creative imagination involved with writing out such beautiful worlds and bringing me into them to see what they see .
+5-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-9	
+5-2	am	O	B-UnrelEv	_	_	
+5-3	just	O	O	_	_	
+5-4	in	O	O	_	_	
+5-5	love	O	O	_	_	
+5-6	with	O	O	_	_	
+5-7	the	O	O	_	_	
+5-8	creative	O	O	_	_	
+5-9	imagination	O	O	_	_	
+5-10	involved	O	B-UnrelEv	_	_	
+5-11	with	O	O	_	_	
+5-12	writing	O	B-UnrelEv	_	_	
+5-13	out	O	I-UnrelEv	_	_	
+5-14	such	O	O	_	_	
+5-15	beautiful	O	O	_	_	
+5-16	worlds	O	O	_	_	
+5-17	and	O	O	_	_	
+5-18	bringing	O	B-UnrelEv	_	_	
+5-19	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-1	
+5-20	into	O	O	_	_	
+5-21	them	O	O	_	_	
+5-22	to	O	O	_	_	
+5-23	see	O	B-UnrelEv	_	_	
+5-24	what	O	O	_	_	
+5-25	they	O	O	_	_	
+5-26	see	O	B-UnrelEv	_	_	
+5-27	.	O	O	_	_	
+
+#id=6
+#text=So after I had chosen my book , I would go up to the desk .
+6-1	So	O	O	_	_	
+6-2	after	O	O	_	_	
+6-3	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-19	
+6-4	had	O	O	_	_	
+6-5	chosen	O	B-ScrEv_take_book	_	_	
+6-6	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-3	
+6-7	book	B-ScrPart_book	O	webanno.custom.Corefchains_	4-6	
+6-8	,	O	O	_	_	
+6-9	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-6	
+6-10	would	O	O	_	_	
+6-11	go	O	B-ScrEv_go_check_out	_	_	
+6-12	up	O	O	_	_	
+6-13	to	O	O	_	_	
+6-14	the	O	O	_	_	
+6-15	desk	B-ScrPart_check-out_desk	O	_	_	
+6-16	.	O	O	_	_	
+
+#id=7
+#text=When I was checking them out , you had to bring your library card so they could scan it .
+7-1	When	O	O	_	_	
+7-2	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-9	
+7-3	was	O	O	_	_	
+7-4	checking	O	B-ScrEv_register	_	_	
+7-5	them	B-ScrPart_book	O	webanno.custom.Corefchains_	6-7	
+7-6	out	O	O	_	_	
+7-7	,	O	O	_	_	
+7-8	you	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-2	
+7-9	had	O	O	_	_	
+7-10	to	O	O	_	_	
+7-11	bring	O	B-RelNScrEv	_	_	
+7-12	your	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-8	
+7-13	library	B-ScrPart_library_card	O	_	_	
+7-14	card	I-ScrPart_library_card|B-ScrPart_library_card	O	_	_	
+7-15	so	O	O	_	_	
+7-16	they	B-ScrPart_staff	O	_	_	
+7-17	could	O	O	_	_	
+7-18	scan	O	B-ScrEv_show_card	_	_	
+7-19	it	B-ScrPart_library_card	O	webanno.custom.Corefchains_	7-14	
+7-20	.	O	O	_	_	
+
+#id=8
+#text=They would then scan the card , scan each book , and give you a card with a stamped due date on it .
+8-1	They	B-ScrPart_staff	O	webanno.custom.Corefchains_	7-16	
+8-2	would	O	O	_	_	
+8-3	then	O	O	_	_	
+8-4	scan	O	B-ScrEv_show_card	_	_	
+8-5	the	O	O	_	_	
+8-6	card	B-ScrPart_library_card	O	webanno.custom.Corefchains_	7-19	
+8-7	,	O	O	_	_	
+8-8	scan	O	B-ScrEv_register	_	_	
+8-9	each	O	O	_	_	
+8-10	book	B-ScrPart_book	O	webanno.custom.Corefchains_	7-5	
+8-11	,	O	O	_	_	
+8-12	and	O	O	_	_	
+8-13	give	O	B-ScrEv_get_receipt	_	_	
+8-14	you	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-12	
+8-15	a	O	O	_	_	
+8-16	card	B-ScrPart_receipt	O	_	_	
+8-17	with	O	O	_	_	
+8-18	a	O	O	_	_	
+8-19	stamped	O	B-UnrelEv	_	_	
+8-20	due	B-ScrPart_return_date	O	_	_	
+8-21	date	I-ScrPart_return_date|B-ScrPart_return_date	O	_	_	
+8-22	on	O	O	_	_	
+8-23	it	B-ScrPart_receipt	O	webanno.custom.Corefchains_	8-16	
+8-24	.	O	O	_	_	
+
+#id=9
+#text=You could bring it back before that time , or , if the book was n't insanely popular and had no one waiting on it , you could recheck it out if you needed more time to read . 
+9-1	You	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-14	
+9-2	could	O	O	_	_	
+9-3	bring	O	B-ScrEv_return_book	_	_	
+9-4	it	B-ScrPart_book	O	webanno.custom.Corefchains_	8-10	
+9-5	back	O	O	_	_	
+9-6	before	O	O	_	_	
+9-7	that	O	O	_	_	
+9-8	time	B-ScrPart_return_date	O	webanno.custom.Corefchains_	8-21	
+9-9	,	O	O	_	_	
+9-10	or	O	O	_	_	
+9-11	,	O	O	_	_	
+9-12	if	O	O	_	_	
+9-13	the	O	O	_	_	
+9-14	book	B-ScrPart_book	O	webanno.custom.Corefchains_	9-4	
+9-15	was	O	B-UnrelEv	_	_	
+9-16	n't	O	O	_	_	
+9-17	insanely	O	O	_	_	
+9-18	popular	O	O	_	_	
+9-19	and	O	O	_	_	
+9-20	had	O	B-UnrelEv	_	_	
+9-21	no	B-ScrPart_customer	O	_	_	
+9-22	one	I-ScrPart_customer	O	_	_	
+9-23	waiting	O	B-ScrEv_wait	_	_	
+9-24	on	O	O	_	_	
+9-25	it	B-ScrPart_book	O	webanno.custom.Corefchains_	9-14	
+9-26	,	O	O	_	_	
+9-27	you	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-1	
+9-28	could	O	O	_	_	
+9-29	recheck	O	B-ScrEv_register	_	_	
+9-30	it	B-ScrPart_book	O	webanno.custom.Corefchains_	9-25	
+9-31	out	O	O	_	_	
+9-32	if	O	O	_	_	
+9-33	you	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-27	
+9-34	needed	O	B-UnrelEv	_	_	
+9-35	more	O	O	_	_	
+9-36	time	O	O	_	_	
+9-37	to	O	O	_	_	
+9-38	read	O	B-RelNScrEv	_	_	
+9-39	.	O	O	_	_	
+

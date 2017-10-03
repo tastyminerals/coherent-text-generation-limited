@@ -1,0 +1,307 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=My husband and I went to the nursery to look at trees .
+1-1	My	B-ScrPart_gardener	O	_	_	
+1-2	husband	B-ScrPart_gardener	O	_	_	
+1-3	and	O	O	_	_	
+1-4	I	B-ScrPart_gardener	O	_	_	
+1-5	went	O	B-RelNScrEv	_	_	
+1-6	to	O	O	_	_	
+1-7	the	O	O	_	_	
+1-8	nursery	B-ScrPart_shop	O	_	_	
+1-9	to	O	O	_	_	
+1-10	look	O	B-ScrEv_choose_tree	_	_	
+1-11	at	O	O	_	_	
+1-12	trees	B-ScrPart_tree	O	_	_	
+1-13	.	O	O	_	_	
+
+#id=2
+#text=We wanted to plant a tree in the front yard , but we were n't sure what to get yet .
+2-1	We	B-ScrPart_gardener	O	_	_	
+2-2	wanted	O	O	_	_	
+2-3	to	O	O	_	_	
+2-4	plant	O	B-Evoking	_	_	
+2-5	a	O	I-Evoking	_	_	
+2-6	tree	B-ScrPart_tree	I-Evoking	_	_	
+2-7	in	O	O	_	_	
+2-8	the	O	O	_	_	
+2-9	front	B-ScrPart_location_garden	O	_	_	
+2-10	yard	I-ScrPart_location_garden|B-ScrPart_location_garden	O	_	_	
+2-11	,	O	O	_	_	
+2-12	but	O	O	_	_	
+2-13	we	B-ScrPart_gardener	O	_	_	
+2-14	were	O	B-UnrelEv	_	_	
+2-15	n't	O	O	_	_	
+2-16	sure	O	O	_	_	
+2-17	what	O	O	_	_	
+2-18	to	O	O	_	_	
+2-19	get	O	B-ScrEv_get_tree	_	_	
+2-20	yet	O	O	_	_	
+2-21	.	O	O	_	_	
+
+#id=3
+#text=We wandered through the nursery and considered a few of our option .
+3-1	We	B-ScrPart_gardener	O	_	_	
+3-2	wandered	O	B-UnrelEv	_	_	
+3-3	through	O	O	_	_	
+3-4	the	O	O	_	_	
+3-5	nursery	B-ScrPart_shop	O	_	_	
+3-6	and	O	O	_	_	
+3-7	considered	O	B-ScrEv_choose_tree	_	_	
+3-8	a	O	O	_	_	
+3-9	few	O	O	_	_	
+3-10	of	O	O	_	_	
+3-11	our	B-ScrPart_gardener	O	_	_	
+3-12	option	B-NPart	O	_	_	
+3-13	.	O	O	_	_	
+
+#id=4
+#text=We did n't want a large tree , like a pine tree .
+4-1	We	B-ScrPart_gardener	O	_	_	
+4-2	did	O	O	_	_	
+4-3	n't	O	O	_	_	
+4-4	want	O	B-UnrelEv	_	_	
+4-5	a	O	O	_	_	
+4-6	large	O	O	_	_	
+4-7	tree	B-ScrPart_tree	O	_	_	
+4-8	,	O	O	_	_	
+4-9	like	O	O	_	_	
+4-10	a	O	O	_	_	
+4-11	pine	B-ScrPart_tree	O	_	_	
+4-12	tree	I-ScrPart_tree|B-ScrPart_tree	O	_	_	
+4-13	.	O	O	_	_	
+
+#id=5
+#text=We did n't want a small tree , like a Japanese maple .
+5-1	We	B-ScrPart_gardener	O	_	_	
+5-2	did	O	O	_	_	
+5-3	n't	O	O	_	_	
+5-4	want	O	B-UnrelEv	_	_	
+5-5	a	O	O	_	_	
+5-6	small	O	O	_	_	
+5-7	tree	B-ScrPart_tree	O	_	_	
+5-8	,	O	O	_	_	
+5-9	like	O	O	_	_	
+5-10	a	O	O	_	_	
+5-11	Japanese	B-ScrPart_tree	O	_	_	
+5-12	maple	I-ScrPart_tree|B-ScrPart_tree	O	_	_	
+5-13	.	O	O	_	_	
+
+#id=6
+#text=We wanted something in-between .
+6-1	We	B-ScrPart_gardener	O	_	_	
+6-2	wanted	O	B-UnrelEv	_	_	
+6-3	something	B-ScrPart_tree	O	_	_	
+6-4	in-between	O	O	_	_	
+6-5	.	O	O	_	_	
+
+#id=7
+#text=When we spoke to one of the workers at the nursery , he suggested that we plant a crabapple .
+7-1	When	O	O	_	_	
+7-2	we	B-ScrPart_gardener	O	_	_	
+7-3	spoke	O	B-RelNScrEv	_	_	
+7-4	to	O	O	_	_	
+7-5	one	O	O	_	_	
+7-6	of	O	O	_	_	
+7-7	the	O	O	_	_	
+7-8	workers	B-ScrPart_staff	O	_	_	
+7-9	at	O	O	_	_	
+7-10	the	O	O	_	_	
+7-11	nursery	B-ScrPart_shop	O	_	_	
+7-12	,	O	O	_	_	
+7-13	he	B-ScrPart_staff	O	webanno.custom.Corefchains_	7-8	
+7-14	suggested	O	B-RelNScrEv	_	_	
+7-15	that	O	O	_	_	
+7-16	we	B-ScrPart_gardener	O	_	_	
+7-17	plant	O	B-RelNScrEv	_	_	
+7-18	a	O	O	_	_	
+7-19	crabapple	B-ScrPart_tree	O	_	_	
+7-20	.	O	O	_	_	
+
+#id=8
+#text=It would have green leaves , and would have white flowers in the spring .
+8-1	It	B-ScrPart_tree	O	_	_	
+8-2	would	O	O	_	_	
+8-3	have	O	B-UnrelEv	_	_	
+8-4	green	O	O	_	_	
+8-5	leaves	B-NPart	O	_	_	
+8-6	,	O	O	_	_	
+8-7	and	O	O	_	_	
+8-8	would	O	O	_	_	
+8-9	have	O	B-UnrelEv	_	_	
+8-10	white	O	O	_	_	
+8-11	flowers	B-NPart	O	_	_	
+8-12	in	O	O	_	_	
+8-13	the	O	O	_	_	
+8-14	spring	B-NPart	O	_	_	
+8-15	.	O	O	_	_	
+
+#id=9
+#text=We took the tree home in the back of our truck .
+9-1	We	B-ScrPart_gardener	O	_	_	
+9-2	took	O	B-ScrEv_take_home	_	_	
+9-3	the	O	O	_	_	
+9-4	tree	B-ScrPart_tree	O	_	_	
+9-5	home	B-SuppVComp	O	_	_	
+9-6	in	O	O	_	_	
+9-7	the	O	O	_	_	
+9-8	back	B-NPart	O	_	_	
+9-9	of	O	O	_	_	
+9-10	our	B-ScrPart_gardener	O	_	_	
+9-11	truck	B-NPart	O	_	_	
+9-12	.	O	O	_	_	
+
+#id=10
+#text=My husband used our shovel to dig a hole in the ground .
+10-1	My	B-ScrPart_gardener	O	_	_	
+10-2	husband	B-ScrPart_gardener	O	_	_	
+10-3	used	O	B-RelNScrEv	_	_	
+10-4	our	B-ScrPart_gardener	O	_	_	
+10-5	shovel	B-ScrPart_gardening_tool	O	_	_	
+10-6	to	O	O	_	_	
+10-7	dig	O	B-ScrEv_dug_hole	_	_	
+10-8	a	O	O	_	_	
+10-9	hole	B-ScrPart_hole	O	_	_	
+10-10	in	O	O	_	_	
+10-11	the	O	O	_	_	
+10-12	ground	B-ScrPart_other	O	_	_	
+10-13	.	O	O	_	_	
+
+#id=11
+#text=It took him some time - you have to dig a pretty big hole when you plant a tree !
+11-1	It	B-No_label	O	_	_	
+11-2	took	O	B-RelNScrEv	_	_	
+11-3	him	B-ScrPart_gardener	O	_	_	
+11-4	some	O	O	_	_	
+11-5	time	B-ScrPart_time	O	_	_	
+11-6	-	O	O	_	_	
+11-7	you	B-ScrPart_gardener	O	_	_	
+11-8	have	O	O	_	_	
+11-9	to	O	O	_	_	
+11-10	dig	O	B-ScrEv_dug_hole	_	_	
+11-11	a	O	O	_	_	
+11-12	pretty	O	O	_	_	
+11-13	big	O	O	_	_	
+11-14	hole	B-ScrPart_hole	O	_	_	
+11-15	when	O	O	_	_	
+11-16	you	B-ScrPart_gardener	O	_	_	
+11-17	plant	O	B-Evoking	_	_	
+11-18	a	O	I-Evoking	_	_	
+11-19	tree	B-ScrPart_tree	I-Evoking	_	_	
+11-20	!	O	O	_	_	
+
+#id=12
+#text=Then I helped him carry the tree over to the hole .
+12-1	Then	O	O	_	_	
+12-2	I	B-ScrPart_gardener	O	_	_	
+12-3	helped	O	B-RelNScrEv	_	_	
+12-4	him	B-ScrPart_gardener	O	_	_	
+12-5	carry	O	B-ScrEv_other	_	_	
+12-6	the	O	O	_	_	
+12-7	tree	B-ScrPart_tree	O	_	_	
+12-8	over	O	O	_	_	
+12-9	to	O	O	_	_	
+12-10	the	O	O	_	_	
+12-11	hole	B-ScrPart_hole	O	_	_	
+12-12	.	O	O	_	_	
+
+#id=13
+#text=We had to cut off the plastic bucket it was in .
+13-1	We	B-ScrPart_gardener	O	_	_	
+13-2	had	O	O	_	_	
+13-3	to	O	O	_	_	
+13-4	cut	O	B-ScrEv_unwrap_root|B-ScrEv_unwrap_root	_	_	
+13-5	off	O	I-ScrEv_unwrap_root	_	_	
+13-6	the	O	O	_	_	
+13-7	plastic	B-ScrPart_wrapping	O	_	_	
+13-8	bucket	I-ScrPart_wrapping|B-ScrPart_wrapping	O	_	_	
+13-9	it	B-ScrPart_tree	O	_	_	
+13-10	was	O	B-UnrelEv	_	_	
+13-11	in	O	O	_	_	
+13-12	.	O	O	_	_	
+
+#id=14
+#text=When we were done , we put it in the hole , and I helped by holding the tree steady and pushing dirt into the hole .
+14-1	When	O	O	_	_	
+14-2	we	B-ScrPart_gardener	O	_	_	
+14-3	were	O	O	_	_	
+14-4	done	O	B-UnrelEv	_	_	
+14-5	,	O	O	_	_	
+14-6	we	B-ScrPart_gardener	O	_	_	
+14-7	put	O	B-ScrEv_place_root	_	_	
+14-8	it	B-ScrPart_tree	O	_	_	
+14-9	in	O	O	_	_	
+14-10	the	O	O	_	_	
+14-11	hole	B-ScrPart_hole	O	_	_	
+14-12	,	O	O	_	_	
+14-13	and	O	O	_	_	
+14-14	I	B-ScrPart_gardener	O	_	_	
+14-15	helped	O	B-RelNScrEv	_	_	
+14-16	by	O	O	_	_	
+14-17	holding	O	B-RelNScrEv	_	_	
+14-18	the	O	O	_	_	
+14-19	tree	B-ScrPart_tree	O	_	_	
+14-20	steady	O	O	_	_	
+14-21	and	O	O	_	_	
+14-22	pushing	O	B-ScrEv_refill_hole	_	_	
+14-23	dirt	B-ScrPart_dirt	O	_	_	
+14-24	into	O	O	_	_	
+14-25	the	O	O	_	_	
+14-26	hole	B-ScrPart_hole	O	_	_	
+14-27	.	O	O	_	_	
+
+#id=15
+#text=Once we had filled in all the dirt around the tree , we turned on the sprinklers .
+15-1	Once	O	O	_	_	
+15-2	we	B-ScrPart_gardener	O	_	_	
+15-3	had	O	O	_	_	
+15-4	filled	O	B-ScrEv_refill_hole	_	_	
+15-5	in	O	O	_	_	
+15-6	all	O	O	_	_	
+15-7	the	O	O	_	_	
+15-8	dirt	B-ScrPart_dirt	O	_	_	
+15-9	around	O	O	_	_	
+15-10	the	O	O	_	_	
+15-11	tree	B-ScrPart_tree	O	_	_	
+15-12	,	O	O	_	_	
+15-13	we	B-ScrPart_gardener	O	_	_	
+15-14	turned	O	B-RelNScrEv|B-RelNScrEv	_	_	
+15-15	on	O	I-RelNScrEv	_	_	
+15-16	the	O	O	_	_	
+15-17	sprinklers	B-ScrPart_other	O	_	_	
+15-18	.	O	O	_	_	
+
+#id=16
+#text=We wanted to water the tree and get it off to a good start .
+16-1	We	B-ScrPart_gardener	O	_	_	
+16-2	wanted	O	O	_	_	
+16-3	to	O	O	_	_	
+16-4	water	O	B-ScrEv_water	_	_	
+16-5	the	O	O	_	_	
+16-6	tree	B-ScrPart_tree	O	_	_	
+16-7	and	O	O	_	_	
+16-8	get	O	B-UnrelEv	_	_	
+16-9	it	B-ScrPart_tree	O	_	_	
+16-10	off	O	O	_	_	
+16-11	to	O	O	_	_	
+16-12	a	O	O	_	_	
+16-13	good	O	O	_	_	
+16-14	start	B-NPart	O	_	_	
+16-15	.	O	O	_	_	
+
+#id=17
+#text=We were excited to have a new tree in the front yard . 
+17-1	We	B-ScrPart_gardener	O	_	_	
+17-2	were	O	O	_	_	
+17-3	excited	O	B-UnrelEv	_	_	
+17-4	to	O	O	_	_	
+17-5	have	O	B-UnrelEv	_	_	
+17-6	a	O	O	_	_	
+17-7	new	O	O	_	_	
+17-8	tree	B-ScrPart_tree	O	_	_	
+17-9	in	O	O	_	_	
+17-10	the	O	O	_	_	
+17-11	front	B-ScrPart_location_garden	O	_	_	
+17-12	yard	I-ScrPart_location_garden|B-ScrPart_location_garden	O	_	_	
+17-13	.	O	O	_	_	
+

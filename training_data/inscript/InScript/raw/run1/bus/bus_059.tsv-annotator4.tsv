@@ -1,0 +1,199 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Eventsandparticipants | Event # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Yesterday my car broke down , so I was thinking of how I would get to work .
+1-1	Yesterday	O	O	_	_	
+1-2	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-8	
+1-3	car	O	O	_	_	
+1-4	broke	O	B-UnrelEv	_	_	
+1-5	down	O	I-UnrelEv	_	_	
+1-6	,	O	O	_	_	
+1-7	so	O	O	_	_	
+1-8	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-13	
+1-9	was	O	O	_	_	
+1-10	thinking	O	B-UnrelEv	_	_	
+1-11	of	O	O	_	_	
+1-12	how	O	O	_	_	
+1-13	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-1	
+1-14	would	O	O	_	_	
+1-15	get	O	B-UnrelEv	_	_	
+1-16	to	O	O	_	_	
+1-17	work	O	O	_	_	
+1-18	.	O	O	_	_	
+
+#id=2
+#text=I decided one of the best options would be to take a public bus .
+2-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-2	
+2-2	decided	O	B-UnrelEv	_	_	
+2-3	one	O	O	_	_	
+2-4	of	O	O	_	_	
+2-5	the	O	O	_	_	
+2-6	best	O	O	_	_	
+2-7	options	O	O	_	_	
+2-8	would	O	O	_	_	
+2-9	be	O	B-UnrelEv	_	_	
+2-10	to	O	O	_	_	
+2-11	take	O	B-Evoking	_	_	
+2-12	a	O	I-Evoking	_	_	
+2-13	public	O	I-Evoking	_	_	
+2-14	bus	B-ScrPart_bus	I-Evoking	webanno.custom.Corefchains_	3-6	
+2-15	.	O	O	_	_	
+
+#id=3
+#text=Since I 've never taken one before , I went to the city website and looked at a schedule of all the bus times and routes .
+3-1	Since	O	O	_	_	
+3-2	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-9	
+3-3	've	O	O	_	_	
+3-4	never	O	O	_	_	
+3-5	taken	O	B-Evoking	_	_	
+3-6	one	B-ScrPart_bus	I-Evoking	webanno.custom.Corefchains_	4-8	
+3-7	before	O	O	_	_	
+3-8	,	O	O	_	_	
+3-9	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-2	
+3-10	went	O	B-UnrelEv	_	_	
+3-11	to	O	O	_	_	
+3-12	the	O	O	_	_	
+3-13	city	O	O	_	_	
+3-14	website	O	O	_	_	
+3-15	and	O	O	_	_	
+3-16	looked	O	B-ScrEv_check_time-table	_	_	
+3-17	at	O	I-ScrEv_check_time-table	_	_	
+3-18	a	O	O	_	_	
+3-19	schedule	B-ScrPart_time-table	O	_	_	
+3-20	of	O	O	_	_	
+3-21	all	O	O	_	_	
+3-22	the	O	O	_	_	
+3-23	bus	O	O	_	_	
+3-24	times	O	O	_	_	
+3-25	and	O	O	_	_	
+3-26	routes	O	O	_	_	
+3-27	.	O	O	_	_	
+
+#id=4
+#text=When I had finally decided on the bus that I needed to take , it was time to put my plan into action .
+4-1	When	O	O	_	_	
+4-2	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-10	
+4-3	had	O	O	_	_	
+4-4	finally	O	O	_	_	
+4-5	decided	O	B-ScrEv_find_bus	_	_	
+4-6	on	O	I-ScrEv_find_bus	_	_	
+4-7	the	O	O	_	_	
+4-8	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	7-3	
+4-9	that	O	O	_	_	
+4-10	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-20	
+4-11	needed	O	O	_	_	
+4-12	to	O	O	_	_	
+4-13	take	O	B-Evoking	_	_	
+4-14	,	O	O	_	_	
+4-15	it	O	O	_	_	
+4-16	was	O	B-UnrelEv	_	_	
+4-17	time	B-ScrPart_time/date	O	_	_	
+4-18	to	O	O	_	_	
+4-19	put	O	B-UnrelEv	_	_	
+4-20	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-1	
+4-21	plan	O	O	_	_	
+4-22	into	O	O	_	_	
+4-23	action	O	O	_	_	
+4-24	.	O	O	_	_	
+
+#id=5
+#text=I left my house and walked over to the bus stop .
+5-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-3	
+5-2	left	O	B-ScrEv_get_bus_stop	_	_	
+5-3	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-5	
+5-4	house	O	O	_	_	
+5-5	and	O	O	_	_	
+5-6	walked	O	B-ScrEv_get_bus_stop	_	_	
+5-7	over	O	I-ScrEv_get_bus_stop	_	_	
+5-8	to	O	O	_	_	
+5-9	the	O	O	_	_	
+5-10	bus	B-ScrPart_bus_stop	O	_	_	
+5-11	stop	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	_	_	
+5-12	.	O	O	_	_	
+
+#id=6
+#text=There were a few other people waiting there as well .
+6-1	There	O	O	_	_	
+6-2	were	O	B-UnrelEv	_	_	
+6-3	a	O	O	_	_	
+6-4	few	O	O	_	_	
+6-5	other	O	O	_	_	
+6-6	people	B-ScrPart_passenger	O	_	_	
+6-7	waiting	O	B-ScrEv_wait	_	_	
+6-8	there	O	O	_	_	
+6-9	as	O	O	_	_	
+6-10	well	O	O	_	_	
+6-11	.	O	O	_	_	
+
+#id=7
+#text=When the bus arrived I got on and paid the driver the fee , which was $ 1 .
+7-1	When	O	O	_	_	
+7-2	the	O	O	_	_	
+7-3	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	8-9	
+7-4	arrived	O	B-ScrEv_bus_comes	_	_	
+7-5	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-1	
+7-6	got	O	B-ScrEv_board_bus	_	_	
+7-7	on	O	I-ScrEv_board_bus	_	_	
+7-8	and	O	O	_	_	
+7-9	paid	O	B-ScrEv_get_ticket	_	_	
+7-10	the	O	O	_	_	
+7-11	driver	B-ScrPart_bus_staff	O	_	_	
+7-12	the	O	O	_	_	
+7-13	fee	B-ScrPart_money	O	webanno.custom.Corefchains_	7-17	
+7-14	,	O	O	_	_	
+7-15	which	O	O	_	_	
+7-16	was	O	B-UnrelEv	_	_	
+7-17	$	B-ScrPart_money	O	_	_	
+7-18	1	I-ScrPart_money	O	_	_	
+7-19	.	O	O	_	_	
+
+#id=8
+#text=I then sat down and waited for the bus to arrive at my destination .
+8-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-13	
+8-2	then	O	O	_	_	
+8-3	sat	O	B-ScrEv_take_seat	_	_	
+8-4	down	O	I-ScrEv_take_seat	_	_	
+8-5	and	O	O	_	_	
+8-6	waited	O	B-UnrelEv	_	_	
+8-7	for	O	I-UnrelEv	_	_	
+8-8	the	O	O	_	_	
+8-9	bus	B-ScrPart_bus	O	_	_	
+8-10	to	O	O	_	_	
+8-11	arrive	O	B-ScrEv_bus_stops	_	_	
+8-12	at	O	O	_	_	
+8-13	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-9	
+8-14	destination	B-ScrPart_destination	O	_	_	
+8-15	.	O	O	_	_	
+
+#id=9
+#text=It took about 40 minutes to get where I was going , and I arrived safely .
+9-1	It	B-NPart	O	_	_	
+9-2	took	O	B-RelNScrEv	_	_	
+9-3	about	O	O	_	_	
+9-4	40	B-ScrPart_time/date	O	_	_	
+9-5	minutes	I-ScrPart_time/date	O	_	_	
+9-6	to	O	O	_	_	
+9-7	get	O	B-RelNScrEv	_	_	
+9-8	where	O	O	_	_	
+9-9	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-14	
+9-10	was	O	O	_	_	
+9-11	going	O	B-UnrelEv	_	_	
+9-12	,	O	O	_	_	
+9-13	and	O	O	_	_	
+9-14	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-1	
+9-15	arrived	O	B-ScrEv_bus_stops	_	_	
+9-16	safely	O	O	_	_	
+9-17	.	O	O	_	_	
+
+#id=10
+#text=I think that overall it was a pleasant experience . 
+10-1	I	B-ScrPart_passenger	O	_	_	
+10-2	think	O	B-UnrelEv	_	_	
+10-3	that	O	O	_	_	
+10-4	overall	O	O	_	_	
+10-5	it	O	O	_	_	
+10-6	was	O	B-UnrelEv	_	_	
+10-7	a	O	O	_	_	
+10-8	pleasant	O	O	_	_	
+10-9	experience	O	O	_	_	
+10-10	.	O	O	_	_	
+

@@ -1,0 +1,229 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participants | Participant
+#id=1
+#text=The easiest cake for me to make is Cheesecake .
+1-1	The	O	O	O	
+1-2	easiest	O	O	O	
+1-3	cake	B-Evoking	B-ScrPart_cake	B-webanno.custom.Participants_	
+1-4	for	I-Evoking	O	O	
+1-5	me	I-Evoking	B-ScrPart_cook	B-webanno.custom.Participants_	
+1-6	to	I-Evoking	O	O	
+1-7	make	I-Evoking	O	O	
+1-8	is	O	O	O	
+1-9	Cheesecake	O	B-ScrPart_cake	B-webanno.custom.Participants_	
+1-10	.	O	O	O	
+
+#id=2
+#text=Throw eggs , sugar , cream cheese and flavor in a bowl and you have the filling .
+2-1	Throw	B-ScrEv_add_ingredients	O	O	
+2-2	eggs	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	
+2-3	,	O	O	O	
+2-4	sugar	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	
+2-5	,	O	O	O	
+2-6	cream	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	
+2-7	cheese	O	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	
+2-8	and	O	O	O	
+2-9	flavor	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	
+2-10	in	O	O	O	
+2-11	a	O	O	O	
+2-12	bowl	O	B-ScrPart_utensil	B-webanno.custom.Participants_	
+2-13	and	O	O	O	
+2-14	you	O	B-ScrPart_cook	B-webanno.custom.Participants_	
+2-15	have	B-UnrelEv	O	O	
+2-16	the	O	O	O	
+2-17	filling	O	B-ScrPart_dough	B-webanno.custom.Participants_	
+2-18	.	O	O	O	
+
+#id=3
+#text=Pour that filling in a cookie crust , bake at 350 for one hour , remove and freeze .
+3-1	Pour	B-ScrEv_pour_dough	O	O	
+3-2	that	O	O	O	
+3-3	filling	O	B-ScrPart_dough	B-webanno.custom.Participants_	
+3-4	in	O	O	O	
+3-5	a	O	O	O	
+3-6	cookie	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	
+3-7	crust	O	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	
+3-8	,	O	O	O	
+3-9	bake	B-RelNScrEv	O	O	
+3-10	at	O	O	O	
+3-11	350	O	B-ScrPart_temperature	B-webanno.custom.Participants_	
+3-12	for	O	O	O	
+3-13	one	O	O	O	
+3-14	hour	O	B-ScrPart_time	B-webanno.custom.Participants_	
+3-15	,	O	O	O	
+3-16	remove	B-ScrEv_take_out_oven	O	O	
+3-17	and	O	O	O	
+3-18	freeze	B-ScrEv_other	O	O	
+3-19	.	O	O	O	
+
+#id=4
+#text=I like strawberries on my cheesecake .
+4-1	I	O	B-ScrPart_beneficiary	B-webanno.custom.Participants_	
+4-2	like	B-UnrelEv	O	O	
+4-3	strawberries	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	
+4-4	on	O	O	O	
+4-5	my	O	B-ScrPart_cook	B-webanno.custom.Participants_	
+4-6	cheesecake	O	B-ScrPart_cake	B-webanno.custom.Participants_	
+4-7	.	O	O	O	
+
+#id=5
+#text=I slice up a few strawberries , pour sugar over them add a little and then place on top of frozen cheesecake .
+5-1	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	
+5-2	slice	B-ScrEv_prepare_ingredients|B-ScrEv_prepare_ingredients	O	O	
+5-3	up	I-ScrEv_prepare_ingredients	O	O	
+5-4	a	O	O	O	
+5-5	few	O	O	O	
+5-6	strawberries	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	
+5-7	,	O	O	O	
+5-8	pour	B-ScrEv_prepare_ingredients	O	O	
+5-9	sugar	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	
+5-10	over	O	O	O	
+5-11	them	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	
+5-12	add	B-ScrEv_prepare_ingredients	O	O	
+5-13	a	O	O	O	
+5-14	little	O	O	O	
+5-15	and	O	O	O	
+5-16	then	O	O	O	
+5-17	place	B-ScrEv_decorate	O	O	
+5-18	on	O	O	O	
+5-19	top	O	B-NPart	B-webanno.custom.Participants_	
+5-20	of	O	O	O	
+5-21	frozen	B-RelNScrEv	O	O	
+5-22	cheesecake	O	B-ScrPart_cake	B-webanno.custom.Participants_	
+5-23	.	O	O	O	
+
+#id=6
+#text=It is so good that your whole family will enjoy it .
+6-1	It	O	B-ScrPart_cake	B-webanno.custom.Participants_	
+6-2	is	B-UnrelEv	O	O	
+6-3	so	O	O	O	
+6-4	good	O	O	O	
+6-5	that	O	O	O	
+6-6	your	O	B-ScrPart_cook	B-webanno.custom.Participants_	
+6-7	whole	O	O	O	
+6-8	family	O	B-ScrPart_beneficiary	B-webanno.custom.Participants_	
+6-9	will	O	O	O	
+6-10	enjoy	B-ScrEv_eat	O	O	
+6-11	it	O	B-ScrPart_cake	B-webanno.custom.Participants_	
+6-12	.	O	O	O	
+
+#id=7
+#text=My love of cooking came from my mother .
+7-1	My	O	B-ScrPart_cook	B-webanno.custom.Participants_	
+7-2	love	O	B-NPart	B-webanno.custom.Participants_	
+7-3	of	O	O	O	
+7-4	cooking	B-RelNScrEv	O	O	
+7-5	came	B-UnrelEv|B-UnrelEv	O	O	
+7-6	from	I-UnrelEv	O	O	
+7-7	my	O	B-ScrPart_cook	B-webanno.custom.Participants_	
+7-8	mother	O	B-NPart	B-webanno.custom.Participants_	
+7-9	.	O	O	O	
+
+#id=8
+#text=She used let me help her in the kitchen .
+8-1	She	O	B-NPart	B-webanno.custom.Participants_	
+8-2	used	B-UnrelEv	O	O	
+8-3	let	B-UnrelEv	O	O	
+8-4	me	O	B-ScrPart_cook	B-webanno.custom.Participants_	
+8-5	help	B-UnrelEv	O	O	
+8-6	her	O	B-NPart	B-webanno.custom.Participants_	
+8-7	in	O	O	O	
+8-8	the	O	O	O	
+8-9	kitchen	O	B-ScrPart_kitchen/location	B-webanno.custom.Participants_	
+8-10	.	O	O	O	
+
+#id=9
+#text=When she made cakes and pies and used the mixer , she would let me lick the bowl .
+9-1	When	O	O	O	
+9-2	she	O	B-NPart	B-webanno.custom.Participants_	
+9-3	made	B-RelNScrEv	O	O	
+9-4	cakes	O	B-ScrPart_cake	B-webanno.custom.Participants_	
+9-5	and	O	O	O	
+9-6	pies	O	B-NPart	B-webanno.custom.Participants_	
+9-7	and	O	O	O	
+9-8	used	B-UnrelEv	O	O	
+9-9	the	O	O	O	
+9-10	mixer	O	B-ScrPart_utensil	B-webanno.custom.Participants_	
+9-11	,	O	O	O	
+9-12	she	O	B-NPart	B-webanno.custom.Participants_	
+9-13	would	O	O	O	
+9-14	let	B-UnrelEv	O	O	
+9-15	me	O	B-ScrPart_cook	B-webanno.custom.Participants_	
+9-16	lick	B-RelNScrEv	O	O	
+9-17	the	O	O	O	
+9-18	bowl	O	B-ScrPart_utensil	B-webanno.custom.Participants_	
+9-19	.	O	O	O	
+
+#id=10
+#text=I would get frosting , cake batter and pie filling on my jaws and face .
+10-1	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	
+10-2	would	O	O	O	
+10-3	get	B-RelNScrEv	O	O	
+10-4	frosting	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	
+10-5	,	O	O	O	
+10-6	cake	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	
+10-7	batter	O	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	
+10-8	and	O	O	O	
+10-9	pie	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	
+10-10	filling	O	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	
+10-11	on	O	O	O	
+10-12	my	O	B-ScrPart_cook	B-webanno.custom.Participants_	
+10-13	jaws	O	B-NPart	B-webanno.custom.Participants_	
+10-14	and	O	O	O	
+10-15	face	O	B-NPart	B-webanno.custom.Participants_	
+10-16	.	O	O	O	
+
+#id=11
+#text=But I didn ' t care about that .
+11-1	But	O	O	O	
+11-2	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	
+11-3	didn	O	O	O	
+11-4	'	O	O	O	
+11-5	t	O	O	O	
+11-6	care	B-UnrelEv	O	O	
+11-7	about	O	O	O	
+11-8	that	O	O	O	
+11-9	.	O	O	O	
+
+#id=12
+#text=Those times were the few times that my siblings and I didn ' t complain about cleaning up the kitchen .
+12-1	Those	O	O	O	
+12-2	times	O	B-NPart	B-webanno.custom.Participants_	
+12-3	were	B-UnrelEv	O	O	
+12-4	the	O	O	O	
+12-5	few	O	O	O	
+12-6	times	O	B-No_label	B-webanno.custom.Participants_	
+12-7	that	O	O	O	
+12-8	my	O	B-ScrPart_cook	B-webanno.custom.Participants_	
+12-9	siblings	O	B-NPart	B-webanno.custom.Participants_	
+12-10	and	O	O	O	
+12-11	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	
+12-12	didn	O	O	O	
+12-13	'	O	O	O	
+12-14	t	O	O	O	
+12-15	complain	B-UnrelEv	O	O	
+12-16	about	O	O	O	
+12-17	cleaning	B-RelNScrEv|B-RelNScrEv	O	O	
+12-18	up	I-RelNScrEv	O	O	
+12-19	the	O	O	O	
+12-20	kitchen	O	B-ScrPart_kitchen/location	B-webanno.custom.Participants_	
+12-21	.	O	O	O	
+
+#id=13
+#text=I wish I could have a day like one of those days just once again . 
+13-1	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	
+13-2	wish	B-UnrelEv	O	O	
+13-3	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	
+13-4	could	O	O	O	
+13-5	have	B-UnrelEv	O	O	
+13-6	a	O	O	O	
+13-7	day	O	B-NPart	B-webanno.custom.Participants_	
+13-8	like	O	O	O	
+13-9	one	O	O	O	
+13-10	of	O	O	O	
+13-11	those	O	O	O	
+13-12	days	O	B-NPart	B-webanno.custom.Participants_	
+13-13	just	O	O	O	
+13-14	once	O	O	O	
+13-15	again	O	O	O	
+13-16	.	O	O	O	
+

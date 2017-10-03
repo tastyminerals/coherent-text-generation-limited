@@ -1,0 +1,191 @@
+ # webanno.custom.Eventsandparticipants | Event # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Riding in a public bus is an inexpensive way to get around your city .
+1-1	Riding	B-Evoking	O	_	_	
+1-2	in	I-Evoking	O	_	_	
+1-3	a	I-Evoking	O	_	_	
+1-4	public	I-Evoking	O	_	_	
+1-5	bus	I-Evoking	B-ScrPart_bus	_	_	
+1-6	is	B-UnrelEv	O	_	_	
+1-7	an	O	O	_	_	
+1-8	inexpensive	O	O	_	_	
+1-9	way	O	O	_	_	
+1-10	to	O	O	_	_	
+1-11	get	B-RelNScrEv	O	_	_	
+1-12	around	I-RelNScrEv	O	_	_	
+1-13	your	O	B-ScrPart_passenger	_	_	
+1-14	city	O	O	_	_	
+1-15	.	O	O	_	_	
+
+#id=2
+#text=I did this often last year .
+2-1	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	1-13	
+2-2	did	B-UnrelEv	O	_	_	
+2-3	this	O	O	_	_	
+2-4	often	O	O	_	_	
+2-5	last	O	O	_	_	
+2-6	year	O	B-ScrPart_time/date	_	_	
+2-7	.	O	O	_	_	
+
+#id=3
+#text=First , I look up where I need to go on google maps and map it from my address to my destination address using public transit as my option .
+3-1	First	O	O	_	_	
+3-2	,	O	O	_	_	
+3-3	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	2-1	
+3-4	look	B-ScrEv_find_bus	O	_	_	
+3-5	up	I-ScrEv_find_bus	O	_	_	
+3-6	where	O	O	_	_	
+3-7	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	3-3	
+3-8	need	O	O	_	_	
+3-9	to	O	O	_	_	
+3-10	go	B-RelNScrEv	O	_	_	
+3-11	on	O	O	_	_	
+3-12	google	O	B-NPart	_	_	
+3-13	maps	O	I-NPart|B-NPart	_	_	
+3-14	and	O	O	_	_	
+3-15	map	B-UnrelEv	O	_	_	
+3-16	it	O	O	_	_	
+3-17	from	O	O	_	_	
+3-18	my	O	B-ScrPart_passenger	webanno.custom.Corefchains_	3-7	
+3-19	address	O	O	_	_	
+3-20	to	O	O	_	_	
+3-21	my	O	B-ScrPart_passenger	webanno.custom.Corefchains_	3-18	
+3-22	destination	O	O	_	_	
+3-23	address	O	O	_	_	
+3-24	using	B-UnrelEv	O	_	_	
+3-25	public	O	O	_	_	
+3-26	transit	O	O	_	_	
+3-27	as	O	O	_	_	
+3-28	my	O	B-ScrPart_passenger	webanno.custom.Corefchains_	3-21	
+3-29	option	O	O	_	_	
+3-30	.	O	O	_	_	
+
+#id=4
+#text=I then factor the departure and arrival times into my schedule , as well as make sure I have the proper amount of cash and\/or change for the fare .
+4-1	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	3-28	
+4-2	then	O	O	_	_	
+4-3	factor	B-UnrelEv	O	_	_	
+4-4	the	O	O	_	_	
+4-5	departure	O	O	_	_	
+4-6	and	O	O	_	_	
+4-7	arrival	O	O	_	_	
+4-8	times	O	B-ScrPart_time/date	_	_	
+4-9	into	O	O	_	_	
+4-10	my	O	B-ScrPart_passenger	webanno.custom.Corefchains_	4-1	
+4-11	schedule	O	O	_	_	
+4-12	,	O	O	_	_	
+4-13	as	O	O	_	_	
+4-14	well	O	O	_	_	
+4-15	as	O	O	_	_	
+4-16	make	B-RelNScrEv	O	_	_	
+4-17	sure	I-RelNScrEv	O	_	_	
+4-18	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	4-10	
+4-19	have	B-UnrelEv	O	_	_	
+4-20	the	O	O	_	_	
+4-21	proper	O	O	_	_	
+4-22	amount	O	O	_	_	
+4-23	of	O	O	_	_	
+4-24	cash	O	B-ScrPart_money	_	_	
+4-25	and\/or	O	O	_	_	
+4-26	change	O	B-ScrPart_money	webanno.custom.Corefchains_	4-24	
+4-27	for	O	O	_	_	
+4-28	the	O	O	_	_	
+4-29	fare	O	B-ScrPart_money	_	_	
+4-30	.	O	O	_	_	
+
+#id=5
+#text=I would then walk to the bus stop at least 5 minuted ahead of time , as they can sometimes come early .
+5-1	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	4-18	
+5-2	would	O	O	_	_	
+5-3	then	O	O	_	_	
+5-4	walk	B-ScrEv_get_bus_stop	O	_	_	
+5-5	to	O	O	_	_	
+5-6	the	O	O	_	_	
+5-7	bus	O	B-ScrPart_bus_stop	_	_	
+5-8	stop	O	I-ScrPart_bus_stop|B-ScrPart_bus_stop	_	_	
+5-9	at	O	O	_	_	
+5-10	least	O	O	_	_	
+5-11	5	O	O	_	_	
+5-12	minuted	O	B-ScrPart_time/date	_	_	
+5-13	ahead	O	O	_	_	
+5-14	of	O	O	_	_	
+5-15	time	O	O	_	_	
+5-16	,	O	O	_	_	
+5-17	as	O	O	_	_	
+5-18	they	O	B-ScrPart_bus	_	_	
+5-19	can	O	O	_	_	
+5-20	sometimes	O	O	_	_	
+5-21	come	B-ScrEv_bus_comes	O	_	_	
+5-22	early	O	O	_	_	
+5-23	.	O	O	_	_	
+
+#id=6
+#text=When the bus appears I wait for him to stop and then I greet the driver , deposit the fare -LRB- exact change -RRB- and take a seat where available .
+6-1	When	O	O	_	_	
+6-2	the	O	O	_	_	
+6-3	bus	O	B-ScrPart_bus	webanno.custom.Corefchains_	1-5	
+6-4	appears	B-ScrEv_bus_comes	O	_	_	
+6-5	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	5-1	
+6-6	wait	B-ScrEv_wait	O	_	_	
+6-7	for	O	O	_	_	
+6-8	him	O	B-ScrPart_bus	webanno.custom.Corefchains_	6-3	
+6-9	to	O	O	_	_	
+6-10	stop	B-ScrEv_bus_stops	O	_	_	
+6-11	and	O	O	_	_	
+6-12	then	O	O	_	_	
+6-13	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	6-5	
+6-14	greet	B-RelNScrEv	O	_	_	
+6-15	the	O	O	_	_	
+6-16	driver	O	B-ScrPart_bus_staff	_	_	
+6-17	,	O	O	_	_	
+6-18	deposit	B-ScrEv_get_ticket	O	_	_	
+6-19	the	O	O	_	_	
+6-20	fare	O	B-ScrPart_money	webanno.custom.Corefchains_	4-29	
+6-21	-LRB-	O	O	_	_	
+6-22	exact	O	O	_	_	
+6-23	change	O	B-ScrPart_money	webanno.custom.Corefchains_	4-26	
+6-24	-RRB-	O	O	_	_	
+6-25	and	O	O	_	_	
+6-26	take	B-ScrEv_find_place	O	_	_	
+6-27	a	O	O	_	_	
+6-28	seat	O	B-ScrPart_seat_in_bus	_	_	
+6-29	where	O	O	_	_	
+6-30	available	O	O	_	_	
+6-31	.	O	O	_	_	
+
+#id=7
+#text=While on the bus I look out the window to see where I am , and make sure that I press the button or pull the cord when my stop is near . 
+7-1	While	O	O	_	_	
+7-2	on	O	O	_	_	
+7-3	the	O	O	_	_	
+7-4	bus	O	B-ScrPart_bus	webanno.custom.Corefchains_	6-8	
+7-5	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	6-13	
+7-6	look	B-ScrEv_spend_time_bus	O	_	_	
+7-7	out	O	O	_	_	
+7-8	the	O	O	_	_	
+7-9	window	O	B-NPart	_	_	
+7-10	to	O	O	_	_	
+7-11	see	B-RelNScrEv	O	_	_	
+7-12	where	O	O	_	_	
+7-13	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	7-5	
+7-14	am	B-UnrelEv	O	_	_	
+7-15	,	O	O	_	_	
+7-16	and	O	O	_	_	
+7-17	make	O	O	_	_	
+7-18	sure	O	O	_	_	
+7-19	that	O	O	_	_	
+7-20	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	7-13	
+7-21	press	B-ScrEv_press_stop_button	O	_	_	
+7-22	the	O	O	_	_	
+7-23	button	O	B-ScrPart_stop_button/door_opener	_	_	
+7-24	or	O	O	_	_	
+7-25	pull	B-ScrEv_press_stop_button	O	_	_	
+7-26	the	O	O	_	_	
+7-27	cord	O	B-ScrPart_stop_button/door_opener	_	_	
+7-28	when	O	O	_	_	
+7-29	my	O	B-ScrPart_passenger	webanno.custom.Corefchains_	7-20	
+7-30	stop	O	B-ScrPart_bus_stop	_	_	
+7-31	is	B-UnrelEv	O	_	_	
+7-32	near	O	O	_	_	
+7-33	.	O	O	_	_	
+

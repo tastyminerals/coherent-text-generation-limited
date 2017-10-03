@@ -1,0 +1,199 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=I bought a ticket for a train ride to the city .
+1-1	I	B-ScrPart_passenger	O	
+1-2	bought	O	B-ScrEv_get_tickets	
+1-3	a	O	O	
+1-4	ticket	B-ScrPart_card/ticket	O	
+1-5	for	O	O	
+1-6	a	O	O	
+1-7	train	B-ScrPart_trip	O	
+1-8	ride	I-ScrPart_trip|B-ScrPart_trip	O	
+1-9	to	O	O	
+1-10	the	O	O	
+1-11	city	B-ScrPart_destination	O	
+1-12	.	O	O	
+
+#id=2
+#text=I made sure I was at the station at least 15 minutes early so that I would not miss the train .
+2-1	I	B-ScrPart_passenger	O	
+2-2	made	O	B-UnrelEv	
+2-3	sure	O	I-UnrelEv	
+2-4	I	B-ScrPart_passenger	O	
+2-5	was	O	B-UnrelEv	
+2-6	at	O	O	
+2-7	the	O	O	
+2-8	station	B-ScrPart_train_station	O	
+2-9	at	O	O	
+2-10	least	O	O	
+2-11	15	O	O	
+2-12	minutes	B-ScrPart_time_date	O	
+2-13	early	O	O	
+2-14	so	O	O	
+2-15	that	O	O	
+2-16	I	B-ScrPart_passenger	O	
+2-17	would	O	O	
+2-18	not	O	O	
+2-19	miss	O	B-UnrelEv	
+2-20	the	O	O	
+2-21	train	B-ScrPart_train	O	
+2-22	.	O	O	
+
+#id=3
+#text=After waiting for a few minutes , my train was ready to be boarded .
+3-1	After	O	O	
+3-2	waiting	O	B-ScrEv_wait	
+3-3	for	O	O	
+3-4	a	O	O	
+3-5	few	O	O	
+3-6	minutes	B-ScrPart_time_date	O	
+3-7	,	O	O	
+3-8	my	B-ScrPart_passenger	O	
+3-9	train	B-ScrPart_train	O	
+3-10	was	O	B-UnrelEv	
+3-11	ready	O	O	
+3-12	to	O	O	
+3-13	be	O	O	
+3-14	boarded	O	B-ScrEv_get_on	
+3-15	.	O	O	
+
+#id=4
+#text=I lined up with the other passengers and gave my ticket to the lady at the counter .
+4-1	I	B-ScrPart_passenger	O	
+4-2	lined	O	B-RelNScrEv	
+4-3	up	O	I-RelNScrEv	
+4-4	with	O	O	
+4-5	the	O	O	
+4-6	other	O	O	
+4-7	passengers	B-ScrPart_passenger	O	
+4-8	and	O	O	
+4-9	gave	O	B-RelNScrEv	
+4-10	my	B-ScrPart_passenger	O	
+4-11	ticket	B-ScrPart_card/ticket	O	
+4-12	to	O	O	
+4-13	the	O	O	
+4-14	lady	B-NPart	O	
+4-15	at	O	O	
+4-16	the	O	O	
+4-17	counter	B-ScrPart_ticket_office/website	O	
+4-18	.	O	O	
+
+#id=5
+#text=We all boarded the train in an orderly fashion and waited until it was time to depart .
+5-1	We	B-ScrPart_passenger	O	
+5-2	all	O	O	
+5-3	boarded	O	B-ScrEv_get_on	
+5-4	the	O	O	
+5-5	train	B-ScrPart_train	O	
+5-6	in	O	O	
+5-7	an	O	O	
+5-8	orderly	O	O	
+5-9	fashion	B-No_label	O	
+5-10	and	O	O	
+5-11	waited	O	B-RelNScrEv	
+5-12	until	O	O	
+5-13	it	B-No_label	O	
+5-14	was	O	B-UnrelEv	
+5-15	time	B-ScrPart_time_date	O	
+5-16	to	O	O	
+5-17	depart	O	B-ScrEv_train_departs	
+5-18	.	O	O	
+
+#id=6
+#text=It was n't too long until it was time for the train to go .
+6-1	It	B-No_label	O	
+6-2	was	O	B-UnrelEv	
+6-3	n't	O	O	
+6-4	too	O	O	
+6-5	long	O	O	
+6-6	until	O	O	
+6-7	it	B-No_label	O	
+6-8	was	O	B-UnrelEv	
+6-9	time	B-ScrPart_time_date	O	
+6-10	for	O	O	
+6-11	the	O	O	
+6-12	train	B-ScrPart_train	O	
+6-13	to	O	O	
+6-14	go	O	B-ScrEv_train_departs	
+6-15	.	O	O	
+
+#id=7
+#text=I quietly sat by the window seat and looked at the great scenery outside as the train went by .
+7-1	I	B-ScrPart_passenger	O	
+7-2	quietly	O	O	
+7-3	sat	O	B-ScrEv_spend_time_train	
+7-4	by	O	O	
+7-5	the	O	O	
+7-6	window	B-ScrPart_seat	O	
+7-7	seat	I-ScrPart_seat|B-ScrPart_seat	O	
+7-8	and	O	O	
+7-9	looked	O	B-ScrEv_spend_time_train	
+7-10	at	O	O	
+7-11	the	O	O	
+7-12	great	O	O	
+7-13	scenery	B-ScrPart_in-train_entertainment	O	
+7-14	outside	O	O	
+7-15	as	O	O	
+7-16	the	O	O	
+7-17	train	B-ScrPart_train	O	
+7-18	went	O	B-RelNScrEv	
+7-19	by	O	I-RelNScrEv	
+7-20	.	O	O	
+
+#id=8
+#text=I would have never seen some of the scenery had I not taken the train .
+8-1	I	B-ScrPart_passenger	O	
+8-2	would	O	O	
+8-3	have	O	O	
+8-4	never	O	O	
+8-5	seen	O	B-ScrEv_spend_time_train	
+8-6	some	O	O	
+8-7	of	O	O	
+8-8	the	O	O	
+8-9	scenery	B-ScrPart_in-train_entertainment	O	
+8-10	had	O	O	
+8-11	I	B-ScrPart_passenger	O	
+8-12	not	O	O	
+8-13	taken	O	B-Evoking	
+8-14	the	O	I-Evoking	
+8-15	train	B-ScrPart_train	I-Evoking	
+8-16	.	O	O	
+
+#id=9
+#text=Before I knew it , the train had arrived at our destination in the city .
+9-1	Before	O	O	
+9-2	I	B-ScrPart_passenger	O	
+9-3	knew	O	B-UnrelEv	
+9-4	it	B-No_label	O	
+9-5	,	O	O	
+9-6	the	O	O	
+9-7	train	B-ScrPart_train	O	
+9-8	had	O	O	
+9-9	arrived	O	B-ScrEv_arrive_destination	
+9-10	at	O	O	
+9-11	our	B-ScrPart_passenger	O	
+9-12	destination	B-ScrPart_destination	O	
+9-13	in	O	O	
+9-14	the	O	O	
+9-15	city	B-ScrPart_destination	O	
+9-16	.	O	O	
+
+#id=10
+#text=I am glad I decided to take the train this time because I enjoyed it . 
+10-1	I	B-ScrPart_passenger	O	
+10-2	am	O	B-UnrelEv	
+10-3	glad	O	O	
+10-4	I	B-ScrPart_passenger	O	
+10-5	decided	O	B-UnrelEv	
+10-6	to	O	O	
+10-7	take	O	B-Evoking	
+10-8	the	O	I-Evoking	
+10-9	train	B-ScrPart_train	I-Evoking	
+10-10	this	O	O	
+10-11	time	B-No_label	O	
+10-12	because	O	O	
+10-13	I	B-ScrPart_passenger	O	
+10-14	enjoyed	O	B-UnrelEv	
+10-15	it	B-No_label	O	
+10-16	.	O	O	
+

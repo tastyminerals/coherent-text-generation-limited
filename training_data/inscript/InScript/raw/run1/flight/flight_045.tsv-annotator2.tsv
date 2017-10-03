@@ -1,0 +1,225 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I needed a vacation so I went online and booked myself a ticket from my local airport to Mexico .
+1-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+1-2	needed	O	O	B-UnrelEv	_	_	
+1-3	a	O	O	O	_	_	
+1-4	vacation	O	O	O	_	_	
+1-5	so	O	O	O	_	_	
+1-6	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-1	
+1-7	went	O	O	B-UnrelEv	_	_	
+1-8	online	O	O	O	_	_	
+1-9	and	O	O	O	_	_	
+1-10	booked	O	O	B-ScrEv_get_ticket	_	_	
+1-11	myself	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-6	
+1-12	a	O	O	O	_	_	
+1-13	ticket	B-webanno.custom.Participants_	B-ScrPart_ticket	O	_	_	
+1-14	from	O	O	O	_	_	
+1-15	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-11	
+1-16	local	O	O	O	_	_	
+1-17	airport	B-webanno.custom.Participants_	B-ScrPart_airport	O	_	_	
+1-18	to	O	O	O	_	_	
+1-19	Mexico	B-webanno.custom.Participants_	B-ScrPart_target_location	O	_	_	
+1-20	.	O	O	O	_	_	
+
+#id=2
+#text=As the day arrived , I packed everything I needed into a carry on bag and headed to the airport .
+2-1	As	O	O	O	_	_	
+2-2	the	O	O	O	_	_	
+2-3	day	O	O	O	_	_	
+2-4	arrived	O	O	B-UnrelEv	_	_	
+2-5	,	O	O	O	_	_	
+2-6	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-15	
+2-7	packed	O	O	B-ScrEv_pack_luggage	_	_	
+2-8	everything	B-webanno.custom.Participants_	B-ScrPart_personal_belongings	O	_	_	
+2-9	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-6	
+2-10	needed	O	O	B-UnrelEv	_	_	
+2-11	into	O	O	O	_	_	
+2-12	a	O	O	O	_	_	
+2-13	carry	B-webanno.custom.Participants_	B-ScrPart_carry_on_luggage	O	_	_	
+2-14	on	I-webanno.custom.Participants_	I-ScrPart_carry_on_luggage	O	_	_	
+2-15	bag	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_carry_on_luggage|B-ScrPart_carry_on_luggage	O	_	_	
+2-16	and	O	O	O	_	_	
+2-17	headed	O	O	B-ScrEv_get_airport	_	_	
+2-18	to	O	O	O	_	_	
+2-19	the	O	O	O	_	_	
+2-20	airport	B-webanno.custom.Participants_	B-ScrPart_airport	O	webanno.custom.Corefchains_	1-17	
+2-21	.	O	O	O	_	_	
+
+#id=3
+#text=Once there I got my ticket printed out and checked in .
+3-1	Once	O	O	O	_	_	
+3-2	there	B-webanno.custom.Participants_	B-ScrPart_airport	O	webanno.custom.Corefchains_	2-20	
+3-3	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-9	
+3-4	got	O	O	O	_	_	
+3-5	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-3	
+3-6	ticket	B-webanno.custom.Participants_	B-ScrPart_ticket	O	webanno.custom.Corefchains_	1-13	
+3-7	printed	O	O	B-RelNScrEv	_	_	
+3-8	out	O	O	I-RelNScrEv	_	_	
+3-9	and	O	O	O	_	_	
+3-10	checked	O	O	B-ScrEv_check_in	_	_	
+3-11	in	O	O	I-ScrEv_check_in	_	_	
+3-12	.	O	O	O	_	_	
+
+#id=4
+#text=I had to go through security and then wait for about 45 minutes at the terminal .
+4-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-5	
+4-2	had	O	O	O	_	_	
+4-3	to	O	O	O	_	_	
+4-4	go	O	O	B-ScrEv_go_security_checks	_	_	
+4-5	through	O	O	I-ScrEv_go_security_checks	_	_	
+4-6	security	B-webanno.custom.Participants_	B-ScrPart_security_check	O	_	_	
+4-7	and	O	O	O	_	_	
+4-8	then	O	O	O	_	_	
+4-9	wait	O	O	B-ScrEv_wait_boarding	_	_	
+4-10	for	O	O	O	_	_	
+4-11	about	O	O	O	_	_	
+4-12	45	O	O	O	_	_	
+4-13	minutes	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+4-14	at	O	O	O	_	_	
+4-15	the	O	O	O	_	_	
+4-16	terminal	B-webanno.custom.Participants_	B-ScrPart_terminal/gate	O	_	_	
+4-17	.	O	O	O	_	_	
+
+#id=5
+#text=Once they announced boarding , I got in line and walked onto the plane .
+5-1	Once	O	O	O	_	_	
+5-2	they	B-webanno.custom.Participants_	B-ScrPart_staff	O	_	_	
+5-3	announced	O	O	B-ScrEv_listen_call	_	_	
+5-4	boarding	O	O	B-ScrEv_board_plane	_	_	
+5-5	,	O	O	O	_	_	
+5-6	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-1	
+5-7	got	O	O	B-RelNScrEv	_	_	
+5-8	in	O	O	O	_	_	
+5-9	line	B-webanno.custom.Participants_	B-ScrPart_line	O	_	_	
+5-10	and	O	O	O	_	_	
+5-11	walked	O	O	B-ScrEv_board_plane	_	_	
+5-12	onto	O	O	O	_	_	
+5-13	the	O	O	O	_	_	
+5-14	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	_	_	
+5-15	.	O	O	O	_	_	
+
+#id=6
+#text=I then stowed my carry on bag above me and put my backpack under the seat in front of me .
+6-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-6	
+6-2	then	O	O	O	_	_	
+6-3	stowed	O	O	B-ScrEv_stow_away_luggage	_	_	
+6-4	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-1	
+6-5	carry	B-webanno.custom.Participants_	B-ScrPart_carry_on_luggage	O	_	_	
+6-6	on	I-webanno.custom.Participants_	I-ScrPart_carry_on_luggage	O	_	_	
+6-7	bag	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_carry_on_luggage|B-ScrPart_carry_on_luggage	O	webanno.custom.Corefchains_	2-15	
+6-8	above	O	O	O	_	_	
+6-9	me	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-4	
+6-10	and	O	O	O	_	_	
+6-11	put	O	O	B-ScrEv_stow_away_luggage	_	_	
+6-12	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-9	
+6-13	backpack	B-webanno.custom.Participants_	B-ScrPart_carry_on_luggage	O	_	_	
+6-14	under	O	O	O	_	_	
+6-15	the	O	O	O	_	_	
+6-16	seat	B-webanno.custom.Participants_	B-ScrPart_seat	O	_	_	
+6-17	in	O	O	O	_	_	
+6-18	front	O	O	O	_	_	
+6-19	of	O	O	O	_	_	
+6-20	me	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-12	
+6-21	.	O	O	O	_	_	
+
+#id=7
+#text=I got situated with a book and put my seatbelt on .
+7-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-20	
+7-2	got	O	O	O	_	_	
+7-3	situated	O	O	B-???	_	_	
+7-4	with	O	O	O	_	_	
+7-5	a	O	O	O	_	_	
+7-6	book	B-webanno.custom.Participants_	B-ScrPart_in-flight_entertainment	O	_	_	
+7-7	and	O	O	O	_	_	
+7-8	put	O	O	B-ScrEv_buckle_seat_belt	_	_	
+7-9	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-1	
+7-10	seatbelt	B-webanno.custom.Participants_	B-ScrPart_seat_belt	O	_	_	
+7-11	on	O	O	O	_	_	
+7-12	.	O	O	O	_	_	
+
+#id=8
+#text=During the flight I put in some ear buds and listened to music while I read .
+8-1	During	O	O	O	_	_	
+8-2	the	O	O	O	_	_	
+8-3	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	_	_	
+8-4	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-9	
+8-5	put	O	O	B-ScrEv_spend_time_flight	_	_	
+8-6	in	O	O	I-ScrEv_spend_time_flight	_	_	
+8-7	some	O	O	O	_	_	
+8-8	ear	B-webanno.custom.Participants_	B-ScrPart_in-flight_entertainment	O	_	_	
+8-9	buds	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_in-flight_entertainment|B-ScrPart_in-flight_entertainment	O	_	_	
+8-10	and	O	O	O	_	_	
+8-11	listened	O	O	B-ScrEv_spend_time_flight	_	_	
+8-12	to	O	O	I-ScrEv_spend_time_flight	_	_	
+8-13	music	B-webanno.custom.Participants_	B-ScrPart_in-flight_entertainment	O	_	_	
+8-14	while	O	O	O	_	_	
+8-15	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-4	
+8-16	read	O	O	B-ScrEv_spend_time_flight	_	_	
+8-17	.	O	O	O	_	_	
+
+#id=9
+#text=I got a water from the flight attendant and a small bag of peanuts .
+9-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-15	
+9-2	got	O	O	B-RelNScrEv	_	_	
+9-3	a	O	O	O	_	_	
+9-4	water	B-webanno.custom.Participants_	B-ScrPart_in-flight_entertainment	O	_	_	
+9-5	from	O	O	O	_	_	
+9-6	the	O	O	O	_	_	
+9-7	flight	B-webanno.custom.Participants_	B-ScrPart_staff	O	_	_	
+9-8	attendant	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_staff|B-ScrPart_staff	O	_	_	
+9-9	and	O	O	O	_	_	
+9-10	a	O	O	O	_	_	
+9-11	small	O	O	O	_	_	
+9-12	bag	B-webanno.custom.Participants_	B-NPart	O	_	_	
+9-13	of	O	O	O	_	_	
+9-14	peanuts	B-webanno.custom.Participants_	B-ScrPart_in-flight_entertainment	O	_	_	
+9-15	.	O	O	O	_	_	
+
+#id=10
+#text=Once the plane landed , everyone got up and waited for a while as the people in front slowly filed out .
+10-1	Once	O	O	O	_	_	
+10-2	the	O	O	O	_	_	
+10-3	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	5-14	
+10-4	landed	O	O	B-ScrEv_landing	_	_	
+10-5	,	O	O	O	_	_	
+10-6	everyone	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+10-7	got	O	O	B-UnrelEv	_	_	
+10-8	up	O	O	I-UnrelEv	_	_	
+10-9	and	O	O	O	_	_	
+10-10	waited	O	O	B-ScrEv_wait	_	_	
+10-11	for	O	O	O	_	_	
+10-12	a	O	O	O	_	_	
+10-13	while	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+10-14	as	O	O	O	_	_	
+10-15	the	O	O	O	_	_	
+10-16	people	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-6	
+10-17	in	O	O	O	_	_	
+10-18	front	O	O	O	_	_	
+10-19	slowly	O	O	O	_	_	
+10-20	filed	O	O	B-ScrEv_exit_plane	_	_	
+10-21	out	O	O	I-ScrEv_exit_plane	_	_	
+10-22	.	O	O	O	_	_	
+
+#id=11
+#text=When it was finally my turn I grabbed my carry on bag from above and exited the plane . 
+11-1	When	O	O	O	_	_	
+11-2	it	O	O	O	_	_	
+11-3	was	O	O	B-UnrelEv	_	_	
+11-4	finally	O	O	O	_	_	
+11-5	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-1	
+11-6	turn	O	O	O	_	_	
+11-7	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	11-5	
+11-8	grabbed	O	O	B-RelNScrEv	_	_	
+11-9	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	11-7	
+11-10	carry	B-webanno.custom.Participants_	B-ScrPart_carry_on_luggage	O	_	_	
+11-11	on	I-webanno.custom.Participants_	I-ScrPart_carry_on_luggage	O	_	_	
+11-12	bag	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_carry_on_luggage|B-ScrPart_carry_on_luggage	O	webanno.custom.Corefchains_	6-7	
+11-13	from	O	O	O	_	_	
+11-14	above	O	O	O	_	_	
+11-15	and	O	O	O	_	_	
+11-16	exited	O	O	B-ScrEv_exit_plane	_	_	
+11-17	the	O	O	O	_	_	
+11-18	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	10-3	
+11-19	.	O	O	O	_	_	
+

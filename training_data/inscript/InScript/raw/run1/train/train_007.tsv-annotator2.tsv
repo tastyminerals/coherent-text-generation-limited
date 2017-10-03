@@ -1,0 +1,315 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I like to ride on trains because you can see lots of countryside without having to worry about driving .
+1-1	I	B-ScrPart_passenger	O	_	_	
+1-2	like	O	B-UnrelEv	_	_	
+1-3	to	O	O	_	_	
+1-4	ride	O	B-Evoking	_	_	
+1-5	on	O	I-Evoking	_	_	
+1-6	trains	B-ScrPart_train	I-Evoking	_	_	
+1-7	because	O	O	_	_	
+1-8	you	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-1	
+1-9	can	O	O	_	_	
+1-10	see	O	B-ScrEv_spend_time_train	_	_	
+1-11	lots	B-NPart	O	_	_	
+1-12	of	O	O	_	_	
+1-13	countryside	B-ScrPart_in-train_entertainment	O	_	_	
+1-14	without	O	O	_	_	
+1-15	having	O	O	_	_	
+1-16	to	O	O	_	_	
+1-17	worry	O	B-UnrelEv	_	_	
+1-18	about	O	O	_	_	
+1-19	driving	O	B-UnrelEv	_	_	
+1-20	.	O	O	_	_	
+
+#id=2
+#text=One time , when I lived in Alaska , I rode on a train from Fairbanks to Denali park .
+2-1	One	O	O	_	_	
+2-2	time	O	O	_	_	
+2-3	,	O	O	_	_	
+2-4	when	O	O	_	_	
+2-5	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-8	
+2-6	lived	O	B-UnrelEv	_	_	
+2-7	in	O	O	_	_	
+2-8	Alaska	O	O	_	_	
+2-9	,	O	O	_	_	
+2-10	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-5	
+2-11	rode	O	B-Evoking	_	_	
+2-12	on	O	I-Evoking	_	_	
+2-13	a	O	I-Evoking	_	_	
+2-14	train	B-ScrPart_train	I-Evoking	webanno.custom.Corefchains_	1-6	
+2-15	from	O	O	_	_	
+2-16	Fairbanks	B-NPart	O	_	_	
+2-17	to	O	O	_	_	
+2-18	Denali	B-ScrPart_destination	O	_	_	
+2-19	park	I-ScrPart_destination|B-ScrPart_destination	O	_	_	
+2-20	.	O	O	_	_	
+
+#id=3
+#text=Just like with all train rides , I had to buy a ticket first and then I had to stand in line to wait for the train to stop at the station .
+3-1	Just	O	O	_	_	
+3-2	like	O	O	_	_	
+3-3	with	O	O	_	_	
+3-4	all	O	O	_	_	
+3-5	train	O	O	_	_	
+3-6	rides	O	O	_	_	
+3-7	,	O	O	_	_	
+3-8	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-10	
+3-9	had	O	O	_	_	
+3-10	to	O	O	_	_	
+3-11	buy	O	B-ScrEv_get_tickets	_	_	
+3-12	a	O	O	_	_	
+3-13	ticket	B-ScrPart_card/ticket	O	group_tickets	8-15	
+3-14	first	O	O	_	_	
+3-15	and	O	O	_	_	
+3-16	then	O	O	_	_	
+3-17	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-8	
+3-18	had	O	O	_	_	
+3-19	to	O	O	_	_	
+3-20	stand	O	B-RelNScrEv	_	_	
+3-21	in	O	O	_	_	
+3-22	line	B-ScrPart_line	O	_	_	
+3-23	to	O	O	_	_	
+3-24	wait	O	B-ScrEv_wait	_	_	
+3-25	for	O	O	_	_	
+3-26	the	O	O	_	_	
+3-27	train	B-ScrPart_train	O	webanno.custom.Corefchains_	2-14	
+3-28	to	O	O	_	_	
+3-29	stop	O	B-ScrEv_train_arrives	_	_	
+3-30	at	O	O	_	_	
+3-31	the	O	O	_	_	
+3-32	station	B-ScrPart_train_station	O	_	_	
+3-33	.	O	O	_	_	
+
+#id=4
+#text=Then I climbed onto the train and picked a seat .
+4-1	Then	O	O	_	_	
+4-2	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-17	
+4-3	climbed	O	B-MissScrEv	_	_	
+4-4	onto	O	O	_	_	
+4-5	the	O	O	_	_	
+4-6	train	B-ScrPart_train	O	webanno.custom.Corefchains_	3-27	
+4-7	and	O	O	_	_	
+4-8	picked	O	B-ScrEv_find_place	_	_	
+4-9	a	O	O	_	_	
+4-10	seat	B-ScrPart_seat	O	_	_	
+4-11	.	O	O	_	_	
+
+#id=5
+#text=The different places you can sit in a train are called cars .
+5-1	The	O	O	_	_	
+5-2	different	O	O	_	_	
+5-3	places	B-ScrPart_coach	O	_	_	
+5-4	you	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-2	
+5-5	can	O	O	_	_	
+5-6	sit	O	B-ScrEv_spend_time_train	_	_	
+5-7	in	O	O	_	_	
+5-8	a	O	O	_	_	
+5-9	train	B-ScrPart_train	O	webanno.custom.Corefchains_	4-6	
+5-10	are	O	O	_	_	
+5-11	called	O	B-UnrelEv	_	_	
+5-12	cars	B-ScrPart_coach	O	webanno.custom.Corefchains_	5-3	
+5-13	.	O	O	_	_	
+
+#id=6
+#text=You do n't have assigned seats like on a plane and the seats are wide for more than one person to sit .
+6-1	You	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-4	
+6-2	do	O	O	_	_	
+6-3	n't	O	O	_	_	
+6-4	have	O	B-UnrelEv	_	_	
+6-5	assigned	O	B-UnrelEv	_	_	
+6-6	seats	B-ScrPart_seat	O	webanno.custom.Corefchains_	4-10	
+6-7	like	O	O	_	_	
+6-8	on	O	O	_	_	
+6-9	a	O	O	_	_	
+6-10	plane	O	O	_	_	
+6-11	and	O	O	_	_	
+6-12	the	O	O	_	_	
+6-13	seats	B-ScrPart_seat	O	webanno.custom.Corefchains_	6-6	
+6-14	are	O	B-UnrelEv	_	_	
+6-15	wide	O	O	_	_	
+6-16	for	O	O	_	_	
+6-17	more	O	O	_	_	
+6-18	than	O	O	_	_	
+6-19	one	O	O	_	_	
+6-20	person	B-ScrPart_passenger	O	_	_	
+6-21	to	O	O	_	_	
+6-22	sit	O	B-ScrEv_spend_time_train	_	_	
+6-23	.	O	O	_	_	
+
+#id=7
+#text=So , I picked one in a car in the back and sat right beside the window .
+7-1	So	O	O	_	_	
+7-2	,	O	O	_	_	
+7-3	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_|group_passengers	6-1|8-14	
+7-4	picked	O	B-ScrEv_find_place	_	_	
+7-5	one	B-ScrPart_seat	O	webanno.custom.Corefchains_	6-13	
+7-6	in	O	O	_	_	
+7-7	a	O	O	_	_	
+7-8	car	B-ScrPart_coach	O	group_cars	5-12	
+7-9	in	O	O	_	_	
+7-10	the	O	O	_	_	
+7-11	back	B-ScrPart_location_train	O	_	_	
+7-12	and	O	O	_	_	
+7-13	sat	O	B-ScrEv_spend_time_train	_	_	
+7-14	right	O	O	_	_	
+7-15	beside	O	O	_	_	
+7-16	the	O	O	_	_	
+7-17	window	B-ScrPart_in-train_entertainment	O	_	_	
+7-18	.	O	O	_	_	
+
+#id=8
+#text=After the train started moving , a train attendant walked through to check our tickets and then I stood up to walk around .
+8-1	After	O	O	_	_	
+8-2	the	O	O	_	_	
+8-3	train	B-ScrPart_train	O	webanno.custom.Corefchains_	5-9	
+8-4	started	O	B-UnrelEv	_	_	
+8-5	moving	O	B-ScrEv_train_departs	_	_	
+8-6	,	O	O	_	_	
+8-7	a	O	O	_	_	
+8-8	train	B-ScrPart_train_staff	O	_	_	
+8-9	attendant	I-ScrPart_train_staff|B-ScrPart_train_staff	O	_	_	
+8-10	walked	O	B-ScrEv_conductor_checks	_	_	
+8-11	through	O	I-ScrEv_conductor_checks	_	_	
+8-12	to	O	O	_	_	
+8-13	check	O	B-ScrEv_conductor_checks	_	_	
+8-14	our	B-ScrPart_passenger	O	_	_	
+8-15	tickets	B-ScrPart_card/ticket	O	_	_	
+8-16	and	O	O	_	_	
+8-17	then	O	O	_	_	
+8-18	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-3	
+8-19	stood	O	B-UnrelEv	_	_	
+8-20	up	O	I-UnrelEv	_	_	
+8-21	to	O	O	_	_	
+8-22	walk	O	B-ScrEv_spend_time_train	_	_	
+8-23	around	O	I-ScrEv_spend_time_train	_	_	
+8-24	.	O	O	_	_	
+
+#id=9
+#text=You can walk from car to car on a train and can even go out of the back of the very last car and stand outside , so I did that .
+9-1	You	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-18	
+9-2	can	O	O	_	_	
+9-3	walk	O	B-ScrEv_spend_time_train	_	_	
+9-4	from	O	O	_	_	
+9-5	car	B-ScrPart_coach	O	webanno.custom.Corefchains_	5-12	
+9-6	to	O	O	_	_	
+9-7	car	B-ScrPart_coach	O	webanno.custom.Corefchains_	9-5	
+9-8	on	O	O	_	_	
+9-9	a	O	O	_	_	
+9-10	train	B-ScrPart_train	O	webanno.custom.Corefchains_	8-3	
+9-11	and	O	O	_	_	
+9-12	can	O	O	_	_	
+9-13	even	O	O	_	_	
+9-14	go	O	B-UnrelEv	_	_	
+9-15	out	O	O	_	_	
+9-16	of	O	O	_	_	
+9-17	the	O	O	_	_	
+9-18	back	B-ScrPart_location_train	O	_	_	
+9-19	of	O	O	_	_	
+9-20	the	O	O	_	_	
+9-21	very	O	O	_	_	
+9-22	last	O	O	_	_	
+9-23	car	B-ScrPart_coach	O	webanno.custom.Corefchains_	9-7	
+9-24	and	O	O	_	_	
+9-25	stand	O	B-ScrEv_spend_time_train	_	_	
+9-26	outside	B-ScrPart_location_train	O	_	_	
+9-27	,	O	O	_	_	
+9-28	so	O	O	_	_	
+9-29	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-1	
+9-30	did	O	B-UnrelEv	_	_	
+9-31	that	O	O	_	_	
+9-32	.	O	O	_	_	
+
+#id=10
+#text=It was very fun to be standing outside while the train was moving and I hung onto the railing to be sure I was safe .
+10-1	It	O	O	_	_	
+10-2	was	O	B-UnrelEv	_	_	
+10-3	very	O	O	_	_	
+10-4	fun	O	O	_	_	
+10-5	to	O	O	_	_	
+10-6	be	O	O	_	_	
+10-7	standing	O	B-ScrEv_spend_time_train	_	_	
+10-8	outside	B-ScrPart_location_train	O	webanno.custom.Corefchains_	9-26	
+10-9	while	O	O	_	_	
+10-10	the	O	O	_	_	
+10-11	train	B-ScrPart_train	O	webanno.custom.Corefchains_	9-10	
+10-12	was	O	O	_	_	
+10-13	moving	O	B-RelNScrEv	_	_	
+10-14	and	O	O	_	_	
+10-15	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-29	
+10-16	hung	O	B-RelNScrEv	_	_	
+10-17	onto	O	O	_	_	
+10-18	the	O	O	_	_	
+10-19	railing	B-NPart	O	_	_	
+10-20	to	O	O	_	_	
+10-21	be	O	B-UnrelEv	_	_	
+10-22	sure	O	O	_	_	
+10-23	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-15	
+10-24	was	O	B-UnrelEv	_	_	
+10-25	safe	O	O	_	_	
+10-26	.	O	O	_	_	
+
+#id=11
+#text=Then I went back inside and went to the dining car where I bought a sandwich and water .
+11-1	Then	O	O	_	_	
+11-2	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-23	
+11-3	went	O	B-ScrEv_spend_time_train	_	_	
+11-4	back	O	O	_	_	
+11-5	inside	B-ScrPart_location_train	O	_	_	
+11-6	and	O	O	_	_	
+11-7	went	O	B-ScrEv_spend_time_train	_	_	
+11-8	to	O	O	_	_	
+11-9	the	O	O	_	_	
+11-10	dining	B-ScrPart_coach	O	_	_	
+11-11	car	I-ScrPart_coach|B-ScrPart_coach	O	_	_	
+11-12	where	O	O	_	_	
+11-13	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	11-2	
+11-14	bought	O	B-RelNScrEv	_	_	
+11-15	a	O	O	_	_	
+11-16	sandwich	B-ScrPart_in-train_entertainment	O	_	_	
+11-17	and	O	O	_	_	
+11-18	water	B-ScrPart_in-train_entertainment	O	_	_	
+11-19	.	O	O	_	_	
+
+#id=12
+#text=After I got back to my seat , I ate and watched the scenery through the window .
+12-1	After	O	O	_	_	
+12-2	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	11-13	
+12-3	got	O	B-UnrelEv	_	_	
+12-4	back	O	O	_	_	
+12-5	to	O	O	_	_	
+12-6	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	12-2	
+12-7	seat	B-ScrPart_seat	O	webanno.custom.Corefchains_	7-5	
+12-8	,	O	O	_	_	
+12-9	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	12-6	
+12-10	ate	O	B-ScrEv_spend_time_train	_	_	
+12-11	and	O	O	_	_	
+12-12	watched	O	B-ScrEv_spend_time_train	_	_	
+12-13	the	O	O	_	_	
+12-14	scenery	B-ScrPart_in-train_entertainment	O	webanno.custom.Corefchains_	1-13	
+12-15	through	O	O	_	_	
+12-16	the	O	O	_	_	
+12-17	window	B-ScrPart_in-train_entertainment	O	webanno.custom.Corefchains_	7-17	
+12-18	.	O	O	_	_	
+
+#id=13
+#text=I saw lots of interesting things including a moose and we arrived at Denali right after that . 
+13-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	12-9	
+13-2	saw	O	B-ScrEv_spend_time_train	_	_	
+13-3	lots	B-NPart	O	_	_	
+13-4	of	O	O	_	_	
+13-5	interesting	O	O	_	_	
+13-6	things	B-ScrPart_in-train_entertainment	O	_	_	
+13-7	including	O	B-UnrelEv	_	_	
+13-8	a	O	O	_	_	
+13-9	moose	O	O	_	_	
+13-10	and	O	O	_	_	
+13-11	we	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-14	
+13-12	arrived	O	B-ScrEv_arrive_destination	_	_	
+13-13	at	O	O	_	_	
+13-14	Denali	B-ScrPart_destination	O	webanno.custom.Corefchains_	2-19	
+13-15	right	O	O	_	_	
+13-16	after	O	O	_	_	
+13-17	that	O	O	_	_	
+13-18	.	O	O	_	_	
+

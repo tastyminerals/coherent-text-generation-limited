@@ -1,0 +1,487 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=My hair was getting long and it was getting hard to style it .
+1-1	My	B-ScrPart_customer	O	_	_	
+1-2	hair	B-ScrPart_hair	O	_	_	
+1-3	was	O	O	_	_	
+1-4	getting	O	B-UnrelEv	_	_	
+1-5	long	O	O	_	_	
+1-6	and	O	O	_	_	
+1-7	it	B-No_label	O	_	_	
+1-8	was	O	O	_	_	
+1-9	getting	O	B-UnrelEv	_	_	
+1-10	hard	O	O	_	_	
+1-11	to	O	O	_	_	
+1-12	style	O	B-RelNScrEv	_	_	
+1-13	it	B-ScrPart_hair	O	_	_	
+1-14	.	O	O	_	_	
+
+#id=2
+#text=It looked like it was time to get a haircut .
+2-1	It	B-No_label	O	_	_	
+2-2	looked	O	B-UnrelEv	_	_	
+2-3	like	O	O	_	_	
+2-4	it	B-No_label	O	_	_	
+2-5	was	O	B-UnrelEv	_	_	
+2-6	time	B-No_label	O	_	_	
+2-7	to	O	O	_	_	
+2-8	get	O	B-Evoking	_	_	
+2-9	a	O	I-Evoking	_	_	
+2-10	haircut	B-ScrPart_haircut	I-Evoking	_	_	
+2-11	.	O	O	_	_	
+
+#id=3
+#text=I called the hair salon to see if I could get an appointment with my favorite hairdresser .
+3-1	I	B-ScrPart_customer	O	_	_	
+3-2	called	O	B-ScrEv_make_appointment	_	_	
+3-3	the	O	O	_	_	
+3-4	hair	B-ScrPart_salon	O	_	_	
+3-5	salon	I-ScrPart_salon|B-ScrPart_salon	O	_	_	
+3-6	to	O	O	_	_	
+3-7	see	O	O	_	_	
+3-8	if	O	O	_	_	
+3-9	I	B-ScrPart_customer	O	_	_	
+3-10	could	O	O	_	_	
+3-11	get	O	B-ScrEv_make_appointment	_	_	
+3-12	an	O	O	_	_	
+3-13	appointment	B-ScrPart_appointment	O	_	_	
+3-14	with	O	O	_	_	
+3-15	my	B-ScrPart_customer	O	_	_	
+3-16	favorite	O	O	_	_	
+3-17	hairdresser	B-ScrPart_hairdresser	O	_	_	
+3-18	.	O	O	_	_	
+
+#id=4
+#text=She told me she could see me that afternoon at 3pm .
+4-1	She	B-ScrPart_hairdresser	O	_	_	
+4-2	told	O	B-RelNScrEv	_	_	
+4-3	me	B-ScrPart_customer	O	_	_	
+4-4	she	B-ScrPart_hairdresser	O	_	_	
+4-5	could	O	O	_	_	
+4-6	see	O	B-UnrelEv	_	_	
+4-7	me	B-ScrPart_customer	O	_	_	
+4-8	that	O	O	_	_	
+4-9	afternoon	B-ScrPart_time/date	O	_	_	
+4-10	at	O	O	_	_	
+4-11	3pm	B-ScrPart_time/date	O	_	_	
+4-12	.	O	O	_	_	
+
+#id=5
+#text=I drove to the salon , parked my car and went in .
+5-1	I	B-ScrPart_customer	O	_	_	
+5-2	drove	O	B-ScrEv_get_salon	_	_	
+5-3	to	O	O	_	_	
+5-4	the	O	O	_	_	
+5-5	salon	B-ScrPart_salon	O	_	_	
+5-6	,	O	O	_	_	
+5-7	parked	O	B-UnrelEv	_	_	
+5-8	my	B-ScrPart_customer	O	_	_	
+5-9	car	B-NPart	O	_	_	
+5-10	and	O	O	_	_	
+5-11	went	O	B-ScrEv_enter	_	_	
+5-12	in	O	I-ScrEv_enter	_	_	
+5-13	.	O	O	_	_	
+
+#id=6
+#text=I sat down on one of the chairs in the waiting area .
+6-1	I	B-ScrPart_customer	O	_	_	
+6-2	sat	O	B-ScrEv_wait	_	_	
+6-3	down	O	I-ScrEv_wait	_	_	
+6-4	on	O	O	_	_	
+6-5	one	O	O	_	_	
+6-6	of	O	O	_	_	
+6-7	the	O	O	_	_	
+6-8	chairs	B-NPart	O	_	_	
+6-9	in	O	O	_	_	
+6-10	the	O	O	_	_	
+6-11	waiting	B-ScrPart_location_salon	O	_	_	
+6-12	area	I-ScrPart_location_salon|B-ScrPart_location_salon	O	_	_	
+6-13	.	O	O	_	_	
+
+#id=7
+#text=There were several other people waiting to see their hairdresser .
+7-1	There	O	O	_	_	
+7-2	were	O	B-UnrelEv	_	_	
+7-3	several	O	O	_	_	
+7-4	other	O	O	_	_	
+7-5	people	B-ScrPart_customer	O	_	_	
+7-6	waiting	O	B-ScrEv_wait	_	_	
+7-7	to	O	O	_	_	
+7-8	see	O	B-UnrelEv	_	_	
+7-9	their	B-ScrPart_customer	O	_	_	
+7-10	hairdresser	B-ScrPart_hairdresser	O	_	_	
+7-11	.	O	O	_	_	
+
+#id=8
+#text=There was an assortment of magazines on a table in the center of the waiting area .
+8-1	There	O	O	_	_	
+8-2	was	O	B-UnrelEv	_	_	
+8-3	an	O	O	_	_	
+8-4	assortment	B-Head_of_Partitive	O	_	_	
+8-5	of	O	O	_	_	
+8-6	magazines	B-ScrPart_entertainment	O	_	_	
+8-7	on	O	O	_	_	
+8-8	a	O	O	_	_	
+8-9	table	B-NPart	O	_	_	
+8-10	in	O	O	_	_	
+8-11	the	O	O	_	_	
+8-12	center	B-NPart	O	_	_	
+8-13	of	O	O	_	_	
+8-14	the	O	O	_	_	
+8-15	waiting	B-ScrPart_location_salon	O	_	_	
+8-16	area	I-ScrPart_location_salon|B-ScrPart_location_salon	O	_	_	
+8-17	.	O	O	_	_	
+
+#id=9
+#text=My hairdresser was still working on another client , so I picked up a magazine to read while I waited my turn .
+9-1	My	B-ScrPart_customer	O	_	_	
+9-2	hairdresser	B-ScrPart_hairdresser	O	_	_	
+9-3	was	O	O	_	_	
+9-4	still	O	O	_	_	
+9-5	working	O	B-UnrelEv	_	_	
+9-6	on	O	O	_	_	
+9-7	another	O	O	_	_	
+9-8	client	B-ScrPart_customer	O	_	_	
+9-9	,	O	O	_	_	
+9-10	so	O	O	_	_	
+9-11	I	B-ScrPart_customer	O	_	_	
+9-12	picked	O	B-RelNScrEv	_	_	
+9-13	up	O	I-RelNScrEv	_	_	
+9-14	a	O	O	_	_	
+9-15	magazine	B-ScrPart_entertainment	O	_	_	
+9-16	to	O	O	_	_	
+9-17	read	O	B-RelNScrEv	_	_	
+9-18	while	O	O	_	_	
+9-19	I	B-ScrPart_customer	O	_	_	
+9-20	waited	O	B-ScrEv_wait	_	_	
+9-21	my	B-ScrPart_customer	O	_	_	
+9-22	turn	B-SuppVComp	O	_	_	
+9-23	.	O	O	_	_	
+
+#id=10
+#text=When she was ready for me I walked over to her station and sat down .
+10-1	When	O	O	_	_	
+10-2	she	B-ScrPart_hairdresser	O	_	_	
+10-3	was	O	B-UnrelEv	_	_	
+10-4	ready	O	O	_	_	
+10-5	for	O	O	_	_	
+10-6	me	B-ScrPart_customer	O	_	_	
+10-7	I	B-ScrPart_customer	O	_	_	
+10-8	walked	O	B-UnrelEv	_	_	
+10-9	over	O	O	_	_	
+10-10	to	O	O	_	_	
+10-11	her	B-ScrPart_hairdresser	O	_	_	
+10-12	station	B-ScrPart_location_salon	O	_	_	
+10-13	and	O	O	_	_	
+10-14	sat	O	B-ScrEv_sit_down	_	_	
+10-15	down	O	I-ScrEv_sit_down	_	_	
+10-16	.	O	O	_	_	
+
+#id=11
+#text=The chair was operated by hydraulics , and she adjusted the height so she could reach my head easily .
+11-1	The	O	O	_	_	
+11-2	chair	B-ScrPart_chair	O	_	_	
+11-3	was	O	O	_	_	
+11-4	operated	O	B-UnrelEv	_	_	
+11-5	by	O	O	_	_	
+11-6	hydraulics	B-NPart	O	_	_	
+11-7	,	O	O	_	_	
+11-8	and	O	O	_	_	
+11-9	she	B-ScrPart_hairdresser	O	_	_	
+11-10	adjusted	O	B-RelNScrEv	_	_	
+11-11	the	O	O	_	_	
+11-12	height	B-NPart	O	_	_	
+11-13	so	O	O	_	_	
+11-14	she	B-ScrPart_hairdresser	O	_	_	
+11-15	could	O	O	_	_	
+11-16	reach	O	B-UnrelEv	_	_	
+11-17	my	B-ScrPart_customer	O	_	_	
+11-18	head	B-ScrPart_other	O	_	_	
+11-19	easily	O	O	_	_	
+11-20	.	O	O	_	_	
+
+#id=12
+#text=There was a large mirror in front of the chair , and a small shelf that held combs , brushes , and other tools .
+12-1	There	O	O	_	_	
+12-2	was	O	B-UnrelEv	_	_	
+12-3	a	O	O	_	_	
+12-4	large	O	O	_	_	
+12-5	mirror	B-ScrPart_mirror	O	_	_	
+12-6	in	O	O	_	_	
+12-7	front	B-No_label	O	_	_	
+12-8	of	O	O	_	_	
+12-9	the	O	O	_	_	
+12-10	chair	B-ScrPart_chair	O	_	_	
+12-11	,	O	O	_	_	
+12-12	and	O	O	_	_	
+12-13	a	O	O	_	_	
+12-14	small	O	O	_	_	
+12-15	shelf	B-ScrPart_other	O	_	_	
+12-16	that	O	O	_	_	
+12-17	held	O	B-UnrelEv	_	_	
+12-18	combs	B-ScrPart_comb	O	_	_	
+12-19	,	O	O	_	_	
+12-20	brushes	B-ScrPart_hair_styling/treatment	O	_	_	
+12-21	,	O	O	_	_	
+12-22	and	O	O	_	_	
+12-23	other	O	O	_	_	
+12-24	tools	B-ScrPart_hair_styling/treatment	O	_	_	
+12-25	.	O	O	_	_	
+
+#id=13
+#text=She placed a white tissue around my neck and then a black plastic cape which covered my shoulders , back and front .
+13-1	She	B-ScrPart_hairdresser	O	_	_	
+13-2	placed	O	B-ScrEv_put_on_cape	_	_	
+13-3	a	O	O	_	_	
+13-4	white	O	O	_	_	
+13-5	tissue	B-NPart	O	_	_	
+13-6	around	O	O	_	_	
+13-7	my	B-ScrPart_customer	O	_	_	
+13-8	neck	B-NPart	O	_	_	
+13-9	and	O	O	_	_	
+13-10	then	O	O	_	_	
+13-11	a	O	O	_	_	
+13-12	black	O	O	_	_	
+13-13	plastic	B-ScrPart_cape	O	_	_	
+13-14	cape	I-ScrPart_cape|B-ScrPart_cape	O	_	_	
+13-15	which	O	O	_	_	
+13-16	covered	O	B-UnrelEv	_	_	
+13-17	my	B-ScrPart_customer	O	_	_	
+13-18	shoulders	B-ScrPart_other	O	_	_	
+13-19	,	O	O	_	_	
+13-20	back	O	O	_	_	
+13-21	and	O	O	_	_	
+13-22	front	B-ScrPart_other	O	_	_	
+13-23	.	O	O	_	_	
+
+#id=14
+#text=She then squirted a liquid from a spray bottle over my hair to wet it and combed it through .
+14-1	She	B-ScrPart_hairdresser	O	_	_	
+14-2	then	O	O	_	_	
+14-3	squirted	O	B-RelNScrEv	_	_	
+14-4	a	O	O	_	_	
+14-5	liquid	B-ScrPart_hair_styling/treatment	O	_	_	
+14-6	from	O	O	_	_	
+14-7	a	O	O	_	_	
+14-8	spray	B-NPart	O	_	_	
+14-9	bottle	I-NPart|B-NPart	O	_	_	
+14-10	over	O	O	_	_	
+14-11	my	B-ScrPart_customer	O	_	_	
+14-12	hair	B-ScrPart_hair	O	_	_	
+14-13	to	O	O	_	_	
+14-14	wet	O	B-RelNScrEv	_	_	
+14-15	it	B-ScrPart_hair	O	_	_	
+14-16	and	O	O	_	_	
+14-17	combed	O	B-ScrEv_comb	_	_	
+14-18	it	B-ScrPart_hair	O	_	_	
+14-19	through	O	O	_	_	
+14-20	.	O	O	_	_	
+
+#id=15
+#text=Although she has been cutting my hair for quite a while , she asked how I would like my hair cut since I might have decided to change the style .
+15-1	Although	O	O	_	_	
+15-2	she	B-ScrPart_hairdresser	O	_	_	
+15-3	has	O	O	_	_	
+15-4	been	O	O	_	_	
+15-5	cutting	O	B-ScrEv_cut	_	_	
+15-6	my	B-ScrPart_customer	O	_	_	
+15-7	hair	B-ScrPart_hair	O	_	_	
+15-8	for	O	O	_	_	
+15-9	quite	O	O	_	_	
+15-10	a	O	O	_	_	
+15-11	while	B-No_label	O	_	_	
+15-12	,	O	O	_	_	
+15-13	she	B-ScrPart_hairdresser	O	_	_	
+15-14	asked	O	B-ScrEv_talk_haircut	_	_	
+15-15	how	O	O	_	_	
+15-16	I	B-ScrPart_customer	O	_	_	
+15-17	would	O	O	_	_	
+15-18	like	O	B-UnrelEv	_	_	
+15-19	my	B-ScrPart_customer	O	_	_	
+15-20	hair	B-ScrPart_hair	O	_	_	
+15-21	cut	O	B-Evoking	_	_	
+15-22	since	O	O	_	_	
+15-23	I	B-ScrPart_customer	O	_	_	
+15-24	might	O	O	_	_	
+15-25	have	O	O	_	_	
+15-26	decided	O	B-UnrelEv	_	_	
+15-27	to	O	O	_	_	
+15-28	change	O	B-UnrelEv	_	_	
+15-29	the	O	O	_	_	
+15-30	style	B-ScrPart_haircut	O	webanno.custom.Corefchains_	2-10	
+15-31	.	O	O	_	_	
+
+#id=16
+#text=When I told her what I wanted she began to hold up sections of my hair in her fingers , using a small scissors to cut each piece .
+16-1	When	O	O	_	_	
+16-2	I	B-ScrPart_customer	O	_	_	
+16-3	told	O	B-ScrEv_talk_haircut	_	_	
+16-4	her	B-ScrPart_hairdresser	O	_	_	
+16-5	what	O	O	_	_	
+16-6	I	B-ScrPart_customer	O	_	_	
+16-7	wanted	O	B-UnrelEv	_	_	
+16-8	she	B-ScrPart_hairdresser	O	_	_	
+16-9	began	O	B-UnrelEv	_	_	
+16-10	to	O	O	_	_	
+16-11	hold	O	B-RelNScrEv	_	_	
+16-12	up	O	I-RelNScrEv	_	_	
+16-13	sections	B-NPart	O	_	_	
+16-14	of	O	O	_	_	
+16-15	my	B-ScrPart_customer	O	_	_	
+16-16	hair	B-ScrPart_hair	O	_	_	
+16-17	in	O	O	_	_	
+16-18	her	B-ScrPart_hairdresser	O	_	_	
+16-19	fingers	B-NPart	O	_	_	
+16-20	,	O	O	_	_	
+16-21	using	O	B-UnrelEv	_	_	
+16-22	a	O	O	_	_	
+16-23	small	O	O	_	_	
+16-24	scissors	B-ScrPart_scissors	O	_	_	
+16-25	to	O	O	_	_	
+16-26	cut	O	B-ScrEv_cut	_	_	
+16-27	each	O	O	_	_	
+16-28	piece	B-NPart	O	_	_	
+16-29	.	O	O	_	_	
+
+#id=17
+#text=When my entire head of hair was cut , she took a blow dryer and brush and dried and styled my hair .
+17-1	When	O	O	_	_	
+17-2	my	B-ScrPart_customer	O	_	_	
+17-3	entire	O	O	_	_	
+17-4	head	B-Head_of_Partitive	O	_	_	
+17-5	of	O	O	_	_	
+17-6	hair	B-ScrPart_hair	O	_	_	
+17-7	was	O	O	_	_	
+17-8	cut	O	B-ScrEv_cut	_	_	
+17-9	,	O	O	_	_	
+17-10	she	B-ScrPart_hairdresser	O	_	_	
+17-11	took	O	B-RelNScrEv	_	_	
+17-12	a	O	O	_	_	
+17-13	blow	B-ScrPart_hairdryer	O	_	_	
+17-14	dryer	I-ScrPart_hairdryer|B-ScrPart_hairdryer	O	_	_	
+17-15	and	O	O	_	_	
+17-16	brush	B-ScrPart_hair_styling/treatment	O	_	_	
+17-17	and	O	O	_	_	
+17-18	dried	O	B-ScrEv_dry	_	_	
+17-19	and	O	O	_	_	
+17-20	styled	O	B-ScrEv_make_hair_style	_	_	
+17-21	my	B-ScrPart_customer	O	_	_	
+17-22	hair	B-ScrPart_hair	O	_	_	
+17-23	.	O	O	_	_	
+
+#id=18
+#text=When she was finished she gave me a small hand mirror and turned my chair around so I could see the back of my hair in the reflection of the large mirror .
+18-1	When	O	O	_	_	
+18-2	she	B-ScrPart_hairdresser	O	_	_	
+18-3	was	O	B-UnrelEv	_	_	
+18-4	finished	O	O	_	_	
+18-5	she	B-ScrPart_hairdresser	O	_	_	
+18-6	gave	O	B-RelNScrEv	_	_	
+18-7	me	B-ScrPart_customer	O	_	_	
+18-8	a	O	O	_	_	
+18-9	small	O	O	_	_	
+18-10	hand	B-ScrPart_mirror	O	_	_	
+18-11	mirror	I-ScrPart_mirror|B-ScrPart_mirror	O	_	_	
+18-12	and	O	O	_	_	
+18-13	turned	O	B-RelNScrEv	_	_	
+18-14	my	B-ScrPart_customer	O	_	_	
+18-15	chair	B-ScrPart_chair	O	_	_	
+18-16	around	O	O	_	_	
+18-17	so	O	O	_	_	
+18-18	I	B-ScrPart_customer	O	_	_	
+18-19	could	O	O	_	_	
+18-20	see	O	B-ScrEv_look_mirror	_	_	
+18-21	the	O	O	_	_	
+18-22	back	B-NPart	O	_	_	
+18-23	of	O	O	_	_	
+18-24	my	B-ScrPart_customer	O	_	_	
+18-25	hair	B-ScrPart_hair	O	_	_	
+18-26	in	O	O	_	_	
+18-27	the	O	O	_	_	
+18-28	reflection	B-NPart	O	_	_	
+18-29	of	O	O	_	_	
+18-30	the	O	O	_	_	
+18-31	large	O	O	_	_	
+18-32	mirror	B-ScrPart_mirror	O	_	_	
+18-33	.	O	O	_	_	
+
+#id=19
+#text=I was happy with the way it came out and told her so .
+19-1	I	B-ScrPart_customer	O	group_I_hairdresser	20-9	
+19-2	was	O	B-UnrelEv	_	_	
+19-3	happy	O	O	_	_	
+19-4	with	O	O	_	_	
+19-5	the	O	O	_	_	
+19-6	way	B-No_label	O	_	_	
+19-7	it	B-ScrPart_hair	O	_	_	
+19-8	came	O	B-UnrelEv	_	_	
+19-9	out	O	I-UnrelEv	_	_	
+19-10	and	O	O	_	_	
+19-11	told	O	B-ScrEv_customer_opinion	_	_	
+19-12	her	B-ScrPart_hairdresser	O	_	_	
+19-13	so	O	O	_	_	
+19-14	.	O	O	_	_	
+
+#id=20
+#text=She then removed the cape and tissue and we went to the front of the salon where I paid her for the cost of the haircut .
+20-1	She	B-ScrPart_hairdresser	O	group_I_hairdresser	20-9	
+20-2	then	O	O	_	_	
+20-3	removed	O	B-ScrEv_remove_cap	_	_	
+20-4	the	O	O	_	_	
+20-5	cape	B-ScrPart_cape	O	_	_	
+20-6	and	O	O	_	_	
+20-7	tissue	B-NPart	O	_	_	
+20-8	and	O	O	_	_	
+20-9	we	B-ScrPart_hairdresser_customer	O	_	_	
+20-10	went	O	B-UnrelEv	_	_	
+20-11	to	O	O	_	_	
+20-12	the	O	O	_	_	
+20-13	front	B-ScrPart_location_salon	O	_	_	
+20-14	of	O	O	_	_	
+20-15	the	O	O	_	_	
+20-16	salon	B-ScrPart_salon	O	_	_	
+20-17	where	O	O	_	_	
+20-18	I	B-ScrPart_customer	O	_	_	
+20-19	paid	O	B-ScrEv_pay	_	_	
+20-20	her	B-ScrPart_hairdresser	O	_	_	
+20-21	for	O	O	_	_	
+20-22	the	O	O	_	_	
+20-23	cost	B-NPart	O	_	_	
+20-24	of	O	O	_	_	
+20-25	the	O	O	_	_	
+20-26	haircut	B-ScrPart_haircut	O	webanno.custom.Corefchains_	15-30	
+20-27	.	O	O	_	_	
+
+#id=21
+#text=She put the money in a cash register and I gave her some extra money as a tip , since I was so pleased with how my hair looked . 
+21-1	She	B-ScrPart_hairdresser	O	_	_	
+21-2	put	O	B-UnrelEv	_	_	
+21-3	the	O	O	_	_	
+21-4	money	B-ScrPart_payment_means	O	_	_	
+21-5	in	O	O	_	_	
+21-6	a	O	O	_	_	
+21-7	cash	B-NPart	O	_	_	
+21-8	register	I-NPart|B-NPart	O	_	_	
+21-9	and	O	O	_	_	
+21-10	I	B-ScrPart_customer	O	_	_	
+21-11	gave	O	B-ScrEv_leave_tip	_	_	
+21-12	her	B-ScrPart_hairdresser	O	_	_	
+21-13	some	O	O	_	_	
+21-14	extra	O	O	_	_	
+21-15	money	B-ScrPart_payment_means	O	_	_	
+21-16	as	O	O	_	_	
+21-17	a	O	O	_	_	
+21-18	tip	B-ScrPart_tip	O	_	_	
+21-19	,	O	O	_	_	
+21-20	since	O	O	_	_	
+21-21	I	B-ScrPart_customer	O	_	_	
+21-22	was	O	B-UnrelEv	_	_	
+21-23	so	O	O	_	_	
+21-24	pleased	O	B-UnrelEv	_	_	
+21-25	with	O	O	_	_	
+21-26	how	O	O	_	_	
+21-27	my	B-ScrPart_customer	O	_	_	
+21-28	hair	B-ScrPart_hair	O	_	_	
+21-29	looked	O	B-UnrelEv	_	_	
+21-30	.	O	O	_	_	
+

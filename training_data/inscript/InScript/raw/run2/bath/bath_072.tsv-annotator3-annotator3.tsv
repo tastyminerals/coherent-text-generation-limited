@@ -1,0 +1,218 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Last night I decided to take a bath .
+1-1	Last	O	O	O	_	_	
+1-2	night	B-NPart	B-webanno.custom.Participants_	O	_	_	
+1-3	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+1-4	decided	O	O	B-UnrelEv	_	_	
+1-5	to	O	O	O	_	_	
+1-6	take	O	O	B-Evoking	_	_	
+1-7	a	O	O	I-Evoking	_	_	
+1-8	bath	B-ScrPart_bath	B-webanno.custom.Participants_	I-Evoking	_	_	
+1-9	.	O	O	O	_	_	
+
+#id=2
+#text=I had been outside playing all day and was really dirty .
+2-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+2-2	had	O	O	O	_	_	
+2-3	been	O	O	O	_	_	
+2-4	outside	O	O	O	_	_	
+2-5	playing	O	O	B-UnrelEv	_	_	
+2-6	all	O	O	O	_	_	
+2-7	day	B-No_label	B-webanno.custom.Participants_	O	_	_	
+2-8	and	O	O	O	_	_	
+2-9	was	O	O	B-UnrelEv	_	_	
+2-10	really	O	O	O	_	_	
+2-11	dirty	O	O	O	_	_	
+2-12	.	O	O	O	_	_	
+
+#id=3
+#text=I started running the warm water to fill the bathtub .
+3-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+3-2	started	O	O	B-UnrelEv	_	_	
+3-3	running	O	O	B-RelNScrEv	_	_	
+3-4	the	O	O	O	_	_	
+3-5	warm	O	O	O	_	_	
+3-6	water	B-ScrPart_water	B-webanno.custom.Participants_	O	_	_	
+3-7	to	O	O	O	_	_	
+3-8	fill	O	O	B-ScrEv_fill_water/wait	_	_	
+3-9	the	O	O	O	_	_	
+3-10	bathtub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	_	_	
+3-11	.	O	O	O	_	_	
+
+#id=4
+#text=I like the tub to be very full .
+4-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+4-2	like	O	O	B-UnrelEv	_	_	
+4-3	the	O	O	O	_	_	
+4-4	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	_	_	
+4-5	to	O	O	O	_	_	
+4-6	be	O	O	B-UnrelEv	_	_	
+4-7	very	O	O	O	_	_	
+4-8	full	O	O	O	_	_	
+4-9	.	O	O	O	_	_	
+
+#id=5
+#text=While it was filling , I gathered everything I would need for my bath .
+5-1	While	O	O	O	_	_	
+5-2	it	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	_	_	
+5-3	was	O	O	O	_	_	
+5-4	filling	O	O	B-ScrEv_fill_water/wait	_	_	
+5-5	,	O	O	O	_	_	
+5-6	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+5-7	gathered	O	O	B-ScrEv_prepare_bath	_	_	
+5-8	everything	B-ScrPart_washing_tools	B-webanno.custom.Participants_	O	_	_	
+5-9	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+5-10	would	O	O	O	_	_	
+5-11	need	O	O	B-UnrelEv	_	_	
+5-12	for	O	O	O	_	_	
+5-13	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+5-14	bath	B-ScrPart_bath	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	1-8	
+5-15	.	O	O	O	_	_	
+
+#id=6
+#text=I got my soap , shampoo , washcloth and towel .
+6-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+6-2	got	O	O	B-ScrEv_prepare_bath	_	_	
+6-3	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+6-4	soap	B-ScrPart_washing_tools	B-webanno.custom.Participants_	O	_	_	
+6-5	,	O	O	O	_	_	
+6-6	shampoo	B-ScrPart_washing_tools	B-webanno.custom.Participants_	O	_	_	
+6-7	,	O	O	O	_	_	
+6-8	washcloth	B-ScrPart_washing_tools	B-webanno.custom.Participants_	O	_	_	
+6-9	and	O	O	O	_	_	
+6-10	towel	B-ScrPart_towel	B-webanno.custom.Participants_	O	_	_	
+6-11	.	O	O	O	_	_	
+
+#id=7
+#text=I also brought my clean bathrobe into the bathroom and hung it on the hook by the door .
+7-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+7-2	also	O	O	O	_	_	
+7-3	brought	O	O	B-ScrEv_prepare_bath	_	_	
+7-4	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+7-5	clean	O	O	O	_	_	
+7-6	bathrobe	B-ScrPart_clothes	B-webanno.custom.Participants_	O	_	_	
+7-7	into	O	O	O	_	_	
+7-8	the	O	O	O	_	_	
+7-9	bathroom	B-ScrPart_bathroom	B-webanno.custom.Participants_	O	_	_	
+7-10	and	O	O	O	_	_	
+7-11	hung	O	O	B-ScrEv_prepare_bath	_	_	
+7-12	it	B-ScrPart_clothes	B-webanno.custom.Participants_	O	_	_	
+7-13	on	O	O	O	_	_	
+7-14	the	O	O	O	_	_	
+7-15	hook	B-NPart	B-webanno.custom.Participants_	O	_	_	
+7-16	by	O	O	O	_	_	
+7-17	the	O	O	O	_	_	
+7-18	door	B-NPart	B-webanno.custom.Participants_	O	_	_	
+7-19	.	O	O	O	_	_	
+
+#id=8
+#text=When the tub was full I got in and just soaked for about ten minutes .
+8-1	When	O	O	O	_	_	
+8-2	the	O	O	O	_	_	
+8-3	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	_	_	
+8-4	was	O	O	B-UnrelEv	_	_	
+8-5	full	O	O	O	_	_	
+8-6	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+8-7	got	O	O	B-ScrEv_sink_water|B-ScrEv_sink_water	_	_	
+8-8	in	O	O	I-ScrEv_sink_water	_	_	
+8-9	and	O	O	O	_	_	
+8-10	just	O	O	O	_	_	
+8-11	soaked	O	O	B-RelNScrEv	_	_	
+8-12	for	O	O	O	_	_	
+8-13	about	O	O	O	_	_	
+8-14	ten	O	O	O	_	_	
+8-15	minutes	B-NPart	B-webanno.custom.Participants_	O	_	_	
+8-16	.	O	O	O	_	_	
+
+#id=9
+#text=Then I put shampoo in my hair and scrubbed it until it was covered in bubbles .
+9-1	Then	O	O	O	_	_	
+9-2	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+9-3	put	O	O	B-ScrEv_other	_	_	
+9-4	shampoo	B-ScrPart_washing_tools	B-webanno.custom.Participants_	O	_	_	
+9-5	in	O	O	O	_	_	
+9-6	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+9-7	hair	B-ScrPart_body_part	B-webanno.custom.Participants_	O	_	_	
+9-8	and	O	O	O	_	_	
+9-9	scrubbed	O	O	B-RelNScrEv	_	_	
+9-10	it	B-ScrPart_hair	B-webanno.custom.Participants_	O	_	_	
+9-11	until	O	O	O	_	_	
+9-12	it	B-ScrPart_body_part	B-webanno.custom.Participants_	O	_	_	
+9-13	was	O	O	O	_	_	
+9-14	covered	O	O	B-UnrelEv	_	_	
+9-15	in	O	O	O	_	_	
+9-16	bubbles	B-ScrPart_bath_means	B-webanno.custom.Participants_	O	_	_	
+9-17	.	O	O	O	_	_	
+
+#id=10
+#text=I rinsed it off and then used the washcloth and soap to wash my body .
+10-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+10-2	rinsed	O	O	B-ScrEv_wash	_	_	
+10-3	it	B-ScrPart_body_part	B-webanno.custom.Participants_	O	_	_	
+10-4	off	O	O	O	_	_	
+10-5	and	O	O	O	_	_	
+10-6	then	O	O	O	_	_	
+10-7	used	O	O	B-UnrelEv	_	_	
+10-8	the	O	O	O	_	_	
+10-9	washcloth	B-ScrPart_washing_tools	B-webanno.custom.Participants_	O	_	_	
+10-10	and	O	O	O	_	_	
+10-11	soap	B-ScrPart_washing_tools	B-webanno.custom.Participants_	O	_	_	
+10-12	to	O	O	O	_	_	
+10-13	wash	O	O	B-ScrEv_wash	_	_	
+10-14	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+10-15	body	B-ScrPart_body_part	B-webanno.custom.Participants_	O	_	_	
+10-16	.	O	O	O	_	_	
+
+#id=11
+#text=When I was all clean I got out and dried myself really well with the soft , dry towel .
+11-1	When	O	O	O	_	_	
+11-2	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+11-3	was	O	O	B-UnrelEv	_	_	
+11-4	all	O	O	O	_	_	
+11-5	clean	O	O	O	_	_	
+11-6	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+11-7	got	O	O	B-ScrEv_get_out_bath|B-ScrEv_get_out_bath	_	_	
+11-8	out	O	O	I-ScrEv_get_out_bath	_	_	
+11-9	and	O	O	O	_	_	
+11-10	dried	O	O	B-ScrEv_dry	_	_	
+11-11	myself	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+11-12	really	O	O	O	_	_	
+11-13	well	O	O	O	_	_	
+11-14	with	O	O	O	_	_	
+11-15	the	O	O	O	_	_	
+11-16	soft	O	O	O	_	_	
+11-17	,	O	O	O	_	_	
+11-18	dry	O	O	O	_	_	
+11-19	towel	B-ScrPart_towel	B-webanno.custom.Participants_	O	_	_	
+11-20	.	O	O	O	_	_	
+
+#id=12
+#text=I put on my bathrobe and let let the water out of the tub .
+12-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+12-2	put	O	O	B-ScrEv_get_dressed|B-ScrEv_get_dressed	_	_	
+12-3	on	O	O	I-ScrEv_get_dressed	_	_	
+12-4	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	_	_	
+12-5	bathrobe	B-ScrPart_clothes	B-webanno.custom.Participants_	O	_	_	
+12-6	and	O	O	O	_	_	
+12-7	let	O	O	O	_	_	
+12-8	let	O	O	B-ScrEv_open_drain	_	_	
+12-9	the	O	O	O	_	_	
+12-10	water	B-ScrPart_water	B-webanno.custom.Participants_	O	_	_	
+12-11	out	O	O	O	_	_	
+12-12	of	O	O	O	_	_	
+12-13	the	O	O	O	_	_	
+12-14	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	_	_	
+12-15	.	O	O	O	_	_	
+
+#id=13
+#text=It felt good to be all clean . 
+13-1	It	B-No_label	B-webanno.custom.Participants_	O	_	_	
+13-2	felt	O	O	B-UnrelEv	_	_	
+13-3	good	O	O	O	_	_	
+13-4	to	O	O	O	_	_	
+13-5	be	O	O	O	_	_	
+13-6	all	O	O	O	_	_	
+13-7	clean	O	O	O	_	_	
+13-8	.	O	O	O	_	_	
+

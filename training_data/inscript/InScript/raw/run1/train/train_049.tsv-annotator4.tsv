@@ -1,0 +1,209 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Today was the big day , I was going to visit some friends in Florida , but I was going to do it in a different way .
+1-1	Today	O	O	_	_	
+1-2	was	B-UnrelEv	O	_	_	
+1-3	the	O	O	_	_	
+1-4	big	O	O	_	_	
+1-5	day	O	O	_	_	
+1-6	,	O	O	_	_	
+1-7	I	O	B-ScrPart_passenger	_	_	
+1-8	was	O	O	_	_	
+1-9	going	O	O	_	_	
+1-10	to	O	O	_	_	
+1-11	visit	B-UnrelEv	O	_	_	
+1-12	some	O	O	_	_	
+1-13	friends	O	O	_	_	
+1-14	in	O	O	_	_	
+1-15	Florida	O	O	_	_	
+1-16	,	O	O	_	_	
+1-17	but	O	O	_	_	
+1-18	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	1-7	
+1-19	was	O	O	_	_	
+1-20	going	O	O	_	_	
+1-21	to	O	O	_	_	
+1-22	do	B-UnrelEv	O	_	_	
+1-23	it	O	O	_	_	
+1-24	in	O	O	_	_	
+1-25	a	O	O	_	_	
+1-26	different	O	O	_	_	
+1-27	way	O	O	_	_	
+1-28	.	O	O	_	_	
+
+#id=2
+#text=I was going to ride a train today for the first time ever .
+2-1	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	1-18	
+2-2	was	O	O	_	_	
+2-3	going	O	O	_	_	
+2-4	to	O	O	_	_	
+2-5	ride	B-Evoking	O	_	_	
+2-6	a	I-Evoking	O	_	_	
+2-7	train	I-Evoking	B-ScrPart_train	_	_	
+2-8	today	O	O	_	_	
+2-9	for	O	O	_	_	
+2-10	the	O	O	_	_	
+2-11	first	O	O	_	_	
+2-12	time	O	O	_	_	
+2-13	ever	O	O	_	_	
+2-14	.	O	O	_	_	
+
+#id=3
+#text=I loved trains since I was a child and now I would finally get to ride on one and see the countryside .
+3-1	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	2-1	
+3-2	loved	B-UnrelEv	O	_	_	
+3-3	trains	O	B-ScrPart_train	webanno.custom.Corefchains_	2-7	
+3-4	since	O	O	_	_	
+3-5	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	3-1	
+3-6	was	B-UnrelEv	O	_	_	
+3-7	a	O	O	_	_	
+3-8	child	O	O	_	_	
+3-9	and	O	O	_	_	
+3-10	now	O	O	_	_	
+3-11	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	3-5	
+3-12	would	O	O	_	_	
+3-13	finally	O	O	_	_	
+3-14	get	B-UnrelEv	O	_	_	
+3-15	to	O	O	_	_	
+3-16	ride	B-Evoking	O	_	_	
+3-17	on	I-Evoking	O	_	_	
+3-18	one	I-Evoking	B-ScrPart_train	webanno.custom.Corefchains_	3-3	
+3-19	and	O	O	_	_	
+3-20	see	B-ScrEv_spend_time_train	O	_	_	
+3-21	the	O	O	_	_	
+3-22	countryside	O	B-ScrPart_location_train	_	_	
+3-23	.	O	O	_	_	
+
+#id=4
+#text=I bought my tickets online , I did n't want to make a mistake and got to the wrong station .
+4-1	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	3-11	
+4-2	bought	B-ScrEv_get_tickets	O	_	_	
+4-3	my	O	B-ScrPart_passenger	webanno.custom.Corefchains_	4-1	
+4-4	tickets	O	B-ScrPart_card/ticket	_	_	
+4-5	online	O	O	_	_	
+4-6	,	O	O	_	_	
+4-7	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	4-3	
+4-8	did	O	O	_	_	
+4-9	n't	O	O	_	_	
+4-10	want	B-UnrelEv	O	_	_	
+4-11	to	O	O	_	_	
+4-12	make	B-UnrelEv	O	_	_	
+4-13	a	O	O	_	_	
+4-14	mistake	O	O	_	_	
+4-15	and	O	O	_	_	
+4-16	got	B-ScrEv_get_train_station	O	_	_	
+4-17	to	O	O	_	_	
+4-18	the	O	O	_	_	
+4-19	wrong	O	O	_	_	
+4-20	station	O	B-ScrPart_train_station	_	_	
+4-21	.	O	O	_	_	
+
+#id=5
+#text=I had my bags all packed so I called for a cab and headed to the train station .
+5-1	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	4-7	
+5-2	had	O	O	_	_	
+5-3	my	O	B-ScrPart_passenger	webanno.custom.Corefchains_	5-1	
+5-4	bags	O	B-ScrPart_luggage	_	_	
+5-5	all	O	O	_	_	
+5-6	packed	B-RelNScrEv	O	_	_	
+5-7	so	O	O	_	_	
+5-8	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	5-3	
+5-9	called	B-RelNScrEv	O	_	_	
+5-10	for	O	O	_	_	
+5-11	a	O	O	_	_	
+5-12	cab	O	B-NPart	_	_	
+5-13	and	O	O	_	_	
+5-14	headed	B-ScrEv_get_train_station	O	_	_	
+5-15	to	O	O	_	_	
+5-16	the	O	O	_	_	
+5-17	train	O	B-ScrPart_train_station	_	_	
+5-18	station	O	I-ScrPart_train_station|B-ScrPart_train_station	webanno.custom.Corefchains_	4-20	
+5-19	.	O	O	_	_	
+
+#id=6
+#text=Once there I took my luggage with me and waited for my train to pull up to the station .
+6-1	Once	O	O	_	_	
+6-2	there	O	O	_	_	
+6-3	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	5-8	
+6-4	took	B-RelNScrEv	O	_	_	
+6-5	my	O	B-ScrPart_passenger	webanno.custom.Corefchains_	6-3	
+6-6	luggage	O	B-ScrPart_luggage	webanno.custom.Corefchains_	5-4	
+6-7	with	O	O	_	_	
+6-8	me	O	B-ScrPart_passenger	webanno.custom.Corefchains_	6-5	
+6-9	and	O	O	_	_	
+6-10	waited	B-ScrEv_wait	O	_	_	
+6-11	for	O	O	_	_	
+6-12	my	O	B-ScrPart_passenger	webanno.custom.Corefchains_	6-8	
+6-13	train	O	B-ScrPart_train	webanno.custom.Corefchains_	3-18	
+6-14	to	O	O	_	_	
+6-15	pull	B-ScrEv_train_arrives	O	_	_	
+6-16	up	I-ScrEv_train_arrives	O	_	_	
+6-17	to	O	O	_	_	
+6-18	the	O	O	_	_	
+6-19	station	O	B-ScrPart_train_station	webanno.custom.Corefchains_	5-18	
+6-20	.	O	O	_	_	
+
+#id=7
+#text=Once the train was here I boarded and found an open car .
+7-1	Once	O	O	_	_	
+7-2	the	O	O	_	_	
+7-3	train	O	B-ScrPart_train	webanno.custom.Corefchains_	6-13	
+7-4	was	B-ScrEv_train_arrives	O	_	_	
+7-5	here	O	O	_	_	
+7-6	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	6-12	
+7-7	boarded	B-MissScrEv	O	_	_	
+7-8	and	O	O	_	_	
+7-9	found	B-ScrEv_find_place	O	_	_	
+7-10	an	O	O	_	_	
+7-11	open	O	O	_	_	
+7-12	car	O	B-ScrPart_coach	_	_	
+7-13	.	O	O	_	_	
+
+#id=8
+#text=I set my luggage in the overhead compartment and sat and waited My ticket was checked before the train left the station .
+8-1	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	7-6	
+8-2	set	B-RelNScrEv	O	_	_	
+8-3	my	O	B-ScrPart_passenger	webanno.custom.Corefchains_	8-1	
+8-4	luggage	O	B-ScrPart_luggage	_	_	
+8-5	in	O	O	_	_	
+8-6	the	O	O	_	_	
+8-7	overhead	O	B-NPart	_	_	
+8-8	compartment	O	I-NPart|B-NPart	_	_	
+8-9	and	O	O	_	_	
+8-10	sat	B-ScrEv_find_place	O	_	_	
+8-11	and	O	O	_	_	
+8-12	waited	B-ScrEv_wait	O	_	_	
+8-13	My	O	B-ScrPart_passenger	webanno.custom.Corefchains_	8-3	
+8-14	ticket	O	B-ScrPart_card/ticket	webanno.custom.Corefchains_	4-4	
+8-15	was	O	O	_	_	
+8-16	checked	B-ScrEv_conductor_checks	O	_	_	
+8-17	before	O	O	_	_	
+8-18	the	O	O	_	_	
+8-19	train	O	B-ScrPart_train	webanno.custom.Corefchains_	7-3	
+8-20	left	B-ScrEv_train_departs	O	_	_	
+8-21	the	O	O	_	_	
+8-22	station	O	B-ScrPart_train_station	webanno.custom.Corefchains_	6-19	
+8-23	.	O	O	_	_	
+
+#id=9
+#text=The train finally pulled out of the station , I was on my way my dream was being realized . 
+9-1	The	O	O	_	_	
+9-2	train	O	B-ScrPart_train	webanno.custom.Corefchains_	8-19	
+9-3	finally	O	O	_	_	
+9-4	pulled	B-ScrEv_train_departs	O	_	_	
+9-5	out	I-ScrEv_train_departs	O	_	_	
+9-6	of	O	O	_	_	
+9-7	the	O	O	_	_	
+9-8	station	O	B-ScrPart_train_station	webanno.custom.Corefchains_	8-22	
+9-9	,	O	O	_	_	
+9-10	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	8-13	
+9-11	was	B-UnrelEv	O	_	_	
+9-12	on	O	O	_	_	
+9-13	my	O	B-ScrPart_passenger	webanno.custom.Corefchains_	9-10	
+9-14	way	O	O	_	_	
+9-15	my	O	B-ScrPart_passenger	webanno.custom.Corefchains_	9-13	
+9-16	dream	O	O	_	_	
+9-17	was	O	O	_	_	
+9-18	being	O	O	_	_	
+9-19	realized	B-UnrelEv	O	_	_	
+9-20	.	O	O	_	_	
+

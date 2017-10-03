@@ -1,0 +1,202 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Earth day happens every year on April 22 .
+1-1	Earth	O	O	_	_	
+1-2	day	O	O	_	_	
+1-3	happens	B-UnrelEv	O	_	_	
+1-4	every	O	O	_	_	
+1-5	year	O	O	_	_	
+1-6	on	O	O	_	_	
+1-7	April	O	O	_	_	
+1-8	22	O	O	_	_	
+1-9	.	O	O	_	_	
+
+#id=2
+#text=I decided to do something about it later year and went out to plant a tree this year .
+2-1	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	3-1	
+2-2	decided	B-UnrelEv	O	_	_	
+2-3	to	O	O	_	_	
+2-4	do	B-UnrelEv	O	_	_	
+2-5	something	O	O	_	_	
+2-6	about	O	O	_	_	
+2-7	it	O	O	_	_	
+2-8	later	O	O	_	_	
+2-9	year	O	O	_	_	
+2-10	and	O	O	_	_	
+2-11	went	B-UnrelEv	O	_	_	
+2-12	out	I-UnrelEv	O	_	_	
+2-13	to	O	O	_	_	
+2-14	plant	B-Evoking	O	_	_	
+2-15	a	I-Evoking	O	_	_	
+2-16	tree	I-Evoking	B-ScrPart_tree	webanno.custom.Corefchains_	3-13	
+2-17	this	O	O	_	_	
+2-18	year	O	O	_	_	
+2-19	.	O	O	_	_	
+
+#id=3
+#text=I wondered over to a local tree farm , and bought a sapling with a friend .
+3-1	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_|coref_group_I_friend	9-3|4-1	
+3-2	wondered	B-RelNScrEv	O	_	_	
+3-3	over	I-RelNScrEv	O	_	_	
+3-4	to	O	O	_	_	
+3-5	a	O	O	_	_	
+3-6	local	O	O	_	_	
+3-7	tree	O	B-ScrPart_shop	_	_	
+3-8	farm	O	I-ScrPart_shop|B-ScrPart_shop	_	_	
+3-9	,	O	O	_	_	
+3-10	and	O	O	_	_	
+3-11	bought	B-ScrEv_get_tree	O	_	_	
+3-12	a	O	O	_	_	
+3-13	sapling	O	B-ScrPart_tree	webanno.custom.Corefchains_	7-14	
+3-14	with	O	O	_	_	
+3-15	a	O	O	_	_	
+3-16	friend	O	B-ScrPart_gardener	webanno.custom.Corefchains_|coref_group_I_friend	9-12|4-1	
+3-17	.	O	O	_	_	
+
+#id=4
+#text=We both borrowed a friend 's pick up truck and drove to a place in the woods that we usually hang out at .
+4-1	We	O	B-ScrPart_gardener	webanno.custom.Corefchains_	4-19	
+4-2	both	O	O	_	_	
+4-3	borrowed	B-UnrelEv	O	_	_	
+4-4	a	O	O	_	_	
+4-5	friend	O	O	_	_	
+4-6	's	O	O	_	_	
+4-7	pick	O	O	_	_	
+4-8	up	O	O	_	_	
+4-9	truck	O	O	_	_	
+4-10	and	O	O	_	_	
+4-11	drove	B-RelNScrEv	O	_	_	
+4-12	to	O	O	_	_	
+4-13	a	O	O	_	_	
+4-14	place	O	B-ScrPart_location_garden	webanno.custom.Corefchains_	4-18	
+4-15	in	O	O	_	_	
+4-16	the	O	O	_	_	
+4-17	woods	O	O	_	_	
+4-18	that	O	B-ScrPart_location_garden	webanno.custom.Corefchains_	6-6	
+4-19	we	O	B-ScrPart_gardener	webanno.custom.Corefchains_	5-2	
+4-20	usually	O	O	_	_	
+4-21	hang	B-UnrelEv	O	_	_	
+4-22	out	I-UnrelEv	O	_	_	
+4-23	at	O	O	_	_	
+4-24	.	O	O	_	_	
+
+#id=5
+#text=While we arrived there , it was beautiful weather for the beginning of Spring .
+5-1	While	O	O	_	_	
+5-2	we	O	B-ScrPart_gardener	webanno.custom.Corefchains_	6-1	
+5-3	arrived	B-RelNScrEv	O	_	_	
+5-4	there	O	O	_	_	
+5-5	,	O	O	_	_	
+5-6	it	O	O	_	_	
+5-7	was	B-UnrelEv	O	_	_	
+5-8	beautiful	O	O	_	_	
+5-9	weather	O	O	_	_	
+5-10	for	O	O	_	_	
+5-11	the	O	O	_	_	
+5-12	beginning	O	O	_	_	
+5-13	of	O	O	_	_	
+5-14	Spring	O	O	_	_	
+5-15	.	O	O	_	_	
+
+#id=6
+#text=We went off to the area where we always set up our tents when we go camping .
+6-1	We	O	B-ScrPart_gardener	webanno.custom.Corefchains_	6-8	
+6-2	went	B-RelNScrEv	O	_	_	
+6-3	off	I-RelNScrEv	O	_	_	
+6-4	to	O	O	_	_	
+6-5	the	O	O	_	_	
+6-6	area	O	B-ScrPart_location_garden	webanno.custom.Corefchains_	7-7	
+6-7	where	O	O	_	_	
+6-8	we	O	B-ScrPart_gardener	webanno.custom.Corefchains_	6-12	
+6-9	always	O	O	_	_	
+6-10	set	B-UnrelEv	O	_	_	
+6-11	up	I-UnrelEv	O	_	_	
+6-12	our	O	B-ScrPart_gardener	webanno.custom.Corefchains_	6-15	
+6-13	tents	O	O	_	_	
+6-14	when	O	O	_	_	
+6-15	we	O	B-ScrPart_gardener	webanno.custom.Corefchains_	7-1	
+6-16	go	B-UnrelEv	O	_	_	
+6-17	camping	B-UnrelEv	O	_	_	
+6-18	.	O	O	_	_	
+
+#id=7
+#text=We ended up digging near the campsite and removed the bag around the sapling .
+7-1	We	O	B-ScrPart_gardener	webanno.custom.Corefchains_	8-3	
+7-2	ended	B-UnrelEv	O	_	_	
+7-3	up	I-UnrelEv	O	_	_	
+7-4	digging	B-ScrEv_dug_hole	O	_	_	
+7-5	near	O	O	_	_	
+7-6	the	O	O	_	_	
+7-7	campsite	O	B-ScrPart_location_garden	_	_	
+7-8	and	O	O	_	_	
+7-9	removed	B-ScrEv_unwrap_root	O	_	_	
+7-10	the	O	O	_	_	
+7-11	bag	O	B-ScrPart_wrapping	_	_	
+7-12	around	O	O	_	_	
+7-13	the	O	O	_	_	
+7-14	sapling	O	B-ScrPart_tree	webanno.custom.Corefchains_	8-8	
+7-15	.	O	O	_	_	
+
+#id=8
+#text=Carefully , we both picked up the tree and placed it in the hole we dug and it fit in perfectly !
+8-1	Carefully	O	O	_	_	
+8-2	,	O	O	_	_	
+8-3	we	O	B-ScrPart_gardener	webanno.custom.Corefchains_	8-15	
+8-4	both	O	O	_	_	
+8-5	picked	B-RelNScrEv	O	_	_	
+8-6	up	I-RelNScrEv	O	_	_	
+8-7	the	O	O	_	_	
+8-8	tree	O	B-ScrPart_tree	webanno.custom.Corefchains_	8-11	
+8-9	and	O	O	_	_	
+8-10	placed	B-ScrEv_place_root	O	_	_	
+8-11	it	O	B-ScrPart_tree	webanno.custom.Corefchains_	8-18	
+8-12	in	O	O	_	_	
+8-13	the	O	O	_	_	
+8-14	hole	O	B-ScrPart_hole	webanno.custom.Corefchains_	9-15	
+8-15	we	O	B-ScrPart_gardener	_	_	
+8-16	dug	B-ScrEv_dug_hole	O	_	_	
+8-17	and	O	O	_	_	
+8-18	it	O	B-ScrPart_tree	webanno.custom.Corefchains_	9-7	
+8-19	fit	B-ScrEv_place_root	O	_	_	
+8-20	in	I-ScrEv_place_root	O	_	_	
+8-21	perfectly	O	O	_	_	
+8-22	!	O	O	_	_	
+
+#id=9
+#text=After that I carefully held the tree in place while my friend filled the hole back with dirt .
+9-1	After	O	O	_	_	
+9-2	that	O	O	_	_	
+9-3	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	9-11	
+9-4	carefully	O	O	_	_	
+9-5	held	B-RelNScrEv	O	_	_	
+9-6	the	O	O	_	_	
+9-7	tree	O	B-ScrPart_tree	webanno.custom.Corefchains_	10-6	
+9-8	in	O	O	_	_	
+9-9	place	O	O	_	_	
+9-10	while	O	O	_	_	
+9-11	my	O	B-ScrPart_gardener	_	_	
+9-12	friend	O	B-ScrPart_gardener	_	_	
+9-13	filled	B-ScrEv_refill_hole	O	_	_	
+9-14	the	O	O	_	_	
+9-15	hole	O	B-ScrPart_hole	_	_	
+9-16	back	O	O	_	_	
+9-17	with	O	O	_	_	
+9-18	dirt	O	B-ScrPart_dirt	_	_	
+9-19	.	O	O	_	_	
+
+#id=10
+#text=A year later , the tree is still growing in perfect health . 
+10-1	A	O	O	_	_	
+10-2	year	O	B-ScrPart_time	_	_	
+10-3	later	O	O	_	_	
+10-4	,	O	O	_	_	
+10-5	the	O	O	_	_	
+10-6	tree	O	B-ScrPart_tree	_	_	
+10-7	is	O	O	_	_	
+10-8	still	O	O	_	_	
+10-9	growing	B-RelNScrEv	O	_	_	
+10-10	in	O	O	_	_	
+10-11	perfect	O	O	_	_	
+10-12	health	O	O	_	_	
+10-13	.	O	O	_	_	
+

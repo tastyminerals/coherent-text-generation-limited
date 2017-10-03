@@ -1,0 +1,201 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant | Participants
+#id=1
+#text=After boarding my plane and placing the luggage in the luggage compartment overhead , I took my seat in my coach section of the airplane .
+1-1	After	O	O	O	
+1-2	boarding	B-ScrEv_board_plane	O	O	
+1-3	my	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+1-4	plane	O	B-webanno.custom.Participants_	B-ScrPart_plane	
+1-5	and	O	O	O	
+1-6	placing	B-ScrEv_stow_away_luggage	O	O	
+1-7	the	O	O	O	
+1-8	luggage	O	B-webanno.custom.Participants_	B-ScrPart_carry_on_luggage	
+1-9	in	O	O	O	
+1-10	the	O	O	O	
+1-11	luggage	O	B-webanno.custom.Participants_	B-ScrPart_storage	
+1-12	compartment	O	I-webanno.custom.Participants_	I-ScrPart_storage	
+1-13	overhead	O	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_storage|B-ScrPart_storage	
+1-14	,	O	O	O	
+1-15	I	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+1-16	took	B-ScrEv_take_seat	O	O	
+1-17	my	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+1-18	seat	O	B-webanno.custom.Participants_	B-ScrPart_seat	
+1-19	in	O	O	O	
+1-20	my	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+1-21	coach	O	B-webanno.custom.Participants_	B-ScrPart_location_airplane_indoor	
+1-22	section	O	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_location_airplane_indoor|B-ScrPart_location_airplane_indoor	
+1-23	of	O	O	O	
+1-24	the	O	O	O	
+1-25	airplane	O	B-webanno.custom.Participants_	B-ScrPart_plane	
+1-26	.	O	O	O	
+
+#id=2
+#text=I luckily had the window seat , meaning I had slightly more room than the two strangers next to me on my right .
+2-1	I	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+2-2	luckily	O	O	O	
+2-3	had	B-ScrEv_take_seat	O	O	
+2-4	the	O	O	O	
+2-5	window	O	B-webanno.custom.Participants_	B-ScrPart_seat	
+2-6	seat	O	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_seat|B-ScrPart_seat	
+2-7	,	O	O	O	
+2-8	meaning	B-UnrelEv	O	O	
+2-9	I	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+2-10	had	B-UnrelEv	O	O	
+2-11	slightly	O	O	O	
+2-12	more	O	O	O	
+2-13	room	O	B-webanno.custom.Participants_	B-NPart	
+2-14	than	O	O	O	
+2-15	the	O	O	O	
+2-16	two	O	O	O	
+2-17	strangers	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+2-18	next	O	O	O	
+2-19	to	O	O	O	
+2-20	me	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+2-21	on	O	O	O	
+2-22	my	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+2-23	right	O	B-webanno.custom.Participants_	B-NPart	
+2-24	.	O	O	O	
+
+#id=3
+#text=I was able to fold back my seat a little bit to allow for myself to rest my head and back from a rather long drive .
+3-1	I	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+3-2	was	O	O	O	
+3-3	able	B-UnrelEv	O	O	
+3-4	to	I-UnrelEv	O	O	
+3-5	fold	B-RelNScrEv	O	O	
+3-6	back	I-RelNScrEv	O	O	
+3-7	my	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+3-8	seat	O	B-webanno.custom.Participants_	B-ScrPart_seat	
+3-9	a	O	O	O	
+3-10	little	O	O	O	
+3-11	bit	O	B-webanno.custom.Participants_	B-No_label	
+3-12	to	O	O	O	
+3-13	allow	B-UnrelEv	O	O	
+3-14	for	O	O	O	
+3-15	myself	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+3-16	to	O	O	O	
+3-17	rest	B-RelNScrEv	O	O	
+3-18	my	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+3-19	head	O	B-webanno.custom.Participants_	B-NPart	
+3-20	and	O	O	O	
+3-21	back	O	B-webanno.custom.Participants_	B-NPart	
+3-22	from	O	O	O	
+3-23	a	O	O	O	
+3-24	rather	O	O	O	
+3-25	long	O	O	O	
+3-26	drive	O	B-webanno.custom.Participants_	B-NPart	
+3-27	.	O	O	O	
+
+#id=4
+#text=I pulled out my book and started reading as the plane took off .
+4-1	I	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+4-2	pulled	B-ScrEv_spend_time_flight	O	O	
+4-3	out	I-ScrEv_spend_time_flight	O	O	
+4-4	my	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+4-5	book	O	B-webanno.custom.Participants_	B-ScrPart_in-flight_entertainment	
+4-6	and	O	O	O	
+4-7	started	B-UnrelEv	O	O	
+4-8	reading	B-ScrEv_spend_time_flight	O	O	
+4-9	as	O	O	O	
+4-10	the	O	O	O	
+4-11	plane	O	B-webanno.custom.Participants_	B-ScrPart_plane	
+4-12	took	B-ScrEv_take_off	O	O	
+4-13	off	I-ScrEv_take_off	O	O	
+4-14	.	O	O	O	
+
+#id=5
+#text=About ten minutes into the flight , I decided taking a little nap would be appropriate and helpful during the five-hour-long flight .
+5-1	About	O	O	O	
+5-2	ten	O	B-webanno.custom.Participants_	B-ScrPart_time/date	
+5-3	minutes	O	I-webanno.custom.Participants_	I-ScrPart_time/date	
+5-4	into	O	O	O	
+5-5	the	O	O	O	
+5-6	flight	O	B-webanno.custom.Participants_	B-ScrPart_flight	
+5-7	,	O	O	O	
+5-8	I	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+5-9	decided	B-UnrelEv	O	O	
+5-10	taking	B-ScrEv_spend_time_flight	O	O	
+5-11	a	O	O	O	
+5-12	little	O	O	O	
+5-13	nap	O	B-webanno.custom.Participants_	B-ScrPart_in-flight_entertainment	
+5-14	would	O	O	O	
+5-15	be	B-UnrelEv	O	O	
+5-16	appropriate	O	O	O	
+5-17	and	O	O	O	
+5-18	helpful	O	O	O	
+5-19	during	O	O	O	
+5-20	the	O	O	O	
+5-21	five-hour-long	O	O	O	
+5-22	flight	O	B-webanno.custom.Participants_	B-ScrPart_flight	
+5-23	.	O	O	O	
+
+#id=6
+#text=I fell asleep for about an hour and continued to read my book .
+6-1	I	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+6-2	fell	B-ScrEv_spend_time_flight	O	O	
+6-3	asleep	I-ScrEv_spend_time_flight	O	O	
+6-4	for	O	O	O	
+6-5	about	O	O	O	
+6-6	an	O	B-webanno.custom.Participants_	B-ScrPart_time/date	
+6-7	hour	O	I-webanno.custom.Participants_	I-ScrPart_time/date	
+6-8	and	O	O	O	
+6-9	continued	B-UnrelEv	O	O	
+6-10	to	O	O	O	
+6-11	read	B-ScrEv_spend_time_flight	O	O	
+6-12	my	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+6-13	book	O	B-webanno.custom.Participants_	B-ScrPart_in-flight_entertainment	
+6-14	.	O	O	O	
+
+#id=7
+#text=After my eyes got tired of reading , I pulled on the headphones and watching the movie being shown in front of all the passengers .
+7-1	After	O	O	O	
+7-2	my	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+7-3	eyes	O	B-webanno.custom.Participants_	B-NPart	
+7-4	got	B-UnrelEv	O	O	
+7-5	tired	I-UnrelEv	O	O	
+7-6	of	O	O	O	
+7-7	reading	B-ScrEv_spend_time_flight	O	O	
+7-8	,	O	O	O	
+7-9	I	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+7-10	pulled	B-ScrEv_spend_time_flight	O	O	
+7-11	on	I-ScrEv_spend_time_flight	O	O	
+7-12	the	O	O	O	
+7-13	headphones	O	B-webanno.custom.Participants_	B-ScrPart_in-flight_entertainment	
+7-14	and	O	O	O	
+7-15	watching	B-ScrEv_spend_time_flight	O	O	
+7-16	the	O	O	O	
+7-17	movie	O	B-webanno.custom.Participants_	B-ScrPart_in-flight_entertainment	
+7-18	being	O	O	O	
+7-19	shown	B-ScrEv_spend_time_flight	O	O	
+7-20	in	O	O	O	
+7-21	front	O	O	O	
+7-22	of	O	O	O	
+7-23	all	O	O	O	
+7-24	the	O	O	O	
+7-25	passengers	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+7-26	.	O	O	O	
+
+#id=8
+#text=The movie ended moments before we started landing , where I would then grab my belongings and head off the plane . 
+8-1	The	O	O	O	
+8-2	movie	O	B-webanno.custom.Participants_	B-ScrPart_in-flight_entertainment	
+8-3	ended	B-ScrEv_spend_time_flight	O	O	
+8-4	moments	O	B-webanno.custom.Participants_	B-ScrPart_time/date	
+8-5	before	O	O	O	
+8-6	we	O	B-webanno.custom.Participants_	B-ScrPart_plane	
+8-7	started	B-UnrelEv	O	O	
+8-8	landing	B-ScrEv_landing	O	O	
+8-9	,	O	O	O	
+8-10	where	O	O	O	
+8-11	I	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+8-12	would	O	O	O	
+8-13	then	O	O	O	
+8-14	grab	B-ScrEv_retrieve_luggage	O	O	
+8-15	my	O	B-webanno.custom.Participants_	B-ScrPart_passenger	
+8-16	belongings	O	B-webanno.custom.Participants_	B-ScrPart_carry_on_luggage	
+8-17	and	O	O	O	
+8-18	head	B-ScrEv_exit_plane	O	O	
+8-19	off	I-ScrEv_exit_plane	O	O	
+8-20	the	O	O	O	
+8-21	plane	O	B-webanno.custom.Participants_	B-ScrPart_plane	
+8-22	.	O	O	O	
+

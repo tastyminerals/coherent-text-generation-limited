@@ -1,0 +1,196 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=This winter , my family and I decided we wanted to plant a tree in our backyard .
+1-1	This	O	O	_	_	
+1-2	winter	B-ScrPart_time	O	_	_	
+1-3	,	O	O	_	_	
+1-4	my	B-ScrPart_gardener	O	_	_	
+1-5	family	B-ScrPart_gardener	O	_	_	
+1-6	and	O	O	_	_	
+1-7	I	B-ScrPart_gardener	O	_	_	
+1-8	decided	O	B-UnrelEv	_	_	
+1-9	we	B-ScrPart_gardener	O	_	_	
+1-10	wanted	O	B-UnrelEv	_	_	
+1-11	to	O	O	_	_	
+1-12	plant	O	B-Evoking	_	_	
+1-13	a	O	I-Evoking	_	_	
+1-14	tree	B-ScrPart_tree	I-Evoking	_	_	
+1-15	in	O	O	_	_	
+1-16	our	B-ScrPart_gardener	O	_	_	
+1-17	backyard	B-ScrPart_location_garden	O	_	_	
+1-18	.	O	O	_	_	
+
+#id=2
+#text=Since it was still the middle of winter , we decided to wait until it was April to plant it because we learned that was the best time of year to do it .
+2-1	Since	O	O	_	_	
+2-2	it	B-No_label	O	_	_	
+2-3	was	O	B-UnrelEv	_	_	
+2-4	still	O	O	_	_	
+2-5	the	O	O	_	_	
+2-6	middle	B-Head_of_Partitive	O	_	_	
+2-7	of	O	O	_	_	
+2-8	winter	B-ScrPart_time	O	webanno.custom.Corefchains_	1-2	
+2-9	,	O	O	_	_	
+2-10	we	B-ScrPart_gardener	O	_	_	
+2-11	decided	O	B-UnrelEv	_	_	
+2-12	to	O	O	_	_	
+2-13	wait	O	B-UnrelEv	_	_	
+2-14	until	O	O	_	_	
+2-15	it	B-No_label	O	_	_	
+2-16	was	O	B-UnrelEv	_	_	
+2-17	April	B-ScrPart_time	O	_	_	
+2-18	to	O	O	_	_	
+2-19	plant	O	B-Evoking	_	_	
+2-20	it	B-ScrPart_tree	O	_	_	
+2-21	because	O	O	_	_	
+2-22	we	B-ScrPart_gardener	O	_	_	
+2-23	learned	O	B-UnrelEv	_	_	
+2-24	that	O	O	_	_	
+2-25	was	O	B-UnrelEv	_	_	
+2-26	the	O	O	_	_	
+2-27	best	O	O	_	_	
+2-28	time	B-Head_of_Partitive	O	_	_	
+2-29	of	O	O	_	_	
+2-30	year	B-ScrPart_time	O	_	_	
+2-31	to	O	O	_	_	
+2-32	do	O	B-???	_	_	
+2-33	it	B-No_label	O	_	_	
+2-34	.	O	O	_	_	
+
+#id=3
+#text=Once April came around , we chose a suitable tree for our area .
+3-1	Once	O	O	_	_	
+3-2	April	B-ScrPart_time	O	webanno.custom.Corefchains_	2-17	
+3-3	came	O	B-UnrelEv|B-UnrelEv	_	_	
+3-4	around	O	I-UnrelEv	_	_	
+3-5	,	O	O	_	_	
+3-6	we	B-ScrPart_gardener	O	_	_	
+3-7	chose	O	B-ScrEv_choose_tree	_	_	
+3-8	a	O	O	_	_	
+3-9	suitable	O	O	_	_	
+3-10	tree	B-ScrPart_tree	O	_	_	
+3-11	for	O	O	_	_	
+3-12	our	B-ScrPart_gardener	O	_	_	
+3-13	area	B-NPart	O	_	_	
+3-14	.	O	O	_	_	
+
+#id=4
+#text=With a shovel , we dug a hole that had enough room for the fresh roots to grow .
+4-1	With	O	O	_	_	
+4-2	a	O	O	_	_	
+4-3	shovel	B-ScrPart_gardening_tool	O	_	_	
+4-4	,	O	O	_	_	
+4-5	we	B-ScrPart_gardener	O	_	_	
+4-6	dug	O	B-ScrEv_dug_hole	_	_	
+4-7	a	O	O	_	_	
+4-8	hole	B-ScrPart_hole	O	_	_	
+4-9	that	O	O	_	_	
+4-10	had	O	B-UnrelEv	_	_	
+4-11	enough	O	O	_	_	
+4-12	room	B-NPart	O	_	_	
+4-13	for	O	O	_	_	
+4-14	the	O	O	_	_	
+4-15	fresh	O	O	_	_	
+4-16	roots	B-ScrPart_root	O	_	_	
+4-17	to	O	O	_	_	
+4-18	grow	O	B-RelNScrEv	_	_	
+4-19	.	O	O	_	_	
+
+#id=5
+#text=After that was done , we prepared the tree by gently taking it out of the pot .
+5-1	After	O	O	_	_	
+5-2	that	O	O	_	_	
+5-3	was	O	O	_	_	
+5-4	done	O	B-???	_	_	
+5-5	,	O	O	_	_	
+5-6	we	B-ScrPart_gardener	O	_	_	
+5-7	prepared	O	B-ScrEv_get_tree	_	_	
+5-8	the	O	O	_	_	
+5-9	tree	B-ScrPart_tree	O	_	_	
+5-10	by	O	O	_	_	
+5-11	gently	O	O	_	_	
+5-12	taking	O	B-ScrEv_get_tree	_	_	
+5-13	it	B-ScrPart_tree	O	_	_	
+5-14	out	O	O	_	_	
+5-15	of	O	O	_	_	
+5-16	the	O	O	_	_	
+5-17	pot	B-ScrPart_wrapping	O	_	_	
+5-18	.	O	O	_	_	
+
+#id=6
+#text=Once our tree was ready , we placed it into our freshly dug hole .
+6-1	Once	O	O	_	_	
+6-2	our	B-ScrPart_gardener	O	_	_	
+6-3	tree	B-ScrPart_tree	O	_	_	
+6-4	was	O	B-UnrelEv	_	_	
+6-5	ready	O	O	_	_	
+6-6	,	O	O	_	_	
+6-7	we	B-ScrPart_gardener	O	_	_	
+6-8	placed	O	B-ScrEv_place_root	_	_	
+6-9	it	B-ScrPart_tree	O	_	_	
+6-10	into	O	O	_	_	
+6-11	our	B-ScrPart_gardener	O	_	_	
+6-12	freshly	O	O	_	_	
+6-13	dug	O	B-ScrEv_dug_hole	_	_	
+6-14	hole	B-ScrPart_hole	O	_	_	
+6-15	.	O	O	_	_	
+
+#id=7
+#text=Once the tree was properly placed , we refilled the hole with the dirt and soil so that it was securely in place .
+7-1	Once	O	O	_	_	
+7-2	the	O	O	_	_	
+7-3	tree	B-ScrPart_tree	O	_	_	
+7-4	was	O	O	_	_	
+7-5	properly	O	O	_	_	
+7-6	placed	O	B-ScrEv_place_root	_	_	
+7-7	,	O	O	_	_	
+7-8	we	B-ScrPart_gardener	O	_	_	
+7-9	refilled	O	B-ScrEv_refill_hole	_	_	
+7-10	the	O	O	_	_	
+7-11	hole	B-ScrPart_hole	O	_	_	
+7-12	with	O	O	_	_	
+7-13	the	O	O	_	_	
+7-14	dirt	B-ScrPart_dirt	O	_	_	
+7-15	and	O	O	_	_	
+7-16	soil	B-ScrPart_dirt	O	_	_	
+7-17	so	O	O	_	_	
+7-18	that	O	O	_	_	
+7-19	it	B-ScrPart_tree	O	_	_	
+7-20	was	O	B-RelNScrEv	_	_	
+7-21	securely	O	O	_	_	
+7-22	in	O	O	_	_	
+7-23	place	B-No_label	O	_	_	
+7-24	.	O	O	_	_	
+
+#id=8
+#text=We were happy to see our tree all set and watered the tree .
+8-1	We	B-ScrPart_gardener	O	_	_	
+8-2	were	O	B-UnrelEv	_	_	
+8-3	happy	O	O	_	_	
+8-4	to	O	O	_	_	
+8-5	see	O	B-UnrelEv	_	_	
+8-6	our	B-ScrPart_gardener	O	_	_	
+8-7	tree	B-ScrPart_tree	O	_	_	
+8-8	all	O	O	_	_	
+8-9	set	O	B-RelNScrEv	_	_	
+8-10	and	O	O	_	_	
+8-11	watered	O	B-ScrEv_water	_	_	
+8-12	the	O	O	_	_	
+8-13	tree	B-ScrPart_tree	O	_	_	
+8-14	.	O	O	_	_	
+
+#id=9
+#text=We plan to enjoy watching the tree grow for many years . 
+9-1	We	B-ScrPart_gardener	O	_	_	
+9-2	plan	O	B-UnrelEv	_	_	
+9-3	to	O	O	_	_	
+9-4	enjoy	O	B-UnrelEv	_	_	
+9-5	watching	O	B-UnrelEv	_	_	
+9-6	the	O	O	_	_	
+9-7	tree	B-ScrPart_tree	O	_	_	
+9-8	grow	O	B-RelNScrEv	_	_	
+9-9	for	O	O	_	_	
+9-10	many	O	O	_	_	
+9-11	years	B-ScrPart_time	O	_	_	
+9-12	.	O	O	_	_	
+

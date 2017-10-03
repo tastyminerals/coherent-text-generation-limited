@@ -1,0 +1,279 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I went grocery shopping today .
+1-1	I	B-ScrPart_shopper	O	_	_	
+1-2	went	O	B-Evoking	_	_	
+1-3	grocery	B-ScrPart_groceries	I-Evoking	_	_	
+1-4	shopping	O	I-Evoking|B-ScrEv_get_groceries	_	_	
+1-5	today	B-NPart	O	_	_	
+1-6	.	O	O	_	_	
+
+#id=2
+#text=I made a list of things that I needed before I left my house .
+2-1	I	B-ScrPart_shopper	O	_	_	
+2-2	made	O	B-ScrEv_make_list	_	_	
+2-3	a	O	O	_	_	
+2-4	list	B-ScrPart_grocery_list	O	_	_	
+2-5	of	O	O	_	_	
+2-6	things	B-ScrPart_groceries	O	_	_	
+2-7	that	O	O	_	_	
+2-8	I	B-ScrPart_shopper	O	_	_	
+2-9	needed	O	B-UnrelEv	_	_	
+2-10	before	O	O	_	_	
+2-11	I	B-ScrPart_shopper	O	_	_	
+2-12	left	O	B-UnrelEv	_	_	
+2-13	my	B-ScrPart_shopper	O	_	_	
+2-14	house	B-NPart	O	_	_	
+2-15	.	O	O	_	_	
+
+#id=3
+#text=When I got to the grocery store , I walked in the door and got a shopping cart .
+3-1	When	O	O	_	_	
+3-2	I	B-ScrPart_shopper	O	_	_	
+3-3	got	O	B-ScrEv_go_grocery	_	_	
+3-4	to	O	O	_	_	
+3-5	the	O	O	_	_	
+3-6	grocery	B-ScrPart_grocery_shop	O	_	_	
+3-7	store	I-ScrPart_grocery_shop|B-ScrPart_grocery_shop	O	_	_	
+3-8	,	O	O	_	_	
+3-9	I	B-ScrPart_shopper	O	_	_	
+3-10	walked	O	B-ScrEv_enter	_	_	
+3-11	in	O	O	_	_	
+3-12	the	O	O	_	_	
+3-13	door	B-NPart	O	_	_	
+3-14	and	O	O	_	_	
+3-15	got	O	B-ScrEv_take_shop_cart	_	_	
+3-16	a	O	O	_	_	
+3-17	shopping	B-ScrPart_shopping_cart/basket	O	_	_	
+3-18	cart	I-ScrPart_shopping_cart/basket|B-ScrPart_shopping_cart/basket	O	_	_	
+3-19	.	O	O	_	_	
+
+#id=4
+#text=The next thing I did was look at my list to see which items I needed to find .
+4-1	The	O	O	_	_	
+4-2	next	O	O	_	_	
+4-3	thing	B-No_label	O	_	_	
+4-4	I	B-ScrPart_shopper	O	_	_	
+4-5	did	O	B-UnrelEv	_	_	
+4-6	was	O	O	_	_	
+4-7	look	O	B-ScrEv_check_list	_	_	
+4-8	at	O	O	_	_	
+4-9	my	B-ScrPart_shopper	O	_	_	
+4-10	list	B-ScrPart_grocery_list	O	_	_	
+4-11	to	O	O	_	_	
+4-12	see	O	B-UnrelEv	_	_	
+4-13	which	O	O	_	_	
+4-14	items	B-ScrPart_groceries	O	_	_	
+4-15	I	B-ScrPart_shopper	O	_	_	
+4-16	needed	O	O	_	_	
+4-17	to	O	O	_	_	
+4-18	find	O	B-RelNScrEv	_	_	
+4-19	.	O	O	_	_	
+
+#id=5
+#text=My list said I needed to get bread , cheese and milk .
+5-1	My	B-ScrPart_shopper	O	_	_	
+5-2	list	B-ScrPart_grocery_list	O	_	_	
+5-3	said	O	B-UnrelEv	_	_	
+5-4	I	B-ScrPart_shopper	O	_	_	
+5-5	needed	O	O	_	_	
+5-6	to	O	O	_	_	
+5-7	get	O	B-ScrEv_get_groceries	_	_	
+5-8	bread	B-ScrPart_groceries	O	_	_	
+5-9	,	O	O	_	_	
+5-10	cheese	B-ScrPart_groceries	O	_	_	
+5-11	and	O	O	_	_	
+5-12	milk	B-ScrPart_groceries	O	_	_	
+5-13	.	O	O	_	_	
+
+#id=6
+#text=First I went to the aisle of bread .
+6-1	First	B-No_label	O	_	_	
+6-2	I	B-ScrPart_shopper	O	_	_	
+6-3	went	O	B-ScrEv_move_section	_	_	
+6-4	to	O	O	_	_	
+6-5	the	O	O	_	_	
+6-6	aisle	B-ScrPart_section	O	_	_	
+6-7	of	O	O	_	_	
+6-8	bread	B-ScrPart_groceries	O	_	_	
+6-9	.	O	O	_	_	
+
+#id=7
+#text=There were at least twenty different kinds of bread .
+7-1	There	O	O	_	_	
+7-2	were	O	B-UnrelEv	_	_	
+7-3	at	O	O	_	_	
+7-4	least	O	O	_	_	
+7-5	twenty	O	O	_	_	
+7-6	different	O	O	_	_	
+7-7	kinds	B-Head_of_Partitive	O	_	_	
+7-8	of	O	O	_	_	
+7-9	bread	B-ScrPart_groceries	O	_	_	
+7-10	.	O	O	_	_	
+
+#id=8
+#text=I picked out my favorite kind of bread , which is whole wheat , and put it in my shopping cart .
+8-1	I	B-ScrPart_shopper	O	_	_	
+8-2	picked	O	B-ScrEv_get_groceries	_	_	
+8-3	out	O	I-ScrEv_get_groceries	_	_	
+8-4	my	B-ScrPart_shopper	O	_	_	
+8-5	favorite	O	O	_	_	
+8-6	kind	B-Head_of_Partitive	O	_	_	
+8-7	of	O	O	_	_	
+8-8	bread	B-ScrPart_groceries	O	_	_	
+8-9	,	O	O	_	_	
+8-10	which	O	O	_	_	
+8-11	is	O	B-UnrelEv	_	_	
+8-12	whole	O	O	_	_	
+8-13	wheat	B-???	O	_	_	
+8-14	,	O	O	_	_	
+8-15	and	O	O	_	_	
+8-16	put	O	B-ScrEv_get_groceries	_	_	
+8-17	it	B-ScrPart_groceries	O	_	_	
+8-18	in	O	O	_	_	
+8-19	my	B-ScrPart_shopper	O	_	_	
+8-20	shopping	B-ScrPart_shopping_cart/basket	O	_	_	
+8-21	cart	I-ScrPart_shopping_cart/basket|B-ScrPart_shopping_cart/basket	O	_	_	
+8-22	.	O	O	_	_	
+
+#id=9
+#text=Next I went to the dairy section of the store where I put a gallon of milk and a block of cheese into my cart .
+9-1	Next	O	O	_	_	
+9-2	I	B-ScrPart_shopper	O	_	_	
+9-3	went	O	B-ScrEv_move_section	_	_	
+9-4	to	O	O	_	_	
+9-5	the	O	O	_	_	
+9-6	dairy	B-ScrPart_section	O	_	_	
+9-7	section	I-ScrPart_section|B-ScrPart_section	O	_	_	
+9-8	of	O	O	_	_	
+9-9	the	O	O	_	_	
+9-10	store	B-ScrPart_grocery_shop	O	_	_	
+9-11	where	O	O	_	_	
+9-12	I	B-ScrPart_shopper	O	_	_	
+9-13	put	O	B-ScrEv_get_groceries	_	_	
+9-14	a	O	O	_	_	
+9-15	gallon	B-Head_of_Partitive	O	_	_	
+9-16	of	O	O	_	_	
+9-17	milk	B-ScrPart_groceries	O	_	_	
+9-18	and	O	O	_	_	
+9-19	a	O	O	_	_	
+9-20	block	B-Head_of_Partitive	O	_	_	
+9-21	of	O	O	_	_	
+9-22	cheese	B-ScrPart_groceries	O	_	_	
+9-23	into	O	O	_	_	
+9-24	my	B-ScrPart_shopper	O	_	_	
+9-25	cart	B-ScrPart_shopping_cart/basket	O	_	_	
+9-26	.	O	O	_	_	
+
+#id=10
+#text=I then took my cart up to the front of the store where the cash registers where located .
+10-1	I	B-ScrPart_shopper	O	_	_	
+10-2	then	O	O	_	_	
+10-3	took	O	B-ScrEv_go_checkout	_	_	
+10-4	my	B-ScrPart_shopper	O	_	_	
+10-5	cart	B-ScrPart_shopping_cart/basket	O	_	_	
+10-6	up	O	O	_	_	
+10-7	to	O	O	_	_	
+10-8	the	O	O	_	_	
+10-9	front	B-ScrPart_section	O	_	_	
+10-10	of	O	O	_	_	
+10-11	the	O	O	_	_	
+10-12	store	B-ScrPart_grocery_shop	O	_	_	
+10-13	where	O	O	_	_	
+10-14	the	O	O	_	_	
+10-15	cash	B-ScrPart_cash_desk	O	_	_	
+10-16	registers	I-ScrPart_cash_desk|B-ScrPart_cash_desk	O	_	_	
+10-17	where	O	O	_	_	
+10-18	located	O	B-UnrelEv	_	_	
+10-19	.	O	O	_	_	
+
+#id=11
+#text=I put my items on one of the counters and a lady scanned each of them .
+11-1	I	B-ScrPart_shopper	O	_	_	
+11-2	put	O	B-ScrEv_put_conveyor	_	_	
+11-3	my	B-ScrPart_shopper	O	_	_	
+11-4	items	B-ScrPart_groceries	O	_	_	
+11-5	on	O	O	_	_	
+11-6	one	O	O	_	_	
+11-7	of	O	O	_	_	
+11-8	the	O	O	_	_	
+11-9	counters	B-ScrPart_cash_desk	O	_	_	
+11-10	and	O	O	_	_	
+11-11	a	O	O	_	_	
+11-12	lady	B-ScrPart_grocery_staff	O	_	_	
+11-13	scanned	O	B-ScrEv_cashier_scan/weight	_	_	
+11-14	each	O	O	_	_	
+11-15	of	O	O	_	_	
+11-16	them	B-ScrPart_groceries	O	_	_	
+11-17	.	O	O	_	_	
+
+#id=12
+#text=She told me how much my groceries cost and I gave her the money to pay for them .
+12-1	She	B-ScrPart_grocery_staff	O	_	_	
+12-2	told	O	B-ScrEv_get_receipt	_	_	
+12-3	me	B-ScrPart_shopper	O	_	_	
+12-4	how	O	O	_	_	
+12-5	much	O	O	_	_	
+12-6	my	B-ScrPart_shopper	O	_	_	
+12-7	groceries	B-ScrPart_groceries	O	_	_	
+12-8	cost	O	B-RelNScrEv	_	_	
+12-9	and	O	O	_	_	
+12-10	I	B-ScrPart_shopper	O	_	_	
+12-11	gave	O	B-ScrEv_pay	_	_	
+12-12	her	B-ScrPart_grocery_staff	O	_	_	
+12-13	the	O	O	_	_	
+12-14	money	B-ScrPart_payment_means	O	_	_	
+12-15	to	O	O	_	_	
+12-16	pay	O	B-ScrEv_pay	_	_	
+12-17	for	O	O	_	_	
+12-18	them	B-ScrPart_groceries	O	_	_	
+12-19	.	O	O	_	_	
+
+#id=13
+#text=A boy took my groceries from the counter and put them in a bag .
+13-1	A	O	O	_	_	
+13-2	boy	B-ScrPart_grocery_staff	O	_	_	
+13-3	took	O	B-ScrEv_pack_groceries	_	_	
+13-4	my	B-ScrPart_shopper	O	_	_	
+13-5	groceries	B-ScrPart_groceries	O	_	_	
+13-6	from	O	O	_	_	
+13-7	the	O	O	_	_	
+13-8	counter	B-ScrPart_cash_desk	O	_	_	
+13-9	and	O	O	_	_	
+13-10	put	O	B-ScrEv_pack_groceries	_	_	
+13-11	them	B-ScrPart_groceries	O	_	_	
+13-12	in	O	O	_	_	
+13-13	a	O	O	_	_	
+13-14	bag	B-ScrPart_shopping_bags	O	_	_	
+13-15	.	O	O	_	_	
+
+#id=14
+#text=He handed me the bag and thanked me for shopping with them today .
+14-1	He	B-ScrPart_grocery_staff	O	_	_	
+14-2	handed	O	B-RelNScrEv	_	_	
+14-3	me	B-ScrPart_shopper	O	_	_	
+14-4	the	O	O	_	_	
+14-5	bag	B-ScrPart_shopping_bags	O	_	_	
+14-6	and	O	O	_	_	
+14-7	thanked	O	B-RelNScrEv	_	_	
+14-8	me	B-ScrPart_shopper	O	_	_	
+14-9	for	O	O	_	_	
+14-10	shopping	O	B-Evoking	_	_	
+14-11	with	O	O	_	_	
+14-12	them	B-ScrPart_grocery_staff	O	_	_	
+14-13	today	B-NPart	O	webanno.custom.Corefchains_	1-5	
+14-14	.	O	O	_	_	
+
+#id=15
+#text=Finally , I left and took my groceries home . 
+15-1	Finally	O	O	_	_	
+15-2	,	O	O	_	_	
+15-3	I	B-ScrPart_shopper	O	_	_	
+15-4	left	O	B-ScrEv_leave	_	_	
+15-5	and	O	O	_	_	
+15-6	took	O	B-ScrEv_leave	_	_	
+15-7	my	B-ScrPart_shopper	O	_	_	
+15-8	groceries	B-ScrPart_groceries	O	_	_	
+15-9	home	B-NPart	O	_	_	
+15-10	.	O	O	_	_	
+

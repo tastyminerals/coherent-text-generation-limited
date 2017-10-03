@@ -1,0 +1,242 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=We were all out of food for the week , so I drove to the grocery store to pick up some supplies .
+1-1	We	B-NPart	O	_	_	
+1-2	were	O	B-RelNScrEv	_	_	
+1-3	all	O	O	_	_	
+1-4	out	O	O	_	_	
+1-5	of	O	O	_	_	
+1-6	food	B-ScrPart_groceries	O	_	_	
+1-7	for	O	O	_	_	
+1-8	the	O	O	_	_	
+1-9	week	B-NPart	O	_	_	
+1-10	,	O	O	_	_	
+1-11	so	O	O	_	_	
+1-12	I	B-ScrPart_shopper	O	_	_	
+1-13	drove	O	B-ScrEv_go_grocery	_	_	
+1-14	to	O	O	_	_	
+1-15	the	O	O	_	_	
+1-16	grocery	B-ScrPart_grocery_shop	O	_	_	
+1-17	store	I-ScrPart_grocery_shop|B-ScrPart_grocery_shop	O	_	_	
+1-18	to	O	O	_	_	
+1-19	pick	O	B-Evoking	_	_	
+1-20	up	O	I-Evoking	_	_	
+1-21	some	O	I-Evoking	_	_	
+1-22	supplies	B-ScrPart_groceries	I-Evoking	_	_	
+1-23	.	O	O	_	_	
+
+#id=2
+#text=I entered the store and grabbed a grocery cart , wheeling down the aisle before me .
+2-1	I	B-ScrPart_shopper	O	_	_	
+2-2	entered	O	B-ScrEv_enter	_	_	
+2-3	the	O	O	_	_	
+2-4	store	B-ScrPart_grocery_shop	O	_	_	
+2-5	and	O	O	_	_	
+2-6	grabbed	O	B-ScrEv_take_shop_cart	_	_	
+2-7	a	O	O	_	_	
+2-8	grocery	B-ScrPart_shopping_cart/basket	O	_	_	
+2-9	cart	I-ScrPart_shopping_cart/basket|B-ScrPart_shopping_cart/basket	O	_	_	
+2-10	,	O	O	_	_	
+2-11	wheeling	O	B-ScrEv_move_section	_	_	
+2-12	down	O	I-ScrEv_move_section	_	_	
+2-13	the	O	O	_	_	
+2-14	aisle	B-ScrPart_section	O	_	_	
+2-15	before	O	O	_	_	
+2-16	me	B-ScrPart_shopper	O	_	_	
+2-17	.	O	O	_	_	
+
+#id=3
+#text=I started by grabbing some fresh fruits and vegetables - apples , lettuce , carrots and celery .
+3-1	I	B-ScrPart_shopper	O	_	_	
+3-2	started	O	B-UnrelEv	_	_	
+3-3	by	O	O	_	_	
+3-4	grabbing	O	B-ScrEv_get_groceries	_	_	
+3-5	some	O	O	_	_	
+3-6	fresh	O	O	_	_	
+3-7	fruits	B-ScrPart_groceries	O	_	_	
+3-8	and	O	O	_	_	
+3-9	vegetables	B-ScrPart_groceries	O	_	_	
+3-10	-	O	O	_	_	
+3-11	apples	B-ScrPart_groceries	O	_	_	
+3-12	,	O	O	_	_	
+3-13	lettuce	B-ScrPart_groceries	O	_	_	
+3-14	,	O	O	_	_	
+3-15	carrots	B-ScrPart_groceries	O	_	_	
+3-16	and	O	O	_	_	
+3-17	celery	B-ScrPart_groceries	O	_	_	
+3-18	.	O	O	_	_	
+
+#id=4
+#text=Then I went on the dairy aisle .
+4-1	Then	O	O	_	_	
+4-2	I	B-ScrPart_shopper	O	_	_	
+4-3	went	O	B-ScrEv_move_section	_	_	
+4-4	on	O	O	_	_	
+4-5	the	O	O	_	_	
+4-6	dairy	B-ScrPart_section	O	_	_	
+4-7	aisle	I-ScrPart_section|B-ScrPart_section	O	_	_	
+4-8	.	O	O	_	_	
+
+#id=5
+#text=I got a gallon of milk and a dozen eggs .
+5-1	I	B-ScrPart_shopper	O	_	_	
+5-2	got	O	B-ScrEv_get_groceries	_	_	
+5-3	a	O	O	_	_	
+5-4	gallon	B-Head_of_Partitive	O	_	_	
+5-5	of	O	O	_	_	
+5-6	milk	B-ScrPart_groceries	O	_	_	
+5-7	and	O	O	_	_	
+5-8	a	O	O	_	_	
+5-9	dozen	B-Head_of_Partitive	O	_	_	
+5-10	eggs	B-ScrPart_groceries	O	_	_	
+5-11	.	O	O	_	_	
+
+#id=6
+#text=Then I decided to get some lunch eat , so I got a package of ham and a package of turkey .
+6-1	Then	O	O	_	_	
+6-2	I	B-ScrPart_shopper	O	_	_	
+6-3	decided	O	B-UnrelEv	_	_	
+6-4	to	O	O	_	_	
+6-5	get	O	B-ScrEv_get_groceries	_	_	
+6-6	some	O	O	_	_	
+6-7	lunch	B-ScrPart_groceries	O	_	_	
+6-8	eat	I-ScrPart_groceries|B-ScrPart_groceries	O	_	_	
+6-9	,	O	O	_	_	
+6-10	so	O	O	_	_	
+6-11	I	B-ScrPart_shopper	O	_	_	
+6-12	got	O	B-ScrEv_get_groceries	_	_	
+6-13	a	O	O	_	_	
+6-14	package	B-Head_of_Partitive	O	_	_	
+6-15	of	O	O	_	_	
+6-16	ham	B-ScrPart_groceries	O	_	_	
+6-17	and	O	O	_	_	
+6-18	a	O	O	_	_	
+6-19	package	B-Head_of_Partitive	O	_	_	
+6-20	of	O	O	_	_	
+6-21	turkey	B-ScrPart_groceries	O	_	_	
+6-22	.	O	O	_	_	
+
+#id=7
+#text=I would need bread , so I went to the bread aisle and got a loaf of whole wheat .
+7-1	I	B-ScrPart_shopper	O	_	_	
+7-2	would	O	O	_	_	
+7-3	need	O	B-RelNScrEv	_	_	
+7-4	bread	B-ScrPart_groceries	O	_	_	
+7-5	,	O	O	_	_	
+7-6	so	O	O	_	_	
+7-7	I	B-ScrPart_shopper	O	_	_	
+7-8	went	O	B-ScrEv_move_section	_	_	
+7-9	to	O	O	_	_	
+7-10	the	O	O	_	_	
+7-11	bread	B-ScrPart_section	O	_	_	
+7-12	aisle	I-ScrPart_section|B-ScrPart_section	O	_	_	
+7-13	and	O	O	_	_	
+7-14	got	O	B-ScrEv_get_groceries	_	_	
+7-15	a	O	O	_	_	
+7-16	loaf	B-Head_of_Partitive	O	_	_	
+7-17	of	O	O	_	_	
+7-18	whole	B-ScrPart_groceries	O	_	_	
+7-19	wheat	I-ScrPart_groceries|B-ScrPart_groceries	O	_	_	
+7-20	.	O	O	_	_	
+
+#id=8
+#text=Finally , I grabbed a box of cereal - corn flakes , my favorite .
+8-1	Finally	O	O	_	_	
+8-2	,	O	O	_	_	
+8-3	I	B-ScrPart_shopper	O	_	_	
+8-4	grabbed	O	B-ScrEv_get_groceries	_	_	
+8-5	a	O	O	_	_	
+8-6	box	B-Head_of_Partitive	O	_	_	
+8-7	of	O	O	_	_	
+8-8	cereal	B-ScrPart_groceries	O	_	_	
+8-9	-	O	O	_	_	
+8-10	corn	B-ScrPart_groceries	O	_	_	
+8-11	flakes	I-ScrPart_groceries|B-ScrPart_groceries	O	_	_	
+8-12	,	O	O	_	_	
+8-13	my	B-ScrPart_shopper	O	_	_	
+8-14	favorite	B-NPart	O	_	_	
+8-15	.	O	O	_	_	
+
+#id=9
+#text=I wheeled my cart to the checkout and put my groceries on the small conveyor belt .
+9-1	I	B-ScrPart_shopper	O	_	_	
+9-2	wheeled	O	B-ScrEv_go_checkout	_	_	
+9-3	my	B-ScrPart_shopper	O	_	_	
+9-4	cart	B-ScrPart_shopping_cart/basket	O	_	_	
+9-5	to	O	O	_	_	
+9-6	the	O	O	_	_	
+9-7	checkout	B-ScrPart_cash_desk	O	_	_	
+9-8	and	O	O	_	_	
+9-9	put	O	B-ScrEv_put_conveyor	_	_	
+9-10	my	B-ScrPart_shopper	O	_	_	
+9-11	groceries	B-ScrPart_groceries	O	_	_	
+9-12	on	O	O	_	_	
+9-13	the	O	O	_	_	
+9-14	small	O	O	_	_	
+9-15	conveyor	B-ScrPart_conveyor_belt	O	_	_	
+9-16	belt	I-ScrPart_conveyor_belt|B-ScrPart_conveyor_belt	O	_	_	
+9-17	.	O	O	_	_	
+
+#id=10
+#text=The cashier scanned each item and then read my total : $ 40.52 .
+10-1	The	O	O	_	_	
+10-2	cashier	B-ScrPart_grocery_staff	O	_	_	
+10-3	scanned	O	B-ScrEv_cashier_scan/weight	_	_	
+10-4	each	O	O	_	_	
+10-5	item	B-ScrPart_groceries	O	_	_	
+10-6	and	O	O	_	_	
+10-7	then	O	O	_	_	
+10-8	read	O	B-ScrEv_pay	_	_	
+10-9	my	B-ScrPart_shopper	O	_	_	
+10-10	total	B-ScrPart_price	O	_	_	
+10-11	:	O	O	_	_	
+10-12	$	B-ScrPart_price	O	webanno.custom.Corefchains_	10-10	
+10-13	40.52	I-ScrPart_price	O	webanno.custom.Corefchains_	10-10	
+10-14	.	O	O	_	_	
+
+#id=11
+#text=I gave her two twenty dollar bills , two quarters and two pennies .
+11-1	I	B-ScrPart_shopper	O	_	_	
+11-2	gave	O	B-ScrEv_pay	_	_	
+11-3	her	B-ScrPart_grocery_staff	O	_	_	
+11-4	two	O	O	_	_	
+11-5	twenty	B-ScrPart_payment_means	O	_	_	
+11-6	dollar	I-ScrPart_payment_means	O	_	_	
+11-7	bills	I-ScrPart_payment_means|B-ScrPart_payment_means	O	_	_	
+11-8	,	O	O	_	_	
+11-9	two	O	O	_	_	
+11-10	quarters	B-ScrPart_payment_means	O	_	_	
+11-11	and	O	O	_	_	
+11-12	two	O	O	_	_	
+11-13	pennies	B-ScrPart_payment_means	O	_	_	
+11-14	.	O	O	_	_	
+
+#id=12
+#text=She gave me a receipt , put my food into two plastic bags .
+12-1	She	B-ScrPart_grocery_staff	O	_	_	
+12-2	gave	O	B-ScrEv_get_receipt	_	_	
+12-3	me	B-ScrPart_shopper	O	_	_	
+12-4	a	O	O	_	_	
+12-5	receipt	B-ScrPart_receipt	O	_	_	
+12-6	,	O	O	_	_	
+12-7	put	O	B-ScrEv_pack_groceries	_	_	
+12-8	my	B-ScrPart_shopper	O	_	_	
+12-9	food	B-ScrPart_groceries	O	_	_	
+12-10	into	O	O	_	_	
+12-11	two	O	O	_	_	
+12-12	plastic	B-ScrPart_packing	O	_	_	
+12-13	bags	I-ScrPart_packing|B-ScrPart_packing	O	_	_	
+12-14	.	O	O	_	_	
+
+#id=13
+#text=I grabbed them and was on my way . 
+13-1	I	B-ScrPart_shopper	O	_	_	
+13-2	grabbed	O	B-RelNScrEv	_	_	
+13-3	them	B-ScrPart_packing	O	_	_	
+13-4	and	O	O	_	_	
+13-5	was	O	B-ScrEv_leave	_	_	
+13-6	on	O	O	_	_	
+13-7	my	B-ScrPart_shopper	O	_	_	
+13-8	way	B-NPart	O	_	_	
+13-9	.	O	O	_	_	
+

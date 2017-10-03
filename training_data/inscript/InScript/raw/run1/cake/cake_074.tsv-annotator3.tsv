@@ -1,0 +1,245 @@
+ # webanno.custom.Participants | Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Every Sunday , I love to bake cake for a family dessert .
+1-1	Every	O	O	O	_	_	
+1-2	Sunday	B-NPart	B-webanno.custom.Participants_	O	_	_	
+1-3	,	O	O	O	_	_	
+1-4	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+1-5	love	O	O	B-UnrelEv	_	_	
+1-6	to	O	O	O	_	_	
+1-7	bake	O	O	B-Evoking	_	_	
+1-8	cake	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	_	_	
+1-9	for	O	O	O	_	_	
+1-10	a	O	O	O	_	_	
+1-11	family	O	O	O	_	_	
+1-12	dessert	B-NPart	B-webanno.custom.Participants_	O	_	_	
+1-13	.	O	O	O	_	_	
+
+#id=2
+#text=But before I bake my cake , I make sure I go to the supermarket to get all of my ingredients .
+2-1	But	O	O	O	_	_	
+2-2	before	O	O	O	_	_	
+2-3	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	1-4	
+2-4	bake	O	O	B-Evoking	_	_	
+2-5	my	O	O	I-Evoking	_	_	
+2-6	cake	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	webanno.custom.Corefchains_	1-8	
+2-7	,	O	O	O	_	_	
+2-8	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	2-3	
+2-9	make	O	O	B-UnrelEv|B-UnrelEv	_	_	
+2-10	sure	O	O	I-UnrelEv	_	_	
+2-11	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	2-8	
+2-12	go	O	O	B-RelNScrEv	_	_	
+2-13	to	O	O	O	_	_	
+2-14	the	O	O	O	_	_	
+2-15	supermarket	B-ScrPart_store	B-webanno.custom.Participants_	O	_	_	
+2-16	to	O	O	O	_	_	
+2-17	get	O	O	B-ScrEv_get_ingredients	_	_	
+2-18	all	O	O	O	_	_	
+2-19	of	O	O	O	_	_	
+2-20	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	2-11	
+2-21	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+2-22	.	O	O	O	_	_	
+
+#id=3
+#text=My ingredients include baking powder , milk , eggs , sugar , and the list continues .
+3-1	My	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	2-20	
+3-2	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	2-21	
+3-3	include	O	O	B-UnrelEv	_	_	
+3-4	baking	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+3-5	powder	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+3-6	,	O	O	O	_	_	
+3-7	milk	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+3-8	,	O	O	O	_	_	
+3-9	eggs	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+3-10	,	O	O	O	_	_	
+3-11	sugar	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+3-12	,	O	O	O	_	_	
+3-13	and	O	O	O	_	_	
+3-14	the	O	O	O	_	_	
+3-15	list	B-NPart	B-webanno.custom.Participants_	O	_	_	
+3-16	continues	O	O	O	_	_	
+3-17	.	O	O	O	_	_	
+
+#id=4
+#text=Once I purchase all of my ingredients , I go home and get my electric appliances such as mixer and other tools ready to use .
+4-1	Once	O	O	O	_	_	
+4-2	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	3-1	
+4-3	purchase	O	O	B-ScrEv_get_ingredients	_	_	
+4-4	all	O	O	O	_	_	
+4-5	of	O	O	O	_	_	
+4-6	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	4-2	
+4-7	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	3-2	
+4-8	,	O	O	O	_	_	
+4-9	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	4-6	
+4-10	go	O	O	B-MissScrEvent	_	_	
+4-11	home	B-ScrPart_kitchen/location	B-webanno.custom.Participants_	O	_	_	
+4-12	and	O	O	O	_	_	
+4-13	get	O	O	B-ScrEv_get_utensils	_	_	
+4-14	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	4-9	
+4-15	electric	B-ScrPart_utensil	B-webanno.custom.Participants_	O	_	_	
+4-16	appliances	I-ScrPart_utensil|B-ScrPart_utensil	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+4-17	such	O	O	O	_	_	
+4-18	as	O	O	O	_	_	
+4-19	mixer	B-ScrPart_utensil|B-ScrPart_utensil	B-webanno.custom.Participants_|B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	4-16	
+4-20	and	I-ScrPart_utensil	I-webanno.custom.Participants_	O	webanno.custom.Corefchains_	4-16	
+4-21	other	I-ScrPart_utensil	I-webanno.custom.Participants_	O	webanno.custom.Corefchains_	4-16	
+4-22	tools	I-ScrPart_utensil|B-ScrPart_utensil	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	4-16	
+4-23	ready	O	O	O	_	_	
+4-24	to	O	O	O	_	_	
+4-25	use	O	O	B-RelNScrEv	_	_	
+4-26	.	O	O	O	_	_	
+
+#id=5
+#text=Now , I 'm ready to finally bake !
+5-1	Now	O	O	O	_	_	
+5-2	,	O	O	O	_	_	
+5-3	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	4-14	
+5-4	'm	O	O	B-UnrelEv	_	_	
+5-5	ready	O	O	I-UnrelEv	_	_	
+5-6	to	O	O	O	_	_	
+5-7	finally	O	O	O	_	_	
+5-8	bake	O	O	B-RelNScrEv	_	_	
+5-9	!	O	O	O	_	_	
+
+#id=6
+#text=It 's usually very fun to bake a cake because I bake with my sister .
+6-1	It	O	O	O	_	_	
+6-2	's	O	O	B-UnrelEv	_	_	
+6-3	usually	O	O	O	_	_	
+6-4	very	O	O	O	_	_	
+6-5	fun	O	O	O	_	_	
+6-6	to	O	O	O	_	_	
+6-7	bake	O	O	B-Evoking	_	_	
+6-8	a	O	O	I-Evoking	_	_	
+6-9	cake	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	webanno.custom.Corefchains_	2-6	
+6-10	because	O	O	O	_	_	
+6-11	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-3	
+6-12	bake	O	O	B-RelNScrEv	_	_	
+6-13	with	O	O	O	_	_	
+6-14	my	O	O	O	_	_	
+6-15	sister	B-ScrPart_cook	B-webanno.custom.Participants_	O	group_I_sister	6-11	
+6-16	.	O	O	O	_	_	
+
+#id=7
+#text=We always make a mess in the kitchen and always laugh about it .
+7-1	We	B-ScrPart_cook	B-webanno.custom.Participants_	O	group_I_sister	6-15	
+7-2	always	O	O	O	_	_	
+7-3	make	O	O	B-RelNScrEv	_	_	
+7-4	a	O	O	O	_	_	
+7-5	mess	B-SuppVComp	B-webanno.custom.Participants_	O	_	_	
+7-6	in	O	O	O	_	_	
+7-7	the	O	O	O	_	_	
+7-8	kitchen	B-ScrPart_kitchen/location	B-webanno.custom.Participants_	O	_	_	
+7-9	and	O	O	O	_	_	
+7-10	always	O	O	O	_	_	
+7-11	laugh	O	O	B-UnrelEv	_	_	
+7-12	about	O	O	O	_	_	
+7-13	it	O	O	O	_	_	
+7-14	.	O	O	O	_	_	
+
+#id=8
+#text=Whether it 's baking powder all over our clothes , or broken eggs on the floor , we make a big mess .
+8-1	Whether	O	O	O	_	_	
+8-2	it	O	O	O	_	_	
+8-3	's	O	O	B-UnrelEv	_	_	
+8-4	baking	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+8-5	powder	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	3-5	
+8-6	all	O	O	O	_	_	
+8-7	over	O	O	O	_	_	
+8-8	our	B-ScrPart_cook	B-webanno.custom.Participants_	O	group_I_sister	7-1	
+8-9	clothes	O	O	O	_	_	
+8-10	,	O	O	O	_	_	
+8-11	or	O	O	O	_	_	
+8-12	broken	O	O	O	_	_	
+8-13	eggs	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	3-9	
+8-14	on	O	O	O	_	_	
+8-15	the	O	O	O	_	_	
+8-16	floor	O	O	O	_	_	
+8-17	,	O	O	O	_	_	
+8-18	we	B-ScrPart_cook	B-webanno.custom.Participants_	O	group_I_sister	8-8	
+8-19	make	O	O	B-RelNScrEv	_	_	
+8-20	a	O	O	O	_	_	
+8-21	big	O	O	O	_	_	
+8-22	mess	B-SuppVComp	B-webanno.custom.Participants_	O	_	_	
+8-23	.	O	O	O	_	_	
+
+#id=9
+#text=But at the end , we get everything right and actually bake a decent cake .
+9-1	But	O	O	O	_	_	
+9-2	at	O	O	O	_	_	
+9-3	the	O	O	O	_	_	
+9-4	end	O	O	O	_	_	
+9-5	,	O	O	O	_	_	
+9-6	we	B-ScrPart_cook	B-webanno.custom.Participants_	O	group_I_sister	8-18	
+9-7	get	O	O	B-MissScrEvent	_	_	
+9-8	everything	B-SuppVComp	B-webanno.custom.Participants_	O	_	_	
+9-9	right	O	O	O	_	_	
+9-10	and	O	O	O	_	_	
+9-11	actually	O	O	O	_	_	
+9-12	bake	O	O	B-RelNScrEv	_	_	
+9-13	a	O	O	O	_	_	
+9-14	decent	O	O	O	_	_	
+9-15	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	6-9	
+9-16	.	O	O	O	_	_	
+
+#id=10
+#text=We tend to bake vanilla or red velvet cake .
+10-1	We	B-ScrPart_cook	B-webanno.custom.Participants_	O	group_I_sister	9-6	
+10-2	tend	O	O	B-UnrelEv|B-UnrelEv	_	_	
+10-3	to	O	O	I-UnrelEv	_	_	
+10-4	bake	O	O	B-RelNScrEv	_	_	
+10-5	vanilla	O	O	O	_	_	
+10-6	or	O	O	O	_	_	
+10-7	red	O	O	O	_	_	
+10-8	velvet	O	O	O	_	_	
+10-9	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	9-15	
+10-10	.	O	O	O	_	_	
+
+#id=11
+#text=That 's our favorite .
+11-1	That	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	10-9	
+11-2	's	O	O	B-UnrelEv	_	_	
+11-3	our	B-ScrPart_cook	B-webanno.custom.Participants_	O	group_I_sister	10-1	
+11-4	favorite	O	O	O	_	_	
+11-5	.	O	O	O	_	_	
+
+#id=12
+#text=Once the cake is ready , we wait an hour until we put icing on top of the cake .
+12-1	Once	O	O	O	_	_	
+12-2	the	O	O	O	_	_	
+12-3	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	11-1	
+12-4	is	O	O	B-UnrelEv	_	_	
+12-5	ready	O	O	O	_	_	
+12-6	,	O	O	O	_	_	
+12-7	we	B-ScrPart_cook	B-webanno.custom.Participants_	O	group_I_sister	11-3	
+12-8	wait	O	O	B-ScrEv_wait	_	_	
+12-9	an	O	O	O	_	_	
+12-10	hour	O	O	O	_	_	
+12-11	until	O	O	O	_	_	
+12-12	we	B-ScrPart_cook	B-webanno.custom.Participants_	O	group_I_sister	12-7	
+12-13	put	O	O	B-ScrEv_decorate	_	_	
+12-14	icing	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+12-15	on	O	O	O	_	_	
+12-16	top	O	O	O	_	_	
+12-17	of	O	O	O	_	_	
+12-18	the	O	O	O	_	_	
+12-19	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	12-3	
+12-20	.	O	O	O	_	_	
+
+#id=13
+#text=Later on after dinner , the family enjoys a nice slice of cake . 
+13-1	Later	O	O	O	_	_	
+13-2	on	O	O	O	_	_	
+13-3	after	O	O	O	_	_	
+13-4	dinner	B-NPart	B-webanno.custom.Participants_	O	_	_	
+13-5	,	O	O	O	_	_	
+13-6	the	O	O	O	_	_	
+13-7	family	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	_	_	
+13-8	enjoys	O	O	B-ScrEv_eat	_	_	
+13-9	a	O	O	O	_	_	
+13-10	nice	O	O	O	_	_	
+13-11	slice	O	O	O	_	_	
+13-12	of	O	O	O	_	_	
+13-13	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	group_I_sister	12-19	
+13-14	.	O	O	O	_	_	
+

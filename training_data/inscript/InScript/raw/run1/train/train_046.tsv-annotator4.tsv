@@ -1,0 +1,217 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Traveling by train is almost like traveling by airplane .
+1-1	Traveling	B-Evoking	O	_	_	
+1-2	by	I-Evoking	O	_	_	
+1-3	train	I-Evoking	B-ScrPart_train	_	_	
+1-4	is	B-UnrelEv	O	_	_	
+1-5	almost	O	O	_	_	
+1-6	like	O	O	_	_	
+1-7	traveling	B-UnrelEv	O	_	_	
+1-8	by	O	O	_	_	
+1-9	airplane	O	O	_	_	
+1-10	.	O	O	_	_	
+
+#id=2
+#text=I learned that the train companies have baggage limits , rules for unaccompanied minors , and seating rules too .
+2-1	I	O	B-ScrPart_passenger	_	_	
+2-2	learned	B-UnrelEv	O	_	_	
+2-3	that	O	O	_	_	
+2-4	the	O	O	_	_	
+2-5	train	O	O	_	_	
+2-6	companies	O	O	_	_	
+2-7	have	B-UnrelEv	O	_	_	
+2-8	baggage	O	O	_	_	
+2-9	limits	O	O	_	_	
+2-10	,	O	O	_	_	
+2-11	rules	O	O	_	_	
+2-12	for	O	O	_	_	
+2-13	unaccompanied	B-UnrelEv	O	_	_	
+2-14	minors	O	B-ScrPart_passenger	_	_	
+2-15	,	O	O	_	_	
+2-16	and	O	O	_	_	
+2-17	seating	B-ScrEv_find_place	O	_	_	
+2-18	rules	O	B-NPart	_	_	
+2-19	too	O	O	_	_	
+2-20	.	O	O	_	_	
+
+#id=3
+#text=I bought my ticket ahead of time and then went to my station .
+3-1	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	2-1	
+3-2	bought	B-ScrEv_get_tickets	O	_	_	
+3-3	my	O	B-ScrPart_passenger	webanno.custom.Corefchains_	3-1	
+3-4	ticket	O	B-ScrPart_card/ticket	_	_	
+3-5	ahead	O	O	_	_	
+3-6	of	O	O	_	_	
+3-7	time	O	O	_	_	
+3-8	and	O	O	_	_	
+3-9	then	O	O	_	_	
+3-10	went	B-ScrEv_get_train_station	O	_	_	
+3-11	to	O	O	_	_	
+3-12	my	O	B-ScrPart_passenger	webanno.custom.Corefchains_	3-3	
+3-13	station	O	B-ScrPart_train_station	_	_	
+3-14	.	O	O	_	_	
+
+#id=4
+#text=They checked my ticket , ID , baggage , and I hopped on the train .
+4-1	They	O	B-ScrPart_train_staff	_	_	
+4-2	checked	B-ScrEv_conductor_checks	O	_	_	
+4-3	my	O	B-ScrPart_passenger	webanno.custom.Corefchains_	3-12	
+4-4	ticket	O	B-ScrPart_card/ticket	webanno.custom.Corefchains_	3-4	
+4-5	,	O	O	_	_	
+4-6	ID	O	B-NPart	_	_	
+4-7	,	O	O	_	_	
+4-8	baggage	O	B-ScrPart_luggage	_	_	
+4-9	,	O	O	_	_	
+4-10	and	O	O	_	_	
+4-11	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	4-3	
+4-12	hopped	B-MissScrEv	O	_	_	
+4-13	on	O	O	_	_	
+4-14	the	O	O	_	_	
+4-15	train	O	B-ScrPart_train	webanno.custom.Corefchains_	1-3	
+4-16	.	O	O	_	_	
+
+#id=5
+#text=The process to check my bags was so similar to flying .
+5-1	The	O	O	_	_	
+5-2	process	O	B-NPart	_	_	
+5-3	to	O	O	_	_	
+5-4	check	B-RelNScrEv	O	_	_	
+5-5	my	O	B-ScrPart_passenger	webanno.custom.Corefchains_	4-11	
+5-6	bags	O	B-ScrPart_luggage	webanno.custom.Corefchains_	4-8	
+5-7	was	B-UnrelEv	O	_	_	
+5-8	so	O	O	_	_	
+5-9	similar	O	O	_	_	
+5-10	to	O	O	_	_	
+5-11	flying	B-UnrelEv	O	_	_	
+5-12	.	O	O	_	_	
+
+#id=6
+#text=I packed a small bag to carry with me but I could have packed a larger bag that would be checked .
+6-1	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	5-5	
+6-2	packed	B-RelNScrEv	O	_	_	
+6-3	a	O	O	_	_	
+6-4	small	O	O	_	_	
+6-5	bag	O	B-ScrPart_luggage	webanno.custom.Corefchains_	5-6	
+6-6	to	O	O	_	_	
+6-7	carry	B-RelNScrEv	O	_	_	
+6-8	with	O	O	_	_	
+6-9	me	O	B-ScrPart_passenger	webanno.custom.Corefchains_	6-1	
+6-10	but	O	O	_	_	
+6-11	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	6-9	
+6-12	could	O	O	_	_	
+6-13	have	O	O	_	_	
+6-14	packed	B-RelNScrEv	O	_	_	
+6-15	a	O	O	_	_	
+6-16	larger	O	O	_	_	
+6-17	bag	O	B-ScrPart_luggage	webanno.custom.Corefchains_	6-5	
+6-18	that	O	B-ScrPart_luggage	webanno.custom.Corefchains_	6-17	
+6-19	would	O	O	_	_	
+6-20	be	O	O	_	_	
+6-21	checked	B-RelNScrEv	O	_	_	
+6-22	.	O	O	_	_	
+
+#id=7
+#text=No sharp objects , self defense items , and many other things were not allowed .
+7-1	No	O	O	_	_	
+7-2	sharp	O	O	_	_	
+7-3	objects	O	O	_	_	
+7-4	,	O	O	_	_	
+7-5	self	O	O	_	_	
+7-6	defense	O	O	_	_	
+7-7	items	O	O	_	_	
+7-8	,	O	O	_	_	
+7-9	and	O	O	_	_	
+7-10	many	O	O	_	_	
+7-11	other	O	O	_	_	
+7-12	things	O	O	_	_	
+7-13	were	O	O	_	_	
+7-14	not	O	O	_	_	
+7-15	allowed	B-UnrelEv	O	_	_	
+7-16	.	O	O	_	_	
+
+#id=8
+#text=Seating on my train was first come first serve basis .
+8-1	Seating	B-ScrEv_find_place	O	_	_	
+8-2	on	O	O	_	_	
+8-3	my	O	B-ScrPart_passenger	webanno.custom.Corefchains_	6-11	
+8-4	train	O	B-ScrPart_train	webanno.custom.Corefchains_	4-15	
+8-5	was	B-UnrelEv	O	_	_	
+8-6	first	O	O	_	_	
+8-7	come	B-???	O	_	_	
+8-8	first	O	O	_	_	
+8-9	serve	B-???	O	_	_	
+8-10	basis	O	O	_	_	
+8-11	.	O	O	_	_	
+
+#id=9
+#text=I was told if there was any concerns from passengers , seating could be assigned !
+9-1	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	8-3	
+9-2	was	O	O	_	_	
+9-3	told	B-UnrelEv	O	_	_	
+9-4	if	O	O	_	_	
+9-5	there	O	O	_	_	
+9-6	was	B-UnrelEv	O	_	_	
+9-7	any	O	O	_	_	
+9-8	concerns	O	O	_	_	
+9-9	from	O	O	_	_	
+9-10	passengers	O	B-ScrPart_passenger	coref_group_I_passengers|coref_group_I_passengers	2-14|9-1	
+9-11	,	O	O	_	_	
+9-12	seating	B-ScrEv_find_place	O	_	_	
+9-13	could	O	O	_	_	
+9-14	be	O	O	_	_	
+9-15	assigned	B-RelNScrEv	O	_	_	
+9-16	!	O	O	_	_	
+
+#id=10
+#text=My trip was n't very long so I did n't have a meal but I brought some snacks and a drink with me .
+10-1	My	O	B-ScrPart_passenger	webanno.custom.Corefchains_	9-1	
+10-2	trip	O	O	_	_	
+10-3	was	B-UnrelEv	O	_	_	
+10-4	n't	O	O	_	_	
+10-5	very	O	O	_	_	
+10-6	long	O	O	_	_	
+10-7	so	O	O	_	_	
+10-8	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	10-1	
+10-9	did	O	O	_	_	
+10-10	n't	O	O	_	_	
+10-11	have	B-ScrEv_spend_time_train	O	_	_	
+10-12	a	O	O	_	_	
+10-13	meal	O	B-ScrPart_in-train_entertainment	_	_	
+10-14	but	O	O	_	_	
+10-15	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	10-8	
+10-16	brought	B-RelNScrEv	O	_	_	
+10-17	some	O	O	_	_	
+10-18	snacks	O	B-ScrPart_in-train_entertainment	_	_	
+10-19	and	O	O	_	_	
+10-20	a	O	O	_	_	
+10-21	drink	O	B-ScrPart_in-train_entertainment	_	_	
+10-22	with	O	O	_	_	
+10-23	me	O	B-ScrPart_passenger	webanno.custom.Corefchains_	10-15	
+10-24	.	O	O	_	_	
+
+#id=11
+#text=Before I knew it , I had arrived at my destination .
+11-1	Before	O	O	_	_	
+11-2	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	10-23	
+11-3	knew	B-UnrelEv	O	_	_	
+11-4	it	O	O	_	_	
+11-5	,	O	O	_	_	
+11-6	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	11-2	
+11-7	had	O	O	_	_	
+11-8	arrived	B-ScrEv_arrive_destination	O	_	_	
+11-9	at	O	O	_	_	
+11-10	my	O	B-ScrPart_passenger	webanno.custom.Corefchains_	11-6	
+11-11	destination	O	B-ScrPart_destination	_	_	
+11-12	.	O	O	_	_	
+
+#id=12
+#text=I really like traveling by train . 
+12-1	I	O	B-ScrPart_passenger	webanno.custom.Corefchains_	11-10	
+12-2	really	O	O	_	_	
+12-3	like	B-UnrelEv	O	_	_	
+12-4	traveling	B-Evoking	O	_	_	
+12-5	by	I-Evoking	O	_	_	
+12-6	train	I-Evoking	B-ScrPart_train	webanno.custom.Corefchains_	8-4	
+12-7	.	O	O	_	_	
+

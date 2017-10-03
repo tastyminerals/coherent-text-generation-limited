@@ -1,0 +1,228 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant
+#id=1
+#text=Planting a tree is a very difficult task .
+1-1	Planting	B-Evoking	O	
+1-2	a	I-Evoking	O	
+1-3	tree	I-Evoking	B-ScrPart_tree	
+1-4	is	B-UnrelEv	O	
+1-5	a	O	O	
+1-6	very	O	O	
+1-7	difficult	O	O	
+1-8	task	O	B-NPart	
+1-9	.	O	O	
+
+#id=2
+#text=First , I went to Walmart or another nursery in the area and pick a tree .
+2-1	First	O	O	
+2-2	,	O	O	
+2-3	I	O	B-ScrPart_gardener	
+2-4	went	B-RelNScrEv	O	
+2-5	to	O	O	
+2-6	Walmart	O	B-ScrPart_shop	
+2-7	or	O	O	
+2-8	another	O	O	
+2-9	nursery	O	B-ScrPart_shop	
+2-10	in	O	O	
+2-11	the	O	O	
+2-12	area	O	B-NPart	
+2-13	and	O	O	
+2-14	pick	B-ScrEv_choose_tree	O	
+2-15	a	O	O	
+2-16	tree	O	B-ScrPart_tree	
+2-17	.	O	O	
+
+#id=3
+#text=When I get to Walmart , I asked the cashier for which trees are easiest to take care because I can not take care of plants very well .
+3-1	When	O	O	
+3-2	I	O	B-ScrPart_gardener	
+3-3	get	B-RelNScrEv	O	
+3-4	to	I-RelNScrEv	O	
+3-5	Walmart	O	B-ScrPart_shop	
+3-6	,	O	O	
+3-7	I	O	B-ScrPart_gardener	
+3-8	asked	B-ScrEv_choose_tree	O	
+3-9	the	O	O	
+3-10	cashier	O	B-ScrPart_staff	
+3-11	for	O	O	
+3-12	which	O	O	
+3-13	trees	O	B-ScrPart_tree	
+3-14	are	B-UnrelEv	O	
+3-15	easiest	O	O	
+3-16	to	O	O	
+3-17	take	B-RelNScrEv	O	
+3-18	care	O	B-SuppVComp	
+3-19	because	O	O	
+3-20	I	O	B-ScrPart_gardener	
+3-21	can	O	O	
+3-22	not	O	O	
+3-23	take	B-RelNScrEv	O	
+3-24	care	O	B-SuppVComp	
+3-25	of	O	O	
+3-26	plants	O	B-ScrPart_tree	
+3-27	very	O	O	
+3-28	well	O	O	
+3-29	.	O	O	
+
+#id=4
+#text=Then I figured out whether I want a tree for the sun or shade .
+4-1	Then	O	O	
+4-2	I	O	B-ScrPart_gardener	
+4-3	figured	B-ScrEv_choose_tree	O	
+4-4	out	I-ScrEv_choose_tree	O	
+4-5	whether	O	O	
+4-6	I	O	B-ScrPart_gardener	
+4-7	want	B-UnrelEv	O	
+4-8	a	O	O	
+4-9	tree	O	B-ScrPart_tree	
+4-10	for	O	O	
+4-11	the	O	O	
+4-12	sun	O	B-NPart	
+4-13	or	O	O	
+4-14	shade	O	B-NPart	
+4-15	.	O	O	
+
+#id=5
+#text=When I picked a tree , I took it to the cashier and paid for it .
+5-1	When	O	O	
+5-2	I	O	B-ScrPart_gardener	
+5-3	picked	B-ScrEv_choose_tree	O	
+5-4	a	O	O	
+5-5	tree	O	B-ScrPart_tree	
+5-6	,	O	O	
+5-7	I	O	B-ScrPart_gardener	
+5-8	took	B-ScrEv_get_tree	O	
+5-9	it	O	B-ScrPart_tree	
+5-10	to	O	O	
+5-11	the	O	O	
+5-12	cashier	O	B-ScrPart_staff	
+5-13	and	O	O	
+5-14	paid	B-ScrEv_get_tree	O	
+5-15	for	O	O	
+5-16	it	O	B-ScrPart_tree	
+5-17	.	O	O	
+
+#id=6
+#text=Then I put the tree in the back of my car and went home .
+6-1	Then	O	O	
+6-2	I	O	B-ScrPart_gardener	
+6-3	put	B-ScrEv_take_home	O	
+6-4	the	O	O	
+6-5	tree	O	B-ScrPart_tree	
+6-6	in	O	O	
+6-7	the	O	O	
+6-8	back	O	B-NPart	
+6-9	of	O	O	
+6-10	my	O	B-ScrPart_gardener	
+6-11	car	O	B-NPart	
+6-12	and	O	O	
+6-13	went	B-ScrEv_take_home	O	
+6-14	home	O	B-NPart	
+6-15	.	O	O	
+
+#id=7
+#text=Next , when I got home , I took the tree outside and figured out where I wouldput it in the yard .
+7-1	Next	O	O	
+7-2	,	O	O	
+7-3	when	O	O	
+7-4	I	O	B-ScrPart_gardener	
+7-5	got	B-ScrEv_take_home	O	
+7-6	home	O	B-NPart	
+7-7	,	O	O	
+7-8	I	O	B-ScrPart_gardener	
+7-9	took	B-RelNScrEv	O	
+7-10	the	O	O	
+7-11	tree	O	B-ScrPart_tree	
+7-12	outside	O	O	
+7-13	and	O	O	
+7-14	figured	B-ScrEv_find_place	O	
+7-15	out	I-ScrEv_find_place	O	
+7-16	where	O	O	
+7-17	I	O	B-ScrPart_gardener	
+7-18	wouldput	B-ScrEv_place_root	O	
+7-19	it	O	B-ScrPart_tree	
+7-20	in	O	O	
+7-21	the	O	O	
+7-22	yard	O	B-NPart	
+7-23	.	O	O	
+
+#id=8
+#text=Afterwards , I dug a whole where the tree would go .
+8-1	Afterwards	O	O	
+8-2	,	O	O	
+8-3	I	O	B-ScrPart_gardener	
+8-4	dug	B-ScrEv_dug_hole	O	
+8-5	a	O	O	
+8-6	whole	O	B-ScrPart_hole	
+8-7	where	O	O	
+8-8	the	O	O	
+8-9	tree	O	B-ScrPart_tree	
+8-10	would	O	O	
+8-11	go	B-ScrEv_place_root	O	
+8-12	.	O	O	
+
+#id=9
+#text=The hole was the size of the pot of the tree .
+9-1	The	O	O	
+9-2	hole	O	B-ScrPart_hole	
+9-3	was	B-UnrelEv	O	
+9-4	the	O	O	
+9-5	size	O	B-NPart	
+9-6	of	O	O	
+9-7	the	O	O	
+9-8	pot	O	B-ScrPart_wrapping	
+9-9	of	O	O	
+9-10	the	O	O	
+9-11	tree	O	B-ScrPart_tree	
+9-12	.	O	O	
+
+#id=10
+#text=Then I pulled the tree out of the pot and put the whole thing in the hole I dug .
+10-1	Then	O	O	
+10-2	I	O	B-ScrPart_gardener	
+10-3	pulled	B-ScrEv_unwrap_root	O	
+10-4	the	O	O	
+10-5	tree	O	B-ScrPart_tree	
+10-6	out	O	O	
+10-7	of	O	O	
+10-8	the	O	O	
+10-9	pot	O	B-ScrPart_wrapping	
+10-10	and	O	O	
+10-11	put	B-ScrEv_place_root	O	
+10-12	the	O	O	
+10-13	whole	O	O	
+10-14	thing	O	B-ScrPart_tree	
+10-15	in	O	O	
+10-16	the	O	O	
+10-17	hole	O	B-ScrPart_hole	
+10-18	I	O	B-ScrPart_gardener	
+10-19	dug	B-ScrEv_dug_hole	O	
+10-20	.	O	O	
+
+#id=11
+#text=Then , I covered the sides with more dirt and put some fertilizer and water around the tree so it set in the ground . 
+11-1	Then	O	O	
+11-2	,	O	O	
+11-3	I	O	B-ScrPart_gardener	
+11-4	covered	B-ScrEv_refill_hole	O	
+11-5	the	O	O	
+11-6	sides	O	B-ScrPart_hole	
+11-7	with	O	O	
+11-8	more	O	O	
+11-9	dirt	O	B-ScrPart_dirt	
+11-10	and	O	O	
+11-11	put	B-ScrEv_place_fertilizers	O	
+11-12	some	O	O	
+11-13	fertilizer	O	B-ScrPart_fertilizer	
+11-14	and	O	O	
+11-15	water	O	B-ScrPart_water	
+11-16	around	O	O	
+11-17	the	O	O	
+11-18	tree	O	B-ScrPart_tree	
+11-19	so	O	O	
+11-20	it	O	B-ScrPart_tree	
+11-21	set	B-RelNScrEv	O	
+11-22	in	O	O	
+11-23	the	O	O	
+11-24	ground	O	B-ScrPart_dirt	
+11-25	.	O	O	
+

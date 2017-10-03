@@ -1,0 +1,207 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=It 's spring time so I decided to plant a tree .
+1-1	It	B-No_label	O	
+1-2	's	O	B-UnrelEv	
+1-3	spring	B-ScrPart_time	O	
+1-4	time	I-ScrPart_time|B-ScrPart_time	O	
+1-5	so	O	O	
+1-6	I	B-ScrPart_gardener	O	
+1-7	decided	O	B-UnrelEv	
+1-8	to	O	O	
+1-9	plant	O	B-Evoking	
+1-10	a	O	I-Evoking	
+1-11	tree	B-ScrPart_tree	I-Evoking	
+1-12	.	O	O	
+
+#id=2
+#text=I purchased a small orange tree to go in the back yard .
+2-1	I	B-ScrPart_gardener	O	
+2-2	purchased	O	B-ScrEv_get_tree	
+2-3	a	O	O	
+2-4	small	O	O	
+2-5	orange	B-ScrPart_tree	O	
+2-6	tree	I-ScrPart_tree|B-ScrPart_tree	O	
+2-7	to	O	O	
+2-8	go	O	B-???	
+2-9	in	O	O	
+2-10	the	O	O	
+2-11	back	B-ScrPart_location_garden	O	
+2-12	yard	I-ScrPart_location_garden|B-ScrPart_location_garden	O	
+2-13	.	O	O	
+
+#id=3
+#text=First I dug a hole where I wanted the tree .
+3-1	First	O	O	
+3-2	I	B-ScrPart_gardener	O	
+3-3	dug	O	B-ScrEv_dug_hole	
+3-4	a	O	O	
+3-5	hole	B-ScrPart_hole	O	
+3-6	where	O	O	
+3-7	I	B-ScrPart_gardener	O	
+3-8	wanted	O	B-ScrEv_find_place	
+3-9	the	O	O	
+3-10	tree	B-ScrPart_tree	O	
+3-11	.	O	O	
+
+#id=4
+#text=Then I shook the roots of the tree to loosen them .
+4-1	Then	O	O	
+4-2	I	B-ScrPart_gardener	O	
+4-3	shook	O	B-ScrEv_unwrap_root	
+4-4	the	O	O	
+4-5	roots	B-ScrPart_root	O	
+4-6	of	O	O	
+4-7	the	O	O	
+4-8	tree	B-ScrPart_tree	O	
+4-9	to	O	O	
+4-10	loosen	O	B-ScrEv_unwrap_root	
+4-11	them	B-ScrPart_root	O	
+4-12	.	O	O	
+
+#id=5
+#text=Then I placed the tree in the hole .
+5-1	Then	O	O	
+5-2	I	B-ScrPart_gardener	O	
+5-3	placed	O	B-ScrEv_place_root	
+5-4	the	O	O	
+5-5	tree	B-ScrPart_tree	O	
+5-6	in	O	O	
+5-7	the	O	O	
+5-8	hole	B-ScrPart_hole	O	
+5-9	.	O	O	
+
+#id=6
+#text=I used a shovel to replace the dirt back over the tree roots .
+6-1	I	B-ScrPart_gardener	O	
+6-2	used	O	B-UnrelEv	
+6-3	a	O	O	
+6-4	shovel	B-ScrPart_gardening_tool	O	
+6-5	to	O	O	
+6-6	replace	O	B-ScrEv_refill_hole	
+6-7	the	O	O	
+6-8	dirt	B-ScrPart_dirt	O	
+6-9	back	O	O	
+6-10	over	O	O	
+6-11	the	O	O	
+6-12	tree	B-ScrPart_root	O	
+6-13	roots	I-ScrPart_root|B-ScrPart_root	O	
+6-14	.	O	O	
+
+#id=7
+#text=Once satisfied the tree was firmly in the ground i dragged over the hose .
+7-1	Once	O	O	
+7-2	satisfied	O	B-UnrelEv	
+7-3	the	O	O	
+7-4	tree	B-ScrPart_tree	O	
+7-5	was	O	B-UnrelEv	
+7-6	firmly	O	O	
+7-7	in	O	O	
+7-8	the	O	O	
+7-9	ground	B-ScrPart_dirt	O	
+7-10	i	B-ScrPart_gardener	O	
+7-11	dragged	O	B-ScrEv_get_tools	
+7-12	over	O	I-ScrEv_get_tools	
+7-13	the	O	O	
+7-14	hose	B-ScrPart_gardening_tool	O	
+7-15	.	O	O	
+
+#id=8
+#text=New trees needs lots of water .
+8-1	New	O	O	
+8-2	trees	B-ScrPart_tree	O	
+8-3	needs	O	B-ScrEv_water	
+8-4	lots	B-Head_of_Partitive	O	
+8-5	of	O	O	
+8-6	water	B-ScrPart_water	O	
+8-7	.	O	O	
+
+#id=9
+#text=I watered the tree until I was satisfied and then put mulch around the base .
+9-1	I	B-ScrPart_gardener	O	
+9-2	watered	O	B-ScrEv_water	
+9-3	the	O	O	
+9-4	tree	B-ScrPart_tree	O	
+9-5	until	O	O	
+9-6	I	B-ScrPart_gardener	O	
+9-7	was	O	O	
+9-8	satisfied	O	B-UnrelEv	
+9-9	and	O	O	
+9-10	then	O	O	
+9-11	put	O	B-ScrEv_place_fertilizers	
+9-12	mulch	B-ScrPart_fertilizer	O	
+9-13	around	O	O	
+9-14	the	O	O	
+9-15	base	B-NPart	O	
+9-16	.	O	O	
+
+#id=10
+#text=I also attached ropes to secure the young tree so it would n't fall over while it 's roots were still settling in .
+10-1	I	B-ScrPart_gardener	O	
+10-2	also	O	O	
+10-3	attached	O	B-ScrEv_tie_stakes_up	
+10-4	ropes	B-ScrPart_stake	O	
+10-5	to	O	O	
+10-6	secure	O	B-ScrEv_tie_stakes_up	
+10-7	the	O	O	
+10-8	young	O	O	
+10-9	tree	B-ScrPart_tree	O	
+10-10	so	O	O	
+10-11	it	B-ScrPart_tree	O	
+10-12	would	O	O	
+10-13	n't	O	O	
+10-14	fall	O	B-RelNScrEv	
+10-15	over	O	I-RelNScrEv	
+10-16	while	O	O	
+10-17	it	B-ScrPart_tree	O	
+10-18	's	I-ScrPart_tree	O	
+10-19	roots	B-ScrPart_root	O	
+10-20	were	O	O	
+10-21	still	O	O	
+10-22	settling	O	B-RelNScrEv	
+10-23	in	O	I-RelNScrEv	
+10-24	.	O	O	
+
+#id=11
+#text=I also had a canval funnel installed to make sure water went right into the roots where it was need most .
+11-1	I	B-ScrPart_gardener	O	
+11-2	also	O	O	
+11-3	had	O	B-UnrelEv	
+11-4	a	O	O	
+11-5	canval	B-???	O	
+11-6	funnel	I-???|B-???	O	
+11-7	installed	O	B-RelNScrEv	
+11-8	to	O	O	
+11-9	make	O	B-UnrelEv	
+11-10	sure	O	I-UnrelEv	
+11-11	water	B-ScrPart_water	O	
+11-12	went	O	B-ScrEv_water	
+11-13	right	O	O	
+11-14	into	O	O	
+11-15	the	O	O	
+11-16	roots	B-ScrPart_root	O	
+11-17	where	O	O	
+11-18	it	B-ScrPart_water	O	
+11-19	was	O	O	
+11-20	need	O	B-RelNScrEv	
+11-21	most	O	O	
+11-22	.	O	O	
+
+#id=12
+#text=Once all was said and done i stepped back to admire my handy work . 
+12-1	Once	O	O	
+12-2	all	O	O	
+12-3	was	O	O	
+12-4	said	O	B-UnrelEv	
+12-5	and	O	O	
+12-6	done	O	B-UnrelEv	
+12-7	i	B-ScrPart_gardener	O	
+12-8	stepped	O	B-UnrelEv	
+12-9	back	O	I-UnrelEv	
+12-10	to	O	O	
+12-11	admire	O	B-UnrelEv	
+12-12	my	B-ScrPart_gardener	O	
+12-13	handy	O	O	
+12-14	work	B-NPart	O	
+12-15	.	O	O	
+

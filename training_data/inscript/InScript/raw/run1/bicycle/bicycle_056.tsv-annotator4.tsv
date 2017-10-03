@@ -1,0 +1,227 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I was riding by bicycle along the river trail this morning when I noticed that something did n't seem right .
+1-1	I	B-ScrPart_rider	O	_	_	
+1-2	was	O	O	_	_	
+1-3	riding	O	B-ScrEv_ride_bike	_	_	
+1-4	by	O	O	_	_	
+1-5	bicycle	B-ScrPart_bicycle	O	_	_	
+1-6	along	O	O	_	_	
+1-7	the	O	O	_	_	
+1-8	river	O	O	_	_	
+1-9	trail	O	O	_	_	
+1-10	this	O	O	_	_	
+1-11	morning	O	O	_	_	
+1-12	when	O	O	_	_	
+1-13	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-1	
+1-14	noticed	O	B-ScrEv_notice_problem	_	_	
+1-15	that	O	O	_	_	
+1-16	something	O	O	_	_	
+1-17	did	O	O	_	_	
+1-18	n't	O	O	_	_	
+1-19	seem	O	B-UnrelEv	_	_	
+1-20	right	O	O	_	_	
+1-21	.	O	O	_	_	
+
+#id=2
+#text=My front tire was n't as firm as it usually is , and the situation was getting worse .
+2-1	My	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-13	
+2-2	front	O	O	_	_	
+2-3	tire	B-ScrPart_tire	O	_	_	
+2-4	was	O	B-UnrelEv	_	_	
+2-5	n't	O	O	_	_	
+2-6	as	O	O	_	_	
+2-7	firm	O	O	_	_	
+2-8	as	O	O	_	_	
+2-9	it	B-ScrPart_tire	O	webanno.custom.Corefchains_	2-3	
+2-10	usually	O	O	_	_	
+2-11	is	O	B-UnrelEv	_	_	
+2-12	,	O	O	_	_	
+2-13	and	O	O	_	_	
+2-14	the	O	O	_	_	
+2-15	situation	O	O	_	_	
+2-16	was	O	O	_	_	
+2-17	getting	O	B-UnrelEv	_	_	
+2-18	worse	O	O	_	_	
+2-19	.	O	O	_	_	
+
+#id=3
+#text=I stopped pedaling , got off the bike , and put my ear to the tire .
+3-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-1	
+3-2	stopped	O	B-RelNScrEv	_	_	
+3-3	pedaling	O	B-ScrEv_ride_bike	_	_	
+3-4	,	O	O	_	_	
+3-5	got	O	B-ScrEv_get_off	_	_	
+3-6	off	O	I-ScrEv_get_off	_	_	
+3-7	the	O	O	_	_	
+3-8	bike	B-ScrPart_bicycle	O	webanno.custom.Corefchains_	1-5	
+3-9	,	O	O	_	_	
+3-10	and	O	O	_	_	
+3-11	put	O	B-ScrEv_examine_tire	_	_	
+3-12	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	3-1	
+3-13	ear	B-NPart	O	_	_	
+3-14	to	O	O	_	_	
+3-15	the	O	O	_	_	
+3-16	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	2-9	
+3-17	.	O	O	_	_	
+
+#id=4
+#text=I could hear a faint hissing sound .
+4-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	3-12	
+4-2	could	O	O	_	_	
+4-3	hear	O	B-ScrEv_examine_tire	_	_	
+4-4	a	O	O	_	_	
+4-5	faint	O	O	_	_	
+4-6	hissing	O	B-RelNScrEv	_	_	
+4-7	sound	B-NPart	O	_	_	
+4-8	.	O	O	_	_	
+
+#id=5
+#text=The tire was flat .
+5-1	The	O	O	_	_	
+5-2	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	3-16	
+5-3	was	O	B-RelNScrEv	_	_	
+5-4	flat	O	O	_	_	
+5-5	.	O	O	_	_	
+
+#id=6
+#text=Darn , I thought to myself .
+6-1	Darn	O	O	_	_	
+6-2	,	O	O	_	_	
+6-3	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	4-1	
+6-4	thought	O	B-UnrelEv	_	_	
+6-5	to	O	O	_	_	
+6-6	myself	B-ScrPart_rider	O	webanno.custom.Corefchains_	6-3	
+6-7	.	O	O	_	_	
+
+#id=7
+#text=I was miles from home -- too far to walk back , and nowhere near a repair shop .
+7-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	6-6	
+7-2	was	O	B-UnrelEv	_	_	
+7-3	miles	O	O	_	_	
+7-4	from	O	O	_	_	
+7-5	home	O	O	_	_	
+7-6	--	O	O	_	_	
+7-7	too	O	O	_	_	
+7-8	far	O	O	_	_	
+7-9	to	O	O	_	_	
+7-10	walk	O	B-RelNScrEv	_	_	
+7-11	back	O	O	_	_	
+7-12	,	O	O	_	_	
+7-13	and	O	O	_	_	
+7-14	nowhere	O	O	_	_	
+7-15	near	O	O	_	_	
+7-16	a	O	O	_	_	
+7-17	repair	B-ScrPart_shop	O	_	_	
+7-18	shop	I-ScrPart_shop|B-ScrPart_shop	O	_	_	
+7-19	.	O	O	_	_	
+
+#id=8
+#text=Fortunately , I keep a patch kit that I bought at the local bike shop in my backpack .
+8-1	Fortunately	O	O	_	_	
+8-2	,	O	O	_	_	
+8-3	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	7-1	
+8-4	keep	O	B-ScrEv_get_tools	_	_	
+8-5	a	O	O	_	_	
+8-6	patch	B-ScrPart_tool	O	_	_	
+8-7	kit	I-ScrPart_tool|B-ScrPart_tool	O	_	_	
+8-8	that	B-ScrPart_tool	O	webanno.custom.Corefchains_	8-7	
+8-9	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	8-3	
+8-10	bought	O	B-ScrEv_get_tools	_	_	
+8-11	at	O	O	_	_	
+8-12	the	O	O	_	_	
+8-13	local	O	O	_	_	
+8-14	bike	B-ScrPart_shop	O	_	_	
+8-15	shop	I-ScrPart_shop|B-ScrPart_shop	O	webanno.custom.Corefchains_	7-18	
+8-16	in	O	O	_	_	
+8-17	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	8-9	
+8-18	backpack	O	O	_	_	
+8-19	.	O	O	_	_	
+
+#id=9
+#text=I took the backpack off , rummaged around inside for the repair kit , and grabbed it .
+9-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	8-17	
+9-2	took	O	B-RelNScrEv	_	_	
+9-3	the	O	O	_	_	
+9-4	backpack	B-NPart	O	_	_	
+9-5	off	O	O	_	_	
+9-6	,	O	O	_	_	
+9-7	rummaged	O	B-RelNScrEv	_	_	
+9-8	around	O	O	_	_	
+9-9	inside	O	O	_	_	
+9-10	for	O	O	_	_	
+9-11	the	O	O	_	_	
+9-12	repair	B-ScrPart_tool	O	_	_	
+9-13	kit	I-ScrPart_tool|B-ScrPart_tool	O	webanno.custom.Corefchains_	8-8	
+9-14	,	O	O	_	_	
+9-15	and	O	O	_	_	
+9-16	grabbed	O	B-ScrEv_get_tools	_	_	
+9-17	it	B-ScrPart_tool	O	webanno.custom.Corefchains_	9-13	
+9-18	.	O	O	_	_	
+
+#id=10
+#text=It had been a year since I last used it , but I got the hang of it .
+10-1	It	O	O	_	_	
+10-2	had	O	O	_	_	
+10-3	been	O	B-UnrelEv	_	_	
+10-4	a	O	O	_	_	
+10-5	year	O	O	_	_	
+10-6	since	O	O	_	_	
+10-7	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	9-1	
+10-8	last	O	O	_	_	
+10-9	used	O	B-RelNScrEv	_	_	
+10-10	it	B-ScrPart_tool	O	webanno.custom.Corefchains_	9-17	
+10-11	,	O	O	_	_	
+10-12	but	O	O	_	_	
+10-13	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	10-7	
+10-14	got	O	B-UnrelEv	_	_	
+10-15	the	O	O	_	_	
+10-16	hang	O	O	_	_	
+10-17	of	O	O	_	_	
+10-18	it	O	O	_	_	
+10-19	.	O	O	_	_	
+
+#id=11
+#text=I found the exact spot of the hole in the tire , patched it , and then re-inflated the tire .
+11-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	10-13	
+11-2	found	O	B-ScrEv_examine_tire	_	_	
+11-3	the	O	O	_	_	
+11-4	exact	O	O	_	_	
+11-5	spot	B-NPart	O	_	_	
+11-6	of	O	O	_	_	
+11-7	the	O	O	_	_	
+11-8	hole	B-MissScrPart	O	_	_	
+11-9	in	O	O	_	_	
+11-10	the	O	O	_	_	
+11-11	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	5-2	
+11-12	,	O	O	_	_	
+11-13	patched	O	B-ScrEv_put_patch/seal	_	_	
+11-14	it	B-MissScrPart	O	webanno.custom.Corefchains_	11-8	
+11-15	,	O	O	_	_	
+11-16	and	O	O	_	_	
+11-17	then	O	O	_	_	
+11-18	re-inflated	O	B-ScrEv_refill_tire_air	_	_	
+11-19	the	O	O	_	_	
+11-20	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	11-11	
+11-21	.	O	O	_	_	
+
+#id=12
+#text=My hands were dirty , but I was able to ride home without any further trouble . 
+12-1	My	B-ScrPart_rider	O	webanno.custom.Corefchains_	11-1	
+12-2	hands	O	O	_	_	
+12-3	were	O	B-UnrelEv	_	_	
+12-4	dirty	O	O	_	_	
+12-5	,	O	O	_	_	
+12-6	but	O	O	_	_	
+12-7	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	12-1	
+12-8	was	O	B-UnrelEv	_	_	
+12-9	able	O	O	_	_	
+12-10	to	O	O	_	_	
+12-11	ride	O	B-ScrEv_ride_bike	_	_	
+12-12	home	B-NPart	O	_	_	
+12-13	without	O	O	_	_	
+12-14	any	O	O	_	_	
+12-15	further	O	O	_	_	
+12-16	trouble	O	O	_	_	
+12-17	.	O	O	_	_	
+

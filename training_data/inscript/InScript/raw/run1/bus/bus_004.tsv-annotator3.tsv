@@ -1,0 +1,278 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Eventsandparticipants | Event # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=My husband and I decided we 'd go down to owning just one car in the fall of 2013 .
+1-1	My	O	O	_	_	
+1-2	husband	O	O	_	_	
+1-3	and	O	O	_	_	
+1-4	I	B-ScrPart_passenger	O	_	_	
+1-5	decided	O	B-UnrelEv	_	_	
+1-6	we	O	O	_	_	
+1-7	'd	O	O	_	_	
+1-8	go	O	B-UnrelEv|B-UnrelEv	_	_	
+1-9	down	O	I-UnrelEv	_	_	
+1-10	to	O	O	_	_	
+1-11	owning	O	B-UnrelEv	_	_	
+1-12	just	O	O	_	_	
+1-13	one	O	O	_	_	
+1-14	car	O	O	_	_	
+1-15	in	O	O	_	_	
+1-16	the	O	O	_	_	
+1-17	fall	O	O	_	_	
+1-18	of	O	O	_	_	
+1-19	2013	O	O	_	_	
+1-20	.	O	O	_	_	
+
+#id=2
+#text=I was not going to be working away from home during 2014 so we thought we could share and most of the time that went pretty well , but there were times when I had to take the bus .
+2-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-4	
+2-2	was	O	O	_	_	
+2-3	not	O	O	_	_	
+2-4	going	O	O	_	_	
+2-5	to	O	O	_	_	
+2-6	be	O	O	_	_	
+2-7	working	O	B-UnrelEv	_	_	
+2-8	away	O	O	_	_	
+2-9	from	O	O	_	_	
+2-10	home	O	O	_	_	
+2-11	during	O	O	_	_	
+2-12	2014	O	O	_	_	
+2-13	so	O	O	_	_	
+2-14	we	O	O	_	_	
+2-15	thought	O	B-UnrelEv	_	_	
+2-16	we	O	O	_	_	
+2-17	could	O	O	_	_	
+2-18	share	O	B-UnrelEv	_	_	
+2-19	and	O	O	_	_	
+2-20	most	O	O	_	_	
+2-21	of	O	O	_	_	
+2-22	the	O	O	_	_	
+2-23	time	O	O	_	_	
+2-24	that	O	O	_	_	
+2-25	went	O	B-UnrelEv	_	_	
+2-26	pretty	O	O	_	_	
+2-27	well	O	O	_	_	
+2-28	,	O	O	_	_	
+2-29	but	O	O	_	_	
+2-30	there	O	O	_	_	
+2-31	were	O	B-UnrelEv	_	_	
+2-32	times	O	O	_	_	
+2-33	when	O	O	_	_	
+2-34	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-1	
+2-35	had	O	O	_	_	
+2-36	to	O	O	_	_	
+2-37	take	O	B-Evoking	_	_	
+2-38	the	O	I-Evoking	_	_	
+2-39	bus	B-ScrPart_bus	I-Evoking	_	_	
+2-40	.	O	O	_	_	
+
+#id=3
+#text=I knew I needed to get from a final day of teaching , for example , at the university to downtown to meet up with my husband .
+3-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-34	
+3-2	knew	O	B-UnrelEv	_	_	
+3-3	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-1	
+3-4	needed	O	O	_	_	
+3-5	to	O	O	_	_	
+3-6	get	O	B-UnrelEv	_	_	
+3-7	from	O	O	_	_	
+3-8	a	O	O	_	_	
+3-9	final	O	O	_	_	
+3-10	day	O	O	_	_	
+3-11	of	O	O	_	_	
+3-12	teaching	O	O	_	_	
+3-13	,	O	O	_	_	
+3-14	for	O	O	_	_	
+3-15	example	O	O	_	_	
+3-16	,	O	O	_	_	
+3-17	at	O	O	_	_	
+3-18	the	O	O	_	_	
+3-19	university	O	O	_	_	
+3-20	to	O	O	_	_	
+3-21	downtown	O	O	_	_	
+3-22	to	O	O	_	_	
+3-23	meet	O	B-UnrelEv|B-UnrelEv	_	_	
+3-24	up	O	I-UnrelEv	_	_	
+3-25	with	O	O	_	_	
+3-26	my	O	O	_	_	
+3-27	husband	O	O	_	_	
+3-28	.	O	O	_	_	
+
+#id=4
+#text=I checked the bus schedules online and determined I needed to take the number 7 bus .
+4-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-3	
+4-2	checked	O	B-MissScrEv	_	_	
+4-3	the	O	O	_	_	
+4-4	bus	B-ScrPart_time-table	O	_	_	
+4-5	schedules	I-ScrPart_time-table|B-ScrPart_time-table	O	_	_	
+4-6	online	O	O	_	_	
+4-7	and	O	O	_	_	
+4-8	determined	O	B-UnrelEv	_	_	
+4-9	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-1	
+4-10	needed	O	O	_	_	
+4-11	to	O	O	_	_	
+4-12	take	O	B-Evoking	_	_	
+4-13	the	O	I-Evoking	_	_	
+4-14	number	B-ScrPart_bus	I-Evoking	_	_	
+4-15	7	I-ScrPart_bus	I-Evoking	_	_	
+4-16	bus	I-ScrPart_bus|B-ScrPart_bus	I-Evoking	webanno.custom.Corefchains_	2-39	
+4-17	.	O	O	_	_	
+
+#id=5
+#text=I plotted this out on my phone as well so I 'd know the time for sure .
+5-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-9	
+5-2	plotted	O	B-MissScrEv	_	_	
+5-3	this	O	O	_	_	
+5-4	out	O	O	_	_	
+5-5	on	O	O	_	_	
+5-6	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-1	
+5-7	phone	B-NPart	O	_	_	
+5-8	as	O	O	_	_	
+5-9	well	O	O	_	_	
+5-10	so	O	O	_	_	
+5-11	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-6	
+5-12	'd	O	O	_	_	
+5-13	know	O	B-UnrelEv	_	_	
+5-14	the	O	O	_	_	
+5-15	time	O	O	_	_	
+5-16	for	O	O	_	_	
+5-17	sure	O	O	_	_	
+5-18	.	O	O	_	_	
+
+#id=6
+#text=I walked across campus and waited at the stop .
+6-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-11	
+6-2	walked	O	B-ScrEv_get_bus_stop|B-ScrEv_get_bus_stop	_	_	
+6-3	across	O	I-ScrEv_get_bus_stop	_	_	
+6-4	campus	B-NPart	O	_	_	
+6-5	and	O	O	_	_	
+6-6	waited	O	B-ScrEv_wait	_	_	
+6-7	at	O	O	_	_	
+6-8	the	O	O	_	_	
+6-9	stop	B-ScrPart_bus_stop	O	_	_	
+6-10	.	O	O	_	_	
+
+#id=7
+#text=I had to wait about 10 minutes before the bus came .
+7-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-1	
+7-2	had	O	O	_	_	
+7-3	to	O	O	_	_	
+7-4	wait	O	B-ScrEv_wait	_	_	
+7-5	about	O	O	_	_	
+7-6	10	O	O	_	_	
+7-7	minutes	B-ScrPart_time/date	O	_	_	
+7-8	before	O	O	_	_	
+7-9	the	O	O	_	_	
+7-10	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	4-16	
+7-11	came	O	B-ScrEv_bus_comes	_	_	
+7-12	.	O	O	_	_	
+
+#id=8
+#text=Since this was just one trip I had cash that I put into the bus meter and found a seat .
+8-1	Since	O	O	_	_	
+8-2	this	O	O	_	_	
+8-3	was	O	B-UnrelEv	_	_	
+8-4	just	O	O	_	_	
+8-5	one	O	O	_	_	
+8-6	trip	O	O	_	_	
+8-7	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-1	
+8-8	had	O	B-UnrelEv	_	_	
+8-9	cash	B-ScrPart_money	O	_	_	
+8-10	that	O	O	_	_	
+8-11	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-7	
+8-12	put	O	B-ScrEv_get_ticket	_	_	
+8-13	into	O	O	_	_	
+8-14	the	O	O	_	_	
+8-15	bus	B-ScrPart_payment_machine	O	_	_	
+8-16	meter	I-ScrPart_payment_machine|B-ScrPart_payment_machine	O	_	_	
+8-17	and	O	O	_	_	
+8-18	found	O	B-ScrEv_find_place	_	_	
+8-19	a	O	O	_	_	
+8-20	seat	B-ScrPart_seat_in_bus	O	_	_	
+8-21	.	O	O	_	_	
+
+#id=9
+#text=The bus made a lot of stops on its way to downtown and I did n't take it as far as I could have to meet up with my husband .
+9-1	The	O	O	_	_	
+9-2	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	7-10	
+9-3	made	O	B-ScrEv_bus_stops	_	_	
+9-4	a	O	O	_	_	
+9-5	lot	O	O	_	_	
+9-6	of	O	O	_	_	
+9-7	stops	B-MissScrPart	O	_	_	
+9-8	on	O	O	_	_	
+9-9	its	B-ScrPart_bus	O	webanno.custom.Corefchains_	9-2	
+9-10	way	B-MissScrPart	O	_	_	
+9-11	to	O	O	_	_	
+9-12	downtown	B-NPart	O	_	_	
+9-13	and	O	O	_	_	
+9-14	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-11	
+9-15	did	O	O	_	_	
+9-16	n't	O	O	_	_	
+9-17	take	O	B-RelNScrEv	_	_	
+9-18	it	B-ScrPart_bus	O	webanno.custom.Corefchains_	9-9	
+9-19	as	O	O	_	_	
+9-20	far	O	O	_	_	
+9-21	as	O	O	_	_	
+9-22	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-14	
+9-23	could	O	O	_	_	
+9-24	have	O	O	_	_	
+9-25	to	O	O	_	_	
+9-26	meet	O	B-UnrelEv|B-UnrelEv	_	_	
+9-27	up	O	I-UnrelEv	_	_	
+9-28	with	O	O	_	_	
+9-29	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-22	
+9-30	husband	O	O	_	_	
+9-31	.	O	O	_	_	
+
+#id=10
+#text=Instead I got off at an earlier stop once I recognized the area and walked .
+10-1	Instead	O	O	_	_	
+10-2	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-29	
+10-3	got	O	B-ScrEv_get_off|B-ScrEv_get_off	_	_	
+10-4	off	O	I-ScrEv_get_off	_	_	
+10-5	at	O	O	_	_	
+10-6	an	O	O	_	_	
+10-7	earlier	O	O	_	_	
+10-8	stop	B-ScrPart_bus_stop	O	_	_	
+10-9	once	O	O	_	_	
+10-10	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-2	
+10-11	recognized	O	B-UnrelEv	_	_	
+10-12	the	O	O	_	_	
+10-13	area	O	O	_	_	
+10-14	and	O	O	_	_	
+10-15	walked	O	B-UnrelEv	_	_	
+10-16	.	O	O	_	_	
+
+#id=11
+#text=It was a regular stop so I did n't have to pull the cord to ask the driver to let me off . ''
+11-1	It	O	O	_	_	
+11-2	was	O	B-UnrelEv	_	_	
+11-3	a	O	O	_	_	
+11-4	regular	O	O	_	_	
+11-5	stop	B-ScrPart_bus_stop	O	webanno.custom.Corefchains_	10-8	
+11-6	so	O	O	_	_	
+11-7	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-10	
+11-8	did	O	O	_	_	
+11-9	n't	O	O	_	_	
+11-10	have	O	O	_	_	
+11-11	to	O	O	_	_	
+11-12	pull	O	B-RelNScrEv	_	_	
+11-13	the	O	O	_	_	
+11-14	cord	B-ScrPart_stop_button/door_opener	O	_	_	
+11-15	to	O	O	_	_	
+11-16	ask	O	B-UnrelEv	_	_	
+11-17	the	O	O	_	_	
+11-18	driver	B-ScrPart_bus_staff	O	_	_	
+11-19	to	O	O	_	_	
+11-20	let	O	B-RelNScrEv	_	_	
+11-21	me	B-ScrPart_passenger	O	webanno.custom.Corefchains_	11-7	
+11-22	off	O	O	_	_	
+11-23	.	O	O	_	_	
+11-24	''	O	O	_	_	
+
+#id=12
+#text=, True story : 
+12-1	,	O	O	_	_	
+12-2	True	O	O	_	_	
+12-3	story	O	O	_	_	
+12-4	:	O	O	_	_	
+

@@ -1,0 +1,210 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events
+#id=1
+#text=As a child , I loved taking baths .
+1-1	As	O	O	O	
+1-2	a	O	O	O	
+1-3	child	B-NPart	B-webanno.custom.Participants_	O	
+1-4	,	O	O	O	
+1-5	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+1-6	loved	O	O	B-UnrelEv	
+1-7	taking	O	O	B-Evoking	
+1-8	baths	B-SuppVComp	B-webanno.custom.Participants_	I-Evoking	
+1-9	.	O	O	O	
+
+#id=2
+#text=My mother always had to fill the tub for me so that the water would not be too hot or too cold .
+2-1	My	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+2-2	mother	B-NPart	B-webanno.custom.Participants_	O	
+2-3	always	O	O	O	
+2-4	had	O	O	O	
+2-5	to	O	O	O	
+2-6	fill	O	O	B-ScrEv_fill_water/wait	
+2-7	the	O	O	O	
+2-8	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	
+2-9	for	O	O	O	
+2-10	me	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+2-11	so	O	O	O	
+2-12	that	O	O	O	
+2-13	the	O	O	O	
+2-14	water	B-ScrPart_water	B-webanno.custom.Participants_	O	
+2-15	would	O	O	O	
+2-16	not	O	O	O	
+2-17	be	O	O	B-UnrelEv	
+2-18	too	O	O	O	
+2-19	hot	O	O	O	
+2-20	or	O	O	O	
+2-21	too	O	O	O	
+2-22	cold	O	O	O	
+2-23	.	O	O	O	
+
+#id=3
+#text=I 'd say that the ideal temperature for the water was about 90 degrees .
+3-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+3-2	'd	O	O	O	
+3-3	say	O	O	B-UnrelEv	
+3-4	that	O	O	O	
+3-5	the	O	O	O	
+3-6	ideal	O	O	O	
+3-7	temperature	B-ScrPart_temperature	B-webanno.custom.Participants_	O	
+3-8	for	O	O	O	
+3-9	the	O	O	O	
+3-10	water	B-ScrPart_water	B-webanno.custom.Participants_	O	
+3-11	was	O	O	B-ScrEv_check_temp	
+3-12	about	O	O	O	
+3-13	90	B-ScrPart_temperature	B-webanno.custom.Participants_	O	
+3-14	degrees	I-ScrPart_temperature	I-webanno.custom.Participants_	O	
+3-15	.	O	O	O	
+
+#id=4
+#text=My favorite part of taking a bath was the bubbles .
+4-1	My	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+4-2	favorite	O	O	O	
+4-3	part	B-No_label	B-webanno.custom.Participants_	O	
+4-4	of	O	O	O	
+4-5	taking	O	O	B-Evoking	
+4-6	a	O	O	I-Evoking	
+4-7	bath	B-SuppVComp	B-webanno.custom.Participants_	I-Evoking	
+4-8	was	O	O	B-UnrelEv	
+4-9	the	O	O	O	
+4-10	bubbles	B-ScrPart_bath_means	B-webanno.custom.Participants_	O	
+4-11	.	O	O	O	
+
+#id=5
+#text=I loved to splash around the tub and play with the bubbles .
+5-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+5-2	loved	O	O	B-UnrelEv	
+5-3	to	O	O	O	
+5-4	splash	O	O	B-RelNScrEv	
+5-5	around	O	O	O	
+5-6	the	O	O	O	
+5-7	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	
+5-8	and	O	O	O	
+5-9	play	O	O	B-RelNScrEv	
+5-10	with	O	O	O	
+5-11	the	O	O	O	
+5-12	bubbles	B-ScrPart_bath_means	B-webanno.custom.Participants_	O	
+5-13	.	O	O	O	
+
+#id=6
+#text=Once I sat in the tub , I used shampoo to wash my hair and a washed my body with a soapy washcloth .
+6-1	Once	O	O	O	
+6-2	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+6-3	sat	O	O	B-ScrEv_sink_water	
+6-4	in	O	O	O	
+6-5	the	O	O	O	
+6-6	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	
+6-7	,	O	O	O	
+6-8	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+6-9	used	O	O	B-UnrelEv	
+6-10	shampoo	B-ScrPart_washing_tools	B-webanno.custom.Participants_	O	
+6-11	to	O	O	O	
+6-12	wash	O	O	B-ScrEv_wash	
+6-13	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+6-14	hair	B-ScrPart_hair	B-webanno.custom.Participants_	O	
+6-15	and	O	O	O	
+6-16	a	O	O	O	
+6-17	washed	O	O	B-ScrEv_wash	
+6-18	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+6-19	body	B-ScrPart_body_part	B-webanno.custom.Participants_	O	
+6-20	with	O	O	O	
+6-21	a	O	O	O	
+6-22	soapy	O	O	O	
+6-23	washcloth	B-ScrPart_washing_tools	B-webanno.custom.Participants_	O	
+6-24	.	O	O	O	
+
+#id=7
+#text=I made sure to wash behind my ears and on my face as well .
+7-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+7-2	made	O	O	B-UnrelEv	
+7-3	sure	O	O	I-UnrelEv	
+7-4	to	O	O	O	
+7-5	wash	O	O	B-ScrEv_wash	
+7-6	behind	O	O	O	
+7-7	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+7-8	ears	B-ScrPart_body_part	B-webanno.custom.Participants_	O	
+7-9	and	O	O	O	
+7-10	on	O	O	O	
+7-11	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+7-12	face	B-ScrPart_body_part	B-webanno.custom.Participants_	O	
+7-13	as	O	O	O	
+7-14	well	O	O	O	
+7-15	.	O	O	O	
+
+#id=8
+#text=Once I was clean , I would play with my bath toys for a little while .
+8-1	Once	O	O	O	
+8-2	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+8-3	was	O	O	B-UnrelEv	
+8-4	clean	O	O	O	
+8-5	,	O	O	O	
+8-6	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+8-7	would	O	O	O	
+8-8	play	O	O	B-RelNScrEv	
+8-9	with	O	O	O	
+8-10	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+8-11	bath	B-ScrPart_in-bath_entertainment	B-webanno.custom.Participants_	O	
+8-12	toys	I-ScrPart_in-bath_entertainment|B-ScrPart_in-bath_entertainment	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+8-13	for	O	O	O	
+8-14	a	O	O	O	
+8-15	little	O	O	O	
+8-16	while	B-No_label	B-webanno.custom.Participants_	O	
+8-17	.	O	O	O	
+
+#id=9
+#text=After some time has passed , I drained the water .
+9-1	After	O	O	O	
+9-2	some	O	O	O	
+9-3	time	B-No_label	B-webanno.custom.Participants_	O	
+9-4	has	O	O	O	
+9-5	passed	O	O	B-UnrelEv	
+9-6	,	O	O	O	
+9-7	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+9-8	drained	O	O	B-ScrEv_open_drain	
+9-9	the	O	O	O	
+9-10	water	B-ScrPart_water	B-webanno.custom.Participants_	O	
+9-11	.	O	O	O	
+
+#id=10
+#text=After draining the water , I would stand up and dry myself off with a towel .
+10-1	After	O	O	O	
+10-2	draining	O	O	B-ScrEv_open_drain	
+10-3	the	O	O	O	
+10-4	water	B-ScrPart_water	B-webanno.custom.Participants_	O	
+10-5	,	O	O	O	
+10-6	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+10-7	would	O	O	O	
+10-8	stand	O	O	B-ScrEv_get_out_bath	
+10-9	up	O	O	I-ScrEv_get_out_bath	
+10-10	and	O	O	O	
+10-11	dry	O	O	B-ScrEv_dry	
+10-12	myself	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+10-13	off	O	O	O	
+10-14	with	O	O	O	
+10-15	a	O	O	O	
+10-16	towel	B-ScrPart_towel	B-webanno.custom.Participants_	O	
+10-17	.	O	O	O	
+
+#id=11
+#text=I enjoyed taking baths because I often needed to be cleaned , I loved to play outside as a kid . 
+11-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+11-2	enjoyed	O	O	B-UnrelEv	
+11-3	taking	O	O	B-Evoking	
+11-4	baths	B-SuppVComp	B-webanno.custom.Participants_	I-Evoking	
+11-5	because	O	O	O	
+11-6	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+11-7	often	O	O	O	
+11-8	needed	O	O	B-UnrelEv	
+11-9	to	O	O	O	
+11-10	be	O	O	O	
+11-11	cleaned	O	O	B-RelNScrEv	
+11-12	,	O	O	O	
+11-13	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+11-14	loved	O	O	B-UnrelEv	
+11-15	to	O	O	O	
+11-16	play	O	O	B-UnrelEv	
+11-17	outside	O	O	O	
+11-18	as	O	O	O	
+11-19	a	O	O	O	
+11-20	kid	B-NPart	B-webanno.custom.Participants_	O	
+11-21	.	O	O	O	
+

@@ -1,0 +1,220 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I love to borrow books from the library because it is so easy .
+1-1	I	B-ScrPart_customer	O	_	_	
+1-2	love	O	B-UnrelEv	_	_	
+1-3	to	O	O	_	_	
+1-4	borrow	O	B-Evoking|B-ScrEv_take_book	_	_	
+1-5	books	B-ScrPart_book	I-Evoking	_	_	
+1-6	from	O	I-Evoking	_	_	
+1-7	the	O	I-Evoking	_	_	
+1-8	library	B-ScrPart_library	I-Evoking	_	_	
+1-9	because	O	O	_	_	
+1-10	it	O	O	_	_	
+1-11	is	O	B-UnrelEv	_	_	
+1-12	so	O	O	_	_	
+1-13	easy	O	O	_	_	
+1-14	.	O	O	_	_	
+
+#id=2
+#text=I also love it because if I return things on time , it 's totally free !
+2-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-1	
+2-2	also	O	O	_	_	
+2-3	love	O	B-UnrelEv	_	_	
+2-4	it	O	O	_	_	
+2-5	because	O	O	_	_	
+2-6	if	O	O	_	_	
+2-7	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-1	
+2-8	return	O	B-ScrEv_return_book	_	_	
+2-9	things	B-ScrPart_book	O	_	_	
+2-10	on	O	O	_	_	
+2-11	time	B-ScrPart_return_date	O	_	_	
+2-12	,	O	O	_	_	
+2-13	it	O	O	_	_	
+2-14	's	O	B-UnrelEv	_	_	
+2-15	totally	O	O	_	_	
+2-16	free	O	O	_	_	
+2-17	!	O	O	_	_	
+
+#id=3
+#text=I went to the library today to look for some gardening books .
+3-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-7	
+3-2	went	O	B-ScrEv_get_library	_	_	
+3-3	to	O	O	_	_	
+3-4	the	O	O	_	_	
+3-5	library	B-ScrPart_library	O	webanno.custom.Corefchains_	1-8	
+3-6	today	O	O	_	_	
+3-7	to	O	O	_	_	
+3-8	look	O	B-ScrEv_look_for_book|B-ScrEv_look_for_book	_	_	
+3-9	for	O	I-ScrEv_look_for_book	_	_	
+3-10	some	O	O	_	_	
+3-11	gardening	O	O	_	_	
+3-12	books	B-ScrPart_book	O	_	_	
+3-13	.	O	O	_	_	
+
+#id=4
+#text=I did n't feel like using the computer to find the books , so I went through the dewey decimal system until I got to the gardening section .
+4-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-1	
+4-2	did	O	O	_	_	
+4-3	n't	O	O	_	_	
+4-4	feel	O	B-UnrelEv	_	_	
+4-5	like	O	O	_	_	
+4-6	using	O	B-ScrEv_use_computer	_	_	
+4-7	the	O	O	_	_	
+4-8	computer	B-ScrPart_institutional_devices	O	_	_	
+4-9	to	O	O	_	_	
+4-10	find	O	B-ScrEv_look_for_book	_	_	
+4-11	the	O	O	_	_	
+4-12	books	B-ScrPart_book	O	webanno.custom.Corefchains_	3-12	
+4-13	,	O	O	_	_	
+4-14	so	O	O	_	_	
+4-15	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-1	
+4-16	went	O	B-ScrEv_get_shelf|B-ScrEv_get_shelf	_	_	
+4-17	through	O	I-ScrEv_get_shelf	_	_	
+4-18	the	O	O	_	_	
+4-19	dewey	O	O	_	_	
+4-20	decimal	O	O	_	_	
+4-21	system	B-ScrPart_section_id	O	_	_	
+4-22	until	O	O	_	_	
+4-23	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-15	
+4-24	got	O	B-ScrEv_get_shelf	_	_	
+4-25	to	O	O	_	_	
+4-26	the	O	O	_	_	
+4-27	gardening	O	O	_	_	
+4-28	section	B-ScrPart_shelf	O	_	_	
+4-29	.	O	O	_	_	
+
+#id=5
+#text=There were so many shelves of gardening books !
+5-1	There	O	O	_	_	
+5-2	were	O	B-UnrelEv	_	_	
+5-3	so	O	O	_	_	
+5-4	many	O	O	_	_	
+5-5	shelves	B-ScrPart_shelf	O	_	_	
+5-6	of	O	O	_	_	
+5-7	gardening	O	O	_	_	
+5-8	books	B-ScrPart_book	O	webanno.custom.Corefchains_	4-12	
+5-9	!	O	O	_	_	
+
+#id=6
+#text=I found a few that I liked and decided I needed a basket .
+6-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-23	
+6-2	found	O	B-ScrEv_take_book	_	_	
+6-3	a	O	O	_	_	
+6-4	few	B-ScrPart_book	O	webanno.custom.Corefchains_	5-8	
+6-5	that	O	O	_	_	
+6-6	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-1	
+6-7	liked	O	B-UnrelEv	_	_	
+6-8	and	O	O	_	_	
+6-9	decided	O	B-UnrelEv	_	_	
+6-10	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-6	
+6-11	needed	O	B-UnrelEv	_	_	
+6-12	a	O	O	_	_	
+6-13	basket	B-MissScrPart	O	_	_	
+6-14	.	O	O	_	_	
+
+#id=7
+#text=I got one from the circulation desk .
+7-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-10	
+7-2	got	O	B-MissScrEv	_	_	
+7-3	one	B-MissScrPart	O	webanno.custom.Corefchains_	6-13	
+7-4	from	O	O	_	_	
+7-5	the	O	O	_	_	
+7-6	circulation	B-ScrPart_location_library	O	_	_	
+7-7	desk	I-ScrPart_location_library|B-ScrPart_location_library	O	_	_	
+7-8	.	O	O	_	_	
+
+#id=8
+#text=After that , I decided to go find a movie and a video game for my family to enjoy .
+8-1	After	O	O	_	_	
+8-2	that	O	O	_	_	
+8-3	,	O	O	_	_	
+8-4	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-1	
+8-5	decided	O	B-UnrelEv	_	_	
+8-6	to	O	O	_	_	
+8-7	go	O	O	_	_	
+8-8	find	O	B-RelNScrEv	_	_	
+8-9	a	O	O	_	_	
+8-10	movie	B-MissScrPart	O	_	_	
+8-11	and	O	O	_	_	
+8-12	a	O	O	_	_	
+8-13	video	B-MissScrPart	O	_	_	
+8-14	game	I-MissScrPart|B-MissScrPart	O	_	_	
+8-15	for	O	O	_	_	
+8-16	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-4	
+8-17	family	B-NPart	O	_	_	
+8-18	to	O	O	_	_	
+8-19	enjoy	O	B-UnrelEv	_	_	
+8-20	.	O	O	_	_	
+
+#id=9
+#text=I browsed through the movies in alphabetical order and found a copy of Night at the Museum for my family to enjoy .
+9-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-16	
+9-2	browsed	O	B-RelNScrEv	_	_	
+9-3	through	O	O	_	_	
+9-4	the	O	O	_	_	
+9-5	movies	B-MissScrPart	O	_	_	
+9-6	in	O	O	_	_	
+9-7	alphabetical	O	O	_	_	
+9-8	order	O	O	_	_	
+9-9	and	O	O	_	_	
+9-10	found	O	B-RelNScrEv	_	_	
+9-11	a	O	O	_	_	
+9-12	copy	B-MissScrPart	O	webanno.custom.Corefchains_	8-10	
+9-13	of	O	O	_	_	
+9-14	Night	O	O	_	_	
+9-15	at	O	O	_	_	
+9-16	the	O	O	_	_	
+9-17	Museum	O	O	_	_	
+9-18	for	O	O	_	_	
+9-19	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-1	
+9-20	family	B-NPart	O	webanno.custom.Corefchains_	8-17	
+9-21	to	O	O	_	_	
+9-22	enjoy	O	B-UnrelEv	_	_	
+9-23	.	O	O	_	_	
+
+#id=10
+#text=I also found a copy of Mario Kart for the Wii .
+10-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-19	
+10-2	also	O	O	_	_	
+10-3	found	O	B-RelNScrEv	_	_	
+10-4	a	O	O	_	_	
+10-5	copy	B-MissScrPart	O	webanno.custom.Corefchains_	8-14	
+10-6	of	O	O	_	_	
+10-7	Mario	O	O	_	_	
+10-8	Kart	O	O	_	_	
+10-9	for	O	O	_	_	
+10-10	the	O	O	_	_	
+10-11	Wii	O	O	_	_	
+10-12	.	O	O	_	_	
+
+#id=11
+#text=I took my items up to the front desk and checked them out .
+11-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	10-1	
+11-2	took	O	B-ScrEv_go_check_out	_	_	
+11-3	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	11-1	
+11-4	items	B-???	O	group_book_movie_game|group_book_movie_game|group_book_movie_game	6-4|9-12|10-5	
+11-5	up	O	O	_	_	
+11-6	to	O	O	_	_	
+11-7	the	O	O	_	_	
+11-8	front	B-ScrPart_check-out_desk	O	_	_	
+11-9	desk	I-ScrPart_check-out_desk|B-ScrPart_check-out_desk	O	_	_	
+11-10	and	O	O	_	_	
+11-11	checked	O	B-ScrEv_register	_	_	
+11-12	them	B-???	O	webanno.custom.Corefchains_	11-4	
+11-13	out	O	O	_	_	
+11-14	.	O	O	_	_	
+
+#id=12
+#text=I will have to return them within a week . 
+12-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	11-3	
+12-2	will	O	O	_	_	
+12-3	have	O	O	_	_	
+12-4	to	O	O	_	_	
+12-5	return	O	B-ScrEv_return_book	_	_	
+12-6	them	B-???	O	webanno.custom.Corefchains_	11-12	
+12-7	within	O	O	_	_	
+12-8	a	O	O	_	_	
+12-9	week	B-ScrPart_return_date	O	_	_	
+12-10	.	O	O	_	_	
+

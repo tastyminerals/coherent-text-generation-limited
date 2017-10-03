@@ -1,0 +1,210 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=It was the day before my girlfriend 's birthday and I decided to do something special for her !
+1-1	It	O	O	O	_	_	
+1-2	was	B-UnrelEv	O	O	_	_	
+1-3	the	O	O	O	_	_	
+1-4	day	O	O	O	_	_	
+1-5	before	O	O	O	_	_	
+1-6	my	O	O	O	_	_	
+1-7	girlfriend	O	B-ScrPart_beneficiary	B-webanno.custom.Participants_	_	_	
+1-8	's	O	O	O	_	_	
+1-9	birthday	O	O	O	_	_	
+1-10	and	O	O	O	_	_	
+1-11	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+1-12	decided	B-UnrelEv	O	O	_	_	
+1-13	to	O	O	O	_	_	
+1-14	do	B-UnrelEv	O	O	_	_	
+1-15	something	O	O	O	_	_	
+1-16	special	O	O	O	_	_	
+1-17	for	O	O	O	_	_	
+1-18	her	O	B-ScrPart_beneficiary	B-webanno.custom.Participants_	webanno.custom.Corefchains_	1-7	
+1-19	!	O	O	O	_	_	
+
+#id=2
+#text=Her favorite flavor is strawberry so I will make her a strawberry cake as a surprise .
+2-1	Her	O	B-ScrPart_beneficiary	B-webanno.custom.Participants_	webanno.custom.Corefchains_	1-18	
+2-2	favorite	O	O	O	_	_	
+2-3	flavor	O	O	O	_	_	
+2-4	is	B-UnrelEv	O	O	_	_	
+2-5	strawberry	O	O	O	_	_	
+2-6	so	O	O	O	_	_	
+2-7	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	1-11	
+2-8	will	O	O	O	_	_	
+2-9	make	B-Evoking	O	O	_	_	
+2-10	her	I-Evoking	B-ScrPart_beneficiary	B-webanno.custom.Participants_	webanno.custom.Corefchains_	2-1	
+2-11	a	I-Evoking	O	O	_	_	
+2-12	strawberry	I-Evoking	B-ScrPart_cake	B-webanno.custom.Participants_	_	_	
+2-13	cake	I-Evoking	I-ScrPart_cake|B-ScrPart_cake	I-webanno.custom.Participants_|B-webanno.custom.Participants_	_	_	
+2-14	as	O	O	O	_	_	
+2-15	a	O	O	O	_	_	
+2-16	surprise	O	O	O	_	_	
+2-17	.	O	O	O	_	_	
+
+#id=3
+#text=I began by getting the best strawberries and most delicious cake batter from the store I could find .
+3-1	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	2-7	
+3-2	began	B-UnrelEv	O	O	_	_	
+3-3	by	O	O	O	_	_	
+3-4	getting	B-ScrEv_get_ingredients	O	O	_	_	
+3-5	the	O	O	O	_	_	
+3-6	best	O	O	O	_	_	
+3-7	strawberries	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	_	_	
+3-8	and	O	O	O	_	_	
+3-9	most	O	O	O	_	_	
+3-10	delicious	O	O	O	_	_	
+3-11	cake	O	B-ScrPart_dough	B-webanno.custom.Participants_	webanno.custom.Corefchains_	2-13	
+3-12	batter	O	I-ScrPart_dough|B-ScrPart_dough	I-webanno.custom.Participants_|B-webanno.custom.Participants_	_	_	
+3-13	from	O	O	O	_	_	
+3-14	the	O	O	O	_	_	
+3-15	store	O	B-ScrPart_store	B-webanno.custom.Participants_	_	_	
+3-16	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	3-1	
+3-17	could	O	O	O	_	_	
+3-18	find	B-UnrelEv	O	O	_	_	
+3-19	.	O	O	O	_	_	
+
+#id=4
+#text=When I arrived home I turned on the oven and began to make the batter .
+4-1	When	O	O	O	_	_	
+4-2	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	3-16	
+4-3	arrived	B-RelNScrEv	O	O	_	_	
+4-4	home	O	B-ScrPart_kitchen/location	B-webanno.custom.Participants_	_	_	
+4-5	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	4-2	
+4-6	turned	B-ScrEv_preheat|B-ScrEv_preheat	O	O	_	_	
+4-7	on	I-ScrEv_preheat	O	O	_	_	
+4-8	the	O	O	O	_	_	
+4-9	oven	O	B-ScrPart_oven	B-webanno.custom.Participants_	_	_	
+4-10	and	O	O	O	_	_	
+4-11	began	B-UnrelEv	O	O	_	_	
+4-12	to	O	O	O	_	_	
+4-13	make	B-ScrEv_make_dough	O	O	_	_	
+4-14	the	O	O	O	_	_	
+4-15	batter	O	B-ScrPart_dough	B-webanno.custom.Participants_	webanno.custom.Corefchains_	3-12	
+4-16	.	O	O	O	_	_	
+
+#id=5
+#text=I mix the ingredients together and put the cake together .
+5-1	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	4-5	
+5-2	mix	B-ScrEv_make_dough	O	O	_	_	
+5-3	the	O	O	O	_	_	
+5-4	ingredients	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	_	_	
+5-5	together	O	O	O	_	_	
+5-6	and	O	O	O	_	_	
+5-7	put	B-ScrEv_make_dough	O	O	_	_	
+5-8	the	O	O	O	_	_	
+5-9	cake	O	B-ScrPart_cake	B-webanno.custom.Participants_	webanno.custom.Corefchains_|webanno.custom.Corefchains_	2-13|3-11	
+5-10	together	O	O	O	_	_	
+5-11	.	O	O	O	_	_	
+
+#id=6
+#text=It then goes in the oven to bake and become golden and perfect for eating .
+6-1	It	O	B-ScrPart_cake	B-webanno.custom.Participants_	webanno.custom.Corefchains_	5-9	
+6-2	then	O	O	O	_	_	
+6-3	goes	B-ScrEv_put_cake_oven	O	O	_	_	
+6-4	in	O	O	O	_	_	
+6-5	the	O	O	O	_	_	
+6-6	oven	O	B-ScrPart_oven	B-webanno.custom.Participants_	webanno.custom.Corefchains_	4-9	
+6-7	to	O	O	O	_	_	
+6-8	bake	B-RelNScrEv	O	O	_	_	
+6-9	and	O	O	O	_	_	
+6-10	become	B-UnrelEv	O	O	_	_	
+6-11	golden	O	O	O	_	_	
+6-12	and	O	O	O	_	_	
+6-13	perfect	O	O	O	_	_	
+6-14	for	O	O	O	_	_	
+6-15	eating	B-RelNScrEv	O	O	_	_	
+6-16	.	O	O	O	_	_	
+
+#id=7
+#text=I take the cake out after it has baked and put sprinkles on top and place the candles .
+7-1	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	5-1	
+7-2	take	B-ScrEv_take_out_oven	O	O	_	_	
+7-3	the	O	O	O	_	_	
+7-4	cake	O	B-ScrPart_cake	B-webanno.custom.Participants_	webanno.custom.Corefchains_	6-1	
+7-5	out	O	O	O	_	_	
+7-6	after	O	O	O	_	_	
+7-7	it	O	B-ScrPart_cake	B-webanno.custom.Participants_	webanno.custom.Corefchains_	7-4	
+7-8	has	O	O	O	_	_	
+7-9	baked	B-RelNScrEv	O	O	_	_	
+7-10	and	O	O	O	_	_	
+7-11	put	B-ScrEv_decorate	O	O	_	_	
+7-12	sprinkles	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	_	_	
+7-13	on	O	O	O	_	_	
+7-14	top	O	B-NPart	B-webanno.custom.Participants_	_	_	
+7-15	and	O	O	O	_	_	
+7-16	place	B-ScrEv_decorate	O	O	_	_	
+7-17	the	O	O	O	_	_	
+7-18	candles	O	B-MissScrPart	B-webanno.custom.Participants_	_	_	
+7-19	.	O	O	O	_	_	
+
+#id=8
+#text=I write on the cake happy birthday princess !
+8-1	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	7-1	
+8-2	write	B-ScrEv_decorate	O	O	_	_	
+8-3	on	O	O	O	_	_	
+8-4	the	O	O	O	_	_	
+8-5	cake	O	B-ScrPart_cake	B-webanno.custom.Participants_	webanno.custom.Corefchains_	7-7	
+8-6	happy	O	O	O	_	_	
+8-7	birthday	O	B-NPart	B-webanno.custom.Participants_	_	_	
+8-8	princess	O	B-ScrPart_beneficiary	B-webanno.custom.Participants_	webanno.custom.Corefchains_	2-10	
+8-9	!	O	O	O	_	_	
+
+#id=9
+#text=!
+9-1	!	O	O	O	_	_	
+
+#id=10
+#text=The next day I surprise her with the best cake that she has ever seen .
+10-1	The	O	O	O	_	_	
+10-2	next	O	O	O	_	_	
+10-3	day	O	O	O	_	_	
+10-4	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	8-1	
+10-5	surprise	B-UnrelEv	O	O	_	_	
+10-6	her	O	B-ScrPart_beneficiary	B-webanno.custom.Participants_	webanno.custom.Corefchains_	8-8	
+10-7	with	O	O	O	_	_	
+10-8	the	O	O	O	_	_	
+10-9	best	O	O	O	_	_	
+10-10	cake	O	B-ScrPart_cake	B-webanno.custom.Participants_	webanno.custom.Corefchains_	8-5	
+10-11	that	O	O	O	_	_	
+10-12	she	O	B-ScrPart_beneficiary	B-webanno.custom.Participants_	webanno.custom.Corefchains_	10-6	
+10-13	has	O	O	O	_	_	
+10-14	ever	O	O	O	_	_	
+10-15	seen	B-UnrelEv	O	O	_	_	
+10-16	.	O	O	O	_	_	
+
+#id=11
+#text=She is so surprised that she faints !
+11-1	She	O	B-ScrPart_beneficiary	B-webanno.custom.Participants_	webanno.custom.Corefchains_	10-12	
+11-2	is	B-UnrelEv	O	O	_	_	
+11-3	so	O	O	O	_	_	
+11-4	surprised	O	O	O	_	_	
+11-5	that	O	O	O	_	_	
+11-6	she	O	B-ScrPart_beneficiary	B-webanno.custom.Participants_	webanno.custom.Corefchains_	11-1	
+11-7	faints	B-UnrelEv	O	O	_	_	
+11-8	!	O	O	O	_	_	
+
+#id=12
+#text=After waking back up she enjoys the cake and tells me it is the best that she has had in years . 
+12-1	After	O	O	O	_	_	
+12-2	waking	B-UnrelEv	O	O	_	_	
+12-3	back	O	O	O	_	_	
+12-4	up	O	O	O	_	_	
+12-5	she	O	B-ScrPart_beneficiary	B-webanno.custom.Participants_	webanno.custom.Corefchains_	11-6	
+12-6	enjoys	B-ScrEv_eat	O	O	_	_	
+12-7	the	O	O	O	_	_	
+12-8	cake	O	B-ScrPart_cake	B-webanno.custom.Participants_	webanno.custom.Corefchains_	10-10	
+12-9	and	O	O	O	_	_	
+12-10	tells	B-UnrelEv	O	O	_	_	
+12-11	me	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	10-4	
+12-12	it	O	B-ScrPart_cake	B-webanno.custom.Participants_	webanno.custom.Corefchains_	12-8	
+12-13	is	B-UnrelEv	O	O	_	_	
+12-14	the	O	O	O	_	_	
+12-15	best	O	O	O	_	_	
+12-16	that	O	O	O	_	_	
+12-17	she	O	B-ScrPart_beneficiary	B-webanno.custom.Participants_	webanno.custom.Corefchains_	12-5	
+12-18	has	O	O	O	_	_	
+12-19	had	B-ScrEv_eat	O	O	_	_	
+12-20	in	O	O	O	_	_	
+12-21	years	O	B-NPart	B-webanno.custom.Participants_	_	_	
+12-22	.	O	O	O	_	_	
+

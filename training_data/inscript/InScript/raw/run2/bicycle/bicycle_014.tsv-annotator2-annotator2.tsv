@@ -1,0 +1,390 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Yesterday afternoon , I decided to ride my bike to Central Park .
+1-1	Yesterday	B-NPart	O	_	_	
+1-2	afternoon	I-NPart	O	_	_	
+1-3	,	O	O	_	_	
+1-4	I	B-ScrPart_rider	O	_	_	
+1-5	decided	O	B-UnrelEv	_	_	
+1-6	to	O	O	_	_	
+1-7	ride	O	B-ScrEv_ride_bike	_	_	
+1-8	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-4	
+1-9	bike	B-ScrPart_bicycle	O	_	_	
+1-10	to	O	O	_	_	
+1-11	Central	B-NPart	O	_	_	
+1-12	Park	I-NPart	O	_	_	
+1-13	.	O	O	_	_	
+
+#id=2
+#text=I rode my bike to the park from my apartment , it took me about 15 minutes .
+2-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-8	
+2-2	rode	O	B-ScrEv_ride_bike	_	_	
+2-3	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-1	
+2-4	bike	B-ScrPart_bicycle	O	webanno.custom.Corefchains_	1-9	
+2-5	to	O	O	_	_	
+2-6	the	O	O	_	_	
+2-7	park	B-NPart	O	_	_	
+2-8	from	O	O	_	_	
+2-9	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-3	
+2-10	apartment	B-NPart	O	_	_	
+2-11	,	O	O	_	_	
+2-12	it	B-No_label	O	_	_	
+2-13	took	O	B-UnrelEv	_	_	
+2-14	me	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-9	
+2-15	about	O	O	_	_	
+2-16	15	O	O	_	_	
+2-17	minutes	B-NPart	O	_	_	
+2-18	.	O	O	_	_	
+
+#id=3
+#text=I was very excited and happy because I have n't rode my bike in a very long time .
+3-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-14	
+3-2	was	O	B-UnrelEv	_	_	
+3-3	very	O	O	_	_	
+3-4	excited	O	O	_	_	
+3-5	and	O	O	_	_	
+3-6	happy	O	O	_	_	
+3-7	because	O	O	_	_	
+3-8	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	3-1	
+3-9	have	O	O	_	_	
+3-10	n't	O	O	_	_	
+3-11	rode	O	B-ScrEv_ride_bike	_	_	
+3-12	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	3-8	
+3-13	bike	B-ScrPart_bicycle	O	webanno.custom.Corefchains_	2-4	
+3-14	in	O	O	_	_	
+3-15	a	O	O	_	_	
+3-16	very	O	O	_	_	
+3-17	long	O	O	_	_	
+3-18	time	B-No_label	O	_	_	
+3-19	.	O	O	_	_	
+
+#id=4
+#text=I missed the experience of feeling the window blowing against my face , and feeling my hair float in the air .
+4-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	3-12	
+4-2	missed	O	B-UnrelEv	_	_	
+4-3	the	O	O	_	_	
+4-4	experience	B-NPart	O	_	_	
+4-5	of	O	O	_	_	
+4-6	feeling	O	B-UnrelEv	_	_	
+4-7	the	O	O	_	_	
+4-8	window	B-NPart	O	_	_	
+4-9	blowing	O	B-UnrelEv	_	_	
+4-10	against	O	O	_	_	
+4-11	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	4-1	
+4-12	face	B-ScrPart_other	O	_	_	
+4-13	,	O	O	_	_	
+4-14	and	O	O	_	_	
+4-15	feeling	O	B-UnrelEv	_	_	
+4-16	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	4-11	
+4-17	hair	O	O	_	_	
+4-18	float	O	B-UnrelEv	_	_	
+4-19	in	O	O	_	_	
+4-20	the	O	O	_	_	
+4-21	air	B-NPart	O	_	_	
+4-22	.	O	O	_	_	
+
+#id=5
+#text=When I finally got to the park , I decided that I would ride around the park a few times .
+5-1	When	O	O	_	_	
+5-2	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	4-16	
+5-3	finally	O	O	_	_	
+5-4	got	O	B-UnrelEv	_	_	
+5-5	to	O	O	_	_	
+5-6	the	O	O	_	_	
+5-7	park	B-NPart	O	_	_	
+5-8	,	O	O	_	_	
+5-9	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	5-2	
+5-10	decided	O	B-UnrelEv	_	_	
+5-11	that	O	O	_	_	
+5-12	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	5-9	
+5-13	would	O	O	_	_	
+5-14	ride	O	B-ScrEv_ride_bike	_	_	
+5-15	around	O	O	_	_	
+5-16	the	O	O	_	_	
+5-17	park	B-NPart	O	_	_	
+5-18	a	O	O	_	_	
+5-19	few	O	O	_	_	
+5-20	times	B-No_label	O	_	_	
+5-21	.	O	O	_	_	
+
+#id=6
+#text=It was going to be a great form of exercise .
+6-1	It	B-No_label	O	_	_	
+6-2	was	O	O	_	_	
+6-3	going	O	O	_	_	
+6-4	to	O	O	_	_	
+6-5	be	O	B-UnrelEv	_	_	
+6-6	a	O	O	_	_	
+6-7	great	O	O	_	_	
+6-8	form	B-No_label	O	_	_	
+6-9	of	O	O	_	_	
+6-10	exercise	B-NPart	O	_	_	
+6-11	.	O	O	_	_	
+
+#id=7
+#text=However , after I rode the bike a few times around the park , my front bicycle tire suddenly started to lose air .
+7-1	However	O	O	_	_	
+7-2	,	O	O	_	_	
+7-3	after	O	O	_	_	
+7-4	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	5-12	
+7-5	rode	O	B-ScrEv_ride_bike	_	_	
+7-6	the	O	O	_	_	
+7-7	bike	B-ScrPart_bicycle	O	webanno.custom.Corefchains_	3-13	
+7-8	a	O	O	_	_	
+7-9	few	O	O	_	_	
+7-10	times	B-NPart	O	_	_	
+7-11	around	O	O	_	_	
+7-12	the	O	O	_	_	
+7-13	park	B-NPart	O	_	_	
+7-14	,	O	O	_	_	
+7-15	my	B-ScrPart_rider	O	_	_	
+7-16	front	B-ScrPart_tire	O	_	_	
+7-17	bicycle	I-ScrPart_tire	O	_	_	
+7-18	tire	I-ScrPart_tire|B-ScrPart_tire	O	_	_	
+7-19	suddenly	O	O	_	_	
+7-20	started	O	B-UnrelEv	_	_	
+7-21	to	O	O	_	_	
+7-22	lose	O	B-RelNScrEv	_	_	
+7-23	air	B-ScrPart_air	O	_	_	
+7-24	.	O	O	_	_	
+
+#id=8
+#text=I safely got off and examined the tire wheel .
+8-1	I	B-ScrPart_rider	O	_	_	
+8-2	safely	O	O	_	_	
+8-3	got	O	B-ScrEv_get_off	_	_	
+8-4	off	O	I-ScrEv_get_off	_	_	
+8-5	and	O	O	_	_	
+8-6	examined	O	B-ScrEv_examine_tire	_	_	
+8-7	the	O	O	_	_	
+8-8	tire	B-ScrPart_tire	O	_	_	
+8-9	wheel	B-ScrPart_wheel	O	_	_	
+8-10	.	O	O	_	_	
+
+#id=9
+#text=I checked if there was any rips or holes on the wheel .
+9-1	I	B-ScrPart_rider	O	_	_	
+9-2	checked	O	B-ScrEv_examine_tire	_	_	
+9-3	if	O	O	_	_	
+9-4	there	O	O	_	_	
+9-5	was	O	B-UnrelEv	_	_	
+9-6	any	O	O	_	_	
+9-7	rips	B-ScrPart_object_damage	O	_	_	
+9-8	or	O	O	_	_	
+9-9	holes	B-ScrPart_object_damage	O	_	_	
+9-10	on	O	O	_	_	
+9-11	the	O	O	_	_	
+9-12	wheel	B-ScrPart_wheel	O	webanno.custom.Corefchains_	8-9	
+9-13	.	O	O	_	_	
+
+#id=10
+#text=Perhaps I rode over something sharp .
+10-1	Perhaps	O	O	_	_	
+10-2	I	B-ScrPart_rider	O	_	_	
+10-3	rode	O	B-ScrEv_ride_bike	_	_	
+10-4	over	O	O	_	_	
+10-5	something	B-ScrPart_object_damage	O	_	_	
+10-6	sharp	O	O	_	_	
+10-7	.	O	O	_	_	
+
+#id=11
+#text=I found a few small holes on the bike and realized the culprit for my flat tire .
+11-1	I	B-ScrPart_rider	O	_	_	
+11-2	found	O	B-RelNScrEv	_	_	
+11-3	a	O	O	_	_	
+11-4	few	O	O	_	_	
+11-5	small	O	O	_	_	
+11-6	holes	B-ScrPart_object_damage	O	_	_	
+11-7	on	O	O	_	_	
+11-8	the	O	O	_	_	
+11-9	bike	B-ScrPart_bicycle	O	_	_	
+11-10	and	O	O	_	_	
+11-11	realized	O	B-UnrelEv	_	_	
+11-12	the	O	O	_	_	
+11-13	culprit	B-ScrPart_object_damage	O	_	_	
+11-14	for	O	O	_	_	
+11-15	my	B-ScrPart_rider	O	_	_	
+11-16	flat	O	O	_	_	
+11-17	tire	B-ScrPart_tire	O	_	_	
+11-18	.	O	O	_	_	
+
+#id=12
+#text=I was forced to carry the bike home in order to repair it .
+12-1	I	B-ScrPart_rider	O	_	_	
+12-2	was	O	O	_	_	
+12-3	forced	O	B-UnrelEv	_	_	
+12-4	to	O	O	_	_	
+12-5	carry	O	B-RelNScrEv	_	_	
+12-6	the	O	O	_	_	
+12-7	bike	B-ScrPart_bicycle	O	_	_	
+12-8	home	B-ScrPart_location_repair	O	_	_	
+12-9	in	O	O	_	_	
+12-10	order	B-No_label	O	_	_	
+12-11	to	O	O	_	_	
+12-12	repair	O	B-Evoking	_	_	
+12-13	it	B-ScrPart_bicycle	I-Evoking	_	_	
+12-14	.	O	O	_	_	
+
+#id=13
+#text=There was no way I would repair it at the park .
+13-1	There	O	O	_	_	
+13-2	was	O	B-UnrelEv	_	_	
+13-3	no	O	O	_	_	
+13-4	way	B-No_label	O	_	_	
+13-5	I	B-ScrPart_rider	O	_	_	
+13-6	would	O	O	_	_	
+13-7	repair	O	B-Evoking	_	_	
+13-8	it	B-ScrPart_bicycle	I-Evoking	_	_	
+13-9	at	O	O	_	_	
+13-10	the	O	O	_	_	
+13-11	park	B-NPart	O	_	_	
+13-12	.	O	O	_	_	
+
+#id=14
+#text=Once I brought it home , I brought it to my basement .
+14-1	Once	O	O	_	_	
+14-2	I	B-ScrPart_rider	O	_	_	
+14-3	brought	O	B-RelNScrEv	_	_	
+14-4	it	B-ScrPart_bicycle	O	_	_	
+14-5	home	B-ScrPart_location_repair	O	_	_	
+14-6	,	O	O	_	_	
+14-7	I	B-ScrPart_rider	O	_	_	
+14-8	brought	O	B-RelNScrEv	_	_	
+14-9	it	B-ScrPart_bicycle	O	_	_	
+14-10	to	O	O	_	_	
+14-11	my	B-ScrPart_rider	O	_	_	
+14-12	basement	B-ScrPart_location_repair	O	_	_	
+14-13	.	O	O	_	_	
+
+#id=15
+#text=I turned the bike over so that it stood on its seat and handle bars .
+15-1	I	B-ScrPart_rider	O	_	_	
+15-2	turned	O	B-RelNScrEv	_	_	
+15-3	the	O	O	_	_	
+15-4	bike	B-ScrPart_bicycle	O	_	_	
+15-5	over	O	O	_	_	
+15-6	so	O	O	_	_	
+15-7	that	O	O	_	_	
+15-8	it	B-ScrPart_bicycle	O	_	_	
+15-9	stood	O	B-UnrelEv	_	_	
+15-10	on	O	O	_	_	
+15-11	its	B-ScrPart_bicycle	O	webanno.custom.Corefchains_	15-8	
+15-12	seat	B-ScrPart_bicycle_small_detail	O	_	_	
+15-13	and	O	O	_	_	
+15-14	handle	B-ScrPart_bicycle_small_detail	O	_	_	
+15-15	bars	I-ScrPart_bicycle_small_detail|B-ScrPart_bicycle_small_detail	O	_	_	
+15-16	.	O	O	_	_	
+
+#id=16
+#text=I let the remaining air out of the tube of my broken tire .
+16-1	I	B-ScrPart_rider	O	_	_	
+16-2	let	O	B-RelNScrEv	_	_	
+16-3	the	O	O	_	_	
+16-4	remaining	O	B-UnrelEv	_	_	
+16-5	air	B-ScrPart_air	O	_	_	
+16-6	out	O	O	_	_	
+16-7	of	O	O	_	_	
+16-8	the	O	O	_	_	
+16-9	tube	B-ScrPart_tire	O	_	_	
+16-10	of	O	O	_	_	
+16-11	my	B-ScrPart_rider	O	_	_	
+16-12	broken	O	O	_	_	
+16-13	tire	B-ScrPart_tire	O	_	_	
+16-14	.	O	O	_	_	
+
+#id=17
+#text=Once the tire was deflated , I took the tire off the rim .
+17-1	Once	O	O	_	_	
+17-2	the	O	O	_	_	
+17-3	tire	B-ScrPart_tire	O	_	_	
+17-4	was	O	O	_	_	
+17-5	deflated	O	B-RelNScrEv	_	_	
+17-6	,	O	O	_	_	
+17-7	I	B-ScrPart_rider	O	_	_	
+17-8	took	O	B-ScrEv_take_tire_off	_	_	
+17-9	the	O	O	_	_	
+17-10	tire	B-ScrPart_tire	O	_	_	
+17-11	off	O	O	_	_	
+17-12	the	O	O	_	_	
+17-13	rim	B-ScrPart_rim	O	_	_	
+17-14	.	O	O	_	_	
+
+#id=18
+#text=I found the part of the tire with the multiple holes .
+18-1	I	B-ScrPart_rider	O	_	_	
+18-2	found	O	B-RelNScrEv	_	_	
+18-3	the	O	O	_	_	
+18-4	part	B-NPart	O	_	_	
+18-5	of	O	O	_	_	
+18-6	the	O	O	_	_	
+18-7	tire	B-ScrPart_tire	O	_	_	
+18-8	with	O	O	_	_	
+18-9	the	O	O	_	_	
+18-10	multiple	O	O	_	_	
+18-11	holes	B-ScrPart_object_damage	O	_	_	
+18-12	.	O	O	_	_	
+
+#id=19
+#text=I spread a thin layer of glue around the holes .
+19-1	I	B-ScrPart_rider	O	_	_	
+19-2	spread	O	B-RelNScrEv	_	_	
+19-3	a	O	O	_	_	
+19-4	thin	O	O	_	_	
+19-5	layer	B-NPart	O	_	_	
+19-6	of	O	O	_	_	
+19-7	glue	B-ScrPart_tool	O	_	_	
+19-8	around	O	O	_	_	
+19-9	the	O	O	_	_	
+19-10	holes	B-ScrPart_object_damage	O	_	_	
+19-11	.	O	O	_	_	
+
+#id=20
+#text=Then I looked around for my tire patch kit .
+20-1	Then	O	O	_	_	
+20-2	I	B-ScrPart_rider	O	_	_	
+20-3	looked	O	B-RelNScrEv	_	_	
+20-4	around	O	I-RelNScrEv	_	_	
+20-5	for	O	O	_	_	
+20-6	my	B-ScrPart_rider	O	_	_	
+20-7	tire	B-ScrPart_tool	O	_	_	
+20-8	patch	I-ScrPart_tool	O	_	_	
+20-9	kit	I-ScrPart_tool|B-ScrPart_tool	O	_	_	
+20-10	.	O	O	_	_	
+
+#id=21
+#text=Once I found it , I applied it on to the holes and covered over them .
+21-1	Once	O	O	_	_	
+21-2	I	B-ScrPart_rider	O	_	_	
+21-3	found	O	B-RelNScrEv	_	_	
+21-4	it	B-ScrPart_tool	O	_	_	
+21-5	,	O	O	_	_	
+21-6	I	B-ScrPart_rider	O	_	_	
+21-7	applied	O	B-ScrEv_put_patch/seal	_	_	
+21-8	it	B-ScrPart_patch	O	_	_	
+21-9	on	O	O	_	_	
+21-10	to	O	O	_	_	
+21-11	the	O	O	_	_	
+21-12	holes	B-ScrPart_object_damage	O	_	_	
+21-13	and	O	O	_	_	
+21-14	covered	O	B-RelNScrEv	_	_	
+21-15	over	O	O	_	_	
+21-16	them	B-ScrPart_object_damage	O	_	_	
+21-17	.	O	O	_	_	
+
+#id=22
+#text=I then placed the tire back on the rim and inflated it again . 
+22-1	I	B-ScrPart_rider	O	_	_	
+22-2	then	O	O	_	_	
+22-3	placed	O	B-ScrEv_put_new_tire	_	_	
+22-4	the	O	O	_	_	
+22-5	tire	B-ScrPart_tire	O	_	_	
+22-6	back	O	O	_	_	
+22-7	on	O	O	_	_	
+22-8	the	O	O	_	_	
+22-9	rim	B-ScrPart_rim	O	_	_	
+22-10	and	O	O	_	_	
+22-11	inflated	O	B-ScrEv_refill_tire_air	_	_	
+22-12	it	B-ScrPart_tire	O	_	_	
+22-13	again	O	O	_	_	
+22-14	.	O	O	_	_	
+

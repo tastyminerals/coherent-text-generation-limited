@@ -1,0 +1,256 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I began to repair my flat bicycle tire by removing the wheel from the bike .
+1-1	I	B-ScrPart_rider	O	_	_	
+1-2	began	O	B-UnrelEv	_	_	
+1-3	to	O	O	_	_	
+1-4	repair	O	B-Evoking	_	_	
+1-5	my	O	I-Evoking	_	_	
+1-6	flat	O	I-Evoking	_	_	
+1-7	bicycle	B-ScrPart_tire	I-Evoking	_	_	
+1-8	tire	I-ScrPart_tire|B-ScrPart_tire	I-Evoking	_	_	
+1-9	by	O	O	_	_	
+1-10	removing	O	B-ScrEv_take_tire_off	_	_	
+1-11	the	O	O	_	_	
+1-12	wheel	B-ScrPart_tire	O	webanno.custom.Corefchains_	1-8	
+1-13	from	O	O	_	_	
+1-14	the	O	O	_	_	
+1-15	bike	B-ScrPart_bicycle	O	_	_	
+1-16	.	O	O	_	_	
+
+#id=2
+#text=This was done by disconnecting the brake cable so the wheel would be able to be removed from the frame .
+2-1	This	O	O	_	_	
+2-2	was	O	O	_	_	
+2-3	done	O	B-UnrelEv	_	_	
+2-4	by	O	O	_	_	
+2-5	disconnecting	O	B-RelNScrEv	_	_	
+2-6	the	O	O	_	_	
+2-7	brake	B-ScrPart_bicycle_small_detail	O	_	_	
+2-8	cable	I-ScrPart_bicycle_small_detail|B-ScrPart_bicycle_small_detail	O	_	_	
+2-9	so	O	O	_	_	
+2-10	the	O	O	_	_	
+2-11	wheel	B-ScrPart_tire	O	webanno.custom.Corefchains_	1-12	
+2-12	would	O	O	_	_	
+2-13	be	O	O	_	_	
+2-14	able	O	O	_	_	
+2-15	to	O	O	_	_	
+2-16	be	O	O	_	_	
+2-17	removed	O	B-RelNScrEv	_	_	
+2-18	from	O	O	_	_	
+2-19	the	O	O	_	_	
+2-20	frame	B-ScrPart_bicycle_small_detail	O	_	_	
+2-21	.	O	O	_	_	
+
+#id=3
+#text=I then loosened the bolts holding it on and slid the axle off the frame , making sure that the chain did not get caught or bind up while doing so .
+3-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-1	
+3-2	then	O	O	_	_	
+3-3	loosened	O	B-ScrEv_loose_nut	_	_	
+3-4	the	O	O	_	_	
+3-5	bolts	B-ScrPart_bicycle_small_detail	O	_	_	
+3-6	holding	O	B-UnrelEv	_	_	
+3-7	it	B-ScrPart_tire	O	webanno.custom.Corefchains_	2-11	
+3-8	on	O	O	_	_	
+3-9	and	O	O	_	_	
+3-10	slid	O	B-ScrEv_free_wheel	_	_	
+3-11	the	O	O	_	_	
+3-12	axle	B-ScrPart_bicycle_small_detail	O	_	_	
+3-13	off	O	O	_	_	
+3-14	the	O	O	_	_	
+3-15	frame	B-ScrPart_rim	O	_	_	
+3-16	,	O	O	_	_	
+3-17	making	O	B-UnrelEv|B-UnrelEv	_	_	
+3-18	sure	O	I-UnrelEv	_	_	
+3-19	that	O	O	_	_	
+3-20	the	O	O	_	_	
+3-21	chain	B-ScrPart_chain	O	_	_	
+3-22	did	O	O	_	_	
+3-23	not	O	O	_	_	
+3-24	get	O	B-RelNScrEv|B-RelNScrEv	_	_	
+3-25	caught	O	I-RelNScrEv	_	_	
+3-26	or	O	O	_	_	
+3-27	bind	O	B-RelNScrEv|B-RelNScrEv	_	_	
+3-28	up	O	I-RelNScrEv	_	_	
+3-29	while	O	O	_	_	
+3-30	doing	O	B-UnrelEv	_	_	
+3-31	so	O	O	_	_	
+3-32	.	O	O	_	_	
+
+#id=4
+#text=After the wheel was removed , I made sure that all possible air was out of the tube so that it would be easier to remove .
+4-1	After	O	O	_	_	
+4-2	the	O	O	_	_	
+4-3	wheel	B-ScrPart_tire	O	webanno.custom.Corefchains_	3-7	
+4-4	was	O	O	_	_	
+4-5	removed	O	B-ScrEv_remove_tire	_	_	
+4-6	,	O	O	_	_	
+4-7	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	3-1	
+4-8	made	O	B-UnrelEv|B-UnrelEv	_	_	
+4-9	sure	O	I-UnrelEv	_	_	
+4-10	that	O	O	_	_	
+4-11	all	O	O	_	_	
+4-12	possible	O	O	_	_	
+4-13	air	B-ScrPart_air	O	_	_	
+4-14	was	O	B-UnrelEv	_	_	
+4-15	out	O	O	_	_	
+4-16	of	O	O	_	_	
+4-17	the	O	O	_	_	
+4-18	tube	B-ScrPart_tire	O	webanno.custom.Corefchains_	4-3	
+4-19	so	O	O	_	_	
+4-20	that	O	O	_	_	
+4-21	it	B-ScrPart_tire	O	webanno.custom.Corefchains_	4-18	
+4-22	would	O	O	_	_	
+4-23	be	O	B-UnrelEv	_	_	
+4-24	easier	O	O	_	_	
+4-25	to	O	O	_	_	
+4-26	remove	O	B-ScrEv_remove_tire	_	_	
+4-27	.	O	O	_	_	
+
+#id=5
+#text=I next took two flat head screwdrivers and began to remove the tire from the bicycle .
+5-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	4-7	
+5-2	next	O	O	_	_	
+5-3	took	O	B-ScrEv_get_tools	_	_	
+5-4	two	O	O	_	_	
+5-5	flat	O	O	_	_	
+5-6	head	B-ScrPart_tool	O	_	_	
+5-7	screwdrivers	I-ScrPart_tool|B-ScrPart_tool	O	_	_	
+5-8	and	O	O	_	_	
+5-9	began	O	B-UnrelEv	_	_	
+5-10	to	O	O	_	_	
+5-11	remove	O	B-ScrEv_remove_tire	_	_	
+5-12	the	O	O	_	_	
+5-13	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	4-21	
+5-14	from	O	O	_	_	
+5-15	the	O	O	_	_	
+5-16	bicycle	B-ScrPart_bicycle	O	_	_	
+5-17	.	O	O	_	_	
+
+#id=6
+#text=After the tire was finally removed , I pulled the tube off the rim as well .
+6-1	After	O	O	_	_	
+6-2	the	O	O	_	_	
+6-3	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	5-13	
+6-4	was	O	O	_	_	
+6-5	finally	O	O	_	_	
+6-6	removed	O	B-ScrEv_remove_tire	_	_	
+6-7	,	O	O	_	_	
+6-8	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	5-1	
+6-9	pulled	O	B-MissScrEv	_	_	
+6-10	the	O	O	_	_	
+6-11	tube	B-ScrPart_tire	O	webanno.custom.Corefchains_	6-3	
+6-12	off	O	O	_	_	
+6-13	the	O	O	_	_	
+6-14	rim	B-ScrPart_rim	O	webanno.custom.Corefchains_	3-15	
+6-15	as	O	O	_	_	
+6-16	well	O	O	_	_	
+6-17	.	O	O	_	_	
+
+#id=7
+#text=Next , I placed a new tube in place making sure that the valve stem was placed through the rim appropriately .
+7-1	Next	O	O	_	_	
+7-2	,	O	O	_	_	
+7-3	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	6-8	
+7-4	placed	O	B-MissScrEv	_	_	
+7-5	a	O	O	_	_	
+7-6	new	O	O	_	_	
+7-7	tube	B-ScrPart_spare_tube	O	_	_	
+7-8	in	O	O	_	_	
+7-9	place	B-NPart	O	_	_	
+7-10	making	O	B-UnrelEv|B-UnrelEv	_	_	
+7-11	sure	O	I-UnrelEv	_	_	
+7-12	that	O	O	_	_	
+7-13	the	O	O	_	_	
+7-14	valve	B-ScrPart_bicycle_small_detail	O	_	_	
+7-15	stem	I-ScrPart_bicycle_small_detail|B-ScrPart_bicycle_small_detail	O	_	_	
+7-16	was	O	O	_	_	
+7-17	placed	O	B-RelNScrEv	_	_	
+7-18	through	O	O	_	_	
+7-19	the	O	O	_	_	
+7-20	rim	B-ScrPart_rim	O	webanno.custom.Corefchains_	6-14	
+7-21	appropriately	O	O	_	_	
+7-22	.	O	O	_	_	
+
+#id=8
+#text=After doing this , I began to fit the tire to the rim , making sure the tube was placed inside the tire and not pinched at all .
+8-1	After	O	O	_	_	
+8-2	doing	O	B-UnrelEv	_	_	
+8-3	this	O	O	_	_	
+8-4	,	O	O	_	_	
+8-5	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	7-3	
+8-6	began	O	B-UnrelEv	_	_	
+8-7	to	O	O	_	_	
+8-8	fit	O	B-ScrEv_put_new_tire	_	_	
+8-9	the	O	O	_	_	
+8-10	tire	B-ScrPart_spare_tube	O	webanno.custom.Corefchains_	7-7	
+8-11	to	O	O	_	_	
+8-12	the	O	O	_	_	
+8-13	rim	B-ScrPart_rim	O	webanno.custom.Corefchains_	7-20	
+8-14	,	O	O	_	_	
+8-15	making	O	B-UnrelEv|B-UnrelEv	_	_	
+8-16	sure	O	I-UnrelEv	_	_	
+8-17	the	O	O	_	_	
+8-18	tube	B-ScrPart_spare_tube	O	webanno.custom.Corefchains_	8-10	
+8-19	was	O	O	_	_	
+8-20	placed	O	B-RelNScrEv	_	_	
+8-21	inside	O	O	_	_	
+8-22	the	O	O	_	_	
+8-23	tire	B-ScrPart_spare_tube	O	webanno.custom.Corefchains_	8-18	
+8-24	and	O	O	_	_	
+8-25	not	O	O	_	_	
+8-26	pinched	O	B-RelNScrEv	_	_	
+8-27	at	O	O	_	_	
+8-28	all	O	O	_	_	
+8-29	.	O	O	_	_	
+
+#id=9
+#text=Once the tire was on the rim , I inflated the tube , making sure that the tire seated onto the rim properly and that everything held air .
+9-1	Once	O	O	_	_	
+9-2	the	O	O	_	_	
+9-3	tire	B-ScrPart_spare_tube	O	webanno.custom.Corefchains_	8-23	
+9-4	was	O	B-UnrelEv	_	_	
+9-5	on	O	O	_	_	
+9-6	the	O	O	_	_	
+9-7	rim	B-ScrPart_rim	O	webanno.custom.Corefchains_	8-13	
+9-8	,	O	O	_	_	
+9-9	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	8-5	
+9-10	inflated	O	B-ScrEv_refill_tire_air	_	_	
+9-11	the	O	O	_	_	
+9-12	tube	B-ScrPart_spare_tube	O	webanno.custom.Corefchains_	9-3	
+9-13	,	O	O	_	_	
+9-14	making	O	B-UnrelEv|B-UnrelEv	_	_	
+9-15	sure	O	I-UnrelEv	_	_	
+9-16	that	O	O	_	_	
+9-17	the	O	O	_	_	
+9-18	tire	B-ScrPart_spare_tube	O	webanno.custom.Corefchains_	9-12	
+9-19	seated	O	B-RelNScrEv	_	_	
+9-20	onto	O	O	_	_	
+9-21	the	O	O	_	_	
+9-22	rim	B-ScrPart_rim	O	webanno.custom.Corefchains_	9-7	
+9-23	properly	O	O	_	_	
+9-24	and	O	O	_	_	
+9-25	that	O	O	_	_	
+9-26	everything	B-NPart	O	_	_	
+9-27	held	O	B-RelNScrEv	_	_	
+9-28	air	B-ScrPart_air	O	_	_	
+9-29	.	O	O	_	_	
+
+#id=10
+#text=Finally , I reinstalled the wheel onto the bike , and reconnected everything appropriately . 
+10-1	Finally	O	O	_	_	
+10-2	,	O	O	_	_	
+10-3	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	9-9	
+10-4	reinstalled	O	B-ScrEv_put_new_tire	_	_	
+10-5	the	O	O	_	_	
+10-6	wheel	B-ScrPart_spare_tube	O	webanno.custom.Corefchains_	9-18	
+10-7	onto	O	O	_	_	
+10-8	the	O	O	_	_	
+10-9	bike	B-ScrPart_bicycle	O	webanno.custom.Corefchains_	5-16	
+10-10	,	O	O	_	_	
+10-11	and	O	O	_	_	
+10-12	reconnected	O	B-RelNScrEv	_	_	
+10-13	everything	B-NPart	O	_	_	
+10-14	appropriately	O	O	_	_	
+10-15	.	O	O	_	_	
+

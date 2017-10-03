@@ -1,0 +1,196 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events
+#id=1
+#text=I was had a very stressful day at work and decided the best way to relax tonight was with a nice , warm bath .
+1-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+1-2	was	O	O	O	
+1-3	had	O	O	B-UnrelEv	
+1-4	a	O	O	O	
+1-5	very	O	O	O	
+1-6	stressful	O	O	O	
+1-7	day	B-NPart	B-webanno.custom.Participants_	O	
+1-8	at	O	O	O	
+1-9	work	B-NPart	B-webanno.custom.Participants_	O	
+1-10	and	O	O	O	
+1-11	decided	O	O	B-UnrelEv	
+1-12	the	O	O	O	
+1-13	best	O	O	O	
+1-14	way	B-No_label	B-webanno.custom.Participants_	O	
+1-15	to	O	O	O	
+1-16	relax	O	O	B-UnrelEv	
+1-17	tonight	B-NPart	B-webanno.custom.Participants_	O	
+1-18	was	O	O	B-Evoking	
+1-19	with	O	O	I-Evoking	
+1-20	a	O	O	I-Evoking	
+1-21	nice	O	O	I-Evoking	
+1-22	,	O	O	I-Evoking	
+1-23	warm	O	O	I-Evoking	
+1-24	bath	B-ScrPart_bath	B-webanno.custom.Participants_	I-Evoking	
+1-25	.	O	O	O	
+
+#id=2
+#text=I set down a few candles , not too many , and started the water .
+2-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+2-2	set	O	O	B-ScrEv_prepare_bath|B-ScrEv_prepare_bath	
+2-3	down	O	O	I-ScrEv_prepare_bath	
+2-4	a	O	O	O	
+2-5	few	O	O	O	
+2-6	candles	B-ScrPart_in-bath_entertainment	B-webanno.custom.Participants_	O	
+2-7	,	O	O	O	
+2-8	not	O	O	O	
+2-9	too	O	O	O	
+2-10	many	O	O	O	
+2-11	,	O	O	O	
+2-12	and	O	O	O	
+2-13	started	O	O	B-ScrEv_turn_water_on	
+2-14	the	O	O	O	
+2-15	water	B-ScrPart_water	B-webanno.custom.Participants_	O	
+2-16	.	O	O	O	
+
+#id=3
+#text=After I let the water warm up a bit , I stopped the drain , and the tub slowly filled with warm water .
+3-1	After	O	O	O	
+3-2	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+3-3	let	O	O	B-UnrelEv	
+3-4	the	O	O	O	
+3-5	water	B-ScrPart_water	B-webanno.custom.Participants_	O	
+3-6	warm	O	O	B-RelNScrEv|B-RelNScrEv	
+3-7	up	O	O	I-RelNScrEv	
+3-8	a	O	O	O	
+3-9	bit	B-No_label	B-webanno.custom.Participants_	O	
+3-10	,	O	O	O	
+3-11	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+3-12	stopped	O	O	B-ScrEv_turn_water_off	
+3-13	the	O	O	O	
+3-14	drain	B-ScrPart_drain	B-webanno.custom.Participants_	O	
+3-15	,	O	O	O	
+3-16	and	O	O	O	
+3-17	the	O	O	O	
+3-18	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	
+3-19	slowly	O	O	O	
+3-20	filled	O	O	B-RelNScrEv	
+3-21	with	O	O	O	
+3-22	warm	O	O	O	
+3-23	water	B-ScrPart_water	B-webanno.custom.Participants_	O	
+3-24	.	O	O	O	
+
+#id=4
+#text=I put in some mineral salts to help make the experience more pleasing .
+4-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+4-2	put	O	O	B-ScrEv_put_bubble_bath_scent|B-ScrEv_put_bubble_bath_scent	
+4-3	in	O	O	I-ScrEv_put_bubble_bath_scent	
+4-4	some	O	O	O	
+4-5	mineral	B-ScrPart_bath_means	B-webanno.custom.Participants_	O	
+4-6	salts	I-ScrPart_bath_means|B-ScrPart_bath_means	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+4-7	to	O	O	O	
+4-8	help	O	O	B-UnrelEv	
+4-9	make	O	O	B-UnrelEv	
+4-10	the	O	O	O	
+4-11	experience	B-NPart	B-webanno.custom.Participants_	O	
+4-12	more	O	O	O	
+4-13	pleasing	O	O	B-UnrelEv	
+4-14	.	O	O	O	
+
+#id=5
+#text=Once the tub was full , I took off all my clothes and got inside .
+5-1	Once	O	O	O	
+5-2	the	O	O	O	
+5-3	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	
+5-4	was	O	O	B-UnrelEv	
+5-5	full	O	O	O	
+5-6	,	O	O	O	
+5-7	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+5-8	took	O	O	B-ScrEv_undress|B-ScrEv_undress	
+5-9	off	O	O	I-ScrEv_undress	
+5-10	all	O	O	O	
+5-11	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+5-12	clothes	B-ScrPart_clothes	B-webanno.custom.Participants_	O	
+5-13	and	O	O	O	
+5-14	got	O	O	B-ScrEv_sink_water	
+5-15	inside	O	O	O	
+5-16	.	O	O	O	
+
+#id=6
+#text=For the most part , all I did was rest there and relax .
+6-1	For	O	O	O	
+6-2	the	O	O	O	
+6-3	most	O	O	O	
+6-4	part	B-No_label	B-webanno.custom.Participants_	O	
+6-5	,	O	O	O	
+6-6	all	O	O	O	
+6-7	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+6-8	did	O	O	B-UnrelEv	
+6-9	was	O	O	O	
+6-10	rest	O	O	B-ScrEv_relax	
+6-11	there	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	
+6-12	and	O	O	O	
+6-13	relax	O	O	B-ScrEv_relax	
+6-14	.	O	O	O	
+
+#id=7
+#text=It was a great way to slow things down on a fast-paced day .
+7-1	It	B-No_label	B-webanno.custom.Participants_	O	
+7-2	was	O	O	B-UnrelEv	
+7-3	a	O	O	O	
+7-4	great	O	O	O	
+7-5	way	B-No_label	B-webanno.custom.Participants_	O	
+7-6	to	O	O	O	
+7-7	slow	O	O	B-UnrelEv	
+7-8	things	B-No_label	B-webanno.custom.Participants_	O	
+7-9	down	O	O	O	
+7-10	on	O	O	O	
+7-11	a	O	O	O	
+7-12	fast-paced	O	O	B-UnrelEv	
+7-13	day	B-NPart	B-webanno.custom.Participants_	O	
+7-14	.	O	O	O	
+
+#id=8
+#text=For several minutes , I just enjoyed the warm water but I made sure to wash up with soap and shampoo before the water got too cold .
+8-1	For	O	O	O	
+8-2	several	O	O	O	
+8-3	minutes	B-NPart	B-webanno.custom.Participants_	O	
+8-4	,	O	O	O	
+8-5	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+8-6	just	O	O	O	
+8-7	enjoyed	O	O	B-ScrEv_relax	
+8-8	the	O	O	O	
+8-9	warm	O	O	O	
+8-10	water	B-ScrPart_water	B-webanno.custom.Participants_	O	
+8-11	but	O	O	O	
+8-12	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+8-13	made	O	O	B-UnrelEv|B-UnrelEv	
+8-14	sure	O	O	I-UnrelEv	
+8-15	to	O	O	O	
+8-16	wash	O	O	B-ScrEv_wash|B-ScrEv_wash	
+8-17	up	O	O	I-ScrEv_wash	
+8-18	with	O	O	O	
+8-19	soap	B-ScrPart_washing_tools	B-webanno.custom.Participants_	O	
+8-20	and	O	O	O	
+8-21	shampoo	B-ScrPart_washing_tools	B-webanno.custom.Participants_	O	
+8-22	before	O	O	O	
+8-23	the	O	O	O	
+8-24	water	B-ScrPart_water	B-webanno.custom.Participants_	O	
+8-25	got	O	O	B-RelNScrEv	
+8-26	too	O	O	O	
+8-27	cold	O	O	O	
+8-28	.	O	O	O	
+
+#id=9
+#text=Once , I was done I unplugged the tub drain and got to dry myself off . 
+9-1	Once	O	O	O	
+9-2	,	O	O	O	
+9-3	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+9-4	was	O	O	O	
+9-5	done	O	O	B-UnrelEv	
+9-6	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+9-7	unplugged	O	O	B-ScrEv_open_drain	
+9-8	the	O	O	O	
+9-9	tub	B-ScrPart_drain	B-webanno.custom.Participants_	O	
+9-10	drain	I-ScrPart_drain|B-ScrPart_drain	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+9-11	and	O	O	O	
+9-12	got	O	O	B-UnrelEv	
+9-13	to	O	O	O	
+9-14	dry	O	O	B-ScrEv_dry	
+9-15	myself	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+9-16	off	O	O	O	
+9-17	.	O	O	O	
+

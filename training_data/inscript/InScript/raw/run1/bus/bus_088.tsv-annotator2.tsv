@@ -1,0 +1,216 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Eventsandparticipants | Event # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Last Friday , my car broke down .
+1-1	Last	O	O	_	_	
+1-2	Friday	O	O	_	_	
+1-3	,	O	O	_	_	
+1-4	my	B-ScrPart_passenger	O	_	_	
+1-5	car	O	O	_	_	
+1-6	broke	O	B-UnrelEv	_	_	
+1-7	down	O	I-UnrelEv	_	_	
+1-8	.	O	O	_	_	
+
+#id=2
+#text=I had to get to work Monday , so I decided to ride the public bus since it ran fairly close to my home and work both .
+2-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-4	
+2-2	had	O	O	_	_	
+2-3	to	O	O	_	_	
+2-4	get	O	B-RelNScrEv	_	_	
+2-5	to	O	O	_	_	
+2-6	work	B-ScrPart_destination	O	_	_	
+2-7	Monday	B-ScrPart_time/date	O	_	_	
+2-8	,	O	O	_	_	
+2-9	so	O	O	_	_	
+2-10	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-1	
+2-11	decided	O	B-UnrelEv	_	_	
+2-12	to	O	O	_	_	
+2-13	ride	O	B-Evoking	_	_	
+2-14	the	O	I-Evoking	_	_	
+2-15	public	O	I-Evoking	_	_	
+2-16	bus	B-ScrPart_bus	I-Evoking	_	_	
+2-17	since	O	O	_	_	
+2-18	it	B-ScrPart_bus	O	webanno.custom.Corefchains_	2-16	
+2-19	ran	O	B-RelNScrEv	_	_	
+2-20	fairly	O	O	_	_	
+2-21	close	O	O	_	_	
+2-22	to	O	O	_	_	
+2-23	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-10	
+2-24	home	O	O	_	_	
+2-25	and	O	O	_	_	
+2-26	work	B-ScrPart_destination	O	webanno.custom.Corefchains_	2-6	
+2-27	both	O	O	_	_	
+2-28	.	O	O	_	_	
+
+#id=3
+#text=Monday morning I got ready early and set off to wait at the bus stop .
+3-1	Monday	B-ScrPart_time/date	O	_	_	
+3-2	morning	I-ScrPart_time/date|B-ScrPart_time/date	O	_	_	
+3-3	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-23	
+3-4	got	O	B-RelNScrEv	_	_	
+3-5	ready	O	I-RelNScrEv	_	_	
+3-6	early	O	O	_	_	
+3-7	and	O	O	_	_	
+3-8	set	O	B-ScrEv_get_bus_stop	_	_	
+3-9	off	O	I-ScrEv_get_bus_stop	_	_	
+3-10	to	O	O	_	_	
+3-11	wait	O	B-ScrEv_wait	_	_	
+3-12	at	O	O	_	_	
+3-13	the	O	O	_	_	
+3-14	bus	B-ScrPart_bus_stop	O	_	_	
+3-15	stop	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	_	_	
+3-16	.	O	O	_	_	
+
+#id=4
+#text=After sitting for quite a while , the bus finally pulled up .
+4-1	After	O	O	_	_	
+4-2	sitting	O	B-ScrEv_wait	_	_	
+4-3	for	O	O	_	_	
+4-4	quite	O	O	_	_	
+4-5	a	O	O	_	_	
+4-6	while	B-ScrPart_time/date	O	_	_	
+4-7	,	O	O	_	_	
+4-8	the	O	O	_	_	
+4-9	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	2-18	
+4-10	finally	O	O	_	_	
+4-11	pulled	O	B-ScrEv_bus_comes	_	_	
+4-12	up	O	I-ScrEv_bus_comes	_	_	
+4-13	.	O	O	_	_	
+
+#id=5
+#text=I let others at the stop get on first , then I got on .
+5-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-3	
+5-2	let	O	O	_	_	
+5-3	others	B-ScrPart_passenger	O	_	_	
+5-4	at	O	O	_	_	
+5-5	the	O	O	_	_	
+5-6	stop	B-ScrPart_bus_stop	O	webanno.custom.Corefchains_	3-15	
+5-7	get	O	B-ScrEv_board_bus	_	_	
+5-8	on	O	I-ScrEv_board_bus	_	_	
+5-9	first	O	O	_	_	
+5-10	,	O	O	_	_	
+5-11	then	O	O	_	_	
+5-12	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-1	
+5-13	got	O	B-ScrEv_board_bus	_	_	
+5-14	on	O	I-ScrEv_board_bus	_	_	
+5-15	.	O	O	_	_	
+
+#id=6
+#text=I asked the bus driver how much the fare was and he told me .
+6-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-12	
+6-2	asked	O	B-RelNScrEv	_	_	
+6-3	the	O	O	_	_	
+6-4	bus	B-ScrPart_bus_staff	O	_	_	
+6-5	driver	I-ScrPart_bus_staff|B-ScrPart_bus_staff	O	_	_	
+6-6	how	O	O	_	_	
+6-7	much	O	O	_	_	
+6-8	the	O	O	_	_	
+6-9	fare	B-ScrPart_money	O	_	_	
+6-10	was	O	B-UnrelEv	_	_	
+6-11	and	O	O	_	_	
+6-12	he	B-ScrPart_bus_staff	O	webanno.custom.Corefchains_	6-5	
+6-13	told	O	B-RelNScrEv	_	_	
+6-14	me	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-1	
+6-15	.	O	O	_	_	
+
+#id=7
+#text=I paid the fare by sticking my money in the box near the bus driver , and walked to find a free seat .
+7-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-14	
+7-2	paid	O	B-ScrEv_get_ticket	_	_	
+7-3	the	O	O	_	_	
+7-4	fare	B-ScrPart_money	O	webanno.custom.Corefchains_	6-9	
+7-5	by	O	O	_	_	
+7-6	sticking	O	B-ScrEv_get_ticket	_	_	
+7-7	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-1	
+7-8	money	B-ScrPart_money	O	webanno.custom.Corefchains_	7-4	
+7-9	in	O	O	_	_	
+7-10	the	O	O	_	_	
+7-11	box	B-ScrPart_payment_machine	O	_	_	
+7-12	near	O	O	_	_	
+7-13	the	O	O	_	_	
+7-14	bus	B-ScrPart_bus_staff	O	_	_	
+7-15	driver	I-ScrPart_bus_staff|B-ScrPart_bus_staff	O	webanno.custom.Corefchains_	6-12	
+7-16	,	O	O	_	_	
+7-17	and	O	O	_	_	
+7-18	walked	O	B-ScrEv_find_place	_	_	
+7-19	to	O	O	_	_	
+7-20	find	O	B-ScrEv_find_place	_	_	
+7-21	a	O	O	_	_	
+7-22	free	O	O	_	_	
+7-23	seat	B-ScrPart_seat_in_bus	O	_	_	
+7-24	.	O	O	_	_	
+
+#id=8
+#text=I found one near the back of the bus , and I sat down .
+8-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-7	
+8-2	found	O	B-ScrEv_find_place	_	_	
+8-3	one	B-ScrPart_seat_in_bus	O	webanno.custom.Corefchains_	7-23	
+8-4	near	O	O	_	_	
+8-5	the	O	O	_	_	
+8-6	back	B-NPart	O	_	_	
+8-7	of	O	O	_	_	
+8-8	the	O	O	_	_	
+8-9	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	4-9	
+8-10	,	O	O	_	_	
+8-11	and	O	O	_	_	
+8-12	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-1	
+8-13	sat	O	B-ScrEv_find_place	_	_	
+8-14	down	O	I-ScrEv_find_place	_	_	
+8-15	.	O	O	_	_	
+
+#id=9
+#text=The bus ride was fairly quick and uneventful .
+9-1	The	O	O	_	_	
+9-2	bus	B-???	O	_	_	
+9-3	ride	I-???|B-???	O	_	_	
+9-4	was	O	B-UnrelEv	_	_	
+9-5	fairly	O	O	_	_	
+9-6	quick	O	O	_	_	
+9-7	and	O	O	_	_	
+9-8	uneventful	O	O	_	_	
+9-9	.	O	O	_	_	
+
+#id=10
+#text=I noted that the ride went the same route that I did .
+10-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-12	
+10-2	noted	O	B-UnrelEv	_	_	
+10-3	that	O	O	_	_	
+10-4	the	O	O	_	_	
+10-5	ride	B-???	O	_	_	
+10-6	went	O	B-MissScrEv	_	_	
+10-7	the	O	O	_	_	
+10-8	same	O	O	_	_	
+10-9	route	B-MissScrPart	O	_	_	
+10-10	that	O	O	_	_	
+10-11	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-1	
+10-12	did	O	O	_	_	
+10-13	.	O	O	_	_	
+
+#id=11
+#text=Once the bus stopped at the stop near my work , I disembarked .
+11-1	Once	O	O	_	_	
+11-2	the	O	O	_	_	
+11-3	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	8-9	
+11-4	stopped	O	B-ScrEv_bus_stops	_	_	
+11-5	at	O	O	_	_	
+11-6	the	O	O	_	_	
+11-7	stop	B-ScrPart_bus_stop	O	_	_	
+11-8	near	O	O	_	_	
+11-9	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-11	
+11-10	work	B-ScrPart_destination	O	webanno.custom.Corefchains_	2-26	
+11-11	,	O	O	_	_	
+11-12	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	11-9	
+11-13	disembarked	O	B-ScrEv_get_off	_	_	
+11-14	.	O	O	_	_	
+
+#id=12
+#text=That 's how I rode the public bus . 
+12-1	That	O	O	_	_	
+12-2	's	O	O	_	_	
+12-3	how	O	O	_	_	
+12-4	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	11-12	
+12-5	rode	O	B-Evoking	_	_	
+12-6	the	O	I-Evoking	_	_	
+12-7	public	O	I-Evoking	_	_	
+12-8	bus	B-ScrPart_bus	I-Evoking	webanno.custom.Corefchains_	11-3	
+12-9	.	O	O	_	_	
+

@@ -1,0 +1,387 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Event | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I often use the public bus system locally to get around town , as it is much cheaper than driving .
+1-1	I	B-ScrPart_bus	O	O	_	_	
+1-2	often	O	O	O	_	_	
+1-3	use	O	B-webanno.custom.Events_	B-Evoking	_	_	
+1-4	the	O	I-webanno.custom.Events_	I-Evoking	_	_	
+1-5	public	O	I-webanno.custom.Events_	I-Evoking	_	_	
+1-6	bus	B-ScrPart_other	I-webanno.custom.Events_	I-Evoking	_	_	
+1-7	system	I-ScrPart_other|B-ScrPart_other	I-webanno.custom.Events_	I-Evoking	_	_	
+1-8	locally	O	O	O	_	_	
+1-9	to	O	O	O	_	_	
+1-10	get	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+1-11	around	O	I-webanno.custom.Events_	I-RelNScrEv	_	_	
+1-12	town	B-NPart	O	O	_	_	
+1-13	,	O	O	O	_	_	
+1-14	as	O	O	O	_	_	
+1-15	it	B-No_label	O	O	_	_	
+1-16	is	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+1-17	much	O	O	O	_	_	
+1-18	cheaper	O	O	O	_	_	
+1-19	than	O	O	O	_	_	
+1-20	driving	O	O	O	_	_	
+1-21	.	O	O	O	_	_	
+
+#id=2
+#text=Before I leave home , I always make sure that I have enough money to pay for riding the bus wherever I need to go that day and back home .
+2-1	Before	O	O	O	_	_	
+2-2	I	B-ScrPart_bus	O	O	_	_	
+2-3	leave	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+2-4	home	B-NPart	O	O	_	_	
+2-5	,	O	O	O	_	_	
+2-6	I	B-ScrPart_bus	O	O	_	_	
+2-7	always	O	O	O	_	_	
+2-8	make	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+2-9	sure	O	I-webanno.custom.Events_	I-RelNScrEv	_	_	
+2-10	that	O	O	O	_	_	
+2-11	I	B-ScrPart_bus	O	O	_	_	
+2-12	have	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+2-13	enough	O	O	O	_	_	
+2-14	money	B-ScrPart_money	O	O	_	_	
+2-15	to	O	O	O	_	_	
+2-16	pay	O	B-webanno.custom.Events_	B-ScrEv_get_ticket	_	_	
+2-17	for	O	O	O	_	_	
+2-18	riding	O	B-webanno.custom.Events_	B-Evoking	_	_	
+2-19	the	O	I-webanno.custom.Events_	I-Evoking	_	_	
+2-20	bus	B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	_	_	
+2-21	wherever	O	O	O	_	_	
+2-22	I	B-ScrPart_passenger	O	O	_	_	
+2-23	need	O	O	O	_	_	
+2-24	to	O	O	O	_	_	
+2-25	go	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+2-26	that	O	O	O	_	_	
+2-27	day	B-NPart	O	O	_	_	
+2-28	and	O	O	O	_	_	
+2-29	back	O	O	O	_	_	
+2-30	home	B-NPart	O	O	_	_	
+2-31	.	O	O	O	_	_	
+
+#id=3
+#text=This is especially important if I am going to be buying anything else that day .
+3-1	This	O	O	O	_	_	
+3-2	is	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+3-3	especially	O	O	O	_	_	
+3-4	important	O	O	O	_	_	
+3-5	if	O	O	O	_	_	
+3-6	I	B-ScrPart_passenger	O	O	_	_	
+3-7	am	O	O	O	_	_	
+3-8	going	O	O	O	_	_	
+3-9	to	O	O	O	_	_	
+3-10	be	O	O	O	_	_	
+3-11	buying	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+3-12	anything	B-NPart	O	O	_	_	
+3-13	else	O	O	O	_	_	
+3-14	that	O	O	O	_	_	
+3-15	day	B-NPart	O	O	_	_	
+3-16	.	O	O	O	_	_	
+
+#id=4
+#text=Some bus systems have a special price for certain groups , like students .
+4-1	Some	O	O	O	_	_	
+4-2	bus	B-ScrPart_other	O	O	_	_	
+4-3	systems	I-ScrPart_other|B-ScrPart_other	O	O	webanno.custom.Corefchains_	1-7	
+4-4	have	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+4-5	a	O	O	O	_	_	
+4-6	special	O	O	O	_	_	
+4-7	price	B-ScrPart_money	O	O	_	_	
+4-8	for	O	O	O	_	_	
+4-9	certain	O	O	O	_	_	
+4-10	groups	B-NPart	O	O	_	_	
+4-11	,	O	O	O	_	_	
+4-12	like	O	O	O	_	_	
+4-13	students	B-NPart	O	O	_	_	
+4-14	.	O	O	O	_	_	
+
+#id=5
+#text=I am able to use my student ID card to get a discounted rate .
+5-1	I	B-ScrPart_passenger	O	O	_	_	
+5-2	am	O	O	O	_	_	
+5-3	able	O	O	O	_	_	
+5-4	to	O	O	O	_	_	
+5-5	use	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+5-6	my	B-ScrPart_passenger	O	O	_	_	
+5-7	student	B-NPart	O	O	_	_	
+5-8	ID	I-NPart	O	O	_	_	
+5-9	card	I-NPart|B-NPart	O	O	_	_	
+5-10	to	O	O	O	_	_	
+5-11	get	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+5-12	a	O	O	O	_	_	
+5-13	discounted	O	O	O	_	_	
+5-14	rate	B-ScrPart_money	O	O	_	_	
+5-15	.	O	O	O	_	_	
+
+#id=6
+#text=I have a bus schedule at home where I can easily check it , but I have it memorized because I use it so much .
+6-1	I	B-ScrPart_passenger	O	O	_	_	
+6-2	have	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+6-3	a	O	O	O	_	_	
+6-4	bus	B-ScrPart_time-table	O	O	_	_	
+6-5	schedule	I-ScrPart_time-table|B-ScrPart_time-table	O	O	_	_	
+6-6	at	O	O	O	_	_	
+6-7	home	B-NPart	O	O	_	_	
+6-8	where	O	O	O	_	_	
+6-9	I	B-ScrPart_passenger	O	O	_	_	
+6-10	can	O	O	O	_	_	
+6-11	easily	O	O	O	_	_	
+6-12	check	O	B-webanno.custom.Events_	B-ScrEv_check_time-table	_	_	
+6-13	it	B-ScrPart_time-table	O	O	_	_	
+6-14	,	O	O	O	_	_	
+6-15	but	O	O	O	_	_	
+6-16	I	B-ScrPart_passenger	O	O	_	_	
+6-17	have	O	O	O	_	_	
+6-18	it	B-ScrPart_time-table	O	O	_	_	
+6-19	memorized	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+6-20	because	O	O	O	_	_	
+6-21	I	B-ScrPart_passenger	O	O	_	_	
+6-22	use	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+6-23	it	B-ScrPart_time-table	O	O	_	_	
+6-24	so	O	O	O	_	_	
+6-25	much	O	O	O	_	_	
+6-26	.	O	O	O	_	_	
+
+#id=7
+#text=I make sure I leave to go to the bus stop so that I get there about five minutes early .
+7-1	I	B-ScrPart_passenger	O	O	_	_	
+7-2	make	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+7-3	sure	O	I-webanno.custom.Events_	I-UnrelEv	_	_	
+7-4	I	B-ScrPart_passenger	O	O	_	_	
+7-5	leave	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+7-6	to	O	O	O	_	_	
+7-7	go	O	B-webanno.custom.Events_	B-ScrEv_get_bus_stop	_	_	
+7-8	to	O	O	O	_	_	
+7-9	the	O	O	O	_	_	
+7-10	bus	B-ScrPart_bus_stop	O	O	_	_	
+7-11	stop	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	O	_	_	
+7-12	so	O	O	O	_	_	
+7-13	that	O	O	O	_	_	
+7-14	I	B-ScrPart_passenger	O	O	_	_	
+7-15	get	O	B-webanno.custom.Events_	B-ScrEv_get_bus_stop	_	_	
+7-16	there	B-ScrPart_bus_stop	O	O	_	_	
+7-17	about	O	O	O	_	_	
+7-18	five	O	O	O	_	_	
+7-19	minutes	B-ScrPart_time/date	O	O	_	_	
+7-20	early	O	O	O	_	_	
+7-21	.	O	O	O	_	_	
+
+#id=8
+#text=Usually the bus is on time , as long as there have n't been any issues that day .
+8-1	Usually	O	O	O	_	_	
+8-2	the	O	O	O	_	_	
+8-3	bus	B-ScrPart_bus	O	O	_	_	
+8-4	is	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+8-5	on	O	O	O	_	_	
+8-6	time	B-No_label	O	O	_	_	
+8-7	,	O	O	O	_	_	
+8-8	as	O	O	O	_	_	
+8-9	long	O	O	O	_	_	
+8-10	as	O	O	O	_	_	
+8-11	there	O	O	O	_	_	
+8-12	have	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+8-13	n't	O	O	O	_	_	
+8-14	been	O	O	O	_	_	
+8-15	any	O	O	O	_	_	
+8-16	issues	B-NPart	O	O	_	_	
+8-17	that	O	O	O	_	_	
+8-18	day	B-NPart	O	O	_	_	
+8-19	.	O	O	O	_	_	
+
+#id=9
+#text=When the bus arrives , I first check that it is the bus number for where I want to go , as different bus lines go to different areas of the city .
+9-1	When	O	O	O	_	_	
+9-2	the	O	O	O	_	_	
+9-3	bus	B-ScrPart_bus	O	O	_	_	
+9-4	arrives	O	B-webanno.custom.Events_	B-ScrEv_bus_comes	_	_	
+9-5	,	O	O	O	_	_	
+9-6	I	B-ScrPart_passenger	O	O	_	_	
+9-7	first	O	O	O	_	_	
+9-8	check	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+9-9	that	O	O	O	_	_	
+9-10	it	B-No_label	O	O	_	_	
+9-11	is	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+9-12	the	O	O	O	_	_	
+9-13	bus	B-ScrPart_other	O	O	_	_	
+9-14	number	I-ScrPart_other|B-ScrPart_other	O	O	_	_	
+9-15	for	O	O	O	_	_	
+9-16	where	O	O	O	_	_	
+9-17	I	B-ScrPart_passenger	O	O	_	_	
+9-18	want	O	O	O	_	_	
+9-19	to	O	O	O	_	_	
+9-20	go	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+9-21	,	O	O	O	_	_	
+9-22	as	O	O	O	_	_	
+9-23	different	O	O	O	_	_	
+9-24	bus	B-NPart	O	O	_	_	
+9-25	lines	I-NPart|B-NPart	O	O	_	_	
+9-26	go	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+9-27	to	O	O	O	_	_	
+9-28	different	O	O	O	_	_	
+9-29	areas	B-NPart	O	O	_	_	
+9-30	of	O	O	O	_	_	
+9-31	the	O	O	O	_	_	
+9-32	city	B-NPart	O	O	_	_	
+9-33	.	O	O	O	_	_	
+
+#id=10
+#text=When I get on the bus , I have to show my ID and pay , and then I can go to a seat .
+10-1	When	O	O	O	_	_	
+10-2	I	B-ScrPart_passenger	O	O	_	_	
+10-3	get	O	B-webanno.custom.Events_	B-ScrEv_board_bus	_	_	
+10-4	on	O	I-webanno.custom.Events_	I-ScrEv_board_bus	_	_	
+10-5	the	O	O	O	_	_	
+10-6	bus	B-ScrPart_bus	O	O	_	_	
+10-7	,	O	O	O	_	_	
+10-8	I	B-ScrPart_passenger	O	O	_	_	
+10-9	have	O	O	O	_	_	
+10-10	to	O	O	O	_	_	
+10-11	show	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+10-12	my	B-ScrPart_passenger	O	O	_	_	
+10-13	ID	B-NPart	O	O	_	_	
+10-14	and	O	O	O	_	_	
+10-15	pay	O	B-webanno.custom.Events_	B-ScrEv_get_ticket	_	_	
+10-16	,	O	O	O	_	_	
+10-17	and	O	O	O	_	_	
+10-18	then	O	O	O	_	_	
+10-19	I	B-ScrPart_passenger	O	O	_	_	
+10-20	can	O	O	O	_	_	
+10-21	go	O	B-webanno.custom.Events_	B-ScrEv_find_place	_	_	
+10-22	to	O	O	O	_	_	
+10-23	a	O	O	O	_	_	
+10-24	seat	B-ScrPart_seat_in_bus	O	O	_	_	
+10-25	.	O	O	O	_	_	
+
+#id=11
+#text=Sometimes the bus can be pretty full , and I have to sit next to someone else .
+11-1	Sometimes	O	O	O	_	_	
+11-2	the	O	O	O	_	_	
+11-3	bus	B-ScrPart_bus	O	O	_	_	
+11-4	can	O	O	O	_	_	
+11-5	be	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+11-6	pretty	O	O	O	_	_	
+11-7	full	O	O	O	_	_	
+11-8	,	O	O	O	_	_	
+11-9	and	O	O	O	_	_	
+11-10	I	B-ScrPart_passenger	O	O	_	_	
+11-11	have	O	O	O	_	_	
+11-12	to	O	O	O	_	_	
+11-13	sit	O	B-webanno.custom.Events_	B-ScrEv_spend_time_bus	_	_	
+11-14	next	O	O	O	_	_	
+11-15	to	O	O	O	_	_	
+11-16	someone	B-ScrPart_passenger	O	O	_	_	
+11-17	else	O	O	O	_	_	
+11-18	.	O	O	O	_	_	
+
+#id=12
+#text=A lot of the same people will often ride the bus with me , so I get to know them .
+12-1	A	O	O	O	_	_	
+12-2	lot	B-Head_of_Partitive	O	O	_	_	
+12-3	of	O	O	O	_	_	
+12-4	the	O	O	O	_	_	
+12-5	same	O	O	O	_	_	
+12-6	people	B-ScrPart_passenger	O	O	_	_	
+12-7	will	O	O	O	_	_	
+12-8	often	O	O	O	_	_	
+12-9	ride	O	B-webanno.custom.Events_	B-Evoking	_	_	
+12-10	the	O	I-webanno.custom.Events_	I-Evoking	_	_	
+12-11	bus	B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	_	_	
+12-12	with	O	O	O	_	_	
+12-13	me	B-ScrPart_passenger	O	O	_	_	
+12-14	,	O	O	O	_	_	
+12-15	so	O	O	O	_	_	
+12-16	I	B-ScrPart_passenger	O	O	_	_	
+12-17	get	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+12-18	to	O	I-webanno.custom.Events_	I-UnrelEv	_	_	
+12-19	know	O	I-webanno.custom.Events_	I-UnrelEv	_	_	
+12-20	them	B-ScrPart_passenger	O	O	_	_	
+12-21	.	O	O	O	_	_	
+
+#id=13
+#text=I will sometimes bring a book with me to read while I ride the bus .
+13-1	I	B-ScrPart_passenger	O	O	_	_	
+13-2	will	O	O	O	_	_	
+13-3	sometimes	O	O	O	_	_	
+13-4	bring	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+13-5	a	O	O	O	_	_	
+13-6	book	B-ScrPart_in-bus_entertainment	O	O	_	_	
+13-7	with	O	O	O	_	_	
+13-8	me	B-ScrPart_passenger	O	O	_	_	
+13-9	to	O	O	O	_	_	
+13-10	read	O	B-webanno.custom.Events_	B-ScrEv_spend_time_bus	_	_	
+13-11	while	O	O	O	_	_	
+13-12	I	B-ScrPart_passenger	O	O	_	_	
+13-13	ride	O	B-webanno.custom.Events_	B-Evoking	_	_	
+13-14	the	O	I-webanno.custom.Events_	I-Evoking	_	_	
+13-15	bus	B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	_	_	
+13-16	.	O	O	O	_	_	
+
+#id=14
+#text=I make sure to pay attention to what stop we are at , and start to prepare one stop ahead of where I need to get off the bus .
+14-1	I	B-ScrPart_passenger	O	O	_	_	
+14-2	make	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+14-3	sure	O	I-webanno.custom.Events_	I-UnrelEv	_	_	
+14-4	to	O	O	O	_	_	
+14-5	pay	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+14-6	attention	B-SuppVComp	O	O	_	_	
+14-7	to	O	O	O	_	_	
+14-8	what	O	O	O	_	_	
+14-9	stop	B-ScrPart_bus_stop	O	O	_	_	
+14-10	we	B-ScrPart_passenger	O	O	_	_	
+14-11	are	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+14-12	at	O	O	O	_	_	
+14-13	,	O	O	O	_	_	
+14-14	and	O	O	O	_	_	
+14-15	start	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+14-16	to	O	O	O	_	_	
+14-17	prepare	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+14-18	one	O	O	O	_	_	
+14-19	stop	B-ScrPart_bus_stop	O	O	_	_	
+14-20	ahead	O	O	O	_	_	
+14-21	of	O	O	O	_	_	
+14-22	where	O	O	O	_	_	
+14-23	I	B-ScrPart_passenger	O	O	_	_	
+14-24	need	O	O	O	_	_	
+14-25	to	O	O	O	_	_	
+14-26	get	O	B-webanno.custom.Events_	B-ScrEv_get_off	_	_	
+14-27	off	O	I-webanno.custom.Events_	I-ScrEv_get_off	_	_	
+14-28	the	O	O	O	_	_	
+14-29	bus	B-ScrPart_bus	O	O	_	_	
+14-30	.	O	O	O	_	_	
+
+#id=15
+#text=Once I arrive at my bus stop , I walk to the front of the bus and thank the driver , then hop off and continue with whatever I need to do that day . 
+15-1	Once	O	O	O	_	_	
+15-2	I	B-ScrPart_passenger	O	O	_	_	
+15-3	arrive	O	B-webanno.custom.Events_	B-ScrEv_bus_stops	_	_	
+15-4	at	O	O	O	_	_	
+15-5	my	B-ScrPart_passenger	O	O	_	_	
+15-6	bus	B-ScrPart_bus_stop	O	O	_	_	
+15-7	stop	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	O	_	_	
+15-8	,	O	O	O	_	_	
+15-9	I	B-ScrPart_passenger	O	O	_	_	
+15-10	walk	O	B-webanno.custom.Events_	B-ScrEv_go_exit	_	_	
+15-11	to	O	O	O	_	_	
+15-12	the	O	O	O	_	_	
+15-13	front	B-NPart	O	O	_	_	
+15-14	of	O	O	O	_	_	
+15-15	the	O	O	O	_	_	
+15-16	bus	B-ScrPart_bus	O	O	_	_	
+15-17	and	O	O	O	_	_	
+15-18	thank	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+15-19	the	O	O	O	_	_	
+15-20	driver	B-ScrPart_bus_staff	O	O	_	_	
+15-21	,	O	O	O	_	_	
+15-22	then	O	O	O	_	_	
+15-23	hop	O	B-webanno.custom.Events_	B-ScrEv_get_off	_	_	
+15-24	off	O	I-webanno.custom.Events_	I-ScrEv_get_off	_	_	
+15-25	and	O	O	O	_	_	
+15-26	continue	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+15-27	with	O	O	O	_	_	
+15-28	whatever	O	O	O	_	_	
+15-29	I	B-ScrPart_passenger	O	O	_	_	
+15-30	need	O	O	O	_	_	
+15-31	to	O	O	O	_	_	
+15-32	do	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+15-33	that	O	O	O	_	_	
+15-34	day	B-NPart	O	O	_	_	
+15-35	.	O	O	O	_	_	
+

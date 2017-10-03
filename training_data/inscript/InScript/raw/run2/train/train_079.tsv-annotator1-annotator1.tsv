@@ -1,0 +1,210 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=My family and I arrived at the station early in the morning because we had to make sure we were on time .
+1-1	My	B-ScrPart_passenger	O	_	_	
+1-2	family	B-ScrPart_passenger	O	_	_	
+1-3	and	O	O	_	_	
+1-4	I	B-ScrPart_passenger	O	_	_	
+1-5	arrived	O	B-ScrEv_get_train_station	_	_	
+1-6	at	O	O	_	_	
+1-7	the	O	O	_	_	
+1-8	station	B-ScrPart_train_station	O	_	_	
+1-9	early	O	O	_	_	
+1-10	in	O	O	_	_	
+1-11	the	O	O	_	_	
+1-12	morning	B-ScrPart_time_date	O	_	_	
+1-13	because	O	O	_	_	
+1-14	we	B-ScrPart_passenger	O	_	_	
+1-15	had	O	O	_	_	
+1-16	to	O	O	_	_	
+1-17	make	O	B-UnrelEv	_	_	
+1-18	sure	O	O	_	_	
+1-19	we	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-14	
+1-20	were	O	O	_	_	
+1-21	on	O	O	_	_	
+1-22	time	B-No_label	O	_	_	
+1-23	.	O	O	_	_	
+
+#id=2
+#text=Normally we are late to almost everything we do , so if we shoot for being early that normally means being on time .
+2-1	Normally	O	O	_	_	
+2-2	we	B-ScrPart_passenger	O	_	_	
+2-3	are	O	B-UnrelEv	_	_	
+2-4	late	O	O	_	_	
+2-5	to	O	O	_	_	
+2-6	almost	O	O	_	_	
+2-7	everything	B-No_label	O	_	_	
+2-8	we	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-2	
+2-9	do	O	B-UnrelEv	_	_	
+2-10	,	O	O	_	_	
+2-11	so	O	O	_	_	
+2-12	if	O	O	_	_	
+2-13	we	B-ScrPart_passenger	O	_	_	
+2-14	shoot	O	B-UnrelEv	_	_	
+2-15	for	O	O	_	_	
+2-16	being	O	B-UnrelEv	_	_	
+2-17	early	O	O	_	_	
+2-18	that	O	O	_	_	
+2-19	normally	O	O	_	_	
+2-20	means	O	B-UnrelEv	_	_	
+2-21	being	O	B-UnrelEv	_	_	
+2-22	on	O	O	_	_	
+2-23	time	B-No_label	O	_	_	
+2-24	.	O	O	_	_	
+
+#id=3
+#text=The train pulls up and we show our tickets and climb aboard .
+3-1	The	O	O	_	_	
+3-2	train	B-ScrPart_train	O	_	_	
+3-3	pulls	O	B-ScrEv_train_arrives|B-ScrEv_train_arrives	_	_	
+3-4	up	O	I-ScrEv_train_arrives	_	_	
+3-5	and	O	O	_	_	
+3-6	we	B-ScrPart_passenger	O	_	_	
+3-7	show	O	B-ScrEv_conductor_checks	_	_	
+3-8	our	B-ScrPart_passenger	O	_	_	
+3-9	tickets	B-ScrPart_card/ticket	O	_	_	
+3-10	and	O	O	_	_	
+3-11	climb	O	B-ScrEv_get_on|B-ScrEv_get_on	_	_	
+3-12	aboard	O	I-ScrEv_get_on	_	_	
+3-13	.	O	O	_	_	
+
+#id=4
+#text=We choose to ride the train because the plane tickets were simply way to expensive .
+4-1	We	B-ScrPart_passenger	O	_	_	
+4-2	choose	O	B-UnrelEv	_	_	
+4-3	to	O	O	_	_	
+4-4	ride	O	B-Evoking	_	_	
+4-5	the	O	I-Evoking	_	_	
+4-6	train	B-ScrPart_train	I-Evoking	_	_	
+4-7	because	O	O	_	_	
+4-8	the	O	O	_	_	
+4-9	plane	B-NPart|B-NPart	O	_	_	
+4-10	tickets	I-NPart|B-NPart	O	_	_	
+4-11	were	O	B-UnrelEv	_	_	
+4-12	simply	O	O	_	_	
+4-13	way	B-No_label	O	_	_	
+4-14	to	O	O	_	_	
+4-15	expensive	O	O	_	_	
+4-16	.	O	O	_	_	
+
+#id=5
+#text=On the train we get drinks and some snacks to pass the time .
+5-1	On	O	O	_	_	
+5-2	the	O	O	_	_	
+5-3	train	B-ScrPart_train	O	_	_	
+5-4	we	B-ScrPart_passenger	O	_	_	
+5-5	get	O	B-ScrEv_spend_time_train	_	_	
+5-6	drinks	B-ScrPart_in-train_entertainment	O	_	_	
+5-7	and	O	O	_	_	
+5-8	some	O	O	_	_	
+5-9	snacks	B-ScrPart_in-train_entertainment	O	_	_	
+5-10	to	O	O	_	_	
+5-11	pass	O	B-ScrEv_spend_time_train	_	_	
+5-12	the	O	O	_	_	
+5-13	time	B-No_label	O	_	_	
+5-14	.	O	O	_	_	
+
+#id=6
+#text=We also play cards and talk the entire ride so that in no time we have arrived at our destination .
+6-1	We	B-ScrPart_passenger	O	_	_	
+6-2	also	O	O	_	_	
+6-3	play	O	B-ScrEv_spend_time_train	_	_	
+6-4	cards	B-ScrPart_in-train_entertainment	O	_	_	
+6-5	and	O	O	_	_	
+6-6	talk	O	B-ScrEv_spend_time_train	_	_	
+6-7	the	O	O	_	_	
+6-8	entire	O	O	_	_	
+6-9	ride	B-ScrPart_trip	B-Evoking	_	_	
+6-10	so	O	O	_	_	
+6-11	that	O	O	_	_	
+6-12	in	O	O	_	_	
+6-13	no	O	O	_	_	
+6-14	time	B-No_label	O	_	_	
+6-15	we	B-ScrPart_passenger	O	_	_	
+6-16	have	O	O	_	_	
+6-17	arrived	O	B-ScrEv_train_arrives	_	_	
+6-18	at	O	O	_	_	
+6-19	our	B-ScrPart_passenger	O	_	_	
+6-20	destination	B-ScrPart_destination	O	_	_	
+6-21	.	O	O	_	_	
+
+#id=7
+#text=The train had no problems and it seemed like the fastest ride I had ever been on .
+7-1	The	O	O	_	_	
+7-2	train	B-ScrPart_train	O	_	_	
+7-3	had	O	B-UnrelEv	_	_	
+7-4	no	O	O	_	_	
+7-5	problems	B-No_label	O	_	_	
+7-6	and	O	O	_	_	
+7-7	it	B-No_label	O	_	_	
+7-8	seemed	O	B-UnrelEv	_	_	
+7-9	like	O	O	_	_	
+7-10	the	O	O	_	_	
+7-11	fastest	O	O	_	_	
+7-12	ride	B-ScrPart_trip	B-Evoking	webanno.custom.Corefchains_	6-9	
+7-13	I	B-ScrPart_passenger	O	_	_	
+7-14	had	O	O	_	_	
+7-15	ever	O	O	_	_	
+7-16	been	O	B-UnrelEv	_	_	
+7-17	on	O	O	_	_	
+7-18	.	O	O	_	_	
+
+#id=8
+#text=If we would have taken a plane it may have even taken longer than this ride had taken because of all the unfortunate things you have to go through at an airport .
+8-1	If	O	O	_	_	
+8-2	we	B-ScrPart_passenger	O	_	_	
+8-3	would	O	O	_	_	
+8-4	have	O	O	_	_	
+8-5	taken	O	B-UnrelEv	_	_	
+8-6	a	O	O	_	_	
+8-7	plane	B-NPart	O	webanno.custom.Corefchains_	4-9	
+8-8	it	B-No_label	O	_	_	
+8-9	may	O	O	_	_	
+8-10	have	O	O	_	_	
+8-11	even	O	O	_	_	
+8-12	taken	O	B-UnrelEv	_	_	
+8-13	longer	O	O	_	_	
+8-14	than	O	O	_	_	
+8-15	this	O	O	_	_	
+8-16	ride	B-ScrPart_trip	B-Evoking	_	_	
+8-17	had	O	O	_	_	
+8-18	taken	O	B-RelNScrEv	_	_	
+8-19	because	O	O	_	_	
+8-20	of	O	O	_	_	
+8-21	all	O	O	_	_	
+8-22	the	O	O	_	_	
+8-23	unfortunate	O	O	_	_	
+8-24	things	B-NPart	O	_	_	
+8-25	you	B-ScrPart_passenger	O	_	_	
+8-26	have	O	O	_	_	
+8-27	to	O	O	_	_	
+8-28	go	O	B-UnrelEv|B-UnrelEv	_	_	
+8-29	through	O	I-UnrelEv	_	_	
+8-30	at	O	O	_	_	
+8-31	an	O	O	_	_	
+8-32	airport	B-NPart	O	_	_	
+8-33	.	O	O	_	_	
+
+#id=9
+#text=The train ride was an enjoyable experience and I look forward to heading back home on the next train . 
+9-1	The	O	O	_	_	
+9-2	train	B-ScrPart_trip	O	_	_	
+9-3	ride	I-ScrPart_trip|B-ScrPart_trip	O	webanno.custom.Corefchains_|webanno.custom.Corefchains_	7-12|8-16	
+9-4	was	O	B-UnrelEv	_	_	
+9-5	an	O	O	_	_	
+9-6	enjoyable	O	O	_	_	
+9-7	experience	B-NPart	O	_	_	
+9-8	and	O	O	_	_	
+9-9	I	B-ScrPart_passenger	O	_	_	
+9-10	look	O	B-UnrelEv|B-UnrelEv	_	_	
+9-11	forward	O	I-UnrelEv	_	_	
+9-12	to	O	O	_	_	
+9-13	heading	O	B-RelNScrEv	_	_	
+9-14	back	O	O	_	_	
+9-15	home	B-NPart	O	_	_	
+9-16	on	O	O	_	_	
+9-17	the	O	O	_	_	
+9-18	next	O	O	_	_	
+9-19	train	B-ScrPart_train	O	_	_	
+9-20	.	O	O	_	_	
+

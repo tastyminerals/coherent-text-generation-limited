@@ -1,0 +1,230 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I decided one day to plant a tree in my front yard .
+1-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	1-10	
+1-2	decided	O	B-UnrelEv	_	_	
+1-3	one	O	O	_	_	
+1-4	day	O	O	_	_	
+1-5	to	O	O	_	_	
+1-6	plant	O	B-Evoking	_	_	
+1-7	a	O	I-Evoking	_	_	
+1-8	tree	B-ScrPart_tree	I-Evoking	webanno.custom.Corefchains_	2-8	
+1-9	in	O	O	_	_	
+1-10	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	2-1	
+1-11	front	B-ScrPart_location_garden	O	_	_	
+1-12	yard	I-ScrPart_location_garden|B-ScrPart_location_garden	O	webanno.custom.Corefchains_	10-12	
+1-13	.	O	O	_	_	
+
+#id=2
+#text=I was unsure of what sort of tree I should plant so I went online and did research as to which type of tree would be best for my situation .
+2-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	2-9	
+2-2	was	O	B-UnrelEv	_	_	
+2-3	unsure	O	O	_	_	
+2-4	of	O	O	_	_	
+2-5	what	O	O	_	_	
+2-6	sort	O	O	_	_	
+2-7	of	O	O	_	_	
+2-8	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	2-24	
+2-9	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	2-13	
+2-10	should	O	O	_	_	
+2-11	plant	O	B-Evoking	_	_	
+2-12	so	O	O	_	_	
+2-13	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	2-29	
+2-14	went	O	B-UnrelEv	_	_	
+2-15	online	O	O	_	_	
+2-16	and	O	O	_	_	
+2-17	did	O	B-UnrelEv	_	_	
+2-18	research	O	O	_	_	
+2-19	as	O	O	_	_	
+2-20	to	O	O	_	_	
+2-21	which	O	O	_	_	
+2-22	type	O	O	_	_	
+2-23	of	O	O	_	_	
+2-24	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	3-7	
+2-25	would	O	O	_	_	
+2-26	be	O	B-UnrelEv	_	_	
+2-27	best	O	O	_	_	
+2-28	for	O	O	_	_	
+2-29	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	3-1	
+2-30	situation	O	O	_	_	
+2-31	.	O	O	_	_	
+
+#id=3
+#text=I settled on a magnificent Norway Pine , as it is common in Northern Minnesota .
+3-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	4-1	
+3-2	settled	O	B-ScrEv_choose_tree	_	_	
+3-3	on	O	O	_	_	
+3-4	a	O	O	_	_	
+3-5	magnificent	O	O	_	_	
+3-6	Norway	B-ScrPart_tree	O	_	_	
+3-7	Pine	I-ScrPart_tree|B-ScrPart_tree	O	webanno.custom.Corefchains_	3-10	
+3-8	,	O	O	_	_	
+3-9	as	O	O	_	_	
+3-10	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	4-23	
+3-11	is	O	B-UnrelEv	_	_	
+3-12	common	O	O	_	_	
+3-13	in	O	O	_	_	
+3-14	Northern	O	O	_	_	
+3-15	Minnesota	O	O	_	_	
+3-16	.	O	O	_	_	
+
+#id=4
+#text=I went out to my nearest greenhouse , which I found via Google Maps , and asked them where they kept their saplings -LRB- as I had read that this is how one should plant a tree -RRB- .
+4-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	4-5	
+4-2	went	O	B-RelNScrEv	_	_	
+4-3	out	O	I-RelNScrEv	_	_	
+4-4	to	O	O	_	_	
+4-5	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	4-10	
+4-6	nearest	O	O	_	_	
+4-7	greenhouse	B-ScrPart_shop	O	webanno.custom.Corefchains_	4-9	
+4-8	,	O	O	_	_	
+4-9	which	B-ScrPart_shop	O	_	_	
+4-10	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	4-26	
+4-11	found	O	B-UnrelEv	_	_	
+4-12	via	O	O	_	_	
+4-13	Google	O	O	_	_	
+4-14	Maps	O	O	_	_	
+4-15	,	O	O	_	_	
+4-16	and	O	O	_	_	
+4-17	asked	O	B-RelNScrEv	_	_	
+4-18	them	B-ScrPart_staff	O	webanno.custom.Corefchains_	4-20	
+4-19	where	O	O	_	_	
+4-20	they	B-ScrPart_staff	O	webanno.custom.Corefchains_	4-22	
+4-21	kept	O	B-RelNScrEv	_	_	
+4-22	their	B-ScrPart_staff	O	_	_	
+4-23	saplings	B-ScrPart_tree	O	webanno.custom.Corefchains_	4-37	
+4-24	-LRB-	O	O	_	_	
+4-25	as	O	O	_	_	
+4-26	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	4-33	
+4-27	had	O	O	_	_	
+4-28	read	O	B-UnrelEv	_	_	
+4-29	that	O	O	_	_	
+4-30	this	O	O	_	_	
+4-31	is	O	B-UnrelEv	_	_	
+4-32	how	O	O	_	_	
+4-33	one	B-ScrPart_gardener	O	webanno.custom.Corefchains_	5-1	
+4-34	should	O	O	_	_	
+4-35	plant	O	B-Evoking	_	_	
+4-36	a	O	I-Evoking	_	_	
+4-37	tree	B-ScrPart_tree	I-Evoking	webanno.custom.Corefchains_	5-4	
+4-38	-RRB-	O	O	_	_	
+4-39	.	O	O	_	_	
+
+#id=5
+#text=I got the sapling and brought it home with me .
+5-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	5-10	
+5-2	got	O	B-ScrEv_get_tree	_	_	
+5-3	the	O	O	_	_	
+5-4	sapling	B-ScrPart_tree	O	webanno.custom.Corefchains_	5-7	
+5-5	and	O	O	_	_	
+5-6	brought	O	B-RelNScrEv	_	_	
+5-7	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	6-1	
+5-8	home	O	O	_	_	
+5-9	with	O	O	_	_	
+5-10	me	B-ScrPart_gardener	O	webanno.custom.Corefchains_	6-8	
+5-11	.	O	O	_	_	
+
+#id=6
+#text=It was only six inches high but I knew I could make it grow tall and strong .
+6-1	It	B-ScrPart_tree	O	webanno.custom.Corefchains_	6-13	
+6-2	was	O	B-UnrelEv	_	_	
+6-3	only	O	O	_	_	
+6-4	six	O	O	_	_	
+6-5	inches	O	O	_	_	
+6-6	high	O	O	_	_	
+6-7	but	O	O	_	_	
+6-8	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	6-10	
+6-9	knew	O	B-UnrelEv	_	_	
+6-10	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	7-1	
+6-11	could	O	O	_	_	
+6-12	make	O	B-UnrelEv	_	_	
+6-13	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	7-19	
+6-14	grow	O	B-RelNScrEv	_	_	
+6-15	tall	O	O	_	_	
+6-16	and	O	O	_	_	
+6-17	strong	O	O	_	_	
+6-18	.	O	O	_	_	
+
+#id=7
+#text=I grabbed a shovel and started to dig , one small hole the size of the pot the sapling was in .
+7-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	8-1	
+7-2	grabbed	O	B-ScrEv_get_tools	_	_	
+7-3	a	O	O	_	_	
+7-4	shovel	B-ScrPart_gardening_tool	O	_	_	
+7-5	and	O	O	_	_	
+7-6	started	O	B-UnrelEv	_	_	
+7-7	to	O	O	_	_	
+7-8	dig	O	B-ScrEv_dug_hole	_	_	
+7-9	,	O	O	_	_	
+7-10	one	O	O	_	_	
+7-11	small	O	O	_	_	
+7-12	hole	B-ScrPart_hole	O	webanno.custom.Corefchains_	8-17	
+7-13	the	O	O	_	_	
+7-14	size	O	O	_	_	
+7-15	of	O	O	_	_	
+7-16	the	O	O	_	_	
+7-17	pot	B-ScrPart_wrapping	O	webanno.custom.Corefchains_	8-9	
+7-18	the	O	O	_	_	
+7-19	sapling	B-ScrPart_tree	O	webanno.custom.Corefchains_	8-5	
+7-20	was	O	B-UnrelEv	_	_	
+7-21	in	O	O	_	_	
+7-22	.	O	O	_	_	
+
+#id=8
+#text=I carefully took the sapling out of the pot and placed it into the freshly dug hole .
+8-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	9-13	
+8-2	carefully	O	O	_	_	
+8-3	took	O	B-ScrEv_unwrap_root	_	_	
+8-4	the	O	O	_	_	
+8-5	sapling	B-ScrPart_tree	O	webanno.custom.Corefchains_	8-12	
+8-6	out	O	O	_	_	
+8-7	of	O	O	_	_	
+8-8	the	O	O	_	_	
+8-9	pot	B-ScrPart_wrapping	O	_	_	
+8-10	and	O	O	_	_	
+8-11	placed	O	B-ScrEv_place_root	_	_	
+8-12	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	10-8	
+8-13	into	O	O	_	_	
+8-14	the	O	O	_	_	
+8-15	freshly	O	O	_	_	
+8-16	dug	O	B-ScrEv_dug_hole	_	_	
+8-17	hole	B-ScrPart_hole	O	webanno.custom.Corefchains_	9-8	
+8-18	.	O	O	_	_	
+
+#id=9
+#text=Filling in the empty parts of the hole with extra dirt , I marveled at my creation .
+9-1	Filling	O	B-ScrEv_refill_hole	_	_	
+9-2	in	O	I-ScrEv_refill_hole	_	_	
+9-3	the	O	O	_	_	
+9-4	empty	O	O	_	_	
+9-5	parts	B-NPart	O	_	_	
+9-6	of	O	O	_	_	
+9-7	the	O	O	_	_	
+9-8	hole	B-ScrPart_hole	O	_	_	
+9-9	with	O	O	_	_	
+9-10	extra	O	O	_	_	
+9-11	dirt	B-ScrPart_dirt	O	_	_	
+9-12	,	O	O	_	_	
+9-13	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	9-16	
+9-14	marveled	O	B-UnrelEv	_	_	
+9-15	at	O	O	_	_	
+9-16	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	10-5	
+9-17	creation	O	O	_	_	
+9-18	.	O	O	_	_	
+
+#id=10
+#text=That was the day I planted a tree in my front yard . 
+10-1	That	O	O	_	_	
+10-2	was	O	B-UnrelEv	_	_	
+10-3	the	O	O	_	_	
+10-4	day	B-ScrPart_time	O	_	_	
+10-5	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	10-10	
+10-6	planted	O	B-Evoking	_	_	
+10-7	a	O	I-Evoking	_	_	
+10-8	tree	B-ScrPart_tree	I-Evoking	_	_	
+10-9	in	O	O	_	_	
+10-10	my	B-ScrPart_gardener	O	_	_	
+10-11	front	B-ScrPart_location_garden	O	_	_	
+10-12	yard	I-ScrPart_location_garden|B-ScrPart_location_garden	O	_	_	
+10-13	.	O	O	_	_	
+

@@ -1,0 +1,221 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Once a week I go to the grocery store to do some food shopping .
+1-1	Once	O	O	_	_	
+1-2	a	O	O	_	_	
+1-3	week	B-NPart	O	_	_	
+1-4	I	B-ScrPart_shopper	O	_	_	
+1-5	go	O	B-ScrEv_go_grocery	_	_	
+1-6	to	O	O	_	_	
+1-7	the	O	O	_	_	
+1-8	grocery	B-ScrPart_grocery_shop	O	_	_	
+1-9	store	I-ScrPart_grocery_shop|B-ScrPart_grocery_shop	O	_	_	
+1-10	to	O	O	_	_	
+1-11	do	O	B-Evoking	_	_	
+1-12	some	O	I-Evoking	_	_	
+1-13	food	B-ScrPart_groceries	I-Evoking	_	_	
+1-14	shopping	O	I-Evoking|B-ScrEv_get_groceries	_	_	
+1-15	.	O	O	_	_	
+
+#id=2
+#text=Before I left the house my wife gave me a list of things that we needed .
+2-1	Before	O	O	_	_	
+2-2	I	B-ScrPart_shopper	O	_	_	
+2-3	left	O	B-RelNScrEv	_	_	
+2-4	the	O	O	_	_	
+2-5	house	B-NPart	O	_	_	
+2-6	my	B-ScrPart_shopper	O	_	_	
+2-7	wife	B-NPart	O	_	_	
+2-8	gave	O	B-RelNScrEv	_	_	
+2-9	me	B-ScrPart_shopper	O	_	_	
+2-10	a	O	O	_	_	
+2-11	list	B-ScrPart_grocery_list	O	_	_	
+2-12	of	O	O	_	_	
+2-13	things	B-ScrPart_groceries	O	webanno.custom.Corefchains_	1-13	
+2-14	that	B-ScrPart_groceries	O	_	_	
+2-15	we	B-???	O	_	_	
+2-16	needed	O	B-RelNScrEv	_	_	
+2-17	.	O	O	_	_	
+
+#id=3
+#text=I grabbed my shopping cart and the list and started walking to the supermarket that was 2 blocks away .
+3-1	I	B-ScrPart_shopper	O	_	_	
+3-2	grabbed	O	B-ScrEv_take_shop_cart	_	_	
+3-3	my	B-ScrPart_shopper	O	_	_	
+3-4	shopping	B-ScrPart_shopping_cart/basket	O	_	_	
+3-5	cart	I-ScrPart_shopping_cart/basket|B-ScrPart_shopping_cart/basket	O	_	_	
+3-6	and	O	O	_	_	
+3-7	the	O	O	_	_	
+3-8	list	B-ScrPart_grocery_list	O	_	_	
+3-9	and	O	O	_	_	
+3-10	started	O	B-UnrelEv	_	_	
+3-11	walking	O	B-ScrEv_go_grocery	_	_	
+3-12	to	O	O	_	_	
+3-13	the	O	O	_	_	
+3-14	supermarket	B-ScrPart_grocery_shop	O	_	_	
+3-15	that	B-ScrPart_grocery_shop	O	_	_	
+3-16	was	O	B-UnrelEv	_	_	
+3-17	2	O	O	_	_	
+3-18	blocks	B-NPart	O	_	_	
+3-19	away	O	O	_	_	
+3-20	.	O	O	_	_	
+
+#id=4
+#text=When I got there I walked up and down the aisles looking for the items that were on the list .
+4-1	When	O	O	_	_	
+4-2	I	B-ScrPart_shopper	O	_	_	
+4-3	got	O	B-ScrEv_enter	_	_	
+4-4	there	O	I-ScrEv_enter	_	_	
+4-5	I	B-ScrPart_shopper	O	_	_	
+4-6	walked	O	B-ScrEv_move_section	_	_	
+4-7	up	O	O	_	_	
+4-8	and	O	O	_	_	
+4-9	down	O	O	_	_	
+4-10	the	O	O	_	_	
+4-11	aisles	B-ScrPart_section	O	_	_	
+4-12	looking	O	B-RelNScrEv	_	_	
+4-13	for	O	O	_	_	
+4-14	the	O	O	_	_	
+4-15	items	B-ScrPart_groceries	O	_	_	
+4-16	that	B-ScrPart_groceries	O	_	_	
+4-17	were	O	B-UnrelEv	_	_	
+4-18	on	O	O	_	_	
+4-19	the	O	O	_	_	
+4-20	list	B-ScrPart_grocery_list	O	_	_	
+4-21	.	O	O	_	_	
+
+#id=5
+#text=As I found each item , I placed them into my shopping cart and crossed them off the list .
+5-1	As	O	O	_	_	
+5-2	I	B-ScrPart_shopper	O	_	_	
+5-3	found	O	B-ScrEv_get_groceries	_	_	
+5-4	each	O	O	_	_	
+5-5	item	B-ScrPart_groceries	O	_	_	
+5-6	,	O	O	_	_	
+5-7	I	B-ScrPart_shopper	O	_	_	
+5-8	placed	O	B-ScrEv_get_groceries	_	_	
+5-9	them	B-ScrPart_groceries	O	_	_	
+5-10	into	O	O	_	_	
+5-11	my	B-ScrPart_shopper	O	_	_	
+5-12	shopping	B-ScrPart_shopping_cart/basket	O	_	_	
+5-13	cart	I-ScrPart_shopping_cart/basket|B-ScrPart_shopping_cart/basket	O	_	_	
+5-14	and	O	O	_	_	
+5-15	crossed	O	B-ScrEv_check_off	_	_	
+5-16	them	B-ScrPart_groceries	O	_	_	
+5-17	off	O	O	_	_	
+5-18	the	O	O	_	_	
+5-19	list	B-ScrPart_grocery_list	O	_	_	
+5-20	.	O	O	_	_	
+
+#id=6
+#text=When I finally found everything we needed I made my way towards the check out line to pay for the food .
+6-1	When	O	O	_	_	
+6-2	I	B-ScrPart_shopper	O	_	_	
+6-3	finally	O	O	_	_	
+6-4	found	O	B-ScrEv_get_groceries	_	_	
+6-5	everything	B-ScrPart_groceries	O	_	_	
+6-6	we	B-???	O	_	_	
+6-7	needed	O	B-RelNScrEv	_	_	
+6-8	I	B-ScrPart_shopper	O	_	_	
+6-9	made	O	B-ScrEv_go_checkout	_	_	
+6-10	my	B-ScrPart_shopper	O	_	_	
+6-11	way	B-SuppVComp	O	_	_	
+6-12	towards	O	O	_	_	
+6-13	the	O	O	_	_	
+6-14	check	B-ScrPart_line	O	_	_	
+6-15	out	I-ScrPart_line	O	_	_	
+6-16	line	I-ScrPart_line|B-ScrPart_line	O	_	_	
+6-17	to	O	O	_	_	
+6-18	pay	O	B-ScrEv_pay	_	_	
+6-19	for	O	O	_	_	
+6-20	the	O	O	_	_	
+6-21	food	B-ScrPart_groceries	O	_	_	
+6-22	.	O	O	_	_	
+
+#id=7
+#text=I found a cashier that did n't have anyone on her line and I made my way towards her .
+7-1	I	B-ScrPart_shopper	O	_	_	
+7-2	found	O	B-RelNScrEv	_	_	
+7-3	a	O	O	_	_	
+7-4	cashier	B-ScrPart_grocery_staff	O	_	_	
+7-5	that	B-ScrPart_grocery_staff	O	_	_	
+7-6	did	O	O	_	_	
+7-7	n't	O	O	_	_	
+7-8	have	O	B-RelNScrEv	_	_	
+7-9	anyone	B-ScrPart_shopper	O	_	_	
+7-10	on	O	O	_	_	
+7-11	her	B-ScrPart_grocery_staff	O	_	_	
+7-12	line	B-ScrPart_line	O	_	_	
+7-13	and	O	O	_	_	
+7-14	I	B-ScrPart_shopper	O	_	_	
+7-15	made	O	B-ScrEv_go_checkout	_	_	
+7-16	my	B-ScrPart_shopper	O	_	_	
+7-17	way	B-SuppVComp	O	_	_	
+7-18	towards	O	O	_	_	
+7-19	her	B-ScrPart_grocery_staff	O	_	_	
+7-20	.	O	O	_	_	
+
+#id=8
+#text=I gave her each item one at a time and watched her scan and place them into bags for me .
+8-1	I	B-ScrPart_shopper	O	_	_	
+8-2	gave	O	B-ScrEv_put_conveyor	_	_	
+8-3	her	B-ScrPart_grocery_staff	O	_	_	
+8-4	each	O	O	_	_	
+8-5	item	B-ScrPart_groceries	O	_	_	
+8-6	one	O	O	_	_	
+8-7	at	O	O	_	_	
+8-8	a	O	O	_	_	
+8-9	time	B-No_label	O	_	_	
+8-10	and	O	O	_	_	
+8-11	watched	O	B-UnrelEv	_	_	
+8-12	her	B-ScrPart_grocery_staff	O	_	_	
+8-13	scan	O	B-ScrEv_cashier_scan/weight	_	_	
+8-14	and	O	O	_	_	
+8-15	place	O	B-ScrEv_pack_groceries	_	_	
+8-16	them	B-ScrPart_groceries	O	_	_	
+8-17	into	O	O	_	_	
+8-18	bags	B-ScrPart_packing	O	_	_	
+8-19	for	O	O	_	_	
+8-20	me	B-ScrPart_shopper	O	_	_	
+8-21	.	O	O	_	_	
+
+#id=9
+#text=After she was finished she told me the total amount and I gave her the money to cover the cost .
+9-1	After	O	O	_	_	
+9-2	she	B-ScrPart_grocery_staff	O	_	_	
+9-3	was	O	O	_	_	
+9-4	finished	O	B-UnrelEv	_	_	
+9-5	she	B-ScrPart_grocery_staff	O	_	_	
+9-6	told	O	B-RelNScrEv	_	_	
+9-7	me	B-ScrPart_shopper	O	_	_	
+9-8	the	O	O	_	_	
+9-9	total	O	O	_	_	
+9-10	amount	B-ScrPart_price	O	_	_	
+9-11	and	O	O	_	_	
+9-12	I	B-ScrPart_shopper	O	_	_	
+9-13	gave	O	B-ScrEv_pay	_	_	
+9-14	her	B-ScrPart_grocery_staff	O	_	_	
+9-15	the	O	O	_	_	
+9-16	money	B-ScrPart_payment_means	O	_	_	
+9-17	to	O	O	_	_	
+9-18	cover	O	B-ScrEv_pay	_	_	
+9-19	the	O	O	_	_	
+9-20	cost	B-ScrPart_price	O	webanno.custom.Corefchains_	9-10	
+9-21	.	O	O	_	_	
+
+#id=10
+#text=She gave me my change and receipt then thanked me for shopping . 
+10-1	She	B-ScrPart_grocery_staff	O	_	_	
+10-2	gave	O	B-ScrEv_get_receipt	_	_	
+10-3	me	B-ScrPart_shopper	O	_	_	
+10-4	my	B-ScrPart_shopper	O	_	_	
+10-5	change	B-ScrPart_payment_means	O	_	_	
+10-6	and	O	O	_	_	
+10-7	receipt	B-ScrPart_receipt	O	_	_	
+10-8	then	O	O	_	_	
+10-9	thanked	O	B-RelNScrEv	_	_	
+10-10	me	B-ScrPart_shopper	O	_	_	
+10-11	for	O	O	_	_	
+10-12	shopping	O	B-Evoking	_	_	
+10-13	.	O	O	_	_	
+

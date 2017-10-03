@@ -1,0 +1,259 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Yesterday , I decided to visit my sister who lives a few towns away .
+1-1	Yesterday	O	O	_	_	
+1-2	,	O	O	_	_	
+1-3	I	B-ScrPart_passenger	O	_	_	
+1-4	decided	O	B-UnrelEv	_	_	
+1-5	to	O	O	_	_	
+1-6	visit	O	B-UnrelEv	_	_	
+1-7	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-3	
+1-8	sister	O	O	_	_	
+1-9	who	O	O	_	_	
+1-10	lives	O	B-UnrelEv	_	_	
+1-11	a	O	O	_	_	
+1-12	few	O	O	_	_	
+1-13	towns	O	O	_	_	
+1-14	away	O	O	_	_	
+1-15	.	O	O	_	_	
+
+#id=2
+#text=I wanted to take the train because it is cheaper than putting gas in my car .
+2-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-7	
+2-2	wanted	O	B-UnrelEv	_	_	
+2-3	to	O	O	_	_	
+2-4	take	O	B-Evoking	_	_	
+2-5	the	O	I-Evoking	_	_	
+2-6	train	B-ScrPart_train	I-Evoking	_	_	
+2-7	because	O	O	_	_	
+2-8	it	B-ScrPart_train	O	webanno.custom.Corefchains_	2-6	
+2-9	is	O	B-UnrelEv	_	_	
+2-10	cheaper	O	O	_	_	
+2-11	than	O	O	_	_	
+2-12	putting	O	B-UnrelEv	_	_	
+2-13	gas	O	O	_	_	
+2-14	in	O	O	_	_	
+2-15	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-1	
+2-16	car	O	O	_	_	
+2-17	.	O	O	_	_	
+
+#id=3
+#text=So I drove to the train station and parked my car in the parking lot .
+3-1	So	O	O	_	_	
+3-2	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-15	
+3-3	drove	O	B-ScrEv_get_train_station	_	_	
+3-4	to	O	O	_	_	
+3-5	the	O	O	_	_	
+3-6	train	B-ScrPart_train_station	O	_	_	
+3-7	station	I-ScrPart_train_station|B-ScrPart_train_station	O	_	_	
+3-8	and	O	O	_	_	
+3-9	parked	O	B-UnrelEv	_	_	
+3-10	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-2	
+3-11	car	O	O	_	_	
+3-12	in	O	O	_	_	
+3-13	the	O	O	_	_	
+3-14	parking	O	O	_	_	
+3-15	lot	O	O	_	_	
+3-16	.	O	O	_	_	
+
+#id=4
+#text=I walked to the cashier 's window and waited in line .
+4-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-10	
+4-2	walked	O	B-UnrelEv	_	_	
+4-3	to	O	O	_	_	
+4-4	the	O	O	_	_	
+4-5	cashier	B-ScrPart_ticket_office/website	O	_	_	
+4-6	's	I-ScrPart_ticket_office/website	O	_	_	
+4-7	window	I-ScrPart_ticket_office/website|B-ScrPart_ticket_office/website	O	_	_	
+4-8	and	O	O	_	_	
+4-9	waited	O	B-ScrEv_wait	_	_	
+4-10	in	O	O	_	_	
+4-11	line	B-ScrPart_line	O	_	_	
+4-12	.	O	O	_	_	
+
+#id=5
+#text=Once I reached the front of the line , I greeted the cashier and bought a train ticket .
+5-1	Once	O	O	_	_	
+5-2	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-1	
+5-3	reached	O	B-UnrelEv	_	_	
+5-4	the	O	O	_	_	
+5-5	front	O	O	_	_	
+5-6	of	O	O	_	_	
+5-7	the	O	O	_	_	
+5-8	line	B-ScrPart_line	O	webanno.custom.Corefchains_	4-11	
+5-9	,	O	O	_	_	
+5-10	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-2	
+5-11	greeted	O	B-UnrelEv	_	_	
+5-12	the	O	O	_	_	
+5-13	cashier	B-ScrPart_train_staff	O	_	_	
+5-14	and	O	O	_	_	
+5-15	bought	O	B-ScrEv_get_tickets	_	_	
+5-16	a	O	O	_	_	
+5-17	train	B-ScrPart_card/ticket	O	_	_	
+5-18	ticket	I-ScrPart_card/ticket|B-ScrPart_card/ticket	O	_	_	
+5-19	.	O	O	_	_	
+
+#id=6
+#text=I walked to the train platform and waited for the train to arrive .
+6-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-10	
+6-2	walked	O	B-ScrEv_get_platform	_	_	
+6-3	to	O	O	_	_	
+6-4	the	O	O	_	_	
+6-5	train	B-ScrPart_platform	O	_	_	
+6-6	platform	I-ScrPart_platform|B-ScrPart_platform	O	_	_	
+6-7	and	O	O	_	_	
+6-8	waited	O	B-ScrEv_wait	_	_	
+6-9	for	O	O	_	_	
+6-10	the	O	O	_	_	
+6-11	train	B-ScrPart_train	O	webanno.custom.Corefchains_	2-8	
+6-12	to	O	O	_	_	
+6-13	arrive	O	B-RelNScrEv	_	_	
+6-14	.	O	O	_	_	
+
+#id=7
+#text=When the train finally arrived , I got on the train and located my seat , which was printed on my ticket .
+7-1	When	O	O	_	_	
+7-2	the	O	O	_	_	
+7-3	train	B-ScrPart_train	O	webanno.custom.Corefchains_	6-11	
+7-4	finally	O	O	_	_	
+7-5	arrived	O	B-ScrEv_train_arrives	_	_	
+7-6	,	O	O	_	_	
+7-7	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-1	
+7-8	got	O	B-MissScrEv|B-MissScrEv	_	_	
+7-9	on	O	I-MissScrEv	_	_	
+7-10	the	O	O	_	_	
+7-11	train	B-ScrPart_train	O	webanno.custom.Corefchains_	7-3	
+7-12	and	O	O	_	_	
+7-13	located	O	B-ScrEv_find_place	_	_	
+7-14	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-7	
+7-15	seat	B-ScrPart_seat	O	_	_	
+7-16	,	O	O	_	_	
+7-17	which	O	O	_	_	
+7-18	was	O	O	_	_	
+7-19	printed	O	B-UnrelEv	_	_	
+7-20	on	O	O	_	_	
+7-21	my	B-ScrPart_passenger	O	_	_	
+7-22	ticket	B-ScrPart_card/ticket	O	webanno.custom.Corefchains_	5-18	
+7-23	.	O	O	_	_	
+
+#id=8
+#text=I sat in my seat and took out the magazine that I had brought to read on the ride .
+8-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-14	
+8-2	sat	O	B-UnrelEv	_	_	
+8-3	in	O	O	_	_	
+8-4	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-1	
+8-5	seat	B-ScrPart_seat	O	webanno.custom.Corefchains_	7-15	
+8-6	and	O	O	_	_	
+8-7	took	O	B-ScrEv_spend_time_train|B-ScrEv_spend_time_train	_	_	
+8-8	out	O	I-ScrEv_spend_time_train	_	_	
+8-9	the	O	O	_	_	
+8-10	magazine	B-ScrPart_in-train_entertainment	O	_	_	
+8-11	that	O	O	_	_	
+8-12	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-4	
+8-13	had	O	O	_	_	
+8-14	brought	O	B-UnrelEv	_	_	
+8-15	to	O	O	_	_	
+8-16	read	O	B-ScrEv_spend_time_train	_	_	
+8-17	on	O	O	_	_	
+8-18	the	O	O	_	_	
+8-19	ride	B-MissScrPart	O	_	_	
+8-20	.	O	O	_	_	
+
+#id=9
+#text=The train eventually started back up and left the station .
+9-1	The	O	O	_	_	
+9-2	train	B-ScrPart_train	O	webanno.custom.Corefchains_	7-11	
+9-3	eventually	O	O	_	_	
+9-4	started	O	B-ScrEv_train_departs	_	_	
+9-5	back	O	O	_	_	
+9-6	up	O	O	_	_	
+9-7	and	O	O	_	_	
+9-8	left	O	B-ScrEv_train_departs	_	_	
+9-9	the	O	O	_	_	
+9-10	station	B-ScrPart_train_station	O	webanno.custom.Corefchains_	3-7	
+9-11	.	O	O	_	_	
+
+#id=10
+#text=Before long , a ticket taker came over and asked for my ticket to verify that I had paid for my ride and was in the correct seat .
+10-1	Before	O	O	_	_	
+10-2	long	O	O	_	_	
+10-3	,	O	O	_	_	
+10-4	a	O	O	_	_	
+10-5	ticket	B-ScrPart_train_staff	O	_	_	
+10-6	taker	I-ScrPart_train_staff|B-ScrPart_train_staff	O	_	_	
+10-7	came	O	B-ScrEv_conductor_checks|B-ScrEv_conductor_checks	_	_	
+10-8	over	O	I-ScrEv_conductor_checks	_	_	
+10-9	and	O	O	_	_	
+10-10	asked	O	B-ScrEv_conductor_checks	_	_	
+10-11	for	O	O	_	_	
+10-12	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-12	
+10-13	ticket	B-ScrPart_card/ticket	O	webanno.custom.Corefchains_	7-22	
+10-14	to	O	O	_	_	
+10-15	verify	O	B-UnrelEv	_	_	
+10-16	that	O	O	_	_	
+10-17	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-12	
+10-18	had	O	O	_	_	
+10-19	paid	O	B-RelNScrEv	_	_	
+10-20	for	O	O	_	_	
+10-21	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-17	
+10-22	ride	B-MissScrPart	O	webanno.custom.Corefchains_	8-19	
+10-23	and	O	O	_	_	
+10-24	was	O	B-UnrelEv	_	_	
+10-25	in	O	O	_	_	
+10-26	the	O	O	_	_	
+10-27	correct	O	O	_	_	
+10-28	seat	B-ScrPart_seat	O	webanno.custom.Corefchains_	8-5	
+10-29	.	O	O	_	_	
+
+#id=11
+#text=I greeted the ticket taker and gave him my ticket .
+11-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-21	
+11-2	greeted	O	B-RelNScrEv	_	_	
+11-3	the	O	O	_	_	
+11-4	ticket	B-ScrPart_train_staff	O	_	_	
+11-5	taker	I-ScrPart_train_staff|B-ScrPart_train_staff	O	webanno.custom.Corefchains_	10-6	
+11-6	and	O	O	_	_	
+11-7	gave	O	B-MissScrEv	_	_	
+11-8	him	B-ScrPart_train_staff	O	webanno.custom.Corefchains_	11-5	
+11-9	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	11-1	
+11-10	ticket	B-ScrPart_card/ticket	O	webanno.custom.Corefchains_	10-13	
+11-11	.	O	O	_	_	
+
+#id=12
+#text=When I arrived at my sister 's city , I got off the train and she was there to meet me at the station .
+12-1	When	O	O	_	_	
+12-2	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	11-9	
+12-3	arrived	O	B-ScrEv_arrive_destination	_	_	
+12-4	at	O	O	_	_	
+12-5	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	12-2	
+12-6	sister	O	O	_	_	
+12-7	's	O	O	_	_	
+12-8	city	B-ScrPart_destination	O	_	_	
+12-9	,	O	O	_	_	
+12-10	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	12-5	
+12-11	got	O	B-ScrEv_get_off|B-ScrEv_get_off	_	_	
+12-12	off	O	I-ScrEv_get_off	_	_	
+12-13	the	O	O	_	_	
+12-14	train	B-ScrPart_train	O	webanno.custom.Corefchains_	9-2	
+12-15	and	O	O	_	_	
+12-16	she	O	O	_	_	
+12-17	was	O	B-UnrelEv	_	_	
+12-18	there	O	O	_	_	
+12-19	to	O	O	_	_	
+12-20	meet	O	B-UnrelEv	_	_	
+12-21	me	B-ScrPart_passenger	O	webanno.custom.Corefchains_	12-10	
+12-22	at	O	O	_	_	
+12-23	the	O	O	_	_	
+12-24	station	B-ScrPart_train_station	O	webanno.custom.Corefchains_	9-10	
+12-25	.	O	O	_	_	
+
+#id=13
+#text=We had a very nice visit . 
+13-1	We	O	O	_	_	
+13-2	had	O	B-UnrelEv	_	_	
+13-3	a	O	O	_	_	
+13-4	very	O	O	_	_	
+13-5	nice	O	O	_	_	
+13-6	visit	O	O	_	_	
+13-7	.	O	O	_	_	
+

@@ -1,0 +1,254 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=We were starting to run out of food so I made a list of all the food items we were out of this morning .
+1-1	We	O	O	_	_	
+1-2	were	O	O	_	_	
+1-3	starting	B-UnrelEv	O	_	_	
+1-4	to	O	O	_	_	
+1-5	run	B-UnrelEv|B-UnrelEv	O	_	_	
+1-6	out	I-UnrelEv	O	_	_	
+1-7	of	O	O	_	_	
+1-8	food	O	O	_	_	
+1-9	so	O	O	_	_	
+1-10	I	O	B-ScrPart_shopper	_	_	
+1-11	made	B-ScrEv_make_list	O	_	_	
+1-12	a	O	O	_	_	
+1-13	list	O	B-ScrPart_grocery_list	_	_	
+1-14	of	O	O	_	_	
+1-15	all	O	O	_	_	
+1-16	the	O	O	_	_	
+1-17	food	O	B-ScrPart_groceries	_	_	
+1-18	items	O	I-ScrPart_groceries|B-ScrPart_groceries	_	_	
+1-19	we	O	O	_	_	
+1-20	were	B-UnrelEv	O	_	_	
+1-21	out	O	O	_	_	
+1-22	of	O	O	_	_	
+1-23	this	O	O	_	_	
+1-24	morning	O	O	_	_	
+1-25	.	O	O	_	_	
+
+#id=2
+#text=I put on my jacket and shoes , grabbed my keys and left the house .
+2-1	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	1-10	
+2-2	put	B-UnrelEv	O	_	_	
+2-3	on	O	O	_	_	
+2-4	my	O	B-ScrPart_shopper	webanno.custom.Corefchains_	2-1	
+2-5	jacket	O	O	_	_	
+2-6	and	O	O	_	_	
+2-7	shoes	O	O	_	_	
+2-8	,	O	O	_	_	
+2-9	grabbed	B-UnrelEv	O	_	_	
+2-10	my	O	B-ScrPart_shopper	webanno.custom.Corefchains_	2-4	
+2-11	keys	O	O	_	_	
+2-12	and	O	O	_	_	
+2-13	left	B-UnrelEv	O	_	_	
+2-14	the	O	O	_	_	
+2-15	house	O	O	_	_	
+2-16	.	O	O	_	_	
+
+#id=3
+#text=I started my car and decided to drive to Fred Meyer 's , an excellent grocery store .
+3-1	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	2-10	
+3-2	started	B-UnrelEv	O	_	_	
+3-3	my	O	B-ScrPart_shopper	webanno.custom.Corefchains_	3-1	
+3-4	car	O	B-ScrPart_vehicle	_	_	
+3-5	and	O	O	_	_	
+3-6	decided	B-UnrelEv	O	_	_	
+3-7	to	O	O	_	_	
+3-8	drive	B-Evoking|B-ScrEv_go_grocery	O	_	_	
+3-9	to	I-Evoking	O	_	_	
+3-10	Fred	I-Evoking	B-ScrPart_grocery_shop	_	_	
+3-11	Meyer	I-Evoking	I-ScrPart_grocery_shop|B-ScrPart_grocery_shop	_	_	
+3-12	's	I-Evoking	I-ScrPart_grocery_shop	_	_	
+3-13	,	I-Evoking	O	_	_	
+3-14	an	I-Evoking	O	_	_	
+3-15	excellent	I-Evoking	O	_	_	
+3-16	grocery	I-Evoking	B-ScrPart_grocery_shop	_	_	
+3-17	store	I-Evoking	I-ScrPart_grocery_shop|B-ScrPart_grocery_shop	webanno.custom.Corefchains_	3-10	
+3-18	.	O	O	_	_	
+
+#id=4
+#text=I arrived at Fred Meyer 's and walked through the cold wind and into the safety of the store .
+4-1	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	3-3	
+4-2	arrived	B-ScrEv_go_grocery	O	_	_	
+4-3	at	O	O	_	_	
+4-4	Fred	O	B-ScrPart_grocery_shop	webanno.custom.Corefchains_	3-17	
+4-5	Meyer	O	I-ScrPart_grocery_shop|B-ScrPart_grocery_shop	webanno.custom.Corefchains_	3-17	
+4-6	's	O	I-ScrPart_grocery_shop	webanno.custom.Corefchains_	3-17	
+4-7	and	O	O	_	_	
+4-8	walked	B-ScrEv_enter|B-ScrEv_enter	O	_	_	
+4-9	through	I-ScrEv_enter	O	_	_	
+4-10	the	O	O	_	_	
+4-11	cold	O	O	_	_	
+4-12	wind	O	B-NPart	_	_	
+4-13	and	O	O	_	_	
+4-14	into	O	O	_	_	
+4-15	the	O	O	_	_	
+4-16	safety	O	B-NPart	_	_	
+4-17	of	O	O	_	_	
+4-18	the	O	O	_	_	
+4-19	store	O	B-ScrPart_grocery_shop	webanno.custom.Corefchains_	4-4	
+4-20	.	O	O	_	_	
+
+#id=5
+#text=There were n't a lot of shoppers around thanks to the weather .
+5-1	There	O	O	_	_	
+5-2	were	B-UnrelEv	O	_	_	
+5-3	n't	O	O	_	_	
+5-4	a	O	O	_	_	
+5-5	lot	O	O	_	_	
+5-6	of	O	O	_	_	
+5-7	shoppers	O	B-ScrPart_shopper	_	_	
+5-8	around	O	O	_	_	
+5-9	thanks	O	O	_	_	
+5-10	to	O	O	_	_	
+5-11	the	O	O	_	_	
+5-12	weather	O	O	_	_	
+5-13	.	O	O	_	_	
+
+#id=6
+#text=I grabbed a hand basket and proceeded to the produce section first for apples , bananas and potatoes .
+6-1	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	4-1	
+6-2	grabbed	B-ScrEv_take_shop_cart	O	_	_	
+6-3	a	O	O	_	_	
+6-4	hand	O	B-ScrPart_shopping_cart/basket	_	_	
+6-5	basket	O	I-ScrPart_shopping_cart/basket|B-ScrPart_shopping_cart/basket	_	_	
+6-6	and	O	O	_	_	
+6-7	proceeded	B-ScrEv_move_section	O	_	_	
+6-8	to	O	O	_	_	
+6-9	the	O	O	_	_	
+6-10	produce	O	B-ScrPart_section	_	_	
+6-11	section	O	I-ScrPart_section|B-ScrPart_section	_	_	
+6-12	first	O	O	_	_	
+6-13	for	O	O	_	_	
+6-14	apples	O	B-ScrPart_groceries	_	_	
+6-15	,	O	O	_	_	
+6-16	bananas	O	B-ScrPart_groceries	_	_	
+6-17	and	O	O	_	_	
+6-18	potatoes	O	B-ScrPart_groceries	_	_	
+6-19	.	O	O	_	_	
+
+#id=7
+#text=After that I went to the bread section and got english muffins and a loaf of wheat bread .
+7-1	After	O	O	_	_	
+7-2	that	O	O	_	_	
+7-3	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	6-1	
+7-4	went	B-ScrEv_move_section	O	_	_	
+7-5	to	O	O	_	_	
+7-6	the	O	O	_	_	
+7-7	bread	O	B-ScrPart_section	_	_	
+7-8	section	O	I-ScrPart_section|B-ScrPart_section	_	_	
+7-9	and	O	O	_	_	
+7-10	got	B-ScrEv_get_groceries	O	_	_	
+7-11	english	O	O	_	_	
+7-12	muffins	O	B-ScrPart_groceries	_	_	
+7-13	and	O	O	_	_	
+7-14	a	O	O	_	_	
+7-15	loaf	O	O	_	_	
+7-16	of	O	O	_	_	
+7-17	wheat	O	B-ScrPart_groceries	_	_	
+7-18	bread	O	I-ScrPart_groceries|B-ScrPart_groceries	_	_	
+7-19	.	O	O	_	_	
+
+#id=8
+#text=Next I proceeded to the frozen food section for a frozen pizza .
+8-1	Next	O	O	_	_	
+8-2	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	7-3	
+8-3	proceeded	B-ScrEv_move_section	O	_	_	
+8-4	to	O	O	_	_	
+8-5	the	O	O	_	_	
+8-6	frozen	O	B-ScrPart_section	_	_	
+8-7	food	O	I-ScrPart_section	_	_	
+8-8	section	O	I-ScrPart_section|B-ScrPart_section	_	_	
+8-9	for	O	O	_	_	
+8-10	a	O	O	_	_	
+8-11	frozen	O	O	_	_	
+8-12	pizza	O	B-ScrPart_groceries	_	_	
+8-13	.	O	O	_	_	
+
+#id=9
+#text=The basket was starting to get full and heavy but I only had two more items left : milk and cheese .
+9-1	The	O	O	_	_	
+9-2	basket	O	B-ScrPart_shopping_cart/basket	webanno.custom.Corefchains_	6-5	
+9-3	was	O	O	_	_	
+9-4	starting	B-UnrelEv	O	_	_	
+9-5	to	O	O	_	_	
+9-6	get	B-UnrelEv	O	_	_	
+9-7	full	O	O	_	_	
+9-8	and	O	O	_	_	
+9-9	heavy	O	O	_	_	
+9-10	but	O	O	_	_	
+9-11	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	8-2	
+9-12	only	O	O	_	_	
+9-13	had	B-UnrelEv	O	_	_	
+9-14	two	O	O	_	_	
+9-15	more	O	O	_	_	
+9-16	items	O	B-ScrPart_groceries	_	_	
+9-17	left	O	O	_	_	
+9-18	:	O	O	_	_	
+9-19	milk	O	B-ScrPart_groceries|B-ScrPart_groceries	webanno.custom.Corefchains_	9-16	
+9-20	and	O	I-ScrPart_groceries	webanno.custom.Corefchains_	9-16	
+9-21	cheese	O	I-ScrPart_groceries|B-ScrPart_groceries	webanno.custom.Corefchains_	9-16	
+9-22	.	O	O	_	_	
+
+#id=10
+#text=I headed for the dairy section , acquired my last few items and proceeded to checkout .
+10-1	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	9-11	
+10-2	headed	B-ScrEv_move_section	O	_	_	
+10-3	for	O	O	_	_	
+10-4	the	O	O	_	_	
+10-5	dairy	O	B-ScrPart_section	_	_	
+10-6	section	O	I-ScrPart_section|B-ScrPart_section	_	_	
+10-7	,	O	O	_	_	
+10-8	acquired	B-ScrEv_get_groceries	O	_	_	
+10-9	my	O	B-ScrPart_shopper	webanno.custom.Corefchains_	10-1	
+10-10	last	O	O	_	_	
+10-11	few	O	O	_	_	
+10-12	items	O	B-ScrPart_groceries	_	_	
+10-13	and	O	O	_	_	
+10-14	proceeded	B-ScrEv_move_section	O	_	_	
+10-15	to	O	O	_	_	
+10-16	checkout	O	B-ScrPart_section	_	_	
+10-17	.	O	O	_	_	
+
+#id=11
+#text=Despite the store being not very busy the traditional checkout lines were all full so I used the self-checkout .
+11-1	Despite	O	O	_	_	
+11-2	the	O	O	_	_	
+11-3	store	O	B-ScrPart_grocery_shop	webanno.custom.Corefchains_	4-19	
+11-4	being	B-UnrelEv	O	_	_	
+11-5	not	O	O	_	_	
+11-6	very	O	O	_	_	
+11-7	busy	O	O	_	_	
+11-8	the	O	O	_	_	
+11-9	traditional	O	O	_	_	
+11-10	checkout	O	B-ScrPart_line	_	_	
+11-11	lines	O	I-ScrPart_line|B-ScrPart_line	_	_	
+11-12	were	B-RelNScrEv	O	_	_	
+11-13	all	O	O	_	_	
+11-14	full	O	O	_	_	
+11-15	so	O	O	_	_	
+11-16	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	10-9	
+11-17	used	B-ScrEv_pay	O	_	_	
+11-18	the	O	O	_	_	
+11-19	self-checkout	O	B-ScrPart_section	webanno.custom.Corefchains_	10-16	
+11-20	.	O	O	_	_	
+
+#id=12
+#text=I got my receipt and my bagged items and headed home to cook lunch . 
+12-1	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	11-16	
+12-2	got	B-ScrEv_pay	O	_	_	
+12-3	my	O	B-ScrPart_shopper	webanno.custom.Corefchains_	12-1	
+12-4	receipt	O	B-ScrPart_receipt	_	_	
+12-5	and	O	O	_	_	
+12-6	my	O	B-ScrPart_shopper	webanno.custom.Corefchains_	12-3	
+12-7	bagged	B-ScrEv_pack_groceries	O	_	_	
+12-8	items	O	B-ScrPart_groceries	webanno.custom.Corefchains_	10-12	
+12-9	and	O	O	_	_	
+12-10	headed	B-ScrEv_leave	O	_	_	
+12-11	home	O	O	_	_	
+12-12	to	O	O	_	_	
+12-13	cook	B-UnrelEv	O	_	_	
+12-14	lunch	O	O	_	_	
+12-15	.	O	O	_	_	
+

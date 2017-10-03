@@ -1,0 +1,246 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Event | Events
+#id=1
+#text=I live near Blacksburg , Virginia and often stay with friends who live near Virginia Tech .
+1-1	I	B-ScrPart_passenger	O	O	
+1-2	live	O	B-webanno.custom.Events_	B-UnrelEv	
+1-3	near	O	O	O	
+1-4	Blacksburg	B-NPart	O	O	
+1-5	,	O	O	O	
+1-6	Virginia	B-NPart	O	O	
+1-7	and	O	O	O	
+1-8	often	O	O	O	
+1-9	stay	O	B-webanno.custom.Events_	B-UnrelEv	
+1-10	with	O	O	O	
+1-11	friends	B-ScrPart_passenger	O	O	
+1-12	who	O	O	O	
+1-13	live	O	B-webanno.custom.Events_	B-UnrelEv	
+1-14	near	O	O	O	
+1-15	Virginia	B-NPart	O	O	
+1-16	Tech	I-NPart	O	O	
+1-17	.	O	O	O	
+
+#id=2
+#text=A bus route stops at their apartment complex and we often ride it downtown to eat brunch after a late night .
+2-1	A	O	O	O	
+2-2	bus	B-ScrPart_bus	B-webanno.custom.Events_	B-Evoking	
+2-3	route	B-ScrPart_route	I-webanno.custom.Events_	I-Evoking	
+2-4	stops	O	B-webanno.custom.Events_	B-UnrelEv	
+2-5	at	O	O	O	
+2-6	their	B-ScrPart_passenger	O	O	
+2-7	apartment	B-NPart	O	O	
+2-8	complex	I-NPart	O	O	
+2-9	and	O	O	O	
+2-10	we	B-ScrPart_passenger	O	O	
+2-11	often	O	O	O	
+2-12	ride	O	B-webanno.custom.Events_	B-Evoking|B-ScrEv_ride	
+2-13	it	B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	
+2-14	downtown	B-NPart	O	O	
+2-15	to	O	O	O	
+2-16	eat	O	B-webanno.custom.Events_	B-UnrelEv	
+2-17	brunch	B-NPart	O	O	
+2-18	after	O	O	O	
+2-19	a	O	O	O	
+2-20	late	O	O	O	
+2-21	night	B-NPart	O	O	
+2-22	.	O	O	O	
+
+#id=3
+#text=Nothing unusual ever happens .
+3-1	Nothing	B-No_label	O	O	
+3-2	unusual	O	O	O	
+3-3	ever	O	O	O	
+3-4	happens	O	B-webanno.custom.Events_	B-UnrelEv	
+3-5	.	O	O	O	
+
+#id=4
+#text=We get ready and go to the bus stop .
+4-1	We	B-ScrPart_passenger	O	O	
+4-2	get	O	B-webanno.custom.Events_	B-UnrelEv	
+4-3	ready	O	O	O	
+4-4	and	O	O	O	
+4-5	go	O	B-webanno.custom.Events_	B-ScrEv_get_bus_stop	
+4-6	to	O	O	O	
+4-7	the	O	O	O	
+4-8	bus	B-ScrPart_bus_stop	O	O	
+4-9	stop	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	O	
+4-10	.	O	O	O	
+
+#id=5
+#text=There 's a bench and it 's covered but there 's no doors .
+5-1	There	B-ScrPart_bus_stop	O	O	
+5-2	's	O	B-webanno.custom.Events_	B-UnrelEv	
+5-3	a	O	O	O	
+5-4	bench	B-NPart	O	O	
+5-5	and	O	O	O	
+5-6	it	B-NPart	O	O	
+5-7	's	O	B-webanno.custom.Events_	B-UnrelEv	
+5-8	covered	O	B-webanno.custom.Events_	B-UnrelEv	
+5-9	but	O	O	O	
+5-10	there	O	O	O	
+5-11	's	O	B-webanno.custom.Events_	B-UnrelEv	
+5-12	no	O	O	O	
+5-13	doors	B-NPart	O	O	
+5-14	.	O	O	O	
+
+#id=6
+#text=The bus is always on time and we hop on .
+6-1	The	O	O	O	
+6-2	bus	B-ScrPart_bus	O	O	
+6-3	is	O	B-webanno.custom.Events_	B-ScrEv_bus_comes	
+6-4	always	O	O	O	
+6-5	on	O	O	O	
+6-6	time	B-ScrPart_time/date	O	O	
+6-7	and	O	O	O	
+6-8	we	B-ScrPart_passenger	O	O	
+6-9	hop	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-ScrEv_board_bus|B-ScrEv_board_bus	
+6-10	on	O	I-webanno.custom.Events_	I-ScrEv_board_bus	
+6-11	.	O	O	O	
+
+#id=7
+#text=It 's never crowded so we can always find a seat .
+7-1	It	B-ScrPart_bus	O	O	
+7-2	's	O	B-webanno.custom.Events_	B-RelNScrEv	
+7-3	never	O	O	O	
+7-4	crowded	O	B-webanno.custom.Events_	B-UnrelEv	
+7-5	so	O	O	O	
+7-6	we	B-ScrPart_passenger	O	O	
+7-7	can	O	B-webanno.custom.Events_	B-UnrelEv	
+7-8	always	O	O	O	
+7-9	find	O	B-webanno.custom.Events_	B-ScrEv_find_place	
+7-10	a	O	O	O	
+7-11	seat	B-ScrPart_seat_in_bus	O	O	
+7-12	.	O	O	O	
+
+#id=8
+#text=The varying bus drivers are nice and we hop on , pay , and take our seats .
+8-1	The	O	O	O	
+8-2	varying	O	O	O	
+8-3	bus	B-ScrPart_bus_staff	O	O	
+8-4	drivers	I-ScrPart_bus_staff|B-ScrPart_bus_staff	O	O	
+8-5	are	O	B-webanno.custom.Events_	B-RelNScrEv	
+8-6	nice	O	O	O	
+8-7	and	O	O	O	
+8-8	we	B-ScrPart_passenger	O	O	
+8-9	hop	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-ScrEv_board_bus|B-ScrEv_board_bus	
+8-10	on	O	I-webanno.custom.Events_	I-ScrEv_board_bus	
+8-11	,	O	O	O	
+8-12	pay	O	B-webanno.custom.Events_	B-ScrEv_get_ticket	
+8-13	,	O	O	O	
+8-14	and	O	O	O	
+8-15	take	O	B-webanno.custom.Events_	B-ScrEv_take_seat	
+8-16	our	B-ScrPart_passenger	O	O	
+8-17	seats	B-ScrPart_seat_in_bus	O	O	
+8-18	.	O	O	O	
+
+#id=9
+#text=The ride downtown takes about 10 minutes because of other stops .
+9-1	The	O	O	O	
+9-2	ride	B-ScrPart_ride	O	O	
+9-3	downtown	B-NPart	O	O	
+9-4	takes	O	B-webanno.custom.Events_	B-RelNScrEv	
+9-5	about	O	O	O	
+9-6	10	O	O	O	
+9-7	minutes	B-ScrPart_time/date	O	O	
+9-8	because	O	O	O	
+9-9	of	O	O	O	
+9-10	other	O	O	O	
+9-11	stops	B-ScrPart_bus_stop	O	O	
+9-12	.	O	O	O	
+
+#id=10
+#text=No other passengers ever talk to each other and honestly groups of friends from different races stick together .
+10-1	No	O	O	O	
+10-2	other	O	O	O	
+10-3	passengers	B-ScrPart_passenger	O	O	
+10-4	ever	O	O	O	
+10-5	talk	O	B-webanno.custom.Events_	B-UnrelEv	
+10-6	to	O	O	O	
+10-7	each	O	O	O	
+10-8	other	O	O	O	
+10-9	and	O	O	O	
+10-10	honestly	O	O	O	
+10-11	groups	B-Head_of_Partitive	O	O	
+10-12	of	O	O	O	
+10-13	friends	B-NPart	O	O	
+10-14	from	O	O	O	
+10-15	different	O	O	O	
+10-16	races	B-NPart	O	O	
+10-17	stick	O	B-webanno.custom.Events_	B-UnrelEv	
+10-18	together	O	O	O	
+10-19	.	O	O	O	
+
+#id=11
+#text=Being near a college such as Virginia Tech makes for a very diverse area where different cultures intermingle but the bus seems to have the most obviously segregated groups .
+11-1	Being	O	B-webanno.custom.Events_	B-UnrelEv	
+11-2	near	O	O	O	
+11-3	a	O	O	O	
+11-4	college	B-NPart	O	O	
+11-5	such	O	O	O	
+11-6	as	O	O	O	
+11-7	Virginia	B-NPart	O	O	
+11-8	Tech	I-NPart	O	O	
+11-9	makes	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-UnrelEv|B-UnrelEv	
+11-10	for	O	I-webanno.custom.Events_	I-UnrelEv	
+11-11	a	O	O	O	
+11-12	very	O	O	O	
+11-13	diverse	O	O	O	
+11-14	area	B-NPart	O	O	
+11-15	where	O	O	O	
+11-16	different	O	O	O	
+11-17	cultures	B-NPart	O	O	
+11-18	intermingle	O	B-webanno.custom.Events_	B-UnrelEv	
+11-19	but	O	O	O	
+11-20	the	O	O	O	
+11-21	bus	B-ScrPart_bus	O	O	
+11-22	seems	O	B-webanno.custom.Events_	B-UnrelEv	
+11-23	to	O	O	O	
+11-24	have	O	B-webanno.custom.Events_	B-RelNScrEv	
+11-25	the	O	O	O	
+11-26	most	O	O	O	
+11-27	obviously	O	O	O	
+11-28	segregated	O	B-webanno.custom.Events_	B-UnrelEv	
+11-29	groups	B-ScrPart_passenger	O	O	
+11-30	.	O	O	O	
+
+#id=12
+#text=We get to our stop and enjoy brunch .
+12-1	We	B-ScrPart_passenger	O	O	
+12-2	get	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-ScrEv_ride|B-ScrEv_ride	
+12-3	to	O	I-webanno.custom.Events_	I-ScrEv_ride	
+12-4	our	B-ScrPart_passenger	O	O	
+12-5	stop	B-ScrPart_bus_stop	O	O	
+12-6	and	O	O	O	
+12-7	enjoy	O	B-webanno.custom.Events_	B-UnrelEv	
+12-8	brunch	B-NPart	O	O	
+12-9	.	O	O	O	
+
+#id=13
+#text=I like riding the bus because of the convenience factor , no parking , and it feels like we are doing something to help the environment . 
+13-1	I	B-ScrPart_passenger	O	O	
+13-2	like	O	B-webanno.custom.Events_	B-UnrelEv	
+13-3	riding	O	B-webanno.custom.Events_	B-ScrEv_ride	
+13-4	the	O	O	O	
+13-5	bus	B-ScrPart_bus	O	O	
+13-6	because	O	O	O	
+13-7	of	O	O	O	
+13-8	the	O	O	O	
+13-9	convenience	B-NPart	O	O	
+13-10	factor	I-NPart|B-NPart	O	O	
+13-11	,	O	O	O	
+13-12	no	O	O	O	
+13-13	parking	O	B-webanno.custom.Events_	B-UnrelEv	
+13-14	,	O	O	O	
+13-15	and	O	O	O	
+13-16	it	B-No_label	O	O	
+13-17	feels	O	B-webanno.custom.Events_	B-UnrelEv	
+13-18	like	O	O	O	
+13-19	we	B-NPart	O	O	
+13-20	are	O	O	O	
+13-21	doing	O	B-webanno.custom.Events_	B-UnrelEv	
+13-22	something	B-No_label	O	O	
+13-23	to	O	O	O	
+13-24	help	O	B-webanno.custom.Events_	B-UnrelEv	
+13-25	the	O	O	O	
+13-26	environment	B-NPart	O	O	
+13-27	.	O	O	O	
+

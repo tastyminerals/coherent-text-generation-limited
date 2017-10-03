@@ -1,0 +1,266 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=It was the summertime and my hair was getting quite long , as it was down to nearly my bellybutton .
+1-1	It	B-NPart	O	
+1-2	was	O	B-UnrelEv	
+1-3	the	O	O	
+1-4	summertime	B-ScrPart_time/date	O	
+1-5	and	O	O	
+1-6	my	B-ScrPart_customer	O	
+1-7	hair	B-ScrPart_hair	O	
+1-8	was	O	O	
+1-9	getting	O	B-UnrelEv	
+1-10	quite	O	O	
+1-11	long	O	O	
+1-12	,	O	O	
+1-13	as	O	O	
+1-14	it	B-ScrPart_hair	O	
+1-15	was	O	B-UnrelEv	
+1-16	down	O	O	
+1-17	to	O	O	
+1-18	nearly	O	O	
+1-19	my	B-ScrPart_customer	O	
+1-20	bellybutton	B-NPart	O	
+1-21	.	O	O	
+
+#id=2
+#text=As a result , I decided it was time for a haircut .
+2-1	As	O	O	
+2-2	a	O	O	
+2-3	result	B-NPart	O	
+2-4	,	O	O	
+2-5	I	B-ScrPart_customer	O	
+2-6	decided	O	B-UnrelEv	
+2-7	it	B-NPart	O	
+2-8	was	O	B-Evoking	
+2-9	time	B-No_label	I-Evoking	
+2-10	for	O	I-Evoking	
+2-11	a	O	I-Evoking	
+2-12	haircut	B-ScrPart_haircut	I-Evoking	
+2-13	.	O	O	
+
+#id=3
+#text=After flipping through numerous options , I decided to get a bob hair cut to my chin .
+3-1	After	O	O	
+3-2	flipping	O	B-RelNScrEv|B-RelNScrEv	
+3-3	through	O	I-RelNScrEv	
+3-4	numerous	O	O	
+3-5	options	B-NPart	O	
+3-6	,	O	O	
+3-7	I	B-ScrPart_customer	O	
+3-8	decided	O	B-UnrelEv	
+3-9	to	O	O	
+3-10	get	O	B-Evoking	
+3-11	a	O	I-Evoking	
+3-12	bob	B-ScrPart_haircut	I-Evoking	
+3-13	hair	I-ScrPart_haircut|B-ScrPart_haircut	I-Evoking	
+3-14	cut	I-ScrPart_haircut|I-ScrPart_haircut	I-Evoking	
+3-15	to	O	O	
+3-16	my	B-ScrPart_customer	O	
+3-17	chin	B-NPart	O	
+3-18	.	O	O	
+
+#id=4
+#text=This was a drastic change , yet I knew I was ready for it .
+4-1	This	O	O	
+4-2	was	O	B-UnrelEv	
+4-3	a	O	O	
+4-4	drastic	O	O	
+4-5	change	B-NPart	O	
+4-6	,	O	O	
+4-7	yet	O	O	
+4-8	I	B-ScrPart_customer	O	
+4-9	knew	O	B-UnrelEv	
+4-10	I	B-ScrPart_customer	O	
+4-11	was	O	B-UnrelEv	
+4-12	ready	O	O	
+4-13	for	O	O	
+4-14	it	B-NPart	O	
+4-15	.	O	O	
+
+#id=5
+#text=I left the house and took the drive over to the salon .
+5-1	I	B-ScrPart_customer	O	
+5-2	left	O	B-UnrelEv	
+5-3	the	O	O	
+5-4	house	B-NPart	O	
+5-5	and	O	O	
+5-6	took	O	B-ScrEv_get_salon	
+5-7	the	O	O	
+5-8	drive	B-NPart	O	
+5-9	over	O	O	
+5-10	to	O	O	
+5-11	the	O	O	
+5-12	salon	B-ScrPart_salon	O	
+5-13	.	O	O	
+
+#id=6
+#text=My favorite hairstylist Michelle eagerly greeted me with an excited smile . ''
+6-1	My	B-ScrPart_customer	O	
+6-2	favorite	O	O	
+6-3	hairstylist	B-ScrPart_hairdresser	O	
+6-4	Michelle	B-ScrPart_hairdresser	O	
+6-5	eagerly	O	O	
+6-6	greeted	O	B-ScrEv_small_talk	
+6-7	me	B-ScrPart_customer	O	
+6-8	with	O	O	
+6-9	an	O	O	
+6-10	excited	O	B-UnrelEv	
+6-11	smile	B-NPart	O	
+6-12	.	O	O	
+6-13	''	O	O	
+
+#id=7
+#text=`` You ready for this ? '' ''
+7-1	``	O	O	
+7-2	You	B-ScrPart_customer	O	
+7-3	ready	O	O	
+7-4	for	O	O	
+7-5	this	O	O	
+7-6	?	O	O	
+7-7	''	O	O	
+7-8	''	O	O	
+
+#id=8
+#text=She asked me . ''
+8-1	She	B-ScrPart_hairdresser	O	
+8-2	asked	O	B-ScrEv_talk_haircut	
+8-3	me	B-ScrPart_customer	O	
+8-4	.	O	O	
+8-5	''	O	O	
+
+#id=9
+#text=`` Yes !
+9-1	``	O	O	
+9-2	Yes	O	O	
+9-3	!	O	O	
+
+#id=10
+#text=Definitely ! '' ''
+10-1	Definitely	O	O	
+10-2	!	O	O	
+10-3	''	O	O	
+10-4	''	O	O	
+
+#id=11
+#text=I exclaimed .
+11-1	I	B-ScrPart_customer	O	
+11-2	exclaimed	O	B-ScrEv_talk_haircut	
+11-3	.	O	O	
+
+#id=12
+#text=Michelle led me over to a sink as she washed my hair with sweet smelling shampoo .
+12-1	Michelle	B-ScrPart_hairdresser	O	
+12-2	led	O	B-ScrEv_move_in_salon	
+12-3	me	B-ScrPart_customer	O	
+12-4	over	O	O	
+12-5	to	O	O	
+12-6	a	O	O	
+12-7	sink	B-ScrPart_wash_basin	O	
+12-8	as	O	O	
+12-9	she	B-ScrPart_hairdresser	O	
+12-10	washed	O	B-ScrEv_wash	
+12-11	my	B-ScrPart_customer	O	
+12-12	hair	B-ScrPart_hair	O	
+12-13	with	O	O	
+12-14	sweet	O	O	
+12-15	smelling	O	B-RelNScrEv	
+12-16	shampoo	B-ScrPart_hair_styling/treatment	O	
+12-17	.	O	O	
+
+#id=13
+#text=After towel-drying my hair quickly , she led me over to her salon chair .
+13-1	After	O	O	
+13-2	towel-drying	O	B-ScrEv_dry	
+13-3	my	B-ScrPart_customer	O	
+13-4	hair	B-ScrPart_hair	O	
+13-5	quickly	O	O	
+13-6	,	O	O	
+13-7	she	B-ScrPart_hairdresser	O	
+13-8	led	O	B-ScrEv_move_in_salon	
+13-9	me	B-ScrPart_customer	O	
+13-10	over	O	O	
+13-11	to	O	O	
+13-12	her	B-ScrPart_hairdresser	O	
+13-13	salon	B-ScrPart_chair	O	
+13-14	chair	I-ScrPart_chair|B-ScrPart_chair	O	
+13-15	.	O	O	
+
+#id=14
+#text=She took out her scissors and started cutting .
+14-1	She	B-ScrPart_hairdresser	O	
+14-2	took	O	B-ScrEv_other|B-ScrEv_other	
+14-3	out	O	I-ScrEv_other	
+14-4	her	B-ScrPart_hairdresser	O	
+14-5	scissors	B-ScrPart_scissors	O	
+14-6	and	O	O	
+14-7	started	O	B-UnrelEv	
+14-8	cutting	O	B-ScrEv_cut	
+14-9	.	O	O	
+
+#id=15
+#text=I looked down at the floor at all the hair that flying all over the place .
+15-1	I	B-ScrPart_customer	O	
+15-2	looked	O	B-UnrelEv|B-UnrelEv	
+15-3	down	O	I-UnrelEv	
+15-4	at	O	O	
+15-5	the	O	O	
+15-6	floor	B-NPart	O	
+15-7	at	O	O	
+15-8	all	O	O	
+15-9	the	O	O	
+15-10	hair	B-ScrPart_hair	O	
+15-11	that	O	O	
+15-12	flying	O	B-UnrelEv	
+15-13	all	O	O	
+15-14	over	O	O	
+15-15	the	O	O	
+15-16	place	B-NPart	O	
+15-17	.	O	O	
+
+#id=16
+#text=I started to get nervous , wondering if I made a mistake .
+16-1	I	B-ScrPart_customer	O	
+16-2	started	O	B-UnrelEv	
+16-3	to	O	O	
+16-4	get	O	B-UnrelEv	
+16-5	nervous	O	O	
+16-6	,	O	O	
+16-7	wondering	O	B-UnrelEv	
+16-8	if	O	O	
+16-9	I	B-ScrPart_customer	O	
+16-10	made	O	B-UnrelEv	
+16-11	a	O	O	
+16-12	mistake	B-NPart	O	
+16-13	.	O	O	
+
+#id=17
+#text=By the time she was done cutting and blew dry my hair , I looked back in the mirror .
+17-1	By	O	O	
+17-2	the	O	O	
+17-3	time	B-No_label	O	
+17-4	she	B-ScrPart_hairdresser	O	
+17-5	was	O	O	
+17-6	done	O	B-UnrelEv	
+17-7	cutting	O	B-ScrEv_cut	
+17-8	and	O	O	
+17-9	blew	O	B-ScrEv_dry	
+17-10	dry	O	O	
+17-11	my	B-ScrPart_customer	O	
+17-12	hair	B-ScrPart_hair	O	
+17-13	,	O	O	
+17-14	I	B-ScrPart_customer	O	
+17-15	looked	O	B-ScrEv_look_mirror	
+17-16	back	O	O	
+17-17	in	O	O	
+17-18	the	O	O	
+17-19	mirror	B-ScrPart_mirror	O	
+17-20	.	O	O	
+
+#id=18
+#text=It looked amazing ! 
+18-1	It	B-ScrPart_hair	O	
+18-2	looked	O	B-ScrEv_customer_opinion	
+18-3	amazing	O	O	
+18-4	!	O	O	
+

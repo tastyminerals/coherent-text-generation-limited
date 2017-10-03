@@ -1,0 +1,388 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=I had finished reading a very good book , and wanted to get a new one to read .
+1-1	I	B-ScrPart_customer	O	
+1-2	had	O	O	
+1-3	finished	O	B-UnrelEv	
+1-4	reading	O	B-RelNScrEv	
+1-5	a	O	O	
+1-6	very	O	O	
+1-7	good	O	O	
+1-8	book	B-ScrPart_book	O	
+1-9	,	O	O	
+1-10	and	O	O	
+1-11	wanted	O	O	
+1-12	to	O	O	
+1-13	get	O	B-ScrEv_other	
+1-14	a	O	O	
+1-15	new	O	O	
+1-16	one	B-ScrPart_book	O	
+1-17	to	O	O	
+1-18	read	O	B-RelNScrEv	
+1-19	.	O	O	
+
+#id=2
+#text=I went to the library in my town .
+2-1	I	B-ScrPart_customer	O	
+2-2	went	O	B-ScrEv_get_library	
+2-3	to	O	O	
+2-4	the	O	O	
+2-5	library	B-ScrPart_library	O	
+2-6	in	O	O	
+2-7	my	B-ScrPart_customer	O	
+2-8	town	B-NPart	O	
+2-9	.	O	O	
+
+#id=3
+#text=They have rows and rows of books , some are old , and some are very new .
+3-1	They	B-ScrPart_staff	O	
+3-2	have	O	B-UnrelEv	
+3-3	rows	B-ScrPart_shelf	O	
+3-4	and	O	O	
+3-5	rows	B-ScrPart_shelf	O	
+3-6	of	O	O	
+3-7	books	B-ScrPart_book	O	
+3-8	,	O	O	
+3-9	some	B-ScrPart_book	O	
+3-10	are	O	B-UnrelEv	
+3-11	old	O	O	
+3-12	,	O	O	
+3-13	and	O	O	
+3-14	some	B-ScrPart_book	O	
+3-15	are	O	B-UnrelEv	
+3-16	very	O	O	
+3-17	new	O	O	
+3-18	.	O	O	
+
+#id=4
+#text=I wanted to get a new book that my favorite author had written not too long ago .
+4-1	I	B-ScrPart_customer	O	
+4-2	wanted	O	O	
+4-3	to	O	O	
+4-4	get	O	B-ScrEv_take_book	
+4-5	a	O	O	
+4-6	new	O	O	
+4-7	book	B-ScrPart_book	O	
+4-8	that	O	O	
+4-9	my	B-ScrPart_customer	O	
+4-10	favorite	O	O	
+4-11	author	B-NPart	O	
+4-12	had	O	O	
+4-13	written	O	B-UnrelEv	
+4-14	not	O	O	
+4-15	too	O	O	
+4-16	long	O	O	
+4-17	ago	O	O	
+4-18	.	O	O	
+
+#id=5
+#text=I was hoping that they would have it , but it was possible it was on loan to another library patron .
+5-1	I	B-ScrPart_customer	O	
+5-2	was	O	O	
+5-3	hoping	O	B-UnrelEv	
+5-4	that	O	O	
+5-5	they	B-ScrPart_staff	O	
+5-6	would	O	O	
+5-7	have	O	B-UnrelEv	
+5-8	it	B-ScrPart_book	O	
+5-9	,	O	O	
+5-10	but	O	O	
+5-11	it	B-No_label	O	
+5-12	was	O	B-UnrelEv	
+5-13	possible	O	O	
+5-14	it	B-ScrPart_book	O	
+5-15	was	O	B-UnrelEv	
+5-16	on	O	O	
+5-17	loan	B-SuppVComp	O	
+5-18	to	O	O	
+5-19	another	O	O	
+5-20	library	B-ScrPart_customer	O	
+5-21	patron	I-ScrPart_customer|B-ScrPart_customer	O	
+5-22	.	O	O	
+
+#id=6
+#text=The books in our library are arranged by the author 's last name , so I went to the row of books that matches the authors name .
+6-1	The	O	O	
+6-2	books	B-ScrPart_book	O	
+6-3	in	O	O	
+6-4	our	B-ScrPart_customer	O	
+6-5	library	B-ScrPart_library	O	
+6-6	are	O	O	
+6-7	arranged	O	B-UnrelEv	
+6-8	by	O	O	
+6-9	the	O	O	
+6-10	author	B-NPart	O	
+6-11	's	O	O	
+6-12	last	O	O	
+6-13	name	B-NPart	O	
+6-14	,	O	O	
+6-15	so	O	O	
+6-16	I	B-ScrPart_customer	O	
+6-17	went	O	B-ScrEv_get_shelf	
+6-18	to	O	O	
+6-19	the	O	O	
+6-20	row	B-ScrPart_shelf	O	
+6-21	of	O	O	
+6-22	books	B-ScrPart_book	O	
+6-23	that	O	O	
+6-24	matches	O	B-UnrelEv	
+6-25	the	O	O	
+6-26	authors	B-NPart	O	
+6-27	name	B-NPart	O	
+6-28	.	O	O	
+
+#id=7
+#text=I found a large section that had many of my favorite author 's books .
+7-1	I	B-ScrPart_customer	O	
+7-2	found	O	B-RelNScrEv	
+7-3	a	O	O	
+7-4	large	O	O	
+7-5	section	B-ScrPart_location_library	O	
+7-6	that	O	O	
+7-7	had	O	B-UnrelEv	
+7-8	many	O	O	
+7-9	of	O	O	
+7-10	my	B-ScrPart_customer	O	
+7-11	favorite	O	O	
+7-12	author	B-NPart	O	
+7-13	's	O	O	
+7-14	books	B-ScrPart_book	O	
+7-15	.	O	O	
+
+#id=8
+#text=I looked carefully for the book I was searching for , and was very excited that it was there on the shelf .
+8-1	I	B-ScrPart_customer	O	
+8-2	looked	O	B-ScrEv_look_for_book	
+8-3	carefully	O	O	
+8-4	for	O	O	
+8-5	the	O	O	
+8-6	book	B-ScrPart_book	O	
+8-7	I	B-ScrPart_customer	O	
+8-8	was	O	O	
+8-9	searching	O	B-ScrEv_look_for_book	
+8-10	for	O	O	
+8-11	,	O	O	
+8-12	and	O	O	
+8-13	was	O	B-UnrelEv	
+8-14	very	O	O	
+8-15	excited	O	O	
+8-16	that	O	O	
+8-17	it	B-ScrPart_book	O	
+8-18	was	O	B-UnrelEv	
+8-19	there	O	O	
+8-20	on	O	O	
+8-21	the	O	O	
+8-22	shelf	B-ScrPart_shelf	O	
+8-23	.	O	O	
+
+#id=9
+#text=I was very happy that it was not already checked out .
+9-1	I	B-ScrPart_customer	O	
+9-2	was	O	B-UnrelEv	
+9-3	very	O	O	
+9-4	happy	O	O	
+9-5	that	O	O	
+9-6	it	B-ScrPart_book	O	
+9-7	was	O	O	
+9-8	not	O	O	
+9-9	already	O	O	
+9-10	checked	O	B-ScrEv_register	
+9-11	out	O	I-ScrEv_register	
+9-12	.	O	O	
+
+#id=10
+#text=I took the book off the shelf , and looked for a while more to see if there were any other books that I wanted to read .
+10-1	I	B-ScrPart_customer	O	
+10-2	took	O	B-ScrEv_take_book	
+10-3	the	O	O	
+10-4	book	B-ScrPart_book	O	
+10-5	off	O	O	
+10-6	the	O	O	
+10-7	shelf	B-ScrPart_shelf	O	
+10-8	,	O	O	
+10-9	and	O	O	
+10-10	looked	O	B-RelNScrEv	
+10-11	for	O	O	
+10-12	a	O	O	
+10-13	while	B-NPart	O	
+10-14	more	O	O	
+10-15	to	O	O	
+10-16	see	O	B-RelNScrEv	
+10-17	if	O	O	
+10-18	there	O	O	
+10-19	were	O	B-UnrelEv	
+10-20	any	O	O	
+10-21	other	O	O	
+10-22	books	B-ScrPart_book	O	
+10-23	that	O	O	
+10-24	I	B-ScrPart_customer	O	
+10-25	wanted	O	O	
+10-26	to	O	O	
+10-27	read	O	B-RelNScrEv	
+10-28	.	O	O	
+
+#id=11
+#text=I found one more book that looked really interesting , so I took that one off the shelf as well .
+11-1	I	B-ScrPart_customer	O	
+11-2	found	O	B-RelNScrEv	
+11-3	one	O	O	
+11-4	more	O	O	
+11-5	book	B-ScrPart_book	O	
+11-6	that	O	O	
+11-7	looked	O	B-UnrelEv	
+11-8	really	O	O	
+11-9	interesting	O	O	
+11-10	,	O	O	
+11-11	so	O	O	
+11-12	I	B-ScrPart_customer	O	
+11-13	took	O	B-ScrEv_take_book	
+11-14	that	O	O	
+11-15	one	B-ScrPart_book	O	
+11-16	off	O	O	
+11-17	the	O	O	
+11-18	shelf	B-ScrPart_shelf	O	
+11-19	as	O	O	
+11-20	well	O	O	
+11-21	.	O	O	
+
+#id=12
+#text=When I was done with my search , I brought my two books to the front desk .
+12-1	When	O	O	
+12-2	I	B-ScrPart_customer	O	
+12-3	was	O	B-UnrelEv	
+12-4	done	O	O	
+12-5	with	O	O	
+12-6	my	B-ScrPart_customer	O	
+12-7	search	B-NPart	O	
+12-8	,	O	O	
+12-9	I	B-ScrPart_customer	O	
+12-10	brought	O	B-ScrEv_go_check_out	
+12-11	my	B-ScrPart_customer	O	
+12-12	two	O	O	
+12-13	books	B-ScrPart_book	O	
+12-14	to	O	O	
+12-15	the	O	O	
+12-16	front	B-ScrPart_check-out_desk	O	
+12-17	desk	I-ScrPart_check-out_desk|B-ScrPart_check-out_desk	O	
+12-18	.	O	O	
+
+#id=13
+#text=The librarian was there to help me check the books out .
+13-1	The	O	O	
+13-2	librarian	B-ScrPart_staff	O	
+13-3	was	O	B-UnrelEv	
+13-4	there	O	O	
+13-5	to	O	O	
+13-6	help	O	B-UnrelEv	
+13-7	me	B-ScrPart_customer	O	
+13-8	check	O	B-ScrEv_register	
+13-9	the	O	O	
+13-10	books	B-ScrPart_book	O	
+13-11	out	O	O	
+13-12	.	O	O	
+
+#id=14
+#text=She said hello and asked for my library card .
+14-1	She	B-ScrPart_staff	O	
+14-2	said	O	B-RelNScrEv	
+14-3	hello	O	O	
+14-4	and	O	O	
+14-5	asked	O	B-RelNScrEv	
+14-6	for	O	O	
+14-7	my	B-ScrPart_customer	O	
+14-8	library	B-ScrPart_library_card	O	
+14-9	card	I-ScrPart_library_card|B-ScrPart_library_card	O	
+14-10	.	O	O	
+
+#id=15
+#text=I handed that to her , and she took the cards out of the back of the books I wanted to check out .
+15-1	I	B-ScrPart_customer	O	
+15-2	handed	O	B-ScrEv_show_card	
+15-3	that	B-ScrPart_library_card	O	
+15-4	to	O	O	
+15-5	her	B-ScrPart_staff	O	
+15-6	,	O	O	
+15-7	and	O	O	
+15-8	she	B-ScrPart_staff	O	
+15-9	took	O	B-RelNScrEv	
+15-10	the	O	O	
+15-11	cards	B-ScrPart_book_id	O	
+15-12	out	O	O	
+15-13	of	O	O	
+15-14	the	O	O	
+15-15	back	B-NPart	O	
+15-16	of	O	O	
+15-17	the	O	O	
+15-18	books	B-ScrPart_book	O	
+15-19	I	B-ScrPart_customer	O	
+15-20	wanted	O	O	
+15-21	to	O	O	
+15-22	check	O	B-ScrEv_register	
+15-23	out	O	I-ScrEv_register	
+15-24	.	O	O	
+
+#id=16
+#text=She made a stamp in the back of each book , letting me know what day the books were due back to the library .
+16-1	She	B-ScrPart_staff	O	
+16-2	made	O	B-RelNScrEv	
+16-3	a	O	O	
+16-4	stamp	B-SuppVComp	O	
+16-5	in	O	O	
+16-6	the	O	O	
+16-7	back	B-NPart	O	
+16-8	of	O	O	
+16-9	each	O	O	
+16-10	book	B-ScrPart_book	O	
+16-11	,	O	O	
+16-12	letting	O	B-RelNScrEv	
+16-13	me	B-ScrPart_customer	O	
+16-14	know	O	B-RelNScrEv	
+16-15	what	O	O	
+16-16	day	B-ScrPart_return_date	O	
+16-17	the	O	O	
+16-18	books	B-ScrPart_book	O	
+16-19	were	O	B-UnrelEv	
+16-20	due	O	O	
+16-21	back	O	O	
+16-22	to	O	O	
+16-23	the	O	O	
+16-24	library	B-ScrPart_library	O	
+16-25	.	O	O	
+
+#id=17
+#text=I said thank you to the librarian , and she handed me back my library card and the books .
+17-1	I	B-ScrPart_customer	O	
+17-2	said	O	B-RelNScrEv	
+17-3	thank	O	O	
+17-4	you	B-NPart	O	
+17-5	to	O	O	
+17-6	the	O	O	
+17-7	librarian	B-ScrPart_staff	O	
+17-8	,	O	O	
+17-9	and	O	O	
+17-10	she	B-ScrPart_staff	O	
+17-11	handed	O	B-RelNScrEv	
+17-12	me	B-ScrPart_customer	O	
+17-13	back	O	O	
+17-14	my	B-ScrPart_customer	O	
+17-15	library	B-ScrPart_library_card	O	
+17-16	card	I-ScrPart_library_card|B-ScrPart_library_card	O	
+17-17	and	O	O	
+17-18	the	O	O	
+17-19	books	B-ScrPart_book	O	
+17-20	.	O	O	
+
+#id=18
+#text=I could n't wait to get home and start reading . 
+18-1	I	B-ScrPart_customer	O	
+18-2	could	O	O	
+18-3	n't	O	O	
+18-4	wait	O	B-UnrelEv	
+18-5	to	O	O	
+18-6	get	O	B-RelNScrEv	
+18-7	home	B-NPart	O	
+18-8	and	O	O	
+18-9	start	O	B-UnrelEv	
+18-10	reading	O	B-RelNScrEv	
+18-11	.	O	O	
+

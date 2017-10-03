@@ -1,0 +1,225 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I remembered the first long train trip i had , it was incredible .
+1-1	I	B-ScrPart_passenger	O	_	_	
+1-2	remembered	O	B-UnrelEv	_	_	
+1-3	the	O	O	_	_	
+1-4	first	O	O	_	_	
+1-5	long	O	O	_	_	
+1-6	train	O	B-Evoking	_	_	
+1-7	trip	O	I-Evoking	_	_	
+1-8	i	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-1	
+1-9	had	O	B-UnrelEv	_	_	
+1-10	,	O	O	_	_	
+1-11	it	O	O	_	_	
+1-12	was	O	B-UnrelEv	_	_	
+1-13	incredible	O	O	_	_	
+1-14	.	O	O	_	_	
+
+#id=2
+#text=I was talking to my family about going on a trip to Virginia and they decided it was about time we booked the trip .
+2-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-8	
+2-2	was	O	O	_	_	
+2-3	talking	O	B-UnrelEv	_	_	
+2-4	to	O	O	_	_	
+2-5	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-1	
+2-6	family	B-ScrPart_passenger	O	_	_	
+2-7	about	O	O	_	_	
+2-8	going	O	B-UnrelEv	_	_	
+2-9	on	O	O	_	_	
+2-10	a	O	O	_	_	
+2-11	trip	O	O	_	_	
+2-12	to	O	O	_	_	
+2-13	Virginia	O	O	_	_	
+2-14	and	O	O	_	_	
+2-15	they	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-6	
+2-16	decided	O	B-UnrelEv	_	_	
+2-17	it	O	O	_	_	
+2-18	was	O	B-UnrelEv	_	_	
+2-19	about	O	O	_	_	
+2-20	time	O	O	_	_	
+2-21	we	B-ScrPart_passenger	O	group_family_I|group_family_I	2-5|2-15	
+2-22	booked	O	B-ScrEv_get_tickets	_	_	
+2-23	the	O	O	_	_	
+2-24	trip	B-ScrPart_card/ticket	O	_	_	
+2-25	.	O	O	_	_	
+
+#id=3
+#text=My dad called Amtrak -LRB- train company -RRB- and ordered 5 tickets for the next weekend .
+3-1	My	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-5	
+3-2	dad	B-ScrPart_passenger	O	_	_	
+3-3	called	O	B-RelNScrEv	_	_	
+3-4	Amtrak	O	O	_	_	
+3-5	-LRB-	O	O	_	_	
+3-6	train	B-ScrPart_ticket_office/website	O	_	_	
+3-7	company	I-ScrPart_ticket_office/website|B-ScrPart_ticket_office/website	O	_	_	
+3-8	-RRB-	O	O	_	_	
+3-9	and	O	O	_	_	
+3-10	ordered	O	B-ScrEv_get_tickets	_	_	
+3-11	5	O	O	_	_	
+3-12	tickets	B-ScrPart_card/ticket	O	webanno.custom.Corefchains_	2-24	
+3-13	for	O	O	_	_	
+3-14	the	O	O	_	_	
+3-15	next	O	O	_	_	
+3-16	weekend	O	O	_	_	
+3-17	.	O	O	_	_	
+
+#id=4
+#text=When the weekend came we got onto the train .
+4-1	When	O	O	_	_	
+4-2	the	O	O	_	_	
+4-3	weekend	O	O	_	_	
+4-4	came	O	O	_	_	
+4-5	we	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-21	
+4-6	got	O	B-Evoking	_	_	
+4-7	onto	O	I-Evoking	_	_	
+4-8	the	O	I-Evoking	_	_	
+4-9	train	B-ScrPart_train	I-Evoking	_	_	
+4-10	.	O	O	_	_	
+
+#id=5
+#text=This train was different , it was a double-decker or a train with two floors .
+5-1	This	O	O	_	_	
+5-2	train	B-ScrPart_train	O	webanno.custom.Corefchains_	4-9	
+5-3	was	O	B-UnrelEv	_	_	
+5-4	different	O	O	_	_	
+5-5	,	O	O	_	_	
+5-6	it	B-ScrPart_train	O	webanno.custom.Corefchains_	5-2	
+5-7	was	O	B-UnrelEv	_	_	
+5-8	a	O	O	_	_	
+5-9	double-decker	O	O	_	_	
+5-10	or	O	O	_	_	
+5-11	a	O	O	_	_	
+5-12	train	B-ScrPart_train	O	webanno.custom.Corefchains_	5-6	
+5-13	with	O	O	_	_	
+5-14	two	O	O	_	_	
+5-15	floors	O	O	_	_	
+5-16	.	O	O	_	_	
+
+#id=6
+#text=We got to our seats and to the side was huge windows that went from the back of the train car to the front .
+6-1	We	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-5	
+6-2	got	O	B-ScrEv_find_place	_	_	
+6-3	to	O	O	_	_	
+6-4	our	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-1	
+6-5	seats	B-ScrPart_seat	O	_	_	
+6-6	and	O	O	_	_	
+6-7	to	O	O	_	_	
+6-8	the	O	O	_	_	
+6-9	side	O	O	_	_	
+6-10	was	O	B-UnrelEv	_	_	
+6-11	huge	O	O	_	_	
+6-12	windows	B-ScrPart_location_train	O	_	_	
+6-13	that	O	O	_	_	
+6-14	went	O	B-UnrelEv	_	_	
+6-15	from	O	O	_	_	
+6-16	the	O	O	_	_	
+6-17	back	O	O	_	_	
+6-18	of	O	O	_	_	
+6-19	the	O	O	_	_	
+6-20	train	B-ScrPart_coach	O	_	_	
+6-21	car	I-ScrPart_coach|B-ScrPart_coach	O	_	_	
+6-22	to	O	O	_	_	
+6-23	the	O	O	_	_	
+6-24	front	O	O	_	_	
+6-25	.	O	O	_	_	
+
+#id=7
+#text=I could n't believe how incredible all the trees and birds looked .
+7-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-1	
+7-2	could	O	O	_	_	
+7-3	n't	O	O	_	_	
+7-4	believe	O	B-UnrelEv	_	_	
+7-5	how	O	O	_	_	
+7-6	incredible	O	O	_	_	
+7-7	all	O	O	_	_	
+7-8	the	O	O	_	_	
+7-9	trees	O	O	_	_	
+7-10	and	O	O	_	_	
+7-11	birds	O	O	_	_	
+7-12	looked	O	B-UnrelEv	_	_	
+7-13	.	O	O	_	_	
+
+#id=8
+#text=Then we got to the observation car .
+8-1	Then	O	O	_	_	
+8-2	we	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-4	
+8-3	got	O	B-ScrEv_spend_time_train	_	_	
+8-4	to	O	O	_	_	
+8-5	the	O	O	_	_	
+8-6	observation	B-ScrPart_coach	O	_	_	
+8-7	car	I-ScrPart_coach|B-ScrPart_coach	O	_	_	
+8-8	.	O	O	_	_	
+
+#id=9
+#text=I did n't even think this type of car existed .
+9-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-1	
+9-2	did	O	O	_	_	
+9-3	n't	O	O	_	_	
+9-4	even	O	O	_	_	
+9-5	think	O	B-UnrelEv	_	_	
+9-6	this	O	O	_	_	
+9-7	type	O	O	_	_	
+9-8	of	O	O	_	_	
+9-9	car	B-ScrPart_coach	O	webanno.custom.Corefchains_	8-7	
+9-10	existed	O	B-UnrelEv	_	_	
+9-11	.	O	O	_	_	
+
+#id=10
+#text=The train car was all class except for the floor and the lower parts of the wall , above was all glass .
+10-1	The	O	O	_	_	
+10-2	train	B-ScrPart_coach	O	_	_	
+10-3	car	I-ScrPart_coach|B-ScrPart_coach	O	webanno.custom.Corefchains_	9-9	
+10-4	was	O	B-UnrelEv	_	_	
+10-5	all	O	O	_	_	
+10-6	class	O	O	_	_	
+10-7	except	O	O	_	_	
+10-8	for	O	O	_	_	
+10-9	the	O	O	_	_	
+10-10	floor	O	O	_	_	
+10-11	and	O	O	_	_	
+10-12	the	O	O	_	_	
+10-13	lower	O	O	_	_	
+10-14	parts	O	O	_	_	
+10-15	of	O	O	_	_	
+10-16	the	O	O	_	_	
+10-17	wall	O	O	_	_	
+10-18	,	O	O	_	_	
+10-19	above	O	O	_	_	
+10-20	was	O	B-UnrelEv	_	_	
+10-21	all	O	O	_	_	
+10-22	glass	O	O	_	_	
+10-23	.	O	O	_	_	
+
+#id=11
+#text=Then we rode in the observation and watched as the rain fell down .
+11-1	Then	O	O	_	_	
+11-2	we	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-2	
+11-3	rode	O	B-ScrEv_spend_time_train	_	_	
+11-4	in	O	O	_	_	
+11-5	the	O	O	_	_	
+11-6	observation	B-ScrPart_coach	O	webanno.custom.Corefchains_	10-3	
+11-7	and	O	O	_	_	
+11-8	watched	O	B-ScrEv_spend_time_train	_	_	
+11-9	as	O	O	_	_	
+11-10	the	O	O	_	_	
+11-11	rain	O	O	_	_	
+11-12	fell	O	B-UnrelEv|B-UnrelEv	_	_	
+11-13	down	O	I-UnrelEv	_	_	
+11-14	.	O	O	_	_	
+
+#id=12
+#text=It was an unbelievable event and I would highly recommend it . 
+12-1	It	O	O	_	_	
+12-2	was	O	B-UnrelEv	_	_	
+12-3	an	O	O	_	_	
+12-4	unbelievable	O	O	_	_	
+12-5	event	O	O	_	_	
+12-6	and	O	O	_	_	
+12-7	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-1	
+12-8	would	O	O	_	_	
+12-9	highly	O	O	_	_	
+12-10	recommend	O	B-UnrelEv	_	_	
+12-11	it	O	O	_	_	
+12-12	.	O	O	_	_	
+

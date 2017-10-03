@@ -1,0 +1,353 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=While I was riding my bike I accidentally ran over a nail .
+1-1	While	O	O	
+1-2	I	B-ScrPart_rider	O	
+1-3	was	O	O	
+1-4	riding	O	B-ScrEv_ride_bike	
+1-5	my	B-ScrPart_rider	O	
+1-6	bike	B-ScrPart_bicycle	O	
+1-7	I	B-ScrPart_rider	O	
+1-8	accidentally	O	O	
+1-9	ran	O	B-RelNScrEv	
+1-10	over	O	I-RelNScrEv	
+1-11	a	O	O	
+1-12	nail	B-ScrPart_object_damage	O	
+1-13	.	O	O	
+
+#id=2
+#text=My rear tire quickly deflated .
+2-1	My	B-ScrPart_rider	O	
+2-2	rear	B-ScrPart_tire	O	
+2-3	tire	I-ScrPart_tire|B-ScrPart_tire	O	
+2-4	quickly	O	O	
+2-5	deflated	O	B-RelNScrEv	
+2-6	.	O	O	
+
+#id=3
+#text=I walked the bike home .
+3-1	I	B-ScrPart_rider	O	
+3-2	walked	O	B-RelNScrEv	
+3-3	the	O	O	
+3-4	bike	B-ScrPart_bicycle	O	
+3-5	home	B-ScrPart_location_repair	O	
+3-6	.	O	O	
+
+#id=4
+#text=My bike tire had an inner tube , and I had an extra one in my basement .
+4-1	My	B-ScrPart_rider	O	
+4-2	bike	B-ScrPart_tire	O	
+4-3	tire	I-ScrPart_tire|B-ScrPart_tire	O	
+4-4	had	O	B-UnrelEv	
+4-5	an	O	O	
+4-6	inner	O	O	
+4-7	tube	B-ScrPart_tire	O	
+4-8	,	O	O	
+4-9	and	O	O	
+4-10	I	B-ScrPart_rider	O	
+4-11	had	O	B-UnrelEv	
+4-12	an	O	O	
+4-13	extra	O	O	
+4-14	one	B-ScrPart_spare_tube	O	
+4-15	in	O	O	
+4-16	my	B-ScrPart_rider	O	
+4-17	basement	B-ScrPart_other	O	
+4-18	.	O	O	
+
+#id=5
+#text=I got the extra inner tube and went to work .
+5-1	I	B-ScrPart_rider	O	
+5-2	got	O	B-RelNScrEv	
+5-3	the	O	O	
+5-4	extra	O	O	
+5-5	inner	O	O	
+5-6	tube	B-ScrPart_spare_tube	O	
+5-7	and	O	O	
+5-8	went	O	B-UnrelEv	
+5-9	to	O	O	
+5-10	work	O	O	
+5-11	.	O	O	
+
+#id=6
+#text=In order to fix my tire , I had to pry the rubber outer tire out of the wheel 's metal rim .
+6-1	In	O	O	
+6-2	order	B-No_label	O	
+6-3	to	O	O	
+6-4	fix	O	B-Evoking	
+6-5	my	B-ScrPart_rider	I-Evoking	
+6-6	tire	B-ScrPart_tire	I-Evoking	
+6-7	,	O	O	
+6-8	I	B-ScrPart_rider	O	
+6-9	had	O	O	
+6-10	to	O	O	
+6-11	pry	O	B-ScrEv_take_tire_off	
+6-12	the	O	O	
+6-13	rubber	B-NPart	O	
+6-14	outer	O	O	
+6-15	tire	B-ScrPart_tire	O	
+6-16	out	O	O	
+6-17	of	O	O	
+6-18	the	O	O	
+6-19	wheel	B-ScrPart_wheel	O	
+6-20	's	O	O	
+6-21	metal	B-ScrPart_rim	O	
+6-22	rim	I-ScrPart_rim|B-ScrPart_rim	O	
+6-23	.	O	O	
+
+#id=7
+#text=I got a screwdriver and inserted it between the metal and rubber , lifting the rubber out .
+7-1	I	B-ScrPart_rider	O	
+7-2	got	O	B-ScrEv_get_tools	
+7-3	a	O	O	
+7-4	screwdriver	B-ScrPart_tool	O	
+7-5	and	O	O	
+7-6	inserted	O	B-RelNScrEv	
+7-7	it	B-ScrPart_tool	O	
+7-8	between	O	O	
+7-9	the	O	O	
+7-10	metal	B-ScrPart_rim	O	
+7-11	and	O	O	
+7-12	rubber	B-ScrPart_tire	O	
+7-13	,	O	O	
+7-14	lifting	O	B-ScrEv_take_tire_off	
+7-15	the	O	O	
+7-16	rubber	B-ScrPart_tire	O	
+7-17	out	O	O	
+7-18	.	O	O	
+
+#id=8
+#text=I went around the rim that way taking the tire out of the rim .
+8-1	I	B-ScrPart_rider	O	
+8-2	went	O	B-UnrelEv	
+8-3	around	O	O	
+8-4	the	O	O	
+8-5	rim	B-ScrPart_rim	O	
+8-6	that	O	O	
+8-7	way	B-No_label	O	
+8-8	taking	O	B-ScrEv_take_tire_off	
+8-9	the	O	O	
+8-10	tire	B-ScrPart_tire	O	
+8-11	out	O	O	
+8-12	of	O	O	
+8-13	the	O	O	
+8-14	rim	B-ScrPart_rim	O	
+8-15	.	O	O	
+
+#id=9
+#text=Once it was out , I was able to pull the broken inner tube out .
+9-1	Once	O	O	
+9-2	it	B-ScrPart_tire	O	
+9-3	was	O	B-UnrelEv	
+9-4	out	O	O	
+9-5	,	O	O	
+9-6	I	B-ScrPart_rider	O	
+9-7	was	O	O	
+9-8	able	O	O	
+9-9	to	O	O	
+9-10	pull	O	B-ScrEv_take_tire_off	
+9-11	the	O	O	
+9-12	broken	O	O	
+9-13	inner	O	O	
+9-14	tube	B-ScrPart_tire	O	
+9-15	out	O	O	
+9-16	.	O	O	
+
+#id=10
+#text=As I 'd figured , there was a big hole in it from the nail .
+10-1	As	O	O	
+10-2	I	B-ScrPart_rider	O	
+10-3	'd	O	O	
+10-4	figured	O	B-UnrelEv	
+10-5	,	O	O	
+10-6	there	O	O	
+10-7	was	O	B-UnrelEv	
+10-8	a	O	O	
+10-9	big	O	O	
+10-10	hole	B-ScrPart_object_damage	O	
+10-11	in	O	O	
+10-12	it	B-ScrPart_tire	O	
+10-13	from	O	O	
+10-14	the	O	O	
+10-15	nail	B-ScrPart_object_damage	O	
+10-16	.	O	O	
+
+#id=11
+#text=I put the old inner tube aside and got the new one .
+11-1	I	B-ScrPart_rider	O	
+11-2	put	O	B-ScrEv_remove_tire	
+11-3	the	O	O	
+11-4	old	O	O	
+11-5	inner	O	O	
+11-6	tube	B-ScrPart_tire	O	
+11-7	aside	O	O	
+11-8	and	O	O	
+11-9	got	O	B-RelNScrEv	
+11-10	the	O	O	
+11-11	new	O	O	
+11-12	one	B-ScrPart_spare_tube	O	
+11-13	.	O	O	
+
+#id=12
+#text=There 's a part on the tube where a valve comes out .
+12-1	There	O	O	
+12-2	's	O	B-UnrelEv	
+12-3	a	O	O	
+12-4	part	B-NPart	O	
+12-5	on	O	O	
+12-6	the	O	O	
+12-7	tube	B-ScrPart_spare_tube	O	
+12-8	where	O	O	
+12-9	a	O	O	
+12-10	valve	B-ScrPart_bicycle_small_detail	O	
+12-11	comes	O	B-UnrelEv	
+12-12	out	O	I-UnrelEv	
+12-13	.	O	O	
+
+#id=13
+#text=That 's where you attach a pump to fill the tube with air .
+13-1	That	O	O	
+13-2	's	O	O	
+13-3	where	O	O	
+13-4	you	B-ScrPart_rider	O	
+13-5	attach	O	B-RelNScrEv	
+13-6	a	O	O	
+13-7	pump	B-ScrPart_tool	O	
+13-8	to	O	O	
+13-9	fill	O	B-ScrEv_refill_tire_air	
+13-10	the	O	O	
+13-11	tube	B-ScrPart_spare_tube	O	
+13-12	with	O	O	
+13-13	air	B-ScrPart_air	O	
+13-14	.	O	O	
+
+#id=14
+#text=I put this valve through the hole in the rim that it 's supposed to stick through .
+14-1	I	B-ScrPart_rider	O	
+14-2	put	O	B-RelNScrEv	
+14-3	this	O	O	
+14-4	valve	B-ScrPart_bicycle_small_detail	O	
+14-5	through	O	O	
+14-6	the	O	O	
+14-7	hole	B-ScrPart_bicycle_small_detail	O	
+14-8	in	O	O	
+14-9	the	O	O	
+14-10	rim	B-ScrPart_rim	O	
+14-11	that	O	O	
+14-12	it	B-ScrPart_bicycle_small_detail	O	
+14-13	's	O	B-UnrelEv	
+14-14	supposed	O	O	
+14-15	to	O	O	
+14-16	stick	O	B-UnrelEv	
+14-17	through	O	I-UnrelEv	
+14-18	.	O	O	
+
+#id=15
+#text=Then I went around the rim squeezing the inner tube into the tire .
+15-1	Then	O	O	
+15-2	I	B-ScrPart_rider	O	
+15-3	went	O	B-UnrelEv	
+15-4	around	O	O	
+15-5	the	O	O	
+15-6	rim	B-ScrPart_rim	O	
+15-7	squeezing	O	B-ScrEv_put_new_tire	
+15-8	the	O	O	
+15-9	inner	O	O	
+15-10	tube	B-ScrPart_spare_tube	O	
+15-11	into	O	O	
+15-12	the	O	O	
+15-13	tire	B-ScrPart_tire	O	
+15-14	.	O	O	
+
+#id=16
+#text=Once I had the inner tube in place , I went around the rim again pushing the outer part of the tire back into the rim .
+16-1	Once	O	O	
+16-2	I	B-ScrPart_rider	O	
+16-3	had	O	B-UnrelEv	
+16-4	the	O	O	
+16-5	inner	O	O	
+16-6	tube	B-ScrPart_spare_tube	O	
+16-7	in	O	O	
+16-8	place	B-No_label	O	
+16-9	,	O	O	
+16-10	I	B-ScrPart_rider	O	
+16-11	went	O	B-UnrelEv	
+16-12	around	O	O	
+16-13	the	O	O	
+16-14	rim	B-ScrPart_rim	O	
+16-15	again	O	O	
+16-16	pushing	O	B-ScrEv_put_new_tire	
+16-17	the	O	O	
+16-18	outer	O	O	
+16-19	part	B-NPart	O	
+16-20	of	O	O	
+16-21	the	O	O	
+16-22	tire	B-ScrPart_tire	O	
+16-23	back	O	O	
+16-24	into	O	O	
+16-25	the	O	O	
+16-26	rim	B-ScrPart_rim	O	
+16-27	.	O	O	
+
+#id=17
+#text=That was hard work , but I finally managed it .
+17-1	That	O	O	
+17-2	was	O	B-UnrelEv	
+17-3	hard	O	O	
+17-4	work	B-NPart	O	
+17-5	,	O	O	
+17-6	but	O	O	
+17-7	I	B-ScrPart_rider	O	
+17-8	finally	O	O	
+17-9	managed	O	B-UnrelEv	
+17-10	it	B-No_label	O	
+17-11	.	O	O	
+
+#id=18
+#text=Once that was done , I got out my bike pump , fitted it to the inner tube 's valve , and filled the new tire with air .
+18-1	Once	O	O	
+18-2	that	O	O	
+18-3	was	O	B-UnrelEv	
+18-4	done	O	O	
+18-5	,	O	O	
+18-6	I	B-ScrPart_rider	O	
+18-7	got	O	B-ScrEv_get_tools	
+18-8	out	O	I-ScrEv_get_tools	
+18-9	my	B-ScrPart_rider	O	
+18-10	bike	B-ScrPart_tool	O	
+18-11	pump	I-ScrPart_tool|B-ScrPart_tool	O	
+18-12	,	O	O	
+18-13	fitted	O	B-RelNScrEv	
+18-14	it	B-ScrPart_tool	O	
+18-15	to	O	O	
+18-16	the	O	O	
+18-17	inner	O	O	
+18-18	tube	B-ScrPart_spare_tube	O	
+18-19	's	O	O	
+18-20	valve	B-ScrPart_bicycle_small_detail	O	
+18-21	,	O	O	
+18-22	and	O	O	
+18-23	filled	O	B-ScrEv_refill_tire_air	
+18-24	the	O	O	
+18-25	new	O	O	
+18-26	tire	B-ScrPart_tire	O	
+18-27	with	O	O	
+18-28	air	B-ScrPart_air	O	
+18-29	.	O	O	
+
+#id=19
+#text=Soon my tire was completely repaired and I was able to ride again ! 
+19-1	Soon	O	O	
+19-2	my	B-ScrPart_rider	O	
+19-3	tire	B-ScrPart_tire	O	
+19-4	was	O	B-UnrelEv	
+19-5	completely	O	O	
+19-6	repaired	O	B-Evoking	
+19-7	and	O	O	
+19-8	I	B-ScrPart_rider	O	
+19-9	was	O	O	
+19-10	able	O	O	
+19-11	to	O	O	
+19-12	ride	O	B-ScrEv_ride_bike	
+19-13	again	O	O	
+19-14	!	O	O	
+

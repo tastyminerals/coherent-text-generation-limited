@@ -1,0 +1,330 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=My first flight out of the United States was to Myanmar .
+1-1	My	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+1-2	first	O	O	O	_	_	
+1-3	flight	B-webanno.custom.Participants_	B-ScrPart_flight	B-Evoking	_	_	
+1-4	out	O	O	I-Evoking	_	_	
+1-5	of	O	O	I-Evoking	_	_	
+1-6	the	O	O	I-Evoking	_	_	
+1-7	United	O	O	I-Evoking	_	_	
+1-8	States	O	O	I-Evoking	_	_	
+1-9	was	O	O	I-Evoking	_	_	
+1-10	to	O	O	I-Evoking	_	_	
+1-11	Myanmar	B-webanno.custom.Participants_	B-ScrPart_target_location	I-Evoking	_	_	
+1-12	.	O	O	O	_	_	
+
+#id=2
+#text=I was excited but very nervous all at the same time .
+2-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-1	
+2-2	was	O	O	B-UnrelEv	_	_	
+2-3	excited	O	O	B-UnrelEv	_	_	
+2-4	but	O	O	O	_	_	
+2-5	very	O	O	O	_	_	
+2-6	nervous	O	O	O	_	_	
+2-7	all	O	O	O	_	_	
+2-8	at	O	O	O	_	_	
+2-9	the	O	O	O	_	_	
+2-10	same	O	O	O	_	_	
+2-11	time	O	O	O	_	_	
+2-12	.	O	O	O	_	_	
+
+#id=3
+#text=Going through security checks and all that comes with it is nerve racking .
+3-1	Going	O	O	B-ScrEv_go_security_checks|B-ScrEv_go_security_checks	_	_	
+3-2	through	O	O	I-ScrEv_go_security_checks	_	_	
+3-3	security	B-webanno.custom.Participants_	B-ScrPart_security_check	O	_	_	
+3-4	checks	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_security_check|B-ScrPart_security_check	O	_	_	
+3-5	and	O	O	O	_	_	
+3-6	all	O	O	O	_	_	
+3-7	that	O	O	O	_	_	
+3-8	comes	O	O	B-UnrelEv	_	_	
+3-9	with	O	O	O	_	_	
+3-10	it	O	O	O	_	_	
+3-11	is	O	O	O	_	_	
+3-12	nerve	O	O	O	_	_	
+3-13	racking	O	O	B-UnrelEv	_	_	
+3-14	.	O	O	O	_	_	
+
+#id=4
+#text=But once I finished with that part , the next thing was understand the time change and how that affects my flights and connections was a real hassle .
+4-1	But	O	O	O	_	_	
+4-2	once	O	O	O	_	_	
+4-3	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-1	
+4-4	finished	O	O	B-UnrelEv	_	_	
+4-5	with	O	O	O	_	_	
+4-6	that	O	O	O	_	_	
+4-7	part	O	O	O	_	_	
+4-8	,	O	O	O	_	_	
+4-9	the	O	O	O	_	_	
+4-10	next	O	O	O	_	_	
+4-11	thing	B-webanno.custom.Participants_	B-NPart	O	_	_	
+4-12	was	O	O	O	_	_	
+4-13	understand	O	O	B-RelNScrEv	_	_	
+4-14	the	O	O	O	_	_	
+4-15	time	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+4-16	change	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_time/date|B-ScrPart_time/date	O	_	_	
+4-17	and	O	O	O	_	_	
+4-18	how	O	O	O	_	_	
+4-19	that	B-webanno.custom.Participants_	B-ScrPart_time/date	O	webanno.custom.Corefchains_	4-16	
+4-20	affects	O	O	B-RelNScrEv	_	_	
+4-21	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-3	
+4-22	flights	B-webanno.custom.Participants_	B-ScrPart_flight	O	webanno.custom.Corefchains_	1-3	
+4-23	and	O	O	O	_	_	
+4-24	connections	B-webanno.custom.Participants_	B-MissScrPart	O	_	_	
+4-25	was	O	O	B-UnrelEv	_	_	
+4-26	a	O	O	O	_	_	
+4-27	real	O	O	O	_	_	
+4-28	hassle	O	O	O	_	_	
+4-29	.	O	O	O	_	_	
+
+#id=5
+#text=Once we got on the plane it was absolutely wonderful .
+5-1	Once	O	O	O	_	_	
+5-2	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+5-3	got	O	O	B-ScrEv_board_plane	_	_	
+5-4	on	O	O	O	_	_	
+5-5	the	O	O	O	_	_	
+5-6	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	_	_	
+5-7	it	O	O	O	_	_	
+5-8	was	O	O	B-UnrelEv	_	_	
+5-9	absolutely	O	O	O	_	_	
+5-10	wonderful	O	O	O	_	_	
+5-11	.	O	O	O	_	_	
+
+#id=6
+#text=The flight attendants took great care of us never stopping to rest for the entire 20 hours flight .
+6-1	The	O	O	O	_	_	
+6-2	flight	B-webanno.custom.Participants_	B-ScrPart_staff	O	_	_	
+6-3	attendants	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_staff|B-ScrPart_staff	O	_	_	
+6-4	took	O	O	B-RelNScrEv	_	_	
+6-5	great	O	O	O	_	_	
+6-6	care	B-webanno.custom.Participants_	B-SuppVComp	O	_	_	
+6-7	of	O	O	O	_	_	
+6-8	us	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+6-9	never	O	O	O	_	_	
+6-10	stopping	O	O	B-UnrelEv	_	_	
+6-11	to	O	O	O	_	_	
+6-12	rest	O	O	B-UnrelEv	_	_	
+6-13	for	O	O	O	_	_	
+6-14	the	O	O	O	_	_	
+6-15	entire	O	O	O	_	_	
+6-16	20	O	O	O	_	_	
+6-17	hours	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+6-18	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	webanno.custom.Corefchains_	4-22	
+6-19	.	O	O	O	_	_	
+
+#id=7
+#text=They brought food , warm face towels , drinks and snacks and all this was included in the price of the ticket .
+7-1	They	O	O	O	_	_	
+7-2	brought	O	O	B-MissScrEv	_	_	
+7-3	food	B-webanno.custom.Participants_|B-webanno.custom.Participants_	B-MissScrPart|B-MissScrPart	O	_	_	
+7-4	,	I-webanno.custom.Participants_	I-MissScrPart	O	_	_	
+7-5	warm	I-webanno.custom.Participants_	I-MissScrPart	O	_	_	
+7-6	face	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-MissScrPart|B-MissScrPart	O	_	_	
+7-7	towels	I-webanno.custom.Participants_|I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-MissScrPart|I-MissScrPart|B-MissScrPart	O	_	_	
+7-8	,	I-webanno.custom.Participants_	I-MissScrPart	O	_	_	
+7-9	drinks	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-MissScrPart|B-MissScrPart	O	_	_	
+7-10	and	I-webanno.custom.Participants_	I-MissScrPart	O	_	_	
+7-11	snacks	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-MissScrPart|B-MissScrPart	O	_	_	
+7-12	and	O	O	O	_	_	
+7-13	all	O	O	O	_	_	
+7-14	this	B-webanno.custom.Participants_	B-MissScrPart	O	webanno.custom.Corefchains_	7-3	
+7-15	was	O	O	O	_	_	
+7-16	included	O	O	B-RelNScrEv	_	_	
+7-17	in	O	O	O	_	_	
+7-18	the	O	O	O	_	_	
+7-19	price	B-webanno.custom.Participants_	B-MissScrPart	O	_	_	
+7-20	of	O	O	O	_	_	
+7-21	the	O	O	O	_	_	
+7-22	ticket	B-webanno.custom.Participants_	B-ScrPart_ticket	O	_	_	
+7-23	.	O	O	O	_	_	
+
+#id=8
+#text=I am very afraid of flying the take off the landing are the worst parts for me .
+8-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-21	
+8-2	am	O	O	B-UnrelEv	_	_	
+8-3	very	O	O	O	_	_	
+8-4	afraid	O	O	O	_	_	
+8-5	of	O	O	O	_	_	
+8-6	flying	O	O	B-RelNScrEv	_	_	
+8-7	the	O	O	O	_	_	
+8-8	take	O	O	B-ScrEv_take_off	_	_	
+8-9	off	O	O	I-ScrEv_take_off|B-ScrEv_take_off	_	_	
+8-10	the	O	O	O	_	_	
+8-11	landing	O	O	B-ScrEv_landing	_	_	
+8-12	are	O	O	O	_	_	
+8-13	the	O	O	O	_	_	
+8-14	worst	O	O	O	_	_	
+8-15	parts	B-webanno.custom.Participants_	B-NPart	O	_	_	
+8-16	for	O	O	O	_	_	
+8-17	me	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-1	
+8-18	.	O	O	O	_	_	
+
+#id=9
+#text=True to my phobia I was in near tears and gripping the seats but once the flight was off the ground I was happy .
+9-1	True	O	O	O	_	_	
+9-2	to	O	O	O	_	_	
+9-3	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-17	
+9-4	phobia	B-webanno.custom.Participants_	B-NPart	O	_	_	
+9-5	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-3	
+9-6	was	O	O	B-UnrelEv	_	_	
+9-7	in	O	O	O	_	_	
+9-8	near	O	O	O	_	_	
+9-9	tears	O	O	O	_	_	
+9-10	and	O	O	O	_	_	
+9-11	gripping	O	O	B-UnrelEv	_	_	
+9-12	the	O	O	O	_	_	
+9-13	seats	B-webanno.custom.Participants_	B-ScrPart_seat	O	_	_	
+9-14	but	O	O	O	_	_	
+9-15	once	O	O	O	_	_	
+9-16	the	O	O	O	_	_	
+9-17	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	webanno.custom.Corefchains_	6-18	
+9-18	was	O	O	B-UnrelEv	_	_	
+9-19	off	O	O	O	_	_	
+9-20	the	O	O	O	_	_	
+9-21	ground	B-webanno.custom.Participants_	B-ScrPart_location_airplane	O	_	_	
+9-22	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-5	
+9-23	was	O	O	B-UnrelEv	_	_	
+9-24	happy	O	O	O	_	_	
+9-25	.	O	O	O	_	_	
+
+#id=10
+#text=The flight came with a TV in the back of the set in front of you and there was so many choices of what to watch .
+10-1	The	O	O	O	_	_	
+10-2	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	webanno.custom.Corefchains_	9-17	
+10-3	came	O	O	B-UnrelEv	_	_	
+10-4	with	O	O	O	_	_	
+10-5	a	O	O	O	_	_	
+10-6	TV	B-webanno.custom.Participants_	B-MissScrPart	O	_	_	
+10-7	in	O	O	O	_	_	
+10-8	the	O	O	O	_	_	
+10-9	back	O	O	O	_	_	
+10-10	of	O	O	O	_	_	
+10-11	the	O	O	O	_	_	
+10-12	set	B-webanno.custom.Participants_	B-ScrPart_seat	O	_	_	
+10-13	in	O	O	O	_	_	
+10-14	front	B-webanno.custom.Participants_	B-NPart	O	_	_	
+10-15	of	O	O	O	_	_	
+10-16	you	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-22	
+10-17	and	O	O	O	_	_	
+10-18	there	O	O	O	_	_	
+10-19	was	O	O	B-UnrelEv	_	_	
+10-20	so	O	O	O	_	_	
+10-21	many	O	O	O	_	_	
+10-22	choices	B-webanno.custom.Participants_	B-NPart	O	_	_	
+10-23	of	O	O	O	_	_	
+10-24	what	O	O	O	_	_	
+10-25	to	O	O	O	_	_	
+10-26	watch	O	O	B-ScrEv_spend_time_flight	_	_	
+10-27	.	O	O	O	_	_	
+
+#id=11
+#text=I love documentaries and there were numerous ones .
+11-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-16	
+11-2	love	O	O	B-UnrelEv	_	_	
+11-3	documentaries	O	O	O	_	_	
+11-4	and	O	O	O	_	_	
+11-5	there	O	O	O	_	_	
+11-6	were	O	O	B-UnrelEv	_	_	
+11-7	numerous	O	O	O	_	_	
+11-8	ones	O	O	O	_	_	
+11-9	.	O	O	O	_	_	
+
+#id=12
+#text=I almost hated when the flight was over .
+12-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	11-1	
+12-2	almost	O	O	O	_	_	
+12-3	hated	O	O	B-UnrelEv	_	_	
+12-4	when	O	O	O	_	_	
+12-5	the	O	O	O	_	_	
+12-6	flight	B-webanno.custom.Participants_	B-ScrPart_flight	O	_	_	
+12-7	was	O	O	B-UnrelEv	_	_	
+12-8	over	O	O	O	_	_	
+12-9	.	O	O	O	_	_	
+
+#id=13
+#text=The only part that I found difficult was that , I did not have an end seat and so I hesitated to use the bathroom and did n't do so until I was in extreme discomfort because I did n't want to bother the person on the end seat .
+13-1	The	O	O	O	_	_	
+13-2	only	O	O	O	_	_	
+13-3	part	B-webanno.custom.Participants_	B-NPart	O	_	_	
+13-4	that	O	O	O	_	_	
+13-5	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	12-1	
+13-6	found	O	O	B-UnrelEv	_	_	
+13-7	difficult	O	O	O	_	_	
+13-8	was	O	O	O	_	_	
+13-9	that	O	O	O	_	_	
+13-10	,	O	O	O	_	_	
+13-11	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	13-5	
+13-12	did	O	O	O	_	_	
+13-13	not	O	O	O	_	_	
+13-14	have	O	O	B-UnrelEv	_	_	
+13-15	an	O	O	O	_	_	
+13-16	end	B-webanno.custom.Participants_	B-ScrPart_seat	O	_	_	
+13-17	seat	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_seat|B-ScrPart_seat	O	_	_	
+13-18	and	O	O	O	_	_	
+13-19	so	O	O	O	_	_	
+13-20	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	13-11	
+13-21	hesitated	O	O	B-UnrelEv	_	_	
+13-22	to	O	O	O	_	_	
+13-23	use	O	O	B-RelNScrEv	_	_	
+13-24	the	O	O	O	_	_	
+13-25	bathroom	B-webanno.custom.Participants_	B-MissScrPart	O	_	_	
+13-26	and	O	O	O	_	_	
+13-27	did	O	O	O	_	_	
+13-28	n't	O	O	O	_	_	
+13-29	do	O	O	B-UnrelEv	_	_	
+13-30	so	O	O	O	_	_	
+13-31	until	O	O	O	_	_	
+13-32	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	13-20	
+13-33	was	O	O	B-UnrelEv	_	_	
+13-34	in	O	O	O	_	_	
+13-35	extreme	O	O	O	_	_	
+13-36	discomfort	O	O	O	_	_	
+13-37	because	O	O	O	_	_	
+13-38	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	13-32	
+13-39	did	O	O	O	_	_	
+13-40	n't	O	O	O	_	_	
+13-41	want	O	O	O	_	_	
+13-42	to	O	O	O	_	_	
+13-43	bother	O	O	B-UnrelEv	_	_	
+13-44	the	O	O	O	_	_	
+13-45	person	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+13-46	on	O	O	O	_	_	
+13-47	the	O	O	O	_	_	
+13-48	end	B-webanno.custom.Participants_	B-ScrPart_seat	O	_	_	
+13-49	seat	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_seat|B-ScrPart_seat	O	webanno.custom.Corefchains_	13-17	
+13-50	.	O	O	O	_	_	
+
+#id=14
+#text=So , next time I decide to travel the only change I would make is to select an end seat that way bathroom use is not an issue . 
+14-1	So	O	O	O	_	_	
+14-2	,	O	O	O	_	_	
+14-3	next	O	O	O	_	_	
+14-4	time	O	O	O	_	_	
+14-5	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	13-38	
+14-6	decide	O	O	B-UnrelEv	_	_	
+14-7	to	O	O	O	_	_	
+14-8	travel	O	O	B-RelNScrEv	_	_	
+14-9	the	O	O	O	_	_	
+14-10	only	O	O	O	_	_	
+14-11	change	O	O	O	_	_	
+14-12	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	14-5	
+14-13	would	O	O	O	_	_	
+14-14	make	O	O	B-UnrelEv	_	_	
+14-15	is	O	O	O	_	_	
+14-16	to	O	O	O	_	_	
+14-17	select	O	O	B-RelNScrEv	_	_	
+14-18	an	O	O	O	_	_	
+14-19	end	B-webanno.custom.Participants_	B-ScrPart_seat	O	_	_	
+14-20	seat	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_seat|B-ScrPart_seat	O	webanno.custom.Corefchains_	13-49	
+14-21	that	O	O	O	_	_	
+14-22	way	B-webanno.custom.Participants_	B-NPart	O	_	_	
+14-23	bathroom	B-webanno.custom.Participants_	B-MissScrPart	O	webanno.custom.Corefchains_	13-25	
+14-24	use	O	O	B-UnrelEv	_	_	
+14-25	is	O	O	O	_	_	
+14-26	not	O	O	O	_	_	
+14-27	an	O	O	O	_	_	
+14-28	issue	B-webanno.custom.Participants_	B-NPart	O	_	_	
+14-29	.	O	O	O	_	_	
+

@@ -1,0 +1,284 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=I ride my bike to work everyday .
+1-1	I	B-ScrPart_rider	O	
+1-2	ride	O	B-ScrEv_ride_bike	
+1-3	my	B-ScrPart_rider	O	
+1-4	bike	B-ScrPart_bicycle	O	
+1-5	to	O	O	
+1-6	work	O	O	
+1-7	everyday	O	O	
+1-8	.	O	O	
+
+#id=2
+#text=I also ride for pleasure on the weekends .
+2-1	I	B-ScrPart_rider	O	
+2-2	also	O	O	
+2-3	ride	O	B-ScrEv_ride_bike	
+2-4	for	O	O	
+2-5	pleasure	B-NPart	O	
+2-6	on	O	O	
+2-7	the	O	O	
+2-8	weekends	B-NPart	O	
+2-9	.	O	O	
+
+#id=3
+#text=This morning I was pedaling along and all of the sudden I could feel the gritty pavement scraping the rim .
+3-1	This	O	O	
+3-2	morning	B-NPart	O	
+3-3	I	B-ScrPart_rider	O	
+3-4	was	O	O	
+3-5	pedaling	O	B-ScrEv_ride_bike	
+3-6	along	O	O	
+3-7	and	O	O	
+3-8	all	O	O	
+3-9	of	O	O	
+3-10	the	O	O	
+3-11	sudden	O	O	
+3-12	I	B-ScrPart_rider	O	
+3-13	could	O	O	
+3-14	feel	O	B-ScrEv_notice_problem	
+3-15	the	O	O	
+3-16	gritty	O	O	
+3-17	pavement	B-ScrPart_object_damage	O	
+3-18	scraping	O	B-UnrelEv	
+3-19	the	O	O	
+3-20	rim	B-ScrPart_rim	O	
+3-21	.	O	O	
+
+#id=4
+#text=I got off the bike and sure enough the front tire was flat .
+4-1	I	B-ScrPart_rider	O	
+4-2	got	O	B-ScrEv_get_off	
+4-3	off	O	O	
+4-4	the	O	O	
+4-5	bike	B-ScrPart_bicycle	O	
+4-6	and	O	O	
+4-7	sure	O	O	
+4-8	enough	O	O	
+4-9	the	O	O	
+4-10	front	B-ScrPart_tire	O	
+4-11	tire	I-ScrPart_tire|B-ScrPart_tire	O	
+4-12	was	O	B-UnrelEv	
+4-13	flat	O	O	
+4-14	.	O	O	
+
+#id=5
+#text=Well that is bad but not as bad if the rear tire was flat and I had to take the chain off .
+5-1	Well	O	O	
+5-2	that	O	O	
+5-3	is	O	B-UnrelEv	
+5-4	bad	O	O	
+5-5	but	O	O	
+5-6	not	O	O	
+5-7	as	O	O	
+5-8	bad	O	O	
+5-9	if	O	O	
+5-10	the	O	O	
+5-11	rear	B-ScrPart_tire	O	
+5-12	tire	I-ScrPart_tire|B-ScrPart_tire	O	
+5-13	was	O	B-UnrelEv	
+5-14	flat	O	O	
+5-15	and	O	O	
+5-16	I	B-ScrPart_rider	O	
+5-17	had	O	O	
+5-18	to	O	O	
+5-19	take	O	B-ScrEv_take_chain_off	
+5-20	the	O	O	
+5-21	chain	B-ScrPart_chain	O	
+5-22	off	O	O	
+5-23	.	O	O	
+
+#id=6
+#text=I always carry a spare inner tube and have a pump on the frame of my bike .
+6-1	I	B-ScrPart_rider	O	
+6-2	always	O	O	
+6-3	carry	O	B-UnrelEv	
+6-4	a	O	O	
+6-5	spare	O	O	
+6-6	inner	O	O	
+6-7	tube	B-ScrPart_spare_tube	O	
+6-8	and	O	O	
+6-9	have	O	B-UnrelEv	
+6-10	a	O	O	
+6-11	pump	B-ScrPart_tool	O	
+6-12	on	O	O	
+6-13	the	O	O	
+6-14	frame	B-NPart	O	
+6-15	of	O	O	
+6-16	my	B-ScrPart_rider	O	
+6-17	bike	B-ScrPart_bicycle	O	
+6-18	.	O	O	
+
+#id=7
+#text=This was going to be easy as I have done this many times before .
+7-1	This	O	O	
+7-2	was	O	O	
+7-3	going	O	O	
+7-4	to	O	O	
+7-5	be	O	B-UnrelEv	
+7-6	easy	O	O	
+7-7	as	O	O	
+7-8	I	B-ScrPart_rider	O	
+7-9	have	O	O	
+7-10	done	O	B-UnrelEv	
+7-11	this	O	O	
+7-12	many	O	O	
+7-13	times	B-No_label	O	
+7-14	before	O	O	
+7-15	.	O	O	
+
+#id=8
+#text=I loosened the lock nuts that hold the front tire in place and pulled the tire from the frame .
+8-1	I	B-ScrPart_rider	O	
+8-2	loosened	O	B-ScrEv_loose_nut	
+8-3	the	O	O	
+8-4	lock	B-ScrPart_bicycle_small_detail	O	
+8-5	nuts	I-ScrPart_bicycle_small_detail|B-ScrPart_bicycle_small_detail	O	
+8-6	that	O	O	
+8-7	hold	O	B-UnrelEv	
+8-8	the	O	O	
+8-9	front	B-ScrPart_tire	O	
+8-10	tire	I-ScrPart_tire|B-ScrPart_tire	O	
+8-11	in	O	O	
+8-12	place	B-No_label	O	
+8-13	and	O	O	
+8-14	pulled	O	B-ScrEv_take_tire_off	
+8-15	the	O	O	
+8-16	tire	B-ScrPart_tire	O	
+8-17	from	O	O	
+8-18	the	O	O	
+8-19	frame	B-NPart	O	
+8-20	.	O	O	
+
+#id=9
+#text=I looked in my bike pack and found the tool that helps take the tire off the rim .
+9-1	I	B-ScrPart_rider	O	
+9-2	looked	O	B-RelNScrEv	
+9-3	in	O	O	
+9-4	my	B-ScrPart_rider	O	
+9-5	bike	B-NPart	O	
+9-6	pack	I-NPart|B-NPart	O	
+9-7	and	O	O	
+9-8	found	O	B-RelNScrEv	
+9-9	the	O	O	
+9-10	tool	B-ScrPart_tool	O	
+9-11	that	O	O	
+9-12	helps	O	B-UnrelEv	
+9-13	take	O	B-ScrEv_take_tire_off	
+9-14	the	O	O	
+9-15	tire	B-ScrPart_tire	O	
+9-16	off	O	O	
+9-17	the	O	O	
+9-18	rim	B-ScrPart_rim	O	
+9-19	.	O	O	
+
+#id=10
+#text=This took all of 5 minutes .
+10-1	This	O	O	
+10-2	took	O	B-UnrelEv	
+10-3	all	O	O	
+10-4	of	O	O	
+10-5	5	O	O	
+10-6	minutes	B-NPart	O	
+10-7	.	O	O	
+
+#id=11
+#text=When I had that off I took the old inner tube and placed it in my backpack to patch later .
+11-1	When	O	O	
+11-2	I	B-ScrPart_rider	O	
+11-3	had	O	B-UnrelEv	
+11-4	that	O	O	
+11-5	off	O	O	
+11-6	I	B-ScrPart_rider	O	
+11-7	took	O	B-UnrelEv	
+11-8	the	O	O	
+11-9	old	O	O	
+11-10	inner	O	O	
+11-11	tube	B-ScrPart_tire	O	
+11-12	and	O	O	
+11-13	placed	O	B-UnrelEv	
+11-14	it	B-ScrPart_tire	O	
+11-15	in	O	O	
+11-16	my	B-ScrPart_rider	O	
+11-17	backpack	B-NPart	O	
+11-18	to	O	O	
+11-19	patch	O	B-ScrEv_put_patch/seal	
+11-20	later	O	O	
+11-21	.	O	O	
+
+#id=12
+#text=I then fit the good inner tube inside the tire and in reverse order fitted the tire to the rim .
+12-1	I	B-ScrPart_rider	O	
+12-2	then	O	O	
+12-3	fit	O	B-ScrEv_put_new_tire	
+12-4	the	O	O	
+12-5	good	O	O	
+12-6	inner	O	O	
+12-7	tube	B-ScrPart_spare_tube	O	
+12-8	inside	O	O	
+12-9	the	O	O	
+12-10	tire	B-ScrPart_tire	O	
+12-11	and	O	O	
+12-12	in	O	O	
+12-13	reverse	O	O	
+12-14	order	B-No_label	O	
+12-15	fitted	O	B-ScrEv_put_new_tire	
+12-16	the	O	O	
+12-17	tire	B-ScrPart_tire	O	
+12-18	to	O	O	
+12-19	the	O	O	
+12-20	rim	B-ScrPart_rim	O	
+12-21	.	O	O	
+
+#id=13
+#text=I next took my pump and filled it up to the correct pressure .
+13-1	I	B-ScrPart_rider	O	
+13-2	next	O	O	
+13-3	took	O	B-ScrEv_get_tools	
+13-4	my	B-ScrPart_rider	O	
+13-5	pump	B-ScrPart_tool	O	
+13-6	and	O	O	
+13-7	filled	O	B-ScrEv_refill_tire_air	
+13-8	it	B-ScrPart_tire	O	
+13-9	up	O	O	
+13-10	to	O	O	
+13-11	the	O	O	
+13-12	correct	O	O	
+13-13	pressure	B-ScrPart_pressure	O	
+13-14	.	O	O	
+
+#id=14
+#text=I put the tire back on the front fork and tightened the locking nuts and was on my way .
+14-1	I	B-ScrPart_rider	O	
+14-2	put	O	B-ScrEv_put_new_tire	
+14-3	the	O	O	
+14-4	tire	B-ScrPart_tire	O	
+14-5	back	O	O	
+14-6	on	O	O	
+14-7	the	O	O	
+14-8	front	O	O	
+14-9	fork	B-ScrPart_bicycle_small_detail	O	
+14-10	and	O	O	
+14-11	tightened	O	B-RelNScrEv	
+14-12	the	O	O	
+14-13	locking	O	B-UnrelEv	
+14-14	nuts	B-ScrPart_bicycle_small_detail	O	
+14-15	and	O	O	
+14-16	was	O	B-UnrelEv	
+14-17	on	O	O	
+14-18	my	B-ScrPart_rider	O	
+14-19	way	B-No_label	O	
+14-20	.	O	O	
+
+#id=15
+#text=I was n't even late for work . 
+15-1	I	B-ScrPart_rider	O	
+15-2	was	O	B-UnrelEv	
+15-3	n't	O	O	
+15-4	even	O	O	
+15-5	late	O	O	
+15-6	for	O	O	
+15-7	work	B-NPart	O	
+15-8	.	O	O	
+

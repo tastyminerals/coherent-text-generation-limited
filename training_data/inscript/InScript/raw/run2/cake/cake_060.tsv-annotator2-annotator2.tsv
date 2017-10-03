@@ -1,0 +1,243 @@
+ # webanno.custom.Participants | Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=The church was having a bake sale .
+1-1	The	O	O	O	
+1-2	church	B-NPart	B-webanno.custom.Participants_	O	
+1-3	was	O	O	O	
+1-4	having	O	O	B-UnrelEv	
+1-5	a	O	O	O	
+1-6	bake	O	O	O	
+1-7	sale	B-NPart	B-webanno.custom.Participants_	O	
+1-8	.	O	O	O	
+
+#id=2
+#text=I decided to make a pineapple upside down cake , as they are my favorite .
+2-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+2-2	decided	O	O	B-UnrelEv	
+2-3	to	O	O	O	
+2-4	make	O	O	B-Evoking	
+2-5	a	O	O	I-Evoking	
+2-6	pineapple	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	
+2-7	upside	I-ScrPart_cake	I-webanno.custom.Participants_	I-Evoking	
+2-8	down	I-ScrPart_cake	I-webanno.custom.Participants_	I-Evoking	
+2-9	cake	I-ScrPart_cake|B-ScrPart_cake	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-Evoking	
+2-10	,	O	O	O	
+2-11	as	O	O	O	
+2-12	they	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+2-13	are	O	O	B-UnrelEv	
+2-14	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+2-15	favorite	O	O	O	
+2-16	.	O	O	O	
+
+#id=3
+#text=I realized I needed a few ingredients so I made sure to include them in my shopping list when I went to the store .
+3-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+3-2	realized	O	O	B-UnrelEv	
+3-3	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+3-4	needed	O	O	B-UnrelEv	
+3-5	a	O	O	O	
+3-6	few	O	O	O	
+3-7	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+3-8	so	O	O	O	
+3-9	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+3-10	made	O	O	B-UnrelEv	
+3-11	sure	O	O	I-UnrelEv	
+3-12	to	O	O	O	
+3-13	include	O	O	B-RelNScrEv	
+3-14	them	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+3-15	in	O	O	O	
+3-16	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+3-17	shopping	B-NPart	B-webanno.custom.Participants_	O	
+3-18	list	I-NPart|B-NPart	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+3-19	when	O	O	O	
+3-20	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+3-21	went	O	O	B-ScrEv_get_ingredients	
+3-22	to	O	O	O	
+3-23	the	O	O	O	
+3-24	store	B-ScrPart_store	B-webanno.custom.Participants_	O	
+3-25	.	O	O	O	
+
+#id=4
+#text=After I got home from shopping I gathered all the ingredients and equipment on the counter , opened the cookbook , and turned on the oven .
+4-1	After	O	O	O	
+4-2	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+4-3	got	O	O	B-RelNScrEv	
+4-4	home	B-ScrPart_kitchen/location	B-webanno.custom.Participants_	O	
+4-5	from	O	O	O	
+4-6	shopping	O	O	B-ScrEv_get_ingredients	
+4-7	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+4-8	gathered	O	O	B-ScrEv_get_ingredients	
+4-9	all	O	O	O	
+4-10	the	O	O	O	
+4-11	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+4-12	and	O	O	O	
+4-13	equipment	B-ScrPart_utensil	B-webanno.custom.Participants_	O	
+4-14	on	O	O	O	
+4-15	the	O	O	O	
+4-16	counter	B-ScrPart_other	B-webanno.custom.Participants_	O	
+4-17	,	O	O	O	
+4-18	opened	O	O	B-UnrelEv	
+4-19	the	O	O	O	
+4-20	cookbook	B-ScrPart_recipe_source	B-webanno.custom.Participants_	O	
+4-21	,	O	O	O	
+4-22	and	O	O	O	
+4-23	turned	O	O	B-ScrEv_preheat	
+4-24	on	O	O	I-ScrEv_preheat	
+4-25	the	O	O	O	
+4-26	oven	B-ScrPart_oven	B-webanno.custom.Participants_	O	
+4-27	.	O	O	O	
+
+#id=5
+#text=First I layered the pineapple in the baking dish , placed the cherries in the center of the rings and sprinkled the brown sugar on .
+5-1	First	O	O	O	
+5-2	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+5-3	layered	O	O	B-ScrEv_add_ingredients	
+5-4	the	O	O	O	
+5-5	pineapple	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+5-6	in	O	O	O	
+5-7	the	O	O	O	
+5-8	baking	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	
+5-9	dish	I-ScrPart_cake_tin|B-ScrPart_cake_tin	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+5-10	,	O	O	O	
+5-11	placed	O	O	B-ScrEv_add_ingredients	
+5-12	the	O	O	O	
+5-13	cherries	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+5-14	in	O	O	O	
+5-15	the	O	O	O	
+5-16	center	B-NPart	B-webanno.custom.Participants_	O	
+5-17	of	O	O	O	
+5-18	the	O	O	O	
+5-19	rings	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+5-20	and	O	O	O	
+5-21	sprinkled	O	O	B-ScrEv_add_ingredients	
+5-22	the	O	O	O	
+5-23	brown	O	O	O	
+5-24	sugar	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+5-25	on	O	O	O	
+5-26	.	O	O	O	
+
+#id=6
+#text=In the bowl I measured and added all the dry ingredients and mixed them before adding the wet ingredients in the order suggested by the recipe .
+6-1	In	O	O	O	
+6-2	the	O	O	O	
+6-3	bowl	B-ScrPart_utensil	B-webanno.custom.Participants_	O	
+6-4	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+6-5	measured	O	O	B-RelNScrEv	
+6-6	and	O	O	O	
+6-7	added	O	O	B-ScrEv_add_ingredients	
+6-8	all	O	O	O	
+6-9	the	O	O	O	
+6-10	dry	O	O	O	
+6-11	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+6-12	and	O	O	O	
+6-13	mixed	O	O	B-ScrEv_prepare_ingredients	
+6-14	them	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+6-15	before	O	O	O	
+6-16	adding	O	O	B-ScrEv_add_ingredients	
+6-17	the	O	O	O	
+6-18	wet	O	O	O	
+6-19	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+6-20	in	O	O	O	
+6-21	the	O	O	O	
+6-22	order	B-NPart	B-webanno.custom.Participants_	O	
+6-23	suggested	O	O	B-UnrelEv	
+6-24	by	O	O	O	
+6-25	the	O	O	O	
+6-26	recipe	B-ScrPart_baking_instructions	B-webanno.custom.Participants_	O	
+6-27	.	O	O	O	
+
+#id=7
+#text=After stirring the appropriate amount of time I carefully poured the batter into the baking dish , over the pineapple .
+7-1	After	O	O	O	
+7-2	stirring	O	O	B-ScrEv_make_dough	
+7-3	the	O	O	O	
+7-4	appropriate	O	O	O	
+7-5	amount	B-NPart	B-webanno.custom.Participants_	O	
+7-6	of	O	O	O	
+7-7	time	B-ScrPart_time	B-webanno.custom.Participants_	O	
+7-8	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+7-9	carefully	O	O	O	
+7-10	poured	O	O	B-ScrEv_pour_dough	
+7-11	the	O	O	O	
+7-12	batter	B-ScrPart_dough	B-webanno.custom.Participants_	O	
+7-13	into	O	O	O	
+7-14	the	O	O	O	
+7-15	baking	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	
+7-16	dish	I-ScrPart_cake_tin|B-ScrPart_cake_tin	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+7-17	,	O	O	O	
+7-18	over	O	O	O	
+7-19	the	O	O	O	
+7-20	pineapple	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	
+7-21	.	O	O	O	
+
+#id=8
+#text=I placed the dish in the oven , set the timer , and when the timer rang I checked it then removed it .
+8-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+8-2	placed	O	O	B-ScrEv_put_cake_oven	
+8-3	the	O	O	O	
+8-4	dish	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+8-5	in	O	O	O	
+8-6	the	O	O	O	
+8-7	oven	B-ScrPart_oven	B-webanno.custom.Participants_	O	
+8-8	,	O	O	O	
+8-9	set	O	O	B-ScrEv_set_time	
+8-10	the	O	O	O	
+8-11	timer	B-ScrPart_timer	B-webanno.custom.Participants_	O	
+8-12	,	O	O	O	
+8-13	and	O	O	O	
+8-14	when	O	O	O	
+8-15	the	O	O	O	
+8-16	timer	B-ScrPart_timer	B-webanno.custom.Participants_	O	
+8-17	rang	O	O	B-RelNScrEv	
+8-18	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+8-19	checked	O	O	B-ScrEv_check	
+8-20	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+8-21	then	O	O	O	
+8-22	removed	O	O	B-ScrEv_take_out_oven	
+8-23	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+8-24	.	O	O	O	
+
+#id=9
+#text=I took it to church in the pan and placed it on a tray there as it was easier to transport that way .
+9-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+9-2	took	O	O	B-UnrelEv	
+9-3	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+9-4	to	O	O	O	
+9-5	church	B-NPart	B-webanno.custom.Participants_	O	
+9-6	in	O	O	O	
+9-7	the	O	O	O	
+9-8	pan	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	
+9-9	and	O	O	O	
+9-10	placed	O	O	B-UnrelEv	
+9-11	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+9-12	on	O	O	O	
+9-13	a	O	O	O	
+9-14	tray	B-ScrPart_utensil	B-webanno.custom.Participants_	O	
+9-15	there	O	O	O	
+9-16	as	O	O	O	
+9-17	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+9-18	was	O	O	B-UnrelEv	
+9-19	easier	O	O	O	
+9-20	to	O	O	O	
+9-21	transport	O	O	B-UnrelEv	
+9-22	that	O	O	O	
+9-23	way	B-No_label	B-webanno.custom.Participants_	O	
+9-24	.	O	O	O	
+
+#id=10
+#text=It looked delicious and sold for more than any of the other cakes . 
+10-1	It	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+10-2	looked	O	O	B-UnrelEv	
+10-3	delicious	O	O	O	
+10-4	and	O	O	O	
+10-5	sold	O	O	B-UnrelEv	
+10-6	for	O	O	O	
+10-7	more	O	O	O	
+10-8	than	O	O	O	
+10-9	any	O	O	O	
+10-10	of	O	O	O	
+10-11	the	O	O	O	
+10-12	other	O	O	O	
+10-13	cakes	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+10-14	.	O	O	O	
+

@@ -1,0 +1,211 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Every Sunday night , I make the weekly trip to the grocery store .
+1-1	Every	O	O	_	_	
+1-2	Sunday	B-NPart	O	_	_	
+1-3	night	I-NPart|B-NPart	O	_	_	
+1-4	,	O	O	_	_	
+1-5	I	B-ScrPart_shopper	O	_	_	
+1-6	make	O	B-ScrEv_go_grocery	_	_	
+1-7	the	O	O	_	_	
+1-8	weekly	O	O	_	_	
+1-9	trip	B-NPart	O	_	_	
+1-10	to	O	O	_	_	
+1-11	the	O	O	_	_	
+1-12	grocery	B-ScrPart_grocery_shop	O	_	_	
+1-13	store	I-ScrPart_grocery_shop|B-ScrPart_grocery_shop	O	_	_	
+1-14	.	O	O	_	_	
+
+#id=2
+#text=I usually do the majority of my grocery shopping at the local supermarket because the location is convenient and the prices are good .
+2-1	I	B-ScrPart_shopper	O	_	_	
+2-2	usually	O	O	_	_	
+2-3	do	O	B-RelNScrEv	_	_	
+2-4	the	O	O	_	_	
+2-5	majority	B-NPart	O	_	_	
+2-6	of	O	O	_	_	
+2-7	my	B-ScrPart_shopper	O	_	_	
+2-8	grocery	B-ScrPart_groceries	B-Evoking	_	_	
+2-9	shopping	O	I-Evoking|B-ScrEv_get_groceries	_	_	
+2-10	at	O	O	_	_	
+2-11	the	O	O	_	_	
+2-12	local	O	O	_	_	
+2-13	supermarket	B-ScrPart_grocery_shop	O	_	_	
+2-14	because	O	O	_	_	
+2-15	the	O	O	_	_	
+2-16	location	B-NPart	O	_	_	
+2-17	is	O	B-UnrelEv	_	_	
+2-18	convenient	O	O	_	_	
+2-19	and	O	O	_	_	
+2-20	the	O	O	_	_	
+2-21	prices	B-ScrPart_price	O	_	_	
+2-22	are	O	B-UnrelEv	_	_	
+2-23	good	O	O	_	_	
+2-24	.	O	O	_	_	
+
+#id=3
+#text=Before heading to the store , I always go through my freezer , fridge , and cupboards to see what I need or am getting low on .
+3-1	Before	O	O	_	_	
+3-2	heading	O	B-ScrEv_go_grocery	_	_	
+3-3	to	O	O	_	_	
+3-4	the	O	O	_	_	
+3-5	store	B-ScrPart_grocery_shop	O	_	_	
+3-6	,	O	O	_	_	
+3-7	I	B-ScrPart_shopper	O	_	_	
+3-8	always	O	O	_	_	
+3-9	go	O	B-RelNScrEv	_	_	
+3-10	through	O	I-RelNScrEv	_	_	
+3-11	my	B-ScrPart_shopper	O	_	_	
+3-12	freezer	B-NPart	O	_	_	
+3-13	,	O	O	_	_	
+3-14	fridge	B-NPart	O	_	_	
+3-15	,	O	O	_	_	
+3-16	and	O	O	_	_	
+3-17	cupboards	B-NPart	O	_	_	
+3-18	to	O	O	_	_	
+3-19	see	O	B-UnrelEv	_	_	
+3-20	what	B-ScrPart_groceries	O	webanno.custom.Corefchains_	2-8	
+3-21	I	B-ScrPart_shopper	O	_	_	
+3-22	need	O	B-RelNScrEv	_	_	
+3-23	or	O	O	_	_	
+3-24	am	O	O	_	_	
+3-25	getting	O	B-RelNScrEv	_	_	
+3-26	low	O	I-RelNScrEv	_	_	
+3-27	on	O	O	_	_	
+3-28	.	O	O	_	_	
+
+#id=4
+#text=I then note everything that I need in my shopping list app on my cellphone .
+4-1	I	B-ScrPart_shopper	O	_	_	
+4-2	then	O	O	_	_	
+4-3	note	O	B-ScrEv_make_list	_	_	
+4-4	everything	B-ScrPart_groceries	O	_	_	
+4-5	that	B-ScrPart_groceries	O	_	_	
+4-6	I	B-ScrPart_shopper	O	_	_	
+4-7	need	O	B-RelNScrEv	_	_	
+4-8	in	O	O	_	_	
+4-9	my	B-ScrPart_shopper	O	_	_	
+4-10	shopping	B-ScrPart_grocery_list	O	_	_	
+4-11	list	I-ScrPart_grocery_list	O	_	_	
+4-12	app	I-ScrPart_grocery_list|B-ScrPart_grocery_list	O	_	_	
+4-13	on	O	O	_	_	
+4-14	my	B-ScrPart_shopper	O	_	_	
+4-15	cellphone	B-NPart	O	_	_	
+4-16	.	O	O	_	_	
+
+#id=5
+#text=After arriving at the store , I always get produce first .
+5-1	After	O	O	_	_	
+5-2	arriving	O	B-ScrEv_go_grocery	_	_	
+5-3	at	O	O	_	_	
+5-4	the	O	O	_	_	
+5-5	store	B-ScrPart_grocery_shop	O	_	_	
+5-6	,	O	O	_	_	
+5-7	I	B-ScrPart_shopper	O	_	_	
+5-8	always	O	O	_	_	
+5-9	get	O	B-ScrEv_get_groceries	_	_	
+5-10	produce	B-ScrPart_groceries	O	_	_	
+5-11	first	O	O	_	_	
+5-12	.	O	O	_	_	
+
+#id=6
+#text=Then I make my around to grab any dry goods that I need , and then get anything that needs to be be in the fridge or freezer last so that they wo n't be out at room temp for too long .
+6-1	Then	O	O	_	_	
+6-2	I	B-ScrPart_shopper	O	_	_	
+6-3	make	O	B-UnrelEv	_	_	
+6-4	my	B-ScrPart_shopper	O	_	_	
+6-5	around	O	O	_	_	
+6-6	to	O	O	_	_	
+6-7	grab	O	B-ScrEv_get_groceries	_	_	
+6-8	any	O	O	_	_	
+6-9	dry	O	O	_	_	
+6-10	goods	B-ScrPart_groceries	O	_	_	
+6-11	that	B-ScrPart_groceries	O	_	_	
+6-12	I	B-ScrPart_shopper	O	_	_	
+6-13	need	O	B-RelNScrEv	_	_	
+6-14	,	O	O	_	_	
+6-15	and	O	O	_	_	
+6-16	then	O	O	_	_	
+6-17	get	O	B-ScrEv_get_groceries	_	_	
+6-18	anything	B-ScrPart_groceries	O	_	_	
+6-19	that	B-ScrPart_groceries	O	_	_	
+6-20	needs	O	B-UnrelEv	_	_	
+6-21	to	O	O	_	_	
+6-22	be	O	O	_	_	
+6-23	be	O	B-UnrelEv	_	_	
+6-24	in	O	O	_	_	
+6-25	the	O	O	_	_	
+6-26	fridge	B-NPart	O	_	_	
+6-27	or	O	O	_	_	
+6-28	freezer	B-NPart	O	_	_	
+6-29	last	O	O	_	_	
+6-30	so	O	O	_	_	
+6-31	that	O	O	_	_	
+6-32	they	B-ScrPart_groceries	O	_	_	
+6-33	wo	O	O	_	_	
+6-34	n't	O	O	_	_	
+6-35	be	O	B-UnrelEv	_	_	
+6-36	out	O	I-UnrelEv	_	_	
+6-37	at	O	O	_	_	
+6-38	room	B-NPart	O	_	_	
+6-39	temp	I-NPart|B-NPart	O	_	_	
+6-40	for	O	O	_	_	
+6-41	too	O	O	_	_	
+6-42	long	O	O	_	_	
+6-43	.	O	O	_	_	
+
+#id=7
+#text=After I get everything I need , I head to the self-check out .
+7-1	After	O	O	_	_	
+7-2	I	B-ScrPart_shopper	O	_	_	
+7-3	get	O	B-ScrEv_get_groceries	_	_	
+7-4	everything	B-ScrPart_groceries	O	_	_	
+7-5	I	B-ScrPart_shopper	O	_	_	
+7-6	need	O	B-RelNScrEv	_	_	
+7-7	,	O	O	_	_	
+7-8	I	B-ScrPart_shopper	O	_	_	
+7-9	head	O	B-ScrEv_go_checkout	_	_	
+7-10	to	O	O	_	_	
+7-11	the	O	O	_	_	
+7-12	self-check	B-ScrPart_cash_desk	O	_	_	
+7-13	out	I-ScrPart_cash_desk	O	_	_	
+7-14	.	O	O	_	_	
+
+#id=8
+#text=After paying for my groceries and load them into my car , I drive home .
+8-1	After	O	O	_	_	
+8-2	paying	O	B-ScrEv_pay	_	_	
+8-3	for	O	O	_	_	
+8-4	my	B-ScrPart_shopper	O	_	_	
+8-5	groceries	B-ScrPart_groceries	O	_	_	
+8-6	and	O	O	_	_	
+8-7	load	O	B-ScrEv_bring_vehicle	_	_	
+8-8	them	B-ScrPart_groceries	O	_	_	
+8-9	into	O	O	_	_	
+8-10	my	B-ScrPart_shopper	O	_	_	
+8-11	car	B-ScrPart_vehicle	O	_	_	
+8-12	,	O	O	_	_	
+8-13	I	B-ScrPart_shopper	O	_	_	
+8-14	drive	O	B-ScrEv_leave	_	_	
+8-15	home	B-NPart	O	_	_	
+8-16	.	O	O	_	_	
+
+#id=9
+#text=Once I arrive home , I put all of the groceries away where they belong . 
+9-1	Once	O	O	_	_	
+9-2	I	B-ScrPart_shopper	O	_	_	
+9-3	arrive	O	B-RelNScrEv	_	_	
+9-4	home	B-NPart	O	_	_	
+9-5	,	O	O	_	_	
+9-6	I	B-ScrPart_shopper	O	_	_	
+9-7	put	O	B-RelNScrEv	_	_	
+9-8	all	O	O	_	_	
+9-9	of	O	O	_	_	
+9-10	the	O	O	_	_	
+9-11	groceries	B-ScrPart_groceries	O	_	_	
+9-12	away	O	O	_	_	
+9-13	where	O	O	_	_	
+9-14	they	B-ScrPart_groceries	O	_	_	
+9-15	belong	O	B-UnrelEv	_	_	
+9-16	.	O	O	_	_	
+

@@ -1,0 +1,260 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Last summer , I was riding my bike and I must have ran over something sharp because my tire started going flat .
+1-1	Last	O	O	_	_	
+1-2	summer	B-NPart	O	_	_	
+1-3	,	O	O	_	_	
+1-4	I	B-ScrPart_rider	O	_	_	
+1-5	was	O	O	_	_	
+1-6	riding	O	B-ScrEv_ride_bike	_	_	
+1-7	my	B-ScrPart_rider	O	_	_	
+1-8	bike	B-ScrPart_bicycle	O	_	_	
+1-9	and	O	O	_	_	
+1-10	I	B-ScrPart_rider	O	_	_	
+1-11	must	O	O	_	_	
+1-12	have	O	O	_	_	
+1-13	ran	O	B-UnrelEv	_	_	
+1-14	over	O	O	_	_	
+1-15	something	B-ScrPart_object_damage	O	_	_	
+1-16	sharp	O	O	_	_	
+1-17	because	O	O	_	_	
+1-18	my	B-ScrPart_rider	O	_	_	
+1-19	tire	B-ScrPart_tire	O	_	_	
+1-20	started	O	B-UnrelEv	_	_	
+1-21	going	O	B-RelNScrEv	_	_	
+1-22	flat	O	O	_	_	
+1-23	.	O	O	_	_	
+
+#id=2
+#text=I tried to use a repair kit , but the hole was too big and the patch would not stay on the old tube .
+2-1	I	B-ScrPart_rider	O	_	_	
+2-2	tried	O	B-UnrelEv	_	_	
+2-3	to	O	O	_	_	
+2-4	use	O	B-UnrelEv	_	_	
+2-5	a	O	O	_	_	
+2-6	repair	B-ScrPart_tool	O	_	_	
+2-7	kit	I-ScrPart_tool|B-ScrPart_tool	O	_	_	
+2-8	,	O	O	_	_	
+2-9	but	O	O	_	_	
+2-10	the	O	O	_	_	
+2-11	hole	B-ScrPart_damage	O	_	_	
+2-12	was	O	B-UnrelEv	_	_	
+2-13	too	O	O	_	_	
+2-14	big	O	O	_	_	
+2-15	and	O	O	_	_	
+2-16	the	O	O	_	_	
+2-17	patch	B-ScrPart_patch	O	_	_	
+2-18	would	O	O	_	_	
+2-19	not	O	O	_	_	
+2-20	stay	O	B-RelNScrEv	_	_	
+2-21	on	O	O	_	_	
+2-22	the	O	O	_	_	
+2-23	old	O	O	_	_	
+2-24	tube	B-ScrPart_tire	O	_	_	
+2-25	.	O	O	_	_	
+
+#id=3
+#text=It turns out that I ran over a screw and it had been lodged through the tire and into the tube .
+3-1	It	B-No_label	O	_	_	
+3-2	turns	O	B-UnrelEv|B-UnrelEv	_	_	
+3-3	out	O	I-UnrelEv	_	_	
+3-4	that	O	O	_	_	
+3-5	I	B-ScrPart_rider	O	_	_	
+3-6	ran	O	B-UnrelEv	_	_	
+3-7	over	O	O	_	_	
+3-8	a	O	O	_	_	
+3-9	screw	B-ScrPart_object_damage	O	_	_	
+3-10	and	O	O	_	_	
+3-11	it	B-ScrPart_object_damage	O	webanno.custom.Corefchains_	3-9	
+3-12	had	O	O	_	_	
+3-13	been	O	O	_	_	
+3-14	lodged	O	B-RelNScrEv	_	_	
+3-15	through	O	O	_	_	
+3-16	the	O	O	_	_	
+3-17	tire	B-ScrPart_tire	O	_	_	
+3-18	and	O	O	_	_	
+3-19	into	O	O	_	_	
+3-20	the	O	O	_	_	
+3-21	tube	B-ScrPart_tire	O	_	_	
+3-22	.	O	O	_	_	
+
+#id=4
+#text=I knew that I had a twenty six inch wheel , so I went up to the local hardware store .
+4-1	I	B-ScrPart_rider	O	_	_	
+4-2	knew	O	B-UnrelEv	_	_	
+4-3	that	O	O	_	_	
+4-4	I	B-ScrPart_rider	O	_	_	
+4-5	had	O	B-UnrelEv	_	_	
+4-6	a	O	O	_	_	
+4-7	twenty	O	O	_	_	
+4-8	six	O	O	_	_	
+4-9	inch	B-ScrPart_other	O	_	_	
+4-10	wheel	B-ScrPart_tire	O	_	_	
+4-11	,	O	O	_	_	
+4-12	so	O	O	_	_	
+4-13	I	B-ScrPart_rider	O	_	_	
+4-14	went	O	B-ScrEv_other	_	_	
+4-15	up	O	O	_	_	
+4-16	to	O	O	_	_	
+4-17	the	O	O	_	_	
+4-18	local	O	O	_	_	
+4-19	hardware	B-ScrPart_shop	O	_	_	
+4-20	store	I-ScrPart_shop|B-ScrPart_shop	O	_	_	
+4-21	.	O	O	_	_	
+
+#id=5
+#text=They had a new tube and I bought a new tire , just in case there were any other problems .
+5-1	They	B-ScrPart_other	O	_	_	
+5-2	had	O	B-UnrelEv	_	_	
+5-3	a	O	O	_	_	
+5-4	new	O	O	_	_	
+5-5	tube	B-ScrPart_spare_tube	O	_	_	
+5-6	and	O	O	_	_	
+5-7	I	B-ScrPart_rider	O	_	_	
+5-8	bought	O	B-ScrEv_get_tire	_	_	
+5-9	a	O	O	_	_	
+5-10	new	O	O	_	_	
+5-11	tire	B-ScrPart_spare_tube	O	_	_	
+5-12	,	O	O	_	_	
+5-13	just	O	O	_	_	
+5-14	in	O	O	_	_	
+5-15	case	B-No_label	O	_	_	
+5-16	there	O	O	_	_	
+5-17	were	O	B-UnrelEv	_	_	
+5-18	any	O	O	_	_	
+5-19	other	O	O	_	_	
+5-20	problems	B-NPart	O	_	_	
+5-21	.	O	O	_	_	
+
+#id=6
+#text=I followed the instructions and I took the old tire off .
+6-1	I	B-ScrPart_rider	O	_	_	
+6-2	followed	O	B-UnrelEv	_	_	
+6-3	the	O	O	_	_	
+6-4	instructions	B-NPart	O	_	_	
+6-5	and	O	O	_	_	
+6-6	I	B-ScrPart_rider	O	_	_	
+6-7	took	O	B-ScrEv_take_tire_off	_	_	
+6-8	the	O	O	_	_	
+6-9	old	O	O	_	_	
+6-10	tire	B-ScrPart_tire	O	_	_	
+6-11	off	O	O	_	_	
+6-12	.	O	O	_	_	
+
+#id=7
+#text=The somehow got the new tube and tire onto the wheel , but it was kind of a pain to do .
+7-1	The	O	O	_	_	
+7-2	somehow	O	O	_	_	
+7-3	got	O	B-ScrEv_put_new_tire	_	_	
+7-4	the	O	O	_	_	
+7-5	new	O	O	_	_	
+7-6	tube	B-ScrPart_spare_tube	O	_	_	
+7-7	and	O	O	_	_	
+7-8	tire	B-ScrPart_spare_tube	O	_	_	
+7-9	onto	O	O	_	_	
+7-10	the	O	O	_	_	
+7-11	wheel	B-ScrPart_wheel	O	_	_	
+7-12	,	O	O	_	_	
+7-13	but	O	O	_	_	
+7-14	it	B-No_label	O	_	_	
+7-15	was	O	B-UnrelEv	_	_	
+7-16	kind	B-No_label	O	_	_	
+7-17	of	O	O	_	_	
+7-18	a	O	O	_	_	
+7-19	pain	B-NPart	O	_	_	
+7-20	to	O	O	_	_	
+7-21	do	O	B-UnrelEv	_	_	
+7-22	.	O	O	_	_	
+
+#id=8
+#text=I finally got it on and all that I had to do was put in some air .
+8-1	I	B-ScrPart_rider	O	_	_	
+8-2	finally	O	O	_	_	
+8-3	got	O	B-UnrelEv	_	_	
+8-4	it	B-ScrPart_spare_tube	O	_	_	
+8-5	on	O	O	_	_	
+8-6	and	O	O	_	_	
+8-7	all	O	O	_	_	
+8-8	that	O	O	_	_	
+8-9	I	B-ScrPart_rider	O	_	_	
+8-10	had	O	O	_	_	
+8-11	to	O	O	_	_	
+8-12	do	O	B-UnrelEv	_	_	
+8-13	was	O	B-UnrelEv	_	_	
+8-14	put	O	B-ScrEv_refill_tire_air|B-ScrEv_refill_tire_air	_	_	
+8-15	in	O	I-ScrEv_refill_tire_air	_	_	
+8-16	some	O	O	_	_	
+8-17	air	B-ScrPart_air	O	_	_	
+8-18	.	O	O	_	_	
+
+#id=9
+#text=I plugged in my air compressor but it would not turn on for some reason .
+9-1	I	B-ScrPart_rider	O	_	_	
+9-2	plugged	O	B-ScrEv_other|B-ScrEv_other	_	_	
+9-3	in	O	I-ScrEv_other	_	_	
+9-4	my	B-ScrPart_rider	O	_	_	
+9-5	air	B-ScrPart_tool	O	_	_	
+9-6	compressor	I-ScrPart_tool|B-ScrPart_tool	O	_	_	
+9-7	but	O	O	_	_	
+9-8	it	B-ScrPart_tool	O	_	_	
+9-9	would	O	O	_	_	
+9-10	not	O	O	_	_	
+9-11	turn	O	B-UnrelEv|B-UnrelEv	_	_	
+9-12	on	O	I-UnrelEv	_	_	
+9-13	for	O	O	_	_	
+9-14	some	O	O	_	_	
+9-15	reason	B-NPart	O	_	_	
+9-16	.	O	O	_	_	
+
+#id=10
+#text=I found an old tire pump buried in my garage and I was finally able to put air into the tires .
+10-1	I	B-ScrPart_rider	O	_	_	
+10-2	found	O	B-ScrEv_get_tools	_	_	
+10-3	an	O	O	_	_	
+10-4	old	O	O	_	_	
+10-5	tire	B-ScrPart_tool	O	_	_	
+10-6	pump	I-ScrPart_tool|B-ScrPart_tool	O	_	_	
+10-7	buried	O	B-UnrelEv	_	_	
+10-8	in	O	O	_	_	
+10-9	my	B-ScrPart_rider	O	_	_	
+10-10	garage	B-ScrPart_location_repair	O	_	_	
+10-11	and	O	O	_	_	
+10-12	I	B-ScrPart_rider	O	_	_	
+10-13	was	O	B-UnrelEv	_	_	
+10-14	finally	O	O	_	_	
+10-15	able	O	O	_	_	
+10-16	to	O	O	_	_	
+10-17	put	O	B-ScrEv_refill_tire_air	_	_	
+10-18	air	B-ScrPart_air	O	_	_	
+10-19	into	O	O	_	_	
+10-20	the	O	O	_	_	
+10-21	tires	B-ScrPart_tire	O	_	_	
+10-22	.	O	O	_	_	
+
+#id=11
+#text=In the future , I am going to be more careful to avoid sharp exits because repairing the flat tire was a pain . 
+11-1	In	O	O	_	_	
+11-2	the	O	O	_	_	
+11-3	future	B-NPart	O	_	_	
+11-4	,	O	O	_	_	
+11-5	I	B-ScrPart_rider	O	_	_	
+11-6	am	O	O	_	_	
+11-7	going	O	O	_	_	
+11-8	to	O	O	_	_	
+11-9	be	O	B-UnrelEv	_	_	
+11-10	more	O	O	_	_	
+11-11	careful	O	O	_	_	
+11-12	to	O	O	_	_	
+11-13	avoid	O	B-UnrelEv	_	_	
+11-14	sharp	O	O	_	_	
+11-15	exits	B-NPart	O	_	_	
+11-16	because	O	O	_	_	
+11-17	repairing	O	B-Evoking	_	_	
+11-18	the	O	O	_	_	
+11-19	flat	O	O	_	_	
+11-20	tire	B-ScrPart_tire	O	_	_	
+11-21	was	O	B-UnrelEv	_	_	
+11-22	a	O	O	_	_	
+11-23	pain	B-No_label	O	_	_	
+11-24	.	O	O	_	_	
+

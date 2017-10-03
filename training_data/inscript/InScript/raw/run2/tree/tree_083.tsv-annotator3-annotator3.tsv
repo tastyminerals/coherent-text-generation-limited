@@ -1,0 +1,263 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=Since it 's Spring now , I decided that my yard needed another tree in it .
+1-1	Since	O	O	
+1-2	it	B-No_label	O	
+1-3	's	O	O	
+1-4	Spring	B-NPart	O	
+1-5	now	O	O	
+1-6	,	O	O	
+1-7	I	B-ScrPart_gardener	O	
+1-8	decided	O	B-UnrelEv	
+1-9	that	O	O	
+1-10	my	B-ScrPart_gardener	O	
+1-11	yard	B-ScrPart_location_garden	O	
+1-12	needed	O	B-UnrelEv	
+1-13	another	O	O	
+1-14	tree	B-ScrPart_tree	O	
+1-15	in	O	O	
+1-16	it	B-ScrPart_location_garden	O	
+1-17	.	O	O	
+
+#id=2
+#text=I walked around the yard for a while deciding where I wanted to put it .
+2-1	I	B-ScrPart_gardener	O	
+2-2	walked	O	B-UnrelEv	
+2-3	around	O	O	
+2-4	the	O	O	
+2-5	yard	B-ScrPart_location_garden	O	
+2-6	for	O	O	
+2-7	a	O	O	
+2-8	while	B-ScrPart_time	O	
+2-9	deciding	O	B-ScrEv_find_place	
+2-10	where	O	O	
+2-11	I	B-ScrPart_gardener	O	
+2-12	wanted	O	B-UnrelEv	
+2-13	to	O	O	
+2-14	put	O	O	
+2-15	it	B-ScrPart_tree	O	
+2-16	.	O	O	
+
+#id=3
+#text=Once I picked the spot out , I got online and looked up what kinds of trees grow best in my area .
+3-1	Once	O	O	
+3-2	I	B-ScrPart_gardener	O	
+3-3	picked	O	B-ScrEv_find_place	
+3-4	the	O	O	
+3-5	spot	B-ScrPart_location_garden	O	
+3-6	out	O	O	
+3-7	,	O	O	
+3-8	I	B-ScrPart_gardener	O	
+3-9	got	O	B-UnrelEv	
+3-10	online	B-No_label	O	
+3-11	and	O	O	
+3-12	looked	O	B-ScrEv_choose_tree|B-ScrEv_choose_tree	
+3-13	up	O	I-ScrEv_choose_tree	
+3-14	what	O	O	
+3-15	kinds	B-Head_of_Partitive	O	
+3-16	of	O	O	
+3-17	trees	B-ScrPart_tree	O	
+3-18	grow	O	B-RelNScrEv	
+3-19	best	O	O	
+3-20	in	O	O	
+3-21	my	B-NPart	O	
+3-22	area	B-NPart	O	
+3-23	.	O	O	
+
+#id=4
+#text=I decided on a nice pine tree and headed to the nursery .
+4-1	I	B-ScrPart_gardener	O	
+4-2	decided	O	B-ScrEv_choose_tree	
+4-3	on	O	O	
+4-4	a	O	O	
+4-5	nice	O	O	
+4-6	pine	B-ScrPart_tree	O	
+4-7	tree	I-ScrPart_tree|B-ScrPart_tree	O	
+4-8	and	O	O	
+4-9	headed	O	B-ScrEv_other	
+4-10	to	O	O	
+4-11	the	O	O	
+4-12	nursery	B-ScrPart_shop	O	
+4-13	.	O	O	
+
+#id=5
+#text=I took a little time looking at their pine trees until I found the one I liked .
+5-1	I	B-ScrPart_gardener	O	
+5-2	took	O	B-UnrelEv	
+5-3	a	O	O	
+5-4	little	O	O	
+5-5	time	B-ScrPart_time	O	
+5-6	looking	O	B-ScrEv_choose_tree	
+5-7	at	O	O	
+5-8	their	B-ScrPart_shop	O	
+5-9	pine	B-ScrPart_tree	O	
+5-10	trees	I-ScrPart_tree|B-ScrPart_tree	O	
+5-11	until	O	O	
+5-12	I	B-ScrPart_gardener	O	
+5-13	found	O	B-ScrEv_choose_tree	
+5-14	the	O	O	
+5-15	one	B-ScrPart_gardener	O	
+5-16	I	B-ScrPart_gardener	O	
+5-17	liked	O	B-UnrelEv	
+5-18	.	O	O	
+
+#id=6
+#text=I bought it and some topsoil to plant it in and got them loaded into my car .
+6-1	I	B-ScrPart_gardener	O	
+6-2	bought	O	B-ScrEv_get_tree	
+6-3	it	B-ScrPart_other|B-ScrPart_tree	O	
+6-4	and	I-ScrPart_other	O	
+6-5	some	I-ScrPart_other	O	
+6-6	topsoil	I-ScrPart_other|B-ScrPart_dirt	O	
+6-7	to	O	O	
+6-8	plant	O	B-RelNScrEv	
+6-9	it	B-ScrPart_tree	O	
+6-10	in	O	O	
+6-11	and	O	O	
+6-12	got	O	B-UnrelEv	
+6-13	them	B-ScrPart_other	O	
+6-14	loaded	O	B-RelNScrEv	
+6-15	into	O	O	
+6-16	my	B-ScrPart_gardener	O	
+6-17	car	B-NPart	O	
+6-18	.	O	O	
+
+#id=7
+#text=Once I was home , I grabbed my shovel and went out to the place I wanted to put the tree .
+7-1	Once	O	O	
+7-2	I	B-ScrPart_gardener	O	
+7-3	was	O	B-UnrelEv	
+7-4	home	B-No_label	O	
+7-5	,	O	O	
+7-6	I	B-ScrPart_gardener	O	
+7-7	grabbed	O	B-ScrEv_get_tools	
+7-8	my	B-ScrPart_gardener	O	
+7-9	shovel	B-ScrPart_gardening_tool	O	
+7-10	and	O	O	
+7-11	went	O	B-UnrelEv|B-UnrelEv	
+7-12	out	O	I-UnrelEv	
+7-13	to	O	O	
+7-14	the	O	O	
+7-15	place	B-ScrPart_location_garden	O	
+7-16	I	B-ScrPart_gardener	O	
+7-17	wanted	O	O	
+7-18	to	O	O	
+7-19	put	O	B-RelNScrEv	
+7-20	the	O	O	
+7-21	tree	B-ScrPart_tree	O	
+7-22	.	O	O	
+
+#id=8
+#text=I started digging and kept at it until I had a hole deep and wide enough to fit the little tree in .
+8-1	I	B-ScrPart_gardener	O	
+8-2	started	O	B-UnrelEv	
+8-3	digging	O	B-ScrEv_dug_hole	
+8-4	and	O	O	
+8-5	kept	O	B-UnrelEv|B-UnrelEv	
+8-6	at	O	I-UnrelEv	
+8-7	it	B-No_label	O	
+8-8	until	O	O	
+8-9	I	B-ScrPart_gardener	O	
+8-10	had	O	B-UnrelEv	
+8-11	a	O	O	
+8-12	hole	B-ScrPart_hole	O	
+8-13	deep	O	O	
+8-14	and	O	O	
+8-15	wide	O	O	
+8-16	enough	O	O	
+8-17	to	O	O	
+8-18	fit	O	B-RelNScrEv	
+8-19	the	O	O	
+8-20	little	O	O	
+8-21	tree	B-ScrPart_tree	O	
+8-22	in	O	O	
+8-23	.	O	O	
+
+#id=9
+#text=I put it in the hole and filled around it with the nice topsoil I bought so I had good dirt to start growing in .
+9-1	I	B-ScrPart_gardener	O	
+9-2	put	O	B-ScrEv_place_root	
+9-3	it	B-ScrPart_tree	O	
+9-4	in	O	O	
+9-5	the	O	O	
+9-6	hole	B-ScrPart_hole	O	
+9-7	and	O	O	
+9-8	filled	O	B-ScrEv_refill_hole	
+9-9	around	O	O	
+9-10	it	B-ScrPart_hole	O	
+9-11	with	O	O	
+9-12	the	O	O	
+9-13	nice	O	O	
+9-14	topsoil	B-ScrPart_dirt	O	
+9-15	I	B-ScrPart_gardener	O	
+9-16	bought	O	B-ScrEv_get_tools	
+9-17	so	O	O	
+9-18	I	B-ScrPart_gardener	O	
+9-19	had	O	B-UnrelEv	
+9-20	good	O	O	
+9-21	dirt	B-ScrPart_dirt	O	
+9-22	to	O	O	
+9-23	start	O	B-UnrelEv	
+9-24	growing	O	B-RelNScrEv	
+9-25	in	O	O	
+9-26	.	O	O	
+
+#id=10
+#text=I spread out the dirt I had taken out of the hole so I did n't have a pile of dirt , then watered the tree and put my tools away .
+10-1	I	B-ScrPart_gardener	O	
+10-2	spread	O	B-ScrEv_tamp_dirt|B-ScrEv_tamp_dirt	
+10-3	out	O	I-ScrEv_tamp_dirt	
+10-4	the	O	O	
+10-5	dirt	B-ScrPart_dirt	O	
+10-6	I	B-ScrPart_gardener	O	
+10-7	had	O	O	
+10-8	taken	O	B-RelNScrEv	
+10-9	out	O	O	
+10-10	of	O	O	
+10-11	the	O	O	
+10-12	hole	B-ScrPart_hole	O	
+10-13	so	O	O	
+10-14	I	B-ScrPart_gardener	O	
+10-15	did	O	O	
+10-16	n't	O	O	
+10-17	have	O	B-UnrelEv	
+10-18	a	O	O	
+10-19	pile	B-Head_of_Partitive	O	
+10-20	of	O	O	
+10-21	dirt	B-ScrPart_dirt	O	
+10-22	,	O	O	
+10-23	then	O	O	
+10-24	watered	O	B-ScrEv_water	
+10-25	the	O	O	
+10-26	tree	B-ScrPart_tree	O	
+10-27	and	O	O	
+10-28	put	O	B-ScrEv_other	
+10-29	my	B-ScrPart_gardener	O	
+10-30	tools	B-ScrPart_gardening_tool	O	
+10-31	away	O	O	
+10-32	.	O	O	
+
+#id=11
+#text=I knwo it will take years , but that tree is going to look great once it ; s bigger . 
+11-1	I	B-ScrPart_gardener	O	
+11-2	knwo	O	B-UnrelEv	
+11-3	it	B-No_label	O	
+11-4	will	O	O	
+11-5	take	O	B-UnrelEv	
+11-6	years	B-ScrPart_time	O	
+11-7	,	O	O	
+11-8	but	O	O	
+11-9	that	O	O	
+11-10	tree	B-ScrPart_tree	O	
+11-11	is	O	O	
+11-12	going	O	O	
+11-13	to	O	O	
+11-14	look	O	B-UnrelEv	
+11-15	great	O	O	
+11-16	once	O	O	
+11-17	it	B-ScrPart_tree	O	
+11-18	;	O	O	
+11-19	s	O	O	
+11-20	bigger	O	O	
+11-21	.	O	O	
+

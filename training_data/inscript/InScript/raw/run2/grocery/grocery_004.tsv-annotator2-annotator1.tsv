@@ -1,0 +1,244 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Before I go grocery shopping I make a list .
+1-1	Before	O	O	_	_	
+1-2	I	B-ScrPart_shopper	O	_	_	
+1-3	go	O	B-Evoking	_	_	
+1-4	grocery	B-ScrPart_groceries	I-Evoking	_	_	
+1-5	shopping	O	I-Evoking|B-ScrEv_get_groceries	_	_	
+1-6	I	B-ScrPart_shopper	O	_	_	
+1-7	make	O	B-ScrEv_make_list	_	_	
+1-8	a	O	O	_	_	
+1-9	list	B-ScrPart_grocery_list	O	_	_	
+1-10	.	O	O	_	_	
+
+#id=2
+#text=I actually keep a list going on a magnetic notepad on the fridge and one on my phone whenever I know I am out or low on something .
+2-1	I	B-ScrPart_shopper	O	_	_	
+2-2	actually	O	O	_	_	
+2-3	keep	O	B-UnrelEv	_	_	
+2-4	a	O	O	_	_	
+2-5	list	B-ScrPart_grocery_list	O	_	_	
+2-6	going	O	B-UnrelEv	_	_	
+2-7	on	O	O	_	_	
+2-8	a	O	O	_	_	
+2-9	magnetic	O	O	_	_	
+2-10	notepad	B-NPart	O	_	_	
+2-11	on	O	O	_	_	
+2-12	the	O	O	_	_	
+2-13	fridge	B-NPart	O	_	_	
+2-14	and	O	O	_	_	
+2-15	one	B-ScrPart_grocery_list	O	_	_	
+2-16	on	O	O	_	_	
+2-17	my	B-ScrPart_shopper	O	_	_	
+2-18	phone	B-NPart	O	_	_	
+2-19	whenever	O	O	_	_	
+2-20	I	B-ScrPart_shopper	O	_	_	
+2-21	know	O	B-UnrelEv	_	_	
+2-22	I	B-ScrPart_shopper	O	_	_	
+2-23	am	O	B-UnrelEv	_	_	
+2-24	out	O	O	_	_	
+2-25	or	O	O	_	_	
+2-26	low	O	O	_	_	
+2-27	on	O	O	_	_	
+2-28	something	B-ScrPart_groceries	O	_	_	
+2-29	.	O	O	_	_	
+
+#id=3
+#text=I try to only go once a week unless there is something I really need for a specific meal .
+3-1	I	B-ScrPart_shopper	O	_	_	
+3-2	try	O	O	_	_	
+3-3	to	O	O	_	_	
+3-4	only	O	O	_	_	
+3-5	go	O	B-Evoking	_	_	
+3-6	once	O	O	_	_	
+3-7	a	O	O	_	_	
+3-8	week	B-NPart	O	_	_	
+3-9	unless	O	O	_	_	
+3-10	there	O	O	_	_	
+3-11	is	O	B-UnrelEv	_	_	
+3-12	something	B-ScrPart_groceries	O	_	_	
+3-13	I	B-ScrPart_shopper	O	_	_	
+3-14	really	O	O	_	_	
+3-15	need	O	B-UnrelEv	_	_	
+3-16	for	O	O	_	_	
+3-17	a	O	O	_	_	
+3-18	specific	O	O	_	_	
+3-19	meal	B-NPart	O	_	_	
+3-20	.	O	O	_	_	
+
+#id=4
+#text=I take my electronic list with me to the store , but I often still walk up and down most aisles just browsing for anything new or that I might want to try .
+4-1	I	B-ScrPart_shopper	O	_	_	
+4-2	take	O	B-UnrelEv	_	_	
+4-3	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	4-1	
+4-4	electronic	O	O	_	_	
+4-5	list	B-ScrPart_grocery_list	O	_	_	
+4-6	with	O	O	_	_	
+4-7	me	B-ScrPart_shopper	O	_	_	
+4-8	to	O	O	_	_	
+4-9	the	O	O	_	_	
+4-10	store	B-ScrPart_grocery_shop	O	_	_	
+4-11	,	O	O	_	_	
+4-12	but	O	O	_	_	
+4-13	I	B-ScrPart_shopper	O	_	_	
+4-14	often	O	O	_	_	
+4-15	still	O	O	_	_	
+4-16	walk	O	B-ScrEv_move_section	_	_	
+4-17	up	O	O	_	_	
+4-18	and	O	O	_	_	
+4-19	down	O	O	_	_	
+4-20	most	O	O	_	_	
+4-21	aisles	B-ScrPart_section	O	_	_	
+4-22	just	O	O	_	_	
+4-23	browsing	O	B-RelNScrEv	_	_	
+4-24	for	O	O	_	_	
+4-25	anything	B-ScrPart_groceries	O	_	_	
+4-26	new	O	O	_	_	
+4-27	or	O	O	_	_	
+4-28	that	O	O	_	_	
+4-29	I	B-ScrPart_shopper	O	_	_	
+4-30	might	O	O	_	_	
+4-31	want	O	O	_	_	
+4-32	to	O	O	_	_	
+4-33	try	O	B-UnrelEv	_	_	
+4-34	.	O	O	_	_	
+
+#id=5
+#text=I like to keep a rough estimate of how much I am buying by rounding up .
+5-1	I	B-ScrPart_shopper	O	_	_	
+5-2	like	O	O	_	_	
+5-3	to	O	O	_	_	
+5-4	keep	O	B-UnrelEv	_	_	
+5-5	a	O	O	_	_	
+5-6	rough	O	O	_	_	
+5-7	estimate	B-SuppVComp	O	_	_	
+5-8	of	O	O	_	_	
+5-9	how	O	O	_	_	
+5-10	much	O	O	_	_	
+5-11	I	B-ScrPart_shopper	O	_	_	
+5-12	am	O	O	_	_	
+5-13	buying	O	B-RelNScrEv	_	_	
+5-14	by	O	O	_	_	
+5-15	rounding	O	B-UnrelEv	_	_	
+5-16	up	O	I-UnrelEv	_	_	
+5-17	.	O	O	_	_	
+
+#id=6
+#text=So if a can of soup is $ 1.50 I think $ 2 and keep adding that as I shop if I 'm wanting to stay on a specific budget .
+6-1	So	O	O	_	_	
+6-2	if	O	O	_	_	
+6-3	a	O	O	_	_	
+6-4	can	B-Head_of_Partitive	O	_	_	
+6-5	of	O	O	_	_	
+6-6	soup	B-ScrPart_groceries	O	_	_	
+6-7	is	O	B-UnrelEv	_	_	
+6-8	$	O	O	_	_	
+6-9	1.50	O	O	_	_	
+6-10	I	B-ScrPart_shopper	O	_	_	
+6-11	think	O	O	_	_	
+6-12	$	O	O	_	_	
+6-13	2	O	O	_	_	
+6-14	and	O	O	_	_	
+6-15	keep	O	O	_	_	
+6-16	adding	O	B-UnrelEv	_	_	
+6-17	that	O	O	_	_	
+6-18	as	O	O	_	_	
+6-19	I	B-ScrPart_shopper	O	_	_	
+6-20	shop	O	B-Evoking	_	_	
+6-21	if	O	O	_	_	
+6-22	I	B-ScrPart_shopper	O	_	_	
+6-23	'm	O	O	_	_	
+6-24	wanting	O	O	_	_	
+6-25	to	O	O	_	_	
+6-26	stay	O	B-UnrelEv	_	_	
+6-27	on	O	O	_	_	
+6-28	a	O	O	_	_	
+6-29	specific	O	O	_	_	
+6-30	budget	B-ScrPart_other	O	_	_	
+6-31	.	O	O	_	_	
+
+#id=7
+#text=Once I have all my items in my cart I go to the checkout line that seems to have the least amount of people in it .
+7-1	Once	O	O	_	_	
+7-2	I	B-ScrPart_shopper	O	_	_	
+7-3	have	O	B-RelNScrEv	_	_	
+7-4	all	O	O	_	_	
+7-5	my	B-ScrPart_shopper	O	_	_	
+7-6	items	B-ScrPart_groceries	O	_	_	
+7-7	in	O	O	_	_	
+7-8	my	B-ScrPart_shopper	O	_	_	
+7-9	cart	B-ScrPart_shopping_cart/basket	O	_	_	
+7-10	I	B-ScrPart_shopper	O	_	_	
+7-11	go	O	B-ScrEv_go_checkout	_	_	
+7-12	to	O	O	_	_	
+7-13	the	O	O	_	_	
+7-14	checkout	B-ScrPart_line	O	_	_	
+7-15	line	I-ScrPart_line|B-ScrPart_line	O	_	_	
+7-16	that	O	O	_	_	
+7-17	seems	O	O	_	_	
+7-18	to	O	O	_	_	
+7-19	have	O	B-UnrelEv	_	_	
+7-20	the	O	O	_	_	
+7-21	least	O	O	_	_	
+7-22	amount	B-Head_of_Partitive	O	_	_	
+7-23	of	O	O	_	_	
+7-24	people	B-ScrPart_shopper	O	_	_	
+7-25	in	O	O	_	_	
+7-26	it	B-ScrPart_line	O	_	_	
+7-27	.	O	O	_	_	
+
+#id=8
+#text=I do n't like to jump lines if one line seems to be moving faster .
+8-1	I	B-ScrPart_shopper	O	_	_	
+8-2	do	O	O	_	_	
+8-3	n't	O	O	_	_	
+8-4	like	O	O	_	_	
+8-5	to	O	O	_	_	
+8-6	jump	O	B-RelNScrEv	_	_	
+8-7	lines	B-ScrPart_line	O	_	_	
+8-8	if	O	O	_	_	
+8-9	one	O	O	_	_	
+8-10	line	B-ScrPart_line	O	_	_	
+8-11	seems	O	O	_	_	
+8-12	to	O	O	_	_	
+8-13	be	O	O	_	_	
+8-14	moving	O	B-RelNScrEv	_	_	
+8-15	faster	O	O	_	_	
+8-16	.	O	O	_	_	
+
+#id=9
+#text=Good to have a little bit of patience .
+9-1	Good	O	O	_	_	
+9-2	to	O	O	_	_	
+9-3	have	O	B-UnrelEv	_	_	
+9-4	a	O	O	_	_	
+9-5	little	O	O	_	_	
+9-6	bit	B-No_label	O	_	_	
+9-7	of	O	O	_	_	
+9-8	patience	B-NPart	O	_	_	
+9-9	.	O	O	_	_	
+
+#id=10
+#text=I try to remember to bring my bags with me so that I 'm not always getting plastic bags . 
+10-1	I	B-ScrPart_shopper	O	_	_	
+10-2	try	O	O	_	_	
+10-3	to	O	O	_	_	
+10-4	remember	O	B-UnrelEv	_	_	
+10-5	to	O	O	_	_	
+10-6	bring	O	B-ScrEv_take_bags	_	_	
+10-7	my	B-ScrPart_shopper	O	_	_	
+10-8	bags	B-ScrPart_shopping_bags	O	_	_	
+10-9	with	O	O	_	_	
+10-10	me	B-ScrPart_shopper	O	_	_	
+10-11	so	O	O	_	_	
+10-12	that	O	O	_	_	
+10-13	I	B-ScrPart_shopper	O	_	_	
+10-14	'm	O	O	_	_	
+10-15	not	O	O	_	_	
+10-16	always	O	O	_	_	
+10-17	getting	O	B-RelNScrEv	_	_	
+10-18	plastic	B-ScrPart_shopping_bags	O	_	_	
+10-19	bags	I-ScrPart_shopping_bags|B-ScrPart_shopping_bags	O	_	_	
+10-20	.	O	O	_	_	
+

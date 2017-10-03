@@ -1,0 +1,210 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=When I was very young , my family only just recently got our new home .
+1-1	When	O	O	_	_	
+1-2	I	B-ScrPart_gardener	O	_	_	
+1-3	was	O	B-UnrelEv	_	_	
+1-4	very	O	O	_	_	
+1-5	young	O	O	_	_	
+1-6	,	O	O	_	_	
+1-7	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	1-2	
+1-8	family	B-ScrPart_gardener	O	group_I_family	1-2	
+1-9	only	O	O	_	_	
+1-10	just	O	O	_	_	
+1-11	recently	O	O	_	_	
+1-12	got	O	B-UnrelEv	_	_	
+1-13	our	B-ScrPart_gardener	O	group_I_family	1-8	
+1-14	new	O	O	_	_	
+1-15	home	O	O	_	_	
+1-16	.	O	O	_	_	
+
+#id=2
+#text=The backyard had no trees and little decoration but that soon changed over the years .
+2-1	The	O	O	_	_	
+2-2	backyard	B-ScrPart_location_garden	O	_	_	
+2-3	had	O	B-UnrelEv	_	_	
+2-4	no	O	O	_	_	
+2-5	trees	B-ScrPart_tree	O	_	_	
+2-6	and	O	O	_	_	
+2-7	little	O	O	_	_	
+2-8	decoration	O	O	_	_	
+2-9	but	O	O	_	_	
+2-10	that	O	O	_	_	
+2-11	soon	O	O	_	_	
+2-12	changed	O	B-UnrelEv	_	_	
+2-13	over	O	O	_	_	
+2-14	the	O	O	_	_	
+2-15	years	O	O	_	_	
+2-16	.	O	O	_	_	
+
+#id=3
+#text=About a year after we moved in , my dad decided it was time we planted a tree in the backyard and I was able to help .
+3-1	About	O	O	_	_	
+3-2	a	O	O	_	_	
+3-3	year	O	O	_	_	
+3-4	after	O	O	_	_	
+3-5	we	B-ScrPart_gardener	O	webanno.custom.Corefchains_	1-13	
+3-6	moved	O	B-UnrelEv|B-UnrelEv	_	_	
+3-7	in	O	I-UnrelEv	_	_	
+3-8	,	O	O	_	_	
+3-9	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	1-7	
+3-10	dad	B-ScrPart_gardener	O	_	_	
+3-11	decided	O	B-UnrelEv	_	_	
+3-12	it	O	O	_	_	
+3-13	was	O	B-UnrelEv	_	_	
+3-14	time	O	O	_	_	
+3-15	we	B-ScrPart_gardener	O	webanno.custom.Corefchains_	3-5	
+3-16	planted	O	B-Evoking	_	_	
+3-17	a	O	I-Evoking	_	_	
+3-18	tree	O	I-Evoking	_	_	
+3-19	in	O	O	_	_	
+3-20	the	O	O	_	_	
+3-21	backyard	B-ScrPart_location_garden	O	webanno.custom.Corefchains_	2-2	
+3-22	and	O	O	_	_	
+3-23	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	3-9	
+3-24	was	O	O	_	_	
+3-25	able	O	O	_	_	
+3-26	to	O	O	_	_	
+3-27	help	O	B-RelNScrEv	_	_	
+3-28	.	O	O	_	_	
+
+#id=4
+#text=I had no idea what type of tree it would be and when I asked my dad just said I 'd have to wait and find out .
+4-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	3-23	
+4-2	had	O	B-UnrelEv	_	_	
+4-3	no	O	O	_	_	
+4-4	idea	O	O	_	_	
+4-5	what	O	O	_	_	
+4-6	type	O	O	_	_	
+4-7	of	O	O	_	_	
+4-8	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	2-5	
+4-9	it	O	O	_	_	
+4-10	would	O	O	_	_	
+4-11	be	O	B-UnrelEv	_	_	
+4-12	and	O	O	_	_	
+4-13	when	O	O	_	_	
+4-14	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	4-1	
+4-15	asked	O	B-UnrelEv	_	_	
+4-16	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	4-14	
+4-17	dad	B-ScrPart_gardener	O	webanno.custom.Corefchains_	3-10	
+4-18	just	O	O	_	_	
+4-19	said	O	B-UnrelEv	_	_	
+4-20	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	4-16	
+4-21	'd	O	O	_	_	
+4-22	have	O	O	_	_	
+4-23	to	O	O	_	_	
+4-24	wait	O	B-UnrelEv	_	_	
+4-25	and	O	O	_	_	
+4-26	find	O	B-UnrelEv|B-UnrelEv	_	_	
+4-27	out	O	I-UnrelEv	_	_	
+4-28	.	O	O	_	_	
+
+#id=5
+#text=I would n't know it but several years later the tree would be larger than the house itself .
+5-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	4-20	
+5-2	would	O	O	_	_	
+5-3	n't	O	O	_	_	
+5-4	know	O	B-UnrelEv	_	_	
+5-5	it	O	O	_	_	
+5-6	but	O	O	_	_	
+5-7	several	O	O	_	_	
+5-8	years	O	O	_	_	
+5-9	later	O	O	_	_	
+5-10	the	O	O	_	_	
+5-11	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	4-8	
+5-12	would	O	O	_	_	
+5-13	be	O	B-UnrelEv	_	_	
+5-14	larger	O	O	_	_	
+5-15	than	O	O	_	_	
+5-16	the	O	O	_	_	
+5-17	house	O	O	_	_	
+5-18	itself	O	O	_	_	
+5-19	.	O	O	_	_	
+
+#id=6
+#text=To get things started , I dug up a small hole to plant the tree .
+6-1	To	O	O	_	_	
+6-2	get	O	B-UnrelEv	_	_	
+6-3	things	O	O	_	_	
+6-4	started	O	B-UnrelEv	_	_	
+6-5	,	O	O	_	_	
+6-6	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	5-1	
+6-7	dug	O	B-ScrEv_dug_hole|B-ScrEv_dug_hole	_	_	
+6-8	up	O	I-ScrEv_dug_hole	_	_	
+6-9	a	O	O	_	_	
+6-10	small	O	O	_	_	
+6-11	hole	B-ScrPart_hole	O	_	_	
+6-12	to	O	O	_	_	
+6-13	plant	O	B-Evoking	_	_	
+6-14	the	O	I-Evoking	_	_	
+6-15	tree	B-ScrPart_tree	I-Evoking	webanno.custom.Corefchains_	5-11	
+6-16	.	O	O	_	_	
+
+#id=7
+#text=My dad had to make sure the hole was just the right size .
+7-1	My	B-ScrPart_gardener	O	webanno.custom.Corefchains_	6-6	
+7-2	dad	O	O	_	_	
+7-3	had	O	O	_	_	
+7-4	to	O	O	_	_	
+7-5	make	O	B-UnrelEv|B-UnrelEv	_	_	
+7-6	sure	O	I-UnrelEv	_	_	
+7-7	the	O	O	_	_	
+7-8	hole	B-ScrPart_hole	O	webanno.custom.Corefchains_	6-11	
+7-9	was	O	B-RelNScrEv	_	_	
+7-10	just	O	O	_	_	
+7-11	the	O	O	_	_	
+7-12	right	O	O	_	_	
+7-13	size	O	O	_	_	
+7-14	.	O	O	_	_	
+
+#id=8
+#text=Once the space was perfect , I carefully placed the very young tree into it 's new home and covered the roots up with dirt .
+8-1	Once	O	O	_	_	
+8-2	the	O	O	_	_	
+8-3	space	O	O	_	_	
+8-4	was	O	B-RelNScrEv	_	_	
+8-5	perfect	O	O	_	_	
+8-6	,	O	O	_	_	
+8-7	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	7-1	
+8-8	carefully	O	O	_	_	
+8-9	placed	O	B-ScrEv_place_root	_	_	
+8-10	the	O	O	_	_	
+8-11	very	O	O	_	_	
+8-12	young	O	O	_	_	
+8-13	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	6-15	
+8-14	into	O	O	_	_	
+8-15	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	8-13	
+8-16	's	I-ScrPart_tree	O	webanno.custom.Corefchains_	8-13	
+8-17	new	O	O	_	_	
+8-18	home	B-ScrPart_hole	O	webanno.custom.Corefchains_	7-8	
+8-19	and	O	O	_	_	
+8-20	covered	O	B-ScrEv_refill_hole	_	_	
+8-21	the	O	O	_	_	
+8-22	roots	B-ScrPart_root	O	_	_	
+8-23	up	O	O	_	_	
+8-24	with	O	O	_	_	
+8-25	dirt	B-ScrPart_dirt	O	_	_	
+8-26	.	O	O	_	_	
+
+#id=9
+#text=After it was firmly set in place , I watered the tree and was done for the day . 
+9-1	After	O	O	_	_	
+9-2	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	8-15	
+9-3	was	O	O	_	_	
+9-4	firmly	O	O	_	_	
+9-5	set	O	B-RelNScrEv	_	_	
+9-6	in	O	O	_	_	
+9-7	place	B-SuppVComp	O	_	_	
+9-8	,	O	O	_	_	
+9-9	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	8-7	
+9-10	watered	O	B-ScrEv_water	_	_	
+9-11	the	O	O	_	_	
+9-12	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	9-2	
+9-13	and	O	O	_	_	
+9-14	was	O	O	_	_	
+9-15	done	O	B-UnrelEv	_	_	
+9-16	for	O	O	_	_	
+9-17	the	O	O	_	_	
+9-18	day	O	O	_	_	
+9-19	.	O	O	_	_	
+

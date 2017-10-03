@@ -1,0 +1,224 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I went to the local library in my town yesterday .
+1-1	I	B-ScrPart_customer	O	_	_	
+1-2	went	O	B-Evoking	_	_	
+1-3	to	O	I-Evoking	_	_	
+1-4	the	O	I-Evoking	_	_	
+1-5	local	O	I-Evoking	_	_	
+1-6	library	B-ScrPart_library	I-Evoking	_	_	
+1-7	in	O	O	_	_	
+1-8	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-1	
+1-9	town	O	O	_	_	
+1-10	yesterday	O	O	_	_	
+1-11	.	O	O	_	_	
+
+#id=2
+#text=I was dying to read the new book by James Patterson .
+2-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-8	
+2-2	was	O	O	_	_	
+2-3	dying	O	B-UnrelEv	_	_	
+2-4	to	O	O	_	_	
+2-5	read	O	B-RelNScrEv	_	_	
+2-6	the	O	O	_	_	
+2-7	new	O	O	_	_	
+2-8	book	B-ScrPart_book	O	_	_	
+2-9	by	O	O	_	_	
+2-10	James	O	O	_	_	
+2-11	Patterson	O	O	_	_	
+2-12	.	O	O	_	_	
+
+#id=3
+#text=I love mysteries !
+3-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-1	
+3-2	love	O	B-UnrelEv	_	_	
+3-3	mysteries	O	O	_	_	
+3-4	!	O	O	_	_	
+
+#id=4
+#text=I was n't sure where to find the mystery section in the library so I asked the librarian .
+4-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-1	
+4-2	was	O	B-UnrelEv	_	_	
+4-3	n't	O	O	_	_	
+4-4	sure	O	O	_	_	
+4-5	where	O	O	_	_	
+4-6	to	O	O	_	_	
+4-7	find	O	B-ScrEv_get_shelf	_	_	
+4-8	the	O	O	_	_	
+4-9	mystery	B-ScrPart_location_library	O	_	_	
+4-10	section	I-ScrPart_location_library|B-ScrPart_location_library	O	_	_	
+4-11	in	O	O	_	_	
+4-12	the	O	O	_	_	
+4-13	library	B-ScrPart_library	O	webanno.custom.Corefchains_	1-6	
+4-14	so	O	O	_	_	
+4-15	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-1	
+4-16	asked	O	B-ScrEv_ask_librarian	_	_	
+4-17	the	O	O	_	_	
+4-18	librarian	B-ScrPart_staff	O	_	_	
+4-19	.	O	O	_	_	
+
+#id=5
+#text=She entered the book information into the computer and then told me where I could find the book .
+5-1	She	B-ScrPart_staff	O	webanno.custom.Corefchains_	4-18	
+5-2	entered	O	B-ScrEv_use_computer	_	_	
+5-3	the	O	O	_	_	
+5-4	book	B-NPart	O	_	_	
+5-5	information	I-NPart|B-NPart	O	_	_	
+5-6	into	O	O	_	_	
+5-7	the	O	O	_	_	
+5-8	computer	B-ScrPart_institutional_devices	O	_	_	
+5-9	and	O	O	_	_	
+5-10	then	O	O	_	_	
+5-11	told	O	B-ScrEv_ask_librarian	_	_	
+5-12	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-15	
+5-13	where	O	O	_	_	
+5-14	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-12	
+5-15	could	O	O	_	_	
+5-16	find	O	B-ScrEv_look_for_book	_	_	
+5-17	the	O	O	_	_	
+5-18	book	B-ScrPart_book	O	webanno.custom.Corefchains_	2-8	
+5-19	.	O	O	_	_	
+
+#id=6
+#text=As it turned out , the mystery section was clearly labeled , as were the books .
+6-1	As	O	O	_	_	
+6-2	it	O	O	_	_	
+6-3	turned	O	B-UnrelEv	_	_	
+6-4	out	O	I-UnrelEv	_	_	
+6-5	,	O	O	_	_	
+6-6	the	O	O	_	_	
+6-7	mystery	B-ScrPart_location_library	O	_	_	
+6-8	section	I-ScrPart_location_library|B-ScrPart_location_library	O	webanno.custom.Corefchains_	4-10	
+6-9	was	O	O	_	_	
+6-10	clearly	O	O	_	_	
+6-11	labeled	O	B-RelNScrEv	_	_	
+6-12	,	O	O	_	_	
+6-13	as	O	O	_	_	
+6-14	were	O	B-UnrelEv	_	_	
+6-15	the	O	O	_	_	
+6-16	books	B-ScrPart_book	O	webanno.custom.Corefchains_	5-18	
+6-17	.	O	O	_	_	
+
+#id=7
+#text=They were in alphabetical order by author .
+7-1	They	B-ScrPart_book	O	webanno.custom.Corefchains_	6-16	
+7-2	were	O	B-UnrelEv	_	_	
+7-3	in	O	O	_	_	
+7-4	alphabetical	O	O	_	_	
+7-5	order	O	O	_	_	
+7-6	by	O	O	_	_	
+7-7	author	O	O	_	_	
+7-8	.	O	O	_	_	
+
+#id=8
+#text=I found the P section and located books by Patterson .
+8-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-14	
+8-2	found	O	B-ScrEv_get_shelf	_	_	
+8-3	the	O	O	_	_	
+8-4	P	B-ScrPart_location_library	O	_	_	
+8-5	section	I-ScrPart_location_library|B-ScrPart_location_library	O	_	_	
+8-6	and	O	O	_	_	
+8-7	located	O	B-ScrEv_look_for_book	_	_	
+8-8	books	B-ScrPart_book	O	webanno.custom.Corefchains_	7-1	
+8-9	by	O	O	_	_	
+8-10	Patterson	O	O	_	_	
+8-11	.	O	O	_	_	
+
+#id=9
+#text=It was easy to find my book .
+9-1	It	O	O	_	_	
+9-2	was	O	B-UnrelEv	_	_	
+9-3	easy	O	O	_	_	
+9-4	to	O	O	_	_	
+9-5	find	O	B-ScrEv_take_book	_	_	
+9-6	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-1	
+9-7	book	B-ScrPart_book	O	webanno.custom.Corefchains_	8-8	
+9-8	.	O	O	_	_	
+
+#id=10
+#text=I took the book up to the checkout desk .
+10-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-6	
+10-2	took	O	B-ScrEv_go_check_out	_	_	
+10-3	the	O	O	_	_	
+10-4	book	B-ScrPart_book	O	webanno.custom.Corefchains_	9-7	
+10-5	up	O	O	_	_	
+10-6	to	O	O	_	_	
+10-7	the	O	O	_	_	
+10-8	checkout	B-ScrPart_check-out_desk	O	_	_	
+10-9	desk	I-ScrPart_check-out_desk|B-ScrPart_check-out_desk	O	_	_	
+10-10	.	O	O	_	_	
+
+#id=11
+#text=The librarian asked for my library card .
+11-1	The	O	O	_	_	
+11-2	librarian	B-ScrPart_staff	O	webanno.custom.Corefchains_	5-1	
+11-3	asked	O	B-ScrEv_show_card	_	_	
+11-4	for	O	O	_	_	
+11-5	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	10-1	
+11-6	library	B-ScrPart_library_card	O	_	_	
+11-7	card	I-ScrPart_library_card|B-ScrPart_library_card	O	_	_	
+11-8	.	O	O	_	_	
+
+#id=12
+#text=A library card has my name on it and a computer code on it .
+12-1	A	O	O	_	_	
+12-2	library	B-ScrPart_library_card	O	_	_	
+12-3	card	I-ScrPart_library_card|B-ScrPart_library_card	O	webanno.custom.Corefchains_	11-7	
+12-4	has	O	B-UnrelEv	_	_	
+12-5	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	11-5	
+12-6	name	O	O	_	_	
+12-7	on	O	O	_	_	
+12-8	it	B-ScrPart_library_card	O	webanno.custom.Corefchains_	12-3	
+12-9	and	O	O	_	_	
+12-10	a	O	O	_	_	
+12-11	computer	O	O	_	_	
+12-12	code	O	O	_	_	
+12-13	on	O	O	_	_	
+12-14	it	B-ScrPart_library_card	O	webanno.custom.Corefchains_	12-8	
+12-15	.	O	O	_	_	
+
+#id=13
+#text=The librarian swiped my card and told me that my book was due back in two weeks .
+13-1	The	O	O	_	_	
+13-2	librarian	B-ScrPart_staff	O	webanno.custom.Corefchains_	11-2	
+13-3	swiped	O	B-ScrEv_register	_	_	
+13-4	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	12-5	
+13-5	card	B-ScrPart_library_card	O	webanno.custom.Corefchains_	12-14	
+13-6	and	O	O	_	_	
+13-7	told	O	B-RelNScrEv	_	_	
+13-8	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	13-4	
+13-9	that	O	O	_	_	
+13-10	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	13-8	
+13-11	book	B-ScrPart_book	O	webanno.custom.Corefchains_	10-4	
+13-12	was	O	B-ScrEv_return_book	_	_	
+13-13	due	O	I-ScrEv_return_book	_	_	
+13-14	back	O	O	_	_	
+13-15	in	O	O	_	_	
+13-16	two	O	O	_	_	
+13-17	weeks	B-ScrPart_return_date	O	_	_	
+13-18	.	O	O	_	_	
+
+#id=14
+#text=I thanked her for helping me .
+14-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	13-10	
+14-2	thanked	O	B-RelNScrEv	_	_	
+14-3	her	B-ScrPart_staff	O	webanno.custom.Corefchains_	13-2	
+14-4	for	O	O	_	_	
+14-5	helping	O	B-RelNScrEv	_	_	
+14-6	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	14-1	
+14-7	.	O	O	_	_	
+
+#id=15
+#text=She told me that she hoped I enjoyed the book . 
+15-1	She	B-ScrPart_staff	O	webanno.custom.Corefchains_	14-3	
+15-2	told	O	B-RelNScrEv	_	_	
+15-3	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	14-6	
+15-4	that	O	O	_	_	
+15-5	she	B-ScrPart_staff	O	webanno.custom.Corefchains_	15-1	
+15-6	hoped	O	B-UnrelEv	_	_	
+15-7	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	15-3	
+15-8	enjoyed	O	B-RelNScrEv	_	_	
+15-9	the	O	O	_	_	
+15-10	book	B-ScrPart_book	O	webanno.custom.Corefchains_	13-11	
+15-11	.	O	O	_	_	
+

@@ -1,0 +1,198 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I went on a bike ride in the afternoon yesterday , the weather had an amazing break of sunlight , and I had to take advantage of it .
+1-1	I	B-ScrPart_rider	O	_	_	
+1-2	went	O	B-ScrEv_ride_bike	_	_	
+1-3	on	O	O	_	_	
+1-4	a	O	O	_	_	
+1-5	bike	B-SuppVComp	O	_	_	
+1-6	ride	I-SuppVComp|B-SuppVComp	O	_	_	
+1-7	in	O	O	_	_	
+1-8	the	O	O	_	_	
+1-9	afternoon	O	O	_	_	
+1-10	yesterday	O	O	_	_	
+1-11	,	O	O	_	_	
+1-12	the	O	O	_	_	
+1-13	weather	O	O	_	_	
+1-14	had	O	B-UnrelEv	_	_	
+1-15	an	O	O	_	_	
+1-16	amazing	O	O	_	_	
+1-17	break	O	O	_	_	
+1-18	of	O	O	_	_	
+1-19	sunlight	O	O	_	_	
+1-20	,	O	O	_	_	
+1-21	and	O	O	_	_	
+1-22	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-1	
+1-23	had	O	O	_	_	
+1-24	to	O	O	_	_	
+1-25	take	O	B-UnrelEv	_	_	
+1-26	advantage	O	O	_	_	
+1-27	of	O	O	_	_	
+1-28	it	O	O	_	_	
+1-29	.	O	O	_	_	
+
+#id=2
+#text=Gearing up for the bike ride was n't very time consuming , it only took about 5 minutes to change , grab my helmet , and fill a water bottle from the sink .
+2-1	Gearing	O	B-UnrelEv	_	_	
+2-2	up	O	I-UnrelEv	_	_	
+2-3	for	O	O	_	_	
+2-4	the	O	O	_	_	
+2-5	bike	O	O	_	_	
+2-6	ride	O	O	_	_	
+2-7	was	O	B-UnrelEv	_	_	
+2-8	n't	O	O	_	_	
+2-9	very	O	O	_	_	
+2-10	time	O	O	_	_	
+2-11	consuming	O	B-UnrelEv	_	_	
+2-12	,	O	O	_	_	
+2-13	it	O	O	_	_	
+2-14	only	O	O	_	_	
+2-15	took	O	B-UnrelEv	_	_	
+2-16	about	O	O	_	_	
+2-17	5	O	O	_	_	
+2-18	minutes	O	O	_	_	
+2-19	to	O	O	_	_	
+2-20	change	O	B-UnrelEv	_	_	
+2-21	,	O	O	_	_	
+2-22	grab	O	B-UnrelEv	_	_	
+2-23	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-22	
+2-24	helmet	O	O	_	_	
+2-25	,	O	O	_	_	
+2-26	and	O	O	_	_	
+2-27	fill	O	B-UnrelEv	_	_	
+2-28	a	O	O	_	_	
+2-29	water	O	O	_	_	
+2-30	bottle	O	O	_	_	
+2-31	from	O	O	_	_	
+2-32	the	O	O	_	_	
+2-33	sink	O	O	_	_	
+2-34	.	O	O	_	_	
+
+#id=3
+#text=I left home , and progressed close to 6 miles before I heard a low hiss escape from somewhere below where my feet were .
+3-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-23	
+3-2	left	O	B-UnrelEv	_	_	
+3-3	home	O	O	_	_	
+3-4	,	O	O	_	_	
+3-5	and	O	O	_	_	
+3-6	progressed	O	B-ScrEv_ride_bike	_	_	
+3-7	close	O	O	_	_	
+3-8	to	O	O	_	_	
+3-9	6	O	O	_	_	
+3-10	miles	B-NPart	O	_	_	
+3-11	before	O	O	_	_	
+3-12	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	3-1	
+3-13	heard	O	B-ScrEv_notice_problem	_	_	
+3-14	a	O	O	_	_	
+3-15	low	O	O	_	_	
+3-16	hiss	B-NPart	O	_	_	
+3-17	escape	O	B-RelNScrEv	_	_	
+3-18	from	O	O	_	_	
+3-19	somewhere	B-NPart	O	_	_	
+3-20	below	O	O	_	_	
+3-21	where	O	O	_	_	
+3-22	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	3-12	
+3-23	feet	O	O	_	_	
+3-24	were	O	B-UnrelEv	_	_	
+3-25	.	O	O	_	_	
+
+#id=4
+#text=I almost knew immediately that it was going to be a flat tire .
+4-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	3-22	
+4-2	almost	O	O	_	_	
+4-3	knew	O	B-ScrEv_notice_problem	_	_	
+4-4	immediately	O	O	_	_	
+4-5	that	O	O	_	_	
+4-6	it	O	O	_	_	
+4-7	was	O	B-UnrelEv	_	_	
+4-8	going	O	O	_	_	
+4-9	to	O	O	_	_	
+4-10	be	O	B-Evoking	_	_	
+4-11	a	O	I-Evoking	_	_	
+4-12	flat	O	I-Evoking	_	_	
+4-13	tire	B-ScrPart_tire	I-Evoking	_	_	
+4-14	.	O	O	_	_	
+
+#id=5
+#text=I had my friend pick me up , they helped get me home without further incident .
+5-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	4-1	
+5-2	had	O	O	_	_	
+5-3	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	5-1	
+5-4	friend	B-NPart	O	_	_	
+5-5	pick	O	B-ScrEv_get_off	_	_	
+5-6	me	B-ScrPart_rider	O	webanno.custom.Corefchains_	5-3	
+5-7	up	O	O	_	_	
+5-8	,	O	O	_	_	
+5-9	they	B-NPart	O	_	_	
+5-10	helped	O	B-UnrelEv	_	_	
+5-11	get	O	B-RelNScrEv	_	_	
+5-12	me	B-ScrPart_rider	O	webanno.custom.Corefchains_	5-6	
+5-13	home	B-NPart	O	_	_	
+5-14	without	O	O	_	_	
+5-15	further	O	O	_	_	
+5-16	incident	O	O	_	_	
+5-17	.	O	O	_	_	
+
+#id=6
+#text=After getting my bike up on it 's stand , I began to peel the bad tire off the rim , finding the tube had a small puncture .
+6-1	After	O	O	_	_	
+6-2	getting	O	B-ScrEv_lay_bike_down	_	_	
+6-3	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	5-12	
+6-4	bike	B-ScrPart_bicycle	O	_	_	
+6-5	up	O	O	_	_	
+6-6	on	O	O	_	_	
+6-7	it	B-ScrPart_bicycle	O	webanno.custom.Corefchains_	6-4	
+6-8	's	I-ScrPart_bicycle	O	webanno.custom.Corefchains_	6-4	
+6-9	stand	B-ScrPart_location_repair	O	_	_	
+6-10	,	O	O	_	_	
+6-11	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	6-3	
+6-12	began	O	B-UnrelEv	_	_	
+6-13	to	O	O	_	_	
+6-14	peel	O	B-ScrEv_take_tire_off	_	_	
+6-15	the	O	O	_	_	
+6-16	bad	O	O	_	_	
+6-17	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	4-13	
+6-18	off	O	O	_	_	
+6-19	the	O	O	_	_	
+6-20	rim	B-ScrPart_rim	O	_	_	
+6-21	,	O	O	_	_	
+6-22	finding	O	B-ScrEv_examine_tire	_	_	
+6-23	the	O	O	_	_	
+6-24	tube	B-ScrPart_tire	O	webanno.custom.Corefchains_	6-17	
+6-25	had	O	B-RelNScrEv	_	_	
+6-26	a	O	O	_	_	
+6-27	small	O	O	_	_	
+6-28	puncture	B-MissScrPart	O	_	_	
+6-29	.	O	O	_	_	
+
+#id=7
+#text=I decided to to replace the tube entirely , and fitted the tube and tire back onto the rim , fixing the issue of the flat tire . 
+7-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	6-11	
+7-2	decided	O	B-UnrelEv	_	_	
+7-3	to	O	O	_	_	
+7-4	to	O	O	_	_	
+7-5	replace	O	B-ScrEv_put_new_tire	_	_	
+7-6	the	O	O	_	_	
+7-7	tube	B-ScrPart_tire	O	webanno.custom.Corefchains_	6-24	
+7-8	entirely	O	O	_	_	
+7-9	,	O	O	_	_	
+7-10	and	O	O	_	_	
+7-11	fitted	O	B-ScrEv_put_new_tire	_	_	
+7-12	the	O	O	_	_	
+7-13	tube	B-ScrPart_spare_tube	O	_	_	
+7-14	and	O	O	_	_	
+7-15	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	7-7	
+7-16	back	O	O	_	_	
+7-17	onto	O	O	_	_	
+7-18	the	O	O	_	_	
+7-19	rim	B-ScrPart_rim	O	webanno.custom.Corefchains_	6-20	
+7-20	,	O	O	_	_	
+7-21	fixing	O	B-Evoking	_	_	
+7-22	the	O	I-Evoking	_	_	
+7-23	issue	B-NPart	I-Evoking	_	_	
+7-24	of	O	I-Evoking	_	_	
+7-25	the	O	I-Evoking	_	_	
+7-26	flat	O	I-Evoking	_	_	
+7-27	tire	B-ScrPart_tire	I-Evoking	webanno.custom.Corefchains_	7-15	
+7-28	.	O	O	_	_	
+

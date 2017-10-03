@@ -1,0 +1,13 @@
+###################
+# README raw data #
+###################
+
+### OVERVIEW ###
+* This folder contains the raw data in Webanno TSV format.
+* There are two folders, run1 and run2, that contain the annotation after the first run and the partial reannotation.
+* For the published corpus version, participant and event type labels are taken from run 2 only, since some old labels have been overwritten. The coreference annotation has to be merged from run 1 and run 2.
+
+### DATA FORMAT ###
+* The Webanno tsv format contains the follwing columns: a token ID, the token content and all annotations, ordered by means of layers (In our example: one layer for the participant type and one layer for the event type).
+* The first line always defines the columns' names and thus defines the columns that contain participant and event types.
+* Comment lines start with "#".

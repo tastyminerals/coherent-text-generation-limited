@@ -1,0 +1,289 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=This afternoon , I headed to my neighborhood supermarket to buy groceries .
+1-1	This	O	O	_	_	
+1-2	afternoon	O	O	_	_	
+1-3	,	O	O	_	_	
+1-4	I	B-ScrPart_shopper	O	_	_	
+1-5	headed	O	B-ScrEv_go_grocery	_	_	
+1-6	to	O	O	_	_	
+1-7	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	1-4	
+1-8	neighborhood	B-ScrPart_grocery_shop	O	_	_	
+1-9	supermarket	I-ScrPart_grocery_shop|B-ScrPart_grocery_shop	O	_	_	
+1-10	to	O	O	_	_	
+1-11	buy	O	B-Evoking	_	_	
+1-12	groceries	B-ScrPart_groceries	I-Evoking	_	_	
+1-13	.	O	O	_	_	
+
+#id=2
+#text=Luckily , the place was only a block away from my apartment and basically right next door to me .
+2-1	Luckily	O	O	_	_	
+2-2	,	O	O	_	_	
+2-3	the	O	O	_	_	
+2-4	place	B-ScrPart_grocery_shop	O	webanno.custom.Corefchains_	1-9	
+2-5	was	O	B-UnrelEv	_	_	
+2-6	only	O	O	_	_	
+2-7	a	O	O	_	_	
+2-8	block	O	O	_	_	
+2-9	away	O	O	_	_	
+2-10	from	O	O	_	_	
+2-11	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	1-7	
+2-12	apartment	O	O	_	_	
+2-13	and	O	O	_	_	
+2-14	basically	O	O	_	_	
+2-15	right	O	O	_	_	
+2-16	next	O	O	_	_	
+2-17	door	O	O	_	_	
+2-18	to	O	O	_	_	
+2-19	me	B-ScrPart_shopper	O	webanno.custom.Corefchains_	2-11	
+2-20	.	O	O	_	_	
+
+#id=3
+#text=It was a bit chilly outside , so I put on a jacket and my shopping bag , then quickly wrote down a grocery items .
+3-1	It	O	O	_	_	
+3-2	was	O	B-UnrelEv	_	_	
+3-3	a	O	O	_	_	
+3-4	bit	O	O	_	_	
+3-5	chilly	O	O	_	_	
+3-6	outside	O	O	_	_	
+3-7	,	O	O	_	_	
+3-8	so	O	O	_	_	
+3-9	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	2-19	
+3-10	put	O	B-???	_	_	
+3-11	on	O	I-???	_	_	
+3-12	a	O	O	_	_	
+3-13	jacket	O	O	_	_	
+3-14	and	O	O	_	_	
+3-15	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	3-9	
+3-16	shopping	B-ScrPart_shopping_bags	O	_	_	
+3-17	bag	I-ScrPart_shopping_bags|B-ScrPart_shopping_bags	O	_	_	
+3-18	,	O	O	_	_	
+3-19	then	O	O	_	_	
+3-20	quickly	O	O	_	_	
+3-21	wrote	O	B-ScrEv_make_list	_	_	
+3-22	down	O	I-ScrEv_make_list	_	_	
+3-23	a	O	O	_	_	
+3-24	grocery	B-ScrPart_groceries	O	_	_	
+3-25	items	I-ScrPart_groceries|B-ScrPart_groceries	O	webanno.custom.Corefchains_	1-12	
+3-26	.	O	O	_	_	
+
+#id=4
+#text=I walked my way to the supermarket and then got a hold of a shopping basket .
+4-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	3-15	
+4-2	walked	O	B-ScrEv_go_grocery	_	_	
+4-3	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	4-1	
+4-4	way	B-SuppVComp	O	_	_	
+4-5	to	O	O	_	_	
+4-6	the	O	O	_	_	
+4-7	supermarket	B-ScrPart_grocery_shop	O	webanno.custom.Corefchains_	2-4	
+4-8	and	O	O	_	_	
+4-9	then	O	O	_	_	
+4-10	got	O	B-ScrEv_take_shop_cart	_	_	
+4-11	a	O	I-ScrEv_take_shop_cart	_	_	
+4-12	hold	O	I-ScrEv_take_shop_cart	_	_	
+4-13	of	O	O	_	_	
+4-14	a	O	O	_	_	
+4-15	shopping	B-ScrPart_shopping_cart/basket	O	_	_	
+4-16	basket	I-ScrPart_shopping_cart/basket|B-ScrPart_shopping_cart/basket	O	_	_	
+4-17	.	O	O	_	_	
+
+#id=5
+#text=My first stop was the produce section , where I picked up some produce like bell peppers , onions , and garlic .
+5-1	My	B-ScrPart_shopper	O	webanno.custom.Corefchains_	4-3	
+5-2	first	O	O	_	_	
+5-3	stop	O	O	_	_	
+5-4	was	O	B-UnrelEv	_	_	
+5-5	the	O	O	_	_	
+5-6	produce	B-ScrPart_section	O	_	_	
+5-7	section	I-ScrPart_section|B-ScrPart_section	O	_	_	
+5-8	,	O	O	_	_	
+5-9	where	O	O	_	_	
+5-10	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	5-1	
+5-11	picked	O	B-ScrEv_get_groceries	_	_	
+5-12	up	O	I-ScrEv_get_groceries	_	_	
+5-13	some	O	O	_	_	
+5-14	produce	B-ScrPart_groceries	O	_	_	
+5-15	like	O	O	_	_	
+5-16	bell	B-ScrPart_groceries	O	_	_	
+5-17	peppers	I-ScrPart_groceries|B-ScrPart_groceries	O	group_peppers_onions_garlic	5-14	
+5-18	,	O	O	_	_	
+5-19	onions	B-ScrPart_groceries	O	group_peppers_onions_garlic	5-14	
+5-20	,	O	O	_	_	
+5-21	and	O	O	_	_	
+5-22	garlic	B-ScrPart_groceries	O	group_peppers_onions_garlic	5-14	
+5-23	.	O	O	_	_	
+
+#id=6
+#text=Next , I headed to the dairy section , where I got a pack of Gouda cheese and a liter container of milk .
+6-1	Next	O	O	_	_	
+6-2	,	O	O	_	_	
+6-3	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	5-10	
+6-4	headed	O	B-ScrEv_move_section	_	_	
+6-5	to	O	O	_	_	
+6-6	the	O	O	_	_	
+6-7	dairy	B-ScrPart_section	O	_	_	
+6-8	section	I-ScrPart_section|B-ScrPart_section	O	_	_	
+6-9	,	O	O	_	_	
+6-10	where	O	O	_	_	
+6-11	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	6-3	
+6-12	got	O	B-ScrEv_get_groceries	_	_	
+6-13	a	O	O	_	_	
+6-14	pack	B-ScrPart_packing	O	_	_	
+6-15	of	O	O	_	_	
+6-16	Gouda	B-ScrPart_groceries	O	_	_	
+6-17	cheese	I-ScrPart_groceries|B-ScrPart_groceries	O	_	_	
+6-18	and	O	O	_	_	
+6-19	a	O	O	_	_	
+6-20	liter	O	O	_	_	
+6-21	container	B-ScrPart_packing	O	_	_	
+6-22	of	O	O	_	_	
+6-23	milk	B-ScrPart_groceries	O	_	_	
+6-24	.	O	O	_	_	
+
+#id=7
+#text=My next stop was one of the supermarket 's middle aisles to get a box of pasta and tomato sauce .
+7-1	My	B-ScrPart_shopper	O	webanno.custom.Corefchains_	6-11	
+7-2	next	O	O	_	_	
+7-3	stop	O	O	_	_	
+7-4	was	O	B-UnrelEv	_	_	
+7-5	one	O	O	_	_	
+7-6	of	O	O	_	_	
+7-7	the	O	O	_	_	
+7-8	supermarket	B-ScrPart_grocery_shop	O	webanno.custom.Corefchains_	4-7	
+7-9	's	O	O	_	_	
+7-10	middle	B-ScrPart_section	O	_	_	
+7-11	aisles	I-ScrPart_section|B-ScrPart_section	O	_	_	
+7-12	to	O	O	_	_	
+7-13	get	O	B-ScrEv_get_groceries	_	_	
+7-14	a	O	O	_	_	
+7-15	box	B-ScrPart_packing	O	_	_	
+7-16	of	O	O	_	_	
+7-17	pasta	B-ScrPart_groceries	O	_	_	
+7-18	and	O	O	_	_	
+7-19	tomato	B-ScrPart_groceries	O	_	_	
+7-20	sauce	I-ScrPart_groceries|B-ScrPart_groceries	O	_	_	
+7-21	.	O	O	_	_	
+
+#id=8
+#text=I had found everything I needed for the week , so I went over to the checkout counters .
+8-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	7-1	
+8-2	had	O	O	_	_	
+8-3	found	O	B-ScrEv_get_groceries	_	_	
+8-4	everything	B-ScrPart_groceries	O	webanno.custom.Corefchains_	3-25	
+8-5	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	8-1	
+8-6	needed	O	B-UnrelEv	_	_	
+8-7	for	O	O	_	_	
+8-8	the	O	O	_	_	
+8-9	week	O	O	_	_	
+8-10	,	O	O	_	_	
+8-11	so	O	O	_	_	
+8-12	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	8-5	
+8-13	went	O	B-ScrEv_move_section	_	_	
+8-14	over	O	O	_	_	
+8-15	to	O	O	_	_	
+8-16	the	O	O	_	_	
+8-17	checkout	B-ScrPart_cash_desk	O	_	_	
+8-18	counters	I-ScrPart_cash_desk|B-ScrPart_cash_desk	O	_	_	
+8-19	.	O	O	_	_	
+
+#id=9
+#text=This was a bit of a wait , as the store was pretty packed with shoppers .
+9-1	This	O	O	_	_	
+9-2	was	O	B-UnrelEv	_	_	
+9-3	a	O	O	_	_	
+9-4	bit	O	O	_	_	
+9-5	of	O	O	_	_	
+9-6	a	O	O	_	_	
+9-7	wait	O	B-ScrEv_wait	_	_	
+9-8	,	O	O	_	_	
+9-9	as	O	O	_	_	
+9-10	the	O	O	_	_	
+9-11	store	B-ScrPart_grocery_shop	O	webanno.custom.Corefchains_	7-8	
+9-12	was	O	B-UnrelEv	_	_	
+9-13	pretty	O	O	_	_	
+9-14	packed	O	O	_	_	
+9-15	with	O	O	_	_	
+9-16	shoppers	B-ScrPart_shopper	O	_	_	
+9-17	.	O	O	_	_	
+
+#id=10
+#text=Fortunately , I found a line that was relatively less crowded .
+10-1	Fortunately	O	O	_	_	
+10-2	,	O	O	_	_	
+10-3	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	8-12	
+10-4	found	O	B-RelNScrEv	_	_	
+10-5	a	O	O	_	_	
+10-6	line	B-ScrPart_line	O	_	_	
+10-7	that	O	O	_	_	
+10-8	was	O	B-UnrelEv	_	_	
+10-9	relatively	O	O	_	_	
+10-10	less	O	O	_	_	
+10-11	crowded	O	O	_	_	
+10-12	.	O	O	_	_	
+
+#id=11
+#text=A few minutes later , I placed my items onto the checkout aisle and had them scanned .
+11-1	A	O	O	_	_	
+11-2	few	O	O	_	_	
+11-3	minutes	O	O	_	_	
+11-4	later	O	O	_	_	
+11-5	,	O	O	_	_	
+11-6	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	10-3	
+11-7	placed	O	B-ScrEv_put_conveyor	_	_	
+11-8	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	11-6	
+11-9	items	B-ScrPart_groceries	O	webanno.custom.Corefchains_	8-4	
+11-10	onto	O	O	_	_	
+11-11	the	O	O	_	_	
+11-12	checkout	B-ScrPart_cash_desk	O	_	_	
+11-13	aisle	I-ScrPart_cash_desk|B-ScrPart_cash_desk	O	_	_	
+11-14	and	O	O	_	_	
+11-15	had	O	O	_	_	
+11-16	them	B-ScrPart_groceries	O	webanno.custom.Corefchains_	11-9	
+11-17	scanned	O	B-ScrEv_cashier_scan/weight	_	_	
+11-18	.	O	O	_	_	
+
+#id=12
+#text=The checkout clerk then ran up my total , after which I paid with my debit card and placed my groceries into my shopping bag .
+12-1	The	O	O	_	_	
+12-2	checkout	B-ScrPart_grocery_staff	O	_	_	
+12-3	clerk	I-ScrPart_grocery_staff|B-ScrPart_grocery_staff	O	_	_	
+12-4	then	O	O	_	_	
+12-5	ran	O	B-RelNScrEv	_	_	
+12-6	up	O	I-RelNScrEv	_	_	
+12-7	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	11-8	
+12-8	total	B-NPart	O	_	_	
+12-9	,	O	O	_	_	
+12-10	after	O	O	_	_	
+12-11	which	O	O	_	_	
+12-12	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	12-7	
+12-13	paid	O	B-ScrEv_pay	_	_	
+12-14	with	O	O	_	_	
+12-15	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	12-12	
+12-16	debit	B-ScrPart_payment_means	O	_	_	
+12-17	card	I-ScrPart_payment_means	O	_	_	
+12-18	and	O	O	_	_	
+12-19	placed	O	B-ScrEv_pack_groceries	_	_	
+12-20	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	12-15	
+12-21	groceries	B-ScrPart_groceries	O	webanno.custom.Corefchains_	11-16	
+12-22	into	O	O	_	_	
+12-23	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	12-20	
+12-24	shopping	B-ScrPart_shopping_bags	O	_	_	
+12-25	bag	I-ScrPart_shopping_bags|B-ScrPart_shopping_bags	O	webanno.custom.Corefchains_	3-17	
+12-26	.	O	O	_	_	
+
+#id=13
+#text=Once I was all set , I headed back to my apartment . 
+13-1	Once	O	O	_	_	
+13-2	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	12-23	
+13-3	was	O	B-UnrelEv	_	_	
+13-4	all	O	O	_	_	
+13-5	set	O	O	_	_	
+13-6	,	O	O	_	_	
+13-7	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	13-2	
+13-8	headed	O	B-ScrEv_leave	_	_	
+13-9	back	O	I-ScrEv_leave	_	_	
+13-10	to	O	O	_	_	
+13-11	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	13-7	
+13-12	apartment	B-NPart	O	_	_	
+13-13	.	O	O	_	_	
+

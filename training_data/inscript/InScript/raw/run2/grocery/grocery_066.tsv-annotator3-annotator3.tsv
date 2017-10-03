@@ -1,0 +1,239 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=I begin by making a grocery list of the items I will need to buy at the grocery store .
+1-1	I	B-ScrPart_shopper	O	
+1-2	begin	O	B-UnrelEv	
+1-3	by	O	O	
+1-4	making	O	B-ScrEv_make_list	
+1-5	a	O	O	
+1-6	grocery	B-ScrPart_grocery_list	O	
+1-7	list	I-ScrPart_grocery_list|B-ScrPart_grocery_list	O	
+1-8	of	O	O	
+1-9	the	O	O	
+1-10	items	B-ScrPart_groceries	O	
+1-11	I	B-ScrPart_shopper	O	
+1-12	will	O	O	
+1-13	need	O	O	
+1-14	to	O	O	
+1-15	buy	O	B-Evoking	
+1-16	at	O	I-Evoking	
+1-17	the	O	I-Evoking	
+1-18	grocery	O	I-Evoking	
+1-19	store	O	I-Evoking	
+1-20	.	O	O	
+
+#id=2
+#text=Some items are staples and pantry items such as milk and eggs and some are things I want like snacks .
+2-1	Some	O	O	
+2-2	items	B-ScrPart_groceries	O	
+2-3	are	O	B-UnrelEv	
+2-4	staples	B-NPart	O	
+2-5	and	O	O	
+2-6	pantry	B-NPart	O	
+2-7	items	B-ScrPart_groceries	O	
+2-8	such	O	O	
+2-9	as	O	O	
+2-10	milk	B-ScrPart_groceries	O	
+2-11	and	O	O	
+2-12	eggs	B-ScrPart_groceries	O	
+2-13	and	O	O	
+2-14	some	B-ScrPart_groceries	O	
+2-15	are	O	B-UnrelEv	
+2-16	things	B-ScrPart_groceries	O	
+2-17	I	B-ScrPart_shopper	O	
+2-18	want	O	B-RelNScrEv	
+2-19	like	O	O	
+2-20	snacks	B-ScrPart_groceries	O	
+2-21	.	O	O	
+
+#id=3
+#text=I visit my favorite grocery store Trader Joes which is walkable from my house in my neighborhood .
+3-1	I	B-ScrPart_shopper	O	
+3-2	visit	O	B-ScrEv_go_grocery	
+3-3	my	B-ScrPart_shopper	O	
+3-4	favorite	O	O	
+3-5	grocery	B-ScrPart_grocery_shop	O	
+3-6	store	I-ScrPart_grocery_shop|B-ScrPart_grocery_shop	O	
+3-7	Trader	B-ScrPart_grocery_shop	O	
+3-8	Joes	I-ScrPart_grocery_shop	O	
+3-9	which	O	O	
+3-10	is	O	B-UnrelEv	
+3-11	walkable	O	B-UnrelEv	
+3-12	from	O	O	
+3-13	my	B-ScrPart_shopper	O	
+3-14	house	B-NPart	O	
+3-15	in	O	O	
+3-16	my	B-ScrPart_shopper	O	
+3-17	neighborhood	B-NPart	O	
+3-18	.	O	O	
+
+#id=4
+#text=I bring with me my own grocery bags so I can be green and reuse bags for the environment .
+4-1	I	B-ScrPart_shopper	O	
+4-2	bring	O	B-ScrEv_take_bags	
+4-3	with	O	O	
+4-4	me	B-ScrPart_shopper	O	
+4-5	my	B-ScrPart_shopper	O	
+4-6	own	O	O	
+4-7	grocery	B-ScrPart_shopping_bags	O	
+4-8	bags	I-ScrPart_shopping_bags|B-ScrPart_shopping_bags	O	
+4-9	so	O	O	
+4-10	I	B-ScrPart_shopper	O	
+4-11	can	O	O	
+4-12	be	O	B-UnrelEv	
+4-13	green	O	O	
+4-14	and	O	O	
+4-15	reuse	O	B-RelNScrEv	
+4-16	bags	B-ScrPart_shopping_bags	O	
+4-17	for	O	O	
+4-18	the	O	O	
+4-19	environment	B-NPart	O	
+4-20	.	O	O	
+
+#id=5
+#text=I arrive at the store and get a shopping cart to put my groceries in .
+5-1	I	B-ScrPart_shopper	O	
+5-2	arrive	O	B-ScrEv_enter	
+5-3	at	O	O	
+5-4	the	O	O	
+5-5	store	B-ScrPart_grocery_shop	O	
+5-6	and	O	O	
+5-7	get	O	B-ScrEv_take_shop_cart	
+5-8	a	O	O	
+5-9	shopping	B-ScrPart_shopping_cart/basket	O	
+5-10	cart	I-ScrPart_shopping_cart/basket|B-ScrPart_shopping_cart/basket	O	
+5-11	to	O	O	
+5-12	put	O	B-RelNScrEv	
+5-13	my	B-ScrPart_shopper	O	
+5-14	groceries	B-ScrPart_groceries	O	
+5-15	in	O	O	
+5-16	.	O	O	
+
+#id=6
+#text=I start at the aisle with the vegetables and then dairy and then work my way through all the aisles of the grocery store .
+6-1	I	B-ScrPart_shopper	O	
+6-2	start	O	B-ScrEv_move_section	
+6-3	at	O	O	
+6-4	the	O	O	
+6-5	aisle	B-ScrPart_section	O	
+6-6	with	O	O	
+6-7	the	O	O	
+6-8	vegetables	B-ScrPart_groceries	O	
+6-9	and	O	O	
+6-10	then	O	O	
+6-11	dairy	B-ScrPart_groceries	O	
+6-12	and	O	O	
+6-13	then	O	O	
+6-14	work	O	B-ScrEv_move_section	
+6-15	my	B-ScrPart_shopper	O	
+6-16	way	B-No_label	O	
+6-17	through	O	O	
+6-18	all	O	O	
+6-19	the	O	O	
+6-20	aisles	B-ScrPart_section	O	
+6-21	of	O	O	
+6-22	the	O	O	
+6-23	grocery	B-ScrPart_grocery_shop	O	
+6-24	store	I-ScrPart_grocery_shop|B-ScrPart_grocery_shop	O	
+6-25	.	O	O	
+
+#id=7
+#text=I buy and check off on the items on my grocery list plus more items not on the list of course .
+7-1	I	B-ScrPart_shopper	O	
+7-2	buy	O	B-RelNScrEv	
+7-3	and	O	O	
+7-4	check	O	B-ScrEv_check_off|B-ScrEv_check_off	
+7-5	off	O	I-ScrEv_check_off	
+7-6	on	O	O	
+7-7	the	O	O	
+7-8	items	B-ScrPart_groceries	O	
+7-9	on	O	O	
+7-10	my	B-ScrPart_shopper	O	
+7-11	grocery	B-ScrPart_grocery_list	O	
+7-12	list	I-ScrPart_grocery_list|B-ScrPart_grocery_list	O	
+7-13	plus	O	O	
+7-14	more	O	O	
+7-15	items	B-ScrPart_groceries	O	
+7-16	not	O	O	
+7-17	on	O	O	
+7-18	the	O	O	
+7-19	list	B-ScrPart_grocery_list	O	
+7-20	of	O	O	
+7-21	course	B-No_label	O	
+7-22	.	O	O	
+
+#id=8
+#text=The store always has new seasonal items so I always manage to buy some of those items .
+8-1	The	O	O	
+8-2	store	B-ScrPart_grocery_shop	O	
+8-3	always	O	O	
+8-4	has	O	B-RelNScrEv	
+8-5	new	O	O	
+8-6	seasonal	O	O	
+8-7	items	B-ScrPart_groceries	O	
+8-8	so	O	O	
+8-9	I	B-ScrPart_shopper	O	
+8-10	always	O	O	
+8-11	manage	O	B-UnrelEv	
+8-12	to	O	O	
+8-13	buy	O	B-RelNScrEv	
+8-14	some	O	O	
+8-15	of	O	O	
+8-16	those	O	O	
+8-17	items	B-ScrPart_groceries	O	
+8-18	.	O	O	
+
+#id=9
+#text=I get on line and pay for my groceries at the cash register .
+9-1	I	B-ScrPart_shopper	O	
+9-2	get	O	B-ScrEv_wait	
+9-3	on	O	O	
+9-4	line	B-ScrPart_line	O	
+9-5	and	O	O	
+9-6	pay	O	B-ScrEv_pay	
+9-7	for	O	O	
+9-8	my	B-ScrPart_shopper	O	
+9-9	groceries	B-ScrPart_groceries	O	
+9-10	at	O	O	
+9-11	the	O	O	
+9-12	cash	B-ScrPart_cash_desk	O	
+9-13	register	I-ScrPart_cash_desk|B-ScrPart_cash_desk	O	
+9-14	.	O	O	
+
+#id=10
+#text=The cashiers at this store are always so nice with good customer service .
+10-1	The	O	O	
+10-2	cashiers	B-ScrPart_grocery_staff	O	
+10-3	at	O	O	
+10-4	this	O	O	
+10-5	store	B-ScrPart_grocery_shop	O	
+10-6	are	O	B-UnrelEv	
+10-7	always	O	O	
+10-8	so	O	O	
+10-9	nice	O	O	
+10-10	with	O	O	
+10-11	good	O	O	
+10-12	customer	B-NPart	O	
+10-13	service	I-NPart	O	
+10-14	.	O	O	
+
+#id=11
+#text=I pay for everything , leave the store , and bring my groceries home to enjoy . 
+11-1	I	B-ScrPart_shopper	O	
+11-2	pay	O	B-ScrEv_pay	
+11-3	for	O	O	
+11-4	everything	B-ScrPart_groceries	O	
+11-5	,	O	O	
+11-6	leave	O	B-ScrEv_leave	
+11-7	the	O	O	
+11-8	store	B-ScrPart_grocery_shop	O	
+11-9	,	O	O	
+11-10	and	O	O	
+11-11	bring	O	B-RelNScrEv	
+11-12	my	B-ScrPart_shopper	O	
+11-13	groceries	B-ScrPart_groceries	O	
+11-14	home	B-No_label	O	
+11-15	to	O	O	
+11-16	enjoy	O	B-UnrelEv	
+11-17	.	O	O	
+

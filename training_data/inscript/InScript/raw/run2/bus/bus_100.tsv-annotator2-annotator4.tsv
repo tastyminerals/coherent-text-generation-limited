@@ -1,0 +1,322 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Event | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Yesterday I rode the bus to school .
+1-1	Yesterday	O	O	O	_	_	
+1-2	I	B-ScrPart_passenger	O	O	_	_	
+1-3	rode	O	B-webanno.custom.Events_	B-Evoking	_	_	
+1-4	the	O	I-webanno.custom.Events_	I-Evoking	_	_	
+1-5	bus	B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	_	_	
+1-6	to	O	O	O	_	_	
+1-7	school	B-ScrPart_destination	O	O	_	_	
+1-8	.	O	O	O	_	_	
+
+#id=2
+#text=The bus I get is the number 24 .
+2-1	The	O	O	O	_	_	
+2-2	bus	B-ScrPart_bus	O	O	_	_	
+2-3	I	B-ScrPart_passenger	O	O	_	_	
+2-4	get	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+2-5	is	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+2-6	the	O	O	O	_	_	
+2-7	number	B-ScrPart_other	O	O	_	_	
+2-8	24	O	O	O	_	_	
+2-9	.	O	O	O	_	_	
+
+#id=3
+#text=It costs 60 cent when I am in my school uniform .
+3-1	It	B-No_label	O	O	_	_	
+3-2	costs	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+3-3	60	O	O	O	_	_	
+3-4	cent	B-ScrPart_money	O	O	_	_	
+3-5	when	O	O	O	_	_	
+3-6	I	B-ScrPart_passenger	O	O	_	_	
+3-7	am	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+3-8	in	O	O	O	_	_	
+3-9	my	B-ScrPart_passenger	O	O	_	_	
+3-10	school	B-NPart	O	O	_	_	
+3-11	uniform	I-NPart|B-NPart	O	O	_	_	
+3-12	.	O	O	O	_	_	
+
+#id=4
+#text=I asked my parents for 60 cent and they gave it to me .
+4-1	I	B-ScrPart_passenger	O	O	_	_	
+4-2	asked	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+4-3	my	B-ScrPart_passenger	O	O	_	_	
+4-4	parents	B-NPart	O	O	_	_	
+4-5	for	O	O	O	_	_	
+4-6	60	O	O	O	_	_	
+4-7	cent	B-ScrPart_money	O	O	_	_	
+4-8	and	O	O	O	_	_	
+4-9	they	B-NPart	O	O	_	_	
+4-10	gave	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+4-11	it	B-ScrPart_money	O	O	_	_	
+4-12	to	O	O	O	_	_	
+4-13	me	B-ScrPart_passenger	O	O	webanno.custom.Corefchains_	4-3	
+4-14	.	O	O	O	_	_	
+
+#id=5
+#text=I then made my way to the bus stop .
+5-1	I	B-ScrPart_passenger	O	O	webanno.custom.Corefchains_	4-13	
+5-2	then	O	O	O	_	_	
+5-3	made	O	B-webanno.custom.Events_	B-ScrEv_get_bus_stop	_	_	
+5-4	my	B-ScrPart_passenger	O	O	_	_	
+5-5	way	B-SuppVComp	O	O	_	_	
+5-6	to	O	O	O	_	_	
+5-7	the	O	O	O	_	_	
+5-8	bus	B-ScrPart_bus_stop	O	O	_	_	
+5-9	stop	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	O	_	_	
+5-10	.	O	O	O	_	_	
+
+#id=6
+#text=The bus stop is about a 10 minute walk from my house .
+6-1	The	O	O	O	_	_	
+6-2	bus	B-ScrPart_bus_stop	O	O	_	_	
+6-3	stop	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	O	_	_	
+6-4	is	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+6-5	about	O	O	O	_	_	
+6-6	a	O	O	O	_	_	
+6-7	10	B-NPart	O	O	_	_	
+6-8	minute	I-NPart	O	O	_	_	
+6-9	walk	I-NPart|B-NPart	O	O	_	_	
+6-10	from	O	O	O	_	_	
+6-11	my	B-ScrPart_passenger	O	O	_	_	
+6-12	house	B-NPart	O	O	_	_	
+6-13	.	O	O	O	_	_	
+
+#id=7
+#text=On my way to the bus stop I counted the money my parents gave me .
+7-1	On	O	O	O	_	_	
+7-2	my	B-ScrPart_passenger	O	O	_	_	
+7-3	way	B-NPart	O	O	_	_	
+7-4	to	O	O	O	_	_	
+7-5	the	O	O	O	_	_	
+7-6	bus	B-ScrPart_bus_stop	O	O	_	_	
+7-7	stop	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	O	_	_	
+7-8	I	B-ScrPart_passenger	O	O	_	_	
+7-9	counted	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+7-10	the	O	O	O	_	_	
+7-11	money	B-ScrPart_money	O	O	_	_	
+7-12	my	B-ScrPart_passenger	O	O	_	_	
+7-13	parents	B-NPart	O	O	_	_	
+7-14	gave	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+7-15	me	B-ScrPart_passenger	O	O	_	_	
+7-16	.	O	O	O	_	_	
+
+#id=8
+#text=When I got to the bus stop I waited for five minutes and then the bus arrived .
+8-1	When	O	O	O	_	_	
+8-2	I	B-ScrPart_passenger	O	O	_	_	
+8-3	got	O	B-webanno.custom.Events_	B-ScrEv_get_bus_stop	_	_	
+8-4	to	O	O	O	_	_	
+8-5	the	O	O	O	_	_	
+8-6	bus	B-ScrPart_bus_stop	O	O	_	_	
+8-7	stop	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	O	_	_	
+8-8	I	B-ScrPart_passenger	O	O	_	_	
+8-9	waited	O	B-webanno.custom.Events_	B-ScrEv_wait	_	_	
+8-10	for	O	O	O	_	_	
+8-11	five	O	O	O	_	_	
+8-12	minutes	B-ScrPart_time/date	O	O	_	_	
+8-13	and	O	O	O	_	_	
+8-14	then	O	O	O	_	_	
+8-15	the	O	O	O	_	_	
+8-16	bus	B-ScrPart_bus	O	O	_	_	
+8-17	arrived	O	B-webanno.custom.Events_	B-ScrEv_bus_comes	_	_	
+8-18	.	O	O	O	_	_	
+
+#id=9
+#text=The bus doors opened and I got on the bus .
+9-1	The	O	O	O	_	_	
+9-2	bus	B-ScrPart_door	O	O	_	_	
+9-3	doors	I-ScrPart_door|B-ScrPart_door	O	O	_	_	
+9-4	opened	O	B-webanno.custom.Events_	B-ScrEv_door_opens	_	_	
+9-5	and	O	O	O	_	_	
+9-6	I	B-ScrPart_passenger	O	O	_	_	
+9-7	got	O	B-webanno.custom.Events_	B-ScrEv_board_bus	_	_	
+9-8	on	O	I-webanno.custom.Events_	I-ScrEv_board_bus	_	_	
+9-9	the	O	O	O	_	_	
+9-10	bus	B-ScrPart_bus	O	O	_	_	
+9-11	.	O	O	O	_	_	
+
+#id=10
+#text=I said hello to the bus driver and told him where I wanted to go .
+10-1	I	B-ScrPart_passenger	O	O	_	_	
+10-2	said	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+10-3	hello	O	O	O	_	_	
+10-4	to	O	O	O	_	_	
+10-5	the	O	O	O	_	_	
+10-6	bus	B-ScrPart_bus_staff	O	O	_	_	
+10-7	driver	I-ScrPart_bus_staff|B-ScrPart_bus_staff	O	O	_	_	
+10-8	and	O	O	O	_	_	
+10-9	told	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+10-10	him	B-ScrPart_bus_staff	O	O	_	_	
+10-11	where	O	O	O	_	_	
+10-12	I	B-ScrPart_passenger	O	O	_	_	
+10-13	wanted	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+10-14	to	O	O	O	_	_	
+10-15	go	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+10-16	.	O	O	O	_	_	
+
+#id=11
+#text=I then put the 60 cent on the counter .
+11-1	I	B-ScrPart_passenger	O	O	_	_	
+11-2	then	O	O	O	_	_	
+11-3	put	O	B-webanno.custom.Events_	B-ScrEv_get_ticket	_	_	
+11-4	the	O	O	O	_	_	
+11-5	60	O	O	O	_	_	
+11-6	cent	B-ScrPart_money	O	O	_	_	
+11-7	on	O	O	O	_	_	
+11-8	the	O	O	O	_	_	
+11-9	counter	B-NPart	O	O	_	_	
+11-10	.	O	O	O	_	_	
+
+#id=12
+#text=The bus man took the money and gave me a ticket .
+12-1	The	O	O	O	_	_	
+12-2	bus	B-ScrPart_bus_staff	O	O	_	_	
+12-3	man	I-ScrPart_bus_staff|B-ScrPart_bus_staff	O	O	_	_	
+12-4	took	O	B-webanno.custom.Events_	B-ScrEv_get_ticket	_	_	
+12-5	the	O	O	O	_	_	
+12-6	money	B-ScrPart_money	O	O	_	_	
+12-7	and	O	O	O	_	_	
+12-8	gave	O	B-webanno.custom.Events_	B-ScrEv_get_ticket	_	_	
+12-9	me	B-ScrPart_passenger	O	O	_	_	
+12-10	a	O	O	O	_	_	
+12-11	ticket	B-ScrPart_card/ticket	O	O	_	_	
+12-12	.	O	O	O	_	_	
+
+#id=13
+#text=I took the ticket from him and walked towards the seats .
+13-1	I	B-ScrPart_passenger	O	O	_	_	
+13-2	took	O	B-webanno.custom.Events_	B-ScrEv_get_ticket	_	_	
+13-3	the	O	O	O	_	_	
+13-4	ticket	B-ScrPart_card/ticket	O	O	_	_	
+13-5	from	O	O	O	_	_	
+13-6	him	B-ScrPart_bus_staff	O	O	_	_	
+13-7	and	O	O	O	_	_	
+13-8	walked	O	B-webanno.custom.Events_	B-ScrEv_find_place	_	_	
+13-9	towards	O	O	O	_	_	
+13-10	the	O	O	O	_	_	
+13-11	seats	B-ScrPart_seat_in_bus	O	O	_	_	
+13-12	.	O	O	O	_	_	
+
+#id=14
+#text=I sat near the front beside my friend Laura .
+14-1	I	B-ScrPart_passenger	O	O	_	_	
+14-2	sat	O	B-webanno.custom.Events_	B-ScrEv_spend_time_bus	_	_	
+14-3	near	O	O	O	_	_	
+14-4	the	O	O	O	_	_	
+14-5	front	B-NPart	O	O	_	_	
+14-6	beside	O	O	O	_	_	
+14-7	my	B-ScrPart_passenger	O	O	_	_	
+14-8	friend	B-ScrPart_passenger	O	O	_	_	
+14-9	Laura	B-ScrPart_passenger	O	O	_	_	
+14-10	.	O	O	O	_	_	
+
+#id=15
+#text=She gets the bus with me every day .
+15-1	She	B-ScrPart_passenger	O	O	_	_	
+15-2	gets	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+15-3	the	O	O	O	_	_	
+15-4	bus	B-ScrPart_bus	O	O	_	_	
+15-5	with	O	O	O	_	_	
+15-6	me	B-ScrPart_passenger	O	O	_	_	
+15-7	every	O	O	O	_	_	
+15-8	day	B-ScrPart_time/date	O	O	_	_	
+15-9	.	O	O	O	_	_	
+
+#id=16
+#text=I put my schoolbag on the ground .
+16-1	I	B-ScrPart_passenger	O	O	_	_	
+16-2	put	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+16-3	my	B-ScrPart_passenger	O	O	_	_	
+16-4	schoolbag	B-NPart	O	O	_	_	
+16-5	on	O	O	O	_	_	
+16-6	the	O	O	O	_	_	
+16-7	ground	B-NPart	O	O	_	_	
+16-8	.	O	O	O	_	_	
+
+#id=17
+#text=We talked about what we had done the night before .
+17-1	We	B-ScrPart_passenger	O	O	_	_	
+17-2	talked	O	B-webanno.custom.Events_	B-ScrEv_spend_time_bus	_	_	
+17-3	about	O	O	O	_	_	
+17-4	what	O	O	O	_	_	
+17-5	we	B-ScrPart_passenger	O	O	_	_	
+17-6	had	O	O	O	_	_	
+17-7	done	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+17-8	the	O	O	O	_	_	
+17-9	night	B-NPart	O	O	_	_	
+17-10	before	O	O	O	_	_	
+17-11	.	O	O	O	_	_	
+
+#id=18
+#text=The journey to school lasts about 15 minutes .
+18-1	The	O	O	O	_	_	
+18-2	journey	B-ScrPart_ride	O	O	_	_	
+18-3	to	O	O	O	_	_	
+18-4	school	B-ScrPart_destination	O	O	_	_	
+18-5	lasts	O	B-webanno.custom.Events_	B-ScrEv_ride	_	_	
+18-6	about	O	O	O	_	_	
+18-7	15	O	O	O	_	_	
+18-8	minutes	B-ScrPart_time/date	O	O	_	_	
+18-9	.	O	O	O	_	_	
+
+#id=19
+#text=After 15 minutes I heard the name of my destination being announced .
+19-1	After	O	O	O	_	_	
+19-2	15	O	O	O	_	_	
+19-3	minutes	B-ScrPart_time/date	O	O	_	_	
+19-4	I	B-ScrPart_passenger	O	O	_	_	
+19-5	heard	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+19-6	the	O	O	O	_	_	
+19-7	name	B-NPart	O	O	_	_	
+19-8	of	O	O	O	_	_	
+19-9	my	B-ScrPart_passenger	O	O	_	_	
+19-10	destination	B-ScrPart_destination	O	O	_	_	
+19-11	being	O	O	O	_	_	
+19-12	announced	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+19-13	.	O	O	O	_	_	
+
+#id=20
+#text=I picked my bag up off the ground and walked towards the exit doors .
+20-1	I	B-ScrPart_passenger	O	O	_	_	
+20-2	picked	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+20-3	my	B-ScrPart_passenger	O	O	_	_	
+20-4	bag	B-NPart	O	O	_	_	
+20-5	up	O	O	O	_	_	
+20-6	off	O	O	O	_	_	
+20-7	the	O	O	O	_	_	
+20-8	ground	B-NPart	O	O	_	_	
+20-9	and	O	O	O	_	_	
+20-10	walked	O	B-webanno.custom.Events_	B-ScrEv_go_exit	_	_	
+20-11	towards	O	O	O	_	_	
+20-12	the	O	O	O	_	_	
+20-13	exit	B-ScrPart_door	O	O	_	_	
+20-14	doors	I-ScrPart_door|B-ScrPart_door	O	O	_	_	
+20-15	.	O	O	O	_	_	
+
+#id=21
+#text=I thanked the bus driver as I got off the bus .
+21-1	I	B-ScrPart_passenger	O	O	_	_	
+21-2	thanked	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+21-3	the	O	O	O	_	_	
+21-4	bus	B-ScrPart_bus_staff	O	O	_	_	
+21-5	driver	I-ScrPart_bus_staff|B-ScrPart_bus_staff	O	O	_	_	
+21-6	as	O	O	O	_	_	
+21-7	I	B-ScrPart_passenger	O	O	_	_	
+21-8	got	O	B-webanno.custom.Events_	B-ScrEv_get_off	_	_	
+21-9	off	O	I-webanno.custom.Events_	I-ScrEv_get_off	_	_	
+21-10	the	O	O	O	_	_	
+21-11	bus	B-ScrPart_bus	O	O	_	_	
+21-12	.	O	O	O	_	_	
+
+#id=22
+#text=He wished me a nice day . 
+22-1	He	B-ScrPart_bus_staff	O	O	_	_	
+22-2	wished	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+22-3	me	B-ScrPart_passenger	O	O	webanno.custom.Corefchains_	21-7	
+22-4	a	O	O	O	_	_	
+22-5	nice	O	O	O	_	_	
+22-6	day	B-NPart	O	O	_	_	
+22-7	.	O	O	O	_	_	
+

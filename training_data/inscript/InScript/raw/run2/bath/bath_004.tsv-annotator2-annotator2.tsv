@@ -1,0 +1,272 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events
+#id=1
+#text=It was a hard day , so I looked forward to making myself the perfect bath .
+1-1	It	B-No_label	B-webanno.custom.Participants_	O	
+1-2	was	O	O	B-UnrelEv	
+1-3	a	O	O	O	
+1-4	hard	O	O	O	
+1-5	day	B-NPart	B-webanno.custom.Participants_	O	
+1-6	,	O	O	O	
+1-7	so	O	O	O	
+1-8	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+1-9	looked	O	O	B-UnrelEv	
+1-10	forward	O	O	O	
+1-11	to	O	O	O	
+1-12	making	O	O	B-UnrelEv	
+1-13	myself	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+1-14	the	O	O	O	
+1-15	perfect	O	O	O	
+1-16	bath	B-ScrPart_bath	B-webanno.custom.Participants_	O	
+1-17	.	O	O	O	
+
+#id=2
+#text=I get home from work and head straight for the bathtub .
+2-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+2-2	get	O	O	B-UnrelEv	
+2-3	home	O	O	O	
+2-4	from	O	O	O	
+2-5	work	B-NPart	B-webanno.custom.Participants_	O	
+2-6	and	O	O	O	
+2-7	head	O	O	B-ScrEv_enter_bathroom	
+2-8	straight	O	O	O	
+2-9	for	O	O	O	
+2-10	the	O	O	O	
+2-11	bathtub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	
+2-12	.	O	O	O	
+
+#id=3
+#text=I run the water until it 's the perfect temperature and plug the drain to allow the water to fill the tub .
+3-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+3-2	run	O	O	B-RelNScrEv	
+3-3	the	O	O	O	
+3-4	water	B-ScrPart_water	B-webanno.custom.Participants_	O	
+3-5	until	O	O	O	
+3-6	it	B-ScrPart_water	B-webanno.custom.Participants_	O	
+3-7	's	O	O	B-UnrelEv	
+3-8	the	O	O	O	
+3-9	perfect	O	O	O	
+3-10	temperature	B-ScrPart_temperature	B-webanno.custom.Participants_	O	
+3-11	and	O	O	O	
+3-12	plug	O	O	B-ScrEv_close_drain	
+3-13	the	O	O	O	
+3-14	drain	B-ScrPart_drain	B-webanno.custom.Participants_	O	
+3-15	to	O	O	O	
+3-16	allow	O	O	B-UnrelEv	
+3-17	the	O	O	O	
+3-18	water	B-ScrPart_water	B-webanno.custom.Participants_	O	
+3-19	to	O	O	O	
+3-20	fill	O	O	B-ScrEv_fill_water/wait	
+3-21	the	O	O	O	
+3-22	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	
+3-23	.	O	O	O	
+
+#id=4
+#text=I take some bath salts and oils to drizzle underneath the stream of water to allow it to dissolve and it fills the room with gentle fragrance .
+4-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+4-2	take	O	O	B-ScrEv_put_bubble_bath_scent	
+4-3	some	O	O	O	
+4-4	bath	B-ScrPart_bath_means	B-webanno.custom.Participants_	O	
+4-5	salts	I-ScrPart_bath_means|B-ScrPart_bath_means	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+4-6	and	O	O	O	
+4-7	oils	B-ScrPart_bath_means	B-webanno.custom.Participants_	O	
+4-8	to	O	O	O	
+4-9	drizzle	O	O	B-UnrelEv	
+4-10	underneath	O	O	O	
+4-11	the	O	O	O	
+4-12	stream	B-Head_of_Partitive	B-webanno.custom.Participants_	O	
+4-13	of	O	O	O	
+4-14	water	B-ScrPart_water	B-webanno.custom.Participants_	O	
+4-15	to	O	O	O	
+4-16	allow	O	O	B-UnrelEv	
+4-17	it	B-ScrPart_bath_means	B-webanno.custom.Participants_	O	
+4-18	to	O	O	O	
+4-19	dissolve	O	O	B-UnrelEv	
+4-20	and	O	O	O	
+4-21	it	B-ScrPart_bath_means	B-webanno.custom.Participants_	O	
+4-22	fills	O	O	B-UnrelEv	
+4-23	the	O	O	O	
+4-24	room	B-ScrPart_bathroom	B-webanno.custom.Participants_	O	
+4-25	with	O	O	O	
+4-26	gentle	O	O	O	
+4-27	fragrance	B-NPart	B-webanno.custom.Participants_	O	
+4-28	.	O	O	O	
+
+#id=5
+#text=As the tub continues to fill with water , I grab some candles and carefully place them around the tub .
+5-1	As	O	O	O	
+5-2	the	O	O	O	
+5-3	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	
+5-4	continues	O	O	B-UnrelEv	
+5-5	to	O	O	O	
+5-6	fill	O	O	B-ScrEv_fill_water/wait	
+5-7	with	O	O	O	
+5-8	water	B-ScrPart_water	B-webanno.custom.Participants_	O	
+5-9	,	O	O	O	
+5-10	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+5-11	grab	O	O	B-ScrEv_prepare_bath	
+5-12	some	O	O	O	
+5-13	candles	B-ScrPart_in-bath_entertainment	B-webanno.custom.Participants_	O	
+5-14	and	O	O	O	
+5-15	carefully	O	O	O	
+5-16	place	O	O	B-ScrEv_prepare_bath	
+5-17	them	B-ScrPart_in-bath_entertainment	B-webanno.custom.Participants_	O	
+5-18	around	O	O	O	
+5-19	the	O	O	O	
+5-20	tub	B-ScrPart_bathtub	B-webanno.custom.Participants_	O	
+5-21	.	O	O	O	
+
+#id=6
+#text=After lighting the candles and setting up a towel and robe for getting out , I put on some quiet music to drown out the sound of my husband 's hockey game .
+6-1	After	O	O	O	
+6-2	lighting	O	O	B-ScrEv_prepare_bath	
+6-3	the	O	O	O	
+6-4	candles	B-ScrPart_in-bath_entertainment	B-webanno.custom.Participants_	O	
+6-5	and	O	O	O	
+6-6	setting	O	O	B-ScrEv_prepare_bath	
+6-7	up	O	O	I-ScrEv_prepare_bath	
+6-8	a	O	O	O	
+6-9	towel	B-ScrPart_towel	B-webanno.custom.Participants_	O	
+6-10	and	O	O	O	
+6-11	robe	B-ScrPart_clothes	B-webanno.custom.Participants_	O	
+6-12	for	O	O	O	
+6-13	getting	O	O	B-ScrEv_get_out_bath	
+6-14	out	O	O	I-ScrEv_get_out_bath	
+6-15	,	O	O	O	
+6-16	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+6-17	put	O	O	B-ScrEv_prepare_bath	
+6-18	on	O	O	I-ScrEv_prepare_bath	
+6-19	some	O	O	O	
+6-20	quiet	O	O	O	
+6-21	music	B-ScrPart_in-bath_entertainment	B-webanno.custom.Participants_	O	
+6-22	to	O	O	O	
+6-23	drown	O	O	B-UnrelEv	
+6-24	out	O	O	I-UnrelEv	
+6-25	the	O	O	O	
+6-26	sound	B-NPart	B-webanno.custom.Participants_	O	
+6-27	of	O	O	O	
+6-28	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+6-29	husband	B-NPart	B-webanno.custom.Participants_	O	
+6-30	's	O	O	O	
+6-31	hockey	B-NPart	B-webanno.custom.Participants_	O	
+6-32	game	I-NPart	I-webanno.custom.Participants_	O	
+6-33	.	O	O	O	
+
+#id=7
+#text=I grab a small towel to use as a pillow for my neck and finally get in the bath .
+7-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+7-2	grab	O	O	B-ScrEv_prepare_bath	
+7-3	a	O	O	O	
+7-4	small	O	O	O	
+7-5	towel	B-ScrPart_towel	B-webanno.custom.Participants_	O	
+7-6	to	O	O	O	
+7-7	use	O	O	B-UnrelEv	
+7-8	as	O	O	O	
+7-9	a	O	O	O	
+7-10	pillow	B-ScrPart_other	B-webanno.custom.Participants_	O	
+7-11	for	O	O	O	
+7-12	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+7-13	neck	B-ScrPart_body_part	B-webanno.custom.Participants_	O	
+7-14	and	O	O	O	
+7-15	finally	O	O	O	
+7-16	get	O	O	B-ScrEv_sink_water	
+7-17	in	O	O	O	
+7-18	the	O	O	O	
+7-19	bath	B-ScrPart_water	B-webanno.custom.Participants_	O	
+7-20	.	O	O	O	
+
+#id=8
+#text=I feel like I 'm melting as I shut my eyes and allow myself to relax .
+8-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+8-2	feel	O	O	B-UnrelEv	
+8-3	like	O	O	O	
+8-4	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+8-5	'm	O	O	O	
+8-6	melting	O	O	B-UnrelEv	
+8-7	as	O	O	O	
+8-8	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+8-9	shut	O	O	B-UnrelEv	
+8-10	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+8-11	eyes	B-ScrPart_body_part	B-webanno.custom.Participants_	O	
+8-12	and	O	O	O	
+8-13	allow	O	O	B-UnrelEv	
+8-14	myself	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+8-15	to	O	O	O	
+8-16	relax	O	O	B-ScrEv_relax	
+8-17	.	O	O	O	
+
+#id=9
+#text=I do n't realize how long I 'm in there until I open my eyes and see my husband standing over me .
+9-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+9-2	do	O	O	O	
+9-3	n't	O	O	O	
+9-4	realize	O	O	B-UnrelEv	
+9-5	how	O	O	O	
+9-6	long	O	O	O	
+9-7	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+9-8	'm	O	O	B-UnrelEv	
+9-9	in	O	O	O	
+9-10	there	B-ScrPart_water	B-webanno.custom.Participants_	O	
+9-11	until	O	O	O	
+9-12	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+9-13	open	O	O	B-UnrelEv	
+9-14	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+9-15	eyes	B-ScrPart_body_part	B-webanno.custom.Participants_	O	
+9-16	and	O	O	O	
+9-17	see	O	O	B-UnrelEv	
+9-18	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+9-19	husband	B-NPart	B-webanno.custom.Participants_	O	
+9-20	standing	O	O	B-UnrelEv	
+9-21	over	O	O	O	
+9-22	me	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+9-23	.	O	O	O	
+
+#id=10
+#text=The water has lost all its warmth .
+10-1	The	O	O	O	
+10-2	water	B-ScrPart_water	B-webanno.custom.Participants_	O	
+10-3	has	O	O	O	
+10-4	lost	O	O	B-RelNScrEv	
+10-5	all	O	O	O	
+10-6	its	B-ScrPart_water	B-webanno.custom.Participants_	O	
+10-7	warmth	B-ScrPart_temperature	B-webanno.custom.Participants_	O	
+10-8	.	O	O	O	
+
+#id=11
+#text=He had put the towel in the dryer and it was now warm , fluffy , and welcoming .
+11-1	He	B-NPart	B-webanno.custom.Participants_	O	
+11-2	had	O	O	O	
+11-3	put	O	O	B-UnrelEv	
+11-4	the	O	O	O	
+11-5	towel	B-ScrPart_towel	B-webanno.custom.Participants_	O	
+11-6	in	O	O	O	
+11-7	the	O	O	O	
+11-8	dryer	B-NPart	B-webanno.custom.Participants_	O	
+11-9	and	O	O	O	
+11-10	it	B-ScrPart_towel	B-webanno.custom.Participants_	O	
+11-11	was	O	O	B-UnrelEv	
+11-12	now	O	O	O	
+11-13	warm	O	O	O	
+11-14	,	O	O	O	
+11-15	fluffy	O	O	O	
+11-16	,	O	O	O	
+11-17	and	O	O	O	
+11-18	welcoming	O	O	O	
+11-19	.	O	O	O	
+
+#id=12
+#text=I step out of the day as my troubles swirl down the drain . 
+12-1	I	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+12-2	step	O	O	B-ScrEv_get_out_bath	
+12-3	out	O	O	I-ScrEv_get_out_bath	
+12-4	of	O	O	O	
+12-5	the	O	O	O	
+12-6	day	B-NPart	B-webanno.custom.Participants_	O	
+12-7	as	O	O	O	
+12-8	my	B-ScrPart_bather	B-webanno.custom.Participants_	O	
+12-9	troubles	B-NPart	B-webanno.custom.Participants_	O	
+12-10	swirl	O	O	B-UnrelEv	
+12-11	down	O	O	O	
+12-12	the	O	O	O	
+12-13	drain	B-ScrPart_drain	B-webanno.custom.Participants_	O	
+12-14	.	O	O	O	
+

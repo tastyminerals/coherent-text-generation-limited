@@ -1,0 +1,374 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Eventsandparticipants | Event # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I live near the city of Santa Cruz and often take the 17X bus to the nearby city of San Jose .
+1-1	I	B-ScrPart_passenger	O	_	_	
+1-2	live	O	B-UnrelEv	_	_	
+1-3	near	O	O	_	_	
+1-4	the	O	O	_	_	
+1-5	city	O	O	_	_	
+1-6	of	O	O	_	_	
+1-7	Santa	O	O	_	_	
+1-8	Cruz	O	O	_	_	
+1-9	and	O	O	_	_	
+1-10	often	O	O	_	_	
+1-11	take	O	B-Evoking	_	_	
+1-12	the	O	I-Evoking	_	_	
+1-13	17X	O	I-Evoking	_	_	
+1-14	bus	B-ScrPart_bus	I-Evoking	_	_	
+1-15	to	O	O	_	_	
+1-16	the	O	O	_	_	
+1-17	nearby	O	O	_	_	
+1-18	city	B-ScrPart_destination|B-ScrPart_destination	O	_	_	
+1-19	of	I-ScrPart_destination	O	_	_	
+1-20	San	I-ScrPart_destination	O	_	_	
+1-21	Jose	I-ScrPart_destination	O	_	_	
+1-22	.	O	O	_	_	
+
+#id=2
+#text=It 's possible to get discount fares by paying for multiple rides in advance , but I usually pay cash , five dollars for one-way .
+2-1	It	O	O	_	_	
+2-2	's	O	B-UnrelEv	_	_	
+2-3	possible	O	O	_	_	
+2-4	to	O	O	_	_	
+2-5	get	O	B-RelNScrEv	_	_	
+2-6	discount	B-MissScrPart	O	_	_	
+2-7	fares	I-MissScrPart|B-MissScrPart	O	_	_	
+2-8	by	O	O	_	_	
+2-9	paying	O	B-RelNScrEv	_	_	
+2-10	for	O	O	_	_	
+2-11	multiple	O	O	_	_	
+2-12	rides	B-MissScrPart	O	_	_	
+2-13	in	O	O	_	_	
+2-14	advance	B-NPart	O	_	_	
+2-15	,	O	O	_	_	
+2-16	but	O	O	_	_	
+2-17	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-1	
+2-18	usually	O	O	_	_	
+2-19	pay	O	B-RelNScrEv	_	_	
+2-20	cash	O	O	_	_	
+2-21	,	O	O	_	_	
+2-22	five	O	O	_	_	
+2-23	dollars	B-ScrPart_money	O	_	_	
+2-24	for	O	O	_	_	
+2-25	one-way	O	O	_	_	
+2-26	.	O	O	_	_	
+
+#id=3
+#text=I get to my small town 's transit center early on weekday mornings , because the bus fills up quickly , and most good seats are already taken by riders who started their trip in downtown Santa Cruz .
+3-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-17	
+3-2	get	O	B-ScrEv_get_bus_stop	_	_	
+3-3	to	O	O	_	_	
+3-4	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-1	
+3-5	small	O	O	_	_	
+3-6	town	O	O	_	_	
+3-7	's	O	O	_	_	
+3-8	transit	B-MissScrPart	O	_	_	
+3-9	center	I-MissScrPart|B-MissScrPart	O	_	_	
+3-10	early	O	O	_	_	
+3-11	on	O	O	_	_	
+3-12	weekday	O	O	_	_	
+3-13	mornings	B-ScrPart_time/date	O	_	_	
+3-14	,	O	O	_	_	
+3-15	because	O	O	_	_	
+3-16	the	O	O	_	_	
+3-17	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	1-14	
+3-18	fills	O	B-RelNScrEv|B-RelNScrEv	_	_	
+3-19	up	O	I-RelNScrEv	_	_	
+3-20	quickly	O	O	_	_	
+3-21	,	O	O	_	_	
+3-22	and	O	O	_	_	
+3-23	most	O	O	_	_	
+3-24	good	O	O	_	_	
+3-25	seats	B-ScrPart_seat_in_bus	O	_	_	
+3-26	are	O	O	_	_	
+3-27	already	O	O	_	_	
+3-28	taken	O	B-RelNScrEv	_	_	
+3-29	by	O	O	_	_	
+3-30	riders	B-ScrPart_passenger	O	_	_	
+3-31	who	O	O	_	_	
+3-32	started	O	B-UnrelEv	_	_	
+3-33	their	O	O	_	_	
+3-34	trip	B-MissScrPart	O	webanno.custom.Corefchains_	2-12	
+3-35	in	O	O	_	_	
+3-36	downtown	B-NPart	O	_	_	
+3-37	Santa	O	O	_	_	
+3-38	Cruz	O	O	_	_	
+3-39	.	O	O	_	_	
+
+#id=4
+#text=We wait in line in civilized fashion .
+4-1	We	B-ScrPart_passenger	O	_	_	
+4-2	wait	O	B-ScrEv_wait	_	_	
+4-3	in	O	O	_	_	
+4-4	line	B-SuppVComp	O	_	_	
+4-5	in	O	O	_	_	
+4-6	civilized	O	O	_	_	
+4-7	fashion	B-NPart	O	_	_	
+4-8	.	O	O	_	_	
+
+#id=5
+#text=Some people need only show the driver their pass , some shove a five-dollar bill into the fare machine efficiently .
+5-1	Some	O	O	_	_	
+5-2	people	B-ScrPart_passenger	O	_	_	
+5-3	need	O	O	_	_	
+5-4	only	O	O	_	_	
+5-5	show	O	B-RelNScrEv	_	_	
+5-6	the	O	O	_	_	
+5-7	driver	B-ScrPart_bus_staff	O	_	_	
+5-8	their	O	O	_	_	
+5-9	pass	B-ScrPart_card/ticket	O	_	_	
+5-10	,	O	O	_	_	
+5-11	some	B-ScrPart_passenger	O	_	_	
+5-12	shove	O	B-RelNScrEv	_	_	
+5-13	a	O	O	_	_	
+5-14	five-dollar	O	O	_	_	
+5-15	bill	B-ScrPart_money	O	_	_	
+5-16	into	O	O	_	_	
+5-17	the	O	O	_	_	
+5-18	fare	B-ScrPart_payment_machine	O	_	_	
+5-19	machine	I-ScrPart_payment_machine|B-ScrPart_payment_machine	O	_	_	
+5-20	efficiently	O	O	_	_	
+5-21	.	O	O	_	_	
+
+#id=6
+#text=But some fumble with small coins or ask other riders for change , which makes everyone in line restive .
+6-1	But	O	O	_	_	
+6-2	some	B-ScrPart_passenger	O	_	_	
+6-3	fumble	O	B-UnrelEv	_	_	
+6-4	with	O	O	_	_	
+6-5	small	O	O	_	_	
+6-6	coins	B-ScrPart_money	O	_	_	
+6-7	or	O	O	_	_	
+6-8	ask	O	B-RelNScrEv	_	_	
+6-9	other	O	O	_	_	
+6-10	riders	B-ScrPart_passenger	O	_	_	
+6-11	for	O	O	_	_	
+6-12	change	B-ScrPart_money	O	_	_	
+6-13	,	O	O	_	_	
+6-14	which	O	O	_	_	
+6-15	makes	O	B-UnrelEv	_	_	
+6-16	everyone	B-ScrPart_passenger	O	_	_	
+6-17	in	O	O	_	_	
+6-18	line	B-NPart	O	_	_	
+6-19	restive	O	O	_	_	
+6-20	.	O	O	_	_	
+
+#id=7
+#text=Once on , riders can choose seats grouped around small tables , seats facing forward , or seats facing sideways .
+7-1	Once	O	O	_	_	
+7-2	on	O	O	_	_	
+7-3	,	O	O	_	_	
+7-4	riders	B-ScrPart_passenger	O	_	_	
+7-5	can	O	O	_	_	
+7-6	choose	O	B-ScrEv_find_place	_	_	
+7-7	seats	B-ScrPart_seat_in_bus	O	_	_	
+7-8	grouped	O	B-UnrelEv#	_	_	
+7-9	around	O	O	_	_	
+7-10	small	O	O	_	_	
+7-11	tables	B-MissScrPart	O	_	_	
+7-12	,	O	O	_	_	
+7-13	seats	B-ScrPart_seat_in_bus	O	_	_	
+7-14	facing	O	O	_	_	
+7-15	forward	O	O	_	_	
+7-16	,	O	O	_	_	
+7-17	or	O	O	_	_	
+7-18	seats	B-ScrPart_seat_in_bus	O	_	_	
+7-19	facing	O	O	_	_	
+7-20	sideways	O	O	_	_	
+7-21	.	O	O	_	_	
+
+#id=8
+#text=Table seats are premium , since the bus has WiFi and many people bring laptops .
+8-1	Table	B-ScrPart_seat_in_bus	O	_	_	
+8-2	seats	I-ScrPart_seat_in_bus|B-ScrPart_seat_in_bus	O	webanno.custom.Corefchains_	7-7	
+8-3	are	O	B-UnrelEv	_	_	
+8-4	premium	O	O	_	_	
+8-5	,	O	O	_	_	
+8-6	since	O	O	_	_	
+8-7	the	O	O	_	_	
+8-8	bus	B-ScrPart_bus	O	_	_	
+8-9	has	O	B-RelNScrEv	_	_	
+8-10	WiFi	B-MissScrPart	O	_	_	
+8-11	and	O	O	_	_	
+8-12	many	O	O	_	_	
+8-13	people	B-ScrPart_passenger	O	_	_	
+8-14	bring	O	B-UnrelEv	_	_	
+8-15	laptops	O	O	_	_	
+8-16	.	O	O	_	_	
+
+#id=9
+#text=Others prefer seats in the back where the roughnecks are , just like in high school .
+9-1	Others	B-ScrPart_passenger	O	_	_	
+9-2	prefer	O	B-UnrelEv	_	_	
+9-3	seats	B-ScrPart_seat_in_bus	O	_	_	
+9-4	in	O	O	_	_	
+9-5	the	O	O	_	_	
+9-6	back	O	O	_	_	
+9-7	where	O	O	_	_	
+9-8	the	O	O	_	_	
+9-9	roughnecks	O	O	_	_	
+9-10	are	O	B-UnrelEv	_	_	
+9-11	,	O	O	_	_	
+9-12	just	O	O	_	_	
+9-13	like	O	O	_	_	
+9-14	in	O	O	_	_	
+9-15	high	O	O	_	_	
+9-16	school	O	O	_	_	
+9-17	.	O	O	_	_	
+
+#id=10
+#text=My little town is the last stop before highway 17 .
+10-1	My	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-4	
+10-2	little	O	O	_	_	
+10-3	town	B-ScrPart_destination	O	webanno.custom.Corefchains_	1-18	
+10-4	is	O	B-UnrelEv	_	_	
+10-5	the	O	O	_	_	
+10-6	last	O	O	_	_	
+10-7	stop	B-ScrPart_bus_stop	O	_	_	
+10-8	before	O	O	_	_	
+10-9	highway	O	O	_	_	
+10-10	17	O	O	_	_	
+10-11	.	O	O	_	_	
+
+#id=11
+#text=The bus whips along amid the pine trees and the yellow-flowered acacia that blooms this time of year .
+11-1	The	O	O	_	_	
+11-2	bus	B-ScrPart_bus	O	_	_	
+11-3	whips	O	B-RelNScrEv	_	_	
+11-4	along	O	O	_	_	
+11-5	amid	O	O	_	_	
+11-6	the	O	O	_	_	
+11-7	pine	B-NPart	O	_	_	
+11-8	trees	I-NPart|B-NPart	O	_	_	
+11-9	and	O	O	_	_	
+11-10	the	O	O	_	_	
+11-11	yellow-flowered	O	O	_	_	
+11-12	acacia	B-NPart	O	_	_	
+11-13	that	O	O	_	_	
+11-14	blooms	O	B-UnrelEv	_	_	
+11-15	this	O	O	_	_	
+11-16	time	O	O	_	_	
+11-17	of	O	O	_	_	
+11-18	year	O	O	_	_	
+11-19	.	O	O	_	_	
+
+#id=12
+#text=It is pleasant not to have to keep your eyes on the road .
+12-1	It	O	O	_	_	
+12-2	is	O	B-UnrelEv	_	_	
+12-3	pleasant	O	O	_	_	
+12-4	not	O	O	_	_	
+12-5	to	O	O	_	_	
+12-6	have	O	O	_	_	
+12-7	to	O	O	_	_	
+12-8	keep	O	B-UnrelEv	_	_	
+12-9	your	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-1	
+12-10	eyes	O	O	_	_	
+12-11	on	O	O	_	_	
+12-12	the	O	O	_	_	
+12-13	road	B-MissScrPart	O	_	_	
+12-14	.	O	O	_	_	
+
+#id=13
+#text=Unspoken bus etiquette decrees that strangers do n't speak to each other , but of course some people know each other and chat .
+13-1	Unspoken	O	B-UnrelEv	_	_	
+13-2	bus	O	O	_	_	
+13-3	etiquette	O	O	_	_	
+13-4	decrees	O	B-UnrelEv	_	_	
+13-5	that	O	O	_	_	
+13-6	strangers	O	O	_	_	
+13-7	do	O	O	_	_	
+13-8	n't	O	O	_	_	
+13-9	speak	O	B-UnrelEv	_	_	
+13-10	to	O	O	_	_	
+13-11	each	O	O	_	_	
+13-12	other	O	O	_	_	
+13-13	,	O	O	_	_	
+13-14	but	O	O	_	_	
+13-15	of	O	O	_	_	
+13-16	course	O	O	_	_	
+13-17	some	O	O	_	_	
+13-18	people	B-ScrPart_passenger	O	_	_	
+13-19	know	O	O	_	_	
+13-20	each	B-ScrPart_passenger	O	webanno.custom.Corefchains_	13-18	
+13-21	other	I-ScrPart_passenger	O	webanno.custom.Corefchains_	13-18	
+13-22	and	O	O	_	_	
+13-23	chat	O	B-ScrEv_spend_time_bus	_	_	
+13-24	.	O	O	_	_	
+
+#id=14
+#text=Many tap away on their machines or play video games , others read books or enjoy the ride .
+14-1	Many	B-ScrPart_passenger	O	_	_	
+14-2	tap	O	B-ScrEv_spend_time_bus|B-ScrEv_spend_time_bus	_	_	
+14-3	away	O	I-ScrEv_spend_time_bus	_	_	
+14-4	on	O	O	_	_	
+14-5	their	B-ScrPart_passenger	O	webanno.custom.Corefchains_	14-1	
+14-6	machines	B-MissScrPart	O	_	_	
+14-7	or	O	O	_	_	
+14-8	play	O	B-ScrEv_spend_time_bus	_	_	
+14-9	video	B-MissScrPart	O	_	_	
+14-10	games	I-MissScrPart|B-MissScrPart	O	_	_	
+14-11	,	O	O	_	_	
+14-12	others	B-ScrPart_passenger	O	_	_	
+14-13	read	O	B-ScrEv_spend_time_bus	_	_	
+14-14	books	B-MissScrPart	O	_	_	
+14-15	or	O	O	_	_	
+14-16	enjoy	O	B-ScrEv_spend_time_bus	_	_	
+14-17	the	O	O	_	_	
+14-18	ride	B-MissScrPart	O	webanno.custom.Corefchains_	3-34	
+14-19	.	O	O	_	_	
+
+#id=15
+#text=It ends at San Jose 's train station , where passengers can transfer to the San Francisco train , or take a rattling inferior 1-hour bus ride to Fremont to catch the BART mass transit line to Oakland , Richmond , or distant Pittsburg , where the California Delta begins . 
+15-1	It	B-MissScrPart	O	webanno.custom.Corefchains_	14-18	
+15-2	ends	O	B-UnrelEv	_	_	
+15-3	at	O	O	_	_	
+15-4	San	O	O	_	_	
+15-5	Jose	O	O	_	_	
+15-6	's	O	O	_	_	
+15-7	train	B-MissScrPart	O	_	_	
+15-8	station	I-MissScrPart|B-MissScrPart	O	_	_	
+15-9	,	O	O	_	_	
+15-10	where	O	O	_	_	
+15-11	passengers	B-ScrPart_passenger	O	_	_	
+15-12	can	O	O	_	_	
+15-13	transfer	O	B-ScrEv_change_bus	_	_	
+15-14	to	O	O	_	_	
+15-15	the	O	O	_	_	
+15-16	San	O	O	_	_	
+15-17	Francisco	O	O	_	_	
+15-18	train	B-NPart	O	_	_	
+15-19	,	O	O	_	_	
+15-20	or	O	O	_	_	
+15-21	take	O	B-RelNScrEv	_	_	
+15-22	a	O	O	_	_	
+15-23	rattling	O	O	_	_	
+15-24	inferior	O	O	_	_	
+15-25	1-hour	O	O	_	_	
+15-26	bus	B-MissScrPart	O	_	_	
+15-27	ride	I-MissScrPart|B-MissScrPart	O	webanno.custom.Corefchains_	15-1	
+15-28	to	O	O	_	_	
+15-29	Fremont	B-ScrPart_destination	O	_	_	
+15-30	to	O	O	_	_	
+15-31	catch	O	B-RelNScrEv	_	_	
+15-32	the	O	O	_	_	
+15-33	BART	B-MissScrPart	O	_	_	
+15-34	mass	I-MissScrPart	O	_	_	
+15-35	transit	I-MissScrPart	O	_	_	
+15-36	line	I-MissScrPart|B-MissScrPart	O	_	_	
+15-37	to	O	O	_	_	
+15-38	Oakland	B-ScrPart_destination	O	_	_	
+15-39	,	O	O	_	_	
+15-40	Richmond	B-ScrPart_destination	O	_	_	
+15-41	,	O	O	_	_	
+15-42	or	O	O	_	_	
+15-43	distant	O	O	_	_	
+15-44	Pittsburg	B-ScrPart_destination	O	_	_	
+15-45	,	O	O	_	_	
+15-46	where	O	O	_	_	
+15-47	the	O	O	_	_	
+15-48	California	O	O	_	_	
+15-49	Delta	O	O	_	_	
+15-50	begins	O	B-UnrelEv	_	_	
+15-51	.	O	O	_	_	
+

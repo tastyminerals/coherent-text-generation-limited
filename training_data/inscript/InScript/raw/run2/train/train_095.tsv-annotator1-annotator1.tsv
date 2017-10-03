@@ -1,0 +1,197 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=Last weekend I booked a spur of the moment trip out to New York on a train .
+1-1	Last	O	O	
+1-2	weekend	B-ScrPart_time_date	O	
+1-3	I	B-ScrPart_passenger	O	
+1-4	booked	O	B-ScrEv_get_tickets	
+1-5	a	O	O	
+1-6	spur	B-No_label	O	
+1-7	of	O	O	
+1-8	the	O	O	
+1-9	moment	B-No_label	O	
+1-10	trip	B-ScrPart_trip	B-Evoking	
+1-11	out	O	I-Evoking	
+1-12	to	O	I-Evoking	
+1-13	New	B-ScrPart_destination	I-Evoking	
+1-14	York	I-ScrPart_destination	I-Evoking	
+1-15	on	O	I-Evoking	
+1-16	a	O	I-Evoking	
+1-17	train	B-ScrPart_train	I-Evoking	
+1-18	.	O	O	
+
+#id=2
+#text=I bought my ticket for the train right at the station , I was lucky they had some left .
+2-1	I	B-ScrPart_passenger	O	
+2-2	bought	O	B-ScrEv_get_tickets	
+2-3	my	B-ScrPart_passenger	O	
+2-4	ticket	B-ScrPart_card/ticket	O	
+2-5	for	O	O	
+2-6	the	O	O	
+2-7	train	B-ScrPart_train	O	
+2-8	right	O	O	
+2-9	at	O	O	
+2-10	the	O	O	
+2-11	station	B-ScrPart_train_station	O	
+2-12	,	O	O	
+2-13	I	B-ScrPart_passenger	O	
+2-14	was	O	B-UnrelEv	
+2-15	lucky	O	O	
+2-16	they	B-ScrPart_ticket_office/website	O	
+2-17	had	O	O	
+2-18	some	O	O	
+2-19	left	O	B-RelNScrEv	
+2-20	.	O	O	
+
+#id=3
+#text=After waiting about thirty minutes my train pulled up and came to a stop .
+3-1	After	O	O	
+3-2	waiting	O	B-ScrEv_wait	
+3-3	about	O	O	
+3-4	thirty	O	O	
+3-5	minutes	B-ScrPart_time_date	O	
+3-6	my	B-ScrPart_passenger	O	
+3-7	train	B-ScrPart_train	O	
+3-8	pulled	O	B-ScrEv_train_arrives|B-ScrEv_train_arrives	
+3-9	up	O	I-ScrEv_train_arrives	
+3-10	and	O	O	
+3-11	came	O	B-ScrEv_train_arrives	
+3-12	to	O	O	
+3-13	a	O	O	
+3-14	stop	B-SuppVComp	O	
+3-15	.	O	O	
+
+#id=4
+#text=I hopped on the train and found an open seat next to the window .
+4-1	I	B-ScrPart_passenger	O	
+4-2	hopped	O	B-ScrEv_get_on	
+4-3	on	O	O	
+4-4	the	O	O	
+4-5	train	B-ScrPart_train	O	
+4-6	and	O	O	
+4-7	found	O	B-ScrEv_find_place	
+4-8	an	O	O	
+4-9	open	O	O	
+4-10	seat	B-ScrPart_seat	O	
+4-11	next	O	O	
+4-12	to	O	O	
+4-13	the	O	O	
+4-14	window	B-ScrPart_location_train	O	
+4-15	.	O	O	
+
+#id=5
+#text=After everyone was on the train slowly eased forward as it built up speed to New York .
+5-1	After	O	O	
+5-2	everyone	B-ScrPart_passenger	O	
+5-3	was	O	B-RelNScrEv	
+5-4	on	O	O	
+5-5	the	O	O	
+5-6	train	B-ScrPart_train	O	
+5-7	slowly	O	O	
+5-8	eased	O	B-ScrEv_train_departs	
+5-9	forward	O	O	
+5-10	as	O	O	
+5-11	it	B-ScrPart_train	O	
+5-12	built	O	B-RelNScrEv|B-RelNScrEv	
+5-13	up	O	I-RelNScrEv	
+5-14	speed	B-SuppVComp	O	
+5-15	to	O	O	
+5-16	New	B-ScrPart_destination	O	
+5-17	York	I-ScrPart_destination	O	
+5-18	.	O	O	
+
+#id=6
+#text=I enjoyed listening to the wheels of the train on the track as they clicked .
+6-1	I	B-ScrPart_passenger	O	
+6-2	enjoyed	O	B-UnrelEv	
+6-3	listening	O	B-ScrEv_spend_time_train	
+6-4	to	O	O	
+6-5	the	O	O	
+6-6	wheels	B-ScrPart_location_train	O	
+6-7	of	O	O	
+6-8	the	O	O	
+6-9	train	B-ScrPart_train	O	
+6-10	on	O	O	
+6-11	the	O	O	
+6-12	track	B-ScrPart_other	O	
+6-13	as	O	O	
+6-14	they	B-ScrPart_location_train	O	
+6-15	clicked	O	B-RelNScrEv	
+6-16	.	O	O	
+
+#id=7
+#text=The train ride was smooth and I was even able to get some rest along the way .
+7-1	The	O	O	
+7-2	train	B-ScrPart_trip	B-Evoking	
+7-3	ride	I-ScrPart_trip|B-ScrPart_trip	I-Evoking	
+7-4	was	O	B-UnrelEv	
+7-5	smooth	O	O	
+7-6	and	O	O	
+7-7	I	B-ScrPart_passenger	O	
+7-8	was	O	O	
+7-9	even	O	O	
+7-10	able	O	O	
+7-11	to	O	O	
+7-12	get	O	B-ScrEv_spend_time_train	
+7-13	some	O	O	
+7-14	rest	B-SuppVComp	O	
+7-15	along	O	O	
+7-16	the	O	O	
+7-17	way	B-No_label	O	
+7-18	.	O	O	
+
+#id=8
+#text=As the train arrived in New York the conductor came over the loud speaker and let us know we would be at our destination shortly .
+8-1	As	O	O	
+8-2	the	O	O	
+8-3	train	B-ScrPart_train	O	
+8-4	arrived	O	B-ScrEv_train_arrives	
+8-5	in	O	O	
+8-6	New	B-ScrPart_destination	O	
+8-7	York	I-ScrPart_destination	O	
+8-8	the	O	O	
+8-9	conductor	B-ScrPart_train_staff	O	
+8-10	came	O	B-RelNScrEv|B-RelNScrEv	
+8-11	over	O	I-RelNScrEv	
+8-12	the	O	O	
+8-13	loud	O	O	
+8-14	speaker	B-ScrPart_other	O	
+8-15	and	O	O	
+8-16	let	O	O	
+8-17	us	B-ScrPart_passenger	O	
+8-18	know	O	B-UnrelEv	
+8-19	we	B-ScrPart_passenger	O	
+8-20	would	O	O	
+8-21	be	O	B-ScrEv_train_arrives	
+8-22	at	O	O	
+8-23	our	B-ScrPart_passenger	O	
+8-24	destination	B-ScrPart_destination	O	
+8-25	shortly	O	O	
+8-26	.	O	O	
+
+#id=9
+#text=Once the train slowed to a complete stop , me and all the other passengers filed out and went our separate ways . 
+9-1	Once	O	O	
+9-2	the	O	O	
+9-3	train	B-ScrPart_train	O	
+9-4	slowed	O	B-ScrEv_train_arrives	
+9-5	to	O	O	
+9-6	a	O	O	
+9-7	complete	O	O	
+9-8	stop	B-SuppVComp	O	
+9-9	,	O	O	
+9-10	me	B-ScrPart_passenger	O	
+9-11	and	O	O	
+9-12	all	O	O	
+9-13	the	O	O	
+9-14	other	O	O	
+9-15	passengers	B-ScrPart_passenger	O	
+9-16	filed	O	B-ScrEv_get_off|B-ScrEv_get_off	
+9-17	out	O	I-ScrEv_get_off	
+9-18	and	O	O	
+9-19	went	O	B-UnrelEv	
+9-20	our	B-ScrPart_passenger	O	
+9-21	separate	O	O	
+9-22	ways	B-NPart	O	
+9-23	.	O	O	
+

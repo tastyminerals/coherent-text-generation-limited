@@ -1,0 +1,205 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Last night I had a meeting in the city .
+1-1	Last	O	O	_	_	
+1-2	night	B-NPart	O	_	_	
+1-3	I	B-ScrPart_passenger	O	_	_	
+1-4	had	O	B-UnrelEv	_	_	
+1-5	a	O	O	_	_	
+1-6	meeting	B-NPart	O	_	_	
+1-7	in	O	O	_	_	
+1-8	the	O	O	_	_	
+1-9	city	B-ScrPart_destination	O	_	_	
+1-10	.	O	O	_	_	
+
+#id=2
+#text=I live about an hour train ride from the city .
+2-1	I	B-ScrPart_passenger	O	_	_	
+2-2	live	O	B-UnrelEv	_	_	
+2-3	about	O	O	_	_	
+2-4	an	O	O	_	_	
+2-5	hour	B-ScrPart_time_date	O	_	_	
+2-6	train	B-ScrPart_trip	B-Evoking	_	_	
+2-7	ride	I-ScrPart_trip|B-ScrPart_trip	I-Evoking	_	_	
+2-8	from	O	O	_	_	
+2-9	the	O	O	_	_	
+2-10	city	B-ScrPart_destination	O	_	_	
+2-11	.	O	O	_	_	
+
+#id=3
+#text=I got ready in my house and walked out of my house leaving plenty of time to get to my meeting on time .
+3-1	I	B-ScrPart_passenger	O	_	_	
+3-2	got	O	B-UnrelEv	_	_	
+3-3	ready	O	O	_	_	
+3-4	in	O	O	_	_	
+3-5	my	B-ScrPart_passenger	O	_	_	
+3-6	house	B-NPart	O	_	_	
+3-7	and	O	O	_	_	
+3-8	walked	O	B-UnrelEv|B-UnrelEv	_	_	
+3-9	out	O	I-UnrelEv	_	_	
+3-10	of	O	O	_	_	
+3-11	my	B-ScrPart_passenger	O	_	_	
+3-12	house	B-NPart	O	_	_	
+3-13	leaving	O	B-UnrelEv	_	_	
+3-14	plenty	B-No_label	O	_	_	
+3-15	of	O	O	_	_	
+3-16	time	B-ScrPart_time_date	O	_	_	
+3-17	to	O	O	_	_	
+3-18	get	O	B-UnrelEv	_	_	
+3-19	to	O	O	_	_	
+3-20	my	B-ScrPart_passenger	O	_	_	
+3-21	meeting	B-NPart	O	_	_	
+3-22	on	O	O	_	_	
+3-23	time	B-ScrPart_time_date	O	_	_	
+3-24	.	O	O	_	_	
+
+#id=4
+#text=I had to refill my metrocard with more money for the train fare .
+4-1	I	B-ScrPart_passenger	O	_	_	
+4-2	had	O	O	_	_	
+4-3	to	O	O	_	_	
+4-4	refill	O	B-RelNScrEv	_	_	
+4-5	my	B-ScrPart_passenger	O	_	_	
+4-6	metrocard	B-ScrPart_card/ticket	O	_	_	
+4-7	with	O	O	_	_	
+4-8	more	O	O	_	_	
+4-9	money	B-ScrPart_other	O	_	_	
+4-10	for	O	O	_	_	
+4-11	the	O	O	_	_	
+4-12	train	B-ScrPart_other	O	_	_	
+4-13	fare	I-ScrPart_other|B-ScrPart_other	O	_	_	
+4-14	.	O	O	_	_	
+
+#id=5
+#text=They have raised the train fares again .
+5-1	They	B-ScrPart_other	O	_	_	
+5-2	have	O	O	_	_	
+5-3	raised	O	B-UnrelEv	_	_	
+5-4	the	O	O	_	_	
+5-5	train	B-ScrPart_other	O	_	_	
+5-6	fares	I-ScrPart_other|B-ScrPart_other	O	webanno.custom.Corefchains_	4-13	
+5-7	again	O	O	_	_	
+5-8	.	O	O	_	_	
+
+#id=6
+#text=I enter the train station , payed for my metrocard at a machine , and walked down the stairs to wait for my train .
+6-1	I	B-ScrPart_passenger	O	_	_	
+6-2	enter	O	B-ScrEv_get_train_station	_	_	
+6-3	the	O	O	_	_	
+6-4	train	B-ScrPart_train_station	O	_	_	
+6-5	station	I-ScrPart_train_station|B-ScrPart_train_station	O	_	_	
+6-6	,	O	O	_	_	
+6-7	payed	O	B-ScrEv_get_tickets	_	_	
+6-8	for	O	O	_	_	
+6-9	my	B-ScrPart_passenger	O	_	_	
+6-10	metrocard	B-ScrPart_card/ticket	O	_	_	
+6-11	at	O	O	_	_	
+6-12	a	O	O	_	_	
+6-13	machine	B-ScrPart_other	O	_	_	
+6-14	,	O	O	_	_	
+6-15	and	O	O	_	_	
+6-16	walked	O	B-ScrEv_get_platform|B-ScrEv_get_platform	_	_	
+6-17	down	O	I-ScrEv_get_platform	_	_	
+6-18	the	O	O	_	_	
+6-19	stairs	B-NPart	O	_	_	
+6-20	to	O	O	_	_	
+6-21	wait	O	B-ScrEv_wait|B-ScrEv_wait	_	_	
+6-22	for	O	I-ScrEv_wait	_	_	
+6-23	my	B-ScrPart_passenger	O	_	_	
+6-24	train	B-ScrPart_train	O	_	_	
+6-25	.	O	O	_	_	
+
+#id=7
+#text=I need to take two trains so I will switch for another train at another stop .
+7-1	I	B-ScrPart_passenger	O	_	_	
+7-2	need	O	O	_	_	
+7-3	to	O	O	_	_	
+7-4	take	O	B-Evoking	_	_	
+7-5	two	O	I-Evoking	_	_	
+7-6	trains	B-ScrPart_train	I-Evoking	_	_	
+7-7	so	O	O	_	_	
+7-8	I	B-ScrPart_passenger	O	_	_	
+7-9	will	O	O	_	_	
+7-10	switch	O	B-ScrEv_change_train	_	_	
+7-11	for	O	O	_	_	
+7-12	another	O	O	_	_	
+7-13	train	B-ScrPart_train	O	_	_	
+7-14	at	O	O	_	_	
+7-15	another	O	O	_	_	
+7-16	stop	B-ScrPart_other	O	_	_	
+7-17	.	O	O	_	_	
+
+#id=8
+#text=My train arrives quickly and I manage to get a seat because it was n't too busy .
+8-1	My	B-ScrPart_passenger	O	_	_	
+8-2	train	B-ScrPart_train	O	_	_	
+8-3	arrives	O	B-ScrEv_train_arrives	_	_	
+8-4	quickly	O	O	_	_	
+8-5	and	O	O	_	_	
+8-6	I	B-ScrPart_passenger	O	_	_	
+8-7	manage	O	B-UnrelEv	_	_	
+8-8	to	O	O	_	_	
+8-9	get	O	B-ScrEv_find_place	_	_	
+8-10	a	O	O	_	_	
+8-11	seat	B-ScrPart_seat	O	_	_	
+8-12	because	O	O	_	_	
+8-13	it	B-No_label	O	_	_	
+8-14	was	O	B-UnrelEv	_	_	
+8-15	n't	O	O	_	_	
+8-16	too	O	O	_	_	
+8-17	busy	O	O	_	_	
+8-18	.	O	O	_	_	
+
+#id=9
+#text=After getting off the first train and switching for another train 45 minutes later , I arrived at the destination and was on time for the meeting .
+9-1	After	O	O	_	_	
+9-2	getting	O	B-ScrEv_get_off|B-ScrEv_get_off	_	_	
+9-3	off	O	I-ScrEv_get_off	_	_	
+9-4	the	O	O	_	_	
+9-5	first	O	O	_	_	
+9-6	train	B-ScrPart_train	O	_	_	
+9-7	and	O	O	_	_	
+9-8	switching	O	B-ScrEv_change_train	_	_	
+9-9	for	O	O	_	_	
+9-10	another	O	O	_	_	
+9-11	train	B-ScrPart_train	O	_	_	
+9-12	45	O	O	_	_	
+9-13	minutes	B-ScrPart_time_date	O	_	_	
+9-14	later	O	O	_	_	
+9-15	,	O	O	_	_	
+9-16	I	B-ScrPart_passenger	O	_	_	
+9-17	arrived	O	B-ScrEv_arrive_destination	_	_	
+9-18	at	O	O	_	_	
+9-19	the	O	O	_	_	
+9-20	destination	B-ScrPart_destination	O	_	_	
+9-21	and	O	O	_	_	
+9-22	was	O	B-UnrelEv	_	_	
+9-23	on	O	O	_	_	
+9-24	time	B-ScrPart_time_date	O	_	_	
+9-25	for	O	O	_	_	
+9-26	the	O	O	_	_	
+9-27	meeting	B-NPart	O	_	_	
+9-28	.	O	O	_	_	
+
+#id=10
+#text=Now I have to repeat the commute home after the meeting and hope it will be as smooth . 
+10-1	Now	O	O	_	_	
+10-2	I	B-ScrPart_passenger	O	_	_	
+10-3	have	O	O	_	_	
+10-4	to	O	O	_	_	
+10-5	repeat	O	B-UnrelEv	_	_	
+10-6	the	O	O	_	_	
+10-7	commute	B-NPart	O	_	_	
+10-8	home	B-No_label	O	_	_	
+10-9	after	O	O	_	_	
+10-10	the	O	O	_	_	
+10-11	meeting	B-NPart	O	_	_	
+10-12	and	O	O	_	_	
+10-13	hope	O	B-UnrelEv	_	_	
+10-14	it	B-No_label	O	_	_	
+10-15	will	O	O	_	_	
+10-16	be	O	B-UnrelEv	_	_	
+10-17	as	O	O	_	_	
+10-18	smooth	O	O	_	_	
+10-19	.	O	O	_	_	
+

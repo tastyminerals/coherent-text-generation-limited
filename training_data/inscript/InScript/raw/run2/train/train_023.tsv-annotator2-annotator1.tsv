@@ -1,0 +1,292 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I was excited because I was finally going to visit my friends in Long Island .
+1-1	I	B-ScrPart_passenger	O	_	_	
+1-2	was	O	B-UnrelEv	_	_	
+1-3	excited	O	O	_	_	
+1-4	because	O	O	_	_	
+1-5	I	B-ScrPart_passenger	O	_	_	
+1-6	was	O	O	_	_	
+1-7	finally	O	O	_	_	
+1-8	going	O	O	_	_	
+1-9	to	O	O	_	_	
+1-10	visit	O	B-RelNScrEv	_	_	
+1-11	my	B-ScrPart_passenger	O	_	_	
+1-12	friends	B-NPart	O	_	_	
+1-13	in	O	O	_	_	
+1-14	Long	B-ScrPart_destination	O	_	_	
+1-15	Island	I-ScrPart_destination	O	_	_	
+1-16	.	O	O	_	_	
+
+#id=2
+#text=Whenever I thought about Long Island , I always thought about Great Gatsby and the wonderful homes that surrounded that area .
+2-1	Whenever	B-No_label	O	_	_	
+2-2	I	B-ScrPart_passenger	O	_	_	
+2-3	thought	O	B-UnrelEv	_	_	
+2-4	about	O	O	_	_	
+2-5	Long	B-ScrPart_destination	O	_	_	
+2-6	Island	I-ScrPart_destination	O	_	_	
+2-7	,	O	O	_	_	
+2-8	I	B-ScrPart_passenger	O	_	_	
+2-9	always	O	O	_	_	
+2-10	thought	O	B-UnrelEv	_	_	
+2-11	about	O	O	_	_	
+2-12	Great	B-NPart	O	_	_	
+2-13	Gatsby	I-NPart	O	_	_	
+2-14	and	O	O	_	_	
+2-15	the	O	O	_	_	
+2-16	wonderful	O	O	_	_	
+2-17	homes	B-NPart	O	_	_	
+2-18	that	O	O	_	_	
+2-19	surrounded	O	B-UnrelEv	_	_	
+2-20	that	O	O	_	_	
+2-21	area	B-ScrPart_destination	O	_	_	
+2-22	.	O	O	_	_	
+
+#id=3
+#text=When the day came to visit them , I boarded a subway train to Penn Station .
+3-1	When	O	O	_	_	
+3-2	the	O	O	_	_	
+3-3	day	B-ScrPart_time_date	O	_	_	
+3-4	came	O	B-UnrelEv	_	_	
+3-5	to	O	O	_	_	
+3-6	visit	O	B-RelNScrEv	_	_	
+3-7	them	B-NPart	O	webanno.custom.Corefchains_	1-12	
+3-8	,	O	O	_	_	
+3-9	I	B-ScrPart_passenger	O	_	_	
+3-10	boarded	O	B-UnrelEv	_	_	
+3-11	a	O	O	_	_	
+3-12	subway	B-NPart	O	_	_	
+3-13	train	I-NPart|B-NPart	O	_	_	
+3-14	to	O	O	_	_	
+3-15	Penn	B-ScrPart_train_station	O	_	_	
+3-16	Station	I-ScrPart_train_station|B-ScrPart_train_station	O	_	_	
+3-17	.	O	O	_	_	
+
+#id=4
+#text=Once I arrived at Penn Station , I looked for a machine that sold tickets .
+4-1	Once	O	O	_	_	
+4-2	I	B-ScrPart_passenger	O	_	_	
+4-3	arrived	O	B-ScrEv_get_train_station	_	_	
+4-4	at	O	O	_	_	
+4-5	Penn	B-ScrPart_train_station	O	_	_	
+4-6	Station	I-ScrPart_train_station|B-ScrPart_train_station	O	_	_	
+4-7	,	O	O	_	_	
+4-8	I	B-ScrPart_passenger	O	_	_	
+4-9	looked	O	B-RelNScrEv	_	_	
+4-10	for	O	O	_	_	
+4-11	a	O	O	_	_	
+4-12	machine	B-ScrPart_ticket_office/website	O	_	_	
+4-13	that	O	O	_	_	
+4-14	sold	O	B-UnrelEv	_	_	
+4-15	tickets	B-ScrPart_card/ticket	O	_	_	
+4-16	.	O	O	_	_	
+
+#id=5
+#text=I found a machine and bought a one way train ride to Montauk .
+5-1	I	B-ScrPart_passenger	O	_	_	
+5-2	found	O	B-RelNScrEv	_	_	
+5-3	a	O	O	_	_	
+5-4	machine	B-ScrPart_ticket_office/website	O	_	_	
+5-5	and	O	O	_	_	
+5-6	bought	O	B-ScrEv_get_tickets	_	_	
+5-7	a	O	O	_	_	
+5-8	one	B-ScrPart_card/ticket	O	_	_	
+5-9	way	I-ScrPart_card/ticket	O	_	_	
+5-10	train	I-ScrPart_card/ticket	O	_	_	
+5-11	ride	I-ScrPart_card/ticket|B-ScrPart_card/ticket	O	_	_	
+5-12	to	O	O	_	_	
+5-13	Montauk	B-ScrPart_destination	O	_	_	
+5-14	.	O	O	_	_	
+
+#id=6
+#text=It costed me about 10 dollars .
+6-1	It	B-No_label	O	_	_	
+6-2	costed	O	B-UnrelEv	_	_	
+6-3	me	B-ScrPart_passenger	O	_	_	
+6-4	about	O	O	_	_	
+6-5	10	O	O	_	_	
+6-6	dollars	B-ScrPart_payment_means	O	_	_	
+6-7	.	O	O	_	_	
+
+#id=7
+#text=Once I bought the ticket , I looked at the schedule board on the wall to see when my train would arrive and what track number it was located on .
+7-1	Once	O	O	_	_	
+7-2	I	B-ScrPart_passenger	O	_	_	
+7-3	bought	O	B-ScrEv_get_tickets	_	_	
+7-4	the	O	O	_	_	
+7-5	ticket	B-ScrPart_card/ticket	O	webanno.custom.Corefchains_	5-11	
+7-6	,	O	O	_	_	
+7-7	I	B-ScrPart_passenger	O	_	_	
+7-8	looked	O	B-ScrEv_check_time-table	_	_	
+7-9	at	O	O	_	_	
+7-10	the	O	O	_	_	
+7-11	schedule	B-ScrPart_time-table	O	_	_	
+7-12	board	I-ScrPart_time-table|B-ScrPart_time-table	O	_	_	
+7-13	on	O	O	_	_	
+7-14	the	O	O	_	_	
+7-15	wall	B-NPart	O	_	_	
+7-16	to	O	O	_	_	
+7-17	see	O	B-ScrEv_check_time-table	_	_	
+7-18	when	O	O	_	_	
+7-19	my	B-ScrPart_passenger	O	_	_	
+7-20	train	B-ScrPart_train	O	_	_	
+7-21	would	O	O	_	_	
+7-22	arrive	O	B-ScrEv_train_arrives	_	_	
+7-23	and	O	O	_	_	
+7-24	what	O	O	_	_	
+7-25	track	B-NPart	O	_	_	
+7-26	number	I-NPart|B-NPart	O	_	_	
+7-27	it	B-ScrPart_train	O	_	_	
+7-28	was	O	O	_	_	
+7-29	located	O	B-UnrelEv	_	_	
+7-30	on	O	O	_	_	
+7-31	.	O	O	_	_	
+
+#id=8
+#text=It said that the train was arriving in 2 minutes , and the track number was 16 .
+8-1	It	B-ScrPart_time-table	O	_	_	
+8-2	said	O	B-UnrelEv	_	_	
+8-3	that	O	O	_	_	
+8-4	the	O	O	_	_	
+8-5	train	B-ScrPart_train	O	_	_	
+8-6	was	O	O	_	_	
+8-7	arriving	O	B-ScrEv_train_arrives	_	_	
+8-8	in	O	O	_	_	
+8-9	2	O	O	_	_	
+8-10	minutes	B-ScrPart_time_date	O	_	_	
+8-11	,	O	O	_	_	
+8-12	and	O	O	_	_	
+8-13	the	O	O	_	_	
+8-14	track	B-NPart	O	_	_	
+8-15	number	I-NPart|B-NPart	O	_	_	
+8-16	was	O	B-UnrelEv	_	_	
+8-17	16	O	O	_	_	
+8-18	.	O	O	_	_	
+
+#id=9
+#text=I found track number 16 and waited for the train to arrive .
+9-1	I	B-ScrPart_passenger	O	_	_	
+9-2	found	O	B-ScrEv_get_platform	_	_	
+9-3	track	B-NPart	O	_	_	
+9-4	number	I-NPart|B-NPart	O	_	_	
+9-5	16	O	O	_	_	
+9-6	and	O	O	_	_	
+9-7	waited	O	B-ScrEv_wait	_	_	
+9-8	for	O	O	_	_	
+9-9	the	O	O	_	_	
+9-10	train	B-ScrPart_train	O	_	_	
+9-11	to	O	O	_	_	
+9-12	arrive	O	B-ScrEv_train_arrives	_	_	
+9-13	.	O	O	_	_	
+
+#id=10
+#text=Once it did , I simply waited for the doors to open and got on .
+10-1	Once	O	O	_	_	
+10-2	it	B-ScrPart_train	O	_	_	
+10-3	did	O	B-UnrelEv	_	_	
+10-4	,	O	O	_	_	
+10-5	I	B-ScrPart_passenger	O	_	_	
+10-6	simply	O	O	_	_	
+10-7	waited	O	B-ScrEv_wait	_	_	
+10-8	for	O	O	_	_	
+10-9	the	O	O	_	_	
+10-10	doors	B-ScrPart_door	O	_	_	
+10-11	to	O	O	_	_	
+10-12	open	O	B-ScrEv_door_opens	_	_	
+10-13	and	O	O	_	_	
+10-14	got	O	B-ScrEv_get_on	_	_	
+10-15	on	O	I-ScrEv_get_on	_	_	
+10-16	.	O	O	_	_	
+
+#id=11
+#text=The seats were super comfortable and I found a empty seat by the window .
+11-1	The	O	O	_	_	
+11-2	seats	B-ScrPart_seat	O	_	_	
+11-3	were	O	B-UnrelEv	_	_	
+11-4	super	O	O	_	_	
+11-5	comfortable	O	O	_	_	
+11-6	and	O	O	_	_	
+11-7	I	B-ScrPart_passenger	O	_	_	
+11-8	found	O	B-ScrEv_find_place	_	_	
+11-9	a	O	O	_	_	
+11-10	empty	O	O	_	_	
+11-11	seat	B-ScrPart_seat	O	_	_	
+11-12	by	O	O	_	_	
+11-13	the	O	O	_	_	
+11-14	window	B-ScrPart_location_train	O	_	_	
+11-15	.	O	O	_	_	
+
+#id=12
+#text=When the train started moving , a conductor came around collecting our tickets .
+12-1	When	O	O	_	_	
+12-2	the	O	O	_	_	
+12-3	train	B-ScrPart_train	O	_	_	
+12-4	started	O	B-UnrelEv	_	_	
+12-5	moving	O	B-ScrEv_train_departs	_	_	
+12-6	,	O	O	_	_	
+12-7	a	O	O	_	_	
+12-8	conductor	B-ScrPart_train_staff	O	_	_	
+12-9	came	O	B-ScrEv_conductor_checks	_	_	
+12-10	around	O	I-ScrEv_conductor_checks	_	_	
+12-11	collecting	O	B-ScrEv_conductor_checks	_	_	
+12-12	our	B-ScrPart_passenger	O	_	_	
+12-13	tickets	B-ScrPart_card/ticket	O	_	_	
+12-14	.	O	O	_	_	
+
+#id=13
+#text=Someone forgot to buy a ticket and had to pay extra money to buy one .
+13-1	Someone	B-ScrPart_passenger	O	_	_	
+13-2	forgot	O	B-UnrelEv	_	_	
+13-3	to	O	O	_	_	
+13-4	buy	O	B-ScrEv_get_tickets	_	_	
+13-5	a	O	O	_	_	
+13-6	ticket	B-ScrPart_card/ticket	O	_	_	
+13-7	and	O	O	_	_	
+13-8	had	O	O	_	_	
+13-9	to	O	O	_	_	
+13-10	pay	O	B-RelNScrEv	_	_	
+13-11	extra	O	O	_	_	
+13-12	money	B-ScrPart_payment_means	O	_	_	
+13-13	to	O	O	_	_	
+13-14	buy	O	B-ScrEv_get_tickets	_	_	
+13-15	one	B-ScrPart_card/ticket	O	_	_	
+13-16	.	O	O	_	_	
+
+#id=14
+#text=Apparently , tickets are more expensive on the train .
+14-1	Apparently	O	O	_	_	
+14-2	,	O	O	_	_	
+14-3	tickets	B-ScrPart_card/ticket	O	_	_	
+14-4	are	O	B-UnrelEv	_	_	
+14-5	more	O	O	_	_	
+14-6	expensive	O	O	_	_	
+14-7	on	O	O	_	_	
+14-8	the	O	O	_	_	
+14-9	train	B-ScrPart_train	O	_	_	
+14-10	.	O	O	_	_	
+
+#id=15
+#text=Once I reached my destination after 1 hour , I finally got off and went off to visit my friends . 
+15-1	Once	O	O	_	_	
+15-2	I	B-ScrPart_passenger	O	_	_	
+15-3	reached	O	B-ScrEv_arrive_destination	_	_	
+15-4	my	B-ScrPart_passenger	O	_	_	
+15-5	destination	B-ScrPart_destination	O	_	_	
+15-6	after	O	O	_	_	
+15-7	1	O	O	_	_	
+15-8	hour	B-ScrPart_time_date	O	_	_	
+15-9	,	O	O	_	_	
+15-10	I	B-ScrPart_passenger	O	_	_	
+15-11	finally	O	O	_	_	
+15-12	got	O	B-ScrEv_get_off	_	_	
+15-13	off	O	I-ScrEv_get_off	_	_	
+15-14	and	O	O	_	_	
+15-15	went	O	B-UnrelEv	_	_	
+15-16	off	O	I-UnrelEv	_	_	
+15-17	to	O	O	_	_	
+15-18	visit	O	B-RelNScrEv	_	_	
+15-19	my	B-ScrPart_passenger	O	_	_	
+15-20	friends	B-NPart	O	webanno.custom.Corefchains_	3-7	
+15-21	.	O	O	_	_	
+

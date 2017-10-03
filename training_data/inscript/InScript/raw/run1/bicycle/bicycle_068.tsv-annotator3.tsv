@@ -1,0 +1,215 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I began by finding the culprit of my flat tire , it was a nail on the side of the road .
+1-1	I	B-ScrPart_rider	O	_	_	
+1-2	began	O	B-UnrelEv	_	_	
+1-3	by	O	O	_	_	
+1-4	finding	O	B-ScrEv_notice_problem	_	_	
+1-5	the	O	O	_	_	
+1-6	culprit	B-ScrPart_object_damage	O	_	_	
+1-7	of	O	O	_	_	
+1-8	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-1	
+1-9	flat	O	O	_	_	
+1-10	tire	B-ScrPart_tire	O	_	_	
+1-11	,	O	O	_	_	
+1-12	it	O	O	_	_	
+1-13	was	O	B-UnrelEv	_	_	
+1-14	a	O	O	_	_	
+1-15	nail	B-ScrPart_object_damage	O	webanno.custom.Corefchains_	1-6	
+1-16	on	O	O	_	_	
+1-17	the	O	O	_	_	
+1-18	side	O	O	_	_	
+1-19	of	O	O	_	_	
+1-20	the	O	O	_	_	
+1-21	road	O	O	_	_	
+1-22	.	O	O	_	_	
+
+#id=2
+#text=Unfortunately I did not have a spare tire so I had to carry my bike the rest of the way home .
+2-1	Unfortunately	O	O	_	_	
+2-2	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-8	
+2-3	did	O	O	_	_	
+2-4	not	O	O	_	_	
+2-5	have	O	B-UnrelEv	_	_	
+2-6	a	O	O	_	_	
+2-7	spare	B-ScrPart_spare_tube	O	_	_	
+2-8	tire	I-ScrPart_spare_tube|B-ScrPart_spare_tube	O	_	_	
+2-9	so	O	O	_	_	
+2-10	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-2	
+2-11	had	O	O	_	_	
+2-12	to	O	O	_	_	
+2-13	carry	O	B-MissScrEv	_	_	
+2-14	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-10	
+2-15	bike	B-ScrPart_bicycle	O	_	_	
+2-16	the	O	O	_	_	
+2-17	rest	B-NPart	O	_	_	
+2-18	of	O	O	_	_	
+2-19	the	O	O	_	_	
+2-20	way	B-NPart	O	_	_	
+2-21	home	B-ScrPart_location_repair	O	_	_	
+2-22	.	O	O	_	_	
+
+#id=3
+#text=After the gruesome trek back to my house I flipped the bicycle upside down and began my repair .
+3-1	After	O	O	_	_	
+3-2	the	O	O	_	_	
+3-3	gruesome	O	O	_	_	
+3-4	trek	B-NPart	O	_	_	
+3-5	back	O	O	_	_	
+3-6	to	O	O	_	_	
+3-7	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-14	
+3-8	house	B-ScrPart_location_repair	O	webanno.custom.Corefchains_	2-21	
+3-9	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	3-7	
+3-10	flipped	O	B-ScrEv_lay_bike_down	_	_	
+3-11	the	O	O	_	_	
+3-12	bicycle	B-ScrPart_bicycle	O	webanno.custom.Corefchains_	2-15	
+3-13	upside	O	O	_	_	
+3-14	down	O	O	_	_	
+3-15	and	O	O	_	_	
+3-16	began	O	B-Evoking	_	_	
+3-17	my	B-ScrPart_rider	I-Evoking	webanno.custom.Corefchains_	3-9	
+3-18	repair	B-MissScrPart	I-Evoking	_	_	
+3-19	.	O	O	_	_	
+
+#id=4
+#text=First I took off the outer tire to replace my tube with a better more expensive tube that has the ability to fix a puncture .
+4-1	First	O	O	_	_	
+4-2	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	3-17	
+4-3	took	O	B-ScrEv_take_tire_off|B-ScrEv_take_tire_off	_	_	
+4-4	off	O	I-ScrEv_take_tire_off	_	_	
+4-5	the	O	O	_	_	
+4-6	outer	O	O	_	_	
+4-7	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	1-10	
+4-8	to	O	O	_	_	
+4-9	replace	O	B-RelNScrEv	_	_	
+4-10	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	4-2	
+4-11	tube	B-ScrPart_tire	O	webanno.custom.Corefchains_	4-7	
+4-12	with	O	O	_	_	
+4-13	a	O	O	_	_	
+4-14	better	O	O	_	_	
+4-15	more	O	O	_	_	
+4-16	expensive	O	O	_	_	
+4-17	tube	B-ScrPart_spare_tube	O	webanno.custom.Corefchains_	2-8	
+4-18	that	O	O	_	_	
+4-19	has	O	B-UnrelEv	_	_	
+4-20	the	O	O	_	_	
+4-21	ability	B-NPart	O	_	_	
+4-22	to	O	O	_	_	
+4-23	fix	O	B-RelNScrEv	_	_	
+4-24	a	O	O	_	_	
+4-25	puncture	B-SuppVComp	O	_	_	
+4-26	.	O	O	_	_	
+
+#id=5
+#text=I do not want to experience carrying my bike a mile ever again .
+5-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	4-10	
+5-2	do	O	O	_	_	
+5-3	not	O	O	_	_	
+5-4	want	O	B-UnrelEv	_	_	
+5-5	to	O	O	_	_	
+5-6	experience	O	B-UnrelEv	_	_	
+5-7	carrying	O	B-RelNScrEv	_	_	
+5-8	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	5-1	
+5-9	bike	B-ScrPart_bicycle	O	webanno.custom.Corefchains_	3-12	
+5-10	a	O	O	_	_	
+5-11	mile	B-NPart	O	_	_	
+5-12	ever	O	O	_	_	
+5-13	again	O	O	_	_	
+5-14	.	O	O	_	_	
+
+#id=6
+#text=After putting the new tube on I screw back on the tire and put the outer tire over the tube .
+6-1	After	O	O	_	_	
+6-2	putting	O	B-MissScrEv	_	_	
+6-3	the	O	O	_	_	
+6-4	new	O	O	_	_	
+6-5	tube	B-ScrPart_spare_tube	O	webanno.custom.Corefchains_	4-17	
+6-6	on	O	O	_	_	
+6-7	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	5-8	
+6-8	screw	O	B-ScrEv_put_new_tire	_	_	
+6-9	back	O	O	_	_	
+6-10	on	O	O	_	_	
+6-11	the	O	O	_	_	
+6-12	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	6-5	
+6-13	and	O	O	_	_	
+6-14	put	O	O	_	_	
+6-15	the	O	O	_	_	
+6-16	outer	O	O	_	_	
+6-17	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	6-12	
+6-18	over	O	O	_	_	
+6-19	the	O	O	_	_	
+6-20	tube	B-ScrPart_spare_tube	O	webanno.custom.Corefchains_	6-17	
+6-21	.	O	O	_	_	
+
+#id=7
+#text=I then fill the PSI to 170 in my tire and listen for any leaking air .
+7-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	6-7	
+7-2	then	O	O	_	_	
+7-3	fill	O	B-ScrEv_refill_tire_air	_	_	
+7-4	the	O	O	_	_	
+7-5	PSI	B-ScrPart_pressure	O	_	_	
+7-6	to	O	O	_	_	
+7-7	170	O	O	_	_	
+7-8	in	O	O	_	_	
+7-9	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	7-1	
+7-10	tire	B-ScrPart_spare_tube	O	webanno.custom.Corefchains_	6-20	
+7-11	and	O	O	_	_	
+7-12	listen	O	B-ScrEv_check_new_tire	_	_	
+7-13	for	O	O	_	_	
+7-14	any	O	O	_	_	
+7-15	leaking	O	B-RelNScrEv	_	_	
+7-16	air	B-ScrPart_air	O	_	_	
+7-17	.	O	O	_	_	
+
+#id=8
+#text=Then I spin the tire to make all the slime inside become evenly distributed throughout .
+8-1	Then	O	O	_	_	
+8-2	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	7-9	
+8-3	spin	O	B-MissScrEv	_	_	
+8-4	the	O	O	_	_	
+8-5	tire	B-ScrPart_spare_tube	O	webanno.custom.Corefchains_	7-10	
+8-6	to	O	O	_	_	
+8-7	make	O	B-UnrelEv	_	_	
+8-8	all	O	O	_	_	
+8-9	the	O	O	_	_	
+8-10	slime	B-MissScrPart	O	_	_	
+8-11	inside	O	O	_	_	
+8-12	become	O	O	_	_	
+8-13	evenly	O	O	_	_	
+8-14	distributed	O	B-UnrelEv	_	_	
+8-15	throughout	O	O	_	_	
+8-16	.	O	O	_	_	
+
+#id=9
+#text=This will prevent leaks in the future and even with a slight leak I will still be able to ride back home and fix the tire quickly yet again . 
+9-1	This	O	O	_	_	
+9-2	will	O	O	_	_	
+9-3	prevent	O	B-RelNScrEv	_	_	
+9-4	leaks	B-MissScrPart	O	_	_	
+9-5	in	O	O	_	_	
+9-6	the	O	O	_	_	
+9-7	future	B-NPart	O	_	_	
+9-8	and	O	O	_	_	
+9-9	even	O	O	_	_	
+9-10	with	O	O	_	_	
+9-11	a	O	O	_	_	
+9-12	slight	O	O	_	_	
+9-13	leak	B-MissScrPart	O	webanno.custom.Corefchains_	9-4	
+9-14	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	8-2	
+9-15	will	O	O	_	_	
+9-16	still	O	O	_	_	
+9-17	be	O	O	_	_	
+9-18	able	O	O	_	_	
+9-19	to	O	O	_	_	
+9-20	ride	O	B-ScrEv_ride_bike	_	_	
+9-21	back	O	O	_	_	
+9-22	home	B-ScrPart_location_repair	O	webanno.custom.Corefchains_	3-8	
+9-23	and	O	O	_	_	
+9-24	fix	O	B-RelNScrEv	_	_	
+9-25	the	O	O	_	_	
+9-26	tire	B-ScrPart_spare_tube	O	webanno.custom.Corefchains_	8-5	
+9-27	quickly	O	O	_	_	
+9-28	yet	O	O	_	_	
+9-29	again	O	O	_	_	
+9-30	.	O	O	_	_	
+

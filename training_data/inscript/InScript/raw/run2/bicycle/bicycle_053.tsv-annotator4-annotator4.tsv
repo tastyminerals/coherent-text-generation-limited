@@ -1,0 +1,210 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=When I was riding my bike last week I must have ran over something sharp , because when I got home I noticed that the front tire was flat .
+1-1	When	O	O	
+1-2	I	B-ScrPart_rider	O	
+1-3	was	O	O	
+1-4	riding	O	B-ScrEv_ride_bike	
+1-5	my	B-ScrPart_rider	O	
+1-6	bike	B-ScrPart_bicycle	O	
+1-7	last	O	O	
+1-8	week	B-NPart	O	
+1-9	I	B-ScrPart_rider	O	
+1-10	must	O	O	
+1-11	have	O	O	
+1-12	ran	O	B-RelNScrEv	
+1-13	over	O	O	
+1-14	something	B-ScrPart_object_damage	O	
+1-15	sharp	O	O	
+1-16	,	O	O	
+1-17	because	O	O	
+1-18	when	O	O	
+1-19	I	B-ScrPart_rider	O	
+1-20	got	O	B-RelNScrEv	
+1-21	home	B-NPart	O	
+1-22	I	B-ScrPart_rider	O	
+1-23	noticed	O	B-ScrEv_notice_problem	
+1-24	that	O	O	
+1-25	the	O	O	
+1-26	front	O	O	
+1-27	tire	B-ScrPart_tire	O	
+1-28	was	O	B-UnrelEv	
+1-29	flat	O	O	
+1-30	.	O	O	
+
+#id=2
+#text=This was annoying especially since I did n't have the equipment to fix it .
+2-1	This	O	O	
+2-2	was	O	O	
+2-3	annoying	O	B-UnrelEv	
+2-4	especially	O	O	
+2-5	since	O	O	
+2-6	I	B-ScrPart_rider	O	
+2-7	did	O	O	
+2-8	n't	O	O	
+2-9	have	O	B-UnrelEv	
+2-10	the	O	O	
+2-11	equipment	B-ScrPart_tool	O	
+2-12	to	O	O	
+2-13	fix	O	B-Evoking	
+2-14	it	B-ScrPart_tire	I-Evoking	
+2-15	.	O	O	
+
+#id=3
+#text=So later that day I drove over to the local sports store and bought a new tire inner tube and an air pump .
+3-1	So	O	O	
+3-2	later	O	O	
+3-3	that	O	O	
+3-4	day	B-NPart	O	
+3-5	I	B-ScrPart_rider	O	
+3-6	drove	O	B-RelNScrEv	
+3-7	over	O	O	
+3-8	to	O	O	
+3-9	the	O	O	
+3-10	local	O	O	
+3-11	sports	B-ScrPart_shop	O	
+3-12	store	I-ScrPart_shop|B-ScrPart_shop	O	
+3-13	and	O	O	
+3-14	bought	O	B-ScrEv_get_tire	
+3-15	a	O	O	
+3-16	new	O	O	
+3-17	tire	B-ScrPart_spare_tube	O	
+3-18	inner	I-ScrPart_spare_tube	O	
+3-19	tube	I-ScrPart_spare_tube|B-ScrPart_spare_tube	O	
+3-20	and	O	O	
+3-21	an	O	O	
+3-22	air	B-ScrPart_tool	O	
+3-23	pump	I-ScrPart_tool|B-ScrPart_tool	O	
+3-24	.	O	O	
+
+#id=4
+#text=When I got home I took out the old punctured inner tube from the tire and replaced it with the new once .
+4-1	When	O	O	
+4-2	I	B-ScrPart_rider	O	
+4-3	got	O	B-RelNScrEv	
+4-4	home	B-NPart	O	
+4-5	I	B-ScrPart_rider	O	
+4-6	took	O	B-ScrEv_remove_tire	
+4-7	out	O	I-ScrEv_remove_tire	
+4-8	the	O	O	
+4-9	old	O	O	
+4-10	punctured	O	B-RelNScrEv	
+4-11	inner	O	O	
+4-12	tube	B-ScrPart_tire	O	
+4-13	from	O	O	
+4-14	the	O	O	
+4-15	tire	B-ScrPart_tire	O	
+4-16	and	O	O	
+4-17	replaced	O	B-ScrEv_put_new_tire	
+4-18	it	B-ScrPart_tire	O	
+4-19	with	O	O	
+4-20	the	O	O	
+4-21	new	O	O	
+4-22	once	B-ScrPart_spare_tube	O	
+4-23	.	O	O	
+
+#id=5
+#text=I then unscrewed the air cap on the tire and attached the air pump .
+5-1	I	B-ScrPart_rider	O	
+5-2	then	O	O	
+5-3	unscrewed	O	B-ScrEv_pull_air_pin	
+5-4	the	O	O	
+5-5	air	B-ScrPart_bicycle_small_detail	O	
+5-6	cap	I-ScrPart_bicycle_small_detail|B-ScrPart_bicycle_small_detail	O	
+5-7	on	O	O	
+5-8	the	O	O	
+5-9	tire	B-ScrPart_tire	O	
+5-10	and	O	O	
+5-11	attached	O	B-ScrEv_refill_tire_air	
+5-12	the	O	O	
+5-13	air	B-ScrPart_tool	O	
+5-14	pump	I-ScrPart_tool|B-ScrPart_tool	O	
+5-15	.	O	O	
+
+#id=6
+#text=I began pumping air into the tire , it took about 30 pumps before it was fully filled up with air .
+6-1	I	B-ScrPart_rider	O	
+6-2	began	O	B-UnrelEv	
+6-3	pumping	O	B-ScrEv_refill_tire_air	
+6-4	air	B-ScrPart_air	O	
+6-5	into	O	O	
+6-6	the	O	O	
+6-7	tire	B-ScrPart_tire	O	
+6-8	,	O	O	
+6-9	it	B-No_label	O	
+6-10	took	O	B-UnrelEv	
+6-11	about	O	O	
+6-12	30	O	O	
+6-13	pumps	B-NPart	O	
+6-14	before	O	O	
+6-15	it	B-ScrPart_tire	O	
+6-16	was	O	O	
+6-17	fully	O	O	
+6-18	filled	O	B-ScrEv_refill_tire_air	
+6-19	up	O	I-ScrEv_refill_tire_air	
+6-20	with	O	O	
+6-21	air	B-ScrPart_air	O	
+6-22	.	O	O	
+
+#id=7
+#text=I then got on the bike and tested it to see how it would hold up .
+7-1	I	B-ScrPart_rider	O	
+7-2	then	O	O	
+7-3	got	O	B-ScrEv_ride_bike	
+7-4	on	O	O	
+7-5	the	O	O	
+7-6	bike	B-ScrPart_bicycle	O	
+7-7	and	O	O	
+7-8	tested	O	B-ScrEv_check_new_tire	
+7-9	it	B-ScrPart_tire	O	
+7-10	to	O	O	
+7-11	see	O	B-ScrEv_check_new_tire	
+7-12	how	O	O	
+7-13	it	B-ScrPart_tire	O	
+7-14	would	O	O	
+7-15	hold	O	B-RelNScrEv	
+7-16	up	O	I-RelNScrEv	
+7-17	.	O	O	
+
+#id=8
+#text=It felt good as new .
+8-1	It	B-No_label	O	
+8-2	felt	O	B-UnrelEv	
+8-3	good	O	O	
+8-4	as	O	O	
+8-5	new	O	O	
+8-6	.	O	O	
+
+#id=9
+#text=I rode around happy that it was fixed , and also happy that I now had the equipment to fix it again if it went flat in the future . 
+9-1	I	B-ScrPart_rider	O	
+9-2	rode	O	B-ScrEv_ride_bike	
+9-3	around	O	O	
+9-4	happy	O	O	
+9-5	that	O	O	
+9-6	it	B-ScrPart_tire	O	
+9-7	was	O	O	
+9-8	fixed	O	B-Evoking	
+9-9	,	O	O	
+9-10	and	O	O	
+9-11	also	O	O	
+9-12	happy	O	O	
+9-13	that	O	O	
+9-14	I	B-ScrPart_rider	O	
+9-15	now	O	O	
+9-16	had	O	B-ScrEv_get_tools	
+9-17	the	O	O	
+9-18	equipment	B-ScrPart_tool	O	
+9-19	to	O	O	
+9-20	fix	O	B-Evoking	
+9-21	it	B-ScrPart_tire	I-Evoking	
+9-22	again	O	O	
+9-23	if	O	O	
+9-24	it	B-ScrPart_tire	O	
+9-25	went	O	B-RelNScrEv	
+9-26	flat	O	O	
+9-27	in	O	O	
+9-28	the	O	O	
+9-29	future	B-No_label	O	
+9-30	.	O	O	
+

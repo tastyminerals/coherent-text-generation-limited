@@ -1,0 +1,209 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Traveling by train can be very convenient and\/or relaxing .
+1-1	Traveling	B-Evoking	O	_	_	
+1-2	by	I-Evoking	O	_	_	
+1-3	train	I-Evoking	B-ScrPart_train	_	_	
+1-4	can	O	O	_	_	
+1-5	be	B-UnrelEv	O	_	_	
+1-6	very	O	O	_	_	
+1-7	convenient	O	O	_	_	
+1-8	and\/or	O	O	_	_	
+1-9	relaxing	B-UnrelEv	O	_	_	
+1-10	.	O	O	_	_	
+
+#id=2
+#text=Some trains , like commuter trains , can get you into a city without having to rely on cars or walking .
+2-1	Some	O	O	_	_	
+2-2	trains	O	B-ScrPart_train	webanno.custom.Corefchains_	1-3	
+2-3	,	O	O	_	_	
+2-4	like	O	O	_	_	
+2-5	commuter	O	B-ScrPart_train	_	_	
+2-6	trains	O	I-ScrPart_train|B-ScrPart_train	webanno.custom.Corefchains_	2-2	
+2-7	,	O	O	_	_	
+2-8	can	O	O	_	_	
+2-9	get	B-RelNScrEv	O	_	_	
+2-10	you	O	B-ScrPart_passenger	_	_	
+2-11	into	O	O	_	_	
+2-12	a	O	O	_	_	
+2-13	city	O	B-ScrPart_destination	_	_	
+2-14	without	O	O	_	_	
+2-15	having	O	O	_	_	
+2-16	to	O	O	_	_	
+2-17	rely	B-UnrelEv	O	_	_	
+2-18	on	O	O	_	_	
+2-19	cars	O	O	_	_	
+2-20	or	O	O	_	_	
+2-21	walking	B-UnrelEv	O	_	_	
+2-22	.	O	O	_	_	
+
+#id=3
+#text=This is very quick , affordable , and convenient !
+3-1	This	O	O	_	_	
+3-2	is	B-UnrelEv	O	_	_	
+3-3	very	O	O	_	_	
+3-4	quick	O	O	_	_	
+3-5	,	O	O	_	_	
+3-6	affordable	O	O	_	_	
+3-7	,	O	O	_	_	
+3-8	and	O	O	_	_	
+3-9	convenient	O	O	_	_	
+3-10	!	O	O	_	_	
+
+#id=4
+#text=You simply hop on the train at your stop and hop off when you need to .
+4-1	You	O	B-ScrPart_passenger	webanno.custom.Corefchains_	2-10	
+4-2	simply	O	O	_	_	
+4-3	hop	B-MissScrEv	O	_	_	
+4-4	on	O	O	_	_	
+4-5	the	O	O	_	_	
+4-6	train	O	B-ScrPart_train	webanno.custom.Corefchains_	2-6	
+4-7	at	O	O	_	_	
+4-8	your	O	B-ScrPart_passenger	webanno.custom.Corefchains_	4-1	
+4-9	stop	O	B-ScrPart_train_station	_	_	
+4-10	and	O	O	_	_	
+4-11	hop	B-ScrEv_get_off	O	_	_	
+4-12	off	I-ScrEv_get_off	O	_	_	
+4-13	when	O	O	_	_	
+4-14	you	O	B-ScrPart_passenger	webanno.custom.Corefchains_	4-8	
+4-15	need	B-UnrelEv	O	_	_	
+4-16	to	O	O	_	_	
+4-17	.	O	O	_	_	
+
+#id=5
+#text=Most commuter trains offer passes that are a great discount for people who ride it often .
+5-1	Most	O	O	_	_	
+5-2	commuter	O	B-ScrPart_train	_	_	
+5-3	trains	O	I-ScrPart_train|B-ScrPart_train	webanno.custom.Corefchains_	4-6	
+5-4	offer	B-UnrelEv	O	_	_	
+5-5	passes	O	B-ScrPart_card/ticket	_	_	
+5-6	that	O	O	_	_	
+5-7	are	B-UnrelEv	O	_	_	
+5-8	a	O	O	_	_	
+5-9	great	O	O	_	_	
+5-10	discount	O	O	_	_	
+5-11	for	O	O	_	_	
+5-12	people	O	B-ScrPart_passenger	webanno.custom.Corefchains_	4-14	
+5-13	who	O	O	_	_	
+5-14	ride	B-Evoking	O	_	_	
+5-15	it	I-Evoking	B-ScrPart_train	webanno.custom.Corefchains_	5-3	
+5-16	often	O	O	_	_	
+5-17	.	O	O	_	_	
+
+#id=6
+#text=Other trains travel long distances .
+6-1	Other	O	O	_	_	
+6-2	trains	O	B-ScrPart_train	webanno.custom.Corefchains_	5-15	
+6-3	travel	B-RelNScrEv	O	_	_	
+6-4	long	O	O	_	_	
+6-5	distances	O	B-NPart	_	_	
+6-6	.	O	O	_	_	
+
+#id=7
+#text=Perhaps you do n't like to fly or do n't want to drive your car a long distance .
+7-1	Perhaps	O	O	_	_	
+7-2	you	O	B-ScrPart_passenger	webanno.custom.Corefchains_	5-12	
+7-3	do	O	O	_	_	
+7-4	n't	O	O	_	_	
+7-5	like	B-UnrelEv	O	_	_	
+7-6	to	O	O	_	_	
+7-7	fly	B-UnrelEv	O	_	_	
+7-8	or	O	O	_	_	
+7-9	do	O	O	_	_	
+7-10	n't	O	O	_	_	
+7-11	want	O	O	_	_	
+7-12	to	O	O	_	_	
+7-13	drive	B-UnrelEv	O	_	_	
+7-14	your	O	B-ScrPart_passenger	webanno.custom.Corefchains_	7-2	
+7-15	car	O	O	_	_	
+7-16	a	O	O	_	_	
+7-17	long	O	O	_	_	
+7-18	distance	O	O	_	_	
+7-19	.	O	O	_	_	
+
+#id=8
+#text=If you ride a train , you can see the beautiful scenery as you travel but you are free to walk around , read , chat , or even grab a bite to eat !
+8-1	If	O	O	_	_	
+8-2	you	O	B-ScrPart_passenger	webanno.custom.Corefchains_	7-14	
+8-3	ride	B-Evoking	O	_	_	
+8-4	a	I-Evoking	O	_	_	
+8-5	train	I-Evoking	B-ScrPart_train	webanno.custom.Corefchains_	6-2	
+8-6	,	O	O	_	_	
+8-7	you	O	B-ScrPart_passenger	webanno.custom.Corefchains_	8-2	
+8-8	can	O	O	_	_	
+8-9	see	B-ScrEv_spend_time_train	O	_	_	
+8-10	the	O	O	_	_	
+8-11	beautiful	O	O	_	_	
+8-12	scenery	O	B-ScrPart_in-train_entertainment	_	_	
+8-13	as	O	O	_	_	
+8-14	you	O	B-ScrPart_passenger	webanno.custom.Corefchains_	8-7	
+8-15	travel	B-RelNScrEv	O	_	_	
+8-16	but	O	O	_	_	
+8-17	you	O	B-ScrPart_passenger	webanno.custom.Corefchains_	8-14	
+8-18	are	B-UnrelEv	O	_	_	
+8-19	free	O	O	_	_	
+8-20	to	O	O	_	_	
+8-21	walk	B-ScrEv_spend_time_train	O	_	_	
+8-22	around	I-ScrEv_spend_time_train	O	_	_	
+8-23	,	O	O	_	_	
+8-24	read	B-ScrEv_spend_time_train	O	_	_	
+8-25	,	O	O	_	_	
+8-26	chat	B-ScrEv_spend_time_train	O	_	_	
+8-27	,	O	O	_	_	
+8-28	or	O	O	_	_	
+8-29	even	O	O	_	_	
+8-30	grab	B-ScrEv_spend_time_train	O	_	_	
+8-31	a	O	O	_	_	
+8-32	bite	O	B-ScrPart_in-train_entertainment	_	_	
+8-33	to	O	O	_	_	
+8-34	eat	B-ScrEv_spend_time_train	O	_	_	
+8-35	!	O	O	_	_	
+
+#id=9
+#text=Some trains also have sleeper cars so travelers can be well-rested when they arrive at their destination .
+9-1	Some	O	O	_	_	
+9-2	trains	O	B-ScrPart_train	webanno.custom.Corefchains_	8-5	
+9-3	also	O	O	_	_	
+9-4	have	B-UnrelEv	O	_	_	
+9-5	sleeper	O	B-ScrPart_coach	_	_	
+9-6	cars	O	I-ScrPart_coach|B-ScrPart_coach	_	_	
+9-7	so	O	O	_	_	
+9-8	travelers	O	B-ScrPart_passenger	webanno.custom.Corefchains_	8-17	
+9-9	can	O	O	_	_	
+9-10	be	B-UnrelEv	O	_	_	
+9-11	well-rested	O	O	_	_	
+9-12	when	O	O	_	_	
+9-13	they	O	B-ScrPart_passenger	webanno.custom.Corefchains_	9-8	
+9-14	arrive	B-ScrEv_arrive_destination	O	_	_	
+9-15	at	O	O	_	_	
+9-16	their	O	B-ScrPart_passenger	webanno.custom.Corefchains_	9-13	
+9-17	destination	O	B-ScrPart_destination	webanno.custom.Corefchains_	2-13	
+9-18	.	O	O	_	_	
+
+#id=10
+#text=There are many conveniences to going on a train that make it a great option for getting from point A to point B ! 
+10-1	There	O	O	_	_	
+10-2	are	B-UnrelEv	O	_	_	
+10-3	many	O	O	_	_	
+10-4	conveniences	O	O	_	_	
+10-5	to	O	O	_	_	
+10-6	going	B-Evoking	O	_	_	
+10-7	on	I-Evoking	O	_	_	
+10-8	a	I-Evoking	O	_	_	
+10-9	train	I-Evoking	B-ScrPart_train	webanno.custom.Corefchains_	9-2	
+10-10	that	O	O	_	_	
+10-11	make	B-UnrelEv	O	_	_	
+10-12	it	O	O	_	_	
+10-13	a	O	O	_	_	
+10-14	great	O	O	_	_	
+10-15	option	O	O	_	_	
+10-16	for	O	O	_	_	
+10-17	getting	B-RelNScrEv	O	_	_	
+10-18	from	O	O	_	_	
+10-19	point	O	B-NPart	_	_	
+10-20	A	O	I-NPart	_	_	
+10-21	to	O	O	_	_	
+10-22	point	O	B-ScrPart_destination	webanno.custom.Corefchains_	9-17	
+10-23	B	O	I-ScrPart_destination	webanno.custom.Corefchains_	9-17	
+10-24	!	O	O	_	_	
+

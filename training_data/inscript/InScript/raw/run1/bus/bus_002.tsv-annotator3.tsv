@@ -1,0 +1,246 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Eventsandparticipants | Event # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I live near Blacksburg , Virginia and often stay with friends who live near Virginia Tech .
+1-1	I	B-ScrPart_passenger	O	_	_	
+1-2	live	O	B-UnrelEv	_	_	
+1-3	near	O	O	_	_	
+1-4	Blacksburg	O	O	_	_	
+1-5	,	O	O	_	_	
+1-6	Virginia	O	O	_	_	
+1-7	and	O	O	_	_	
+1-8	often	O	O	_	_	
+1-9	stay	O	B-UnrelEv	_	_	
+1-10	with	O	O	_	_	
+1-11	friends	B-ScrPart_passenger	O	group_I_friends	1-1	
+1-12	who	O	O	_	_	
+1-13	live	O	B-UnrelEv	_	_	
+1-14	near	O	O	_	_	
+1-15	Virginia	O	O	_	_	
+1-16	Tech	O	O	_	_	
+1-17	.	O	O	_	_	
+
+#id=2
+#text=A bus route stops at their apartment complex and we often ride it downtown to eat brunch after a late night .
+2-1	A	O	O	_	_	
+2-2	bus	B-ScrPart_bus	B-Evoking	_	_	
+2-3	route	O	I-Evoking	_	_	
+2-4	stops	O	B-UnrelEv	_	_	
+2-5	at	O	O	_	_	
+2-6	their	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-11	
+2-7	apartment	O	O	_	_	
+2-8	complex	O	O	_	_	
+2-9	and	O	O	_	_	
+2-10	we	B-ScrPart_passenger	O	group_I_friends	1-11	
+2-11	often	O	O	_	_	
+2-12	ride	O	B-Evoking	_	_	
+2-13	it	B-ScrPart_bus	I-Evoking	webanno.custom.Corefchains_	2-2	
+2-14	downtown	O	O	_	_	
+2-15	to	O	O	_	_	
+2-16	eat	O	B-UnrelEv	_	_	
+2-17	brunch	O	O	_	_	
+2-18	after	O	O	_	_	
+2-19	a	O	O	_	_	
+2-20	late	O	O	_	_	
+2-21	night	O	O	_	_	
+2-22	.	O	O	_	_	
+
+#id=3
+#text=Nothing unusual ever happens .
+3-1	Nothing	O	O	_	_	
+3-2	unusual	O	O	_	_	
+3-3	ever	O	O	_	_	
+3-4	happens	O	B-UnrelEv	_	_	
+3-5	.	O	O	_	_	
+
+#id=4
+#text=We get ready and go to the bus stop .
+4-1	We	B-ScrPart_passenger	O	group_I_friends	2-10	
+4-2	get	O	B-UnrelEv	_	_	
+4-3	ready	O	O	_	_	
+4-4	and	O	O	_	_	
+4-5	go	O	B-ScrEv_get_bus_stop	_	_	
+4-6	to	O	O	_	_	
+4-7	the	O	O	_	_	
+4-8	bus	B-ScrPart_bus_stop	O	_	_	
+4-9	stop	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	_	_	
+4-10	.	O	O	_	_	
+
+#id=5
+#text=There 's a bench and it 's covered but there 's no doors .
+5-1	There	B-ScrPart_bus_stop	O	webanno.custom.Corefchains_	4-9	
+5-2	's	O	B-UnrelEv	_	_	
+5-3	a	O	O	_	_	
+5-4	bench	O	O	_	_	
+5-5	and	O	O	_	_	
+5-6	it	O	O	_	_	
+5-7	's	O	B-UnrelEv	_	_	
+5-8	covered	O	B-UnrelEv	_	_	
+5-9	but	O	O	_	_	
+5-10	there	O	O	_	_	
+5-11	's	O	B-UnrelEv	_	_	
+5-12	no	O	O	_	_	
+5-13	doors	O	O	_	_	
+5-14	.	O	O	_	_	
+
+#id=6
+#text=The bus is always on time and we hop on .
+6-1	The	O	O	_	_	
+6-2	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	2-13	
+6-3	is	O	B-ScrEv_bus_comes	_	_	
+6-4	always	O	O	_	_	
+6-5	on	O	O	_	_	
+6-6	time	B-ScrPart_time/date	O	_	_	
+6-7	and	O	O	_	_	
+6-8	we	B-ScrPart_passenger	O	group_I_friends	4-1	
+6-9	hop	O	B-ScrEv_board_bus|B-ScrEv_board_bus	_	_	
+6-10	on	O	I-ScrEv_board_bus	_	_	
+6-11	.	O	O	_	_	
+
+#id=7
+#text=It 's never crowded so we can always find a seat .
+7-1	It	B-ScrPart_bus	O	webanno.custom.Corefchains_	6-2	
+7-2	's	O	B-RelNScrEv	_	_	
+7-3	never	O	O	_	_	
+7-4	crowded	O	B-UnrelEv	_	_	
+7-5	so	O	O	_	_	
+7-6	we	B-ScrPart_passenger	O	group_I_friends	6-8	
+7-7	can	O	B-UnrelEv	_	_	
+7-8	always	O	O	_	_	
+7-9	find	O	B-ScrEv_find_place	_	_	
+7-10	a	O	O	_	_	
+7-11	seat	B-ScrPart_seat_in_bus	O	_	_	
+7-12	.	O	O	_	_	
+
+#id=8
+#text=The varying bus drivers are nice and we hop on , pay , and take our seats .
+8-1	The	O	O	_	_	
+8-2	varying	O	O	_	_	
+8-3	bus	B-ScrPart_bus_staff	O	_	_	
+8-4	drivers	I-ScrPart_bus_staff|B-ScrPart_bus_staff	O	_	_	
+8-5	are	O	B-RelNScrEv	_	_	
+8-6	nice	O	O	_	_	
+8-7	and	O	O	_	_	
+8-8	we	B-ScrPart_passenger	O	group_I_friends	7-6	
+8-9	hop	O	B-ScrEv_board_bus|B-ScrEv_board_bus	_	_	
+8-10	on	O	I-ScrEv_board_bus	_	_	
+8-11	,	O	O	_	_	
+8-12	pay	O	B-ScrEv_get_ticket	_	_	
+8-13	,	O	O	_	_	
+8-14	and	O	O	_	_	
+8-15	take	O	B-ScrEv_take_seat	_	_	
+8-16	our	B-ScrPart_passenger	O	group_I_friends	8-8	
+8-17	seats	B-ScrPart_seat_in_bus	O	_	_	
+8-18	.	O	O	_	_	
+
+#id=9
+#text=The ride downtown takes about 10 minutes because of other stops .
+9-1	The	O	O	_	_	
+9-2	ride	B-MissScrPart	O	_	_	
+9-3	downtown	O	O	_	_	
+9-4	takes	O	B-RelNScrEv	_	_	
+9-5	about	O	O	_	_	
+9-6	10	O	O	_	_	
+9-7	minutes	B-ScrPart_time/date	O	_	_	
+9-8	because	O	O	_	_	
+9-9	of	O	O	_	_	
+9-10	other	O	O	_	_	
+9-11	stops	B-ScrPart_bus_stop	O	_	_	
+9-12	.	O	O	_	_	
+
+#id=10
+#text=No other passengers ever talk to each other and honestly groups of friends from different races stick together .
+10-1	No	O	O	_	_	
+10-2	other	O	O	_	_	
+10-3	passengers	O	O	_	_	
+10-4	ever	O	O	_	_	
+10-5	talk	O	B-UnrelEv	_	_	
+10-6	to	O	O	_	_	
+10-7	each	O	O	_	_	
+10-8	other	O	O	_	_	
+10-9	and	O	O	_	_	
+10-10	honestly	O	O	_	_	
+10-11	groups	O	O	_	_	
+10-12	of	O	O	_	_	
+10-13	friends	O	O	_	_	
+10-14	from	O	O	_	_	
+10-15	different	O	O	_	_	
+10-16	races	O	O	_	_	
+10-17	stick	O	B-UnrelEv	_	_	
+10-18	together	O	O	_	_	
+10-19	.	O	O	_	_	
+
+#id=11
+#text=Being near a college such as Virginia Tech makes for a very diverse area where different cultures intermingle but the bus seems to have the most obviously segregated groups .
+11-1	Being	O	B-UnrelEv	_	_	
+11-2	near	O	O	_	_	
+11-3	a	O	O	_	_	
+11-4	college	O	O	_	_	
+11-5	such	O	O	_	_	
+11-6	as	O	O	_	_	
+11-7	Virginia	O	O	_	_	
+11-8	Tech	O	O	_	_	
+11-9	makes	O	B-UnrelEv|B-UnrelEv	_	_	
+11-10	for	O	I-UnrelEv	_	_	
+11-11	a	O	O	_	_	
+11-12	very	O	O	_	_	
+11-13	diverse	O	O	_	_	
+11-14	area	O	O	_	_	
+11-15	where	O	O	_	_	
+11-16	different	O	O	_	_	
+11-17	cultures	O	O	_	_	
+11-18	intermingle	O	B-UnrelEv	_	_	
+11-19	but	O	O	_	_	
+11-20	the	O	O	_	_	
+11-21	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	7-1	
+11-22	seems	O	B-UnrelEv	_	_	
+11-23	to	O	O	_	_	
+11-24	have	O	B-RelNScrEv	_	_	
+11-25	the	O	O	_	_	
+11-26	most	O	O	_	_	
+11-27	obviously	O	O	_	_	
+11-28	segregated	O	B-UnrelEv	_	_	
+11-29	groups	B-ScrPart_passenger	O	_	_	
+11-30	.	O	O	_	_	
+
+#id=12
+#text=We get to our stop and enjoy brunch .
+12-1	We	B-ScrPart_passenger	O	group_I_friends	8-16	
+12-2	get	O	B-MissScrEv|B-MissScrEv	_	_	
+12-3	to	O	I-MissScrEv	_	_	
+12-4	our	B-ScrPart_passenger	O	group_I_friends	12-1	
+12-5	stop	B-ScrPart_bus_stop	O	_	_	
+12-6	and	O	O	_	_	
+12-7	enjoy	O	B-UnrelEv	_	_	
+12-8	brunch	O	O	_	_	
+12-9	.	O	O	_	_	
+
+#id=13
+#text=I like riding the bus because of the convenience factor , no parking , and it feels like we are doing something to help the environment . 
+13-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-1	
+13-2	like	O	B-UnrelEv	_	_	
+13-3	riding	O	B-RelNScrEv	_	_	
+13-4	the	O	O	_	_	
+13-5	bus	B-ScrPart_bus	O	group_I_friends	11-21	
+13-6	because	O	O	_	_	
+13-7	of	O	O	_	_	
+13-8	the	O	O	_	_	
+13-9	convenience	O	O	_	_	
+13-10	factor	O	O	_	_	
+13-11	,	O	O	_	_	
+13-12	no	O	O	_	_	
+13-13	parking	O	B-UnrelEv	_	_	
+13-14	,	O	O	_	_	
+13-15	and	O	O	_	_	
+13-16	it	O	O	_	_	
+13-17	feels	O	B-UnrelEv	_	_	
+13-18	like	O	O	_	_	
+13-19	we	O	O	_	_	
+13-20	are	O	O	_	_	
+13-21	doing	O	B-UnrelEv	_	_	
+13-22	something	O	O	_	_	
+13-23	to	O	O	_	_	
+13-24	help	O	B-UnrelEv	_	_	
+13-25	the	O	O	_	_	
+13-26	environment	O	O	_	_	
+13-27	.	O	O	_	_	
+

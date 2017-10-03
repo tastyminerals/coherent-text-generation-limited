@@ -1,0 +1,211 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Sometimes , something happens that can really just ruin your day .
+1-1	Sometimes	O	O	_	_	
+1-2	,	O	O	_	_	
+1-3	something	O	O	_	_	
+1-4	happens	B-UnrelEv	O	_	_	
+1-5	that	O	O	_	_	
+1-6	can	O	O	_	_	
+1-7	really	O	O	_	_	
+1-8	just	O	O	_	_	
+1-9	ruin	B-UnrelEv	O	_	_	
+1-10	your	O	B-ScrPart_rider	_	_	
+1-11	day	O	O	_	_	
+1-12	.	O	O	_	_	
+
+#id=2
+#text=Take , for example , going for a fun bicycle ride only to have the tire go flat !
+2-1	Take	B-UnrelEv	O	_	_	
+2-2	,	O	O	_	_	
+2-3	for	O	O	_	_	
+2-4	example	O	O	_	_	
+2-5	,	O	O	_	_	
+2-6	going	B-ScrEv_ride_bike	O	_	_	
+2-7	for	O	O	_	_	
+2-8	a	O	O	_	_	
+2-9	fun	O	O	_	_	
+2-10	bicycle	O	B-MissScrPart	_	_	
+2-11	ride	O	I-MissScrPart|B-MissScrPart	_	_	
+2-12	only	O	O	_	_	
+2-13	to	O	O	_	_	
+2-14	have	B-UnrelEv	O	_	_	
+2-15	the	O	O	_	_	
+2-16	tire	O	B-ScrPart_tire	_	_	
+2-17	go	B-RelNScrEv	O	_	_	
+2-18	flat	O	O	_	_	
+2-19	!	O	O	_	_	
+
+#id=3
+#text=When something like this happens , it can seem like a big deal , but is only a small inconvenience .
+3-1	When	O	O	_	_	
+3-2	something	O	O	_	_	
+3-3	like	O	O	_	_	
+3-4	this	O	O	_	_	
+3-5	happens	B-UnrelEv	O	_	_	
+3-6	,	O	O	_	_	
+3-7	it	O	O	_	_	
+3-8	can	O	O	_	_	
+3-9	seem	B-UnrelEv	O	_	_	
+3-10	like	O	O	_	_	
+3-11	a	O	O	_	_	
+3-12	big	O	O	_	_	
+3-13	deal	O	O	_	_	
+3-14	,	O	O	_	_	
+3-15	but	O	O	_	_	
+3-16	is	B-UnrelEv	O	_	_	
+3-17	only	O	O	_	_	
+3-18	a	O	O	_	_	
+3-19	small	O	O	_	_	
+3-20	inconvenience	O	O	_	_	
+3-21	.	O	O	_	_	
+
+#id=4
+#text=I do n't even know how to repair a flat bicycle tire , but I know how I could do it myself .
+4-1	I	O	B-ScrPart_rider	webanno.custom.Corefchains_	1-10	
+4-2	do	O	O	_	_	
+4-3	n't	O	O	_	_	
+4-4	even	O	O	_	_	
+4-5	know	B-UnrelEv	O	_	_	
+4-6	how	O	O	_	_	
+4-7	to	O	O	_	_	
+4-8	repair	B-Evoking	O	_	_	
+4-9	a	I-Evoking	O	_	_	
+4-10	flat	I-Evoking	O	_	_	
+4-11	bicycle	I-Evoking	B-ScrPart_tire	_	_	
+4-12	tire	I-Evoking	I-ScrPart_tire|B-ScrPart_tire	webanno.custom.Corefchains_	2-16	
+4-13	,	O	O	_	_	
+4-14	but	O	O	_	_	
+4-15	I	O	B-ScrPart_rider	webanno.custom.Corefchains_	4-1	
+4-16	know	B-UnrelEv	O	_	_	
+4-17	how	O	O	_	_	
+4-18	I	O	B-ScrPart_rider	webanno.custom.Corefchains_	4-15	
+4-19	could	O	O	_	_	
+4-20	do	B-UnrelEv	O	_	_	
+4-21	it	O	O	_	_	
+4-22	myself	O	B-ScrPart_rider	webanno.custom.Corefchains_	4-18	
+4-23	.	O	O	_	_	
+
+#id=5
+#text=First , I would read about how to fix it and maybe look at a video from the internet .
+5-1	First	O	O	_	_	
+5-2	,	O	O	_	_	
+5-3	I	O	B-ScrPart_rider	webanno.custom.Corefchains_	4-22	
+5-4	would	O	O	_	_	
+5-5	read	B-MissScrEv	O	_	_	
+5-6	about	O	O	_	_	
+5-7	how	O	O	_	_	
+5-8	to	O	O	_	_	
+5-9	fix	B-Evoking	O	_	_	
+5-10	it	I-Evoking	B-ScrPart_tire	webanno.custom.Corefchains_	4-12	
+5-11	and	O	O	_	_	
+5-12	maybe	O	O	_	_	
+5-13	look	B-MissScrEv	O	_	_	
+5-14	at	O	O	_	_	
+5-15	a	O	O	_	_	
+5-16	video	O	B-MissScrPart	_	_	
+5-17	from	O	O	_	_	
+5-18	the	O	O	_	_	
+5-19	internet	O	B-NPart	_	_	
+5-20	.	O	O	_	_	
+
+#id=6
+#text=After I have learned how to repair it , I would go to the store to get some supplies .
+6-1	After	O	O	_	_	
+6-2	I	O	B-ScrPart_rider	webanno.custom.Corefchains_	5-3	
+6-3	have	O	O	_	_	
+6-4	learned	B-RelNScrEv	O	_	_	
+6-5	how	O	O	_	_	
+6-6	to	O	O	_	_	
+6-7	repair	B-Evoking	O	_	_	
+6-8	it	I-Evoking	B-ScrPart_tire	webanno.custom.Corefchains_	5-10	
+6-9	,	O	O	_	_	
+6-10	I	O	B-ScrPart_rider	webanno.custom.Corefchains_	6-2	
+6-11	would	O	O	_	_	
+6-12	go	B-UnrelEv	O	_	_	
+6-13	to	O	O	_	_	
+6-14	the	O	O	_	_	
+6-15	store	O	B-ScrPart_shop	_	_	
+6-16	to	O	O	_	_	
+6-17	get	B-UnrelEv	O	_	_	
+6-18	some	O	O	_	_	
+6-19	supplies	O	B-ScrPart_tool	_	_	
+6-20	.	O	O	_	_	
+
+#id=7
+#text=I would need the tools to fix it and a new tire or things to use for the repair .
+7-1	I	O	B-ScrPart_rider	webanno.custom.Corefchains_	6-10	
+7-2	would	O	O	_	_	
+7-3	need	B-UnrelEv	O	_	_	
+7-4	the	O	O	_	_	
+7-5	tools	O	B-ScrPart_tool	_	_	
+7-6	to	O	O	_	_	
+7-7	fix	B-Evoking	O	_	_	
+7-8	it	I-Evoking	B-ScrPart_tire	webanno.custom.Corefchains_	6-8	
+7-9	and	O	O	_	_	
+7-10	a	O	O	_	_	
+7-11	new	O	O	_	_	
+7-12	tire	O	B-ScrPart_tire	webanno.custom.Corefchains_	7-8	
+7-13	or	O	O	_	_	
+7-14	things	O	O	_	_	
+7-15	to	O	O	_	_	
+7-16	use	B-UnrelEv	O	_	_	
+7-17	for	O	O	_	_	
+7-18	the	O	O	_	_	
+7-19	repair	O	O	_	_	
+7-20	.	O	O	_	_	
+
+#id=8
+#text=After arriving home , I would review the things I learned about how to repair the tire and I would follow the directions .
+8-1	After	O	O	_	_	
+8-2	arriving	B-MissScrEv	O	_	_	
+8-3	home	O	O	_	_	
+8-4	,	O	O	_	_	
+8-5	I	O	B-ScrPart_rider	webanno.custom.Corefchains_	7-1	
+8-6	would	O	O	_	_	
+8-7	review	B-MissScrEv	O	_	_	
+8-8	the	O	O	_	_	
+8-9	things	O	O	_	_	
+8-10	I	O	B-ScrPart_rider	webanno.custom.Corefchains_	8-5	
+8-11	learned	B-RelNScrEv	O	_	_	
+8-12	about	O	O	_	_	
+8-13	how	O	O	_	_	
+8-14	to	O	O	_	_	
+8-15	repair	O	O	_	_	
+8-16	the	O	O	_	_	
+8-17	tire	O	B-ScrPart_tire	webanno.custom.Corefchains_	7-12	
+8-18	and	O	O	_	_	
+8-19	I	O	B-ScrPart_rider	webanno.custom.Corefchains_	8-10	
+8-20	would	O	O	_	_	
+8-21	follow	B-UnrelEv	O	_	_	
+8-22	the	O	O	_	_	
+8-23	directions	O	O	_	_	
+8-24	.	O	O	_	_	
+
+#id=9
+#text=Once it was repaired , I would test out the bicycle to make sure it was repaired and then I would clean up . 
+9-1	Once	O	O	_	_	
+9-2	it	O	B-ScrPart_tire	webanno.custom.Corefchains_	8-17	
+9-3	was	O	O	_	_	
+9-4	repaired	B-Evoking	O	_	_	
+9-5	,	O	O	_	_	
+9-6	I	O	B-ScrPart_rider	webanno.custom.Corefchains_	8-19	
+9-7	would	O	O	_	_	
+9-8	test	B-MissScrEv	O	_	_	
+9-9	out	O	O	_	_	
+9-10	the	O	O	_	_	
+9-11	bicycle	O	B-ScrPart_bicycle	_	_	
+9-12	to	O	O	_	_	
+9-13	make	B-UnrelEv|B-UnrelEv	O	_	_	
+9-14	sure	I-UnrelEv	O	_	_	
+9-15	it	O	B-ScrPart_bicycle	webanno.custom.Corefchains_	9-11	
+9-16	was	O	O	_	_	
+9-17	repaired	B-Evoking	O	_	_	
+9-18	and	O	O	_	_	
+9-19	then	O	O	_	_	
+9-20	I	O	B-ScrPart_rider	webanno.custom.Corefchains_	9-6	
+9-21	would	O	O	_	_	
+9-22	clean	B-MissScrEv|B-MissScrEv	O	_	_	
+9-23	up	I-MissScrEv	O	_	_	
+9-24	.	O	O	_	_	
+

@@ -1,0 +1,219 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=I entered the train depot and went up to the window .
+1-1	I	B-ScrPart_passenger	O	
+1-2	entered	O	B-RelNScrEv	
+1-3	the	O	O	
+1-4	train	B-ScrPart_train_station	O	
+1-5	depot	I-ScrPart_train_station|B-ScrPart_train_station	O	
+1-6	and	O	O	
+1-7	went	O	B-RelNScrEv	
+1-8	up	O	I-RelNScrEv	
+1-9	to	O	O	
+1-10	the	O	O	
+1-11	window	B-ScrPart_ticket_office/website	O	
+1-12	.	O	O	
+
+#id=2
+#text=I asked for a ticket to Chicago .
+2-1	I	B-ScrPart_passenger	O	
+2-2	asked	O	B-ScrEv_get_tickets	
+2-3	for	O	O	
+2-4	a	O	O	
+2-5	ticket	B-ScrPart_card/ticket	O	
+2-6	to	O	O	
+2-7	Chicago	B-ScrPart_destination	O	
+2-8	.	O	O	
+
+#id=3
+#text=I paid for it and clerk gave me my ticket .
+3-1	I	B-ScrPart_passenger	O	
+3-2	paid	O	B-ScrEv_get_tickets	
+3-3	for	O	O	
+3-4	it	B-ScrPart_card/ticket	O	
+3-5	and	O	O	
+3-6	clerk	B-ScrPart_train_staff	O	
+3-7	gave	O	B-ScrEv_get_tickets	
+3-8	me	B-ScrPart_passenger	O	
+3-9	my	B-ScrPart_passenger	O	
+3-10	ticket	B-ScrPart_card/ticket	O	
+3-11	.	O	O	
+
+#id=4
+#text=The train was already boarding , so I went directly to the platform and boarded .
+4-1	The	O	O	
+4-2	train	B-ScrPart_train	O	
+4-3	was	O	O	
+4-4	already	O	O	
+4-5	boarding	O	B-ScrEv_get_on	
+4-6	,	O	O	
+4-7	so	O	O	
+4-8	I	B-ScrPart_passenger	O	
+4-9	went	O	B-ScrEv_get_platform	
+4-10	directly	O	O	
+4-11	to	O	O	
+4-12	the	O	O	
+4-13	platform	B-ScrPart_platform	O	
+4-14	and	O	O	
+4-15	boarded	O	B-ScrEv_get_on	
+4-16	.	O	O	
+
+#id=5
+#text=I went down the aisle and found an empty seat .
+5-1	I	B-ScrPart_passenger	O	
+5-2	went	O	B-RelNScrEv	
+5-3	down	O	O	
+5-4	the	O	O	
+5-5	aisle	B-ScrPart_coach	O	
+5-6	and	O	O	
+5-7	found	O	B-ScrEv_find_place	
+5-8	an	O	O	
+5-9	empty	O	O	
+5-10	seat	B-ScrPart_seat	O	
+5-11	.	O	O	
+
+#id=6
+#text=The train pulled out of the station .
+6-1	The	O	O	
+6-2	train	B-ScrPart_train	O	
+6-3	pulled	O	B-ScrEv_train_departs	
+6-4	out	O	I-ScrEv_train_departs	
+6-5	of	O	O	
+6-6	the	O	O	
+6-7	station	B-ScrPart_train_station	O	
+6-8	.	O	O	
+
+#id=7
+#text=After a few minutes , the conductor came by and checked my ticket , punching it with a small hole punch .
+7-1	After	O	O	
+7-2	a	O	O	
+7-3	few	O	O	
+7-4	minutes	B-NPart	O	
+7-5	,	O	O	
+7-6	the	O	O	
+7-7	conductor	B-ScrPart_train_staff	O	
+7-8	came	O	B-RelNScrEv	
+7-9	by	O	I-RelNScrEv	
+7-10	and	O	O	
+7-11	checked	O	B-ScrEv_conductor_checks	
+7-12	my	B-ScrPart_passenger	O	
+7-13	ticket	B-ScrPart_card/ticket	O	
+7-14	,	O	O	
+7-15	punching	O	B-ScrEv_conductor_checks	
+7-16	it	B-ScrPart_card/ticket	O	
+7-17	with	O	O	
+7-18	a	O	O	
+7-19	small	O	O	
+7-20	hole	B-NPart	O	
+7-21	punch	I-NPart|B-NPart	O	
+7-22	.	O	O	
+
+#id=8
+#text=I looked out the window .
+8-1	I	B-ScrPart_passenger	O	
+8-2	looked	O	B-ScrEv_spend_time_train	
+8-3	out	O	I-ScrEv_spend_time_train	
+8-4	the	O	O	
+8-5	window	B-ScrPart_in-train_entertainment	O	
+8-6	.	O	O	
+
+#id=9
+#text=People 's houses and huge warehouses passed by .
+9-1	People	B-NPart	O	
+9-2	's	O	O	
+9-3	houses	B-NPart	O	
+9-4	and	O	O	
+9-5	huge	O	O	
+9-6	warehouses	B-NPart	O	
+9-7	passed	O	B-RelNScrEv	
+9-8	by	O	I-RelNScrEv	
+9-9	.	O	O	
+
+#id=10
+#text=Later , as we got into the country , I saw a cow or two .
+10-1	Later	O	O	
+10-2	,	O	O	
+10-3	as	O	O	
+10-4	we	B-ScrPart_passenger	O	
+10-5	got	O	B-RelNScrEv	
+10-6	into	O	O	
+10-7	the	O	O	
+10-8	country	B-ScrPart_location_train	O	
+10-9	,	O	O	
+10-10	I	B-ScrPart_passenger	O	
+10-11	saw	O	B-ScrEv_spend_time_train	
+10-12	a	O	O	
+10-13	cow	B-NPart	O	
+10-14	or	O	O	
+10-15	two	O	O	
+10-16	.	O	O	
+
+#id=11
+#text=After about a half hour we pulled into the station in Chicago .
+11-1	After	O	O	
+11-2	about	O	O	
+11-3	a	O	O	
+11-4	half	O	O	
+11-5	hour	B-ScrPart_time_date	O	
+11-6	we	B-ScrPart_passenger	O	
+11-7	pulled	O	B-ScrEv_arrive_destination	
+11-8	into	O	O	
+11-9	the	O	O	
+11-10	station	B-ScrPart_train_station	O	
+11-11	in	O	O	
+11-12	Chicago	B-ScrPart_destination	O	
+11-13	.	O	O	
+
+#id=12
+#text=The train pulled and stopped rather suddenly , throwing me forward a bit .
+12-1	The	O	O	
+12-2	train	B-ScrPart_train	O	
+12-3	pulled	O	B-ScrEv_arrive_destination	
+12-4	and	O	O	
+12-5	stopped	O	B-ScrEv_arrive_destination	
+12-6	rather	O	O	
+12-7	suddenly	O	O	
+12-8	,	O	O	
+12-9	throwing	O	B-RelNScrEv	
+12-10	me	B-ScrPart_passenger	O	
+12-11	forward	O	O	
+12-12	a	O	O	
+12-13	bit	B-No_label	O	
+12-14	.	O	O	
+
+#id=13
+#text=I got up and went down the aisle and exited the train , stepping down to the platform and exiting the station .
+13-1	I	B-ScrPart_passenger	O	
+13-2	got	O	B-ScrEv_move_exit	
+13-3	up	O	I-ScrEv_move_exit	
+13-4	and	O	O	
+13-5	went	O	B-ScrEv_move_exit	
+13-6	down	O	O	
+13-7	the	O	O	
+13-8	aisle	B-ScrPart_coach	O	
+13-9	and	O	O	
+13-10	exited	O	B-ScrEv_get_off	
+13-11	the	O	O	
+13-12	train	B-ScrPart_train	O	
+13-13	,	O	O	
+13-14	stepping	O	B-ScrEv_get_off	
+13-15	down	O	I-ScrEv_get_off	
+13-16	to	O	O	
+13-17	the	O	O	
+13-18	platform	B-ScrPart_platform	O	
+13-19	and	O	O	
+13-20	exiting	O	B-RelNScrEv	
+13-21	the	O	O	
+13-22	station	B-ScrPart_train_station	O	
+13-23	.	O	O	
+
+#id=14
+#text=Windy City , here I come ! 
+14-1	Windy	B-ScrPart_destination	O	
+14-2	City	I-ScrPart_destination|B-ScrPart_destination	O	
+14-3	,	O	O	
+14-4	here	O	O	
+14-5	I	B-ScrPart_passenger	O	
+14-6	come	O	B-UnrelEv	
+14-7	!	O	O	
+

@@ -1,0 +1,202 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=My husband and I are huge health junkies .
+1-1	My	B-ScrPart_rider	O	_	_	
+1-2	husband	B-NPart	O	group_I_husband	1-1	
+1-3	and	O	O	_	_	
+1-4	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-1	
+1-5	are	O	B-UnrelEv	_	_	
+1-6	huge	O	O	_	_	
+1-7	health	O	O	_	_	
+1-8	junkies	O	O	_	_	
+1-9	.	O	O	_	_	
+
+#id=2
+#text=We ride our bikes to and from work everyday .
+2-1	We	B-ScrPart_rider	O	group_I_husband	1-2	
+2-2	ride	O	B-ScrEv_ride_bike	_	_	
+2-3	our	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-1	
+2-4	bikes	B-ScrPart_bicycle	O	_	_	
+2-5	to	O	O	_	_	
+2-6	and	O	O	_	_	
+2-7	from	O	O	_	_	
+2-8	work	O	O	_	_	
+2-9	everyday	O	O	_	_	
+2-10	.	O	O	_	_	
+
+#id=3
+#text=Yes , we own a car but we love getting that extra thirty minute workout everyday .
+3-1	Yes	O	O	_	_	
+3-2	,	O	O	_	_	
+3-3	we	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-3	
+3-4	own	O	B-UnrelEv	_	_	
+3-5	a	O	O	_	_	
+3-6	car	O	O	_	_	
+3-7	but	O	O	_	_	
+3-8	we	B-ScrPart_rider	O	webanno.custom.Corefchains_	3-3	
+3-9	love	O	B-UnrelEv	_	_	
+3-10	getting	O	B-UnrelEv	_	_	
+3-11	that	O	O	_	_	
+3-12	extra	O	O	_	_	
+3-13	thirty	O	O	_	_	
+3-14	minute	O	O	_	_	
+3-15	workout	O	O	_	_	
+3-16	everyday	O	O	_	_	
+3-17	.	O	O	_	_	
+
+#id=4
+#text=Last week , I rode over a piece of cracked glass from a bottle .
+4-1	Last	O	O	_	_	
+4-2	week	O	O	_	_	
+4-3	,	O	O	_	_	
+4-4	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-4	
+4-5	rode	O	B-ScrEv_ride_bike	_	_	
+4-6	over	O	O	_	_	
+4-7	a	O	O	_	_	
+4-8	piece	B-ScrPart_object_damage	O	_	_	
+4-9	of	O	O	_	_	
+4-10	cracked	O	B-UnrelEv	_	_	
+4-11	glass	O	O	_	_	
+4-12	from	O	O	_	_	
+4-13	a	O	O	_	_	
+4-14	bottle	O	O	_	_	
+4-15	.	O	O	_	_	
+
+#id=5
+#text=The tire on my bike slowly began to deflate .
+5-1	The	O	O	_	_	
+5-2	tire	O	O	_	_	
+5-3	on	O	O	_	_	
+5-4	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	4-4	
+5-5	bike	B-ScrPart_bicycle	O	webanno.custom.Corefchains_	2-4	
+5-6	slowly	O	O	_	_	
+5-7	began	O	B-UnrelEv	_	_	
+5-8	to	O	O	_	_	
+5-9	deflate	O	B-RelNScrEv	_	_	
+5-10	.	O	O	_	_	
+
+#id=6
+#text=I called my husband to come get me and we took the bike home to get fixed .
+6-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	5-4	
+6-2	called	O	B-UnrelEv	_	_	
+6-3	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	6-1	
+6-4	husband	B-NPart	O	webanno.custom.Corefchains_	1-2	
+6-5	to	O	O	_	_	
+6-6	come	O	B-UnrelEv	_	_	
+6-7	get	O	B-UnrelEv	_	_	
+6-8	me	B-ScrPart_rider	O	webanno.custom.Corefchains_	6-3	
+6-9	and	O	O	_	_	
+6-10	we	O	O	_	_	
+6-11	took	O	B-MissScrEv	_	_	
+6-12	the	O	O	_	_	
+6-13	bike	B-ScrPart_bicycle	O	webanno.custom.Corefchains_	5-5	
+6-14	home	O	O	_	_	
+6-15	to	O	O	_	_	
+6-16	get	O	B-Evoking	_	_	
+6-17	fixed	O	I-Evoking	_	_	
+6-18	.	O	O	_	_	
+
+#id=7
+#text=I washed it with soapy water to see where the hole was .
+7-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	6-8	
+7-2	washed	O	B-MissScrEv	_	_	
+7-3	it	O	O	_	_	
+7-4	with	O	O	_	_	
+7-5	soapy	O	O	_	_	
+7-6	water	B-MissScrPart	O	_	_	
+7-7	to	O	O	_	_	
+7-8	see	O	B-UnrelEv	_	_	
+7-9	where	O	O	_	_	
+7-10	the	O	O	_	_	
+7-11	hole	B-MissScrPart	O	_	_	
+7-12	was	O	B-UnrelEv	_	_	
+7-13	.	O	O	_	_	
+
+#id=8
+#text=I got out my air pump and began to pump .
+8-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	7-1	
+8-2	got	O	B-ScrEv_get_tools|B-ScrEv_get_tools	_	_	
+8-3	out	O	I-ScrEv_get_tools	_	_	
+8-4	my	B-ScrPart_rider	O	webanno.custom.Corefchains_	8-1	
+8-5	air	B-ScrPart_tool	O	_	_	
+8-6	pump	I-ScrPart_tool|B-ScrPart_tool	O	_	_	
+8-7	and	O	O	_	_	
+8-8	began	O	B-UnrelEv	_	_	
+8-9	to	O	O	_	_	
+8-10	pump	O	B-MissScrEv	_	_	
+8-11	.	O	O	_	_	
+
+#id=9
+#text=The part where there was a hole blew out air around the wet wheel .
+9-1	The	O	O	_	_	
+9-2	part	O	O	_	_	
+9-3	where	O	O	_	_	
+9-4	there	O	O	_	_	
+9-5	was	O	B-UnrelEv	_	_	
+9-6	a	O	O	_	_	
+9-7	hole	B-MissScrPart	O	webanno.custom.Corefchains_	7-11	
+9-8	blew	O	B-RelNScrEv|B-RelNScrEv	_	_	
+9-9	out	O	I-RelNScrEv	_	_	
+9-10	air	B-ScrPart_air	O	_	_	
+9-11	around	O	O	_	_	
+9-12	the	O	O	_	_	
+9-13	wet	O	O	_	_	
+9-14	wheel	B-ScrPart_tire	O	_	_	
+9-15	.	O	O	_	_	
+
+#id=10
+#text=I got a bike patch and just stuff it on over the spot once the wheel had dried .
+10-1	I	B-ScrPart_rider	O	webanno.custom.Corefchains_	8-4	
+10-2	got	O	B-ScrEv_get_tools	_	_	
+10-3	a	O	O	_	_	
+10-4	bike	O	O	_	_	
+10-5	patch	B-ScrPart_patch	O	_	_	
+10-6	and	O	O	_	_	
+10-7	just	O	O	_	_	
+10-8	stuff	O	B-ScrEv_put_patch/seal	_	_	
+10-9	it	B-ScrPart_patch	O	webanno.custom.Corefchains_	10-5	
+10-10	on	O	O	_	_	
+10-11	over	O	O	_	_	
+10-12	the	O	O	_	_	
+10-13	spot	O	O	_	_	
+10-14	once	O	O	_	_	
+10-15	the	O	O	_	_	
+10-16	wheel	B-ScrPart_tire	O	webanno.custom.Corefchains_	9-14	
+10-17	had	O	O	_	_	
+10-18	dried	O	B-UnrelEv	_	_	
+10-19	.	O	O	_	_	
+
+#id=11
+#text=Put some more air into the tire and test drove it around the street and back .
+11-1	Put	O	B-ScrEv_refill_tire_air	_	_	
+11-2	some	O	O	_	_	
+11-3	more	O	O	_	_	
+11-4	air	B-ScrPart_air	O	_	_	
+11-5	into	O	O	_	_	
+11-6	the	O	O	_	_	
+11-7	tire	B-ScrPart_tire	O	webanno.custom.Corefchains_	10-16	
+11-8	and	O	O	_	_	
+11-9	test	O	B-ScrEv_ride_bike	_	_	
+11-10	drove	O	I-ScrEv_ride_bike|B-ScrEv_ride_bike	_	_	
+11-11	it	B-ScrPart_bicycle	O	_	_	
+11-12	around	O	O	_	_	
+11-13	the	O	O	_	_	
+11-14	street	O	O	_	_	
+11-15	and	O	O	_	_	
+11-16	back	O	O	_	_	
+11-17	.	O	O	_	_	
+
+#id=12
+#text=My sweet bicycle was back and even better than ever . 
+12-1	My	B-ScrPart_rider	O	webanno.custom.Corefchains_	10-1	
+12-2	sweet	O	O	_	_	
+12-3	bicycle	B-ScrPart_bicycle	O	webanno.custom.Corefchains_|webanno.custom.Corefchains_	6-13|11-11	
+12-4	was	O	B-UnrelEv	_	_	
+12-5	back	O	O	_	_	
+12-6	and	O	O	_	_	
+12-7	even	O	O	_	_	
+12-8	better	O	O	_	_	
+12-9	than	O	O	_	_	
+12-10	ever	O	O	_	_	
+12-11	.	O	O	_	_	
+

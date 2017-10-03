@@ -1,0 +1,196 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=My husband was riding down a steep hill a few miles from home when he got a blow out .
+1-1	My	B-???	O	_	_	
+1-2	husband	B-ScrPart_rider	O	_	_	
+1-3	was	O	O	_	_	
+1-4	riding	O	B-ScrEv_ride_bike	_	_	
+1-5	down	O	O	_	_	
+1-6	a	O	O	_	_	
+1-7	steep	O	O	_	_	
+1-8	hill	O	O	_	_	
+1-9	a	O	O	_	_	
+1-10	few	O	O	_	_	
+1-11	miles	O	O	_	_	
+1-12	from	O	O	_	_	
+1-13	home	O	O	_	_	
+1-14	when	O	O	_	_	
+1-15	he	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-2	
+1-16	got	O	B-Evoking	_	_	
+1-17	a	O	I-Evoking	_	_	
+1-18	blow	B-SuppVComp	I-Evoking	_	_	
+1-19	out	I-SuppVComp	I-Evoking	_	_	
+1-20	.	O	O	_	_	
+
+#id=2
+#text=He called me to come and get him .
+2-1	He	B-ScrPart_rider	O	webanno.custom.Corefchains_	1-15	
+2-2	called	O	B-RelNScrEv	_	_	
+2-3	me	B-???	O	webanno.custom.Corefchains_	1-1	
+2-4	to	O	O	_	_	
+2-5	come	O	B-RelNScrEv	_	_	
+2-6	and	O	O	_	_	
+2-7	get	O	B-RelNScrEv	_	_	
+2-8	him	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-1	
+2-9	.	O	O	_	_	
+
+#id=3
+#text=Luckily he was n't hurt .
+3-1	Luckily	O	O	_	_	
+3-2	he	B-ScrPart_rider	O	webanno.custom.Corefchains_	2-8	
+3-3	was	O	B-UnrelEv	_	_	
+3-4	n't	O	O	_	_	
+3-5	hurt	O	O	_	_	
+3-6	.	O	O	_	_	
+
+#id=4
+#text=He had the bicycle repair kit on him .
+4-1	He	B-ScrPart_rider	O	webanno.custom.Corefchains_	3-2	
+4-2	had	O	B-ScrEv_get_tools	_	_	
+4-3	the	O	O	_	_	
+4-4	bicycle	B-ScrPart_tool	O	_	_	
+4-5	repair	I-ScrPart_tool	O	_	_	
+4-6	kit	I-ScrPart_tool|B-ScrPart_tool	O	_	_	
+4-7	on	O	O	_	_	
+4-8	him	B-ScrPart_rider	O	webanno.custom.Corefchains_	4-1	
+4-9	.	O	O	_	_	
+
+#id=5
+#text=We took the tire off with some tools .
+5-1	We	B-ScrPart_rider	O	coref_group_husband_I|coref_group_husband_I	2-3|4-8	
+5-2	took	O	B-ScrEv_take_tire_off	_	_	
+5-3	the	O	O	_	_	
+5-4	tire	B-ScrPart_tire	O	_	_	
+5-5	off	O	O	_	_	
+5-6	with	O	O	_	_	
+5-7	some	O	O	_	_	
+5-8	tools	B-ScrPart_tool	O	webanno.custom.Corefchains_	4-6	
+5-9	.	O	O	_	_	
+
+#id=6
+#text=We took the inner tube out .
+6-1	We	B-ScrPart_rider	O	webanno.custom.Corefchains_	5-1	
+6-2	took	O	B-ScrEv_remove_tire	_	_	
+6-3	the	O	O	_	_	
+6-4	inner	O	O	_	_	
+6-5	tube	B-ScrPart_tire	O	webanno.custom.Corefchains_	5-4	
+6-6	out	O	O	_	_	
+6-7	.	O	O	_	_	
+
+#id=7
+#text=He checked the inner tube for holes by putting air in it .
+7-1	He	B-ScrPart_rider	O	webanno.custom.Corefchains_	4-8	
+7-2	checked	O	B-ScrEv_examine_tire	_	_	
+7-3	the	O	O	_	_	
+7-4	inner	O	O	_	_	
+7-5	tube	B-ScrPart_tire	O	webanno.custom.Corefchains_	6-5	
+7-6	for	O	O	_	_	
+7-7	holes	B-MissScrPart	O	_	_	
+7-8	by	O	O	_	_	
+7-9	putting	O	B-ScrEv_refill_tire_air	_	_	
+7-10	air	B-ScrPart_air	O	_	_	
+7-11	in	O	O	_	_	
+7-12	it	B-ScrPart_tire	O	webanno.custom.Corefchains_	7-5	
+7-13	.	O	O	_	_	
+
+#id=8
+#text=He found the hole and marked it .
+8-1	He	B-ScrPart_rider	O	webanno.custom.Corefchains_	7-1	
+8-2	found	O	B-ScrEv_examine_tire	_	_	
+8-3	the	O	O	_	_	
+8-4	hole	B-MissScrPart	O	webanno.custom.Corefchains_	7-7	
+8-5	and	O	O	_	_	
+8-6	marked	O	B-RelNScrEv	_	_	
+8-7	it	B-MissScrPart	O	webanno.custom.Corefchains_	8-4	
+8-8	.	O	O	_	_	
+
+#id=9
+#text=That is the place where he put the patch and glued it .
+9-1	That	O	O	_	_	
+9-2	is	O	B-UnrelEv	_	_	
+9-3	the	O	O	_	_	
+9-4	place	B-MissScrPart	O	webanno.custom.Corefchains_	8-7	
+9-5	where	O	O	_	_	
+9-6	he	B-ScrPart_rider	O	webanno.custom.Corefchains_	8-1	
+9-7	put	O	B-ScrEv_put_patch/seal	_	_	
+9-8	the	O	O	_	_	
+9-9	patch	B-ScrPart_patch	O	_	_	
+9-10	and	O	O	_	_	
+9-11	glued	O	B-ScrEv_put_patch/seal	_	_	
+9-12	it	B-ScrPart_patch	O	webanno.custom.Corefchains_	9-9	
+9-13	.	O	O	_	_	
+
+#id=10
+#text=My husband put the tube back in the bicycle .
+10-1	My	B-???	O	webanno.custom.Corefchains_	2-3	
+10-2	husband	B-ScrPart_rider	O	webanno.custom.Corefchains_	9-6	
+10-3	put	O	B-ScrEv_put_new_tire	_	_	
+10-4	the	O	O	_	_	
+10-5	tube	B-ScrPart_tire	O	webanno.custom.Corefchains_	7-12	
+10-6	back	O	O	_	_	
+10-7	in	O	O	_	_	
+10-8	the	O	O	_	_	
+10-9	bicycle	B-ScrPart_bicycle	O	_	_	
+10-10	.	O	O	_	_	
+
+#id=11
+#text=The frame was a little bent but the bike was okay .
+11-1	The	O	O	_	_	
+11-2	frame	O	O	_	_	
+11-3	was	O	B-UnrelEv	_	_	
+11-4	a	O	O	_	_	
+11-5	little	O	O	_	_	
+11-6	bent	O	O	_	_	
+11-7	but	O	O	_	_	
+11-8	the	O	O	_	_	
+11-9	bike	B-ScrPart_bicycle	O	webanno.custom.Corefchains_	10-9	
+11-10	was	O	B-UnrelEv	_	_	
+11-11	okay	O	O	_	_	
+11-12	.	O	O	_	_	
+
+#id=12
+#text=I followed him for a little while .
+12-1	I	B-???	O	webanno.custom.Corefchains_	10-1	
+12-2	followed	O	B-UnrelEv	_	_	
+12-3	him	B-ScrPart_rider	O	webanno.custom.Corefchains_	10-2	
+12-4	for	O	O	_	_	
+12-5	a	O	O	_	_	
+12-6	little	O	O	_	_	
+12-7	while	O	O	_	_	
+12-8	.	O	O	_	_	
+
+#id=13
+#text=He was almost to the park so I met him there .
+13-1	He	B-ScrPart_rider	O	webanno.custom.Corefchains_	12-3	
+13-2	was	O	B-UnrelEv	_	_	
+13-3	almost	O	O	_	_	
+13-4	to	O	O	_	_	
+13-5	the	O	O	_	_	
+13-6	park	O	O	_	_	
+13-7	so	O	O	_	_	
+13-8	I	B-???	O	webanno.custom.Corefchains_	12-1	
+13-9	met	O	B-UnrelEv	_	_	
+13-10	him	B-ScrPart_rider	O	webanno.custom.Corefchains_	13-1	
+13-11	there	O	O	_	_	
+13-12	.	O	O	_	_	
+
+#id=14
+#text=After a while we put the bike in the back of the truck and drove home . 
+14-1	After	O	O	_	_	
+14-2	a	O	O	_	_	
+14-3	while	O	O	_	_	
+14-4	we	B-ScrPart_rider	O	webanno.custom.Corefchains_	6-1	
+14-5	put	O	B-UnrelEv	_	_	
+14-6	the	O	O	_	_	
+14-7	bike	B-ScrPart_bicycle	O	webanno.custom.Corefchains_	11-9	
+14-8	in	O	O	_	_	
+14-9	the	O	O	_	_	
+14-10	back	O	O	_	_	
+14-11	of	O	O	_	_	
+14-12	the	O	O	_	_	
+14-13	truck	O	O	_	_	
+14-14	and	O	O	_	_	
+14-15	drove	O	B-UnrelEv	_	_	
+14-16	home	O	O	_	_	
+14-17	.	O	O	_	_	
+

@@ -1,0 +1,239 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I had never planted a tree before , so before we planted one , I had to do a lot of research .
+1-1	I	B-ScrPart_gardener	O	_	_	
+1-2	had	O	O	_	_	
+1-3	never	O	O	_	_	
+1-4	planted	O	B-Evoking	_	_	
+1-5	a	O	I-Evoking	_	_	
+1-6	tree	B-ScrPart_tree	I-Evoking	_	_	
+1-7	before	O	O	_	_	
+1-8	,	O	O	_	_	
+1-9	so	O	O	_	_	
+1-10	before	O	O	_	_	
+1-11	we	B-ScrPart_gardener	O	_	_	
+1-12	planted	O	B-Evoking	_	_	
+1-13	one	B-ScrPart_tree	O	webanno.custom.Corefchains_	1-6	
+1-14	,	O	O	_	_	
+1-15	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	1-1	
+1-16	had	O	O	_	_	
+1-17	to	O	O	_	_	
+1-18	do	O	B-UnrelEv	_	_	
+1-19	a	O	O	_	_	
+1-20	lot	O	O	_	_	
+1-21	of	O	O	_	_	
+1-22	research	O	O	_	_	
+1-23	.	O	O	_	_	
+
+#id=2
+#text=I had to look up what kind of tree would work best in my climate .
+2-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	1-15	
+2-2	had	O	O	_	_	
+2-3	to	O	O	_	_	
+2-4	look	O	B-ScrEv_choose_tree|B-ScrEv_choose_tree	_	_	
+2-5	up	O	I-ScrEv_choose_tree	_	_	
+2-6	what	O	O	_	_	
+2-7	kind	O	O	_	_	
+2-8	of	O	O	_	_	
+2-9	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	1-13	
+2-10	would	O	O	_	_	
+2-11	work	O	B-UnrelEv	_	_	
+2-12	best	O	O	_	_	
+2-13	in	O	O	_	_	
+2-14	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	2-1	
+2-15	climate	O	O	_	_	
+2-16	.	O	O	_	_	
+
+#id=3
+#text=I had to see which ones needed certain levels of care , look up different tree diseases , and the prices of some trees .
+3-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	2-14	
+3-2	had	O	O	_	_	
+3-3	to	O	O	_	_	
+3-4	see	O	B-UnrelEv	_	_	
+3-5	which	O	O	_	_	
+3-6	ones	B-ScrPart_tree	O	_	_	
+3-7	needed	O	B-RelNScrEv	_	_	
+3-8	certain	O	O	_	_	
+3-9	levels	O	O	_	_	
+3-10	of	O	O	_	_	
+3-11	care	B-MissScrPart	O	_	_	
+3-12	,	O	O	_	_	
+3-13	look	O	B-ScrEv_choose_tree|B-ScrEv_choose_tree	_	_	
+3-14	up	O	I-ScrEv_choose_tree	_	_	
+3-15	different	O	O	_	_	
+3-16	tree	O	O	_	_	
+3-17	diseases	B-MissScrPart	O	_	_	
+3-18	,	O	O	_	_	
+3-19	and	O	O	_	_	
+3-20	the	O	O	_	_	
+3-21	prices	B-MissScrPart	O	_	_	
+3-22	of	O	O	_	_	
+3-23	some	O	O	_	_	
+3-24	trees	B-ScrPart_tree	O	_	_	
+3-25	.	O	O	_	_	
+
+#id=4
+#text=I had to find something that would work well in my yard .
+4-1	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	3-1	
+4-2	had	O	O	_	_	
+4-3	to	O	O	_	_	
+4-4	find	O	B-ScrEv_choose_tree	_	_	
+4-5	something	B-ScrPart_tree	O	webanno.custom.Corefchains_	2-9	
+4-6	that	O	O	_	_	
+4-7	would	O	O	_	_	
+4-8	work	O	B-UnrelEv	_	_	
+4-9	well	O	O	_	_	
+4-10	in	O	O	_	_	
+4-11	my	B-ScrPart_gardener	O	webanno.custom.Corefchains_	4-1	
+4-12	yard	B-ScrPart_location_garden	O	_	_	
+4-13	.	O	O	_	_	
+
+#id=5
+#text=When we finally picked a perfect tree , we had to take it home .
+5-1	When	O	O	_	_	
+5-2	we	B-ScrPart_gardener	O	webanno.custom.Corefchains_	1-11	
+5-3	finally	O	O	_	_	
+5-4	picked	O	B-ScrEv_choose_tree	_	_	
+5-5	a	O	O	_	_	
+5-6	perfect	O	O	_	_	
+5-7	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	4-5	
+5-8	,	O	O	_	_	
+5-9	we	B-ScrPart_gardener	O	webanno.custom.Corefchains_	5-2	
+5-10	had	O	O	_	_	
+5-11	to	O	O	_	_	
+5-12	take	O	B-ScrEv_get_tree	_	_	
+5-13	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	5-7	
+5-14	home	B-NPart	O	_	_	
+5-15	.	O	O	_	_	
+
+#id=6
+#text=It was very heavy !
+6-1	It	B-ScrPart_tree	O	webanno.custom.Corefchains_	5-13	
+6-2	was	O	B-UnrelEv	_	_	
+6-3	very	O	O	_	_	
+6-4	heavy	O	O	_	_	
+6-5	!	O	O	_	_	
+
+#id=7
+#text=Once we had it home , we had to dig a very big hole .
+7-1	Once	O	O	_	_	
+7-2	we	B-ScrPart_gardener	O	webanno.custom.Corefchains_	5-9	
+7-3	had	O	B-ScrEv_get_tree	_	_	
+7-4	it	B-ScrPart_tree	O	webanno.custom.Corefchains_	6-1	
+7-5	home	B-NPart	O	_	_	
+7-6	,	O	O	_	_	
+7-7	we	B-ScrPart_gardener	O	webanno.custom.Corefchains_	7-2	
+7-8	had	O	O	_	_	
+7-9	to	O	O	_	_	
+7-10	dig	O	B-ScrEv_dug_hole	_	_	
+7-11	a	O	O	_	_	
+7-12	very	O	O	_	_	
+7-13	big	O	O	_	_	
+7-14	hole	B-ScrPart_hole	O	_	_	
+7-15	.	O	O	_	_	
+
+#id=8
+#text=After you roll the tree into the hole , you have to do something called facing the tree , which means you put the tree in the position you are happy with the already existing branches growing .
+8-1	After	O	O	_	_	
+8-2	you	B-ScrPart_gardener	O	_	_	
+8-3	roll	O	B-ScrEv_place_root	_	_	
+8-4	the	O	O	_	_	
+8-5	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	7-4	
+8-6	into	O	O	_	_	
+8-7	the	O	O	_	_	
+8-8	hole	B-ScrPart_hole	O	webanno.custom.Corefchains_	7-14	
+8-9	,	O	O	_	_	
+8-10	you	B-ScrPart_gardener	O	webanno.custom.Corefchains_	8-2	
+8-11	have	O	O	_	_	
+8-12	to	O	O	_	_	
+8-13	do	O	B-UnrelEv	_	_	
+8-14	something	O	O	_	_	
+8-15	called	O	B-UnrelEv	_	_	
+8-16	facing	O	B-RelNScrEv	_	_	
+8-17	the	O	O	_	_	
+8-18	tree	B-ScrPart_tree	O	_	_	
+8-19	,	O	O	_	_	
+8-20	which	O	O	_	_	
+8-21	means	O	B-UnrelEv	_	_	
+8-22	you	B-ScrPart_gardener	O	webanno.custom.Corefchains_	8-10	
+8-23	put	O	B-MissScrEv	_	_	
+8-24	the	O	O	_	_	
+8-25	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	8-5	
+8-26	in	O	O	_	_	
+8-27	the	O	O	_	_	
+8-28	position	B-SuppVComp	O	_	_	
+8-29	you	B-ScrPart_gardener	O	webanno.custom.Corefchains_	8-22	
+8-30	are	O	B-UnrelEv	_	_	
+8-31	happy	O	O	_	_	
+8-32	with	O	O	_	_	
+8-33	the	O	O	_	_	
+8-34	already	O	O	_	_	
+8-35	existing	O	B-UnrelEv	_	_	
+8-36	branches	B-MissScrPart	O	_	_	
+8-37	growing	O	B-RelNScrEv	_	_	
+8-38	.	O	O	_	_	
+
+#id=9
+#text=You do n't want a huge branch going right toward your house !
+9-1	You	B-ScrPart_gardener	O	webanno.custom.Corefchains_	8-29	
+9-2	do	O	O	_	_	
+9-3	n't	O	O	_	_	
+9-4	want	O	B-UnrelEv	_	_	
+9-5	a	O	O	_	_	
+9-6	huge	O	O	_	_	
+9-7	branch	B-MissScrPart	O	webanno.custom.Corefchains_	8-36	
+9-8	going	O	B-RelNScrEv	_	_	
+9-9	right	O	O	_	_	
+9-10	toward	O	O	_	_	
+9-11	your	B-ScrPart_gardener	O	webanno.custom.Corefchains_	9-1	
+9-12	house	B-NPart	O	_	_	
+9-13	!	O	O	_	_	
+
+#id=10
+#text=To make facing easier , you should fill the hole halfway with water before putting the tree inside .
+10-1	To	O	O	_	_	
+10-2	make	O	O	_	_	
+10-3	facing	O	B-RelNScrEv	_	_	
+10-4	easier	O	O	_	_	
+10-5	,	O	O	_	_	
+10-6	you	B-ScrPart_gardener	O	webanno.custom.Corefchains_	9-11	
+10-7	should	O	O	_	_	
+10-8	fill	O	B-ScrEv_water	_	_	
+10-9	the	O	O	_	_	
+10-10	hole	B-ScrPart_hole	O	webanno.custom.Corefchains_	8-8	
+10-11	halfway	O	O	_	_	
+10-12	with	O	O	_	_	
+10-13	water	B-ScrPart_water	O	_	_	
+10-14	before	O	O	_	_	
+10-15	putting	O	B-ScrEv_place_root	_	_	
+10-16	the	O	O	_	_	
+10-17	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	8-25	
+10-18	inside	O	O	_	_	
+10-19	.	O	O	_	_	
+
+#id=11
+#text=After you face the tree , fill in the dirt , and pat yourself on the back for a job well done . 
+11-1	After	O	O	_	_	
+11-2	you	B-ScrPart_gardener	O	webanno.custom.Corefchains_	10-6	
+11-3	face	O	B-RelNScrEv	_	_	
+11-4	the	O	O	_	_	
+11-5	tree	B-ScrPart_tree	O	webanno.custom.Corefchains_	10-17	
+11-6	,	O	O	_	_	
+11-7	fill	O	B-ScrEv_refill_hole	_	_	
+11-8	in	O	I-ScrEv_refill_hole	_	_	
+11-9	the	O	O	_	_	
+11-10	dirt	B-ScrPart_dirt	O	_	_	
+11-11	,	O	O	_	_	
+11-12	and	O	O	_	_	
+11-13	pat	O	B-UnrelEv	_	_	
+11-14	yourself	B-ScrPart_gardener	O	webanno.custom.Corefchains_	11-2	
+11-15	on	O	O	_	_	
+11-16	the	O	O	_	_	
+11-17	back	O	O	_	_	
+11-18	for	O	O	_	_	
+11-19	a	O	O	_	_	
+11-20	job	O	O	_	_	
+11-21	well	O	O	_	_	
+11-22	done	O	B-UnrelEv	_	_	
+11-23	.	O	O	_	_	
+

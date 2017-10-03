@@ -1,0 +1,191 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=The other day , I finished reading the fourth book of the Game of Thrones Series .
+1-1	The	O	O	_	_	
+1-2	other	O	O	_	_	
+1-3	day	O	O	_	_	
+1-4	,	O	O	_	_	
+1-5	I	B-ScrPart_customer	O	_	_	
+1-6	finished	O	B-UnrelEv	_	_	
+1-7	reading	O	B-RelNScrEv	_	_	
+1-8	the	O	O	_	_	
+1-9	fourth	O	O	_	_	
+1-10	book	B-ScrPart_book	O	_	_	
+1-11	of	O	O	_	_	
+1-12	the	O	O	_	_	
+1-13	Game	O	O	_	_	
+1-14	of	O	O	_	_	
+1-15	Thrones	O	O	_	_	
+1-16	Series	O	O	_	_	
+1-17	.	O	O	_	_	
+
+#id=2
+#text=With the new season about to start on HBO , I wanted to get ahead of the show and continue reading the books in the series -- but I did not want to pay for the next book .
+2-1	With	O	O	_	_	
+2-2	the	O	O	_	_	
+2-3	new	O	O	_	_	
+2-4	season	O	O	_	_	
+2-5	about	O	O	_	_	
+2-6	to	O	O	_	_	
+2-7	start	O	B-UnrelEv	_	_	
+2-8	on	O	O	_	_	
+2-9	HBO	O	O	_	_	
+2-10	,	O	O	_	_	
+2-11	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-5	
+2-12	wanted	O	B-UnrelEv	_	_	
+2-13	to	O	O	_	_	
+2-14	get	O	B-UnrelEv|B-UnrelEv	_	_	
+2-15	ahead	O	I-UnrelEv	_	_	
+2-16	of	O	O	_	_	
+2-17	the	O	O	_	_	
+2-18	show	O	O	_	_	
+2-19	and	O	O	_	_	
+2-20	continue	O	B-UnrelEv	_	_	
+2-21	reading	O	B-RelNScrEv	_	_	
+2-22	the	O	O	_	_	
+2-23	books	B-ScrPart_book	O	webanno.custom.Corefchains_	1-10	
+2-24	in	O	O	_	_	
+2-25	the	O	O	_	_	
+2-26	series	O	O	_	_	
+2-27	--	O	O	_	_	
+2-28	but	O	O	_	_	
+2-29	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-11	
+2-30	did	O	O	_	_	
+2-31	not	O	O	_	_	
+2-32	want	O	B-UnrelEv	_	_	
+2-33	to	O	O	_	_	
+2-34	pay	O	B-UnrelEv	_	_	
+2-35	for	O	O	_	_	
+2-36	the	O	O	_	_	
+2-37	next	O	O	_	_	
+2-38	book	B-ScrPart_book	O	webanno.custom.Corefchains_	2-23	
+2-39	.	O	O	_	_	
+
+#id=3
+#text=Remembering that I had a library card somewhere in my desk at home , I went home and found it .
+3-1	Remembering	O	B-UnrelEv	_	_	
+3-2	that	O	O	_	_	
+3-3	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-29	
+3-4	had	O	B-UnrelEv	_	_	
+3-5	a	O	O	_	_	
+3-6	library	B-ScrPart_library_card	O	_	_	
+3-7	card	I-ScrPart_library_card|B-ScrPart_library_card	O	_	_	
+3-8	somewhere	O	O	_	_	
+3-9	in	O	O	_	_	
+3-10	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-3	
+3-11	desk	O	O	_	_	
+3-12	at	O	O	_	_	
+3-13	home	O	O	_	_	
+3-14	,	O	O	_	_	
+3-15	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-10	
+3-16	went	O	B-UnrelEv	_	_	
+3-17	home	O	O	_	_	
+3-18	and	O	O	_	_	
+3-19	found	O	B-UnrelEv	_	_	
+3-20	it	B-ScrPart_library_card	O	webanno.custom.Corefchains_	3-7	
+3-21	.	O	O	_	_	
+
+#id=4
+#text=I went to the library and after browsing the fiction section , I finally found the fifth book in the series and brought it to the check out desk of the library .
+4-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-15	
+4-2	went	O	B-Evoking	_	_	
+4-3	to	O	I-Evoking	_	_	
+4-4	the	O	I-Evoking	_	_	
+4-5	library	B-ScrPart_library	I-Evoking	_	_	
+4-6	and	O	O	_	_	
+4-7	after	O	O	_	_	
+4-8	browsing	O	B-ScrEv_look_for_book	_	_	
+4-9	the	O	O	_	_	
+4-10	fiction	B-ScrPart_location_library	O	_	_	
+4-11	section	I-ScrPart_location_library|B-ScrPart_location_library	O	_	_	
+4-12	,	O	O	_	_	
+4-13	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-1	
+4-14	finally	O	O	_	_	
+4-15	found	O	B-MissScrEv	_	_	
+4-16	the	O	O	_	_	
+4-17	fifth	O	O	_	_	
+4-18	book	B-ScrPart_book	O	webanno.custom.Corefchains_	2-38	
+4-19	in	O	O	_	_	
+4-20	the	O	O	_	_	
+4-21	series	O	O	_	_	
+4-22	and	O	O	_	_	
+4-23	brought	O	B-ScrEv_take_book	_	_	
+4-24	it	B-ScrPart_book	O	webanno.custom.Corefchains_	4-18	
+4-25	to	O	O	_	_	
+4-26	the	O	O	_	_	
+4-27	check	B-ScrPart_check-out_desk	O	_	_	
+4-28	out	I-ScrPart_check-out_desk	O	_	_	
+4-29	desk	I-ScrPart_check-out_desk|B-ScrPart_check-out_desk	O	_	_	
+4-30	of	O	O	_	_	
+4-31	the	O	O	_	_	
+4-32	library	B-ScrPart_library	O	webanno.custom.Corefchains_	4-5	
+4-33	.	O	O	_	_	
+
+#id=5
+#text=I handed over my information and library card and checked out the book , getting two weeks to read it for free .
+5-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-13	
+5-2	handed	O	B-ScrEv_show_card	_	_	
+5-3	over	O	O	_	_	
+5-4	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-1	
+5-5	information	B-NPart	O	_	_	
+5-6	and	O	O	_	_	
+5-7	library	B-ScrPart_library_card	O	_	_	
+5-8	card	I-ScrPart_library_card|B-ScrPart_library_card	O	webanno.custom.Corefchains_	3-20	
+5-9	and	O	O	_	_	
+5-10	checked	O	B-ScrEv_register	_	_	
+5-11	out	O	O	_	_	
+5-12	the	O	O	_	_	
+5-13	book	B-ScrPart_book	O	webanno.custom.Corefchains_	4-24	
+5-14	,	O	O	_	_	
+5-15	getting	O	B-UnrelEv	_	_	
+5-16	two	O	O	_	_	
+5-17	weeks	O	O	_	_	
+5-18	to	O	O	_	_	
+5-19	read	O	B-RelNScrEv	_	_	
+5-20	it	B-ScrPart_book	O	webanno.custom.Corefchains_	5-13	
+5-21	for	O	O	_	_	
+5-22	free	O	O	_	_	
+5-23	.	O	O	_	_	
+
+#id=6
+#text=I 'm now a quarter of the way through the book and enjoy every page of it while loving the fact that my taxes paid for me to read this and I had to pay no extra money . 
+6-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-4	
+6-2	'm	O	B-UnrelEv	_	_	
+6-3	now	O	O	_	_	
+6-4	a	O	O	_	_	
+6-5	quarter	O	O	_	_	
+6-6	of	O	O	_	_	
+6-7	the	O	O	_	_	
+6-8	way	O	O	_	_	
+6-9	through	O	O	_	_	
+6-10	the	O	O	_	_	
+6-11	book	B-ScrPart_book	O	webanno.custom.Corefchains_	5-20	
+6-12	and	O	O	_	_	
+6-13	enjoy	O	B-UnrelEv	_	_	
+6-14	every	O	O	_	_	
+6-15	page	O	O	_	_	
+6-16	of	O	O	_	_	
+6-17	it	B-ScrPart_book	O	webanno.custom.Corefchains_	6-11	
+6-18	while	O	O	_	_	
+6-19	loving	O	B-UnrelEv	_	_	
+6-20	the	O	O	_	_	
+6-21	fact	O	O	_	_	
+6-22	that	O	O	_	_	
+6-23	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-1	
+6-24	taxes	O	O	_	_	
+6-25	paid	O	B-UnrelEv	_	_	
+6-26	for	O	O	_	_	
+6-27	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-23	
+6-28	to	O	O	_	_	
+6-29	read	O	B-RelNScrEv	_	_	
+6-30	this	B-ScrPart_book	O	webanno.custom.Corefchains_	6-17	
+6-31	and	O	O	_	_	
+6-32	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-27	
+6-33	had	O	O	_	_	
+6-34	to	O	O	_	_	
+6-35	pay	O	B-UnrelEv	_	_	
+6-36	no	O	O	_	_	
+6-37	extra	O	O	_	_	
+6-38	money	O	O	_	_	
+6-39	.	O	O	_	_	
+

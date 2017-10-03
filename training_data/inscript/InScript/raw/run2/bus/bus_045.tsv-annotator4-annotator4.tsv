@@ -1,0 +1,197 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Event | Events
+#id=1
+#text=My car had recently broke down and I had no mode of transportation , I needed to ride the bus to work everyday now .
+1-1	My	B-ScrPart_passenger	O	O	
+1-2	car	B-NPart	O	O	
+1-3	had	O	O	O	
+1-4	recently	O	O	O	
+1-5	broke	O	B-webanno.custom.Events_	B-UnrelEv	
+1-6	down	O	I-webanno.custom.Events_	I-UnrelEv	
+1-7	and	O	O	O	
+1-8	I	B-ScrPart_passenger	O	O	
+1-9	had	O	B-webanno.custom.Events_	B-UnrelEv	
+1-10	no	O	O	O	
+1-11	mode	B-Head_of_Partitive	O	O	
+1-12	of	O	O	O	
+1-13	transportation	B-NPart	O	O	
+1-14	,	O	O	O	
+1-15	I	B-ScrPart_passenger	O	O	
+1-16	needed	O	O	O	
+1-17	to	O	O	O	
+1-18	ride	O	B-webanno.custom.Events_	B-Evoking	
+1-19	the	O	I-webanno.custom.Events_	I-Evoking	
+1-20	bus	B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	
+1-21	to	O	O	O	
+1-22	work	O	O	O	
+1-23	everyday	O	O	O	
+1-24	now	O	O	O	
+1-25	.	O	O	O	
+
+#id=2
+#text=I had never rode the bus before so it was kind of a daunting experience .
+2-1	I	B-ScrPart_passenger	O	O	
+2-2	had	O	O	O	
+2-3	never	O	O	O	
+2-4	rode	O	B-webanno.custom.Events_	B-Evoking	
+2-5	the	O	I-webanno.custom.Events_	I-Evoking	
+2-6	bus	B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	
+2-7	before	O	O	O	
+2-8	so	O	O	O	
+2-9	it	B-No_label	O	O	
+2-10	was	O	B-webanno.custom.Events_	B-UnrelEv	
+2-11	kind	O	O	O	
+2-12	of	O	O	O	
+2-13	a	O	O	O	
+2-14	daunting	O	O	O	
+2-15	experience	B-NPart	O	O	
+2-16	.	O	O	O	
+
+#id=3
+#text=I looked up what I needed to do online , the first thing I needed to do was buy a bus pass in order to even ride the bus .
+3-1	I	B-ScrPart_passenger	O	O	
+3-2	looked	O	B-webanno.custom.Events_	B-UnrelEv	
+3-3	up	O	I-webanno.custom.Events_	I-UnrelEv	
+3-4	what	O	O	O	
+3-5	I	B-ScrPart_passenger	O	O	
+3-6	needed	O	O	O	
+3-7	to	O	O	O	
+3-8	do	O	B-webanno.custom.Events_	B-UnrelEv	
+3-9	online	O	O	O	
+3-10	,	O	O	O	
+3-11	the	O	O	O	
+3-12	first	O	O	O	
+3-13	thing	B-NPart	O	O	
+3-14	I	B-ScrPart_passenger	O	O	
+3-15	needed	O	O	O	
+3-16	to	O	O	O	
+3-17	do	O	B-webanno.custom.Events_	B-UnrelEv	
+3-18	was	O	O	O	
+3-19	buy	O	B-webanno.custom.Events_	B-ScrEv_get_ticket	
+3-20	a	O	O	O	
+3-21	bus	B-ScrPart_card/ticket	O	O	
+3-22	pass	I-ScrPart_card/ticket	O	O	
+3-23	in	O	O	O	
+3-24	order	O	O	O	
+3-25	to	O	O	O	
+3-26	even	O	O	O	
+3-27	ride	O	B-webanno.custom.Events_	B-Evoking	
+3-28	the	O	I-webanno.custom.Events_	I-Evoking	
+3-29	bus	B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	
+3-30	.	O	O	O	
+
+#id=4
+#text=After that it was relatively simple , I just had to wait for the bus that would take me nearest to my office building , and board it .
+4-1	After	O	O	O	
+4-2	that	O	O	O	
+4-3	it	B-No_label	O	O	
+4-4	was	O	B-webanno.custom.Events_	B-UnrelEv	
+4-5	relatively	O	O	O	
+4-6	simple	O	O	O	
+4-7	,	O	O	O	
+4-8	I	B-ScrPart_passenger	O	O	
+4-9	just	O	O	O	
+4-10	had	O	O	O	
+4-11	to	O	O	O	
+4-12	wait	O	B-webanno.custom.Events_	B-UnrelEv	
+4-13	for	O	I-webanno.custom.Events_	I-UnrelEv	
+4-14	the	O	O	O	
+4-15	bus	B-ScrPart_bus	O	O	
+4-16	that	B-ScrPart_bus	O	O	
+4-17	would	O	O	O	
+4-18	take	O	B-webanno.custom.Events_	B-ScrEv_ride	
+4-19	me	B-ScrPart_passenger	O	O	
+4-20	nearest	O	O	O	
+4-21	to	O	O	O	
+4-22	my	B-ScrPart_passenger	O	O	
+4-23	office	B-ScrPart_destination	O	O	
+4-24	building	I-ScrPart_destination|B-ScrPart_destination	O	O	
+4-25	,	O	O	O	
+4-26	and	O	O	O	
+4-27	board	O	B-webanno.custom.Events_	B-ScrEv_board_bus	
+4-28	it	B-ScrPart_bus	O	O	
+4-29	.	O	O	O	
+
+#id=5
+#text=Once I was on I just had to scan my pass and pick a seat .
+5-1	Once	O	O	O	
+5-2	I	B-ScrPart_passenger	O	O	
+5-3	was	O	B-webanno.custom.Events_	B-ScrEv_board_bus	
+5-4	on	O	I-webanno.custom.Events_	I-ScrEv_board_bus	
+5-5	I	B-ScrPart_passenger	O	O	
+5-6	just	O	O	O	
+5-7	had	O	O	O	
+5-8	to	O	O	O	
+5-9	scan	O	B-webanno.custom.Events_	B-ScrEv_get_ticket	
+5-10	my	B-ScrPart_passenger	O	O	
+5-11	pass	B-ScrPart_card/ticket	O	O	
+5-12	and	O	O	O	
+5-13	pick	O	B-webanno.custom.Events_	B-ScrEv_find_place	
+5-14	a	O	O	O	
+5-15	seat	B-ScrPart_seat_in_bus	O	O	
+5-16	.	O	O	O	
+
+#id=6
+#text=After that I just waited until I reached my stop and I got off of the bus .
+6-1	After	O	O	O	
+6-2	that	O	O	O	
+6-3	I	B-ScrPart_passenger	O	O	
+6-4	just	O	O	O	
+6-5	waited	O	B-webanno.custom.Events_	B-ScrEv_ride	
+6-6	until	O	O	O	
+6-7	I	B-ScrPart_passenger	O	O	
+6-8	reached	O	B-webanno.custom.Events_	B-ScrEv_bus_stops	
+6-9	my	B-ScrPart_passenger	O	O	
+6-10	stop	B-ScrPart_bus_stop	O	O	
+6-11	and	O	O	O	
+6-12	I	B-ScrPart_passenger	O	O	
+6-13	got	O	B-webanno.custom.Events_	B-ScrEv_get_off	
+6-14	off	O	I-webanno.custom.Events_	I-ScrEv_get_off	
+6-15	of	O	O	O	
+6-16	the	O	O	O	
+6-17	bus	B-ScrPart_bus	O	O	
+6-18	.	O	O	O	
+
+#id=7
+#text=Once work was over I just did the same thing and got off at the stop as close to my house as possible .
+7-1	Once	O	O	O	
+7-2	work	B-NPart	O	O	
+7-3	was	O	B-webanno.custom.Events_	B-UnrelEv	
+7-4	over	O	O	O	
+7-5	I	B-ScrPart_passenger	O	O	
+7-6	just	O	O	O	
+7-7	did	O	B-webanno.custom.Events_	B-???	
+7-8	the	O	O	O	
+7-9	same	O	O	O	
+7-10	thing	B-NPart	O	O	
+7-11	and	O	O	O	
+7-12	got	O	B-webanno.custom.Events_	B-ScrEv_get_off	
+7-13	off	O	I-webanno.custom.Events_	I-ScrEv_get_off	
+7-14	at	O	O	O	
+7-15	the	O	O	O	
+7-16	stop	B-ScrPart_bus_stop	O	O	
+7-17	as	O	O	O	
+7-18	close	O	O	O	
+7-19	to	O	O	O	
+7-20	my	B-ScrPart_passenger	O	O	
+7-21	house	B-ScrPart_destination	O	O	
+7-22	as	O	O	O	
+7-23	possible	O	O	O	
+7-24	.	O	O	O	
+
+#id=8
+#text=Riding the bus was not as scary as I thought it would be . 
+8-1	Riding	O	B-webanno.custom.Events_	B-Evoking	
+8-2	the	O	I-webanno.custom.Events_	I-Evoking	
+8-3	bus	B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	
+8-4	was	O	B-webanno.custom.Events_	B-UnrelEv	
+8-5	not	O	O	O	
+8-6	as	O	O	O	
+8-7	scary	O	O	O	
+8-8	as	O	O	O	
+8-9	I	B-ScrPart_passenger	O	O	
+8-10	thought	O	B-webanno.custom.Events_	B-UnrelEv	
+8-11	it	B-No_label	O	O	
+8-12	would	O	O	O	
+8-13	be	O	B-webanno.custom.Events_	B-UnrelEv	
+8-14	.	O	O	O	
+

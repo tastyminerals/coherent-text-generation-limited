@@ -1,0 +1,199 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=I was sitting home on a Saturday afternoon and was quite bored .
+1-1	I	B-ScrPart_customer	O	
+1-2	was	O	O	
+1-3	sitting	O	B-UnrelEv	
+1-4	home	B-NPart	O	
+1-5	on	O	O	
+1-6	a	O	O	
+1-7	Saturday	B-NPart	O	
+1-8	afternoon	I-NPart|B-NPart	O	
+1-9	and	O	O	
+1-10	was	O	O	
+1-11	quite	O	O	
+1-12	bored	O	B-UnrelEv	
+1-13	.	O	O	
+
+#id=2
+#text=I decided that I would enjoy reading , but I did n't have any books that I had n't read at home .
+2-1	I	B-ScrPart_customer	O	
+2-2	decided	O	B-UnrelEv	
+2-3	that	O	O	
+2-4	I	B-ScrPart_customer	O	
+2-5	would	O	O	
+2-6	enjoy	O	B-UnrelEv	
+2-7	reading	O	B-RelNScrEv	
+2-8	,	O	O	
+2-9	but	O	O	
+2-10	I	B-ScrPart_customer	O	
+2-11	did	O	O	
+2-12	n't	O	O	
+2-13	have	O	B-UnrelEv	
+2-14	any	O	O	
+2-15	books	B-ScrPart_book	O	
+2-16	that	B-ScrPart_book	O	
+2-17	I	B-ScrPart_customer	O	
+2-18	had	O	O	
+2-19	n't	O	O	
+2-20	read	O	B-RelNScrEv	
+2-21	at	O	O	
+2-22	home	B-NPart	O	
+2-23	.	O	O	
+
+#id=3
+#text=So , off I went to the library .
+3-1	So	O	O	
+3-2	,	O	O	
+3-3	off	O	O	
+3-4	I	B-ScrPart_customer	O	
+3-5	went	O	B-Evoking	
+3-6	to	O	I-Evoking	
+3-7	the	O	I-Evoking	
+3-8	library	B-ScrPart_library	I-Evoking	
+3-9	.	O	O	
+
+#id=4
+#text=I got in my car and drove a mile down the street until I reached the library .
+4-1	I	B-ScrPart_customer	O	
+4-2	got	O	B-RelNScrEv	
+4-3	in	O	O	
+4-4	my	B-ScrPart_customer	O	
+4-5	car	B-NPart	O	
+4-6	and	O	O	
+4-7	drove	O	B-ScrEv_get_library	
+4-8	a	O	O	
+4-9	mile	B-NPart	O	
+4-10	down	O	O	
+4-11	the	O	O	
+4-12	street	B-NPart	O	
+4-13	until	O	O	
+4-14	I	B-ScrPart_customer	O	
+4-15	reached	O	B-ScrEv_get_library	
+4-16	the	O	O	
+4-17	library	B-ScrPart_library	O	
+4-18	.	O	O	
+
+#id=5
+#text=Once there I browsed through the fiction books as those are my favorite until I found a book that I thought I would like to read .
+5-1	Once	O	O	
+5-2	there	O	O	
+5-3	I	B-ScrPart_customer	O	
+5-4	browsed	O	B-ScrEv_look_for_book	
+5-5	through	O	O	
+5-6	the	O	O	
+5-7	fiction	B-ScrPart_book	O	
+5-8	books	I-ScrPart_book|B-ScrPart_book	O	
+5-9	as	O	O	
+5-10	those	B-ScrPart_book	O	
+5-11	are	O	B-UnrelEv	
+5-12	my	B-ScrPart_customer	O	
+5-13	favorite	O	O	
+5-14	until	O	O	
+5-15	I	B-ScrPart_customer	O	
+5-16	found	O	B-ScrEv_look_for_book	
+5-17	a	O	O	
+5-18	book	B-ScrPart_book	O	
+5-19	that	B-ScrPart_book	O	
+5-20	I	B-ScrPart_customer	O	
+5-21	thought	O	B-UnrelEv	
+5-22	I	B-ScrPart_customer	O	
+5-23	would	O	O	
+5-24	like	O	B-UnrelEv	
+5-25	to	O	O	
+5-26	read	O	B-RelNScrEv	
+5-27	.	O	O	
+
+#id=6
+#text=I picked up the book and took it up to the front desk .
+6-1	I	B-ScrPart_customer	O	
+6-2	picked	O	B-ScrEv_take_book	
+6-3	up	O	I-ScrEv_take_book	
+6-4	the	O	O	
+6-5	book	B-ScrPart_book	O	
+6-6	and	O	O	
+6-7	took	O	B-ScrEv_go_check_out	
+6-8	it	B-ScrPart_book	O	
+6-9	up	O	O	
+6-10	to	O	O	
+6-11	the	O	O	
+6-12	front	B-ScrPart_check-out_desk	O	
+6-13	desk	I-ScrPart_check-out_desk|B-ScrPart_check-out_desk	O	
+6-14	.	O	O	
+
+#id=7
+#text=I pulled out my library card and the librarian scanned the book and then scanned my card .
+7-1	I	B-ScrPart_customer	O	
+7-2	pulled	O	B-RelNScrEv	
+7-3	out	O	I-RelNScrEv	
+7-4	my	B-ScrPart_customer	O	
+7-5	library	B-ScrPart_library_card	O	
+7-6	card	I-ScrPart_library_card|B-ScrPart_library_card	O	
+7-7	and	O	O	
+7-8	the	O	O	
+7-9	librarian	B-ScrPart_staff	O	
+7-10	scanned	O	B-ScrEv_register	
+7-11	the	O	O	
+7-12	book	B-ScrPart_book	O	
+7-13	and	O	O	
+7-14	then	O	O	
+7-15	scanned	O	B-ScrEv_show_card	
+7-16	my	B-ScrPart_customer	O	
+7-17	card	B-ScrPart_library_card	O	
+7-18	.	O	O	
+
+#id=8
+#text=She put a bookmark in the book and told me when the book would be due back .
+8-1	She	B-ScrPart_staff	O	
+8-2	put	O	B-RelNScrEv	
+8-3	a	O	O	
+8-4	bookmark	B-NPart	O	
+8-5	in	O	O	
+8-6	the	O	O	
+8-7	book	B-ScrPart_book	O	
+8-8	and	O	O	
+8-9	told	O	B-RelNScrEv	
+8-10	me	B-ScrPart_customer	O	
+8-11	when	O	O	
+8-12	the	O	O	
+8-13	book	B-ScrPart_book	O	
+8-14	would	O	O	
+8-15	be	O	B-ScrEv_return_book	
+8-16	due	O	I-ScrEv_return_book	
+8-17	back	O	O	
+8-18	.	O	O	
+
+#id=9
+#text=I thanked her and proceeded to walk out to my car .
+9-1	I	B-ScrPart_customer	O	
+9-2	thanked	O	B-RelNScrEv	
+9-3	her	B-ScrPart_staff	O	
+9-4	and	O	O	
+9-5	proceeded	O	B-UnrelEv	
+9-6	to	O	O	
+9-7	walk	O	B-ScrEv_leave	
+9-8	out	O	I-ScrEv_leave	
+9-9	to	O	O	
+9-10	my	B-ScrPart_customer	O	
+9-11	car	B-NPart	O	
+9-12	.	O	O	
+
+#id=10
+#text=I drove home and began reading the book and it was very enjoyable to read . 
+10-1	I	B-ScrPart_customer	O	
+10-2	drove	O	B-RelNScrEv	
+10-3	home	B-NPart	O	
+10-4	and	O	O	
+10-5	began	O	B-UnrelEv	
+10-6	reading	O	B-RelNScrEv	
+10-7	the	O	O	
+10-8	book	B-ScrPart_book	O	
+10-9	and	O	O	
+10-10	it	B-ScrPart_book	O	
+10-11	was	O	B-UnrelEv	
+10-12	very	O	O	
+10-13	enjoyable	O	O	
+10-14	to	O	O	
+10-15	read	O	B-RelNScrEv	
+10-16	.	O	O	
+

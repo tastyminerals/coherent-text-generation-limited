@@ -1,0 +1,259 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Eventsandparticipants | Event # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=The first time I rode a public bus was in high school .
+1-1	The	O	O	_	_	
+1-2	first	O	O	_	_	
+1-3	time	O	O	_	_	
+1-4	I	B-ScrPart_passenger	O	_	_	
+1-5	rode	O	B-Evoking	_	_	
+1-6	a	O	I-Evoking	_	_	
+1-7	public	O	I-Evoking	_	_	
+1-8	bus	B-ScrPart_bus	I-Evoking	_	_	
+1-9	was	O	O	_	_	
+1-10	in	O	O	_	_	
+1-11	high	O	O	_	_	
+1-12	school	O	O	_	_	
+1-13	.	O	O	_	_	
+
+#id=2
+#text=I needed a ride to get home from school since no family members could get me .
+2-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-4	
+2-2	needed	O	B-UnrelEv	_	_	
+2-3	a	O	O	_	_	
+2-4	ride	B-???	O	_	_	
+2-5	to	O	O	_	_	
+2-6	get	O	B-RelNScrEv	_	_	
+2-7	home	B-ScrPart_destination	O	_	_	
+2-8	from	O	O	_	_	
+2-9	school	O	O	_	_	
+2-10	since	O	O	_	_	
+2-11	no	O	O	_	_	
+2-12	family	O	O	_	_	
+2-13	members	O	O	_	_	
+2-14	could	O	O	_	_	
+2-15	get	O	B-UnrelEv	_	_	
+2-16	me	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-1	
+2-17	.	O	O	_	_	
+
+#id=3
+#text=So I waited for the bus until it came .
+3-1	So	O	O	_	_	
+3-2	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-16	
+3-3	waited	O	B-ScrEv_wait	_	_	
+3-4	for	O	O	_	_	
+3-5	the	O	O	_	_	
+3-6	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	1-8	
+3-7	until	O	O	_	_	
+3-8	it	B-ScrPart_bus	O	webanno.custom.Corefchains_	3-6	
+3-9	came	O	B-ScrEv_bus_comes	_	_	
+3-10	.	O	O	_	_	
+
+#id=4
+#text=Then I stepped onto the bus , I inserted the fee of two dollars into the cash machine and the driver waived me on .
+4-1	Then	O	O	_	_	
+4-2	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-2	
+4-3	stepped	O	B-ScrEv_board_bus	_	_	
+4-4	onto	O	O	_	_	
+4-5	the	O	O	_	_	
+4-6	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	3-8	
+4-7	,	O	O	_	_	
+4-8	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-2	
+4-9	inserted	O	B-ScrEv_get_ticket	_	_	
+4-10	the	O	O	_	_	
+4-11	fee	B-ScrPart_money	O	_	_	
+4-12	of	O	O	_	_	
+4-13	two	O	O	_	_	
+4-14	dollars	B-ScrPart_money	O	webanno.custom.Corefchains_	4-11	
+4-15	into	O	O	_	_	
+4-16	the	O	O	_	_	
+4-17	cash	B-ScrPart_payment_machine	O	_	_	
+4-18	machine	I-ScrPart_payment_machine|B-ScrPart_payment_machine	O	_	_	
+4-19	and	O	O	_	_	
+4-20	the	O	O	_	_	
+4-21	driver	B-ScrPart_bus_staff	O	_	_	
+4-22	waived	O	B-RelNScrEv	_	_	
+4-23	me	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-8	
+4-24	on	O	O	_	_	
+4-25	.	O	O	_	_	
+
+#id=5
+#text=I went and took my seat and minded my own business .
+5-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-23	
+5-2	went	O	B-ScrEv_find_place	_	_	
+5-3	and	O	O	_	_	
+5-4	took	O	B-ScrEv_find_place	_	_	
+5-5	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-1	
+5-6	seat	B-ScrPart_seat_in_bus	O	_	_	
+5-7	and	O	O	_	_	
+5-8	minded	O	B-ScrEv_spend_time_bus	_	_	
+5-9	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-5	
+5-10	own	O	O	_	_	
+5-11	business	B-SuppVComp	O	_	_	
+5-12	.	O	O	_	_	
+
+#id=6
+#text=Once the bus was on its way , I waited until we were close to my house .
+6-1	Once	O	O	_	_	
+6-2	the	O	O	_	_	
+6-3	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	4-6	
+6-4	was	O	B-MissScrEv	_	_	
+6-5	on	O	O	_	_	
+6-6	its	O	O	_	_	
+6-7	way	B-SuppVComp	O	_	_	
+6-8	,	O	O	_	_	
+6-9	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_|group_I_passengers	5-9|6-12	
+6-10	waited	O	B-ScrEv_spend_time_bus	_	_	
+6-11	until	O	O	_	_	
+6-12	we	B-ScrPart_passenger	O	_	_	
+6-13	were	O	B-UnrelEv	_	_	
+6-14	close	O	O	_	_	
+6-15	to	O	O	_	_	
+6-16	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-9	
+6-17	house	B-ScrPart_destination	O	webanno.custom.Corefchains_	2-7	
+6-18	.	O	O	_	_	
+
+#id=7
+#text=I then pulled on the yellow stop cord that is hung throughout the bus .
+7-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-16	
+7-2	then	O	O	_	_	
+7-3	pulled	O	B-ScrEv_press_stop_button	_	_	
+7-4	on	O	O	_	_	
+7-5	the	O	O	_	_	
+7-6	yellow	O	O	_	_	
+7-7	stop	B-ScrPart_stop_button/door_opener	O	_	_	
+7-8	cord	I-ScrPart_stop_button/door_opener|B-ScrPart_stop_button/door_opener	O	_	_	
+7-9	that	O	O	_	_	
+7-10	is	O	O	_	_	
+7-11	hung	O	B-UnrelEv	_	_	
+7-12	throughout	O	O	_	_	
+7-13	the	O	O	_	_	
+7-14	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	6-3	
+7-15	.	O	O	_	_	
+
+#id=8
+#text=It sends a message to the driver that someone on the bus wants to get off at the next stop .
+8-1	It	B-ScrPart_stop_button/door_opener	O	webanno.custom.Corefchains_	7-8	
+8-2	sends	O	B-ScrEv_press_stop_button	_	_	
+8-3	a	O	O	_	_	
+8-4	message	B-SuppVComp	O	_	_	
+8-5	to	O	O	_	_	
+8-6	the	O	O	_	_	
+8-7	driver	B-ScrPart_bus_staff	O	webanno.custom.Corefchains_	4-21	
+8-8	that	O	O	_	_	
+8-9	someone	B-ScrPart_passenger	O	_	_	
+8-10	on	O	O	_	_	
+8-11	the	O	O	_	_	
+8-12	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	7-14	
+8-13	wants	O	O	_	_	
+8-14	to	O	O	_	_	
+8-15	get	O	B-ScrEv_get_off	_	_	
+8-16	off	O	I-ScrEv_get_off	_	_	
+8-17	at	O	O	_	_	
+8-18	the	O	O	_	_	
+8-19	next	O	O	_	_	
+8-20	stop	B-ScrPart_bus_stop	O	_	_	
+8-21	.	O	O	_	_	
+
+#id=9
+#text=When the driver pulled up to a stop , I got off , I said thank you to the driver to be polite and grateful and he nodded his head at me .
+9-1	When	O	O	_	_	
+9-2	the	O	O	_	_	
+9-3	driver	B-ScrPart_bus_staff	O	webanno.custom.Corefchains_	8-7	
+9-4	pulled	O	B-ScrEv_bus_stops	_	_	
+9-5	up	O	O	_	_	
+9-6	to	O	O	_	_	
+9-7	a	O	O	_	_	
+9-8	stop	B-ScrPart_bus_stop	O	_	_	
+9-9	,	O	O	_	_	
+9-10	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-1	
+9-11	got	O	B-ScrEv_get_off	_	_	
+9-12	off	O	I-ScrEv_get_off	_	_	
+9-13	,	O	O	_	_	
+9-14	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-10	
+9-15	said	O	B-RelNScrEv	_	_	
+9-16	thank	O	O	_	_	
+9-17	you	O	O	_	_	
+9-18	to	O	O	_	_	
+9-19	the	O	O	_	_	
+9-20	driver	B-ScrPart_bus_staff	O	webanno.custom.Corefchains_	9-3	
+9-21	to	O	O	_	_	
+9-22	be	O	B-UnrelEv	_	_	
+9-23	polite	O	O	_	_	
+9-24	and	O	O	_	_	
+9-25	grateful	O	O	_	_	
+9-26	and	O	O	_	_	
+9-27	he	B-ScrPart_bus_staff	O	webanno.custom.Corefchains_	9-20	
+9-28	nodded	O	B-RelNScrEv	_	_	
+9-29	his	B-ScrPart_bus_staff	O	webanno.custom.Corefchains_	9-27	
+9-30	head	B-SuppVComp	O	_	_	
+9-31	at	O	O	_	_	
+9-32	me	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-14	
+9-33	.	O	O	_	_	
+
+#id=10
+#text=Then I walked the rest of the way home .
+10-1	Then	O	O	_	_	
+10-2	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-32	
+10-3	walked	O	B-UnrelEv	_	_	
+10-4	the	O	O	_	_	
+10-5	rest	O	O	_	_	
+10-6	of	O	O	_	_	
+10-7	the	O	O	_	_	
+10-8	way	O	O	_	_	
+10-9	home	B-ScrPart_destination	O	webanno.custom.Corefchains_	6-17	
+10-10	.	O	O	_	_	
+
+#id=11
+#text=I had always thought it would be hard and gross to take a public bus , but it was actually kind of nice .
+11-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-2	
+11-2	had	O	O	_	_	
+11-3	always	O	O	_	_	
+11-4	thought	O	B-UnrelEv	_	_	
+11-5	it	O	O	_	_	
+11-6	would	O	O	_	_	
+11-7	be	O	O	_	_	
+11-8	hard	O	O	_	_	
+11-9	and	O	O	_	_	
+11-10	gross	O	O	_	_	
+11-11	to	O	O	_	_	
+11-12	take	O	B-Evoking	_	_	
+11-13	a	O	I-Evoking	_	_	
+11-14	public	O	I-Evoking	_	_	
+11-15	bus	B-ScrPart_bus	I-Evoking	webanno.custom.Corefchains_	8-12	
+11-16	,	O	O	_	_	
+11-17	but	O	O	_	_	
+11-18	it	O	O	_	_	
+11-19	was	O	B-UnrelEv	_	_	
+11-20	actually	O	O	_	_	
+11-21	kind	O	O	_	_	
+11-22	of	O	O	_	_	
+11-23	nice	O	O	_	_	
+11-24	.	O	O	_	_	
+
+#id=12
+#text=There are also seat belts on public buses , but you are not required to wear one if you do not want to . 
+12-1	There	O	O	_	_	
+12-2	are	O	B-UnrelEv	_	_	
+12-3	also	O	O	_	_	
+12-4	seat	O	O	_	_	
+12-5	belts	O	O	_	_	
+12-6	on	O	O	_	_	
+12-7	public	O	O	_	_	
+12-8	buses	B-ScrPart_bus	O	webanno.custom.Corefchains_	11-15	
+12-9	,	O	O	_	_	
+12-10	but	O	O	_	_	
+12-11	you	B-ScrPart_passenger	O	webanno.custom.Corefchains_	11-1	
+12-12	are	O	O	_	_	
+12-13	not	O	O	_	_	
+12-14	required	O	O	_	_	
+12-15	to	O	O	_	_	
+12-16	wear	O	B-UnrelEv	_	_	
+12-17	one	O	O	_	_	
+12-18	if	O	O	_	_	
+12-19	you	B-ScrPart_passenger	O	webanno.custom.Corefchains_	12-11	
+12-20	do	O	O	_	_	
+12-21	not	O	O	_	_	
+12-22	want	O	O	_	_	
+12-23	to	O	O	_	_	
+12-24	.	O	O	_	_	
+

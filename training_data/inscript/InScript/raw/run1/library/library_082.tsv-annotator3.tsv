@@ -1,0 +1,263 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=For my english class , I had to read a book about President Obama .
+1-1	For	O	O	_	_	
+1-2	my	O	O	_	_	
+1-3	english	O	O	_	_	
+1-4	class	O	O	_	_	
+1-5	,	O	O	_	_	
+1-6	I	B-ScrPart_customer	O	_	_	
+1-7	had	O	O	_	_	
+1-8	to	O	O	_	_	
+1-9	read	O	B-RelNScrEv	_	_	
+1-10	a	O	O	_	_	
+1-11	book	B-ScrPart_book	O	_	_	
+1-12	about	O	O	_	_	
+1-13	President	O	O	_	_	
+1-14	Obama	O	O	_	_	
+1-15	.	O	O	_	_	
+
+#id=2
+#text=Normally , I am able to find a pdf copy of a book online but I could n't find this book .
+2-1	Normally	O	O	_	_	
+2-2	,	O	O	_	_	
+2-3	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-6	
+2-4	am	O	O	_	_	
+2-5	able	O	O	_	_	
+2-6	to	O	O	_	_	
+2-7	find	O	B-UnrelEv	_	_	
+2-8	a	O	O	_	_	
+2-9	pdf	O	O	_	_	
+2-10	copy	O	O	_	_	
+2-11	of	O	O	_	_	
+2-12	a	O	O	_	_	
+2-13	book	B-ScrPart_book	O	webanno.custom.Corefchains_	1-11	
+2-14	online	O	O	_	_	
+2-15	but	O	O	_	_	
+2-16	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-3	
+2-17	could	O	O	_	_	
+2-18	n't	O	O	_	_	
+2-19	find	O	B-UnrelEv	_	_	
+2-20	this	O	O	_	_	
+2-21	book	B-ScrPart_book	O	webanno.custom.Corefchains_	2-13	
+2-22	.	O	O	_	_	
+
+#id=3
+#text=I had no choice but to go to the library to take out this book .
+3-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-16	
+3-2	had	O	B-UnrelEv	_	_	
+3-3	no	O	O	_	_	
+3-4	choice	O	O	_	_	
+3-5	but	O	O	_	_	
+3-6	to	O	O	_	_	
+3-7	go	O	B-Evoking	_	_	
+3-8	to	O	I-Evoking	_	_	
+3-9	the	O	I-Evoking	_	_	
+3-10	library	B-ScrPart_library	I-Evoking	_	_	
+3-11	to	O	O	_	_	
+3-12	take	O	B-RelNScrEv|B-RelNScrEv	_	_	
+3-13	out	O	I-RelNScrEv	_	_	
+3-14	this	O	O	_	_	
+3-15	book	B-ScrPart_book	O	webanno.custom.Corefchains_	2-21	
+3-16	.	O	O	_	_	
+
+#id=4
+#text=While I was at the library , I had to wait on line to speak to the librarian .
+4-1	While	O	O	_	_	
+4-2	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-1	
+4-3	was	O	B-UnrelEv	_	_	
+4-4	at	O	O	_	_	
+4-5	the	O	O	_	_	
+4-6	library	B-ScrPart_library	O	webanno.custom.Corefchains_	3-10	
+4-7	,	O	O	_	_	
+4-8	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-2	
+4-9	had	O	O	_	_	
+4-10	to	O	O	_	_	
+4-11	wait	O	B-ScrEv_wait	_	_	
+4-12	on	O	O	_	_	
+4-13	line	B-ScrPart_line	O	_	_	
+4-14	to	O	O	_	_	
+4-15	speak	O	B-UnrelEv	_	_	
+4-16	to	O	O	_	_	
+4-17	the	B-ScrPart_staff	O	_	_	
+4-18	librarian	B-ScrPart_staff	O	_	_	
+4-19	.	O	O	_	_	
+
+#id=5
+#text=I wanted the librarian to help me find the book since the library was a huge library .
+5-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-8	
+5-2	wanted	O	B-UnrelEv	_	_	
+5-3	the	O	O	_	_	
+5-4	librarian	B-ScrPart_staff	O	webanno.custom.Corefchains_	4-18	
+5-5	to	O	O	_	_	
+5-6	help	O	B-RelNScrEv	_	_	
+5-7	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-1	
+5-8	find	O	B-RelNScrEv	_	_	
+5-9	the	O	O	_	_	
+5-10	book	B-ScrPart_book	O	webanno.custom.Corefchains_	3-15	
+5-11	since	O	O	_	_	
+5-12	the	O	O	_	_	
+5-13	library	B-ScrPart_library	O	webanno.custom.Corefchains_	4-6	
+5-14	was	O	B-UnrelEv	_	_	
+5-15	a	O	O	_	_	
+5-16	huge	O	O	_	_	
+5-17	library	B-ScrPart_library	O	webanno.custom.Corefchains_	5-13	
+5-18	.	O	O	_	_	
+
+#id=6
+#text=I would n't be able to find the book on my own .
+6-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-7	
+6-2	would	O	O	_	_	
+6-3	n't	O	O	_	_	
+6-4	be	O	O	_	_	
+6-5	able	O	O	_	_	
+6-6	to	O	O	_	_	
+6-7	find	O	B-RelNScrEv	_	_	
+6-8	the	O	O	_	_	
+6-9	book	B-ScrPart_book	O	webanno.custom.Corefchains_	5-10	
+6-10	on	O	O	_	_	
+6-11	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-1	
+6-12	own	O	O	_	_	
+6-13	.	O	O	_	_	
+
+#id=7
+#text=When I was finally able to speak to the librarian about the book , she was very warm and helpful .
+7-1	When	O	O	_	_	
+7-2	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-11	
+7-3	was	O	O	_	_	
+7-4	finally	O	O	_	_	
+7-5	able	O	O	_	_	
+7-6	to	O	O	_	_	
+7-7	speak	O	B-ScrEv_ask_librarian	_	_	
+7-8	to	O	O	_	_	
+7-9	the	O	O	_	_	
+7-10	librarian	B-ScrPart_staff	O	webanno.custom.Corefchains_	5-4	
+7-11	about	O	O	_	_	
+7-12	the	O	O	_	_	
+7-13	book	B-ScrPart_book	O	webanno.custom.Corefchains_	6-9	
+7-14	,	O	O	_	_	
+7-15	she	B-ScrPart_staff	O	webanno.custom.Corefchains_	7-10	
+7-16	was	O	B-UnrelEv	_	_	
+7-17	very	O	O	_	_	
+7-18	warm	O	O	_	_	
+7-19	and	O	O	_	_	
+7-20	helpful	O	O	_	_	
+7-21	.	O	O	_	_	
+
+#id=8
+#text=Not only did she tell me where the book was at but she personally walked with me to the area .
+8-1	Not	O	O	_	_	
+8-2	only	O	O	_	_	
+8-3	did	O	O	_	_	
+8-4	she	B-ScrPart_staff	O	webanno.custom.Corefchains_	7-15	
+8-5	tell	O	B-RelNScrEv	_	_	
+8-6	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-2	
+8-7	where	O	O	_	_	
+8-8	the	O	O	_	_	
+8-9	book	B-ScrPart_book	O	webanno.custom.Corefchains_	7-13	
+8-10	was	O	O	_	_	
+8-11	at	O	O	_	_	
+8-12	but	O	O	_	_	
+8-13	she	B-ScrPart_staff	O	webanno.custom.Corefchains_	8-4	
+8-14	personally	O	O	_	_	
+8-15	walked	O	B-RelNScrEv	_	_	
+8-16	with	O	O	_	_	
+8-17	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-6	
+8-18	to	O	O	_	_	
+8-19	the	O	O	_	_	
+8-20	area	B-ScrPart_location_library	O	_	_	
+8-21	.	O	O	_	_	
+
+#id=9
+#text=On the way , she made small talk and asked why am I reading the book ?
+9-1	On	O	O	_	_	
+9-2	the	O	O	_	_	
+9-3	way	O	O	_	_	
+9-4	,	O	O	_	_	
+9-5	she	B-ScrPart_staff	O	webanno.custom.Corefchains_	8-13	
+9-6	made	O	B-UnrelEv	_	_	
+9-7	small	O	O	_	_	
+9-8	talk	O	O	_	_	
+9-9	and	O	O	_	_	
+9-10	asked	O	B-UnrelEv	_	_	
+9-11	why	O	O	_	_	
+9-12	am	O	O	_	_	
+9-13	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-17	
+9-14	reading	O	B-RelNScrEv	_	_	
+9-15	the	O	O	_	_	
+9-16	book	B-ScrPart_book	O	webanno.custom.Corefchains_	8-9	
+9-17	?	O	O	_	_	
+
+#id=10
+#text=I told her it was for an english class .
+10-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-13	
+10-2	told	O	B-UnrelEv	_	_	
+10-3	her	B-ScrPart_staff	O	webanno.custom.Corefchains_	9-5	
+10-4	it	B-ScrPart_book	O	webanno.custom.Corefchains_	9-16	
+10-5	was	O	B-UnrelEv	_	_	
+10-6	for	O	O	_	_	
+10-7	an	O	O	_	_	
+10-8	english	O	O	_	_	
+10-9	class	O	O	_	_	
+10-10	.	O	O	_	_	
+
+#id=11
+#text=A minute later , we came to the area where the book was located .
+11-1	A	O	O	_	_	
+11-2	minute	O	O	_	_	
+11-3	later	O	O	_	_	
+11-4	,	O	O	_	_	
+11-5	we	O	O	_	_	
+11-6	came	O	B-UnrelEv	_	_	
+11-7	to	O	O	_	_	
+11-8	the	O	O	_	_	
+11-9	area	B-ScrPart_location_library	O	webanno.custom.Corefchains_	8-20	
+11-10	where	O	O	_	_	
+11-11	the	O	O	_	_	
+11-12	book	B-ScrPart_book	O	webanno.custom.Corefchains_	10-4	
+11-13	was	O	O	_	_	
+11-14	located	O	B-UnrelEv	_	_	
+11-15	.	O	O	_	_	
+
+#id=12
+#text=She picked up the book and handed it to me .
+12-1	She	B-ScrPart_staff	O	webanno.custom.Corefchains_	10-3	
+12-2	picked	O	B-ScrEv_take_book|B-ScrEv_take_book	_	_	
+12-3	up	O	I-ScrEv_take_book	_	_	
+12-4	the	O	O	_	_	
+12-5	book	B-ScrPart_book	O	webanno.custom.Corefchains_	11-12	
+12-6	and	O	O	_	_	
+12-7	handed	O	B-UnrelEv	_	_	
+12-8	it	B-ScrPart_book	O	webanno.custom.Corefchains_	12-5	
+12-9	to	O	O	_	_	
+12-10	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	10-1	
+12-11	.	O	O	_	_	
+
+#id=13
+#text=Soon , she helped me check out the book .
+13-1	Soon	O	O	_	_	
+13-2	,	O	O	_	_	
+13-3	she	B-ScrPart_staff	O	webanno.custom.Corefchains_	12-1	
+13-4	helped	O	B-UnrelEv	_	_	
+13-5	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	12-10	
+13-6	check	O	B-ScrEv_register|B-ScrEv_register	_	_	
+13-7	out	O	I-ScrEv_register	_	_	
+13-8	the	O	O	_	_	
+13-9	book	B-ScrPart_book	O	webanno.custom.Corefchains_	12-8	
+13-10	.	O	O	_	_	
+
+#id=14
+#text=Finally , I had the book and I left the library . 
+14-1	Finally	O	O	_	_	
+14-2	,	O	O	_	_	
+14-3	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	13-5	
+14-4	had	O	B-UnrelEv	_	_	
+14-5	the	O	O	_	_	
+14-6	book	B-ScrPart_book	O	webanno.custom.Corefchains_	13-9	
+14-7	and	O	O	_	_	
+14-8	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	14-3	
+14-9	left	O	B-ScrEv_leave	_	_	
+14-10	the	O	O	_	_	
+14-11	library	B-ScrPart_library	O	webanno.custom.Corefchains_	5-17	
+14-12	.	O	O	_	_	
+

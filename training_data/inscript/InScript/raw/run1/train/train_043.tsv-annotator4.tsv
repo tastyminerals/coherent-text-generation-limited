@@ -1,0 +1,219 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I entered the train depot and went up to the window .
+1-1	I	B-ScrPart_passenger	O	_	_	
+1-2	entered	O	B-RelNScrEv	_	_	
+1-3	the	O	O	_	_	
+1-4	train	B-ScrPart_train_station	O	_	_	
+1-5	depot	I-ScrPart_train_station|B-ScrPart_train_station	O	_	_	
+1-6	and	O	O	_	_	
+1-7	went	O	B-RelNScrEv	_	_	
+1-8	up	O	I-RelNScrEv	_	_	
+1-9	to	O	O	_	_	
+1-10	the	O	O	_	_	
+1-11	window	B-ScrPart_ticket_office/website	O	_	_	
+1-12	.	O	O	_	_	
+
+#id=2
+#text=I asked for a ticket to Chicago .
+2-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-1	
+2-2	asked	O	B-ScrEv_get_tickets	_	_	
+2-3	for	O	O	_	_	
+2-4	a	O	O	_	_	
+2-5	ticket	B-ScrPart_card/ticket	O	_	_	
+2-6	to	O	O	_	_	
+2-7	Chicago	B-ScrPart_destination	O	_	_	
+2-8	.	O	O	_	_	
+
+#id=3
+#text=I paid for it and clerk gave me my ticket .
+3-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-1	
+3-2	paid	O	B-ScrEv_get_tickets	_	_	
+3-3	for	O	O	_	_	
+3-4	it	B-ScrPart_card/ticket	O	webanno.custom.Corefchains_	2-5	
+3-5	and	O	O	_	_	
+3-6	clerk	B-ScrPart_train_staff	O	_	_	
+3-7	gave	O	B-ScrEv_get_tickets	_	_	
+3-8	me	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-1	
+3-9	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-8	
+3-10	ticket	B-ScrPart_card/ticket	O	webanno.custom.Corefchains_	3-4	
+3-11	.	O	O	_	_	
+
+#id=4
+#text=The train was already boarding , so I went directly to the platform and boarded .
+4-1	The	O	O	_	_	
+4-2	train	B-ScrPart_train	O	_	_	
+4-3	was	O	O	_	_	
+4-4	already	O	O	_	_	
+4-5	boarding	O	B-MissScrEv	_	_	
+4-6	,	O	O	_	_	
+4-7	so	O	O	_	_	
+4-8	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-9	
+4-9	went	O	B-ScrEv_get_platform	_	_	
+4-10	directly	O	O	_	_	
+4-11	to	O	O	_	_	
+4-12	the	O	O	_	_	
+4-13	platform	B-ScrPart_platform	O	_	_	
+4-14	and	O	O	_	_	
+4-15	boarded	O	B-MissScrEv	_	_	
+4-16	.	O	O	_	_	
+
+#id=5
+#text=I went down the aisle and found an empty seat .
+5-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-8	
+5-2	went	O	B-RelNScrEv	_	_	
+5-3	down	O	O	_	_	
+5-4	the	O	O	_	_	
+5-5	aisle	B-ScrPart_coach	O	_	_	
+5-6	and	O	O	_	_	
+5-7	found	O	B-ScrEv_find_place	_	_	
+5-8	an	O	O	_	_	
+5-9	empty	O	O	_	_	
+5-10	seat	B-ScrPart_seat	O	_	_	
+5-11	.	O	O	_	_	
+
+#id=6
+#text=The train pulled out of the station .
+6-1	The	O	O	_	_	
+6-2	train	B-ScrPart_train	O	webanno.custom.Corefchains_	4-2	
+6-3	pulled	O	B-ScrEv_train_departs	_	_	
+6-4	out	O	I-ScrEv_train_departs	_	_	
+6-5	of	O	O	_	_	
+6-6	the	O	O	_	_	
+6-7	station	B-ScrPart_train_station	O	webanno.custom.Corefchains_	1-5	
+6-8	.	O	O	_	_	
+
+#id=7
+#text=After a few minutes , the conductor came by and checked my ticket , punching it with a small hole punch .
+7-1	After	O	O	_	_	
+7-2	a	O	O	_	_	
+7-3	few	O	O	_	_	
+7-4	minutes	O	O	_	_	
+7-5	,	O	O	_	_	
+7-6	the	O	O	_	_	
+7-7	conductor	B-ScrPart_train_staff	O	_	_	
+7-8	came	O	B-RelNScrEv	_	_	
+7-9	by	O	I-RelNScrEv	_	_	
+7-10	and	O	O	_	_	
+7-11	checked	O	B-ScrEv_conductor_checks	_	_	
+7-12	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-1	
+7-13	ticket	B-ScrPart_card/ticket	O	webanno.custom.Corefchains_	3-10	
+7-14	,	O	O	_	_	
+7-15	punching	O	B-ScrEv_conductor_checks	_	_	
+7-16	it	B-ScrPart_card/ticket	O	webanno.custom.Corefchains_	7-13	
+7-17	with	O	O	_	_	
+7-18	a	O	O	_	_	
+7-19	small	O	O	_	_	
+7-20	hole	B-NPart	O	_	_	
+7-21	punch	I-NPart|B-NPart	O	_	_	
+7-22	.	O	O	_	_	
+
+#id=8
+#text=I looked out the window .
+8-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-12	
+8-2	looked	O	B-ScrEv_spend_time_train	_	_	
+8-3	out	O	I-ScrEv_spend_time_train	_	_	
+8-4	the	O	O	_	_	
+8-5	window	B-ScrPart_in-train_entertainment	O	_	_	
+8-6	.	O	O	_	_	
+
+#id=9
+#text=People 's houses and huge warehouses passed by .
+9-1	People	O	O	_	_	
+9-2	's	O	O	_	_	
+9-3	houses	B-NPart	O	_	_	
+9-4	and	O	O	_	_	
+9-5	huge	O	O	_	_	
+9-6	warehouses	B-NPart	O	_	_	
+9-7	passed	O	B-RelNScrEv	_	_	
+9-8	by	O	I-RelNScrEv	_	_	
+9-9	.	O	O	_	_	
+
+#id=10
+#text=Later , as we got into the country , I saw a cow or two .
+10-1	Later	O	O	_	_	
+10-2	,	O	O	_	_	
+10-3	as	O	O	_	_	
+10-4	we	B-ScrPart_passenger	O	coref_group_I_passenger	8-1	
+10-5	got	O	B-RelNScrEv	_	_	
+10-6	into	O	O	_	_	
+10-7	the	O	O	_	_	
+10-8	country	B-ScrPart_location_train	O	_	_	
+10-9	,	O	O	_	_	
+10-10	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-1	
+10-11	saw	O	B-ScrEv_spend_time_train	_	_	
+10-12	a	O	O	_	_	
+10-13	cow	B-NPart	O	_	_	
+10-14	or	O	O	_	_	
+10-15	two	O	O	_	_	
+10-16	.	O	O	_	_	
+
+#id=11
+#text=After about a half hour we pulled into the station in Chicago .
+11-1	After	O	O	_	_	
+11-2	about	O	O	_	_	
+11-3	a	O	O	_	_	
+11-4	half	O	O	_	_	
+11-5	hour	B-ScrPart_time_date	O	_	_	
+11-6	we	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-4	
+11-7	pulled	O	B-ScrEv_arrive_destination	_	_	
+11-8	into	O	O	_	_	
+11-9	the	O	O	_	_	
+11-10	station	B-ScrPart_train_station	O	webanno.custom.Corefchains_	6-7	
+11-11	in	O	O	_	_	
+11-12	Chicago	B-ScrPart_destination	O	webanno.custom.Corefchains_	2-7	
+11-13	.	O	O	_	_	
+
+#id=12
+#text=The train pulled and stopped rather suddenly , throwing me forward a bit .
+12-1	The	O	O	_	_	
+12-2	train	B-ScrPart_train	O	webanno.custom.Corefchains_	6-2	
+12-3	pulled	O	B-ScrEv_arrive_destination	_	_	
+12-4	and	O	O	_	_	
+12-5	stopped	O	B-ScrEv_arrive_destination	_	_	
+12-6	rather	O	O	_	_	
+12-7	suddenly	O	O	_	_	
+12-8	,	O	O	_	_	
+12-9	throwing	O	B-RelNScrEv	_	_	
+12-10	me	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-10	
+12-11	forward	O	O	_	_	
+12-12	a	O	O	_	_	
+12-13	bit	O	O	_	_	
+12-14	.	O	O	_	_	
+
+#id=13
+#text=I got up and went down the aisle and exited the train , stepping down to the platform and exiting the station .
+13-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	12-10	
+13-2	got	O	B-ScrEv_move_exit	_	_	
+13-3	up	O	I-ScrEv_move_exit	_	_	
+13-4	and	O	O	_	_	
+13-5	went	O	B-ScrEv_move_exit	_	_	
+13-6	down	O	O	_	_	
+13-7	the	O	O	_	_	
+13-8	aisle	B-ScrPart_coach	O	webanno.custom.Corefchains_	5-5	
+13-9	and	O	O	_	_	
+13-10	exited	O	B-ScrEv_get_off	_	_	
+13-11	the	O	O	_	_	
+13-12	train	B-ScrPart_train	O	webanno.custom.Corefchains_	12-2	
+13-13	,	O	O	_	_	
+13-14	stepping	O	B-ScrEv_get_off	_	_	
+13-15	down	O	I-ScrEv_get_off	_	_	
+13-16	to	O	O	_	_	
+13-17	the	O	O	_	_	
+13-18	platform	B-ScrPart_platform	O	webanno.custom.Corefchains_	4-13	
+13-19	and	O	O	_	_	
+13-20	exiting	O	B-RelNScrEv	_	_	
+13-21	the	O	O	_	_	
+13-22	station	B-ScrPart_train_station	O	webanno.custom.Corefchains_	11-10	
+13-23	.	O	O	_	_	
+
+#id=14
+#text=Windy City , here I come ! 
+14-1	Windy	B-ScrPart_destination	O	_	_	
+14-2	City	I-ScrPart_destination|B-ScrPart_destination	O	webanno.custom.Corefchains_	11-12	
+14-3	,	O	O	_	_	
+14-4	here	O	O	_	_	
+14-5	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	13-1	
+14-6	come	O	B-UnrelEv	_	_	
+14-7	!	O	O	_	_	
+

@@ -1,0 +1,540 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=I love cherries .
+1-1	I	B-ScrPart_gardener	O	
+1-2	love	O	B-UnrelEv	
+1-3	cherries	B-NPart	O	
+1-4	.	O	O	
+
+#id=2
+#text=I thought it would nice if I had a cherry tree in my backyard .
+2-1	I	B-ScrPart_gardener	O	
+2-2	thought	O	B-UnrelEv	
+2-3	it	B-No_label	O	
+2-4	would	O	O	
+2-5	nice	O	O	
+2-6	if	O	O	
+2-7	I	B-ScrPart_gardener	O	
+2-8	had	O	B-UnrelEv	
+2-9	a	O	O	
+2-10	cherry	B-ScrPart_tree	O	
+2-11	tree	I-ScrPart_tree|B-ScrPart_tree	O	
+2-12	in	O	O	
+2-13	my	B-ScrPart_gardener	O	
+2-14	backyard	B-NPart	O	
+2-15	.	O	O	
+
+#id=3
+#text=There was plenty of room in my yard for a large tree , so I decided to plant one .
+3-1	There	O	O	
+3-2	was	O	B-UnrelEv	
+3-3	plenty	B-Head_of_Partitive	O	
+3-4	of	O	O	
+3-5	room	B-NPart	O	
+3-6	in	O	O	
+3-7	my	B-ScrPart_gardener	O	
+3-8	yard	B-NPart	O	
+3-9	for	O	O	
+3-10	a	O	O	
+3-11	large	O	O	
+3-12	tree	B-ScrPart_tree	O	
+3-13	,	O	O	
+3-14	so	O	O	
+3-15	I	B-ScrPart_gardener	O	
+3-16	decided	O	B-UnrelEv	
+3-17	to	O	O	
+3-18	plant	O	B-Evoking	
+3-19	one	B-ScrPart_tree	I-Evoking	
+3-20	.	O	O	
+
+#id=4
+#text=I drove my pickup truck to a nursery near where I live .
+4-1	I	B-ScrPart_gardener	O	
+4-2	drove	O	B-RelNScrEv	
+4-3	my	B-ScrPart_gardener	O	
+4-4	pickup	B-NPart	O	
+4-5	truck	I-NPart|B-NPart	O	
+4-6	to	O	O	
+4-7	a	O	O	
+4-8	nursery	B-ScrPart_shop	O	
+4-9	near	O	O	
+4-10	where	O	O	
+4-11	I	B-ScrPart_gardener	O	
+4-12	live	O	B-UnrelEv	
+4-13	.	O	O	
+
+#id=5
+#text=They had many different types of trees there , all growing in large pots .
+5-1	They	B-ScrPart_staff	O	
+5-2	had	O	B-UnrelEv	
+5-3	many	O	O	
+5-4	different	O	O	
+5-5	types	B-Head_of_Partitive	O	
+5-6	of	O	O	
+5-7	trees	B-ScrPart_tree	O	
+5-8	there	B-ScrPart_shop	O	
+5-9	,	O	O	
+5-10	all	O	O	
+5-11	growing	O	B-RelNScrEv	
+5-12	in	O	O	
+5-13	large	O	O	
+5-14	pots	B-NPart	O	
+5-15	.	O	O	
+
+#id=6
+#text=The trees were very skinny , but I knew once they were out of the pots and planted in the ground , they would grow into large trees .
+6-1	The	O	O	
+6-2	trees	B-ScrPart_tree	O	
+6-3	were	O	B-UnrelEv	
+6-4	very	O	O	
+6-5	skinny	O	O	
+6-6	,	O	O	
+6-7	but	O	O	
+6-8	I	B-ScrPart_gardener	O	
+6-9	knew	O	B-UnrelEv	
+6-10	once	O	O	
+6-11	they	B-ScrPart_tree	O	
+6-12	were	O	B-UnrelEv	
+6-13	out	O	O	
+6-14	of	O	O	
+6-15	the	O	O	
+6-16	pots	B-ScrPart_wrapping	O	
+6-17	and	O	O	
+6-18	planted	O	B-ScrEv_place_root	
+6-19	in	O	O	
+6-20	the	O	O	
+6-21	ground	B-NPart	O	
+6-22	,	O	O	
+6-23	they	B-ScrPart_tree	O	
+6-24	would	O	O	
+6-25	grow	O	B-RelNScrEv	
+6-26	into	O	O	
+6-27	large	O	O	
+6-28	trees	B-ScrPart_tree	O	
+6-29	.	O	O	
+
+#id=7
+#text=I found some cherry trees and saw how much they would cost .
+7-1	I	B-ScrPart_gardener	O	
+7-2	found	O	B-ScrEv_choose_tree	
+7-3	some	O	O	
+7-4	cherry	B-ScrPart_tree	O	
+7-5	trees	I-ScrPart_tree|B-ScrPart_tree	O	
+7-6	and	O	O	
+7-7	saw	O	B-UnrelEv	
+7-8	how	O	O	
+7-9	much	O	O	
+7-10	they	B-ScrPart_tree	O	
+7-11	would	O	O	
+7-12	cost	O	B-RelNScrEv	
+7-13	.	O	O	
+
+#id=8
+#text=I asked a man who worked at the nursery if he would put the tree in my pickup after I paid for it .
+8-1	I	B-ScrPart_gardener	O	
+8-2	asked	O	B-RelNScrEv	
+8-3	a	O	O	
+8-4	man	B-ScrPart_staff	O	
+8-5	who	O	O	
+8-6	worked	O	B-UnrelEv	
+8-7	at	O	O	
+8-8	the	O	O	
+8-9	nursery	B-ScrPart_shop	O	
+8-10	if	O	O	
+8-11	he	B-ScrPart_staff	O	
+8-12	would	O	O	
+8-13	put	O	B-RelNScrEv	
+8-14	the	O	O	
+8-15	tree	B-ScrPart_tree	O	
+8-16	in	O	O	
+8-17	my	B-ScrPart_gardener	O	
+8-18	pickup	B-NPart	O	
+8-19	after	O	O	
+8-20	I	B-ScrPart_gardener	O	
+8-21	paid	O	B-ScrEv_get_tree	
+8-22	for	O	O	
+8-23	it	B-ScrPart_tree	O	
+8-24	.	O	O	
+
+#id=9
+#text=I went to the cashier and paid for the tree and the man loaded it into my truck .
+9-1	I	B-ScrPart_gardener	O	
+9-2	went	O	B-UnrelEv	
+9-3	to	O	O	
+9-4	the	O	O	
+9-5	cashier	B-ScrPart_staff	O	
+9-6	and	O	O	
+9-7	paid	O	B-ScrEv_get_tree	
+9-8	for	O	O	
+9-9	the	O	O	
+9-10	tree	B-ScrPart_tree	O	
+9-11	and	O	O	
+9-12	the	O	O	
+9-13	man	B-ScrPart_staff	O	
+9-14	loaded	O	B-ScrEv_get_tree	
+9-15	it	B-ScrPart_tree	O	
+9-16	into	O	O	
+9-17	my	B-ScrPart_gardener	O	
+9-18	truck	B-NPart	O	
+9-19	.	O	O	
+
+#id=10
+#text=When I got home , I got a shovel and dug a huge hole where I wanted the tree to grow .
+10-1	When	O	O	
+10-2	I	B-ScrPart_gardener	O	
+10-3	got	O	B-ScrEv_take_home	
+10-4	home	B-NPart	O	
+10-5	,	O	O	
+10-6	I	B-ScrPart_gardener	O	
+10-7	got	O	B-ScrEv_get_tools	
+10-8	a	O	O	
+10-9	shovel	B-ScrPart_gardening_tool	O	
+10-10	and	O	O	
+10-11	dug	O	B-ScrEv_dug_hole	
+10-12	a	O	O	
+10-13	huge	O	O	
+10-14	hole	B-ScrPart_hole	O	
+10-15	where	O	O	
+10-16	I	B-ScrPart_gardener	O	
+10-17	wanted	O	O	
+10-18	the	O	O	
+10-19	tree	B-ScrPart_tree	O	
+10-20	to	O	O	
+10-21	grow	O	B-RelNScrEv	
+10-22	.	O	O	
+
+#id=11
+#text=I made sure all the big rocks and roots from other trees were not left in the hole .
+11-1	I	B-ScrPart_gardener	O	
+11-2	made	O	B-UnrelEv	
+11-3	sure	O	I-UnrelEv	
+11-4	all	O	O	
+11-5	the	O	O	
+11-6	big	O	O	
+11-7	rocks	B-NPart	O	
+11-8	and	O	O	
+11-9	roots	B-NPart	O	
+11-10	from	O	O	
+11-11	other	O	O	
+11-12	trees	B-ScrPart_tree	O	
+11-13	were	O	O	
+11-14	not	O	O	
+11-15	left	O	B-UnrelEv	
+11-16	in	O	O	
+11-17	the	O	O	
+11-18	hole	B-ScrPart_hole	O	
+11-19	.	O	O	
+
+#id=12
+#text=I added some manure so the roots would get all the extra nutrients a growing tree would need .
+12-1	I	B-ScrPart_gardener	O	
+12-2	added	O	B-ScrEv_refill_hole	
+12-3	some	O	O	
+12-4	manure	B-ScrPart_fertilizer	O	
+12-5	so	O	O	
+12-6	the	O	O	
+12-7	roots	B-ScrPart_root	O	
+12-8	would	O	O	
+12-9	get	O	B-UnrelEv	
+12-10	all	O	O	
+12-11	the	O	O	
+12-12	extra	O	O	
+12-13	nutrients	B-NPart	O	
+12-14	a	O	O	
+12-15	growing	O	B-RelNScrEv	
+12-16	tree	B-ScrPart_tree	O	
+12-17	would	O	O	
+12-18	need	O	B-UnrelEv	
+12-19	.	O	O	
+
+#id=13
+#text=In the middle of the hole I made the soil higher in the shape of an upside down cone .
+13-1	In	O	O	
+13-2	the	O	O	
+13-3	middle	B-NPart	O	
+13-4	of	O	O	
+13-5	the	O	O	
+13-6	hole	B-ScrPart_hole	O	
+13-7	I	B-ScrPart_gardener	O	
+13-8	made	O	B-UnrelEv	
+13-9	the	O	O	
+13-10	soil	B-ScrPart_dirt	O	
+13-11	higher	O	O	
+13-12	in	O	O	
+13-13	the	O	O	
+13-14	shape	B-NPart	O	
+13-15	of	O	O	
+13-16	an	O	O	
+13-17	upside	O	O	
+13-18	down	O	O	
+13-19	cone	B-NPart	O	
+13-20	.	O	O	
+
+#id=14
+#text=I took the tree out of my truck and removed it from the pot .
+14-1	I	B-ScrPart_gardener	O	
+14-2	took	O	B-RelNScrEv	
+14-3	the	O	O	
+14-4	tree	B-ScrPart_tree	O	
+14-5	out	O	O	
+14-6	of	O	O	
+14-7	my	B-ScrPart_gardener	O	
+14-8	truck	B-NPart	O	
+14-9	and	O	O	
+14-10	removed	O	B-RelNScrEv	
+14-11	it	B-ScrPart_tree	O	
+14-12	from	O	O	
+14-13	the	O	O	
+14-14	pot	B-NPart	O	
+14-15	.	O	O	
+
+#id=15
+#text=I stood the tree up in the middle of the hole , with the tree on the top of the cone and the roots spread out around it .
+15-1	I	B-ScrPart_gardener	O	
+15-2	stood	O	B-ScrEv_place_root	
+15-3	the	O	O	
+15-4	tree	B-ScrPart_tree	O	
+15-5	up	O	O	
+15-6	in	O	O	
+15-7	the	O	O	
+15-8	middle	B-NPart	O	
+15-9	of	O	O	
+15-10	the	O	O	
+15-11	hole	B-ScrPart_hole	O	
+15-12	,	O	O	
+15-13	with	O	O	
+15-14	the	O	O	
+15-15	tree	B-ScrPart_tree	O	
+15-16	on	O	O	
+15-17	the	O	O	
+15-18	top	B-NPart	O	
+15-19	of	O	O	
+15-20	the	O	O	
+15-21	cone	B-NPart	O	
+15-22	and	O	O	
+15-23	the	O	O	
+15-24	roots	B-ScrPart_root	O	
+15-25	spread	O	B-UnrelEv	
+15-26	out	O	O	
+15-27	around	O	O	
+15-28	it	B-NPart	O	
+15-29	.	O	O	
+
+#id=16
+#text=This would make sure the tree would not be standing in water and the roots could drink the water easily .
+16-1	This	O	O	
+16-2	would	O	O	
+16-3	make	O	B-UnrelEv	
+16-4	sure	O	I-UnrelEv	
+16-5	the	O	O	
+16-6	tree	B-ScrPart_tree	O	
+16-7	would	O	O	
+16-8	not	O	O	
+16-9	be	O	O	
+16-10	standing	O	B-UnrelEv	
+16-11	in	O	O	
+16-12	water	B-ScrPart_water	O	
+16-13	and	O	O	
+16-14	the	O	O	
+16-15	roots	B-ScrPart_root	O	
+16-16	could	O	O	
+16-17	drink	O	B-UnrelEv	
+16-18	the	O	O	
+16-19	water	B-ScrPart_water	O	
+16-20	easily	O	O	
+16-21	.	O	O	
+
+#id=17
+#text=I replaced the dirt , making sure the tree was even with the ground around the hole .
+17-1	I	B-ScrPart_gardener	O	
+17-2	replaced	O	B-ScrEv_refill_hole	
+17-3	the	O	O	
+17-4	dirt	B-ScrPart_dirt	O	
+17-5	,	O	O	
+17-6	making	O	B-UnrelEv	
+17-7	sure	O	I-UnrelEv	
+17-8	the	O	O	
+17-9	tree	B-ScrPart_tree	O	
+17-10	was	O	B-UnrelEv	
+17-11	even	O	O	
+17-12	with	O	O	
+17-13	the	O	O	
+17-14	ground	B-NPart	O	
+17-15	around	O	O	
+17-16	the	O	O	
+17-17	hole	B-ScrPart_hole	O	
+17-18	.	O	O	
+
+#id=18
+#text=When the hole was all filled up I stomped all around the tree to make sure the roots of the tree were firmly connected with the soil .
+18-1	When	O	O	
+18-2	the	O	O	
+18-3	hole	B-ScrPart_hole	O	
+18-4	was	O	O	
+18-5	all	O	O	
+18-6	filled	O	B-ScrEv_refill_hole	
+18-7	up	O	I-ScrEv_refill_hole	
+18-8	I	B-ScrPart_gardener	O	
+18-9	stomped	O	B-ScrEv_tamp_dirt	
+18-10	all	O	O	
+18-11	around	O	O	
+18-12	the	O	O	
+18-13	tree	B-ScrPart_tree	O	
+18-14	to	O	O	
+18-15	make	O	B-UnrelEv	
+18-16	sure	O	I-UnrelEv	
+18-17	the	O	O	
+18-18	roots	B-ScrPart_root	O	
+18-19	of	O	O	
+18-20	the	O	O	
+18-21	tree	B-ScrPart_tree	O	
+18-22	were	O	B-UnrelEv	
+18-23	firmly	O	O	
+18-24	connected	O	B-UnrelEv	
+18-25	with	O	O	
+18-26	the	O	O	
+18-27	soil	B-ScrPart_dirt	O	
+18-28	.	O	O	
+
+#id=19
+#text=When I was sure the tree was firmly in the ground and would not move , I got my garden hose .
+19-1	When	O	O	
+19-2	I	B-ScrPart_gardener	O	
+19-3	was	O	B-UnrelEv	
+19-4	sure	O	O	
+19-5	the	O	O	
+19-6	tree	B-ScrPart_tree	O	
+19-7	was	O	B-UnrelEv	
+19-8	firmly	O	O	
+19-9	in	O	O	
+19-10	the	O	O	
+19-11	ground	B-NPart	O	
+19-12	and	O	O	
+19-13	would	O	O	
+19-14	not	O	O	
+19-15	move	O	B-UnrelEv	
+19-16	,	O	O	
+19-17	I	B-ScrPart_gardener	O	
+19-18	got	O	B-ScrEv_get_tools	
+19-19	my	B-ScrPart_gardener	O	
+19-20	garden	B-ScrPart_gardening_tool	O	
+19-21	hose	I-ScrPart_gardening_tool|B-ScrPart_gardening_tool	O	
+19-22	.	O	O	
+
+#id=20
+#text=I turned on the water and slowly watered the tree .
+20-1	I	B-ScrPart_gardener	O	
+20-2	turned	O	B-RelNScrEv	
+20-3	on	O	I-RelNScrEv	
+20-4	the	O	O	
+20-5	water	B-ScrPart_water	O	
+20-6	and	O	O	
+20-7	slowly	O	O	
+20-8	watered	O	B-ScrEv_water	
+20-9	the	O	O	
+20-10	tree	B-ScrPart_tree	O	
+20-11	.	O	O	
+
+#id=21
+#text=After a few hours , I watered it again .
+21-1	After	O	O	
+21-2	a	O	O	
+21-3	few	O	O	
+21-4	hours	B-NPart	O	
+21-5	,	O	O	
+21-6	I	B-ScrPart_gardener	O	
+21-7	watered	O	B-ScrEv_water	
+21-8	it	B-ScrPart_tree	O	
+21-9	again	O	O	
+21-10	.	O	O	
+
+#id=22
+#text=When all the water had sunk into the ground , I put a few inches of mulch all around the tree to keep the roots moist and stop weeds from growing .
+22-1	When	O	O	
+22-2	all	O	O	
+22-3	the	O	O	
+22-4	water	B-ScrPart_water	O	
+22-5	had	O	O	
+22-6	sunk	O	B-UnrelEv	
+22-7	into	O	O	
+22-8	the	O	O	
+22-9	ground	B-NPart	O	
+22-10	,	O	O	
+22-11	I	B-ScrPart_gardener	O	
+22-12	put	O	B-RelNScrEv	
+22-13	a	O	O	
+22-14	few	O	O	
+22-15	inches	B-NPart	O	
+22-16	of	O	O	
+22-17	mulch	B-NPart	O	
+22-18	all	O	O	
+22-19	around	O	O	
+22-20	the	O	O	
+22-21	tree	B-ScrPart_tree	O	
+22-22	to	O	O	
+22-23	keep	O	B-UnrelEv	
+22-24	the	O	O	
+22-25	roots	B-ScrPart_root	O	
+22-26	moist	O	O	
+22-27	and	O	O	
+22-28	stop	O	B-UnrelEv	
+22-29	weeds	B-NPart	O	
+22-30	from	O	O	
+22-31	growing	O	B-UnrelEv	
+22-32	.	O	O	
+
+#id=23
+#text=I knew that I would have to water the the tree every week until the roots got established .
+23-1	I	B-ScrPart_gardener	O	
+23-2	knew	O	B-UnrelEv	
+23-3	that	O	O	
+23-4	I	B-ScrPart_gardener	O	
+23-5	would	O	O	
+23-6	have	O	O	
+23-7	to	O	O	
+23-8	water	O	B-ScrEv_water	
+23-9	the	O	O	
+23-10	the	O	O	
+23-11	tree	B-ScrPart_tree	O	
+23-12	every	O	O	
+23-13	week	B-NPart	O	
+23-14	until	O	O	
+23-15	the	O	O	
+23-16	roots	B-ScrPart_root	O	
+23-17	got	O	O	
+23-18	established	O	B-UnrelEv	
+23-19	.	O	O	
+
+#id=24
+#text=The tree will get bigger every year , and I 'm looking forward to the day when I 'll be able to pick cherries in my own back yard ! 
+24-1	The	O	O	
+24-2	tree	B-ScrPart_tree	O	
+24-3	will	O	O	
+24-4	get	O	B-UnrelEv	
+24-5	bigger	O	O	
+24-6	every	O	O	
+24-7	year	B-NPart	O	
+24-8	,	O	O	
+24-9	and	O	O	
+24-10	I	B-ScrPart_gardener	O	
+24-11	'm	O	O	
+24-12	looking	O	B-UnrelEv	
+24-13	forward	O	I-UnrelEv	
+24-14	to	O	O	
+24-15	the	O	O	
+24-16	day	B-NPart	O	
+24-17	when	O	O	
+24-18	I	B-ScrPart_gardener	O	
+24-19	'll	O	O	
+24-20	be	O	O	
+24-21	able	O	O	
+24-22	to	O	O	
+24-23	pick	O	B-UnrelEv	
+24-24	cherries	B-NPart	O	
+24-25	in	O	O	
+24-26	my	B-ScrPart_gardener	O	
+24-27	own	O	O	
+24-28	back	B-NPart	O	
+24-29	yard	I-NPart	O	
+24-30	!	O	O	
+

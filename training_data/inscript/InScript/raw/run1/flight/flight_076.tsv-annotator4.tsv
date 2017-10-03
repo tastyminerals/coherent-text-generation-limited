@@ -1,0 +1,253 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Last summer I decided to go to Mexico with my cousins .
+1-1	Last	O	O	O	_	_	
+1-2	summer	O	O	O	_	_	
+1-3	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-10	
+1-4	decided	O	O	B-UnrelEv	_	_	
+1-5	to	O	O	O	_	_	
+1-6	go	O	O	B-UnrelEv	_	_	
+1-7	to	O	O	O	_	_	
+1-8	Mexico	B-webanno.custom.Participants_	B-ScrPart_target_location	O	webanno.custom.Corefchains_	3-6	
+1-9	with	O	O	O	_	_	
+1-10	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_|coref_group_cousins_I	4-1|2-7	
+1-11	cousins	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_|coref_group_cousins_I	6-2|2-7	
+1-12	.	O	O	O	_	_	
+
+#id=2
+#text=It was a nice vacation and we were very excited to go .
+2-1	It	O	O	O	_	_	
+2-2	was	O	O	B-UnrelEv	_	_	
+2-3	a	O	O	O	_	_	
+2-4	nice	O	O	O	_	_	
+2-5	vacation	O	O	O	_	_	
+2-6	and	O	O	O	_	_	
+2-7	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-8	
+2-8	were	O	O	O	_	_	
+2-9	very	O	O	O	_	_	
+2-10	excited	O	O	B-UnrelEv	_	_	
+2-11	to	O	O	O	_	_	
+2-12	go	O	O	B-UnrelEv	_	_	
+2-13	.	O	O	O	_	_	
+
+#id=3
+#text=In order to get to Mexico , we had to fly a plane .
+3-1	In	O	O	O	_	_	
+3-2	order	O	O	O	_	_	
+3-3	to	O	O	O	_	_	
+3-4	get	O	O	B-UnrelEv	_	_	
+3-5	to	O	O	O	_	_	
+3-6	Mexico	B-webanno.custom.Participants_	B-ScrPart_target_location	O	webanno.custom.Corefchains_	16-8	
+3-7	,	O	O	O	_	_	
+3-8	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-3	
+3-9	had	O	O	O	_	_	
+3-10	to	O	O	O	_	_	
+3-11	fly	O	O	B-Evoking	_	_	
+3-12	a	O	O	I-Evoking	_	_	
+3-13	plane	B-webanno.custom.Participants_	B-ScrPart_plane	I-Evoking	webanno.custom.Corefchains_	4-7	
+3-14	.	O	O	O	_	_	
+
+#id=4
+#text=I have no issues flying a plane .
+4-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-1	
+4-2	have	O	O	B-UnrelEv	_	_	
+4-3	no	O	O	O	_	_	
+4-4	issues	O	O	O	_	_	
+4-5	flying	O	O	B-Evoking	_	_	
+4-6	a	O	O	I-Evoking	_	_	
+4-7	plane	B-webanno.custom.Participants_	B-ScrPart_plane	I-Evoking	webanno.custom.Corefchains_	5-4	
+4-8	.	O	O	O	_	_	
+
+#id=5
+#text=I usually fly it constantly when I visit my friends in Florida .
+5-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-7	
+5-2	usually	O	O	O	_	_	
+5-3	fly	O	O	B-Evoking	_	_	
+5-4	it	B-webanno.custom.Participants_	B-ScrPart_plane	I-Evoking	webanno.custom.Corefchains_	7-7	
+5-5	constantly	O	O	O	_	_	
+5-6	when	O	O	O	_	_	
+5-7	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-9	
+5-8	visit	O	O	B-UnrelEv	_	_	
+5-9	my	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-1	
+5-10	friends	O	O	O	_	_	
+5-11	in	O	O	O	_	_	
+5-12	Florida	O	O	O	_	_	
+5-13	.	O	O	O	_	_	
+
+#id=6
+#text=My cousins , on the other hand , were n't too keen on flying .
+6-1	My	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-1	
+6-2	cousins	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-1	
+6-3	,	O	O	O	_	_	
+6-4	on	O	O	O	_	_	
+6-5	the	O	O	O	_	_	
+6-6	other	O	O	O	_	_	
+6-7	hand	O	O	O	_	_	
+6-8	,	O	O	O	_	_	
+6-9	were	O	O	B-UnrelEv	_	_	
+6-10	n't	O	O	O	_	_	
+6-11	too	O	O	O	_	_	
+6-12	keen	O	O	O	_	_	
+6-13	on	O	O	O	_	_	
+6-14	flying	O	O	B-Evoking	_	_	
+6-15	.	O	O	O	_	_	
+
+#id=7
+#text=They were very nervous on the plane .
+7-1	They	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-5	
+7-2	were	O	O	B-UnrelEv	_	_	
+7-3	very	O	O	O	_	_	
+7-4	nervous	O	O	O	_	_	
+7-5	on	O	O	O	_	_	
+7-6	the	O	O	O	_	_	
+7-7	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	11-6	
+7-8	.	O	O	O	_	_	
+
+#id=8
+#text=I had to calm them down .
+8-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	12-1	
+8-2	had	O	O	O	_	_	
+8-3	to	O	O	O	_	_	
+8-4	calm	O	O	B-ScrEv_spend_time_flight	_	_	
+8-5	them	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-7	
+8-6	down	O	O	O	_	_	
+8-7	.	O	O	O	_	_	
+
+#id=9
+#text=The food we received helped calm their nerves .
+9-1	The	O	O	O	_	_	
+9-2	food	B-webanno.custom.Participants_	B-ScrPart_in-flight_entertainment	O	_	_	
+9-3	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-7	
+9-4	received	O	O	B-RelNScrEv	_	_	
+9-5	helped	O	O	B-UnrelEv	_	_	
+9-6	calm	O	O	B-ScrEv_spend_time_flight	_	_	
+9-7	their	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	10-3	
+9-8	nerves	B-webanno.custom.Participants_	B-NPart	O	_	_	
+9-9	.	O	O	O	_	_	
+
+#id=10
+#text=Eating distracted them a little from our environment .
+10-1	Eating	O	O	B-ScrEv_spend_time_flight	_	_	
+10-2	distracted	O	O	B-RelNScrEv	_	_	
+10-3	them	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	12-2	
+10-4	a	O	O	O	_	_	
+10-5	little	O	O	O	_	_	
+10-6	from	O	O	O	_	_	
+10-7	our	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	16-5	
+10-8	environment	B-webanno.custom.Participants_	B-ScrPart_location_airplane	O	_	_	
+10-9	.	O	O	O	_	_	
+
+#id=11
+#text=Everything was fine until the plane started to experience a lot of turbulence .
+11-1	Everything	O	O	O	_	_	
+11-2	was	O	O	B-UnrelEv	_	_	
+11-3	fine	O	O	O	_	_	
+11-4	until	O	O	O	_	_	
+11-5	the	O	O	O	_	_	
+11-6	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	15-7	
+11-7	started	O	O	B-UnrelEv	_	_	
+11-8	to	O	O	O	_	_	
+11-9	experience	O	O	B-RelNScrEv	_	_	
+11-10	a	O	O	O	_	_	
+11-11	lot	O	O	O	_	_	
+11-12	of	O	O	O	_	_	
+11-13	turbulence	B-webanno.custom.Participants_	B-NPart	O	_	_	
+11-14	.	O	O	O	_	_	
+
+#id=12
+#text=My cousins started to get afraid again .
+12-1	My	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	13-10	
+12-2	cousins	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+12-3	started	O	O	B-UnrelEv	_	_	
+12-4	to	O	O	O	_	_	
+12-5	get	O	O	B-ScrEv_spend_time_flight	_	_	
+12-6	afraid	O	O	I-ScrEv_spend_time_flight	_	_	
+12-7	again	O	O	O	_	_	
+12-8	.	O	O	O	_	_	
+
+#id=13
+#text=In fact , the turbulence was so bad , I started to feel afraid as well .
+13-1	In	O	O	O	_	_	
+13-2	fact	O	O	O	_	_	
+13-3	,	O	O	O	_	_	
+13-4	the	O	O	O	_	_	
+13-5	turbulence	B-webanno.custom.Participants_	B-NPart	O	_	_	
+13-6	was	O	O	B-UnrelEv	_	_	
+13-7	so	O	O	O	_	_	
+13-8	bad	O	O	O	_	_	
+13-9	,	O	O	O	_	_	
+13-10	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+13-11	started	O	O	B-UnrelEv	_	_	
+13-12	to	O	O	O	_	_	
+13-13	feel	O	O	B-ScrEv_spend_time_flight	_	_	
+13-14	afraid	O	O	O	_	_	
+13-15	as	O	O	O	_	_	
+13-16	well	O	O	O	_	_	
+13-17	.	O	O	O	_	_	
+
+#id=14
+#text=Soon , the pilot announced that there was nothing to worry about .
+14-1	Soon	O	O	O	_	_	
+14-2	,	O	O	O	_	_	
+14-3	the	O	O	O	_	_	
+14-4	pilot	B-webanno.custom.Participants_	B-ScrPart_staff	O	_	_	
+14-5	announced	O	O	B-ScrEv_listen_crew	_	_	
+14-6	that	O	O	O	_	_	
+14-7	there	O	O	O	_	_	
+14-8	was	O	O	B-UnrelEv	_	_	
+14-9	nothing	O	O	O	_	_	
+14-10	to	O	O	O	_	_	
+14-11	worry	O	O	B-ScrEv_spend_time_flight	_	_	
+14-12	about	O	O	I-ScrEv_spend_time_flight	_	_	
+14-13	.	O	O	O	_	_	
+
+#id=15
+#text=A couple minutes later , the plane flew smoothly again .
+15-1	A	O	O	O	_	_	
+15-2	couple	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+15-3	minutes	I-webanno.custom.Participants_	I-ScrPart_time/date	O	_	_	
+15-4	later	O	O	O	_	_	
+15-5	,	O	O	O	_	_	
+15-6	the	O	O	O	_	_	
+15-7	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	_	_	
+15-8	flew	O	O	B-???	_	_	
+15-9	smoothly	O	O	O	_	_	
+15-10	again	O	O	O	_	_	
+15-11	.	O	O	O	_	_	
+
+#id=16
+#text=Eight hours later , we arrived at Mexico .
+16-1	Eight	B-webanno.custom.Participants_	B-ScrPart_time/date	O	_	_	
+16-2	hours	I-webanno.custom.Participants_	I-ScrPart_time/date	O	_	_	
+16-3	later	O	O	O	_	_	
+16-4	,	O	O	O	_	_	
+16-5	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	17-1	
+16-6	arrived	O	O	B-ScrEv_landing	_	_	
+16-7	at	O	O	O	_	_	
+16-8	Mexico	B-webanno.custom.Participants_	B-ScrPart_target_location	O	webanno.custom.Corefchains_	17-9	
+16-9	.	O	O	O	_	_	
+
+#id=17
+#text=We were not only excited to be in Mexico , but we were excited to be on solid ground again . 
+17-1	We	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	17-12	
+17-2	were	O	O	O	_	_	
+17-3	not	O	O	O	_	_	
+17-4	only	O	O	O	_	_	
+17-5	excited	O	O	B-UnrelEv	_	_	
+17-6	to	O	O	O	_	_	
+17-7	be	O	O	B-UnrelEv	_	_	
+17-8	in	O	O	O	_	_	
+17-9	Mexico	B-webanno.custom.Participants_	B-ScrPart_target_location	O	_	_	
+17-10	,	O	O	O	_	_	
+17-11	but	O	O	O	_	_	
+17-12	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+17-13	were	O	O	O	_	_	
+17-14	excited	O	O	B-UnrelEv	_	_	
+17-15	to	O	O	O	_	_	
+17-16	be	O	O	B-UnrelEv	_	_	
+17-17	on	O	O	O	_	_	
+17-18	solid	O	O	O	_	_	
+17-19	ground	O	O	O	_	_	
+17-20	again	O	O	O	_	_	
+17-21	.	O	O	O	_	_	
+

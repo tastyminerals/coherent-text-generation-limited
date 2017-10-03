@@ -1,0 +1,207 @@
+ # webanno.custom.Participants | Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=The other day I decided to bake a cake so I got out some flour , eggs , sugar , and frosting .
+1-1	The	O	O	O	_	_	
+1-2	other	O	O	O	_	_	
+1-3	day	O	O	O	_	_	
+1-4	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	1-11	
+1-5	decided	O	O	B-UnrelEv	_	_	
+1-6	to	O	O	O	_	_	
+1-7	bake	O	O	B-Evoking	_	_	
+1-8	a	O	O	I-Evoking	_	_	
+1-9	cake	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	webanno.custom.Corefchains_	3-4	
+1-10	so	O	O	O	_	_	
+1-11	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	2-2	
+1-12	got	O	O	B-ScrEv_get_ingredients	_	_	
+1-13	out	O	O	I-ScrEv_get_ingredients	_	_	
+1-14	some	O	O	O	_	_	
+1-15	flour	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+1-16	,	O	O	O	_	_	
+1-17	eggs	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+1-18	,	O	O	O	_	_	
+1-19	sugar	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+1-20	,	O	O	O	_	_	
+1-21	and	O	O	O	_	_	
+1-22	frosting	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-11	
+1-23	.	O	O	O	_	_	
+
+#id=2
+#text=Once I mixed all of the ingredients together I put them in a pan and into an oven and set the oven to 400 degrees .
+2-1	Once	O	O	O	_	_	
+2-2	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	2-9	
+2-3	mixed	O	O	B-ScrEv_make_dough	_	_	
+2-4	all	O	O	O	_	_	
+2-5	of	O	O	O	_	_	
+2-6	the	O	O	O	_	_	
+2-7	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	2-11	
+2-8	together	O	O	O	_	_	
+2-9	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	3-1	
+2-10	put	O	O	B-ScrEv_pour_dough	_	_	
+2-11	them	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+2-12	in	O	O	O	_	_	
+2-13	a	O	O	O	_	_	
+2-14	pan	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-20	
+2-15	and	O	O	O	_	_	
+2-16	into	O	O	O	_	_	
+2-17	an	O	O	O	_	_	
+2-18	oven	B-ScrPart_oven	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	2-22	
+2-19	and	O	O	O	_	_	
+2-20	set	O	O	B-ScrEv_preheat	_	_	
+2-21	the	O	O	O	_	_	
+2-22	oven	B-ScrPart_oven	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	3-7	
+2-23	to	O	O	O	_	_	
+2-24	400	B-ScrPart_temperature	B-webanno.custom.Participants_	O	_	_	
+2-25	degrees	I-ScrPart_temperature	I-webanno.custom.Participants_	O	_	_	
+2-26	.	O	O	O	_	_	
+
+#id=3
+#text=I put the cake into the oven and set the cooking alarm for 12 minutes .
+3-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	4-12	
+3-2	put	O	O	B-ScrEv_put_cake_oven	_	_	
+3-3	the	O	O	O	_	_	
+3-4	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	4-3	
+3-5	into	O	O	O	_	_	
+3-6	the	O	O	O	_	_	
+3-7	oven	B-ScrPart_oven	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	4-19	
+3-8	and	O	O	O	_	_	
+3-9	set	O	O	B-ScrEv_set_time	_	_	
+3-10	the	O	O	O	_	_	
+3-11	cooking	B-ScrPart_timer	B-webanno.custom.Participants_	O	_	_	
+3-12	alarm	I-ScrPart_timer|B-ScrPart_timer	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	4-10	
+3-13	for	O	O	O	_	_	
+3-14	12	B-ScrPart_time	B-webanno.custom.Participants_	O	_	_	
+3-15	minutes	I-ScrPart_time	I-webanno.custom.Participants_	O	_	_	
+3-16	.	O	O	O	_	_	
+
+#id=4
+#text=Once the cake was fully cooked and the cooking alarm rang I took the cake out of the oven and let it cool off for a couple of minutes .
+4-1	Once	O	O	O	_	_	
+4-2	the	O	O	O	_	_	
+4-3	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	4-15	
+4-4	was	O	O	O	_	_	
+4-5	fully	O	O	O	_	_	
+4-6	cooked	O	O	B-ScrEv_wait	_	_	
+4-7	and	O	O	O	_	_	
+4-8	the	O	O	O	_	_	
+4-9	cooking	B-ScrPart_timer	B-webanno.custom.Participants_	O	_	_	
+4-10	alarm	I-ScrPart_timer|B-ScrPart_timer	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+4-11	rang	O	O	B-ScrEv_wait	_	_	
+4-12	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-8	
+4-13	took	O	O	B-ScrEv_take_out_oven	_	_	
+4-14	the	O	O	O	_	_	
+4-15	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	4-22	
+4-16	out	O	O	O	_	_	
+4-17	of	O	O	O	_	_	
+4-18	the	O	O	O	_	_	
+4-19	oven	B-ScrPart_oven	B-webanno.custom.Participants_	O	_	_	
+4-20	and	O	O	O	_	_	
+4-21	let	O	O	B-UnrelEv	_	_	
+4-22	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-15	
+4-23	cool	O	O	B-ScrEv_cool_down	_	_	
+4-24	off	O	O	I-ScrEv_cool_down	_	_	
+4-25	for	O	O	O	_	_	
+4-26	a	O	O	O	_	_	
+4-27	couple	O	O	O	_	_	
+4-28	of	O	O	O	_	_	
+4-29	minutes	B-ScrPart_time	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-5	
+4-30	.	O	O	O	_	_	
+
+#id=5
+#text=After those couple of minutes were up I took some frosting after taking the cake out of the cooking pan and onto a plate , which just happened to be chocolate , and spread it over the cake lightly with a butter knife .
+5-1	After	O	O	O	_	_	
+5-2	those	O	O	O	_	_	
+5-3	couple	O	O	O	_	_	
+5-4	of	O	O	O	_	_	
+5-5	minutes	B-ScrPart_time	B-webanno.custom.Participants_	O	_	_	
+5-6	were	O	O	B-UnrelEv	_	_	
+5-7	up	O	O	I-UnrelEv	_	_	
+5-8	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	6-2	
+5-9	took	O	O	B-ScrEv_get_ingredients	_	_	
+5-10	some	O	O	O	_	_	
+5-11	frosting	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-31	
+5-12	after	O	O	O	_	_	
+5-13	taking	O	O	B-ScrEv_take_out_cake_tin	_	_	
+5-14	the	O	O	O	_	_	
+5-15	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-38	
+5-16	out	O	O	O	_	_	
+5-17	of	O	O	O	_	_	
+5-18	the	O	O	O	_	_	
+5-19	cooking	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	_	_	
+5-20	pan	I-ScrPart_cake_tin|B-ScrPart_cake_tin	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+5-21	and	O	O	O	_	_	
+5-22	onto	O	O	O	_	_	
+5-23	a	O	O	O	_	_	
+5-24	plate	B-ScrPart_utensil	B-webanno.custom.Participants_	O	_	_	
+5-25	,	O	O	O	_	_	
+5-26	which	O	O	O	_	_	
+5-27	just	O	O	O	_	_	
+5-28	happened	O	O	B-UnrelEv	_	_	
+5-29	to	O	O	O	_	_	
+5-30	be	O	O	B-UnrelEv	_	_	
+5-31	chocolate	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-35	
+5-32	,	O	O	O	_	_	
+5-33	and	O	O	O	_	_	
+5-34	spread	O	O	B-ScrEv_decorate	_	_	
+5-35	it	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	6-9	
+5-36	over	O	O	O	_	_	
+5-37	the	O	O	O	_	_	
+5-38	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	6-7	
+5-39	lightly	O	O	O	_	_	
+5-40	with	O	O	O	_	_	
+5-41	a	O	O	O	_	_	
+5-42	butter	B-ScrPart_utensil	B-webanno.custom.Participants_	O	_	_	
+5-43	knife	I-ScrPart_utensil|B-ScrPart_utensil	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+5-44	.	O	O	O	_	_	
+
+#id=6
+#text=Once I had completely covered the cake in frosting I put it gently into a box and put it into the fridge until I wanted to eat it .
+6-1	Once	O	O	O	_	_	
+6-2	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	6-10	
+6-3	had	O	O	O	_	_	
+6-4	completely	O	O	O	_	_	
+6-5	covered	O	O	B-ScrEv_decorate	_	_	
+6-6	the	O	O	O	_	_	
+6-7	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	6-12	
+6-8	in	O	O	O	_	_	
+6-9	frosting	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+6-10	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	6-24	
+6-11	put	O	O	B-RelNScrEv	_	_	
+6-12	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	6-19	
+6-13	gently	O	O	O	_	_	
+6-14	into	O	O	O	_	_	
+6-15	a	O	O	O	_	_	
+6-16	box	O	O	O	_	_	
+6-17	and	O	O	O	_	_	
+6-18	put	O	O	B-RelNScrEv	_	_	
+6-19	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	6-28	
+6-20	into	O	O	O	_	_	
+6-21	the	O	O	O	_	_	
+6-22	fridge	O	O	O	_	_	
+6-23	until	O	O	O	_	_	
+6-24	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	7-2	
+6-25	wanted	O	O	B-UnrelEv	_	_	
+6-26	to	O	O	O	_	_	
+6-27	eat	O	O	B-ScrEv_eat	_	_	
+6-28	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	7-4	
+6-29	.	O	O	O	_	_	
+
+#id=7
+#text=Once I ate it tasted really very good . ''
+7-1	Once	O	O	O	_	_	
+7-2	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+7-3	ate	O	O	B-ScrEv_eat	_	_	
+7-4	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	_	_	
+7-5	tasted	O	O	B-ScrEv_eat	_	_	
+7-6	really	O	O	O	_	_	
+7-7	very	O	O	O	_	_	
+7-8	good	O	O	O	_	_	
+7-9	.	O	O	O	_	_	
+7-10	''	O	O	O	_	_	
+
+#id=8
+#text=, Nice Task Thanks 
+8-1	,	O	O	O	_	_	
+8-2	Nice	O	O	O	_	_	
+8-3	Task	O	O	O	_	_	
+8-4	Thanks	O	O	O	_	_	
+

@@ -1,0 +1,217 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=A bath is an excellent way to relieve stress in your life .
+1-1	A	O	O	_	_	
+1-2	bath	B-Evoking	O	_	_	
+1-3	is	B-UnrelEv	O	_	_	
+1-4	an	O	O	_	_	
+1-5	excellent	O	O	_	_	
+1-6	way	O	O	_	_	
+1-7	to	O	O	_	_	
+1-8	relieve	B-UnrelEv	O	_	_	
+1-9	stress	O	O	_	_	
+1-10	in	O	O	_	_	
+1-11	your	O	B-ScrPart_bather	_	_	
+1-12	life	O	O	_	_	
+1-13	.	O	O	_	_	
+
+#id=2
+#text=It 's a very simple process and recommended only if you have some time to yourself .
+2-1	It	O	O	_	_	
+2-2	's	B-UnrelEv	O	_	_	
+2-3	a	O	O	_	_	
+2-4	very	O	O	_	_	
+2-5	simple	O	O	_	_	
+2-6	process	O	O	_	_	
+2-7	and	O	O	_	_	
+2-8	recommended	B-UnrelEv	O	_	_	
+2-9	only	O	O	_	_	
+2-10	if	O	O	_	_	
+2-11	you	O	B-ScrPart_bather	webanno.custom.Corefchains_	1-11	
+2-12	have	B-UnrelEv	O	_	_	
+2-13	some	O	O	_	_	
+2-14	time	O	O	_	_	
+2-15	to	O	O	_	_	
+2-16	yourself	O	B-ScrPart_bather	webanno.custom.Corefchains_	2-11	
+2-17	.	O	O	_	_	
+
+#id=3
+#text=Make sure to let everyone know that you are going to take a bath , and not to bother you .
+3-1	Make	O	O	_	_	
+3-2	sure	O	O	_	_	
+3-3	to	O	O	_	_	
+3-4	let	O	O	_	_	
+3-5	everyone	O	O	_	_	
+3-6	know	B-UnrelEv	O	_	_	
+3-7	that	O	O	_	_	
+3-8	you	O	B-ScrPart_bather	webanno.custom.Corefchains_	2-16	
+3-9	are	O	O	_	_	
+3-10	going	O	O	_	_	
+3-11	to	O	O	_	_	
+3-12	take	B-Evoking	O	_	_	
+3-13	a	I-Evoking	O	_	_	
+3-14	bath	I-Evoking	O	_	_	
+3-15	,	O	O	_	_	
+3-16	and	O	O	_	_	
+3-17	not	O	O	_	_	
+3-18	to	O	O	_	_	
+3-19	bother	B-UnrelEv	O	_	_	
+3-20	you	O	B-ScrPart_bather	webanno.custom.Corefchains_	3-8	
+3-21	.	O	O	_	_	
+
+#id=4
+#text=This works out much better if you are home alone .
+4-1	This	O	O	_	_	
+4-2	works	B-UnrelEv|B-UnrelEv	O	_	_	
+4-3	out	I-UnrelEv	O	_	_	
+4-4	much	O	O	_	_	
+4-5	better	O	O	_	_	
+4-6	if	O	O	_	_	
+4-7	you	O	B-ScrPart_bather	webanno.custom.Corefchains_	3-20	
+4-8	are	B-UnrelEv	O	_	_	
+4-9	home	O	O	_	_	
+4-10	alone	O	O	_	_	
+4-11	.	O	O	_	_	
+
+#id=5
+#text=Head into your bathroom , and set the tub up to stop the water from draining .
+5-1	Head	B-ScrEv_enter_bathroom	O	_	_	
+5-2	into	O	O	_	_	
+5-3	your	O	B-ScrPart_bather	webanno.custom.Corefchains_	4-7	
+5-4	bathroom	O	B-ScrPart_bathtub	_	_	
+5-5	,	O	O	_	_	
+5-6	and	O	O	_	_	
+5-7	set	B-ScrEv_close_drain	O	_	_	
+5-8	the	O	O	_	_	
+5-9	tub	O	B-ScrPart_bathtub	_	_	
+5-10	up	O	O	_	_	
+5-11	to	O	O	_	_	
+5-12	stop	B-UnrelEv	O	_	_	
+5-13	the	O	O	_	_	
+5-14	water	O	B-ScrPart_water	_	_	
+5-15	from	O	O	_	_	
+5-16	draining	B-RelNScrEv	O	_	_	
+5-17	.	O	O	_	_	
+
+#id=6
+#text=Turn the hot water on and let the tub fill up .
+6-1	Turn	B-ScrEv_turn_water_on	O	_	_	
+6-2	the	O	O	_	_	
+6-3	hot	O	O	_	_	
+6-4	water	O	B-ScrPart_water	webanno.custom.Corefchains_	5-14	
+6-5	on	O	O	_	_	
+6-6	and	O	O	_	_	
+6-7	let	O	O	_	_	
+6-8	the	O	O	_	_	
+6-9	tub	O	B-ScrPart_bathtub	webanno.custom.Corefchains_	5-9	
+6-10	fill	B-ScrEv_fill_water/wait	O	_	_	
+6-11	up	O	O	_	_	
+6-12	.	O	O	_	_	
+
+#id=7
+#text=If you would rather a cold bath then maybe a bath is n't the best choice for you .
+7-1	If	O	O	_	_	
+7-2	you	O	B-ScrPart_bather	webanno.custom.Corefchains_	5-3	
+7-3	would	O	O	_	_	
+7-4	rather	O	O	_	_	
+7-5	a	O	O	_	_	
+7-6	cold	O	O	_	_	
+7-7	bath	B-Evoking	O	_	_	
+7-8	then	O	O	_	_	
+7-9	maybe	O	O	_	_	
+7-10	a	O	O	_	_	
+7-11	bath	B-Evoking	O	_	_	
+7-12	is	B-UnrelEv	O	_	_	
+7-13	n't	O	O	_	_	
+7-14	the	O	O	_	_	
+7-15	best	O	O	_	_	
+7-16	choice	O	O	_	_	
+7-17	for	O	O	_	_	
+7-18	you	O	B-ScrPart_bather	webanno.custom.Corefchains_	7-2	
+7-19	.	O	O	_	_	
+
+#id=8
+#text=While the water is running make yourself a nice drink but if you are underage then sparkling grape juice works great .
+8-1	While	O	O	_	_	
+8-2	the	O	O	_	_	
+8-3	water	O	B-ScrPart_water	_	_	
+8-4	is	O	O	_	_	
+8-5	running	B-ScrEv_fill_water/wait	O	_	_	
+8-6	make	B-ScrEv_prepare_bath	O	_	_	
+8-7	yourself	O	B-ScrPart_bather	webanno.custom.Corefchains_	7-18	
+8-8	a	O	O	_	_	
+8-9	nice	O	O	_	_	
+8-10	drink	O	B-ScrPart_in-bath_entertainment	_	_	
+8-11	but	O	O	_	_	
+8-12	if	O	O	_	_	
+8-13	you	O	B-ScrPart_bather	webanno.custom.Corefchains_	8-7	
+8-14	are	B-UnrelEv	O	_	_	
+8-15	underage	O	O	_	_	
+8-16	then	O	O	_	_	
+8-17	sparkling	B-UnrelEv	O	_	_	
+8-18	grape	O	O	_	_	
+8-19	juice	O	B-ScrPart_in-bath_entertainment	webanno.custom.Corefchains_	8-10	
+8-20	works	B-UnrelEv	O	_	_	
+8-21	great	O	O	_	_	
+8-22	.	O	O	_	_	
+
+#id=9
+#text=You can also light a candle and bring it in with you .
+9-1	You	O	B-ScrPart_bather	webanno.custom.Corefchains_	8-13	
+9-2	can	O	O	_	_	
+9-3	also	O	O	_	_	
+9-4	light	B-ScrEv_prepare_bath	O	_	_	
+9-5	a	O	O	_	_	
+9-6	candle	O	B-ScrPart_in-bath_entertainment	_	_	
+9-7	and	O	O	_	_	
+9-8	bring	B-ScrEv_prepare_bath	O	_	_	
+9-9	it	O	B-ScrPart_in-bath_entertainment	webanno.custom.Corefchains_	9-6	
+9-10	in	O	O	_	_	
+9-11	with	O	O	_	_	
+9-12	you	O	B-ScrPart_bather	webanno.custom.Corefchains_	9-1	
+9-13	.	O	O	_	_	
+
+#id=10
+#text=Once the tub is full enter the tub and immediately feel the stress levels dropping .
+10-1	Once	O	O	_	_	
+10-2	the	O	O	_	_	
+10-3	tub	O	B-ScrPart_bathtub	webanno.custom.Corefchains_	6-9	
+10-4	is	B-ScrEv_fill_water/wait	O	_	_	
+10-5	full	O	O	_	_	
+10-6	enter	B-ScrEv_sink_water	O	_	_	
+10-7	the	O	O	_	_	
+10-8	tub	O	B-ScrPart_bathtub	webanno.custom.Corefchains_	10-3	
+10-9	and	O	O	_	_	
+10-10	immediately	O	O	_	_	
+10-11	feel	B-ScrEv_relax	O	_	_	
+10-12	the	O	O	_	_	
+10-13	stress	O	B-NPart	_	_	
+10-14	levels	O	O	_	_	
+10-15	dropping	B-ScrEv_relax	O	_	_	
+10-16	.	O	O	_	_	
+
+#id=11
+#text=Once you have determined you are finished you can pull the plug and watch the water and your problems drain away ! 
+11-1	Once	O	O	_	_	
+11-2	you	O	B-ScrPart_bather	webanno.custom.Corefchains_	9-12	
+11-3	have	O	O	_	_	
+11-4	determined	B-UnrelEv	O	_	_	
+11-5	you	O	B-ScrPart_bather	webanno.custom.Corefchains_	11-2	
+11-6	are	O	O	_	_	
+11-7	finished	B-UnrelEv	O	_	_	
+11-8	you	O	B-ScrPart_bather	webanno.custom.Corefchains_	11-5	
+11-9	can	O	O	_	_	
+11-10	pull	B-ScrEv_open_drain	O	_	_	
+11-11	the	O	O	_	_	
+11-12	plug	O	B-MissScrPart	_	_	
+11-13	and	O	O	_	_	
+11-14	watch	B-UnrelEv	O	_	_	
+11-15	the	O	O	_	_	
+11-16	water	O	B-ScrPart_water	webanno.custom.Corefchains_	6-4	
+11-17	and	O	O	_	_	
+11-18	your	O	B-ScrPart_bather	webanno.custom.Corefchains_	11-8	
+11-19	problems	O	O	_	_	
+11-20	drain	B-RelNScrEv	O	_	_	
+11-21	away	I-RelNScrEv	O	_	_	
+11-22	!	O	O	_	_	
+

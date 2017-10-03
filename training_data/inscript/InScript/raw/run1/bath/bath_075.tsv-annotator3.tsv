@@ -1,0 +1,293 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=The Long Awaited Bath I had been outside working in my garden all day .
+1-1	The	O	O	_	_	
+1-2	Long	O	O	_	_	
+1-3	Awaited	B-UnrelEv	O	_	_	
+1-4	Bath	O	B-MissScrPart	_	_	
+1-5	I	O	B-ScrPart_bather	_	_	
+1-6	had	O	O	_	_	
+1-7	been	B-UnrelEv	O	_	_	
+1-8	outside	O	O	_	_	
+1-9	working	B-UnrelEv	O	_	_	
+1-10	in	O	O	_	_	
+1-11	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	1-5	
+1-12	garden	O	O	_	_	
+1-13	all	O	O	_	_	
+1-14	day	O	O	_	_	
+1-15	.	O	O	_	_	
+
+#id=2
+#text=It was warm and humid outside so besides being caked in dirt , I also had sweated a lot and did not smell very good .
+2-1	It	O	O	_	_	
+2-2	was	B-UnrelEv	O	_	_	
+2-3	warm	O	O	_	_	
+2-4	and	O	O	_	_	
+2-5	humid	O	O	_	_	
+2-6	outside	O	O	_	_	
+2-7	so	O	O	_	_	
+2-8	besides	O	O	_	_	
+2-9	being	O	O	_	_	
+2-10	caked	B-UnrelEv	O	_	_	
+2-11	in	O	O	_	_	
+2-12	dirt	O	O	_	_	
+2-13	,	O	O	_	_	
+2-14	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	1-11	
+2-15	also	O	O	_	_	
+2-16	had	O	O	_	_	
+2-17	sweated	B-UnrelEv	O	_	_	
+2-18	a	O	O	_	_	
+2-19	lot	O	O	_	_	
+2-20	and	O	O	_	_	
+2-21	did	O	O	_	_	
+2-22	not	O	O	_	_	
+2-23	smell	B-UnrelEv	O	_	_	
+2-24	very	O	O	_	_	
+2-25	good	O	O	_	_	
+2-26	.	O	O	_	_	
+
+#id=3
+#text=I wanted to get everything done in one day so I had worked very hard for a very long time .
+3-1	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	2-14	
+3-2	wanted	B-UnrelEv	O	_	_	
+3-3	to	O	O	_	_	
+3-4	get	O	O	_	_	
+3-5	everything	O	O	_	_	
+3-6	done	B-UnrelEv	O	_	_	
+3-7	in	O	O	_	_	
+3-8	one	O	O	_	_	
+3-9	day	O	O	_	_	
+3-10	so	O	O	_	_	
+3-11	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	3-1	
+3-12	had	O	O	_	_	
+3-13	worked	B-UnrelEv	O	_	_	
+3-14	very	O	O	_	_	
+3-15	hard	O	O	_	_	
+3-16	for	O	O	_	_	
+3-17	a	O	O	_	_	
+3-18	very	O	O	_	_	
+3-19	long	O	O	_	_	
+3-20	time	O	O	_	_	
+3-21	.	O	O	_	_	
+
+#id=4
+#text=However , when I went inside to clean up , I realized from an automated message in my voice mail that the water had been shut off temporarily for emergency repairs , it would be on again in a few hours .
+4-1	However	O	O	_	_	
+4-2	,	O	O	_	_	
+4-3	when	O	O	_	_	
+4-4	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	3-11	
+4-5	went	B-UnrelEv	O	_	_	
+4-6	inside	O	O	_	_	
+4-7	to	O	O	_	_	
+4-8	clean	B-Evoking	O	_	_	
+4-9	up	I-Evoking	O	_	_	
+4-10	,	O	O	_	_	
+4-11	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	4-4	
+4-12	realized	B-UnrelEv	O	_	_	
+4-13	from	O	O	_	_	
+4-14	an	O	O	_	_	
+4-15	automated	B-UnrelEv	O	_	_	
+4-16	message	O	O	_	_	
+4-17	in	O	O	_	_	
+4-18	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	4-11	
+4-19	voice	O	O	_	_	
+4-20	mail	O	O	_	_	
+4-21	that	O	O	_	_	
+4-22	the	O	O	_	_	
+4-23	water	O	B-ScrPart_water	_	_	
+4-24	had	O	O	_	_	
+4-25	been	O	O	_	_	
+4-26	shut	B-UnrelEv|B-UnrelEv	O	_	_	
+4-27	off	I-UnrelEv	O	_	_	
+4-28	temporarily	O	O	_	_	
+4-29	for	O	O	_	_	
+4-30	emergency	O	O	_	_	
+4-31	repairs	O	O	_	_	
+4-32	,	O	O	_	_	
+4-33	it	O	B-ScrPart_water	webanno.custom.Corefchains_	4-23	
+4-34	would	O	O	_	_	
+4-35	be	B-UnrelEv|B-UnrelEv	O	_	_	
+4-36	on	I-UnrelEv	O	_	_	
+4-37	again	O	O	_	_	
+4-38	in	O	O	_	_	
+4-39	a	O	O	_	_	
+4-40	few	O	O	_	_	
+4-41	hours	O	O	_	_	
+4-42	.	O	O	_	_	
+
+#id=5
+#text=I was frustrated , but I decided that I was hungry as well so I made myself a sandwich and cut up some fruit to eat .
+5-1	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	4-18	
+5-2	was	O	O	_	_	
+5-3	frustrated	B-UnrelEv	O	_	_	
+5-4	,	O	O	_	_	
+5-5	but	O	O	_	_	
+5-6	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	5-1	
+5-7	decided	B-UnrelEv	O	_	_	
+5-8	that	O	O	_	_	
+5-9	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	5-6	
+5-10	was	B-UnrelEv	O	_	_	
+5-11	hungry	O	O	_	_	
+5-12	as	O	O	_	_	
+5-13	well	O	O	_	_	
+5-14	so	O	O	_	_	
+5-15	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	5-9	
+5-16	made	B-UnrelEv	O	_	_	
+5-17	myself	O	B-ScrPart_bather	webanno.custom.Corefchains_	5-15	
+5-18	a	O	O	_	_	
+5-19	sandwich	O	O	_	_	
+5-20	and	O	O	_	_	
+5-21	cut	B-UnrelEv|B-UnrelEv	O	_	_	
+5-22	up	I-UnrelEv	O	_	_	
+5-23	some	O	O	_	_	
+5-24	fruit	O	O	_	_	
+5-25	to	O	O	_	_	
+5-26	eat	B-UnrelEv	O	_	_	
+5-27	.	O	O	_	_	
+
+#id=6
+#text=I took off my dirty clothes and put them in the hamper and put on a clean t-shirt and shorts and then put down an old blanket on my couch before I sat on it so I would not get it dirty .
+6-1	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	5-17	
+6-2	took	B-ScrEv_undress|B-ScrEv_undress	O	_	_	
+6-3	off	I-ScrEv_undress	O	_	_	
+6-4	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	6-1	
+6-5	dirty	O	O	_	_	
+6-6	clothes	O	B-ScrPart_clothes	_	_	
+6-7	and	O	O	_	_	
+6-8	put	B-MissScrEv	O	_	_	
+6-9	them	O	B-ScrPart_clothes	webanno.custom.Corefchains_	6-6	
+6-10	in	O	O	_	_	
+6-11	the	O	O	_	_	
+6-12	hamper	O	B-ScrPart_hamper	_	_	
+6-13	and	O	O	_	_	
+6-14	put	O	O	_	_	
+6-15	on	O	O	_	_	
+6-16	a	O	O	_	_	
+6-17	clean	O	O	_	_	
+6-18	t-shirt	O	B-ScrPart_clothes	_	_	
+6-19	and	O	O	_	_	
+6-20	shorts	O	B-ScrPart_clothes	_	_	
+6-21	and	O	O	_	_	
+6-22	then	O	O	_	_	
+6-23	put	B-UnrelEv|B-UnrelEv	O	_	_	
+6-24	down	I-UnrelEv	O	_	_	
+6-25	an	O	O	_	_	
+6-26	old	O	O	_	_	
+6-27	blanket	O	O	_	_	
+6-28	on	O	O	_	_	
+6-29	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	6-4	
+6-30	couch	O	O	_	_	
+6-31	before	O	O	_	_	
+6-32	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	6-29	
+6-33	sat	B-UnrelEv	O	_	_	
+6-34	on	O	O	_	_	
+6-35	it	O	O	_	_	
+6-36	so	O	O	_	_	
+6-37	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	6-32	
+6-38	would	O	O	_	_	
+6-39	not	O	O	_	_	
+6-40	get	B-UnrelEv	O	_	_	
+6-41	it	O	O	_	_	
+6-42	dirty	O	O	_	_	
+6-43	.	O	O	_	_	
+
+#id=7
+#text=I watched part of a baseball game until I could not stand my own stench any more .
+7-1	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	6-37	
+7-2	watched	B-UnrelEv	O	_	_	
+7-3	part	O	O	_	_	
+7-4	of	O	O	_	_	
+7-5	a	O	O	_	_	
+7-6	baseball	O	O	_	_	
+7-7	game	O	O	_	_	
+7-8	until	O	O	_	_	
+7-9	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	7-1	
+7-10	could	O	O	_	_	
+7-11	not	O	O	_	_	
+7-12	stand	B-UnrelEv	O	_	_	
+7-13	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	7-9	
+7-14	own	O	O	_	_	
+7-15	stench	O	O	_	_	
+7-16	any	O	O	_	_	
+7-17	more	O	O	_	_	
+7-18	.	O	O	_	_	
+
+#id=8
+#text=I went to try the water in my bath tub and was extremely glad when it worked .
+8-1	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	7-13	
+8-2	went	B-UnrelEv	O	_	_	
+8-3	to	O	O	_	_	
+8-4	try	B-UnrelEv	O	_	_	
+8-5	the	O	O	_	_	
+8-6	water	O	B-ScrPart_water	webanno.custom.Corefchains_	4-33	
+8-7	in	O	O	_	_	
+8-8	my	O	B-ScrPart_bather	webanno.custom.Corefchains_	8-1	
+8-9	bath	O	B-ScrPart_bathtub	_	_	
+8-10	tub	O	I-ScrPart_bathtub|B-ScrPart_bathtub	_	_	
+8-11	and	O	O	_	_	
+8-12	was	B-UnrelEv	O	_	_	
+8-13	extremely	O	O	_	_	
+8-14	glad	O	O	_	_	
+8-15	when	O	O	_	_	
+8-16	it	O	O	_	_	
+8-17	worked	B-UnrelEv	O	_	_	
+8-18	.	O	O	_	_	
+
+#id=9
+#text=I ran myself a hot bath and put some bubble bath soap in it .
+9-1	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	8-8	
+9-2	ran	B-ScrEv_turn_water_on	O	_	_	
+9-3	myself	O	B-ScrPart_bather	webanno.custom.Corefchains_	9-1	
+9-4	a	O	O	_	_	
+9-5	hot	O	O	_	_	
+9-6	bath	O	B-MissScrPart	webanno.custom.Corefchains_	1-4	
+9-7	and	O	O	_	_	
+9-8	put	B-ScrEv_put_bubble_bath_scent	O	_	_	
+9-9	some	O	O	_	_	
+9-10	bubble	O	B-ScrPart_bath_means	_	_	
+9-11	bath	O	I-ScrPart_bath_means	_	_	
+9-12	soap	O	I-ScrPart_bath_means|B-ScrPart_bath_means	_	_	
+9-13	in	O	O	_	_	
+9-14	it	O	B-ScrPart_bathtub	webanno.custom.Corefchains_	8-10	
+9-15	.	O	O	_	_	
+
+#id=10
+#text=I got in and found it very relaxing .
+10-1	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	9-3	
+10-2	got	B-ScrEv_sink_water|B-ScrEv_sink_water	O	_	_	
+10-3	in	I-ScrEv_sink_water	O	_	_	
+10-4	and	O	O	_	_	
+10-5	found	B-UnrelEv	O	_	_	
+10-6	it	O	B-MissScrPart	webanno.custom.Corefchains_	9-6	
+10-7	very	O	O	_	_	
+10-8	relaxing	B-ScrEv_relax	O	_	_	
+10-9	.	O	O	_	_	
+
+#id=11
+#text=I was so glad to finally take a bath , get cleaned up , and relax after a long , hard , productive day . 
+11-1	I	O	B-ScrPart_bather	webanno.custom.Corefchains_	10-1	
+11-2	was	B-UnrelEv	O	_	_	
+11-3	so	O	O	_	_	
+11-4	glad	O	O	_	_	
+11-5	to	O	O	_	_	
+11-6	finally	O	O	_	_	
+11-7	take	B-Evoking	O	_	_	
+11-8	a	I-Evoking	O	_	_	
+11-9	bath	I-Evoking	B-MissScrPart	webanno.custom.Corefchains_	10-6	
+11-10	,	O	O	_	_	
+11-11	get	O	O	_	_	
+11-12	cleaned	B-RelNScrEv|B-RelNScrEv	O	_	_	
+11-13	up	I-RelNScrEv	O	_	_	
+11-14	,	O	O	_	_	
+11-15	and	O	O	_	_	
+11-16	relax	B-ScrEv_relax	O	_	_	
+11-17	after	O	O	_	_	
+11-18	a	O	O	_	_	
+11-19	long	O	O	_	_	
+11-20	,	O	O	_	_	
+11-21	hard	O	O	_	_	
+11-22	,	O	O	_	_	
+11-23	productive	O	O	_	_	
+11-24	day	O	O	_	_	
+11-25	.	O	O	_	_	
+

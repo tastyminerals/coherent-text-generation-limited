@@ -1,0 +1,252 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=Today , we went to the library to check out some books .
+1-1	Today	B-NPart	O	
+1-2	,	O	O	
+1-3	we	B-ScrPart_customer	O	
+1-4	went	O	B-Evoking	
+1-5	to	O	I-Evoking	
+1-6	the	O	I-Evoking	
+1-7	library	B-ScrPart_library	I-Evoking	
+1-8	to	O	I-Evoking	
+1-9	check	O	I-Evoking	
+1-10	out	O	I-Evoking	
+1-11	some	O	I-Evoking	
+1-12	books	B-ScrPart_book	I-Evoking	
+1-13	.	O	O	
+
+#id=2
+#text=A lot of people lke to borrow books from the library for all kinds of reasons but we just wanted some books to read for fun .
+2-1	A	O	O	
+2-2	lot	B-No_label	O	
+2-3	of	O	O	
+2-4	people	B-ScrPart_customer	O	
+2-5	lke	O	B-UnrelEv	
+2-6	to	O	O	
+2-7	borrow	O	B-Evoking	
+2-8	books	B-ScrPart_book	I-Evoking	
+2-9	from	O	O	
+2-10	the	O	O	
+2-11	library	B-ScrPart_library	O	
+2-12	for	O	O	
+2-13	all	O	O	
+2-14	kinds	B-No_label	O	
+2-15	of	O	O	
+2-16	reasons	B-NPart	O	
+2-17	but	O	O	
+2-18	we	B-ScrPart_customer	O	
+2-19	just	O	O	
+2-20	wanted	O	B-UnrelEv	
+2-21	some	O	O	
+2-22	books	B-ScrPart_book	O	
+2-23	to	O	O	
+2-24	read	O	B-RelNScrEv	
+2-25	for	O	O	
+2-26	fun	B-NPart	O	
+2-27	.	O	O	
+
+#id=3
+#text=We already knew which books we wanted before we got to the library so when we got there , we just had to find them .
+3-1	We	B-ScrPart_customer	O	
+3-2	already	O	O	
+3-3	knew	O	B-UnrelEv	
+3-4	which	O	O	
+3-5	books	B-ScrPart_book	O	
+3-6	we	B-ScrPart_customer	O	
+3-7	wanted	O	B-UnrelEv	
+3-8	before	O	O	
+3-9	we	B-ScrPart_customer	O	
+3-10	got	O	B-ScrEv_get_library	
+3-11	to	O	O	
+3-12	the	O	O	
+3-13	library	B-ScrPart_library	O	
+3-14	so	O	O	
+3-15	when	O	O	
+3-16	we	B-ScrPart_customer	O	
+3-17	got	O	B-ScrEv_get_library	
+3-18	there	B-ScrPart_library	O	
+3-19	,	O	O	
+3-20	we	B-ScrPart_customer	O	
+3-21	just	O	O	
+3-22	had	O	O	
+3-23	to	O	O	
+3-24	find	O	B-RelNScrEv	
+3-25	them	B-ScrPart_book	O	
+3-26	.	O	O	
+
+#id=4
+#text=It is possible to look them up and find them on the libary 's computer .
+4-1	It	B-No_label	O	
+4-2	is	O	B-UnrelEv	
+4-3	possible	O	O	
+4-4	to	O	O	
+4-5	look	O	B-UnrelEv	
+4-6	them	B-ScrPart_book	O	
+4-7	up	O	O	
+4-8	and	O	O	
+4-9	find	O	B-RelNScrEv	
+4-10	them	B-ScrPart_book	O	
+4-11	on	O	O	
+4-12	the	O	O	
+4-13	libary	B-ScrPart_library	O	
+4-14	's	O	O	
+4-15	computer	B-ScrPart_institutional_devices	O	
+4-16	.	O	O	
+
+#id=5
+#text=If you are in a hurry , you can ask the librarian to help you find them a little easier and more quickly .
+5-1	If	O	O	
+5-2	you	B-ScrPart_customer	O	
+5-3	are	O	B-UnrelEv	
+5-4	in	O	O	
+5-5	a	O	O	
+5-6	hurry	B-No_label	O	
+5-7	,	O	O	
+5-8	you	B-ScrPart_customer	O	
+5-9	can	O	O	
+5-10	ask	O	B-ScrEv_ask_librarian	
+5-11	the	O	O	
+5-12	librarian	B-ScrPart_staff	O	
+5-13	to	O	O	
+5-14	help	O	B-UnrelEv	
+5-15	you	B-ScrPart_customer	O	
+5-16	find	O	B-RelNScrEv	
+5-17	them	B-ScrPart_book	O	
+5-18	a	O	O	
+5-19	little	O	O	
+5-20	easier	O	O	
+5-21	and	O	O	
+5-22	more	O	O	
+5-23	quickly	O	O	
+5-24	.	O	O	
+
+#id=6
+#text=When we found out where to find the ones we wanted , we found them and took them to the librarian to check them out to us .
+6-1	When	O	O	
+6-2	we	B-ScrPart_customer	O	
+6-3	found	O	B-UnrelEv|B-UnrelEv	
+6-4	out	O	I-UnrelEv	
+6-5	where	O	O	
+6-6	to	O	O	
+6-7	find	O	B-RelNScrEv	
+6-8	the	O	O	
+6-9	ones	B-ScrPart_book	O	
+6-10	we	B-ScrPart_customer	O	
+6-11	wanted	O	B-UnrelEv	
+6-12	,	O	O	
+6-13	we	B-ScrPart_customer	O	
+6-14	found	O	B-RelNScrEv	
+6-15	them	B-ScrPart_book	O	
+6-16	and	O	O	
+6-17	took	O	B-ScrEv_take_book	
+6-18	them	B-ScrPart_book	O	
+6-19	to	O	O	
+6-20	the	O	O	
+6-21	librarian	B-ScrPart_staff	O	
+6-22	to	O	O	
+6-23	check	O	B-ScrEv_register	
+6-24	them	B-ScrPart_book	O	
+6-25	out	O	O	
+6-26	to	O	O	
+6-27	us	B-ScrPart_customer	O	
+6-28	.	O	O	
+
+#id=7
+#text=She put the book information in the computer and then she swiped our library cards .
+7-1	She	B-ScrPart_staff	O	
+7-2	put	O	B-ScrEv_register	
+7-3	the	O	O	
+7-4	book	B-ScrPart_other	O	
+7-5	information	I-ScrPart_other|B-ScrPart_other	O	
+7-6	in	O	O	
+7-7	the	O	O	
+7-8	computer	B-ScrPart_institutional_devices	O	
+7-9	and	O	O	
+7-10	then	O	O	
+7-11	she	B-ScrPart_staff	O	
+7-12	swiped	O	B-ScrEv_other	
+7-13	our	B-ScrPart_customer	O	
+7-14	library	B-ScrPart_library_card	O	
+7-15	cards	I-ScrPart_library_card|B-ScrPart_library_card	O	
+7-16	.	O	O	
+
+#id=8
+#text=It did n't take very long at all .
+8-1	It	B-No_label	O	
+8-2	did	O	O	
+8-3	n't	O	O	
+8-4	take	O	B-UnrelEv	
+8-5	very	O	O	
+8-6	long	O	O	
+8-7	at	O	O	
+8-8	all	O	O	
+8-9	.	O	O	
+
+#id=9
+#text=when shed put them into the system and swiped the cards , she printed out a slip of paper that showed exactly what day we needed to turn them back in , in order to avoid any late fees .
+9-1	when	O	O	
+9-2	shed	B-ScrPart_staff	O	
+9-3	put	O	B-ScrEv_register	
+9-4	them	B-ScrPart_book	O	
+9-5	into	O	O	
+9-6	the	O	O	
+9-7	system	B-NPart	O	
+9-8	and	O	O	
+9-9	swiped	O	B-ScrEv_other	
+9-10	the	O	O	
+9-11	cards	B-ScrPart_library_card	O	
+9-12	,	O	O	
+9-13	she	B-ScrPart_staff	O	
+9-14	printed	O	B-ScrEv_other	
+9-15	out	O	O	
+9-16	a	O	O	
+9-17	slip	B-Head_of_Partitive	O	
+9-18	of	O	O	
+9-19	paper	B-ScrPart_receipt	O	
+9-20	that	O	O	
+9-21	showed	O	B-UnrelEv	
+9-22	exactly	O	O	
+9-23	what	O	O	
+9-24	day	B-ScrPart_return_date	O	
+9-25	we	B-ScrPart_customer	O	
+9-26	needed	O	B-UnrelEv	
+9-27	to	O	O	
+9-28	turn	O	B-RelNScrEv	
+9-29	them	B-ScrPart_book	O	
+9-30	back	O	O	
+9-31	in	O	O	
+9-32	,	O	O	
+9-33	in	O	O	
+9-34	order	B-No_label	O	
+9-35	to	O	O	
+9-36	avoid	O	B-UnrelEv	
+9-37	any	O	O	
+9-38	late	O	O	
+9-39	fees	B-ScrPart_other	O	
+9-40	.	O	O	
+
+#id=10
+#text=when we were ready to take them back , we turned them in to the librarian and then looked for more ! 
+10-1	when	O	O	
+10-2	we	B-ScrPart_customer	O	
+10-3	were	O	B-UnrelEv	
+10-4	ready	O	O	
+10-5	to	O	O	
+10-6	take	O	B-RelNScrEv	
+10-7	them	B-ScrPart_book	O	
+10-8	back	O	O	
+10-9	,	O	O	
+10-10	we	B-ScrPart_customer	O	
+10-11	turned	O	B-ScrEv_return_book	
+10-12	them	B-ScrPart_return_date	O	
+10-13	in	O	O	
+10-14	to	O	O	
+10-15	the	O	O	
+10-16	librarian	B-ScrPart_staff	O	
+10-17	and	O	O	
+10-18	then	O	O	
+10-19	looked	O	B-ScrEv_look_for_book	
+10-20	for	O	O	
+10-21	more	O	O	
+10-22	!	O	O	
+

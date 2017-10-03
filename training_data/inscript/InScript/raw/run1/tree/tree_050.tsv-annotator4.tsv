@@ -1,0 +1,334 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=It 's spring !
+1-1	It	O	O	_	_	
+1-2	's	B-UnrelEv	O	_	_	
+1-3	spring	O	B-ScrPart_time	webanno.custom.Corefchains_	3-1	
+1-4	!	O	O	_	_	
+
+#id=2
+#text=After a long and dreary winter , most of us are ready to see green plants , blooming flowers , and a clean cut green lawn in our yards .
+2-1	After	O	O	_	_	
+2-2	a	O	O	_	_	
+2-3	long	O	O	_	_	
+2-4	and	O	O	_	_	
+2-5	dreary	O	O	_	_	
+2-6	winter	O	O	_	_	
+2-7	,	O	O	_	_	
+2-8	most	O	O	_	_	
+2-9	of	O	O	_	_	
+2-10	us	O	B-ScrPart_gardener	webanno.custom.Corefchains_	2-28	
+2-11	are	B-UnrelEv	O	_	_	
+2-12	ready	O	O	_	_	
+2-13	to	O	O	_	_	
+2-14	see	B-UnrelEv	O	_	_	
+2-15	green	O	O	_	_	
+2-16	plants	O	B-ScrPart_tree	webanno.custom.Corefchains_	3-13	
+2-17	,	O	O	_	_	
+2-18	blooming	B-UnrelEv	O	_	_	
+2-19	flowers	O	O	_	_	
+2-20	,	O	O	_	_	
+2-21	and	O	O	_	_	
+2-22	a	O	O	_	_	
+2-23	clean	O	O	_	_	
+2-24	cut	B-UnrelEv	O	_	_	
+2-25	green	O	O	_	_	
+2-26	lawn	O	O	_	_	
+2-27	in	O	O	_	_	
+2-28	our	O	B-ScrPart_gardener	webanno.custom.Corefchains_	3-9	
+2-29	yards	O	B-ScrPart_location_garden	webanno.custom.Corefchains_	3-10	
+2-30	.	O	O	_	_	
+
+#id=3
+#text=Springtime is also an opportunity to freshen up our yards with new plants .
+3-1	Springtime	O	B-ScrPart_time	_	_	
+3-2	is	B-UnrelEv	O	_	_	
+3-3	also	O	O	_	_	
+3-4	an	O	O	_	_	
+3-5	opportunity	O	O	_	_	
+3-6	to	O	O	_	_	
+3-7	freshen	B-Evoking	O	_	_	
+3-8	up	I-Evoking	O	_	_	
+3-9	our	I-Evoking	B-ScrPart_gardener	webanno.custom.Corefchains_	4-6	
+3-10	yards	I-Evoking	B-ScrPart_location_garden	webanno.custom.Corefchains_	9-10	
+3-11	with	I-Evoking	O	_	_	
+3-12	new	I-Evoking	O	_	_	
+3-13	plants	I-Evoking	B-ScrPart_tree	webanno.custom.Corefchains_|webanno.custom.Corefchains_	8-10|7-9	
+3-14	.	O	O	_	_	
+
+#id=4
+#text=Taking this into consideration , I decided to make a trip to my local lawn and garden shop .
+4-1	Taking	B-UnrelEv	O	_	_	
+4-2	this	O	O	_	_	
+4-3	into	O	O	_	_	
+4-4	consideration	O	O	_	_	
+4-5	,	O	O	_	_	
+4-6	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	4-13	
+4-7	decided	B-UnrelEv	O	_	_	
+4-8	to	O	O	_	_	
+4-9	make	B-RelNScrEv	O	_	_	
+4-10	a	O	O	_	_	
+4-11	trip	O	B-NPart	_	_	
+4-12	to	O	O	_	_	
+4-13	my	O	B-ScrPart_gardener	webanno.custom.Corefchains_	6-1	
+4-14	local	O	O	_	_	
+4-15	lawn	O	B-ScrPart_shop	_	_	
+4-16	and	O	I-ScrPart_shop	_	_	
+4-17	garden	O	I-ScrPart_shop	_	_	
+4-18	shop	O	I-ScrPart_shop|B-ScrPart_shop	webanno.custom.Corefchains_	5-4	
+4-19	.	O	O	_	_	
+
+#id=5
+#text=As expected the shop had tons of blooming pot flowers .
+5-1	As	O	O	_	_	
+5-2	expected	B-UnrelEv	O	_	_	
+5-3	the	O	O	_	_	
+5-4	shop	O	B-ScrPart_shop	_	_	
+5-5	had	B-UnrelEv	O	_	_	
+5-6	tons	O	O	_	_	
+5-7	of	O	O	_	_	
+5-8	blooming	B-UnrelEv	O	_	_	
+5-9	pot	O	O	_	_	
+5-10	flowers	O	O	_	_	
+5-11	.	O	O	_	_	
+
+#id=6
+#text=I could n't help but pick at least one .
+6-1	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	7-1	
+6-2	could	O	O	_	_	
+6-3	n't	O	O	_	_	
+6-4	help	B-UnrelEv	O	_	_	
+6-5	but	O	O	_	_	
+6-6	pick	B-UnrelEv	O	_	_	
+6-7	at	O	O	_	_	
+6-8	least	O	O	_	_	
+6-9	one	O	O	_	_	
+6-10	.	O	O	_	_	
+
+#id=7
+#text=I was tempted to even buy a fruit plant , but decided to save my money and buy that another time .
+7-1	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	7-15	
+7-2	was	O	O	_	_	
+7-3	tempted	B-UnrelEv	O	_	_	
+7-4	to	O	O	_	_	
+7-5	even	O	O	_	_	
+7-6	buy	B-ScrEv_get_tree	O	_	_	
+7-7	a	O	O	_	_	
+7-8	fruit	O	B-ScrPart_tree	_	_	
+7-9	plant	O	I-ScrPart_tree|B-ScrPart_tree	webanno.custom.Corefchains_	7-19	
+7-10	,	O	O	_	_	
+7-11	but	O	O	_	_	
+7-12	decided	B-UnrelEv	O	_	_	
+7-13	to	O	O	_	_	
+7-14	save	B-UnrelEv	O	_	_	
+7-15	my	O	B-ScrPart_gardener	webanno.custom.Corefchains_	8-4	
+7-16	money	O	O	_	_	
+7-17	and	O	O	_	_	
+7-18	buy	B-ScrEv_get_tree	O	_	_	
+7-19	that	O	B-ScrPart_tree	_	_	
+7-20	another	O	O	_	_	
+7-21	time	O	O	_	_	
+7-22	.	O	O	_	_	
+
+#id=8
+#text=What particularly took my interest was a young oak sapling that was hiding in the back behind all the potted flowers .
+8-1	What	O	O	_	_	
+8-2	particularly	O	O	_	_	
+8-3	took	B-ScrEv_choose_tree	O	_	_	
+8-4	my	O	B-ScrPart_gardener	webanno.custom.Corefchains_	9-1	
+8-5	interest	O	O	_	_	
+8-6	was	B-UnrelEv	O	_	_	
+8-7	a	O	O	_	_	
+8-8	young	O	O	_	_	
+8-9	oak	O	B-ScrPart_tree	_	_	
+8-10	sapling	O	I-ScrPart_tree|B-ScrPart_tree	webanno.custom.Corefchains_	8-11	
+8-11	that	O	B-ScrPart_tree	webanno.custom.Corefchains_	9-7	
+8-12	was	O	O	_	_	
+8-13	hiding	B-UnrelEv	O	_	_	
+8-14	in	O	O	_	_	
+8-15	the	O	O	_	_	
+8-16	back	O	O	_	_	
+8-17	behind	O	O	_	_	
+8-18	all	O	O	_	_	
+8-19	the	O	O	_	_	
+8-20	potted	B-UnrelEv	O	_	_	
+8-21	flowers	O	O	_	_	
+8-22	.	O	O	_	_	
+
+#id=9
+#text=I did n't have any oak trees in my yard , and to be honest neither did anyone in my neighborhood .
+9-1	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	9-9	
+9-2	did	O	O	_	_	
+9-3	n't	O	O	_	_	
+9-4	have	B-UnrelEv	O	_	_	
+9-5	any	O	O	_	_	
+9-6	oak	O	B-ScrPart_tree	_	_	
+9-7	trees	O	I-ScrPart_tree|B-ScrPart_tree	webanno.custom.Corefchains_	10-12	
+9-8	in	O	O	_	_	
+9-9	my	O	B-ScrPart_gardener	webanno.custom.Corefchains_	9-20	
+9-10	yard	O	B-ScrPart_location_garden	webanno.custom.Corefchains_	10-16	
+9-11	,	O	O	_	_	
+9-12	and	O	O	_	_	
+9-13	to	O	O	_	_	
+9-14	be	B-UnrelEv	O	_	_	
+9-15	honest	O	O	_	_	
+9-16	neither	O	O	_	_	
+9-17	did	B-UnrelEv	O	_	_	
+9-18	anyone	O	O	_	_	
+9-19	in	O	O	_	_	
+9-20	my	O	B-ScrPart_gardener	webanno.custom.Corefchains_	10-1	
+9-21	neighborhood	O	O	_	_	
+9-22	.	O	O	_	_	
+
+#id=10
+#text=I thought it would be a fantastic idea to introduce this tree to my front yard .
+10-1	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	10-14	
+10-2	thought	B-UnrelEv	O	_	_	
+10-3	it	O	O	_	_	
+10-4	would	O	O	_	_	
+10-5	be	B-UnrelEv	O	_	_	
+10-6	a	O	O	_	_	
+10-7	fantastic	O	O	_	_	
+10-8	idea	O	O	_	_	
+10-9	to	O	O	_	_	
+10-10	introduce	B-???	O	_	_	
+10-11	this	O	O	_	_	
+10-12	tree	O	B-ScrPart_tree	webanno.custom.Corefchains_	11-10	
+10-13	to	O	O	_	_	
+10-14	my	O	B-ScrPart_gardener	webanno.custom.Corefchains_	11-2	
+10-15	front	O	O	_	_	
+10-16	yard	O	B-ScrPart_location_garden	_	_	
+10-17	.	O	O	_	_	
+
+#id=11
+#text=So I paid the $ 15 for the young sapling and prepared to plant it next to my driveway .
+11-1	So	O	O	_	_	
+11-2	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	11-18	
+11-3	paid	B-ScrEv_get_tree	O	_	_	
+11-4	the	O	O	_	_	
+11-5	$	O	B-NPart	_	_	
+11-6	15	O	I-NPart	_	_	
+11-7	for	O	O	_	_	
+11-8	the	O	O	_	_	
+11-9	young	O	O	_	_	
+11-10	sapling	O	B-ScrPart_tree	webanno.custom.Corefchains_	11-15	
+11-11	and	O	O	_	_	
+11-12	prepared	B-UnrelEv	O	_	_	
+11-13	to	O	O	_	_	
+11-14	plant	B-Evoking	O	_	_	
+11-15	it	I-Evoking	B-ScrPart_tree	webanno.custom.Corefchains_	14-5	
+11-16	next	O	O	_	_	
+11-17	to	O	O	_	_	
+11-18	my	O	B-ScrPart_gardener	webanno.custom.Corefchains_	12-4	
+11-19	driveway	O	O	_	_	
+11-20	.	O	O	_	_	
+
+#id=12
+#text=To begin , I found a small shovel from my garage and dug out a 1 foot diameter and 1 foot deep circular hole .
+12-1	To	O	O	_	_	
+12-2	begin	B-UnrelEv	O	_	_	
+12-3	,	O	O	_	_	
+12-4	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	12-10	
+12-5	found	B-ScrEv_get_tools	O	_	_	
+12-6	a	O	O	_	_	
+12-7	small	O	O	_	_	
+12-8	shovel	O	B-ScrPart_gardening_tool	_	_	
+12-9	from	O	O	_	_	
+12-10	my	O	B-ScrPart_gardener	webanno.custom.Corefchains_	13-1	
+12-11	garage	O	O	_	_	
+12-12	and	O	O	_	_	
+12-13	dug	B-ScrEv_dug_hole	O	_	_	
+12-14	out	I-ScrEv_dug_hole	O	_	_	
+12-15	a	O	O	_	_	
+12-16	1	O	O	_	_	
+12-17	foot	O	O	_	_	
+12-18	diameter	O	O	_	_	
+12-19	and	O	O	_	_	
+12-20	1	O	O	_	_	
+12-21	foot	O	O	_	_	
+12-22	deep	O	O	_	_	
+12-23	circular	O	O	_	_	
+12-24	hole	O	B-ScrPart_hole	webanno.custom.Corefchains_	13-11	
+12-25	.	O	O	_	_	
+
+#id=13
+#text=I picked out any rocks that were remaining in the hole , removed any surrounding weeds .
+13-1	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	14-2	
+13-2	picked	B-RelNScrEv	O	_	_	
+13-3	out	I-RelNScrEv	O	_	_	
+13-4	any	O	O	_	_	
+13-5	rocks	O	B-NPart	_	_	
+13-6	that	O	O	_	_	
+13-7	were	O	O	_	_	
+13-8	remaining	B-UnrelEv	O	_	_	
+13-9	in	O	O	_	_	
+13-10	the	O	O	_	_	
+13-11	hole	O	B-ScrPart_hole	webanno.custom.Corefchains_	14-22	
+13-12	,	O	O	_	_	
+13-13	removed	B-RelNScrEv	O	_	_	
+13-14	any	O	O	_	_	
+13-15	surrounding	B-UnrelEv	O	_	_	
+13-16	weeds	O	B-NPart	_	_	
+13-17	.	O	O	_	_	
+
+#id=14
+#text=Then I removed the tree from its temporary pot and put it and the nutrient-filled soil it came in into the hole I dug out .
+14-1	Then	O	O	_	_	
+14-2	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	14-23	
+14-3	removed	B-ScrEv_unwrap_root	O	_	_	
+14-4	the	O	O	_	_	
+14-5	tree	O	B-ScrPart_tree	webanno.custom.Corefchains_	14-7	
+14-6	from	O	O	_	_	
+14-7	its	O	B-ScrPart_tree	webanno.custom.Corefchains_	14-12	
+14-8	temporary	O	O	_	_	
+14-9	pot	O	B-ScrPart_wrapping	_	_	
+14-10	and	O	O	_	_	
+14-11	put	B-ScrEv_place_root	O	_	_	
+14-12	it	O	B-ScrPart_tree	webanno.custom.Corefchains_	14-17	
+14-13	and	O	O	_	_	
+14-14	the	O	O	_	_	
+14-15	nutrient-filled	B-ScrEv_place_fertilizers	O	_	_	
+14-16	soil	O	B-ScrPart_dirt	webanno.custom.Corefchains_	15-9	
+14-17	it	O	B-ScrPart_tree	webanno.custom.Corefchains_	15-13	
+14-18	came	B-UnrelEv	O	_	_	
+14-19	in	I-UnrelEv	O	_	_	
+14-20	into	O	O	_	_	
+14-21	the	O	O	_	_	
+14-22	hole	O	B-ScrPart_hole	webanno.custom.Corefchains_	15-7	
+14-23	I	O	B-ScrPart_gardener	_	_	
+14-24	dug	B-ScrEv_dug_hole	O	_	_	
+14-25	out	I-ScrEv_dug_hole	O	_	_	
+14-26	.	O	O	_	_	
+
+#id=15
+#text=Then filled the rest of the hole with dirt , gave the plant a little water , and waited for it to grow into a big healthy tree . 
+15-1	Then	O	O	_	_	
+15-2	filled	B-ScrEv_refill_hole	O	_	_	
+15-3	the	O	O	_	_	
+15-4	rest	O	O	_	_	
+15-5	of	O	O	_	_	
+15-6	the	O	O	_	_	
+15-7	hole	O	B-ScrPart_hole	_	_	
+15-8	with	O	O	_	_	
+15-9	dirt	O	B-ScrPart_dirt	_	_	
+15-10	,	O	O	_	_	
+15-11	gave	B-ScrEv_water	O	_	_	
+15-12	the	O	O	_	_	
+15-13	plant	O	B-ScrPart_tree	webanno.custom.Corefchains_	15-21	
+15-14	a	O	O	_	_	
+15-15	little	O	O	_	_	
+15-16	water	O	B-ScrPart_water	_	_	
+15-17	,	O	O	_	_	
+15-18	and	O	O	_	_	
+15-19	waited	B-UnrelEv	O	_	_	
+15-20	for	O	O	_	_	
+15-21	it	O	B-ScrPart_tree	webanno.custom.Corefchains_	15-28	
+15-22	to	O	O	_	_	
+15-23	grow	B-RelNScrEv	O	_	_	
+15-24	into	O	O	_	_	
+15-25	a	O	O	_	_	
+15-26	big	O	O	_	_	
+15-27	healthy	O	O	_	_	
+15-28	tree	O	B-ScrPart_tree	_	_	
+15-29	.	O	O	_	_	
+

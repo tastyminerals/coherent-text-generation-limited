@@ -1,0 +1,244 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=I am an avid reader so I am always on the lookout for the next best story of nonfiction !
+1-1	I	B-ScrPart_customer	O	
+1-2	am	O	B-UnrelEv	
+1-3	an	O	O	
+1-4	avid	O	O	
+1-5	reader	B-NPart	O	
+1-6	so	O	O	
+1-7	I	B-ScrPart_customer	O	
+1-8	am	O	B-UnrelEv	
+1-9	always	O	O	
+1-10	on	O	O	
+1-11	the	O	O	
+1-12	lookout	B-NPart	O	
+1-13	for	O	O	
+1-14	the	O	O	
+1-15	next	O	O	
+1-16	best	O	O	
+1-17	story	B-ScrPart_book	O	
+1-18	of	O	O	
+1-19	nonfiction	B-NPart	O	
+1-20	!	O	O	
+
+#id=2
+#text=My buddy , Frank , told me about the new library that was opening up about a mile away from my house and I thought this was a great opportunity to be able to borrow some free books !
+2-1	My	B-ScrPart_customer	O	
+2-2	buddy	B-NPart	O	
+2-3	,	O	O	
+2-4	Frank	B-NPart	O	
+2-5	,	O	O	
+2-6	told	O	B-UnrelEv	
+2-7	me	B-ScrPart_customer	O	
+2-8	about	O	O	
+2-9	the	O	O	
+2-10	new	O	O	
+2-11	library	B-ScrPart_library	O	
+2-12	that	B-ScrPart_library	O	
+2-13	was	O	O	
+2-14	opening	O	B-UnrelEv	
+2-15	up	O	I-UnrelEv	
+2-16	about	O	O	
+2-17	a	O	O	
+2-18	mile	B-NPart	O	
+2-19	away	O	O	
+2-20	from	O	O	
+2-21	my	B-ScrPart_customer	O	
+2-22	house	B-NPart	O	
+2-23	and	O	O	
+2-24	I	B-ScrPart_customer	O	
+2-25	thought	O	B-UnrelEv	
+2-26	this	O	O	
+2-27	was	O	B-UnrelEv	
+2-28	a	O	O	
+2-29	great	O	O	
+2-30	opportunity	B-NPart	O	
+2-31	to	O	O	
+2-32	be	O	B-UnrelEv	
+2-33	able	O	O	
+2-34	to	O	O	
+2-35	borrow	O	B-Evoking	
+2-36	some	O	I-Evoking	
+2-37	free	O	I-Evoking	
+2-38	books	B-ScrPart_book	I-Evoking	
+2-39	!	O	O	
+
+#id=3
+#text=I drove down and was in awe at how big the place was .
+3-1	I	B-ScrPart_customer	O	
+3-2	drove	O	B-ScrEv_get_library	
+3-3	down	O	I-ScrEv_get_library	
+3-4	and	O	O	
+3-5	was	O	B-UnrelEv	
+3-6	in	O	O	
+3-7	awe	B-NPart	O	
+3-8	at	O	O	
+3-9	how	O	O	
+3-10	big	O	O	
+3-11	the	O	O	
+3-12	place	B-ScrPart_library	O	
+3-13	was	O	B-UnrelEv	
+3-14	.	O	O	
+
+#id=4
+#text=As I stepped inside and began to browse I realized that not only did they have books but they had video games , DVDs , and music you could rent as well .
+4-1	As	O	O	
+4-2	I	B-ScrPart_customer	O	
+4-3	stepped	O	B-ScrEv_get_library	
+4-4	inside	O	O	
+4-5	and	O	O	
+4-6	began	O	B-UnrelEv	
+4-7	to	O	O	
+4-8	browse	O	B-ScrEv_browse_releases	
+4-9	I	B-ScrPart_customer	O	
+4-10	realized	O	B-UnrelEv	
+4-11	that	O	O	
+4-12	not	O	O	
+4-13	only	O	O	
+4-14	did	O	O	
+4-15	they	B-ScrPart_library	O	
+4-16	have	O	B-RelNScrEv	
+4-17	books	B-ScrPart_book	O	
+4-18	but	O	O	
+4-19	they	B-ScrPart_library	O	
+4-20	had	O	B-RelNScrEv	
+4-21	video	B-NPart	O	
+4-22	games	I-NPart|B-NPart	O	
+4-23	,	O	O	
+4-24	DVDs	B-NPart	O	
+4-25	,	O	O	
+4-26	and	O	O	
+4-27	music	B-NPart	O	
+4-28	you	B-ScrPart_customer	O	
+4-29	could	O	O	
+4-30	rent	O	B-???	
+4-31	as	O	O	
+4-32	well	O	O	
+4-33	.	O	O	
+
+#id=5
+#text=After spending about half an hour in there just browsing I finally came upon a book I wanted to read : The Hitchhikers Guide to the Galaxy !
+5-1	After	O	O	
+5-2	spending	O	B-UnrelEv	
+5-3	about	O	O	
+5-4	half	O	O	
+5-5	an	O	O	
+5-6	hour	B-NPart	O	
+5-7	in	O	O	
+5-8	there	O	O	
+5-9	just	O	O	
+5-10	browsing	O	B-ScrEv_browse_releases	
+5-11	I	B-ScrPart_customer	O	
+5-12	finally	O	O	
+5-13	came	O	B-ScrEv_look_for_book	
+5-14	upon	O	I-ScrEv_look_for_book	
+5-15	a	O	O	
+5-16	book	B-ScrPart_book	O	
+5-17	I	B-ScrPart_customer	O	
+5-18	wanted	O	B-UnrelEv	
+5-19	to	O	O	
+5-20	read	O	B-RelNScrEv	
+5-21	:	O	O	
+5-22	The	B-ScrPart_book	O	
+5-23	Hitchhikers	I-ScrPart_book	O	
+5-24	Guide	I-ScrPart_book	O	
+5-25	to	I-ScrPart_book	O	
+5-26	the	I-ScrPart_book	O	
+5-27	Galaxy	I-ScrPart_book	O	
+5-28	!	O	O	
+
+#id=6
+#text=I grabbed the book and went up to the counter .
+6-1	I	B-ScrPart_customer	O	
+6-2	grabbed	O	B-ScrEv_take_book	
+6-3	the	O	O	
+6-4	book	B-ScrPart_book	O	
+6-5	and	O	O	
+6-6	went	O	B-ScrEv_go_check_out	
+6-7	up	O	I-ScrEv_go_check_out	
+6-8	to	O	O	
+6-9	the	O	O	
+6-10	counter	B-ScrPart_check-out_desk	O	
+6-11	.	O	O	
+
+#id=7
+#text=The nice librarian said that I would first have to get a library card so I could rent out my book .
+7-1	The	O	O	
+7-2	nice	O	O	
+7-3	librarian	B-ScrPart_staff	O	
+7-4	said	O	B-UnrelEv	
+7-5	that	O	O	
+7-6	I	B-ScrPart_customer	O	
+7-7	would	O	O	
+7-8	first	O	O	
+7-9	have	O	O	
+7-10	to	O	O	
+7-11	get	O	B-ScrEv_obtain_card	
+7-12	a	O	O	
+7-13	library	B-ScrPart_library_card	O	
+7-14	card	I-ScrPart_library_card|B-ScrPart_library_card	O	
+7-15	so	O	O	
+7-16	I	B-ScrPart_customer	O	
+7-17	could	O	O	
+7-18	rent	O	B-ScrEv_register	
+7-19	out	O	I-ScrEv_register	
+7-20	my	B-ScrPart_customer	O	
+7-21	book	B-ScrPart_book	O	
+7-22	.	O	O	
+
+#id=8
+#text=I filled out the paper work and she handed me a shinny new library card !
+8-1	I	B-ScrPart_customer	O	
+8-2	filled	O	B-RelNScrEv	
+8-3	out	O	I-RelNScrEv	
+8-4	the	O	O	
+8-5	paper	B-NPart	O	
+8-6	work	I-NPart|B-NPart	O	
+8-7	and	O	O	
+8-8	she	B-ScrPart_staff	O	
+8-9	handed	O	B-RelNScrEv	
+8-10	me	B-ScrPart_customer	O	
+8-11	a	O	O	
+8-12	shinny	O	O	
+8-13	new	O	O	
+8-14	library	B-ScrPart_library_card	O	
+8-15	card	I-ScrPart_library_card|B-ScrPart_library_card	O	
+8-16	!	O	O	
+
+#id=9
+#text=I rented my book and she told me that I was due by a week from today .
+9-1	I	B-ScrPart_customer	O	
+9-2	rented	O	B-ScrEv_register	
+9-3	my	B-ScrPart_customer	O	
+9-4	book	B-ScrPart_book	O	
+9-5	and	O	O	
+9-6	she	B-ScrPart_staff	O	
+9-7	told	O	B-RelNScrEv	
+9-8	me	B-ScrPart_customer	O	
+9-9	that	O	O	
+9-10	I	B-ScrPart_customer	O	
+9-11	was	O	B-ScrEv_return_book	
+9-12	due	O	I-ScrEv_return_book	
+9-13	by	O	O	
+9-14	a	O	O	
+9-15	week	B-ScrPart_return_date	O	
+9-16	from	O	O	
+9-17	today	O	O	
+9-18	.	O	O	
+
+#id=10
+#text=I went back home and got started on my reading adventure . 
+10-1	I	B-ScrPart_customer	O	
+10-2	went	O	B-ScrEv_leave	
+10-3	back	O	O	
+10-4	home	B-NPart	O	
+10-5	and	O	O	
+10-6	got	O	B-UnrelEv	
+10-7	started	O	B-UnrelEv	
+10-8	on	O	O	
+10-9	my	B-ScrPart_customer	O	
+10-10	reading	B-NPart	O	
+10-11	adventure	I-NPart|B-NPart	O	
+10-12	.	O	O	
+

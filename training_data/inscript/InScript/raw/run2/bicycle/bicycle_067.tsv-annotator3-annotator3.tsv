@@ -1,0 +1,256 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=I began to repair my flat bicycle tire by removing the wheel from the bike .
+1-1	I	B-ScrPart_rider	O	
+1-2	began	O	B-UnrelEv	
+1-3	to	O	O	
+1-4	repair	O	B-Evoking	
+1-5	my	B-ScrPart_rider	I-Evoking	
+1-6	flat	O	I-Evoking	
+1-7	bicycle	B-ScrPart_tire	I-Evoking	
+1-8	tire	I-ScrPart_tire|B-ScrPart_tire	I-Evoking	
+1-9	by	O	O	
+1-10	removing	O	B-ScrEv_take_tire_off	
+1-11	the	O	O	
+1-12	wheel	B-ScrPart_tire	O	
+1-13	from	O	O	
+1-14	the	O	O	
+1-15	bike	B-ScrPart_bicycle	O	
+1-16	.	O	O	
+
+#id=2
+#text=This was done by disconnecting the brake cable so the wheel would be able to be removed from the frame .
+2-1	This	O	O	
+2-2	was	O	O	
+2-3	done	O	B-UnrelEv	
+2-4	by	O	O	
+2-5	disconnecting	O	B-RelNScrEv	
+2-6	the	O	O	
+2-7	brake	B-ScrPart_bicycle_small_detail	O	
+2-8	cable	I-ScrPart_bicycle_small_detail|B-ScrPart_bicycle_small_detail	O	
+2-9	so	O	O	
+2-10	the	O	O	
+2-11	wheel	B-ScrPart_tire	O	
+2-12	would	O	O	
+2-13	be	O	O	
+2-14	able	O	O	
+2-15	to	O	O	
+2-16	be	O	O	
+2-17	removed	O	B-RelNScrEv	
+2-18	from	O	O	
+2-19	the	O	O	
+2-20	frame	B-ScrPart_bicycle_small_detail	O	
+2-21	.	O	O	
+
+#id=3
+#text=I then loosened the bolts holding it on and slid the axle off the frame , making sure that the chain did not get caught or bind up while doing so .
+3-1	I	B-ScrPart_rider	O	
+3-2	then	O	O	
+3-3	loosened	O	B-ScrEv_loose_nut	
+3-4	the	O	O	
+3-5	bolts	B-ScrPart_bicycle_small_detail	O	
+3-6	holding	O	B-UnrelEv	
+3-7	it	B-ScrPart_tire	O	
+3-8	on	O	O	
+3-9	and	O	O	
+3-10	slid	O	B-ScrEv_free_wheel	
+3-11	the	O	O	
+3-12	axle	B-ScrPart_bicycle_small_detail	O	
+3-13	off	O	O	
+3-14	the	O	O	
+3-15	frame	B-ScrPart_rim	O	
+3-16	,	O	O	
+3-17	making	O	B-UnrelEv|B-UnrelEv	
+3-18	sure	O	I-UnrelEv	
+3-19	that	O	O	
+3-20	the	O	O	
+3-21	chain	B-ScrPart_chain	O	
+3-22	did	O	O	
+3-23	not	O	O	
+3-24	get	O	B-RelNScrEv|B-RelNScrEv	
+3-25	caught	O	I-RelNScrEv	
+3-26	or	O	O	
+3-27	bind	O	B-RelNScrEv|B-RelNScrEv	
+3-28	up	O	I-RelNScrEv	
+3-29	while	O	O	
+3-30	doing	O	B-UnrelEv	
+3-31	so	O	O	
+3-32	.	O	O	
+
+#id=4
+#text=After the wheel was removed , I made sure that all possible air was out of the tube so that it would be easier to remove .
+4-1	After	O	O	
+4-2	the	O	O	
+4-3	wheel	B-ScrPart_tire	O	
+4-4	was	O	O	
+4-5	removed	O	B-ScrEv_remove_tire	
+4-6	,	O	O	
+4-7	I	B-ScrPart_rider	O	
+4-8	made	O	B-UnrelEv|B-UnrelEv	
+4-9	sure	O	I-UnrelEv	
+4-10	that	O	O	
+4-11	all	O	O	
+4-12	possible	O	O	
+4-13	air	B-ScrPart_air	O	
+4-14	was	O	B-UnrelEv	
+4-15	out	O	O	
+4-16	of	O	O	
+4-17	the	O	O	
+4-18	tube	B-ScrPart_tire	O	
+4-19	so	O	O	
+4-20	that	O	O	
+4-21	it	B-ScrPart_tire	O	
+4-22	would	O	O	
+4-23	be	O	B-UnrelEv	
+4-24	easier	O	O	
+4-25	to	O	O	
+4-26	remove	O	B-ScrEv_remove_tire	
+4-27	.	O	O	
+
+#id=5
+#text=I next took two flat head screwdrivers and began to remove the tire from the bicycle .
+5-1	I	B-ScrPart_rider	O	
+5-2	next	O	O	
+5-3	took	O	B-ScrEv_get_tools	
+5-4	two	O	O	
+5-5	flat	O	O	
+5-6	head	B-ScrPart_tool	O	
+5-7	screwdrivers	I-ScrPart_tool|B-ScrPart_tool	O	
+5-8	and	O	O	
+5-9	began	O	B-UnrelEv	
+5-10	to	O	O	
+5-11	remove	O	B-ScrEv_remove_tire	
+5-12	the	O	O	
+5-13	tire	B-ScrPart_tire	O	
+5-14	from	O	O	
+5-15	the	O	O	
+5-16	bicycle	B-ScrPart_bicycle	O	
+5-17	.	O	O	
+
+#id=6
+#text=After the tire was finally removed , I pulled the tube off the rim as well .
+6-1	After	O	O	
+6-2	the	O	O	
+6-3	tire	B-ScrPart_tire	O	
+6-4	was	O	O	
+6-5	finally	O	O	
+6-6	removed	O	B-ScrEv_remove_tire	
+6-7	,	O	O	
+6-8	I	B-ScrPart_rider	O	
+6-9	pulled	O	B-ScrEv_other	
+6-10	the	O	O	
+6-11	tube	B-ScrPart_tire	O	
+6-12	off	O	O	
+6-13	the	O	O	
+6-14	rim	B-ScrPart_rim	O	
+6-15	as	O	O	
+6-16	well	O	O	
+6-17	.	O	O	
+
+#id=7
+#text=Next , I placed a new tube in place making sure that the valve stem was placed through the rim appropriately .
+7-1	Next	O	O	
+7-2	,	O	O	
+7-3	I	B-ScrPart_rider	O	
+7-4	placed	O	B-ScrEv_other	
+7-5	a	O	O	
+7-6	new	O	O	
+7-7	tube	B-ScrPart_spare_tube	O	
+7-8	in	O	O	
+7-9	place	B-NPart	O	
+7-10	making	O	B-UnrelEv|B-UnrelEv	
+7-11	sure	O	I-UnrelEv	
+7-12	that	O	O	
+7-13	the	O	O	
+7-14	valve	B-ScrPart_bicycle_small_detail	O	
+7-15	stem	I-ScrPart_bicycle_small_detail|B-ScrPart_bicycle_small_detail	O	
+7-16	was	O	O	
+7-17	placed	O	B-RelNScrEv	
+7-18	through	O	O	
+7-19	the	O	O	
+7-20	rim	B-ScrPart_rim	O	
+7-21	appropriately	O	O	
+7-22	.	O	O	
+
+#id=8
+#text=After doing this , I began to fit the tire to the rim , making sure the tube was placed inside the tire and not pinched at all .
+8-1	After	O	O	
+8-2	doing	O	B-UnrelEv	
+8-3	this	O	O	
+8-4	,	O	O	
+8-5	I	B-ScrPart_rider	O	
+8-6	began	O	B-UnrelEv	
+8-7	to	O	O	
+8-8	fit	O	B-ScrEv_put_new_tire	
+8-9	the	O	O	
+8-10	tire	B-ScrPart_spare_tube	O	
+8-11	to	O	O	
+8-12	the	O	O	
+8-13	rim	B-ScrPart_rim	O	
+8-14	,	O	O	
+8-15	making	O	B-UnrelEv|B-UnrelEv	
+8-16	sure	O	I-UnrelEv	
+8-17	the	O	O	
+8-18	tube	B-ScrPart_spare_tube	O	
+8-19	was	O	O	
+8-20	placed	O	B-RelNScrEv	
+8-21	inside	O	O	
+8-22	the	O	O	
+8-23	tire	B-ScrPart_spare_tube	O	
+8-24	and	O	O	
+8-25	not	O	O	
+8-26	pinched	O	B-RelNScrEv	
+8-27	at	O	O	
+8-28	all	O	O	
+8-29	.	O	O	
+
+#id=9
+#text=Once the tire was on the rim , I inflated the tube , making sure that the tire seated onto the rim properly and that everything held air .
+9-1	Once	O	O	
+9-2	the	O	O	
+9-3	tire	B-ScrPart_spare_tube	O	
+9-4	was	O	B-UnrelEv	
+9-5	on	O	O	
+9-6	the	O	O	
+9-7	rim	B-ScrPart_rim	O	
+9-8	,	O	O	
+9-9	I	B-ScrPart_rider	O	
+9-10	inflated	O	B-ScrEv_refill_tire_air	
+9-11	the	O	O	
+9-12	tube	B-ScrPart_spare_tube	O	
+9-13	,	O	O	
+9-14	making	O	B-UnrelEv|B-UnrelEv	
+9-15	sure	O	I-UnrelEv	
+9-16	that	O	O	
+9-17	the	O	O	
+9-18	tire	B-ScrPart_spare_tube	O	
+9-19	seated	O	B-RelNScrEv	
+9-20	onto	O	O	
+9-21	the	O	O	
+9-22	rim	B-ScrPart_rim	O	
+9-23	properly	O	O	
+9-24	and	O	O	
+9-25	that	O	O	
+9-26	everything	B-NPart	O	
+9-27	held	O	B-RelNScrEv	
+9-28	air	B-ScrPart_air	O	
+9-29	.	O	O	
+
+#id=10
+#text=Finally , I reinstalled the wheel onto the bike , and reconnected everything appropriately . 
+10-1	Finally	O	O	
+10-2	,	O	O	
+10-3	I	B-ScrPart_rider	O	
+10-4	reinstalled	O	B-ScrEv_put_new_tire	
+10-5	the	O	O	
+10-6	wheel	B-ScrPart_spare_tube	O	
+10-7	onto	O	O	
+10-8	the	O	O	
+10-9	bike	B-ScrPart_bicycle	O	
+10-10	,	O	O	
+10-11	and	O	O	
+10-12	reconnected	O	B-RelNScrEv	
+10-13	everything	B-NPart	O	
+10-14	appropriately	O	O	
+10-15	.	O	O	
+

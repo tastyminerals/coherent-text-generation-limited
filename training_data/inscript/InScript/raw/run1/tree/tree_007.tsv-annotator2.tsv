@@ -1,0 +1,218 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Today is Arbor Day and I am going to plant a tree to celebrate .
+1-1	Today	O	O	_	_	
+1-2	is	B-UnrelEv	O	_	_	
+1-3	Arbor	O	O	_	_	
+1-4	Day	O	O	_	_	
+1-5	and	O	O	_	_	
+1-6	I	O	B-ScrPart_gardener	_	_	
+1-7	am	O	O	_	_	
+1-8	going	O	O	_	_	
+1-9	to	O	O	_	_	
+1-10	plant	B-Evoking	O	_	_	
+1-11	a	I-Evoking	O	_	_	
+1-12	tree	I-Evoking	B-ScrPart_tree	_	_	
+1-13	to	O	O	_	_	
+1-14	celebrate	B-UnrelEv	O	_	_	
+1-15	.	O	O	_	_	
+
+#id=2
+#text=My mother bought an apple tree at the plant store for me .
+2-1	My	O	B-ScrPart_gardener	webanno.custom.Corefchains_	1-6	
+2-2	mother	O	B-ScrPart_gardener	_	_	
+2-3	bought	B-ScrEv_get_tree	O	_	_	
+2-4	an	O	O	_	_	
+2-5	apple	O	B-ScrPart_tree	_	_	
+2-6	tree	O	I-ScrPart_tree|B-ScrPart_tree	webanno.custom.Corefchains_	1-12	
+2-7	at	O	O	_	_	
+2-8	the	O	O	_	_	
+2-9	plant	O	B-ScrPart_shop	_	_	
+2-10	store	O	I-ScrPart_shop|B-ScrPart_shop	_	_	
+2-11	for	O	O	_	_	
+2-12	me	O	B-ScrPart_gardener	webanno.custom.Corefchains_	2-1	
+2-13	.	O	O	_	_	
+
+#id=3
+#text=She helped me carry it outside to plant .
+3-1	She	O	B-ScrPart_gardener	webanno.custom.Corefchains_	2-2	
+3-2	helped	B-UnrelEv	O	_	_	
+3-3	me	O	B-ScrPart_gardener	webanno.custom.Corefchains_	2-12	
+3-4	carry	B-RelNScrEv	O	_	_	
+3-5	it	O	B-ScrPart_tree	webanno.custom.Corefchains_	2-6	
+3-6	outside	O	O	_	_	
+3-7	to	O	O	_	_	
+3-8	plant	B-Evoking	O	_	_	
+3-9	.	O	O	_	_	
+
+#id=4
+#text=I had to pick the perfect spot for my tree .
+4-1	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	3-3	
+4-2	had	O	O	_	_	
+4-3	to	O	O	_	_	
+4-4	pick	B-ScrEv_find_place	O	_	_	
+4-5	the	O	O	_	_	
+4-6	perfect	O	O	_	_	
+4-7	spot	O	B-ScrPart_location_garden	_	_	
+4-8	for	O	O	_	_	
+4-9	my	O	B-ScrPart_gardener	webanno.custom.Corefchains_	4-1	
+4-10	tree	O	B-ScrPart_tree	webanno.custom.Corefchains_	3-5	
+4-11	.	O	O	_	_	
+
+#id=5
+#text=I decided it would look really nice over by the swing set .
+5-1	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	4-9	
+5-2	decided	B-UnrelEv	O	_	_	
+5-3	it	O	B-ScrPart_tree	webanno.custom.Corefchains_	4-10	
+5-4	would	O	O	_	_	
+5-5	look	B-UnrelEv	O	_	_	
+5-6	really	O	O	_	_	
+5-7	nice	O	O	_	_	
+5-8	over	O	O	_	_	
+5-9	by	O	O	_	_	
+5-10	the	O	O	_	_	
+5-11	swing	O	O	_	_	
+5-12	set	O	O	_	_	
+5-13	.	O	O	_	_	
+
+#id=6
+#text=I picked a spot far enough away that the apples would n't fall on my swing set , though .
+6-1	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	5-1	
+6-2	picked	B-ScrEv_find_place	O	_	_	
+6-3	a	O	O	_	_	
+6-4	spot	O	B-ScrPart_location_garden	webanno.custom.Corefchains_	4-7	
+6-5	far	O	O	_	_	
+6-6	enough	O	O	_	_	
+6-7	away	O	O	_	_	
+6-8	that	O	O	_	_	
+6-9	the	O	O	_	_	
+6-10	apples	O	O	_	_	
+6-11	would	O	O	_	_	
+6-12	n't	O	O	_	_	
+6-13	fall	B-UnrelEv	O	_	_	
+6-14	on	O	O	_	_	
+6-15	my	O	B-ScrPart_gardener	webanno.custom.Corefchains_	6-1	
+6-16	swing	O	O	_	_	
+6-17	set	O	O	_	_	
+6-18	,	O	O	_	_	
+6-19	though	O	O	_	_	
+6-20	.	O	O	_	_	
+
+#id=7
+#text=I got a shovel and dug a really deep hole .
+7-1	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	6-15	
+7-2	got	B-ScrEv_get_tools	O	_	_	
+7-3	a	O	O	_	_	
+7-4	shovel	O	B-ScrPart_gardening_tool	_	_	
+7-5	and	O	O	_	_	
+7-6	dug	B-ScrEv_dug_hole	O	_	_	
+7-7	a	O	O	_	_	
+7-8	really	O	O	_	_	
+7-9	deep	O	O	_	_	
+7-10	hole	O	B-ScrPart_hole	_	_	
+7-11	.	O	O	_	_	
+
+#id=8
+#text=It took me a long time !
+8-1	It	O	O	_	_	
+8-2	took	B-UnrelEv	O	_	_	
+8-3	me	O	O	_	_	
+8-4	a	O	O	_	_	
+8-5	long	O	O	_	_	
+8-6	time	O	B-SuppVComp	_	_	
+8-7	!	O	O	_	_	
+
+#id=9
+#text=Then my mom helped me put a little bit of fertilizer in the hole .
+9-1	Then	O	O	_	_	
+9-2	my	O	B-ScrPart_gardener	webanno.custom.Corefchains_	7-1	
+9-3	mom	O	B-ScrPart_gardener	webanno.custom.Corefchains_	3-1	
+9-4	helped	B-UnrelEv	O	_	_	
+9-5	me	O	B-ScrPart_gardener	webanno.custom.Corefchains_	9-2	
+9-6	put	B-ScrEv_place_fertilizers	O	_	_	
+9-7	a	O	O	_	_	
+9-8	little	O	O	_	_	
+9-9	bit	O	B-NPart	_	_	
+9-10	of	O	O	_	_	
+9-11	fertilizer	O	B-ScrPart_fertilizer	_	_	
+9-12	in	O	O	_	_	
+9-13	the	O	O	_	_	
+9-14	hole	O	B-ScrPart_hole	webanno.custom.Corefchains_	7-10	
+9-15	.	O	O	_	_	
+
+#id=10
+#text=Fertilizer helps the tree grow .
+10-1	Fertilizer	O	B-ScrPart_fertilizer	webanno.custom.Corefchains_	9-11	
+10-2	helps	B-UnrelEv	O	_	_	
+10-3	the	O	O	_	_	
+10-4	tree	O	B-ScrPart_tree	webanno.custom.Corefchains_	5-3	
+10-5	grow	B-RelNScrEv	O	_	_	
+10-6	.	O	O	_	_	
+
+#id=11
+#text=The next thing I did was put the bottom of the tree into the hole and cover the root ball up with dirt .
+11-1	The	O	O	_	_	
+11-2	next	O	O	_	_	
+11-3	thing	O	O	_	_	
+11-4	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	9-5	
+11-5	did	B-UnrelEv	O	_	_	
+11-6	was	O	O	_	_	
+11-7	put	B-ScrEv_place_root	O	_	_	
+11-8	the	O	O	_	_	
+11-9	bottom	O	B-NPart	_	_	
+11-10	of	O	O	_	_	
+11-11	the	O	O	_	_	
+11-12	tree	O	B-ScrPart_tree	webanno.custom.Corefchains_	10-4	
+11-13	into	O	O	_	_	
+11-14	the	O	O	_	_	
+11-15	hole	O	B-ScrPart_hole	webanno.custom.Corefchains_	9-14	
+11-16	and	O	O	_	_	
+11-17	cover	B-ScrEv_refill_hole	O	_	_	
+11-18	the	O	O	_	_	
+11-19	root	O	B-ScrPart_root	_	_	
+11-20	ball	O	I-ScrPart_root|B-ScrPart_root	_	_	
+11-21	up	O	O	_	_	
+11-22	with	O	O	_	_	
+11-23	dirt	O	B-ScrPart_dirt	_	_	
+11-24	.	O	O	_	_	
+
+#id=12
+#text=Finally , I took the water hose and sprayed the dirt around the bottom of the tree with water .
+12-1	Finally	O	O	_	_	
+12-2	,	O	O	_	_	
+12-3	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	11-4	
+12-4	took	B-RelNScrEv	O	_	_	
+12-5	the	O	O	_	_	
+12-6	water	O	B-ScrPart_gardening_tool	_	_	
+12-7	hose	O	I-ScrPart_gardening_tool|B-ScrPart_gardening_tool	_	_	
+12-8	and	O	O	_	_	
+12-9	sprayed	B-ScrEv_water	O	_	_	
+12-10	the	O	O	_	_	
+12-11	dirt	O	B-ScrPart_dirt	webanno.custom.Corefchains_	11-23	
+12-12	around	O	O	_	_	
+12-13	the	O	O	_	_	
+12-14	bottom	O	B-NPart	_	_	
+12-15	of	O	O	_	_	
+12-16	the	O	O	_	_	
+12-17	tree	O	B-ScrPart_tree	webanno.custom.Corefchains_	11-12	
+12-18	with	O	O	_	_	
+12-19	water	O	B-ScrPart_water	_	_	
+12-20	.	O	O	_	_	
+
+#id=13
+#text=I ca n't wait to see my new tree grow bigger and bigger ! 
+13-1	I	O	B-ScrPart_gardener	webanno.custom.Corefchains_	12-3	
+13-2	ca	O	O	_	_	
+13-3	n't	O	O	_	_	
+13-4	wait	B-UnrelEv	O	_	_	
+13-5	to	O	O	_	_	
+13-6	see	B-UnrelEv	O	_	_	
+13-7	my	O	B-ScrPart_gardener	webanno.custom.Corefchains_	13-1	
+13-8	new	O	O	_	_	
+13-9	tree	O	B-ScrPart_tree	webanno.custom.Corefchains_	12-17	
+13-10	grow	B-RelNScrEv	O	_	_	
+13-11	bigger	O	O	_	_	
+13-12	and	O	O	_	_	
+13-13	bigger	O	O	_	_	
+13-14	!	O	O	_	_	
+

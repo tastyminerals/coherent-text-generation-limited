@@ -1,0 +1,217 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I had n't gone for a hair cut in about 7 weeks so I was certainly due .
+1-1	I	B-ScrPart_customer	O	_	_	
+1-2	had	O	O	_	_	
+1-3	n't	O	O	_	_	
+1-4	gone	O	B-Evoking	_	_	
+1-5	for	O	I-Evoking	_	_	
+1-6	a	O	I-Evoking	_	_	
+1-7	hair	B-SuppVComp	I-Evoking	_	_	
+1-8	cut	I-SuppVComp	I-Evoking	_	_	
+1-9	in	O	O	_	_	
+1-10	about	O	O	_	_	
+1-11	7	O	O	_	_	
+1-12	weeks	B-NPart	O	_	_	
+1-13	so	O	O	_	_	
+1-14	I	B-ScrPart_customer	O	_	_	
+1-15	was	O	B-UnrelEv	_	_	
+1-16	certainly	O	O	_	_	
+1-17	due	O	O	_	_	
+1-18	.	O	O	_	_	
+
+#id=2
+#text=The hair around the side of my head was starting to grow over my ears .
+2-1	The	O	O	_	_	
+2-2	hair	B-ScrPart_hair	O	_	_	
+2-3	around	O	O	_	_	
+2-4	the	O	O	_	_	
+2-5	side	B-Head_of_Partitive	O	_	_	
+2-6	of	O	O	_	_	
+2-7	my	B-ScrPart_customer	O	_	_	
+2-8	head	B-ScrPart_other	O	_	_	
+2-9	was	O	O	_	_	
+2-10	starting	O	B-UnrelEv	_	_	
+2-11	to	O	O	_	_	
+2-12	grow	O	B-UnrelEv	_	_	
+2-13	over	O	O	_	_	
+2-14	my	B-ScrPart_customer	O	_	_	
+2-15	ears	B-ScrPart_other	O	_	_	
+2-16	.	O	O	_	_	
+
+#id=3
+#text=I generally go the same hairdresser and ask for the same person , Sue who is very good at her job and is quite pleasant .
+3-1	I	B-ScrPart_customer	O	_	_	
+3-2	generally	O	O	_	_	
+3-3	go	O	B-ScrEv_get_salon	_	_	
+3-4	the	O	O	_	_	
+3-5	same	O	O	_	_	
+3-6	hairdresser	B-ScrPart_hairdresser	O	_	_	
+3-7	and	O	O	_	_	
+3-8	ask	O	B-ScrEv_check_in	_	_	
+3-9	for	O	O	_	_	
+3-10	the	O	O	_	_	
+3-11	same	O	O	_	_	
+3-12	person	B-ScrPart_hairdresser	O	_	_	
+3-13	,	O	O	_	_	
+3-14	Sue	B-ScrPart_hairdresser	O	_	_	
+3-15	who	B-ScrPart_hairdresser	O	_	_	
+3-16	is	O	B-UnrelEv	_	_	
+3-17	very	O	O	_	_	
+3-18	good	O	O	_	_	
+3-19	at	O	O	_	_	
+3-20	her	B-ScrPart_hairdresser	O	_	_	
+3-21	job	B-NPart	O	_	_	
+3-22	and	O	O	_	_	
+3-23	is	O	B-UnrelEv	_	_	
+3-24	quite	O	O	_	_	
+3-25	pleasant	O	O	_	_	
+3-26	.	O	O	_	_	
+
+#id=4
+#text=So I make an appointment with Sue for the following Saturday morning .
+4-1	So	O	O	_	_	
+4-2	I	B-ScrPart_customer	O	_	_	
+4-3	make	O	B-ScrEv_make_appointment	_	_	
+4-4	an	O	O	_	_	
+4-5	appointment	B-ScrPart_appointment	O	_	_	
+4-6	with	O	O	_	_	
+4-7	Sue	B-ScrPart_hairdresser	O	_	_	
+4-8	for	O	O	_	_	
+4-9	the	O	O	_	_	
+4-10	following	O	O	_	_	
+4-11	Saturday	B-ScrPart_time/date	O	_	_	
+4-12	morning	B-ScrPart_time/date	O	_	_	
+4-13	.	O	O	_	_	
+
+#id=5
+#text=When I arrived the place was rather full with customers , seemingly more woman than men .
+5-1	When	O	O	_	_	
+5-2	I	B-ScrPart_customer	O	_	_	
+5-3	arrived	O	B-ScrEv_enter	_	_	
+5-4	the	O	O	_	_	
+5-5	place	B-ScrPart_salon	O	_	_	
+5-6	was	O	B-UnrelEv	_	_	
+5-7	rather	O	O	_	_	
+5-8	full	O	O	_	_	
+5-9	with	O	O	_	_	
+5-10	customers	B-ScrPart_customer	O	_	_	
+5-11	,	O	O	_	_	
+5-12	seemingly	O	B-UnrelEv	_	_	
+5-13	more	O	O	_	_	
+5-14	woman	B-ScrPart_customer	O	group_woman_men	5-10	
+5-15	than	O	O	_	_	
+5-16	men	B-ScrPart_customer	O	group_woman_men	5-10	
+5-17	.	O	O	_	_	
+
+#id=6
+#text=Several people were covered with the big hair drying bag over their head which makes me giggle .
+6-1	Several	O	O	_	_	
+6-2	people	B-ScrPart_customer	O	_	_	
+6-3	were	O	O	_	_	
+6-4	covered	O	B-RelNScrEv	_	_	
+6-5	with	O	O	_	_	
+6-6	the	O	O	_	_	
+6-7	big	O	O	_	_	
+6-8	hair	B-ScrPart_other	O	_	_	
+6-9	drying	I-ScrPart_other	B-ScrEv_dry	_	_	
+6-10	bag	I-ScrPart_other|B-ScrPart_other	O	_	_	
+6-11	over	O	O	_	_	
+6-12	their	B-ScrPart_customer	O	_	_	
+6-13	head	B-ScrPart_other	O	_	_	
+6-14	which	O	O	_	_	
+6-15	makes	O	O	_	_	
+6-16	me	B-ScrPart_customer	O	_	_	
+6-17	giggle	O	B-UnrelEv	_	_	
+6-18	.	O	O	_	_	
+
+#id=7
+#text=I was told to go right in the back where the men 's area is located and sat down for my hair cut .
+7-1	I	B-ScrPart_customer	O	_	_	
+7-2	was	O	O	_	_	
+7-3	told	O	B-ScrEv_check_in	_	_	
+7-4	to	O	O	_	_	
+7-5	go	O	B-ScrEv_move_in_salon	_	_	
+7-6	right	O	O	_	_	
+7-7	in	O	O	_	_	
+7-8	the	O	O	_	_	
+7-9	back	B-ScrPart_location_salon	O	_	_	
+7-10	where	O	O	_	_	
+7-11	the	O	O	_	_	
+7-12	men	B-ScrPart_location_salon	O	_	_	
+7-13	's	I-ScrPart_location_salon	O	_	_	
+7-14	area	I-ScrPart_location_salon|B-ScrPart_location_salon	O	_	_	
+7-15	is	O	O	_	_	
+7-16	located	O	B-UnrelEv	_	_	
+7-17	and	O	O	_	_	
+7-18	sat	O	B-ScrEv_sit_down|B-ScrEv_sit_down	_	_	
+7-19	down	O	I-ScrEv_sit_down	_	_	
+7-20	for	O	O	_	_	
+7-21	my	B-ScrPart_customer	O	_	_	
+7-22	hair	B-ScrPart_haircut	O	_	_	
+7-23	cut	I-ScrPart_haircut	O	_	_	
+7-24	.	O	O	_	_	
+
+#id=8
+#text=After having my hair washed by a helper I was soon seated at Sue 's chair and enjoyed our usual small talk while she cut my hair .
+8-1	After	O	O	_	_	
+8-2	having	O	O	_	_	
+8-3	my	B-ScrPart_customer	O	_	_	
+8-4	hair	B-ScrPart_hair	O	_	_	
+8-5	washed	O	B-ScrEv_wash	_	_	
+8-6	by	O	O	_	_	
+8-7	a	O	O	_	_	
+8-8	helper	B-ScrPart_staff	O	_	_	
+8-9	I	B-ScrPart_customer	O	_	_	
+8-10	was	O	O	_	_	
+8-11	soon	O	O	_	_	
+8-12	seated	O	B-ScrEv_sit_down	_	_	
+8-13	at	O	O	_	_	
+8-14	Sue	B-ScrPart_hairdresser	O	_	_	
+8-15	's	O	O	_	_	
+8-16	chair	B-ScrPart_chair	O	_	_	
+8-17	and	O	O	_	_	
+8-18	enjoyed	O	B-ScrEv_small_talk	_	_	
+8-19	our	B-ScrPart_hairdresser_customer	O	_	_	
+8-20	usual	O	O	_	_	
+8-21	small	B-ScrPart_entertainment	O	_	_	
+8-22	talk	I-ScrPart_entertainment|B-ScrPart_entertainment	O	_	_	
+8-23	while	O	O	_	_	
+8-24	she	B-ScrPart_hairdresser	O	_	_	
+8-25	cut	O	B-ScrEv_cut	_	_	
+8-26	my	B-ScrPart_customer	O	_	_	
+8-27	hair	B-ScrPart_hair	O	_	_	
+8-28	.	O	O	_	_	
+
+#id=9
+#text=We discussed recent weekend getaways and holiday family gatherings .
+9-1	We	B-ScrPart_hairdresser_customer	O	_	_	
+9-2	discussed	O	B-ScrEv_small_talk	_	_	
+9-3	recent	O	O	_	_	
+9-4	weekend	B-NPart	O	_	_	
+9-5	getaways	I-NPart|B-NPart	O	_	_	
+9-6	and	O	O	_	_	
+9-7	holiday	B-NPart	O	_	_	
+9-8	family	B-NPart	O	_	_	
+9-9	gatherings	I-NPart|B-NPart	O	_	_	
+9-10	.	O	O	_	_	
+
+#id=10
+#text=After she was done I gave her my usual tip and was on my way . 
+10-1	After	O	O	_	_	
+10-2	she	B-ScrPart_hairdresser	O	_	_	
+10-3	was	O	O	_	_	
+10-4	done	O	B-RelNScrEv	_	_	
+10-5	I	B-ScrPart_customer	O	_	_	
+10-6	gave	O	B-ScrEv_leave_tip	_	_	
+10-7	her	B-ScrPart_hairdresser	O	_	_	
+10-8	my	B-ScrPart_customer	O	_	_	
+10-9	usual	O	O	_	_	
+10-10	tip	B-ScrPart_tip	O	_	_	
+10-11	and	O	O	_	_	
+10-12	was	O	B-ScrEv_leave	_	_	
+10-13	on	O	O	_	_	
+10-14	my	B-ScrPart_customer	O	_	_	
+10-15	way	B-SuppVComp	O	_	_	
+10-16	.	O	O	_	_	
+

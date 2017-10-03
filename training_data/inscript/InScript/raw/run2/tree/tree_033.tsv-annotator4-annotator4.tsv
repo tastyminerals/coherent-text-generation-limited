@@ -1,0 +1,201 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=Today I decided I wanted to do something special and plant a tree in my back yard .
+1-1	Today	O	O	
+1-2	I	B-ScrPart_gardener	O	
+1-3	decided	O	B-UnrelEv	
+1-4	I	B-ScrPart_gardener	O	
+1-5	wanted	O	B-UnrelEv	
+1-6	to	O	O	
+1-7	do	O	B-UnrelEv	
+1-8	something	B-No_label	O	
+1-9	special	O	O	
+1-10	and	O	O	
+1-11	plant	O	B-Evoking	
+1-12	a	O	I-Evoking	
+1-13	tree	B-ScrPart_tree	I-Evoking	
+1-14	in	O	O	
+1-15	my	B-ScrPart_gardener	O	
+1-16	back	B-ScrPart_location_garden	O	
+1-17	yard	I-ScrPart_location_garden|B-ScrPart_location_garden	O	
+1-18	.	O	O	
+
+#id=2
+#text=I went to the gardening supply store and bought everything I needed to make this happen .
+2-1	I	B-ScrPart_gardener	O	
+2-2	went	O	B-RelNScrEv	
+2-3	to	O	O	
+2-4	the	O	O	
+2-5	gardening	B-ScrPart_shop	O	
+2-6	supply	I-ScrPart_shop	O	
+2-7	store	I-ScrPart_shop|B-ScrPart_shop	O	
+2-8	and	O	O	
+2-9	bought	O	B-ScrEv_get_tree	
+2-10	everything	B-???	O	
+2-11	I	B-ScrPart_gardener	O	
+2-12	needed	O	B-RelNScrEv	
+2-13	to	O	O	
+2-14	make	O	B-UnrelEv	
+2-15	this	O	O	
+2-16	happen	O	B-???	
+2-17	.	O	O	
+
+#id=3
+#text=I purchased a shovel , some work gloves , and a small potted tree .
+3-1	I	B-ScrPart_gardener	O	
+3-2	purchased	O	B-ScrEv_get_tree	
+3-3	a	O	O	
+3-4	shovel	B-ScrPart_gardening_tool	O	
+3-5	,	O	O	
+3-6	some	O	O	
+3-7	work	B-ScrPart_gardening_tool	O	
+3-8	gloves	I-ScrPart_gardening_tool|B-ScrPart_gardening_tool	O	
+3-9	,	O	O	
+3-10	and	O	O	
+3-11	a	O	O	
+3-12	small	O	O	
+3-13	potted	O	B-ScrEv_unwrap_root	
+3-14	tree	B-ScrPart_tree	O	
+3-15	.	O	O	
+
+#id=4
+#text=When I got back home I quickly went to my backyard to find the perfect spot for the tree .
+4-1	When	O	O	
+4-2	I	B-ScrPart_gardener	O	
+4-3	got	O	B-ScrEv_take_home	
+4-4	back	O	I-ScrEv_take_home	
+4-5	home	B-NPart	O	
+4-6	I	B-ScrPart_gardener	O	
+4-7	quickly	O	O	
+4-8	went	O	B-RelNScrEv	
+4-9	to	O	O	
+4-10	my	B-ScrPart_gardener	O	
+4-11	backyard	B-ScrPart_location_garden	O	
+4-12	to	O	O	
+4-13	find	O	B-ScrEv_find_place	
+4-14	the	O	O	
+4-15	perfect	O	O	
+4-16	spot	B-ScrPart_location_garden	O	
+4-17	for	O	O	
+4-18	the	O	O	
+4-19	tree	B-ScrPart_tree	O	
+4-20	.	O	O	
+
+#id=5
+#text=After picking out the spot , I put on my new work gloves to protect my hands .
+5-1	After	O	O	
+5-2	picking	O	B-ScrEv_find_place	
+5-3	out	O	I-ScrEv_find_place	
+5-4	the	O	O	
+5-5	spot	B-ScrPart_location_garden	O	
+5-6	,	O	O	
+5-7	I	B-ScrPart_gardener	O	
+5-8	put	O	B-ScrEv_get_tools	
+5-9	on	O	I-ScrEv_get_tools	
+5-10	my	B-ScrPart_gardener	O	
+5-11	new	O	O	
+5-12	work	B-ScrPart_gardening_tool	O	
+5-13	gloves	I-ScrPart_gardening_tool|B-ScrPart_gardening_tool	O	
+5-14	to	O	O	
+5-15	protect	O	B-RelNScrEv	
+5-16	my	B-ScrPart_gardener	O	
+5-17	hands	B-NPart	O	
+5-18	.	O	O	
+
+#id=6
+#text=Then I got down on my knees , grabbed the small shovel , and started digging a deep enough hole .
+6-1	Then	O	O	
+6-2	I	B-ScrPart_gardener	O	
+6-3	got	O	B-RelNScrEv	
+6-4	down	O	I-RelNScrEv	
+6-5	on	O	O	
+6-6	my	B-ScrPart_gardener	O	
+6-7	knees	B-NPart	O	
+6-8	,	O	O	
+6-9	grabbed	O	B-ScrEv_get_tools	
+6-10	the	O	O	
+6-11	small	O	O	
+6-12	shovel	B-ScrPart_gardening_tool	O	
+6-13	,	O	O	
+6-14	and	O	O	
+6-15	started	O	B-UnrelEv	
+6-16	digging	O	B-ScrEv_dug_hole	
+6-17	a	O	O	
+6-18	deep	O	O	
+6-19	enough	O	O	
+6-20	hole	B-ScrPart_hole	O	
+6-21	.	O	O	
+
+#id=7
+#text=When I was satisfied with the depth of the hole I removed the small tree from the pot and placed it into the hole .
+7-1	When	O	O	
+7-2	I	B-ScrPart_gardener	O	
+7-3	was	O	O	
+7-4	satisfied	O	B-UnrelEv	
+7-5	with	O	O	
+7-6	the	O	O	
+7-7	depth	B-NPart	O	
+7-8	of	O	O	
+7-9	the	O	O	
+7-10	hole	B-ScrPart_hole	O	
+7-11	I	B-ScrPart_gardener	O	
+7-12	removed	O	B-ScrEv_unwrap_root	
+7-13	the	O	O	
+7-14	small	O	O	
+7-15	tree	B-ScrPart_tree	O	
+7-16	from	O	O	
+7-17	the	O	O	
+7-18	pot	B-ScrPart_wrapping	O	
+7-19	and	O	O	
+7-20	placed	O	B-ScrEv_place_root	
+7-21	it	B-ScrPart_tree	O	
+7-22	into	O	O	
+7-23	the	O	O	
+7-24	hole	B-ScrPart_hole	O	
+7-25	.	O	O	
+
+#id=8
+#text=I then covered up the hole with the dirt and made sure it was secure and safe .
+8-1	I	B-ScrPart_gardener	O	
+8-2	then	O	O	
+8-3	covered	O	B-ScrEv_refill_hole	
+8-4	up	O	I-ScrEv_refill_hole	
+8-5	the	O	O	
+8-6	hole	B-ScrPart_hole	O	
+8-7	with	O	O	
+8-8	the	O	O	
+8-9	dirt	B-ScrPart_dirt	O	
+8-10	and	O	O	
+8-11	made	O	B-RelNScrEv	
+8-12	sure	O	I-RelNScrEv	
+8-13	it	B-ScrPart_tree	O	
+8-14	was	O	B-UnrelEv	
+8-15	secure	O	O	
+8-16	and	O	O	
+8-17	safe	O	O	
+8-18	.	O	O	
+
+#id=9
+#text=When I was finished securing it , I watered the surrounding area of the tree and admired my handy work . 
+9-1	When	O	O	
+9-2	I	B-ScrPart_gardener	O	
+9-3	was	O	O	
+9-4	finished	O	B-UnrelEv	
+9-5	securing	O	B-ScrEv_tie_stakes_up	
+9-6	it	B-ScrPart_tree	O	
+9-7	,	O	O	
+9-8	I	B-ScrPart_gardener	O	
+9-9	watered	O	B-ScrEv_water	
+9-10	the	O	O	
+9-11	surrounding	O	B-UnrelEv	
+9-12	area	B-ScrPart_location_garden	O	
+9-13	of	O	O	
+9-14	the	O	O	
+9-15	tree	B-ScrPart_tree	O	
+9-16	and	O	O	
+9-17	admired	O	B-UnrelEv	
+9-18	my	B-ScrPart_gardener	O	
+9-19	handy	O	O	
+9-20	work	B-NPart	O	
+9-21	.	O	O	
+

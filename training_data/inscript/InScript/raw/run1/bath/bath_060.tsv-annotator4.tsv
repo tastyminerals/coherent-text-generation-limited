@@ -1,0 +1,198 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Last night I decided to take a bath to help me relax .
+1-1	Last	O	O	_	_	
+1-2	night	O	O	_	_	
+1-3	I	B-ScrPart_bather	O	_	_	
+1-4	decided	O	B-UnrelEv	_	_	
+1-5	to	O	O	_	_	
+1-6	take	O	B-Evoking	_	_	
+1-7	a	O	I-Evoking	_	_	
+1-8	bath	B-SuppVComp	I-Evoking	_	_	
+1-9	to	O	O	_	_	
+1-10	help	O	B-UnrelEv	_	_	
+1-11	me	B-ScrPart_bather	O	webanno.custom.Corefchains_	1-3	
+1-12	relax	O	B-ScrEv_relax	_	_	
+1-13	.	O	O	_	_	
+
+#id=2
+#text=I gather all the things that will help me relax with a bath such as bath salts , bubble bath , and candles to place in the bathroom .
+2-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	1-11	
+2-2	gather	O	B-ScrEv_prepare_bath	_	_	
+2-3	all	O	O	_	_	
+2-4	the	O	O	_	_	
+2-5	things	B-???	O	_	_	
+2-6	that	B-???	O	coref_group_bath_means_candles	2-5	
+2-7	will	O	O	_	_	
+2-8	help	O	B-UnrelEv	_	_	
+2-9	me	B-ScrPart_bather	O	webanno.custom.Corefchains_	2-1	
+2-10	relax	O	B-ScrEv_relax	_	_	
+2-11	with	O	O	_	_	
+2-12	a	O	O	_	_	
+2-13	bath	B-MissScrPart	O	_	_	
+2-14	such	O	O	_	_	
+2-15	as	O	O	_	_	
+2-16	bath	B-ScrPart_bath_means	O	_	_	
+2-17	salts	I-ScrPart_bath_means|B-ScrPart_bath_means	O	coref_group_bath_means_candles	2-6	
+2-18	,	O	O	_	_	
+2-19	bubble	B-ScrPart_bath_means	O	_	_	
+2-20	bath	I-ScrPart_bath_means|B-ScrPart_bath_means	O	coref_group_bath_means_candles	2-6	
+2-21	,	O	O	_	_	
+2-22	and	O	O	_	_	
+2-23	candles	B-ScrPart_in-bath_entertainment	O	coref_group_bath_means_candles	2-6	
+2-24	to	O	O	_	_	
+2-25	place	O	B-ScrEv_prepare_bath	_	_	
+2-26	in	O	O	_	_	
+2-27	the	O	O	_	_	
+2-28	bathroom	B-ScrPart_bathroom	O	_	_	
+2-29	.	O	O	_	_	
+
+#id=3
+#text=I draw the bath by running warm water into the tub and then adding my favorite bath salts and bubble bath .
+3-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	2-9	
+3-2	draw	O	B-???	_	_	
+3-3	the	O	O	_	_	
+3-4	bath	B-MissScrPart	O	webanno.custom.Corefchains_	2-13	
+3-5	by	O	O	_	_	
+3-6	running	O	B-ScrEv_turn_water_on	_	_	
+3-7	warm	O	O	_	_	
+3-8	water	B-ScrPart_water	O	_	_	
+3-9	into	O	O	_	_	
+3-10	the	O	O	_	_	
+3-11	tub	B-ScrPart_bathtub	O	_	_	
+3-12	and	O	O	_	_	
+3-13	then	O	O	_	_	
+3-14	adding	O	B-ScrEv_put_bubble_bath_scent	_	_	
+3-15	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	3-1	
+3-16	favorite	O	O	_	_	
+3-17	bath	B-ScrPart_bath_means	O	_	_	
+3-18	salts	I-ScrPart_bath_means|B-ScrPart_bath_means	O	webanno.custom.Corefchains_	2-17	
+3-19	and	O	O	_	_	
+3-20	bubble	B-ScrPart_bath_means	O	_	_	
+3-21	bath	I-ScrPart_bath_means|B-ScrPart_bath_means	O	webanno.custom.Corefchains_	2-20	
+3-22	.	O	O	_	_	
+
+#id=4
+#text=I light some candles for a nice lighting effect and to add some aromatherapy and fragrance to the room to help me relax .
+4-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	3-15	
+4-2	light	O	B-ScrEv_prepare_bath	_	_	
+4-3	some	O	O	_	_	
+4-4	candles	B-ScrPart_in-bath_entertainment	O	webanno.custom.Corefchains_	2-23	
+4-5	for	O	O	_	_	
+4-6	a	O	O	_	_	
+4-7	nice	O	O	_	_	
+4-8	lighting	O	O	_	_	
+4-9	effect	O	O	_	_	
+4-10	and	O	O	_	_	
+4-11	to	O	O	_	_	
+4-12	add	O	B-ScrEv_prepare_bath	_	_	
+4-13	some	O	O	_	_	
+4-14	aromatherapy	B-ScrPart_in-bath_entertainment	O	_	_	
+4-15	and	O	O	_	_	
+4-16	fragrance	B-ScrPart_in-bath_entertainment	O	_	_	
+4-17	to	O	O	_	_	
+4-18	the	O	O	_	_	
+4-19	room	B-ScrPart_bathroom	O	webanno.custom.Corefchains_	2-28	
+4-20	to	O	O	_	_	
+4-21	help	O	B-UnrelEv	_	_	
+4-22	me	B-ScrPart_bather	O	webanno.custom.Corefchains_	4-1	
+4-23	relax	O	B-ScrEv_relax	_	_	
+4-24	.	O	O	_	_	
+
+#id=5
+#text=I also gather a few of my favorite magazines to read while I am in the bath .
+5-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	4-22	
+5-2	also	O	O	_	_	
+5-3	gather	O	B-ScrEv_prepare_bath	_	_	
+5-4	a	O	O	_	_	
+5-5	few	O	O	_	_	
+5-6	of	O	O	_	_	
+5-7	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	5-1	
+5-8	favorite	O	O	_	_	
+5-9	magazines	B-ScrPart_in-bath_entertainment	O	_	_	
+5-10	to	O	O	_	_	
+5-11	read	O	B-RelNScrEv	_	_	
+5-12	while	O	O	_	_	
+5-13	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	5-7	
+5-14	am	O	B-UnrelEv	_	_	
+5-15	in	O	O	_	_	
+5-16	the	O	O	_	_	
+5-17	bath	B-MissScrPart	O	webanno.custom.Corefchains_	3-4	
+5-18	.	O	O	_	_	
+
+#id=6
+#text=As soon as the water filled the tub and at the right temperature , I get into the tub and let the bath salts and bubbles relax me .
+6-1	As	O	O	_	_	
+6-2	soon	O	O	_	_	
+6-3	as	O	O	_	_	
+6-4	the	O	O	_	_	
+6-5	water	B-ScrPart_water	O	webanno.custom.Corefchains_	3-8	
+6-6	filled	O	B-ScrEv_fill_water/wait	_	_	
+6-7	the	O	O	_	_	
+6-8	tub	B-ScrPart_bathtub	O	webanno.custom.Corefchains_	3-11	
+6-9	and	O	O	_	_	
+6-10	at	O	O	_	_	
+6-11	the	O	O	_	_	
+6-12	right	O	O	_	_	
+6-13	temperature	B-ScrPart_temperature	O	_	_	
+6-14	,	O	O	_	_	
+6-15	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	5-13	
+6-16	get	O	B-ScrEv_sink_water	_	_	
+6-17	into	O	O	_	_	
+6-18	the	O	O	_	_	
+6-19	tub	B-ScrPart_bathtub	O	webanno.custom.Corefchains_	6-8	
+6-20	and	O	O	_	_	
+6-21	let	O	B-UnrelEv	_	_	
+6-22	the	O	O	_	_	
+6-23	bath	B-ScrPart_bath_means	O	_	_	
+6-24	salts	I-ScrPart_bath_means|B-ScrPart_bath_means	O	webanno.custom.Corefchains_	3-18	
+6-25	and	O	O	_	_	
+6-26	bubbles	B-ScrPart_bath_means	O	webanno.custom.Corefchains_	3-21	
+6-27	relax	O	B-ScrEv_relax	_	_	
+6-28	me	B-ScrPart_bather	O	webanno.custom.Corefchains_	6-15	
+6-29	.	O	O	_	_	
+
+#id=7
+#text=I will spend some time in the tub closing my eyes , relaxing , and then reading my magazines .
+7-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	6-28	
+7-2	will	O	O	_	_	
+7-3	spend	O	B-RelNScrEv	_	_	
+7-4	some	O	O	_	_	
+7-5	time	B-SuppVComp	O	_	_	
+7-6	in	O	O	_	_	
+7-7	the	O	O	_	_	
+7-8	tub	B-ScrPart_bathtub	O	webanno.custom.Corefchains_	6-19	
+7-9	closing	O	B-RelNScrEv	_	_	
+7-10	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	7-1	
+7-11	eyes	B-NPart	O	_	_	
+7-12	,	O	O	_	_	
+7-13	relaxing	O	B-ScrEv_relax	_	_	
+7-14	,	O	O	_	_	
+7-15	and	O	O	_	_	
+7-16	then	O	O	_	_	
+7-17	reading	O	B-RelNScrEv	_	_	
+7-18	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	7-10	
+7-19	magazines	B-ScrPart_in-bath_entertainment	O	webanno.custom.Corefchains_	5-9	
+7-20	.	O	O	_	_	
+
+#id=8
+#text=It has been a long day and this bath will help me relax to go to sleep . 
+8-1	It	O	O	_	_	
+8-2	has	O	O	_	_	
+8-3	been	O	B-UnrelEv	_	_	
+8-4	a	O	O	_	_	
+8-5	long	O	O	_	_	
+8-6	day	O	O	_	_	
+8-7	and	O	O	_	_	
+8-8	this	O	O	_	_	
+8-9	bath	B-MissScrPart	O	webanno.custom.Corefchains_	5-17	
+8-10	will	O	O	_	_	
+8-11	help	O	B-UnrelEv	_	_	
+8-12	me	B-ScrPart_bather	O	webanno.custom.Corefchains_	7-18	
+8-13	relax	O	B-ScrEv_relax	_	_	
+8-14	to	O	O	_	_	
+8-15	go	O	B-ScrEv_leave	_	_	
+8-16	to	O	O	_	_	
+8-17	sleep	O	B-UnrelEv	_	_	
+8-18	.	O	O	_	_	
+

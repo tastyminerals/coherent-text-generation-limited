@@ -1,0 +1,450 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I needed to write a school report on tigers , and I decided to visit the library to find a book to use in my research .
+1-1	I	B-ScrPart_customer	O	_	_	
+1-2	needed	O	B-UnrelEv	_	_	
+1-3	to	O	O	_	_	
+1-4	write	O	B-UnrelEv	_	_	
+1-5	a	O	O	_	_	
+1-6	school	O	O	_	_	
+1-7	report	O	O	_	_	
+1-8	on	O	O	_	_	
+1-9	tigers	O	O	_	_	
+1-10	,	O	O	_	_	
+1-11	and	O	O	_	_	
+1-12	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-1	
+1-13	decided	O	B-UnrelEv	_	_	
+1-14	to	O	O	_	_	
+1-15	visit	O	B-Evoking	_	_	
+1-16	the	O	I-Evoking	_	_	
+1-17	library	B-ScrPart_library	I-Evoking	_	_	
+1-18	to	O	O	_	_	
+1-19	find	O	B-RelNScrEv	_	_	
+1-20	a	O	O	_	_	
+1-21	book	B-ScrPart_book	O	_	_	
+1-22	to	O	O	_	_	
+1-23	use	O	B-UnrelEv	_	_	
+1-24	in	O	O	_	_	
+1-25	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-12	
+1-26	research	O	O	_	_	
+1-27	.	O	O	_	_	
+
+#id=2
+#text=When I entered the library , I saw hundreds of books on many different shelves and was not sure where to find books on tigers .
+2-1	When	O	O	_	_	
+2-2	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-25	
+2-3	entered	O	B-MissScrEv	_	_	
+2-4	the	O	O	_	_	
+2-5	library	B-ScrPart_library	O	webanno.custom.Corefchains_	1-17	
+2-6	,	O	O	_	_	
+2-7	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-2	
+2-8	saw	O	B-UnrelEv	_	_	
+2-9	hundreds	O	O	_	_	
+2-10	of	O	O	_	_	
+2-11	books	B-ScrPart_book	O	webanno.custom.Corefchains_	1-21	
+2-12	on	O	O	_	_	
+2-13	many	O	O	_	_	
+2-14	different	O	O	_	_	
+2-15	shelves	B-ScrPart_shelf	O	_	_	
+2-16	and	O	O	_	_	
+2-17	was	O	B-UnrelEv	_	_	
+2-18	not	O	O	_	_	
+2-19	sure	O	O	_	_	
+2-20	where	O	O	_	_	
+2-21	to	O	O	_	_	
+2-22	find	O	B-RelNScrEv	_	_	
+2-23	books	B-ScrPart_book	O	webanno.custom.Corefchains_	2-11	
+2-24	on	O	O	_	_	
+2-25	tigers	O	O	_	_	
+2-26	.	O	O	_	_	
+
+#id=3
+#text=I asked a librarian for help finding books on tigers .
+3-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-7	
+3-2	asked	O	B-ScrEv_ask_librarian	_	_	
+3-3	a	O	O	_	_	
+3-4	librarian	B-ScrPart_staff	O	_	_	
+3-5	for	O	O	_	_	
+3-6	help	O	O	_	_	
+3-7	finding	O	B-RelNScrEv	_	_	
+3-8	books	B-ScrPart_book	O	webanno.custom.Corefchains_	2-23	
+3-9	on	O	O	_	_	
+3-10	tigers	O	O	_	_	
+3-11	.	O	O	_	_	
+
+#id=4
+#text=Are you looking for stories about tigers , or facts and photographs about tigers ?
+4-1	Are	O	O	_	_	
+4-2	you	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-1	
+4-3	looking	O	B-UnrelEv|B-UnrelEv	_	_	
+4-4	for	O	I-UnrelEv	_	_	
+4-5	stories	O	O	_	_	
+4-6	about	O	O	_	_	
+4-7	tigers	O	O	_	_	
+4-8	,	O	O	_	_	
+4-9	or	O	O	_	_	
+4-10	facts	O	O	_	_	
+4-11	and	O	O	_	_	
+4-12	photographs	O	O	_	_	
+4-13	about	O	O	_	_	
+4-14	tigers	O	O	_	_	
+4-15	?	O	O	_	_	
+
+#id=5
+#text=she asked me .
+5-1	she	B-ScrPart_staff	O	webanno.custom.Corefchains_	3-4	
+5-2	asked	O	B-UnrelEv	_	_	
+5-3	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-2	
+5-4	.	O	O	_	_	
+
+#id=6
+#text=I told her I wanted facts and real information so I can write a report .
+6-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-3	
+6-2	told	O	B-UnrelEv	_	_	
+6-3	her	B-ScrPart_staff	O	webanno.custom.Corefchains_	5-1	
+6-4	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-1	
+6-5	wanted	O	B-UnrelEv	_	_	
+6-6	facts	O	O	_	_	
+6-7	and	O	O	_	_	
+6-8	real	O	O	_	_	
+6-9	information	O	O	_	_	
+6-10	so	O	O	_	_	
+6-11	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-4	
+6-12	can	O	O	_	_	
+6-13	write	O	B-UnrelEv	_	_	
+6-14	a	O	O	_	_	
+6-15	report	O	O	_	_	
+6-16	.	O	O	_	_	
+
+#id=7
+#text=She walked over to a group of shelves labeled Nonfiction and told me that these books all had true facts and pictures , rather than being imaginary stories .
+7-1	She	B-ScrPart_staff	O	webanno.custom.Corefchains_	6-3	
+7-2	walked	O	B-UnrelEv|B-UnrelEv	_	_	
+7-3	over	O	I-UnrelEv	_	_	
+7-4	to	O	O	_	_	
+7-5	a	O	O	_	_	
+7-6	group	O	O	_	_	
+7-7	of	O	O	_	_	
+7-8	shelves	B-ScrPart_shelf	O	_	_	
+7-9	labeled	O	B-RelNScrEv	_	_	
+7-10	Nonfiction	O	O	_	_	
+7-11	and	O	O	_	_	
+7-12	told	O	B-UnrelEv	_	_	
+7-13	me	O	O	_	_	
+7-14	that	O	O	_	_	
+7-15	these	O	O	_	_	
+7-16	books	B-ScrPart_book	O	webanno.custom.Corefchains_	3-8	
+7-17	all	O	O	_	_	
+7-18	had	O	B-UnrelEv	_	_	
+7-19	true	O	O	_	_	
+7-20	facts	O	O	_	_	
+7-21	and	O	O	_	_	
+7-22	pictures	O	O	_	_	
+7-23	,	O	O	_	_	
+7-24	rather	O	O	_	_	
+7-25	than	O	O	_	_	
+7-26	being	O	B-UnrelEv	_	_	
+7-27	imaginary	O	O	_	_	
+7-28	stories	O	O	_	_	
+7-29	.	O	O	_	_	
+
+#id=8
+#text=They are put in a special order using number codes called the Dewey Decimal System .
+8-1	They	B-ScrPart_book	O	webanno.custom.Corefchains_	7-16	
+8-2	are	O	O	_	_	
+8-3	put	O	B-RelNScrEv	_	_	
+8-4	in	O	O	_	_	
+8-5	a	O	O	_	_	
+8-6	special	O	O	_	_	
+8-7	order	O	O	_	_	
+8-8	using	O	B-UnrelEv	_	_	
+8-9	number	B-ScrPart_section_id	O	_	_	
+8-10	codes	I-ScrPart_section_id|B-ScrPart_section_id	O	_	_	
+8-11	called	O	O	_	_	
+8-12	the	O	O	_	_	
+8-13	Dewey	O	O	_	_	
+8-14	Decimal	O	O	_	_	
+8-15	System	O	O	_	_	
+8-16	.	O	O	_	_	
+
+#id=9
+#text=Using these codes , all the books on tigers would be in the same place and would be very close to books about other animals .
+9-1	Using	O	B-UnrelEv	_	_	
+9-2	these	O	O	_	_	
+9-3	codes	B-ScrPart_section_id	O	webanno.custom.Corefchains_	8-10	
+9-4	,	O	O	_	_	
+9-5	all	O	O	_	_	
+9-6	the	O	O	_	_	
+9-7	books	B-ScrPart_book	O	webanno.custom.Corefchains_	8-1	
+9-8	on	O	O	_	_	
+9-9	tigers	O	O	_	_	
+9-10	would	O	O	_	_	
+9-11	be	O	B-UnrelEv	_	_	
+9-12	in	O	O	_	_	
+9-13	the	O	O	_	_	
+9-14	same	O	O	_	_	
+9-15	place	O	O	_	_	
+9-16	and	O	O	_	_	
+9-17	would	O	O	_	_	
+9-18	be	O	B-UnrelEv	_	_	
+9-19	very	O	O	_	_	
+9-20	close	O	O	_	_	
+9-21	to	O	O	_	_	
+9-22	books	B-ScrPart_book	O	webanno.custom.Corefchains_	9-7	
+9-23	about	O	O	_	_	
+9-24	other	O	O	_	_	
+9-25	animals	O	O	_	_	
+9-26	.	O	O	_	_	
+
+#id=10
+#text=She looked up the Dewey Decimal System code for tigers and wrote it down for me .
+10-1	She	B-ScrPart_staff	O	webanno.custom.Corefchains_	7-1	
+10-2	looked	O	B-RelNScrEv|B-RelNScrEv	_	_	
+10-3	up	O	I-RelNScrEv	_	_	
+10-4	the	O	O	_	_	
+10-5	Dewey	O	O	_	_	
+10-6	Decimal	O	O	_	_	
+10-7	System	O	O	_	_	
+10-8	code	B-ScrPart_section_id	O	webanno.custom.Corefchains_	9-3	
+10-9	for	O	O	_	_	
+10-10	tigers	O	O	_	_	
+10-11	and	O	O	_	_	
+10-12	wrote	O	B-ScrEv_note_shelf	_	_	
+10-13	it	B-ScrPart_section_id	O	webanno.custom.Corefchains_	10-8	
+10-14	down	O	O	_	_	
+10-15	for	O	O	_	_	
+10-16	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-11	
+10-17	.	O	O	_	_	
+
+#id=11
+#text=Walking through the shelves with my code , I saw that the numbers on the spines of the books start at zero and keep getting bigger and bigger .
+11-1	Walking	O	B-MissScrEv|B-MissScrEv	_	_	
+11-2	through	O	I-MissScrEv	_	_	
+11-3	the	O	O	_	_	
+11-4	shelves	B-ScrPart_shelf	O	_	_	
+11-5	with	O	O	_	_	
+11-6	my	O	O	_	_	
+11-7	code	B-ScrPart_section_id	O	webanno.custom.Corefchains_	10-13	
+11-8	,	O	O	_	_	
+11-9	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	10-16	
+11-10	saw	O	B-UnrelEv	_	_	
+11-11	that	O	O	_	_	
+11-12	the	O	O	_	_	
+11-13	numbers	B-ScrPart_section_id	O	webanno.custom.Corefchains_	11-7	
+11-14	on	O	O	_	_	
+11-15	the	O	O	_	_	
+11-16	spines	O	O	_	_	
+11-17	of	O	O	_	_	
+11-18	the	O	O	_	_	
+11-19	books	B-ScrPart_book	O	webanno.custom.Corefchains_	9-22	
+11-20	start	O	B-UnrelEv	_	_	
+11-21	at	O	O	_	_	
+11-22	zero	O	O	_	_	
+11-23	and	O	O	_	_	
+11-24	keep	O	B-UnrelEv	_	_	
+11-25	getting	O	B-UnrelEv	_	_	
+11-26	bigger	O	O	_	_	
+11-27	and	O	O	_	_	
+11-28	bigger	O	O	_	_	
+11-29	.	O	O	_	_	
+
+#id=12
+#text=Finally , I was getting close to the number she wrote down for me .
+12-1	Finally	O	O	_	_	
+12-2	,	O	O	_	_	
+12-3	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	11-9	
+12-4	was	O	O	_	_	
+12-5	getting	O	B-UnrelEv	_	_	
+12-6	close	O	O	_	_	
+12-7	to	O	O	_	_	
+12-8	the	O	O	_	_	
+12-9	number	B-ScrPart_section_id	O	webanno.custom.Corefchains_	11-13	
+12-10	she	B-ScrPart_staff	O	webanno.custom.Corefchains_	10-1	
+12-11	wrote	O	B-RelNScrEv	_	_	
+12-12	down	O	O	_	_	
+12-13	for	O	O	_	_	
+12-14	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	12-3	
+12-15	.	O	O	_	_	
+
+#id=13
+#text=There I saw books about lions , cheetahs , and finally tigers .
+13-1	There	O	O	_	_	
+13-2	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	12-14	
+13-3	saw	O	B-UnrelEv	_	_	
+13-4	books	B-ScrPart_book	O	webanno.custom.Corefchains_	11-19	
+13-5	about	O	O	_	_	
+13-6	lions	O	O	_	_	
+13-7	,	O	O	_	_	
+13-8	cheetahs	O	O	_	_	
+13-9	,	O	O	_	_	
+13-10	and	O	O	_	_	
+13-11	finally	O	O	_	_	
+13-12	tigers	O	O	_	_	
+13-13	.	O	O	_	_	
+
+#id=14
+#text=I found a book that looked like it would be helpful for my report and brought it back to the librarian .
+14-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	13-2	
+14-2	found	O	B-MissScrEv	_	_	
+14-3	a	O	O	_	_	
+14-4	book	B-ScrPart_book	O	webanno.custom.Corefchains_	13-4	
+14-5	that	O	O	_	_	
+14-6	looked	O	B-UnrelEv	_	_	
+14-7	like	O	O	_	_	
+14-8	it	B-ScrPart_book	O	webanno.custom.Corefchains_	14-4	
+14-9	would	O	O	_	_	
+14-10	be	O	B-UnrelEv	_	_	
+14-11	helpful	O	O	_	_	
+14-12	for	O	O	_	_	
+14-13	my	O	O	_	_	
+14-14	report	O	O	_	_	
+14-15	and	O	O	_	_	
+14-16	brought	O	B-MissScrEv	_	_	
+14-17	it	B-ScrPart_book	O	webanno.custom.Corefchains_	14-8	
+14-18	back	O	O	_	_	
+14-19	to	O	O	_	_	
+14-20	the	O	O	_	_	
+14-21	librarian	B-ScrPart_staff	O	webanno.custom.Corefchains_	12-10	
+14-22	.	O	O	_	_	
+
+#id=15
+#text=She asked me for my library card , and after I handed it to her , she scanned it with her computer .
+15-1	She	B-ScrPart_staff	O	webanno.custom.Corefchains_	14-21	
+15-2	asked	O	B-RelNScrEv	_	_	
+15-3	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	14-1	
+15-4	for	O	O	_	_	
+15-5	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	15-3	
+15-6	library	B-ScrPart_library_card	O	_	_	
+15-7	card	I-ScrPart_library_card|B-ScrPart_library_card	O	_	_	
+15-8	,	O	O	_	_	
+15-9	and	O	O	_	_	
+15-10	after	O	O	_	_	
+15-11	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	15-5	
+15-12	handed	O	B-ScrEv_show_card	_	_	
+15-13	it	B-ScrPart_library_card	O	webanno.custom.Corefchains_	15-7	
+15-14	to	O	O	_	_	
+15-15	her	B-ScrPart_staff	O	webanno.custom.Corefchains_	15-1	
+15-16	,	O	O	_	_	
+15-17	she	O	O	_	_	
+15-18	scanned	O	B-MissScrEv	_	_	
+15-19	it	B-ScrPart_library_card	O	webanno.custom.Corefchains_	15-13	
+15-20	with	O	O	_	_	
+15-21	her	B-ScrPart_staff	O	webanno.custom.Corefchains_	15-15	
+15-22	computer	O	O	_	_	
+15-23	.	O	O	_	_	
+
+#id=16
+#text=Next , she scanned a barcode on the back of the book .
+16-1	Next	O	O	_	_	
+16-2	,	O	O	_	_	
+16-3	she	B-ScrPart_staff	O	webanno.custom.Corefchains_	15-21	
+16-4	scanned	O	B-ScrEv_register	_	_	
+16-5	a	O	O	_	_	
+16-6	barcode	B-ScrPart_section_id	O	_	_	
+16-7	on	O	O	_	_	
+16-8	the	O	O	_	_	
+16-9	back	O	O	_	_	
+16-10	of	O	O	_	_	
+16-11	the	O	O	_	_	
+16-12	book	B-ScrPart_book	O	webanno.custom.Corefchains_	14-17	
+16-13	.	O	O	_	_	
+
+#id=17
+#text=Now the book was checked out in my name so that the library would know who has the book .
+17-1	Now	O	O	_	_	
+17-2	the	O	O	_	_	
+17-3	book	B-ScrPart_book	O	webanno.custom.Corefchains_	16-12	
+17-4	was	O	O	_	_	
+17-5	checked	O	B-ScrEv_register|B-ScrEv_register	_	_	
+17-6	out	O	I-ScrEv_register	_	_	
+17-7	in	O	O	_	_	
+17-8	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	15-11	
+17-9	name	B-NPart	O	_	_	
+17-10	so	O	O	_	_	
+17-11	that	O	O	_	_	
+17-12	the	O	O	_	_	
+17-13	library	B-ScrPart_library	O	webanno.custom.Corefchains_	2-5	
+17-14	would	O	O	_	_	
+17-15	know	O	B-UnrelEv	_	_	
+17-16	who	O	O	_	_	
+17-17	has	O	B-UnrelEv	_	_	
+17-18	the	O	O	_	_	
+17-19	book	B-ScrPart_book	O	webanno.custom.Corefchains_	17-3	
+17-20	.	O	O	_	_	
+
+#id=18
+#text=She handed me the book and told me that I needed to bring it back to the library in two weeks .
+18-1	She	B-ScrPart_staff	O	_	_	
+18-2	handed	O	B-RelNScrEv	_	_	
+18-3	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	17-8	
+18-4	the	O	O	_	_	
+18-5	book	B-ScrPart_book	O	webanno.custom.Corefchains_	17-19	
+18-6	and	O	O	_	_	
+18-7	told	O	B-UnrelEv	_	_	
+18-8	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	18-3	
+18-9	that	O	O	_	_	
+18-10	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	18-8	
+18-11	needed	O	B-UnrelEv	_	_	
+18-12	to	O	O	_	_	
+18-13	bring	O	B-ScrEv_return_book	_	_	
+18-14	it	B-ScrPart_book	O	webanno.custom.Corefchains_	18-5	
+18-15	back	O	O	_	_	
+18-16	to	O	O	_	_	
+18-17	the	O	O	_	_	
+18-18	library	B-ScrPart_library	O	webanno.custom.Corefchains_	17-13	
+18-19	in	O	O	_	_	
+18-20	two	O	O	_	_	
+18-21	weeks	B-ScrPart_return_date	O	_	_	
+18-22	.	O	O	_	_	
+
+#id=19
+#text=If I did n't bring it back , I would have to pay a fine for every day I kept it , because other people might want to read the book too .
+19-1	If	O	O	_	_	
+19-2	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	18-10	
+19-3	did	O	O	_	_	
+19-4	n't	O	O	_	_	
+19-5	bring	O	B-ScrEv_return_book	_	_	
+19-6	it	B-ScrPart_book	O	webanno.custom.Corefchains_	18-14	
+19-7	back	O	O	_	_	
+19-8	,	O	O	_	_	
+19-9	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	19-2	
+19-10	would	O	O	_	_	
+19-11	have	O	O	_	_	
+19-12	to	O	O	_	_	
+19-13	pay	O	B-RelNScrEv	_	_	
+19-14	a	O	O	_	_	
+19-15	fine	B-MissScrPart	O	_	_	
+19-16	for	O	O	_	_	
+19-17	every	O	O	_	_	
+19-18	day	O	O	_	_	
+19-19	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	19-9	
+19-20	kept	O	B-UnrelEv	_	_	
+19-21	it	B-ScrPart_book	O	webanno.custom.Corefchains_	19-6	
+19-22	,	O	O	_	_	
+19-23	because	O	O	_	_	
+19-24	other	O	O	_	_	
+19-25	people	B-ScrPart_customer	O	_	_	
+19-26	might	O	O	_	_	
+19-27	want	O	O	_	_	
+19-28	to	O	O	_	_	
+19-29	read	O	B-RelNScrEv	_	_	
+19-30	the	O	O	_	_	
+19-31	book	B-ScrPart_book	O	webanno.custom.Corefchains_	19-21	
+19-32	too	O	O	_	_	
+19-33	.	O	O	_	_	
+
+#id=20
+#text=I thanked her and went home to work on my report . 
+20-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	19-19	
+20-2	thanked	O	B-RelNScrEv	_	_	
+20-3	her	B-ScrPart_staff	O	webanno.custom.Corefchains_	18-1	
+20-4	and	O	O	_	_	
+20-5	went	O	B-ScrEv_leave	_	_	
+20-6	home	O	O	_	_	
+20-7	to	O	O	_	_	
+20-8	work	O	B-UnrelEv	_	_	
+20-9	on	O	O	_	_	
+20-10	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	20-1	
+20-11	report	O	O	_	_	
+20-12	.	O	O	_	_	
+

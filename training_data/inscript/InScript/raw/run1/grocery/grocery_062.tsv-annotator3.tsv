@@ -1,0 +1,359 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I rolled my cart out of my apartment and locked my front door .
+1-1	I	B-ScrPart_shopper	O	_	_	
+1-2	rolled	O	B-UnrelEv	_	_	
+1-3	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	1-1	
+1-4	cart	B-ScrPart_shopping_cart/basket	O	_	_	
+1-5	out	O	O	_	_	
+1-6	of	O	O	_	_	
+1-7	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	1-3	
+1-8	apartment	O	O	_	_	
+1-9	and	O	O	_	_	
+1-10	locked	O	B-UnrelEv	_	_	
+1-11	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	1-7	
+1-12	front	O	O	_	_	
+1-13	door	O	O	_	_	
+1-14	.	O	O	_	_	
+
+#id=2
+#text=I dragged the empty cart down the stairs and pushed it down the block toward the supermarket .
+2-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	1-11	
+2-2	dragged	O	B-UnrelEv	_	_	
+2-3	the	O	O	_	_	
+2-4	empty	O	O	_	_	
+2-5	cart	B-ScrPart_shopping_cart/basket	O	webanno.custom.Corefchains_	1-4	
+2-6	down	O	O	_	_	
+2-7	the	O	O	_	_	
+2-8	stairs	O	O	_	_	
+2-9	and	O	O	_	_	
+2-10	pushed	O	B-UnrelEv	_	_	
+2-11	it	B-ScrPart_shopping_cart/basket	O	webanno.custom.Corefchains_	2-5	
+2-12	down	O	O	_	_	
+2-13	the	O	O	_	_	
+2-14	block	O	O	_	_	
+2-15	toward	O	O	_	_	
+2-16	the	O	O	_	_	
+2-17	supermarket	B-ScrPart_grocery_shop	O	_	_	
+2-18	.	O	O	_	_	
+
+#id=3
+#text=As I walked , I mentally rehearsed some of the items I intended to buy .
+3-1	As	O	O	_	_	
+3-2	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	2-1	
+3-3	walked	O	B-UnrelEv	_	_	
+3-4	,	O	O	_	_	
+3-5	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	3-2	
+3-6	mentally	O	O	_	_	
+3-7	rehearsed	O	B-UnrelEv	_	_	
+3-8	some	O	O	_	_	
+3-9	of	O	O	_	_	
+3-10	the	O	O	_	_	
+3-11	items	B-ScrPart_groceries	O	_	_	
+3-12	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	3-5	
+3-13	intended	O	B-UnrelEv	_	_	
+3-14	to	O	O	_	_	
+3-15	buy	O	B-Evoking	_	_	
+3-16	.	O	O	_	_	
+
+#id=4
+#text=I needed eggs , milk , bread , cookies , and bananas .
+4-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	3-12	
+4-2	needed	O	B-RelNScrEv	_	_	
+4-3	eggs	B-ScrPart_groceries	O	_	_	
+4-4	,	O	O	_	_	
+4-5	milk	B-ScrPart_groceries	O	_	_	
+4-6	,	O	O	_	_	
+4-7	bread	B-ScrPart_groceries	O	_	_	
+4-8	,	O	O	_	_	
+4-9	cookies	B-ScrPart_groceries	O	_	_	
+4-10	,	O	O	_	_	
+4-11	and	O	O	_	_	
+4-12	bananas	B-ScrPart_groceries	O	_	_	
+4-13	.	O	O	_	_	
+
+#id=5
+#text=Maybe I would get a few other things if they looked good .
+5-1	Maybe	O	O	_	_	
+5-2	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	4-1	
+5-3	would	O	O	_	_	
+5-4	get	O	B-RelNScrEv	_	_	
+5-5	a	O	O	_	_	
+5-6	few	O	O	_	_	
+5-7	other	O	O	_	_	
+5-8	things	B-ScrPart_groceries	O	_	_	
+5-9	if	O	O	_	_	
+5-10	they	B-ScrPart_groceries	O	_	_	
+5-11	looked	O	B-UnrelEv	_	_	
+5-12	good	O	O	_	_	
+5-13	.	O	O	_	_	
+
+#id=6
+#text=I arrived at the store and hooked my cart to the store 's larger metal shopping cart .
+6-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	5-2	
+6-2	arrived	O	B-ScrEv_go_grocery	_	_	
+6-3	at	O	O	_	_	
+6-4	the	O	O	_	_	
+6-5	store	B-ScrPart_grocery_shop	O	webanno.custom.Corefchains_	2-17	
+6-6	and	O	O	_	_	
+6-7	hooked	O	B-UnrelEv	_	_	
+6-8	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	6-1	
+6-9	cart	B-ScrPart_shopping_cart/basket	O	webanno.custom.Corefchains_	2-11	
+6-10	to	O	O	_	_	
+6-11	the	O	O	_	_	
+6-12	store	B-ScrPart_grocery_shop	O	webanno.custom.Corefchains_	6-5	
+6-13	's	O	O	_	_	
+6-14	larger	O	O	_	_	
+6-15	metal	O	O	_	_	
+6-16	shopping	B-ScrPart_shopping_cart/basket	O	_	_	
+6-17	cart	I-ScrPart_shopping_cart/basket|B-ScrPart_shopping_cart/basket	O	webanno.custom.Corefchains_	6-9	
+6-18	.	O	O	_	_	
+
+#id=7
+#text=I pushed it down the aisle .
+7-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	6-8	
+7-2	pushed	O	B-RelNScrEv	_	_	
+7-3	it	B-ScrPart_shopping_cart/basket	O	webanno.custom.Corefchains_	6-17	
+7-4	down	O	O	_	_	
+7-5	the	O	O	_	_	
+7-6	aisle	B-ScrPart_section	O	_	_	
+7-7	.	O	O	_	_	
+
+#id=8
+#text=I passed the section with the bread fist , and put it in my cart .
+8-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	7-1	
+8-2	passed	O	B-ScrEv_move_section	_	_	
+8-3	the	O	O	_	_	
+8-4	section	B-ScrPart_section	O	_	_	
+8-5	with	O	O	_	_	
+8-6	the	O	O	_	_	
+8-7	bread	B-ScrPart_groceries	O	_	_	
+8-8	fist	O	O	_	_	
+8-9	,	O	O	_	_	
+8-10	and	O	O	_	_	
+8-11	put	O	B-ScrEv_get_groceries	_	_	
+8-12	it	B-ScrPart_groceries	O	webanno.custom.Corefchains_	8-7	
+8-13	in	O	O	_	_	
+8-14	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	8-1	
+8-15	cart	B-ScrPart_shopping_cart/basket	O	webanno.custom.Corefchains_	7-3	
+8-16	.	O	O	_	_	
+
+#id=9
+#text=The cookies were near the bread .
+9-1	The	O	O	_	_	
+9-2	cookies	B-ScrPart_groceries	O	_	_	
+9-3	were	O	B-UnrelEv	_	_	
+9-4	near	O	O	_	_	
+9-5	the	O	O	_	_	
+9-6	bread	B-ScrPart_groceries	O	webanno.custom.Corefchains_	8-12	
+9-7	.	O	O	_	_	
+
+#id=10
+#text=I took a while looking at the ingredients for different packages of cookies and finally decided to get a box that looked fresh and delicious without too many preservatives .
+10-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	8-14	
+10-2	took	O	B-UnrelEv	_	_	
+10-3	a	O	O	_	_	
+10-4	while	O	O	_	_	
+10-5	looking	O	B-UnrelEv	_	_	
+10-6	at	O	O	_	_	
+10-7	the	O	O	_	_	
+10-8	ingredients	B-MissScrPart	O	_	_	
+10-9	for	O	O	_	_	
+10-10	different	O	O	_	_	
+10-11	packages	B-MissScrPart	O	_	_	
+10-12	of	O	O	_	_	
+10-13	cookies	B-ScrPart_groceries	O	webanno.custom.Corefchains_	9-2	
+10-14	and	O	O	_	_	
+10-15	finally	O	O	_	_	
+10-16	decided	O	B-UnrelEv	_	_	
+10-17	to	O	O	_	_	
+10-18	get	O	O	_	_	
+10-19	a	O	O	_	_	
+10-20	box	B-MissScrPart	O	webanno.custom.Corefchains_	10-11	
+10-21	that	O	O	_	_	
+10-22	looked	O	B-UnrelEv	_	_	
+10-23	fresh	O	O	_	_	
+10-24	and	O	O	_	_	
+10-25	delicious	O	O	_	_	
+10-26	without	O	O	_	_	
+10-27	too	O	O	_	_	
+10-28	many	O	O	_	_	
+10-29	preservatives	O	O	_	_	
+10-30	.	O	O	_	_	
+
+#id=11
+#text=I put my chosen cookies into my cart and kept pushing .
+11-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	10-1	
+11-2	put	O	B-ScrEv_get_groceries	_	_	
+11-3	my	O	O	_	_	
+11-4	chosen	O	O	_	_	
+11-5	cookies	B-ScrPart_groceries	O	webanno.custom.Corefchains_	10-13	
+11-6	into	O	O	_	_	
+11-7	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	11-1	
+11-8	cart	B-ScrPart_shopping_cart/basket	O	webanno.custom.Corefchains_	8-15	
+11-9	and	O	O	_	_	
+11-10	kept	O	B-UnrelEv	_	_	
+11-11	pushing	O	B-RelNScrEv	_	_	
+11-12	.	O	O	_	_	
+
+#id=12
+#text=I reached the refrigerated section and found the milk .
+12-1	I	O	O	_	_	
+12-2	reached	O	B-ScrEv_move_section	_	_	
+12-3	the	O	O	_	_	
+12-4	refrigerated	O	O	_	_	
+12-5	section	B-ScrPart_section	O	_	_	
+12-6	and	O	O	_	_	
+12-7	found	O	B-ScrEv_get_groceries	_	_	
+12-8	the	O	O	_	_	
+12-9	milk	B-ScrPart_groceries	O	_	_	
+12-10	.	O	O	_	_	
+
+#id=13
+#text=I added a carton to my cart , and also chose some yogurt .
+13-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	11-7	
+13-2	added	O	B-ScrEv_get_groceries	_	_	
+13-3	a	O	O	_	_	
+13-4	carton	B-ScrPart_groceries	O	webanno.custom.Corefchains_	12-9	
+13-5	to	O	O	_	_	
+13-6	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	13-1	
+13-7	cart	B-ScrPart_shopping_cart/basket	O	webanno.custom.Corefchains_	11-8	
+13-8	,	O	O	_	_	
+13-9	and	O	O	_	_	
+13-10	also	O	O	_	_	
+13-11	chose	O	B-ScrEv_get_groceries	_	_	
+13-12	some	O	O	_	_	
+13-13	yogurt	B-ScrPart_groceries	O	_	_	
+13-14	.	O	O	_	_	
+
+#id=14
+#text=I looked at the eggs and checked them for cracks before adding them .
+14-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	13-6	
+14-2	looked	O	B-UnrelEv	_	_	
+14-3	at	O	O	_	_	
+14-4	the	O	O	_	_	
+14-5	eggs	B-ScrPart_groceries	O	_	_	
+14-6	and	O	O	_	_	
+14-7	checked	O	B-RelNScrEv	_	_	
+14-8	them	B-ScrPart_groceries	O	webanno.custom.Corefchains_	14-5	
+14-9	for	O	O	_	_	
+14-10	cracks	B-NPart	O	_	_	
+14-11	before	O	O	_	_	
+14-12	adding	O	B-ScrEv_get_groceries	_	_	
+14-13	them	B-ScrPart_groceries	O	webanno.custom.Corefchains_	14-8	
+14-14	.	O	O	_	_	
+
+#id=15
+#text=Then I turned my cart toward the fruit and vegetable aisle .
+15-1	Then	O	O	_	_	
+15-2	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	14-1	
+15-3	turned	O	B-ScrEv_move_section	_	_	
+15-4	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	15-2	
+15-5	cart	B-ScrPart_shopping_cart/basket	O	webanno.custom.Corefchains_	13-7	
+15-6	toward	O	O	_	_	
+15-7	the	O	O	_	_	
+15-8	fruit	O	O	_	_	
+15-9	and	O	O	_	_	
+15-10	vegetable	O	O	_	_	
+15-11	aisle	B-ScrPart_section	O	_	_	
+15-12	.	O	O	_	_	
+
+#id=16
+#text=I added bananas and then my eye caught some avocados that were on sale , so I decided to buy two of them .
+16-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	15-4	
+16-2	added	O	B-ScrEv_get_groceries	_	_	
+16-3	bananas	B-ScrPart_groceries	O	_	_	
+16-4	and	O	O	_	_	
+16-5	then	O	O	_	_	
+16-6	my	O	O	_	_	
+16-7	eye	O	O	_	_	
+16-8	caught	O	B-UnrelEv	_	_	
+16-9	some	O	O	_	_	
+16-10	avocados	B-ScrPart_groceries	O	_	_	
+16-11	that	O	O	_	_	
+16-12	were	O	B-RelNScrEv	_	_	
+16-13	on	O	O	_	_	
+16-14	sale	B-SuppVComp	O	_	_	
+16-15	,	O	O	_	_	
+16-16	so	O	O	_	_	
+16-17	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	16-1	
+16-18	decided	O	B-UnrelEv	_	_	
+16-19	to	O	O	_	_	
+16-20	buy	O	B-RelNScrEv	_	_	
+16-21	two	O	O	_	_	
+16-22	of	O	O	_	_	
+16-23	them	B-ScrPart_groceries	O	webanno.custom.Corefchains_	16-10	
+16-24	.	O	O	_	_	
+
+#id=17
+#text=I also got a few apples and a box of cherry tomatoes .
+17-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	16-17	
+17-2	also	O	O	_	_	
+17-3	got	O	B-ScrEv_get_groceries	_	_	
+17-4	a	O	O	_	_	
+17-5	few	O	O	_	_	
+17-6	apples	B-ScrPart_groceries	O	_	_	
+17-7	and	O	O	_	_	
+17-8	a	O	O	_	_	
+17-9	box	O	O	_	_	
+17-10	of	O	O	_	_	
+17-11	cherry	B-ScrPart_groceries	O	_	_	
+17-12	tomatoes	I-ScrPart_groceries|B-ScrPart_groceries	O	_	_	
+17-13	.	O	O	_	_	
+
+#id=18
+#text=I rolled my cart toward the cashier and got on line to pay .
+18-1	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	17-1	
+18-2	rolled	O	B-ScrEv_move_section	_	_	
+18-3	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	18-1	
+18-4	cart	B-ScrPart_shopping_cart/basket	O	webanno.custom.Corefchains_	15-5	
+18-5	toward	O	O	_	_	
+18-6	the	O	O	_	_	
+18-7	cashier	B-ScrPart_grocery_staff	O	_	_	
+18-8	and	O	O	_	_	
+18-9	got	O	B-MissScrEv	_	_	
+18-10	on	O	O	_	_	
+18-11	line	B-ScrPart_line	O	_	_	
+18-12	to	O	O	_	_	
+18-13	pay	O	B-ScrEv_pay	_	_	
+18-14	.	O	O	_	_	
+
+#id=19
+#text=When it was my turn I paid in cash and then put my bagged items into my cart .
+19-1	When	O	O	_	_	
+19-2	it	O	O	_	_	
+19-3	was	O	B-UnrelEv	_	_	
+19-4	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	18-3	
+19-5	turn	O	O	_	_	
+19-6	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	19-4	
+19-7	paid	O	B-ScrEv_pay	_	_	
+19-8	in	O	O	_	_	
+19-9	cash	B-ScrPart_payment_means	O	_	_	
+19-10	and	O	O	_	_	
+19-11	then	O	O	_	_	
+19-12	put	O	B-ScrEv_pack_groceries	_	_	
+19-13	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	19-6	
+19-14	bagged	O	B-ScrEv_pack_groceries	_	_	
+19-15	items	B-ScrPart_groceries	O	_	_	
+19-16	into	O	O	_	_	
+19-17	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	19-13	
+19-18	cart	B-ScrPart_shopping_cart/basket	O	webanno.custom.Corefchains_	18-4	
+19-19	.	O	O	_	_	
+
+#id=20
+#text=Then I pushed my cart home and unloaded my items in my kitchen . 
+20-1	Then	O	O	_	_	
+20-2	I	B-ScrPart_shopper	O	webanno.custom.Corefchains_	19-17	
+20-3	pushed	O	B-UnrelEv	_	_	
+20-4	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	20-2	
+20-5	cart	B-ScrPart_shopping_cart/basket	O	webanno.custom.Corefchains_	19-18	
+20-6	home	O	O	_	_	
+20-7	and	O	O	_	_	
+20-8	unloaded	O	B-RelNScrEv	_	_	
+20-9	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	20-4	
+20-10	items	B-ScrPart_groceries	O	webanno.custom.Corefchains_	19-15	
+20-11	in	O	O	_	_	
+20-12	my	B-ScrPart_shopper	O	webanno.custom.Corefchains_	20-9	
+20-13	kitchen	O	O	_	_	
+20-14	.	O	O	_	_	
+

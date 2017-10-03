@@ -1,0 +1,193 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=The last time I wanted to borrow a book from the library I was in a different town than my home town .
+1-1	The	O	O	_	_	
+1-2	last	O	O	_	_	
+1-3	time	O	O	_	_	
+1-4	I	B-ScrPart_customer	O	_	_	
+1-5	wanted	O	O	_	_	
+1-6	to	O	O	_	_	
+1-7	borrow	O	B-Evoking	_	_	
+1-8	a	O	I-Evoking	_	_	
+1-9	book	B-ScrPart_book	I-Evoking	_	_	
+1-10	from	O	I-Evoking	_	_	
+1-11	the	O	I-Evoking	_	_	
+1-12	library	B-ScrPart_library	I-Evoking	_	_	
+1-13	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-4	
+1-14	was	O	B-UnrelEv	_	_	
+1-15	in	O	O	_	_	
+1-16	a	O	O	_	_	
+1-17	different	O	O	_	_	
+1-18	town	O	O	_	_	
+1-19	than	O	O	_	_	
+1-20	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-13	
+1-21	home	O	O	_	_	
+1-22	town	O	O	_	_	
+1-23	.	O	O	_	_	
+
+#id=2
+#text=I talked to the librarian about this and he told me that it was possible for me to obtain a guest pass , though this would only allow me to take out two books at a time .
+2-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-20	
+2-2	talked	O	B-ScrEv_ask_librarian	_	_	
+2-3	to	O	O	_	_	
+2-4	the	O	O	_	_	
+2-5	librarian	B-ScrPart_staff	O	_	_	
+2-6	about	O	O	_	_	
+2-7	this	O	O	_	_	
+2-8	and	O	O	_	_	
+2-9	he	B-ScrPart_staff	O	webanno.custom.Corefchains_	2-5	
+2-10	told	O	B-RelNScrEv	_	_	
+2-11	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-1	
+2-12	that	O	O	_	_	
+2-13	it	O	O	_	_	
+2-14	was	O	B-UnrelEv	_	_	
+2-15	possible	O	O	_	_	
+2-16	for	O	O	_	_	
+2-17	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-11	
+2-18	to	O	O	_	_	
+2-19	obtain	O	B-RelNScrEv	_	_	
+2-20	a	O	O	_	_	
+2-21	guest	B-ScrPart_library_card	O	_	_	
+2-22	pass	I-ScrPart_library_card|B-ScrPart_library_card	O	_	_	
+2-23	,	O	O	_	_	
+2-24	though	O	O	_	_	
+2-25	this	B-ScrPart_library_card	O	webanno.custom.Corefchains_	2-22	
+2-26	would	O	O	_	_	
+2-27	only	O	O	_	_	
+2-28	allow	O	B-UnrelEv	_	_	
+2-29	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-17	
+2-30	to	O	O	_	_	
+2-31	take	O	B-ScrEv_take_book	_	_	
+2-32	out	O	I-ScrEv_take_book	_	_	
+2-33	two	O	O	_	_	
+2-34	books	B-ScrPart_book	O	webanno.custom.Corefchains_	1-9	
+2-35	at	O	O	_	_	
+2-36	a	O	O	_	_	
+2-37	time	B-NPart	O	_	_	
+2-38	.	O	O	_	_	
+
+#id=3
+#text=Since this was my only option I decided I would take it .
+3-1	Since	O	O	_	_	
+3-2	this	O	O	_	_	
+3-3	was	O	B-UnrelEv	_	_	
+3-4	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-29	
+3-5	only	O	O	_	_	
+3-6	option	O	O	_	_	
+3-7	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-4	
+3-8	decided	O	B-UnrelEv	_	_	
+3-9	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-7	
+3-10	would	O	O	_	_	
+3-11	take	O	B-UnrelEv	_	_	
+3-12	it	O	O	_	_	
+3-13	.	O	O	_	_	
+
+#id=4
+#text=I filled out the form , providing my name and address , and showed him my identification card , and I was given a library card .
+4-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-9	
+4-2	filled	O	B-RelNScrEv	_	_	
+4-3	out	O	I-RelNScrEv	_	_	
+4-4	the	O	O	_	_	
+4-5	form	B-NPart	O	_	_	
+4-6	,	O	O	_	_	
+4-7	providing	O	B-RelNScrEv	_	_	
+4-8	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-1	
+4-9	name	B-NPart	O	_	_	
+4-10	and	O	O	_	_	
+4-11	address	B-NPart	O	_	_	
+4-12	,	O	O	_	_	
+4-13	and	O	O	_	_	
+4-14	showed	O	B-RelNScrEv	_	_	
+4-15	him	B-ScrPart_staff	O	webanno.custom.Corefchains_	2-9	
+4-16	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-8	
+4-17	identification	B-NPart	O	_	_	
+4-18	card	I-NPart|B-NPart	O	_	_	
+4-19	,	O	O	_	_	
+4-20	and	O	O	_	_	
+4-21	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-16	
+4-22	was	O	O	_	_	
+4-23	given	O	B-RelNScrEv	_	_	
+4-24	a	O	O	_	_	
+4-25	library	B-ScrPart_library_card	O	_	_	
+4-26	card	I-ScrPart_library_card|B-ScrPart_library_card	O	webanno.custom.Corefchains_	2-25	
+4-27	.	O	O	_	_	
+
+#id=5
+#text=I used the card to pick up two books : a collection of poetry and the book Hylozoic by Rudy Rucker .
+5-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-21	
+5-2	used	O	B-UnrelEv	_	_	
+5-3	the	O	O	_	_	
+5-4	card	B-ScrPart_library_card	O	webanno.custom.Corefchains_	4-26	
+5-5	to	O	O	_	_	
+5-6	pick	O	B-ScrEv_take_book	_	_	
+5-7	up	O	I-ScrEv_take_book	_	_	
+5-8	two	O	O	_	_	
+5-9	books	B-ScrPart_book	O	webanno.custom.Corefchains_	2-34	
+5-10	:	O	O	_	_	
+5-11	a	O	O	_	_	
+5-12	collection	B-ScrPart_book	O	group_books	5-9	
+5-13	of	O	O	_	_	
+5-14	poetry	B-NPart	O	_	_	
+5-15	and	O	O	_	_	
+5-16	the	O	O	_	_	
+5-17	book	B-ScrPart_book	O	group_books	5-9	
+5-18	Hylozoic	O	O	_	_	
+5-19	by	O	O	_	_	
+5-20	Rudy	O	O	_	_	
+5-21	Rucker	O	O	_	_	
+5-22	.	O	O	_	_	
+
+#id=6
+#text=The librarian told me that I had to return the books within the space of three weeks , so as soon as I returned to my house I began to read them immediately .
+6-1	The	O	O	_	_	
+6-2	librarian	B-ScrPart_staff	O	webanno.custom.Corefchains_	4-15	
+6-3	told	O	B-RelNScrEv	_	_	
+6-4	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-1	
+6-5	that	O	O	_	_	
+6-6	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-4	
+6-7	had	O	O	_	_	
+6-8	to	O	O	_	_	
+6-9	return	O	B-RelNScrEv	_	_	
+6-10	the	O	O	_	_	
+6-11	books	B-ScrPart_book	O	webanno.custom.Corefchains_	5-9	
+6-12	within	O	O	_	_	
+6-13	the	O	O	_	_	
+6-14	space	B-NPart	O	_	_	
+6-15	of	O	O	_	_	
+6-16	three	O	O	_	_	
+6-17	weeks	B-NPart	O	_	_	
+6-18	,	O	O	_	_	
+6-19	so	O	O	_	_	
+6-20	as	O	O	_	_	
+6-21	soon	O	O	_	_	
+6-22	as	O	O	_	_	
+6-23	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-6	
+6-24	returned	O	B-ScrEv_leave	_	_	
+6-25	to	O	O	_	_	
+6-26	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-23	
+6-27	house	B-NPart	O	_	_	
+6-28	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-26	
+6-29	began	O	B-UnrelEv	_	_	
+6-30	to	O	O	_	_	
+6-31	read	O	B-RelNScrEv	_	_	
+6-32	them	B-ScrPart_book	O	webanno.custom.Corefchains_	6-11	
+6-33	immediately	O	O	_	_	
+6-34	.	O	O	_	_	
+
+#id=7
+#text=After I was done with the books I returned them to the library . 
+7-1	After	O	O	_	_	
+7-2	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-28	
+7-3	was	O	B-UnrelEv	_	_	
+7-4	done	O	O	_	_	
+7-5	with	O	O	_	_	
+7-6	the	O	O	_	_	
+7-7	books	B-ScrPart_book	O	webanno.custom.Corefchains_	6-32	
+7-8	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-2	
+7-9	returned	O	B-RelNScrEv	_	_	
+7-10	them	B-ScrPart_book	O	webanno.custom.Corefchains_	7-7	
+7-11	to	O	O	_	_	
+7-12	the	O	O	_	_	
+7-13	library	B-ScrPart_library	O	webanno.custom.Corefchains_	1-12	
+7-14	.	O	O	_	_	
+

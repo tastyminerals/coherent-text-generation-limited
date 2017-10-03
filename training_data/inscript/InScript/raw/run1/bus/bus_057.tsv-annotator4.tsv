@@ -1,0 +1,190 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Eventsandparticipants | Event # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Today I rode the public bus to work as I usually do .
+1-1	Today	O	O	_	_	
+1-2	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-10	
+1-3	rode	O	B-Evoking	_	_	
+1-4	the	O	I-Evoking	_	_	
+1-5	public	O	I-Evoking	_	_	
+1-6	bus	B-ScrPart_bus	I-Evoking	webanno.custom.Corefchains_	2-5	
+1-7	to	O	O	_	_	
+1-8	work	B-ScrPart_destination	O	webanno.custom.Corefchains_	9-5	
+1-9	as	O	O	_	_	
+1-10	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-2	
+1-11	usually	O	O	_	_	
+1-12	do	O	B-Evoking	_	_	
+1-13	.	O	O	_	_	
+
+#id=2
+#text=Because I ride several busses daily , I had previously purchased a bus pass that allows unlimited use for the month .
+2-1	Because	O	O	_	_	
+2-2	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-8	
+2-3	ride	O	B-Evoking	_	_	
+2-4	several	O	I-Evoking	_	_	
+2-5	busses	B-ScrPart_bus	I-Evoking	webanno.custom.Corefchains_	3-19	
+2-6	daily	O	O	_	_	
+2-7	,	O	O	_	_	
+2-8	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-5	
+2-9	had	O	O	_	_	
+2-10	previously	O	O	_	_	
+2-11	purchased	O	B-ScrEv_get_ticket	_	_	
+2-12	a	O	O	_	_	
+2-13	bus	B-ScrPart_card/ticket	O	_	_	
+2-14	pass	I-ScrPart_card/ticket|B-ScrPart_card/ticket	O	webanno.custom.Corefchains_	2-15	
+2-15	that	B-ScrPart_card/ticket	O	webanno.custom.Corefchains_	3-4	
+2-16	allows	O	B-UnrelEv	_	_	
+2-17	unlimited	O	B-UnrelEv	_	_	
+2-18	use	O	O	_	_	
+2-19	for	O	O	_	_	
+2-20	the	O	O	_	_	
+2-21	month	O	O	_	_	
+2-22	.	O	O	_	_	
+
+#id=3
+#text=By having this pass I did n't need to worry about having proper change or tokens for the bus .
+3-1	By	O	O	_	_	
+3-2	having	O	B-RelNScrEv	_	_	
+3-3	this	O	O	_	_	
+3-4	pass	B-ScrPart_card/ticket	O	webanno.custom.Corefchains_	6-17	
+3-5	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-1	
+3-6	did	O	O	_	_	
+3-7	n't	O	O	_	_	
+3-8	need	O	O	_	_	
+3-9	to	O	O	_	_	
+3-10	worry	O	B-UnrelEv	_	_	
+3-11	about	O	O	_	_	
+3-12	having	O	B-UnrelEv	_	_	
+3-13	proper	O	O	_	_	
+3-14	change	B-ScrPart_money	O	_	_	
+3-15	or	O	O	_	_	
+3-16	tokens	B-ScrPart_money	O	_	_	
+3-17	for	O	O	_	_	
+3-18	the	O	O	_	_	
+3-19	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	4-7	
+3-20	.	O	O	_	_	
+
+#id=4
+#text=I checked the schedule for my bus by using '' `` Google Maps '' '' and determined that my regular bus was on schedule .
+4-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-6	
+4-2	checked	O	B-ScrEv_check_time-table	_	_	
+4-3	the	O	O	_	_	
+4-4	schedule	B-ScrPart_time-table	O	_	_	
+4-5	for	O	O	_	_	
+4-6	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-19	
+4-7	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	4-21	
+4-8	by	O	O	_	_	
+4-9	using	O	B-UnrelEv	_	_	
+4-10	''	O	O	_	_	
+4-11	``	O	O	_	_	
+4-12	Google	O	O	_	_	
+4-13	Maps	O	O	_	_	
+4-14	''	O	O	_	_	
+4-15	''	O	O	_	_	
+4-16	and	O	O	_	_	
+4-17	determined	O	B-ScrEv_check_time-table	_	_	
+4-18	that	O	O	_	_	
+4-19	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-1	
+4-20	regular	O	O	_	_	
+4-21	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	5-11	
+4-22	was	O	B-RelNScrEv	_	_	
+4-23	on	O	O	_	_	
+4-24	schedule	B-ScrPart_time/date	O	_	_	
+4-25	.	O	O	_	_	
+
+#id=5
+#text=I walked to the bus stop and saw that my bus was several blocks away .
+5-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-10	
+5-2	walked	O	B-ScrEv_get_bus_stop	_	_	
+5-3	to	O	O	_	_	
+5-4	the	O	O	_	_	
+5-5	bus	B-ScrPart_bus_stop	O	_	_	
+5-6	stop	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	_	_	
+5-7	and	O	O	_	_	
+5-8	saw	O	B-UnrelEv	_	_	
+5-9	that	O	O	_	_	
+5-10	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-5	
+5-11	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	6-3	
+5-12	was	O	B-UnrelEv	_	_	
+5-13	several	O	O	_	_	
+5-14	blocks	O	O	_	_	
+5-15	away	O	O	_	_	
+5-16	.	O	O	_	_	
+
+#id=6
+#text=When the bus arrived I boarded it after several other passengers , and then slid my pass through the card reader .
+6-1	When	O	O	_	_	
+6-2	the	O	O	_	_	
+6-3	bus	B-ScrPart_bus	O	webanno.custom.Corefchains_	6-7	
+6-4	arrived	O	B-ScrEv_bus_comes	_	_	
+6-5	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-16	
+6-6	boarded	O	B-ScrEv_board_bus	_	_	
+6-7	it	B-ScrPart_bus	O	webanno.custom.Corefchains_	8-2	
+6-8	after	O	O	_	_	
+6-9	several	O	O	_	_	
+6-10	other	O	O	_	_	
+6-11	passengers	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-10	
+6-12	,	O	O	_	_	
+6-13	and	O	O	_	_	
+6-14	then	O	O	_	_	
+6-15	slid	O	B-ScrEv_get_ticket	_	_	
+6-16	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-7	
+6-17	pass	B-ScrPart_card/ticket	O	_	_	
+6-18	through	O	O	_	_	
+6-19	the	O	O	_	_	
+6-20	card	B-ScrPart_payment_machine	O	_	_	
+6-21	reader	I-ScrPart_payment_machine|B-ScrPart_payment_machine	O	_	_	
+6-22	.	O	O	_	_	
+
+#id=7
+#text=There were several seats available and I selected the first one I came to .
+7-1	There	O	O	_	_	
+7-2	were	O	B-UnrelEv	_	_	
+7-3	several	O	O	_	_	
+7-4	seats	B-ScrPart_seat_in_bus	O	webanno.custom.Corefchains_	7-11	
+7-5	available	O	O	_	_	
+7-6	and	O	O	_	_	
+7-7	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-12	
+7-8	selected	O	B-ScrEv_find_place	_	_	
+7-9	the	O	O	_	_	
+7-10	first	O	O	_	_	
+7-11	one	B-ScrPart_seat_in_bus	O	_	_	
+7-12	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-2	
+7-13	came	O	B-UnrelEv	_	_	
+7-14	to	O	I-UnrelEv	_	_	
+7-15	.	O	O	_	_	
+
+#id=8
+#text=The bus continued on schedule along the route with passengers departing and boarding .
+8-1	The	O	O	_	_	
+8-2	bus	B-ScrPart_bus	O	_	_	
+8-3	continued	O	B-???	_	_	
+8-4	on	O	O	_	_	
+8-5	schedule	B-ScrPart_time/date	O	_	_	
+8-6	along	O	O	_	_	
+8-7	the	O	O	_	_	
+8-8	route	O	O	_	_	
+8-9	with	O	O	_	_	
+8-10	passengers	B-ScrPart_passenger	O	_	_	
+8-11	departing	O	B-ScrEv_get_off	_	_	
+8-12	and	O	O	_	_	
+8-13	boarding	O	B-ScrEv_board_bus	_	_	
+8-14	.	O	O	_	_	
+
+#id=9
+#text=When I arrived at work I gathered all of my personal belongings and disembarked . 
+9-1	When	O	O	_	_	
+9-2	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-6	
+9-3	arrived	O	B-ScrEv_bus_stops	_	_	
+9-4	at	O	O	_	_	
+9-5	work	B-ScrPart_destination	O	_	_	
+9-6	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-10	
+9-7	gathered	O	B-RelNScrEv	_	_	
+9-8	all	O	O	_	_	
+9-9	of	O	O	_	_	
+9-10	my	B-ScrPart_passenger	O	_	_	
+9-11	personal	O	O	_	_	
+9-12	belongings	B-NPart	O	_	_	
+9-13	and	O	O	_	_	
+9-14	disembarked	O	B-ScrEv_get_off	_	_	
+9-15	.	O	O	_	_	
+

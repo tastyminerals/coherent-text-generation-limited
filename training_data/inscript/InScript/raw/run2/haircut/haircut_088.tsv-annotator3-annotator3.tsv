@@ -1,0 +1,249 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=A couple of days ago I decided my hair was getting a little to long , so I went to get my hair cut .
+1-1	A	O	O	
+1-2	couple	B-Head_of_Partitive	O	
+1-3	of	O	O	
+1-4	days	B-ScrPart_time/date	O	
+1-5	ago	O	O	
+1-6	I	B-ScrPart_customer	O	
+1-7	decided	O	B-UnrelEv	
+1-8	my	B-ScrPart_customer	O	
+1-9	hair	B-ScrPart_hair	O	
+1-10	was	O	O	
+1-11	getting	O	B-UnrelEv	
+1-12	a	O	O	
+1-13	little	O	O	
+1-14	to	O	O	
+1-15	long	O	O	
+1-16	,	O	O	
+1-17	so	O	O	
+1-18	I	B-ScrPart_customer	O	
+1-19	went	O	B-UnrelEv	
+1-20	to	O	O	
+1-21	get	O	B-Evoking	
+1-22	my	B-ScrPart_customer	I-Evoking	
+1-23	hair	B-ScrPart_hair	I-Evoking	
+1-24	cut	O	I-Evoking	
+1-25	.	O	O	
+
+#id=2
+#text=I go to an old-fashioned barber , not a hair salon , so I did n't need to make an appointment .
+2-1	I	B-ScrPart_customer	O	
+2-2	go	O	B-ScrEv_get_salon	
+2-3	to	O	O	
+2-4	an	O	O	
+2-5	old-fashioned	O	O	
+2-6	barber	B-ScrPart_salon	O	
+2-7	,	O	O	
+2-8	not	O	O	
+2-9	a	O	O	
+2-10	hair	B-ScrPart_salon	O	
+2-11	salon	I-ScrPart_salon|B-ScrPart_salon	O	
+2-12	,	O	O	
+2-13	so	O	O	
+2-14	I	B-ScrPart_customer	O	
+2-15	did	O	O	
+2-16	n't	O	O	
+2-17	need	O	O	
+2-18	to	O	O	
+2-19	make	O	B-ScrEv_make_appointment	
+2-20	an	O	O	
+2-21	appointment	B-ScrPart_appointment	O	
+2-22	.	O	O	
+
+#id=3
+#text=I just drove there , parked and walked in the door .
+3-1	I	B-ScrPart_customer	O	
+3-2	just	O	O	
+3-3	drove	O	B-ScrEv_get_salon	
+3-4	there	B-ScrPart_salon	O	
+3-5	,	O	O	
+3-6	parked	O	B-UnrelEv	
+3-7	and	O	O	
+3-8	walked	O	B-ScrEv_enter	
+3-9	in	O	O	
+3-10	the	O	O	
+3-11	door	B-NPart	O	
+3-12	.	O	O	
+
+#id=4
+#text=There was only one person ahead of me , so I did n't have to wait too long .
+4-1	There	O	O	
+4-2	was	O	B-UnrelEv	
+4-3	only	O	O	
+4-4	one	O	O	
+4-5	person	B-ScrPart_customer	O	
+4-6	ahead	O	O	
+4-7	of	O	O	
+4-8	me	B-ScrPart_customer	O	
+4-9	,	O	O	
+4-10	so	O	O	
+4-11	I	B-ScrPart_customer	O	
+4-12	did	O	O	
+4-13	n't	O	O	
+4-14	have	O	O	
+4-15	to	O	O	
+4-16	wait	O	B-ScrEv_wait	
+4-17	too	O	O	
+4-18	long	O	O	
+4-19	.	O	O	
+
+#id=5
+#text=I read a magazine while he finished the other person , then got into the chair .
+5-1	I	B-ScrPart_customer	O	
+5-2	read	O	B-RelNScrEv	
+5-3	a	O	O	
+5-4	magazine	B-ScrPart_entertainment	O	
+5-5	while	O	O	
+5-6	he	B-ScrPart_hairdresser	O	
+5-7	finished	O	B-RelNScrEv	
+5-8	the	O	O	
+5-9	other	O	O	
+5-10	person	B-ScrPart_customer	O	
+5-11	,	O	O	
+5-12	then	O	O	
+5-13	got	O	B-ScrEv_sit_down	
+5-14	into	O	O	
+5-15	the	O	O	
+5-16	chair	B-ScrPart_chair	O	
+5-17	.	O	O	
+
+#id=6
+#text=As usual , he asked how I wanted it cut and I told him to do it the same way as always .
+6-1	As	O	O	
+6-2	usual	O	O	
+6-3	,	O	O	
+6-4	he	B-ScrPart_hairdresser	O	
+6-5	asked	O	B-ScrEv_talk_haircut	
+6-6	how	O	O	
+6-7	I	B-ScrPart_customer	O	
+6-8	wanted	O	B-RelNScrEv	
+6-9	it	B-ScrPart_hair	O	
+6-10	cut	O	B-ScrEv_cut	
+6-11	and	O	O	
+6-12	I	B-ScrPart_customer	O	
+6-13	told	O	B-ScrEv_talk_haircut	
+6-14	him	B-ScrPart_hairdresser	O	
+6-15	to	O	O	
+6-16	do	O	B-UnrelEv	
+6-17	it	B-No_label	O	
+6-18	the	O	O	
+6-19	same	O	O	
+6-20	way	B-No_label	O	
+6-21	as	O	O	
+6-22	always	O	O	
+6-23	.	O	O	
+
+#id=7
+#text=Maybe someday I 'll surprise him and ask for a mohawk or something , but not today .
+7-1	Maybe	O	O	
+7-2	someday	B-No_label	O	
+7-3	I	B-ScrPart_customer	O	
+7-4	'll	O	O	
+7-5	surprise	O	B-UnrelEv	
+7-6	him	B-ScrPart_hairdresser	O	
+7-7	and	O	O	
+7-8	ask	O	B-UnrelEv	
+7-9	for	O	O	
+7-10	a	O	O	
+7-11	mohawk	B-ScrPart_haircut	O	
+7-12	or	O	O	
+7-13	something	B-NPart	O	
+7-14	,	O	O	
+7-15	but	O	O	
+7-16	not	O	O	
+7-17	today	B-ScrPart_time/date	O	
+7-18	.	O	O	
+
+#id=8
+#text=He went to work with the scissors while we talked a little about sports teams .
+8-1	He	B-ScrPart_hairdresser	O	
+8-2	went	O	B-RelNScrEv	
+8-3	to	O	O	
+8-4	work	B-SuppVComp	O	
+8-5	with	O	O	
+8-6	the	O	O	
+8-7	scissors	B-ScrPart_scissors	O	
+8-8	while	O	O	
+8-9	we	B-ScrPart_hairdresser_customer	O	
+8-10	talked	O	B-ScrEv_small_talk	
+8-11	a	O	O	
+8-12	little	O	O	
+8-13	about	O	O	
+8-14	sports	B-NPart	O	
+8-15	teams	I-NPart|B-NPart	O	
+8-16	.	O	O	
+
+#id=9
+#text=It did n't take too long before he was done with the cutting and used the electric trimmer to make everything neat .
+9-1	It	B-No_label	O	
+9-2	did	O	O	
+9-3	n't	O	O	
+9-4	take	O	B-RelNScrEv	
+9-5	too	O	O	
+9-6	long	O	O	
+9-7	before	O	O	
+9-8	he	B-ScrPart_hairdresser	O	
+9-9	was	O	O	
+9-10	done	O	B-RelNScrEv	
+9-11	with	O	O	
+9-12	the	O	O	
+9-13	cutting	O	B-ScrEv_cut	
+9-14	and	O	O	
+9-15	used	O	B-RelNScrEv	
+9-16	the	O	O	
+9-17	electric	B-ScrPart_other	O	
+9-18	trimmer	I-ScrPart_other|B-ScrPart_other	O	
+9-19	to	O	O	
+9-20	make	O	B-RelNScrEv	
+9-21	everything	B-NPart	O	
+9-22	neat	O	O	
+9-23	.	O	O	
+
+#id=10
+#text=I go to an old enough barber that he actually finishes up with a hot towel and neck massage , which is always nice .
+10-1	I	B-ScrPart_customer	O	
+10-2	go	O	B-RelNScrEv	
+10-3	to	O	O	
+10-4	an	O	O	
+10-5	old	O	O	
+10-6	enough	O	O	
+10-7	barber	B-ScrPart_hairdresser	O	
+10-8	that	O	O	
+10-9	he	B-ScrPart_hairdresser	O	
+10-10	actually	O	O	
+10-11	finishes	O	B-RelNScrEv	
+10-12	up	O	O	
+10-13	with	O	O	
+10-14	a	O	O	
+10-15	hot	O	O	
+10-16	towel	B-ScrPart_towel	O	
+10-17	and	O	O	
+10-18	neck	B-NPart	O	
+10-19	massage	B-NPart	O	
+10-20	,	O	O	
+10-21	which	O	O	
+10-22	is	O	B-UnrelEv	
+10-23	always	O	O	
+10-24	nice	O	O	
+10-25	.	O	O	
+
+#id=11
+#text=I paid him and headed home a lot neater looking then I was before . 
+11-1	I	B-ScrPart_customer	O	
+11-2	paid	O	B-ScrEv_pay	
+11-3	him	B-ScrPart_hairdresser	O	
+11-4	and	O	O	
+11-5	headed	O	B-ScrEv_leave	
+11-6	home	B-SuppVComp	O	
+11-7	a	O	O	
+11-8	lot	B-NPart	O	
+11-9	neater	O	O	
+11-10	looking	O	B-UnrelEv	
+11-11	then	O	O	
+11-12	I	B-ScrPart_customer	O	
+11-13	was	O	B-UnrelEv	
+11-14	before	O	O	
+11-15	.	O	O	
+

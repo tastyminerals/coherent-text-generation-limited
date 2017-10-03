@@ -1,0 +1,198 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I went out to my garage to get my bike to go on a ride .
+1-1	I	B-ScrPart_rider	O	_	_	
+1-2	went	O	B-UnrelEv	_	_	
+1-3	out	O	O	_	_	
+1-4	to	O	O	_	_	
+1-5	my	B-ScrPart_rider	O	_	_	
+1-6	garage	B-NPart	O	_	_	
+1-7	to	O	O	_	_	
+1-8	get	O	B-RelNScrEv	_	_	
+1-9	my	B-ScrPart_rider	O	_	_	
+1-10	bike	B-ScrPart_bicycle	O	_	_	
+1-11	to	O	O	_	_	
+1-12	go	O	B-ScrEv_ride_bike	_	_	
+1-13	on	O	O	_	_	
+1-14	a	O	O	_	_	
+1-15	ride	B-ScrPart_ride	O	_	_	
+1-16	.	O	O	_	_	
+
+#id=2
+#text=When I saw my bike I realized that one of the tires were flat .
+2-1	When	O	O	_	_	
+2-2	I	B-ScrPart_rider	O	_	_	
+2-3	saw	O	B-RelNScrEv	_	_	
+2-4	my	B-ScrPart_rider	O	_	_	
+2-5	bike	B-ScrPart_bicycle	O	_	_	
+2-6	I	B-ScrPart_rider	O	_	_	
+2-7	realized	O	B-ScrEv_notice_problem	_	_	
+2-8	that	O	O	_	_	
+2-9	one	O	O	_	_	
+2-10	of	O	O	_	_	
+2-11	the	O	O	_	_	
+2-12	tires	B-ScrPart_tire	O	_	_	
+2-13	were	O	B-UnrelEv	_	_	
+2-14	flat	O	O	_	_	
+2-15	.	O	O	_	_	
+
+#id=3
+#text=I needed to buy a new tube in order to fix the flat .
+3-1	I	B-ScrPart_rider	O	_	_	
+3-2	needed	O	O	_	_	
+3-3	to	O	O	_	_	
+3-4	buy	O	B-ScrEv_get_tire	_	_	
+3-5	a	O	O	_	_	
+3-6	new	O	O	_	_	
+3-7	tube	B-ScrPart_spare_tube	O	_	_	
+3-8	in	O	O	_	_	
+3-9	order	O	O	_	_	
+3-10	to	O	O	_	_	
+3-11	fix	O	B-Evoking	_	_	
+3-12	the	O	I-Evoking	_	_	
+3-13	flat	B-ScrPart_tire	I-Evoking	_	_	
+3-14	.	O	O	_	_	
+
+#id=4
+#text=I drove to the local bike shop and purchased a tube that would fit my bike 's tire and then I drove back home .
+4-1	I	B-ScrPart_rider	O	_	_	
+4-2	drove	O	B-RelNScrEv	_	_	
+4-3	to	O	O	_	_	
+4-4	the	O	O	_	_	
+4-5	local	O	O	_	_	
+4-6	bike	B-ScrPart_shop	O	_	_	
+4-7	shop	I-ScrPart_shop|B-ScrPart_shop	O	_	_	
+4-8	and	O	O	_	_	
+4-9	purchased	O	B-ScrEv_get_tire	_	_	
+4-10	a	O	O	_	_	
+4-11	tube	B-ScrPart_spare_tube	O	_	_	
+4-12	that	B-ScrPart_spare_tube	O	_	_	
+4-13	would	O	O	_	_	
+4-14	fit	O	B-RelNScrEv	_	_	
+4-15	my	B-ScrPart_rider	O	_	_	
+4-16	bike	B-ScrPart_bicycle	O	_	_	
+4-17	's	O	O	_	_	
+4-18	tire	B-ScrPart_tire	O	_	_	
+4-19	and	O	O	_	_	
+4-20	then	O	O	_	_	
+4-21	I	B-ScrPart_rider	O	_	_	
+4-22	drove	O	B-RelNScrEv	_	_	
+4-23	back	O	O	_	_	
+4-24	home	B-NPart	O	_	_	
+4-25	.	O	O	_	_	
+
+#id=5
+#text=I took the tube out of the packaging and read the instructions on how to put it on the bike .
+5-1	I	B-ScrPart_rider	O	_	_	
+5-2	took	O	B-ScrEv_get_tire	_	_	
+5-3	the	O	O	_	_	
+5-4	tube	B-ScrPart_spare_tube	O	_	_	
+5-5	out	O	O	_	_	
+5-6	of	O	O	_	_	
+5-7	the	O	O	_	_	
+5-8	packaging	B-NPart	O	_	_	
+5-9	and	O	O	_	_	
+5-10	read	O	B-RelNScrEv	_	_	
+5-11	the	O	O	_	_	
+5-12	instructions	B-NPart	O	_	_	
+5-13	on	O	O	_	_	
+5-14	how	O	O	_	_	
+5-15	to	O	O	_	_	
+5-16	put	O	B-ScrEv_put_new_tire	_	_	
+5-17	it	B-ScrPart_spare_tube	O	_	_	
+5-18	on	O	O	_	_	
+5-19	the	O	O	_	_	
+5-20	bike	B-ScrPart_bicycle	O	_	_	
+5-21	.	O	O	_	_	
+
+#id=6
+#text=I removed the tire from the bike and took out the old tube that was punctured .
+6-1	I	B-ScrPart_rider	O	_	_	
+6-2	removed	O	B-ScrEv_take_tire_off	_	_	
+6-3	the	O	O	_	_	
+6-4	tire	B-ScrPart_tire	O	_	_	
+6-5	from	O	O	_	_	
+6-6	the	O	O	_	_	
+6-7	bike	B-ScrPart_bicycle	O	_	_	
+6-8	and	O	O	_	_	
+6-9	took	O	B-ScrEv_remove_tire	_	_	
+6-10	out	O	O	_	_	
+6-11	the	O	O	_	_	
+6-12	old	O	O	_	_	
+6-13	tube	B-ScrPart_tire	O	_	_	
+6-14	that	B-ScrPart_tire	O	_	_	
+6-15	was	O	O	_	_	
+6-16	punctured	O	B-RelNScrEv	_	_	
+6-17	.	O	O	_	_	
+
+#id=7
+#text=I then inserted the new tube onto the tire .
+7-1	I	B-ScrPart_rider	O	_	_	
+7-2	then	O	O	_	_	
+7-3	inserted	O	B-ScrEv_put_new_tire	_	_	
+7-4	the	O	O	_	_	
+7-5	new	O	O	_	_	
+7-6	tube	B-ScrPart_spare_tube	O	_	_	
+7-7	onto	O	O	_	_	
+7-8	the	O	O	_	_	
+7-9	tire	B-ScrPart_tire	O	_	_	
+7-10	.	O	O	_	_	
+
+#id=8
+#text=I put the tire back on the bike and pumped up the tube with air until it was filled to the desired fill weight .
+8-1	I	B-ScrPart_rider	O	_	_	
+8-2	put	O	B-ScrEv_put_new_tire	_	_	
+8-3	the	O	O	_	_	
+8-4	tire	B-ScrPart_tire	O	_	_	
+8-5	back	O	O	_	_	
+8-6	on	O	O	_	_	
+8-7	the	O	O	_	_	
+8-8	bike	B-ScrPart_bicycle	O	_	_	
+8-9	and	O	O	_	_	
+8-10	pumped	O	B-ScrEv_refill_tire_air	_	_	
+8-11	up	O	I-ScrEv_refill_tire_air	_	_	
+8-12	the	O	O	_	_	
+8-13	tube	B-ScrPart_tire	O	_	_	
+8-14	with	O	O	_	_	
+8-15	air	B-ScrPart_air	O	_	_	
+8-16	until	O	O	_	_	
+8-17	it	B-ScrPart_tire	O	_	_	
+8-18	was	O	O	_	_	
+8-19	filled	O	B-ScrEv_refill_tire_air	_	_	
+8-20	to	O	O	_	_	
+8-21	the	O	O	_	_	
+8-22	desired	O	B-UnrelEv	_	_	
+8-23	fill	B-NPart	O	_	_	
+8-24	weight	I-NPart|B-NPart	O	_	_	
+8-25	.	O	O	_	_	
+
+#id=9
+#text=I got on the bike to test it and it was in great shape .
+9-1	I	B-ScrPart_rider	O	_	_	
+9-2	got	O	B-RelNScrEv	_	_	
+9-3	on	O	O	_	_	
+9-4	the	O	O	_	_	
+9-5	bike	B-ScrPart_bicycle	O	_	_	
+9-6	to	O	O	_	_	
+9-7	test	O	B-ScrEv_check_new_tire	_	_	
+9-8	it	B-ScrPart_bicycle	O	_	_	
+9-9	and	O	O	_	_	
+9-10	it	B-ScrPart_bicycle	O	_	_	
+9-11	was	O	B-UnrelEv	_	_	
+9-12	in	O	O	_	_	
+9-13	great	O	O	_	_	
+9-14	shape	B-NPart	O	_	_	
+9-15	.	O	O	_	_	
+
+#id=10
+#text=Then I took off on my bike ride . 
+10-1	Then	O	O	_	_	
+10-2	I	B-ScrPart_rider	O	_	_	
+10-3	took	O	B-ScrEv_ride_bike	_	_	
+10-4	off	O	I-ScrEv_ride_bike	_	_	
+10-5	on	O	O	_	_	
+10-6	my	B-ScrPart_rider	O	_	_	
+10-7	bike	B-ScrPart_ride	O	_	_	
+10-8	ride	I-ScrPart_ride|B-ScrPart_ride	O	webanno.custom.Corefchains_	1-15	
+10-9	.	O	O	_	_	
+

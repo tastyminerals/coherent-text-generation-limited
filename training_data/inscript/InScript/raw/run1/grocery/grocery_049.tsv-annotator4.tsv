@@ -1,0 +1,242 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=We were all out of food for the week , so I drove to the grocery store to pick up some supplies .
+1-1	We	O	O	_	_	
+1-2	were	B-RelNScrEv	O	_	_	
+1-3	all	O	O	_	_	
+1-4	out	O	O	_	_	
+1-5	of	O	O	_	_	
+1-6	food	O	B-ScrPart_groceries	webanno.custom.Corefchains_	1-22	
+1-7	for	O	O	_	_	
+1-8	the	O	O	_	_	
+1-9	week	O	O	_	_	
+1-10	,	O	O	_	_	
+1-11	so	O	O	_	_	
+1-12	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	2-1	
+1-13	drove	B-ScrEv_go_grocery	O	_	_	
+1-14	to	O	O	_	_	
+1-15	the	O	O	_	_	
+1-16	grocery	O	B-ScrPart_grocery_shop	_	_	
+1-17	store	O	I-ScrPart_grocery_shop|B-ScrPart_grocery_shop	webanno.custom.Corefchains_	2-4	
+1-18	to	O	O	_	_	
+1-19	pick	B-Evoking	O	_	_	
+1-20	up	I-Evoking	O	_	_	
+1-21	some	I-Evoking	O	_	_	
+1-22	supplies	I-Evoking	B-ScrPart_groceries	webanno.custom.Corefchains_	9-11	
+1-23	.	O	O	_	_	
+
+#id=2
+#text=I entered the store and grabbed a grocery cart , wheeling down the aisle before me .
+2-1	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	2-16	
+2-2	entered	B-ScrEv_enter	O	_	_	
+2-3	the	O	O	_	_	
+2-4	store	O	B-ScrPart_grocery_shop	_	_	
+2-5	and	O	O	_	_	
+2-6	grabbed	B-ScrEv_take_shop_cart	O	_	_	
+2-7	a	O	O	_	_	
+2-8	grocery	O	B-ScrPart_shopping_cart/basket	_	_	
+2-9	cart	O	I-ScrPart_shopping_cart/basket|B-ScrPart_shopping_cart/basket	webanno.custom.Corefchains_	9-4	
+2-10	,	O	O	_	_	
+2-11	wheeling	B-ScrEv_move_section	O	_	_	
+2-12	down	I-ScrEv_move_section	O	_	_	
+2-13	the	O	O	_	_	
+2-14	aisle	O	B-ScrPart_section	_	_	
+2-15	before	O	O	_	_	
+2-16	me	O	B-ScrPart_shopper	webanno.custom.Corefchains_	3-1	
+2-17	.	O	O	_	_	
+
+#id=3
+#text=I started by grabbing some fresh fruits and vegetables - apples , lettuce , carrots and celery .
+3-1	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	4-2	
+3-2	started	B-UnrelEv	O	_	_	
+3-3	by	O	O	_	_	
+3-4	grabbing	B-ScrEv_get_groceries	O	_	_	
+3-5	some	O	O	_	_	
+3-6	fresh	O	O	_	_	
+3-7	fruits	O	B-ScrPart_groceries	webanno.custom.Corefchains_	3-11	
+3-8	and	O	O	_	_	
+3-9	vegetables	O	B-ScrPart_groceries	webanno.custom.Corefchains_|webanno.custom.Corefchains_|webanno.custom.Corefchains_	3-17|3-15|3-13	
+3-10	-	O	O	_	_	
+3-11	apples	O	B-ScrPart_groceries	_	_	
+3-12	,	O	O	_	_	
+3-13	lettuce	O	B-ScrPart_groceries	_	_	
+3-14	,	O	O	_	_	
+3-15	carrots	O	B-ScrPart_groceries	_	_	
+3-16	and	O	O	_	_	
+3-17	celery	O	B-ScrPart_groceries	_	_	
+3-18	.	O	O	_	_	
+
+#id=4
+#text=Then I went on the dairy aisle .
+4-1	Then	O	O	_	_	
+4-2	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	5-1	
+4-3	went	B-ScrEv_move_section	O	_	_	
+4-4	on	O	O	_	_	
+4-5	the	O	O	_	_	
+4-6	dairy	O	B-ScrPart_section	_	_	
+4-7	aisle	O	I-ScrPart_section|B-ScrPart_section	_	_	
+4-8	.	O	O	_	_	
+
+#id=5
+#text=I got a gallon of milk and a dozen eggs .
+5-1	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	6-2	
+5-2	got	B-ScrEv_get_groceries	O	_	_	
+5-3	a	O	O	_	_	
+5-4	gallon	O	O	_	_	
+5-5	of	O	O	_	_	
+5-6	milk	O	B-ScrPart_groceries	_	_	
+5-7	and	O	O	_	_	
+5-8	a	O	O	_	_	
+5-9	dozen	O	O	_	_	
+5-10	eggs	O	B-ScrPart_groceries	_	_	
+5-11	.	O	O	_	_	
+
+#id=6
+#text=Then I decided to get some lunch eat , so I got a package of ham and a package of turkey .
+6-1	Then	O	O	_	_	
+6-2	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	6-11	
+6-3	decided	B-UnrelEv	O	_	_	
+6-4	to	O	O	_	_	
+6-5	get	B-ScrEv_get_groceries	O	_	_	
+6-6	some	O	O	_	_	
+6-7	lunch	O	B-ScrPart_groceries	_	_	
+6-8	eat	O	I-ScrPart_groceries|B-ScrPart_groceries	_	_	
+6-9	,	O	O	_	_	
+6-10	so	O	O	_	_	
+6-11	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	7-1	
+6-12	got	B-ScrEv_get_groceries	O	_	_	
+6-13	a	O	O	_	_	
+6-14	package	O	O	_	_	
+6-15	of	O	O	_	_	
+6-16	ham	O	B-ScrPart_groceries	_	_	
+6-17	and	O	O	_	_	
+6-18	a	O	O	_	_	
+6-19	package	O	O	_	_	
+6-20	of	O	O	_	_	
+6-21	turkey	O	B-ScrPart_groceries	_	_	
+6-22	.	O	O	_	_	
+
+#id=7
+#text=I would need bread , so I went to the bread aisle and got a loaf of whole wheat .
+7-1	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	7-7	
+7-2	would	O	O	_	_	
+7-3	need	B-RelNScrEv	O	_	_	
+7-4	bread	O	B-ScrPart_groceries	webanno.custom.Corefchains_	7-19	
+7-5	,	O	O	_	_	
+7-6	so	O	O	_	_	
+7-7	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	8-3	
+7-8	went	B-ScrEv_move_section	O	_	_	
+7-9	to	O	O	_	_	
+7-10	the	O	O	_	_	
+7-11	bread	O	B-ScrPart_section	_	_	
+7-12	aisle	O	I-ScrPart_section|B-ScrPart_section	_	_	
+7-13	and	O	O	_	_	
+7-14	got	B-ScrEv_get_groceries	O	_	_	
+7-15	a	O	O	_	_	
+7-16	loaf	O	O	_	_	
+7-17	of	O	O	_	_	
+7-18	whole	O	B-ScrPart_groceries	_	_	
+7-19	wheat	O	I-ScrPart_groceries|B-ScrPart_groceries	_	_	
+7-20	.	O	O	_	_	
+
+#id=8
+#text=Finally , I grabbed a box of cereal - corn flakes , my favorite .
+8-1	Finally	O	O	_	_	
+8-2	,	O	O	_	_	
+8-3	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	8-13	
+8-4	grabbed	B-ScrEv_get_groceries	O	_	_	
+8-5	a	O	O	_	_	
+8-6	box	O	O	_	_	
+8-7	of	O	O	_	_	
+8-8	cereal	O	B-ScrPart_groceries	webanno.custom.Corefchains_	8-11	
+8-9	-	O	O	_	_	
+8-10	corn	O	B-ScrPart_groceries	_	_	
+8-11	flakes	O	I-ScrPart_groceries|B-ScrPart_groceries	_	_	
+8-12	,	O	O	_	_	
+8-13	my	O	B-ScrPart_shopper	webanno.custom.Corefchains_	9-1	
+8-14	favorite	O	O	_	_	
+8-15	.	O	O	_	_	
+
+#id=9
+#text=I wheeled my cart to the checkout and put my groceries on the small conveyor belt .
+9-1	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	9-3	
+9-2	wheeled	B-ScrEv_move_section	O	_	_	
+9-3	my	O	B-ScrPart_shopper	webanno.custom.Corefchains_	9-10	
+9-4	cart	O	B-ScrPart_shopping_cart/basket	_	_	
+9-5	to	O	O	_	_	
+9-6	the	O	O	_	_	
+9-7	checkout	O	B-ScrPart_cash_desk	_	_	
+9-8	and	O	O	_	_	
+9-9	put	B-ScrEv_put_conveyor	O	_	_	
+9-10	my	O	B-ScrPart_shopper	webanno.custom.Corefchains_	10-9	
+9-11	groceries	O	B-ScrPart_groceries	webanno.custom.Corefchains_	10-5	
+9-12	on	O	O	_	_	
+9-13	the	O	O	_	_	
+9-14	small	O	O	_	_	
+9-15	conveyor	O	B-ScrPart_conveyor_belt	_	_	
+9-16	belt	O	I-ScrPart_conveyor_belt|B-ScrPart_conveyor_belt	_	_	
+9-17	.	O	O	_	_	
+
+#id=10
+#text=The cashier scanned each item and then read my total : $ 40.52 .
+10-1	The	O	O	_	_	
+10-2	cashier	O	B-ScrPart_grocery_staff	webanno.custom.Corefchains_	11-3	
+10-3	scanned	B-ScrEv_cashier_scan/weight	O	_	_	
+10-4	each	O	O	_	_	
+10-5	item	O	B-ScrPart_groceries	webanno.custom.Corefchains_	12-9	
+10-6	and	O	O	_	_	
+10-7	then	O	O	_	_	
+10-8	read	B-ScrEv_pay	O	_	_	
+10-9	my	O	B-ScrPart_shopper	webanno.custom.Corefchains_	11-1	
+10-10	total	O	B-???	_	_	
+10-11	:	O	O	_	_	
+10-12	$	O	O	_	_	
+10-13	40.52	O	O	_	_	
+10-14	.	O	O	_	_	
+
+#id=11
+#text=I gave her two twenty dollar bills , two quarters and two pennies .
+11-1	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	12-3	
+11-2	gave	B-ScrEv_pay	O	_	_	
+11-3	her	O	B-ScrPart_grocery_staff	webanno.custom.Corefchains_	12-1	
+11-4	two	O	O	_	_	
+11-5	twenty	O	B-ScrPart_payment_means	_	_	
+11-6	dollar	O	I-ScrPart_payment_means	_	_	
+11-7	bills	O	I-ScrPart_payment_means	_	_	
+11-8	,	O	I-ScrPart_payment_means	_	_	
+11-9	two	O	I-ScrPart_payment_means	_	_	
+11-10	quarters	O	I-ScrPart_payment_means	_	_	
+11-11	and	O	I-ScrPart_payment_means	_	_	
+11-12	two	O	I-ScrPart_payment_means	_	_	
+11-13	pennies	O	I-ScrPart_payment_means	_	_	
+11-14	.	O	O	_	_	
+
+#id=12
+#text=She gave me a receipt , put my food into two plastic bags .
+12-1	She	O	B-ScrPart_grocery_staff	_	_	
+12-2	gave	B-ScrEv_get_receipt	O	_	_	
+12-3	me	O	B-ScrPart_shopper	webanno.custom.Corefchains_	12-8	
+12-4	a	O	O	_	_	
+12-5	receipt	O	B-ScrPart_receipt	_	_	
+12-6	,	O	O	_	_	
+12-7	put	B-ScrEv_pack_groceries	O	_	_	
+12-8	my	O	B-ScrPart_shopper	webanno.custom.Corefchains_	13-1	
+12-9	food	O	B-ScrPart_groceries	_	_	
+12-10	into	O	O	_	_	
+12-11	two	O	O	_	_	
+12-12	plastic	O	B-ScrPart_packing	_	_	
+12-13	bags	O	I-ScrPart_packing|B-ScrPart_packing	webanno.custom.Corefchains_	13-3	
+12-14	.	O	O	_	_	
+
+#id=13
+#text=I grabbed them and was on my way . 
+13-1	I	O	B-ScrPart_shopper	webanno.custom.Corefchains_	13-7	
+13-2	grabbed	B-RelNScrEv	O	_	_	
+13-3	them	O	B-ScrPart_packing	_	_	
+13-4	and	O	O	_	_	
+13-5	was	B-ScrEv_leave	O	_	_	
+13-6	on	O	O	_	_	
+13-7	my	O	B-ScrPart_shopper	_	_	
+13-8	way	O	O	_	_	
+13-9	.	O	O	_	_	
+

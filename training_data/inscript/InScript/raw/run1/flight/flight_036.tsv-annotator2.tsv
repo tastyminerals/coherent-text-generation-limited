@@ -1,0 +1,197 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant | Participants # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Flying in an airplane for the first time can be a wonderful experience .
+1-1	Flying	B-Evoking	O	O	_	_	
+1-2	in	I-Evoking	O	O	_	_	
+1-3	an	I-Evoking	O	O	_	_	
+1-4	airplane	I-Evoking	B-webanno.custom.Participants_	B-ScrPart_plane	_	_	
+1-5	for	O	O	O	_	_	
+1-6	the	O	O	O	_	_	
+1-7	first	O	O	O	_	_	
+1-8	time	O	O	O	_	_	
+1-9	can	O	O	O	_	_	
+1-10	be	B-UnrelEv	O	O	_	_	
+1-11	a	O	O	O	_	_	
+1-12	wonderful	O	O	O	_	_	
+1-13	experience	O	O	O	_	_	
+1-14	.	O	O	O	_	_	
+
+#id=2
+#text=Once you are all settled into your seat you will hear all the safety messages .
+2-1	Once	O	O	O	_	_	
+2-2	you	O	B-webanno.custom.Participants_	B-ScrPart_passenger	_	_	
+2-3	are	O	O	O	_	_	
+2-4	all	O	O	O	_	_	
+2-5	settled	B-ScrEv_take_seat	O	O	_	_	
+2-6	into	O	O	O	_	_	
+2-7	your	O	O	O	_	_	
+2-8	seat	O	B-webanno.custom.Participants_	B-ScrPart_seat	_	_	
+2-9	you	O	B-webanno.custom.Participants_	B-ScrPart_passenger	webanno.custom.Corefchains_	2-2	
+2-10	will	O	O	O	_	_	
+2-11	hear	B-ScrEv_listen_crew	O	O	_	_	
+2-12	all	O	O	O	_	_	
+2-13	the	O	O	O	_	_	
+2-14	safety	O	B-webanno.custom.Participants_	B-NPart	_	_	
+2-15	messages	O	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-NPart|B-NPart	_	_	
+2-16	.	O	O	O	_	_	
+
+#id=3
+#text=These tend to be pretty boring but every now and then an airline will give the safety messages some new twist or humor .
+3-1	These	O	O	O	_	_	
+3-2	tend	O	O	O	_	_	
+3-3	to	O	O	O	_	_	
+3-4	be	B-UnrelEv	O	O	_	_	
+3-5	pretty	O	O	O	_	_	
+3-6	boring	O	O	O	_	_	
+3-7	but	O	O	O	_	_	
+3-8	every	O	O	O	_	_	
+3-9	now	O	O	O	_	_	
+3-10	and	O	O	O	_	_	
+3-11	then	O	O	O	_	_	
+3-12	an	O	O	O	_	_	
+3-13	airline	O	O	O	_	_	
+3-14	will	O	O	O	_	_	
+3-15	give	B-UnrelEv	O	O	_	_	
+3-16	the	O	O	O	_	_	
+3-17	safety	O	O	O	_	_	
+3-18	messages	O	O	O	_	_	
+3-19	some	O	O	O	_	_	
+3-20	new	O	O	O	_	_	
+3-21	twist	O	O	O	_	_	
+3-22	or	O	O	O	_	_	
+3-23	humor	O	O	O	_	_	
+3-24	.	O	O	O	_	_	
+
+#id=4
+#text=During the safety briefing , the plane will be heading towards the runaway for takeoff .
+4-1	During	O	O	O	_	_	
+4-2	the	O	O	O	_	_	
+4-3	safety	O	B-webanno.custom.Participants_	B-NPart	_	_	
+4-4	briefing	O	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-NPart|B-NPart	_	_	
+4-5	,	O	O	O	_	_	
+4-6	the	O	O	O	_	_	
+4-7	plane	O	B-webanno.custom.Participants_	B-ScrPart_plane	webanno.custom.Corefchains_	1-4	
+4-8	will	O	O	O	_	_	
+4-9	be	O	O	O	_	_	
+4-10	heading	B-ScrEv_take_off_preparations	O	O	_	_	
+4-11	towards	O	O	O	_	_	
+4-12	the	O	O	O	_	_	
+4-13	runaway	O	B-webanno.custom.Participants_	B-ScrPart_location_airplane	_	_	
+4-14	for	O	O	O	_	_	
+4-15	takeoff	B-ScrEv_take_off	O	O	_	_	
+4-16	.	O	O	O	_	_	
+
+#id=5
+#text=Once the plane is ready for takeoff , all the flight attendants will sit and buckle themselves in .
+5-1	Once	O	O	O	_	_	
+5-2	the	O	O	O	_	_	
+5-3	plane	O	B-webanno.custom.Participants_	B-ScrPart_plane	webanno.custom.Corefchains_	4-7	
+5-4	is	B-UnrelEv	O	O	_	_	
+5-5	ready	O	O	O	_	_	
+5-6	for	O	O	O	_	_	
+5-7	takeoff	B-ScrEv_take_off	O	O	_	_	
+5-8	,	O	O	O	_	_	
+5-9	all	O	O	O	_	_	
+5-10	the	O	O	O	_	_	
+5-11	flight	O	B-webanno.custom.Participants_	B-ScrPart_staff	_	_	
+5-12	attendants	O	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_staff|B-ScrPart_staff	_	_	
+5-13	will	O	O	O	_	_	
+5-14	sit	B-ScrEv_take_seat	O	O	_	_	
+5-15	and	O	O	O	_	_	
+5-16	buckle	B-ScrEv_buckle_seat_belt	O	O	_	_	
+5-17	themselves	O	B-webanno.custom.Participants_	B-ScrPart_staff	webanno.custom.Corefchains_	5-12	
+5-18	in	O	O	O	_	_	
+5-19	.	O	O	O	_	_	
+
+#id=6
+#text=Next comes the best part - the plane will accelerate very quickly from sitting to flying in the air .
+6-1	Next	O	O	O	_	_	
+6-2	comes	B-UnrelEv	O	O	_	_	
+6-3	the	O	O	O	_	_	
+6-4	best	O	O	O	_	_	
+6-5	part	O	O	O	_	_	
+6-6	-	O	O	O	_	_	
+6-7	the	O	O	O	_	_	
+6-8	plane	O	B-webanno.custom.Participants_	B-ScrPart_plane	webanno.custom.Corefchains_	5-3	
+6-9	will	O	O	O	_	_	
+6-10	accelerate	B-ScrEv_take_off	O	O	_	_	
+6-11	very	O	O	O	_	_	
+6-12	quickly	O	O	O	_	_	
+6-13	from	O	O	O	_	_	
+6-14	sitting	B-UnrelEv	O	O	_	_	
+6-15	to	O	O	O	_	_	
+6-16	flying	B-MissScrEv	O	O	_	_	
+6-17	in	O	O	O	_	_	
+6-18	the	O	O	O	_	_	
+6-19	air	O	B-webanno.custom.Participants_	B-ScrPart_location_airplane	_	_	
+6-20	.	O	O	O	_	_	
+
+#id=7
+#text=The process barely takes a minute but you 'll feel the rush from going so fast .
+7-1	The	O	O	O	_	_	
+7-2	process	O	O	O	_	_	
+7-3	barely	O	O	O	_	_	
+7-4	takes	B-UnrelEv	O	O	_	_	
+7-5	a	O	O	O	_	_	
+7-6	minute	O	O	O	_	_	
+7-7	but	O	O	O	_	_	
+7-8	you	O	B-webanno.custom.Participants_	B-ScrPart_passenger	webanno.custom.Corefchains_	2-9	
+7-9	'll	O	O	O	_	_	
+7-10	feel	B-UnrelEv	O	O	_	_	
+7-11	the	O	O	O	_	_	
+7-12	rush	O	O	O	_	_	
+7-13	from	O	O	O	_	_	
+7-14	going	O	O	O	_	_	
+7-15	so	O	O	O	_	_	
+7-16	fast	O	O	O	_	_	
+7-17	.	O	O	O	_	_	
+
+#id=8
+#text=You 'll continue feeling the effects until the plane gets high enough into the air to reach a cruising altitude .
+8-1	You	O	B-webanno.custom.Participants_	B-ScrPart_passenger	webanno.custom.Corefchains_	7-8	
+8-2	'll	O	O	O	_	_	
+8-3	continue	O	O	O	_	_	
+8-4	feeling	B-UnrelEv	O	O	_	_	
+8-5	the	O	O	O	_	_	
+8-6	effects	O	O	O	_	_	
+8-7	until	O	O	O	_	_	
+8-8	the	O	O	O	_	_	
+8-9	plane	O	B-webanno.custom.Participants_	B-ScrPart_plane	webanno.custom.Corefchains_	6-8	
+8-10	gets	B-MissScrEv	O	O	_	_	
+8-11	high	O	O	O	_	_	
+8-12	enough	O	O	O	_	_	
+8-13	into	O	O	O	_	_	
+8-14	the	O	O	O	_	_	
+8-15	air	O	B-webanno.custom.Participants_	B-ScrPart_location_airplane	webanno.custom.Corefchains_	6-19	
+8-16	to	O	O	O	_	_	
+8-17	reach	B-MissScrEv	O	O	_	_	
+8-18	a	O	O	O	_	_	
+8-19	cruising	O	O	O	_	_	
+8-20	altitude	O	B-webanno.custom.Participants_	B-ScrPart_location_airplane	webanno.custom.Corefchains_	8-15	
+8-21	.	O	O	O	_	_	
+
+#id=9
+#text=Once this height is reached , you will barely notice you 're in the air unless you look outside the window . 
+9-1	Once	O	O	O	_	_	
+9-2	this	O	O	O	_	_	
+9-3	height	O	B-webanno.custom.Participants_	B-ScrPart_location_airplane	webanno.custom.Corefchains_	8-20	
+9-4	is	O	O	O	_	_	
+9-5	reached	B-MissScrEv	O	O	_	_	
+9-6	,	O	O	O	_	_	
+9-7	you	O	B-webanno.custom.Participants_	B-ScrPart_passenger	webanno.custom.Corefchains_	8-1	
+9-8	will	O	O	O	_	_	
+9-9	barely	O	O	O	_	_	
+9-10	notice	B-UnrelEv	O	O	_	_	
+9-11	you	O	O	O	_	_	
+9-12	're	B-UnrelEv	O	O	_	_	
+9-13	in	O	O	O	_	_	
+9-14	the	O	O	O	_	_	
+9-15	air	O	B-webanno.custom.Participants_	B-ScrPart_location_airplane	webanno.custom.Corefchains_	9-3	
+9-16	unless	O	O	O	_	_	
+9-17	you	O	O	O	_	_	
+9-18	look	B-ScrEv_spend_time_flight	O	O	_	_	
+9-19	outside	O	O	O	_	_	
+9-20	the	O	O	O	_	_	
+9-21	window	O	B-webanno.custom.Participants_	B-NPart	_	_	
+9-22	.	O	O	O	_	_	
+

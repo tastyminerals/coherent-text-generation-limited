@@ -1,0 +1,564 @@
+ # webanno.custom.Participants | Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I like baking cakes with my granddaughter .
+1-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	1-6	
+1-2	like	O	O	B-UnrelEv	_	_	
+1-3	baking	O	O	B-Evoking	_	_	
+1-4	cakes	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	webanno.custom.Corefchains_	3-16	
+1-5	with	O	O	O	_	_	
+1-6	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	2-1	
+1-7	granddaughter	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	2-3	
+1-8	.	O	O	O	_	_	
+
+#id=2
+#text=I let her help pour in the ingredients and mix them together .
+2-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	3-1	
+2-2	let	O	O	B-UnrelEv	_	_	
+2-3	her	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	3-9	
+2-4	help	O	O	B-UnrelEv	_	_	
+2-5	pour	O	O	B-ScrEv_add_ingredients	_	_	
+2-6	in	O	O	I-ScrEv_add_ingredients	_	_	
+2-7	the	O	O	O	_	_	
+2-8	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	2-11	
+2-9	and	O	O	O	_	_	
+2-10	mix	O	O	B-ScrEv_prepare_ingredients	_	_	
+2-11	them	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-5	
+2-12	together	O	O	O	_	_	
+2-13	.	O	O	O	_	_	
+
+#id=3
+#text=I take a box of cake mix to her house so we can bake a cake together .
+3-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_|coref_group_I_granddaughter	9-1|3-12	
+3-2	take	O	O	B-ScrEv_get_ingredients	_	_	
+3-3	a	O	O	O	_	_	
+3-4	box	O	O	O	_	_	
+3-5	of	O	O	O	_	_	
+3-6	cake	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+3-7	mix	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	4-13	
+3-8	to	O	O	O	_	_	
+3-9	her	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_|coref_group_I_granddaughter	16-3|3-12	
+3-10	house	O	O	O	_	_	
+3-11	so	O	O	O	_	_	
+3-12	we	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	4-1	
+3-13	can	O	O	O	_	_	
+3-14	bake	O	O	B-Evoking	_	_	
+3-15	a	O	O	I-Evoking	_	_	
+3-16	cake	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	webanno.custom.Corefchains_	5-10	
+3-17	together	O	O	O	_	_	
+3-18	.	O	O	O	_	_	
+
+#id=4
+#text=We read the directions on the back of the box of cake mix .
+4-1	We	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-2	
+4-2	read	O	O	B-ScrEv_choose_recipe	_	_	
+4-3	the	O	O	O	_	_	
+4-4	directions	B-ScrPart_baking_instructions	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	9-11	
+4-5	on	O	O	O	_	_	
+4-6	the	O	O	O	_	_	
+4-7	back	O	O	O	_	_	
+4-8	of	O	O	O	_	_	
+4-9	the	O	O	O	_	_	
+4-10	box	B-ScrPart_recipe_source	B-webanno.custom.Participants_	O	_	_	
+4-11	of	O	O	O	_	_	
+4-12	cake	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+4-13	mix	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	19-6	
+4-14	.	O	O	O	_	_	
+
+#id=5
+#text=Then we get out everything needed to make the cake .
+5-1	Then	O	O	O	_	_	
+5-2	we	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	6-1	
+5-3	get	O	O	B-ScrEv_get_ingredients	_	_	
+5-4	out	O	O	I-ScrEv_get_ingredients	_	_	
+5-5	everything	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+5-6	needed	O	O	B-ScrEv_get_ingredients	_	_	
+5-7	to	O	O	O	_	_	
+5-8	make	O	O	B-Evoking	_	_	
+5-9	the	O	O	I-Evoking	_	_	
+5-10	cake	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	webanno.custom.Corefchains_	10-11	
+5-11	.	O	O	O	_	_	
+
+#id=6
+#text=We usually need eggs , cooking oil , and water or milk .
+6-1	We	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	7-1	
+6-2	usually	O	O	O	_	_	
+6-3	need	O	O	B-ScrEv_get_ingredients	_	_	
+6-4	eggs	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	12-8	
+6-5	,	O	O	O	_	_	
+6-6	cooking	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+6-7	oil	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	11-17	
+6-8	,	O	O	O	_	_	
+6-9	and	O	O	O	_	_	
+6-10	water	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	17-11	
+6-11	or	O	O	O	_	_	
+6-12	milk	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	17-13	
+6-13	.	O	O	O	_	_	
+
+#id=7
+#text=We also need a cake pan , a large mixing bowl , a measuring cup , and a mixing spoon .
+7-1	We	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	8-7	
+7-2	also	O	O	O	_	_	
+7-3	need	O	O	B-ScrEv_get_utensils	_	_	
+7-4	a	O	O	O	_	_	
+7-5	cake	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	_	_	
+7-6	pan	I-ScrPart_cake_tin|B-ScrPart_cake_tin	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	10-8	
+7-7	,	O	O	O	_	_	
+7-8	a	O	O	O	_	_	
+7-9	large	O	O	O	_	_	
+7-10	mixing	B-ScrPart_utensil	B-webanno.custom.Participants_	O	_	_	
+7-11	bowl	I-ScrPart_utensil|B-ScrPart_utensil	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	13-8	
+7-12	,	O	O	O	_	_	
+7-13	a	O	O	O	_	_	
+7-14	measuring	B-ScrPart_utensil	B-webanno.custom.Participants_	O	_	_	
+7-15	cup	I-ScrPart_utensil|B-ScrPart_utensil	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+7-16	,	O	O	O	_	_	
+7-17	and	O	O	O	_	_	
+7-18	a	O	O	O	_	_	
+7-19	mixing	B-ScrPart_utensil	B-webanno.custom.Participants_	O	_	_	
+7-20	spoon	I-ScrPart_utensil|B-ScrPart_utensil	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+7-21	.	O	O	O	_	_	
+
+#id=8
+#text=Also it helps to make sure we have pot holders and a spatula .
+8-1	Also	O	O	O	_	_	
+8-2	it	O	O	O	_	_	
+8-3	helps	O	O	B-UnrelEv	_	_	
+8-4	to	O	O	O	_	_	
+8-5	make	O	O	B-UnrelEv	_	_	
+8-6	sure	O	O	I-UnrelEv	_	_	
+8-7	we	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	12-1	
+8-8	have	O	O	B-ScrEv_get_utensils	_	_	
+8-9	pot	B-ScrPart_utensil	B-webanno.custom.Participants_	O	_	_	
+8-10	holders	I-ScrPart_utensil|B-ScrPart_utensil	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+8-11	and	O	O	O	_	_	
+8-12	a	O	O	O	_	_	
+8-13	spatula	B-ScrPart_utensil	B-webanno.custom.Participants_	O	_	_	
+8-14	.	O	O	O	_	_	
+
+#id=9
+#text=I pre-heat the oven to the temperature given in the directions .
+9-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	10-2	
+9-2	pre-heat	O	O	B-ScrEv_preheat	_	_	
+9-3	the	O	O	O	_	_	
+9-4	oven	B-ScrPart_oven	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	21-11	
+9-5	to	O	O	O	_	_	
+9-6	the	O	O	O	_	_	
+9-7	temperature	B-ScrPart_temperature	B-webanno.custom.Participants_	O	_	_	
+9-8	given	O	O	B-RelNScrEv	_	_	
+9-9	in	O	O	O	_	_	
+9-10	the	O	O	O	_	_	
+9-11	directions	B-ScrPart_baking_instructions	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	11-3	
+9-12	.	O	O	O	_	_	
+
+#id=10
+#text=Then I grease or oil the cake pan so the cake does not stick to the pan .
+10-1	Then	O	O	O	_	_	
+10-2	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	11-5	
+10-3	grease	O	O	B-ScrEv_grease_cake_tin	_	_	
+10-4	or	O	O	O	_	_	
+10-5	oil	O	O	B-ScrEv_grease_cake_tin	_	_	
+10-6	the	O	O	O	_	_	
+10-7	cake	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	_	_	
+10-8	pan	I-ScrPart_cake_tin|B-ScrPart_cake_tin	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	10-17	
+10-9	so	O	O	O	_	_	
+10-10	the	O	O	O	_	_	
+10-11	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	11-35	
+10-12	does	O	O	O	_	_	
+10-13	not	O	O	O	_	_	
+10-14	stick	O	O	B-RelNScrEv	_	_	
+10-15	to	O	O	O	_	_	
+10-16	the	O	O	O	_	_	
+10-17	pan	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	11-13	
+10-18	.	O	O	O	_	_	
+
+#id=11
+#text=Usually the directions want me to add a little flour to the pan to coat the oil , but I like to use sugar instead because it does not leave the outside of the cake looking like flour .
+11-1	Usually	O	O	O	_	_	
+11-2	the	O	O	O	_	_	
+11-3	directions	B-ScrPart_baking_instructions	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	17-19	
+11-4	want	O	O	B-UnrelEv	_	_	
+11-5	me	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	11-20	
+11-6	to	O	O	O	_	_	
+11-7	add	O	O	B-ScrEv_add_ingredients	_	_	
+11-8	a	O	O	O	_	_	
+11-9	little	O	O	O	_	_	
+11-10	flour	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	11-38	
+11-11	to	O	O	O	_	_	
+11-12	the	O	O	O	_	_	
+11-13	pan	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	20-10	
+11-14	to	O	O	O	_	_	
+11-15	coat	O	O	B-ScrEv_grease_cake_tin	_	_	
+11-16	the	O	O	O	_	_	
+11-17	oil	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	15-8	
+11-18	,	O	O	O	_	_	
+11-19	but	O	O	O	_	_	
+11-20	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	16-2	
+11-21	like	O	O	O	_	_	
+11-22	to	O	O	O	_	_	
+11-23	use	O	O	B-ScrEv_grease_cake_tin	_	_	
+11-24	sugar	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	11-27	
+11-25	instead	O	O	O	_	_	
+11-26	because	O	O	O	_	_	
+11-27	it	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+11-28	does	O	O	O	_	_	
+11-29	not	O	O	O	_	_	
+11-30	leave	O	O	B-RelNScrEv	_	_	
+11-31	the	O	O	O	_	_	
+11-32	outside	O	O	O	_	_	
+11-33	of	O	O	O	_	_	
+11-34	the	O	O	O	_	_	
+11-35	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	21-18	
+11-36	looking	O	O	B-UnrelEv	_	_	
+11-37	like	O	O	O	_	_	
+11-38	flour	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+11-39	.	O	O	O	_	_	
+
+#id=12
+#text=We start by carefully cracking the egg shell and pouring the egg into a small cup or bowl to make sure we do not have a bad egg .
+12-1	We	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	12-22	
+12-2	start	O	O	B-UnrelEv	_	_	
+12-3	by	O	O	O	_	_	
+12-4	carefully	O	O	O	_	_	
+12-5	cracking	O	O	B-ScrEv_prepare_ingredients	_	_	
+12-6	the	O	O	O	_	_	
+12-7	egg	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+12-8	shell	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	12-12	
+12-9	and	O	O	O	_	_	
+12-10	pouring	O	O	B-ScrEv_add_ingredients	_	_	
+12-11	the	O	O	O	_	_	
+12-12	egg	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	12-28	
+12-13	into	O	O	O	_	_	
+12-14	a	O	O	O	_	_	
+12-15	small	O	O	O	_	_	
+12-16	cup	B-ScrPart_utensil	B-webanno.custom.Participants_	O	_	_	
+12-17	or	O	O	O	_	_	
+12-18	bowl	B-ScrPart_utensil	B-webanno.custom.Participants_	O	_	_	
+12-19	to	O	O	O	_	_	
+12-20	make	O	O	B-ScrEv_prepare_ingredients	_	_	
+12-21	sure	O	O	I-ScrEv_prepare_ingredients	_	_	
+12-22	we	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	13-2	
+12-23	do	O	O	O	_	_	
+12-24	not	O	O	O	_	_	
+12-25	have	O	O	B-RelNScrEv	_	_	
+12-26	a	O	O	O	_	_	
+12-27	bad	O	O	O	_	_	
+12-28	egg	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	13-4	
+12-29	.	O	O	O	_	_	
+
+#id=13
+#text=Then we pour it into the mixing bowl .
+13-1	Then	O	O	O	_	_	
+13-2	we	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	14-2	
+13-3	pour	O	O	B-ScrEv_add_ingredients	_	_	
+13-4	it	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	14-7	
+13-5	into	O	O	O	_	_	
+13-6	the	O	O	O	_	_	
+13-7	mixing	B-ScrPart_utensil	B-webanno.custom.Participants_	O	_	_	
+13-8	bowl	I-ScrPart_utensil|B-ScrPart_utensil	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	15-16	
+13-9	.	O	O	O	_	_	
+
+#id=14
+#text=If we need more than one egg , we do each one separately the same way .
+14-1	If	O	O	O	_	_	
+14-2	we	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	14-9	
+14-3	need	O	O	B-???	_	_	
+14-4	more	O	O	O	_	_	
+14-5	than	O	O	O	_	_	
+14-6	one	O	O	O	_	_	
+14-7	egg	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	14-12	
+14-8	,	O	O	O	_	_	
+14-9	we	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	15-2	
+14-10	do	O	O	B-ScrEv_prepare_ingredients	_	_	
+14-11	each	O	O	O	_	_	
+14-12	one	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	16-7	
+14-13	separately	O	O	O	_	_	
+14-14	the	O	O	O	_	_	
+14-15	same	O	O	O	_	_	
+14-16	way	O	O	O	_	_	
+14-17	.	O	O	O	_	_	
+
+#id=15
+#text=Then we measure out the amount of oil needed and pour it into the mixing bowl , too .
+15-1	Then	O	O	O	_	_	
+15-2	we	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	19-2	
+15-3	measure	O	O	B-ScrEv_prepare_ingredients	_	_	
+15-4	out	O	O	I-ScrEv_prepare_ingredients	_	_	
+15-5	the	O	O	O	_	_	
+15-6	amount	O	O	O	_	_	
+15-7	of	O	O	O	_	_	
+15-8	oil	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	15-12	
+15-9	needed	O	O	B-RelNScrEv	_	_	
+15-10	and	O	O	O	_	_	
+15-11	pour	O	O	B-ScrEv_add_ingredients	_	_	
+15-12	it	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	16-9	
+15-13	into	O	O	O	_	_	
+15-14	the	O	O	O	_	_	
+15-15	mixing	B-ScrPart_utensil	B-webanno.custom.Participants_	O	_	_	
+15-16	bowl	I-ScrPart_utensil|B-ScrPart_utensil	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+15-17	,	O	O	O	_	_	
+15-18	too	O	O	O	_	_	
+15-19	.	O	O	O	_	_	
+
+#id=16
+#text=Then my granddaughter mixes up the eggs and oil really well .
+16-1	Then	O	O	O	_	_	
+16-2	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	17-3	
+16-3	granddaughter	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	18-1	
+16-4	mixes	O	O	B-ScrEv_prepare_ingredients	_	_	
+16-5	up	O	O	I-ScrEv_prepare_ingredients	_	_	
+16-6	the	O	O	O	_	_	
+16-7	eggs	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+16-8	and	O	O	O	_	_	
+16-9	oil	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+16-10	really	O	O	O	_	_	
+16-11	well	O	O	O	_	_	
+16-12	.	O	O	O	_	_	
+
+#id=17
+#text=Next , I measure out the amount of liquid -LRB- water or milk -RRB- called for in the directions .
+17-1	Next	O	O	O	_	_	
+17-2	,	O	O	O	_	_	
+17-3	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	20-2	
+17-4	measure	O	O	B-ScrEv_prepare_ingredients	_	_	
+17-5	out	O	O	I-ScrEv_prepare_ingredients	_	_	
+17-6	the	O	O	O	_	_	
+17-7	amount	O	O	O	_	_	
+17-8	of	O	O	O	_	_	
+17-9	liquid	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_|coref_water_milk|coref_water_milk	18-4|17-13|17-11	
+17-10	-LRB-	O	O	O	_	_	
+17-11	water	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+17-12	or	O	O	O	_	_	
+17-13	milk	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+17-14	-RRB-	O	O	O	_	_	
+17-15	called	O	O	B-RelNScrEv	_	_	
+17-16	for	O	O	I-RelNScrEv	_	_	
+17-17	in	O	O	O	_	_	
+17-18	the	O	O	O	_	_	
+17-19	directions	B-ScrPart_baking_instructions	B-webanno.custom.Participants_	O	_	_	
+17-20	.	O	O	O	_	_	
+
+#id=18
+#text=She adds the liquid to the egg and oil mixture and stirs it all up really well .
+18-1	She	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+18-2	adds	O	O	B-ScrEv_add_ingredients	_	_	
+18-3	the	O	O	O	_	_	
+18-4	liquid	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+18-5	to	O	O	O	_	_	
+18-6	the	O	O	O	_	_	
+18-7	egg	B-ScrPart_dough	B-webanno.custom.Participants_	O	_	_	
+18-8	and	I-ScrPart_dough	I-webanno.custom.Participants_	O	_	_	
+18-9	oil	I-ScrPart_dough	I-webanno.custom.Participants_	O	_	_	
+18-10	mixture	I-ScrPart_dough|B-ScrPart_dough	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	18-13	
+18-11	and	O	O	O	_	_	
+18-12	stirs	O	O	B-ScrEv_prepare_ingredients	_	_	
+18-13	it	B-ScrPart_dough	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	20-6	
+18-14	all	O	O	O	_	_	
+18-15	up	O	O	O	_	_	
+18-16	really	O	O	O	_	_	
+18-17	well	O	O	O	_	_	
+18-18	.	O	O	O	_	_	
+
+#id=19
+#text=Then we add the cake mix , a little at a time , stirring well to mix .
+19-1	Then	O	O	O	_	_	
+19-2	we	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	22-1	
+19-3	add	O	O	B-ScrEv_add_ingredients	_	_	
+19-4	the	O	O	O	_	_	
+19-5	cake	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+19-6	mix	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+19-7	,	O	O	O	_	_	
+19-8	a	O	O	O	_	_	
+19-9	little	O	O	O	_	_	
+19-10	at	O	O	O	_	_	
+19-11	a	O	O	O	_	_	
+19-12	time	O	O	O	_	_	
+19-13	,	O	O	O	_	_	
+19-14	stirring	O	O	B-ScrEv_make_dough	_	_	
+19-15	well	O	O	O	_	_	
+19-16	to	O	O	O	_	_	
+19-17	mix	O	O	B-ScrEv_make_dough	_	_	
+19-18	.	O	O	O	_	_	
+
+#id=20
+#text=Then I pour the cake batter into the baking pan and spread it evenly with a spatula .
+20-1	Then	O	O	O	_	_	
+20-2	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	21-3	
+20-3	pour	O	O	B-ScrEv_pour_dough	_	_	
+20-4	the	O	O	O	_	_	
+20-5	cake	B-ScrPart_dough	B-webanno.custom.Participants_	O	_	_	
+20-6	batter	I-ScrPart_dough|B-ScrPart_dough	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	20-13	
+20-7	into	O	O	O	_	_	
+20-8	the	O	O	O	_	_	
+20-9	baking	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	_	_	
+20-10	pan	I-ScrPart_cake_tin|B-ScrPart_cake_tin	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	21-8	
+20-11	and	O	O	O	_	_	
+20-12	spread	O	O	B-RelNScrEv	_	_	
+20-13	it	B-ScrPart_dough	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	23-12	
+20-14	evenly	O	O	O	_	_	
+20-15	with	O	O	O	_	_	
+20-16	a	O	O	O	_	_	
+20-17	spatula	B-ScrPart_utensil	B-webanno.custom.Participants_	O	_	_	
+20-18	.	O	O	O	_	_	
+
+#id=21
+#text=Next , I carefully put the cake pan into the oven and set a timer to check it to see if it is done .
+21-1	Next	O	O	O	_	_	
+21-2	,	O	O	O	_	_	
+21-3	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+21-4	carefully	O	O	O	_	_	
+21-5	put	O	O	B-ScrEv_put_cake_oven	_	_	
+21-6	the	O	O	O	_	_	
+21-7	cake	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	_	_	
+21-8	pan	I-ScrPart_cake_tin|B-ScrPart_cake_tin	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+21-9	into	O	O	O	_	_	
+21-10	the	O	O	O	_	_	
+21-11	oven	B-ScrPart_oven	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	23-28	
+21-12	and	O	O	O	_	_	
+21-13	set	O	O	B-ScrEv_set_time	_	_	
+21-14	a	O	O	O	_	_	
+21-15	timer	B-ScrPart_timer	B-webanno.custom.Participants_	O	_	_	
+21-16	to	O	O	O	_	_	
+21-17	check	O	O	B-ScrEv_check	_	_	
+21-18	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	21-22	
+21-19	to	O	O	O	_	_	
+21-20	see	O	O	B-UnrelEv	_	_	
+21-21	if	O	O	O	_	_	
+21-22	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	22-6	
+21-23	is	O	O	O	_	_	
+21-24	done	O	O	B-ScrEv_wait	_	_	
+21-25	.	O	O	O	_	_	
+
+#id=22
+#text=We check to see if it is done by putting a clean toothpick into the center of the cake .
+22-1	We	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	25-1	
+22-2	check	O	O	B-ScrEv_check	_	_	
+22-3	to	O	O	O	_	_	
+22-4	see	O	O	B-UnrelEv	_	_	
+22-5	if	O	O	O	_	_	
+22-6	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	22-19	
+22-7	is	O	O	O	_	_	
+22-8	done	O	O	B-ScrEv_wait	_	_	
+22-9	by	O	O	O	_	_	
+22-10	putting	O	O	B-ScrEv_check	_	_	
+22-11	a	O	O	O	_	_	
+22-12	clean	O	O	O	_	_	
+22-13	toothpick	B-ScrPart_utensil	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	23-16	
+22-14	into	O	O	O	_	_	
+22-15	the	O	O	O	_	_	
+22-16	center	O	O	O	_	_	
+22-17	of	O	O	O	_	_	
+22-18	the	O	O	O	_	_	
+22-19	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	23-2	
+22-20	.	O	O	O	_	_	
+
+#id=23
+#text=If it comes out with little or none of the cake batter stuck to the toothpick , it is done and ready to take out of the oven , using pot holders .
+23-1	If	O	O	O	_	_	
+23-2	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	23-18	
+23-3	comes	O	O	B-ScrEv_check	_	_	
+23-4	out	O	O	I-ScrEv_check	_	_	
+23-5	with	O	O	O	_	_	
+23-6	little	O	O	O	_	_	
+23-7	or	O	O	O	_	_	
+23-8	none	O	O	O	_	_	
+23-9	of	O	O	O	_	_	
+23-10	the	O	O	O	_	_	
+23-11	cake	B-ScrPart_dough	B-webanno.custom.Participants_	O	_	_	
+23-12	batter	I-ScrPart_dough|B-ScrPart_dough	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	24-6	
+23-13	stuck	O	O	B-RelNScrEv	_	_	
+23-14	to	O	O	O	_	_	
+23-15	the	O	O	O	_	_	
+23-16	toothpick	B-ScrPart_utensil	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	24-9	
+23-17	,	O	O	O	_	_	
+23-18	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	24-12	
+23-19	is	O	O	O	_	_	
+23-20	done	O	O	B-ScrEv_wait	_	_	
+23-21	and	O	O	O	_	_	
+23-22	ready	O	O	O	_	_	
+23-23	to	O	O	O	_	_	
+23-24	take	O	O	B-ScrEv_take_out_oven	_	_	
+23-25	out	O	O	I-ScrEv_take_out_oven	_	_	
+23-26	of	O	O	O	_	_	
+23-27	the	O	O	O	_	_	
+23-28	oven	B-ScrPart_oven	B-webanno.custom.Participants_	O	_	_	
+23-29	,	O	O	O	_	_	
+23-30	using	O	O	B-RelNScrEv	_	_	
+23-31	pot	B-ScrPart_utensil	B-webanno.custom.Participants_	O	_	_	
+23-32	holders	I-ScrPart_utensil|B-ScrPart_utensil	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+23-33	.	O	O	O	_	_	
+
+#id=24
+#text=If there is still gooey stuff on the toothpick , the cake needs to be baked a little longer and then tested again .
+24-1	If	O	O	O	_	_	
+24-2	there	O	O	O	_	_	
+24-3	is	O	O	B-RelNScrEv	_	_	
+24-4	still	O	O	O	_	_	
+24-5	gooey	O	O	O	_	_	
+24-6	stuff	B-ScrPart_dough	B-webanno.custom.Participants_	O	_	_	
+24-7	on	O	O	O	_	_	
+24-8	the	O	O	O	_	_	
+24-9	toothpick	B-ScrPart_utensil	B-webanno.custom.Participants_	O	_	_	
+24-10	,	O	O	O	_	_	
+24-11	the	O	O	O	_	_	
+24-12	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	25-8	
+24-13	needs	O	O	O	_	_	
+24-14	to	O	O	O	_	_	
+24-15	be	O	O	O	_	_	
+24-16	baked	O	O	B-ScrEv_wait	_	_	
+24-17	a	O	O	O	_	_	
+24-18	little	O	O	O	_	_	
+24-19	longer	O	O	O	_	_	
+24-20	and	O	O	O	_	_	
+24-21	then	O	O	O	_	_	
+24-22	tested	O	O	B-ScrEv_check	_	_	
+24-23	again	O	O	O	_	_	
+24-24	.	O	O	O	_	_	
+
+#id=25
+#text=We are eager to see how our cake turns out .
+25-1	We	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	25-7	
+25-2	are	O	O	B-UnrelEv	_	_	
+25-3	eager	O	O	O	_	_	
+25-4	to	O	O	O	_	_	
+25-5	see	O	O	B-ScrEv_check	_	_	
+25-6	how	O	O	O	_	_	
+25-7	our	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	26-1	
+25-8	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	26-8	
+25-9	turns	O	O	B-???	_	_	
+25-10	out	O	O	I-???	_	_	
+25-11	.	O	O	O	_	_	
+
+#id=26
+#text=We play games while we wait for it to cool .
+26-1	We	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	26-5	
+26-2	play	O	O	B-UnrelEv	_	_	
+26-3	games	O	O	O	_	_	
+26-4	while	O	O	O	_	_	
+26-5	we	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	27-2	
+26-6	wait	O	O	B-ScrEv_wait	_	_	
+26-7	for	O	O	O	_	_	
+26-8	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	27-6	
+26-9	to	O	O	O	_	_	
+26-10	cool	O	O	B-ScrEv_cool_down	_	_	
+26-11	.	O	O	O	_	_	
+
+#id=27
+#text=Then we taste a little piece before we put frosting on the rest of the cake . 
+27-1	Then	O	O	O	_	_	
+27-2	we	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	27-8	
+27-3	taste	O	O	B-ScrEv_eat	_	_	
+27-4	a	O	O	O	_	_	
+27-5	little	O	O	O	_	_	
+27-6	piece	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	27-16	
+27-7	before	O	O	O	_	_	
+27-8	we	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+27-9	put	O	O	B-ScrEv_decorate	_	_	
+27-10	frosting	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+27-11	on	O	O	O	_	_	
+27-12	the	O	O	O	_	_	
+27-13	rest	O	O	O	_	_	
+27-14	of	O	O	O	_	_	
+27-15	the	O	O	O	_	_	
+27-16	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	_	_	
+27-17	.	O	O	O	_	_	
+

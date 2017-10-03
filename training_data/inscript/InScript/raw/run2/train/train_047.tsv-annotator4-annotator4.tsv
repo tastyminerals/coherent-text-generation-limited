@@ -1,0 +1,214 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=Last week I traveled on a train to see my brother .
+1-1	Last	O	O	
+1-2	week	B-NPart	O	
+1-3	I	B-ScrPart_passenger	O	
+1-4	traveled	O	B-Evoking	
+1-5	on	O	I-Evoking	
+1-6	a	O	I-Evoking	
+1-7	train	B-ScrPart_train	I-Evoking	
+1-8	to	O	O	
+1-9	see	O	B-UnrelEv	
+1-10	my	B-ScrPart_passenger	O	
+1-11	brother	B-NPart	O	
+1-12	.	O	O	
+
+#id=2
+#text=When my brother 's pregnant wife gave birth to their baby I was excited to see them and their new addition to the family .
+2-1	When	O	O	
+2-2	my	B-ScrPart_passenger	O	
+2-3	brother	B-NPart	O	
+2-4	's	O	O	
+2-5	pregnant	O	O	
+2-6	wife	B-NPart	O	
+2-7	gave	O	B-UnrelEv	
+2-8	birth	B-NPart	O	
+2-9	to	O	O	
+2-10	their	B-NPart	O	
+2-11	baby	B-NPart	O	
+2-12	I	B-ScrPart_passenger	O	
+2-13	was	O	O	
+2-14	excited	O	B-UnrelEv	
+2-15	to	O	O	
+2-16	see	O	B-UnrelEv	
+2-17	them	B-NPart	O	
+2-18	and	O	O	
+2-19	their	B-NPart	O	
+2-20	new	O	O	
+2-21	addition	B-NPart	O	
+2-22	to	O	O	
+2-23	the	O	O	
+2-24	family	B-NPart	O	
+2-25	.	O	O	
+
+#id=3
+#text=They lived 500 miles away in Charlotte , North Carolina .
+3-1	They	B-NPart	O	
+3-2	lived	O	B-UnrelEv	
+3-3	500	O	O	
+3-4	miles	B-NPart	O	
+3-5	away	O	O	
+3-6	in	O	O	
+3-7	Charlotte	B-ScrPart_destination	O	
+3-8	,	O	O	
+3-9	North	B-NPart	O	
+3-10	Carolina	I-NPart	O	
+3-11	.	O	O	
+
+#id=4
+#text=The cheapest option was to catch a train to go see them .
+4-1	The	O	O	
+4-2	cheapest	O	O	
+4-3	option	B-NPart	O	
+4-4	was	O	B-UnrelEv	
+4-5	to	O	O	
+4-6	catch	O	B-Evoking	
+4-7	a	O	I-Evoking	
+4-8	train	B-ScrPart_train	I-Evoking	
+4-9	to	O	O	
+4-10	go	O	B-UnrelEv	
+4-11	see	O	B-UnrelEv	
+4-12	them	B-NPart	O	
+4-13	.	O	O	
+
+#id=5
+#text=I arrived at the train station and went to the ticket desk .
+5-1	I	B-ScrPart_passenger	O	
+5-2	arrived	O	B-ScrEv_train_arrives	
+5-3	at	O	O	
+5-4	the	O	O	
+5-5	train	B-ScrPart_train_station	O	
+5-6	station	I-ScrPart_train_station|B-ScrPart_train_station	O	
+5-7	and	O	O	
+5-8	went	O	B-RelNScrEv	
+5-9	to	O	O	
+5-10	the	O	O	
+5-11	ticket	B-ScrPart_ticket_office/website	O	
+5-12	desk	I-ScrPart_ticket_office/website|B-ScrPart_ticket_office/website	O	
+5-13	.	O	O	
+
+#id=6
+#text=He asked me where I would like to go , and I told him where and why .
+6-1	He	B-ScrPart_train_staff	O	
+6-2	asked	O	B-RelNScrEv	
+6-3	me	B-ScrPart_passenger	O	
+6-4	where	O	O	
+6-5	I	B-ScrPart_passenger	O	
+6-6	would	O	O	
+6-7	like	O	B-UnrelEv	
+6-8	to	O	O	
+6-9	go	O	B-RelNScrEv	
+6-10	,	O	O	
+6-11	and	O	O	
+6-12	I	B-ScrPart_passenger	O	
+6-13	told	O	B-RelNScrEv	
+6-14	him	B-ScrPart_train_staff	O	
+6-15	where	O	O	
+6-16	and	O	O	
+6-17	why	O	O	
+6-18	.	O	O	
+
+#id=7
+#text=He was happy to assist me .
+7-1	He	B-ScrPart_train_staff	O	
+7-2	was	O	B-UnrelEv	
+7-3	happy	O	O	
+7-4	to	O	O	
+7-5	assist	O	B-ScrEv_get_tickets	
+7-6	me	B-ScrPart_passenger	O	
+7-7	.	O	O	
+
+#id=8
+#text=He pointed me in the direction to the correct platform where my train would departure from .
+8-1	He	B-ScrPart_train_staff	O	
+8-2	pointed	O	B-RelNScrEv	
+8-3	me	B-ScrPart_passenger	O	
+8-4	in	O	O	
+8-5	the	O	O	
+8-6	direction	B-NPart	O	
+8-7	to	O	O	
+8-8	the	O	O	
+8-9	correct	O	O	
+8-10	platform	B-ScrPart_platform	O	
+8-11	where	O	O	
+8-12	my	B-ScrPart_passenger	O	
+8-13	train	B-ScrPart_train	O	
+8-14	would	O	O	
+8-15	departure	O	B-ScrEv_train_departs	
+8-16	from	O	O	
+8-17	.	O	O	
+
+#id=9
+#text=When I got to the platform , the train was waiting for me .
+9-1	When	O	O	
+9-2	I	B-ScrPart_passenger	O	
+9-3	got	O	B-ScrEv_get_platform	
+9-4	to	O	O	
+9-5	the	O	O	
+9-6	platform	B-ScrPart_platform	O	
+9-7	,	O	O	
+9-8	the	O	O	
+9-9	train	B-ScrPart_train	O	
+9-10	was	O	O	
+9-11	waiting	O	B-RelNScrEv	
+9-12	for	O	O	
+9-13	me	B-ScrPart_passenger	O	
+9-14	.	O	O	
+
+#id=10
+#text=I handed the attendant my ticket and got on the train .
+10-1	I	B-ScrPart_passenger	O	
+10-2	handed	O	B-ScrEv_conductor_checks	
+10-3	the	O	O	
+10-4	attendant	B-ScrPart_train_staff	O	
+10-5	my	B-ScrPart_passenger	O	
+10-6	ticket	B-ScrPart_card/ticket	O	
+10-7	and	O	O	
+10-8	got	O	B-ScrEv_get_on	
+10-9	on	O	O	
+10-10	the	O	O	
+10-11	train	B-ScrPart_train	O	
+10-12	.	O	O	
+
+#id=11
+#text=Now it was time to put my feet back and relax .
+11-1	Now	O	O	
+11-2	it	B-No_label	O	
+11-3	was	O	B-UnrelEv	
+11-4	time	B-No_label	O	
+11-5	to	O	O	
+11-6	put	O	B-UnrelEv	
+11-7	my	B-ScrPart_passenger	O	
+11-8	feet	B-NPart	O	
+11-9	back	O	O	
+11-10	and	O	O	
+11-11	relax	O	B-ScrEv_spend_time_train	
+11-12	.	O	O	
+
+#id=12
+#text=In just a few short hours , I arrived in Charlotte , North Carolina and was off to see my new nephew ! 
+12-1	In	O	O	
+12-2	just	O	O	
+12-3	a	O	O	
+12-4	few	O	O	
+12-5	short	O	O	
+12-6	hours	B-NPart	O	
+12-7	,	O	O	
+12-8	I	B-ScrPart_passenger	O	
+12-9	arrived	O	B-ScrEv_arrive_destination	
+12-10	in	O	O	
+12-11	Charlotte	B-ScrPart_destination	O	
+12-12	,	O	O	
+12-13	North	B-NPart	O	
+12-14	Carolina	I-NPart	O	
+12-15	and	O	O	
+12-16	was	O	B-UnrelEv	
+12-17	off	O	O	
+12-18	to	O	O	
+12-19	see	O	B-UnrelEv	
+12-20	my	B-ScrPart_passenger	O	
+12-21	new	O	O	
+12-22	nephew	B-NPart	O	
+12-23	!	O	O	
+

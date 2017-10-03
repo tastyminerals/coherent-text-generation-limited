@@ -1,0 +1,205 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Event | Events
+#id=1
+#text=In the morning , I had to get ready to go to work .
+1-1	In	O	O	O	
+1-2	the	O	O	O	
+1-3	morning	B-NPart	O	O	
+1-4	,	O	O	O	
+1-5	I	B-ScrPart_passenger	O	O	
+1-6	had	O	O	O	
+1-7	to	O	O	O	
+1-8	get	O	B-webanno.custom.Events_	B-UnrelEv	
+1-9	ready	O	I-webanno.custom.Events_	I-UnrelEv	
+1-10	to	O	O	O	
+1-11	go	O	B-webanno.custom.Events_	B-UnrelEv	
+1-12	to	O	O	O	
+1-13	work	B-ScrPart_destination	O	O	
+1-14	.	O	O	O	
+
+#id=2
+#text=At the time , I did n't have a car , and the weather was too wet and windy to use a bicycle for transportation .
+2-1	At	O	O	O	
+2-2	the	O	O	O	
+2-3	time	B-No_label	O	O	
+2-4	,	O	O	O	
+2-5	I	B-ScrPart_passenger	O	O	
+2-6	did	O	O	O	
+2-7	n't	O	O	O	
+2-8	have	O	B-webanno.custom.Events_	B-UnrelEv	
+2-9	a	O	O	O	
+2-10	car	B-NPart	O	O	
+2-11	,	O	O	O	
+2-12	and	O	O	O	
+2-13	the	O	O	O	
+2-14	weather	B-NPart	O	O	
+2-15	was	O	B-webanno.custom.Events_	B-UnrelEv	
+2-16	too	O	O	O	
+2-17	wet	O	O	O	
+2-18	and	O	O	O	
+2-19	windy	O	O	O	
+2-20	to	O	O	O	
+2-21	use	O	B-webanno.custom.Events_	B-UnrelEv	
+2-22	a	O	O	O	
+2-23	bicycle	B-NPart	O	O	
+2-24	for	O	O	O	
+2-25	transportation	B-NPart	O	O	
+2-26	.	O	O	O	
+
+#id=3
+#text=After a quick breakfast , I got my good shoes on and a jacket .
+3-1	After	O	O	O	
+3-2	a	O	O	O	
+3-3	quick	O	O	O	
+3-4	breakfast	B-NPart	O	O	
+3-5	,	O	O	O	
+3-6	I	B-ScrPart_passenger	O	O	
+3-7	got	O	B-webanno.custom.Events_	B-UnrelEv	
+3-8	my	B-ScrPart_passenger	O	O	
+3-9	good	O	O	O	
+3-10	shoes	B-NPart	O	O	
+3-11	on	O	O	O	
+3-12	and	O	O	O	
+3-13	a	O	O	O	
+3-14	jacket	B-NPart	O	O	
+3-15	.	O	O	O	
+
+#id=4
+#text=Out the door , I locked the deadbolt and went for the bus stop about 5 blocks away from my house .
+4-1	Out	O	O	O	
+4-2	the	O	O	O	
+4-3	door	B-NPart	O	O	
+4-4	,	O	O	O	
+4-5	I	B-ScrPart_passenger	O	O	
+4-6	locked	O	B-webanno.custom.Events_	B-UnrelEv	
+4-7	the	O	O	O	
+4-8	deadbolt	B-NPart	O	O	
+4-9	and	O	O	O	
+4-10	went	O	B-webanno.custom.Events_	B-ScrEv_get_bus_stop	
+4-11	for	O	I-webanno.custom.Events_	I-ScrEv_get_bus_stop	
+4-12	the	O	O	O	
+4-13	bus	B-ScrPart_bus_stop	O	O	
+4-14	stop	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	O	
+4-15	about	O	O	O	
+4-16	5	O	O	O	
+4-17	blocks	B-NPart	O	O	
+4-18	away	O	O	O	
+4-19	from	O	O	O	
+4-20	my	B-ScrPart_passenger	O	O	
+4-21	house	B-NPart	O	O	
+4-22	.	O	O	O	
+
+#id=5
+#text=I called the bus lines number and input the code on my phone corresponding to the bus arrival at my stop , and realized I only had a 3 minute wait .
+5-1	I	B-ScrPart_passenger	O	O	
+5-2	called	O	B-webanno.custom.Events_	B-ScrEv_check_time-table	
+5-3	the	O	O	O	
+5-4	bus	B-ScrPart_other	O	O	
+5-5	lines	I-ScrPart_other	O	O	
+5-6	number	I-ScrPart_other|B-ScrPart_other	O	O	
+5-7	and	O	O	O	
+5-8	input	O	B-webanno.custom.Events_	B-ScrEv_check_time-table	
+5-9	the	O	O	O	
+5-10	code	B-NPart	O	O	
+5-11	on	O	O	O	
+5-12	my	B-ScrPart_passenger	O	O	
+5-13	phone	B-NPart	O	O	
+5-14	corresponding	O	B-webanno.custom.Events_	B-UnrelEv	
+5-15	to	O	O	O	
+5-16	the	O	O	O	
+5-17	bus	B-ScrPart_other	O	O	
+5-18	arrival	I-ScrPart_other|B-ScrPart_other	O	O	
+5-19	at	O	O	O	
+5-20	my	B-ScrPart_passenger	O	O	
+5-21	stop	B-ScrPart_bus_stop	O	O	
+5-22	,	O	O	O	
+5-23	and	O	O	O	
+5-24	realized	O	B-webanno.custom.Events_	B-UnrelEv	
+5-25	I	B-ScrPart_passenger	O	O	
+5-26	only	O	O	O	
+5-27	had	O	B-webanno.custom.Events_	B-ScrEv_wait	
+5-28	a	O	O	O	
+5-29	3	O	O	O	
+5-30	minute	B-ScrPart_time/date	O	O	
+5-31	wait	B-SuppVComp	O	O	
+5-32	.	O	O	O	
+
+#id=6
+#text=The bus arrived , and I paid the fare for my 2-hour ticket .
+6-1	The	O	O	O	
+6-2	bus	B-ScrPart_bus	O	O	
+6-3	arrived	O	B-webanno.custom.Events_	B-ScrEv_bus_comes	
+6-4	,	O	O	O	
+6-5	and	O	O	O	
+6-6	I	B-ScrPart_passenger	O	O	
+6-7	paid	O	B-webanno.custom.Events_	B-ScrEv_get_ticket	
+6-8	the	O	O	O	
+6-9	fare	B-ScrPart_money	O	O	
+6-10	for	O	O	O	
+6-11	my	B-ScrPart_passenger	O	O	
+6-12	2-hour	O	O	O	
+6-13	ticket	B-ScrPart_card/ticket	O	O	
+6-14	.	O	O	O	
+
+#id=7
+#text=I went to the back of the bus , as there were no seats in the front .
+7-1	I	B-ScrPart_passenger	O	O	
+7-2	went	O	B-webanno.custom.Events_	B-RelNScrEv	
+7-3	to	O	I-webanno.custom.Events_	I-RelNScrEv	
+7-4	the	O	O	O	
+7-5	back	B-NPart	O	O	
+7-6	of	O	O	O	
+7-7	the	O	O	O	
+7-8	bus	B-ScrPart_bus	O	O	
+7-9	,	O	O	O	
+7-10	as	O	O	O	
+7-11	there	O	O	O	
+7-12	were	O	B-webanno.custom.Events_	B-UnrelEv	
+7-13	no	O	O	O	
+7-14	seats	B-ScrPart_seat_in_bus	O	O	
+7-15	in	O	O	O	
+7-16	the	O	O	O	
+7-17	front	B-NPart	O	O	
+7-18	.	O	O	O	
+
+#id=8
+#text=The bus came to life as it passed other stops without passengers , and we eventually got to the transit station , where I was able to walk by foot the rest of the way to my workplace . 
+8-1	The	O	O	O	
+8-2	bus	B-ScrPart_bus	O	O	
+8-3	came	O	B-webanno.custom.Events_	B-UnrelEv	
+8-4	to	O	O	O	
+8-5	life	B-No_label	O	O	
+8-6	as	O	O	O	
+8-7	it	B-ScrPart_bus	O	O	
+8-8	passed	O	B-webanno.custom.Events_	B-RelNScrEv	
+8-9	other	O	O	O	
+8-10	stops	B-ScrPart_bus_stop	O	O	
+8-11	without	O	O	O	
+8-12	passengers	B-ScrPart_passenger	O	O	
+8-13	,	O	O	O	
+8-14	and	O	O	O	
+8-15	we	B-ScrPart_bus	O	O	
+8-16	eventually	O	O	O	
+8-17	got	O	B-webanno.custom.Events_	B-ScrEv_bus_stops	
+8-18	to	O	I-webanno.custom.Events_	I-ScrEv_bus_stops	
+8-19	the	O	O	O	
+8-20	transit	B-ScrPart_bus_stop	O	O	
+8-21	station	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	O	
+8-22	,	O	O	O	
+8-23	where	O	O	O	
+8-24	I	B-ScrPart_passenger	O	O	
+8-25	was	O	O	O	
+8-26	able	O	B-webanno.custom.Events_	B-UnrelEv	
+8-27	to	O	I-webanno.custom.Events_	I-UnrelEv	
+8-28	walk	O	B-webanno.custom.Events_	B-UnrelEv	
+8-29	by	O	O	O	
+8-30	foot	B-NPart	O	O	
+8-31	the	O	O	O	
+8-32	rest	B-Head_of_Partitive	O	O	
+8-33	of	O	O	O	
+8-34	the	O	O	O	
+8-35	way	B-NPart	O	O	
+8-36	to	O	O	O	
+8-37	my	B-ScrPart_passenger	O	O	
+8-38	workplace	B-ScrPart_destination	O	O	
+8-39	.	O	O	O	
+

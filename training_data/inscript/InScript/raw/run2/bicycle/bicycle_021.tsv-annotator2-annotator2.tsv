@@ -1,0 +1,181 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=One time I drove over a piece of glass and it put a hole into my bicycle tire .
+1-1	One	O	O	
+1-2	time	B-No_label	O	
+1-3	I	B-ScrPart_rider	O	
+1-4	drove	O	B-ScrEv_ride_bike	
+1-5	over	O	O	
+1-6	a	O	O	
+1-7	piece	B-ScrPart_object_damage	O	
+1-8	of	O	O	
+1-9	glass	B-ScrPart_object_damage	O	
+1-10	and	O	O	
+1-11	it	B-ScrPart_object_damage	O	
+1-12	put	O	B-RelNScrEv	
+1-13	a	O	O	
+1-14	hole	B-ScrPart_object_damage	O	
+1-15	into	O	O	
+1-16	my	B-ScrPart_rider	O	
+1-17	bicycle	B-ScrPart_tire	O	
+1-18	tire	I-ScrPart_tire|B-ScrPart_tire	O	
+1-19	.	O	O	
+
+#id=2
+#text=I had to walk my bicycle all the way home , which was very unpleasant , and then I could not use my bike again until I had fixed it .
+2-1	I	B-ScrPart_rider	O	
+2-2	had	O	O	
+2-3	to	O	O	
+2-4	walk	O	B-RelNScrEv	
+2-5	my	B-ScrPart_rider	O	
+2-6	bicycle	B-ScrPart_bicycle	O	
+2-7	all	O	O	
+2-8	the	O	O	
+2-9	way	B-No_label	O	
+2-10	home	B-ScrPart_location_repair	O	
+2-11	,	O	O	
+2-12	which	O	O	
+2-13	was	O	B-UnrelEv	
+2-14	very	O	O	
+2-15	unpleasant	O	O	
+2-16	,	O	O	
+2-17	and	O	O	
+2-18	then	O	O	
+2-19	I	B-ScrPart_rider	O	
+2-20	could	O	O	
+2-21	not	O	O	
+2-22	use	O	B-ScrEv_ride_bike	
+2-23	my	B-ScrPart_rider	O	
+2-24	bike	B-ScrPart_bicycle	O	
+2-25	again	O	O	
+2-26	until	O	O	
+2-27	I	B-ScrPart_rider	O	
+2-28	had	O	O	
+2-29	fixed	O	B-Evoking	
+2-30	it	B-ScrPart_bicycle	I-Evoking	
+2-31	.	O	O	
+
+#id=3
+#text=So I looked up online how to fix a punctured tire , and went to the hardware store to pick up the necessary tools .
+3-1	So	O	O	
+3-2	I	B-ScrPart_rider	O	
+3-3	looked	O	B-RelNScrEv	
+3-4	up	O	I-RelNScrEv	
+3-5	online	O	O	
+3-6	how	O	O	
+3-7	to	O	O	
+3-8	fix	O	B-Evoking	
+3-9	a	O	I-Evoking	
+3-10	punctured	O	I-Evoking|B-RelNScrEv	
+3-11	tire	B-ScrPart_tire	I-Evoking	
+3-12	,	O	O	
+3-13	and	O	O	
+3-14	went	O	B-RelNScrEv	
+3-15	to	O	O	
+3-16	the	O	O	
+3-17	hardware	B-ScrPart_shop	O	
+3-18	store	I-ScrPart_shop|B-ScrPart_shop	O	
+3-19	to	O	O	
+3-20	pick	O	B-ScrEv_get_tools	
+3-21	up	O	I-ScrEv_get_tools	
+3-22	the	O	O	
+3-23	necessary	O	O	
+3-24	tools	B-ScrPart_tool	O	
+3-25	.	O	O	
+
+#id=4
+#text=After purchasing these tools I pumped some air into the tire to locate the hole and then I took the tire off of the wheel to repair it .
+4-1	After	O	O	
+4-2	purchasing	O	B-ScrEv_get_tools	
+4-3	these	O	O	
+4-4	tools	B-ScrPart_tool	O	
+4-5	I	B-ScrPart_rider	O	
+4-6	pumped	O	B-ScrEv_refill_tire_air	
+4-7	some	O	O	
+4-8	air	B-ScrPart_air	O	
+4-9	into	O	O	
+4-10	the	O	O	
+4-11	tire	B-ScrPart_tire	O	
+4-12	to	O	O	
+4-13	locate	O	B-RelNScrEv	
+4-14	the	O	O	
+4-15	hole	B-ScrPart_object_damage	O	
+4-16	and	O	O	
+4-17	then	O	O	
+4-18	I	B-ScrPart_rider	O	
+4-19	took	O	B-ScrEv_take_tire_off	
+4-20	the	O	O	
+4-21	tire	B-ScrPart_tire	O	
+4-22	off	O	O	
+4-23	of	O	O	
+4-24	the	O	O	
+4-25	wheel	B-ScrPart_wheel	O	
+4-26	to	O	O	
+4-27	repair	O	B-Evoking	
+4-28	it	B-ScrPart_tire	I-Evoking	
+4-29	.	O	O	
+
+#id=5
+#text=I followed the directions on the repair kit which were actually very simple .
+5-1	I	B-ScrPart_rider	O	
+5-2	followed	O	B-UnrelEv	
+5-3	the	O	O	
+5-4	directions	B-ScrPart_other	O	
+5-5	on	O	O	
+5-6	the	O	O	
+5-7	repair	B-ScrPart_tool	O	
+5-8	kit	I-ScrPart_tool|B-ScrPart_tool	O	
+5-9	which	O	O	
+5-10	were	O	B-UnrelEv	
+5-11	actually	O	O	
+5-12	very	O	O	
+5-13	simple	O	O	
+5-14	.	O	O	
+
+#id=6
+#text=After I had patched the hole , I waited for the adhesive material to dry and then I took the bike out for a short test run to make sure that if the tire failed again I would not be far from home . 
+6-1	After	O	O	
+6-2	I	B-ScrPart_rider	O	
+6-3	had	O	O	
+6-4	patched	O	B-ScrEv_put_patch/seal	
+6-5	the	O	O	
+6-6	hole	B-ScrPart_object_damage	O	
+6-7	,	O	O	
+6-8	I	B-ScrPart_rider	O	
+6-9	waited	O	B-RelNScrEv	
+6-10	for	O	O	
+6-11	the	O	O	
+6-12	adhesive	O	O	
+6-13	material	B-ScrPart_patch	O	
+6-14	to	O	O	
+6-15	dry	O	B-RelNScrEv	
+6-16	and	O	O	
+6-17	then	O	O	
+6-18	I	B-ScrPart_rider	O	
+6-19	took	O	B-ScrEv_ride_bike	
+6-20	the	O	O	
+6-21	bike	B-ScrPart_bicycle	O	
+6-22	out	O	O	
+6-23	for	O	O	
+6-24	a	O	O	
+6-25	short	O	O	
+6-26	test	B-SuppVComp	O	
+6-27	run	I-SuppVComp|B-SuppVComp	O	
+6-28	to	O	O	
+6-29	make	O	B-ScrEv_check_new_tire	
+6-30	sure	O	I-ScrEv_check_new_tire	
+6-31	that	O	O	
+6-32	if	O	O	
+6-33	the	O	O	
+6-34	tire	B-ScrPart_tire	O	
+6-35	failed	O	B-RelNScrEv	
+6-36	again	O	O	
+6-37	I	B-ScrPart_rider	O	
+6-38	would	O	O	
+6-39	not	O	O	
+6-40	be	O	B-UnrelEv	
+6-41	far	O	O	
+6-42	from	O	O	
+6-43	home	B-ScrPart_location_repair	O	
+6-44	.	O	O	
+

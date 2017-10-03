@@ -1,0 +1,220 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Friday was Madison 's birthday party and I wanted to make sure that I looked my best .
+1-1	Friday	B-ScrPart_time/date	O	_	_	
+1-2	was	O	B-UnrelEv	_	_	
+1-3	Madison	O	O	_	_	
+1-4	's	O	O	_	_	
+1-5	birthday	O	O	_	_	
+1-6	party	O	O	_	_	
+1-7	and	O	O	_	_	
+1-8	I	B-ScrPart_customer	O	_	_	
+1-9	wanted	O	B-UnrelEv	_	_	
+1-10	to	O	O	_	_	
+1-11	make	O	B-UnrelEv|B-UnrelEv	_	_	
+1-12	sure	O	I-UnrelEv	_	_	
+1-13	that	O	O	_	_	
+1-14	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-8	
+1-15	looked	O	B-UnrelEv	_	_	
+1-16	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-14	
+1-17	best	O	O	_	_	
+1-18	.	O	O	_	_	
+
+#id=2
+#text=I asked my dad to take me to the local barber shop .
+2-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-16	
+2-2	asked	O	B-UnrelEv	_	_	
+2-3	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-1	
+2-4	dad	B-NPart	O	_	_	
+2-5	to	O	O	_	_	
+2-6	take	O	B-Evoking	_	_	
+2-7	me	B-ScrPart_customer	I-Evoking	webanno.custom.Corefchains_	2-3	
+2-8	to	O	I-Evoking	_	_	
+2-9	the	O	I-Evoking	_	_	
+2-10	local	O	I-Evoking	_	_	
+2-11	barber	B-ScrPart_salon	I-Evoking	_	_	
+2-12	shop	I-ScrPart_salon|B-ScrPart_salon	I-Evoking	_	_	
+2-13	.	O	O	_	_	
+
+#id=3
+#text=When I got there , I sat down and saw that there were two other people waiting .
+3-1	When	O	O	_	_	
+3-2	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-7	
+3-3	got	O	B-ScrEv_get_salon	_	_	
+3-4	there	B-ScrPart_salon	O	webanno.custom.Corefchains_	2-12	
+3-5	,	O	O	_	_	
+3-6	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-2	
+3-7	sat	O	B-ScrEv_sit_down|B-ScrEv_sit_down	_	_	
+3-8	down	O	I-ScrEv_sit_down	_	_	
+3-9	and	O	O	_	_	
+3-10	saw	O	O	_	_	
+3-11	that	O	O	_	_	
+3-12	there	B-ScrPart_salon	O	webanno.custom.Corefchains_	3-4	
+3-13	were	O	O	_	_	
+3-14	two	O	O	_	_	
+3-15	other	O	O	_	_	
+3-16	people	B-ScrPart_customer	O	_	_	
+3-17	waiting	O	B-ScrEv_wait	_	_	
+3-18	.	O	O	_	_	
+
+#id=4
+#text=I decided to go over to the magazine rack and I found a magazine about baseball .
+4-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-6	
+4-2	decided	O	B-UnrelEv	_	_	
+4-3	to	O	O	_	_	
+4-4	go	O	B-RelNScrEv|B-RelNScrEv	_	_	
+4-5	over	O	I-RelNScrEv	_	_	
+4-6	to	O	O	_	_	
+4-7	the	O	O	_	_	
+4-8	magazine	B-MissScrPart	O	_	_	
+4-9	rack	I-MissScrPart|B-MissScrPart	O	_	_	
+4-10	and	O	O	_	_	
+4-11	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-1	
+4-12	found	O	B-UnrelEv	_	_	
+4-13	a	O	O	_	_	
+4-14	magazine	B-ScrPart_entertainment	O	_	_	
+4-15	about	O	O	_	_	
+4-16	baseball	O	O	_	_	
+4-17	.	O	O	_	_	
+
+#id=5
+#text=I really enjoyed all of the stories that were in the magazine .
+5-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-11	
+5-2	really	O	O	_	_	
+5-3	enjoyed	O	B-UnrelEv	_	_	
+5-4	all	O	O	_	_	
+5-5	of	O	O	_	_	
+5-6	the	O	O	_	_	
+5-7	stories	O	O	_	_	
+5-8	that	O	O	_	_	
+5-9	were	O	O	_	_	
+5-10	in	O	O	_	_	
+5-11	the	O	O	_	_	
+5-12	magazine	B-ScrPart_entertainment	O	webanno.custom.Corefchains_	4-14	
+5-13	.	O	O	_	_	
+
+#id=6
+#text=Before I knew it , the barber called me over to the chair .
+6-1	Before	O	O	_	_	
+6-2	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-1	
+6-3	knew	O	B-UnrelEv	_	_	
+6-4	it	O	O	_	_	
+6-5	,	O	O	_	_	
+6-6	the	O	O	_	_	
+6-7	barber	B-ScrPart_hairdresser	O	_	_	
+6-8	called	O	B-MissScrEv	_	_	
+6-9	me	B-ScrPart_customer	O	_	_	
+6-10	over	O	O	_	_	
+6-11	to	O	O	_	_	
+6-12	the	O	O	_	_	
+6-13	chair	B-ScrPart_chair	O	_	_	
+6-14	.	O	O	_	_	
+
+#id=7
+#text=I sat down and then he asked me what kind of haircut I wanted .
+7-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-2	
+7-2	sat	O	B-ScrEv_sit_down|B-ScrEv_sit_down	_	_	
+7-3	down	O	I-ScrEv_sit_down	_	_	
+7-4	and	O	O	_	_	
+7-5	then	O	O	_	_	
+7-6	he	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	6-7	
+7-7	asked	O	B-ScrEv_talk_haircut	_	_	
+7-8	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-1	
+7-9	what	O	O	_	_	
+7-10	kind	O	O	_	_	
+7-11	of	B-ScrPart_customer	O	_	_	
+7-12	haircut	B-MissScrPart	O	_	_	
+7-13	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-8	
+7-14	wanted	O	B-RelNScrEv	_	_	
+7-15	.	O	O	_	_	
+
+#id=8
+#text=It was summer so I decided to get a crew cut .
+8-1	It	O	O	_	_	
+8-2	was	O	B-UnrelEv	_	_	
+8-3	summer	O	O	_	_	
+8-4	so	O	O	_	_	
+8-5	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-13	
+8-6	decided	O	B-UnrelEv	_	_	
+8-7	to	O	O	_	_	
+8-8	get	O	B-RelNScrEv	_	_	
+8-9	a	O	O	_	_	
+8-10	crew	B-MissScrPart	O	_	_	
+8-11	cut	I-MissScrPart|B-MissScrPart	O	webanno.custom.Corefchains_	7-12	
+8-12	.	O	O	_	_	
+
+#id=9
+#text=He started off by using the electric razor on my head .
+9-1	He	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	7-6	
+9-2	started	O	B-UnrelEv	_	_	
+9-3	off	O	O	_	_	
+9-4	by	O	O	_	_	
+9-5	using	O	B-MissScrEv	_	_	
+9-6	the	O	O	_	_	
+9-7	electric	O	O	_	_	
+9-8	razor	B-MissScrPart	O	_	_	
+9-9	on	O	O	_	_	
+9-10	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-5	
+9-11	head	B-MissScrPart	O	_	_	
+9-12	.	O	O	_	_	
+
+#id=10
+#text=After that , he got out the scissors in order to cut some of the remaining hair .
+10-1	After	O	O	_	_	
+10-2	that	O	O	_	_	
+10-3	,	O	O	_	_	
+10-4	he	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	9-1	
+10-5	got	O	B-RelNScrEv|B-RelNScrEv	_	_	
+10-6	out	O	I-RelNScrEv	_	_	
+10-7	the	O	O	_	_	
+10-8	scissors	B-ScrPart_scissors	O	_	_	
+10-9	in	O	O	_	_	
+10-10	order	B-NPart	O	_	_	
+10-11	to	O	O	_	_	
+10-12	cut	O	B-ScrEv_cut	_	_	
+10-13	some	O	O	_	_	
+10-14	of	O	O	_	_	
+10-15	the	O	O	_	_	
+10-16	remaining	O	O	_	_	
+10-17	hair	B-ScrPart_hair	O	_	_	
+10-18	.	O	O	_	_	
+
+#id=11
+#text=After he finished , he put some powder on my face and brushed off any hair that had fallen .
+11-1	After	O	O	_	_	
+11-2	he	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	10-4	
+11-3	finished	O	B-UnrelEv	_	_	
+11-4	,	O	O	_	_	
+11-5	he	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	11-2	
+11-6	put	O	B-RelNScrEv	_	_	
+11-7	some	O	O	_	_	
+11-8	powder	B-MissScrPart	O	_	_	
+11-9	on	O	O	_	_	
+11-10	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-10	
+11-11	face	B-NPart	O	_	_	
+11-12	and	O	O	_	_	
+11-13	brushed	O	B-ScrEv_brush_hair|B-ScrEv_brush_hair	_	_	
+11-14	off	O	I-ScrEv_brush_hair	_	_	
+11-15	any	O	O	_	_	
+11-16	hair	B-ScrPart_hair	O	webanno.custom.Corefchains_	10-17	
+11-17	that	O	O	_	_	
+11-18	had	O	O	_	_	
+11-19	fallen	O	B-RelNScrEv	_	_	
+11-20	.	O	O	_	_	
+
+#id=12
+#text=He showed me the haircut in a mirror and I was pleased . 
+12-1	He	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	11-5	
+12-2	showed	O	B-ScrEv_look_mirror	_	_	
+12-3	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	11-10	
+12-4	the	O	O	_	_	
+12-5	haircut	B-MissScrPart	O	webanno.custom.Corefchains_	8-11	
+12-6	in	O	O	_	_	
+12-7	a	O	O	_	_	
+12-8	mirror	B-ScrPart_mirror	O	_	_	
+12-9	and	O	O	_	_	
+12-10	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	12-3	
+12-11	was	O	B-ScrEv_customer_opinion	_	_	
+12-12	pleased	O	O	_	_	
+12-13	.	O	O	_	_	
+

@@ -1,0 +1,216 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Getting a hair cut can be a stressful activity .
+1-1	Getting	B-Evoking	O	_	_	
+1-2	a	I-Evoking	O	_	_	
+1-3	hair	I-Evoking	B-ScrPart_haircut	_	_	
+1-4	cut	I-Evoking	I-ScrPart_haircut	_	_	
+1-5	can	O	O	_	_	
+1-6	be	B-UnrelEv	O	_	_	
+1-7	a	O	O	_	_	
+1-8	stressful	O	O	_	_	
+1-9	activity	O	B-NPart	_	_	
+1-10	.	O	O	_	_	
+
+#id=2
+#text=You have to know where you are going to go for this service and how much you want to spend .
+2-1	You	O	B-ScrPart_customer	_	_	
+2-2	have	O	O	_	_	
+2-3	to	O	O	_	_	
+2-4	know	B-UnrelEv	O	_	_	
+2-5	where	O	O	_	_	
+2-6	you	O	B-ScrPart_customer	_	_	
+2-7	are	O	O	_	_	
+2-8	going	O	O	_	_	
+2-9	to	O	O	_	_	
+2-10	go	B-ScrEv_get_salon	O	_	_	
+2-11	for	O	O	_	_	
+2-12	this	O	O	_	_	
+2-13	service	O	B-NPart	_	_	
+2-14	and	O	O	_	_	
+2-15	how	O	O	_	_	
+2-16	much	O	O	_	_	
+2-17	you	O	B-ScrPart_customer	_	_	
+2-18	want	B-UnrelEv	O	_	_	
+2-19	to	O	O	_	_	
+2-20	spend	B-ScrEv_pay	O	_	_	
+2-21	.	O	O	_	_	
+
+#id=3
+#text=Some people have one hair dresser they like and stick with that person over years .
+3-1	Some	O	O	_	_	
+3-2	people	O	B-NPart	_	_	
+3-3	have	B-UnrelEv	O	_	_	
+3-4	one	O	O	_	_	
+3-5	hair	O	B-ScrPart_hairdresser	_	_	
+3-6	dresser	O	I-ScrPart_hairdresser	_	_	
+3-7	they	O	B-NPart	_	_	
+3-8	like	B-UnrelEv	O	_	_	
+3-9	and	O	O	_	_	
+3-10	stick	B-UnrelEv	O	_	_	
+3-11	with	O	O	_	_	
+3-12	that	O	O	_	_	
+3-13	person	O	B-ScrPart_hairdresser	_	_	
+3-14	over	O	O	_	_	
+3-15	years	O	B-No_label	_	_	
+3-16	.	O	O	_	_	
+
+#id=4
+#text=I have n't had such luck , so I sometime have to take a gamble and just make an appointment at a random salon .
+4-1	I	O	B-ScrPart_customer	_	_	
+4-2	have	O	O	_	_	
+4-3	n't	O	O	_	_	
+4-4	had	B-UnrelEv	O	_	_	
+4-5	such	O	O	_	_	
+4-6	luck	O	B-No_label	_	_	
+4-7	,	O	O	_	_	
+4-8	so	O	O	_	_	
+4-9	I	O	B-ScrPart_customer	_	_	
+4-10	sometime	O	O	_	_	
+4-11	have	O	O	_	_	
+4-12	to	O	O	_	_	
+4-13	take	B-UnrelEv	O	_	_	
+4-14	a	O	O	_	_	
+4-15	gamble	O	B-No_label	_	_	
+4-16	and	O	O	_	_	
+4-17	just	O	O	_	_	
+4-18	make	B-ScrEv_make_appointment	O	_	_	
+4-19	an	O	O	_	_	
+4-20	appointment	O	B-ScrPart_appointment	_	_	
+4-21	at	O	O	_	_	
+4-22	a	O	O	_	_	
+4-23	random	O	O	_	_	
+4-24	salon	O	B-ScrPart_salon	_	_	
+4-25	.	O	O	_	_	
+
+#id=5
+#text=If I want a new look , I 'll make sure to be prepared with an example picture of exactly what I want , or if I just want a trim I coach myself into being very firm about not cutting too much .
+5-1	If	O	O	_	_	
+5-2	I	O	B-ScrPart_customer	_	_	
+5-3	want	B-ScrEv_talk_haircut	O	_	_	
+5-4	a	O	O	_	_	
+5-5	new	O	O	_	_	
+5-6	look	O	B-NPart	_	_	
+5-7	,	O	O	_	_	
+5-8	I	O	B-ScrPart_customer	_	_	
+5-9	'll	O	O	_	_	
+5-10	make	B-UnrelEv	O	_	_	
+5-11	sure	I-UnrelEv	O	_	_	
+5-12	to	O	O	_	_	
+5-13	be	O	O	_	_	
+5-14	prepared	B-ScrEv_talk_haircut	O	_	_	
+5-15	with	O	O	_	_	
+5-16	an	O	O	_	_	
+5-17	example	O	B-NPart	_	_	
+5-18	picture	O	I-NPart|B-NPart	_	_	
+5-19	of	O	O	_	_	
+5-20	exactly	O	O	_	_	
+5-21	what	O	B-NPart	_	_	
+5-22	I	O	B-ScrPart_customer	_	_	
+5-23	want	B-ScrEv_talk_haircut	O	_	_	
+5-24	,	O	O	_	_	
+5-25	or	O	O	_	_	
+5-26	if	O	O	_	_	
+5-27	I	O	B-ScrPart_customer	_	_	
+5-28	just	O	O	_	_	
+5-29	want	B-ScrEv_talk_haircut	O	_	_	
+5-30	a	O	O	_	_	
+5-31	trim	O	B-ScrPart_haircut	webanno.custom.Corefchains_	1-3	
+5-32	I	O	B-ScrPart_customer	_	_	
+5-33	coach	B-RelNScrEv	O	_	_	
+5-34	myself	O	B-ScrPart_customer	_	_	
+5-35	into	O	O	_	_	
+5-36	being	B-ScrEv_talk_haircut	O	_	_	
+5-37	very	O	O	_	_	
+5-38	firm	O	O	_	_	
+5-39	about	O	O	_	_	
+5-40	not	O	O	_	_	
+5-41	cutting	B-ScrEv_cut	O	_	_	
+5-42	too	O	O	_	_	
+5-43	much	O	O	_	_	
+5-44	.	O	O	_	_	
+
+#id=6
+#text=I try to get to my appointment early , in case they 're ready to see me sooner than they expected .
+6-1	I	O	B-ScrPart_customer	_	_	
+6-2	try	B-UnrelEv	O	_	_	
+6-3	to	O	O	_	_	
+6-4	get	B-ScrEv_get_salon	O	_	_	
+6-5	to	O	O	_	_	
+6-6	my	O	B-ScrPart_customer	_	_	
+6-7	appointment	O	B-ScrPart_appointment	_	_	
+6-8	early	O	O	_	_	
+6-9	,	O	O	_	_	
+6-10	in	O	O	_	_	
+6-11	case	O	B-No_label	_	_	
+6-12	they	O	B-ScrPart_hairdresser	_	_	
+6-13	're	B-RelNScrEv	O	_	_	
+6-14	ready	O	O	_	_	
+6-15	to	O	O	_	_	
+6-16	see	B-ScrEv_get_called	O	_	_	
+6-17	me	O	B-ScrPart_customer	_	_	
+6-18	sooner	O	O	_	_	
+6-19	than	O	O	_	_	
+6-20	they	O	B-ScrPart_hairdresser	_	_	
+6-21	expected	B-UnrelEv	O	_	_	
+6-22	.	O	O	_	_	
+
+#id=7
+#text=There is generally small talk back and forth during the process , which can be uncomfortable for socially awkard folks like myself , but I muddle through it somehow .
+7-1	There	O	O	_	_	
+7-2	is	B-ScrEv_small_talk	O	_	_	
+7-3	generally	O	O	_	_	
+7-4	small	O	B-ScrPart_entertainment	_	_	
+7-5	talk	O	I-ScrPart_entertainment	_	_	
+7-6	back	O	O	_	_	
+7-7	and	O	O	_	_	
+7-8	forth	O	O	_	_	
+7-9	during	O	O	_	_	
+7-10	the	O	O	_	_	
+7-11	process	O	B-NPart	_	_	
+7-12	,	O	O	_	_	
+7-13	which	O	O	_	_	
+7-14	can	O	O	_	_	
+7-15	be	B-UnrelEv	O	_	_	
+7-16	uncomfortable	O	O	_	_	
+7-17	for	O	O	_	_	
+7-18	socially	O	O	_	_	
+7-19	awkard	O	O	_	_	
+7-20	folks	O	B-ScrPart_customer	_	_	
+7-21	like	O	O	_	_	
+7-22	myself	O	B-ScrPart_customer	_	_	
+7-23	,	O	O	_	_	
+7-24	but	O	O	_	_	
+7-25	I	O	B-ScrPart_customer	_	_	
+7-26	muddle	B-ScrEv_small_talk	O	_	_	
+7-27	through	I-ScrEv_small_talk	O	_	_	
+7-28	it	O	B-ScrPart_entertainment	_	_	
+7-29	somehow	O	O	_	_	
+7-30	.	O	O	_	_	
+
+#id=8
+#text=If I am happy with my service and with how my hair looks , I make sure to leave a generous tip . 
+8-1	If	O	O	_	_	
+8-2	I	O	B-ScrPart_customer	_	_	
+8-3	am	B-ScrEv_customer_opinion	O	_	_	
+8-4	happy	O	O	_	_	
+8-5	with	O	O	_	_	
+8-6	my	O	B-ScrPart_customer	_	_	
+8-7	service	O	B-NPart	_	_	
+8-8	and	O	O	_	_	
+8-9	with	O	O	_	_	
+8-10	how	O	O	_	_	
+8-11	my	O	B-ScrPart_customer	_	_	
+8-12	hair	O	B-ScrPart_hair	_	_	
+8-13	looks	B-ScrEv_look_mirror	O	_	_	
+8-14	,	O	O	_	_	
+8-15	I	O	B-ScrPart_customer	_	_	
+8-16	make	B-UnrelEv	O	_	_	
+8-17	sure	I-UnrelEv	O	_	_	
+8-18	to	O	O	_	_	
+8-19	leave	B-ScrEv_leave_tip	O	_	_	
+8-20	a	O	O	_	_	
+8-21	generous	O	O	_	_	
+8-22	tip	O	B-ScrPart_tip	_	_	
+8-23	.	O	O	_	_	
+

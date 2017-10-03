@@ -1,0 +1,232 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=In need of a new series to sink my teeth into , I decided to head to the public library .
+1-1	In	O	O	_	_	
+1-2	need	B-No_label	O	_	_	
+1-3	of	O	O	_	_	
+1-4	a	O	O	_	_	
+1-5	new	O	O	_	_	
+1-6	series	B-ScrPart_book	O	_	_	
+1-7	to	O	O	_	_	
+1-8	sink	O	B-UnrelEv	_	_	
+1-9	my	B-ScrPart_customer	O	_	_	
+1-10	teeth	B-No_label	O	_	_	
+1-11	into	O	O	_	_	
+1-12	,	O	O	_	_	
+1-13	I	B-ScrPart_customer	O	_	_	
+1-14	decided	O	B-UnrelEv	_	_	
+1-15	to	O	O	_	_	
+1-16	head	O	B-Evoking	_	_	
+1-17	to	O	I-Evoking	_	_	
+1-18	the	O	I-Evoking	_	_	
+1-19	public	O	I-Evoking	_	_	
+1-20	library	B-ScrPart_library	I-Evoking	_	_	
+1-21	.	O	O	_	_	
+
+#id=2
+#text=I ca n't seem to go long without reading some mythical , crazy fantasy !
+2-1	I	B-ScrPart_customer	O	_	_	
+2-2	ca	O	O	_	_	
+2-3	n't	O	O	_	_	
+2-4	seem	O	B-UnrelEv	_	_	
+2-5	to	O	O	_	_	
+2-6	go	O	B-UnrelEv	_	_	
+2-7	long	O	O	_	_	
+2-8	without	O	O	_	_	
+2-9	reading	O	B-RelNScrEv	_	_	
+2-10	some	O	O	_	_	
+2-11	mythical	O	O	_	_	
+2-12	,	O	O	_	_	
+2-13	crazy	O	O	_	_	
+2-14	fantasy	B-ScrPart_other	O	_	_	
+2-15	!	O	O	_	_	
+
+#id=3
+#text=Anyway , when I got to the Library , I sat down at their computer where you can look up where certain books are in the library .
+3-1	Anyway	O	O	_	_	
+3-2	,	O	O	_	_	
+3-3	when	O	O	_	_	
+3-4	I	B-ScrPart_customer	O	_	_	
+3-5	got	O	B-ScrEv_get_library	_	_	
+3-6	to	O	O	_	_	
+3-7	the	O	O	_	_	
+3-8	Library	B-ScrPart_library	O	_	_	
+3-9	,	O	O	_	_	
+3-10	I	B-ScrPart_customer	O	_	_	
+3-11	sat	O	B-RelNScrEv	_	_	
+3-12	down	O	I-RelNScrEv	_	_	
+3-13	at	O	O	_	_	
+3-14	their	B-ScrPart_library	O	webanno.custom.Corefchains_	3-8	
+3-15	computer	B-ScrPart_institutional_devices	O	_	_	
+3-16	where	O	O	_	_	
+3-17	you	B-ScrPart_customer	O	_	_	
+3-18	can	O	O	_	_	
+3-19	look	O	B-ScrEv_use_computer	_	_	
+3-20	up	O	I-ScrEv_use_computer	_	_	
+3-21	where	O	O	_	_	
+3-22	certain	O	O	_	_	
+3-23	books	B-ScrPart_book	O	_	_	
+3-24	are	O	B-UnrelEv	_	_	
+3-25	in	O	O	_	_	
+3-26	the	O	O	_	_	
+3-27	library	B-ScrPart_library	O	webanno.custom.Corefchains_	3-14	
+3-28	.	O	O	_	_	
+
+#id=4
+#text=I found where the fantasy section was and headed over to that shelf .
+4-1	I	B-ScrPart_customer	O	_	_	
+4-2	found	O	B-ScrEv_use_computer	_	_	
+4-3	where	O	O	_	_	
+4-4	the	O	O	_	_	
+4-5	fantasy	B-ScrPart_location_library	O	_	_	
+4-6	section	I-ScrPart_location_library|B-ScrPart_location_library	O	_	_	
+4-7	was	O	B-UnrelEv	_	_	
+4-8	and	O	O	_	_	
+4-9	headed	O	B-ScrEv_get_shelf	_	_	
+4-10	over	O	I-ScrEv_get_shelf	_	_	
+4-11	to	O	O	_	_	
+4-12	that	O	O	_	_	
+4-13	shelf	B-ScrPart_shelf	O	_	_	
+4-14	.	O	O	_	_	
+
+#id=5
+#text=Oh my goodness , there were more books than I could ever imagine !
+5-1	Oh	O	O	_	_	
+5-2	my	B-ScrPart_customer	O	_	_	
+5-3	goodness	B-No_label	O	_	_	
+5-4	,	O	O	_	_	
+5-5	there	O	O	_	_	
+5-6	were	O	B-UnrelEv	_	_	
+5-7	more	O	O	_	_	
+5-8	books	B-ScrPart_book	O	_	_	
+5-9	than	O	O	_	_	
+5-10	I	B-ScrPart_customer	O	_	_	
+5-11	could	O	O	_	_	
+5-12	ever	O	O	_	_	
+5-13	imagine	O	B-UnrelEv	_	_	
+5-14	!	O	O	_	_	
+
+#id=6
+#text=I was practically drooling !
+6-1	I	B-ScrPart_customer	O	_	_	
+6-2	was	O	O	_	_	
+6-3	practically	O	O	_	_	
+6-4	drooling	O	B-UnrelEv	_	_	
+6-5	!	O	O	_	_	
+
+#id=7
+#text=I saw the series I was looking for and decided to get just the first book in the series -LRB- so I do n't binge read -RRB- .
+7-1	I	B-ScrPart_customer	O	_	_	
+7-2	saw	O	B-ScrEv_look_for_book	_	_	
+7-3	the	O	O	_	_	
+7-4	series	B-ScrPart_book	O	_	_	
+7-5	I	B-ScrPart_customer	O	_	_	
+7-6	was	O	O	_	_	
+7-7	looking	O	B-ScrEv_look_for_book	_	_	
+7-8	for	O	I-ScrEv_look_for_book	_	_	
+7-9	and	O	O	_	_	
+7-10	decided	O	B-UnrelEv	_	_	
+7-11	to	O	O	_	_	
+7-12	get	O	B-ScrEv_take_book	_	_	
+7-13	just	O	O	_	_	
+7-14	the	O	O	_	_	
+7-15	first	O	O	_	_	
+7-16	book	B-Head_of_Partitive	O	_	_	
+7-17	in	O	O	_	_	
+7-18	the	O	O	_	_	
+7-19	series	B-ScrPart_book	O	webanno.custom.Corefchains_	7-4	
+7-20	-LRB-	O	O	_	_	
+7-21	so	O	O	_	_	
+7-22	I	B-ScrPart_customer	O	_	_	
+7-23	do	O	O	_	_	
+7-24	n't	O	O	_	_	
+7-25	binge	O	B-RelNScrEv	_	_	
+7-26	read	O	I-RelNScrEv	_	_	
+7-27	-RRB-	O	O	_	_	
+7-28	.	O	O	_	_	
+
+#id=8
+#text=I took the book up to the front counter and handed the librarian my member card so that I could check the book out .
+8-1	I	B-ScrPart_customer	O	_	_	
+8-2	took	O	B-ScrEv_take_book	_	_	
+8-3	the	O	O	_	_	
+8-4	book	B-ScrPart_book	O	webanno.custom.Corefchains_	7-19	
+8-5	up	O	O	_	_	
+8-6	to	O	O	_	_	
+8-7	the	O	O	_	_	
+8-8	front	O	O	_	_	
+8-9	counter	B-ScrPart_check-out_desk	O	_	_	
+8-10	and	O	O	_	_	
+8-11	handed	O	B-ScrEv_show_card	_	_	
+8-12	the	O	O	_	_	
+8-13	librarian	B-ScrPart_staff	O	_	_	
+8-14	my	B-ScrPart_customer	O	_	_	
+8-15	member	B-ScrPart_library_card	O	_	_	
+8-16	card	I-ScrPart_library_card|B-ScrPart_library_card	O	_	_	
+8-17	so	O	O	_	_	
+8-18	that	O	O	_	_	
+8-19	I	B-ScrPart_customer	O	_	_	
+8-20	could	O	O	_	_	
+8-21	check	O	B-ScrEv_register	_	_	
+8-22	the	O	O	_	_	
+8-23	book	B-ScrPart_book	O	_	_	
+8-24	out	O	O	_	_	
+8-25	.	O	O	_	_	
+
+#id=9
+#text=She looked the book over and commented that it was one of her favorites which made me smile .
+9-1	She	B-ScrPart_staff	O	_	_	
+9-2	looked	O	B-RelNScrEv	_	_	
+9-3	the	O	O	_	_	
+9-4	book	B-ScrPart_book	O	_	_	
+9-5	over	O	O	_	_	
+9-6	and	O	O	_	_	
+9-7	commented	O	B-RelNScrEv	_	_	
+9-8	that	O	O	_	_	
+9-9	it	B-ScrPart_book	O	_	_	
+9-10	was	O	B-UnrelEv	_	_	
+9-11	one	O	O	_	_	
+9-12	of	O	O	_	_	
+9-13	her	B-ScrPart_staff	O	_	_	
+9-14	favorites	B-NPart	O	_	_	
+9-15	which	O	O	_	_	
+9-16	made	O	B-UnrelEv	_	_	
+9-17	me	B-ScrPart_customer	O	_	_	
+9-18	smile	O	B-RelNScrEv	_	_	
+9-19	.	O	O	_	_	
+
+#id=10
+#text=With the book now checked out , I slipped it into my page and made my way home .
+10-1	With	O	O	_	_	
+10-2	the	O	O	_	_	
+10-3	book	B-ScrPart_book	O	_	_	
+10-4	now	O	O	_	_	
+10-5	checked	O	B-ScrEv_register	_	_	
+10-6	out	O	I-ScrEv_register	_	_	
+10-7	,	O	O	_	_	
+10-8	I	B-ScrPart_customer	O	_	_	
+10-9	slipped	O	B-ScrEv_put_book_bag	_	_	
+10-10	it	B-ScrPart_book	O	_	_	
+10-11	into	O	O	_	_	
+10-12	my	B-ScrPart_customer	O	_	_	
+10-13	page	B-ScrPart_bag	O	_	_	
+10-14	and	O	O	_	_	
+10-15	made	O	B-ScrEv_leave	_	_	
+10-16	my	B-ScrPart_customer	O	_	_	
+10-17	way	B-NPart	O	_	_	
+10-18	home	O	O	_	_	
+10-19	.	O	O	_	_	
+
+#id=11
+#text=I was ready to dive into a new adventure ! 
+11-1	I	B-ScrPart_customer	O	_	_	
+11-2	was	O	B-UnrelEv	_	_	
+11-3	ready	O	O	_	_	
+11-4	to	O	O	_	_	
+11-5	dive	O	B-UnrelEv	_	_	
+11-6	into	O	O	_	_	
+11-7	a	O	O	_	_	
+11-8	new	O	O	_	_	
+11-9	adventure	B-NPart	O	_	_	
+11-10	!	O	O	_	_	
+

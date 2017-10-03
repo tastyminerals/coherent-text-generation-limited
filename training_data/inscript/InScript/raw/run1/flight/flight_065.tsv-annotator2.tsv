@@ -1,0 +1,263 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=This year for vacation , we decide we wanted to to Ireland .
+1-1	This	O	O	O	_	_	
+1-2	year	O	O	O	_	_	
+1-3	for	O	O	O	_	_	
+1-4	vacation	O	O	O	_	_	
+1-5	,	O	O	O	_	_	
+1-6	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	_	_	
+1-7	decide	O	O	B-UnrelEv	_	_	
+1-8	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-6	
+1-9	wanted	O	O	B-UnrelEv	_	_	
+1-10	to	O	O	O	_	_	
+1-11	to	O	O	O	_	_	
+1-12	Ireland	B-webanno.custom.Participants_	B-ScrPart_target_location	O	_	_	
+1-13	.	O	O	O	_	_	
+
+#id=2
+#text=Well never having flown in a plane the thought of flying was a bit frightening .
+2-1	Well	O	O	O	_	_	
+2-2	never	O	O	O	_	_	
+2-3	having	O	O	O	_	_	
+2-4	flown	O	O	B-Evoking	_	_	
+2-5	in	O	O	I-Evoking	_	_	
+2-6	a	O	O	I-Evoking	_	_	
+2-7	plane	B-webanno.custom.Participants_	B-ScrPart_plane	I-Evoking	_	_	
+2-8	the	O	O	O	_	_	
+2-9	thought	O	O	O	_	_	
+2-10	of	O	O	O	_	_	
+2-11	flying	O	O	B-Evoking	_	_	
+2-12	was	O	O	O	_	_	
+2-13	a	O	O	O	_	_	
+2-14	bit	O	O	O	_	_	
+2-15	frightening	O	O	O	_	_	
+2-16	.	O	O	O	_	_	
+
+#id=3
+#text=We scheduled are vacation and our nerves were getting the best of us all since this new to our family .
+3-1	We	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-8	
+3-2	scheduled	O	O	B-RelNScrEv	_	_	
+3-3	are	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-1	
+3-4	vacation	O	O	O	_	_	
+3-5	and	O	O	O	_	_	
+3-6	our	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-3	
+3-7	nerves	O	O	O	_	_	
+3-8	were	O	O	O	_	_	
+3-9	getting	O	O	B-UnrelEv	_	_	
+3-10	the	O	O	O	_	_	
+3-11	best	O	O	O	_	_	
+3-12	of	O	O	O	_	_	
+3-13	us	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-6	
+3-14	all	O	O	O	_	_	
+3-15	since	O	O	O	_	_	
+3-16	this	O	O	O	_	_	
+3-17	new	O	O	O	_	_	
+3-18	to	O	O	O	_	_	
+3-19	our	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-13	
+3-20	family	O	O	O	_	_	
+3-21	.	O	O	O	_	_	
+
+#id=4
+#text=The day arrived that we were to leave , we arrived early since we did n't know how long it would take to get through all the checkpoint i the airport .
+4-1	The	O	O	O	_	_	
+4-2	day	O	O	O	_	_	
+4-3	arrived	O	O	B-UnrelEv	_	_	
+4-4	that	O	O	O	_	_	
+4-5	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-19	
+4-6	were	O	O	B-UnrelEv	_	_	
+4-7	to	O	O	O	_	_	
+4-8	leave	O	O	B-RelNScrEv	_	_	
+4-9	,	O	O	O	_	_	
+4-10	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-5	
+4-11	arrived	O	O	B-ScrEv_get_airport	_	_	
+4-12	early	O	O	O	_	_	
+4-13	since	O	O	O	_	_	
+4-14	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-10	
+4-15	did	O	O	O	_	_	
+4-16	n't	O	O	O	_	_	
+4-17	know	O	O	B-UnrelEv	_	_	
+4-18	how	O	O	O	_	_	
+4-19	long	O	O	O	_	_	
+4-20	it	O	O	O	_	_	
+4-21	would	O	O	O	_	_	
+4-22	take	O	O	B-UnrelEv	_	_	
+4-23	to	O	O	O	_	_	
+4-24	get	O	O	B-???	_	_	
+4-25	through	O	O	I-???	_	_	
+4-26	all	O	O	O	_	_	
+4-27	the	O	O	O	_	_	
+4-28	checkpoint	B-webanno.custom.Participants_	B-???	O	_	_	
+4-29	i	O	O	O	_	_	
+4-30	the	O	O	O	_	_	
+4-31	airport	B-webanno.custom.Participants_	B-ScrPart_airport	O	_	_	
+4-32	.	O	O	O	_	_	
+
+#id=5
+#text=We checked our bags and got through security and anxiously waited to board our plane .
+5-1	We	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-14	
+5-2	checked	O	O	B-ScrEv_check_luggage	_	_	
+5-3	our	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-1	
+5-4	bags	B-webanno.custom.Participants_	B-ScrPart_check_in_luggage	O	_	_	
+5-5	and	O	O	O	_	_	
+5-6	got	O	O	B-ScrEv_go_security_checks	_	_	
+5-7	through	O	O	I-ScrEv_go_security_checks	_	_	
+5-8	security	B-webanno.custom.Participants_	B-ScrPart_security_check	O	_	_	
+5-9	and	O	O	O	_	_	
+5-10	anxiously	O	O	O	_	_	
+5-11	waited	O	O	B-ScrEv_wait_boarding	_	_	
+5-12	to	O	O	O	_	_	
+5-13	board	O	O	B-ScrEv_board_plane	_	_	
+5-14	our	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-3	
+5-15	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	2-7	
+5-16	.	O	O	O	_	_	
+
+#id=6
+#text=The kids we are anxious to get aboard and see what it was like , I , however was trying to convince myself this was going to be a fun experience .
+6-1	The	O	O	O	_	_	
+6-2	kids	B-webanno.custom.Participants_	B-ScrPart_passenger	O	group_I_kids	1-6	
+6-3	we	O	O	O	_	_	
+6-4	are	O	O	B-UnrelEv	_	_	
+6-5	anxious	O	O	O	_	_	
+6-6	to	O	O	O	_	_	
+6-7	get	O	O	B-ScrEv_board_plane	_	_	
+6-8	aboard	O	O	I-ScrEv_board_plane	_	_	
+6-9	and	O	O	O	_	_	
+6-10	see	O	O	B-UnrelEv	_	_	
+6-11	what	O	O	O	_	_	
+6-12	it	O	O	O	_	_	
+6-13	was	O	O	O	_	_	
+6-14	like	O	O	O	_	_	
+6-15	,	O	O	O	_	_	
+6-16	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	group_I_kids	1-6	
+6-17	,	O	O	O	_	_	
+6-18	however	O	O	O	_	_	
+6-19	was	O	O	O	_	_	
+6-20	trying	O	O	O	_	_	
+6-21	to	O	O	O	_	_	
+6-22	convince	O	O	B-UnrelEv	_	_	
+6-23	myself	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-16	
+6-24	this	O	O	O	_	_	
+6-25	was	O	O	O	_	_	
+6-26	going	O	O	O	_	_	
+6-27	to	O	O	O	_	_	
+6-28	be	O	O	B-UnrelEv	_	_	
+6-29	a	O	O	O	_	_	
+6-30	fun	O	O	O	_	_	
+6-31	experience	O	O	O	_	_	
+6-32	.	O	O	O	_	_	
+
+#id=7
+#text=We finally got to board the plane , we were directed to our seats by the stewardess and we all sat down and got ready for take-off .
+7-1	We	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	5-14	
+7-2	finally	O	O	O	_	_	
+7-3	got	O	O	O	_	_	
+7-4	to	O	O	O	_	_	
+7-5	board	O	O	B-ScrEv_board_plane	_	_	
+7-6	the	O	O	O	_	_	
+7-7	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	5-15	
+7-8	,	O	O	O	_	_	
+7-9	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-1	
+7-10	were	O	O	O	_	_	
+7-11	directed	O	O	B-RelNScrEv	_	_	
+7-12	to	O	O	O	_	_	
+7-13	our	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-9	
+7-14	seats	B-webanno.custom.Participants_	B-ScrPart_seat	O	_	_	
+7-15	by	O	O	O	_	_	
+7-16	the	O	O	O	_	_	
+7-17	stewardess	B-webanno.custom.Participants_	B-ScrPart_staff	O	_	_	
+7-18	and	O	O	O	_	_	
+7-19	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-13	
+7-20	all	O	O	O	_	_	
+7-21	sat	O	O	B-ScrEv_take_seat	_	_	
+7-22	down	O	O	I-ScrEv_take_seat	_	_	
+7-23	and	O	O	O	_	_	
+7-24	got	O	O	B-???	_	_	
+7-25	ready	O	O	I-???	_	_	
+7-26	for	O	O	O	_	_	
+7-27	take-off	O	O	B-ScrEv_take_off	_	_	
+7-28	.	O	O	O	_	_	
+
+#id=8
+#text=The plane engines started to roar and we taxied down the runway , the plane went faster and faster , looking out the window we could see the ground dropping farther and farther away as the plane rose into the air .
+8-1	The	O	O	O	_	_	
+8-2	plane	B-webanno.custom.Participants_	B-NPart	O	_	_	
+8-3	engines	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-NPart|B-NPart	O	_	_	
+8-4	started	O	O	O	_	_	
+8-5	to	O	O	O	_	_	
+8-6	roar	O	O	B-RelNScrEv	_	_	
+8-7	and	O	O	O	_	_	
+8-8	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-19	
+8-9	taxied	O	O	B-ScrEv_take_off_preparations	_	_	
+8-10	down	O	O	O	_	_	
+8-11	the	O	O	O	_	_	
+8-12	runway	B-webanno.custom.Participants_	B-ScrPart_location_airplane	O	_	_	
+8-13	,	O	O	O	_	_	
+8-14	the	O	O	O	_	_	
+8-15	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	7-7	
+8-16	went	O	O	B-ScrEv_take_off	_	_	
+8-17	faster	O	O	O	_	_	
+8-18	and	O	O	O	_	_	
+8-19	faster	O	O	O	_	_	
+8-20	,	O	O	O	_	_	
+8-21	looking	O	O	B-ScrEv_spend_time_flight	_	_	
+8-22	out	O	O	O	_	_	
+8-23	the	O	O	O	_	_	
+8-24	window	O	O	O	_	_	
+8-25	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-8	
+8-26	could	O	O	O	_	_	
+8-27	see	O	O	B-RelNScrEv	_	_	
+8-28	the	O	O	O	_	_	
+8-29	ground	B-webanno.custom.Participants_	B-NPart	O	_	_	
+8-30	dropping	O	O	B-UnrelEv	_	_	
+8-31	farther	O	O	O	_	_	
+8-32	and	O	O	O	_	_	
+8-33	farther	O	O	O	_	_	
+8-34	away	O	O	O	_	_	
+8-35	as	O	O	O	_	_	
+8-36	the	O	O	O	_	_	
+8-37	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	webanno.custom.Corefchains_	8-15	
+8-38	rose	O	O	B-ScrEv_take_off	_	_	
+8-39	into	O	O	O	_	_	
+8-40	the	O	O	O	_	_	
+8-41	air	B-webanno.custom.Participants_	B-ScrPart_location_airplane	O	_	_	
+8-42	.	O	O	O	_	_	
+
+#id=9
+#text=Once we wereup in the air we realized there was not much to be frighten for and the excitement set in to see a new country , We were on our way to Ireland ! 
+9-1	Once	O	O	O	_	_	
+9-2	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-25	
+9-3	wereup	O	O	B-UnrelEv	_	_	
+9-4	in	O	O	O	_	_	
+9-5	the	O	O	O	_	_	
+9-6	air	B-webanno.custom.Participants_	B-ScrPart_location_airplane	O	webanno.custom.Corefchains_	8-41	
+9-7	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-2	
+9-8	realized	O	O	B-UnrelEv	_	_	
+9-9	there	O	O	O	_	_	
+9-10	was	O	O	B-UnrelEv	_	_	
+9-11	not	O	O	O	_	_	
+9-12	much	O	O	O	_	_	
+9-13	to	O	O	O	_	_	
+9-14	be	O	O	O	_	_	
+9-15	frighten	O	O	B-UnrelEv	_	_	
+9-16	for	O	O	O	_	_	
+9-17	and	O	O	O	_	_	
+9-18	the	O	O	O	_	_	
+9-19	excitement	O	O	O	_	_	
+9-20	set	O	O	B-UnrelEv	_	_	
+9-21	in	O	O	I-UnrelEv	_	_	
+9-22	to	O	O	O	_	_	
+9-23	see	O	O	O	_	_	
+9-24	a	O	O	O	_	_	
+9-25	new	O	O	O	_	_	
+9-26	country	B-webanno.custom.Participants_	B-ScrPart_target_location	O	webanno.custom.Corefchains_	1-12	
+9-27	,	O	O	O	_	_	
+9-28	We	O	O	O	_	_	
+9-29	were	O	O	B-UnrelEv	_	_	
+9-30	on	O	O	O	_	_	
+9-31	our	B-webanno.custom.Participants_	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-7	
+9-32	way	B-webanno.custom.Participants_	B-SuppVComp	O	_	_	
+9-33	to	O	O	O	_	_	
+9-34	Ireland	B-webanno.custom.Participants_	B-ScrPart_target_location	O	webanno.custom.Corefchains_	9-26	
+9-35	!	O	O	O	_	_	
+

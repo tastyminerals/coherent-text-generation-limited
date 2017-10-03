@@ -1,0 +1,207 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Last night , I went into the bathroom to take a bath like I do every night .
+1-1	Last	O	O	_	_	
+1-2	night	O	O	_	_	
+1-3	,	O	O	_	_	
+1-4	I	B-ScrPart_bather	O	_	_	
+1-5	went	O	B-ScrEv_enter_bathroom	_	_	
+1-6	into	O	O	_	_	
+1-7	the	O	O	_	_	
+1-8	bathroom	B-ScrPart_bathroom	O	_	_	
+1-9	to	O	O	_	_	
+1-10	take	O	B-Evoking	_	_	
+1-11	a	O	I-Evoking	_	_	
+1-12	bath	B-SuppVComp	I-Evoking	_	_	
+1-13	like	O	O	_	_	
+1-14	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	1-4	
+1-15	do	O	B-UnrelEv	_	_	
+1-16	every	O	O	_	_	
+1-17	night	O	O	_	_	
+1-18	.	O	O	_	_	
+
+#id=2
+#text=I turned on the dim light .
+2-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	1-14	
+2-2	turned	O	B-RelNScrEv	_	_	
+2-3	on	O	I-RelNScrEv	_	_	
+2-4	the	O	O	_	_	
+2-5	dim	O	O	_	_	
+2-6	light	B-NPart	O	_	_	
+2-7	.	O	O	_	_	
+
+#id=3
+#text=It was quiet .
+3-1	It	O	O	_	_	
+3-2	was	O	B-UnrelEv	_	_	
+3-3	quiet	O	O	_	_	
+3-4	.	O	O	_	_	
+
+#id=4
+#text=I turned on the water and adjusted it to get just the right temperature , then put in the drain plug .
+4-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	2-1	
+4-2	turned	O	B-ScrEv_turn_water_on	_	_	
+4-3	on	O	I-ScrEv_turn_water_on	_	_	
+4-4	the	O	O	_	_	
+4-5	water	B-ScrPart_water	O	_	_	
+4-6	and	O	O	_	_	
+4-7	adjusted	O	B-ScrEv_check_temp	_	_	
+4-8	it	B-ScrPart_water	O	webanno.custom.Corefchains_	4-5	
+4-9	to	O	O	_	_	
+4-10	get	O	B-ScrEv_check_temp	_	_	
+4-11	just	O	O	_	_	
+4-12	the	O	O	_	_	
+4-13	right	O	O	_	_	
+4-14	temperature	B-ScrPart_temperature	O	_	_	
+4-15	,	O	O	_	_	
+4-16	then	O	O	_	_	
+4-17	put	O	B-ScrEv_close_drain	_	_	
+4-18	in	O	I-ScrEv_close_drain	_	_	
+4-19	the	O	O	_	_	
+4-20	drain	B-ScrPart_drain	O	_	_	
+4-21	plug	I-ScrPart_drain|B-ScrPart_drain	O	_	_	
+4-22	.	O	O	_	_	
+
+#id=5
+#text=I got a towel out of the pantry and set it on the counter for afterwards .
+5-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	4-1	
+5-2	got	O	B-ScrEv_prepare_bath	_	_	
+5-3	a	O	O	_	_	
+5-4	towel	B-ScrPart_towel	O	_	_	
+5-5	out	O	O	_	_	
+5-6	of	O	O	_	_	
+5-7	the	O	O	_	_	
+5-8	pantry	O	O	_	_	
+5-9	and	O	O	_	_	
+5-10	set	O	B-ScrEv_prepare_bath	_	_	
+5-11	it	B-ScrPart_towel	O	webanno.custom.Corefchains_	5-4	
+5-12	on	O	O	_	_	
+5-13	the	O	O	_	_	
+5-14	counter	O	O	_	_	
+5-15	for	O	O	_	_	
+5-16	afterwards	O	O	_	_	
+5-17	.	O	O	_	_	
+
+#id=6
+#text=When the tub was mostly full , I removed my garments and got in .
+6-1	When	O	O	_	_	
+6-2	the	O	O	_	_	
+6-3	tub	B-ScrPart_bathtub	O	_	_	
+6-4	was	O	B-UnrelEv	_	_	
+6-5	mostly	O	O	_	_	
+6-6	full	O	O	_	_	
+6-7	,	O	O	_	_	
+6-8	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	5-1	
+6-9	removed	O	B-ScrEv_undress	_	_	
+6-10	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	6-8	
+6-11	garments	B-ScrPart_clothes	O	_	_	
+6-12	and	O	O	_	_	
+6-13	got	O	B-ScrEv_sink_water	_	_	
+6-14	in	O	I-ScrEv_sink_water	_	_	
+6-15	.	O	O	_	_	
+
+#id=7
+#text=I soaped up a washcloth and scrubbed every part of my body , then I got the shampoo , squeezed a little in my hand , and rubbed it into my hair .
+7-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	6-10	
+7-2	soaped	O	B-ScrEv_apply_soap	_	_	
+7-3	up	O	I-ScrEv_apply_soap	_	_	
+7-4	a	O	O	_	_	
+7-5	washcloth	B-ScrPart_washing_tools	O	_	_	
+7-6	and	O	O	_	_	
+7-7	scrubbed	O	B-ScrEv_wash	_	_	
+7-8	every	O	O	_	_	
+7-9	part	O	O	_	_	
+7-10	of	O	O	_	_	
+7-11	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	7-1	
+7-12	body	B-ScrPart_body_part	O	_	_	
+7-13	,	O	O	_	_	
+7-14	then	O	O	_	_	
+7-15	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	7-11	
+7-16	got	O	B-RelNScrEv	_	_	
+7-17	the	O	O	_	_	
+7-18	shampoo	B-ScrPart_washing_tools	O	_	_	
+7-19	,	O	O	_	_	
+7-20	squeezed	O	B-RelNScrEv	_	_	
+7-21	a	O	O	_	_	
+7-22	little	B-ScrPart_washing_tools	O	webanno.custom.Corefchains_	7-18	
+7-23	in	O	O	_	_	
+7-24	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	7-15	
+7-25	hand	B-ScrPart_body_part	O	_	_	
+7-26	,	O	O	_	_	
+7-27	and	O	O	_	_	
+7-28	rubbed	O	B-ScrEv_wash	_	_	
+7-29	it	B-ScrPart_washing_tools	O	webanno.custom.Corefchains_	7-22	
+7-30	into	O	O	_	_	
+7-31	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	7-24	
+7-32	hair	B-ScrPart_hair	O	_	_	
+7-33	.	O	O	_	_	
+
+#id=8
+#text=After thoroughly scrubbing my head , I dunked it underwater to rinse it out .
+8-1	After	O	O	_	_	
+8-2	thoroughly	O	O	_	_	
+8-3	scrubbing	O	B-ScrEv_wash	_	_	
+8-4	my	B-ScrPart_bather	O	webanno.custom.Corefchains_	7-31	
+8-5	head	B-ScrPart_body_part	O	_	_	
+8-6	,	O	O	_	_	
+8-7	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	8-4	
+8-8	dunked	O	B-ScrEv_wash	_	_	
+8-9	it	B-ScrPart_body_part	O	webanno.custom.Corefchains_	8-5	
+8-10	underwater	O	O	_	_	
+8-11	to	O	O	_	_	
+8-12	rinse	O	B-RelNScrEv	_	_	
+8-13	it	B-ScrPart_washing_tools	O	webanno.custom.Corefchains_	7-29	
+8-14	out	O	O	_	_	
+8-15	.	O	O	_	_	
+
+#id=9
+#text=When I was all clean , I pulled the drain plug out and stepped out of the tub .
+9-1	When	O	O	_	_	
+9-2	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	8-7	
+9-3	was	O	B-UnrelEv	_	_	
+9-4	all	O	O	_	_	
+9-5	clean	O	O	_	_	
+9-6	,	O	O	_	_	
+9-7	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	9-2	
+9-8	pulled	O	B-ScrEv_open_drain	_	_	
+9-9	the	O	O	_	_	
+9-10	drain	B-ScrPart_drain	O	_	_	
+9-11	plug	I-ScrPart_drain|B-ScrPart_drain	O	webanno.custom.Corefchains_	4-21	
+9-12	out	O	O	_	_	
+9-13	and	O	O	_	_	
+9-14	stepped	O	B-ScrEv_get_out_bath	_	_	
+9-15	out	O	O	_	_	
+9-16	of	O	O	_	_	
+9-17	the	O	O	_	_	
+9-18	tub	B-ScrPart_bathtub	O	webanno.custom.Corefchains_	6-3	
+9-19	.	O	O	_	_	
+
+#id=10
+#text=I grabbed the towel and dabbed myself off .
+10-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	9-7	
+10-2	grabbed	O	B-RelNScrEv	_	_	
+10-3	the	O	O	_	_	
+10-4	towel	B-ScrPart_towel	O	webanno.custom.Corefchains_	5-11	
+10-5	and	O	O	_	_	
+10-6	dabbed	O	B-ScrEv_dry	_	_	
+10-7	myself	B-ScrPart_bather	O	webanno.custom.Corefchains_	10-1	
+10-8	off	O	O	_	_	
+10-9	.	O	O	_	_	
+
+#id=11
+#text=Then I got dressed .
+11-1	Then	O	O	_	_	
+11-2	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	10-7	
+11-3	got	O	B-UnrelEv	_	_	
+11-4	dressed	O	B-ScrEv_get_dressed	_	_	
+11-5	.	O	O	_	_	
+
+#id=12
+#text=I felt clean and refreshed . 
+12-1	I	B-ScrPart_bather	O	webanno.custom.Corefchains_	11-2	
+12-2	felt	O	B-UnrelEv	_	_	
+12-3	clean	O	O	_	_	
+12-4	and	O	O	_	_	
+12-5	refreshed	O	B-ScrEv_relax	_	_	
+12-6	.	O	O	_	_	
+

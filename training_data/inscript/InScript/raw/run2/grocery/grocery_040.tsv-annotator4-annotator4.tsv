@@ -1,0 +1,252 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I made a list of all the things we needed to buy beforehand .
+1-1	I	B-ScrPart_shopper	O	_	_	
+1-2	made	O	B-ScrEv_make_list	_	_	
+1-3	a	O	O	_	_	
+1-4	list	B-ScrPart_grocery_list	O	_	_	
+1-5	of	O	O	_	_	
+1-6	all	O	O	_	_	
+1-7	the	O	O	_	_	
+1-8	things	B-ScrPart_groceries	O	_	_	
+1-9	we	B-ScrPart_shopper	O	_	_	
+1-10	needed	O	O	_	_	
+1-11	to	O	O	_	_	
+1-12	buy	O	B-ScrEv_get_receipt	_	_	
+1-13	beforehand	O	O	_	_	
+1-14	.	O	O	_	_	
+
+#id=2
+#text=Next to the name of each object , I added the last price I remembered for it .
+2-1	Next	O	O	_	_	
+2-2	to	O	O	_	_	
+2-3	the	O	O	_	_	
+2-4	name	B-NPart	O	_	_	
+2-5	of	O	O	_	_	
+2-6	each	O	O	_	_	
+2-7	object	B-ScrPart_groceries	O	_	_	
+2-8	,	O	O	_	_	
+2-9	I	B-ScrPart_shopper	O	_	_	
+2-10	added	O	B-RelNScrEv	_	_	
+2-11	the	O	O	_	_	
+2-12	last	O	O	_	_	
+2-13	price	B-ScrPart_price	O	_	_	
+2-14	I	B-ScrPart_shopper	O	_	_	
+2-15	remembered	O	B-UnrelEv	_	_	
+2-16	for	O	O	_	_	
+2-17	it	B-ScrPart_groceries	O	_	_	
+2-18	.	O	O	_	_	
+
+#id=3
+#text=Then , I added up all the prices to get a general range for our budget .
+3-1	Then	O	O	_	_	
+3-2	,	O	O	_	_	
+3-3	I	B-ScrPart_shopper	O	_	_	
+3-4	added	O	B-RelNScrEv	_	_	
+3-5	up	O	I-RelNScrEv	_	_	
+3-6	all	O	O	_	_	
+3-7	the	O	O	_	_	
+3-8	prices	B-ScrPart_price	O	webanno.custom.Corefchains_	2-13	
+3-9	to	O	O	_	_	
+3-10	get	O	B-RelNScrEv	_	_	
+3-11	a	O	O	_	_	
+3-12	general	O	O	_	_	
+3-13	range	B-NPart	O	_	_	
+3-14	for	O	O	_	_	
+3-15	our	B-ScrPart_shopper	O	_	_	
+3-16	budget	B-ScrPart_payment_means	O	_	_	
+3-17	.	O	O	_	_	
+
+#id=4
+#text=I marked off what items I could leave behind if we were going to spend too much money .
+4-1	I	B-ScrPart_shopper	O	_	_	
+4-2	marked	O	B-RelNScrEv	_	_	
+4-3	off	O	I-RelNScrEv	_	_	
+4-4	what	O	O	_	_	
+4-5	items	B-ScrPart_groceries	O	_	_	
+4-6	I	B-ScrPart_shopper	O	_	_	
+4-7	could	O	O	_	_	
+4-8	leave	O	B-RelNScrEv	_	_	
+4-9	behind	O	I-RelNScrEv	_	_	
+4-10	if	O	O	_	_	
+4-11	we	B-ScrPart_shopper	O	_	_	
+4-12	were	O	O	_	_	
+4-13	going	O	O	_	_	
+4-14	to	O	O	_	_	
+4-15	spend	O	B-ScrEv_pay	_	_	
+4-16	too	O	O	_	_	
+4-17	much	O	O	_	_	
+4-18	money	B-ScrPart_payment_means	O	_	_	
+4-19	.	O	O	_	_	
+
+#id=5
+#text=I also added items we could add if we saved a lot of money .
+5-1	I	B-ScrPart_shopper	O	_	_	
+5-2	also	O	O	_	_	
+5-3	added	O	B-ScrEv_make_list	_	_	
+5-4	items	B-ScrPart_groceries	O	_	_	
+5-5	we	B-ScrPart_shopper	O	_	_	
+5-6	could	O	O	_	_	
+5-7	add	O	B-ScrEv_get_groceries	_	_	
+5-8	if	O	O	_	_	
+5-9	we	B-ScrPart_shopper	O	_	_	
+5-10	saved	O	B-RelNScrEv	_	_	
+5-11	a	O	O	_	_	
+5-12	lot	B-Head_of_Partitive	O	_	_	
+5-13	of	O	O	_	_	
+5-14	money	B-ScrPart_payment_means	O	_	_	
+5-15	.	O	O	_	_	
+
+#id=6
+#text=Then , I made sure there was plenty of room in the car to hold the groceries and put my reusable grocery bags in the trunk .
+6-1	Then	O	O	_	_	
+6-2	,	O	O	_	_	
+6-3	I	B-ScrPart_shopper	O	_	_	
+6-4	made	O	B-UnrelEv	_	_	
+6-5	sure	O	I-UnrelEv	_	_	
+6-6	there	O	O	_	_	
+6-7	was	O	B-UnrelEv	_	_	
+6-8	plenty	B-Head_of_Partitive	O	_	_	
+6-9	of	O	O	_	_	
+6-10	room	B-NPart	O	_	_	
+6-11	in	O	O	_	_	
+6-12	the	O	O	_	_	
+6-13	car	B-ScrPart_vehicle	O	_	_	
+6-14	to	O	O	_	_	
+6-15	hold	O	B-ScrEv_bring_vehicle	_	_	
+6-16	the	O	O	_	_	
+6-17	groceries	B-ScrPart_groceries	O	_	_	
+6-18	and	O	O	_	_	
+6-19	put	O	B-ScrEv_bring_vehicle	_	_	
+6-20	my	B-ScrPart_shopper	O	_	_	
+6-21	reusable	O	B-RelNScrEv	_	_	
+6-22	grocery	B-ScrPart_shopping_bags	O	_	_	
+6-23	bags	I-ScrPart_shopping_bags	O	_	_	
+6-24	in	O	O	_	_	
+6-25	the	O	O	_	_	
+6-26	trunk	B-ScrPart_vehicle	O	_	_	
+6-27	.	O	O	_	_	
+
+#id=7
+#text=The next day , I drove to the store and picked up what items were on my list and wrote down what prices I actually paid for them .
+7-1	The	O	O	_	_	
+7-2	next	O	O	_	_	
+7-3	day	B-NPart	O	_	_	
+7-4	,	O	O	_	_	
+7-5	I	B-ScrPart_shopper	O	_	_	
+7-6	drove	O	B-ScrEv_go_grocery	_	_	
+7-7	to	O	O	_	_	
+7-8	the	O	O	_	_	
+7-9	store	B-ScrPart_grocery_shop	O	_	_	
+7-10	and	O	O	_	_	
+7-11	picked	O	B-ScrEv_get_groceries	_	_	
+7-12	up	O	I-ScrEv_get_groceries	_	_	
+7-13	what	O	O	_	_	
+7-14	items	B-ScrPart_groceries	O	_	_	
+7-15	were	O	B-UnrelEv	_	_	
+7-16	on	O	O	_	_	
+7-17	my	B-ScrPart_shopper	O	_	_	
+7-18	list	B-ScrPart_grocery_list	O	_	_	
+7-19	and	O	O	_	_	
+7-20	wrote	O	B-ScrEv_check_off	_	_	
+7-21	down	O	I-ScrEv_check_off	_	_	
+7-22	what	O	O	_	_	
+7-23	prices	B-ScrPart_price	O	webanno.custom.Corefchains_	3-8	
+7-24	I	B-ScrPart_shopper	O	_	_	
+7-25	actually	O	O	_	_	
+7-26	paid	O	B-ScrEv_pay	_	_	
+7-27	for	O	O	_	_	
+7-28	them	B-ScrPart_groceries	O	_	_	
+7-29	.	O	O	_	_	
+
+#id=8
+#text=Since I had extra money , I also bought some ice cream .
+8-1	Since	O	O	_	_	
+8-2	I	B-ScrPart_shopper	O	_	_	
+8-3	had	O	B-RelNScrEv	_	_	
+8-4	extra	O	O	_	_	
+8-5	money	B-ScrPart_payment_means	O	_	_	
+8-6	,	O	O	_	_	
+8-7	I	B-ScrPart_shopper	O	_	_	
+8-8	also	O	O	_	_	
+8-9	bought	O	B-ScrEv_get_groceries	_	_	
+8-10	some	O	O	_	_	
+8-11	ice	B-ScrPart_groceries	O	_	_	
+8-12	cream	I-ScrPart_groceries|B-ScrPart_groceries	O	_	_	
+8-13	.	O	O	_	_	
+
+#id=9
+#text=I headed to the check-out and placed all my items gently on the conveyer belt .
+9-1	I	B-ScrPart_shopper	O	_	_	
+9-2	headed	O	B-ScrEv_go_checkout	_	_	
+9-3	to	O	O	_	_	
+9-4	the	O	O	_	_	
+9-5	check-out	B-ScrPart_cash_desk	O	_	_	
+9-6	and	O	O	_	_	
+9-7	placed	O	B-ScrEv_put_conveyor	_	_	
+9-8	all	O	O	_	_	
+9-9	my	B-ScrPart_shopper	O	_	_	
+9-10	items	B-ScrPart_groceries	O	_	_	
+9-11	gently	O	O	_	_	
+9-12	on	O	O	_	_	
+9-13	the	O	O	_	_	
+9-14	conveyer	B-ScrPart_conveyor_belt	O	_	_	
+9-15	belt	I-ScrPart_conveyor_belt|B-ScrPart_conveyor_belt	O	_	_	
+9-16	.	O	O	_	_	
+
+#id=10
+#text=I said hi to the cashier , paid her what I owed , and took the groceries back to my car .
+10-1	I	B-ScrPart_shopper	O	_	_	
+10-2	said	O	B-RelNScrEv	_	_	
+10-3	hi	B-NPart	O	_	_	
+10-4	to	O	O	_	_	
+10-5	the	O	O	_	_	
+10-6	cashier	B-ScrPart_grocery_staff	O	_	_	
+10-7	,	O	O	_	_	
+10-8	paid	O	B-ScrEv_pay	_	_	
+10-9	her	B-ScrPart_grocery_staff	O	_	_	
+10-10	what	B-ScrPart_payment_means	O	_	_	
+10-11	I	B-ScrPart_shopper	O	_	_	
+10-12	owed	O	B-ScrEv_pay	_	_	
+10-13	,	O	O	_	_	
+10-14	and	O	O	_	_	
+10-15	took	O	B-ScrEv_bring_vehicle	_	_	
+10-16	the	O	O	_	_	
+10-17	groceries	B-ScrPart_groceries	O	_	_	
+10-18	back	O	O	_	_	
+10-19	to	O	O	_	_	
+10-20	my	B-ScrPart_shopper	O	_	_	
+10-21	car	B-ScrPart_vehicle	O	_	_	
+10-22	.	O	O	_	_	
+
+#id=11
+#text=I made sure to put the cart away , too .
+11-1	I	B-ScrPart_shopper	O	_	_	
+11-2	made	O	B-UnrelEv	_	_	
+11-3	sure	O	I-UnrelEv	_	_	
+11-4	to	O	O	_	_	
+11-5	put	O	B-ScrEv_return_shop_cart	_	_	
+11-6	the	O	O	_	_	
+11-7	cart	B-ScrPart_shopping_cart/basket	O	_	_	
+11-8	away	O	O	_	_	
+11-9	,	O	O	_	_	
+11-10	too	O	O	_	_	
+11-11	.	O	O	_	_	
+
+#id=12
+#text=Then , I drove home and unloaded the groceries into their proper places . 
+12-1	Then	O	O	_	_	
+12-2	,	O	O	_	_	
+12-3	I	B-ScrPart_shopper	O	_	_	
+12-4	drove	O	B-ScrEv_leave	_	_	
+12-5	home	B-NPart	O	_	_	
+12-6	and	O	O	_	_	
+12-7	unloaded	O	B-RelNScrEv	_	_	
+12-8	the	O	O	_	_	
+12-9	groceries	B-ScrPart_groceries	O	_	_	
+12-10	into	O	O	_	_	
+12-11	their	B-ScrPart_groceries	O	_	_	
+12-12	proper	O	O	_	_	
+12-13	places	B-NPart	O	_	_	
+12-14	.	O	O	_	_	
+

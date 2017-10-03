@@ -1,0 +1,201 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I was babysitting my nephew and thought it would be fun to take him to the library .
+1-1	I	B-ScrPart_customer	O	_	_	
+1-2	was	O	O	_	_	
+1-3	babysitting	O	B-UnrelEv	_	_	
+1-4	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-1	
+1-5	nephew	B-ScrPart_customer	O	_	_	
+1-6	and	O	O	_	_	
+1-7	thought	O	B-UnrelEv	_	_	
+1-8	it	O	O	_	_	
+1-9	would	O	O	_	_	
+1-10	be	O	B-UnrelEv	_	_	
+1-11	fun	O	O	_	_	
+1-12	to	O	O	_	_	
+1-13	take	O	B-Evoking	_	_	
+1-14	him	B-ScrPart_customer	I-Evoking	webanno.custom.Corefchains_	1-5	
+1-15	to	O	I-Evoking	_	_	
+1-16	the	O	I-Evoking	_	_	
+1-17	library	B-ScrPart_library	I-Evoking	_	_	
+1-18	.	O	O	_	_	
+
+#id=2
+#text=We went to the local library .
+2-1	We	B-ScrPart_customer	O	coref_group_I_nephew|coref_group_I_nephew	1-4|1-14	
+2-2	went	O	B-ScrEv_get_library	_	_	
+2-3	to	O	O	_	_	
+2-4	the	O	O	_	_	
+2-5	local	O	O	_	_	
+2-6	library	B-ScrPart_library	O	webanno.custom.Corefchains_	1-17	
+2-7	.	O	O	_	_	
+
+#id=3
+#text=He was excited because he never visited the library before .
+3-1	He	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-14	
+3-2	was	O	O	_	_	
+3-3	excited	O	B-UnrelEv	_	_	
+3-4	because	O	O	_	_	
+3-5	he	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-1	
+3-6	never	O	O	_	_	
+3-7	visited	O	B-Evoking	_	_	
+3-8	the	O	I-Evoking	_	_	
+3-9	library	B-ScrPart_library	I-Evoking	webanno.custom.Corefchains_	2-6	
+3-10	before	O	O	_	_	
+3-11	.	O	O	_	_	
+
+#id=4
+#text=We picked out some books that were in the children 's section .
+4-1	We	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-1	
+4-2	picked	O	B-ScrEv_take_book	_	_	
+4-3	out	O	I-ScrEv_take_book	_	_	
+4-4	some	O	O	_	_	
+4-5	books	B-ScrPart_book	O	_	_	
+4-6	that	B-ScrPart_book	O	webanno.custom.Corefchains_	4-5	
+4-7	were	O	B-UnrelEv	_	_	
+4-8	in	O	O	_	_	
+4-9	the	O	O	_	_	
+4-10	children	B-ScrPart_location_library	O	_	_	
+4-11	's	I-ScrPart_location_library	O	_	_	
+4-12	section	I-ScrPart_location_library|B-ScrPart_location_library	O	_	_	
+4-13	.	O	O	_	_	
+
+#id=5
+#text=He is interested in dinosaurs .
+5-1	He	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-5	
+5-2	is	O	O	_	_	
+5-3	interested	O	B-UnrelEv	_	_	
+5-4	in	O	O	_	_	
+5-5	dinosaurs	O	O	_	_	
+5-6	.	O	O	_	_	
+
+#id=6
+#text=We picked the ones with big pictures .
+6-1	We	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-1	
+6-2	picked	O	B-ScrEv_take_book	_	_	
+6-3	the	O	O	_	_	
+6-4	ones	B-ScrPart_book	O	webanno.custom.Corefchains_	4-6	
+6-5	with	O	O	_	_	
+6-6	big	O	O	_	_	
+6-7	pictures	O	O	_	_	
+6-8	.	O	O	_	_	
+
+#id=7
+#text=I told him he could borrow three .
+7-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	1-4	
+7-2	told	O	B-UnrelEv	_	_	
+7-3	him	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-1	
+7-4	he	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-3	
+7-5	could	O	O	_	_	
+7-6	borrow	O	B-ScrEv_register	_	_	
+7-7	three	B-ScrPart_book	O	webanno.custom.Corefchains_	6-4	
+7-8	.	O	O	_	_	
+
+#id=8
+#text=I almost got a book for myself but I need to finish the ones I already started .
+8-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-1	
+8-2	almost	O	O	_	_	
+8-3	got	O	B-ScrEv_take_book	_	_	
+8-4	a	O	O	_	_	
+8-5	book	B-ScrPart_book	O	webanno.custom.Corefchains_	7-7	
+8-6	for	O	O	_	_	
+8-7	myself	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-1	
+8-8	but	O	O	_	_	
+8-9	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-7	
+8-10	need	O	O	_	_	
+8-11	to	O	O	_	_	
+8-12	finish	O	B-UnrelEv	_	_	
+8-13	the	O	O	_	_	
+8-14	ones	B-ScrPart_book	O	webanno.custom.Corefchains_	8-5	
+8-15	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-9	
+8-16	already	O	O	_	_	
+8-17	started	O	B-UnrelEv	_	_	
+8-18	.	O	O	_	_	
+
+#id=9
+#text=We checked out the books and I let him hand them to the librarian .
+9-1	We	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-1	
+9-2	checked	O	B-ScrEv_register	_	_	
+9-3	out	O	I-ScrEv_register	_	_	
+9-4	the	O	O	_	_	
+9-5	books	B-ScrPart_book	O	webanno.custom.Corefchains_	8-14	
+9-6	and	O	O	_	_	
+9-7	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	8-15	
+9-8	let	O	B-UnrelEv	_	_	
+9-9	him	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-4	
+9-10	hand	O	B-RelNScrEv	_	_	
+9-11	them	B-ScrPart_book	O	webanno.custom.Corefchains_	9-5	
+9-12	to	O	O	_	_	
+9-13	the	O	O	_	_	
+9-14	librarian	B-ScrPart_staff	O	_	_	
+9-15	.	O	O	_	_	
+
+#id=10
+#text=They had a record of me and issued me a new card .
+10-1	They	B-ScrPart_staff	O	webanno.custom.Corefchains_	9-14	
+10-2	had	O	B-UnrelEv	_	_	
+10-3	a	O	O	_	_	
+10-4	record	O	O	_	_	
+10-5	of	O	O	_	_	
+10-6	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-7	
+10-7	and	O	O	_	_	
+10-8	issued	O	B-RelNScrEv	_	_	
+10-9	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	10-6	
+10-10	a	O	O	_	_	
+10-11	new	O	O	_	_	
+10-12	card	B-ScrPart_library_card	O	_	_	
+10-13	.	O	O	_	_	
+
+#id=11
+#text=We went to the park and read them under a tree .
+11-1	We	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-1	
+11-2	went	O	B-ScrEv_leave	_	_	
+11-3	to	O	O	_	_	
+11-4	the	O	O	_	_	
+11-5	park	B-NPart	O	_	_	
+11-6	and	O	O	_	_	
+11-7	read	O	B-RelNScrEv	_	_	
+11-8	them	B-ScrPart_book	O	webanno.custom.Corefchains_	9-11	
+11-9	under	O	O	_	_	
+11-10	a	O	O	_	_	
+11-11	tree	O	O	_	_	
+11-12	.	O	O	_	_	
+
+#id=12
+#text=Then we went back to the library and I let him return them in the metal bin out front .
+12-1	Then	O	O	_	_	
+12-2	we	B-ScrPart_customer	O	webanno.custom.Corefchains_	11-1	
+12-3	went	O	B-ScrEv_get_library	_	_	
+12-4	back	O	O	_	_	
+12-5	to	O	O	_	_	
+12-6	the	O	O	_	_	
+12-7	library	B-ScrPart_library	O	webanno.custom.Corefchains_	3-9	
+12-8	and	O	O	_	_	
+12-9	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	10-9	
+12-10	let	O	B-UnrelEv	_	_	
+12-11	him	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-9	
+12-12	return	O	B-ScrEv_return_book	_	_	
+12-13	them	B-ScrPart_book	O	webanno.custom.Corefchains_	11-8	
+12-14	in	O	O	_	_	
+12-15	the	O	O	_	_	
+12-16	metal	B-ScrPart_drop_box	O	_	_	
+12-17	bin	I-ScrPart_drop_box|B-ScrPart_drop_box	O	_	_	
+12-18	out	O	O	_	_	
+12-19	front	O	O	_	_	
+12-20	.	O	O	_	_	
+
+#id=13
+#text=Over all I think it was a day he will remember . 
+13-1	Over	O	O	_	_	
+13-2	all	O	O	_	_	
+13-3	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	12-9	
+13-4	think	O	B-UnrelEv	_	_	
+13-5	it	O	O	_	_	
+13-6	was	O	B-UnrelEv	_	_	
+13-7	a	O	O	_	_	
+13-8	day	O	O	_	_	
+13-9	he	B-ScrPart_customer	O	webanno.custom.Corefchains_	12-11	
+13-10	will	O	O	_	_	
+13-11	remember	O	B-UnrelEv	_	_	
+13-12	.	O	O	_	_	
+

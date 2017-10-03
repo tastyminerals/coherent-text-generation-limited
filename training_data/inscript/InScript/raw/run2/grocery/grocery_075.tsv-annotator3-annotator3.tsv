@@ -1,0 +1,242 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Every week I go to the grocery store to get food for my family .
+1-1	Every	O	O	_	_	
+1-2	week	B-NPart	O	_	_	
+1-3	I	B-ScrPart_shopper	O	_	_	
+1-4	go	O	B-Evoking	_	_	
+1-5	to	O	I-Evoking	_	_	
+1-6	the	O	I-Evoking	_	_	
+1-7	grocery	B-ScrPart_grocery_shop	I-Evoking	_	_	
+1-8	store	I-ScrPart_grocery_shop|B-ScrPart_grocery_shop	I-Evoking	_	_	
+1-9	to	O	O	_	_	
+1-10	get	O	B-ScrEv_get_groceries	_	_	
+1-11	food	B-ScrPart_groceries	O	_	_	
+1-12	for	O	O	_	_	
+1-13	my	B-ScrPart_shopper	O	_	_	
+1-14	family	B-NPart	O	_	_	
+1-15	.	O	O	_	_	
+
+#id=2
+#text=I write a list of all the foods I will need and gather together any coupons I will be able to use .
+2-1	I	B-ScrPart_shopper	O	_	_	
+2-2	write	O	B-ScrEv_make_list	_	_	
+2-3	a	O	O	_	_	
+2-4	list	B-ScrPart_grocery_list	O	_	_	
+2-5	of	O	O	_	_	
+2-6	all	O	O	_	_	
+2-7	the	O	O	_	_	
+2-8	foods	B-ScrPart_groceries	O	_	_	
+2-9	I	B-ScrPart_shopper	O	_	_	
+2-10	will	O	O	_	_	
+2-11	need	O	B-RelNScrEv	_	_	
+2-12	and	O	O	_	_	
+2-13	gather	O	B-ScrEv_other	_	_	
+2-14	together	O	O	_	_	
+2-15	any	O	O	_	_	
+2-16	coupons	B-ScrPart_deal_coupon	O	_	_	
+2-17	I	B-ScrPart_shopper	O	_	_	
+2-18	will	O	O	_	_	
+2-19	be	O	O	_	_	
+2-20	able	O	O	_	_	
+2-21	to	O	O	_	_	
+2-22	use	O	B-UnrelEv	_	_	
+2-23	.	O	O	_	_	
+
+#id=3
+#text=I drive to the grocery store and get a cart to put the food in .
+3-1	I	B-ScrPart_shopper	O	_	_	
+3-2	drive	O	B-ScrEv_go_grocery	_	_	
+3-3	to	O	O	_	_	
+3-4	the	O	O	_	_	
+3-5	grocery	B-ScrPart_grocery_shop	O	_	_	
+3-6	store	I-ScrPart_grocery_shop|B-ScrPart_grocery_shop	O	_	_	
+3-7	and	O	O	_	_	
+3-8	get	O	B-ScrEv_take_shop_cart	_	_	
+3-9	a	O	O	_	_	
+3-10	cart	B-ScrPart_shopping_cart/basket	O	_	_	
+3-11	to	O	O	_	_	
+3-12	put	O	B-RelNScrEv	_	_	
+3-13	the	O	O	_	_	
+3-14	food	B-ScrPart_groceries	O	_	_	
+3-15	in	O	O	_	_	
+3-16	.	O	O	_	_	
+
+#id=4
+#text=I take out my list and coupons and put them where I will be able to see them easily .
+4-1	I	B-ScrPart_shopper	O	_	_	
+4-2	take	O	B-ScrEv_other|B-ScrEv_other	_	_	
+4-3	out	O	I-ScrEv_other	_	_	
+4-4	my	B-ScrPart_shopper	O	_	_	
+4-5	list	B-ScrPart_other|B-ScrPart_grocery_list	O	_	_	
+4-6	and	I-ScrPart_other	O	_	_	
+4-7	coupons	I-ScrPart_other|B-ScrPart_deal_coupon	O	webanno.custom.Corefchains_	2-16	
+4-8	and	O	O	_	_	
+4-9	put	O	B-RelNScrEv	_	_	
+4-10	them	B-ScrPart_other	O	_	_	
+4-11	where	O	O	_	_	
+4-12	I	B-ScrPart_shopper	O	_	_	
+4-13	will	O	O	_	_	
+4-14	be	O	O	_	_	
+4-15	able	O	O	_	_	
+4-16	to	O	O	_	_	
+4-17	see	O	B-UnrelEv	_	_	
+4-18	them	B-ScrPart_other	O	_	_	
+4-19	easily	O	O	_	_	
+4-20	.	O	O	_	_	
+
+#id=5
+#text=I walk up and down the aisles finding the food on my list .
+5-1	I	B-ScrPart_shopper	O	_	_	
+5-2	walk	O	B-ScrEv_move_section|B-ScrEv_move_section	_	_	
+5-3	up	O	I-ScrEv_move_section	_	_	
+5-4	and	O	O	_	_	
+5-5	down	O	O	_	_	
+5-6	the	O	O	_	_	
+5-7	aisles	B-ScrPart_section	O	_	_	
+5-8	finding	O	B-ScrEv_get_groceries	_	_	
+5-9	the	O	O	_	_	
+5-10	food	B-ScrPart_groceries	O	_	_	
+5-11	on	O	O	_	_	
+5-12	my	B-ScrPart_shopper	O	_	_	
+5-13	list	B-ScrPart_grocery_list	O	_	_	
+5-14	.	O	O	_	_	
+
+#id=6
+#text=I put each one into the grocery cart as I find it , then cross it off my list .
+6-1	I	B-ScrPart_shopper	O	_	_	
+6-2	put	O	B-ScrEv_other	_	_	
+6-3	each	B-ScrPart_groceries	O	_	_	
+6-4	one	I-ScrPart_groceries|B-ScrPart_groceries	O	_	_	
+6-5	into	O	O	_	_	
+6-6	the	O	O	_	_	
+6-7	grocery	B-ScrPart_shopping_cart/basket	O	_	_	
+6-8	cart	I-ScrPart_shopping_cart/basket|B-ScrPart_shopping_cart/basket	O	_	_	
+6-9	as	O	O	_	_	
+6-10	I	B-ScrPart_shopper	O	_	_	
+6-11	find	O	B-ScrEv_get_groceries	_	_	
+6-12	it	B-ScrPart_groceries	O	_	_	
+6-13	,	O	O	_	_	
+6-14	then	O	O	_	_	
+6-15	cross	O	B-ScrEv_check_off	_	_	
+6-16	it	B-ScrPart_groceries	O	_	_	
+6-17	off	O	O	_	_	
+6-18	my	B-ScrPart_shopper	O	_	_	
+6-19	list	B-ScrPart_grocery_list	O	_	_	
+6-20	.	O	O	_	_	
+
+#id=7
+#text=When I have all of the food I need , I take my cart full of food to the register area .
+7-1	When	O	O	_	_	
+7-2	I	B-ScrPart_shopper	O	_	_	
+7-3	have	O	B-UnrelEv	_	_	
+7-4	all	O	O	_	_	
+7-5	of	O	O	_	_	
+7-6	the	O	O	_	_	
+7-7	food	B-ScrPart_groceries	O	_	_	
+7-8	I	B-ScrPart_shopper	O	_	_	
+7-9	need	O	B-RelNScrEv	_	_	
+7-10	,	O	O	_	_	
+7-11	I	B-ScrPart_shopper	O	_	_	
+7-12	take	O	B-ScrEv_move_section	_	_	
+7-13	my	B-ScrPart_shopper	O	_	_	
+7-14	cart	B-ScrPart_shopping_cart/basket	O	_	_	
+7-15	full	O	O	_	_	
+7-16	of	O	O	_	_	
+7-17	food	B-ScrPart_groceries	O	_	_	
+7-18	to	O	O	_	_	
+7-19	the	O	O	_	_	
+7-20	register	B-ScrPart_section	O	_	_	
+7-21	area	I-ScrPart_section|B-ScrPart_section	O	_	_	
+7-22	.	O	O	_	_	
+
+#id=8
+#text=I empty my cart , put all of the food onto the belt and hand the cashier my coupons .
+8-1	I	B-ScrPart_shopper	O	_	_	
+8-2	empty	O	B-ScrEv_other	_	_	
+8-3	my	B-ScrPart_shopper	O	_	_	
+8-4	cart	B-ScrPart_shopping_cart/basket	O	_	_	
+8-5	,	O	O	_	_	
+8-6	put	O	B-ScrEv_put_conveyor	_	_	
+8-7	all	O	O	_	_	
+8-8	of	O	O	_	_	
+8-9	the	O	O	_	_	
+8-10	food	B-ScrPart_groceries	O	_	_	
+8-11	onto	O	O	_	_	
+8-12	the	O	O	_	_	
+8-13	belt	B-ScrPart_conveyor_belt	O	_	_	
+8-14	and	O	O	_	_	
+8-15	hand	O	B-ScrEv_pay	_	_	
+8-16	the	O	O	_	_	
+8-17	cashier	B-ScrPart_grocery_staff	O	_	_	
+8-18	my	B-ScrPart_shopper	O	_	_	
+8-19	coupons	B-ScrPart_deal_coupon	O	webanno.custom.Corefchains_	4-7	
+8-20	.	O	O	_	_	
+
+#id=9
+#text=She scans the bar codes on each item and places it into a bag , then she scans the coupons .
+9-1	She	B-ScrPart_grocery_staff	O	_	_	
+9-2	scans	O	B-ScrEv_cashier_scan/weight	_	_	
+9-3	the	O	O	_	_	
+9-4	bar	O	B-ScrEv_cashier_scan/weight	_	_	
+9-5	codes	O	I-ScrEv_cashier_scan/weight	_	_	
+9-6	on	O	O	_	_	
+9-7	each	O	O	_	_	
+9-8	item	B-ScrPart_groceries	O	_	_	
+9-9	and	O	O	_	_	
+9-10	places	O	B-ScrEv_pack_groceries	_	_	
+9-11	it	B-ScrPart_groceries	O	_	_	
+9-12	into	O	O	_	_	
+9-13	a	O	O	_	_	
+9-14	bag	B-ScrPart_shopping_cart/basket	O	_	_	
+9-15	,	O	O	_	_	
+9-16	then	O	O	_	_	
+9-17	she	B-ScrPart_grocery_staff	O	_	_	
+9-18	scans	O	B-ScrEv_cashier_scan/weight	_	_	
+9-19	the	O	O	_	_	
+9-20	coupons	B-ScrPart_deal_coupon	O	webanno.custom.Corefchains_	8-19	
+9-21	.	O	O	_	_	
+
+#id=10
+#text=When everything has been scanned , the cashier tells me the total cost and I give her the money for the food .
+10-1	When	O	O	_	_	
+10-2	everything	B-ScrPart_groceries	O	_	_	
+10-3	has	O	O	_	_	
+10-4	been	O	O	_	_	
+10-5	scanned	O	B-ScrEv_cashier_scan/weight	_	_	
+10-6	,	O	O	_	_	
+10-7	the	O	O	_	_	
+10-8	cashier	B-ScrPart_grocery_staff	O	_	_	
+10-9	tells	O	B-RelNScrEv	_	_	
+10-10	me	B-ScrPart_shopper	O	_	_	
+10-11	the	O	O	_	_	
+10-12	total	O	O	_	_	
+10-13	cost	B-ScrPart_price	O	_	_	
+10-14	and	O	O	_	_	
+10-15	I	B-ScrPart_shopper	O	_	_	
+10-16	give	O	B-ScrEv_pay	_	_	
+10-17	her	B-ScrPart_grocery_staff	O	_	_	
+10-18	the	O	O	_	_	
+10-19	money	B-ScrPart_payment_means	O	_	_	
+10-20	for	O	O	_	_	
+10-21	the	O	O	_	_	
+10-22	food	B-ScrPart_groceries	O	_	_	
+10-23	.	O	O	_	_	
+
+#id=11
+#text=I place the bags into my cart and walk back to my car . 
+11-1	I	B-ScrPart_shopper	O	_	_	
+11-2	place	O	B-ScrEv_other	_	_	
+11-3	the	O	O	_	_	
+11-4	bags	B-ScrPart_shopping_bags	O	_	_	
+11-5	into	O	O	_	_	
+11-6	my	B-ScrPart_shopper	O	_	_	
+11-7	cart	B-ScrPart_shopping_cart/basket	O	_	_	
+11-8	and	O	O	_	_	
+11-9	walk	O	B-ScrEv_bring_vehicle	_	_	
+11-10	back	O	O	_	_	
+11-11	to	O	O	_	_	
+11-12	my	B-ScrPart_shopper	O	_	_	
+11-13	car	B-ScrPart_vehicle	O	_	_	
+11-14	.	O	O	_	_	
+

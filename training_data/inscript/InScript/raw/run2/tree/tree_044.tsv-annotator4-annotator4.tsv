@@ -1,0 +1,205 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=On Arbor Day of 2014 , I planted a tree .
+1-1	On	O	O	_	_	
+1-2	Arbor	B-ScrPart_time	O	_	_	
+1-3	Day	I-ScrPart_time	O	_	_	
+1-4	of	O	O	_	_	
+1-5	2014	O	O	_	_	
+1-6	,	O	O	_	_	
+1-7	I	B-ScrPart_gardener	O	_	_	
+1-8	planted	O	B-Evoking	_	_	
+1-9	a	O	I-Evoking	_	_	
+1-10	tree	B-ScrPart_tree	I-Evoking	_	_	
+1-11	.	O	O	_	_	
+
+#id=2
+#text=I chose a hardy Colorado Blue Spruce evergreen tree from arborday.org .
+2-1	I	B-ScrPart_gardener	O	_	_	
+2-2	chose	O	B-ScrEv_choose_tree	_	_	
+2-3	a	O	O	_	_	
+2-4	hardy	O	O	_	_	
+2-5	Colorado	B-ScrPart_tree	O	_	_	
+2-6	Blue	I-ScrPart_tree	O	_	_	
+2-7	Spruce	I-ScrPart_tree	O	_	_	
+2-8	evergreen	I-ScrPart_tree	O	_	_	
+2-9	tree	I-ScrPart_tree|B-ScrPart_tree	O	webanno.custom.Corefchains_	1-10	
+2-10	from	O	O	_	_	
+2-11	arborday.org	B-NPart	O	_	_	
+2-12	.	O	O	_	_	
+
+#id=3
+#text=This website makes learning about planting trees easy .
+3-1	This	O	O	_	_	
+3-2	website	B-NPart	O	_	_	
+3-3	makes	O	B-UnrelEv	_	_	
+3-4	learning	O	B-RelNScrEv	_	_	
+3-5	about	O	O	_	_	
+3-6	planting	O	B-Evoking	_	_	
+3-7	trees	B-ScrPart_tree	I-Evoking	_	_	
+3-8	easy	O	O	_	_	
+3-9	.	O	O	_	_	
+
+#id=4
+#text=I could have chosen to wait to plant my tree because they come in tiny plastic tubes that can be stored in the refrigerator for when I am ready .
+4-1	I	B-ScrPart_gardener	O	_	_	
+4-2	could	O	O	_	_	
+4-3	have	O	O	_	_	
+4-4	chosen	O	B-UnrelEv	_	_	
+4-5	to	O	O	_	_	
+4-6	wait	O	B-UnrelEv	_	_	
+4-7	to	O	O	_	_	
+4-8	plant	O	B-Evoking	_	_	
+4-9	my	B-ScrPart_gardener	I-Evoking	webanno.custom.Corefchains_	4-1	
+4-10	tree	B-ScrPart_tree	I-Evoking	_	_	
+4-11	because	O	O	_	_	
+4-12	they	B-ScrPart_tree	O	_	_	
+4-13	come	O	B-ScrEv_get_tree	_	_	
+4-14	in	O	O	_	_	
+4-15	tiny	O	O	_	_	
+4-16	plastic	B-ScrPart_wrapping	O	_	_	
+4-17	tubes	I-ScrPart_wrapping|B-ScrPart_wrapping	O	_	_	
+4-18	that	B-ScrPart_wrapping	O	_	_	
+4-19	can	O	O	_	_	
+4-20	be	O	O	_	_	
+4-21	stored	O	B-RelNScrEv	_	_	
+4-22	in	O	O	_	_	
+4-23	the	O	O	_	_	
+4-24	refrigerator	B-NPart	O	_	_	
+4-25	for	O	O	_	_	
+4-26	when	O	O	_	_	
+4-27	I	B-ScrPart_gardener	O	webanno.custom.Corefchains_	4-9	
+4-28	am	O	B-UnrelEv	_	_	
+4-29	ready	O	O	_	_	
+4-30	.	O	O	_	_	
+
+#id=5
+#text=The Colorado Blue Spruce grows well in my area of the United States .
+5-1	The	O	O	_	_	
+5-2	Colorado	B-ScrPart_tree	O	_	_	
+5-3	Blue	I-ScrPart_tree	O	_	_	
+5-4	Spruce	I-ScrPart_tree|B-ScrPart_tree	O	_	_	
+5-5	grows	O	B-RelNScrEv	_	_	
+5-6	well	O	O	_	_	
+5-7	in	O	O	_	_	
+5-8	my	B-ScrPart_gardener	O	_	_	
+5-9	area	B-NPart	O	_	_	
+5-10	of	O	O	_	_	
+5-11	the	O	O	_	_	
+5-12	United	B-NPart	O	_	_	
+5-13	States	I-NPart	O	_	_	
+5-14	.	O	O	_	_	
+
+#id=6
+#text=I 'm not a tree expert so I wanted a tree that would not need a lot of skill to plant .
+6-1	I	B-ScrPart_gardener	O	_	_	
+6-2	'm	O	B-UnrelEv	_	_	
+6-3	not	O	O	_	_	
+6-4	a	O	O	_	_	
+6-5	tree	B-NPart	O	_	_	
+6-6	expert	I-NPart|B-NPart	O	_	_	
+6-7	so	O	O	_	_	
+6-8	I	B-ScrPart_gardener	O	_	_	
+6-9	wanted	O	B-UnrelEv	_	_	
+6-10	a	O	O	_	_	
+6-11	tree	B-ScrPart_tree	O	_	_	
+6-12	that	B-ScrPart_tree	O	_	_	
+6-13	would	O	O	_	_	
+6-14	not	O	O	_	_	
+6-15	need	O	B-RelNScrEv	_	_	
+6-16	a	O	O	_	_	
+6-17	lot	B-Head_of_Partitive	O	_	_	
+6-18	of	O	O	_	_	
+6-19	skill	B-NPart	O	_	_	
+6-20	to	O	O	_	_	
+6-21	plant	O	B-Evoking	_	_	
+6-22	.	O	O	_	_	
+
+#id=7
+#text=It will be many , many years before my tree becomes a tall and magnificent giant but I know I did something good for our Earth by planting it .
+7-1	It	B-No_label	O	_	_	
+7-2	will	O	O	_	_	
+7-3	be	O	B-UnrelEv	_	_	
+7-4	many	O	O	_	_	
+7-5	,	O	O	_	_	
+7-6	many	O	O	_	_	
+7-7	years	B-ScrPart_time	O	_	_	
+7-8	before	O	O	_	_	
+7-9	my	B-ScrPart_gardener	O	_	_	
+7-10	tree	B-ScrPart_tree	O	_	_	
+7-11	becomes	O	B-RelNScrEv	_	_	
+7-12	a	O	O	_	_	
+7-13	tall	O	O	_	_	
+7-14	and	O	O	_	_	
+7-15	magnificent	O	O	_	_	
+7-16	giant	B-NPart	O	_	_	
+7-17	but	O	O	_	_	
+7-18	I	B-ScrPart_gardener	O	_	_	
+7-19	know	O	B-UnrelEv	_	_	
+7-20	I	B-ScrPart_gardener	O	_	_	
+7-21	did	O	B-UnrelEv	_	_	
+7-22	something	B-NPart	O	_	_	
+7-23	good	O	O	_	_	
+7-24	for	O	O	_	_	
+7-25	our	B-NPart	O	_	_	
+7-26	Earth	B-NPart	O	_	_	
+7-27	by	O	O	_	_	
+7-28	planting	O	B-Evoking	_	_	
+7-29	it	B-ScrPart_tree	I-Evoking	_	_	
+7-30	.	O	O	_	_	
+
+#id=8
+#text=I am going to plant a tree every year for Arbor Day because I loved how easy it was .
+8-1	I	B-ScrPart_gardener	O	_	_	
+8-2	am	O	O	_	_	
+8-3	going	O	O	_	_	
+8-4	to	O	O	_	_	
+8-5	plant	O	B-Evoking	_	_	
+8-6	a	O	I-Evoking	_	_	
+8-7	tree	B-ScrPart_tree	I-Evoking	_	_	
+8-8	every	O	O	_	_	
+8-9	year	B-ScrPart_time	O	_	_	
+8-10	for	O	O	_	_	
+8-11	Arbor	B-ScrPart_time	O	_	_	
+8-12	Day	I-ScrPart_time	O	_	_	
+8-13	because	O	O	_	_	
+8-14	I	B-ScrPart_gardener	O	_	_	
+8-15	loved	O	B-UnrelEv	_	_	
+8-16	how	O	O	_	_	
+8-17	easy	O	O	_	_	
+8-18	it	B-No_label	O	_	_	
+8-19	was	O	B-UnrelEv	_	_	
+8-20	.	O	O	_	_	
+
+#id=9
+#text=It has only been a year but my little tree is growing out of the ground and I have n't had to do anything to tend to it . 
+9-1	It	B-No_label	O	_	_	
+9-2	has	O	O	_	_	
+9-3	only	O	O	_	_	
+9-4	been	O	B-UnrelEv	_	_	
+9-5	a	O	O	_	_	
+9-6	year	B-ScrPart_time	O	_	_	
+9-7	but	O	O	_	_	
+9-8	my	B-ScrPart_gardener	O	_	_	
+9-9	little	O	O	_	_	
+9-10	tree	B-ScrPart_tree	O	_	_	
+9-11	is	O	O	_	_	
+9-12	growing	O	B-RelNScrEv	_	_	
+9-13	out	O	O	_	_	
+9-14	of	O	O	_	_	
+9-15	the	O	O	_	_	
+9-16	ground	B-ScrPart_dirt	O	_	_	
+9-17	and	O	O	_	_	
+9-18	I	B-ScrPart_gardener	O	_	_	
+9-19	have	O	O	_	_	
+9-20	n't	O	O	_	_	
+9-21	had	O	O	_	_	
+9-22	to	O	O	_	_	
+9-23	do	O	B-UnrelEv	_	_	
+9-24	anything	B-No_label	O	_	_	
+9-25	to	O	O	_	_	
+9-26	tend	O	B-RelNScrEv	_	_	
+9-27	to	O	O	_	_	
+9-28	it	B-ScrPart_tree	O	_	_	
+9-29	.	O	O	_	_	
+

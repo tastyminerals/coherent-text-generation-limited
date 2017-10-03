@@ -1,0 +1,182 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=I was skimming my Nook for something good to read and found that I had either read everything or that I was not interested in what I had not read .
+1-1	I	B-ScrPart_customer	O	
+1-2	was	O	O	
+1-3	skimming	O	B-UnrelEv	
+1-4	my	B-ScrPart_customer	O	
+1-5	Nook	B-NPart	O	
+1-6	for	O	O	
+1-7	something	B-No_label	O	
+1-8	good	O	O	
+1-9	to	O	O	
+1-10	read	O	B-RelNScrEv	
+1-11	and	O	O	
+1-12	found	O	B-UnrelEv	
+1-13	that	O	O	
+1-14	I	B-ScrPart_customer	O	
+1-15	had	O	O	
+1-16	either	O	O	
+1-17	read	O	B-RelNScrEv	
+1-18	everything	B-No_label	O	
+1-19	or	O	O	
+1-20	that	O	O	
+1-21	I	B-ScrPart_customer	O	
+1-22	was	O	B-UnrelEv	
+1-23	not	O	O	
+1-24	interested	O	O	
+1-25	in	O	O	
+1-26	what	O	O	
+1-27	I	B-ScrPart_customer	O	
+1-28	had	O	O	
+1-29	not	O	O	
+1-30	read	O	B-RelNScrEv	
+1-31	.	O	O	
+
+#id=2
+#text=So I decided to go to the local library and get one of the old fashioned paper books that I had not read .
+2-1	So	O	O	
+2-2	I	B-ScrPart_customer	O	
+2-3	decided	O	B-UnrelEv	
+2-4	to	O	O	
+2-5	go	O	B-Evoking	
+2-6	to	O	I-Evoking	
+2-7	the	O	I-Evoking	
+2-8	local	O	I-Evoking	
+2-9	library	B-ScrPart_library	I-Evoking	
+2-10	and	O	O	
+2-11	get	O	B-RelNScrEv	
+2-12	one	O	O	
+2-13	of	O	O	
+2-14	the	O	O	
+2-15	old	O	O	
+2-16	fashioned	O	O	
+2-17	paper	B-ScrPart_book	O	
+2-18	books	I-ScrPart_book|B-ScrPart_book	O	
+2-19	that	O	O	
+2-20	I	B-ScrPart_customer	O	
+2-21	had	O	O	
+2-22	not	O	O	
+2-23	read	O	B-RelNScrEv	
+2-24	.	O	O	
+
+#id=3
+#text=I went and looked around the shelves and talked to the librarian and other customers about what was good to read .
+3-1	I	B-ScrPart_customer	O	
+3-2	went	O	B-ScrEv_get_library	
+3-3	and	O	O	
+3-4	looked	O	B-ScrEv_look_for_book	
+3-5	around	O	O	
+3-6	the	O	O	
+3-7	shelves	B-ScrPart_shelf	O	
+3-8	and	O	O	
+3-9	talked	O	B-ScrEv_ask_librarian|B-ScrEv_ask_librarian	
+3-10	to	O	I-ScrEv_ask_librarian	
+3-11	the	O	O	
+3-12	librarian	B-ScrPart_staff	O	
+3-13	and	O	O	
+3-14	other	O	O	
+3-15	customers	B-ScrPart_customer	O	
+3-16	about	O	O	
+3-17	what	O	O	
+3-18	was	O	B-UnrelEv	
+3-19	good	O	O	
+3-20	to	O	O	
+3-21	read	O	B-RelNScrEv	
+3-22	.	O	O	
+
+#id=4
+#text=After picking up a few and reading the summary I finally found one of interest and took it to the checkout line .
+4-1	After	O	O	
+4-2	picking	O	B-ScrEv_take_book|B-ScrEv_take_book	
+4-3	up	O	I-ScrEv_take_book	
+4-4	a	O	O	
+4-5	few	B-ScrPart_book	O	
+4-6	and	O	O	
+4-7	reading	O	B-RelNScrEv	
+4-8	the	O	O	
+4-9	summary	B-ScrPart_other	O	
+4-10	I	B-ScrPart_customer	O	
+4-11	finally	O	O	
+4-12	found	O	B-ScrEv_other	
+4-13	one	B-ScrPart_book	O	
+4-14	of	O	O	
+4-15	interest	B-NPart	O	
+4-16	and	O	O	
+4-17	took	O	B-ScrEv_take_book	
+4-18	it	B-ScrPart_book	O	
+4-19	to	O	O	
+4-20	the	O	O	
+4-21	checkout	B-ScrPart_line	O	
+4-22	line	I-ScrPart_line|B-ScrPart_line	O	
+4-23	.	O	O	
+
+#id=5
+#text=While checking out the book the librarian noticed the handgun on my hip and we had a great conversation about the importance of being ready , willing , and able to protect yourself in any situation and in any locality .
+5-1	While	O	O	
+5-2	checking	O	B-ScrEv_register|B-ScrEv_register	
+5-3	out	O	I-ScrEv_register	
+5-4	the	O	O	
+5-5	book	B-ScrPart_book	O	
+5-6	the	O	O	
+5-7	librarian	B-ScrPart_staff	O	
+5-8	noticed	O	B-UnrelEv	
+5-9	the	O	O	
+5-10	handgun	B-NPart	O	
+5-11	on	O	O	
+5-12	my	B-ScrPart_customer	O	
+5-13	hip	B-NPart	O	
+5-14	and	O	O	
+5-15	we	B-ScrPart_other	O	
+5-16	had	O	B-UnrelEv	
+5-17	a	O	O	
+5-18	great	O	O	
+5-19	conversation	B-NPart	O	
+5-20	about	O	O	
+5-21	the	O	O	
+5-22	importance	B-NPart	O	
+5-23	of	O	O	
+5-24	being	O	B-UnrelEv	
+5-25	ready	O	O	
+5-26	,	O	O	
+5-27	willing	O	O	
+5-28	,	O	O	
+5-29	and	O	O	
+5-30	able	O	O	
+5-31	to	O	O	
+5-32	protect	O	B-UnrelEv	
+5-33	yourself	B-No_label	O	
+5-34	in	O	O	
+5-35	any	O	O	
+5-36	situation	B-NPart	O	
+5-37	and	O	O	
+5-38	in	O	O	
+5-39	any	O	O	
+5-40	locality	B-NPart	O	
+5-41	.	O	O	
+
+#id=6
+#text=She said she was grateful to live in a Nation where we had that right and I heartily agreed with her . 
+6-1	She	B-ScrPart_staff	O	
+6-2	said	O	B-UnrelEv	
+6-3	she	B-ScrPart_staff	O	
+6-4	was	O	O	
+6-5	grateful	O	O	
+6-6	to	O	O	
+6-7	live	O	B-UnrelEv	
+6-8	in	O	O	
+6-9	a	O	O	
+6-10	Nation	B-NPart	O	
+6-11	where	O	O	
+6-12	we	B-NPart	O	
+6-13	had	O	B-UnrelEv	
+6-14	that	O	O	
+6-15	right	B-NPart	O	
+6-16	and	O	O	
+6-17	I	B-ScrPart_customer	O	
+6-18	heartily	O	O	
+6-19	agreed	O	B-UnrelEv	
+6-20	with	O	O	
+6-21	her	B-ScrPart_staff	O	
+6-22	.	O	O	
+

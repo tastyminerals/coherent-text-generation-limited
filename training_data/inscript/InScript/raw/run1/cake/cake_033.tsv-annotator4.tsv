@@ -1,0 +1,217 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=The first thing to do is to make sure you have the ingridents that is required to make a cake .
+1-1	The	O	O	O	_	_	
+1-2	first	O	O	O	_	_	
+1-3	thing	O	O	O	_	_	
+1-4	to	O	O	O	_	_	
+1-5	do	B-UnrelEv	O	O	_	_	
+1-6	is	B-UnrelEv	O	O	_	_	
+1-7	to	O	O	O	_	_	
+1-8	make	B-UnrelEv	O	O	_	_	
+1-9	sure	I-UnrelEv	O	O	_	_	
+1-10	you	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	2-2	
+1-11	have	B-ScrEv_get_ingredients	O	O	_	_	
+1-12	the	O	O	O	_	_	
+1-13	ingridents	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	webanno.custom.Corefchains_	1-14	
+1-14	that	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	webanno.custom.Corefchains_	2-14	
+1-15	is	O	O	O	_	_	
+1-16	required	B-ScrEv_get_ingredients	O	O	_	_	
+1-17	to	O	O	O	_	_	
+1-18	make	B-Evoking	O	O	_	_	
+1-19	a	I-Evoking	O	O	_	_	
+1-20	cake	I-Evoking	B-ScrPart_cake	B-webanno.custom.Participants_	webanno.custom.Corefchains_	2-18	
+1-21	.	O	O	O	_	_	
+
+#id=2
+#text=If I do n't I just head to the store and buy some supplies to make a cake and everything else I had to buy while I am there .
+2-1	If	O	O	O	_	_	
+2-2	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	2-5	
+2-3	do	B-UnrelEv	O	O	_	_	
+2-4	n't	O	O	O	_	_	
+2-5	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	2-22	
+2-6	just	O	O	O	_	_	
+2-7	head	B-RelNScrEv	O	O	_	_	
+2-8	to	I-RelNScrEv	O	O	_	_	
+2-9	the	O	O	O	_	_	
+2-10	store	O	B-ScrPart_store	B-webanno.custom.Participants_	_	_	
+2-11	and	O	O	O	_	_	
+2-12	buy	B-ScrEv_get_ingredients	O	O	_	_	
+2-13	some	O	O	O	_	_	
+2-14	supplies	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	webanno.custom.Corefchains_|webanno.custom.Corefchains_	5-7|4-13	
+2-15	to	O	O	O	_	_	
+2-16	make	B-Evoking	O	O	_	_	
+2-17	a	I-Evoking	O	O	_	_	
+2-18	cake	I-Evoking	B-ScrPart_cake	B-webanno.custom.Participants_	webanno.custom.Corefchains_	3-6	
+2-19	and	O	O	O	_	_	
+2-20	everything	O	B-NPart	B-webanno.custom.Participants_	_	_	
+2-21	else	O	O	O	_	_	
+2-22	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	2-27	
+2-23	had	O	O	O	_	_	
+2-24	to	O	O	O	_	_	
+2-25	buy	B-UnrelEv	O	O	_	_	
+2-26	while	O	O	O	_	_	
+2-27	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	3-8	
+2-28	am	B-UnrelEv	O	O	_	_	
+2-29	there	O	O	O	_	_	
+2-30	.	O	O	O	_	_	
+
+#id=3
+#text=In order to bake the cake , I preheat my oven to 350 degrees , and then i grease the cake pan .
+3-1	In	O	O	O	_	_	
+3-2	order	O	O	O	_	_	
+3-3	to	O	O	O	_	_	
+3-4	bake	B-Evoking	O	O	_	_	
+3-5	the	I-Evoking	O	O	_	_	
+3-6	cake	I-Evoking	B-ScrPart_cake	B-webanno.custom.Participants_	webanno.custom.Corefchains_	8-23	
+3-7	,	O	O	O	_	_	
+3-8	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	3-10	
+3-9	preheat	B-ScrEv_preheat	O	O	_	_	
+3-10	my	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	3-18	
+3-11	oven	O	B-ScrPart_oven	B-webanno.custom.Participants_	webanno.custom.Corefchains_	8-5	
+3-12	to	O	O	O	_	_	
+3-13	350	O	B-ScrPart_temperature	B-webanno.custom.Participants_	_	_	
+3-14	degrees	O	I-ScrPart_temperature	I-webanno.custom.Participants_	_	_	
+3-15	,	O	O	O	_	_	
+3-16	and	O	O	O	_	_	
+3-17	then	O	O	O	_	_	
+3-18	i	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	4-8	
+3-19	grease	B-ScrEv_grease_cake_tin	O	O	_	_	
+3-20	the	O	O	O	_	_	
+3-21	cake	O	B-ScrPart_cake_tin	B-webanno.custom.Participants_	_	_	
+3-22	pan	O	I-ScrPart_cake_tin|B-ScrPart_cake_tin	I-webanno.custom.Participants_|B-webanno.custom.Participants_	webanno.custom.Corefchains_	4-3	
+3-23	.	O	O	O	_	_	
+
+#id=4
+#text=After the pan has been greased , I get all the wet ingredients and I start mixing them in a bowl .
+4-1	After	O	O	O	_	_	
+4-2	the	O	O	O	_	_	
+4-3	pan	O	B-ScrPart_cake_tin	B-webanno.custom.Participants_	webanno.custom.Corefchains_	7-16	
+4-4	has	O	O	O	_	_	
+4-5	been	O	O	O	_	_	
+4-6	greased	B-ScrEv_grease_cake_tin	O	O	_	_	
+4-7	,	O	O	O	_	_	
+4-8	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	4-15	
+4-9	get	B-ScrEv_get_ingredients	O	O	_	_	
+4-10	all	O	O	O	_	_	
+4-11	the	O	O	O	_	_	
+4-12	wet	O	O	O	_	_	
+4-13	ingredients	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	webanno.custom.Corefchains_	4-18	
+4-14	and	O	O	O	_	_	
+4-15	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	5-2	
+4-16	start	O	O	O	_	_	
+4-17	mixing	B-ScrEv_prepare_ingredients	O	O	_	_	
+4-18	them	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	webanno.custom.Corefchains_	5-19	
+4-19	in	O	O	O	_	_	
+4-20	a	O	O	O	_	_	
+4-21	bowl	O	B-ScrPart_utensil	B-webanno.custom.Participants_	webanno.custom.Corefchains_	6-3	
+4-22	.	O	O	O	_	_	
+
+#id=5
+#text=Then I pull all the dry ingredients and start mixing them in a separate bowl from the wet ingredients .
+5-1	Then	O	O	O	_	_	
+5-2	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	6-10	
+5-3	pull	B-ScrEv_add_ingredients	O	O	_	_	
+5-4	all	O	O	O	_	_	
+5-5	the	O	O	O	_	_	
+5-6	dry	O	O	O	_	_	
+5-7	ingredients	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	webanno.custom.Corefchains_	5-11	
+5-8	and	O	O	O	_	_	
+5-9	start	B-UnrelEv	O	O	_	_	
+5-10	mixing	B-ScrEv_prepare_ingredients	O	O	_	_	
+5-11	them	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	webanno.custom.Corefchains_	6-16	
+5-12	in	O	O	O	_	_	
+5-13	a	O	O	O	_	_	
+5-14	separate	O	O	O	_	_	
+5-15	bowl	O	B-ScrPart_utensil	B-webanno.custom.Participants_	webanno.custom.Corefchains_	6-3	
+5-16	from	O	O	O	_	_	
+5-17	the	O	O	O	_	_	
+5-18	wet	O	O	O	_	_	
+5-19	ingredients	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	webanno.custom.Corefchains_	6-21	
+5-20	.	O	O	O	_	_	
+
+#id=6
+#text=After both bowls have been mixed in well , I start mixing in the dry ingredients in with the wet ingredients .
+6-1	After	O	O	O	_	_	
+6-2	both	O	O	O	_	_	
+6-3	bowls	O	B-ScrPart_utensil	B-webanno.custom.Participants_	_	_	
+6-4	have	O	O	O	_	_	
+6-5	been	O	O	O	_	_	
+6-6	mixed	B-ScrEv_prepare_ingredients	O	O	_	_	
+6-7	in	I-ScrEv_prepare_ingredients	O	O	_	_	
+6-8	well	O	O	O	_	_	
+6-9	,	O	O	O	_	_	
+6-10	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	7-9	
+6-11	start	B-UnrelEv	O	O	_	_	
+6-12	mixing	B-ScrEv_make_dough	O	O	_	_	
+6-13	in	O	O	O	_	_	
+6-14	the	O	O	O	_	_	
+6-15	dry	O	O	O	_	_	
+6-16	ingredients	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	_	_	
+6-17	in	O	O	O	_	_	
+6-18	with	O	O	O	_	_	
+6-19	the	O	O	O	_	_	
+6-20	wet	O	O	O	_	_	
+6-21	ingredients	O	B-ScrPart_ingredients	B-webanno.custom.Participants_	_	_	
+6-22	.	O	O	O	_	_	
+
+#id=7
+#text=After that has been mixed in well , I poor the cake mix into the pan very carefully and make sure it is applied evenly in the pan .
+7-1	After	O	O	O	_	_	
+7-2	that	O	B-ScrPart_dough	B-webanno.custom.Participants_	webanno.custom.Corefchains_	7-13	
+7-3	has	O	O	O	_	_	
+7-4	been	O	O	O	_	_	
+7-5	mixed	B-ScrEv_make_dough	O	O	_	_	
+7-6	in	I-ScrEv_make_dough	O	O	_	_	
+7-7	well	O	O	O	_	_	
+7-8	,	O	O	O	_	_	
+7-9	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	webanno.custom.Corefchains_	8-11	
+7-10	poor	B-ScrEv_pour_dough	O	O	_	_	
+7-11	the	O	O	O	_	_	
+7-12	cake	O	B-ScrPart_dough	B-webanno.custom.Participants_	_	_	
+7-13	mix	O	I-ScrPart_dough|B-ScrPart_dough	I-webanno.custom.Participants_|B-webanno.custom.Participants_	webanno.custom.Corefchains_	7-22	
+7-14	into	O	O	O	_	_	
+7-15	the	O	O	O	_	_	
+7-16	pan	O	B-ScrPart_cake_tin	B-webanno.custom.Participants_	webanno.custom.Corefchains_	7-28	
+7-17	very	O	O	O	_	_	
+7-18	carefully	O	O	O	_	_	
+7-19	and	O	O	O	_	_	
+7-20	make	B-UnrelEv	O	O	_	_	
+7-21	sure	I-UnrelEv	O	O	_	_	
+7-22	it	O	B-ScrPart_dough	B-webanno.custom.Participants_	_	_	
+7-23	is	O	O	O	_	_	
+7-24	applied	B-ScrEv_pour_dough	O	O	_	_	
+7-25	evenly	O	O	O	_	_	
+7-26	in	O	O	O	_	_	
+7-27	the	O	O	O	_	_	
+7-28	pan	O	B-ScrPart_cake_tin	B-webanno.custom.Participants_	webanno.custom.Corefchains_	8-15	
+7-29	.	O	O	O	_	_	
+
+#id=8
+#text=After a while the oven should be ready , and I place the cake pan in the oven rack carefully and let it bake . 
+8-1	After	O	O	O	_	_	
+8-2	a	O	O	O	_	_	
+8-3	while	O	O	O	_	_	
+8-4	the	O	O	O	_	_	
+8-5	oven	O	B-ScrPart_oven	B-webanno.custom.Participants_	webanno.custom.Corefchains_	8-19	
+8-6	should	O	O	O	_	_	
+8-7	be	B-ScrEv_preheat	O	O	_	_	
+8-8	ready	I-ScrEv_preheat	O	O	_	_	
+8-9	,	O	O	O	_	_	
+8-10	and	O	O	O	_	_	
+8-11	I	O	B-ScrPart_cook	B-webanno.custom.Participants_	_	_	
+8-12	place	B-ScrEv_put_cake_oven	O	O	_	_	
+8-13	the	O	O	O	_	_	
+8-14	cake	O	B-ScrPart_cake_tin	B-webanno.custom.Participants_	_	_	
+8-15	pan	O	I-ScrPart_cake_tin|B-ScrPart_cake_tin	I-webanno.custom.Participants_|B-webanno.custom.Participants_	_	_	
+8-16	in	O	O	O	_	_	
+8-17	the	O	O	O	_	_	
+8-18	oven	O	B-ScrPart_oven	B-webanno.custom.Participants_	_	_	
+8-19	rack	O	I-ScrPart_oven|B-ScrPart_oven	I-webanno.custom.Participants_|B-webanno.custom.Participants_	_	_	
+8-20	carefully	O	O	O	_	_	
+8-21	and	O	O	O	_	_	
+8-22	let	B-UnrelEv	O	O	_	_	
+8-23	it	O	B-ScrPart_cake	B-webanno.custom.Participants_	_	_	
+8-24	bake	B-ScrEv_wait	O	O	_	_	
+8-25	.	O	O	O	_	_	
+

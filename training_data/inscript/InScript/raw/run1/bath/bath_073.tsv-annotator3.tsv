@@ -1,0 +1,244 @@
+ # webanno.custom.Events | Events # webanno.custom.Participants | Participant # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Every night before putting my son to bed he gets his bath .
+1-1	Every	O	O	_	_	
+1-2	night	O	O	_	_	
+1-3	before	O	O	_	_	
+1-4	putting	B-UnrelEv	O	_	_	
+1-5	my	O	B-NPart	_	_	
+1-6	son	O	B-ScrPart_bather	group_I_son	1-5	
+1-7	to	O	O	_	_	
+1-8	bed	O	O	_	_	
+1-9	he	O	B-ScrPart_bather	webanno.custom.Corefchains_	1-6	
+1-10	gets	B-Evoking	O	_	_	
+1-11	his	I-Evoking	B-ScrPart_bather	webanno.custom.Corefchains_	1-9	
+1-12	bath	I-Evoking	B-MissScrPart	_	_	
+1-13	.	O	O	_	_	
+
+#id=2
+#text=we go up to the bathroom and I start the water and add his favorite bubbles .
+2-1	we	O	B-ScrPart_bather	group_I_son	1-6	
+2-2	go	B-ScrEv_enter_bathroom	O	_	_	
+2-3	up	O	O	_	_	
+2-4	to	O	O	_	_	
+2-5	the	O	O	_	_	
+2-6	bathroom	O	B-ScrPart_bathroom	_	_	
+2-7	and	O	O	_	_	
+2-8	I	O	O	_	_	
+2-9	start	B-ScrEv_turn_water_on	O	_	_	
+2-10	the	O	O	_	_	
+2-11	water	O	B-ScrPart_water	_	_	
+2-12	and	O	O	_	_	
+2-13	add	B-ScrEv_put_bubble_bath_scent	O	_	_	
+2-14	his	O	B-ScrPart_bather	webanno.custom.Corefchains_	1-11	
+2-15	favorite	O	O	_	_	
+2-16	bubbles	O	B-ScrPart_bath_means	_	_	
+2-17	.	O	O	_	_	
+
+#id=3
+#text=After he is undressed he stands next to the tub and giggles and dances watching the running water create a mass of bubbles !
+3-1	After	O	O	_	_	
+3-2	he	O	B-ScrPart_bather	webanno.custom.Corefchains_	2-14	
+3-3	is	O	O	_	_	
+3-4	undressed	B-ScrEv_undress	O	_	_	
+3-5	he	O	B-ScrPart_bather	webanno.custom.Corefchains_	3-2	
+3-6	stands	B-UnrelEv	O	_	_	
+3-7	next	O	O	_	_	
+3-8	to	O	O	_	_	
+3-9	the	O	O	_	_	
+3-10	tub	O	B-ScrPart_bathroom	_	_	
+3-11	and	O	O	_	_	
+3-12	giggles	B-UnrelEv	O	_	_	
+3-13	and	O	O	_	_	
+3-14	dances	B-UnrelEv	O	_	_	
+3-15	watching	B-UnrelEv	O	_	_	
+3-16	the	O	O	_	_	
+3-17	running	B-RelNScrEv	O	_	_	
+3-18	water	O	B-ScrPart_water	webanno.custom.Corefchains_	2-11	
+3-19	create	B-UnrelEv	O	_	_	
+3-20	a	O	O	_	_	
+3-21	mass	O	O	_	_	
+3-22	of	O	O	_	_	
+3-23	bubbles	O	B-ScrPart_bath_means	webanno.custom.Corefchains_	2-16	
+3-24	!	O	O	_	_	
+
+#id=4
+#text=I make sure the water is warm enough , because his baths tend to last a bit longer than most .
+4-1	I	O	O	_	_	
+4-2	make	B-UnrelEv|B-UnrelEv	O	_	_	
+4-3	sure	I-UnrelEv	O	_	_	
+4-4	the	O	O	_	_	
+4-5	water	O	B-ScrPart_water	webanno.custom.Corefchains_	3-18	
+4-6	is	B-UnrelEv	O	_	_	
+4-7	warm	O	O	_	_	
+4-8	enough	O	O	_	_	
+4-9	,	O	O	_	_	
+4-10	because	O	O	_	_	
+4-11	his	O	B-ScrPart_bather	webanno.custom.Corefchains_	3-5	
+4-12	baths	O	B-MissScrPart	_	_	
+4-13	tend	B-UnrelEv	O	_	_	
+4-14	to	O	O	_	_	
+4-15	last	B-RelNScrEv	O	_	_	
+4-16	a	O	O	_	_	
+4-17	bit	O	B-NPart	_	_	
+4-18	longer	O	O	_	_	
+4-19	than	O	O	_	_	
+4-20	most	O	B-NPart	_	_	
+4-21	.	O	O	_	_	
+
+#id=5
+#text=When the water is ready , he throws in all his tub toys , lizards and dinosaurs , cups and cars .
+5-1	When	O	O	_	_	
+5-2	the	O	O	_	_	
+5-3	water	O	B-ScrPart_water	webanno.custom.Corefchains_	4-5	
+5-4	is	B-UnrelEv	O	_	_	
+5-5	ready	O	O	_	_	
+5-6	,	O	O	_	_	
+5-7	he	O	B-ScrPart_bather	webanno.custom.Corefchains_	4-11	
+5-8	throws	B-UnrelEv|B-UnrelEv	O	_	_	
+5-9	in	I-UnrelEv	O	_	_	
+5-10	all	O	O	_	_	
+5-11	his	O	O	_	_	
+5-12	tub	O	B-ScrPart_in-bath_entertainment	_	_	
+5-13	toys	O	I-ScrPart_in-bath_entertainment|B-ScrPart_in-bath_entertainment	_	_	
+5-14	,	O	O	_	_	
+5-15	lizards	O	B-ScrPart_in-bath_entertainment|B-ScrPart_in-bath_entertainment	webanno.custom.Corefchains_	5-13	
+5-16	and	O	I-ScrPart_in-bath_entertainment	webanno.custom.Corefchains_	5-13	
+5-17	dinosaurs	O	I-ScrPart_in-bath_entertainment|B-ScrPart_in-bath_entertainment	webanno.custom.Corefchains_	5-13	
+5-18	,	O	I-ScrPart_in-bath_entertainment	webanno.custom.Corefchains_	5-13	
+5-19	cups	O	I-ScrPart_in-bath_entertainment|B-ScrPart_in-bath_entertainment	webanno.custom.Corefchains_	5-13	
+5-20	and	O	I-ScrPart_in-bath_entertainment	webanno.custom.Corefchains_	5-13	
+5-21	cars	O	I-ScrPart_in-bath_entertainment|B-ScrPart_in-bath_entertainment	webanno.custom.Corefchains_	5-13	
+5-22	.	O	O	_	_	
+
+#id=6
+#text=The cars are his under water taxi 's for the fish , he says .
+6-1	The	O	O	_	_	
+6-2	cars	O	B-ScrPart_in-bath_entertainment	webanno.custom.Corefchains_	5-21	
+6-3	are	B-UnrelEv	O	_	_	
+6-4	his	O	B-ScrPart_bather	webanno.custom.Corefchains_	5-7	
+6-5	under	O	O	_	_	
+6-6	water	O	O	_	_	
+6-7	taxi	O	B-ScrPart_in-bath_entertainment	_	_	
+6-8	's	O	O	_	_	
+6-9	for	O	O	_	_	
+6-10	the	O	O	_	_	
+6-11	fish	O	B-NPart	_	_	
+6-12	,	O	O	_	_	
+6-13	he	O	B-ScrPart_bather	webanno.custom.Corefchains_	6-4	
+6-14	says	B-UnrelEv	O	_	_	
+6-15	.	O	O	_	_	
+
+#id=7
+#text=He sits amiss the bubbles playing with his toys and laughing .
+7-1	He	O	B-ScrPart_bather	webanno.custom.Corefchains_	6-13	
+7-2	sits	B-ScrEv_sink_water	O	_	_	
+7-3	amiss	O	O	_	_	
+7-4	the	O	O	_	_	
+7-5	bubbles	O	B-ScrPart_bath_means	webanno.custom.Corefchains_	3-23	
+7-6	playing	B-UnrelEv	O	_	_	
+7-7	with	O	O	_	_	
+7-8	his	O	B-ScrPart_bather	webanno.custom.Corefchains_	7-1	
+7-9	toys	O	B-ScrPart_in-bath_entertainment	webanno.custom.Corefchains_	5-15	
+7-10	and	O	O	_	_	
+7-11	laughing	B-UnrelEv	O	_	_	
+7-12	.	O	O	_	_	
+
+#id=8
+#text=We do the toe test , which is when i look at his toes and if they are wrinkle then time is up .
+8-1	We	O	B-ScrPart_bather	webanno.custom.Corefchains_	2-1	
+8-2	do	B-UnrelEv	O	_	_	
+8-3	the	O	O	_	_	
+8-4	toe	O	B-ScrPart_body_part	_	_	
+8-5	test	O	O	_	_	
+8-6	,	O	O	_	_	
+8-7	which	O	O	_	_	
+8-8	is	O	O	_	_	
+8-9	when	O	O	_	_	
+8-10	i	O	O	_	_	
+8-11	look	B-UnrelEv	O	_	_	
+8-12	at	O	O	_	_	
+8-13	his	O	B-ScrPart_bather	webanno.custom.Corefchains_	7-8	
+8-14	toes	O	B-ScrPart_body_part	group_I_son	8-4	
+8-15	and	O	O	_	_	
+8-16	if	O	O	_	_	
+8-17	they	O	B-ScrPart_body_part	webanno.custom.Corefchains_	8-14	
+8-18	are	O	O	_	_	
+8-19	wrinkle	B-UnrelEv	O	_	_	
+8-20	then	O	O	_	_	
+8-21	time	O	O	_	_	
+8-22	is	B-UnrelEv	O	_	_	
+8-23	up	O	O	_	_	
+8-24	.	O	O	_	_	
+
+#id=9
+#text=Yup toes are wrinkled , he laughs as wash his body and hair .
+9-1	Yup	O	O	_	_	
+9-2	toes	O	B-ScrPart_body_part	webanno.custom.Corefchains_	8-17	
+9-3	are	O	O	_	_	
+9-4	wrinkled	B-UnrelEv	O	_	_	
+9-5	,	O	O	_	_	
+9-6	he	O	B-ScrPart_bather	webanno.custom.Corefchains_	8-13	
+9-7	laughs	B-UnrelEv	O	_	_	
+9-8	as	O	O	_	_	
+9-9	wash	B-ScrEv_wash	O	_	_	
+9-10	his	O	B-ScrPart_bather	webanno.custom.Corefchains_	9-6	
+9-11	body	O	B-ScrPart_body_part	_	_	
+9-12	and	O	O	_	_	
+9-13	hair	O	B-ScrPart_body_part	_	_	
+9-14	.	O	O	_	_	
+
+#id=10
+#text=I let the water out as he sits there and waits for the tub to empty , only then does he want to get out .
+10-1	I	O	O	_	_	
+10-2	let	B-ScrEv_open_drain	O	_	_	
+10-3	the	O	O	_	_	
+10-4	water	O	B-ScrPart_water	webanno.custom.Corefchains_	5-3	
+10-5	out	O	O	_	_	
+10-6	as	O	O	_	_	
+10-7	he	O	B-ScrPart_bather	webanno.custom.Corefchains_	9-10	
+10-8	sits	B-UnrelEv	O	_	_	
+10-9	there	O	O	_	_	
+10-10	and	O	O	_	_	
+10-11	waits	B-UnrelEv	O	_	_	
+10-12	for	O	O	_	_	
+10-13	the	O	O	_	_	
+10-14	tub	O	B-ScrPart_bathtub	_	_	
+10-15	to	O	O	_	_	
+10-16	empty	B-RelNScrEv	O	_	_	
+10-17	,	O	O	_	_	
+10-18	only	O	O	_	_	
+10-19	then	O	O	_	_	
+10-20	does	O	O	_	_	
+10-21	he	O	B-ScrPart_bather	webanno.custom.Corefchains_	10-7	
+10-22	want	B-UnrelEv	O	_	_	
+10-23	to	O	O	_	_	
+10-24	get	B-ScrEv_get_out_bath|B-ScrEv_get_out_bath	O	_	_	
+10-25	out	I-ScrEv_get_out_bath	O	_	_	
+10-26	.	O	O	_	_	
+
+#id=11
+#text=He helps to dry himself off and put his pajamas on .
+11-1	He	O	B-ScrPart_bather	webanno.custom.Corefchains_	10-21	
+11-2	helps	B-UnrelEv	O	_	_	
+11-3	to	O	O	_	_	
+11-4	dry	B-ScrEv_dry	O	_	_	
+11-5	himself	O	B-ScrPart_bather	webanno.custom.Corefchains_	11-1	
+11-6	off	O	O	_	_	
+11-7	and	O	O	_	_	
+11-8	put	B-ScrEv_get_dressed	O	_	_	
+11-9	his	O	B-ScrPart_bather	webanno.custom.Corefchains_	11-5	
+11-10	pajamas	O	B-ScrPart_clothes	_	_	
+11-11	on	O	O	_	_	
+11-12	.	O	O	_	_	
+
+#id=12
+#text=Now it is time for bed . 
+12-1	Now	O	O	_	_	
+12-2	it	O	O	_	_	
+12-3	is	B-UnrelEv	O	_	_	
+12-4	time	O	O	_	_	
+12-5	for	O	O	_	_	
+12-6	bed	O	O	_	_	
+12-7	.	O	O	_	_	
+

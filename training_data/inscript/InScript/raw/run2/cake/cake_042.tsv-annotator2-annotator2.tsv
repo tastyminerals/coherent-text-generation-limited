@@ -1,0 +1,257 @@
+ # webanno.custom.Participants | Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I like to help Mom bake cakes .
+1-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+1-2	like	O	O	B-UnrelEv	_	_	
+1-3	to	O	O	O	_	_	
+1-4	help	O	O	O	_	_	
+1-5	Mom	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+1-6	bake	O	O	B-Evoking	_	_	
+1-7	cakes	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	_	_	
+1-8	.	O	O	O	_	_	
+
+#id=2
+#text=It 's something we enjoy doing together .
+2-1	It	B-No_label	B-webanno.custom.Participants_	O	_	_	
+2-2	's	O	O	O	_	_	
+2-3	something	B-No_label	B-webanno.custom.Participants_	O	_	_	
+2-4	we	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+2-5	enjoy	O	O	B-UnrelEv	_	_	
+2-6	doing	O	O	O	_	_	
+2-7	together	O	O	O	_	_	
+2-8	.	O	O	O	_	_	
+
+#id=3
+#text=Mom decided she was going to make a chocolate cake , and chocolate is my favorite !
+3-1	Mom	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+3-2	decided	O	O	B-UnrelEv	_	_	
+3-3	she	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+3-4	was	O	O	O	_	_	
+3-5	going	O	O	O	_	_	
+3-6	to	O	O	O	_	_	
+3-7	make	O	O	B-Evoking	_	_	
+3-8	a	O	O	I-Evoking	_	_	
+3-9	chocolate	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	_	_	
+3-10	cake	I-ScrPart_cake|B-ScrPart_cake	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-Evoking	_	_	
+3-11	,	O	O	O	_	_	
+3-12	and	O	O	O	_	_	
+3-13	chocolate	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+3-14	is	O	O	B-UnrelEv	_	_	
+3-15	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+3-16	favorite	O	O	O	_	_	
+3-17	!	O	O	O	_	_	
+
+#id=4
+#text=First , we washed our hands carefully with plenty of soap .
+4-1	First	O	O	O	_	_	
+4-2	,	O	O	O	_	_	
+4-3	we	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+4-4	washed	O	O	B-RelNScrEv	_	_	
+4-5	our	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+4-6	hands	B-NPart	B-webanno.custom.Participants_	O	_	_	
+4-7	carefully	O	O	O	_	_	
+4-8	with	O	O	O	_	_	
+4-9	plenty	B-Head_of_Partitive	B-webanno.custom.Participants_	O	_	_	
+4-10	of	O	O	O	_	_	
+4-11	soap	B-NPart	B-webanno.custom.Participants_	O	_	_	
+4-12	.	O	O	O	_	_	
+
+#id=5
+#text=Then we dried our hands .
+5-1	Then	O	O	O	_	_	
+5-2	we	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+5-3	dried	O	O	B-RelNScrEv	_	_	
+5-4	our	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+5-5	hands	B-NPart	B-webanno.custom.Participants_	O	_	_	
+5-6	.	O	O	O	_	_	
+
+#id=6
+#text=The first thing we had to do was sift the dry ingredients .
+6-1	The	O	O	O	_	_	
+6-2	first	O	O	O	_	_	
+6-3	thing	B-No_label	B-webanno.custom.Participants_	O	_	_	
+6-4	we	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+6-5	had	O	O	O	_	_	
+6-6	to	O	O	O	_	_	
+6-7	do	O	O	B-UnrelEv	_	_	
+6-8	was	O	O	O	_	_	
+6-9	sift	O	O	B-RelNScrEv	_	_	
+6-10	the	O	O	O	_	_	
+6-11	dry	O	O	O	_	_	
+6-12	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+6-13	.	O	O	O	_	_	
+
+#id=7
+#text=Mom got out a really big mixing bowl made of aluminum .
+7-1	Mom	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+7-2	got	O	O	B-ScrEv_get_utensils	_	_	
+7-3	out	O	O	I-ScrEv_get_utensils	_	_	
+7-4	a	O	O	O	_	_	
+7-5	really	O	O	O	_	_	
+7-6	big	O	O	O	_	_	
+7-7	mixing	B-ScrPart_utensil	B-webanno.custom.Participants_	O	_	_	
+7-8	bowl	I-ScrPart_utensil|B-ScrPart_utensil	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+7-9	made	O	O	O	_	_	
+7-10	of	O	O	O	_	_	
+7-11	aluminum	B-NPart	B-webanno.custom.Participants_	O	_	_	
+7-12	.	O	O	O	_	_	
+
+#id=8
+#text=We put in the flour , sugar , salt , and baking powder .
+8-1	We	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+8-2	put	O	O	B-ScrEv_add_ingridients	_	_	
+8-3	in	O	O	I-ScrEv_add_ingridients	_	_	
+8-4	the	O	O	O	_	_	
+8-5	flour	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+8-6	,	O	O	O	_	_	
+8-7	sugar	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+8-8	,	O	O	O	_	_	
+8-9	salt	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+8-10	,	O	O	O	_	_	
+8-11	and	O	O	O	_	_	
+8-12	baking	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+8-13	powder	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+8-14	.	O	O	O	_	_	
+
+#id=9
+#text=Mom likes turbinado sugar the best because it 's more healthy , so we used that .
+9-1	Mom	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+9-2	likes	O	O	B-UnrelEv	_	_	
+9-3	turbinado	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+9-4	sugar	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+9-5	the	O	O	O	_	_	
+9-6	best	O	O	O	_	_	
+9-7	because	O	O	O	_	_	
+9-8	it	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+9-9	's	O	O	B-UnrelEv	_	_	
+9-10	more	O	O	O	_	_	
+9-11	healthy	O	O	O	_	_	
+9-12	,	O	O	O	_	_	
+9-13	so	O	O	O	_	_	
+9-14	we	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+9-15	used	O	O	B-UnrelEv	_	_	
+9-16	that	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+9-17	.	O	O	O	_	_	
+
+#id=10
+#text=The four was King Arthur cake flour .
+10-1	The	O	O	O	_	_	
+10-2	four	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+10-3	was	O	O	B-UnrelEv	_	_	
+10-4	King	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+10-5	Arthur	I-ScrPart_ingredients	I-webanno.custom.Participants_	O	_	_	
+10-6	cake	I-ScrPart_ingredients	I-webanno.custom.Participants_	O	_	_	
+10-7	flour	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+10-8	.	O	O	O	_	_	
+
+#id=11
+#text=We blended the dry ingredients carefully with a whip .
+11-1	We	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+11-2	blended	O	O	B-ScrEv_prepare_ingridients	_	_	
+11-3	the	O	O	O	_	_	
+11-4	dry	O	O	O	_	_	
+11-5	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+11-6	carefully	O	O	O	_	_	
+11-7	with	O	O	O	_	_	
+11-8	a	O	O	O	_	_	
+11-9	whip	B-ScrPart_utensil	B-webanno.custom.Participants_	O	_	_	
+11-10	.	O	O	O	_	_	
+
+#id=12
+#text=Then we got another bowl and mixed the eggs , milk , and butter .
+12-1	Then	O	O	O	_	_	
+12-2	we	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+12-3	got	O	O	B-ScrEv_get_utensils	_	_	
+12-4	another	O	O	O	_	_	
+12-5	bowl	B-ScrPart_utensil	B-webanno.custom.Participants_	O	_	_	
+12-6	and	O	O	O	_	_	
+12-7	mixed	O	O	B-ScrEv_prepare_ingridients	_	_	
+12-8	the	O	O	O	_	_	
+12-9	eggs	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+12-10	,	O	O	O	_	_	
+12-11	milk	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+12-12	,	O	O	O	_	_	
+12-13	and	O	O	O	_	_	
+12-14	butter	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+12-15	.	O	O	O	_	_	
+
+#id=13
+#text=Mom took a little pan and melted the chocolate on the stove on very low heat .
+13-1	Mom	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+13-2	took	O	O	B-ScrEv_get_utensils	_	_	
+13-3	a	O	O	O	_	_	
+13-4	little	O	O	O	_	_	
+13-5	pan	B-ScrPart_utensil	B-webanno.custom.Participants_	O	_	_	
+13-6	and	O	O	O	_	_	
+13-7	melted	O	O	B-ScrEv_prepare_ingridients	_	_	
+13-8	the	O	O	O	_	_	
+13-9	chocolate	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	3-13	
+13-10	on	O	O	O	_	_	
+13-11	the	O	O	O	_	_	
+13-12	stove	B-ScrPart_oven	B-webanno.custom.Participants_	O	_	_	
+13-13	on	O	O	O	_	_	
+13-14	very	O	O	O	_	_	
+13-15	low	O	O	O	_	_	
+13-16	heat	B-ScrPart_temperature	B-webanno.custom.Participants_	O	_	_	
+13-17	.	O	O	O	_	_	
+
+#id=14
+#text=We mixed the chocolate with the liquids and then poured it all into the big bowl .
+14-1	We	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+14-2	mixed	O	O	B-ScrEv_prepare_ingridients	_	_	
+14-3	the	O	O	O	_	_	
+14-4	chocolate	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+14-5	with	O	O	O	_	_	
+14-6	the	O	O	O	_	_	
+14-7	liquids	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+14-8	and	O	O	O	_	_	
+14-9	then	O	O	O	_	_	
+14-10	poured	O	O	B-ScrEv_make_dough	_	_	
+14-11	it	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+14-12	all	O	O	O	_	_	
+14-13	into	O	O	O	_	_	
+14-14	the	O	O	O	_	_	
+14-15	big	O	O	O	_	_	
+14-16	bowl	B-ScrPart_utensil	B-webanno.custom.Participants_	O	_	_	
+14-17	.	O	O	O	_	_	
+
+#id=15
+#text=We baked the cake for 40 minutes -- it seemed like a long time !
+15-1	We	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+15-2	baked	O	O	B-ScrEv_wait	_	_	
+15-3	the	O	O	O	_	_	
+15-4	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	_	_	
+15-5	for	O	O	O	_	_	
+15-6	40	O	O	O	_	_	
+15-7	minutes	B-ScrPart_time	B-webanno.custom.Participants_	O	_	_	
+15-8	--	O	O	O	_	_	
+15-9	it	B-No_label	B-webanno.custom.Participants_	O	_	_	
+15-10	seemed	O	O	B-UnrelEv	_	_	
+15-11	like	O	O	O	_	_	
+15-12	a	O	O	O	_	_	
+15-13	long	O	O	O	_	_	
+15-14	time	B-ScrPart_time	B-webanno.custom.Participants_	O	_	_	
+15-15	!	O	O	O	_	_	
+
+#id=16
+#text=-- and after it cooled we iced it and ate some .
+16-1	--	O	O	O	_	_	
+16-2	and	O	O	O	_	_	
+16-3	after	O	O	O	_	_	
+16-4	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	_	_	
+16-5	cooled	O	O	B-ScrEv_cool_down	_	_	
+16-6	we	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	15-1	
+16-7	iced	O	O	B-ScrEv_decorate	_	_	
+16-8	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	_	_	
+16-9	and	O	O	O	_	_	
+16-10	ate	O	O	B-ScrEv_eat	_	_	
+16-11	some	O	O	O	_	_	
+16-12	.	O	O	O	_	_	
+
+#id=17
+#text=It was delicious . 
+17-1	It	B-ScrPart_cake	B-webanno.custom.Participants_	O	_	_	
+17-2	was	O	O	B-UnrelEv	_	_	
+17-3	delicious	O	O	O	_	_	
+17-4	.	O	O	O	_	_	
+

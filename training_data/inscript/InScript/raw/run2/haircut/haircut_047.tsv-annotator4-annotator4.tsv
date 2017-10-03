@@ -1,0 +1,233 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=It was finally the day , I was going to donate all of my hair to make wigs for people with cancer .
+1-1	It	B-No_label	O	_	_	
+1-2	was	O	B-UnrelEv	_	_	
+1-3	finally	O	O	_	_	
+1-4	the	O	O	_	_	
+1-5	day	B-ScrPart_time/date	O	_	_	
+1-6	,	O	O	_	_	
+1-7	I	B-ScrPart_customer	O	_	_	
+1-8	was	O	O	_	_	
+1-9	going	O	O	_	_	
+1-10	to	O	O	_	_	
+1-11	donate	O	B-RelNScrEv	_	_	
+1-12	all	O	O	_	_	
+1-13	of	O	O	_	_	
+1-14	my	B-ScrPart_customer	O	_	_	
+1-15	hair	B-ScrPart_hair	O	_	_	
+1-16	to	O	O	_	_	
+1-17	make	O	B-UnrelEv	_	_	
+1-18	wigs	B-NPart	O	_	_	
+1-19	for	O	O	_	_	
+1-20	people	B-NPart	O	_	_	
+1-21	with	O	O	_	_	
+1-22	cancer	B-NPart	O	_	_	
+1-23	.	O	O	_	_	
+
+#id=2
+#text=I had been growing my hair out for 2 years and today was the day my plan would come to fruition .
+2-1	I	B-ScrPart_customer	O	_	_	
+2-2	had	O	O	_	_	
+2-3	been	O	O	_	_	
+2-4	growing	O	B-RelNScrEv	_	_	
+2-5	my	B-ScrPart_customer	O	_	_	
+2-6	hair	B-ScrPart_hair	O	_	_	
+2-7	out	O	O	_	_	
+2-8	for	O	O	_	_	
+2-9	2	O	O	_	_	
+2-10	years	B-NPart	O	_	_	
+2-11	and	O	O	_	_	
+2-12	today	O	O	_	_	
+2-13	was	O	B-UnrelEv	_	_	
+2-14	the	O	O	_	_	
+2-15	day	B-ScrPart_time/date	O	webanno.custom.Corefchains_	1-5	
+2-16	my	B-ScrPart_customer	O	_	_	
+2-17	plan	B-NPart	O	_	_	
+2-18	would	O	O	_	_	
+2-19	come	O	B-UnrelEv	_	_	
+2-20	to	O	O	_	_	
+2-21	fruition	B-No_label	O	_	_	
+2-22	.	O	O	_	_	
+
+#id=3
+#text=I headed to the barber shop , my head filled with ideas on how I should get my hair styled .
+3-1	I	B-ScrPart_customer	O	_	_	
+3-2	headed	O	B-ScrEv_get_salon	_	_	
+3-3	to	O	O	_	_	
+3-4	the	O	O	_	_	
+3-5	barber	B-ScrPart_salon	O	_	_	
+3-6	shop	I-ScrPart_salon|B-ScrPart_salon	O	_	_	
+3-7	,	O	O	_	_	
+3-8	my	B-ScrPart_customer	O	_	_	
+3-9	head	B-NPart	O	_	_	
+3-10	filled	O	B-UnrelEv	_	_	
+3-11	with	O	O	_	_	
+3-12	ideas	B-NPart	O	_	_	
+3-13	on	O	O	_	_	
+3-14	how	O	O	_	_	
+3-15	I	B-ScrPart_customer	O	_	_	
+3-16	should	O	O	_	_	
+3-17	get	O	B-Evoking	_	_	
+3-18	my	B-ScrPart_customer	I-Evoking	_	_	
+3-19	hair	B-ScrPart_hair	I-Evoking	_	_	
+3-20	styled	O	I-Evoking	_	_	
+3-21	.	O	O	_	_	
+
+#id=4
+#text=I finally settled on the idea of getting a high and tight , after so long having long hair ; short hair would be a great change of pace .
+4-1	I	B-ScrPart_customer	O	_	_	
+4-2	finally	O	O	_	_	
+4-3	settled	O	B-UnrelEv	_	_	
+4-4	on	O	O	_	_	
+4-5	the	O	O	_	_	
+4-6	idea	B-NPart	O	_	_	
+4-7	of	O	O	_	_	
+4-8	getting	O	B-Evoking	_	_	
+4-9	a	O	I-Evoking	_	_	
+4-10	high	B-ScrPart_haircut	I-Evoking	_	_	
+4-11	and	I-ScrPart_haircut	I-Evoking	_	_	
+4-12	tight	I-ScrPart_haircut	I-Evoking	_	_	
+4-13	,	O	O	_	_	
+4-14	after	O	O	_	_	
+4-15	so	O	O	_	_	
+4-16	long	O	O	_	_	
+4-17	having	O	B-RelNScrEv	_	_	
+4-18	long	O	O	_	_	
+4-19	hair	B-ScrPart_hair	O	_	_	
+4-20	;	O	O	_	_	
+4-21	short	O	O	_	_	
+4-22	hair	B-ScrPart_hair	O	_	_	
+4-23	would	O	O	_	_	
+4-24	be	O	B-UnrelEv	_	_	
+4-25	a	O	O	_	_	
+4-26	great	O	O	_	_	
+4-27	change	B-NPart	O	_	_	
+4-28	of	O	O	_	_	
+4-29	pace	B-No_label	O	_	_	
+4-30	.	O	O	_	_	
+
+#id=5
+#text=I walked in the door of the barber shop and I waited until one of the barbers had a free chair .
+5-1	I	B-ScrPart_customer	O	_	_	
+5-2	walked	O	B-ScrEv_enter	_	_	
+5-3	in	O	O	_	_	
+5-4	the	O	O	_	_	
+5-5	door	B-NPart	O	_	_	
+5-6	of	O	O	_	_	
+5-7	the	O	O	_	_	
+5-8	barber	B-ScrPart_salon	O	_	_	
+5-9	shop	I-ScrPart_salon|B-ScrPart_salon	O	_	_	
+5-10	and	O	O	_	_	
+5-11	I	B-ScrPart_customer	O	_	_	
+5-12	waited	O	B-ScrEv_wait	_	_	
+5-13	until	O	O	_	_	
+5-14	one	O	O	_	_	
+5-15	of	O	O	_	_	
+5-16	the	O	O	_	_	
+5-17	barbers	B-ScrPart_hairdresser	O	_	_	
+5-18	had	O	B-ScrEv_sit_down	_	_	
+5-19	a	O	O	_	_	
+5-20	free	O	O	_	_	
+5-21	chair	B-ScrPart_chair	O	_	_	
+5-22	.	O	O	_	_	
+
+#id=6
+#text=The man asked how I wanted my hair cut , I told him I would like a high and tight , but I needed him to cut off the long ponytail that I was going to donate .
+6-1	The	O	O	_	_	
+6-2	man	B-ScrPart_hairdresser	O	_	_	
+6-3	asked	O	B-ScrEv_talk_haircut	_	_	
+6-4	how	O	O	_	_	
+6-5	I	B-ScrPart_customer	O	_	_	
+6-6	wanted	O	B-ScrEv_talk_haircut	_	_	
+6-7	my	B-ScrPart_customer	O	_	_	
+6-8	hair	B-ScrPart_hair	O	_	_	
+6-9	cut	O	B-ScrEv_cut	_	_	
+6-10	,	O	O	_	_	
+6-11	I	B-ScrPart_customer	O	_	_	
+6-12	told	O	B-ScrEv_talk_haircut	_	_	
+6-13	him	B-ScrPart_hairdresser	O	_	_	
+6-14	I	B-ScrPart_customer	O	_	_	
+6-15	would	O	O	_	_	
+6-16	like	O	B-ScrEv_talk_haircut	_	_	
+6-17	a	O	O	_	_	
+6-18	high	B-ScrPart_haircut	O	webanno.custom.Corefchains_	4-10	
+6-19	and	I-ScrPart_haircut	O	webanno.custom.Corefchains_	4-10	
+6-20	tight	I-ScrPart_haircut	O	webanno.custom.Corefchains_	4-10	
+6-21	,	O	O	_	_	
+6-22	but	O	O	_	_	
+6-23	I	B-ScrPart_customer	O	_	_	
+6-24	needed	O	B-ScrEv_talk_haircut	_	_	
+6-25	him	B-ScrPart_hairdresser	O	_	_	
+6-26	to	O	O	_	_	
+6-27	cut	O	B-ScrEv_cut	_	_	
+6-28	off	O	I-ScrEv_cut	_	_	
+6-29	the	O	O	_	_	
+6-30	long	O	O	_	_	
+6-31	ponytail	B-ScrPart_hair	O	_	_	
+6-32	that	B-ScrPart_hair	O	_	_	
+6-33	I	B-ScrPart_customer	O	_	_	
+6-34	was	O	O	_	_	
+6-35	going	O	O	_	_	
+6-36	to	O	O	_	_	
+6-37	donate	O	B-RelNScrEv	_	_	
+6-38	.	O	O	_	_	
+
+#id=7
+#text=After all the formalities he got to work and styled my hair , we idly chatted the whole time he was cutting my hair .
+7-1	After	O	O	_	_	
+7-2	all	O	O	_	_	
+7-3	the	O	O	_	_	
+7-4	formalities	B-NPart	O	_	_	
+7-5	he	B-ScrPart_hairdresser	O	_	_	
+7-6	got	O	B-RelNScrEv	_	_	
+7-7	to	O	O	_	_	
+7-8	work	B-NPart	O	_	_	
+7-9	and	O	O	_	_	
+7-10	styled	O	B-ScrEv_make_hair_style	_	_	
+7-11	my	B-ScrPart_customer	O	_	_	
+7-12	hair	B-ScrPart_hair	O	_	_	
+7-13	,	O	O	_	_	
+7-14	we	B-ScrPart_hairdresser_customer	O	_	_	
+7-15	idly	O	O	_	_	
+7-16	chatted	O	B-ScrEv_small_talk	_	_	
+7-17	the	O	O	_	_	
+7-18	whole	O	O	_	_	
+7-19	time	B-ScrPart_time/date	O	_	_	
+7-20	he	B-ScrPart_hairdresser	O	_	_	
+7-21	was	O	O	_	_	
+7-22	cutting	O	B-ScrEv_cut	_	_	
+7-23	my	B-ScrPart_customer	O	_	_	
+7-24	hair	B-ScrPart_hair	O	_	_	
+7-25	.	O	O	_	_	
+
+#id=8
+#text=After he was finished I paid and took my hair with me .
+8-1	After	O	O	_	_	
+8-2	he	B-ScrPart_hairdresser	O	_	_	
+8-3	was	O	O	_	_	
+8-4	finished	O	B-UnrelEv	_	_	
+8-5	I	B-ScrPart_customer	O	_	_	
+8-6	paid	O	B-ScrEv_pay	_	_	
+8-7	and	O	O	_	_	
+8-8	took	O	B-RelNScrEv	_	_	
+8-9	my	B-ScrPart_customer	O	_	_	
+8-10	hair	B-ScrPart_hair	O	_	_	
+8-11	with	O	O	_	_	
+8-12	me	B-ScrPart_customer	O	_	_	
+8-13	.	O	O	_	_	
+
+#id=9
+#text=It would be mailed away for a good cause today . 
+9-1	It	B-ScrPart_hair	O	_	_	
+9-2	would	O	O	_	_	
+9-3	be	O	O	_	_	
+9-4	mailed	O	B-RelNScrEv	_	_	
+9-5	away	O	I-RelNScrEv	_	_	
+9-6	for	O	O	_	_	
+9-7	a	O	O	_	_	
+9-8	good	O	O	_	_	
+9-9	cause	B-NPart	O	_	_	
+9-10	today	O	O	_	_	
+9-11	.	O	O	_	_	
+

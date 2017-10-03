@@ -1,0 +1,290 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Event | Events
+#id=1
+#text=I ride the bus to school everyday .
+1-1	I	B-ScrPart_passenger	O	O	
+1-2	ride	O	B-webanno.custom.Events_	B-Evoking	
+1-3	the	O	I-webanno.custom.Events_	I-Evoking	
+1-4	bus	B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	
+1-5	to	O	O	O	
+1-6	school	B-ScrPart_destination	O	O	
+1-7	everyday	B-ScrPart_time/date	O	O	
+1-8	.	O	O	O	
+
+#id=2
+#text=I live in New York City so riding the bus is a common thing .
+2-1	I	B-ScrPart_passenger	O	O	
+2-2	live	O	B-webanno.custom.Events_	B-UnrelEv	
+2-3	in	O	O	O	
+2-4	New	B-NPart	O	O	
+2-5	York	I-NPart	O	O	
+2-6	City	I-NPart	O	O	
+2-7	so	O	O	O	
+2-8	riding	O	B-webanno.custom.Events_	B-Evoking	
+2-9	the	O	I-webanno.custom.Events_	I-Evoking	
+2-10	bus	B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	
+2-11	is	O	B-webanno.custom.Events_	B-UnrelEv	
+2-12	a	O	O	O	
+2-13	common	O	O	O	
+2-14	thing	B-NPart	O	O	
+2-15	.	O	O	O	
+
+#id=3
+#text=Everyone does it because it is convenient .
+3-1	Everyone	B-ScrPart_passenger	O	O	
+3-2	does	O	B-webanno.custom.Events_	B-RelNScrEv	
+3-3	it	B-No_label	O	O	
+3-4	because	O	O	O	
+3-5	it	B-No_label	O	O	
+3-6	is	O	B-webanno.custom.Events_	B-UnrelEv	
+3-7	convenient	O	O	O	
+3-8	.	O	O	O	
+
+#id=4
+#text=In our city , it is very packed , so driving is n't as convenient or affordable .
+4-1	In	O	O	O	
+4-2	our	B-ScrPart_passenger	O	O	
+4-3	city	B-NPart	O	O	
+4-4	,	O	O	O	
+4-5	it	B-No_label	O	O	
+4-6	is	O	B-webanno.custom.Events_	B-UnrelEv	
+4-7	very	O	O	O	
+4-8	packed	O	O	O	
+4-9	,	O	O	O	
+4-10	so	O	O	O	
+4-11	driving	O	B-webanno.custom.Events_	B-UnrelEv	
+4-12	is	O	B-webanno.custom.Events_	B-UnrelEv	
+4-13	n't	O	O	O	
+4-14	as	O	O	O	
+4-15	convenient	O	O	O	
+4-16	or	O	O	O	
+4-17	affordable	O	O	O	
+4-18	.	O	O	O	
+
+#id=5
+#text=Parking is expensive so public transportation saves us a lot of money .
+5-1	Parking	O	B-webanno.custom.Events_	B-UnrelEv	
+5-2	is	O	O	O	
+5-3	expensive	O	O	O	
+5-4	so	O	O	O	
+5-5	public	B-ScrPart_bus	O	O	
+5-6	transportation	I-ScrPart_bus|B-ScrPart_bus	O	O	
+5-7	saves	O	B-webanno.custom.Events_	B-RelNScrEv	
+5-8	us	B-ScrPart_passenger	O	O	
+5-9	a	O	O	O	
+5-10	lot	B-No_label	O	O	
+5-11	of	O	O	O	
+5-12	money	B-ScrPart_money	O	O	
+5-13	.	O	O	O	
+
+#id=6
+#text=Every morning when I go to school , I wait by the bus stop .
+6-1	Every	O	O	O	
+6-2	morning	B-NPart	O	O	
+6-3	when	O	O	O	
+6-4	I	B-ScrPart_passenger	O	O	
+6-5	go	O	B-webanno.custom.Events_	B-UnrelEv	
+6-6	to	O	O	O	
+6-7	school	B-ScrPart_destination	O	O	
+6-8	,	O	O	O	
+6-9	I	B-ScrPart_passenger	O	O	
+6-10	wait	O	B-webanno.custom.Events_	B-ScrEv_wait	
+6-11	by	O	O	O	
+6-12	the	O	O	O	
+6-13	bus	B-ScrPart_bus_stop	O	O	
+6-14	stop	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	O	
+6-15	.	O	O	O	
+
+#id=7
+#text=The morning bus comes every ten minutes .
+7-1	The	O	O	O	
+7-2	morning	B-NPart	O	O	
+7-3	bus	B-ScrPart_bus	O	O	
+7-4	comes	O	B-webanno.custom.Events_	B-RelNScrEv	
+7-5	every	O	O	O	
+7-6	ten	O	O	O	
+7-7	minutes	B-ScrPart_time/date	O	O	
+7-8	.	O	O	O	
+
+#id=8
+#text=Once it arrives I board onto the bus and I insert my metro card .
+8-1	Once	O	O	O	
+8-2	it	B-ScrPart_bus	O	O	
+8-3	arrives	O	B-webanno.custom.Events_	B-ScrEv_bus_comes	
+8-4	I	B-ScrPart_passenger	O	O	
+8-5	board	O	B-webanno.custom.Events_	B-ScrEv_board_bus	
+8-6	onto	O	O	O	
+8-7	the	O	O	O	
+8-8	bus	B-ScrPart_bus	O	O	
+8-9	and	O	O	O	
+8-10	I	B-ScrPart_passenger	O	O	
+8-11	insert	O	B-webanno.custom.Events_	B-ScrEv_get_ticket	
+8-12	my	B-ScrPart_passenger	O	O	
+8-13	metro	B-ScrPart_card/ticket	O	O	
+8-14	card	I-ScrPart_card/ticket|B-ScrPart_card/ticket	O	O	
+8-15	.	O	O	O	
+
+#id=9
+#text=The metro card has a balance of money stored inside it .
+9-1	The	O	O	O	
+9-2	metro	B-ScrPart_card/ticket	O	O	
+9-3	card	I-ScrPart_card/ticket|B-ScrPart_card/ticket	O	O	
+9-4	has	O	B-webanno.custom.Events_	B-RelNScrEv	
+9-5	a	O	O	O	
+9-6	balance	B-NPart	O	O	
+9-7	of	O	O	O	
+9-8	money	B-ScrPart_money	O	O	
+9-9	stored	O	B-webanno.custom.Events_	B-RelNScrEv	
+9-10	inside	O	O	O	
+9-11	it	B-ScrPart_card/ticket	O	O	
+9-12	.	O	O	O	
+
+#id=10
+#text=This money is subtracted from the balance every time I ride the bus and insert my metro card .
+10-1	This	O	O	O	
+10-2	money	B-ScrPart_money	O	O	
+10-3	is	O	B-webanno.custom.Events_	B-UnrelEv	
+10-4	subtracted	O	B-webanno.custom.Events_	B-RelNScrEv	
+10-5	from	O	O	O	
+10-6	the	O	O	O	
+10-7	balance	B-NPart	O	O	
+10-8	every	O	O	O	
+10-9	time	B-NPart	O	O	
+10-10	I	B-ScrPart_passenger	O	O	
+10-11	ride	O	B-webanno.custom.Events_	B-RelNScrEv	
+10-12	the	O	O	O	
+10-13	bus	B-ScrPart_bus	O	O	
+10-14	and	O	O	O	
+10-15	insert	O	B-webanno.custom.Events_	B-RelNScrEv	
+10-16	my	B-ScrPart_passenger	O	O	
+10-17	metro	B-ScrPart_card/ticket	O	O	
+10-18	card	I-ScrPart_card/ticket|B-ScrPart_card/ticket	O	O	
+10-19	.	O	O	O	
+
+#id=11
+#text=Basically the metro card pays for the bus ride .
+11-1	Basically	O	O	O	
+11-2	the	O	O	O	
+11-3	metro	B-ScrPart_card/ticket	O	O	
+11-4	card	I-ScrPart_card/ticket|B-ScrPart_card/ticket	O	O	
+11-5	pays	O	B-webanno.custom.Events_	B-RelNScrEv	
+11-6	for	O	O	O	
+11-7	the	O	O	O	
+11-8	bus	B-ScrPart_ride	O	O	
+11-9	ride	I-ScrPart_ride|B-ScrPart_ride	O	O	
+11-10	.	O	O	O	
+
+#id=12
+#text=When I run out of money , I go to a metro card machine and put more money into my balance .
+12-1	When	O	O	O	
+12-2	I	B-ScrPart_passenger	O	O	
+12-3	run	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-UnrelEv|B-UnrelEv	
+12-4	out	O	I-webanno.custom.Events_	I-UnrelEv	
+12-5	of	O	O	O	
+12-6	money	B-ScrPart_money	O	O	
+12-7	,	O	O	O	
+12-8	I	B-ScrPart_passenger	O	O	
+12-9	go	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-RelNScrEv|B-RelNScrEv	
+12-10	to	O	I-webanno.custom.Events_	I-RelNScrEv	
+12-11	a	O	O	O	
+12-12	metro	B-ScrPart_payment_machine	O	O	
+12-13	card	I-ScrPart_payment_machine	O	O	
+12-14	machine	I-ScrPart_payment_machine|B-ScrPart_payment_machine	O	O	
+12-15	and	O	O	O	
+12-16	put	O	B-webanno.custom.Events_	B-RelNScrEv	
+12-17	more	O	O	O	
+12-18	money	B-ScrPart_money	O	O	
+12-19	into	O	O	O	
+12-20	my	B-ScrPart_passenger	O	O	
+12-21	balance	B-NPart	O	O	
+12-22	.	O	O	O	
+
+#id=13
+#text=Riding the bus is annoying sometimes .
+13-1	Riding	O	B-webanno.custom.Events_	B-Evoking	
+13-2	the	O	I-webanno.custom.Events_	I-Evoking	
+13-3	bus	B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	
+13-4	is	O	B-webanno.custom.Events_	B-UnrelEv	
+13-5	annoying	O	O	O	
+13-6	sometimes	O	O	O	
+13-7	.	O	O	O	
+
+#id=14
+#text=In the morning , it is very crowded so sometimes there are n't enough seats for everybody .
+14-1	In	O	O	O	
+14-2	the	O	O	O	
+14-3	morning	B-ScrPart_time/date	O	O	
+14-4	,	O	O	O	
+14-5	it	B-ScrPart_bus	O	O	
+14-6	is	O	B-webanno.custom.Events_	B-RelNScrEv	
+14-7	very	O	O	O	
+14-8	crowded	O	O	O	
+14-9	so	O	O	O	
+14-10	sometimes	O	O	O	
+14-11	there	O	O	O	
+14-12	are	O	B-webanno.custom.Events_	B-RelNScrEv	
+14-13	n't	O	O	O	
+14-14	enough	O	O	O	
+14-15	seats	B-ScrPart_seat_in_bus	O	O	
+14-16	for	O	O	O	
+14-17	everybody	B-ScrPart_passenger	O	O	
+14-18	.	O	O	O	
+
+#id=15
+#text=This means I have to stand while holding on to a pole .
+15-1	This	O	O	O	
+15-2	means	O	B-webanno.custom.Events_	B-UnrelEv	
+15-3	I	B-ScrPart_passenger	O	O	
+15-4	have	O	O	O	
+15-5	to	O	O	O	
+15-6	stand	O	B-webanno.custom.Events_	B-ScrEv_spend_time_bus	
+15-7	while	O	O	O	
+15-8	holding	O	B-webanno.custom.Events_	B-RelNScrEv	
+15-9	on	O	O	O	
+15-10	to	O	O	O	
+15-11	a	O	O	O	
+15-12	pole	B-ScrPart_rail	O	O	
+15-13	.	O	O	O	
+
+#id=16
+#text=Sometimes its so crowded that I am sandwiched in between people .
+16-1	Sometimes	O	O	O	
+16-2	its	B-ScrPart_bus	O	O	
+16-3	so	O	O	O	
+16-4	crowded	O	O	O	
+16-5	that	O	O	O	
+16-6	I	B-ScrPart_passenger	O	O	
+16-7	am	O	O	O	
+16-8	sandwiched	O	B-webanno.custom.Events_	B-UnrelEv	
+16-9	in	O	O	O	
+16-10	between	O	O	O	
+16-11	people	B-ScrPart_passenger	O	O	
+16-12	.	O	O	O	
+
+#id=17
+#text=If I am lucky , sometimes there will be open seats .
+17-1	If	O	O	O	
+17-2	I	B-ScrPart_passenger	O	O	
+17-3	am	O	B-webanno.custom.Events_	B-UnrelEv	
+17-4	lucky	O	O	O	
+17-5	,	O	O	O	
+17-6	sometimes	O	O	O	
+17-7	there	O	O	O	
+17-8	will	O	O	O	
+17-9	be	O	B-webanno.custom.Events_	B-RelNScrEv	
+17-10	open	O	O	O	
+17-11	seats	B-ScrPart_seat_in_bus	O	O	
+17-12	.	O	O	O	
+
+#id=18
+#text=Otherwise , I have to stand for 40 minutes . 
+18-1	Otherwise	O	O	O	
+18-2	,	O	O	O	
+18-3	I	B-ScrPart_passenger	O	O	
+18-4	have	O	O	O	
+18-5	to	O	O	O	
+18-6	stand	O	B-webanno.custom.Events_	B-ScrEv_spend_time_bus	
+18-7	for	O	O	O	
+18-8	40	O	O	O	
+18-9	minutes	B-ScrPart_time/date	O	O	
+18-10	.	O	O	O	
+

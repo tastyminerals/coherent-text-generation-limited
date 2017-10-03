@@ -1,0 +1,294 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=This weekend I went to get a haircut .
+1-1	This	O	O	_	_	
+1-2	weekend	B-ScrPart_time/date	O	_	_	
+1-3	I	B-ScrPart_customer	O	_	_	
+1-4	went	O	B-UnrelEv	_	_	
+1-5	to	O	O	_	_	
+1-6	get	O	B-Evoking	_	_	
+1-7	a	O	I-Evoking	_	_	
+1-8	haircut	B-ScrPart_haircut	I-Evoking	_	_	
+1-9	.	O	O	_	_	
+
+#id=2
+#text=I went down town to my favorite barber shop and waited for the barber to be done with his current client .
+2-1	I	B-ScrPart_customer	O	_	_	
+2-2	went	O	B-ScrEv_get_salon	_	_	
+2-3	down	O	O	_	_	
+2-4	town	B-NPart	O	_	_	
+2-5	to	O	O	_	_	
+2-6	my	B-ScrPart_customer	O	_	_	
+2-7	favorite	O	O	_	_	
+2-8	barber	B-ScrPart_salon	O	_	_	
+2-9	shop	I-ScrPart_salon|B-ScrPart_salon	O	_	_	
+2-10	and	O	O	_	_	
+2-11	waited	O	B-ScrEv_wait	_	_	
+2-12	for	O	O	_	_	
+2-13	the	O	O	_	_	
+2-14	barber	B-ScrPart_hairdresser	O	_	_	
+2-15	to	O	O	_	_	
+2-16	be	O	O	_	_	
+2-17	done	O	B-RelNScrEv	_	_	
+2-18	with	O	O	_	_	
+2-19	his	B-ScrPart_hairdresser	O	_	_	
+2-20	current	O	O	_	_	
+2-21	client	B-ScrPart_customer	O	_	_	
+2-22	.	O	O	_	_	
+
+#id=3
+#text=I sat and read some magazines while I waited .
+3-1	I	B-ScrPart_customer	O	_	_	
+3-2	sat	O	B-RelNScrEv	_	_	
+3-3	and	O	O	_	_	
+3-4	read	O	B-RelNScrEv	_	_	
+3-5	some	O	O	_	_	
+3-6	magazines	B-ScrPart_entertainment	O	_	_	
+3-7	while	O	O	_	_	
+3-8	I	B-ScrPart_customer	O	_	_	
+3-9	waited	O	B-ScrEv_wait	_	_	
+3-10	.	O	O	_	_	
+
+#id=4
+#text=Then when it was my turn .
+4-1	Then	O	O	_	_	
+4-2	when	O	O	_	_	
+4-3	it	B-No_label	O	_	_	
+4-4	was	O	B-UnrelEv	_	_	
+4-5	my	B-ScrPart_customer	O	_	_	
+4-6	turn	B-No_label	O	_	_	
+4-7	.	O	O	_	_	
+
+#id=5
+#text=If I wanted , I could choose from a selection of hair cuts he had on his walls , or I could ask for something specific , but I just wanted my usual .
+5-1	If	O	O	_	_	
+5-2	I	B-ScrPart_customer	O	_	_	
+5-3	wanted	O	B-UnrelEv	_	_	
+5-4	,	O	O	_	_	
+5-5	I	B-ScrPart_customer	O	_	_	
+5-6	could	O	O	_	_	
+5-7	choose	O	B-ScrEv_talk_haircut	_	_	
+5-8	from	O	O	_	_	
+5-9	a	O	O	_	_	
+5-10	selection	B-Head_of_Partitive	O	_	_	
+5-11	of	O	O	_	_	
+5-12	hair	B-ScrPart_haircut	O	webanno.custom.Corefchains_	1-8	
+5-13	cuts	I-ScrPart_haircut	O	webanno.custom.Corefchains_	1-8	
+5-14	he	B-ScrPart_hairdresser	O	_	_	
+5-15	had	O	B-UnrelEv	_	_	
+5-16	on	O	O	_	_	
+5-17	his	B-ScrPart_hairdresser	O	_	_	
+5-18	walls	B-NPart	O	_	_	
+5-19	,	O	O	_	_	
+5-20	or	O	O	_	_	
+5-21	I	B-ScrPart_customer	O	_	_	
+5-22	could	O	O	_	_	
+5-23	ask	O	B-ScrEv_talk_haircut	_	_	
+5-24	for	O	O	_	_	
+5-25	something	B-ScrPart_haircut	O	webanno.custom.Corefchains_	5-12	
+5-26	specific	O	O	_	_	
+5-27	,	O	O	_	_	
+5-28	but	O	O	_	_	
+5-29	I	B-ScrPart_customer	O	_	_	
+5-30	just	O	O	_	_	
+5-31	wanted	O	B-ScrEv_talk_haircut	_	_	
+5-32	my	B-ScrPart_customer	O	_	_	
+5-33	usual	B-ScrPart_haircut	O	webanno.custom.Corefchains_	5-25	
+5-34	.	O	O	_	_	
+
+#id=6
+#text=I had n't come in for a hair cut in a while , so I had a lot of hair to remove .
+6-1	I	B-ScrPart_customer	O	_	_	
+6-2	had	O	O	_	_	
+6-3	n't	O	O	_	_	
+6-4	come	O	B-Evoking	_	_	
+6-5	in	O	I-Evoking	_	_	
+6-6	for	O	I-Evoking	_	_	
+6-7	a	O	I-Evoking	_	_	
+6-8	hair	B-ScrPart_haircut	I-Evoking	webanno.custom.Corefchains_	5-33	
+6-9	cut	I-ScrPart_haircut	I-Evoking	webanno.custom.Corefchains_	5-33	
+6-10	in	O	O	_	_	
+6-11	a	O	O	_	_	
+6-12	while	B-No_label	O	_	_	
+6-13	,	O	O	_	_	
+6-14	so	O	O	_	_	
+6-15	I	B-ScrPart_customer	O	_	_	
+6-16	had	O	B-UnrelEv	_	_	
+6-17	a	O	O	_	_	
+6-18	lot	B-Head_of_Partitive	O	_	_	
+6-19	of	O	O	_	_	
+6-20	hair	B-ScrPart_hair	O	_	_	
+6-21	to	O	O	_	_	
+6-22	remove	O	B-ScrEv_cut	_	_	
+6-23	.	O	O	_	_	
+
+#id=7
+#text=I sat in his barber chair , and he put a cloth around my neck to keep the hair off of my clothes .
+7-1	I	B-ScrPart_customer	O	_	_	
+7-2	sat	O	B-ScrEv_sit_down	_	_	
+7-3	in	O	O	_	_	
+7-4	his	B-ScrPart_hairdresser	O	_	_	
+7-5	barber	B-ScrPart_chair	O	_	_	
+7-6	chair	I-ScrPart_chair|B-ScrPart_chair	O	_	_	
+7-7	,	O	O	_	_	
+7-8	and	O	O	_	_	
+7-9	he	B-ScrPart_hairdresser	O	_	_	
+7-10	put	O	B-ScrEv_put_on_cape	_	_	
+7-11	a	O	O	_	_	
+7-12	cloth	B-ScrPart_cape	O	_	_	
+7-13	around	O	O	_	_	
+7-14	my	B-ScrPart_customer	O	_	_	
+7-15	neck	B-NPart	O	_	_	
+7-16	to	O	O	_	_	
+7-17	keep	O	B-RelNScrEv	_	_	
+7-18	the	O	O	_	_	
+7-19	hair	B-ScrPart_hair	O	_	_	
+7-20	off	O	O	_	_	
+7-21	of	O	O	_	_	
+7-22	my	B-ScrPart_customer	O	_	_	
+7-23	clothes	B-NPart	O	_	_	
+7-24	.	O	O	_	_	
+
+#id=8
+#text=He sprayed my hair with a little water to keep the loose hair together , and then he began clipping away the larger amounts of hair with a pair of scissors .
+8-1	He	B-ScrPart_hairdresser	O	_	_	
+8-2	sprayed	O	B-RelNScrEv	_	_	
+8-3	my	B-ScrPart_customer	O	_	_	
+8-4	hair	B-ScrPart_hair	O	_	_	
+8-5	with	O	O	_	_	
+8-6	a	O	O	_	_	
+8-7	little	O	O	_	_	
+8-8	water	B-ScrPart_hair_styling/treatment	O	_	_	
+8-9	to	O	O	_	_	
+8-10	keep	O	B-RelNScrEv	_	_	
+8-11	the	O	O	_	_	
+8-12	loose	O	O	_	_	
+8-13	hair	B-ScrPart_hair	O	_	_	
+8-14	together	O	O	_	_	
+8-15	,	O	O	_	_	
+8-16	and	O	O	_	_	
+8-17	then	O	O	_	_	
+8-18	he	B-ScrPart_hairdresser	O	_	_	
+8-19	began	O	B-UnrelEv	_	_	
+8-20	clipping	O	B-ScrEv_cut	_	_	
+8-21	away	O	I-ScrEv_cut	_	_	
+8-22	the	O	O	_	_	
+8-23	larger	O	O	_	_	
+8-24	amounts	B-Head_of_Partitive	O	_	_	
+8-25	of	O	O	_	_	
+8-26	hair	B-ScrPart_hair	O	_	_	
+8-27	with	O	O	_	_	
+8-28	a	O	O	_	_	
+8-29	pair	B-Head_of_Partitive	O	_	_	
+8-30	of	O	O	_	_	
+8-31	scissors	B-ScrPart_scissors	O	_	_	
+8-32	.	O	O	_	_	
+
+#id=9
+#text=Then when my hair was shorter , he brought out some electric hair clippers and started trimming my hair to an even length .
+9-1	Then	O	O	_	_	
+9-2	when	O	O	_	_	
+9-3	my	B-ScrPart_customer	O	_	_	
+9-4	hair	B-ScrPart_hair	O	_	_	
+9-5	was	O	B-RelNScrEv	_	_	
+9-6	shorter	O	O	_	_	
+9-7	,	O	O	_	_	
+9-8	he	B-ScrPart_hairdresser	O	_	_	
+9-9	brought	O	B-RelNScrEv	_	_	
+9-10	out	O	I-RelNScrEv	_	_	
+9-11	some	O	O	_	_	
+9-12	electric	O	O	_	_	
+9-13	hair	B-ScrPart_scissors	O	_	_	
+9-14	clippers	I-ScrPart_scissors|B-ScrPart_scissors	O	_	_	
+9-15	and	O	O	_	_	
+9-16	started	O	B-UnrelEv	_	_	
+9-17	trimming	O	B-ScrEv_cut	_	_	
+9-18	my	B-ScrPart_customer	O	_	_	
+9-19	hair	B-ScrPart_hair	O	_	_	
+9-20	to	O	O	_	_	
+9-21	an	O	O	_	_	
+9-22	even	O	O	_	_	
+9-23	length	B-NPart	O	_	_	
+9-24	.	O	O	_	_	
+
+#id=10
+#text=The clippers made a loud buzzing noise in my ear , which used to scare me but now I think is kind of fun .
+10-1	The	O	O	_	_	
+10-2	clippers	B-ScrPart_scissors	O	_	_	
+10-3	made	O	B-RelNScrEv	_	_	
+10-4	a	O	O	_	_	
+10-5	loud	O	O	_	_	
+10-6	buzzing	O	B-UnrelEv	_	_	
+10-7	noise	B-NPart	O	_	_	
+10-8	in	O	O	_	_	
+10-9	my	B-ScrPart_customer	O	_	_	
+10-10	ear	B-NPart	O	_	_	
+10-11	,	O	O	_	_	
+10-12	which	O	O	_	_	
+10-13	used	O	B-UnrelEv	_	_	
+10-14	to	O	O	_	_	
+10-15	scare	O	B-UnrelEv	_	_	
+10-16	me	B-ScrPart_customer	O	_	_	
+10-17	but	O	O	_	_	
+10-18	now	O	O	_	_	
+10-19	I	B-ScrPart_customer	O	_	_	
+10-20	think	O	B-UnrelEv	_	_	
+10-21	is	O	B-UnrelEv	_	_	
+10-22	kind	B-Head_of_Partitive	O	_	_	
+10-23	of	O	O	_	_	
+10-24	fun	B-NPart	O	_	_	
+10-25	.	O	O	_	_	
+
+#id=11
+#text=Finally , he used the scissors again to trim any stray hairs , and then wiped me off and took off the cloth .
+11-1	Finally	O	O	_	_	
+11-2	,	O	O	_	_	
+11-3	he	B-ScrPart_hairdresser	O	_	_	
+11-4	used	O	B-RelNScrEv	_	_	
+11-5	the	O	O	_	_	
+11-6	scissors	B-ScrPart_scissors	O	_	_	
+11-7	again	O	O	_	_	
+11-8	to	O	O	_	_	
+11-9	trim	O	B-ScrEv_cut	_	_	
+11-10	any	O	O	_	_	
+11-11	stray	O	O	_	_	
+11-12	hairs	B-ScrPart_hair	O	_	_	
+11-13	,	O	O	_	_	
+11-14	and	O	O	_	_	
+11-15	then	O	O	_	_	
+11-16	wiped	O	B-ScrEv_brush_hair	_	_	
+11-17	me	B-ScrPart_customer	O	_	_	
+11-18	off	O	O	_	_	
+11-19	and	O	O	_	_	
+11-20	took	O	B-ScrEv_remove_cap	_	_	
+11-21	off	O	I-ScrEv_remove_cap	_	_	
+11-22	the	O	O	_	_	
+11-23	cloth	B-ScrPart_cape	O	_	_	
+11-24	.	O	O	_	_	
+
+#id=12
+#text=I paid him , shook his hand and thanked him , and left the barber shop with my nice clean hair cut . 
+12-1	I	B-ScrPart_customer	O	_	_	
+12-2	paid	O	B-ScrEv_pay	_	_	
+12-3	him	B-ScrPart_hairdresser	O	_	_	
+12-4	,	O	O	_	_	
+12-5	shook	O	B-RelNScrEv	_	_	
+12-6	his	B-ScrPart_hairdresser	O	_	_	
+12-7	hand	B-NPart	O	_	_	
+12-8	and	O	O	_	_	
+12-9	thanked	O	B-ScrEv_small_talk	_	_	
+12-10	him	B-ScrPart_hairdresser	O	_	_	
+12-11	,	O	O	_	_	
+12-12	and	O	O	_	_	
+12-13	left	O	B-ScrEv_leave	_	_	
+12-14	the	O	O	_	_	
+12-15	barber	B-ScrPart_salon	O	_	_	
+12-16	shop	I-ScrPart_salon|B-ScrPart_salon	O	_	_	
+12-17	with	O	O	_	_	
+12-18	my	B-ScrPart_customer	O	_	_	
+12-19	nice	O	O	_	_	
+12-20	clean	O	O	_	_	
+12-21	hair	B-ScrPart_haircut	O	webanno.custom.Corefchains_	6-8	
+12-22	cut	I-ScrPart_haircut	O	webanno.custom.Corefchains_	6-8	
+12-23	.	O	O	_	_	
+

@@ -1,0 +1,249 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Event | Events
+#id=1
+#text=Yesterday I decided to take the bus to the zoo .
+1-1	Yesterday	B-ScrPart_time/date	O	O	
+1-2	I	B-ScrPart_passenger	O	O	
+1-3	decided	O	B-webanno.custom.Events_	B-UnrelEv	
+1-4	to	O	O	O	
+1-5	take	O	B-webanno.custom.Events_	B-Evoking	
+1-6	the	O	I-webanno.custom.Events_	I-Evoking	
+1-7	bus	B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	
+1-8	to	O	O	O	
+1-9	the	O	O	O	
+1-10	zoo	B-ScrPart_destination	O	O	
+1-11	.	O	O	O	
+
+#id=2
+#text=I walked over to the bus stop and sat down on the bench while I waited for the bus to arrive .
+2-1	I	B-ScrPart_passenger	O	O	
+2-2	walked	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-ScrEv_get_bus_stop|B-ScrEv_get_bus_stop	
+2-3	over	O	I-webanno.custom.Events_	I-ScrEv_get_bus_stop	
+2-4	to	O	O	O	
+2-5	the	O	O	O	
+2-6	bus	B-ScrPart_bus_stop	O	O	
+2-7	stop	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	O	
+2-8	and	O	O	O	
+2-9	sat	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-UnrelEv|B-UnrelEv	
+2-10	down	O	I-webanno.custom.Events_	I-UnrelEv	
+2-11	on	O	O	O	
+2-12	the	O	O	O	
+2-13	bench	B-NPart	O	O	
+2-14	while	O	O	O	
+2-15	I	B-ScrPart_passenger	O	O	
+2-16	waited	O	B-webanno.custom.Events_	B-ScrEv_wait	
+2-17	for	O	O	O	
+2-18	the	O	O	O	
+2-19	bus	B-ScrPart_bus	O	O	
+2-20	to	O	O	O	
+2-21	arrive	O	B-webanno.custom.Events_	B-RelNScrEv	
+2-22	.	O	O	O	
+
+#id=3
+#text=There was a map of all the bus routes at the stop , so I looked on there to make sure I knew which bus would take me to the zoo .
+3-1	There	O	O	O	
+3-2	was	O	B-webanno.custom.Events_	B-RelNScrEv	
+3-3	a	O	O	O	
+3-4	map	B-ScrPart_other	O	O	
+3-5	of	O	O	O	
+3-6	all	O	O	O	
+3-7	the	O	O	O	
+3-8	bus	B-ScrPart_route	O	O	
+3-9	routes	I-ScrPart_route|B-ScrPart_route	O	O	
+3-10	at	O	O	O	
+3-11	the	O	O	O	
+3-12	stop	B-ScrPart_bus_stop	O	O	
+3-13	,	O	O	O	
+3-14	so	O	O	O	
+3-15	I	B-ScrPart_passenger	O	O	
+3-16	looked	O	B-webanno.custom.Events_	B-ScrEv_other	
+3-17	on	O	O	O	
+3-18	there	B-ScrPart_other	O	O	
+3-19	to	O	O	O	
+3-20	make	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-UnrelEv|B-UnrelEv	
+3-21	sure	O	I-webanno.custom.Events_	I-UnrelEv	
+3-22	I	B-ScrPart_passenger	O	O	
+3-23	knew	O	B-webanno.custom.Events_	B-UnrelEv	
+3-24	which	O	O	O	
+3-25	bus	B-ScrPart_bus	O	O	
+3-26	would	O	O	O	
+3-27	take	O	B-webanno.custom.Events_	B-RelNScrEv	
+3-28	me	B-ScrPart_passenger	O	O	
+3-29	to	O	O	O	
+3-30	the	O	O	O	
+3-31	zoo	B-ScrPart_destination	O	O	
+3-32	.	O	O	O	
+
+#id=4
+#text=I saw I needed bus number 12 .
+4-1	I	B-ScrPart_passenger	O	O	
+4-2	saw	O	B-webanno.custom.Events_	B-UnrelEv	
+4-3	I	B-ScrPart_passenger	O	O	
+4-4	needed	O	B-webanno.custom.Events_	B-UnrelEv	
+4-5	bus	B-ScrPart_bus	O	O	
+4-6	number	B-NPart	O	O	
+4-7	12	O	O	O	
+4-8	.	O	O	O	
+
+#id=5
+#text=Sure enough , there came number 12 .
+5-1	Sure	O	O	O	
+5-2	enough	O	O	O	
+5-3	,	O	O	O	
+5-4	there	O	O	O	
+5-5	came	O	B-webanno.custom.Events_	B-ScrEv_bus_comes	
+5-6	number	B-ScrPart_bus	O	O	
+5-7	12	I-ScrPart_bus	O	O	
+5-8	.	O	O	O	
+
+#id=6
+#text=As the bus pulled up to the stop , the driver opened the door to let passengers off .
+6-1	As	O	O	O	
+6-2	the	O	O	O	
+6-3	bus	B-ScrPart_bus	O	O	
+6-4	pulled	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-ScrEv_bus_comes|B-ScrEv_bus_comes	
+6-5	up	O	I-webanno.custom.Events_	I-ScrEv_bus_comes	
+6-6	to	O	O	O	
+6-7	the	O	O	O	
+6-8	stop	B-ScrPart_bus_stop	O	O	
+6-9	,	O	O	O	
+6-10	the	O	O	O	
+6-11	driver	B-ScrPart_bus_staff	O	O	
+6-12	opened	O	B-webanno.custom.Events_	B-ScrEv_door_opens	
+6-13	the	O	O	O	
+6-14	door	B-ScrPart_door	O	O	
+6-15	to	O	O	O	
+6-16	let	O	B-webanno.custom.Events_	B-ScrEv_get_off	
+6-17	passengers	B-ScrPart_passenger	O	O	
+6-18	off	O	O	O	
+6-19	.	O	O	O	
+
+#id=7
+#text=Once everyone who need off was off , I climbed up the stairs , smiled at the bus driver , and put my money in the slot .
+7-1	Once	O	O	O	
+7-2	everyone	B-ScrPart_passenger	O	O	
+7-3	who	O	O	O	
+7-4	need	O	B-webanno.custom.Events_	B-UnrelEv	
+7-5	off	O	O	O	
+7-6	was	O	B-webanno.custom.Events_	B-RelNScrEv	
+7-7	off	O	O	O	
+7-8	,	O	O	O	
+7-9	I	B-ScrPart_passenger	O	O	
+7-10	climbed	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-ScrEv_board_bus|B-ScrEv_board_bus	
+7-11	up	O	I-webanno.custom.Events_	I-ScrEv_board_bus	
+7-12	the	O	O	O	
+7-13	stairs	B-ScrPart_other	O	O	
+7-14	,	O	O	O	
+7-15	smiled	O	B-webanno.custom.Events_	B-UnrelEv	
+7-16	at	O	O	O	
+7-17	the	O	O	O	
+7-18	bus	B-ScrPart_bus_staff	O	O	
+7-19	driver	I-ScrPart_bus_staff|B-ScrPart_bus_staff	O	O	
+7-20	,	O	O	O	
+7-21	and	O	O	O	
+7-22	put	O	B-webanno.custom.Events_	B-ScrEv_get_ticket	
+7-23	my	B-ScrPart_passenger	O	O	
+7-24	money	B-ScrPart_money	O	O	
+7-25	in	O	O	O	
+7-26	the	O	O	O	
+7-27	slot	B-ScrPart_other	O	O	
+7-28	.	O	O	O	
+
+#id=8
+#text=I took a seat and off we went .
+8-1	I	B-ScrPart_passenger	O	O	
+8-2	took	O	B-webanno.custom.Events_	B-ScrEv_take_seat	
+8-3	a	O	O	O	
+8-4	seat	B-ScrPart_seat_in_bus	O	O	
+8-5	and	O	O	O	
+8-6	off	O	O	O	
+8-7	we	B-ScrPart_bus	O	O	
+8-8	went	O	B-webanno.custom.Events_	B-ScrEv_other	
+8-9	.	O	O	O	
+
+#id=9
+#text=I watched all the buildings go by as the driver drove the bus towards the zoo .
+9-1	I	B-ScrPart_passenger	O	O	
+9-2	watched	O	B-webanno.custom.Events_	B-ScrEv_spend_time_bus	
+9-3	all	O	O	O	
+9-4	the	O	O	O	
+9-5	buildings	B-NPart	O	O	
+9-6	go	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-UnrelEv|B-UnrelEv	
+9-7	by	O	I-webanno.custom.Events_	I-UnrelEv	
+9-8	as	O	O	O	
+9-9	the	O	O	O	
+9-10	driver	B-ScrPart_bus_staff	O	O	
+9-11	drove	O	B-webanno.custom.Events_	B-ScrEv_ride	
+9-12	the	O	O	O	
+9-13	bus	B-ScrPart_bus	O	O	
+9-14	towards	O	O	O	
+9-15	the	O	O	O	
+9-16	zoo	B-ScrPart_destination	O	O	
+9-17	.	O	O	O	
+
+#id=10
+#text=There were a couple of other stops before the zoo , and at each one people got off the bus and on the bus .
+10-1	There	O	O	O	
+10-2	were	O	B-webanno.custom.Events_	B-RelNScrEv	
+10-3	a	O	O	O	
+10-4	couple	B-NPart	O	O	
+10-5	of	O	O	O	
+10-6	other	O	O	O	
+10-7	stops	B-ScrPart_bus_stop	O	O	
+10-8	before	O	O	O	
+10-9	the	O	O	O	
+10-10	zoo	B-ScrPart_destination	O	O	
+10-11	,	O	O	O	
+10-12	and	O	O	O	
+10-13	at	O	O	O	
+10-14	each	B-ScrPart_bus_stop	O	O	
+10-15	one	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	O	
+10-16	people	B-ScrPart_passenger	O	O	
+10-17	got	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-RelNScrEv|B-RelNScrEv	
+10-18	off	O	I-webanno.custom.Events_	I-RelNScrEv	
+10-19	the	O	O	O	
+10-20	bus	B-ScrPart_bus	O	O	
+10-21	and	O	O	O	
+10-22	on	O	O	O	
+10-23	the	O	O	O	
+10-24	bus	B-ScrPart_bus	O	O	
+10-25	.	O	O	O	
+
+#id=11
+#text=Finally , we made it to the zoo .
+11-1	Finally	O	O	O	
+11-2	,	O	O	O	
+11-3	we	B-ScrPart_bus	O	O	
+11-4	made	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-RelNScrEv|B-RelNScrEv	
+11-5	it	B-No_label	I-webanno.custom.Events_	I-RelNScrEv	
+11-6	to	O	O	O	
+11-7	the	O	O	O	
+11-8	zoo	B-ScrPart_destination	O	O	
+11-9	.	O	O	O	
+
+#id=12
+#text=The driver opened up the door , and I climbed down out of the bus and off to my day at the zoo . 
+12-1	The	O	O	O	
+12-2	driver	B-ScrPart_bus_staff	O	O	
+12-3	opened	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-ScrEv_door_opens|B-ScrEv_door_opens	
+12-4	up	O	I-webanno.custom.Events_	I-ScrEv_door_opens	
+12-5	the	O	O	O	
+12-6	door	B-ScrPart_door	O	O	
+12-7	,	O	O	O	
+12-8	and	O	O	O	
+12-9	I	B-ScrPart_passenger	O	O	
+12-10	climbed	O	B-webanno.custom.Events_|B-webanno.custom.Events_	B-ScrEv_get_off|B-ScrEv_get_off	
+12-11	down	O	I-webanno.custom.Events_	I-ScrEv_get_off	
+12-12	out	O	O	O	
+12-13	of	O	O	O	
+12-14	the	O	O	O	
+12-15	bus	B-ScrPart_bus	O	O	
+12-16	and	O	O	O	
+12-17	off	O	O	O	
+12-18	to	O	O	O	
+12-19	my	B-ScrPart_passenger	O	O	
+12-20	day	B-ScrPart_time/date	O	O	
+12-21	at	O	O	O	
+12-22	the	O	O	O	
+12-23	zoo	B-ScrPart_destination	O	O	
+12-24	.	O	O	O	
+

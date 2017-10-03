@@ -1,0 +1,361 @@
+ # webanno.custom.Participants | Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=My friends birthday was tomorrow and I wanted to do something special for her .
+1-1	My	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+1-2	friends	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	_	_	
+1-3	birthday	O	O	O	_	_	
+1-4	was	O	O	B-UnrelEv	_	_	
+1-5	tomorrow	O	O	O	_	_	
+1-6	and	O	O	O	_	_	
+1-7	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	1-1	
+1-8	wanted	O	O	B-UnrelEv	_	_	
+1-9	to	O	O	O	_	_	
+1-10	do	O	O	B-UnrelEv	_	_	
+1-11	something	O	O	O	_	_	
+1-12	special	O	O	O	_	_	
+1-13	for	O	O	O	_	_	
+1-14	her	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	1-2	
+1-15	.	O	O	O	_	_	
+
+#id=2
+#text=Aside from just getting her a gift I decided to make her a special cake .
+2-1	Aside	O	O	O	_	_	
+2-2	from	O	O	O	_	_	
+2-3	just	O	O	O	_	_	
+2-4	getting	O	O	B-UnrelEv	_	_	
+2-5	her	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	1-14	
+2-6	a	O	O	O	_	_	
+2-7	gift	O	O	O	_	_	
+2-8	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	1-7	
+2-9	decided	O	O	B-UnrelEv	_	_	
+2-10	to	O	O	O	_	_	
+2-11	make	O	O	B-Evoking	_	_	
+2-12	her	B-ScrPart_beneficiary	B-webanno.custom.Participants_	I-Evoking	webanno.custom.Corefchains_	2-5	
+2-13	a	O	O	I-Evoking	_	_	
+2-14	special	O	O	I-Evoking	_	_	
+2-15	cake	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	_	_	
+2-16	.	O	O	O	_	_	
+
+#id=3
+#text=This cake was going to be shaped like a heart and it would be chocolate , her favorite flavor .
+3-1	This	O	O	O	_	_	
+3-2	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	2-15	
+3-3	was	O	O	O	_	_	
+3-4	going	O	O	O	_	_	
+3-5	to	O	O	O	_	_	
+3-6	be	O	O	B-UnrelEv	_	_	
+3-7	shaped	O	O	O	_	_	
+3-8	like	O	O	O	_	_	
+3-9	a	O	O	O	_	_	
+3-10	heart	O	O	O	_	_	
+3-11	and	O	O	O	_	_	
+3-12	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	3-2	
+3-13	would	O	O	O	_	_	
+3-14	be	O	O	B-UnrelEv	_	_	
+3-15	chocolate	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+3-16	,	O	O	O	_	_	
+3-17	her	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	2-12	
+3-18	favorite	O	O	O	_	_	
+3-19	flavor	O	O	O	_	_	
+3-20	.	O	O	O	_	_	
+
+#id=4
+#text=I headed to the grocery store to get my ingredients .
+4-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	2-8	
+4-2	headed	O	O	B-ScrEv_get_ingridients	_	_	
+4-3	to	O	O	O	_	_	
+4-4	the	O	O	O	_	_	
+4-5	grocery	B-ScrPart_store	B-webanno.custom.Participants_	O	_	_	
+4-6	store	I-ScrPart_store|B-ScrPart_store	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+4-7	to	O	O	O	_	_	
+4-8	get	O	O	B-ScrEv_get_ingridients	_	_	
+4-9	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	4-1	
+4-10	ingredients	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+4-11	.	O	O	O	_	_	
+
+#id=5
+#text=I got butter , unsweetened chocolate , sugar , eggs , flour , baking soda , salt , milk , and vinegar .
+5-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	4-9	
+5-2	got	O	O	B-ScrEv_get_ingridients	_	_	
+5-3	butter	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+5-4	,	O	O	O	_	_	
+5-5	unsweetened	O	O	O	_	_	
+5-6	chocolate	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	3-15	
+5-7	,	O	O	O	_	_	
+5-8	sugar	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+5-9	,	O	O	O	_	_	
+5-10	eggs	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+5-11	,	O	O	O	_	_	
+5-12	flour	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+5-13	,	O	O	O	_	_	
+5-14	baking	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+5-15	soda	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+5-16	,	O	O	O	_	_	
+5-17	salt	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+5-18	,	O	O	O	_	_	
+5-19	milk	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+5-20	,	O	O	O	_	_	
+5-21	and	O	O	O	_	_	
+5-22	vinegar	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+5-23	.	O	O	O	_	_	
+
+#id=6
+#text=I was making a devil 's food cake , something simple and yet elegant .
+6-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-1	
+6-2	was	O	O	O	_	_	
+6-3	making	O	O	B-Evoking	_	_	
+6-4	a	O	O	I-Evoking	_	_	
+6-5	devil	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	_	_	
+6-6	's	I-ScrPart_cake	I-webanno.custom.Participants_	I-Evoking	_	_	
+6-7	food	I-ScrPart_cake	I-webanno.custom.Participants_	I-Evoking	_	_	
+6-8	cake	I-ScrPart_cake|B-ScrPart_cake	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-Evoking	webanno.custom.Corefchains_	3-12	
+6-9	,	O	O	O	_	_	
+6-10	something	O	O	O	_	_	
+6-11	simple	O	O	O	_	_	
+6-12	and	O	O	O	_	_	
+6-13	yet	O	O	O	_	_	
+6-14	elegant	O	O	O	_	_	
+6-15	.	O	O	O	_	_	
+
+#id=7
+#text=When I got home I preheated the oven to 350 degrees F and I grease up my pans , I was going to be working hard tonight .
+7-1	When	O	O	O	_	_	
+7-2	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	6-1	
+7-3	got	O	O	B-RelNScrEv	_	_	
+7-4	home	B-ScrPart_kitchen/location	B-webanno.custom.Participants_	O	_	_	
+7-5	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	7-2	
+7-6	preheated	O	O	B-ScrEv_preheat	_	_	
+7-7	the	O	O	O	_	_	
+7-8	oven	B-ScrPart_oven	B-webanno.custom.Participants_	O	_	_	
+7-9	to	O	O	O	_	_	
+7-10	350	O	O	O	_	_	
+7-11	degrees	B-ScrPart_temperature	B-webanno.custom.Participants_	O	_	_	
+7-12	F	O	O	O	_	_	
+7-13	and	O	O	O	_	_	
+7-14	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	7-5	
+7-15	grease	O	O	B-ScrEv_grease_cake_tin	_	_	
+7-16	up	O	O	I-ScrEv_grease_cake_tin	_	_	
+7-17	my	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	7-14	
+7-18	pans	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	_	_	
+7-19	,	O	O	O	_	_	
+7-20	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	7-17	
+7-21	was	O	O	O	_	_	
+7-22	going	O	O	O	_	_	
+7-23	to	O	O	O	_	_	
+7-24	be	O	O	O	_	_	
+7-25	working	O	O	B-UnrelEv	_	_	
+7-26	hard	O	O	O	_	_	
+7-27	tonight	O	O	O	_	_	
+7-28	.	O	O	O	_	_	
+
+#id=8
+#text=I then melted 1\/2 cup of butter and 1 ounce of chocolate in a small pan , once it had melted I set it aside to cool down .
+8-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	7-20	
+8-2	then	O	O	O	_	_	
+8-3	melted	O	O	B-ScrEv_prepare_ingridients	_	_	
+8-4	1\/2	O	O	O	_	_	
+8-5	cup	O	O	O	_	_	
+8-6	of	O	O	O	_	_	
+8-7	butter	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_|group_butter_chocolate	5-3|8-19	
+8-8	and	O	O	O	_	_	
+8-9	1	O	O	O	_	_	
+8-10	ounce	O	O	O	_	_	
+8-11	of	O	O	O	_	_	
+8-12	chocolate	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_|group_butter_chocolate	5-6|8-19	
+8-13	in	O	O	O	_	_	
+8-14	a	O	O	O	_	_	
+8-15	small	O	O	O	_	_	
+8-16	pan	B-ScrPart_utensil	B-webanno.custom.Participants_	O	_	_	
+8-17	,	O	O	O	_	_	
+8-18	once	O	O	O	_	_	
+8-19	it	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+8-20	had	O	O	O	_	_	
+8-21	melted	O	O	B-ScrEv_prepare_ingridients	_	_	
+8-22	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	8-1	
+8-23	set	O	O	O	_	_	
+8-24	it	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	8-19	
+8-25	aside	O	O	O	_	_	
+8-26	to	O	O	O	_	_	
+8-27	cool	O	O	B-ScrEv_prepare_ingridients	_	_	
+8-28	down	O	O	I-ScrEv_prepare_ingridients	_	_	
+8-29	.	O	O	O	_	_	
+
+#id=9
+#text=So far so good .
+9-1	So	O	O	O	_	_	
+9-2	far	O	O	O	_	_	
+9-3	so	O	O	O	_	_	
+9-4	good	O	O	O	_	_	
+9-5	.	O	O	O	_	_	
+
+#id=10
+#text=Next I mixed 2 eggs with 2 cups of white sugar and I added the chocolate mixture .
+10-1	Next	O	O	O	_	_	
+10-2	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	8-22	
+10-3	mixed	O	O	B-ScrEv_prepare_ingridients	_	_	
+10-4	2	O	O	O	_	_	
+10-5	eggs	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-10	
+10-6	with	O	O	O	_	_	
+10-7	2	O	O	O	_	_	
+10-8	cups	O	O	O	_	_	
+10-9	of	O	O	O	_	_	
+10-10	white	O	O	O	_	_	
+10-11	sugar	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-8	
+10-12	and	O	O	O	_	_	
+10-13	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	10-2	
+10-14	added	O	O	B-ScrEv_add_ingridients	_	_	
+10-15	the	O	O	O	_	_	
+10-16	chocolate	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+10-17	mixture	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	8-24	
+10-18	.	O	O	O	_	_	
+
+#id=11
+#text=After that I added 1 cup of boiled water and I made sure to blend it well , the mixture was very liquid like , just like it needed to be .
+11-1	After	O	O	O	_	_	
+11-2	that	O	O	O	_	_	
+11-3	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	10-13	
+11-4	added	O	O	B-ScrEv_add_ingridients	_	_	
+11-5	1	O	O	O	_	_	
+11-6	cup	O	O	O	_	_	
+11-7	of	O	O	O	_	_	
+11-8	boiled	O	O	O	_	_	
+11-9	water	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+11-10	and	O	O	O	_	_	
+11-11	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	11-3	
+11-12	made	O	O	O	_	_	
+11-13	sure	O	O	O	_	_	
+11-14	to	O	O	O	_	_	
+11-15	blend	O	O	B-ScrEv_prepare_ingridients	_	_	
+11-16	it	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+11-17	well	O	O	O	_	_	
+11-18	,	O	O	O	_	_	
+11-19	the	O	O	O	_	_	
+11-20	mixture	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	11-16	
+11-21	was	O	O	B-UnrelEv	_	_	
+11-22	very	O	O	O	_	_	
+11-23	liquid	O	O	O	_	_	
+11-24	like	O	O	O	_	_	
+11-25	,	O	O	O	_	_	
+11-26	just	O	O	O	_	_	
+11-27	like	O	O	O	_	_	
+11-28	it	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	11-20	
+11-29	needed	O	O	O	_	_	
+11-30	to	O	O	O	_	_	
+11-31	be	O	O	B-UnrelEv	_	_	
+11-32	.	O	O	O	_	_	
+
+#id=12
+#text=After that I mixed in my 2 1\/4 cups of flour , 1 1\/2 teaspoons of baking soda , and 1\/4 teaspoons of salt .
+12-1	After	O	O	O	_	_	
+12-2	that	O	O	O	_	_	
+12-3	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	11-11	
+12-4	mixed	O	O	B-ScrEv_prepare_ingridients	_	_	
+12-5	in	O	O	O	_	_	
+12-6	my	O	O	O	_	_	
+12-7	2 1\/4	O	O	O	_	_	
+12-8	cups	O	O	O	_	_	
+12-9	of	O	O	O	_	_	
+12-10	flour	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-12	
+12-11	,	O	O	O	_	_	
+12-12	1 1\/2	O	O	O	_	_	
+12-13	teaspoons	O	O	O	_	_	
+12-14	of	O	O	O	_	_	
+12-15	baking	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+12-16	soda	I-ScrPart_ingredients|B-ScrPart_ingredients	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-15	
+12-17	,	O	O	O	_	_	
+12-18	and	O	O	O	_	_	
+12-19	1\/4	O	O	O	_	_	
+12-20	teaspoons	O	O	O	_	_	
+12-21	of	O	O	O	_	_	
+12-22	salt	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-17	
+12-23	.	O	O	O	_	_	
+
+#id=13
+#text=I blended this new mixture well .
+13-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	12-3	
+13-2	blended	O	O	B-ScrEv_prepare_ingridients	_	_	
+13-3	this	O	O	O	_	_	
+13-4	new	O	O	O	_	_	
+13-5	mixture	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+13-6	well	O	O	O	_	_	
+13-7	.	O	O	O	_	_	
+
+#id=14
+#text=I am really the best boyfriend in the world .
+14-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	13-1	
+14-2	am	O	O	B-UnrelEv	_	_	
+14-3	really	O	O	O	_	_	
+14-4	the	O	O	O	_	_	
+14-5	best	O	O	O	_	_	
+14-6	boyfriend	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	14-1	
+14-7	in	O	O	O	_	_	
+14-8	the	O	O	O	_	_	
+14-9	world	O	O	O	_	_	
+14-10	.	O	O	O	_	_	
+
+#id=15
+#text=After that I mixed in 1 teaspoon of vinegar and 1\/4 cup of milk to the main mixture .
+15-1	After	O	O	O	_	_	
+15-2	that	O	O	O	_	_	
+15-3	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	14-6	
+15-4	mixed	O	O	B-ScrEv_prepare_ingridients	_	_	
+15-5	in	O	O	O	_	_	
+15-6	1	O	O	O	_	_	
+15-7	teaspoon	O	O	O	_	_	
+15-8	of	O	O	O	_	_	
+15-9	vinegar	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-22	
+15-10	and	O	O	O	_	_	
+15-11	1\/4	O	O	O	_	_	
+15-12	cup	O	O	O	_	_	
+15-13	of	O	O	O	_	_	
+15-14	milk	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-19	
+15-15	to	O	O	O	_	_	
+15-16	the	O	O	O	_	_	
+15-17	main	O	O	O	_	_	
+15-18	mixture	B-ScrPart_ingredients	B-webanno.custom.Participants_	O	_	_	
+15-19	.	O	O	O	_	_	
+
+#id=16
+#text=The main process was done all I needed to do was to bake it for 30 minutes , cut it into shape , and frost the cake .
+16-1	The	O	O	O	_	_	
+16-2	main	O	O	O	_	_	
+16-3	process	O	O	O	_	_	
+16-4	was	O	O	O	_	_	
+16-5	done	O	O	B-UnrelEv	_	_	
+16-6	all	O	O	O	_	_	
+16-7	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	15-3	
+16-8	needed	O	O	B-UnrelEv	_	_	
+16-9	to	O	O	O	_	_	
+16-10	do	O	O	B-UnrelEv	_	_	
+16-11	was	O	O	O	_	_	
+16-12	to	O	O	O	_	_	
+16-13	bake	O	O	B-ScrEv_wait	_	_	
+16-14	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	6-8	
+16-15	for	O	O	O	_	_	
+16-16	30	O	O	O	_	_	
+16-17	minutes	B-ScrPart_time	B-webanno.custom.Participants_	O	_	_	
+16-18	,	O	O	O	_	_	
+16-19	cut	O	O	B-ScrEv_decorate	_	_	
+16-20	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	16-14	
+16-21	into	O	O	O	_	_	
+16-22	shape	B-NPart	B-webanno.custom.Participants_	O	_	_	
+16-23	,	O	O	O	_	_	
+16-24	and	O	O	O	_	_	
+16-25	frost	O	O	B-ScrEv_decorate	_	_	
+16-26	the	O	O	O	_	_	
+16-27	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	16-20	
+16-28	.	O	O	O	_	_	
+
+#id=17
+#text=Her birthday tomorrow was going to be very special . 
+17-1	Her	B-ScrPart_beneficiary	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	3-17	
+17-2	birthday	O	O	O	_	_	
+17-3	tomorrow	O	O	O	_	_	
+17-4	was	O	O	O	_	_	
+17-5	going	O	O	O	_	_	
+17-6	to	O	O	O	_	_	
+17-7	be	O	O	B-UnrelEv	_	_	
+17-8	very	O	O	O	_	_	
+17-9	special	O	O	O	_	_	
+17-10	.	O	O	O	_	_	
+

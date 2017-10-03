@@ -1,0 +1,15 @@
+###################
+#  README corpus  #
+###################
+
+### OVERVIEW ###
+* This folder contains the actual corpus.
+* There are ten folders, one for every scenario. every folder contains one file per story for the scenario.
+
+### DATA FORMAT ###
+* All texts are tokenized and split into sentences. 
+* All verbs are pos tagged and lemmatized automatically (Stanford Parser v3.5.0, http://nlp.stanford.edu/software/lex-parser.shtml).
+* All tokens that are goverend by a verb are also lemmatized and pos tagged.
+* We also give the dependency label for nouns that directly depend on a verb, as found by Stanford parser.
+* Each of the stories has been annotated and converted to XML format.
+* For more information about the xml format, please refer to InScript.dtd.

@@ -1,0 +1,228 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I walked into the train station , stood in line , and purchased a round trip ticket to Chicago .
+1-1	I	B-ScrPart_passenger	O	_	_	
+1-2	walked	O	B-Evoking|B-ScrEv_get_train_station	_	_	
+1-3	into	O	I-Evoking	_	_	
+1-4	the	O	I-Evoking	_	_	
+1-5	train	B-ScrPart_train_station	I-Evoking	_	_	
+1-6	station	I-ScrPart_train_station|B-ScrPart_train_station	I-Evoking	_	_	
+1-7	,	O	O	_	_	
+1-8	stood	O	B-MissScrEv	_	_	
+1-9	in	O	O	_	_	
+1-10	line	B-ScrPart_line	O	_	_	
+1-11	,	O	O	_	_	
+1-12	and	O	O	_	_	
+1-13	purchased	O	B-ScrEv_get_tickets	_	_	
+1-14	a	O	O	_	_	
+1-15	round	O	O	_	_	
+1-16	trip	O	O	_	_	
+1-17	ticket	B-ScrPart_card/ticket	O	_	_	
+1-18	to	O	O	_	_	
+1-19	Chicago	B-ScrPart_destination	O	_	_	
+1-20	.	O	O	_	_	
+
+#id=2
+#text=I placed my ticket in my pocket and then walked outside to wait for the train .
+2-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	1-1	
+2-2	placed	O	B-UnrelEv	_	_	
+2-3	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-1	
+2-4	ticket	B-ScrPart_card/ticket	O	_	_	
+2-5	in	O	O	_	_	
+2-6	my	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-3	
+2-7	pocket	O	O	_	_	
+2-8	and	O	O	_	_	
+2-9	then	O	O	_	_	
+2-10	walked	O	B-ScrEv_get_platform	_	_	
+2-11	outside	O	O	_	_	
+2-12	to	O	O	_	_	
+2-13	wait	O	B-ScrEv_wait	_	_	
+2-14	for	O	O	_	_	
+2-15	the	O	O	_	_	
+2-16	train	B-ScrPart_train	O	_	_	
+2-17	.	O	O	_	_	
+
+#id=3
+#text=I stood next to many other people that were also waiting for the train .
+3-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	2-6	
+3-2	stood	O	B-UnrelEv	_	_	
+3-3	next	O	O	_	_	
+3-4	to	O	O	_	_	
+3-5	many	O	O	_	_	
+3-6	other	O	O	_	_	
+3-7	people	B-ScrPart_passenger	O	group_I_people	3-1	
+3-8	that	O	O	_	_	
+3-9	were	O	O	_	_	
+3-10	also	O	O	_	_	
+3-11	waiting	O	B-ScrEv_wait	_	_	
+3-12	for	O	O	_	_	
+3-13	the	O	O	_	_	
+3-14	train	B-ScrPart_train	O	webanno.custom.Corefchains_	2-16	
+3-15	.	O	O	_	_	
+
+#id=4
+#text=We heard the train coming when it was still a long distance away .
+4-1	We	B-ScrPart_passenger	O	group_I_people	3-7	
+4-2	heard	O	B-UnrelEv	_	_	
+4-3	the	O	O	_	_	
+4-4	train	B-ScrPart_train	O	webanno.custom.Corefchains_	3-14	
+4-5	coming	O	B-ScrEv_train_arrives	_	_	
+4-6	when	O	O	_	_	
+4-7	it	B-ScrPart_train	O	webanno.custom.Corefchains_	4-4	
+4-8	was	O	B-UnrelEv	_	_	
+4-9	still	O	O	_	_	
+4-10	a	O	O	_	_	
+4-11	long	O	O	_	_	
+4-12	distance	O	O	_	_	
+4-13	away	O	O	_	_	
+4-14	.	O	O	_	_	
+
+#id=5
+#text=It finally pulled up to the tracks .
+5-1	It	B-ScrPart_train	O	webanno.custom.Corefchains_	4-7	
+5-2	finally	O	O	_	_	
+5-3	pulled	O	B-ScrEv_train_arrives	_	_	
+5-4	up	O	O	_	_	
+5-5	to	O	O	_	_	
+5-6	the	O	O	_	_	
+5-7	tracks	B-MissScrPart	O	_	_	
+5-8	.	O	O	_	_	
+
+#id=6
+#text=Everyone lined up to get inside the doors .
+6-1	Everyone	B-ScrPart_passenger	O	webanno.custom.Corefchains_	4-1	
+6-2	lined	O	B-RelNScrEv|B-RelNScrEv	_	_	
+6-3	up	O	I-RelNScrEv	_	_	
+6-4	to	O	O	_	_	
+6-5	get	O	B-RelNScrEv|B-RelNScrEv	_	_	
+6-6	inside	O	I-RelNScrEv	_	_	
+6-7	the	O	O	_	_	
+6-8	doors	B-ScrPart_door	O	_	_	
+6-9	.	O	O	_	_	
+
+#id=7
+#text=The doors open and we all filed in .
+7-1	The	O	O	_	_	
+7-2	doors	B-ScrPart_door	O	webanno.custom.Corefchains_	6-8	
+7-3	open	O	B-ScrEv_door_opens	_	_	
+7-4	and	O	O	_	_	
+7-5	we	B-ScrPart_passenger	O	webanno.custom.Corefchains_	6-1	
+7-6	all	O	O	_	_	
+7-7	filed	O	B-MissScrEv	_	_	
+7-8	in	O	O	_	_	
+7-9	.	O	O	_	_	
+
+#id=8
+#text=I found a seat by myself at the back of the train .
+8-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	3-1	
+8-2	found	O	B-ScrEv_find_place	_	_	
+8-3	a	O	O	_	_	
+8-4	seat	B-ScrPart_seat	O	_	_	
+8-5	by	O	O	_	_	
+8-6	myself	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-1	
+8-7	at	O	O	_	_	
+8-8	the	O	O	_	_	
+8-9	back	O	O	_	_	
+8-10	of	O	O	_	_	
+8-11	the	O	O	_	_	
+8-12	train	B-ScrPart_train	O	webanno.custom.Corefchains_	5-1	
+8-13	.	O	O	_	_	
+
+#id=9
+#text=I sat down and looked out the window at the passing towns .
+9-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	8-6	
+9-2	sat	O	B-UnrelEv|B-UnrelEv	_	_	
+9-3	down	O	I-UnrelEv	_	_	
+9-4	and	O	O	_	_	
+9-5	looked	O	B-ScrEv_spend_time_train|B-ScrEv_spend_time_train	_	_	
+9-6	out	O	I-ScrEv_spend_time_train	_	_	
+9-7	the	O	O	_	_	
+9-8	window	B-ScrPart_in-train_entertainment	O	_	_	
+9-9	at	O	O	_	_	
+9-10	the	O	O	_	_	
+9-11	passing	O	B-UnrelEv	_	_	
+9-12	towns	O	O	_	_	
+9-13	.	O	O	_	_	
+
+#id=10
+#text=After awhile , the announcer said the next and final stop would be Chicago .
+10-1	After	O	O	_	_	
+10-2	awhile	O	O	_	_	
+10-3	,	O	O	_	_	
+10-4	the	O	O	_	_	
+10-5	announcer	B-ScrPart_train_staff	O	_	_	
+10-6	said	O	B-RelNScrEv	_	_	
+10-7	the	O	O	_	_	
+10-8	next	O	O	_	_	
+10-9	and	O	O	_	_	
+10-10	final	O	O	_	_	
+10-11	stop	B-ScrPart_destination	O	webanno.custom.Corefchains_	1-19	
+10-12	would	O	O	_	_	
+10-13	be	O	B-UnrelEv	_	_	
+10-14	Chicago	B-ScrPart_destination	O	webanno.custom.Corefchains_	10-11	
+10-15	.	O	O	_	_	
+
+#id=11
+#text=I stood up and walked over to the doors .
+11-1	I	B-ScrPart_passenger	O	webanno.custom.Corefchains_	9-1	
+11-2	stood	O	B-ScrEv_move_exit|B-ScrEv_move_exit	_	_	
+11-3	up	O	I-ScrEv_move_exit	_	_	
+11-4	and	O	O	_	_	
+11-5	walked	O	B-ScrEv_move_exit|B-ScrEv_move_exit	_	_	
+11-6	over	O	I-ScrEv_move_exit	_	_	
+11-7	to	O	O	_	_	
+11-8	the	O	O	_	_	
+11-9	doors	B-ScrPart_door	O	webanno.custom.Corefchains_	7-2	
+11-10	.	O	O	_	_	
+
+#id=12
+#text=The train pulled into the station , making a loud screeching noise .
+12-1	The	O	O	_	_	
+12-2	train	B-ScrPart_train	O	webanno.custom.Corefchains_	8-12	
+12-3	pulled	O	B-ScrEv_arrive_destination	_	_	
+12-4	into	O	O	_	_	
+12-5	the	O	O	_	_	
+12-6	station	B-ScrPart_destination	O	webanno.custom.Corefchains_	1-6	
+12-7	,	O	O	_	_	
+12-8	making	O	B-UnrelEv	_	_	
+12-9	a	O	O	_	_	
+12-10	loud	O	O	_	_	
+12-11	screeching	O	O	_	_	
+12-12	noise	O	O	_	_	
+12-13	.	O	O	_	_	
+
+#id=13
+#text=It slowly came to a stop inside the station .
+13-1	It	B-ScrPart_train	O	webanno.custom.Corefchains_	12-2	
+13-2	slowly	O	O	_	_	
+13-3	came	O	B-RelNScrEv	_	_	
+13-4	to	O	O	_	_	
+13-5	a	O	O	_	_	
+13-6	stop	B-SuppVComp	O	_	_	
+13-7	inside	O	O	_	_	
+13-8	the	O	O	_	_	
+13-9	station	B-ScrPart_destination	O	webanno.custom.Corefchains_	12-6	
+13-10	.	O	O	_	_	
+
+#id=14
+#text=The doors opened and all the passengers climbed off the train , and into Union Station in Chicago . 
+14-1	The	O	O	_	_	
+14-2	doors	B-ScrPart_door	O	webanno.custom.Corefchains_	11-9	
+14-3	opened	O	B-ScrEv_door_opens	_	_	
+14-4	and	O	O	_	_	
+14-5	all	O	O	_	_	
+14-6	the	O	O	_	_	
+14-7	passengers	B-ScrPart_passenger	O	webanno.custom.Corefchains_	7-5	
+14-8	climbed	O	B-ScrEv_get_off	_	_	
+14-9	off	O	O	_	_	
+14-10	the	O	O	_	_	
+14-11	train	B-ScrPart_train	O	webanno.custom.Corefchains_	13-1	
+14-12	,	O	O	_	_	
+14-13	and	O	O	_	_	
+14-14	into	O	O	_	_	
+14-15	Union	O	O	_	_	
+14-16	Station	O	O	_	_	
+14-17	in	O	O	_	_	
+14-18	Chicago	B-ScrPart_destination	O	webanno.custom.Corefchains_	10-14	
+14-19	.	O	O	_	_	
+

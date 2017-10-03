@@ -1,0 +1,229 @@
+ # webanno.custom.Participants | Participants | Participant # webanno.custom.Events | Events
+#id=1
+#text=I like to cook a lot but I am not a very good baker .
+1-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+1-2	like	O	O	B-UnrelEv	
+1-3	to	O	O	O	
+1-4	cook	O	O	B-UnrelEv	
+1-5	a	O	O	O	
+1-6	lot	B-No_label	B-webanno.custom.Participants_	O	
+1-7	but	O	O	O	
+1-8	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+1-9	am	O	O	B-UnrelEv	
+1-10	not	O	O	O	
+1-11	a	O	O	O	
+1-12	very	O	O	O	
+1-13	good	O	O	O	
+1-14	baker	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+1-15	.	O	O	O	
+
+#id=2
+#text=So I never bake cakes from scratch .
+2-1	So	O	O	O	
+2-2	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+2-3	never	O	O	O	
+2-4	bake	O	O	B-Evoking	
+2-5	cakes	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	
+2-6	from	O	O	O	
+2-7	scratch	B-No_label	B-webanno.custom.Participants_	O	
+2-8	.	O	O	O	
+
+#id=3
+#text=However I do like cake al ot so I do bake them .
+3-1	However	O	O	O	
+3-2	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+3-3	do	O	O	O	
+3-4	like	O	O	B-UnrelEv	
+3-5	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+3-6	al	B-No_label	B-webanno.custom.Participants_	O	
+3-7	ot	I-No_label	I-webanno.custom.Participants_	O	
+3-8	so	O	O	O	
+3-9	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+3-10	do	O	O	O	
+3-11	bake	O	O	B-Evoking	
+3-12	them	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+3-13	.	O	O	O	
+
+#id=4
+#text=I use box mixes .
+4-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+4-2	use	O	O	B-RelNScrEv	
+4-3	box	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	
+4-4	mixes	I-ScrPart_ingridients	I-webanno.custom.Participants_	O	
+4-5	.	O	O	O	
+
+#id=5
+#text=They are easy to use and make a very nice cake .
+5-1	They	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	
+5-2	are	O	O	B-UnrelEv	
+5-3	easy	O	O	O	
+5-4	to	O	O	O	
+5-5	use	O	O	B-RelNScrEv	
+5-6	and	O	O	O	
+5-7	make	O	O	B-RelNScrEv	
+5-8	a	O	O	O	
+5-9	very	O	O	O	
+5-10	nice	O	O	O	
+5-11	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+5-12	.	O	O	O	
+
+#id=6
+#text=it really does n't take much time .
+6-1	it	B-No_label	B-webanno.custom.Participants_	O	
+6-2	really	O	O	O	
+6-3	does	O	O	O	
+6-4	n't	O	O	O	
+6-5	take	O	O	B-UnrelEv	
+6-6	much	O	O	O	
+6-7	time	B-No_label	B-webanno.custom.Participants_	O	
+6-8	.	O	O	O	
+
+#id=7
+#text=All you need to do is get one bowl .
+7-1	All	O	O	O	
+7-2	you	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+7-3	need	O	O	O	
+7-4	to	O	O	O	
+7-5	do	O	O	B-UnrelEv	
+7-6	is	O	O	B-UnrelEv	
+7-7	get	O	O	B-ScrEv_get_utensils	
+7-8	one	O	O	O	
+7-9	bowl	B-ScrPart_utensil	B-webanno.custom.Participants_	O	
+7-10	.	O	O	O	
+
+#id=8
+#text=Add the cake mix from the box .
+8-1	Add	O	O	B-ScrEv_add_ingridients	
+8-2	the	O	O	O	
+8-3	cake	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	
+8-4	mix	I-ScrPart_ingridients	I-webanno.custom.Participants_	O	
+8-5	from	O	O	O	
+8-6	the	O	O	O	
+8-7	box	B-NPart	B-webanno.custom.Participants_	O	
+8-8	.	O	O	O	
+
+#id=9
+#text=Either 2 or 3 eggs added to the bowl .
+9-1	Either	O	O	O	
+9-2	2	O	O	O	
+9-3	or	O	O	O	
+9-4	3	O	O	O	
+9-5	eggs	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	
+9-6	added	O	O	B-ScrEv_add_ingridients	
+9-7	to	O	O	O	
+9-8	the	O	O	O	
+9-9	bowl	B-ScrPart_utensil	B-webanno.custom.Participants_	O	
+9-10	.	O	O	O	
+
+#id=10
+#text=Then a half cup of oil and finally about a cup of water .
+10-1	Then	O	O	O	
+10-2	a	O	O	O	
+10-3	half	B-Head_of_Partitive	B-webanno.custom.Participants_	O	
+10-4	cup	B-Head_of_Partitive	B-webanno.custom.Participants_	O	
+10-5	of	O	O	O	
+10-6	oil	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	
+10-7	and	O	O	O	
+10-8	finally	O	O	O	
+10-9	about	O	O	O	
+10-10	a	O	O	O	
+10-11	cup	B-Head_of_Partitive	B-webanno.custom.Participants_	O	
+10-12	of	O	O	O	
+10-13	water	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	
+10-14	.	O	O	O	
+
+#id=11
+#text=Then you need to get your mixer and put it on medium and mix it all up for 2 to 3 minutes .
+11-1	Then	O	O	O	
+11-2	you	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+11-3	need	O	O	O	
+11-4	to	O	O	O	
+11-5	get	O	O	B-ScrEv_get_utensils	
+11-6	your	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+11-7	mixer	B-ScrPart_utensil	B-webanno.custom.Participants_	O	
+11-8	and	O	O	O	
+11-9	put	O	O	B-RelNScrEv	
+11-10	it	B-ScrPart_utensil	B-webanno.custom.Participants_	O	
+11-11	on	O	O	O	
+11-12	medium	B-NPart	B-webanno.custom.Participants_	O	
+11-13	and	O	O	O	
+11-14	mix	O	O	B-ScrEv_prepare_ingridients	
+11-15	it	B-ScrPart_dough	B-webanno.custom.Participants_	O	
+11-16	all	O	O	O	
+11-17	up	O	O	O	
+11-18	for	O	O	O	
+11-19	2	B-ScrPart_time	B-webanno.custom.Participants_	O	
+11-20	to	I-ScrPart_time	I-webanno.custom.Participants_	O	
+11-21	3	I-ScrPart_time	I-webanno.custom.Participants_	O	
+11-22	minutes	I-ScrPart_time	I-webanno.custom.Participants_	O	
+11-23	.	O	O	O	
+
+#id=12
+#text=Then put it into a non stick cake pan and bake for about 30 minutes .
+12-1	Then	O	O	O	
+12-2	put	O	O	B-ScrEv_pour_dough	
+12-3	it	B-ScrPart_dough	B-webanno.custom.Participants_	O	
+12-4	into	O	O	O	
+12-5	a	O	O	O	
+12-6	non	O	O	O	
+12-7	stick	O	O	O	
+12-8	cake	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	
+12-9	pan	I-ScrPart_cake_tin|B-ScrPart_cake_tin	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	
+12-10	and	O	O	O	
+12-11	bake	O	O	B-ScrEv_put_cake_oven	
+12-12	for	O	O	O	
+12-13	about	O	O	O	
+12-14	30	B-ScrPart_time	B-webanno.custom.Participants_	O	
+12-15	minutes	I-ScrPart_time	I-webanno.custom.Participants_	O	
+12-16	.	O	O	O	
+
+#id=13
+#text=So all together about 10 minutes preparation and 30 minutes baking you can have a good tasting cake in 40 minutes .
+13-1	So	O	O	O	
+13-2	all	O	O	O	
+13-3	together	O	O	O	
+13-4	about	O	O	O	
+13-5	10	B-ScrPart_time	B-webanno.custom.Participants_	O	
+13-6	minutes	I-ScrPart_time	I-webanno.custom.Participants_	O	
+13-7	preparation	B-NPart	B-webanno.custom.Participants_	O	
+13-8	and	O	O	O	
+13-9	30	B-ScrPart_time	B-webanno.custom.Participants_	O	
+13-10	minutes	I-ScrPart_time	I-webanno.custom.Participants_	O	
+13-11	baking	O	O	B-ScrEv_wait	
+13-12	you	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+13-13	can	O	O	O	
+13-14	have	O	O	B-UnrelEv	
+13-15	a	O	O	O	
+13-16	good	O	O	O	
+13-17	tasting	O	O	B-ScrEv_eat	
+13-18	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+13-19	in	O	O	O	
+13-20	40	B-ScrPart_time	B-webanno.custom.Participants_	O	
+13-21	minutes	I-ScrPart_time	I-webanno.custom.Participants_	O	
+13-22	.	O	O	O	
+
+#id=14
+#text=.
+14-1	.	O	O	O	
+
+#id=15
+#text=I do n't really like frosting so as soon as it cools I cut myself a slice . 
+15-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+15-2	do	O	O	O	
+15-3	n't	O	O	O	
+15-4	really	O	O	O	
+15-5	like	O	O	B-UnrelEv	
+15-6	frosting	B-ScrPart_decoration	B-webanno.custom.Participants_	O	
+15-7	so	O	O	O	
+15-8	as	O	O	O	
+15-9	soon	O	O	O	
+15-10	as	O	O	O	
+15-11	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+15-12	cools	O	O	B-ScrEv_cool_down	
+15-13	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+15-14	cut	O	O	B-RelNScrEv	
+15-15	myself	B-ScrPart_cook	B-webanno.custom.Participants_	O	
+15-16	a	O	O	O	
+15-17	slice	B-ScrPart_cake	B-webanno.custom.Participants_	O	
+15-18	.	O	O	O	
+

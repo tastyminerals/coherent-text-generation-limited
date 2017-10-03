@@ -1,0 +1,213 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Last month I decided to visit my grandmother .
+1-1	Last	O	O	_	_	
+1-2	month	B-NPart	O	_	_	
+1-3	I	B-ScrPart_passenger	O	_	_	
+1-4	decided	O	B-UnrelEv	_	_	
+1-5	to	O	O	_	_	
+1-6	visit	O	B-UnrelEv	_	_	
+1-7	my	B-ScrPart_passenger	O	_	_	
+1-8	grandmother	B-NPart	O	_	_	
+1-9	.	O	O	_	_	
+
+#id=2
+#text=She lives about three hours away from me , and I do not own a car .
+2-1	She	B-NPart	O	_	_	
+2-2	lives	O	B-UnrelEv	_	_	
+2-3	about	O	O	_	_	
+2-4	three	O	O	_	_	
+2-5	hours	B-NPart	O	_	_	
+2-6	away	O	O	_	_	
+2-7	from	O	O	_	_	
+2-8	me	B-ScrPart_passenger	O	_	_	
+2-9	,	O	O	_	_	
+2-10	and	O	O	_	_	
+2-11	I	B-ScrPart_passenger	O	_	_	
+2-12	do	O	O	_	_	
+2-13	not	O	O	_	_	
+2-14	own	O	B-UnrelEv	_	_	
+2-15	a	O	O	_	_	
+2-16	car	B-NPart	O	_	_	
+2-17	.	O	O	_	_	
+
+#id=3
+#text=To get to her house safely , I wanted to take a train .
+3-1	To	O	O	_	_	
+3-2	get	O	B-UnrelEv	_	_	
+3-3	to	O	O	_	_	
+3-4	her	B-NPart	O	_	_	
+3-5	house	B-NPart	O	_	_	
+3-6	safely	O	O	_	_	
+3-7	,	O	O	_	_	
+3-8	I	B-ScrPart_passenger	O	_	_	
+3-9	wanted	O	B-UnrelEv	_	_	
+3-10	to	O	O	_	_	
+3-11	take	O	B-Evoking	_	_	
+3-12	a	O	I-Evoking	_	_	
+3-13	train	B-ScrPart_train	I-Evoking	_	_	
+3-14	.	O	O	_	_	
+
+#id=4
+#text=Trains are a very affordable way to travel , and I find them to be comfortable and pleasant .
+4-1	Trains	B-ScrPart_train	O	_	_	
+4-2	are	O	B-UnrelEv	_	_	
+4-3	a	O	O	_	_	
+4-4	very	O	O	_	_	
+4-5	affordable	O	O	_	_	
+4-6	way	B-No_label	O	_	_	
+4-7	to	O	O	_	_	
+4-8	travel	O	B-RelNScrEv	_	_	
+4-9	,	O	O	_	_	
+4-10	and	O	O	_	_	
+4-11	I	B-ScrPart_passenger	O	_	_	
+4-12	find	O	B-UnrelEv	_	_	
+4-13	them	B-ScrPart_train	O	webanno.custom.Corefchains_	4-1	
+4-14	to	O	O	_	_	
+4-15	be	O	B-UnrelEv	_	_	
+4-16	comfortable	O	O	_	_	
+4-17	and	O	O	_	_	
+4-18	pleasant	O	O	_	_	
+4-19	.	O	O	_	_	
+
+#id=5
+#text=I got on my computer , and went to the website where people buy train tickets .
+5-1	I	B-ScrPart_passenger	O	_	_	
+5-2	got	O	B-UnrelEv	_	_	
+5-3	on	O	O	_	_	
+5-4	my	B-ScrPart_passenger	O	_	_	
+5-5	computer	B-NPart	O	_	_	
+5-6	,	O	O	_	_	
+5-7	and	O	O	_	_	
+5-8	went	O	B-RelNScrEv	_	_	
+5-9	to	O	O	_	_	
+5-10	the	O	O	_	_	
+5-11	website	B-ScrPart_ticket_office/website	O	_	_	
+5-12	where	O	O	_	_	
+5-13	people	B-ScrPart_passenger	O	_	_	
+5-14	buy	O	B-ScrEv_get_tickets	_	_	
+5-15	train	B-ScrPart_card/ticket	O	_	_	
+5-16	tickets	I-ScrPart_card/ticket|B-ScrPart_card/ticket	O	_	_	
+5-17	.	O	O	_	_	
+
+#id=6
+#text=I chose a date to leave and I booked my tickets .
+6-1	I	B-ScrPart_passenger	O	_	_	
+6-2	chose	O	B-RelNScrEv	_	_	
+6-3	a	O	O	_	_	
+6-4	date	B-ScrPart_time_date	O	_	_	
+6-5	to	O	O	_	_	
+6-6	leave	O	B-ScrEv_train_departs	_	_	
+6-7	and	O	O	_	_	
+6-8	I	B-ScrPart_passenger	O	_	_	
+6-9	booked	O	B-ScrEv_get_tickets	_	_	
+6-10	my	B-ScrPart_passenger	O	_	_	
+6-11	tickets	B-ScrPart_card/ticket	O	_	_	
+6-12	.	O	O	_	_	
+
+#id=7
+#text=My tickets were emailed to me and I printed them off using my printer .
+7-1	My	B-ScrPart_passenger	O	_	_	
+7-2	tickets	B-ScrPart_card/ticket	O	_	_	
+7-3	were	O	O	_	_	
+7-4	emailed	O	B-RelNScrEv	_	_	
+7-5	to	O	O	_	_	
+7-6	me	B-ScrPart_passenger	O	_	_	
+7-7	and	O	O	_	_	
+7-8	I	B-ScrPart_passenger	O	_	_	
+7-9	printed	O	B-ScrEv_get_tickets	_	_	
+7-10	them	B-ScrPart_card/ticket	O	_	_	
+7-11	off	O	O	_	_	
+7-12	using	O	B-UnrelEv	_	_	
+7-13	my	B-ScrPart_passenger	O	_	_	
+7-14	printer	B-NPart	O	_	_	
+7-15	.	O	O	_	_	
+
+#id=8
+#text=A week later , I went to the train station and boarded the train .
+8-1	A	O	O	_	_	
+8-2	week	B-NPart	O	_	_	
+8-3	later	O	O	_	_	
+8-4	,	O	O	_	_	
+8-5	I	B-ScrPart_passenger	O	_	_	
+8-6	went	O	B-ScrEv_get_train_station	_	_	
+8-7	to	O	O	_	_	
+8-8	the	O	O	_	_	
+8-9	train	B-ScrPart_train_station	O	_	_	
+8-10	station	I-ScrPart_train_station|B-ScrPart_train_station	O	_	_	
+8-11	and	O	O	_	_	
+8-12	boarded	O	B-ScrEv_get_on	_	_	
+8-13	the	O	O	_	_	
+8-14	train	B-ScrPart_train	O	webanno.custom.Corefchains_	4-13	
+8-15	.	O	O	_	_	
+
+#id=9
+#text=The ride was very quiet , so I took a nap part of the ride .
+9-1	The	O	O	_	_	
+9-2	ride	B-ScrPart_trip	O	_	_	
+9-3	was	O	B-UnrelEv	_	_	
+9-4	very	O	O	_	_	
+9-5	quiet	O	O	_	_	
+9-6	,	O	O	_	_	
+9-7	so	O	O	_	_	
+9-8	I	B-ScrPart_passenger	O	_	_	
+9-9	took	O	B-ScrEv_spend_time_train	_	_	
+9-10	a	O	O	_	_	
+9-11	nap	B-ScrPart_in-train_entertainment	O	_	_	
+9-12	part	B-Head_of_Partitive	O	_	_	
+9-13	of	O	O	_	_	
+9-14	the	O	O	_	_	
+9-15	ride	B-ScrPart_trip	O	webanno.custom.Corefchains_	9-2	
+9-16	.	O	O	_	_	
+
+#id=10
+#text=The seats were very comfortable .
+10-1	The	O	O	_	_	
+10-2	seats	B-ScrPart_seat	O	_	_	
+10-3	were	O	B-UnrelEv	_	_	
+10-4	very	O	O	_	_	
+10-5	comfortable	O	O	_	_	
+10-6	.	O	O	_	_	
+
+#id=11
+#text=I went to the cafeteria cart on the train and bought coffee .
+11-1	I	B-ScrPart_passenger	O	_	_	
+11-2	went	O	B-RelNScrEv	_	_	
+11-3	to	O	O	_	_	
+11-4	the	O	O	_	_	
+11-5	cafeteria	B-ScrPart_coach	O	_	_	
+11-6	cart	I-ScrPart_coach|B-ScrPart_coach	O	_	_	
+11-7	on	O	O	_	_	
+11-8	the	O	O	_	_	
+11-9	train	B-ScrPart_train	O	_	_	
+11-10	and	O	O	_	_	
+11-11	bought	O	B-ScrEv_spend_time_train	_	_	
+11-12	coffee	B-ScrPart_in-train_entertainment	O	_	_	
+11-13	.	O	O	_	_	
+
+#id=12
+#text=I enjoyed the coffee and drank it while looking out the window .
+12-1	I	B-ScrPart_passenger	O	_	_	
+12-2	enjoyed	O	B-ScrEv_spend_time_train	_	_	
+12-3	the	O	O	_	_	
+12-4	coffee	B-ScrPart_in-train_entertainment	O	_	_	
+12-5	and	O	O	_	_	
+12-6	drank	O	B-ScrEv_spend_time_train	_	_	
+12-7	it	B-ScrPart_in-train_entertainment	O	_	_	
+12-8	while	O	O	_	_	
+12-9	looking	O	B-ScrEv_spend_time_train	_	_	
+12-10	out	O	I-ScrEv_spend_time_train	_	_	
+12-11	the	O	O	_	_	
+12-12	window	B-ScrPart_in-train_entertainment	O	_	_	
+12-13	.	O	O	_	_	
+
+#id=13
+#text=I really enjoyed the whole experience . 
+13-1	I	B-ScrPart_passenger	O	_	_	
+13-2	really	O	O	_	_	
+13-3	enjoyed	O	B-UnrelEv	_	_	
+13-4	the	O	O	_	_	
+13-5	whole	O	O	_	_	
+13-6	experience	B-NPart	O	_	_	
+13-7	.	O	O	_	_	
+

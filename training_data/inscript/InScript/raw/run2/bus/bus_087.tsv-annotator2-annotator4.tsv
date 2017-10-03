@@ -1,0 +1,237 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Event | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=Never will I ever forget the first time my third grade class went on a field trip .
+1-1	Never	O	O	O	_	_	
+1-2	will	O	O	O	_	_	
+1-3	I	B-ScrPart_passenger	O	O	_	_	
+1-4	ever	O	O	O	_	_	
+1-5	forget	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+1-6	the	O	O	O	_	_	
+1-7	first	O	O	O	_	_	
+1-8	time	B-No_label	O	O	_	_	
+1-9	my	B-ScrPart_passenger	O	O	_	_	
+1-10	third	B-ScrPart_passenger	O	O	_	_	
+1-11	grade	I-ScrPart_passenger	O	O	_	_	
+1-12	class	I-ScrPart_passenger|B-ScrPart_passenger	O	O	_	_	
+1-13	went	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+1-14	on	O	O	O	_	_	
+1-15	a	O	O	O	_	_	
+1-16	field	B-SuppVComp	O	O	_	_	
+1-17	trip	I-SuppVComp|B-SuppVComp	O	O	_	_	
+1-18	.	O	O	O	_	_	
+
+#id=2
+#text=That was the first day I ever took a bus other than a school bus .
+2-1	That	O	O	O	_	_	
+2-2	was	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+2-3	the	O	O	O	_	_	
+2-4	first	O	O	O	_	_	
+2-5	day	B-NPart	O	O	_	_	
+2-6	I	B-ScrPart_passenger	O	O	_	_	
+2-7	ever	O	O	O	_	_	
+2-8	took	O	B-webanno.custom.Events_	B-Evoking	_	_	
+2-9	a	O	I-webanno.custom.Events_	I-Evoking	_	_	
+2-10	bus	B-ScrPart_bus	I-webanno.custom.Events_	I-Evoking	_	_	
+2-11	other	O	O	O	_	_	
+2-12	than	O	O	O	_	_	
+2-13	a	O	O	O	_	_	
+2-14	school	B-ScrPart_bus	O	O	_	_	
+2-15	bus	I-ScrPart_bus|B-ScrPart_bus	O	O	_	_	
+2-16	.	O	O	O	_	_	
+
+#id=3
+#text=We had to get our permission slips signed and bring in $ 2.00 for a bus pass .
+3-1	We	B-ScrPart_passenger	O	O	_	_	
+3-2	had	O	O	O	_	_	
+3-3	to	O	O	O	_	_	
+3-4	get	O	O	O	_	_	
+3-5	our	B-ScrPart_passenger	O	O	webanno.custom.Corefchains_	3-1	
+3-6	permission	B-NPart	O	O	_	_	
+3-7	slips	I-NPart	O	O	_	_	
+3-8	signed	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+3-9	and	O	O	O	_	_	
+3-10	bring	O	B-webanno.custom.Events_	B-ScrEv_get_ticket	_	_	
+3-11	in	O	O	O	_	_	
+3-12	$	B-ScrPart_money	O	O	_	_	
+3-13	2.00	I-ScrPart_money	O	O	_	_	
+3-14	for	O	O	O	_	_	
+3-15	a	O	O	O	_	_	
+3-16	bus	B-ScrPart_card/ticket	O	O	_	_	
+3-17	pass	I-ScrPart_card/ticket|B-ScrPart_card/ticket	O	O	_	_	
+3-18	.	O	O	O	_	_	
+
+#id=4
+#text=When I first held my bus pass I wondered why people did n't just pay with cash .
+4-1	When	O	O	O	_	_	
+4-2	I	B-ScrPart_passenger	O	O	_	_	
+4-3	first	O	O	O	_	_	
+4-4	held	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+4-5	my	B-ScrPart_passenger	O	O	_	_	
+4-6	bus	B-ScrPart_card/ticket	O	O	_	_	
+4-7	pass	I-ScrPart_card/ticket|B-ScrPart_card/ticket	O	O	_	_	
+4-8	I	B-ScrPart_passenger	O	O	_	_	
+4-9	wondered	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+4-10	why	O	O	O	_	_	
+4-11	people	B-ScrPart_passenger	O	O	_	_	
+4-12	did	O	O	O	_	_	
+4-13	n't	O	O	O	_	_	
+4-14	just	O	O	O	_	_	
+4-15	pay	O	B-webanno.custom.Events_	B-ScrEv_get_ticket	_	_	
+4-16	with	O	O	O	_	_	
+4-17	cash	B-ScrPart_money	O	O	_	_	
+4-18	.	O	O	O	_	_	
+
+#id=5
+#text=The day finally came for us to go to the museum and we walked together as a class to the bus stop .
+5-1	The	O	O	O	_	_	
+5-2	day	B-NPart	O	O	_	_	
+5-3	finally	O	O	O	_	_	
+5-4	came	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+5-5	for	O	O	O	_	_	
+5-6	us	B-ScrPart_passenger	O	O	webanno.custom.Corefchains_	3-5	
+5-7	to	O	O	O	_	_	
+5-8	go	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+5-9	to	O	O	O	_	_	
+5-10	the	O	O	O	_	_	
+5-11	museum	B-ScrPart_destination	O	O	_	_	
+5-12	and	O	O	O	_	_	
+5-13	we	B-ScrPart_passenger	O	O	_	_	
+5-14	walked	O	B-webanno.custom.Events_	B-ScrEv_get_bus_stop	_	_	
+5-15	together	O	O	O	_	_	
+5-16	as	O	O	O	_	_	
+5-17	a	O	O	O	_	_	
+5-18	class	B-ScrPart_passenger	O	O	_	_	
+5-19	to	O	O	O	_	_	
+5-20	the	O	O	O	_	_	
+5-21	bus	B-ScrPart_bus_stop	O	O	_	_	
+5-22	stop	I-ScrPart_bus_stop|B-ScrPart_bus_stop	O	O	_	_	
+5-23	.	O	O	O	_	_	
+
+#id=6
+#text=We stood there waiting for about ten minutes for the bus to come .
+6-1	We	B-ScrPart_passenger	O	O	_	_	
+6-2	stood	O	B-webanno.custom.Events_	B-ScrEv_wait	_	_	
+6-3	there	B-ScrPart_bus_stop	O	O	_	_	
+6-4	waiting	O	B-webanno.custom.Events_	B-ScrEv_wait	_	_	
+6-5	for	O	O	O	_	_	
+6-6	about	O	O	O	_	_	
+6-7	ten	O	O	O	_	_	
+6-8	minutes	B-ScrPart_time/date	O	O	_	_	
+6-9	for	O	O	O	_	_	
+6-10	the	O	O	O	_	_	
+6-11	bus	B-ScrPart_bus	O	O	_	_	
+6-12	to	O	O	O	_	_	
+6-13	come	O	B-webanno.custom.Events_	B-ScrEv_bus_comes	_	_	
+6-14	.	O	O	O	_	_	
+
+#id=7
+#text=When it arrived people rushed off and we boarded one by one .
+7-1	When	O	O	O	_	_	
+7-2	it	B-ScrPart_bus	O	O	_	_	
+7-3	arrived	O	B-webanno.custom.Events_	B-ScrEv_bus_comes	_	_	
+7-4	people	B-ScrPart_passenger	O	O	_	_	
+7-5	rushed	O	B-webanno.custom.Events_	B-ScrEv_get_off	_	_	
+7-6	off	O	I-webanno.custom.Events_	I-ScrEv_get_off	_	_	
+7-7	and	O	O	O	_	_	
+7-8	we	B-ScrPart_passenger	O	O	_	_	
+7-9	boarded	O	B-webanno.custom.Events_	B-ScrEv_board_bus	_	_	
+7-10	one	O	O	O	_	_	
+7-11	by	O	O	O	_	_	
+7-12	one	O	O	O	_	_	
+7-13	.	O	O	O	_	_	
+
+#id=8
+#text=We each swiped our bus pass and searched for a seat .
+8-1	We	B-ScrPart_passenger	O	O	_	_	
+8-2	each	O	O	O	_	_	
+8-3	swiped	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+8-4	our	B-ScrPart_passenger	O	O	webanno.custom.Corefchains_	8-1	
+8-5	bus	B-ScrPart_card/ticket	O	O	_	_	
+8-6	pass	I-ScrPart_card/ticket|B-ScrPart_card/ticket	O	O	_	_	
+8-7	and	O	O	O	_	_	
+8-8	searched	O	B-webanno.custom.Events_	B-ScrEv_find_place	_	_	
+8-9	for	O	O	O	_	_	
+8-10	a	O	O	O	_	_	
+8-11	seat	B-ScrPart_seat_in_bus	O	O	_	_	
+8-12	.	O	O	O	_	_	
+
+#id=9
+#text=There were some people who took up two seats and the aroma of breath lingered in the air .
+9-1	There	O	O	O	_	_	
+9-2	were	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+9-3	some	O	O	O	_	_	
+9-4	people	B-ScrPart_passenger	O	O	_	_	
+9-5	who	O	O	O	_	_	
+9-6	took	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+9-7	up	O	I-webanno.custom.Events_	I-UnrelEv	_	_	
+9-8	two	O	O	O	_	_	
+9-9	seats	B-ScrPart_seat_in_bus	O	O	_	_	
+9-10	and	O	O	O	_	_	
+9-11	the	O	O	O	_	_	
+9-12	aroma	B-NPart	O	O	_	_	
+9-13	of	O	O	O	_	_	
+9-14	breath	B-NPart	O	O	_	_	
+9-15	lingered	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+9-16	in	O	O	O	_	_	
+9-17	the	O	O	O	_	_	
+9-18	air	B-NPart	O	O	_	_	
+9-19	.	O	O	O	_	_	
+
+#id=10
+#text=Each stop a bell rang letting the driver know passengers wanted to get off .
+10-1	Each	O	O	O	_	_	
+10-2	stop	B-ScrPart_bus_stop	O	O	_	_	
+10-3	a	O	O	O	_	_	
+10-4	bell	B-ScrPart_other	O	O	_	_	
+10-5	rang	O	B-webanno.custom.Events_	B-RelNScrEv	_	_	
+10-6	letting	O	B-webanno.custom.Events_	B-ScrEv_press_stop_button	_	_	
+10-7	the	O	O	O	_	_	
+10-8	driver	B-ScrPart_bus_staff	O	O	_	_	
+10-9	know	O	B-webanno.custom.Events_	B-ScrEv_press_stop_button	_	_	
+10-10	passengers	B-ScrPart_passenger	O	O	_	_	
+10-11	wanted	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+10-12	to	O	O	O	_	_	
+10-13	get	O	B-webanno.custom.Events_	B-ScrEv_get_off	_	_	
+10-14	off	O	I-webanno.custom.Events_	I-ScrEv_get_off	_	_	
+10-15	.	O	O	O	_	_	
+
+#id=11
+#text=It took us ten stop to get to the museum but it seemed like forever .
+11-1	It	B-No_label	O	O	_	_	
+11-2	took	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+11-3	us	B-ScrPart_passenger	O	O	webanno.custom.Corefchains_	8-4	
+11-4	ten	O	O	O	_	_	
+11-5	stop	B-ScrPart_bus_stop	O	O	_	_	
+11-6	to	O	O	O	_	_	
+11-7	get	O	B-webanno.custom.Events_	B-ScrEv_ride	_	_	
+11-8	to	O	O	O	_	_	
+11-9	the	O	O	O	_	_	
+11-10	museum	B-ScrPart_destination	O	O	_	_	
+11-11	but	O	O	O	_	_	
+11-12	it	B-No_label	O	O	_	_	
+11-13	seemed	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+11-14	like	O	O	O	_	_	
+11-15	forever	O	O	O	_	_	
+11-16	.	O	O	O	_	_	
+
+#id=12
+#text=My teacher pressed the button and we all ran to the museum doors happy to be free . 
+12-1	My	B-ScrPart_passenger	O	O	_	_	
+12-2	teacher	B-ScrPart_passenger	O	O	_	_	
+12-3	pressed	O	B-webanno.custom.Events_	B-ScrEv_press_stop_button	_	_	
+12-4	the	O	O	O	_	_	
+12-5	button	B-ScrPart_stop_button/door_opener	O	O	_	_	
+12-6	and	O	O	O	_	_	
+12-7	we	B-ScrPart_passenger	O	O	_	_	
+12-8	all	O	O	O	_	_	
+12-9	ran	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+12-10	to	O	O	O	_	_	
+12-11	the	O	O	O	_	_	
+12-12	museum	B-NPart	O	O	_	_	
+12-13	doors	I-NPart|B-NPart	O	O	_	_	
+12-14	happy	O	O	O	_	_	
+12-15	to	O	O	O	_	_	
+12-16	be	O	B-webanno.custom.Events_	B-UnrelEv	_	_	
+12-17	free	O	O	O	_	_	
+12-18	.	O	O	O	_	_	
+

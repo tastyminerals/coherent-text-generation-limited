@@ -1,0 +1,190 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=As I was bring my bike out of the garage I realized the rear tire had flat and there was clearly a small hissing sound where there was a puncture .
+1-1	As	O	O	_	_	
+1-2	I	B-ScrPart_rider	O	_	_	
+1-3	was	O	O	_	_	
+1-4	bring	O	B-RelNScrEv	_	_	
+1-5	my	B-ScrPart_rider	O	_	_	
+1-6	bike	B-ScrPart_bicycle	O	_	_	
+1-7	out	O	O	_	_	
+1-8	of	O	O	_	_	
+1-9	the	O	O	_	_	
+1-10	garage	B-ScrPart_location_repair	O	_	_	
+1-11	I	B-ScrPart_rider	O	_	_	
+1-12	realized	O	B-ScrEv_notice_problem	_	_	
+1-13	the	O	O	_	_	
+1-14	rear	O	O	_	_	
+1-15	tire	B-ScrPart_tire	O	_	_	
+1-16	had	O	B-RelNScrEv	_	_	
+1-17	flat	O	O	_	_	
+1-18	and	O	O	_	_	
+1-19	there	O	O	_	_	
+1-20	was	O	B-RelNScrEv	_	_	
+1-21	clearly	O	O	_	_	
+1-22	a	O	O	_	_	
+1-23	small	O	O	_	_	
+1-24	hissing	O	B-RelNScrEv	_	_	
+1-25	sound	B-NPart	O	_	_	
+1-26	where	O	O	_	_	
+1-27	there	O	O	_	_	
+1-28	was	O	B-RelNScrEv	_	_	
+1-29	a	O	O	_	_	
+1-30	puncture	B-ScrPart_damage	O	_	_	
+1-31	.	O	O	_	_	
+
+#id=2
+#text=I got my tools and loosened and removed the nuts holding the tire on the bike .
+2-1	I	B-ScrPart_rider	O	_	_	
+2-2	got	O	B-ScrEv_get_tools	_	_	
+2-3	my	B-ScrPart_rider	O	_	_	
+2-4	tools	B-ScrPart_tool	O	_	_	
+2-5	and	O	O	_	_	
+2-6	loosened	O	B-ScrEv_loose_nut	_	_	
+2-7	and	O	O	_	_	
+2-8	removed	O	B-ScrEv_loose_nut	_	_	
+2-9	the	O	O	_	_	
+2-10	nuts	B-ScrPart_bicycle_small_detail	O	_	_	
+2-11	holding	O	B-RelNScrEv	_	_	
+2-12	the	O	O	_	_	
+2-13	tire	B-ScrPart_tire	O	_	_	
+2-14	on	O	O	_	_	
+2-15	the	O	O	_	_	
+2-16	bike	B-ScrPart_bicycle	O	_	_	
+2-17	.	O	O	_	_	
+
+#id=3
+#text=Using a screwdriver I wedged underneath the tire removing it from the metal wheel .
+3-1	Using	O	B-RelNScrEv	_	_	
+3-2	a	O	O	_	_	
+3-3	screwdriver	B-ScrPart_tool	O	_	_	
+3-4	I	B-ScrPart_rider	O	_	_	
+3-5	wedged	O	B-RelNScrEv	_	_	
+3-6	underneath	O	O	_	_	
+3-7	the	O	O	_	_	
+3-8	tire	B-ScrPart_tire	O	_	_	
+3-9	removing	O	B-ScrEv_take_tire_off	_	_	
+3-10	it	B-ScrPart_tire	O	_	_	
+3-11	from	O	O	_	_	
+3-12	the	O	O	_	_	
+3-13	metal	B-ScrPart_wheel	O	_	_	
+3-14	wheel	I-ScrPart_wheel|B-ScrPart_wheel	O	_	_	
+3-15	.	O	O	_	_	
+
+#id=4
+#text=I removed the tire tube and cleaned off the punctured area with a dry cloth .
+4-1	I	B-ScrPart_rider	O	_	_	
+4-2	removed	O	B-ScrEv_remove_tire	_	_	
+4-3	the	O	O	_	_	
+4-4	tire	B-ScrPart_tire	O	_	_	
+4-5	tube	I-ScrPart_tire|B-ScrPart_tire	O	_	_	
+4-6	and	O	O	_	_	
+4-7	cleaned	O	B-RelNScrEv	_	_	
+4-8	off	O	I-RelNScrEv	_	_	
+4-9	the	O	O	_	_	
+4-10	punctured	O	B-RelNScrEv	_	_	
+4-11	area	B-ScrPart_damage	O	webanno.custom.Corefchains_	1-30	
+4-12	with	O	O	_	_	
+4-13	a	O	O	_	_	
+4-14	dry	O	O	_	_	
+4-15	cloth	B-ScrPart_tool	O	_	_	
+4-16	.	O	O	_	_	
+
+#id=5
+#text=I put tire repair glue on the hole and placed a tire patch on the glue and held it tight for several minutes until the glue dried .
+5-1	I	B-ScrPart_rider	O	_	_	
+5-2	put	O	B-ScrEv_put_patch/seal	_	_	
+5-3	tire	B-ScrPart_tool	O	_	_	
+5-4	repair	I-ScrPart_tool	O	_	_	
+5-5	glue	I-ScrPart_tool|B-ScrPart_tool	O	_	_	
+5-6	on	O	O	_	_	
+5-7	the	O	O	_	_	
+5-8	hole	B-ScrPart_damage	O	webanno.custom.Corefchains_	4-11	
+5-9	and	O	O	_	_	
+5-10	placed	O	B-ScrEv_put_patch/seal	_	_	
+5-11	a	O	O	_	_	
+5-12	tire	B-ScrPart_patch	O	_	_	
+5-13	patch	I-ScrPart_patch|B-ScrPart_patch	O	_	_	
+5-14	on	O	O	_	_	
+5-15	the	O	O	_	_	
+5-16	glue	B-ScrPart_tool	O	_	_	
+5-17	and	O	O	_	_	
+5-18	held	O	B-RelNScrEv	_	_	
+5-19	it	B-ScrPart_patch	O	_	_	
+5-20	tight	O	O	_	_	
+5-21	for	O	O	_	_	
+5-22	several	O	O	_	_	
+5-23	minutes	B-NPart	O	_	_	
+5-24	until	O	O	_	_	
+5-25	the	O	O	_	_	
+5-26	glue	B-ScrPart_tool	O	_	_	
+5-27	dried	O	B-RelNScrEv	_	_	
+5-28	.	O	O	_	_	
+
+#id=6
+#text=I filled it up to ensure the hole was not leaking any air .
+6-1	I	B-ScrPart_rider	O	_	_	
+6-2	filled	O	B-ScrEv_refill_tire_air	_	_	
+6-3	it	B-ScrPart_tire	O	_	_	
+6-4	up	O	O	_	_	
+6-5	to	O	O	_	_	
+6-6	ensure	O	B-ScrEv_check_new_tire	_	_	
+6-7	the	O	O	_	_	
+6-8	hole	B-ScrPart_damage	O	webanno.custom.Corefchains_	5-8	
+6-9	was	O	O	_	_	
+6-10	not	O	O	_	_	
+6-11	leaking	O	B-RelNScrEv	_	_	
+6-12	any	O	O	_	_	
+6-13	air	B-ScrPart_air	O	_	_	
+6-14	.	O	O	_	_	
+
+#id=7
+#text=I put the tube back in the tire and re-attached it to the wheel tightening the bolts .
+7-1	I	B-ScrPart_rider	O	_	_	
+7-2	put	O	B-ScrEv_put_new_tire	_	_	
+7-3	the	O	O	_	_	
+7-4	tube	B-ScrPart_tire	O	_	_	
+7-5	back	O	O	_	_	
+7-6	in	O	O	_	_	
+7-7	the	O	O	_	_	
+7-8	tire	B-ScrPart_tire	O	_	_	
+7-9	and	O	O	_	_	
+7-10	re-attached	O	B-ScrEv_put_new_tire	_	_	
+7-11	it	B-ScrPart_tire	O	_	_	
+7-12	to	O	O	_	_	
+7-13	the	O	O	_	_	
+7-14	wheel	B-ScrPart_wheel	O	_	_	
+7-15	tightening	O	B-RelNScrEv	_	_	
+7-16	the	O	O	_	_	
+7-17	bolts	B-ScrPart_bicycle_small_detail	O	_	_	
+7-18	.	O	O	_	_	
+
+#id=8
+#text=Again I filled the tire with air and took my bike for a ride .
+8-1	Again	O	O	_	_	
+8-2	I	B-ScrPart_rider	O	_	_	
+8-3	filled	O	B-ScrEv_refill_tire_air	_	_	
+8-4	the	O	O	_	_	
+8-5	tire	B-ScrPart_tire	O	_	_	
+8-6	with	O	O	_	_	
+8-7	air	B-ScrPart_air	O	_	_	
+8-8	and	O	O	_	_	
+8-9	took	O	B-ScrEv_ride_bike	_	_	
+8-10	my	B-ScrPart_rider	O	_	_	
+8-11	bike	B-ScrPart_bicycle	O	_	_	
+8-12	for	O	O	_	_	
+8-13	a	O	O	_	_	
+8-14	ride	B-ScrPart_ride	O	_	_	
+8-15	.	O	O	_	_	
+
+#id=9
+#text=I was successful repairing my flat tire . 
+9-1	I	B-ScrPart_rider	O	_	_	
+9-2	was	O	B-UnrelEv	_	_	
+9-3	successful	O	O	_	_	
+9-4	repairing	O	B-Evoking	_	_	
+9-5	my	B-ScrPart_rider	I-Evoking	_	_	
+9-6	flat	O	I-Evoking	_	_	
+9-7	tire	B-ScrPart_tire	I-Evoking	_	_	
+9-8	.	O	O	_	_	
+

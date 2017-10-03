@@ -1,0 +1,246 @@
+ # webanno.custom.Participants | Participant | Participants # webanno.custom.Events | Events
+#id=1
+#text=I was so excited to go on my first trip to Florida by airplane .
+1-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+1-2	was	O	O	B-UnrelEv	
+1-3	so	O	O	O	
+1-4	excited	O	O	B-UnrelEv	
+1-5	to	O	O	O	
+1-6	go	O	O	B-Evoking	
+1-7	on	O	O	I-Evoking	
+1-8	my	B-webanno.custom.Participants_	B-ScrPart_passenger	I-Evoking	
+1-9	first	O	O	I-Evoking	
+1-10	trip	B-webanno.custom.Participants_	B-NPart	I-Evoking	
+1-11	to	O	O	I-Evoking	
+1-12	Florida	B-webanno.custom.Participants_	B-ScrPart_target_location	I-Evoking	
+1-13	by	O	O	I-Evoking	
+1-14	airplane	B-webanno.custom.Participants_	B-ScrPart_plane	I-Evoking	
+1-15	.	O	O	O	
+
+#id=2
+#text=I made sure to buy a window seat so I could see the beautiful view from high up in the sky .
+2-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+2-2	made	O	O	B-UnrelEv|B-UnrelEv	
+2-3	sure	O	O	I-UnrelEv	
+2-4	to	O	O	O	
+2-5	buy	O	O	B-ScrEv_get_ticket	
+2-6	a	O	O	O	
+2-7	window	B-webanno.custom.Participants_	B-ScrPart_seat	O	
+2-8	seat	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_seat|B-ScrPart_seat	O	
+2-9	so	O	O	O	
+2-10	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+2-11	could	O	O	O	
+2-12	see	O	O	B-RelNScrEv	
+2-13	the	O	O	O	
+2-14	beautiful	O	O	O	
+2-15	view	B-webanno.custom.Participants_	B-ScrPart_other	O	
+2-16	from	O	O	O	
+2-17	high	O	O	O	
+2-18	up	O	O	O	
+2-19	in	O	O	O	
+2-20	the	O	O	O	
+2-21	sky	B-webanno.custom.Participants_	B-ScrPart_location_airplane	O	
+2-22	.	O	O	O	
+
+#id=3
+#text=I listened carefully to the flight attendant as she gave her speech about safety precautions .
+3-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+3-2	listened	O	O	B-ScrEv_listen_crew	
+3-3	carefully	O	O	O	
+3-4	to	O	O	O	
+3-5	the	O	O	O	
+3-6	flight	B-webanno.custom.Participants_	B-ScrPart_staff	O	
+3-7	attendant	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_staff|B-ScrPart_staff	O	
+3-8	as	O	O	O	
+3-9	she	B-webanno.custom.Participants_	B-ScrPart_staff	O	
+3-10	gave	O	O	B-ScrEv_listen_crew	
+3-11	her	B-webanno.custom.Participants_	B-ScrPart_staff	O	
+3-12	speech	B-webanno.custom.Participants_	B-ScrPart_safety_instructions	O	
+3-13	about	O	O	O	
+3-14	safety	B-webanno.custom.Participants_	B-ScrPart_safety_instructions	O	
+3-15	precautions	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_safety_instructions|B-ScrPart_safety_instructions	O	
+3-16	.	O	O	O	
+
+#id=4
+#text=After she finished the pilot got on the loud speaker and informed us that we will be taking off shortly .
+4-1	After	O	O	O	
+4-2	she	B-webanno.custom.Participants_	B-ScrPart_staff	O	
+4-3	finished	O	O	B-UnrelEv	
+4-4	the	O	O	O	
+4-5	pilot	B-webanno.custom.Participants_	B-ScrPart_staff	O	
+4-6	got	O	O	B-RelNScrEv|B-RelNScrEv	
+4-7	on	O	O	I-RelNScrEv	
+4-8	the	O	O	O	
+4-9	loud	B-webanno.custom.Participants_	B-ScrPart_institutional_devices	O	
+4-10	speaker	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_institutional_devices|B-ScrPart_institutional_devices	O	
+4-11	and	O	O	O	
+4-12	informed	O	O	B-ScrEv_listen_crew	
+4-13	us	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+4-14	that	O	O	O	
+4-15	we	B-webanno.custom.Participants_	B-ScrPart_plane	O	
+4-16	will	O	O	O	
+4-17	be	O	O	O	
+4-18	taking	O	O	B-ScrEv_take_off|B-ScrEv_take_off	
+4-19	off	O	O	I-ScrEv_take_off	
+4-20	shortly	O	O	O	
+4-21	.	O	O	O	
+
+#id=5
+#text=He told us what time we will be landing in Florida and even the temperature it will be when we landed .
+5-1	He	B-webanno.custom.Participants_	B-ScrPart_staff	O	
+5-2	told	O	O	B-ScrEv_listen_crew	
+5-3	us	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+5-4	what	O	O	O	
+5-5	time	B-webanno.custom.Participants_	B-ScrPart_time/date	O	
+5-6	we	B-webanno.custom.Participants_	B-ScrPart_plane	O	
+5-7	will	O	O	O	
+5-8	be	O	O	O	
+5-9	landing	O	O	B-ScrEv_landing	
+5-10	in	O	O	O	
+5-11	Florida	B-webanno.custom.Participants_	B-ScrPart_target_location	O	
+5-12	and	O	O	O	
+5-13	even	O	O	O	
+5-14	the	O	O	O	
+5-15	temperature	B-webanno.custom.Participants_	B-NPart	O	
+5-16	it	B-webanno.custom.Participants_	B-No_label	O	
+5-17	will	O	O	O	
+5-18	be	O	O	B-UnrelEv	
+5-19	when	O	O	O	
+5-20	we	B-webanno.custom.Participants_	B-ScrPart_plane	O	
+5-21	landed	O	O	B-ScrEv_landing	
+5-22	.	O	O	O	
+
+#id=6
+#text=He then told us to buckle our seat belt and turn off any electronic devices we may have with us .
+6-1	He	B-webanno.custom.Participants_	B-ScrPart_staff	O	
+6-2	then	O	O	O	
+6-3	told	O	O	B-ScrEv_listen_crew	
+6-4	us	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+6-5	to	O	O	O	
+6-6	buckle	O	O	B-ScrEv_buckle_seat_belt	
+6-7	our	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+6-8	seat	B-webanno.custom.Participants_	B-ScrPart_seat_belt	O	
+6-9	belt	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_seat_belt|B-ScrPart_seat_belt	O	
+6-10	and	O	O	O	
+6-11	turn	O	O	B-ScrEv_other|B-ScrEv_other	
+6-12	off	O	O	I-ScrEv_other	
+6-13	any	O	O	O	
+6-14	electronic	B-webanno.custom.Participants_	B-ScrPart_personal_belongings	O	
+6-15	devices	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_personal_belongings|B-ScrPart_personal_belongings	O	
+6-16	we	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+6-17	may	O	O	O	
+6-18	have	O	O	B-UnrelEv	
+6-19	with	O	O	O	
+6-20	us	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+6-21	.	O	O	O	
+
+#id=7
+#text=A couple minutes later the engine came to life and the plane started moving towards the runway .
+7-1	A	O	O	O	
+7-2	couple	B-webanno.custom.Participants_	B-Head_of_Partitive	O	
+7-3	minutes	B-webanno.custom.Participants_	B-ScrPart_time/date	O	
+7-4	later	O	O	O	
+7-5	the	O	O	O	
+7-6	engine	B-webanno.custom.Participants_	B-ScrPart_other	O	
+7-7	came	O	O	B-ScrEv_take_off_preparations	
+7-8	to	O	O	O	
+7-9	life	B-webanno.custom.Participants_	B-No_label	O	
+7-10	and	O	O	O	
+7-11	the	O	O	O	
+7-12	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	
+7-13	started	O	O	B-UnrelEv	
+7-14	moving	O	O	B-ScrEv_take_off_preparations	
+7-15	towards	O	O	O	
+7-16	the	O	O	O	
+7-17	runway	B-webanno.custom.Participants_	B-ScrPart_location_airplane	O	
+7-18	.	O	O	O	
+
+#id=8
+#text=When it reach the runway it started to speed up very fast and after a minute I felt the plane lift off of the ground .
+8-1	When	O	O	O	
+8-2	it	B-webanno.custom.Participants_	B-ScrPart_plane	O	
+8-3	reach	O	O	B-ScrEv_take_off_preparations	
+8-4	the	O	O	O	
+8-5	runway	B-webanno.custom.Participants_	B-ScrPart_location_airplane	O	
+8-6	it	B-webanno.custom.Participants_	B-ScrPart_plane	O	
+8-7	started	O	O	B-UnrelEv	
+8-8	to	O	O	O	
+8-9	speed	O	O	B-ScrEv_take_off_preparations|B-ScrEv_take_off_preparations	
+8-10	up	O	O	I-ScrEv_take_off_preparations	
+8-11	very	O	O	O	
+8-12	fast	O	O	O	
+8-13	and	O	O	O	
+8-14	after	O	O	O	
+8-15	a	O	O	O	
+8-16	minute	B-webanno.custom.Participants_	B-NPart	O	
+8-17	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+8-18	felt	O	O	B-UnrelEv	
+8-19	the	O	O	O	
+8-20	plane	B-webanno.custom.Participants_	B-ScrPart_plane	O	
+8-21	lift	O	O	B-ScrEv_take_off|B-ScrEv_take_off	
+8-22	off	O	O	I-ScrEv_take_off	
+8-23	of	O	O	O	
+8-24	the	O	O	O	
+8-25	ground	B-webanno.custom.Participants_	B-ScrPart_location_airplane	O	
+8-26	.	O	O	O	
+
+#id=9
+#text=I looked out the window and saw us leaving the ground .
+9-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+9-2	looked	O	O	B-ScrEv_spend_time_flight	
+9-3	out	O	O	O	
+9-4	the	O	O	O	
+9-5	window	B-webanno.custom.Participants_	B-ScrPart_other	O	
+9-6	and	O	O	O	
+9-7	saw	O	O	O	
+9-8	us	B-webanno.custom.Participants_	B-ScrPart_plane	O	
+9-9	leaving	O	O	B-RelNScrEv	
+9-10	the	O	O	O	
+9-11	ground	B-webanno.custom.Participants_	B-ScrPart_location_airplane	O	
+9-12	.	O	O	O	
+
+#id=10
+#text=When we reach our cruising altitude the pilot informed us it was now safe for us to take off our seat belts .
+10-1	When	O	O	O	
+10-2	we	B-webanno.custom.Participants_	B-ScrPart_plane	O	
+10-3	reach	O	O	B-RelNScrEv	
+10-4	our	B-webanno.custom.Participants_	B-ScrPart_plane	O	
+10-5	cruising	B-webanno.custom.Participants_	B-ScrPart_location_airplane	O	
+10-6	altitude	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_location_airplane|B-ScrPart_location_airplane	O	
+10-7	the	O	O	O	
+10-8	pilot	B-webanno.custom.Participants_	B-ScrPart_staff	O	
+10-9	informed	O	O	B-ScrEv_listen_crew	
+10-10	us	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+10-11	it	B-webanno.custom.Participants_	B-No_label	O	
+10-12	was	O	O	B-UnrelEv	
+10-13	now	O	O	O	
+10-14	safe	O	O	O	
+10-15	for	O	O	O	
+10-16	us	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+10-17	to	O	O	O	
+10-18	take	O	O	B-ScrEv_other|B-ScrEv_other	
+10-19	off	O	O	I-ScrEv_other	
+10-20	our	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+10-21	seat	B-webanno.custom.Participants_	B-ScrPart_seat_belt	O	
+10-22	belts	I-webanno.custom.Participants_|B-webanno.custom.Participants_	I-ScrPart_seat_belt|B-ScrPart_seat_belt	O	
+10-23	.	O	O	O	
+
+#id=11
+#text=I looked out the window and found myself amazed as we soared over the clouds . 
+11-1	I	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+11-2	looked	O	O	B-ScrEv_spend_time_flight	
+11-3	out	O	O	O	
+11-4	the	O	O	O	
+11-5	window	B-webanno.custom.Participants_	B-ScrPart_other	O	
+11-6	and	O	O	O	
+11-7	found	O	O	B-UnrelEv	
+11-8	myself	B-webanno.custom.Participants_	B-ScrPart_passenger	O	
+11-9	amazed	O	O	B-UnrelEv	
+11-10	as	O	O	O	
+11-11	we	B-webanno.custom.Participants_	B-ScrPart_plane	O	
+11-12	soared	O	O	B-RelNScrEv	
+11-13	over	O	O	O	
+11-14	the	O	O	O	
+11-15	clouds	B-webanno.custom.Participants_	B-NPart	O	
+11-16	.	O	O	O	
+

@@ -1,0 +1,229 @@
+ # webanno.custom.Participants | Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I like to cook a lot but I am not a very good baker .
+1-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	1-8	
+1-2	like	O	O	B-UnrelEv	_	_	
+1-3	to	O	O	O	_	_	
+1-4	cook	O	O	B-UnrelEv	_	_	
+1-5	a	O	O	O	_	_	
+1-6	lot	O	O	O	_	_	
+1-7	but	O	O	O	_	_	
+1-8	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	1-14	
+1-9	am	O	O	B-UnrelEv	_	_	
+1-10	not	O	O	O	_	_	
+1-11	a	O	O	O	_	_	
+1-12	very	O	O	O	_	_	
+1-13	good	O	O	O	_	_	
+1-14	baker	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	2-2	
+1-15	.	O	O	O	_	_	
+
+#id=2
+#text=So I never bake cakes from scratch .
+2-1	So	O	O	O	_	_	
+2-2	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	3-2	
+2-3	never	O	O	O	_	_	
+2-4	bake	O	O	B-Evoking	_	_	
+2-5	cakes	B-ScrPart_cake	B-webanno.custom.Participants_	I-Evoking	webanno.custom.Corefchains_	3-5	
+2-6	from	O	O	O	_	_	
+2-7	scratch	O	O	O	_	_	
+2-8	.	O	O	O	_	_	
+
+#id=3
+#text=However I do like cake al ot so I do bake them .
+3-1	However	O	O	O	_	_	
+3-2	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	3-9	
+3-3	do	O	O	O	_	_	
+3-4	like	O	O	B-UnrelEv	_	_	
+3-5	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	3-12	
+3-6	al	O	O	O	_	_	
+3-7	ot	O	O	O	_	_	
+3-8	so	O	O	O	_	_	
+3-9	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	4-1	
+3-10	do	O	O	O	_	_	
+3-11	bake	O	O	B-Evoking	_	_	
+3-12	them	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-11	
+3-13	.	O	O	O	_	_	
+
+#id=4
+#text=I use box mixes .
+4-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	7-2	
+4-2	use	O	O	B-RelNScrEv	_	_	
+4-3	box	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-1	
+4-4	mixes	I-ScrPart_ingridients	I-webanno.custom.Participants_	O	webanno.custom.Corefchains_	5-1	
+4-5	.	O	O	O	_	_	
+
+#id=5
+#text=They are easy to use and make a very nice cake .
+5-1	They	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	8-3	
+5-2	are	O	O	B-UnrelEv	_	_	
+5-3	easy	O	O	O	_	_	
+5-4	to	O	O	O	_	_	
+5-5	use	O	O	B-RelNScrEv	_	_	
+5-6	and	O	O	O	_	_	
+5-7	make	O	O	B-RelNScrEv	_	_	
+5-8	a	O	O	O	_	_	
+5-9	very	O	O	O	_	_	
+5-10	nice	O	O	O	_	_	
+5-11	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	13-18	
+5-12	.	O	O	O	_	_	
+
+#id=6
+#text=it really does n't take much time .
+6-1	it	O	O	O	_	_	
+6-2	really	O	O	O	_	_	
+6-3	does	O	O	O	_	_	
+6-4	n't	O	O	O	_	_	
+6-5	take	O	O	B-UnrelEv	_	_	
+6-6	much	O	O	O	_	_	
+6-7	time	O	O	O	_	_	
+6-8	.	O	O	O	_	_	
+
+#id=7
+#text=All you need to do is get one bowl .
+7-1	All	O	O	O	_	_	
+7-2	you	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	11-2	
+7-3	need	O	O	O	_	_	
+7-4	to	O	O	O	_	_	
+7-5	do	O	O	B-UnrelEv	_	_	
+7-6	is	O	O	B-UnrelEv	_	_	
+7-7	get	O	O	B-ScrEv_get_utensils	_	_	
+7-8	one	O	O	O	_	_	
+7-9	bowl	B-ScrPart_utensil	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	9-9	
+7-10	.	O	O	O	_	_	
+
+#id=8
+#text=Add the cake mix from the box .
+8-1	Add	O	O	B-ScrEv_add_ingridients	_	_	
+8-2	the	O	O	O	_	_	
+8-3	cake	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	_	_	
+8-4	mix	I-ScrPart_ingridients	I-webanno.custom.Participants_	O	_	_	
+8-5	from	O	O	O	_	_	
+8-6	the	O	O	O	_	_	
+8-7	box	O	O	O	_	_	
+8-8	.	O	O	O	_	_	
+
+#id=9
+#text=Either 2 or 3 eggs added to the bowl .
+9-1	Either	O	O	O	_	_	
+9-2	2	O	O	O	_	_	
+9-3	or	O	O	O	_	_	
+9-4	3	O	O	O	_	_	
+9-5	eggs	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	_	_	
+9-6	added	O	O	B-ScrEv_add_ingridients	_	_	
+9-7	to	O	O	O	_	_	
+9-8	the	O	O	O	_	_	
+9-9	bowl	B-ScrPart_utensil	B-webanno.custom.Participants_	O	_	_	
+9-10	.	O	O	O	_	_	
+
+#id=10
+#text=Then a half cup of oil and finally about a cup of water .
+10-1	Then	O	O	O	_	_	
+10-2	a	O	O	O	_	_	
+10-3	half	O	O	O	_	_	
+10-4	cup	B-ScrPart_utensil	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	10-11	
+10-5	of	O	O	O	_	_	
+10-6	oil	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	_	_	
+10-7	and	O	O	O	_	_	
+10-8	finally	O	O	O	_	_	
+10-9	about	O	O	O	_	_	
+10-10	a	O	O	O	_	_	
+10-11	cup	B-ScrPart_utensil	B-webanno.custom.Participants_	O	_	_	
+10-12	of	O	O	O	_	_	
+10-13	water	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	_	_	
+10-14	.	O	O	O	_	_	
+
+#id=11
+#text=Then you need to get your mixer and put it on medium and mix it all up for 2 to 3 minutes .
+11-1	Then	O	O	O	_	_	
+11-2	you	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	11-6	
+11-3	need	O	O	O	_	_	
+11-4	to	O	O	O	_	_	
+11-5	get	O	O	B-ScrEv_get_utensils	_	_	
+11-6	your	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	13-12	
+11-7	mixer	B-ScrPart_utensil	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	11-10	
+11-8	and	O	O	O	_	_	
+11-9	put	O	O	B-RelNScrEv	_	_	
+11-10	it	B-ScrPart_utensil	B-webanno.custom.Participants_	O	_	_	
+11-11	on	O	O	O	_	_	
+11-12	medium	O	O	O	_	_	
+11-13	and	O	O	O	_	_	
+11-14	mix	O	O	B-ScrEv_prepare_ingridients	_	_	
+11-15	it	B-ScrPart_dough	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	12-3	
+11-16	all	O	O	O	_	_	
+11-17	up	O	O	O	_	_	
+11-18	for	O	O	O	_	_	
+11-19	2	B-ScrPart_time	B-webanno.custom.Participants_	O	_	_	
+11-20	to	I-ScrPart_time	I-webanno.custom.Participants_	O	_	_	
+11-21	3	I-ScrPart_time	I-webanno.custom.Participants_	O	_	_	
+11-22	minutes	I-ScrPart_time	I-webanno.custom.Participants_	O	_	_	
+11-23	.	O	O	O	_	_	
+
+#id=12
+#text=Then put it into a non stick cake pan and bake for about 30 minutes .
+12-1	Then	O	O	O	_	_	
+12-2	put	O	O	B-ScrEv_pour_dough	_	_	
+12-3	it	B-ScrPart_dough	B-webanno.custom.Participants_	O	_	_	
+12-4	into	O	O	O	_	_	
+12-5	a	O	O	O	_	_	
+12-6	non	O	O	O	_	_	
+12-7	stick	O	O	O	_	_	
+12-8	cake	B-ScrPart_cake_tin	B-webanno.custom.Participants_	O	_	_	
+12-9	pan	I-ScrPart_cake_tin|B-ScrPart_cake_tin	I-webanno.custom.Participants_|B-webanno.custom.Participants_	O	_	_	
+12-10	and	O	O	O	_	_	
+12-11	bake	O	O	B-ScrEv_put_cake_oven	_	_	
+12-12	for	O	O	O	_	_	
+12-13	about	O	O	O	_	_	
+12-14	30	B-ScrPart_time	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	13-9	
+12-15	minutes	I-ScrPart_time	I-webanno.custom.Participants_	O	webanno.custom.Corefchains_	13-9	
+12-16	.	O	O	O	_	_	
+
+#id=13
+#text=So all together about 10 minutes preparation and 30 minutes baking you can have a good tasting cake in 40 minutes .
+13-1	So	O	O	O	_	_	
+13-2	all	O	O	O	_	_	
+13-3	together	O	O	O	_	_	
+13-4	about	O	O	O	_	_	
+13-5	10	B-ScrPart_time	B-webanno.custom.Participants_	O	_	_	
+13-6	minutes	I-ScrPart_time	I-webanno.custom.Participants_	O	_	_	
+13-7	preparation	O	O	O	_	_	
+13-8	and	O	O	O	_	_	
+13-9	30	B-ScrPart_time	B-webanno.custom.Participants_	O	_	_	
+13-10	minutes	I-ScrPart_time	I-webanno.custom.Participants_	O	_	_	
+13-11	baking	O	O	B-ScrEv_wait	_	_	
+13-12	you	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	15-1	
+13-13	can	O	O	O	_	_	
+13-14	have	O	O	B-UnrelEv	_	_	
+13-15	a	O	O	O	_	_	
+13-16	good	O	O	O	_	_	
+13-17	tasting	O	O	B-ScrEv_eat	_	_	
+13-18	cake	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	15-11	
+13-19	in	O	O	O	_	_	
+13-20	40	B-ScrPart_time	B-webanno.custom.Participants_	O	_	_	
+13-21	minutes	I-ScrPart_time	I-webanno.custom.Participants_	O	_	_	
+13-22	.	O	O	O	_	_	
+
+#id=14
+#text=.
+14-1	.	O	O	O	_	_	
+
+#id=15
+#text=I do n't really like frosting so as soon as it cools I cut myself a slice . 
+15-1	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	15-13	
+15-2	do	O	O	O	_	_	
+15-3	n't	O	O	O	_	_	
+15-4	really	O	O	O	_	_	
+15-5	like	O	O	B-UnrelEv	_	_	
+15-6	frosting	B-ScrPart_ingridients	B-webanno.custom.Participants_	O	_	_	
+15-7	so	O	O	O	_	_	
+15-8	as	O	O	O	_	_	
+15-9	soon	O	O	O	_	_	
+15-10	as	O	O	O	_	_	
+15-11	it	B-ScrPart_cake	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	15-17	
+15-12	cools	O	O	B-ScrEv_cool_down	_	_	
+15-13	I	B-ScrPart_cook	B-webanno.custom.Participants_	O	webanno.custom.Corefchains_	15-15	
+15-14	cut	O	O	B-RelNScrEv	_	_	
+15-15	myself	B-ScrPart_cook	B-webanno.custom.Participants_	O	_	_	
+15-16	a	O	O	O	_	_	
+15-17	slice	B-ScrPart_cake	B-webanno.custom.Participants_	O	_	_	
+15-18	.	O	O	O	_	_	
+

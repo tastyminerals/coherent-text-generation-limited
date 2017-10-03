@@ -1,0 +1,213 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=I always wear my hair very long , but it needed trimmed because I had some split ends .
+1-1	I	B-ScrPart_customer	O	_	_	
+1-2	always	O	O	_	_	
+1-3	wear	O	B-RelNScrEv	_	_	
+1-4	my	B-ScrPart_customer	O	_	_	
+1-5	hair	B-ScrPart_hair	O	_	_	
+1-6	very	O	O	_	_	
+1-7	long	O	O	_	_	
+1-8	,	O	O	_	_	
+1-9	but	O	O	_	_	
+1-10	it	B-ScrPart_hair	O	_	_	
+1-11	needed	O	O	_	_	
+1-12	trimmed	O	B-ScrEv_cut	_	_	
+1-13	because	O	O	_	_	
+1-14	I	B-ScrPart_customer	O	_	_	
+1-15	had	O	B-RelNScrEv	_	_	
+1-16	some	O	O	_	_	
+1-17	split	O	B-RelNScrEv	_	_	
+1-18	ends	B-NPart	O	_	_	
+1-19	.	O	O	_	_	
+
+#id=2
+#text=I went to my favorite hairdresser , Michael .
+2-1	I	B-ScrPart_customer	O	_	_	
+2-2	went	O	B-Evoking	_	_	
+2-3	to	O	I-Evoking	_	_	
+2-4	my	B-ScrPart_customer	I-Evoking	_	_	
+2-5	favorite	O	I-Evoking	_	_	
+2-6	hairdresser	B-ScrPart_hairdresser	I-Evoking	_	_	
+2-7	,	O	O	_	_	
+2-8	Michael	B-ScrPart_hairdresser	O	_	_	
+2-9	.	O	O	_	_	
+
+#id=3
+#text=He works in a very nice salon .
+3-1	He	B-ScrPart_hairdresser	O	_	_	
+3-2	works	O	B-RelNScrEv	_	_	
+3-3	in	O	O	_	_	
+3-4	a	O	O	_	_	
+3-5	very	O	O	_	_	
+3-6	nice	O	O	_	_	
+3-7	salon	B-ScrPart_salon	O	_	_	
+3-8	.	O	O	_	_	
+
+#id=4
+#text=We 're friends , so he gave me a hug when he saw me come in .
+4-1	We	B-ScrPart_hairdresser_customer	O	_	_	
+4-2	're	O	B-UnrelEv	_	_	
+4-3	friends	B-ScrPart_hairdresser_customer	O	webanno.custom.Corefchains_	4-1	
+4-4	,	O	O	_	_	
+4-5	so	O	O	_	_	
+4-6	he	B-ScrPart_hairdresser	O	_	_	
+4-7	gave	O	B-RelNScrEv	_	_	
+4-8	me	B-ScrPart_customer	O	_	_	
+4-9	a	O	O	_	_	
+4-10	hug	B-NPart	O	_	_	
+4-11	when	O	O	_	_	
+4-12	he	B-ScrPart_hairdresser	O	_	_	
+4-13	saw	O	B-UnrelEv	_	_	
+4-14	me	B-ScrPart_customer	O	_	_	
+4-15	come	O	B-ScrEv_enter	_	_	
+4-16	in	O	I-ScrEv_enter	_	_	
+4-17	.	O	O	_	_	
+
+#id=5
+#text=I was seated in the chair and had an apron tied around my neck to keep the hair off .
+5-1	I	B-ScrPart_customer	O	_	_	
+5-2	was	O	O	_	_	
+5-3	seated	O	B-ScrEv_sit_down	_	_	
+5-4	in	O	O	_	_	
+5-5	the	O	O	_	_	
+5-6	chair	B-ScrPart_chair	O	_	_	
+5-7	and	O	O	_	_	
+5-8	had	O	O	_	_	
+5-9	an	O	O	_	_	
+5-10	apron	B-ScrPart_cape	O	_	_	
+5-11	tied	O	B-ScrEv_put_on_cape	_	_	
+5-12	around	O	O	_	_	
+5-13	my	B-ScrPart_customer	O	_	_	
+5-14	neck	B-NPart	O	_	_	
+5-15	to	O	O	_	_	
+5-16	keep	O	B-RelNScrEv	_	_	
+5-17	the	O	O	_	_	
+5-18	hair	B-ScrPart_hair	O	_	_	
+5-19	off	O	O	_	_	
+5-20	.	O	O	_	_	
+
+#id=6
+#text=First Michael shampooed my hair , and blew it dry .
+6-1	First	O	O	_	_	
+6-2	Michael	B-ScrPart_hairdresser	O	_	_	
+6-3	shampooed	O	B-ScrEv_wash	_	_	
+6-4	my	B-ScrPart_customer	O	_	_	
+6-5	hair	B-ScrPart_hair	O	_	_	
+6-6	,	O	O	_	_	
+6-7	and	O	O	_	_	
+6-8	blew	O	B-ScrEv_dry	_	_	
+6-9	it	B-ScrPart_hair	O	_	_	
+6-10	dry	O	O	_	_	
+6-11	.	O	O	_	_	
+
+#id=7
+#text=Then , he brushed and combed it out thoroughly .
+7-1	Then	O	O	_	_	
+7-2	,	O	O	_	_	
+7-3	he	B-ScrPart_hairdresser	O	_	_	
+7-4	brushed	O	B-ScrEv_comb	_	_	
+7-5	and	O	O	_	_	
+7-6	combed	O	B-ScrEv_comb	_	_	
+7-7	it	B-ScrPart_hair	O	_	_	
+7-8	out	O	O	_	_	
+7-9	thoroughly	O	O	_	_	
+7-10	.	O	O	_	_	
+
+#id=8
+#text=It was relaxing and enjoyable to have Michael 's skilled hands working with my hair .
+8-1	It	B-No_label	O	_	_	
+8-2	was	O	O	_	_	
+8-3	relaxing	O	B-RelNScrEv	_	_	
+8-4	and	O	O	_	_	
+8-5	enjoyable	O	O	_	_	
+8-6	to	O	O	_	_	
+8-7	have	O	O	_	_	
+8-8	Michael	B-ScrPart_hairdresser	O	_	_	
+8-9	's	O	O	_	_	
+8-10	skilled	O	B-RelNScrEv	_	_	
+8-11	hands	B-NPart	O	_	_	
+8-12	working	O	B-RelNScrEv	_	_	
+8-13	with	O	O	_	_	
+8-14	my	B-ScrPart_customer	O	_	_	
+8-15	hair	B-ScrPart_hair	O	_	_	
+8-16	.	O	O	_	_	
+
+#id=9
+#text=He is the only hairdresser I 'll go to .
+9-1	He	B-ScrPart_hairdresser	O	_	_	
+9-2	is	O	B-UnrelEv	_	_	
+9-3	the	O	O	_	_	
+9-4	only	O	O	_	_	
+9-5	hairdresser	B-ScrPart_hairdresser	O	_	_	
+9-6	I	B-ScrPart_customer	O	_	_	
+9-7	'll	O	O	_	_	
+9-8	go	O	B-???	_	_	
+9-9	to	O	I-???	_	_	
+9-10	.	O	O	_	_	
+
+#id=10
+#text=before long , it was time for the actual cutting of my hair .
+10-1	before	O	O	_	_	
+10-2	long	O	O	_	_	
+10-3	,	O	O	_	_	
+10-4	it	B-No_label	O	_	_	
+10-5	was	O	B-UnrelEv	_	_	
+10-6	time	B-No_label	O	_	_	
+10-7	for	O	O	_	_	
+10-8	the	O	O	_	_	
+10-9	actual	O	O	_	_	
+10-10	cutting	O	B-ScrEv_cut	_	_	
+10-11	of	O	O	_	_	
+10-12	my	B-ScrPart_customer	O	_	_	
+10-13	hair	B-ScrPart_hair	O	_	_	
+10-14	.	O	O	_	_	
+
+#id=11
+#text=he knew I wanted it left long , so he trimmed off the damaged ends and did the ends of my hair in a pleasing half-moon shape .
+11-1	he	B-ScrPart_hairdresser	O	_	_	
+11-2	knew	O	B-UnrelEv	_	_	
+11-3	I	B-ScrPart_customer	O	_	_	
+11-4	wanted	O	B-UnrelEv	_	_	
+11-5	it	B-ScrPart_hair	O	_	_	
+11-6	left	O	B-RelNScrEv	_	_	
+11-7	long	O	O	_	_	
+11-8	,	O	O	_	_	
+11-9	so	O	O	_	_	
+11-10	he	B-ScrPart_hairdresser	O	_	_	
+11-11	trimmed	O	B-ScrEv_cut	_	_	
+11-12	off	O	I-ScrEv_cut	_	_	
+11-13	the	O	O	_	_	
+11-14	damaged	O	B-RelNScrEv	_	_	
+11-15	ends	B-NPart	O	_	_	
+11-16	and	O	O	_	_	
+11-17	did	O	B-ScrEv_make_hair_style	_	_	
+11-18	the	O	O	_	_	
+11-19	ends	B-NPart	O	_	_	
+11-20	of	O	O	_	_	
+11-21	my	B-ScrPart_customer	O	_	_	
+11-22	hair	B-ScrPart_hair	O	_	_	
+11-23	in	O	O	_	_	
+11-24	a	O	O	_	_	
+11-25	pleasing	O	B-ScrEv_customer_opinion	_	_	
+11-26	half-moon	O	O	_	_	
+11-27	shape	B-NPart	O	_	_	
+11-28	.	O	O	_	_	
+
+#id=12
+#text=My hair looks great and I enjoyed my time at the hairdresser 's . 
+12-1	My	B-ScrPart_customer	O	_	_	
+12-2	hair	B-ScrPart_hair	O	_	_	
+12-3	looks	O	B-ScrEv_customer_opinion	_	_	
+12-4	great	O	O	_	_	
+12-5	and	O	O	_	_	
+12-6	I	B-ScrPart_customer	O	_	_	
+12-7	enjoyed	O	B-ScrEv_customer_opinion	_	_	
+12-8	my	B-ScrPart_customer	O	_	_	
+12-9	time	B-ScrPart_time/date	O	_	_	
+12-10	at	O	O	_	_	
+12-11	the	O	O	_	_	
+12-12	hairdresser	B-ScrPart_salon	O	_	_	
+12-13	's	I-ScrPart_salon	O	_	_	
+12-14	.	O	O	_	_	
+

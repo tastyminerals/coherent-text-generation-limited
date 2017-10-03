@@ -1,0 +1,221 @@
+ # webanno.custom.Participants | Participant # webanno.custom.Events | Events # webanno.custom.Corefchains | Coref | AttachTo=webanno.custom.Participants
+#id=1
+#text=This past weekend I went to get a hair cut .
+1-1	This	O	O	_	_	
+1-2	past	O	O	_	_	
+1-3	weekend	O	O	_	_	
+1-4	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-1	
+1-5	went	O	B-UnrelEv	_	_	
+1-6	to	O	O	_	_	
+1-7	get	O	B-Evoking	_	_	
+1-8	a	O	I-Evoking	_	_	
+1-9	hair	B-SuppVComp	I-Evoking	_	_	
+1-10	cut	I-SuppVComp	I-Evoking	_	_	
+1-11	.	O	O	_	_	
+
+#id=2
+#text=My hair has grown out quite a bit and I hate it when it takes too long to dry .
+2-1	My	B-ScrPart_customer	O	webanno.custom.Corefchains_	2-10	
+2-2	hair	B-ScrPart_hair	O	webanno.custom.Corefchains_	2-14	
+2-3	has	O	O	_	_	
+2-4	grown	O	B-RelNScrEv	_	_	
+2-5	out	O	I-RelNScrEv	_	_	
+2-6	quite	O	O	_	_	
+2-7	a	O	O	_	_	
+2-8	bit	O	O	_	_	
+2-9	and	O	O	_	_	
+2-10	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	3-4	
+2-11	hate	O	B-UnrelEv	_	_	
+2-12	it	O	O	_	_	
+2-13	when	O	O	_	_	
+2-14	it	B-ScrPart_hair	O	webanno.custom.Corefchains_	7-10	
+2-15	takes	O	B-UnrelEv	_	_	
+2-16	too	O	O	_	_	
+2-17	long	O	O	_	_	
+2-18	to	O	O	_	_	
+2-19	dry	O	B-UnrelEv	_	_	
+2-20	.	O	O	_	_	
+
+#id=3
+#text=That 's usually my indication to get a hair cut .
+3-1	That	O	O	_	_	
+3-2	's	O	B-UnrelEv	_	_	
+3-3	usually	O	O	_	_	
+3-4	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-1	
+3-5	indication	O	O	_	_	
+3-6	to	O	O	_	_	
+3-7	get	O	B-Evoking	_	_	
+3-8	a	O	I-Evoking	_	_	
+3-9	hair	B-SuppVComp	I-Evoking	_	_	
+3-10	cut	I-SuppVComp	I-Evoking	_	_	
+3-11	.	O	O	_	_	
+
+#id=4
+#text=I went down to the barber shop near my apartment early in the morning so that I could avoid the lines .
+4-1	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-9	
+4-2	went	O	B-ScrEv_get_salon	_	_	
+4-3	down	O	I-ScrEv_get_salon	_	_	
+4-4	to	O	O	_	_	
+4-5	the	O	O	_	_	
+4-6	barber	B-ScrPart_salon	O	_	_	
+4-7	shop	I-ScrPart_salon|B-ScrPart_salon	O	_	_	
+4-8	near	O	O	_	_	
+4-9	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	4-17	
+4-10	apartment	O	O	_	_	
+4-11	early	O	O	_	_	
+4-12	in	O	O	_	_	
+4-13	the	O	O	_	_	
+4-14	morning	O	O	_	_	
+4-15	so	O	O	_	_	
+4-16	that	O	O	_	_	
+4-17	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	5-4	
+4-18	could	O	O	_	_	
+4-19	avoid	O	B-RelNScrEv	_	_	
+4-20	the	O	O	_	_	
+4-21	lines	B-NPart	O	_	_	
+4-22	.	O	O	_	_	
+
+#id=5
+#text=This particular time I was the first to arrive .
+5-1	This	O	O	_	_	
+5-2	particular	O	O	_	_	
+5-3	time	O	O	_	_	
+5-4	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-4	
+5-5	was	O	B-UnrelEv	_	_	
+5-6	the	O	O	_	_	
+5-7	first	O	O	_	_	
+5-8	to	O	O	_	_	
+5-9	arrive	O	B-ScrEv_enter	_	_	
+5-10	.	O	O	_	_	
+
+#id=6
+#text=The barber knows me already so I just hop into the chair and tell him the usual .
+6-1	The	O	O	_	_	
+6-2	barber	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	6-15	
+6-3	knows	O	B-UnrelEv	_	_	
+6-4	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	6-7	
+6-5	already	O	O	_	_	
+6-6	so	O	O	_	_	
+6-7	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-4	
+6-8	just	O	O	_	_	
+6-9	hop	O	B-ScrEv_sit_down	_	_	
+6-10	into	O	O	_	_	
+6-11	the	O	O	_	_	
+6-12	chair	B-ScrPart_chair	O	_	_	
+6-13	and	O	O	_	_	
+6-14	tell	O	B-ScrEv_talk_haircut	_	_	
+6-15	him	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	10-22	
+6-16	the	O	O	_	_	
+6-17	usual	B-???	O	_	_	
+6-18	.	O	O	_	_	
+
+#id=7
+#text=The usual for me is to just cut my hair short .
+7-1	The	O	O	_	_	
+7-2	usual	O	O	_	_	
+7-3	for	O	O	_	_	
+7-4	me	B-ScrPart_customer	O	webanno.custom.Corefchains_	7-9	
+7-5	is	O	B-UnrelEv	_	_	
+7-6	to	O	O	_	_	
+7-7	just	O	O	_	_	
+7-8	cut	O	B-ScrEv_cut	_	_	
+7-9	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	9-3	
+7-10	hair	B-ScrPart_hair	O	webanno.custom.Corefchains_|webanno.custom.Corefchains_|webanno.custom.Corefchains_	9-7|8-19|8-8	
+7-11	short	O	O	_	_	
+7-12	.	O	O	_	_	
+
+#id=8
+#text=This involves using the trimmer on the back and sides , and then a scissor cut on the top .
+8-1	This	O	O	_	_	
+8-2	involves	O	B-UnrelEv	_	_	
+8-3	using	O	B-ScrEv_cut	_	_	
+8-4	the	O	O	_	_	
+8-5	trimmer	B-ScrPart_scissors	O	_	_	
+8-6	on	O	O	_	_	
+8-7	the	O	O	_	_	
+8-8	back	B-ScrPart_hair	O	_	_	
+8-9	and	I-ScrPart_hair	O	_	_	
+8-10	sides	I-ScrPart_hair	O	_	_	
+8-11	,	O	O	_	_	
+8-12	and	O	O	_	_	
+8-13	then	O	O	_	_	
+8-14	a	O	O	_	_	
+8-15	scissor	B-ScrPart_scissors	O	_	_	
+8-16	cut	O	B-ScrEv_cut	_	_	
+8-17	on	O	O	_	_	
+8-18	the	O	O	_	_	
+8-19	top	B-ScrPart_hair	O	webanno.custom.Corefchains_	9-2	
+8-20	.	O	O	_	_	
+
+#id=9
+#text=The top I keep longer otherwise it sticks up and is uncontrollable .
+9-1	The	O	O	_	_	
+9-2	top	B-ScrPart_hair	O	_	_	
+9-3	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	10-14	
+9-4	keep	O	B-RelNScrEv	_	_	
+9-5	longer	O	O	_	_	
+9-6	otherwise	O	O	_	_	
+9-7	it	B-ScrPart_hair	O	webanno.custom.Corefchains_	10-25	
+9-8	sticks	O	B-RelNScrEv	_	_	
+9-9	up	O	I-RelNScrEv	_	_	
+9-10	and	O	O	_	_	
+9-11	is	O	B-UnrelEv	_	_	
+9-12	uncontrollable	O	O	_	_	
+9-13	.	O	O	_	_	
+
+#id=10
+#text=The process takes about 20 minutes but there 's a TV there so I can watch some of the news while he cuts my hair .
+10-1	The	O	O	_	_	
+10-2	process	O	O	_	_	
+10-3	takes	O	B-UnrelEv	_	_	
+10-4	about	O	O	_	_	
+10-5	20	O	O	_	_	
+10-6	minutes	O	O	_	_	
+10-7	but	O	O	_	_	
+10-8	there	O	O	_	_	
+10-9	's	O	B-UnrelEv	_	_	
+10-10	a	O	O	_	_	
+10-11	TV	O	O	_	_	
+10-12	there	O	O	_	_	
+10-13	so	O	O	_	_	
+10-14	I	B-ScrPart_customer	O	webanno.custom.Corefchains_	10-24	
+10-15	can	O	O	_	_	
+10-16	watch	O	B-RelNScrEv	_	_	
+10-17	some	O	O	_	_	
+10-18	of	O	O	_	_	
+10-19	the	O	O	_	_	
+10-20	news	B-ScrPart_entertainment	O	_	_	
+10-21	while	O	O	_	_	
+10-22	he	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	11-7	
+10-23	cuts	O	B-ScrEv_cut	_	_	
+10-24	my	B-ScrPart_customer	O	webanno.custom.Corefchains_	11-5	
+10-25	hair	B-ScrPart_hair	O	_	_	
+10-26	.	O	O	_	_	
+
+#id=11
+#text=After the haircut , I pay him and leave him a pretty good tip since we 've known each other for so long . 
+11-1	After	O	O	_	_	
+11-2	the	O	O	_	_	
+11-3	haircut	O	O	_	_	
+11-4	,	O	O	_	_	
+11-5	I	B-ScrPart_customer	O	_	_	
+11-6	pay	O	B-ScrEv_pay	_	_	
+11-7	him	B-ScrPart_hairdresser	O	webanno.custom.Corefchains_	11-10	
+11-8	and	O	O	_	_	
+11-9	leave	O	B-ScrEv_leave_tip	_	_	
+11-10	him	B-ScrPart_hairdresser	O	_	_	
+11-11	a	O	O	_	_	
+11-12	pretty	O	O	_	_	
+11-13	good	O	O	_	_	
+11-14	tip	B-ScrPart_tip	O	_	_	
+11-15	since	O	O	_	_	
+11-16	we	O	O	_	_	
+11-17	've	O	O	_	_	
+11-18	known	O	B-UnrelEv	_	_	
+11-19	each	O	O	_	_	
+11-20	other	O	O	_	_	
+11-21	for	O	O	_	_	
+11-22	so	O	O	_	_	
+11-23	long	O	O	_	_	
+11-24	.	O	O	_	_	
+
