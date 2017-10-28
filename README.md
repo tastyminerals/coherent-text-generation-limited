@@ -27,7 +27,7 @@ luarocks install torchx-scm-1.rockspec
 ### Usage
 There are seven models in this repository. 
 In order to see available model options do `th main.lua --help`.
-Each model configuration has been set to be optimal so each model will be initialized with preset hyperparameters.
+Each model configuration has been set to be optimal so each model will be initialized with predefined hyperparameters.
 Simply start training the model:
 ```
 th main.lua --cuda --adam 
