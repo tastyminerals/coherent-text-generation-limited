@@ -45,7 +45,7 @@ cmd:option("--adamconfig", "{0, 0.999}", "ADAM hyperparameters beta1 and beta2")
 cmd:option("--adagradconfig", "{0.05, 1e-05, 0}", "ADAGRAD hyperparameters {lr, lr decay, weight decay}")
 cmd:option("--maxnormout",-1,"prevents overfitting, max l2-norm of each layer's output neuron weights")
 cmd:option("--cutoff",15,"max 12-norm of concatenation of all gradParam tensors")
-cmd:option("--maxepoch",1000,"max number of epochs to run")
+cmd:option("--maxepoch",200,"max number of epochs to run")
 cmd:option("--earlystop",20,"max number of epochs to wait until a better local minima for early-stopping is found")
 cmd:option("--uniform",0.1,"init the params using uniform distribution between -uniform and uniform. -1 means default initializaiton")
 

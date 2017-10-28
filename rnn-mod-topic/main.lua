@@ -37,14 +37,14 @@ cmd:option("--dropout",0.5,"dropout probability after each model layer, 0 disabl
 -- training options
 cmd:option("--initlr",0.05,"learning rate at t-time = 0")
 cmd:option("--minlr",0.00001,"minimum learning rate")
-cmd:option("--saturate",400,"epoch at which linear decay of lr reaches minlr")
+cmd:option("--saturate",100,"epoch at which linear decay of lr reaches minlr")
 cmd:option("--schedule",'',"learning rate schedule, e.g. '{[5]=0.004,[6]=0.001}'")
 cmd:option("--momentum",0.9,"prevents the network from converging to local minimum")
 cmd:option('--adam', false, 'use ADAM instead of SGD as optimizer')
 cmd:option('--adamconfig', '{0, 0.999}', 'ADAM hyperparameters beta1 and beta2')
 cmd:option("--maxnormout",-1,"prevents overfitting, max l2-norm of each layer's output neuron weights")
 cmd:option("--cutoff",15,"max 12-norm of concatenation of all gradParam tensors")
-cmd:option("--maxepoch",1000,"max number of epochs to run")
+cmd:option("--maxepoch",200,"max number of epochs to run")
 cmd:option("--earlystop",20,"max number of epochs to wait until a better local minima for early-stopping is found")
 cmd:option("--uniform",0.1,"init the params using uniform distribution between -uniform and uniform. -1 means default initializaiton")
 -- batch normalization with lstm only?
